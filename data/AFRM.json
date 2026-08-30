@@ -1,0 +1,127 @@
+{
+  "ticker": "AFRM",
+  "name": "Affirm Holdings, Inc.",
+  "sector": "Financials",
+  "theme": "Fintech & Consumer Credit",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "Q4 net income $1.62B, revenue +33% YoY",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:24:49.306Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 26240000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 337420000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": 14.06,
+      "forward": 20.05,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -1.67,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 0.15,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 5.53,
+        "basis": "diluted"
+      },
+      {
+        "period": "TTM",
+        "value": 5.53,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 2323000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2025",
+        "value": 3224000000,
+        "yoy": 38.8
+      },
+      {
+        "period": "FY2026",
+        "value": 4261000000,
+        "yoy": 32.2
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "FY2026",
+      "pct": 32.2
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-27; next date not yet scheduled"
+    }
+  },
+  "price": {
+    "last": 77.76,
+    "changePct": 0.35,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q4 net income $1.62B, boosted by a tax valuation allowance release; revenue +33% YoY to $1.17B",
+      "impact": "+0.35% on the 2026-08-28 close",
+      "sourceName": "Investrade market review"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "The FY2026 EPS of $5.53 includes a one-off tax valuation allowance release, so the 14.06 trailing P/E is not comparable to a clean operating year. Forward P/E of 20.05 reflects that.",
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated"
+    ]
+  }
+}

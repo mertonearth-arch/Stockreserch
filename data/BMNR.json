@@ -1,0 +1,126 @@
+{
+  "ticker": "BMNR",
+  "name": "BitMine Immersion Technologies, Inc.",
+  "sector": "Financials",
+  "theme": "Crypto Treasury & Miners",
+  "themeLabel": "hype sector",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "ETH treasury update; traded as a leveraged ETH proxy",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.852Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 14360000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 603230000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": 59.5,
+      "note": "negative trailing earnings",
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": -24.68,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 61200000,
+        "yoy": null
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "TTM revenue $61.2M; no YoY comparison published on the sources checked"
+    },
+    "nextEarnings": {
+      "date": "2026-11-20",
+      "confirmed": false
+    },
+    "float": {
+      "value": 594480000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 8.11,
+      "asOf": "2026-08-28",
+      "note": "48.20M shares, % of float; 1.46 days to cover"
+    },
+    "cash": {
+      "value": 340290000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 1320000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 23.8,
+    "changePct": -7.14,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "treasury",
+      "headline": "Treasury update confirming Ethereum holdings; company describes a transition to a staking-focused revenue model",
+      "impact": "traded as a leveraged proxy on ETH's ~30% weekly move; closed -7.14%",
+      "sourceName": "search summary"
+    }
+  ],
+  "conflicts": [
+    "Direction: one source describes the stock rallying on the treasury update, while the stockanalysis close for the session shows -7.14%."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "A $14.36B market cap against $61.2M of TTM revenue — the valuation tracks the treasury holdings, not the operating business.",
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated"
+    ]
+  }
+}

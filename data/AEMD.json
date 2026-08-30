@@ -1,0 +1,141 @@
+{
+  "ticker": "AEMD",
+  "name": "Aethlon Medical, Inc.",
+  "sector": "Healthcare",
+  "theme": "Biotech Catalyst",
+  "themeLabel": "nano-cap",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "+14.75% to +34% depending on source",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.830Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 1770000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 711136,
+      "asOf": "2026-08-28"
+    },
+    "float": {
+      "value": 706409,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": -31.45,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue",
+      "pct": null,
+      "note": "No revenue reported"
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-13; next date not yet scheduled"
+    },
+    "shortInterest": {
+      "value": 9.21,
+      "asOf": "2026-08-28",
+      "note": "65,075 shares, % of float; 1.43 days to cover"
+    },
+    "cash": {
+      "value": 4930000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 367608,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 2.49,
+    "changePct": 14.75,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "move",
+      "headline": "Shares jumped on the session; no company announcement was found on the sources checked",
+      "impact": "+34% per one source, +14.75% on the stockanalysis close",
+      "sourceName": "search summary / stockanalysis"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "split",
+      "headline": "Split-adjusted trading began on Nasdaq under AEMD with a new CUSIP",
+      "sourceName": "company announcement / stockanalysis"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "split",
+      "headline": "1-for-5 reverse stock split effective 10:00 ET. Authorized shares cut from 100,000,000 to 20,000,000; outstanding cut from 3,249,569 to roughly 649,914. Company cited dilution management and continued compliance with Nasdaq Listing Rule 5550(a)(2)",
+      "sourceName": "Certificate of Change filed in Nevada 2026-07-30"
+    }
+  ],
+  "conflicts": [
+    "Move size: one source reports +34.0%, the stockanalysis close shows +14.75%.",
+    "Share count: the split math gives ~649,914 shares outstanding, while stockanalysis reports 711,136 as of 2026-08-28 — a difference consistent with issuance after the split, but no issuance was found on the sources checked."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "float updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "move 14.75%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Reverse split resolved: 1-for-5, effective 2026-07-31, split-adjusted trading from 2026-08-04, done for Nasdaq minimum-bid compliance. Still no catalyst found for the 2026-08-28 move itself. Cash of $4.93M against a $1.77M market cap.",
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "float updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "SOLS",
+  "name": "Solstice Advanced Materials, Inc.",
+  "sector": "Materials",
+  "theme": "Advanced Materials",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "$14.5B merger with ESI called off",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.849Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 10090000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 158850000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": 48.4,
+      "forward": 20.33,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": 1.31,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 4100000000,
+        "yoy": 9.2
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 9.2
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-07-30; next date not yet scheduled"
+    },
+    "float": {
+      "value": 158660000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 6.08,
+      "asOf": "2026-08-28",
+      "note": "9.65M shares, % of float; 3.06 days to cover"
+    },
+    "cash": {
+      "value": 750000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 2430000000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 63.53,
+    "changePct": 12.76,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "m&a",
+      "headline": "Solstice and ESI mutually agreed to scrap their $14.5B merger",
+      "impact": "+12.76% on the close (+16% per one source)",
+      "sourceName": "Investrade market review / Zacks"
+    }
+  ],
+  "conflicts": [
+    "Move size: one source reports +16%, the stockanalysis close shows +12.76%."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "move 12.76%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated"
+    ]
+  }
+}

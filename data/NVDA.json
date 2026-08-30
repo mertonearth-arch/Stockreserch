@@ -1,0 +1,159 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "theme": "AI Semiconductors",
+  "themeLabel": "hot sector",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "Q2 print drove the tape; XLK +3.2% on 2026-08-28",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.837Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 5250000000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 24150000000,
+      "asOf": "2026-08-28"
+    },
+    "float": {
+      "value": 23170000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "pe": {
+      "trailing": 27.51,
+      "forward": 18.04,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": 1.19,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 2.94,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 4.9,
+        "basis": "diluted"
+      },
+      {
+        "period": "TTM",
+        "value": 7.91,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 60922000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2025",
+        "value": 130497000000,
+        "yoy": 114.2
+      },
+      {
+        "period": "FY2026",
+        "value": 215938000000,
+        "yoy": 65.5
+      },
+      {
+        "period": "TTM",
+        "value": 302970000000,
+        "yoy": 83.4
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 83.4
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-26; next date not yet scheduled"
+    },
+    "shortInterest": {
+      "value": 1.23,
+      "asOf": "2026-08-28",
+      "note": "285.96M shares, % of float; 2.35 days to cover"
+    },
+    "cash": {
+      "value": 62470000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 38860000000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 217.55,
+    "changePct": -4.57,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "guidance",
+      "headline": "Paused some revenue-sharing financing arrangements for AI cloud providers",
+      "sourceName": "Investrade market review"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "earnings",
+      "headline": "Q2 EPS $2.22 vs $2.09 consensus; revenue $96.22B, 4.82% above consensus",
+      "impact": "lifted the whole tech complex; XLK +3.2% on 2026-08-28",
+      "sourceName": "Zacks / Yahoo Finance"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated"
+    ]
+  }
+}

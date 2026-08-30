@@ -1,0 +1,123 @@
+{
+  "ticker": "ESTC",
+  "name": "Elastic N.V.",
+  "sector": "Technology",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "+19.3% on raised FY2027 outlook",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.840Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 10490000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 104990000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": 28.43,
+      "forward": 28.45,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": 3.51,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 1800000000,
+        "yoy": 16.2
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 16.2
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-27; next date not yet scheduled"
+    },
+    "float": {
+      "value": 85920000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 7.38,
+      "asOf": "2026-08-28",
+      "note": "6.34M shares, % of float; 3.29 days to cover"
+    },
+    "cash": {
+      "value": 1460000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 595780000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 99.91,
+    "changePct": 19.31,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "guidance",
+      "headline": "Strong Q1; raised FY2027 revenue outlook to $1.998B–$2.010B",
+      "impact": "+19.31% on the 2026-08-28 close",
+      "sourceName": "Investrade market review"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "move 19.31%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated"
+    ]
+  }
+}

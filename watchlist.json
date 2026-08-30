@@ -1,0 +1,81 @@
+{
+  "updated": "2026-08-30T09:34:19.876Z",
+  "tickers": {
+    "AEMD": {
+      "tier": "daily",
+      "theme": "Biotech Catalyst",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.830Z"
+    },
+    "AFRM": {
+      "tier": "daily",
+      "theme": "Fintech & Consumer Credit",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:24:49.306Z"
+    },
+    "BMNR": {
+      "tier": "daily",
+      "theme": "Crypto Treasury & Miners",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.852Z"
+    },
+    "CYTK": {
+      "tier": "daily",
+      "theme": "Biotech Catalyst",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.846Z"
+    },
+    "ESTC": {
+      "tier": "daily",
+      "theme": "Enterprise Software & Security",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.840Z"
+    },
+    "IREN": {
+      "tier": "daily",
+      "theme": "Crypto Treasury & Miners",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.855Z"
+    },
+    "MRVL": {
+      "tier": "daily",
+      "theme": "AI Semiconductors",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.834Z"
+    },
+    "NVDA": {
+      "tier": "daily",
+      "theme": "AI Semiconductors",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.837Z"
+    },
+    "OKTA": {
+      "tier": "daily",
+      "theme": "Enterprise Software & Security",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:24:49.301Z"
+    },
+    "QNRX": {
+      "tier": "daily",
+      "theme": "Biotech Catalyst",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.825Z"
+    },
+    "RBRK": {
+      "tier": "daily",
+      "theme": "Enterprise Software & Security",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.843Z"
+    },
+    "SOLS": {
+      "tier": "daily",
+      "theme": "Advanced Materials",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-30T09:34:19.849Z"
+    }
+  },
+  "lastRun": {
+    "date": "2026-08-30",
+    "run": "pm"
+  }
+}

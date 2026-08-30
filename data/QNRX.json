@@ -1,0 +1,151 @@
+{
+  "ticker": "QNRX",
+  "name": "Quoin Pharmaceuticals Ltd.",
+  "sector": "Healthcare",
+  "theme": "Biotech Catalyst",
+  "themeLabel": "nano-cap",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "Phase 2/3 interim data, +41% to +50% depending on source",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.825Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 12290000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 2010000,
+      "asOf": "2026-08-28"
+    },
+    "float": {
+      "value": 1360000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "pre-revenue clinical stage, negative earnings",
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": -8.52,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue",
+      "pct": null,
+      "note": "Pre-revenue clinical stage — nothing to measure"
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-14; next date not yet scheduled"
+    },
+    "shortInterest": {
+      "value": 5.56,
+      "asOf": "2026-08-28",
+      "note": "111,299 shares, quoted as % of shares outstanding; 6.14 days to cover"
+    },
+    "cash": {
+      "value": 10800000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 2020000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 6.12,
+    "changePct": 18.72,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "offering",
+      "headline": "Private placement of up to $50.0M gross: ~$30.8M upfront plus up to ~$19.2M on cash exercise of accompanying warrants. 6.31M ADSs (or pre-funded warrants) at $4.88 combined. Expected to close on or about 2026-08-31. Company says proceeds fund operations into H2 2029",
+      "impact": "6.31M new ADSs against 2.01M shares outstanding; priced at $4.88 vs the $6.12 close",
+      "source": "https://www.globenewswire.com/news-release/2026/08/28/3352590/0/en/quoin-pharmaceuticals-announces-private-placement-financing-of-up-to-50-0-million.html"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "offering",
+      "headline": "Announced $50M private placement financing",
+      "impact": "$50M raise against a $12.29M market cap as reported",
+      "sourceName": "stockanalysis company page"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "clinical",
+      "headline": "QRX003 significantly improved disease severity in 4 of 6 Netherton syndrome patients at 12 weeks (interim, Phase 2/3 CL-QRX003-004)",
+      "impact": "+41% to +50% intraday depending on source; +18.72% on the close",
+      "sourceName": "Zacks / stockanalysis"
+    },
+    {
+      "date": "2025-04-09",
+      "type": "split",
+      "headline": "Reverse stock split, 1-for-35",
+      "sourceName": "stockanalysis statistics"
+    }
+  ],
+  "conflicts": [
+    "Move size: reported as +50% (Zacks), +45% pre-market (RTTNews) and +41% (search summary); the stockanalysis close shows +18.72%. All are as published, at different points in the session."
+  ],
+  "pendingFilings": [
+    "Private placement — closing expected on or about 2026-08-31"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "float updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "move 18.72%",
+        "new filing(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Dilution is now quantified: 6.31M ADSs issued against 2.01M shares outstanding, priced at $4.88 against a $6.12 close. Named participants include Sirenia Capital, Sphera Healthcare, AIGH Capital, Nantahala, StemPoint and Stonepine, plus management and board. Interim data remains 6 patients. The 1-for-35 reverse split of 2025-04-09 explains the small share count.",
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "float updated",
+      "new filing(s)",
+      "conflicts updated"
+    ]
+  }
+}

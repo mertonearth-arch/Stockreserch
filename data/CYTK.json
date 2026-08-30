@@ -1,0 +1,127 @@
+{
+  "ticker": "CYTK",
+  "name": "Cytokinetics, Incorporated",
+  "sector": "Healthcare",
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "late-stage data in a genetic heart condition",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.846Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 10020000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 139020000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": -7.18,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 67670000,
+        "yoy": -21.1
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": -21.1
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-06; next date not yet scheduled"
+    },
+    "float": {
+      "value": 138390000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 11.8,
+      "asOf": "2026-08-28",
+      "note": "16.32M shares, % of float; 8.95 days to cover"
+    },
+    "cash": {
+      "value": 1170000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 1420000000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 72.09,
+    "changePct": -7.46,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "clinical",
+      "headline": "Late-stage data showed the drug significantly improved symptoms in patients with a genetic heart condition",
+      "impact": "shares closed -7.46% the same session",
+      "sourceName": "Investrade market review"
+    }
+  ],
+  "conflicts": [
+    "Reaction vs. result: positive late-stage data was reported the same session the stock closed -7.46%. No explanation was found on the sources checked."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated",
+      "conflicts updated"
+    ]
+  }
+}

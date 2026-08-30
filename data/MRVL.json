@@ -1,0 +1,165 @@
+{
+  "ticker": "MRVL",
+  "name": "Marvell Technology, Inc.",
+  "sector": "Technology",
+  "theme": "AI Semiconductors",
+  "themeLabel": "hot sector",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "beat-and-raise print, sold off hard anyway",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.834Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 189960000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 876930000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": 72.78,
+      "forward": 39.9,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -1.08,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": -1.02,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 3.07,
+        "basis": "diluted"
+      },
+      {
+        "period": "TTM",
+        "value": 2.98,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 5508000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2025",
+        "value": 5767000000,
+        "yoy": 4.7
+      },
+      {
+        "period": "FY2026",
+        "value": 8195000000,
+        "yoy": 42.1
+      },
+      {
+        "period": "TTM",
+        "value": 9450000000,
+        "yoy": 30.6
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 30.6
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-27; next date not yet scheduled"
+    },
+    "float": {
+      "value": 874010000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 3.25,
+      "asOf": "2026-08-28",
+      "note": "28.39M shares, % of float; 1.24 days to cover"
+    },
+    "cash": {
+      "value": 3930000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 5290000000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 216.62,
+    "changePct": -10.28,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-28",
+      "type": "reaction",
+      "headline": "Fell more than 8% pre-market: the company raised its revenue outlook in Q2 results but dampened enthusiasm around the impact of its recent AI chip deal with Google",
+      "impact": "closed -10.28%",
+      "sourceName": "CNBC market coverage"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q2 adjusted EPS $0.94 vs $0.92 consensus; revenue $2.74B vs $2.72B consensus — beat and raise",
+      "impact": "shares fell 10.3% on the following session despite the beat",
+      "sourceName": "Investrade market review"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "float updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "move -10.28%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "float updated",
+      "conflict resolved"
+    ]
+  },
+  "notes": "The beat-and-raise vs. sell-off gap is explained: guidance on the Google AI chip deal disappointed, not the headline print."
+}

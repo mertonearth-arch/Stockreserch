@@ -1,0 +1,133 @@
+{
+  "ticker": "OKTA",
+  "name": "Okta, Inc.",
+  "sector": "Technology",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "+28.6% on Q2 beat",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:24:49.301Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 29060000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 174820000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": 101.14,
+      "forward": 40.74,
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -2.17,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 0.05,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 1.31,
+        "basis": "diluted"
+      },
+      {
+        "period": "TTM",
+        "value": 1.64,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 2263000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2025",
+        "value": 2610000000,
+        "yoy": 15.3
+      },
+      {
+        "period": "FY2026",
+        "value": 2919000000,
+        "yoy": 11.8
+      },
+      {
+        "period": "TTM",
+        "value": 3070000000,
+        "yoy": 11.2
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 11.2
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-26; next date not yet scheduled"
+    }
+  },
+  "price": {
+    "last": 166.23,
+    "changePct": -3.86,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-26",
+      "type": "earnings",
+      "headline": "Q2 EPS $1.05 vs $0.96 consensus",
+      "impact": "+28.6% on the session following the print",
+      "sourceName": "Zacks / Yahoo Finance"
+    }
+  ],
+  "conflicts": [
+    "Move attribution: the +28.6% pop is reported in an article dated 2026-08-28 but describes the session after the 2026-08-26 print. The 2026-08-28 close itself was -3.86%."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated"
+    ]
+  }
+}

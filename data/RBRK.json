@@ -1,0 +1,128 @@
+{
+  "ticker": "RBRK",
+  "name": "Rubrik, Inc.",
+  "sector": "Technology",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-08-30",
+  "addedReason": "ARR beat and raise, shares -13%",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-30T09:34:19.843Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 19150000000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 205830000,
+      "asOf": "2026-08-28"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": 193.33,
+      "note": "negative trailing earnings",
+      "asOf": "2026-08-28"
+    },
+    "eps": [
+      {
+        "period": "TTM",
+        "value": -1.26,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 1540000000,
+        "yoy": 42.4
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM",
+      "pct": 42.4
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-27; next date not yet scheduled"
+    },
+    "float": {
+      "value": 157420000,
+      "asOf": "2026-08-28",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 9.51,
+      "asOf": "2026-08-28",
+      "note": "14.97M shares, % of float; 5.28 days to cover"
+    },
+    "cash": {
+      "value": 1750000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 1130000000,
+      "asOf": "2026-08-28"
+    }
+  },
+  "price": {
+    "last": 93.05,
+    "changePct": -13.05,
+    "asOf": "2026-08-28"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "FQ2 ARR beat by $20M; raised full-year ARR guide by $25M",
+      "impact": "shares fell 13.1% on the following close",
+      "sourceName": "Investrade market review"
+    }
+  ],
+  "conflicts": [
+    "Reaction vs. result: sources describe an ARR beat and a raised guide, while the last close was -13.05%. No explanation was found on the sources checked."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "float updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "move -13.05%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "float updated",
+      "conflicts updated"
+    ]
+  }
+}
