@@ -153,6 +153,32 @@ Field notes:
 
 ---
 
+## Running in the cloud
+
+When the pass runs as a **cloud routine** rather than on the local machine, the checkout is
+fresh and throwaway. The watchlist state lives in git, so the pass MUST bookend itself:
+
+**First thing, before reading anything:**
+```
+git pull --rebase
+```
+
+**Last thing, after `build` and after publishing:**
+```
+git add -A
+git commit -m "PM pass YYYY-MM-DD: <n> names, <what moved tiers>"
+git push
+```
+
+If the push is skipped, the next run clones the old state: `quietRuns` resets, nothing ever
+demotes, and the entire daily → weekly → monthly ladder silently stops working. A run that
+cannot push has failed even if the dashboard looks fine — say so in the report rather than
+finishing quietly.
+
+Cron for cloud routines is in **UTC**, unlike the local tasks. Stockholm is UTC+2 in summer
+and UTC+1 in winter, so **the local run times shift by an hour at each DST changeover**
+(next: 2026-10-25). Adjust both routines' cron then, or accept the drift.
+
 ## Publishing
 
 The dashboard is one Artifact at a stable URL — the same link every day. The URL is stored
