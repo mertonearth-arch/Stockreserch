@@ -185,8 +185,18 @@ The dashboard is one Artifact at a stable URL — the same link every day. The U
 in `ARTIFACT.md`.
 
 - Build first: `node bin/research.js build` writes `dashboard.html`.
+- **From a cloud run, read the live artifact before publishing.** A fresh session has never
+  viewed it, so the first publish is refused to stop it clobbering a newer version:
+  ```
+  Artifact  action: "read"   url: <the url from ARTIFACT.md>
+  ```
+  Read the saved file it hands back, then publish. Do not resend identical content after a
+  refusal — that is refused a second time. (Verified 2026-08-30: this costs three wasted
+  attempts if skipped.) A local run that published earlier in the same session can skip this.
 - Publish with the Artifact tool, passing **both** `file_path: dashboard.html` and the `url`
   from `ARTIFACT.md`, so it redeploys to the same link instead of creating a new one.
+  `dashboard.html` is fully regenerated from `data/`, so there is never real content to merge
+  from the live version — but the read is still required before the publish is accepted.
 - Title stays `Cadence Desk`. Favicon stays the same.
 - If `ARTIFACT.md` has no URL, publish fresh and write the returned URL into it.
 
