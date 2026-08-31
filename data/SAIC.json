@@ -1,0 +1,65 @@
+{
+  "ticker": "SAIC",
+  "name": "Science Applications International Corporation",
+  "sector": "Industrials",
+  "theme": "Government IT & Defense Services",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-08-31",
+  "addedReason": "premarket +11.94% on a Q2 earnings beat and raised FY2027 guidance",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-31T13:23:03.105Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 5330000000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    }
+  },
+  "price": {
+    "last": 141,
+    "changePct": 11.94,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, per stockanalysis quote page"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-31",
+      "type": "earnings",
+      "headline": "Q2 adjusted EPS $3.01 vs $2.31 consensus; revenue $1.88B vs $1.76B consensus (~6.3% YoY growth); raised FY2027 adjusted EPS guidance to $10.65-$10.75 (from $9.90-$10.10) and revenue guidance to $7.20B-$7.30B",
+      "impact": "premarket +11.94%",
+      "sourceName": "Yahoo Finance / Investing.com"
+    }
+  ],
+  "conflicts": [
+    "Earnings timing: stockanalysis's quote page text describes the Q2 report as 'scheduled for Aug 31, 2026' while the premarket move and Yahoo Finance/Investing.com coverage indicate results were already released same-day premarket (2026-08-31) — recording as released, per the reaction and named figures."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move 11.94%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "lastPass": {
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "marketCap updated",
+      "move 11.94%",
+      "conflicts updated"
+    ],
+    "tradingDay": true
+  }
+}

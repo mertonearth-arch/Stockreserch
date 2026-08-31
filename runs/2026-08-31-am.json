@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-31",
+  "run": "am",
+  "movers": [
+    "AEMD",
+    "ESTC",
+    "IREN",
+    "MRVL",
+    "QNRX",
+    "RBRK",
+    "SOLS",
+    "AFRM",
+    "BMNR",
+    "CYTK",
+    "NVDA",
+    "OKTA",
+    "SAIC",
+    "EIX",
+    "PCG",
+    "BTAI"
+  ],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "AEMD",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "ESTC",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "IREN",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "QNRX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -11.25%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "RBRK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "SOLS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "AFRM",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "BMNR",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "SAIC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move 11.94%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "EIX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move -19%"
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move -19.1%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BTAI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move -14.77%"
+      ]
+    }
+  ],
+  "created": [
+    "SAIC",
+    "EIX",
+    "PCG",
+    "BTAI"
+  ],
+  "promoted": [],
+  "demoted": [],
+  "quiet": [
+    "ESTC",
+    "MRVL",
+    "AFRM"
+  ]
+}

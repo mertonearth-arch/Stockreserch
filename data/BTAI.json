@@ -1,0 +1,62 @@
+{
+  "ticker": "BTAI",
+  "name": "BioXcel Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "theme": "Distressed / Restructuring",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-08-31",
+  "addedReason": "continued collapse premarket (-14.77%) following its Aug 27 Chapter 11 filing",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-31T13:23:03.108Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 5680000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    }
+  },
+  "price": {
+    "last": 0.1546,
+    "changePct": -14.77,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:05 AM EDT"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "bankruptcy",
+      "headline": "BioXcel Therapeutics and two subsidiaries filed voluntary Chapter 11 petitions; entered an asset sale agreement with Teva Pharmaceuticals as stalking-horse bidder in a court-supervised sale process",
+      "impact": "stock collapsed from ~$0.72 to ~$0.18 over the following sessions",
+      "sourceName": "company filing / market coverage"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move -14.77%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Was scheduled to report earnings 2026-08-28; bankruptcy filing preceded that date. Fundamentals otherwise not established given the ongoing Chapter 11 process.",
+  "lastPass": {
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "marketCap updated",
+      "move -14.77%"
+    ],
+    "tradingDay": true
+  }
+}

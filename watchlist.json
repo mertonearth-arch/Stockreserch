@@ -1,81 +1,105 @@
 {
-  "updated": "2026-08-30T09:34:19.876Z",
+  "updated": "2026-08-31T13:23:03.121Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
       "theme": "Biotech Catalyst",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.830Z"
+      "lastResearched": "2026-08-31T13:23:03.083Z"
     },
     "AFRM": {
       "tier": "daily",
       "theme": "Fintech & Consumer Credit",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:24:49.306Z"
+      "lastResearched": "2026-08-31T13:23:03.097Z"
     },
     "BMNR": {
       "tier": "daily",
       "theme": "Crypto Treasury & Miners",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.852Z"
+      "lastResearched": "2026-08-31T13:23:03.099Z"
+    },
+    "BTAI": {
+      "tier": "daily",
+      "theme": "Distressed / Restructuring",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-31T13:23:03.108Z"
     },
     "CYTK": {
       "tier": "daily",
       "theme": "Biotech Catalyst",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.846Z"
+      "lastResearched": "2026-08-31T13:23:03.100Z"
+    },
+    "EIX": {
+      "tier": "daily",
+      "theme": "Utilities & Wildfire Liability",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-31T13:23:03.106Z"
     },
     "ESTC": {
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.840Z"
+      "lastResearched": "2026-08-31T13:23:03.086Z"
     },
     "IREN": {
       "tier": "daily",
       "theme": "Crypto Treasury & Miners",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.855Z"
+      "lastResearched": "2026-08-31T13:23:03.088Z"
     },
     "MRVL": {
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.834Z"
+      "lastResearched": "2026-08-31T13:23:03.090Z"
     },
     "NVDA": {
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.837Z"
+      "lastResearched": "2026-08-31T13:23:03.102Z"
     },
     "OKTA": {
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:24:49.301Z"
+      "lastResearched": "2026-08-31T13:23:03.104Z"
+    },
+    "PCG": {
+      "tier": "daily",
+      "theme": "Utilities & Wildfire Liability",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-31T13:23:03.107Z"
     },
     "QNRX": {
       "tier": "daily",
       "theme": "Biotech Catalyst",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.825Z"
+      "lastResearched": "2026-08-31T13:23:03.092Z"
     },
     "RBRK": {
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.843Z"
+      "lastResearched": "2026-08-31T13:23:03.093Z"
+    },
+    "SAIC": {
+      "tier": "daily",
+      "theme": "Government IT & Defense Services",
+      "quietRuns": 0,
+      "lastResearched": "2026-08-31T13:23:03.105Z"
     },
     "SOLS": {
       "tier": "daily",
       "theme": "Advanced Materials",
       "quietRuns": 0,
-      "lastResearched": "2026-08-30T09:34:19.849Z"
+      "lastResearched": "2026-08-31T13:23:03.095Z"
     }
   },
   "lastRun": {
-    "date": "2026-08-30",
-    "run": "pm"
+    "date": "2026-08-31",
+    "run": "am"
   }
 }

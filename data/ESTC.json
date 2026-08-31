@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "+19.3% on raised FY2027 outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.840Z",
+  "lastResearched": "2026-08-31T13:23:03.086Z",
   "fundamentals": {
     "marketCap": {
       "value": 10490000000,
@@ -67,9 +67,10 @@
     }
   },
   "price": {
-    "last": 99.91,
-    "changePct": 19.31,
-    "asOf": "2026-08-28"
+    "last": 97.5,
+    "changePct": -2.41,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:09 AM EDT"
   },
   "catalysts": [
     {
@@ -83,6 +84,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -113,11 +122,11 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "float updated"
-    ]
-  }
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
+    "tradingDay": true
+  },
+  "notes": "Pulling back slightly from Friday's post-earnings +19.31% close; no new dated news found for Aug 30-31."
 }

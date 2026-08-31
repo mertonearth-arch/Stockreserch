@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "ARR beat and raise, shares -13%",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.843Z",
+  "lastResearched": "2026-08-31T13:23:03.093Z",
   "fundamentals": {
     "marketCap": {
       "value": 19150000000,
@@ -68,9 +68,10 @@
     }
   },
   "price": {
-    "last": 93.05,
-    "changePct": -13.05,
-    "asOf": "2026-08-28"
+    "last": 91.6,
+    "changePct": -1.56,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket"
   },
   "catalysts": [
     {
@@ -86,6 +87,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -117,12 +128,13 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "float updated",
-      "conflicts updated"
-    ]
-  }
+      "conflict resolved"
+    ],
+    "tradingDay": true
+  },
+  "notes": "Slight further pullback after Friday's post-earnings -13.05% close; no new dated news found for Aug 30-31."
 }

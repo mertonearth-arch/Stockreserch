@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "beat-and-raise print, sold off hard anyway",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.834Z",
+  "lastResearched": "2026-08-31T13:23:03.090Z",
   "fundamentals": {
     "marketCap": {
       "value": 189960000000,
@@ -97,9 +97,10 @@
     }
   },
   "price": {
-    "last": 216.62,
-    "changePct": -10.28,
-    "asOf": "2026-08-28"
+    "last": 215.7,
+    "changePct": -0.42,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:18 AM EDT"
   },
   "catalysts": [
     {
@@ -120,6 +121,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -152,14 +161,11 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "float updated",
-      "conflict resolved"
-    ]
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
+    "tradingDay": true
   },
-  "notes": "The beat-and-raise vs. sell-off gap is explained: guidance on the Google AI chip deal disappointed, not the headline print."
+  "notes": "Flat premarket; no new dated news found for Aug 30-31."
 }

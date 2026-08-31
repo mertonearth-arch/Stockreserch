@@ -1,8 +1,14 @@
 {
-  "updated": "2026-08-30T09:34:19.873Z",
+  "updated": "2026-08-31T13:23:03.120Z",
   "themes": {
     "Biotech Catalyst": {
       "history": [
+        {
+          "date": "2026-08-31",
+          "names": 3,
+          "catalysts7": 5,
+          "newNames7": 3
+        },
         {
           "date": "2026-08-30",
           "names": 3,
@@ -14,6 +20,12 @@
     "Enterprise Software & Security": {
       "history": [
         {
+          "date": "2026-08-31",
+          "names": 3,
+          "catalysts7": 3,
+          "newNames7": 3
+        },
+        {
           "date": "2026-08-30",
           "names": 3,
           "catalysts7": 3,
@@ -23,6 +35,12 @@
     },
     "AI Semiconductors": {
       "history": [
+        {
+          "date": "2026-08-31",
+          "names": 2,
+          "catalysts7": 5,
+          "newNames7": 2
+        },
         {
           "date": "2026-08-30",
           "names": 2,
@@ -34,6 +52,12 @@
     "Crypto Treasury & Miners": {
       "history": [
         {
+          "date": "2026-08-31",
+          "names": 2,
+          "catalysts7": 3,
+          "newNames7": 2
+        },
+        {
           "date": "2026-08-30",
           "names": 2,
           "catalysts7": 2,
@@ -43,6 +67,12 @@
     },
     "Advanced Materials": {
       "history": [
+        {
+          "date": "2026-08-31",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        },
         {
           "date": "2026-08-30",
           "names": 1,
@@ -54,7 +84,43 @@
     "Fintech & Consumer Credit": {
       "history": [
         {
+          "date": "2026-08-31",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        },
+        {
           "date": "2026-08-30",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        }
+      ]
+    },
+    "Utilities & Wildfire Liability": {
+      "history": [
+        {
+          "date": "2026-08-31",
+          "names": 2,
+          "catalysts7": 2,
+          "newNames7": 2
+        }
+      ]
+    },
+    "Distressed / Restructuring": {
+      "history": [
+        {
+          "date": "2026-08-31",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        }
+      ]
+    },
+    "Government IT & Defense Services": {
+      "history": [
+        {
+          "date": "2026-08-31",
           "names": 1,
           "catalysts7": 1,
           "newNames7": 1

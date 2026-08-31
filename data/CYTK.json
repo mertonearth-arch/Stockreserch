@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "late-stage data in a genetic heart condition",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.846Z",
+  "lastResearched": "2026-08-31T13:23:03.100Z",
   "fundamentals": {
     "marketCap": {
       "value": 10020000000,
@@ -68,9 +68,10 @@
     }
   },
   "price": {
-    "last": 72.09,
-    "changePct": -7.46,
-    "asOf": "2026-08-28"
+    "last": 72.5,
+    "changePct": 0.57,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket"
   },
   "catalysts": [
     {
@@ -86,6 +87,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -116,12 +127,13 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "float updated",
-      "conflicts updated"
-    ]
-  }
+      "conflict resolved"
+    ],
+    "tradingDay": true
+  },
+  "notes": "Aug 29 ESC Congress late-breaking session covered the same ACACIA-HCM/MAPLE-HCM data already on file (2026-08-28); not recorded as a separate catalyst."
 }

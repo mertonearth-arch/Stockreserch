@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "FY27 capex guide, loss widened, -12.5%",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.855Z",
+  "lastResearched": "2026-08-31T13:23:03.088Z",
   "fundamentals": {
     "marketCap": {
       "value": 13970000000,
@@ -68,9 +68,10 @@
     }
   },
   "price": {
-    "last": 35.45,
-    "changePct": -12.53,
-    "asOf": "2026-08-28"
+    "last": 35.39,
+    "changePct": -0.17,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:18 AM EDT"
   },
   "catalysts": [
     {
@@ -86,6 +87,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -115,13 +126,14 @@
       "from": "daily"
     }
   ],
-  "notes": "FY27 capex guidance of $25B–$30B against a $13.97B market cap is the number driving the reaction. Balance sheet as reported: $5.90B cash against $7.84B total debt. Short interest of 27.22% of float is the highest on the list.",
+  "notes": "Flat premarket after Friday's post-earnings -12.53% close; no new dated news found for Aug 30-31.",
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "float updated"
-    ]
+      "conflict resolved"
+    ],
+    "tradingDay": true
   }
 }

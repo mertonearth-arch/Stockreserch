@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "+14.75% to +34% depending on source",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.830Z",
+  "lastResearched": "2026-08-31T13:23:03.083Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000,
@@ -62,9 +62,10 @@
     }
   },
   "price": {
-    "last": 2.49,
-    "changePct": 14.75,
-    "asOf": "2026-08-28"
+    "last": 2.31,
+    "changePct": -7.23,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:16 AM EDT"
   },
   "catalysts": [
     {
@@ -93,6 +94,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -126,16 +137,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Reverse split resolved: 1-for-5, effective 2026-07-31, split-adjusted trading from 2026-08-04, done for Nasdaq minimum-bid compliance. Still no catalyst found for the 2026-08-28 move itself. Cash of $4.93M against a $1.77M market cap.",
+  "notes": "Gave back part of Friday's +14.75% close; no new dated news found for Aug 30-31.",
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "float updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ]
+      "conflict resolved"
+    ],
+    "tradingDay": true
   }
 }

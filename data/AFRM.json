@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Q4 net income $1.62B, revenue +33% YoY",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:24:49.306Z",
+  "lastResearched": "2026-08-31T13:23:03.097Z",
   "fundamentals": {
     "marketCap": {
       "value": 26240000000,
@@ -74,9 +74,10 @@
     }
   },
   "price": {
-    "last": 77.76,
-    "changePct": 0.35,
-    "asOf": "2026-08-28"
+    "last": 77.15,
+    "changePct": -0.78,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:04 AM EDT"
   },
   "catalysts": [
     {
@@ -90,6 +91,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -108,20 +117,12 @@
       "from": "daily"
     }
   ],
-  "notes": "The FY2026 EPS of $5.53 includes a one-off tax valuation allowance release, so the 14.06 trailing P/E is not comparable to a clean operating year. Forward P/E of 20.05 reflects that.",
+  "notes": "Flat premarket; no new dated news found for Aug 30-31.",
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated"
-    ]
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
+    "tradingDay": true
   }
 }

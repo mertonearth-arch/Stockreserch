@@ -1,0 +1,66 @@
+{
+  "ticker": "PCG",
+  "name": "PG&E Corporation",
+  "sector": "Utilities",
+  "theme": "Utilities & Wildfire Liability",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-08-31",
+  "addedReason": "premarket -19% after CA Assembly stripped a wildfire-liability shield from SB 492",
+  "quietRuns": 0,
+  "lastResearched": "2026-08-31T13:23:03.107Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 36560000000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    }
+  },
+  "price": {
+    "last": 13.43,
+    "changePct": -19.1,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis quote page, 9:20 AM EDT"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-31",
+      "type": "regulatory",
+      "headline": "California State Assembly amended SB 492 to remove wildfire liability protection for utilities, prompting analyst downgrades sector-wide",
+      "impact": "premarket -19.10%",
+      "sourceName": "Investing.com"
+    }
+  ],
+  "conflicts": [
+    "Premarket change: stockanalysis's premarket-losers table showed PCG at $13.49 / -18.74% vs the PCG quote page showing $13.43 / -19.10%, both timestamped 2026-08-31 morning — both readings recorded here, using the quote-page figure as the tracked price."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "move -19.1%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Same legislative catalyst also hit EIX (and reportedly Sempra) same day; grouped under the same theme.",
+  "lastPass": {
+    "date": "2026-08-31",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "marketCap updated",
+      "move -19.1%",
+      "conflicts updated"
+    ],
+    "tradingDay": true
+  }
+}

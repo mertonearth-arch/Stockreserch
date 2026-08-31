@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Q2 print drove the tape; XLK +3.2% on 2026-08-28",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.837Z",
+  "lastResearched": "2026-08-31T13:23:03.102Z",
   "fundamentals": {
     "marketCap": {
       "value": 5250000000000,
@@ -97,11 +97,18 @@
     }
   },
   "price": {
-    "last": 217.55,
-    "changePct": -4.57,
-    "asOf": "2026-08-28"
+    "last": 218.15,
+    "changePct": 0.28,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:19 AM EDT"
   },
   "catalysts": [
+    {
+      "date": "2026-08-31",
+      "type": "partnership",
+      "headline": "Nvidia to invest $3.5B in MediaTek as part of an expanded AI computing platform collaboration",
+      "sourceName": "TheFly"
+    },
     {
       "date": "2026-08-28",
       "type": "guidance",
@@ -119,6 +126,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -149,11 +166,12 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "float updated"
-    ]
+      "1 new catalyst(s)"
+    ],
+    "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "ETH treasury update; traded as a leveraged ETH proxy",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.852Z",
+  "lastResearched": "2026-08-31T13:23:03.099Z",
   "fundamentals": {
     "marketCap": {
       "value": 14360000000,
@@ -68,11 +68,18 @@
     }
   },
   "price": {
-    "last": 23.8,
-    "changePct": -7.14,
-    "asOf": "2026-08-28"
+    "last": 23.98,
+    "changePct": 0.76,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 9:19 AM EDT"
   },
   "catalysts": [
+    {
+      "date": "2026-08-30",
+      "type": "treasury",
+      "headline": "Reported total holdings (crypto plus cash and securities) of $15.6B as of Aug 30",
+      "sourceName": "TheFly"
+    },
     {
       "date": "2026-08-28",
       "type": "treasury",
@@ -86,6 +93,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-30",
       "run": "pm",
@@ -116,11 +134,13 @@
   ],
   "notes": "A $14.36B market cap against $61.2M of TTM revenue — the valuation tracks the treasury holdings, not the operating business.",
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "float updated"
-    ]
+      "1 new catalyst(s)",
+      "conflict resolved"
+    ],
+    "tradingDay": true
   }
 }

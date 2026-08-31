@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Phase 2/3 interim data, +41% to +50% depending on source",
   "quietRuns": 0,
-  "lastResearched": "2026-08-30T09:34:19.825Z",
+  "lastResearched": "2026-08-31T13:23:03.092Z",
   "fundamentals": {
     "marketCap": {
       "value": 12290000,
@@ -62,9 +62,10 @@
     }
   },
   "price": {
-    "last": 6.12,
-    "changePct": 18.72,
-    "asOf": "2026-08-28"
+    "last": 5.43,
+    "changePct": -11.25,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis premarket, 8:58 AM EDT"
   },
   "catalysts": [
     {
@@ -103,6 +104,17 @@
   ],
   "history": [
     {
+      "date": "2026-08-31",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "move -11.25%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-08-30",
       "run": "pm",
       "quiet": false,
@@ -136,16 +148,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Dilution is now quantified: 6.31M ADSs issued against 2.01M shares outstanding, priced at $4.88 against a $6.12 close. Named participants include Sirenia Capital, Sphera Healthcare, AIGH Capital, Nantahala, StemPoint and Stonepine, plus management and board. Interim data remains 6 patients. The 1-for-35 reverse split of 2025-04-09 explains the small share count.",
+  "notes": "Gapping down premarket as the $50M private placement (6.31M ADSs at $4.88) is expected to close on or about today, 2026-08-31 — consistent with dilution pricing near the deal price.",
   "lastPass": {
-    "date": "2026-08-30",
-    "run": "pm",
+    "date": "2026-08-31",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "float updated",
-      "new filing(s)",
-      "conflicts updated"
-    ]
+      "move -11.25%",
+      "conflict resolved"
+    ],
+    "tradingDay": true
   }
 }

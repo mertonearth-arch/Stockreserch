@@ -52,6 +52,12 @@ Goal: know what changed overnight. No deep research.
 
 An AM pass never demotes anything — the engine enforces this. It only wakes names up.
 
+**An AM pass may only ADD.** Do not emit `"conflicts": []` or `"pendingFilings": []` as
+boilerplate on a name you have not investigated: you are glancing at overnight news, not
+adjudicating a conflict a full pass established. The engine now ignores an empty list from a
+delta pass, but omit the fields entirely rather than relying on that. Only a PM pass may
+clear a conflict, and only when it has actually resolved it.
+
 ---
 
 ## PM pass (full, after the US close)
