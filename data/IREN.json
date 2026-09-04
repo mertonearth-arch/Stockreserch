@@ -8,11 +8,11 @@
   "addedOn": "2026-08-30",
   "addedReason": "FY27 capex guide, loss widened, -12.5%",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.088Z",
+  "lastResearched": "2026-09-01T06:25:14.934Z",
   "fundamentals": {
     "marketCap": {
-      "value": 13970000000,
-      "asOf": "2026-08-28",
+      "value": 14630000000,
+      "asOf": "2026-08-31",
       "source": "stockanalysis"
     },
     "sharesOutstanding": {
@@ -54,9 +54,9 @@
       "source": "stockanalysis"
     },
     "shortInterest": {
-      "value": 27.22,
-      "asOf": "2026-08-28",
-      "note": "94.25M shares, % of float; 1.96 days to cover"
+      "value": 23.92,
+      "asOf": "2026-08-31",
+      "note": "94.25M shares, % of shares outstanding"
     },
     "cash": {
       "value": 5900000000,
@@ -68,10 +68,10 @@
     }
   },
   "price": {
-    "last": 35.39,
-    "changePct": -0.17,
+    "last": 37.12,
+    "changePct": 4.7,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:18 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -87,6 +87,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -126,13 +137,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Flat premarket after Friday's post-earnings -12.53% close; no new dated news found for Aug 30-31.",
+  "notes": "Named among Aug 31's session gainers (+4.6-4.7%) with no distinct new catalyst beyond the Aug 27 FY27 capex guide/earnings print.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "conflict resolved"
+      "marketCap updated",
+      "shortInterest updated"
     ],
     "tradingDay": true
   }

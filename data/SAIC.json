@@ -8,19 +8,90 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket +11.94% on a Q2 earnings beat and raised FY2027 guidance",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.105Z",
+  "lastResearched": "2026-09-01T06:25:14.922Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5330000000,
+      "value": 5420000000,
       "asOf": "2026-08-31",
       "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 42280000,
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 41800000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 6.42,
+      "asOf": "2026-08-31",
+      "note": "2.71M shares, % of shares outstanding"
+    },
+    "cash": {
+      "value": 126000000,
+      "asOf": "2026-08-31"
+    },
+    "debt": {
+      "value": 2710000000,
+      "asOf": "2026-08-31"
+    },
+    "pe": {
+      "trailing": 15.03,
+      "forward": 12.77,
+      "asOf": "2026-08-31"
+    },
+    "eps": [
+      {
+        "period": "FY2025",
+        "value": 7.17,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 7.7,
+        "basis": "diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 3.01,
+        "basis": "adjusted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 7479000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2026",
+        "value": 7262000000,
+        "yoy": -2.9
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 1880000000,
+        "yoy": 6.3
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q2 FY2027",
+      "pct": 6.3,
+      "note": "as stated in the 2026-08-31 earnings release; full FY2026 revenue was still down 2.90% YoY"
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-31 (Q2 FY2027); next date not yet scheduled"
     }
   },
   "price": {
-    "last": 141,
-    "changePct": 11.94,
+    "last": 128.22,
+    "changePct": 1.79,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, per stockanalysis quote page"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -38,6 +109,34 @@
   "history": [
     {
       "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-31",
       "run": "am",
       "quiet": false,
       "changes": [
@@ -52,14 +151,22 @@
   ],
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "move 11.94%",
-      "conflicts updated"
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
     ],
     "tradingDay": true
-  }
+  },
+  "notes": "Faded hard intraday: premarket indicated +11.94% on the EPS/revenue beat and raised guidance, but closed up only +1.79%."
 }

@@ -8,11 +8,11 @@
   "addedOn": "2026-08-30",
   "addedReason": "Phase 2/3 interim data, +41% to +50% depending on source",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.092Z",
+  "lastResearched": "2026-09-01T06:25:14.926Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12290000,
-      "asOf": "2026-08-28",
+      "value": 12490000,
+      "asOf": "2026-08-31",
       "source": "stockanalysis"
     },
     "sharesOutstanding": {
@@ -62,10 +62,10 @@
     }
   },
   "price": {
-    "last": 5.43,
-    "changePct": -11.25,
+    "last": 6.22,
+    "changePct": 1.63,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 8:58 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -99,10 +99,26 @@
   "conflicts": [
     "Move size: reported as +50% (Zacks), +45% pre-market (RTTNews) and +41% (search summary); the stockanalysis close shows +18.72%. All are as published, at different points in the session."
   ],
-  "pendingFilings": [
-    "Private placement — closing expected on or about 2026-08-31"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -148,14 +164,13 @@
       "from": "daily"
     }
   ],
-  "notes": "Gapping down premarket as the $50M private placement (6.31M ADSs at $4.88) is expected to close on or about today, 2026-08-31 — consistent with dilution pricing near the deal price.",
+  "notes": "Private placement (6.31M ADSs) was expected to close on/about 2026-08-31; shares outstanding still shows 2.01M on stockanalysis as of this pass, so the post-closing share count is not yet reflected — expect a large upward revision once it settles.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "move -11.25%",
-      "conflict resolved"
+      "marketCap updated"
     ],
     "tradingDay": true
   }

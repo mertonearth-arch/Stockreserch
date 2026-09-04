@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "+19.3% on raised FY2027 outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.086Z",
+  "lastResearched": "2026-09-01T06:25:14.933Z",
   "fundamentals": {
     "marketCap": {
       "value": 10490000000,
@@ -20,9 +20,9 @@
       "asOf": "2026-08-28"
     },
     "pe": {
-      "trailing": 28.43,
-      "forward": 28.45,
-      "asOf": "2026-08-28"
+      "trailing": 27.76,
+      "forward": 27.76,
+      "asOf": "2026-08-31"
     },
     "eps": [
       {
@@ -67,10 +67,10 @@
     }
   },
   "price": {
-    "last": 97.5,
-    "changePct": -2.41,
+    "last": 97.55,
+    "changePct": -2.36,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:09 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -84,6 +84,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -123,10 +133,12 @@
   ],
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated"
+    ],
     "tradingDay": true
   },
-  "notes": "Pulling back slightly from Friday's post-earnings +19.31% close; no new dated news found for Aug 30-31."
+  "notes": "Quiet pass — no new dated catalyst since the Aug 27 earnings beat/raise."
 }

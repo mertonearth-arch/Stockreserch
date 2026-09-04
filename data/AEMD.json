@@ -8,11 +8,11 @@
   "addedOn": "2026-08-30",
   "addedReason": "+14.75% to +34% depending on source",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.083Z",
+  "lastResearched": "2026-09-01T06:25:14.927Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1770000,
-      "asOf": "2026-08-28",
+      "value": 1460000,
+      "asOf": "2026-08-31",
       "source": "stockanalysis"
     },
     "sharesOutstanding": {
@@ -48,9 +48,9 @@
       "note": "reported 2026-08-13; next date not yet scheduled"
     },
     "shortInterest": {
-      "value": 9.21,
-      "asOf": "2026-08-28",
-      "note": "65,075 shares, % of float; 1.43 days to cover"
+      "value": 9.15,
+      "asOf": "2026-08-31",
+      "note": "% of shares outstanding"
     },
     "cash": {
       "value": 4930000,
@@ -62,10 +62,10 @@
     }
   },
   "price": {
-    "last": 2.31,
-    "changePct": -7.23,
+    "last": 2.06,
+    "changePct": -17.27,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:16 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -94,6 +94,18 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "shortInterest updated",
+        "move -17.27%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -137,13 +149,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Gave back part of Friday's +14.75% close; no new dated news found for Aug 30-31.",
+  "notes": "No new company-specific news found for Aug 29-31; continued slide looks like unwind of the unexplained Aug 28 spike.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "conflict resolved"
+      "marketCap updated",
+      "shortInterest updated",
+      "move -17.27%"
     ],
     "tradingDay": true
   }

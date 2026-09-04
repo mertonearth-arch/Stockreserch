@@ -1,10 +1,16 @@
 {
-  "updated": "2026-08-31T13:23:03.120Z",
+  "updated": "2026-09-01T06:25:14.955Z",
   "themes": {
     "Biotech Catalyst": {
       "history": [
         {
           "date": "2026-08-31",
+          "names": 3,
+          "catalysts7": 5,
+          "newNames7": 3
+        },
+        {
+          "date": "2026-09-01",
           "names": 3,
           "catalysts7": 5,
           "newNames7": 3
@@ -26,6 +32,12 @@
           "newNames7": 3
         },
         {
+          "date": "2026-09-01",
+          "names": 3,
+          "catalysts7": 3,
+          "newNames7": 3
+        },
+        {
           "date": "2026-08-30",
           "names": 3,
           "catalysts7": 3,
@@ -37,6 +49,12 @@
       "history": [
         {
           "date": "2026-08-31",
+          "names": 2,
+          "catalysts7": 5,
+          "newNames7": 2
+        },
+        {
+          "date": "2026-09-01",
           "names": 2,
           "catalysts7": 5,
           "newNames7": 2
@@ -58,6 +76,12 @@
           "newNames7": 2
         },
         {
+          "date": "2026-09-01",
+          "names": 2,
+          "catalysts7": 3,
+          "newNames7": 2
+        },
+        {
           "date": "2026-08-30",
           "names": 2,
           "catalysts7": 2,
@@ -69,6 +93,12 @@
       "history": [
         {
           "date": "2026-08-31",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        },
+        {
+          "date": "2026-09-01",
           "names": 1,
           "catalysts7": 1,
           "newNames7": 1
@@ -90,6 +120,12 @@
           "newNames7": 1
         },
         {
+          "date": "2026-09-01",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        },
+        {
           "date": "2026-08-30",
           "names": 1,
           "catalysts7": 1,
@@ -102,7 +138,13 @@
         {
           "date": "2026-08-31",
           "names": 2,
-          "catalysts7": 2,
+          "catalysts7": 3,
+          "newNames7": 2
+        },
+        {
+          "date": "2026-09-01",
+          "names": 2,
+          "catalysts7": 3,
           "newNames7": 2
         }
       ]
@@ -114,10 +156,32 @@
           "names": 1,
           "catalysts7": 1,
           "newNames7": 1
+        },
+        {
+          "date": "2026-09-01",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
         }
       ]
     },
     "Government IT & Defense Services": {
+      "history": [
+        {
+          "date": "2026-08-31",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        },
+        {
+          "date": "2026-09-01",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 1
+        }
+      ]
+    },
+    "Consumer Hardware": {
       "history": [
         {
           "date": "2026-08-31",

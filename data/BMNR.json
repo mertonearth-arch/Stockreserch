@@ -8,11 +8,11 @@
   "addedOn": "2026-08-30",
   "addedReason": "ETH treasury update; traded as a leveraged ETH proxy",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.099Z",
+  "lastResearched": "2026-09-01T06:25:14.923Z",
   "fundamentals": {
     "marketCap": {
-      "value": 14360000000,
-      "asOf": "2026-08-28",
+      "value": 15270000000,
+      "asOf": "2026-08-31",
       "source": "stockanalysis"
     },
     "sharesOutstanding": {
@@ -21,9 +21,9 @@
     },
     "pe": {
       "trailing": null,
-      "forward": 59.5,
+      "forward": 63.3,
       "note": "negative trailing earnings",
-      "asOf": "2026-08-28"
+      "asOf": "2026-08-31"
     },
     "eps": [
       {
@@ -54,9 +54,9 @@
       "source": "stockanalysis"
     },
     "shortInterest": {
-      "value": 8.11,
-      "asOf": "2026-08-28",
-      "note": "48.20M shares, % of float; 1.46 days to cover"
+      "value": 7.99,
+      "asOf": "2026-08-31",
+      "note": "% of shares outstanding"
     },
     "cash": {
       "value": 340290000,
@@ -68,10 +68,10 @@
     }
   },
   "price": {
-    "last": 23.98,
-    "changePct": 0.76,
+    "last": 25.32,
+    "changePct": 6.39,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:19 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -93,6 +93,26 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -135,11 +155,12 @@
   "notes": "A $14.36B market cap against $61.2M of TTM revenue — the valuation tracks the treasury holdings, not the operating business.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "conflict resolved"
+      "pe updated",
+      "marketCap updated",
+      "shortInterest updated"
     ],
     "tradingDay": true
   }

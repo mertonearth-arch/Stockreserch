@@ -8,19 +8,84 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket -19.00% after CA Assembly stripped a wildfire-liability shield from SB 492",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.106Z",
+  "lastResearched": "2026-09-01T06:25:14.907Z",
   "fundamentals": {
     "marketCap": {
-      "value": 27000000000,
+      "value": 20770000000,
       "asOf": "2026-08-31",
       "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 384810000,
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 383690000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 3.44,
+      "asOf": "2026-08-31",
+      "note": "13.23M shares, % of shares outstanding"
+    },
+    "cash": {
+      "value": 242000000,
+      "asOf": "2026-08-31"
+    },
+    "debt": {
+      "value": 43540000000,
+      "asOf": "2026-08-31"
+    },
+    "pe": {
+      "trailing": 5.57,
+      "forward": 9.31,
+      "asOf": "2026-08-31"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": 3.31,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 11.55,
+        "basis": "diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 1.38,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 17599000000,
+        "yoy": 7.72
+      },
+      {
+        "period": "FY2025",
+        "value": 19317000000,
+        "yoy": 9.76
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM (Jun 2026)",
+      "pct": 10.74
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-07-30; next date not yet scheduled"
     }
   },
   "price": {
-    "last": 56.84,
-    "changePct": -19,
+    "last": 53.98,
+    "changePct": -23.07,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:19 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -36,6 +101,37 @@
   "history": [
     {
       "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -23.07%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "move -23.07%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-31",
       "run": "am",
       "quiet": false,
       "changes": [
@@ -47,15 +143,24 @@
       "from": "daily"
     }
   ],
-  "notes": "Same legislative catalyst also hit PCG (and reportedly Sempra) same day; grouped under the same theme.",
+  "notes": "Trailing P/E now looks cheap only because the stock has fallen ~35% since Aug 28 on the SB 492 wildfire-liability news; no operating change behind the multiple compression.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "move -19%"
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -23.07%"
     ],
     "tradingDay": true
   }

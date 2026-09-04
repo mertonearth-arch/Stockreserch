@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-08-30",
   "addedReason": "beat-and-raise print, sold off hard anyway",
-  "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.090Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-09-01T06:25:14.936Z",
   "fundamentals": {
     "marketCap": {
       "value": 189960000000,
@@ -97,10 +97,10 @@
     }
   },
   "price": {
-    "last": 215.7,
-    "changePct": -0.42,
+    "last": 211.66,
+    "changePct": -2.29,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:18 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -121,6 +121,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -162,10 +170,10 @@
   ],
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true
   },
-  "notes": "Flat premarket; no new dated news found for Aug 30-31."
+  "notes": "Quiet pass — no new dated catalyst since the Aug 27-28 earnings/Google AI chip deal commentary."
 }

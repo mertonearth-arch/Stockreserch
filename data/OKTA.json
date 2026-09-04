@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-08-30",
   "addedReason": "+28.6% on Q2 beat",
-  "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.104Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-09-01T06:25:14.937Z",
   "fundamentals": {
     "marketCap": {
       "value": 29060000000,
@@ -79,10 +79,10 @@
     }
   },
   "price": {
-    "last": 165,
-    "changePct": -0.74,
+    "last": 173.04,
+    "changePct": 4.1,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:01 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -98,6 +98,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -128,12 +136,10 @@
   ],
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "conflict resolved"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   },
-  "notes": "Flat premarket; no new dated news found for Aug 30-31."
+  "notes": "Quiet pass — no new dated catalyst since the Aug 26 earnings beat; +4.1% move on Aug 31 with no distinct fresh news found."
 }

@@ -8,21 +8,92 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket -19% after CA Assembly stripped a wildfire-liability shield from SB 492",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.107Z",
+  "lastResearched": "2026-09-01T06:25:14.920Z",
   "fundamentals": {
     "marketCap": {
-      "value": 36560000000,
+      "value": 29220000000,
       "asOf": "2026-08-31",
       "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 2200000000,
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 2200000000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 0,
+      "asOf": "2026-08-31",
+      "note": "2,705 shares reported short — negligible"
+    },
+    "cash": {
+      "value": 972000000,
+      "asOf": "2026-08-31"
+    },
+    "debt": {
+      "value": 64700000000,
+      "asOf": "2026-08-31"
+    },
+    "pe": {
+      "trailing": 9.56,
+      "forward": 7.86,
+      "asOf": "2026-08-31"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": 1.15,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 1.18,
+        "basis": "diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 0.33,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 24419000000,
+        "yoy": -0.04
+      },
+      {
+        "period": "FY2025",
+        "value": 24935000000,
+        "yoy": 2.11
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "TTM (Jun 2026)",
+      "pct": 5.66
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-07-23; next date not yet scheduled"
     }
   },
   "price": {
-    "last": 13.43,
-    "changePct": -19.1,
+    "last": 13.27,
+    "changePct": -20.06,
     "asOf": "2026-08-31",
-    "source": "stockanalysis quote page, 9:20 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
+    {
+      "date": "2026-08-31",
+      "type": "analyst",
+      "headline": "Wells Fargo cut to Equal Weight from Overweight (PT $24 from $25); BMO cut to Market Perform from Outperform (PT $21 from $28); Mizuho cut to Neutral from Outperform (PT $16 from $21) — all citing unresolved wildfire liability after the SB 492 revision",
+      "sourceName": "Investing.com / Yahoo Finance"
+    },
     {
       "date": "2026-08-31",
       "type": "regulatory",
@@ -36,6 +107,38 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -20.06%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -20.06%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -53,13 +156,21 @@
   "notes": "Same legislative catalyst also hit EIX (and reportedly Sempra) same day; grouped under the same theme.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "move -19.1%",
-      "conflicts updated"
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -20.06%"
     ],
     "tradingDay": true
   }

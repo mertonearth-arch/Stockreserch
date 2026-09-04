@@ -1,0 +1,153 @@
+{
+  "ticker": "GPRO",
+  "name": "GoPro, Inc.",
+  "sector": "Consumer Discretionary",
+  "theme": "Consumer Hardware",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-09-01",
+  "addedReason": "closed +46.06% after YouTube creator Markiplier (Mark Fischbach) disclosed an 8.5% stake, becoming the largest shareholder, on ~20x average volume",
+  "quietRuns": 0,
+  "lastResearched": "2026-09-01T06:25:14.942Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 161660000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 184500000,
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 137650000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 13.49,
+      "asOf": "2026-08-31",
+      "note": "24.88M shares, % of shares outstanding"
+    },
+    "cash": {
+      "value": 27270000,
+      "asOf": "2026-08-31"
+    },
+    "debt": {
+      "value": 86050000,
+      "asOf": "2026-08-31"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-08-31"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -2.82,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": -0.59,
+        "basis": "diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.3,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 801470000,
+        "yoy": -20.29
+      },
+      {
+        "period": "FY2025",
+        "value": 651540000,
+        "yoy": -18.71
+      },
+      {
+        "period": "Q2 2026",
+        "value": 104930000,
+        "yoy": -31.25
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": -31.25
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-08-10; next date not yet scheduled"
+    }
+  },
+  "price": {
+    "last": 0.8762,
+    "changePct": 46.06,
+    "asOf": "2026-08-31",
+    "source": "stockanalysis close, 4:00 PM EDT"
+  },
+  "catalysts": [
+    {
+      "date": "2026-08-31",
+      "type": "ownership",
+      "headline": "YouTube personality Markiplier (Mark Fischbach) disclosed an 8.5% stake in GoPro, becoming its largest shareholder; he described the stock as cheap and the stake as a personal project to help the company turn around",
+      "impact": "closed +46.06% (some sources report +43.5%/+46%) on ~142.5M shares traded, roughly 20x the prior 5-day average",
+      "source": "https://www.benzinga.com/trading-ideas/movers/26/08/61531604/gopro-stock-soars-as-youtuber-becomes-largest-shareholder"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 46.06%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Pre-existing fundamentals are weak and unrelated to the catalyst: revenue down ~31% YoY last quarter, negative earnings every period shown. The move is entirely about the ownership disclosure, not operating improvement.",
+  "lastPass": {
+    "date": "2026-08-31",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 46.06%"
+    ],
+    "tradingDay": true
+  }
+}

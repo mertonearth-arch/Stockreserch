@@ -8,11 +8,11 @@
   "addedOn": "2026-08-30",
   "addedReason": "Q4 net income $1.62B, revenue +33% YoY",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.097Z",
+  "lastResearched": "2026-09-01T06:25:14.930Z",
   "fundamentals": {
     "marketCap": {
-      "value": 26240000000,
-      "asOf": "2026-08-28",
+      "value": 25120000000,
+      "asOf": "2026-08-31",
       "source": "stockanalysis"
     },
     "sharesOutstanding": {
@@ -20,9 +20,9 @@
       "asOf": "2026-08-28"
     },
     "pe": {
-      "trailing": 14.06,
-      "forward": 20.05,
-      "asOf": "2026-08-28"
+      "trailing": 13.46,
+      "forward": 18.99,
+      "asOf": "2026-08-31"
     },
     "eps": [
       {
@@ -71,13 +71,18 @@
     "nextEarnings": {
       "date": null,
       "note": "reported 2026-08-27; next date not yet scheduled"
+    },
+    "shortInterest": {
+      "value": 4.29,
+      "asOf": "2026-08-31",
+      "note": "% of shares outstanding"
     }
   },
   "price": {
-    "last": 77.15,
-    "changePct": -0.78,
+    "last": 74.45,
+    "changePct": -4.26,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:04 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -91,6 +96,18 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -117,12 +134,16 @@
       "from": "daily"
     }
   ],
-  "notes": "Flat premarket; no new dated news found for Aug 30-31.",
+  "notes": "Quiet pass — no new dated catalyst since the Aug 27 earnings print; the Aug 31 decline (-4.26%) had no distinct company-specific news attached in sources checked.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "marketCap updated",
+      "shortInterest updated"
+    ],
     "tradingDay": true
   }
 }

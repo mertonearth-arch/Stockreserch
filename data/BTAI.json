@@ -8,19 +8,90 @@
   "addedOn": "2026-08-31",
   "addedReason": "continued collapse premarket (-14.77%) following its Aug 27 Chapter 11 filing",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.108Z",
+  "lastResearched": "2026-09-01T06:25:14.925Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5680000,
+      "value": 5100000,
       "asOf": "2026-08-31",
       "source": "stockanalysis"
+    },
+    "sharesOutstanding": {
+      "value": 31310000,
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 26890000,
+      "asOf": "2026-08-31",
+      "source": "stockanalysis"
+    },
+    "shortInterest": {
+      "value": 10.59,
+      "asOf": "2026-08-31",
+      "note": "3.31M shares, % of shares outstanding"
+    },
+    "cash": {
+      "value": 12840000,
+      "asOf": "2026-08-31"
+    },
+    "debt": {
+      "value": 104450000,
+      "asOf": "2026-08-31"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings; company in Chapter 11",
+      "asOf": "2026-08-31"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -23.51,
+        "basis": "diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": -5.73,
+        "basis": "diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.49,
+        "basis": "diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 2270000,
+        "yoy": null
+      },
+      {
+        "period": "FY2025",
+        "value": 640000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 180000,
+        "yoy": null
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "revenue immaterial (IGALMI launch underperformed); company is liquidating via Chapter 11 asset sale to Teva, fundamentals no longer meaningful"
+    },
+    "nextEarnings": {
+      "date": null,
+      "note": "reported 2026-05 quarter; company in Chapter 11, further scheduled reporting uncertain"
     }
   },
   "price": {
-    "last": 0.1546,
-    "changePct": -14.77,
+    "last": 0.1628,
+    "changePct": -10.25,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:05 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -36,6 +107,37 @@
   "history": [
     {
       "date": "2026-08-31",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -10.25%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "move -10.25%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-08-31",
       "run": "am",
       "quiet": false,
       "changes": [
@@ -47,15 +149,24 @@
       "from": "daily"
     }
   ],
-  "notes": "Was scheduled to report earnings 2026-08-28; bankruptcy filing preceded that date. Fundamentals otherwise not established given the ongoing Chapter 11 process.",
+  "notes": "Equity holders are typically wiped out or heavily diluted in a Chapter 11 asset sale; these fundamentals describe a company mid-liquidation, not a going concern.",
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "move -14.77%"
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -10.25%"
     ],
     "tradingDay": true
   }

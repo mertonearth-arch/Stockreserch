@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Q2 print drove the tape; XLK +3.2% on 2026-08-28",
   "quietRuns": 0,
-  "lastResearched": "2026-08-31T13:23:03.102Z",
+  "lastResearched": "2026-09-01T06:25:14.928Z",
   "fundamentals": {
     "marketCap": {
       "value": 5250000000000,
@@ -97,10 +97,10 @@
     }
   },
   "price": {
-    "last": 218.15,
-    "changePct": 0.28,
+    "last": 220.78,
+    "changePct": 1.48,
     "asOf": "2026-08-31",
-    "source": "stockanalysis premarket, 9:19 AM EDT"
+    "source": "stockanalysis close, 4:00 PM EDT"
   },
   "catalysts": [
     {
@@ -126,6 +126,22 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-08-31",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-09-01",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "am",
@@ -167,11 +183,9 @@
   ],
   "lastPass": {
     "date": "2026-08-31",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
