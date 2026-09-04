@@ -199,12 +199,30 @@ Both run `claude-sonnet-5` against `https://github.com/mertonearth-arch/Stockres
 `Bash Read Write Edit Glob Grep WebSearch WebFetch Artifact PushNotification` and the
 `Claude_Code_Remote` connector. Each prompt is self-contained — it does not read this table.
 
-**Open blocker (found 2026-08-30, still open 2026-09-04):** the cloud push returns HTTP 403,
-`Claude doesn't have GitHub access to mertonearth-arch/Stockreserch`. The Claude GitHub App is
-not installed for that account: https://github.com/apps/claude/installations/select_target
+**Open blocker (found 2026-08-30, re-confirmed 2026-09-04):** the cloud run cannot write to
+GitHub. BOTH paths return 403 — `git push` says `Claude doesn't have GitHub access to
+mertonearth-arch/Stockreserch`, and the GitHub MCP `push_files` says `Resource not accessible
+by integration`. The environment does export `GITHUB_TOKEN` and `GH_TOKEN`, but both return 403
+against the REST API too. The Claude GitHub App is simply not installed for the account:
+https://github.com/apps/claude/installations/select_target
 Until it is, every cloud pass publishes a correct dashboard and then loses its state — the
-exact failure the bookends above exist to prevent. Both routine prompts are written to report
-this loudly and send a push notification rather than finish quietly.
+exact failure the bookends above exist to prevent. Both routine prompts are written to try the
+push once, report the failure as their first line, send a push notification, and stop. That
+last part matters: on 2026-09-04 the AM run kept hunting for a way through, started dumping
+every changed data file into context to push them through the API, and burned the account's
+five-hour limit before finishing.
+
+### Two more things the cloud environment does differently
+
+**The checkout arrives in DETACHED HEAD.** A bare `git pull --rebase` fails with "You are not
+currently on a branch". Both prompts now open with `git checkout main` then
+`git pull --rebase origin main`.
+
+**The egress proxy blocks several finance sites.** `stockanalysis.com`, `cnbc.com` and
+`google.com` all return `EGRESS_BLOCKED` on WebFetch. Most existing records cite
+`"source": "stockanalysis close, 4:00 PM EDT"` — that source cannot be refreshed from a cloud
+run, so prices have to come from WebSearch results or a reachable site, labelled honestly as
+whatever was actually used.
 
 ## Publishing
 
