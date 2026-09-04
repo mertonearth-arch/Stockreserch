@@ -185,6 +185,27 @@ Cron for cloud routines is in **UTC**, unlike the local tasks. Stockholm is UTC+
 and UTC+1 in winter, so **the local run times shift by an hour at each DST changeover**
 (next: 2026-10-25). Adjust both routines' cron then, or accept the drift.
 
+### The two routines
+
+They live on claude.ai, not on this machine — a Claude reinstall does not touch them, and a
+closed laptop does not delay them. Manage them at https://claude.ai/code/routines
+
+| Routine | ID | Cron (UTC) | Local |
+|---|---|---|---|
+| Cadence Desk — AM pass | `trig_015b9jYYNhgqDRVLPfRkGCbs` | `27 5 * * 1-5` | 07:27 |
+| Cadence Desk — PM pass | `trig_01MCZjr4wTRe8jZe5TX3N948` | `7 21 * * 1-5` | 23:07 |
+
+Both run `claude-sonnet-5` against `https://github.com/mertonearth-arch/Stockreserch` with
+`Bash Read Write Edit Glob Grep WebSearch WebFetch Artifact PushNotification` and the
+`Claude_Code_Remote` connector. Each prompt is self-contained — it does not read this table.
+
+**Open blocker (found 2026-08-30, still open 2026-09-04):** the cloud push returns HTTP 403,
+`Claude doesn't have GitHub access to mertonearth-arch/Stockreserch`. The Claude GitHub App is
+not installed for that account: https://github.com/apps/claude/installations/select_target
+Until it is, every cloud pass publishes a correct dashboard and then loses its state — the
+exact failure the bookends above exist to prevent. Both routine prompts are written to report
+this loudly and send a push notification rather than finish quietly.
+
 ## Publishing
 
 The dashboard is one Artifact at a stable URL — the same link every day. The URL is stored
