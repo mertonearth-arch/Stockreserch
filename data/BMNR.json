@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "ETH treasury update; traded as a leveraged ETH proxy",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.923Z",
+  "lastResearched": "2026-09-23T05:32:07.472Z",
   "fundamentals": {
     "marketCap": {
       "value": 15270000000,
@@ -68,12 +68,16 @@
     }
   },
   "price": {
-    "last": 25.32,
-    "changePct": 6.39,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 28.75,
+    "asOf": "2026-09-22",
+    "source": "WebSearch aggregation, Sept 22 intraday range $27.72-$28.82"
   },
   "catalysts": [
+    {
+      "date": "2026-09-20",
+      "type": "treasury",
+      "headline": "Disclosed crypto plus cash/securities plus 'moonshot' holdings totaling $17.1B; owns 4.9% of total ETH supply, targeting ~5% ownership as an Ethereum treasury/staking provider"
+    },
     {
       "date": "2026-08-30",
       "type": "treasury",
@@ -93,6 +97,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -154,13 +168,11 @@
   ],
   "notes": "A $14.36B market cap against $61.2M of TTM revenue — the valuation tracks the treasury holdings, not the operating business.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "marketCap updated",
-      "shortInterest updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

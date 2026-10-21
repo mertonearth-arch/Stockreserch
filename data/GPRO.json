@@ -8,7 +8,7 @@
   "addedOn": "2026-09-01",
   "addedReason": "closed +46.06% after YouTube creator Markiplier (Mark Fischbach) disclosed an 8.5% stake, becoming the largest shareholder, on ~20x average volume",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.942Z",
+  "lastResearched": "2026-09-23T05:32:07.471Z",
   "fundamentals": {
     "marketCap": {
       "value": 161660000,
@@ -88,12 +88,23 @@
     }
   },
   "price": {
-    "last": 0.8762,
-    "changePct": 46.06,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 1.29,
+    "asOf": "2026-09-18",
+    "source": "WebSearch aggregation, Sept 18 intraday quote",
+    "note": "no reliable print between 2026-09-18 and premarket 2026-09-23 found in reachable sources"
   },
   "catalysts": [
+    {
+      "date": "2026-09-02",
+      "type": "product",
+      "headline": "Began global retail rollout of the MISSION 1 PRO ILS camera (50MP 1-inch sensor, GP3 processor, 8K60 video)"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "M&A",
+      "headline": "Entered definitive merger agreement with Starman Optical: GoPro shareholders to receive $285M aggregate cash ($1.14/share) and retain ~10% of the combined company; GoPro's ~$92M debt repaid in full at closing; expected to close by year-end 2026 subject to shareholder and regulatory approval",
+      "source": "https://investor.gopro.com/press-releases/press-release-details/2026/GOPRO-ENTERS-INTO-DEFINITIVE-AGREEMENT-TO-MERGE-WITH-STARMAN-OPTICAL-INC-/default.aspx"
+    },
     {
       "date": "2026-08-31",
       "type": "ownership",
@@ -105,6 +116,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -128,25 +149,13 @@
       "from": "daily"
     }
   ],
-  "notes": "Pre-existing fundamentals are weak and unrelated to the catalyst: revenue down ~31% YoY last quarter, negative earnings every period shown. The move is entirely about the ownership disclosure, not operating improvement.",
+  "notes": "Multiple shareholder-rights law firms are reviewing whether the Starman deal terms are fair to GoPro holders (as of mid-September); no dated filing on this found yet.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 46.06%"
+      "2 new catalyst(s)"
     ],
     "tradingDay": true
   }

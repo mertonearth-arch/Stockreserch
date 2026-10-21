@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Phase 2/3 interim data, +41% to +50% depending on source",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.926Z",
+  "lastResearched": "2026-09-23T05:32:07.473Z",
   "fundamentals": {
     "marketCap": {
       "value": 12490000,
@@ -62,12 +62,23 @@
     }
   },
   "price": {
-    "last": 6.22,
-    "changePct": 1.63,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 6.51,
+    "asOf": "2026-09-01",
+    "source": "WebSearch aggregation, Sept 1 quote"
   },
   "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "regulatory",
+      "headline": "Received FDA Fast Track Designation for QRX003 (topical) targeting Peeling Skin Syndrome",
+      "source": "https://www.gurufocus.com/news/9091778/quoin-pharmaceuticals-qnrx-gains-fda-fast-track-for-qrx003-faces-valuation-challenges"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "offering",
+      "headline": "Certain existing shareholders proposed a secondary sale of up to 9.37M ADS; company states it is not participating and derives no financial benefit",
+      "source": "https://www.gurufocus.com/news/9088613/qnrx-shareholders-propose-sale-of-937-million-ads-company-not-involved"
+    },
     {
       "date": "2026-08-28",
       "type": "offering",
@@ -101,6 +112,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -166,11 +187,11 @@
   ],
   "notes": "Private placement (6.31M ADSs) was expected to close on/about 2026-08-31; shares outstanding still shows 2.01M on stockanalysis as of this pass, so the post-closing share count is not yet reflected — expect a large upward revision once it settles.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "marketCap updated"
+      "2 new catalyst(s)"
     ],
     "tradingDay": true
   }

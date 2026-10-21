@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "+19.3% on raised FY2027 outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.933Z",
+  "lastResearched": "2026-09-23T05:32:07.472Z",
   "fundamentals": {
     "marketCap": {
       "value": 10490000000,
@@ -67,12 +67,18 @@
     }
   },
   "price": {
-    "last": 97.55,
-    "changePct": -2.36,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 89.71,
+    "changePct": 3.2,
+    "asOf": "2026-09-21",
+    "source": "WebSearch aggregation (GuruFocus), Sept 21 close"
   },
   "catalysts": [
+    {
+      "date": "2026-09-01",
+      "type": "insider",
+      "headline": "CTO Shay Banon-controlled fund and family trusts sold 476,298 ordinary shares (Aug 31-Sep 2) at weighted-average prices of roughly $89.71-$97.75; CLO Carolyn Herzog separately sold 10,000 shares on Sept 1",
+      "source": "https://www.tipranks.com/news/insider-trading/elastic-cto-cashes-in-massive-stock-sale-unveiled-insider-trading"
+    },
     {
       "date": "2026-08-27",
       "type": "guidance",
@@ -84,6 +90,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -132,11 +148,11 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   },

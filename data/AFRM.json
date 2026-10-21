@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "Q4 net income $1.62B, revenue +33% YoY",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.930Z",
+  "lastResearched": "2026-09-23T05:32:07.472Z",
   "fundamentals": {
     "marketCap": {
       "value": 25120000000,
@@ -79,10 +79,10 @@
     }
   },
   "price": {
-    "last": 74.45,
-    "changePct": -4.26,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 71.77,
+    "changePct": 1.01,
+    "asOf": "2026-09-22",
+    "source": "WebSearch aggregation (Yahoo Finance), Sept 22 close"
   },
   "catalysts": [
     {
@@ -96,6 +96,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -136,14 +144,10 @@
   ],
   "notes": "Quiet pass — no new dated catalyst since the Aug 27 earnings print; the Aug 31 decline (-4.26%) had no distinct company-specific news attached in sources checked.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "marketCap updated",
-      "shortInterest updated"
-    ],
+    "date": "2026-09-23",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

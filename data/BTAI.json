@@ -8,7 +8,7 @@
   "addedOn": "2026-08-31",
   "addedReason": "continued collapse premarket (-14.77%) following its Aug 27 Chapter 11 filing",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.925Z",
+  "lastResearched": "2026-09-23T05:32:07.471Z",
   "fundamentals": {
     "marketCap": {
       "value": 5100000,
@@ -88,12 +88,21 @@
     }
   },
   "price": {
-    "last": 0.1628,
-    "changePct": -10.25,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": null,
+    "asOf": "2026-09-23",
+    "note": "Delisted from Nasdaq 2026-08-31 over the Chapter 11 filing; began OTC trading as BTAIQ on 2026-09-08. Sources disagree sharply on the current quote (see conflicts) and no reliable reachable print was found; not recorded rather than guessed."
   },
   "catalysts": [
+    {
+      "date": "2026-09-08",
+      "type": "listing",
+      "headline": "Began trading over-the-counter under new symbol BTAIQ following the Nasdaq delisting"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "delisting",
+      "headline": "Nasdaq notified BioXcel it would delist the stock following the Chapter 11 filing; trading suspended at the open"
+    },
     {
       "date": "2026-08-27",
       "type": "bankruptcy",
@@ -102,9 +111,22 @@
       "sourceName": "company filing / market coverage"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Quote for BTAI/BTAIQ: one aggregator shows ~$2.13 (~$66.68M market cap) circa 2026-09-22, another shows $0.107 as of 2026-09-02 - roughly a 20x discrepancy not explained by any known split. Likely stale or mismatched-symbol data following the 2026-09-08 Nasdaq-to-OTC move. Not reconciled (2026-09-23)."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -151,22 +173,12 @@
   ],
   "notes": "Equity holders are typically wiped out or heavily diluted in a Chapter 11 asset sale; these fundamentals describe a company mid-liquidation, not a going concern.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -10.25%"
+      "2 new catalyst(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket -19% after CA Assembly stripped a wildfire-liability shield from SB 492",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.920Z",
+  "lastResearched": "2026-09-23T05:32:07.471Z",
   "fundamentals": {
     "marketCap": {
       "value": 29220000000,
@@ -82,12 +82,18 @@
     }
   },
   "price": {
-    "last": 13.27,
-    "changePct": -20.06,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 13.15,
+    "changePct": -3.3,
+    "asOf": "2026-09-15",
+    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 15 close"
   },
   "catalysts": [
+    {
+      "date": "2026-09-02",
+      "type": "guidance",
+      "headline": "Announced a strategic review (four-member independent director committee) and deferred ~$2B of previously planned 2027 capital spending (2027 capex plan cut from $13.4B to $11.4B), reducing 2027 debt financing needs by ~$2B; CEO cited the unresolved wildfire liability framework",
+      "source": "https://finance.yahoo.com/energy/articles/pg-e-begins-strategic-review-135115983.html"
+    },
     {
       "date": "2026-08-31",
       "type": "analyst",
@@ -107,6 +113,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -155,22 +171,11 @@
   ],
   "notes": "Same legislative catalyst also hit EIX (and reportedly Sempra) same day; grouped under the same theme.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -20.06%"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

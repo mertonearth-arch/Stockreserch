@@ -8,7 +8,7 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket -19.00% after CA Assembly stripped a wildfire-liability shield from SB 492",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.907Z",
+  "lastResearched": "2026-09-23T05:32:07.471Z",
   "fundamentals": {
     "marketCap": {
       "value": 20770000000,
@@ -82,12 +82,18 @@
     }
   },
   "price": {
-    "last": 53.98,
-    "changePct": -23.07,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 54.79,
+    "changePct": -0.94,
+    "asOf": "2026-09-21",
+    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 21 close"
   },
   "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "rating",
+      "headline": "Fitch revised Edison International's and Southern California Edison's rating outlooks to negative from stable; affirmed long/short-term issuer default ratings at BBB/F3, citing stalled wildfire liability reform",
+      "source": "https://ca.investing.com/news/stock-market-news/fitch-cuts-edison-international-outlook-on-wildfire-reform-stall-93CH-4842514"
+    },
     {
       "date": "2026-08-31",
       "type": "regulatory",
@@ -99,6 +105,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -145,22 +161,11 @@
   ],
   "notes": "Trailing P/E now looks cheap only because the stock has fallen ~35% since Aug 28 on the SB 492 wildfire-liability news; no operating change behind the multiple compression.",
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -23.07%"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

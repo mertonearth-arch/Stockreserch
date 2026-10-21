@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-08-30",
   "addedReason": "beat-and-raise print, sold off hard anyway",
-  "quietRuns": 1,
-  "lastResearched": "2026-09-01T06:25:14.936Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-09-23T05:32:07.473Z",
   "fundamentals": {
     "marketCap": {
       "value": 189960000000,
@@ -97,12 +97,19 @@
     }
   },
   "price": {
-    "last": 211.66,
-    "changePct": -2.29,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 257.38,
+    "changePct": 5.38,
+    "asOf": "2026-09-22",
+    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 22 close"
   },
   "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "product",
+      "headline": "Demonstrated industry-first 2nm optical interconnect technologies for AI data centers at ECOC 2026 (400G-per-lane PAM4, 800G ZR/ZR+, 1.6T coherent, co-packaged optics)",
+      "impact": "+5.38% on the session",
+      "source": "https://www.fxleaders.com/news/2026/09/22/marvell-stock-forecast-mrvl-2nm-optical-tech/"
+    },
     {
       "date": "2026-08-28",
       "type": "reaction",
@@ -121,6 +128,16 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -169,10 +186,12 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-09-23",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   },
   "notes": "Quiet pass — no new dated catalyst since the Aug 27-28 earnings/Google AI chip deal commentary."

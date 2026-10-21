@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-08-30",
   "addedReason": "ARR beat and raise, shares -13%",
-  "quietRuns": 1,
-  "lastResearched": "2026-09-01T06:25:14.938Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-09-23T05:32:07.473Z",
   "fundamentals": {
     "marketCap": {
       "value": 19150000000,
@@ -68,12 +68,23 @@
     }
   },
   "price": {
-    "last": 93.04,
-    "changePct": -0.01,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 106.71,
+    "asOf": "2026-09-18",
+    "source": "WebSearch aggregation, Sept 18 close (all-time-high close of $107.83 was Sept 17)"
   },
   "catalysts": [
+    {
+      "date": "2026-09-15",
+      "type": "product",
+      "headline": "Announced Rubrik MCP and Code Guardian, expanding its AI security, code analysis, and data protection portfolio"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "partnership",
+      "headline": "Announced a partnership with CrowdStrike launching a closed-loop identity security and data protection workflow, integrating CrowdStrike Falcon Next-Gen Identity Security with Rubrik Identity Resilience",
+      "impact": "+13.09% on the session",
+      "source": "https://stockstotrade.com/news/rubrik-inc-rbrk-news-2026_09_14-2/"
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -87,6 +98,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -136,10 +157,12 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-09-23",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)"
+    ],
     "tradingDay": true
   },
   "notes": "Quiet pass — no new dated catalyst since the Aug 27 ARR beat/raise."

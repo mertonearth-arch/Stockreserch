@@ -8,7 +8,7 @@
   "addedOn": "2026-08-30",
   "addedReason": "$14.5B merger with ESI called off",
   "quietRuns": 1,
-  "lastResearched": "2026-09-01T06:25:14.940Z",
+  "lastResearched": "2026-09-23T05:32:07.474Z",
   "fundamentals": {
     "marketCap": {
       "value": 10090000000,
@@ -67,10 +67,9 @@
     }
   },
   "price": {
-    "last": 63.39,
-    "changePct": -0.22,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 57.69,
+    "asOf": "2026-09-22",
+    "source": "WebSearch aggregation, Sept 22 close"
   },
   "catalysts": [
     {
@@ -86,6 +85,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -134,11 +141,11 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true
   },
-  "notes": "Quiet pass — no new dated catalyst since the Aug 28 merger-termination news."
+  "notes": "No new dated catalyst found beyond the already-recorded scrapped ESI merger."
 }

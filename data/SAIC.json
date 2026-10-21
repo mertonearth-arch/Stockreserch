@@ -8,7 +8,7 @@
   "addedOn": "2026-08-31",
   "addedReason": "premarket +11.94% on a Q2 earnings beat and raised FY2027 guidance",
   "quietRuns": 0,
-  "lastResearched": "2026-09-01T06:25:14.922Z",
+  "lastResearched": "2026-09-23T05:32:07.474Z",
   "fundamentals": {
     "marketCap": {
       "value": 5420000000,
@@ -88,12 +88,16 @@
     }
   },
   "price": {
-    "last": 128.22,
-    "changePct": 1.79,
-    "asOf": "2026-08-31",
-    "source": "stockanalysis close, 4:00 PM EDT"
+    "last": 131,
+    "asOf": "2026-09-22",
+    "source": "WebSearch aggregation, Sept 22 close"
   },
   "catalysts": [
+    {
+      "date": "2026-09-01",
+      "type": "rating",
+      "headline": "Stifel Nicolaus raised its price target to $154 from $137 (Buy); UBS raised to $123 from $108; Truist raised to $130 from $110"
+    },
     {
       "date": "2026-08-31",
       "type": "earnings",
@@ -107,6 +111,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-09-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-08-31",
       "run": "pm",
@@ -150,21 +164,11 @@
     }
   ],
   "lastPass": {
-    "date": "2026-08-31",
-    "run": "pm",
+    "date": "2026-09-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   },
