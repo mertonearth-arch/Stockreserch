@@ -1,6 +1,6 @@
 {
   "ticker": "CIFR",
-  "name": "Cipher Mining Inc.",
+  "name": "Cipher Mining Inc. (recently also referred to as Cipher Digital Inc.)",
   "sector": null,
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
@@ -8,66 +8,181 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.410Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 9120000000,
+      "asOf": "2026-08-01",
+      "source": "companiesmarketcap.com ($22.32 x 405,112,315 shares)"
     },
     "float": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 335200000,
+      "asOf": "2026-05-15",
+      "note": "derived from Benzinga's short-interest report 'float base'; may be stale relative to later share issuance"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 405112315,
+      "asOf": "2026-08-01",
+      "source": "companiesmarketcap.com"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 16.35,
+      "asOf": "2026-05-15",
+      "note": "~54.81M shares short per Benzinga/FINRA-settlement-date report; this is the most recent figure found and is likely stale relative to October 2026"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 715200000,
+      "asOf": "2026-03-31",
+      "source": "Digrin aggregator (Q1 2026); no June 30, 2026 figure could be confirmed"
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 6000000000,
+      "asOf": "2026-06-30",
+      "note": "TIKR reports 'total corporate and project debt stood at just over $6 billion as of June 30' — this is the figure most consistent with the company's large-scale Texas data-center buildout; see conflicts for materially different figures from other aggregators"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings disclosed"
+      "note": "negative earnings",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -0.145,
+        "basis": "diluted, non-GAAP/normalized",
+        "note": "net loss ~$44.6M on revenue of ~$151.27M; per Stockopedia/Macrotrends aggregation, not independently confirmed against the 10-K"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "one aggregator (Kalkine) cited net loss ~-$822M / diluted EPS ~-$2.15 for FY2025, but this conflicts sharply with other data and could not be verified — treated as unreliable, see conflicts"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.65,
+        "basis": "GAAP",
+        "note": "vs. analyst estimate of -$0.24; revenue $24.84M vs. $33.16M estimate; large noncash ~$150.5M warrant-remeasurement charge contributed to the loss per TIKR"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 151270000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 24840000
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "revenue YoY (quarterly)",
+      "period": "Q2 2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Q2 2025 comparable revenue figure not located in sandbox to compute a YoY %; Q2 2026 revenue of $24.84M missed consensus estimate of $33.16M"
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "not found; Q2 2026 was reported Aug 4, 2026, so a Q3 2026 report is plausible in early-mid November 2026 but no date was confirmed in this session"
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-17",
+      "type": "analyst coverage",
+      "headline": "Wells Fargo initiates coverage of Cipher Mining (CIFR) with an Overweight rating and $25 price target",
+      "impact": "Positive sell-side sentiment ahead of the ERCOT grid-capacity news",
+      "source": "secondary coverage (search aggregation)"
+    },
+    {
+      "date": "2026-09-16/17",
+      "type": "regulatory/grid capacity",
+      "headline": "ERCOT's 'Batch Zero' interconnection review validates ~3.2 GW of grid capacity across Cipher's Texas data-center portfolio (six facilities), including conditional baseload designations for Stingray (100 MW) and Colchis (1 GW); stock rose ~14% intraday to $17.58",
+      "impact": "Validates large-scale AI/HPC datacenter colocation pivot; company expects to satisfy audit conditions and finalize site designations by December 2026",
+      "source": "secondary coverage (financialmodelingprep.com, pro.edgex.exchange); this corroborates the on-file catalyst though a primary Cipher press release could not be independently located/fetched in this sandbox"
+    },
     {
       "date": "2026-09-16",
       "type": "regulatory",
       "headline": "ERCOT's 'Batch Zero' process granted Cipher a conditional 3.2 GW Texas baseload grid classification, supporting its pivot from bitcoin mining toward higher-margin AI data-center colocation",
       "source": "https://finance.yahoo.com/markets/stocks/articles/cipher-digital-surges-9-conditional-140043735.html"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "earnings",
+      "headline": "Cipher Mining reports Q2 2026 results: EPS -$0.65 (vs. -$0.24 est.), revenue $24.84M (vs. $33.16M est.)",
+      "impact": "Earnings and revenue miss; stock reportedly fell on rising-debt-pressure concerns tied to the data-center buildout financing",
+      "source": "quiverquant.com / tikr.com aggregation of the earnings release"
+    },
+    {
+      "date": "2026-08",
+      "type": "operations",
+      "headline": "Company states it began delivering data-center capacity at the start of August 2026, roughly two months ahead of its original schedule; also acquired an option on a new ~900 MW 'Apollo' site near San Antonio, TX",
+      "impact": "Accelerated AI/HPC colocation timeline and expanded future capacity pipeline",
+      "source": "secondary coverage (search aggregation); company's own August 2026 operational update not independently fetched"
     }
   ],
   "conflicts": [
-    "Session move reported as both ~9% and ~12.8% across sources -- not reconciled."
+    "Debt: 'just over $6 billion' total corporate + project debt as of June 30, 2026 (TIKR) vs. $2.77B (VCP Scanner, unclear date/definition) vs. $8.3M (Digrin, appears to cover only corporate-level debt, excluding non-recourse project financing for the data-center buildout).",
+    "Shares outstanding: 405,112,315 (companiesmarketcap.com, Aug 2026) vs. 405,119,407 (Equibles, undated) vs. 393,282,650 (TipRanks, likely stale) vs. a ~335.2M 'float base' implied by a May 2026 Benzinga short-interest report.",
+    "Market cap: $9.12B (companiesmarketcap at $22.32/share) vs. ~$7.21B (Yahoo Finance, as of 6/30/2026) vs. ~$7.4B implied by an early-August 2026 Benzinga quote of $18.21 x ~405M shares (this last figure is this agent's own arithmetic, not a sourced figure).",
+    "FY2025 full-year EPS: one aggregator (Kalkine) shows an outsized net loss of ~$822M (diluted EPS ~-$2.15), while FY2024 net loss was only ~$44.6M and Q2 2026 alone was ~$0.65/share — the Kalkine FY2025 figure could not be reconciled with other sources and may reflect a large one-time/noncash item (e.g., warrant remeasurement) or a data error; treat as unverified.",
+    "Company naming: recent sources refer to the company as 'Cipher Digital Inc.' rather than 'Cipher Mining Inc.' under the same CIFR ticker — this apparent rename (consistent with its AI-datacenter pivot) could not be independently confirmed with a primary source in this sandbox."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Bitcoin miner pivoting toward higher-margin AI data-center colocation; ERCOT granted it a conditional 3.2 GW Texas baseload grid classification. Market cap, float, shares outstanding, short interest, cash, debt, EPS/revenue, and next earnings date are not disclosed in the dashboard.",
-  "history": [],
+  "notes": "Theme 'Crypto Treasury & Miners' (on file) still reasonably fits since Cipher's core identity is Bitcoin mining infrastructure, but the company is visibly pivoting toward AI/HPC datacenter colocation (ERCOT 3.2GW grid capacity, Fluidstack/Google-backed colocation deal, Apollo site option) — this is a real and significant business-mix shift worth flagging even though no better theme string from the fixed list clearly fits better; kept as-is per instructions since no listed alternative is a cleaner match. A possible company rename to 'Cipher Digital Inc.' surfaced in secondary sources and should be verified. SEC EDGAR and most financial/news sites were policy-blocked (403) for direct WebFetch in this sandbox; all figures rely on WebSearch-summarized secondary/aggregator sources, which disagree substantially on debt and EPS — treat the fundamentals above as directional, not final, until checked against the actual 10-Q/10-K.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

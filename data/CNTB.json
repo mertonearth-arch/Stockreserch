@@ -1,56 +1,96 @@
 {
   "ticker": "CNTB",
   "name": "Connect Biopharma Holdings Limited",
-  "sector": null,
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.411Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "source": null,
+      "note": "No reliable current-dated quote reachable in this sandbox (stockanalysis.com and google.com are egress-blocked; WebFetch to all other domains failed with DNS errors this run). Historical snapshots from WebSearch alone span $114.5M-$194.5M at prices $2.00-$3.69, dated between ~Jan and Apr 2026 -- all stale relative to 2026-10-22 and mutually inconsistent, so none is reported as current."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed in any source found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 62974309,
+      "asOf": "2026-07-31",
+      "source": "SEC Form 10-Q cover page (Q2 2026, filed for period ended 2026-06-30)"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not found in sandbox search"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 46034000,
+      "asOf": "2026-03-31",
+      "source": "SEC Form 10-Q (Q1 2026) -- cash and cash equivalents, no short-term investments reported that quarter",
+      "note": "Q2 2026 (as of 2026-06-30) figure of ~$31.5M cash+short-term investments combined is cited by Panabee (third-party aggregator, unverified against the primary 10-Q text, which could not be fetched in this sandbox) -- see conflicts"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed in sources found; clinical-stage biotechs of this size typically carry little/no debt but this was not independently confirmed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings-based multiple applicable",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash position / trial progress (pre-revenue)",
+      "period": "H1 2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Pre-revenue clinical-stage biotech. One third-party source (Panabee, unverified) reported a ~29% decline in cash+short-term investments from year-end 2025 to 2026-06-30. Primary trial-progress metric: Phase 2 Seabreeze STAT asthma study of rademikibart completed and reported topline (see catalysts); Phase 2 COPD companion study topline was pending as of the article found."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "No confirmed or estimated date found in sandbox search"
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "clinical trial",
+      "headline": "Phase 2 Seabreeze STAT asthma topline for rademikibart (acute exacerbations): reduced 28-day treatment-failure rate by 66% vs placebo but did not reach statistical significance (company cited lower-than-projected overall treatment-failure rate); secondary endpoint post-bronchodilator FEV1 showed a statistically significant improvement vs baseline.",
+      "impact": "Stock described as having fallen sharply on the miss",
+      "source": "https://fiercebiotech.com/biotech/connect-biopharma-missing-asthma-primary-endpoint-sends-investors-spiraling-about-copd",
+      "note": "Exact release date could not be independently confirmed in this sandbox (source article undated in search snippet); company had guided in a 2026-06-17 release to 'early September 2026' for this readout, consistent with the on-file 2026-09-16 date, which is retained here."
+    },
     {
       "date": "2026-09-16",
       "type": "clinical",
@@ -62,18 +102,72 @@
       "type": "clinical",
       "headline": "Lead candidate rademikibart failed to meet the primary endpoint in a Phase 2 asthma trial; the company's own release emphasized positive secondary findings (66% reduction in treatment failure, FEV1 improvement), but the stock reaction indicates the primary-endpoint miss dominated investor reaction",
       "impact": "-26% to -40% premarket (day range $0.91-$1.82 per one source)"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "guidance",
+      "headline": "Company press release set expected timing: Phase 2 Seabreeze STAT asthma topline in early September 2026, with Phase 2 COPD companion study topline to follow soon after",
+      "source": "https://connectbiopharma.gcs-web.com/news-releases/news-release-details/connect-biopharma-announces-completion-enrollment-phase-2"
     }
   ],
   "conflicts": [
-    "Move size reported inconsistently across sources, roughly -26% to -40% -- recording the range, not a single figure."
+    "Shares outstanding: TipRanks ~55.7M vs Equibles ~56.5M vs Motley Fool/Google Finance/StockAnalysis ~62.96-62.97M vs SEC 10-Q cover page (most authoritative) 62,974,309 as of 2026-07-31 -- the SEC figure is used above.",
+    "Market cap across WebSearch snapshots, all dated Jan-Apr 2026 and mutually stale/inconsistent: TipRanks $114.49M, Motley Fool $125.93M at $2.00, MarketBeat $134.80M at ~$2.38, StockAnalysis $140.43M, Public.com $148.66M (asOf 2026-04-08), Value Research $162M (asOf 2026-04-01), Robinhood $194.54M at $3.69 (asOf 2026-03-29). No current (October 2026) figure could be established.",
+    "Cash at 2026-06-30: Panabee (third-party) cites ~$31.5M cash+short-term investments (a ~29% H1 decline), but this could not be verified against the primary 10-Q text, which could not be fetched in this sandbox."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Nasdaq-listed ADR, Cayman-domiciled clinical-stage biopharma. Lead candidate rademikibart missed the primary endpoint in a Phase 2 asthma trial but showed positive secondary findings (FEV1 improvement, reduced treatment failures) in a later preliminary readout. Market cap, float, shares outstanding, short interest, cash, debt, EPS/revenue, and next earnings date are not disclosed in the dashboard.",
-  "history": [],
+  "pendingFilings": [
+    "10-Q Q2 2026 (filed ~2026-08, period ended 2026-06-30)"
+  ],
+  "notes": "Theme 'Biotech Catalyst' fits: clinical-stage biopharma whose stock moves on binary trial readouts. themeLabel set to 'nano-cap' given sub-$200M historical market cap range. SEC EDGAR (www.sec.gov) and most news-wire domains (businesswire, stocktitan, globenewswire, prnewswire) were unreachable via WebFetch/curl in this sandbox session (DNS/connect failures), and the WebSearch tool's per-turn budget was exhausted partway through this research pass, so several fields rely only on WebSearch result snippets rather than primary-document confirmation.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

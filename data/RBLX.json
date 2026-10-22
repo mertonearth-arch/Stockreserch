@@ -1,53 +1,73 @@
 {
   "ticker": "RBLX",
   "name": "Roblox Corporation",
-  "sector": null,
-  "theme": "Consumer Hardware",
+  "sector": "Interactive Media & Online Gaming Platform",
+  "theme": "Consumer Internet & Gaming Platforms",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.427Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 26840000000,
+      "asOf": null,
+      "source": "Equibles (snapshot believed to be from mid/late Aug 2026; exact as-of date not stated)",
+      "note": "A July 2026 Equibles snapshot showed $42.28B at a $55.41 price — a much higher figure. See conflicts."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 714380000,
+      "note": "Conflicts with other Equibles pages showing 661,635,583 and 671,595,792 shares, which appear to be from earlier filings/snapshots."
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 3.4,
+      "asOf": null,
+      "source": "Equibles (24.1M shares short, ~1.8 days to cover); % of float",
+      "note": "A July 2026 snapshot showed 4.2% (30.3M shares, 3.0 days to cover); a FINRA-settlement-based series showed 20.7M shares as of the 2026-04-30 settlement. Trend is not monotonic across sources/dates."
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Not established this session — WebFetch to SEC EDGAR failed (sandbox DNS/network issue) and WebSearch budget was exhausted before a balance-sheet figure could be sourced for the Q2 2026 (period ended 2026-06-30) 10-Q."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Not established this session; same limitation as cash above."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings (GAAP)"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -0.26,
+        "basis": "GAAP (basic and diluted)"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "yoy": null,
+        "note": "Disputed between sources: $1.47B (Shacknews) vs. $1.56B (Benzinga); not reconciled against the primary earnings release this session."
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Q2 2026 revenue itself is disputed between sources (see revenue field); YoY was not computed for that reason. Q2 EPS loss of -$0.26 beat consensus estimates of roughly -$0.33 to -$0.35."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-10-29",
+      "confirmed": false
+    }
   },
   "price": null,
   "catalysts": [
@@ -56,18 +76,84 @@
       "type": "guidance",
       "headline": "Delayed market reaction to 'Roblox Everywhere' platform announcements from the prior week's developer conference (cross-platform distribution, offline play, AI dev tools), amplified by a round of Wall Street price-target hikes (e.g., Wedbush)",
       "impact": "+10% to +11% intraday"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Q2 2026 results: EPS -$0.26 (beat consensus estimates of roughly -$0.33 to -$0.35); revenue reported as either $1.47B (Shacknews) or $1.56B (Benzinga) — sources disagree; both describe the print as a revenue miss vs. consensus.",
+      "impact": null,
+      "source": "https://www.shacknews.com/article/150205/roblox-rblx-q2-2026-earnings-results"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "capital return",
+      "headline": "Board approved a $3 billion stock buyback authorization.",
+      "impact": null,
+      "source": null
     }
   ],
   "conflicts": [
-    "Exact move date is ambiguous between 2026-09-14 and 2026-09-15 across sources. One source's quoted price target ($48) was below the reported trading price ($49.96-$50.55) — an internal inconsistency not resolved this pass."
+    "Market cap / shares outstanding: an Aug 2026 Equibles snapshot shows $26.84B at 714.38M shares vs. a July 2026 snapshot showing $42.28B at a $55.41 price — implying the stock roughly halved between July and August, which is a large move to leave unreconciled; flagging rather than picking one.",
+    "Short interest: inconsistent trend across snapshots/dates (20.7M shares as of 2026-04-30 FINRA settlement; 30.3M shares / 4.2% of float in a July 2026 snapshot; 24.1M shares / 3.4% of float in an Aug 2026 snapshot).",
+    "Q2 2026 revenue: $1.47B (Shacknews) vs. $1.56B (Benzinga).",
+    "Trailing EPS: Google Finance shows -$1.42 vs. Eulerpool shows -$1.52 (as of 2026-08-06); window/basis not clearly stated by either, not reconciled.",
+    "Next earnings date: Earnings Whispers and Benzinga both show Oct 29, 2026 (after market close), but RTTNews shows Oct 23, 2026 — a one-week discrepancy; the Oct 29 date is used above as the majority reading but is NOT company-confirmed."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: No market cap, P/E, EPS, or growth figures disclosed in the dashboard. Latest catalyst is a delayed market reaction to Roblox's developer-conference platform announcements plus analyst price-target hikes, with intraday gains of +10% to +11%. Sources disagreed on the exact date of the move and on the reported price target vs. trading price.",
-  "history": [],
+  "pendingFilings": [
+    "10-Q for Q2 2026 (period ended 2026-06-30)"
+  ],
+  "notes": "THEME MISMATCH CONFIRMED: 'Consumer Hardware' does not fit — Roblox is a user-generated-content gaming/social platform monetizing via virtual currency (Robux) and has no hardware business. None of the pre-existing theme strings (including 'Consumer Apparel & Retail') genuinely fit a gaming/UGC platform, so a new theme, 'Consumer Internet & Gaming Platforms', is proposed here; recommend reusing this exact string if other gaming/platform names are added later rather than creating near-duplicates. Regulatory/legal context (requested by user): Roblox's own 10-Q discloses increased regulatory investigations and lawsuits (minors' online safety, alleged facilitation of gambling, unsafe design, inadequate controls) in recent periods. A federal multidistrict litigation (MDL) was consolidated into the Northern District of California (JPML order, Dec 2025) with lead plaintiffs' counsel appointed early Feb 2026 — both outside the ~6-month catalyst window so omitted from the dated catalyst list above, but included here for context. Louisiana's attorney general has also sued Roblox over alleged failure to protect children (adults posing as minors, age-gate bypass, explicit user-generated content); no reliable filing date was found this session, so it is not listed as a dated catalyst. The 'Roblox Everywhere' platform-announcement/price-target-hike catalyst from the original 2026-09-14 snapshot entry was NOT independently re-verified this session (WebSearch budget exhausted) and is therefore omitted rather than carried forward unverified. Cash/debt figures and full annual EPS history could not be established this session.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

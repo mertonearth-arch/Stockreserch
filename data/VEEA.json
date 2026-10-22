@@ -1,71 +1,189 @@
 {
   "ticker": "VEEA",
   "name": "Veea Inc.",
-  "sector": null,
+  "sector": "Edge Computing / IoT Infrastructure",
   "theme": "Government IT & Defense Services",
-  "themeLabel": "established",
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.434Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 14400000,
+      "asOf": "2026-10-09",
+      "source": "Derived: ~2.52M post-split shares (see sharesOutstanding note) x $5.70 close on 2026-10-09",
+      "note": "This is a calculated estimate, not a directly-sourced market-cap figure, flagged as such. No aggregator market-cap figure dated after the Aug 2026 reverse split was found."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not found in available sources; see shortInterest conflicts for float-related figures that could not be reconciled"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 2520378,
+      "asOf": "estimated post-split, 2026-08-31",
+      "source": "Derived from last confirmed pre-split count (50,407,567 shares as of 2026-05-13, per Q1 2026 10-Q cover page) divided by the announced 1-for-20 reverse split ratio effective 2026-08-31",
+      "note": "This is an arithmetic estimate based on disclosed figures, not a directly observed post-split share count -- no 10-Q or 8-K filed after the split with an updated share count was reachable in sandbox. The company also filed a Form 424B5 (securities offering prospectus) around mid-August 2026, which may have added shares after this count; treat as approximate and likely a floor."
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Could not establish a reliable figure -- sources are wildly inconsistent and dated across different pre/post-split periods: Benzinga ~0.68% (late 2025); Equibles 0.8% of float (2026-07-02, pre-split); Chartmill 4.38% of float (undated); a Benzinga Korean-language page cites 35.7% short float (dated near the Sept 2026 NovaGen news); Tickeron cites 'about 39% of shares sold short' (Oct 2026); Quiverquant headline cites short interest 'rises to 64.77%' (undated). These cannot be reconciled in this sandbox and are recorded verbatim in conflicts."
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 1900000,
+      "asOf": "2026-06-30",
+      "source": "Third-party earnings analysis (panabee.com), summarizing the Q2 2026 10-Q -- NOT independently confirmed against the primary filing (sec.gov unreachable in sandbox)",
+      "note": "Same source states the company remains dependent on related-party debt from its CEO and affiliated entities (e.g., NLabs) to fund operations, and that accrued rent/debt has been converted into Series A Preferred Stock."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "No clean total-debt figure found; disclosed as primarily related-party debt from the CEO/affiliates per third-party summary, amount not quantified in available sources."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings -- company reported an operating loss of ~$12.2M against ~$0.4M of revenue for H1 2026; pre-revenue-stage economics, no analyst forward estimate found."
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved in sandbox"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved in sandbox"
+      },
+      {
+        "period": "H1 2026 (ended 2026-06-30)",
+        "value": null,
+        "basis": null,
+        "note": "Operating loss of ~$12.2M disclosed (third-party summary) but no per-share figure found; most recent discrete quarter's EPS not isolated from the half-year figure in available sources."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "H1 2025",
+        "value": 100000,
+        "yoy": null
+      },
+      {
+        "period": "H1 2026",
+        "value": 400000,
+        "yoy": 300
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "H1 2026 (six months ended 2026-06-30)",
+      "pct": 300,
+      "note": "Growth is off a very small base (~$0.4M vs ~$0.1M); not indicative of a mature revenue ramp. Company is effectively pre-revenue for its edge-infrastructure business as filed."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not found in available sources."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "regulatory/listing",
+      "headline": "Shares rose 47.3% to $5.70 after the company said it resolved remaining governance deficiencies and regained full Nasdaq listing compliance (announced 2026-10-08)",
+      "source": "Quiver Quant news summary"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "M&A (non-binding)",
+      "headline": "Signed a non-binding term sheet for a business combination with NovaGen Group B.V. (regenerative medicine/longevity) to form 'NovaGen Health Networks'; implied combined valuation ~$750M (management estimate); GeoNova Capital signed a term sheet for a proposed $10M investment. Parties targeted execution of a definitive agreement 'within the coming weeks' -- STILL NOT EXECUTED as of the most recent information found in this session (no October 2026 definitive-agreement filing located)",
+      "source": "SEC 8-K (https://www.sec.gov/Archives/edgar/data/0001840317/000121390026100507/ea0305721-8k_veea.htm -- content relayed via WebSearch, direct fetch unreachable in sandbox)"
+    },
     {
       "date": "2026-09-14",
       "type": "m&a",
       "headline": "Signed a non-binding term sheet for a business combination with NovaGen Group B.V. (a regenerative medicine/longevity company) to launch 'NovaGen Health Networks', implying a combined-company valuation of roughly $750M; GeoNova Capital committing $10M as a cornerstone investor",
       "impact": "+82% to +90% after-hours 2026-09-14, continuing into 2026-09-15 premarket"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "corporate action",
+      "headline": "1-for-20 reverse stock split took effect; trading began on a split-adjusted basis at market open 2026-08-31 (ticker unchanged: VEEA; new CUSIP 693489205); public warrants adjusted to 1/20 share at $230 exercise price per whole share",
+      "source": "Nasdaq.com press release / company 8-K, per WebSearch summary"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "corporate action",
+      "headline": "Announced the reverse stock split (board approved ratio 2026-08-10; stockholders had approved a split range at the 2025-12-30 annual meeting)",
+      "source": "Nasdaq.com press release"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Veea is an AI-powered edge computing/connectivity company, not an ETF, warrant, or unit. No market cap, P/E, EPS, or dollar price disclosed. Shares surged +82% to +90% after-hours on 2026-09-14 (continuing into 2026-09-15 premarket) after signing a non-binding term sheet for a business combination with NovaGen Group B.V. to launch 'NovaGen Health Networks', implying a combined-company valuation of roughly $750M, with GeoNova Capital committing $10M as a cornerstone investor. Deal is non-binding, not a definitive agreement.",
-  "history": [],
+  "conflicts": [
+    "Short interest estimates range from ~0.7% to ~65% of float/shares across sources and dates -- could not be reconciled; recorded as a conflict rather than resolved.",
+    "Price appears to jump from $0.23 (2026-07-02, equibles) to a $3.87-$5.70 range in October 2026 (various sources) -- this is very likely explained by the 1-for-20 reverse stock split effective 2026-08-31 (pre-split $0.23 x 20 ~= $4.60, consistent with the October range), rather than a real anomaly; flagged per instructions rather than silently adjusted.",
+    "Share count: a Benzinga page shows 19,070,336 shares (late 2025) vs. the Q1 2026 10-Q's 50,407,567 shares (as of 2026-05-13) -- a large jump that was not explained by any single source found (likely dilution/offerings over the period); the post-split (~2.52M) figure used above is a derived estimate, not directly observed.",
+    "A Benzinga Korean-language page lists a $5.84 price alongside '35.7% short float,' which is roughly consistent with the October price range but was not fully cross-checked against the Quiver Quant $5.70 figure for the same window."
+  ],
+  "pendingFilings": [
+    "Form 424B5 securities offering prospectus filed ~mid-August 2026 (potential dilution -- not yet quantified)",
+    "Definitive NovaGen business-combination agreement -- not yet filed as of latest information found"
+  ],
+  "notes": "VEEA/NOVAGEN DEAL STATUS -- STILL NON-BINDING, NOT A DEFINITIVE AGREEMENT: as of the most recent filing found (an 8-K describing a signed term sheet, targeting a definitive business-combination agreement 'within the coming weeks'), no definitive agreement, termination, or further update was located. The deal remains subject to execution of definitive agreements, due diligence (incl. IP and valuation), and shareholder/regulatory approvals, with explicit no-assurance language in the filing. A targeted follow-up search for an October 2026 update returned no results before this session's WebSearch budget was exhausted -- this should be re-checked. On theme: Veea's core business (edge-cloud computing, connectivity, cybersecurity infrastructure; VeeaHub platform) is reasonably described by 'Government IT & Defense Services' if government/defense contracts are a meaningful part of its customer base (plausible but not independently re-confirmed this session), so it is kept rather than replaced. However, if the NovaGen combination (regenerative medicine/longevity, 'NovaGen Health Networks') were to close, the company's theme would need to change to something healthcare/biotech-related -- this is a pending, not yet realized, mismatch risk, flagged for future passes. SEC EDGAR, Yahoo Finance and equibles.com were unreachable via WebFetch in this sandbox; figures below rely on WebSearch-tool summaries of secondary sources only.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

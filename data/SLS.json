@@ -1,71 +1,182 @@
 {
   "ticker": "SLS",
   "name": "SELLAS Life Sciences Group, Inc.",
-  "sector": null,
+  "sector": "Biotech Catalyst",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.430Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2700000000
+      "value": 2833000000,
+      "asOf": "2026-09-04",
+      "source": "Value Research (price $14.02 x 201,945,709 shares, 2026-09-04)",
+      "note": "Value Research's own stated market cap figure for the same snapshot ($2,668M) does not reconcile with price x shares ($2,833M); see conflicts. Stock has since fallen further (see catalysts, Oct 2026 declines), so current cap is likely lower than this Sept 4 figure."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not found as a separately published figure distinct from shares outstanding."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 201945709,
+      "asOf": "2026-09-04",
+      "source": "Value Research"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 27.5,
+      "asOf": null,
+      "source": "Fintel (28.23% of float) and Equibles (27.22% of float), both undated/recent; Benzinga shows 28.1%",
+      "note": "Approximate midpoint of the ~27-28% cluster. Older/lower MarketBeat readings of 12.60% and 11.17% conflict and appear to be from different, unspecified dates - see conflicts."
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 138300000,
+      "asOf": "2026-06-30",
+      "source": "SELLAS Q2 2026 financial results press release, reported 2026-08-11 (SEC 8-K exhibit)"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed in sandbox search results; typically minimal/none for a clinical-stage biotech but not confirmed."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.05,
+        "basis": "GAAP",
+        "note": "Net loss $9.6M; prior-year Q2 2025 was -$0.07/share on a $6.6M net loss."
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash burn (net loss)",
+      "period": "Q2 2026 vs Q2 2025",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Pre-revenue biotech. Net loss widened to $9.6M in Q2 2026 from $6.6M in Q2 2025 (R&D $6.3M vs $3.9M; G&A $4.4M vs $3.0M). First-half 2026 net loss was $18.0M. Cash on hand $138.3M as of 2026-06-30."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 earnings date not found in sandbox search; company has separately guided to a Phase 2 SLS009 topline data readout in Q4 2026."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-16",
+      "type": "price move",
+      "headline": "Stock reported down approx. 12.6% intraday",
+      "impact": "Further decline following the August disclosure-delay news and subsequent law-firm investigation publicity",
+      "source": "https://stockstotrade.com/news/sellas-life-sciences-group-inc-sls-news-2026_10_16/ (secondary aggregator; cause not independently confirmed in primary source)"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "litigation/investigation",
+      "headline": "Pomerantz LLP opens securities-fraud investigation into SELLAS over delayed disclosure of Phase 3 GPS (galinpepimut-S) trial results after the pre-specified 80th-patient-death event",
+      "impact": "No official finding of wrongdoing; investigation seeks affected shareholders for potential civil claims",
+      "source": "https://www.finanztrends.de/news/sellas-life-sciences-aktie-pomerantz-untersucht-gps-studie/ (secondary; date approximate based on search snippet, not independently confirmed against a Pomerantz press release)"
+    },
     {
       "date": "2026-09-14",
       "type": "regulatory/legal - clinical trial disclosure",
       "headline": "Securities law firm launches investigation into SELLAS Life Sciences over allegedly delayed disclosure of Phase 3 GPS (Galinpepimut-S) trial results after 80th patient death event",
       "impact": "Shares fell 14.51% on the session",
       "source": "https://www.timothysykes.com/news/sellas-life-sciences-group-inc-sls-news-2026_09_14/"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "price move / disclosure",
+      "headline": "Stock dropped approx. 13% to $13.21 following news interpreted as delayed disclosure around the Phase 3 REGAL/GPS trial's 80th-event threshold",
+      "impact": "-13%",
+      "source": "Secondary trading-news aggregator; not independently verified against a company 8-K in this sandbox"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "earnings",
+      "headline": "SELLAS reports Q2 2026 financial results: net loss $9.6M ($0.05/share) vs $6.6M ($0.07/share) in Q2 2025; cash $138.3M as of 2026-06-30; Phase 2 SLS009 (1L AML) fully enrolled at 28 patients with topline data expected Q4 2026; Phase 3 REGAL (GPS, AML) final analysis to occur after the 80th prespecified event",
+      "impact": null,
+      "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update/default.aspx ; SEC 8-K: https://www.sec.gov/Archives/edgar/data/0001390478/000139047826000013/sls-202608118xkexhibit991.htm"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Market cap ~$2.70B as of early September 2026, price $12.24; no P/E, EPS, float, cash, debt, or shares-outstanding figures disclosed. A securities law firm launched an investigation into SELLAS over allegedly delayed disclosure of Phase 3 GPS trial results following an 80th patient death event, and shares fell 14.51% on the news. Market cap figure noted as sourced from slightly earlier data and may not reflect the post-decline valuation.",
-  "history": [],
+  "conflicts": [
+    "Market cap/share count snapshots disagree: Value Research (2026-09-04) shows price $14.02, market cap stated as $2,668M, but shares outstanding of 201,945,709 at that price implies ~$2,833M (internal inconsistency on the same source page). Robinhood (2026-06-26) separately showed price $12.10 and market cap $2.25B. Morningstar (undated, apparently older/stale) shows 196.63M shares and ~$1.63B cap at ~$8/share.",
+    "Short interest readings cluster two ways: Fintel/Equibles/Benzinga all show ~27-28% of float (undated 'recent' snapshots), while several MarketBeat pages show much lower 12.60% and 11.17% readings with no clear date attached. A July 2025 MarketBeat article shows 26.84%, closer to the higher cluster. Could not resolve which lower MarketBeat figures are current vs. stale.",
+    "As of 2025-12-26, a secondary source indicated the Phase 3 REGAL trial CRO had counted 72 of the required 80 prespecified events; this predates the 6-month lookback window and could not be reconciled with the timing of the August/September 2026 disclosure-delay controversy, i.e., it is unclear whether the 80th event had actually occurred by the time of the law firm investigations."
+  ],
+  "pendingFilings": [
+    "No confirmed securities class-action complaint located as of 2026-10-22 - only law-firm investigation announcements found",
+    "Q3 2026 10-Q (not yet due/filed as of 2026-10-22)"
+  ],
+  "notes": "Theme 'Biotech Catalyst' is an accurate fit - SELLAS is a pre-revenue clinical-stage immuno-oncology company (galinpepimut-S / GPS in AML, SLS009 in AML) whose stock is almost entirely news/catalyst driven, hence themeLabel 'story stock'. Could not independently confirm the exact Pomerantz investigation announcement date against a primary press release, nor locate a confirmed securities class-action filing; both the original 2026-09-14 on-file date and the 2026-08-28 stock-drop date come from secondary/aggregator sources only. WebFetch to IR and SEC sites failed with DNS errors throughout this session, and the WebSearch budget ran out before additional confirmation queries could be run.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

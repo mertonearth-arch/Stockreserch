@@ -1,56 +1,55 @@
 {
   "ticker": "QNRX",
   "name": "Quoin Pharmaceuticals, Ltd.",
-  "sector": null,
+  "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.425Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12500000,
-      "asOf": "2026-08-31"
+      "value": null,
+      "asOf": null,
+      "source": null,
+      "note": "Sources conflict wildly (see conflicts) and none could be confirmed for Oct 2026; not reported rather than guessed."
     },
     "float": {
-      "value": 1400000,
-      "asOf": "2026-08-28"
+      "value": null,
+      "note": "Not disclosed in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 2000000,
-      "asOf": "2026-08-28"
+      "value": null,
+      "note": "Conflicting figures across aggregators ranging ~588K to ~3.35B shares, almost certainly reflecting one or more reverse ADS splits/ratio confusion; could not confirm current count from the 10-Q cover page this session (SEC EDGAR unreachable via WebFetch; WebSearch budget exhausted before resolving). See conflicts."
     },
     "shortInterest": {
-      "value": 5.6
+      "value": null,
+      "note": "Not found in sources reviewed this session."
     },
     "cash": {
       "value": 10800000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-06-30",
+      "source": "Quoin 10-Q (Q2 2026), via WebSearch summary of SEC filing",
+      "note": "Comprises $3.8M cash & equivalents + $7.0M investments as of 2026-06-30. Prior quarter (2026-03-31): $3.1M cash + $10.9M investments, accumulated deficit $76.0M."
     },
     "debt": {
-      "value": 2000000,
-      "asOf": "2026-08-28"
+      "value": null,
+      "note": "A third-party (unverified) analysis mentions ~$1.1M in legacy 2020 notes and a contingent $5.0M Skinvisible milestone payable on FDA/EU approval; not independently confirmed from the filing text this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings"
+      "note": "negative earnings; pre-revenue clinical-stage biotech"
     },
-    "eps": [
-      {
-        "period": "Q2 2026",
-        "value": -1.9,
-        "basis": "non-GAAP"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash burn",
+      "period": "H1 2026",
       "pct": null,
-      "note": "company says the Aug 2026 private placement extends funded operations into H2 2029 IF all accompanying warrants are exercised for cash; independent analysts estimate actual runway closer to 6-8 months on current burn absent further financing. FDA conditionally approved 'QYLEKI' as the proposed brand name for QRX003 (Netherton Syndrome) on 2026-06-23; pivotal Phase 3 study (CL-QRX003-004) targeted to initiate 2H 2026."
+      "note": "Company is pre-commercial (no product revenue). 10-Q discloses going-concern doubt. A secondary source estimates combined liquidity of $10.8M against ~$1.3M/month burn (<8 months runway on that basis alone); this appears to exclude the Aug 2026 financing. See conflicts re: runway."
     },
     "nextEarnings": {
       "date": "2026-11-13",
@@ -64,10 +63,24 @@
   "catalysts": [
     {
       "date": "2026-08-31",
+      "type": "offering",
+      "headline": "Private placement closed: ~$30.8M gross proceeds (~$29.0M net) at closing; accompanying warrants (exercise price $6.10/ADS) could bring total gross proceeds to ~$50.0M if fully exercised. Warrants expire at the earlier of 5 years from closing or 30 days after the company announces the CL-QRX003-004 (Netherton Syndrome) primary endpoint is met. Company states net proceeds, assuming full warrant exercise, are expected to fund operations into H2 2029.",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001671502/000110465926111012/tm2625587d3_424b3.htm"
+    },
+    {
+      "date": "2026-08-31",
       "type": "financing (closing)",
       "headline": "Private placement expected to close on or about this date, subject to customary conditions",
       "impact": "high",
       "source": "https://globalgenes.org/raredaily/quoin-pharmaceuticals-prices-private-placement-with-up-to-50-million-in-potential-proceeds/"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "offering",
+      "headline": "Announced securities purchase agreement for private placement of up to ~$50.0M with new and existing healthcare-focused institutional investors (Sirenia Capital, Sphera Healthcare, AIGH Capital, Nantahala Capital, StemPoint Capital, Stonepine Capital) plus company management/board.",
+      "impact": null,
+      "source": "https://www.barchart.com/story/news/4302783/quoin-pharmaceuticals-announces-private-placement-financing-of-up-to-50-0-million"
     },
     {
       "date": "2026-08-28",
@@ -124,15 +137,36 @@
     }
   ],
   "conflicts": [
-    "Price level discontinuity ($20.50 Oct 2025 vs $4.20-4.45 mid-2026 vs $6.51-6.74 Sept 2026) is explained by a documented history of ADS-ratio reverse splits (most recently 1-for-20 eff. April 8, 2025, later clarified as 1-for-35 eff. April 9, 2025) plus heavy dilution from repeated financings -- predates the 6-month catalyst window but flagged per instruction on reverse splits.",
-    "Runway characterization: company states financing extends operations 'into the second half of 2029' (contingent on full warrant exercise) vs independent analyst estimates of roughly 6-8 months of actual runway on current cash burn -- reported as both, not reconciled."
+    "Shares outstanding / market cap: Equibles shows ~3.35B shares ($9.34M mkt cap @ $4.65, tagged to a 2026-05-07 'last earnings' date) vs Morningstar and Google Finance both showing ~2.01M shares ($8.52M mkt cap @ $4.16) vs TipRanks/AlphaQuery showing ~588K shares ($12.06M mkt cap, data appears to date from around Oct 2025). The spread (588K to 3.35B) is too large to be mere staleness and strongly suggests one or more reverse stock splits plus ADS-ratio confusion across data vendors. Not resolved this session — flagging per runbook guidance rather than guessing a ratio.",
+    "Cash runway: a secondary/third-party analysis implies <8 months of runway on $10.8M combined cash+investments at a ~$1.3M/month burn rate, while the company's own Aug 2026 financing disclosure (424B3) states net proceeds — assuming FULL warrant exercise — are expected to fund operations into H2 2029. These are not necessarily contradictory (the gap is the warrant-exercise assumption), but both readings are recorded since they could mislead if conflated."
   ],
   "pendingFilings": [
-    "Q3 2026 10-Q (likely to show post-financing cash balance for the first time)",
-    "initiation of pivotal Phase 3 study CL-QRX003-004, targeted 2H 2026"
+    "424B3 (prospectus for Aug 2026 private placement, filed ~Sept 2026)",
+    "10-Q for Q2 2026 (period ended 2026-06-30) — going concern disclosure"
   ],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: The Aug 28, 2026 private placement (already known) is confirmed in detail. No new, more-specific financing or clinical catalyst dated after Aug 31, 2026 was found despite multiple targeted searches -- genuinely quiet ahead of a likely mid-November 2026 earnings report.",
+  "notes": "Theme 'Biotech Catalyst' is a good fit — Quoin is a clinical-stage dermatology/rare-disease biotech (lead candidate QRX003 for Netherton Syndrome). Could not establish shares outstanding, market cap, short interest, or per-share EPS figures with confidence this session: SEC EDGAR and other primary sources returned DNS/network errors via WebFetch, and the WebSearch tool's budget was exhausted mid-session before these could be pinned down from a primary filing. Next earnings date (2026-11-13) is an aggregator estimate (Earnings Whispers), not company-confirmed.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -200,5 +234,25 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

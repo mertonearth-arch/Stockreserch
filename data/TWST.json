@@ -1,72 +1,179 @@
 {
   "ticker": "TWST",
   "name": "Twist Bioscience Corporation",
-  "sector": null,
+  "sector": "Life Science Tools / Synthetic Biology",
   "theme": "Advanced Materials",
-  "themeLabel": "established",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.433Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 9130000000,
+      "asOf": "2026-08-21",
+      "source": "equibles.com (aggregator, not a primary filing)",
+      "note": "An earlier equibles snapshot (2026-07-02) showed $6.18B at $99.24/share; price appears to have risen ~47% between those two dates. No October 2026 figure was found."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Aggregator reported short interest as a % of float but not a raw float share count; could not establish separately from shares outstanding."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 62710000,
+      "asOf": "2026-08-21",
+      "source": "equibles.com"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 22.4,
+      "unit": "% of float",
+      "asOf": "2026-08-21",
+      "source": "equibles.com",
+      "note": "14.1M shares short, ~11.1 days to cover per same source. A 2026-07-02 snapshot showed 28.4% of float (17.7M shares, 9.6 days to cover) -- see conflicts. Short-interest data is reported with a lag by FINRA/exchanges, so the true October figure may differ."
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 167000000,
+      "asOf": "2026-06-30",
+      "source": "Fiscal Q3 FY2026 8-K / earnings release (via GenomeWeb, Nasdaq.com, RTT News coverage)",
+      "note": "Cash, cash equivalents and short-term investments combined."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Not found in available sources; could not reach SEC EDGAR balance sheet directly in sandbox."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings -- fiscal Q3 FY2026 GAAP net loss was $35.1M ($0.56/share); company targets adjusted-EBITDA breakeven (not GAAP profitability) in fiscal Q4 FY2026, so trailing GAAP EPS is negative. No forward P/E estimate found."
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved in sandbox"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved in sandbox; FY2025 Q4 coverage described 'narrowing losses' but no exact annual EPS figure was found"
+      },
+      {
+        "period": "Q3 FY2026 (quarter ended 2026-06-30)",
+        "value": -0.56,
+        "basis": "GAAP, reported 2026-08-03",
+        "note": "Net loss of $35.1M. Prior-year Q3 FY2025 was net income of $20.4M / $0.33 per share, but that included a one-time $48.8M gain from the Atlas Data Storage spinout -- not a comparable organic figure."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 FY2025 (ended 2025-06-30)",
+        "value": 96100000,
+        "yoy": null
+      },
+      {
+        "period": "Q3 FY2026 (ended 2026-06-30)",
+        "value": 118400000,
+        "yoy": 23.2
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "fiscal Q3 2026 (quarter ended 2026-06-30)",
+      "pct": 23.2,
+      "note": "Record quarterly revenue, 14th consecutive quarter of sequential growth per company release. FY2026 full-year guidance raised to $456-457M (from prior $442-447M); Q4 FY2026 guided to ~$123-124M revenue."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "No company-issued date found. Third-party estimate sites disagree: Earnings Whispers shows both Nov 2, 2026 and Nov 20, 2026 on different pages of the same site; Bullstory shows Nov 12, 2026 and labels it 'verified' (unconfirmed by us). Fiscal Q4 FY2025 was reported in mid-November 2025, suggesting a mid/late-November 2026 report is likely but not confirmed."
+    }
   },
   "price": null,
   "catalysts": [
     {
       "date": "2026-09-16",
       "type": "partnership",
+      "headline": "Joined Eli Lilly's TuneLab program, supplying antibody-characterization data to Lilly's AI/ML drug-discovery platform",
+      "source": null,
+      "note": "Carried over from prior (unverified) snapshot; could not independently re-confirm this item in this session before the WebSearch budget was exhausted. Flag for re-verification."
+    },
+    {
+      "date": "2026-09-16",
+      "type": "partnership",
       "headline": "Twist Bioscience joins Eli Lilly's TuneLab to supply antibody characterization data feeding Lilly's AI/ML drug-discovery models",
       "impact": "stock re-rated on the AI-pharma partnership; move continued into the 09-17 session",
       "source": "https://www.businesswire.com/news/home/20260916492399/en/Twist-Bioscience-Joins-Lilly-TuneLab-to-Advance-Antibody-Drug-Discovery"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "earnings",
+      "headline": "Fiscal Q3 2026 results: record revenue $118.4M (+23% YoY, beat $114.6M consensus); GAAP net loss $35.1M / -$0.56 EPS (vs. $0.18 loss consensus); cash & short-term investments ~$167M; FY2026 revenue guidance raised to $456-457M",
+      "source": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug ; https://www.rttnews.com/3682164/twist-bioscience-twst-q3-revenue-jumps-23-as-fy2026-guidance-raised.aspx"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Price $155.56, up 9.7%, on a partnership with Eli Lilly's TuneLab supplying antibody characterization data for Lilly's AI/ML drug-discovery models; the re-rating continued into the following session. No market cap, P/E, EPS, or other fundamentals disclosed; not yet fully researched.",
-  "history": [],
+  "conflicts": [
+    "Next earnings date: Earnings Whispers shows Nov 2, 2026 on one page and Nov 20, 2026 on another page of the same site; Bullstory shows Nov 12, 2026.",
+    "Short interest: 22.4% of float / 14.1M shares (2026-08-21, equibles) vs 28.4% of float / 17.7M shares (2026-07-02, equibles) -- directionally consistent with a rising share price reducing % of float short, not necessarily contradictory, but both are single-aggregator figures not cross-checked against FINRA.",
+    "Market cap: $9.13B (2026-08-21) vs $6.18B (2026-07-02), same source -- reflects a large price move (~$99 to ~$145) rather than a data conflict, but neither is dated to October 2026."
+  ],
+  "pendingFilings": [
+    "Fiscal Q4 FY2026 8-K earnings release expected Nov 2026 (exact date unconfirmed)"
+  ],
+  "notes": "MISMATCH flagged: 'Advanced Materials' does not fit. Twist Bioscience manufactures synthetic DNA (silicon-based synthesis platform) for gene synthesis, NGS library prep, and biopharma antibody/protein discovery (incl. supplying data to Eli Lilly's TuneLab AI drug-discovery initiative). Of the existing theme list, 'Biotech Catalyst' is the closest but implies single binary FDA-style catalysts, which doesn't match Twist's recurring-revenue platform-and-volume-growth story. Proposing a new theme: 'Synthetic Biology & Life Science Tools'. Could not independently re-verify the 2026-09-16 Eli Lilly TuneLab item this session (WebSearch budget for the session was exhausted before a targeted query could run); treat that single catalyst as carried over from the prior unverified snapshot pending confirmation. SEC EDGAR and most IR/press sites were unreachable via WebFetch in this sandbox; figures are WebSearch-tool-summarized from secondary sources (GenomeWeb, RTT News, Nasdaq.com articles, MarketBeat, Earnings Whispers, equibles.com) rather than primary 10-Q/8-K text.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

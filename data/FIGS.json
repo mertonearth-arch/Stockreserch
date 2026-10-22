@@ -3,60 +3,100 @@
   "name": "FIGS, Inc.",
   "sector": null,
   "theme": "Consumer Apparel & Retail",
-  "themeLabel": null,
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.404Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2230000000,
-      "asOf": "2026-09-25"
+      "value": null,
+      "asOf": null,
+      "note": "Could not retrieve this session — the initial search for FIGS market cap/shares/float/short-interest hit a search-tool rate limit, and by the time search capacity was available again the remaining session budget was spent confirming Q2 2026 earnings details and the other four tickers; the budget was exhausted before a retry."
     },
     "float": {
-      "value": 151400000,
-      "asOf": "2026-09-25"
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; see marketCap note."
     },
     "sharesOutstanding": {
-      "value": 167000000,
-      "asOf": "2026-09-25"
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; see marketCap note."
     },
     "shortInterest": {
-      "value": 13.5
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; see marketCap note."
     },
     "cash": {
-      "value": 108500000,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; FIGS' balance sheet was not reached (SEC EDGAR blocked; WebFetch non-functional)."
     },
     "debt": {
-      "value": 0,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; same constraint as cash above."
     },
     "pe": {
-      "trailing": 45,
-      "forward": null
+      "trailing": null,
+      "forward": null,
+      "note": "FIGS was profitable in Q2 2026 (not a negative-earnings case), but a trailing-twelve-month EPS figure and a verified current share price were not obtained this session, so no multiple could be computed.",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026 (quarter ended ~2026-06-30)",
+        "value": 0.15,
+        "basis": "GAAP, diluted — per company release, the more authoritative of two conflicting figures found (see conflicts)"
+      },
+      {
+        "period": "Q2 2025",
+        "value": 0.04,
+        "basis": "GAAP, diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 196600000,
+        "yoy": 28.8
+      }
+    ],
     "growth": {
-      "metric": "revenue YoY Q2 FY2026",
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
       "pct": 28.8
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": false
+      "confirmed": null
     }
   },
   "price": null,
   "catalysts": [
     {
       "date": "2026-10-12",
+      "type": "sell-side/media coverage",
+      "headline": "Shares rose on a sector review piece re-highlighting FIGS' Q2 beat (as carried on file)",
+      "impact": "Not independently verified this session (search budget exhausted before this could be checked)",
+      "source": null
+    },
+    {
+      "date": "2026-10-12",
       "type": "analyst",
       "headline": "Shares rose on an industry/sector review piece re-highlighting FIGS as the top performer among consumer-discretionary apparel peers on its already-reported Q2 FY2026 beat; move size reported inconsistently (5.5% to 13%) across outlets",
       "impact": "+5.5% to +13% depending on source",
       "source": "https://www.marketbeat.com/instant-alerts/price-figs-nyse-figs-stock-jumps-55-still-a-buy-2026-10-12/"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "FIGS reported Q2 2026 results: net revenue $196.6M (+28.8% YoY), ~5.6% above ~$186.1M consensus; net income $28.4M ($0.15/diluted share GAAP) vs. $0.04 YoY; adjusted EBITDA $36.6M (18.6% margin, excluding a $7.9M IEEPA tariff refund); operating margin rose to 17.9% from 6.5% YoY; raised FY2026 revenue growth guidance to ~20% (from 14–16%) and adjusted EBITDA margin guidance to 14.8–15.0%; flagged tariffs and a CBP withhold-release order against a key supplier as H2 gross-margin/inventory headwinds",
+      "impact": "Large beat and guidance raise; shares jumped roughly 25–28% on the print",
+      "source": "https://www.barchart.com/story/news/3703749/figs-nysefigs-delivers-impressive-q2-cy2026-stock-jumps-25-1 ; https://www.nasdaq.com/articles/figs-figs-q2-earnings-taking-look-key-metrics-versus-estimates"
     },
     {
       "date": "2026-08-06",
@@ -78,17 +118,60 @@
     }
   ],
   "conflicts": [
-    "Today's move size is reported inconsistently: ~5.5% (MarketBeat), ~8.5% (Investing.com/Fool), ~11% (Benzinga movers list), ~13% (StreetInsider headline, per the closing-movers search that surfaced this name). No single source was independently verified via full-article fetch (WebFetch failed for all of them this session) — recorded all, picked none.",
-    "Q2 FY2026 EPS: $0.15 (SEC 8-K, Benzinga, Investing.com, Quartr) vs $0.11 (Nasdaq/Zacks/Google Finance) — not reconciled; used the SEC-filing figure as primary.",
-    "Shares outstanding: ~158.1M (Equibles) vs ~167.0M (Chartmill/Pitchbook, late Sept 2026) — not reconciled."
+    "Q2 2026 EPS: $0.15/share GAAP per the company's own release (and the figure Barchart's recap used) vs. $0.11/share cited by Zacks-based coverage and Google Finance against a $0.07 estimate — the $0.15 figure was treated as primary since it traces to the company release.",
+    "Exact Q2 2026 earnings release date: some outlets list August 6, 2026, others August 10, 2026 — not resolved to a single date this session."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: New addition — found via the closing-movers web search, not on the standing watchlist before this pass. Today's exact price/market cap could not be confirmed; recommend a live-quote check next pass.",
-  "history": [],
+  "notes": "Theme 'Consumer Apparel & Retail' is a genuine fit — FIGS designs and sells direct-to-consumer medical apparel (scrubs); keeping as-is. themeLabel set to 'story stock' given the large guidance raise and ~25-28% single-day stock reaction tied to the Q2 print. Fundamentals (market cap, float, shares outstanding, short interest, cash, debt) could not be established this session: an early search attempt was rate-limited, and the remaining session's web-search budget was exhausted (a hard, session-wide limit) before a retry could be made, and the WebFetch tool failed with connectivity errors on every domain attempted (including SEC EDGAR, Yahoo Finance, Investing.com, StockTitan). The Oct 12 catalyst is carried from the file as given and was not independently verified.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

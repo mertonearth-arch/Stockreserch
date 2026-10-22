@@ -8,63 +8,104 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.419Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
-      "asOf": "2026-09-09"
+      "asOf": "2026-09-09",
+      "source": "carried from prior PM pass record; roughly corroborated by a 2026-08-20 Coinglass snapshot ($14.88B at $41.65/357.37M shares) but not independently re-verified this session",
+      "note": "see conflicts for a materially higher undated reading"
     },
     "float": {
       "value": 346200000,
-      "asOf": "2026-08-28"
+      "asOf": "2026-08-28",
+      "source": "carried from prior PM pass record; not independently re-verified this session"
     },
     "sharesOutstanding": {
       "value": 357400000,
-      "asOf": "2026-08-20"
+      "asOf": "2026-08-20",
+      "source": "Coinglass snapshot; consistent with the prior PM pass record"
     },
     "shortInterest": {
-      "value": 18,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (64,400,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": null,
+      "note": "sources disagree materially and could not be reconciled this session — see conflicts (prior record's 18% figure itself carried a correction flag from an earlier reconstruction bug)"
     },
     "cash": {
       "value": 5900000000,
-      "asOf": "2026-08-28"
+      "asOf": "2026-08-28",
+      "source": "carried from prior PM pass record; not independently re-verified this session (search budget exhausted before reaching IREN balance-sheet detail)"
     },
     "debt": {
       "value": 7840000000,
-      "asOf": "2026-08-28"
+      "asOf": "2026-08-28",
+      "source": "carried from prior PM pass record; not independently re-verified this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (FY2026 net loss $702.6M); an unverified aggregator forward-P/E figure (136.99x, undated) is not reported"
+      "note": "negative earnings (FY2026 net loss $702.6M, incl. Q4 FY2026 net loss of $684.0M driven by $450.4M in asset impairments); no forward consensus EPS found this session"
     },
     "eps": [
       {
+        "period": "FY2025 (ended 2025-06-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "FY2026 (ended 2026-06-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "full-year net loss of $702.6M disclosed (vs FY2025 net income of $86.9M), but a per-share figure was not found in sources reachable this session"
+      },
+      {
         "period": "Q4 FY2026 (ended 2026-06-30)",
         "value": -0.74,
-        "basis": "non-GAAP adjusted"
+        "basis": "non-GAAP adjusted",
+        "note": "carried from prior PM pass record"
       }
     ],
     "revenue": [
       {
-        "period": "TTM",
+        "period": "FY2025 (ended 2025-06-30)",
+        "value": 501000000,
+        "yoy": null
+      },
+      {
+        "period": "FY2026 (ended 2026-06-30)",
         "value": 707000000,
         "yoy": 41.1
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 137200000,
+        "yoy": null,
+        "note": "down from $144.8M in Q3 FY2026; missed the ~$157.1M Street consensus"
       }
     ],
     "growth": {
-      "metric": "revenue YoY FY2026 (ended 2026-06-30)",
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "FY2026 (ended 2026-06-30)",
       "pct": 41.1
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-05",
+      "confirmed": false,
+      "note": "aggregator estimate for Q1 FY2027 results; not yet reported as of 2026-10-22 and not company-confirmed. Consensus estimates cited: ~$221.4M revenue, non-GAAP EPS of -$0.64 (Benzinga)."
+    }
   },
   "price": {
     "last": 45.37,
     "changePct": -3.3
   },
   "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q4 FY2026: revenue $137.2M (down from $144.8M in Q3, missed ~$157.1M consensus); net loss $684.0M incl. $450.4M in asset impairments; AI Cloud revenue grew sequentially from $33.6M to $70.5M (+110% QoQ), now over half of quarterly revenue; adjusted EBITDA $19.2M (~53% below expectations). FY2026 full year: revenue $707.0M (up from $501.0M), net loss $702.6M vs FY2025 net income $86.9M. Guided FY2027 capex of $25B-$30B, with roughly $8B of funding still needed.",
+      "impact": "stock fell ~12.5% to $35.45",
+      "source": "https://www.kucoin.com/news/flash/iren-q4-fy2026-revenue-meets-expectations-ai-cloud-revenue-doubles"
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -80,10 +121,32 @@
       "sourceName": "Investrade market review / stockanalysis"
     },
     {
+      "date": "2026-08-13",
+      "type": "contract/milestone",
+      "headline": "IREN delivered its first 50MW AI Cloud site ('Horizon 1') to Microsoft, which accepted it; NVIDIA tested the facility and granted IREN 'Exemplar Cloud' status",
+      "impact": "stock rose roughly 6% premarket",
+      "source": "https://www.tipranks.com/news/article/iren-stock-microsoft-deal-offers-credibility-shot-says-roth"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "contract",
+      "headline": "Signed a multi-year cloud-services contract with an unnamed 'leading frontier AI lab'",
+      "impact": "positive",
+      "source": null
+    },
+    {
       "date": "2026-08-01",
       "type": "contract",
       "headline": "Signed multi-year cloud services contract with an unnamed 'leading frontier AI lab'",
       "impact": "positive"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "contract",
+      "headline": "Entered multi-year AI cloud-services contracts worth ~$2.8B with customers including Microsoft, Nvidia, Perplexity, Figure AI, Together AI, Fluidstack, Fireworks AI, Fal AI and Hume AI; raised the 2026 ARR target to over $4B",
+      "impact": "positive",
+      "source": "https://dealroom.co/news/139995-iren-lifts-ai-cloud-revenue-target-to-4b-after-2-8b-in-new-deals/",
+      "note": "a separate source found this session (app.sentisense.ai) describes the same $2.8B multi-customer contract signing but carries a 2026-07-20 date in its URL/slug — not reconciled with the 2026-07-01 date used here from the prior record"
     },
     {
       "date": "2026-07-01",
@@ -95,17 +158,48 @@
     {
       "date": "2026-05-01",
       "type": "contract",
+      "headline": "Signed a 5-year, ~$3.4B cloud-services contract with NVIDIA",
+      "impact": "positive",
+      "source": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "contract",
       "headline": "Signed a 5-year, ~$3.4B cloud services contract with NVIDIA",
       "impact": "positive"
     }
   ],
   "conflicts": [
-    "Market cap/share price figures conflict significantly across sources and dates.",
-    "No BTC holdings figure was found/disclosed despite checking -- flagged as a gap, not a confirmed zero."
+    "Market cap: $14.97B (2026-09-09, prior record) / $14.88B (2026-08-20, Coinglass) broadly agree, but an undated Equibles snapshot shows $17.98B at a $50.30 price — a ~20% higher reading not reconciled with the others.",
+    "Short interest: Altindex reports 94,246,133 shares short, or 23.92% of shares outstanding, as of the 2026-08-14 FINRA settlement (2.20 days to cover); Equibles separately shows 58,363,974 shares at the 2026-04-30 settlement and a summary page showing 64.4M shares / 1.3 days to cover (undated); the prior PM-pass record carried an already-corrected 18% figure. None of these could be reconciled to a single current reading this session.",
+    "Contract-signing date for the ~$2.8B multi-customer AI cloud deal: prior record dates it 2026-07-01; a source found this session (app.sentisense.ai) carries a 2026-07-20 date — not reconciled.",
+    "No BTC holdings figure was found/disclosed despite checking — flagged as a gap, not a confirmed zero (carried from prior record)."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: 'Crypto Treasury & Miners' still technically fits, but IREN's own disclosures increasingly frame it as an 'AI Cloud' infrastructure company (AI Cloud revenue the fastest-growing segment) rather than a pure bitcoin miner -- worth a future reclassification review, not changed here per the theme-reuse rule.",
+  "notes": "Theme 'Crypto Treasury & Miners' is kept per the reuse rule, but it is an increasingly imprecise fit: IREN's Q4 FY2026 AI Cloud revenue ($70.5M) was already more than half of total quarterly revenue ($137.2M), and the company's own disclosures and guidance (FY2027 capex of $25B-$30B) now frame it primarily as an AI-cloud/data-center infrastructure operator rather than a pure bitcoin miner. This mismatch was already flagged by a prior pass; not changed here to avoid fragmenting the taxonomy without a clearer signal on what the replacement theme string should be system-wide. Cash, debt, float and market-cap figures above are largely carried forward from the most recent prior PM-pass record rather than independently re-verified this session: WebFetch could not reach any external site in this sandbox (DNS/connectivity errors against SEC EDGAR, Yahoo Finance, IR pages, etc.), and the shared WebSearch budget for this task batch was exhausted before IREN's balance-sheet detail and short interest could be reconfirmed from a single authoritative source. Q1 FY2027 results have not yet been reported as of 2026-10-22.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -173,5 +267,26 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

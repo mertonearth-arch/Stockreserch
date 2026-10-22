@@ -2,71 +2,189 @@
   "ticker": "IONQ",
   "name": "IonQ, Inc.",
   "sector": null,
-  "theme": "Government IT & Defense Services",
-  "themeLabel": "established",
+  "theme": "AI Semiconductors",
+  "themeLabel": "hype sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.418Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not disclosed"
+      "note": "sources conflict by more than 2x and could not be reconciled this session — see conflicts; WebFetch to live quote sources (Yahoo, MarketWatch, SEC.gov) failed with DNS errors in this sandbox"
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not found distinctly from shares outstanding; aggregators report short-interest-as-%-of-float but not a float share count itself"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 373269948,
+      "asOf": "2026-04-29",
+      "source": "Q1 2026 10-Q cover page (per Boardroom Alpha filing index)",
+      "note": "likely stale — predates the SkyWater Technology acquisition close (2026-07-31) and Q2 2026 warrant-revaluation activity, both of which probably increased the count materially; no more recent figure found this session"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 13.2,
+      "asOf": "2026-08-14",
+      "source": "Equibles/Benzinga, FINRA settlement date",
+      "note": "percent of float; ~42.4M shares short, ~1.9 days to cover per Curved Trading for the same settlement date — see conflicts for disagreeing readings"
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "note": "sources disagree sharply for 2026-06-30 — see conflicts"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "sources disagree — one aggregator cites ~$54.5M total debt as of 2026-06-30, while management commentary is reported elsewhere as describing the company as carrying no debt; not reconciled"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings (large GAAP net losses in most quarters, including a $1.87B Q2 2026 net loss driven primarily by a $1.65B non-cash warrant-liability revaluation); no forward consensus EPS found this session"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "FY2025",
+        "value": -1.82,
+        "basis": "GAAP",
+        "note": "full-year net loss $510.4M; Q4 2025 alone was a GAAP profit of $2.13/share per the company's own release (one secondary aggregator instead cites $1.93 for Q4 — see conflicts) due to a large non-operating gain"
+      },
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "net loss of $1.87B reported (primarily a $1.65B non-cash warrant-liability revaluation); a per-share figure was not found in sources reachable this session"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": 20690000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 80050000,
+        "yoy": 287,
+        "note": "topped the high end of prior guidance"
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 287
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-05",
+      "confirmed": false,
+      "note": "Estimates disagree across aggregators: Nov 4 (Nasdaq calendar via ChartRow), Nov 5 (AJ Bell), Nov 9 (Earnings Whispers), Nov 11 (TipRanks). None is company-confirmed as of this research pass. Last year's Q3 report (FY2025) was Nov 5, 2025; the prior quarter (Q2 2026) was reported Aug 5, 2026."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-12",
+      "type": "product/partnership",
+      "headline": "IonQ disclosed plans to deploy its 256-qubit Superion 256 system at NVIDIA's Accelerated Quantum Research Center (NVAQC), directly connected to NVIDIA GB200 NVL72 infrastructure via NVIDIA NVQLink, with workload management through NVIDIA's open CUDA-Q platform; installation timeline given as 2027, with no performance results yet available for this configuration",
+      "impact": null,
+      "source": "https://www.eweek.com/de/news/ionq-superion-256-soll-erste-qpu-im-quantum-research-center-von-nvidia-werden/"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "product/research",
+      "headline": "IonQ and Synopsys reported a quantum-classical hybrid workflow that cut computer-aided-engineering simulation runtimes by 5.9%-14.6% on digital models (automobile, industrial drill component, fluid impeller, jet-engine assembly), simulated at up to 150 qubits with physical execution validated on IonQ's 36-qubit Forte system; one of nine IonQ papers accepted at IEEE Quantum Week 2026 (Toronto, Sept 13-18)",
+      "impact": null,
+      "source": "https://thequantuminsider.com/2026/09/17/ionq-synopsys-14-6-percent-faster-engineering-simulations/"
+    },
     {
       "date": "2026-09-17",
       "type": "guidance/product",
       "headline": "IonQ-Synopsys hybrid quantum-classical workflow cut engineering-simulation runtimes 5.9%-14.6% (won IEEE Quantum Week 2026 Best Paper); IonQ also raised FY26 revenue guidance to $260M-$270M and launched its Superion 256 platform",
       "impact": "stock up about 9.5%; gains reportedly tempered into the close by a same-day CEO share-sale disclosure",
       "source": "https://www.fool.com/investing/2026/09/17/why-ionq-stock-popped-today/"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "earnings/guidance",
+      "headline": "Q2 2026 results: revenue $80.05M (+287% YoY vs $20.69M), above the high end of prior guidance; raised FY2026 revenue guidance to $290M; GAAP net loss of $1.87B driven primarily by a $1.65B non-cash warrant-liability revaluation; free cash flow roughly -$114M",
+      "impact": null,
+      "source": "https://quantumcomputingreport.com/ionq-reports-record-q2-2026-financial-results-revenue-soars-287-to-80-1m-full-year-guidance-raised-to-290m/"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "M&A",
+      "headline": "IonQ closed its acquisition of SkyWater Technology (semiconductor foundry), adding chip-manufacturing capability; cash+investments fell from ~$3.0B to a pro forma ~$2.0B as a result",
+      "impact": null,
+      "source": null,
+      "note": "specific press-release URL not captured this session; mentioned in secondary earnings-summary coverage of the Q2 2026 results"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: Capital.com $12.79B at 2026-09-07 vs $13.50B at 2026-08-20 vs Equibles ~$17.85B around 2026-08-19 vs Fintel ~$26.89B (undated) — a greater-than-2x spread, not reconciled; no reliable current figure could be obtained (WebFetch to live quote sources failed in this sandbox).",
+    "Shares outstanding/float: Fintel lists ~373.17M shares (undated) consistent with the Q1 2026 10-Q figure used above, but also separately cites 19.78% short-float vs Equibles/Benzinga's 13.2% float for a similar window — not reconciled.",
+    "Short interest: 13.2% of float (~2026-08-14 settlement, Equibles/Benzinga) vs 19.78% of float (Fintel, undated) vs 12.39% of shares outstanding (Benzinga, 2026-06-30 settlement) — not reconciled.",
+    "Cash (as of 2026-06-30): one source reports cash, cash equivalents and investments of $3.0B ($2.0B pro forma for the SkyWater acquisition), another reports cash and equivalents alone of only ~$1.2B — these may be using different line-item scopes but were not reconciled this session.",
+    "FY2026 revenue guidance: an on-file catalyst dated 2026-09-17 states guidance was raised to $260M-$270M; this session's research on the 2026-08-05 Q2 earnings release instead found guidance raised to $290M (quantumcomputingreport.com) — not reconciled; both figures are recorded.",
+    "Q4 2025 EPS: IonQ's own release cites GAAP EPS of $2.13; a secondary aggregator (MEXC) instead cites $1.93 for the same quarter — not reconciled."
+  ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: IonQ-Synopsys hybrid quantum-classical workflow news plus raised FY26 revenue guidance ($260M-$270M) and the Superion 256 platform launch drove a 9.5% gain, tempered by a same-day CEO share-sale disclosure. Market cap, P/E, EPS, float, shares outstanding, short interest, cash, and debt are all not disclosed in the dashboard; no next earnings date scheduled.",
-  "history": [],
+  "notes": "Theme corrected from on-file 'Government IT & Defense Services' — a clear mismatch, since IonQ is a quantum-computing hardware/cloud company with no defense-services business as such. None of the fixed theme list is a precise fit for quantum computing; 'AI Semiconductors' is used here per explicit task guidance (broadened to 'advanced/disruptive compute'), but this is an imperfect, broadened fit rather than a literal one — IonQ makes trapped-ion quantum processors, not semiconductors. themeLabel set to 'hype sector' given persistent large GAAP losses, warrant-driven dilution/volatility, and valuation detached from current revenue scale despite rapid top-line growth. Web-search budget for this task batch was exhausted partway through research (shared 200-call/turn limit across parallel agents), and WebFetch could not reach any external site in this sandbox (SEC EDGAR, Yahoo Finance, MarketWatch, StockTitan all failed with DNS/connectivity errors), so a reconciled market cap, a Q2 2026 per-share loss figure, and a verified forward P/E could not be established beyond what WebSearch snippets provided.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

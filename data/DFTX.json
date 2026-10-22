@@ -1,73 +1,184 @@
 {
   "ticker": "DFTX",
   "name": "Definium Therapeutics, Inc.",
-  "sector": null,
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.411Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5170000000
+      "value": null,
+      "asOf": null,
+      "source": null,
+      "note": "Sources conflict enormously (see conflicts) because the stock appears to have re-rated sharply across 2026 on three consecutive positive Phase 3 readouts; no single current (2026-10-22) figure could be confirmed in this sandbox (stockanalysis.com/google.com blocked; all other WebFetch attempts failed with DNS errors; WebSearch budget exhausted before a fresh price check could be run)."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed in sources found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 134370000,
+      "asOf": "2026-08-21",
+      "source": "Equibles/RedChip aggregator snapshot",
+      "note": "Treated as the most-recent reading; see conflicts for other values (99.70M-132.74M) found at different dates. Could not confirm directly against the SEC 10-Q cover page in this sandbox."
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not found in sandbox search"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 655267000,
+      "asOf": "2026-06-30",
+      "source": "SEC Form 10-Q (Q2 2026) balance sheet, cash and cash equivalents",
+      "note": "Plus short-term investments of $428,612,000, for total cash+investments of ~$1.1B and working capital of ~$934.9M as of 2026-06-30, per the same filing. The increase from $262.5M (2026-03-31) and $257.8M (2025-12-31) was driven by an ~$805.0M June 2026 equity offering (~$757.9M net proceeds). Company states resources fund operations into 2030."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed in sources found; company appears equity-funded (large June 2026 offering), no debt figure located"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings-based multiple applicable",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "clinical trial progress (pre-revenue)",
+      "period": "H1-H2 2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Pre-revenue clinical-stage biotech. Three consecutive positive Phase 3 readouts for DT120 ODT in 2026: Emerge (MDD, positive, ~June 2026), Voyage (GAD, positive, ~August 2026), Panorama (GAD, positive, 2026-09-14)."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not found in sandbox search"
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-14",
+      "type": "clinical trial",
+      "headline": "Positive Phase 3 Panorama topline for DT120 ODT in generalized anxiety disorder: 100µg dose showed 5.1-point placebo-adjusted HAM-A improvement at Week 12 (p<0.0001, Cohen's d=0.64; LS mean change -9.8 vs -4.7 placebo); efficacy observed by Day 2 and sustained through Week 12; generally well tolerated. Third positive Phase 3 readout overall (after Emerge in MDD and Voyage in GAD). Pre-NDA meeting planned 4Q 2026, NDA filing planned 1H 2027. DT120 holds FDA Breakthrough Therapy designation for both GAD and MDD.",
+      "source": "https://secure.businesswire.com/news/home/20260914329364/en/Definium-Therapeutics-Announces-Positive-Topline-Results-from-Phase-3-Panorama-Study-of-DT120-ODT-in-Generalized-Anxiety-Disorder"
+    },
     {
       "date": "2026-09-14",
       "type": "clinical trial results",
       "headline": "Definium Therapeutics announces positive Phase 3 Panorama topline results for DT120 ODT in generalized anxiety disorder (HAM-A placebo-adjusted difference of 5.1 points); plans NDA filing 1H 2027",
       "impact": "Shares up ~20% on the session",
       "source": "https://www.stocktitan.net/news/DFTX/definium-therapeutics-announces-positive-topline-results-from-phase-nj36j48dsdc3.html ; https://ir.definiumtx.com/news-events/press-releases/detail/251/definium-therapeutics-announces-positive-topline-results-from-phase-3-panorama-study-of-dt120-odt-in-generalized-anxiety-disorder"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "clinical trial",
+      "headline": "Positive Phase 3 Voyage topline for DT120 ODT in generalized anxiety disorder (second positive Phase 3 GAD trial)",
+      "source": null,
+      "note": "Exact date within August 2026 could not be pinned down more precisely in this sandbox; placeholder day used, treat month/year as the confirmed part."
+    },
+    {
+      "date": "2026-06-01",
+      "type": "clinical trial",
+      "headline": "Positive Phase 3 Emerge topline for DT120 ODT in major depressive disorder (first positive Phase 3 readout in the program)",
+      "source": null,
+      "note": "Exact date within June 2026 could not be pinned down more precisely in this sandbox; placeholder day used, treat month/year as the confirmed part."
+    },
+    {
+      "date": "2026-06-01",
+      "type": "offering",
+      "headline": "~$805.0 million equity offering completed, generating ~$757.9 million net proceeds (reflected in the Q2 2026 10-Q cash build)",
+      "source": null,
+      "note": "Exact date within Q2 2026 (on or before 2026-06-30) could not be pinned down more precisely in this sandbox; this is dilutive financing and should be flagged as such."
     }
   ],
   "conflicts": [
-    "price.last is not disclosed anywhere on the dashboard for this ticker (the price chip is blank); only the ~20% single-session move and the $5.17B market cap (as of 2026-09-14) are given. Left null rather than backed into from market cap, since shares outstanding is also not disclosed."
+    "Shares outstanding varies hugely by source/date: Roic.ai 104.04M ($2.57B cap), Simply Wall St 99.70M (~$1.7B cap) -- both appear stale/earlier in 2026; Google Finance (Jul snapshot) / TipRanks 132.74M-132,743,260; Equibles (Aug 21 close) / RedChip 134.37M. The 134.37M figure (most recent dated snapshot) is used above but is NOT independently confirmed against the SEC 10-Q cover page in this sandbox.",
+    "Market cap conflicting across sources/dates, consistent with a large 2026 re-rating: DeFiLlama $4.548B at $34.26, a second DeFiLlama snapshot $4.261B at $32.10 (through 2026-06-30 financials), Equibles/RedChip ~$6.10-6.16B (asOf 2026-08-21), Google Finance/TipRanks ~$5.87-6.25B (Jul snapshot). No figure could be confirmed as current for 2026-10-22.",
+    "No current stock price could be confirmed in this sandbox for 2026-10-22 -- all above figures are dated between June and August 2026."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Mid-cap biopharma (~$5.17B market cap as of 2026-09-14). DT120 is an LSD-based (lysergide) therapeutic -- a psychedelic-derived drug candidate. Positive Phase 3 Panorama topline results in generalized anxiety disorder; company plans an NDA filing in 1H 2027.",
-  "history": [],
+  "pendingFilings": [
+    "10-Q Q2 2026 (period ended 2026-06-30)",
+    "Pre-NDA meeting planned 4Q 2026",
+    "NDA filing planned 1H 2027"
+  ],
+  "notes": "Theme 'Biotech Catalyst' fits well -- clinical-stage biopharma with major, stock-moving Phase 3 readouts. themeLabel set to 'story stock' given the narrative-driven re-rating on three consecutive positive trial readouts in one company rather than a sector-wide move. SEC EDGAR and most press-wire domains were unreachable via WebFetch/curl in this sandbox (DNS/connect failures); WebSearch's per-turn budget was exhausted before exact dates for the Voyage/Emerge readouts and the equity offering, and a current share price, could be pinned down.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

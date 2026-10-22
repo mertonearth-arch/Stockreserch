@@ -1,58 +1,102 @@
 {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
-  "sector": null,
-  "theme": "Advanced Materials",
-  "themeLabel": "established",
+  "sector": "Technology - Enterprise Software & Cloud Infrastructure",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.424Z",
   "fundamentals": {
     "marketCap": {
-      "value": 414200000000
+      "value": null,
+      "asOf": null,
+      "note": "Only a share price was found (~$138.07 as of 2026-10-01, source: startuprise.co.uk aggregation), with no confirmed shares-outstanding figure to multiply against this session, so market cap itself is left null rather than computed from an unverified share count."
     },
     "float": {
-      "value": 1660000000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": 2880000000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "cash": {
-      "value": 36370000000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "asOf": null,
+      "note": "Total balance-sheet cash figure not retrieved this session; only incremental FY2026 financing activity was found (see notes/catalysts: $43B debt + $5B equity raised during FY2026, with ~$40B more planned in FY2027)."
     },
     "debt": {
-      "value": 165960000000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "asOf": null,
+      "note": "Same limitation as cash -- only incremental FY2026 issuance figures were found, not a total balance-sheet debt stock figure."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "Not retrieved this session; Oracle is profitable so trailing P/E should not be null for lack of earnings, but the actual trailing EPS figure needed to compute it was not independently verified before the search budget was exhausted.",
+      "asOf": null
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2025 (ended May 2025)",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved this session"
+      },
+      {
+        "period": "FY2026 (ended May 2026)",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved this session"
+      },
+      {
+        "period": "most recent quarter (FQ1 2027, reported ~Sept 2026)",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved this session"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "OCI / cloud infrastructure (IaaS) revenue YoY growth",
+      "pct": 93,
+      "period": "unspecified recent quarter/period",
+      "note": "A secondary source's headline cited ~93% YoY growth for Oracle's AI/cloud-infrastructure business, but the exact reporting period was not confirmed and the underlying figure was not cross-checked against Oracle's actual earnings release. Total-company revenue YoY (the normal default headline figure) was not independently retrieved this session -- flagging this as the best available but unverified growth figure rather than omitting growth entirely."
     },
     "nextEarnings": {
       "date": "2026-12-14",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Carried over from the prior dashboard record; could not independently confirm via Oracle investor relations this session."
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-18",
+      "type": "financing / capex guidance",
+      "headline": "Coverage of Oracle's AI-datacenter financing needs: company said it expects to raise roughly $40 billion in debt and equity in fiscal 2027 (having already raised $43B debt + $5B equity in FY2026); FY2026 capex rose to $55.7B from $21.2B in FY2025, and FY2027 capex guidance is $90-95B; FY2026 free cash flow was reported as negative $23.7B",
+      "impact": null,
+      "source": "https://www.techrepublic.com/article/news-oracle-ai-data-center-funding/",
+      "note": "Secondary reporting on Oracle's FY2026 10-K disclosures; not independently fetched from the primary filing this session (SEC EDGAR unreachable)."
+    },
+    {
+      "date": "2026-10-09",
+      "type": "corporate action",
+      "headline": "Routine ex-dividend date",
+      "impact": null,
+      "source": null,
+      "note": "Carried from the prior dashboard record; a routine, non-substantive corporate action, flagged as such per the task brief."
+    },
     {
       "date": "2026-10-09",
       "type": "dividend",
@@ -81,22 +125,79 @@
       "type": "insider",
       "headline": "Oracle disclosed (in a regulatory filing following its Q1 FY2027 close) that it is expanding its 2026 Restructuring Plan by approximately $700M, raising total estimated plan costs to roughly $2.8B (severance, contract termination, and related exit costs tied in part to AI-driven workforce reductions); ~$2.1B in charges had been recorded against the plan through 2026-08-31",
       "impact": "cited as a contributing factor in the stock's decline"
+    },
+    {
+      "date": "2026 (FY2026 10-K, year ended 2026-05-31)",
+      "type": "disclosure",
+      "headline": "FY2026 remaining performance obligations (RPO) reached $638B; disclosed $248B in additional off-balance-sheet lease commitments (15-19 year terms, 'substantially all related to data centers and cloud capacity'); disclosed $75B of customer-prepaid/supplied hardware reducing Oracle's own GPU capex burden",
+      "impact": null,
+      "source": "https://erp.today/oracle-loads-up-on-ai-infrastructure-as-oci-backlog-data-center-commitments-surge",
+      "note": "Secondary reporting on the FY2026 10-K; exact filing date not pinned down (annual report would have been filed mid-2026) and not independently fetched this session."
     }
   ],
-  "conflicts": [
-    "2026-09-14 closing price: $142.82 (Invezz, 'down 4% today') vs $143.80 (paired with $414.2B market cap) vs implied $142.99 (from a cited -4.85%/-$7.29 move off a $150.28 prior close) vs a day-range citation of $141.01-$145.40; a separate, likely stale snippet also labeled $150.28 as 'today's' price and a $166.00 day-high. None independently confirmed via a directly fetched exchange/aggregator page (stockanalysis, CNBC, Yahoo, MarketWatch, Nasdaq, investor.oracle.com all returned EGRESS_BLOCKED this session).",
-    "2026-09-11 (baseline) close: baseline $470.22B market cap / 2.88B shares implies ~$163/share, versus a search snippet citing $150.28 as the 2026-09-11 close -- this is the same unresolved conflict flagged in the prior (2026-09-11) pass, still unresolved.",
-    "2026-09-14 market cap: $414.2B (computed from $143.80 x 2.88B shares, most internally consistent) vs $454.41B cited by a separate aggregator as 'today's' cap (doesn't reconcile with any price point found) vs the 2026-09-11 baseline of $470.22B.",
-    "Short interest: 47.77M shares / 1.66% of shares outstanding (undated aggregator) vs 50.0M shares / 1.74% of outstanding as of FINRA settlement date 2026-07-31 -- likely just different as-of dates, both recorded.",
-    "Oracle's next earnings date: 2026-12-14 (cited by one aggregator as 'Confirmed') vs 2026-12-10 (a separate, less-corroborated snippet) -- neither independently confirmed via a primary Oracle IR source this pass."
+  "conflicts": [],
+  "pendingFilings": [
+    {
+      "item": "Oracle Investor Day",
+      "expectedDate": "2026-10-28",
+      "note": "Las Vegas; expected to detail long-term AI-infrastructure capex plans per preview coverage (Morningstar). Has not yet occurred as of this report (2026-10-22)."
+    },
+    {
+      "item": "Next earnings (FQ2 FY2027)",
+      "expectedDate": "2026-12-14",
+      "note": "Carried from prior record; not independently confirmed by the company this session."
+    }
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Market cap ~$414.20B, float 1.66B shares, shares outstanding 2.88B, cash $36.37B, debt $165.96B as of 2026-09-14; next earnings est. 2026-12-14. Stock fell amid a broader AI-sector selloff tied to Anthropic/OpenAI comments on slower frontier AI development and OpenAI's delayed IPO, plus concern over Oracle's debt-funded AI capex buildout; Ellison cancelled a planned 50M-share sale and Oracle publicly denied a Bloomberg report of data-center delays; the company also expanded its 2026 restructuring plan by ~$700M. Multiple unresolved source conflicts on price, market cap, short interest, and next earnings date (see conflicts).",
-  "history": [],
+  "notes": "Theme on file ('Advanced Materials') is a clear mismatch -- Oracle is an enterprise software / database / cloud-infrastructure company, not a materials company. Reassigned theme to 'Enterprise Software & Security' (the closest genuine fit among the existing theme strings); 'AI Semiconductors' was considered but rejected because Oracle does not design or manufacture chips -- it is a large buyer/consumer of AI compute and a cloud provider, which is a materially different business model. themeLabel set to 'hot sector' given the scale of current AI-datacenter capex/financing news driving the stock narrative, despite Oracle being a long-established company. This record's core valuation/EPS/balance-sheet fields could not be filled this session: SEC EDGAR, Oracle's investor-relations site and stocktitan.net were all unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain tried), and the session's shared WebSearch budget was exhausted before the FQ1 FY2027 earnings print (reported ~Sept 2026) and current balance-sheet figures could be independently retrieved. The 93% OCI growth figure and the FY2026 capex/RPO/lease figures above are the most substantive items this session could establish and should be cross-checked against Oracle's actual 10-K/earnings release in a follow-up pass.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflict resolved"
+    ],
+    "tradingDay": true
   }
 }

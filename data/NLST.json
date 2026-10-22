@@ -2,49 +2,57 @@
   "ticker": "NLST",
   "name": "Netlist, Inc.",
   "sector": null,
-  "theme": "Government IT & Defense Services",
-  "themeLabel": "established",
+  "theme": "Memory Technology & IP Licensing",
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.405Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2070000000
+      "value": 2223706740,
+      "asOf": "2026-10-06",
+      "source": "Derived: 333,890,000 shares outstanding (MarketBeat, ~early Aug 2026) x $6.66 close (2026-10-06, per Webull/Finviz settlement-day coverage); approximate since the share-count and price dates differ slightly. Webull independently described the resulting market value as 'above $2 billion', corroborating this range."
     },
     "float": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 320538000,
+      "asOf": "2026-08-01",
+      "source": "MarketBeat (approximate date)"
     },
     "sharesOutstanding": {
-      "value": 349600000,
-      "asOf": "2026-09-23"
+      "value": 333890000,
+      "asOf": "2026-08-01",
+      "source": "MarketBeat (approximate date)"
     },
     "shortInterest": {
-      "value": 8.3,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (28,900,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": null,
+      "asOf": null,
+      "note": "not found this session"
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "could not verify current 10-Q figures this session"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "could not verify current 10-Q figures this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings disclosed"
+      "note": "could not verify this session; Netlist has historically reported operating losses aside from litigation/settlement proceeds, so sign of current trailing EPS is unconfirmed",
+      "asOf": null
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "Patent-licensing settlement income (non-recurring), not organic revenue growth",
+      "period": "2026-10-05 Micron settlement",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Netlist has no established organic revenue-growth figure verifiable this session. The dominant financial event is a new $600M patent license settlement with Micron ($30M/quarter for 20 quarters, Q4 2026 through Q3 2031), which will materially affect future reported revenue/income but is litigation-settlement income rather than organic growth."
     },
     "nextEarnings": {
       "date": "2026-11-03",
@@ -53,6 +61,27 @@
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-06",
+      "type": "price_reaction",
+      "headline": "NLST shares closed at $6.66, up ~18% on the day following the Micron settlement; stock up more than 970% over the trailing year, with market value described as above $2 billion",
+      "impact": "Major positive price reaction to the settlement news",
+      "source": "Webull News"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "litigation_settlement",
+      "headline": "Netlist and Micron agreed to a $600 million patent license and settlement, resolving pending litigation between the companies",
+      "impact": "Micron receives a 5-year license to Netlist's patent portfolio and will pay $30M per quarter for 20 quarters (Q4 2026 through Q3 2031), totaling $600M; settles and mutually releases pending legal proceedings between the companies",
+      "source": "SEC 8-K, sec.gov/Archives/edgar/data/0001282631/000110465926113897/ (via Finviz/Webull summaries)"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "litigation",
+      "headline": "US ITC instituted a Section 337 investigation into Micron, Supermicro, HPE, and Lenovo over alleged infringement of Netlist DDR5 patents (the underlying complaint was filed by Netlist in August 2026)",
+      "impact": "Opens a second litigation/exclusion-order track against four large respondents; it is unclear from available sources whether the October 2026 Micron settlement resolves Micron's portion of this ITC matter specifically",
+      "source": "Date carried over from pre-existing record; general background corroborated via search summary referencing Netlist's ITC filing, exact institution date not independently re-confirmed this session"
+    },
     {
       "date": "2026-09-23",
       "type": "regulatory/legal",
@@ -75,15 +104,31 @@
     }
   ],
   "conflicts": [
-    "changePct for 2026-09-23: implied ~12.7% from prior close $5.26 vs a separate WebSearch synthesis saying shares rose 14.5%.",
-    "marketCap: one undated snapshot cites $1.8B, another cites '$1.01B as of July 2, 2026', while this pass's calculation gives ~$2.07B ($5.93 x ~349.6M shares, count date unconfirmed) -- dispersion likely reflects different snapshot dates given NLST's large price swings (+525.9% over the trailing 12 months per one source), not reconciled to one source.",
-    "cash (quarter ended 2026-06-27): one source states $40.7M cash and cash equivalents including restricted cash; another states $23.2M for the same 'including restricted cash' figure and date -- not reconciled.",
-    "nextEarnings.date: November 3, 2026 vs November 5, 2026.",
-    "shortInterest: 28.9M shares = 8.5% of float vs a separate figure of 5.54% of shares outstanding."
+    "Market cap estimates for NLST vary widely by source/date even accounting for price moves: MarketBeat ~$778M (Aug 2026, $2.33/share); PitchBook ~$867M (2026-06-12); Investing.com ~$884M; Robinhood ~$833M (July 2026, $2.50/share); ROIC.AI ~$1.67B and DeFiLlama ~$1.88B and Digrin ~$2.3B appear stale or inconsistent with their own stated share price and were not used.",
+    "Unclear whether the 2026-10-05 Micron settlement dismisses Micron's role in the Section 337 ITC investigation (which also names Supermicro, HPE, and Lenovo) — sources describe the settlement as resolving 'all pending legal proceedings between the Company and Micron' but do not explicitly confirm the ITC case is included."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Confirmed via company history that NLST is Netlist, Inc.'s common stock trading OTCQB (moved off Nasdaq in 2018), not a warrant or unit ticker variant. Share-count-implied market cap data suggests NLST is a large-cap-sized company by dollar value (~$1-2B+) due to a very high share count (~349.6M) built up over years of dilution -- a notable disconnect for a name most coverage frames as a small/micro-cap patent-litigation mover, worth flagging rather than an outright error. Netlist has ongoing, separate IP litigation/licensing activity against several other companies (Samsung, Google, Nvidia, Broadcom) beyond the Sept 23 Micron/SMCI/HPE/Lenovo ITC action.",
+  "notes": "Theme mismatch CONFIRMED: 'Government IT & Defense Services' (the on-file theme) does not fit Netlist at all — Netlist is a memory-technology/IP company (DDR4/DDR5 memory modules, NVDIMM/HybriDIMM) now primarily monetizing its patent portfolio via licensing and litigation against Samsung, SK Hynix, Google, Micron, Supermicro, HPE, and Lenovo. None of the pre-set theme strings genuinely fit, so a new theme 'Memory Technology & IP Licensing' is proposed here. themeLabel set to 'story stock' given the ~970% one-year rally is driven almost entirely by litigation/settlement headlines rather than steady underlying fundamentals. Could not verify short interest, cash, debt, EPS, or revenue history this session — WebFetch failed with DNS errors on SEC EDGAR and all other tested domains, and the WebSearch tool's shared quota was exhausted before these specific lookups could be completed.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -96,5 +141,23 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

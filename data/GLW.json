@@ -3,51 +3,89 @@
   "name": "Corning Incorporated",
   "sector": null,
   "theme": "Advanced Materials",
-  "themeLabel": "established",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.417Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 131210000000,
+      "asOf": "2026-08-19",
+      "source": "equibles.com, at a $152.45 close"
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 860640000,
+      "asOf": "2026-08-19",
+      "source": "equibles.com (consistent with a late-May 2026 snapshot of 860,637,825 shares)"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 2.1,
+      "asOf": "2026-08-19",
+      "source": "equibles.com (18.0M shares short, ~1.1 days to cover)"
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not located in sources reachable this session (WebFetch to SEC EDGAR and IR sites failed in this sandbox)"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not located in sources reachable this session"
     },
     "pe": {
-      "trailing": null,
+      "trailing": 73.2,
       "forward": null,
-      "note": "no earnings"
+      "note": "TTM EPS ~$2.18 per a 2026-10-05 Google Finance snapshot; a separate Aug 14, 2026 Yahoo Finance snapshot showed trailing P/E ~76.5 on TTM EPS of $2.17 (see conflicts). A pre-earnings Barchart estimate (predating the Q2 2026 report) projected FY2026 EPS of $3.19, which was not independently reconfirmed as current consensus, so forward P/E is left null rather than computed from a stale estimate.",
+      "asOf": "2026-10-05"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 0.78,
+        "basis": "non-GAAP diluted",
+        "note": "beat a ~$0.75-0.76 consensus"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": 4050000000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 4740000000,
+        "yoy": 17,
+        "note": "one source (Webull) instead reported Q2 2026 revenue of $4.51B, described as missing analyst estimates and triggering a 16.1% stock drop — see conflicts; these may be describing different comparison bases (YoY growth vs. a miss against a higher estimate) but could not be reconciled this session"
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 17
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-10-27",
+      "confirmed": false,
+      "note": "unconfirmed estimate per an Aug 19, 2026 equibles snapshot; on-file next-earnings date was 'unknown' and no company announcement was found this session"
+    }
   },
   "price": null,
   "catalysts": [
@@ -57,16 +95,84 @@
       "headline": "Corning enters $2B at-the-market equity offering agreement with Goldman Sachs; no fixed price or share count disclosed",
       "impact": "Stock closed down 13.70% on the session; sympathy weakness also hit optical/AI-supply-chain peers (Coherent -11%, Lumentum -9%, Fabrinet -6%)",
       "source": "https://www.tradingkey.com/news/market-movers/262167113-market-movers-glw-20260914 ; https://www.fool.com/investing/2026/09/14/why-corning-plunged-today/ ; https://247wallst.com/investing/2026/09/14/corning-tumbles-12-on-2b-at-the-market-equity-offering-coherent-sinks-11-lumentum-drops-9-fabrinet-slides-6/"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "offering/dilution",
+      "headline": "Corning entered an Equity Distribution Agreement with Goldman Sachs & Co. LLC to sell up to $2,000,000,000 of common stock at-the-market under its existing Form S-3 shelf, with proceeds earmarked for general corporate purposes (capex, optical-capacity investment, debt reduction, dividends). Goldman receives a 1% commission on gross proceeds; no fixed price or share count was set.",
+      "impact": "Shares fell sharply on the news (reports range from -12% to -13.6%, one calling it the worst S&P 500 performer that day) — see conflicts",
+      "source": "https://longbridge.com/en/news/298766524; https://247wallst.com/investing/2026/09/14/corning-tumbles-12-on-2b-at-the-market-equity-offering-coherent-sinks-11-lumentum-drops-9-fabrinet-slides-6/"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "earnings",
+      "headline": "Corning reported Q2 2026 results (non-GAAP EPS $0.78, beating consensus) and issued Q3 2026 guidance of core sales $4.9-5.0B and core EPS $0.85-0.89; Optical Communications sales reportedly rose sharply on generative-AI infrastructure demand (Enterprise Networks segment up as much as 65% per one source).",
+      "impact": "Stock reaction disagreed across sources: -2.5% in one report, -11.2% in another, both attributed to Q3 guidance concerns",
+      "source": "https://www.marketbeat.com/instant-alerts/corning-nyseglw-announces-quarterly-earnings-results-2026-07-28/"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Large-cap flagged as a notable, genuinely news-driven move. Entered a $2B at-the-market equity offering agreement with Goldman Sachs, with no fixed price or share count disclosed. Exact closing dollar price not confirmed; stock closed down 13.70% on the session (some sources reported -12%), with sympathy weakness hitting optical/AI-supply-chain peers.",
-  "history": [],
+  "conflicts": [
+    "Market cap/share price: equibles showed $131.21B at $152.45 (2026-08-19) vs. $168.8B at ~$196 (late May 2026) vs. a Yahoo Finance snapshot implying ~$124/share (undated) — none of these is clearly the current figure, and the 2026-09-14 ATM-offering selloff (to ~$145.61, per 247wallst) likely moved the market cap again without a fully reconciled post-selloff share count and price being available together.",
+    "Q2 2026 revenue: $4.74B (+17% YoY) per one source vs. $4.51B ('missed estimates,' stock -16.1%) per Webull — both labeled Q2 2026; could not determine if these reflect different metrics (e.g., core sales vs. GAAP) or a reporting discrepancy.",
+    "Stock reaction to Q2 2026 earnings/guidance: -2.5% vs. -11.2% across two sources.",
+    "Short interest: 2.1% of float / 1.1 days to cover (2026-08-19) vs. an earlier late-May 2026 reading of 21.4M shares / 1.7 days to cover with 35% short volume — direction of change unclear given different metrics reported.",
+    "Trailing P/E: 73.2 (Google Finance, 2026-10-05) vs. 76.5 (Yahoo Finance, 2026-08-14) on nearly identical TTM EPS ($2.18 vs. $2.17) — the gap is attributable to different share prices on those dates, not a data conflict per se, but is noted for completeness."
+  ],
+  "pendingFilings": [
+    "8-K 2026-09-11 (Goldman Sachs Equity Distribution Agreement / $2B ATM program)"
+  ],
+  "notes": "Theme 'Advanced Materials' is a genuine fit and is kept as-is — Corning is fundamentally a specialty-glass/ceramics materials science company, and its current stock narrative (AI-datacenter optical fiber demand) is really a demand driver for that same materials/manufacturing business rather than a different sector. themeLabel set to 'hot sector' given the AI-driven re-rating (stock up roughly 91% YTD per one September 2026 report) and the market's sensitivity to any capital-raise/dilution news. Cash and debt could not be established this session: WebFetch failed to reach SEC EDGAR, Corning's investor-relations site, or any financial news site tried (DNS/connectivity errors in this sandbox), and the WebSearch budget for this task was exhausted before a follow-up query could be run.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

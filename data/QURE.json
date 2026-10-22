@@ -1,61 +1,101 @@
 {
   "ticker": "QURE",
   "name": "uniQure N.V.",
-  "sector": null,
+  "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.426Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 1457000000,
+      "asOf": "2026-10-02",
+      "source": "Calculated: Trade Ideas closing price $23.11 (2026-10-02) × Equibles-reported shares outstanding (63,067,485)",
+      "note": "Equibles' own market-cap figure of $1.70B uses a stale $26.99 price; see conflicts."
     },
     "float": {
-      "value": 57500000,
-      "asOf": "2026-09-15"
+      "value": null,
+      "note": "Not disclosed separately from shares outstanding in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 63067485,
+      "asOf": null,
+      "source": "Equibles (exact as-of date not stated by source)"
     },
     "shortInterest": {
-      "value": 11.2
+      "value": null,
+      "note": "Conflicting and/or stale figures: Fintel reported 22.33% short float / 7.23 days to cover as of 2026-05-01; a separate, undated Equibles figure shows 11.1M shares short / 9.0 days to cover. Neither is confirmed current for Oct 2026."
     },
     "cash": {
       "value": 810300000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-06-30",
+      "source": "uniQure Q2 2026 10-Q / press release",
+      "note": "Cash, cash equivalents and current investment securities. Up from $622.5M at YE2025, driven mainly by a $259M follow-on public offering completed in June 2026. Net cash used in operating activities was $66.8M for H1 2026."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "No material traditional debt figure identified this session; uniQure has historically carried minimal debt beyond lease liabilities, not quantified here."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (TTM EPS approximately -$4.05; Q2 2026 net loss $81.1M / $1.22 per share)"
+      "note": "negative earnings"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -1.22,
+        "basis": "GAAP (basic and diluted)"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": 5300000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 5800000,
+        "yoy": 9.4
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 9.4,
+      "note": "Revenue is small royalty/license income (primarily HEMGENIX-related) relative to company size; operating cash burn of $66.8M for H1 2026 (net loss $134.6M) is arguably the more representative metric for this pre-commercial-scale biotech."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-04",
+      "confirmed": false
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-30",
+      "type": "price move",
+      "headline": "Shares partially recovered (+6.9% reported) the day after the Sept 29 selloff — this is a bounce, NOT the underlying catalyst.",
+      "impact": "+6.9%",
+      "source": null
+    },
     {
       "date": "2026-09-30",
       "type": "move",
       "headline": "Shares partly recovered, +6.9% to $26.21, as some analysts argued the prior day's selloff was overdone relative to price targets",
       "impact": "Partial rebound",
       "source": "https://247wallst.com/investing/2026/09/30/uniqure-stock-crashed-on-its-huntingtons-data-wall-streets-price-target-says-the-selloff-went-too-far/"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "clinical data",
+      "headline": "AMT-130 (Huntington's disease gene therapy) 48-month Phase I/II data update: Unified Huntington's Disease Rating Scale (UHDRS) showed 44% slowing of disease progression vs. updated external control — NOT statistically significant (p=0.144), down from a previously reported 75% slowing at 36 months. Shares fell ~37% (from ~$39.11 to ~$24.40). Company argued the 48-month readout understates the true effect due to missing data and dropout bias among faster-progressing external-control patients, and said 36-month data from 15 high-dose patients remains robust and underpins the planned BLA filing.",
+      "impact": "-37% (approx.)",
+      "source": "https://www.rttnews.com/story.aspx?Id=3694912"
     },
     {
       "date": "2026-09-29",
@@ -70,21 +110,75 @@
       "headline": "uniQure submits Biologics License Application (BLA) to FDA for AMT-130 in Huntington's disease, requesting priority review; potential approval as soon as Q2 2027 if granted",
       "impact": "Sets up the September data readout as a key event",
       "source": "https://www.globenewswire.com/news-release/2026/09/02/3354993/0/en/uniqure-announces-submission-of-biologics-license-application-for-ifezuntirgene-inilparvovec-amt-130-in-huntington-s-disease.html"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "earnings",
+      "headline": "Q2 2026 results: revenue $5.8M (vs. $5.3M Q2 2025), net loss $81.1M (-$1.22/share, GAAP); cash & investments $810.3M as of 2026-06-30 following a $259M follow-on offering completed in June 2026.",
+      "impact": null,
+      "source": "https://www.quiverquant.com/news/uniQure+Q2+Revenue+Rises+to+%245.8+Million+as+AMT-130+Filing+Nears"
     }
   ],
   "conflicts": [
-    "Shares-outstanding figures conflict across sources: 69.37M vs 73.89M -- left the point field null rather than pick one.",
-    "Day of the ~37% plunge is described inconsistently across recaps: some frame it as happening on 2026-09-29 (close $24.51, down from $39.11), while a broader 'Sept 30 movers' list also cites QURE as '-37.3% return' for that reporting cycle -- treated as the same underlying move (Sept 29 session); flagging the date ambiguity rather than asserting certainty.",
-    "Market cap could not be sourced directly post-move; a derived estimate (~$1.8-1.9B) was not used as a sourced value per the no-invented-numbers rule.",
-    "Session move on the data reported as -43% (premarket movers scan) vs -36% (dedicated coverage) for 2026-09-29 -- not reconciled; price.last not established from reachable sources."
+    "Market cap: Equibles' own stated figure ($1.70B) uses a stale $26.99 price; recalculating with the most recent price found this session ($23.11, 2026-10-02) against the same share count gives ~$1.46B instead.",
+    "Short interest: Fintel (22.33% short float, as of 2026-05-01) vs. an undated Equibles figure (11.1M shares / 9.0 days to cover) — different dates/methodologies, not reconciled.",
+    "Next earnings date: aggregators disagree — Earnings Whisper shows Nov 4, 2026 (most recent/likely current); an older Earnings Whisper snapshot showed Oct 28, 2026; TheRightTrader projects Nov 9, 2026. None is company-confirmed."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Not a leveraged ETF, warrant, or unit -- common stock (ADS) of a clinical/regulatory-stage gene-therapy biotech; move driven by a specific, dated clinical-data disclosure ahead of an FDA regulatory decision.",
-  "history": [],
+  "pendingFilings": [
+    "10-Q for Q2 2026 (period ended 2026-06-30)"
+  ],
+  "notes": "IMPORTANT for dashboard: the real catalyst behind QURE's September move was the Sept 29, 2026 AMT-130 48-month Huntington's disease data update (44% slowing of progression, NOT statistically significant, p=0.144) — a ~37% single-day drop. The Sept 30 '+6.9% partial recovery' noted in the prior snapshot is just the bounce off that drop, not an independent catalyst. Separately (outside the ~6-month catalyst window, so not listed above but relevant background): shares fell >35% on 2026-03-02 after the FDA said existing AMT-130 data were insufficient for a marketing application, and the stock later rallied in mid-June 2026 when the company announced plans to proceed with a BLA filing after further FDA feedback (exact June date not confirmed, so omitted from the dated catalyst list). Theme 'Biotech Catalyst' fits well given the binary regulatory/clinical-readout dependency. FY2024/FY2025 annual EPS not established this session (WebSearch budget exhausted).",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

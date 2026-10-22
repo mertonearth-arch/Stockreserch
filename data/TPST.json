@@ -1,53 +1,85 @@
 {
   "ticker": "TPST",
   "name": "Tempest Therapeutics, Inc.",
-  "sector": null,
+  "sector": "Biotech Catalyst",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.432Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 12500000,
+      "asOf": "2026-10-16",
+      "source": "Trade-Ideas (price $0.635 x implied ~19.7M shares)",
+      "note": "A Benzinga snapshot dated 2026-09-27 showed a reasonably close $13.60M, lending some support to this figure, though the underlying share count used by each source is inconsistent - see conflicts."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search."
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Could not reconcile conflicting figures: TipRanks 4,440,161 (likely stale, possibly pre-dating or otherwise inconsistent with the 2025-04-08 1-for-13 reverse split); Equibles 14,806,997; Google Finance 15.98M; and an implied ~19.7M backed out of the Trade-Ideas market cap/price snapshot (2026-10-16). None could be confirmed against the 10-Q cover page because WebFetch to SEC.gov failed with DNS errors in this sandbox."
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search."
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 779000,
+      "asOf": "2026-10-16",
+      "source": "Trade-Ideas",
+      "note": "Very low cash balance relative to typical clinical-stage biotech burn rates - consistent with the company's recent small private placements/warrant inducements and implies likely near-term need for additional financing or dilution."
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 7600,
+      "asOf": "2026-10-16",
+      "source": "Trade-Ideas",
+      "note": "Effectively negligible debt."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings disclosed"
+      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not located in sandbox search; only financing-related figures (private placement/warrant proceeds) were found, not the income statement EPS line."
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash burn / financing need",
+      "period": "2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Pre-revenue biotech. March 2026 private placement of common stock and warrants raised net proceeds of $1.7M; a Q2 2026 warrant inducement raised a further $1.7M (one secondary source says $2M - see conflicts). Cash on hand had fallen to approx. $779K by 2026-10-16, suggesting continued reliance on small, dilutive financings."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-05",
+      "confirmed": false,
+      "note": "Yahoo Finance lists 2026-11-05 as the next earnings date, but that page's other data (price/market cap) was from a late-August 2026 snapshot, so the date itself should be treated as an estimate, not company-confirmed."
+    }
   },
   "price": null,
   "catalysts": [
@@ -57,16 +89,80 @@
       "headline": "Announced an exclusive option to license Hebei Senlang Biotechnology's CD7-targeted lentiviral in-vivo CAR-T platform (led by a Phase 1 BCMA/GPRC5D dual-targeting candidate for multiple myeloma), paired with a ~$2.5M warrant-based private placement",
       "impact": "shares +49.6%",
       "source": "https://www.stocktitan.net/news/TPST/tempest-secures-exclusive-option-to-license-clinical-stage-cd7-8p2zwnthuuqo.html"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "partnership / clinical collaboration",
+      "headline": "Tempest and Hebei Senlang Biotechnology announce a development collaboration; first step is an investigator-initiated trial (IIT) in China of Tempest's CD7-targeted in vivo CAR-T candidate TPST-4003 in approx. 10 patients with myasthenia gravis or multiple sclerosis, with first dosing expected Q4 2026 and initial clinical data guided for H1 2027",
+      "impact": null,
+      "source": "SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0001544227/000119312526349374/tpst-ex99_1.htm ; https://ir.tempesttx.com/news-releases/news-release-details/tempest-reports-second-quarter-2026-financial-results-and"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "financing",
+      "headline": "Tempest Q2 2026 results disclose a Q2 2026 warrant inducement raising approx. $1.7M (one secondary source states $2M), on top of a March 2026 private placement of common stock and warrants that raised net proceeds of $1.7M",
+      "impact": "Small dilutive financings; cash position remained thin through Q3 2026 (approx. $779K by 2026-10-16 per Trade-Ideas)",
+      "source": "SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0001544227/000119312526349374/tpst-ex99_1.htm"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Price $1.13, up 49.6%; no market cap, P/E, EPS, float, cash, debt, or shares-outstanding figures disclosed. Move driven by an exclusive option to license Hebei Senlang Biotechnology's CD7-targeted lentiviral in-vivo CAR-T platform, paired with a ~$2.5M warrant-based private placement. Full fundamentals had not yet been researched as of the add.",
-  "history": [],
+  "conflicts": [
+    "Shares outstanding reported inconsistently across sources: TipRanks 4,440,161 (likely stale/incongruent with the known 2025-04-08 1-for-13 reverse split); Equibles 14,806,997; Google Finance 15.98M; and an implied ~19.7M backed out of Trade-Ideas's market-cap/price snapshot (2026-10-16). Could not reconcile to an authoritative figure in this sandbox.",
+    "Q2 2026 warrant inducement proceeds given as approx. $1.7M (SEC 8-K exhibit / primary) vs approx. $2M (Distill Intelligence, secondary) - kept both readings rather than picking one.",
+    "A secondary source (Distill Intelligence) describes a Senlang-related 'exclusive option to license' the CD7 lentiviral vector platform and dates that news to November 2025, which is a different framing (and an earlier date) than the August 2026 investigator-initiated-trial collaboration announcement found in the primary 8-K; it is unclear whether these are the same transaction described differently or two related-but-distinct agreements. The on-file item referencing a 'warrant private placement' around 2026-09-16 may be the same March 2026 PIPE / Q2 2026 warrant-inducement financing described above, just dated differently by the original (unverified) snapshot."
+  ],
+  "pendingFilings": [
+    "Q3 2026 10-Q (not yet due/filed as of 2026-10-22)"
+  ],
+  "notes": "Theme 'Biotech Catalyst' fits - Tempest is a clinical-stage oncology company now also pursuing a CD7 CAR-T collaboration in China; themeLabel set to 'nano-cap' given a market capitalization of roughly $12-14M, among the smallest names in this batch, with evident reliance on small, repeated dilutive financings. Could not verify shares outstanding, EPS, short interest, or exact market cap with confidence because WebFetch to SEC.gov and the company's own IR site failed with DNS resolution errors throughout this session, and the WebSearch budget for the session was exhausted before further confirmation queries could run.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

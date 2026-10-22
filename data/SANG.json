@@ -1,53 +1,92 @@
 {
   "ticker": "SANG",
   "name": "Sangoma Technologies Corporation",
-  "sector": null,
-  "theme": "Government IT & Defense Services",
-  "themeLabel": "established",
+  "sector": "Enterprise Software & Security",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.430Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "source": null,
+      "note": "Conflicting undated/mismatched snapshots found ($136.44M @ $4.13; $124.13M @ $3.70; stale FXEmpire figure of $207.94M @ $5.95 implying ~34.9M shares used, inconsistent with ~33.2M shares elsewhere). Could not establish a single reliable current market cap in sandbox; deal implies ~US$204M enterprise value (C$289M) per the 2026-09-28 definitive agreement."
     },
     "float": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 24020000,
+      "asOf": null,
+      "source": "Webull (undated snapshot, free float 24.02M)",
+      "note": "AAII separately shows float ~25.6M; both undated. Treat as approximate."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 33280000,
+      "asOf": null,
+      "source": "Morningstar (33.28M); equibles.com shows 33,262,910 (consistent)"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search."
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 13500000,
+      "asOf": "2025-06-30",
+      "source": "Sangoma FY2025 Q4/annual results (6-K, filed ~Sept 2025, SEC EDGAR)"
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 47900000,
+      "asOf": "2025-06-30",
+      "source": "Sangoma FY2025 Q4/annual results (6-K)",
+      "note": "Down from $77.8M a year earlier after $29.9M of term-loan/revolver repayment in FY2025."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not disclosed"
+      "note": "Trailing: negative earnings (FY2025 net loss $5.0M). Forward: pending-acquisition stock; no meaningful forward estimate found, and market now largely pricing deal terms rather than standalone earnings."
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Only net loss total found ($8.7M); exact per-share figure not located in sandbox search."
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Only net loss total found ($5.0M, fiscal year ended 2025-06-30); exact per-share figure not located in sandbox search."
+      },
+      {
+        "period": "Q1 FY2026 (ended 2025-09-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Reported 2025-11-10; figures not located in sandbox search."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025 (ended 2025-06-30)",
+        "value": 236700000,
+        "yoy": null,
+        "note": "Within guided range of $235-238M; prior-year (FY2024) revenue not located to compute YoY."
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "FY2025",
       "pct": null,
-      "note": "not disclosed"
+      "note": "FY2025 revenue $236.7M (within guidance); FY2024 comparison figure not located in sandbox search so YoY% could not be computed. Net loss narrowed from $8.7M (FY2024) to $5.0M (FY2025); Adjusted EBITDA $41.0M (17% of revenue)."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Fiscal Q1 2027 (quarter ending ~2025-09-30... correction: ending 2026-09-30) results estimated by Digrin for ~2026-11-09, but no company confirmation found. Note: with the BRC acquisition pending, future quarterly reporting cadence may also be affected by deal timeline."
+    }
   },
   "price": null,
   "catalysts": [
@@ -56,18 +95,80 @@
       "type": "merger",
       "headline": "Definitive agreement to be acquired by a BRC Group Holdings affiliate for $4.925 cash + 0.04767 BRC shares per Sangoma share (~$5.225/share, ~47% premium to 2026-09-28 close); enterprise value ~$204M; unanimous board approval, expected close early 2027",
       "sourceName": "GuruFocus / RTTNews / Seeking Alpha (WebSearch)"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "M&A",
+      "headline": "Sangoma enters definitive arrangement agreement to be acquired by BRC Group Holdings, Inc. for US$4.925 cash plus 0.04767 of a BRC common share per Sangoma share",
+      "impact": "Implied value of US$5.225 (C$7.40)/share based on BRC's 20-day VWAP — approx. 47% premium to prior closing price, approx. 51% to 10-day VWAP; transaction enterprise value approx. US$204M (C$289M); aggregate cash consideration approx. US$170M. Unanimously approved by Sangoma board on recommendation of a special committee; directors/officers holding ~27% of shares signed voting support agreements. Deal requires approval by 2/3 of votes cast at a special meeting plus a simple majority excluding MI 61-101 interested shares, plus court, Investment Canada Act, US HSR, FCC and state telecom regulatory approvals. Closing expected early 2027 (one source cites outside date of 2027-01-22).",
+      "source": "https://www.placera.se/pressmeddelanden/sangoma-technologies-brc-group-holdings-inc-agrees-to-acquire-sangoma-technologies-corporation-to-scale-communications-portfolio-20260928 ; https://www.lexpert.ca/big-deals/brc-group-holdings-to-acquire-sangoma-technologies-in-289-million-deal/394642 ; SEC 6-K: https://www.sec.gov/Archives/edgar/data/0001753368/000110465926113106/tm2626898d1_6k.htm"
     }
   ],
   "conflicts": [
-    "Premarket move on the deal reported as +33% (Seeking Alpha) vs +35% (GuruFocus) for 2026-09-29 — not reconciled."
+    "Market cap snapshots are mutually inconsistent and mostly undated: $136.44M @ $4.13/share vs $124.13M @ $3.70/share vs a stale $207.94M @ $5.95/share (FXEmpire) that implies a different, higher share count than other sources' ~33.2M.",
+    "Float estimates range ~24.02M (Webull) to ~25.6M (AAII); one Globe and Mail automated item showed an obviously erroneous float of '33,333 shares' which was disregarded.",
+    "One source dates the BRC deal announcement 2026-09-29 (aggregator) vs 2026-09-28 (BusinessWire/PR Newswire primary releases, and the on-file date) - per-share terms match across all sources; treating 2026-09-28 as authoritative.",
+    "Termination fee of US$5.397M appears in only one secondary source and could not be verified against the primary arrangement agreement text in this sandbox."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass.",
-  "history": [],
+  "pendingFilings": [
+    "Special meeting proxy circular for shareholder vote on BRC Group arrangement (not yet located/filed as of 2026-10-22, per search)",
+    "US HSR antitrust clearance - pending",
+    "Investment Canada Act approval - pending",
+    "FCC and state telecom regulatory approvals - pending",
+    "Court approval of plan of arrangement - pending"
+  ],
+  "notes": "Current on-file theme 'Government IT & Defense Services' is a mismatch: Sangoma is a cloud communications / UCaaS software vendor (PBX, SIP trunking, UC/CC software), not a defense or government-IT contractor. Reassigned to 'Enterprise Software & Security' per task guidance. Stock is now effectively an M&A-arbitrage situation pending the BRC Group acquisition (announced 2026-09-28, expected to close early 2027); normal valuation metrics (PE, forward estimates) are less meaningful while the deal is pending. Could not verify current standalone market cap, short interest, or exact recent-quarter EPS in this sandbox (WebFetch to SEC.gov and most IR/press sites failed with DNS resolution errors throughout this session; only WebSearch snippets were available, and the WebSearch budget for this session was exhausted before all desired follow-up queries could run).",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

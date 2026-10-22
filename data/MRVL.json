@@ -3,98 +3,57 @@
   "name": "Marvell Technology, Inc.",
   "sector": null,
   "theme": "AI Semiconductors",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.405Z",
   "fundamentals": {
     "marketCap": {
-      "value": 237300000000,
-      "asOf": "2026-10-05"
+      "value": 211120000000,
+      "asOf": "2026-09-17",
+      "source": "The Motley Fool (fool.com/quote/nasdaq/MRVL), based on close of $240.76; counts only publicly traded shares"
     },
     "float": {
-      "value": 748000000,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "not found in search results this session"
     },
     "sharesOutstanding": {
-      "value": 874800000,
-      "asOf": "2026-05-21"
+      "value": 876900000,
+      "asOf": "2026-09-08",
+      "source": "Google Finance snapshot (via search synthesis, not a primary filing) — treat as approximate",
+      "note": "A 2023 10-Q cover page showed 864.5M shares as of 2023-11-24; that figure is 3 years stale and was not used."
     },
     "shortInterest": {
-      "value": 4.1,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (35,800,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": null,
+      "asOf": null,
+      "note": "not found this session"
     },
     "cash": {
-      "value": 3800000000
+      "value": null,
+      "asOf": null,
+      "note": "could not retrieve current FY2027 10-Q balance sheet data this session"
     },
     "debt": {
-      "value": 4960000000,
-      "asOf": "2026-05-02"
+      "value": null,
+      "asOf": null,
+      "note": "could not retrieve current FY2027 10-Q balance sheet data this session; a 2023 10-Q showed ST debt $96.3M / LT debt $4,089.6M but that is stale and unreliable for 2026"
     },
     "pe": {
-      "trailing": 88.3,
-      "forward": null
+      "trailing": null,
+      "forward": null,
+      "note": "could not verify this session",
+      "asOf": null
     },
-    "eps": [
-      {
-        "period": "FY2025",
-        "value": -1.02,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "FY2025",
-        "value": 1.57,
-        "basis": "non-GAAP diluted"
-      },
-      {
-        "period": "FY2026",
-        "value": 3.07,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "FY2026",
-        "value": 2.84,
-        "basis": "non-GAAP diluted"
-      },
-      {
-        "period": "Q2 FY2027",
-        "value": 0.33,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "Q2 FY2027",
-        "value": 0.94,
-        "basis": "non-GAAP diluted"
-      }
-    ],
-    "revenue": [
-      {
-        "period": "FY2024",
-        "value": 5510000000,
-        "yoy": null
-      },
-      {
-        "period": "FY2025",
-        "value": 5770000000,
-        "yoy": 4.7
-      },
-      {
-        "period": "FY2026",
-        "value": 8200000000,
-        "yoy": 42.1
-      },
-      {
-        "period": "TTM",
-        "value": 9450000000,
-        "yoy": 30.6
-      }
-    ],
+    "eps": [],
+    "revenue": [],
     "growth": {
-      "metric": "revenue YoY Q2 FY2027",
-      "period": null,
-      "pct": 37
+      "metric": "FY2028 long-term revenue outlook (guidance, not a trailing YoY figure)",
+      "period": "Guidance issued at 2026-10-06 NYC Investor Day",
+      "pct": null,
+      "note": "Company reportedly raised its multi-year FY2028 revenue target to ~$20B at its NYC Investor Day; this is forward guidance, not a measured YoY growth percentage, and this specific figure could not be independently re-confirmed via search this session (carried over from the pre-existing, unverified record)."
     },
     "nextEarnings": {
       "date": "2026-12-02",
@@ -106,6 +65,13 @@
     "changePct": null
   },
   "catalysts": [
+    {
+      "date": "2026-10-06",
+      "type": "guidance",
+      "headline": "NYC Investor Day: Marvell reportedly raised its FY2028 revenue outlook to roughly $20B",
+      "impact": "Long-term growth guidance raise (carried over from pre-existing record; not independently re-confirmed via a primary source this session due to search-budget exhaustion)",
+      "source": null
+    },
     {
       "date": "2026-10-06",
       "type": "investor day",
@@ -139,18 +105,49 @@
       "headline": "Marvell granted Google a warrant for up to 58.97M shares at $206.58 (~$12.2B fully exercised) under an expanded custom AI chip agreement covering AI inference accelerators and storage/network/memory controllers tied to Google's TPU ecosystem; full vesting tied to $120B of custom-product revenue milestones",
       "impact": "stock +8-10%; Broadcom fell >5% on competitive concern",
       "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/19/marvell-gives-google-option-to-buy-us122-billion-stake-in-custom-chip-deal/"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "filing",
+      "headline": "Marvell filed a Form 424B7 resale prospectus supplement covering 146,504 shares of common stock offered by selling securityholders (not Marvell), tied to the February 2026 acquisition of XConn Technologies Holdings, Ltd.",
+      "impact": "This is a resale/secondary registration, not a new primary equity raise — Marvell receives no proceeds and this does not represent new dilutive capital-raising. Resolves the open question in the pre-existing record: the July 2026 prospectus did not price as a capital raise.",
+      "source": "SEC Form 424B7, sec.gov/Archives/edgar/data/0001835632/000119312526299840/d82164d424b7.htm (via StockTitan summary)"
+    },
+    {
+      "date": "2026-02-10",
+      "type": "M&A",
+      "headline": "Marvell completed its acquisition of XConn Technologies Holdings, Ltd., the source of the shares later registered for resale in the July 2026 424B7",
+      "impact": "Background/context for the July 2026 filing; outside the core ~6-month catalyst window but directly relevant",
+      "source": "StockTitan summary of SEC 424B7 filing"
     }
   ],
   "conflicts": [
-    "Market cap figures range ~$142B-$250B across sources dated July-September 2026, mostly reflecting staleness; two outlier figures (~$600B+) appear to be errors and were excluded.",
-    "The Oct 6 Investor Day stock reaction (+5.81%) comes from a single blog/aggregator source, not Marvell's own release.",
-    "No confirmed Oct 12-15, 2026 chip-sector selloff tied to Fed rate-hike fears could be found for MRVL specifically despite repeated targeted searches -- a similar-sounding narrative found in search is dated to June/July 2026, not October. Not reported as a catalyst here."
+    "Market cap reported inconsistently near the same period: Motley Fool ~$211.12B at $240.76/share (2026-09-17, counting only publicly traded shares) vs. Google Finance ~$197.66B at $225.41/share with 876.90M shares outstanding (2026-09-08). Difference likely reflects price movement between dates plus differing share-count methodology; neither could be independently cross-checked against a primary filing this session."
   ],
-  "pendingFilings": [
-    "equity offering prospectus filed 2026-07-09, outcome/size not confirmed"
-  ],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Theme 'AI Semiconductors' confirmed -- fits well given custom-silicon deals (Google, Nvidia NVLink Fusion) as the dominant news driver since the last pass.",
+  "pendingFilings": [],
+  "notes": "Theme 'AI Semiconductors' is a good, confirmed fit — Marvell is an established fabless semiconductor company (data infrastructure, networking/optical, custom AI silicon for hyperscalers); themeLabel set to 'established'. Key finding: the 2026-07-09 Form 424B7 flagged in the pre-existing record is a RESALE registration tied to the Feb-2026 XConn acquisition, not a new primary equity offering — Marvell receives no proceeds, so it is not a dilutive capital raise. Could not verify current (FY2027) 10-Q cash/debt, shares outstanding from a primary filing, float, short interest, trailing/forward P/E, or detailed EPS/revenue history this session: every tested domain (SEC EDGAR, company IR site, news sites) failed via WebFetch with DNS resolution errors, and the WebSearch tool's shared quota was exhausted partway through research, blocking further lookups. The 2026-10-06 investor-day figure and 2026-12-02 next-earnings date are carried over from the pre-existing (explicitly unverified) record and could not be independently re-confirmed this session.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -221,5 +218,25 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

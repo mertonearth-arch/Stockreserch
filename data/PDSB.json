@@ -1,55 +1,100 @@
 {
   "ticker": "PDSB",
   "name": "PDS Biotechnology Corporation",
-  "sector": null,
+  "sector": "Healthcare - Biotechnology",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.424Z",
   "fundamentals": {
     "marketCap": {
-      "value": 71700000
+      "value": null,
+      "asOf": null,
+      "note": "Not retrieved this session; the stock appears to trade below $1.00/share per a Nasdaq-compliance item found (see conflicts), consistent with a very small market cap, but no figure was independently confirmed."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": 56000000,
-      "asOf": "2026-09-23"
+      "value": null,
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "shortInterest": {
-      "value": 3.4,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (1,894,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": null,
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "cash": {
-      "value": 5600000,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "not retrieved this session; the Aug 11, 2026 shareholder letter likely discusses cash runway but specific figures were not surfaced in search results before the budget was exhausted."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings (pre-revenue clinical-stage biotech); forward not published/not located",
+      "asOf": null
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved this session"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved this session"
+      },
+      {
+        "period": "Q2 2026 (quarter ended 2026-06-30, reported 2026-08-13)",
+        "value": -0.18,
+        "basis": "GAAP, as reported (consensus estimate was a loss of $0.13/share)"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 0,
+        "yoy": null,
+        "note": "Pre-revenue clinical-stage company; $0.00M revenue reported for the quarter ended June 2026."
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash burn / trial progress",
       "pct": null,
-      "note": "not disclosed"
+      "period": null,
+      "note": "Pre-revenue clinical-stage biotech. Aug 13, 2026: reported a GAAP loss of $0.18/share vs. $0.13 consensus, on $0 revenue. Aug 11, 2026: shareholder letter announced a strategic refocus prioritizing PDS0301 (an IL-12 immunocytokine) as the lead development program. Separately, Stage 1 data from an NCI-led colorectal-cancer combination trial (PDS0101-related) was reported in JCO Oncology Advances showing a 77.8% six-month response rate vs. 35% in a parallel non-combination arm -- exact publication date not pinned down this session."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-12",
+      "confirmed": false,
+      "note": "Platform estimate (Yahoo Finance); not company-confirmed."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "publication",
+      "headline": "JAMA Oncology published VERSATILE-002 Phase 2 results: 39.3-month median overall survival vs. a 17.9-month historical benchmark",
+      "impact": null,
+      "source": null,
+      "note": "Carried over from the prior (unverified) dashboard snapshot. This session's search for PDSB news did not independently surface or confirm this specific item before the shared WebSearch budget was exhausted -- treat as UNCONFIRMED pending a follow-up search, per instructions not to treat prior-file data as ground truth."
+    },
     {
       "date": "2026-09-22",
       "type": "clinical data publication",
@@ -70,20 +115,94 @@
       "headline": "PDS Biotech announces up to $22.55 million PIPE financing led by Dr. Patrick Soon-Shiong, founder of NantWorks/Nant Capital",
       "impact": "initial share-price rally driver ahead of the JAMA Oncology publication",
       "source": "https://www.globenewswire.com/news-release/2026/09/08/3357657/37149/en/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-patrick-soon-shiong-founder-of-nantworks.html"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "earnings",
+      "headline": "Reported Q2 2026 results: GAAP loss of $0.18/share vs. $0.13 consensus, on $0 revenue",
+      "impact": null,
+      "source": null,
+      "note": "Sourced via earnings-aggregator coverage (e.g., roic.ai/quantisnow references); not independently fetched from a primary press release this session."
+    },
+    {
+      "date": "2026-08-11",
+      "type": "strategy",
+      "headline": "Shareholder letter announced a strategic refocus prioritizing PDS0301 (IL-12 immunocytokine) as the company's lead development program",
+      "impact": null,
+      "source": null
+    },
+    {
+      "date": "2026-08",
+      "type": "clinical data",
+      "headline": "Published positive Stage 1 data from an NCI-led colorectal-cancer combination trial in JCO Oncology Advances: 77.8% six-month response rate vs. 35% in a parallel trial arm without the combination",
+      "impact": null,
+      "source": null,
+      "note": "Exact August 2026 date not pinned down precisely."
     }
   ],
   "conflicts": [
-    "Price on 2026-09-23: press coverage synthesis said shares soared ~68% to $0.99, while a separate aggregator snapshot showed trading around $0.85 -- not reconciled, may reflect different intraday timestamps.",
-    "marketCap: snapshots found ranged $12.31M (pre-rally, pre-PIPE, Sept 4), $38.1M, $55.45M, and $63.71M across different dates/times during a fast-moving week (236% weekly gain cited) -- not reconciled to one source.",
-    "shortInterest: 1.894M shares = 3.51% of float vs a separate figure of 1.6M shares = 3.0% of float."
+    "Nasdaq compliance / possible reverse split: a single non-English-language source (boerse-express.com) reported a Nasdaq notice for trading below $1.00 for 30 consecutive days, with an Aug 24, 2026 compliance deadline, and said the company was considering a reverse stock split. This is UNVERIFIED -- it could not be cross-checked against a primary Nasdaq notice or company 8-K this session (SEC EDGAR and Nasdaq's own site were unreachable via WebFetch in this sandbox, and the WebSearch budget was exhausted before a follow-up search). If a reverse split did occur, any current share price/count from other aggregators found in this session could be pre- or post-split and should not be assumed comparable.",
+    "The 2026-09-22 JAMA Oncology VERSATILE-002 catalyst (carried from the prior dashboard record) was not independently reconfirmed by this session's searches -- see the note on that catalyst entry above."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Sub-$1, NASDAQ-listed micro-cap biotech (not OTC). Cash position was thin ($5.6M as of June 30, 2026, against a ~$9.8M quarterly net loss and negative stockholders' equity) prior to the Soon-Shiong-led PIPE, which materially improved near-term liquidity and added a high-profile strategic investor/board member. Two distinct catalysts stacked in the same week: the financing/governance news (Sept 8 and Sept 14) and the JAMA Oncology publication of positive PDS0101 Phase 2 data (Sept 22), with the stock's biggest single-day pop (Sept 23, to $0.99) attributed to the market continuing to digest the JAMA Oncology publication alongside the financing overhang resolution.",
-  "history": [],
+  "pendingFilings": [
+    {
+      "item": "Next earnings",
+      "expectedDate": "2026-11-12",
+      "note": "Platform estimate only; not company-confirmed."
+    }
+  ],
+  "notes": "Theme on file ('Biotech Catalyst') fits PDS Biotechnology's actual business (clinical-stage immunotherapy oncology company) well; no change recommended. themeLabel set to 'nano-cap' given the apparent sub-$1 share price / Nasdaq-deficiency signal found, though market cap itself was not independently confirmed. This record is materially incomplete: valuation, balance-sheet, full EPS history and share-count figures could not be retrieved this session because SEC EDGAR, the company's investor-relations/press-release sites and stocktitan.net were all unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain attempted), and the session's shared WebSearch budget (shared across all concurrently running research agents in this run) was exhausted before a dedicated PDSB fundamentals search and a reverse-split confirmation search could be completed. A follow-up pass is strongly recommended, particularly to resolve the possible reverse split and reconfirm the JAMA Oncology catalyst.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

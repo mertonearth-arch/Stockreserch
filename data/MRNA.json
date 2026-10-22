@@ -8,47 +8,82 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.421Z",
   "fundamentals": {
     "marketCap": {
-      "value": 57480000000
+      "value": null,
+      "note": "sources are wildly inconsistent (ranging roughly $23B-$70B across snapshots within weeks of each other) and could not be reconciled to a reliable current figure this session — see conflicts"
     },
     "float": {
-      "value": 326800000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "note": "not found distinctly from shares outstanding in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": 399200000,
-      "asOf": "2026-09-14"
+      "value": null,
+      "note": "aggregators cluster around 396.6M-399M shares but are undated/inconsistent with each other; not averaged per the never-average rule — see conflicts"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "note": "sources disagree materially and are not clearly dated to the same settlement — see conflicts"
     },
     "cash": {
       "value": 6900000000,
-      "asOf": "2026-09-14"
+      "asOf": "2026-06-30",
+      "source": "Moderna Q2 2026 earnings release (8-K)",
+      "note": "cash, cash equivalents and investments; down from $7.5B at 2026-03-31. Correction vs. the prior PM-pass record, which listed this same $6.9B figure 'asOf 2026-09-14' — the primary source ties it to the June 30, 2026 quarter-end balance, not September 14."
     },
     "debt": {
       "value": 591000000,
-      "asOf": "2026-09-14"
+      "asOf": "2026-09-14",
+      "source": "carried from prior PM pass record; not independently re-verified this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "negative earnings"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP diluted",
+        "note": "not verified this session"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP diluted",
+        "note": "not verified this session"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -1.97,
+        "basis": "GAAP diluted",
+        "note": "vs -$2.13 a year earlier; beat a consensus estimate of roughly -$2.03"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": 142000000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 145000000,
+        "yoy": 2.1,
+        "note": "US sales $87M, international sales $58M; weaker US/South American COVID vaccine sales offset by UK government partnership deliveries"
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 2.1
     },
     "nextEarnings": {
       "date": "2026-11-06",
-      "confirmed": true
+      "confirmed": true,
+      "note": "company-announced; conference call at 8:00am ET"
     }
   },
   "price": null,
@@ -78,17 +113,70 @@
       "headline": "Merck/Moderna Phase 3 INTerpath-001 trial (intismeran autogene / mRNA-4157/V940 + Keytruda) met primary (RFS) and key secondary (DMFS) endpoints in resected Stage IIB-IV melanoma -- first positive Phase 3 readout for an individualized mRNA cancer therapy",
       "impact": "stock up ~143%-177% over the following month per various sources (recorded as found, not reconciled)",
       "source": "https://www.merck.com/news/moderna-and-merck-announce-mrna-4157-v940-an-investigational-personalized-mrna-cancer-vaccine-in-combination-with-keytruda-pembrolizumab-met-primary-efficacy-endpoint-in-phase-2b-keynote-94/"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "regulatory",
+      "headline": "FDA PDUFA goal date for the mRNA-1010 seasonal flu vaccine BLA; an FDA advisory committee had voted unanimously in June 2026 that its benefits outweigh its risks for adults 50 and older, but the outcome of the agency's decision on this goal date was not found or confirmed in sources reachable this session",
+      "impact": null,
+      "source": null
+    },
+    {
+      "date": "2026-07",
+      "type": "legal/settlement",
+      "headline": "Moderna paid $950 million related to a litigation settlement, following a $0.9B non-recurring charge to cost of sales flagged in the Q1 2026 update",
+      "impact": null,
+      "source": null,
+      "note": "month-level precision only; exact day not found this session"
+    },
+    {
+      "date": "2026-06",
+      "type": "regulatory",
+      "headline": "An FDA advisory committee voted unanimously that the mRNA-1010 seasonal flu vaccine's benefits outweigh its risks for adults 50 and older",
+      "impact": null,
+      "source": null,
+      "note": "month-level precision only; exact day not found this session"
+    },
+    {
+      "date": "2026-04",
+      "type": "regulatory",
+      "headline": "The European Union approved mCOMBRIAX (mRNA-1083, a combined flu/COVID-19 vaccine) for adults 50 and older — Moderna's fourth authorized EU product; the company is still awaiting FDA guidance before refiling the combination vaccine in the US",
+      "impact": null,
+      "source": null,
+      "note": "month-level precision only; exact day not found this session"
     }
   ],
   "conflicts": [
-    "2026-09-14 price/move: $143.97 (+5.38% '24h') vs $144.65 'as of Sept 13' (a non-trading Sunday, so mislabeled) vs a cited day range of $135.01-$149.71 attributed to 'Sept 13' -- none independently confirmed via a directly fetched exchange/aggregator page (stockanalysis, CNBC, Yahoo, MarketWatch, Nasdaq, investors.modernatx.com all EGRESS_BLOCKED or not reachable this session).",
-    "Baseline conflict (carried forward, still unresolved): the 2026-09-11 pass flagged a stale $136.62 price point; this pass's '+5.38%' figure, worked backward, implies a prior close near $136.62 -- suggesting the same stale figure may still be circulating in aggregator data rather than a genuine new reference point.",
-    "Short interest basis/level: 13.13% of shares outstanding vs 13.5% of free float vs ~20% of float cited across three different sources -- not reconciled, recorded verbatim.",
-    "Stock move attributed to the Aug 19 catalyst: cited as both ~143% (baseline, over 'the following month') and 177% (a separate source found this pass) -- not reconciled."
+    "Market cap: one Equibles snapshot shows $69.62B at $133.32/share (2026-08-20, described as a -23.55% move that day); a separate Equibles summary shows $23.97B at $60.42/share; Fintel reports a $22.66B market cap dated 2026-08-03; a separate quote point cites $160.73/share as of 2026-09-17, which at ~397M shares would imply a market cap well above all of these. None of these could be reconciled to a single current figure — this spread looks like it reflects data-quality problems in the aggregators as much as genuine disagreement, but it could not be resolved this session (WebFetch to live quote sources failed, and the shared WebSearch budget for this task batch was exhausted before a follow-up query could be run).",
+    "Shares outstanding: Equibles shows both 396,786,259 and 396,586,862 on different pages; Fintel uses roughly 399 million — not reconciled, not averaged.",
+    "Short interest: Bank of America's equity team reportedly put Moderna's short interest at 17.8% of float, calling it the most-shorted S&P 500 stock (article undated); a later Equibles snapshot instead shows ~49.8M shares short, or 12.5% of float, 10.2 days to cover, with short interest described as falling. A prior PM-pass record separately carried conflicting figures of 13.13% of shares outstanding vs 13.5% of free float vs ~20% of float across three other sources. None of these are reconciled here.",
+    "Cash asOf date: the prior PM-pass record listed Moderna's $6.9B cash figure as 'asOf 2026-09-14'; this session's primary-source check (the Q2 2026 earnings release) ties that same $6.9B balance to June 30, 2026 — flagging this as a likely date-labeling error in the prior record rather than a genuine new conflict."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Market cap ~$57.48B, float 326.8M shares, shares outstanding 399.2M, cash $6.90B, debt $591.0M as of 2026-09-14; next earnings est. 2026-10-29. Prior rally is attributed to the 2026-08-19 Merck/Moderna Phase 3 melanoma trial readout (mRNA-4157/V940 + Keytruda). Multiple unresolved source conflicts on price, short interest, and the magnitude of the post-trial rally (see conflicts).",
+  "notes": "Theme 'Biotech Catalyst' is a good fit and is kept as-is — Moderna is a commercial-stage biotech whose stock moves heavily on discrete regulatory and clinical catalysts (FDA decisions, trial readouts, vaccine approvals) rather than steady fundamentals. themeLabel kept as 'story stock' given the heavy short interest and catalyst-driven volatility the theme name itself implies. The Q2 2026 earnings report's exact calendar date could not be pinned down this session (only the quarter and headline figures were confirmed), so it is described in the fundamentals/eps sections above but intentionally left out of the dated catalysts list per the 'every catalyst needs a date' rule, rather than guessing a specific day. Market cap, float, sharesOutstanding and shortInterest could not be established to a reliable, reconciled figure this session given the scale of disagreement across aggregators (see conflicts) combined with WebFetch failing against every external site attempted (SEC EDGAR, Yahoo Finance, MarketWatch all returned DNS/connectivity errors in this sandbox) and the shared WebSearch budget for this task batch being exhausted before these could be independently re-checked against a single authoritative source.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -104,5 +192,26 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

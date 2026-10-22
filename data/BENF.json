@@ -3,56 +3,91 @@
   "name": "Beneficient",
   "sector": null,
   "theme": "Distressed / Restructuring",
-  "themeLabel": "story stock",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.409Z",
   "fundamentals": {
     "marketCap": {
-      "value": 32000000
+      "value": 18000000,
+      "asOf": "2026-10-07",
+      "source": "Computed: delayed quote price $1.24 (Oct 7, 2026) x 14,518,468 total shares (14,488,560 Class A + 29,908 Class B per FY2026 10-K, as of 2026-06-22)"
     },
     "float": {
-      "value": 1100000,
-      "asOf": "2026-09-23"
+      "value": null,
+      "asOf": null,
+      "note": "Not separately disclosed/found in sources located this session"
     },
     "sharesOutstanding": {
-      "value": 15400000,
-      "asOf": "2026-09-23"
+      "value": 14518468,
+      "asOf": "2026-06-22",
+      "source": "Beneficient FY2026 10-K: 14,488,560 Class A common + 29,908 Class B common shares outstanding"
     },
     "shortInterest": {
-      "value": 0.8,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (115,900) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": null,
+      "asOf": null,
+      "note": "Not disclosed/not found in available sources this session"
     },
     "cash": {
-      "value": 5600000,
-      "asOf": "2026-09-23"
+      "value": null,
+      "asOf": null,
+      "note": "Not found in available sources this session; SEC EDGAR 10-Q access was blocked in this sandbox"
     },
     "debt": {
-      "value": 96800000,
-      "asOf": "2026-09-23"
+      "value": null,
+      "asOf": null,
+      "note": "Company disputes a ~$130M HCLP Nominees, L.L.C. loan/debt (principal + accrued interest) as fraudulent and is pursuing a restructuring strategy to eliminate it (announced 2026-09-23); no clean, undisputed total-debt figure was found independent of this litigation."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings disclosed; distressed/restructuring micro-cap"
+      "note": "Negative earnings",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q1 FY2027 (quarter ended 2026-06-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Net loss of $377,000 reported on $12.2M revenue; per-share figure not independently confirmed this session"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q1 FY2027 (quarter ended 2026-06-30)",
+        "value": 12.2,
+        "yoy": null
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "revenue",
+      "period": "Q1 FY2027 (quarter ended 2026-06-30)",
       "pct": null,
-      "note": "not disclosed"
+      "note": "$12.2M revenue reported for the quarter; a YoY comparison figure was not found in this session's searches"
     },
     "nextEarnings": {
-      "date": "2026-10-05",
+      "date": "2026-11-13",
       "confirmed": false
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-07",
+      "type": "legal",
+      "headline": "Bradley Heppner's criminal sentencing hearing (originally scheduled for this date before Judge Jed S. Rakoff, SDNY) was delayed indefinitely after his defense counsel (Quinn Emanuel) withdrew, citing a 'complete breakdown in communications'; he has since retained new counsel (Alexandra Shapiro, Jonathan Bach)",
+      "impact": "Sentencing did NOT occur on the date in the prior file (2026-10-21) nor on the originally scheduled 2026-10-07 date; a new sentencing date was not found in this session's searches",
+      "source": "https://www.investmentnews.com/regulation-legal-compliance/gwgs-heppner-hires-puff-daddys-attorneys-as-criminal-sentencing-looms/268699"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "restructuring",
+      "headline": "Beneficient announces a strategy to eliminate ~$130M in disputed HCLP Nominees debt and void Bradley Heppner's Class B equity/voting/board-appointment rights; plan would also convert ~$850M in preferred liquidation preference into ~162,132 Class A shares and void ~$88M of other obligations owed to Heppner/affiliates",
+      "impact": "Reported sharply positive stock reaction (one secondary source cited a ~194% single-day jump); plan is a proposed strategy — company states no definitive agreement has been secured yet, and it is prepared to litigate if no consensual resolution is reached",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001775734/000149315226043806/ex99-1.htm"
+    },
     {
       "date": "2026-09-23",
       "type": "restructuring plan",
@@ -67,6 +102,20 @@
       "source": "https://www.globenewswire.com/news-release/2026/09/18/3364651/0/en/beneficient-announces-upcoming-launch-of-altlens-an-alternative-asset-portfolio-analytics-and-risk-platform-for-family-offices-and-small-institutional-investors.html"
     },
     {
+      "date": "2026-08-14",
+      "type": "earnings",
+      "headline": "Beneficient reports fiscal Q1 2027 (quarter ended 2026-06-30) results: $12.2M revenue, $377,000 net loss",
+      "impact": "Narrow net loss relative to revenue",
+      "source": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "legal",
+      "headline": "A Manhattan federal jury convicts Bradley Heppner (Beneficient/GWG Holdings founder) on all four counts: securities fraud, wire fraud, conspiracy, and false statements to auditors",
+      "impact": "Negative overhang resolved in part — Beneficient called it a verdict that 'closes an important chapter' and said it had parted ways with Heppner upon learning of the fraud",
+      "source": "https://www.nasdaq.com/press-release/beneficient-statement-heppner-conviction-2026-05-11"
+    },
+    {
       "date": "2026-05-07",
       "type": "legal",
       "headline": "Former CEO Brad Heppner convicted on federal fraud charges; sentencing scheduled for October 21, 2026",
@@ -75,17 +124,66 @@
     }
   ],
   "conflicts": [
-    "Price on 2026-09-23: Benzinga (intraday, time of publication) showed +250.79% at $1.89; a separate technical write-up said shares spiked to an intraday high of $3.03 then fell to $1.60; another aggregator snapshot showed $2.08 (+308.53% to +358.85% depending on quote time). No single authoritative closing print obtained for this extremely volatile, thinly-traded session.",
-    "Shares outstanding: one aggregator (dated Jan 12, 2026) showed ~9.70M shares / $6.58M market cap; the Form S-1 shows 15,388,036 Class A shares as of 2026-07-28. Company has been issuing equity via ATM/shelf offerings, so the count is a moving target.",
-    "Float/short interest: one source shows float ~1.1M shares with short interest 1.08M shares (11.11% of shares outstanding); another shows short interest of 115.9K shares (5.1% of float, 14.0 days to cover). Vendor snapshots disagree on the float basis."
+    "IMPORTANT CORRECTION to data on file: the on-file record states Heppner's sentencing was scheduled for 2026-10-21 and asks whether it occurred. The actual scheduled date found in sources was 2026-10-07 (not 10-21), and that hearing was delayed indefinitely (not held) after his counsel withdrew. No sentencing has been confirmed to have occurred as of this session's research.",
+    "Next earnings date on file (2026-10-05) is confirmed stale/wrong — that date has passed with no evidence of a report; the company's last confirmed report was 2026-08-14 (fiscal Q1 2027), and the next is estimated around mid-November 2026 (Earnings Whispers: 2026-11-13; one other aggregator's 2026-10-05 estimate is the same stale date flagged on file).",
+    "Market cap: TipRanks shows $5.05M on 9,464,248 shares outstanding, which is inconsistent with the FY2026 10-K's 14.49M Class A + 0.03M Class B share count and looks stale/wrong; disregarded in favor of the 10-K figure.",
+    "Share price: most recent quote found is $1.24 (delayed, Oct 7, 2026), down from $3.05 in July 2026 and from a 52-week high of $12.48 — consistent with Beneficient's 1-for-8 reverse split (effective Dec 15, 2025) and a subsequent severe decline (~-83% YTD per one source); no quote later than Oct 7, 2026 was found."
   ],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Extremely thin, high-volatility, low-priced micro-cap (formerly a $0.54 stock) that on 2026-09-23 traded in a wide band intraday, reported as high as $3.03 and as low as ~$1.60. The company underwent a 1-for-80 reverse stock split effective April 18, 2024 to regain Nasdaq minimum-bid-price compliance (shares outstanding fell from ~287.87M to ~3.6M at that time) -- flagged per the reverse-split rule; the current price sits atop a legacy of heavy dilution and that prior split. Beneficient has an unusually complex, multi-tier capital structure resembling a business-development-company-like liquidity platform: Class A common stock (NASDAQ: BENF) alongside Class B common stock (historically Heppner-controlled, super-voting) and multiple layers of LP/preferred interests. The Sept 23 announcement targets unwinding much of that preferred/Class B overhang tied to convicted former CEO Brad Heppner.",
-  "history": [],
+  "pendingFilings": [
+    "No definitive agreement finalizing the HCLP debt elimination / Heppner Class B rights restructuring has been confirmed as filed; company says it is still pursuing this on a consensual basis as of the Sept 23, 2026 announcement."
+  ],
+  "notes": "Theme 'Distressed / Restructuring' remains an excellent fit — ongoing going-concern-type issues, disputed debt, founder fraud conviction, and an active restructuring plan. The most consequential finding this session is that the Heppner sentencing date on file (Oct 21, 2026) does not match primary reporting (which points to an Oct 7, 2026 date that was itself postponed indefinitely) — this should be corrected and monitored for a new sentencing date. Cash and debt figures could not be pulled from the 10-Q this session because SEC EDGAR direct access was blocked in this sandbox and the web-search budget was exhausted before a full balance-sheet check could be completed.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

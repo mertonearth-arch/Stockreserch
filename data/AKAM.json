@@ -2,56 +2,96 @@
   "ticker": "AKAM",
   "name": "Akamai Technologies, Inc.",
   "sector": null,
-  "theme": "Advanced Materials",
+  "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.408Z",
   "fundamentals": {
     "marketCap": {
-      "value": 17010000000
+      "value": 15510000000,
+      "asOf": "2026-09-29",
+      "source": "stockanalysis.com data (via search aggregation): price ~$107.91 x ~143.7-145.6M shares outstanding"
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not separately disclosed/found distinct from shares outstanding in sources located this session"
     },
     "sharesOutstanding": {
       "value": 144000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-08-19",
+      "note": "AlphaQuery: 145.55M (quarter ended 2026-03-31); ROIC: 143.59M — approximate midpoint used; see conflicts"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 13.8,
+      "asOf": "2026-08-19",
+      "note": "~19.8M shares short, ~6.1 days to cover (one aggregator). A June 2026 snapshot showed 12.8% (~18.2M shares, 5.16 days to cover) — see conflicts"
     },
     "cash": {
-      "value": 4620000000,
-      "asOf": "2026-06-30"
+      "value": 4616,
+      "asOf": "2026-06-30",
+      "note": "In $millions — cash and marketable securities, per Q2 2026 earnings release (Akamai's own reported figure)"
     },
     "debt": {
-      "value": 5870000000,
-      "asOf": "2026-09"
+      "value": null,
+      "asOf": null,
+      "note": "Not confirmed in available sources this session; Akamai has historically carried convertible notes, but a current total-debt figure was not independently verified (SEC EDGAR access blocked in this sandbox)."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not captured in this pass (Akamai has positive earnings; P/E simply wasn't computed/displayed on the dashboard)"
+      "note": "Insufficient data to compute reliably this session — only the Q2 2026 quarterly EPS was confirmed, not trailing-twelve-month GAAP EPS or a verified current share price at time of calculation",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": 0.52,
+        "basis": "GAAP diluted",
+        "note": "Down 27% YoY; non-GAAP diluted EPS was $1.59 (down 8% YoY)"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not confirmed in available sources this session"
+      },
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not confirmed in available sources this session"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 1100,
+        "yoy": 5
+      }
+    ],
     "growth": {
-      "metric": "revenue Q2 2026",
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
       "pct": 5
     },
     "nextEarnings": {
-      "date": "2026-11-10",
+      "date": "2026-11-05",
       "confirmed": false
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-24",
+      "type": "contract",
+      "headline": "Akamai signs 7-year, $11.6B compute/cloud deal with Anthropic (potentially up to ~$20B with additional commitments); issues Anthropic a warrant for up to ~5% of common shares at $111.33 strike (~2% vesting now)",
+      "impact": "Stock jumped — magnitude disputed across sources (see conflicts); company said the deal does not change 2026 revenue guidance and no revenue is expected from it in 2026",
+      "source": "https://siliconangle.com/2026/09/24/akamai-shares-jump-more-than-20-on-11-6b-anthropic-computing-deal/"
+    },
     {
       "date": "2026-09-24",
       "type": "commercial deal",
@@ -65,6 +105,13 @@
       "headline": "Q2 2026 results: revenue $1.10B (+5% YoY); GAAP diluted EPS $0.52 (-27% YoY); non-GAAP diluted EPS $1.59 (-8% YoY); Cloud Infrastructure Services revenue +39-40% YoY; FY2026 guidance: revenue $4.445B-$4.530B (6-8% growth), non-GAAP EPS $6.40-$7.05",
       "impact": "mixed (revenue beat, EPS declined YoY)",
       "source": "https://www.stocktitan.net/news/AKAM/akamai-reports-second-quarter-2026-financial-go4rrb5pszzs.html"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "Akamai reports Q2 2026 results: revenue $1.1B (+5% YoY); GAAP diluted EPS $0.52 (-27% YoY); non-GAAP diluted EPS $1.59 (-8% YoY); issues Q3 non-GAAP EPS guidance of $1.60-$1.80 and FY2026 revenue guidance of $4.445B-$4.53B",
+      "impact": "In-line/mixed quarter; cloud infrastructure segment revenue +39% YoY to $99M, security +10% YoY to $604M, delivery/other cloud apps -6% YoY to $396M",
+      "source": "https://www.ir.akamai.com/node/33716"
     },
     {
       "date": "2026-07-02",
@@ -89,17 +136,64 @@
     }
   ],
   "conflicts": [
-    "Magnitude of the 2026-09-25 stock move (multiple, unreconciled readings): premarket +21.3% (Yahoo Finance/Investing.com); intraday high +16.4% to $128.46 before paring to roughly +8% by the close (one report); +16.78% to $116.53 (aggregator); +15% ('Akamai Surges 15%', 247wallst.com); +7.93% (tradingkey.com); -6.78% for the regular session ('Akamai Technologies stock falls 6.78% despite $11.6B Anthropic deal boost', cryptonomist.ch); 'shares jump more than 20%' (SiliconANGLE, dated 2026-09-24 after-hours reaction, a different session). Not reconciled from accessible sources.",
-    "Shares outstanding: 144M per Q2 2026 10-Q (2026-06-30) vs 145.39M cited as 'most recent' by an aggregator",
-    "Cash figures: $930.45M (aggregator, definition unclear) vs $4.616B 'cash, cash equivalents and marketable securities' per Q2 2026 10-Q (2026-06-30) vs $1.733B for the same line item at 2026-03-31 - likely different metric definitions or snapshots, not reconciled"
+    "Theme on file ('Advanced Materials') is a clear mismatch — Akamai is a cloud/CDN/cybersecurity company with no advanced-materials business. Reassigned to 'Enterprise Software & Security' as the closest existing theme (security is now its largest reported segment at $604M/quarter), though this doesn't fully capture its legacy CDN/content-delivery business; a bespoke 'Cloud Infrastructure' theme could also be justified.",
+    "Stock move after the Sept 24, 2026 Anthropic deal: SiliconAngle reported shares 'jumped more than 20%' after-hours on Sept 24; Tikr reported shares up ~10% the next morning (~$120); Boston Globe reported the stock rose to an intraday high of $135 (vs. a $160 high from a May 2026 deal) but did not jump as much as in May. No single reconciled same-session percentage move was found.",
+    "Market cap varies widely by source/date in 2026, from ~$16.6B (Aug 19) to ~$23.3B (June, reflecting a much higher ~$160 share price before the September decline) to ~$15.51B (Sept 29) — these track a declining share price through the year rather than being inconsistent with each other.",
+    "Next earnings date: most calendar sites list Nov 5, 2026 (after close); TipRanks lists Nov 10, 2026. Neither was confirmed against Akamai's own investor-relations press release in this session.",
+    "Shares outstanding: 145.55M (AlphaQuery, quarter ended 3/31/26) vs. 143.59M (ROIC) — minor discrepancy, likely different as-of dates.",
+    "Short interest: 13.8% of float (~19.8M shares, Aug 19, 2026) vs. 12.8% (~18.2M shares, June 2026)."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (the git-push blocker is 403 since 2026-09-04; see RUNBOOK.md) -- every PM/AM pass since then edited the live dashboard directly without ever committing data/*.json, so this and the other newer tickers existed only on the live artifact. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources in this reconstruction; re-research from primary sources on this ticker's next due full pass. Prior notes: NEW ticker addition, added 2026-09-25 due to the Anthropic cloud-deal news. Given the unusually wide and partly self-contradictory spread of reported same-day price-move figures, price.changePct is left out rather than selecting one source. Major finance aggregators (stockanalysis.com, cnbc.com, google.com) and SEC EDGAR were blocked by the egress proxy, limiting primary-source verification.",
-  "history": [],
+  "notes": "Confirmed theme mismatch: Akamai is a cloud infrastructure / CDN / cybersecurity company, not an 'Advanced Materials' business — this looks like a data-entry error in the prior snapshot. Re-themed to 'Enterprise Software & Security' from the existing approved list; flagging that a new 'Cloud Infrastructure' theme might describe it even better given the large delivery/CDN and cloud-compute (Anthropic deal) components. Could not pin down FY2024/FY2025 annual EPS, a current total-debt figure, or a single reconciled percentage move for the Anthropic-deal stock pop — web search budget was exhausted and direct fetches to SEC EDGAR, Akamai IR, and most news sites were blocked in this sandbox before these could be resolved.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

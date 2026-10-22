@@ -1,71 +1,198 @@
 {
   "ticker": "UPLD",
   "name": "Upland Software, Inc.",
-  "sector": null,
+  "sector": "Enterprise Software",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "hot sector",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.433Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 13900000,
+      "asOf": "~2026-08 (exact date in source unclear)",
+      "source": "stockanalysis.com (via WebSearch summary only -- this domain is egress-blocked for direct WebFetch in this sandbox per environment notes, so this figure is unverified first-hand)",
+      "note": "Internally consistent with Value Research's Aug 28 2026 price of $4.70 x ~2.94M post-split shares outstanding (~$13.8M), which corroborates it."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not found in available sources"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 2940000,
+      "asOf": "2026-06-17",
+      "source": "Company reverse-split press release (via 01net.it / placera.se / marketchameleon mirrors of the BusinessWire release)",
+      "note": "Pre-split count was 29,363,201 as of 2026-04-29 (Q1 2026 10-Q cover page, per WebSearch summary); company estimated the 1-for-10 reverse split effective 2026-06-17 would reduce this to ~2.9M. Google Finance separately shows 2.94M, consistent."
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not found in available sources"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 31000000,
+      "asOf": "2026-06-30",
+      "source": "Company Q2 2026 earnings press release ('cash on hand as of the end of the second quarter of 2026 was $31.0 million')",
+      "note": "A third-party summary (Quartr) separately states $31.7M for the same date -- see conflicts."
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 229600000,
+      "asOf": "2026-06-30",
+      "source": "Quartr Q2 2026 earnings summary (third-party, not independently confirmed against the primary 10-Q -- sec.gov was unreachable in this sandbox)",
+      "note": "A separate third-party source (AlphaQuery) shows long-term debt of $223.54M as of 2026-03-31 (prior quarter), consistent in magnitude."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings disclosed"
+      "note": "negative earnings -- Q2 2026 GAAP net loss was $35.3M, driven largely by a ~$35.2M goodwill impairment; company has reported losses across recent periods. No forward estimate found."
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved; FY2024 revenue was $274.79M per secondary source"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": null,
+        "note": "not retrieved; FY2025 revenue was $216.88M, down 21.08% YoY, per secondary source (simplywall.st/valueresearch)"
+      },
+      {
+        "period": "Q2 2026 (ended 2026-06-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "GAAP net loss of $35.3M reported; no per-share figure was found in available sources, and post-split weighted-average share count during the transition quarter makes a derived estimate unreliable, so left null rather than guessed. Non-GAAP net income was $6.6M, +18% YoY."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": 53400000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 49100000,
+        "yoy": -8
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": -8,
+      "note": "Company attributes the decline mainly to 2025 divestitures. Adjusted EBITDA was $12.8M (26% margin) vs $13.6M (25%) a year earlier. Q3 2026 guidance: $45.7-48.7M revenue; FY2026 guidance: $190.1-196.1M revenue."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "No company-announced date found. Third-party estimates disagree: AJ Bell Nov 6 2026, TrendSpider Nov 5 2026, Earnings Whispers Nov 13 2026 -- see conflicts."
+    }
   },
   "price": null,
   "catalysts": [
     {
       "date": "2026-09-16",
+      "type": "partnership/government",
+      "headline": "Carahsoft named Master Government Aggregator for Upland's knowledge-management/contact-center software, distributed via NASA SEWP V and NASPO ValuePoint contract vehicles",
+      "source": null,
+      "note": "Existence of a Carahsoft/Upland government-aggregator relationship was corroborated in search results as recent news, but the exact 2026-09-16 date was not independently re-confirmed via a dated primary source in this session; carried over from prior snapshot."
+    },
+    {
+      "date": "2026-09-16",
       "type": "partnership",
       "headline": "Announced a partnership naming Carahsoft as its Master Government Aggregator, distributing Upland's knowledge-management/contact-center software to public-sector buyers via NASA SEWP V, NASPO ValuePoint and other cooperative contracts",
       "source": "https://finance.yahoo.com/quote/UPLD/"
+    },
+    {
+      "date": "2026-08-14",
+      "type": "earnings",
+      "headline": "Q2 2026 results: revenue $49.1M (-8% YoY); GAAP net loss $35.3M (incl. ~$35.2M goodwill impairment); non-GAAP net income $6.6M (+18% YoY); cash on hand $31.0M; operating cash flow $5.4M",
+      "source": "Company press release (via 01net.it / financialcontent.com mirrors of BusinessWire)"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "regulatory/listing",
+      "headline": "Received Nasdaq notice of falling below the $15M minimum market value of publicly held shares requirement; 180-day cure period to 2027-01-27",
+      "source": "SEC 8-K (per WebSearch summary of filing text)"
+    },
+    {
+      "date": "2026-07-08",
+      "type": "regulatory/listing",
+      "headline": "Nasdaq confirmed the minimum-bid-price noncompliance matter was closed (closing bid price had been >= $1.00 for the prior 10 consecutive business days as of 2026-07-02)",
+      "source": "SEC 8-K / Barchart republication of company press release"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "corporate action",
+      "headline": "1-for-10 reverse stock split became effective at 12:01 AM ET, reducing shares outstanding from ~29.4M to ~2.9M",
+      "source": "Company 10-Q (per WebSearch summary); board approved the ratio 2026-06-04"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Shares up 20.2% (no dollar price disclosed) after announcing a partnership naming Carahsoft as Upland's Master Government Aggregator for public-sector distribution via NASA SEWP V, NASPO ValuePoint and other cooperative contracts. No market cap, P/E, EPS, or other fundamentals disclosed; not yet fully researched.",
-  "history": [],
+  "conflicts": [
+    "Cash as of 2026-06-30: company release states $31.0M; Quartr third-party summary states $31.7M.",
+    "Debt as of 2026-06-30: $229.6M per Quartr summary only -- could not be checked against the primary 10-Q (sec.gov unreachable in sandbox), so treat as single-source/unconfirmed.",
+    "Next earnings date estimates differ across sources: Nov 5 (TrendSpider), Nov 6 (AJ Bell), Nov 13 (Earnings Whispers) -- none company-confirmed.",
+    "Market cap and share-count history around the June 2026 1:10 reverse split is confusing across aggregators that mix pre- and post-split figures (e.g. Google Finance's 2.94M shares vs. older 29.4M figures); using only post-split-dated sources above."
+  ],
+  "pendingFilings": [
+    "Nasdaq market-value-of-publicly-held-shares cure period running to 2027-01-27",
+    "Q3 2026 10-Q / earnings release expected Nov 2026 (exact date unconfirmed)"
+  ],
+  "notes": "No mismatch -- Upland is a cloud-based enterprise/B2B software provider (cognitive business applications, knowledge management, contact-center software, project/IT management) and 'Enterprise Software & Security' fits well; kept as-is. Flagging that the business fundamentally looks closer in character to 'Distressed / Restructuring' (shrinking revenue, large GAAP impairments, Nasdaq minimum-market-value deficiency with a Jan 27 2027 cure deadline, a 1-for-10 reverse split in June 2026) -- noting this tension rather than changing the theme, since the company's product category is still enterprise software. SEC EDGAR, StockTitan and BusinessWire were unreachable via WebFetch in this sandbox; cash figure ($31.0M) is attributed to the company's own press release text as relayed by WebSearch; the debt figure is single-sourced to a third-party earnings summary (Quartr) and is NOT independently confirmed against the primary 10-Q.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

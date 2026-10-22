@@ -8,68 +8,77 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.402Z",
   "fundamentals": {
     "marketCap": {
-      "value": 8570000000,
-      "asOf": "2026-10-08"
+      "value": 10650000000,
+      "asOf": "2026-08-20",
+      "source": "Equibles (https://equibles.com/stocks/cytk/summary) — price $77.18, 139.02M shares"
     },
     "float": {
-      "value": 138400000,
-      "asOf": "2026-08-28"
+      "value": null,
+      "asOf": null,
+      "note": "Not separately disclosed in sources found; only shares-outstanding figures were available, and those conflict (see conflicts)."
     },
     "sharesOutstanding": {
-      "value": 139000000,
-      "asOf": "2026-08-28"
+      "value": 139020000,
+      "asOf": "2026-08-20",
+      "note": "Conflicts with an undated Equibles page (124.4M shares, $81.20 price, $10.04B mkt cap) and the April 30, 2026 short-interest settlement table (135.8M shares) — see conflicts."
     },
     "shortInterest": {
-      "value": 11.8
+      "value": 11,
+      "asOf": "2026-08-20",
+      "note": "Reported as % of float with 9.6 days to cover, per Equibles; a separate undated page shows 14.8M shares / 9.3 days, and the 2026-04-30 settlement shows 15.9M shares / 9.68 days to cover."
     },
     "cash": {
       "value": 1700000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-06-30",
+      "source": "Cytokinetics Q2 2026 earnings release (via SEC 8-K exhibit), reported 2026-08-06 — cash, equivalents and investments, after a $760M public offering completed during the quarter"
     },
     "debt": {
-      "value": 1420000000,
-      "asOf": "2026-08-28"
+      "value": null,
+      "asOf": null,
+      "note": "Not disclosed in the earnings summary sources found this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings"
+      "note": "negative earnings — Cytokinetics reported a GAAP net loss of $198.8M ($1.50/share) for Q2 2026 alone; trailing P/E is not meaningful. Forward EPS estimates not retrieved this session.",
+      "asOf": "2026-08-06"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -5.26,
-        "basis": "GAAP"
-      },
-      {
-        "period": "FY2025",
-        "value": -6.54,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q2 2026",
+        "period": "Q2 2026 (quarter ended 2026-06-30)",
         "value": -1.5,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q2 2025 (quarter ended 2025-06-30)",
+        "value": -1.12,
         "basis": "GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "TTM",
-        "value": 67700000,
-        "yoy": -21.1
+        "period": "Q2 2026",
+        "value": 28600000,
+        "yoy": -57.2
+      },
+      {
+        "period": "Q2 2025",
+        "value": 66800000,
+        "yoy": null
       }
     ],
     "growth": {
-      "metric": "total revenue YoY Q2 2026",
-      "period": null,
-      "pct": -57.2
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": -57.2,
+      "note": "Headline revenue fell YoY only because Q2 2025 included a one-time milestone/license payment that did not recur. The underlying commercial story is the opposite: MYQORZO (aficamten) net product revenue was $25.3M in Q2 2026 (US $23M, Europe $2.3M), beating the ~$17.7M analyst consensus, in its first full launch year. Total revenue YoY is reported per the default instruction but is a misleading headline on its own for this ticker."
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": false
+      "confirmed": null
     }
   },
   "price": {
@@ -77,6 +86,13 @@
     "changePct": null
   },
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "conference",
+      "headline": "HFSA conference presentations on aficamten (as carried on file)",
+      "impact": "Not independently verified this session (search budget exhausted before this could be checked)",
+      "source": null
+    },
     {
       "date": "2026-10-09",
       "type": "medical conference",
@@ -100,6 +116,13 @@
     {
       "date": "2026-08-06",
       "type": "earnings",
+      "headline": "Cytokinetics reported Q2 2026 results: MYQORZO (aficamten) net product revenue $25.3M, above ~$17.7M consensus; GAAP net loss widened to $198.8M ($1.50/share) from $134.4M ($1.12/share) YoY on higher launch-related SG&A; raised FY2026 combined R&D+SG&A guidance to $860M–$890M; ended the quarter with $1.7B cash after a $760M public offering; plans an sNDA filing for aficamten in non-obstructive HCM in Q4 2026 following positive Phase 3 ACACIA-HCM data",
+      "impact": "Product launch beat masked by higher net loss from commercial investment; balance sheet strengthened via large equity raise",
+      "source": "https://finviz.com/news/378880/cytokinetics-reports-second-quarter-2026-financial-results-and-provides-business-update ; https://www.chartmill.com/news/CYTK/Chartmill-53163-Cytokinetics-NASDAQCYTK-Beats-Q2-Estimates-on-Strong-MYQORZO-Launch"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
       "headline": "Q2 2026: total revenue $28.6M (vs $66.8M Q2'25, prior year included a one-time Bayer milestone); MYQORZO net product revenue $25.3M; net loss $198.8M/-$1.50 EPS; cash/investments $1.7B",
       "impact": "medium",
       "source": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx"
@@ -112,17 +135,42 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~124.43M (Google Finance) vs ~139.02M (Motley Fool Frankfurt listing) -- unreconciled.",
-    "Market cap at various August 2026 dates ($10.69B-$11.01B) is inconsistent with the Oct 8 $61.58 price implying ~$7.7-8.6B, consistent with a real pullback in the stock since late August.",
-    "Next earnings date: Nov 4 (EarningsWhispers, Nasdaq calendar) vs Nov 5 (second EarningsWhispers page) vs Oct 29 ('Confirmed' on TipRanks, though its own disclaimer calls it an estimate)."
+    "Shares outstanding / market cap: 139.02M shares, $10.65B mkt cap at $77.18 (Equibles, 2026-08-20) vs. 124.4M shares, $10.04B mkt cap at $81.20 (Equibles, undated) vs. 135.8M shares (Equibles short-interest settlement table, 2026-04-30).",
+    "Short interest: 11.0% of float / 9.6 days to cover (2026-08-20) vs. 14.8M shares / 9.3 days (undated) vs. 15.9M shares / 9.68 days (2026-04-30 settlement).",
+    "FDA approval date for MYQORZO/aficamten in oHCM given as December 2025 by one secondary source (US launch Q1 2026); not independently confirmed against an FDA or company primary source this session."
   ],
   "pendingFilings": [
-    "MAPLE-HCM sNDA (obstructive HCM at-home/expansion use) -- FDA PDUFA date Nov 14, 2026",
-    "planned sNDA submission for aficamten in non-obstructive HCM (ACACIA-HCM), targeted Q4 2026, not yet confirmed filed",
-    "Q3 2026 earnings, expected ~Nov 4-5, 2026"
+    {
+      "type": "sNDA",
+      "description": "Supplemental New Drug Application for aficamten (MYQORZO) in non-obstructive HCM, following positive Phase 3 ACACIA-HCM results",
+      "expected": "Q4 2026"
+    }
   ],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: 'Biotech Catalyst' theme still fits but the company has shifted materially toward commercial-stage: MYQORZO (aficamten) launched in the US in late January 2026 and is generating real product revenue (~$25M/quarter), even though the YoY revenue comparison looks negative purely because of a one-off prior-year licensing payment. No reverse-split or price-consistency red flags; the ~$60-90 range through 2026 is internally consistent with a real ~20% pullback from late-August highs.",
+  "notes": "Theme 'Biotech Catalyst' is a strong fit — Cytokinetics is a commercial-stage biotech whose stock moves on launch data, trial readouts (ACACIA-HCM), and regulatory filings; themeLabel set to 'story stock' given the active launch narrative and large recent equity raise. Cash figure and Q2 2026 operating results are sourced from the company's own earnings release (via an SEC 8-K exhibit surfaced by search), so are relatively reliable; market cap/shares/short-interest figures come only from a third-party aggregator (Equibles) with internally conflicting snapshots, and SEC EDGAR itself was unreachable in this sandbox to confirm the 10-Q cover-page share count. The Oct 9 HFSA catalyst is carried from the file as given and was not independently verified before the search budget ran out.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -190,5 +238,27 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

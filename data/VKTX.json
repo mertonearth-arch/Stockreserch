@@ -3,50 +3,78 @@
   "name": "Viking Therapeutics, Inc.",
   "sector": null,
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "hype sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.408Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4650000000
+      "value": 2900000000,
+      "asOf": "2026-10-16",
+      "source": "Computed from chartrow.com snapshot: price ~$25.17 x ~116.7M shares outstanding (Oct 16, 2026)"
     },
     "float": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 113000000,
+      "asOf": "2026-08-19",
+      "note": "chartmill.com gave 112.87M, stockanalysis.com gave 113.73M (both undated/recent 2026 snapshots); used midpoint-ish figure"
     },
     "sharesOutstanding": {
-      "value": 116700000,
-      "asOf": "2026-09-22"
+      "value": 116650000,
+      "asOf": "2026-10-16",
+      "note": "stockanalysis.com: 116.65M; equibles.com gave 116,105,643 (slightly different date/filing) — see conflicts"
     },
     "shortInterest": {
-      "value": 19
+      "value": 20,
+      "asOf": "2026-08-19",
+      "note": "Sources range 19.3%-20.66% in Aug 2026 snapshots; no September/October 2026 figure found"
     },
     "cash": {
-      "value": 502000000,
-      "asOf": "2026-06-30"
+      "value": 125.961,
+      "asOf": "2026-06-30",
+      "note": "Cash, cash equivalents and restricted cash (end of period) per Q2 2026 10-Q cash flow statement, in $millions. A separate aggregator cited ~$118.12M cash plus ~$484.85M short-term investments (~$603M total liquidity) as of 2026-03-31 — different metric/period, see conflicts."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Could not confirm a total debt figure in available sources this session; clinical-stage biotechs of this type typically carry little/no traditional debt, but this was not independently verified from the 10-Q (SEC EDGAR access blocked in this sandbox)."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings (net loss)"
+      "note": "Negative earnings (trailing); forward PE not established — company is pre-revenue/clinical-stage",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -1.1,
+        "basis": "GAAP",
+        "note": "Beat consensus of -$1.21; reported July 29, 2026"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not confirmed in available sources this session"
+      },
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not confirmed in available sources this session"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "cash burn / clinical pipeline progress",
+      "period": "H1 2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Pre-revenue clinical-stage biotech (Phase 3 VK2735 obesity program); no product revenue, so standard revenue-growth figure is not applicable. Could not establish a precise cash-burn percentage this session."
     },
     "nextEarnings": {
-      "date": "2026-11-04",
+      "date": "2026-10-26",
       "confirmed": false
     }
   },
@@ -74,6 +102,13 @@
       "source": "https://www.sec.gov/Archives/edgar/data/0001607678/000119312526324455/vktx-20260730.htm"
     },
     {
+      "date": "2026-07-29",
+      "type": "earnings",
+      "headline": "Viking Therapeutics reports Q2 2026 results: GAAP EPS of -$1.10 vs. -$1.21 consensus (beat)",
+      "impact": "Narrower-than-expected quarterly loss",
+      "source": "https://www.barchart.com/story/news/3411687/viking-therapeutics-to-report-financial-results-for-second-quarter-2026-on-july-29-2026"
+    },
+    {
       "date": "2026-07-22",
       "type": "earnings",
       "headline": "Viking reports Q2 2026 financial results: net loss $128.1M ($1.10/share) vs $65.6M ($0.58/share) in Q2 2025; R&D expense +92.4% YoY to $115.8M; cash & short-term investments of $502M",
@@ -82,14 +117,36 @@
     }
   ],
   "conflicts": [
-    "Same-day price move reported inconsistently: StocksToTrade cites close of $39.89 (+32.5%); GuruFocus cites a 'closing' price of $39.58 (+31% midday); other reports cite +30.9% premarket ($39.42), +28% mid-morning ($38.63), and a premarket peak near +39% (~$42, high of day $45.92); intraday range cited as $31.00-$45.92 with close described as '10.9% below session peak.' Not reconciled to a single figure.",
-    "Market cap conflict: one source cites $3.51B as of Sep 21, 2026 close (pre-catalyst) and separately $4.12B (undated 2026 figure), versus a calculated post-surge figure of ~$4.65B. Sources not reconciled.",
-    "Short interest cited as ~22-25% 'of float' by some trackers vs. ~19% of shares outstanding when computed directly from FINRA's 22,186,520-share short figure; the float denominator underlying the higher percentage is not independently confirmed.",
-    "Next earnings date: file carries Nov 4, 2026 (unconfirmed); separate Oct 2026 sources gave conflicting unconfirmed estimates of Oct 26, 2026 and Oct 28, 2026 for the same report -- not reconciled, no company confirmation found either way."
+    "Market cap: stockanalysis.com shows $3.95B / EV $3.46B (reflects an earlier, higher share price before the stock's decline to the low-$20s/mid-$20s), vs. chartrow.com's Oct 16, 2026 snapshot of ~$2.9B at $25.17/share — treat $3.95B as stale.",
+    "Shares outstanding: stockanalysis.com lists 116.65M; equibles.com lists 116,105,643 — close but not identical, likely different as-of dates.",
+    "Short interest: Benzinga (Aug 27, 2026) says 20.2% of float; Equibles (Aug 19, 2026) says 19.3%; Chartmill (undated) says 20.66% — range used, no single authoritative figure found.",
+    "Cash figures reflect different metrics across sources/periods: $125.961M 'cash, cash equivalents and restricted cash' at 6/30/26 (10-Q) vs. an aggregator's ~$603M 'cash + short-term investments' at 3/31/26 — these are not directly comparable and should not be averaged.",
+    "Next earnings date: AJ Bell listed Oct 22, 2026 (today, with no corroborating news found); Earnings Whispers listed Oct 26, 2026; chartrow/Right Trader/Digrin listed Oct 28, 2026. None is a confirmed company announcement found in this session."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Compiled Sep 22, 2026 amid extreme intraday volatility. Direct fetch of stockanalysis.com and cnbc.com was blocked (EGRESS_BLOCKED); figures rely on company IR, SEC filings, and secondary aggregators. Treat price.last and rvol as indicative, not exact — see conflicts. Phase 3 oral VK2735 studies expected to begin Q4 2026 following positive Phase 2 VENTURE-Oral data.",
+  "notes": "Theme 'Biotech Catalyst' fits well — Viking is a clinical-stage biotech with a high-profile Phase 3 obesity program (VK2735) in a hot (GLP-1) space. Could NOT independently verify the on-file catalyst of a '2026-09-22 positive topline VK2735 maintenance-dosing result' in this session (web search budget was exhausted mid-task and SEC EDGAR / most news-site direct fetches were blocked in this sandbox), so it is omitted from the catalysts list rather than restated as fact — a follow-up search is recommended to confirm or correct it. FY2024/FY2025 annual EPS and a current debt figure could not be established in this session.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -104,5 +161,25 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

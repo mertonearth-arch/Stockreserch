@@ -1,71 +1,184 @@
 {
   "ticker": "ELMT",
   "name": "The Elmet Group Co.",
-  "sector": null,
-  "theme": "Consumer Hardware",
+  "sector": "Materials",
+  "theme": "Advanced Materials",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.413Z",
   "fundamentals": {
     "marketCap": {
-      "value": 630000000
+      "value": null,
+      "asOf": null,
+      "source": null,
+      "note": "Conflicting snapshots from $411.56M (IPO, April 2026) to $600.97M (Sept 2026) to $633.4M (undated 'intraday'); no current (2026-10-22) figure confirmed in this sandbox. See conflicts."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 29979862,
+      "asOf": null,
+      "source": "Multiple aggregators (Yahoo-linked data, others) consistently show ~29,979,862-29,979,863; a StockAnalysis figure of 30.46M was not used since that domain is egress-blocked and could not be cross-checked",
+      "note": "Exact as-of date for this count not confirmed"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not found in sandbox search (WebSearch budget exhausted before this could be queried)"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 66100000,
+      "asOf": "2026-07-03",
+      "source": "Company Q2 2026 earnings call, as summarized by MarketBeat",
+      "note": "Company stated IPO net proceeds of $125.4M helped repay debt and raise quarter-end cash to $66.1M. A separate secondary source (Simply Wall St) cites cash+short-term investments of $71.0M for a similar period -- see conflicts. Neither figure was confirmed directly against the primary 10-Q balance sheet text, which could not be fetched in this sandbox."
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 10538000,
+      "asOf": "2026-07-03",
+      "source": "SEC Form 10-Q (Q2 2026, period ended 2026-07-03) debt table",
+      "note": "Down from $36,278,000 at 2025-12-31, driven mainly by paydown of the Wells Fargo line of credit (from ~$20.5M to under $1M) using IPO proceeds."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "Earnings/profitability data not located in sandbox search; could not determine whether trailing EPS is positive or negative",
+      "asOf": "2026-10-22"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      },
+      {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not found in sandbox search"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
+      "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "not disclosed"
+      "note": "Not established -- company IPO'd April 2026 (limited historical public comparables) and revenue figures were not located in sandbox search before the WebSearch budget was exhausted."
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not found; one source listed Aug 13, 2026 as a next-earnings date but that is the Q2 2026 report date itself (already passed), i.e. stale"
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-14",
+      "type": "contract/investment",
+      "headline": "Department of War announced a $450 million redeemable preferred equity investment in Elmet (via its Industrial Base Analysis and Sustainment program / Economic Defense Unit; Elmet to draw $200M initially, DoW to receive preferred equity + warrants for up to 19.9% of common stock plus one independent board seat and one non-voting observer); separately, subsidiary Elmet Technologies received a Defense Logistics Agency IDIQ-type award with a $2 billion ceiling and a guaranteed funded commitment of $150 million, covering tungsten ores/concentrates and sodium tungstate for the National Defense Stockpile. Elmet plans ~$165M into US facilities and ~$150M into the Springer Tungsten Complex (Nevada).",
+      "source": "https://war.gov/News/Releases/Release/Article/4599882/department-of-war-announces-a-450-million-investment-in-the-elmet-group-to-secu/",
+      "note": "One secondary source (ManufacturingDive) dates the DLA award to 2026-09-11 rather than 2026-09-14, and frames the DoW investment as a Class A preferred stock purchase rather than the preferred-equity-plus-warrants structure described in the official war.gov release; Quartr's summary calls the DLA deal a 'framework agreement' rather than a straight award -- see conflicts."
+    },
     {
       "date": "2026-09-14",
       "type": "government contract / investment",
       "headline": "Department of War makes $450M committed investment in The Elmet Group; separate DLA award worth up to $2B to rebuild National Defense Stockpile tungsten supply",
       "impact": "Shares surged ~30% (some reports up to +48% premarket) on the session",
       "source": "https://www.benzinga.com/trading-ideas/movers/26/09/61763772/tungsten-supplier-elmet-stock-rallies-on-defense-funding-heres-why ; https://www.globenewswire.com/news-release/2026/09/14/3360841/0/en/department-of-war-makes-landmark-450-million-committed-investment-in-the-elmet-group-to-secure-america-s-tungsten-supply-chain.html"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "earnings",
+      "headline": "Q2 2026 earnings reported; company stated IPO net proceeds of $125.4M helped repay debt and raise quarter-end cash to $66.1M",
+      "source": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "M&A/investment",
+      "headline": "Exercised option to purchase 20 million ordinary shares of EQ Resources Limited, a tungsten producer with operations in Australia and Spain",
+      "source": null,
+      "note": "Exact date within June 2026 not pinned down; placeholder day used"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "IPO",
+      "headline": "IPO upsized and priced at $14.00 per share (top of range)",
+      "source": "https://www.iposcoop.com/?p=38218",
+      "note": "Exact April 2026 pricing date not confirmed; implied IPO-day market cap ~$411.56M"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Only U.S.-owned, vertically integrated tungsten/molybdenum producer serving defense markets. IPO'd April 23, 2026 at $14/share. Reported percentage moves varied across sources (30.8% to ~48% premarket); closing print not independently confirmed beyond the reported $20.22-$25.03 intraday range.",
-  "history": [],
+  "conflicts": [
+    "Theme mismatch on file: watchlist carried ELMT under 'Consumer Hardware', which is a clear mismatch -- Elmet is a tungsten/molybdenum critical-materials manufacturer (Critical Materials Components division) and now a major defense-industrial-base counterparty (DoW equity investment + DLA stockpile contract), not a consumer hardware company. Reassigned to 'Advanced Materials' here (closer fit than 'Government IT & Defense Services', which describes services/IT contractors rather than a materials producer, even though its largest current customer relationship is defense).",
+    "DoW/DLA deal structure and dates: war.gov/pulse2 describe a $450M redeemable preferred equity investment plus warrants, closing with DLA IDIQ contract reported ~2026-09-14; ManufacturingDive instead describes Class A preferred stock and dates the DLA award 2026-09-11; Quartr calls the DLA piece a 'framework agreement' rather than a definitive award.",
+    "Market cap: $411.56M at IPO (April 2026) vs $600.97M (Sept 2026 snapshot) vs $633.403M ('intraday', undated) -- no current (Oct 2026) figure confirmed.",
+    "Cash as of Q2 2026: MarketBeat/company earnings call cites $66.1M vs Simply Wall St cites cash+short-term investments of $71.0M (possibly a different line-item definition, not necessarily contradictory)."
+  ],
+  "pendingFilings": [
+    "10-Q Q2 2026 (period ended 2026-07-03)"
+  ],
+  "notes": "themeLabel set to 'story stock' -- a recent (April 2026) IPO whose valuation is now dominated by a single dramatic government deal narrative (defense-materials stockpile buildout) rather than broad investor familiarity. Debt figure ($10.538M at 2026-07-03, down from $36.278M at 2025-12-31) is sourced to the primary 10-Q debt table via WebSearch synthesis and is reasonably solid; cash, market cap, EPS, revenue growth and short interest could not be independently confirmed because SEC EDGAR, StockAnalysis and most press-wire/aggregator domains were unreachable via WebFetch/curl in this sandbox, and the WebSearch tool's per-turn budget was exhausted before these gaps could be filled.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

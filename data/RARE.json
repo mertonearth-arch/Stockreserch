@@ -3,48 +3,56 @@
   "name": "Ultragenyx Pharmaceutical Inc.",
   "sector": null,
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.406Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1430000000
+      "value": null,
+      "asOf": null,
+      "note": "not found this session"
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not found this session"
     },
     "sharesOutstanding": {
-      "value": 98300000,
-      "asOf": "2026-03-09"
+      "value": null,
+      "asOf": null,
+      "note": "not found this session"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not found this session"
     },
     "cash": {
-      "value": 436000000,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "Q2 2026 10-Q cash position not retrieved this session (WebFetch failure)"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "not retrieved this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "could not verify trailing EPS sign/value this session; Ultragenyx has historically reported net losses as an R&D-heavy rare-disease biotech, but this was not independently confirmed for the current TTM period, so a bare null is used rather than asserting 'negative earnings' without verification",
+      "asOf": null
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "Total revenue guidance (FY2026, company-issued)",
+      "period": "FY2026",
       "pct": null,
-      "note": "not disclosed"
+      "note": "Company reaffirmed FY2026 total revenue guidance of $730M-$760M in its Q2 2026 report (released ~August 2026). A specific YoY growth percentage could not be computed this session for lack of a verified FY2025 comparable figure."
     },
     "nextEarnings": {
       "date": "2026-11-04",
@@ -54,10 +62,45 @@
   "price": null,
   "catalysts": [
     {
+      "date": "2026-10-14",
+      "type": "monetization",
+      "headline": "Ultragenyx agreed to sell a Priority Review Voucher (PRV) for $203 million; the voucher was granted following FDA approval of FAYUVI (rebisufligene etisparvovec-hopf, also known as UX111)",
+      "impact": "Non-dilutive cash inflow of $203M",
+      "source": "Search-aggregator summary (rttnews/roic.ai feeds); not independently traced to a primary company press release this session"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "monetization",
+      "headline": "Ultragenyx agreed to sell a second Priority Review Voucher for $210 million, with proceeds earmarked for the rare-disease pipeline; this voucher followed FDA approval of GENGLYCOS for glycogen storage disease type Ia",
+      "impact": "Additional non-dilutive cash inflow of $210M",
+      "source": "Search-aggregator summary; not independently traced to a primary company press release this session"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "regulatory",
+      "headline": "European Medicines Agency validated the marketing authorization application for the MPS IIIA gene therapy (same product as FAYUVI)",
+      "impact": "Validation allows formal EMA scientific review; it is not an approval decision",
+      "source": "Search-aggregator summary"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "analyst_action",
+      "headline": "Cantor Fitzgerald raised its price target to $39 and raised its probability-of-success assumption for FAYUVI to 100%",
+      "impact": "Analyst reaction following the FDA approval",
+      "source": "Carried over from the pre-existing record; not independently re-confirmed this session"
+    },
+    {
       "date": "2026-09-18",
       "type": "analyst action",
       "headline": "Cantor Fitzgerald raised price target to $39 (from $33), Overweight, raising probability-of-success on FAYUVI to 100% from 90%",
       "sourceName": "GuruFocus; Investing.com; MarketBeat"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "regulatory",
+      "headline": "FDA approved FAYUVI (rebisufligene etisparvovec-hopf / UX111) gene therapy for MPS IIIA (Sanfilippo syndrome)",
+      "impact": "Major approval underlying the subsequent PRV sale",
+      "source": "Background context from search-aggregator summary"
     },
     {
       "date": "2026-09-17",
@@ -80,12 +123,30 @@
     }
   ],
   "conflicts": [
-    "The research agent's initial brief assumed the FAYUVI approval and stock reaction occurred around 2026-09-24, but multiple sources (Ultragenyx IR, SEC 8-K filed 2026-09-17, FDA.gov) confirm the actual approval date is 2026-09-17, about a week earlier. Recording the correct 2026-09-17 date rather than the assumed one.",
-    "No confirmed Sept 24 closing price was found; most recent reliably-dated price found was $15.80 on 2026-09-22."
+    "The exact dollar amounts and dates of the two October 2026 PRV sales ($203M on 10-14, $210M on 10-07) could not be independently confirmed against a primary company press release this session — they come from secondary aggregator summaries rather than a directly fetched Ultragenyx or PR Newswire release, since WebFetch failed for every tested domain."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: New addition to the watchlist. Stock remains down roughly 40% year-to-date despite the approval, per commentary found. Treat the FAYUVI approval as a ~1-week-old catalyst rather than breaking news.",
+  "notes": "Theme 'Biotech Catalyst' fits well — Ultragenyx is a commercial-stage rare-disease biotech with an active string of regulatory catalysts (FAYUVI and GENGLYCOS approvals, PRV monetizations, an EMA filing, and an upcoming GTX-102/Angelman Phase 3 Aspire readout); themeLabel set to 'established' given it already has multiple approved/commercial products and company-issued revenue guidance, despite the catalyst-rich newsflow. Could not establish market cap, shares outstanding, float, short interest, cash, debt, trailing/forward P/E, or historical EPS this session: WebFetch failed with DNS errors on every domain tested (SEC EDGAR, Ultragenyx IR site, news sites), and the WebSearch tool's shared quota was exhausted before dedicated financial-statement searches could be run. FY2026 total revenue guidance of $730M-$760M is reported in place of a verified YoY growth percentage.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -98,5 +159,23 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

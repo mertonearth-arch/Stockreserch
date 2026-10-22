@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-22T09:46:31.780Z",
+  "updated": "2026-10-22T21:23:42.437Z",
   "themes": {
     "Biotech Catalyst": {
       "history": [
         {
           "date": "2026-10-22",
           "names": 17,
-          "catalysts7": 0,
+          "catalysts7": 1,
           "newNames7": 0
         },
         {
@@ -39,8 +39,8 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 4,
-          "catalysts7": 0,
+          "names": 8,
+          "catalysts7": 1,
           "newNames7": 0
         },
         {
@@ -73,7 +73,7 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 4,
+          "names": 5,
           "catalysts7": 0,
           "newNames7": 0
         },
@@ -141,7 +141,7 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 7,
+          "names": 5,
           "catalysts7": 0,
           "newNames7": 0
         },
@@ -175,8 +175,8 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 2,
-          "catalysts7": 0,
+          "names": 3,
+          "catalysts7": 1,
           "newNames7": 0
         },
         {
@@ -210,7 +210,7 @@
         {
           "date": "2026-10-22",
           "names": 2,
-          "catalysts7": 0,
+          "catalysts7": 2,
           "newNames7": 0
         },
         {
@@ -238,7 +238,7 @@
         {
           "date": "2026-10-22",
           "names": 3,
-          "catalysts7": 0,
+          "catalysts7": 2,
           "newNames7": 0
         },
         {
@@ -265,7 +265,7 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 7,
+          "names": 2,
           "catalysts7": 0,
           "newNames7": 0
         },
@@ -293,7 +293,7 @@
       "history": [
         {
           "date": "2026-10-22",
-          "names": 4,
+          "names": 1,
           "catalysts7": 0,
           "newNames7": 0
         },
@@ -312,6 +312,46 @@
       ]
     },
     "Consumer Apparel & Retail": {
+      "history": [
+        {
+          "date": "2026-10-22",
+          "names": 1,
+          "catalysts7": 0,
+          "newNames7": 0
+        }
+      ]
+    },
+    "Transportation & Logistics": {
+      "history": [
+        {
+          "date": "2026-10-22",
+          "names": 1,
+          "catalysts7": 1,
+          "newNames7": 0
+        }
+      ]
+    },
+    "Backup Power & Energy Equipment": {
+      "history": [
+        {
+          "date": "2026-10-22",
+          "names": 1,
+          "catalysts7": 0,
+          "newNames7": 0
+        }
+      ]
+    },
+    "Consumer Internet & Gaming Platforms": {
+      "history": [
+        {
+          "date": "2026-10-22",
+          "names": 1,
+          "catalysts7": 0,
+          "newNames7": 0
+        }
+      ]
+    },
+    "Memory Technology & IP Licensing": {
       "history": [
         {
           "date": "2026-10-22",

@@ -1,91 +1,76 @@
 {
   "ticker": "SAIC",
-  "name": "Science Applications International Corp.",
-  "sector": null,
+  "name": "Science Applications International Corporation",
+  "sector": "Government IT Services / Defense & Intelligence",
   "theme": "Government IT & Defense Services",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "lastResearched": "2026-10-22T21:23:42.429Z",
   "fundamentals": {
     "marketCap": {
       "value": 5310000000,
-      "asOf": "2026-08"
+      "asOf": null,
+      "source": "Equibles (snapshot believed to be from Aug 2026: $126.31 price × 42.28M shares); exact as-of date not stated",
+      "note": "Other Equibles pages show $4.33B at a $106.73 price — likely an earlier snapshot. See conflicts."
     },
     "float": {
-      "value": 41800000,
-      "asOf": "2026-08-31"
+      "value": null,
+      "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 42300000,
-      "asOf": "2026-08"
+      "value": 42280000,
+      "note": "Conflicts with another Equibles page showing 43,419,313 shares; not reconciled."
     },
     "shortInterest": {
-      "value": 5.7,
-      "note": "[Corrected 2026-10-20: stored value was a raw share count (2,400,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+      "value": 5.6,
+      "asOf": null,
+      "source": "Equibles (~2.4M shares short, ~5.6 days to cover, believed Aug 2026)",
+      "note": "MarketBeat pages (older/undated) separately show 3.33% and 4.90% of float — inconsistent with the Equibles reading and with each other."
     },
     "cash": {
       "value": 109000000,
-      "asOf": "2026-05-01"
+      "asOf": "2026-05-31 (approx., Q1 FY2027)",
+      "source": "Third-party aggregator (VCPScanner / TipRanks), NOT independently confirmed against the primary 10-Q this session",
+      "note": "This is the most recent balance-sheet figure found; the more recent Q2 FY2027 (quarter ended ~2026-07-31, reported 2026-08-31) balance sheet could not be fetched this session (WebFetch to investors.saic.com failed with a DNS error)."
     },
     "debt": {
-      "value": 2460000000,
-      "asOf": "2026-05-01"
+      "value": 2675000000,
+      "asOf": "2026-05-31 (approx., Q1 FY2027)",
+      "source": "Same third-party aggregator as cash, above; same caveat applies",
+      "note": "Long-term debt component of this total is ~$2.46B. Separately, SAIC amended its Master Accounts Receivable Purchase Agreement (MARPA) on 2026-08-14, raising the facility limit from $300M to $400M (a liquidity/capacity catalyst, not a drawn-debt figure)."
     },
     "pe": {
-      "trailing": 16.4,
-      "forward": null
+      "trailing": null,
+      "forward": 11.8,
+      "note": "Trailing: two inconsistent TTM readings were found (P/E 11.43x on diluted EPS $8.88 at a $101.49 price, vs. P/E 13.86x on diluted EPS $7.70 at a $106.73 price) and could not be reconciled, so trailing is left null rather than picking one (see conflicts). Forward 11.8x is computed from SAIC's own FY2027 adjusted diluted EPS guidance midpoint ($10.70) against the $126.31 price used for market cap above — this is a non-GAAP-basis multiple, not a GAAP forward P/E."
     },
     "eps": [
       {
-        "period": "FY2025",
-        "value": 7.17,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "FY2026",
-        "value": 7.7,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "FY2026",
-        "value": 10.75,
-        "basis": "adjusted (non-GAAP) diluted"
-      },
-      {
-        "period": "Q2 FY2027",
+        "period": "Q2 FY2027 (ended ~2026-07-31)",
         "value": 2.38,
         "basis": "GAAP diluted"
       },
       {
-        "period": "Q2 FY2027",
+        "period": "Q2 FY2027 (ended ~2026-07-31)",
         "value": 3.01,
-        "basis": "adjusted diluted"
+        "basis": "non-GAAP/Adjusted diluted"
       }
     ],
     "revenue": [
       {
-        "period": "FY2025",
-        "value": 7480000000,
-        "yoy": null
-      },
-      {
-        "period": "FY2026",
-        "value": 7260000000,
-        "yoy": -2.9
-      },
-      {
         "period": "Q2 FY2027",
         "value": 1880000000,
-        "yoy": 6.3
+        "yoy": 6
       }
     ],
     "growth": {
-      "metric": "revenue YoY Q2 FY2027",
-      "period": null,
-      "pct": 6.3
+      "metric": "revenue YoY",
+      "period": "Q2 FY2027",
+      "pct": 6,
+      "note": "5.3% organic growth; remainder (~$20M) from the SilverEdge Government Solutions acquisition."
     },
     "nextEarnings": {
       "date": "2026-12-01",
@@ -112,6 +97,13 @@
     {
       "date": "2026-08-31",
       "type": "earnings",
+      "headline": "Q2 FY2027 results: revenue ~$1.88B (+6% YoY, 5.3% organic, plus ~$20M from the SilverEdge acquisition); net income $102M (-20% YoY); adjusted EBITDA $193M (10.3% margin); diluted EPS $2.38 (GAAP, vs. $2.71 PY) and $3.01 adjusted (vs. $3.63 PY); operating cash flow $146M, free cash flow $131M; net bookings ~$1.2B (quarterly book-to-bill 0.6x, TTM 0.8x); backlog $22.1B ($3.8B funded); capital deployment of $106M ($90M buybacks + $16M dividends). Raised FY2027 guidance: revenue $7.2-$7.3B, adjusted EBITDA $750-$755M, adjusted diluted EPS $10.65-$10.75 (FCF guidance reiterated).",
+      "impact": null,
+      "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "earnings",
       "headline": "Q2 FY2027: revenue $1.88B +6.3% YoY (+5.3% organic); adjusted diluted EPS $3.01 vs $2.31 consensus (beat, but down 17% YoY from $3.63 on a prior-period settlement); GAAP diluted EPS $2.38 (down 12% YoY); book-to-bill 0.6x quarterly/0.8x TTM; backlog $22.1B; raised FY2027 revenue guidance to $7.2-$7.3B (from $7.0-$7.2B)",
       "impact": "shares reportedly up as much as 13.3% intraday, settling to +3.2%",
       "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
@@ -131,6 +123,13 @@
       "sourceName": "Yahoo Finance / Investing.com"
     },
     {
+      "date": "2026-08-14",
+      "type": "financing",
+      "headline": "Amended its Master Accounts Receivable Purchase Agreement (MARPA), increasing the aggregate facility limit from $300M to $400M.",
+      "impact": null,
+      "source": null
+    },
+    {
       "date": "2026-08-05",
       "type": "contract",
       "headline": "Won $400M recompete contract supporting a U.S. intelligence agency (ground-based IC systems engineering/technical integration/mission support)",
@@ -139,15 +138,39 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 42.28M (Aug 2026 point-in-time) vs 46.5M (FY2026 weighted-average diluted, full year) -- different measures/dates.",
-    "Trailing P/E: 16.4 (computed) vs 14.1 (Equibles) vs 13.4 (Value Research, lower price/date) -- different price snapshots.",
-    "No explicit consensus revenue figure for Q2 FY2027 was found, so the $1.88B vs analyst estimate comparison could not be confirmed (only the EPS consensus beat is sourced)."
+    "Market cap / shares outstanding: Equibles shows multiple inconsistent snapshots — $5.31B at 42.28M shares/$126.31, vs. $4.33B at $106.73, vs. a separate page showing 43,419,313 shares — none clearly dated, not reconciled.",
+    "Short interest: Aug 2026 Equibles reading (~5.6% of float) vs. older/undated MarketBeat readings of 3.33% and 4.90% — inconsistent with each other and not clearly dated.",
+    "Trailing P/E: 11.43x (diluted EPS $8.88 @ $101.49) vs. 13.86x (diluted EPS $7.70 @ $106.73) — two different TTM EPS figures found, not reconciled; trailing P/E reported as null for this reason.",
+    "Next earnings date: on-file estimate is 2026-12-01; a third-party aggregator (Bullstory) separately lists 2026-12-02. Neither is company-confirmed; SAIC's historical pattern (Q3 FY2026 was announced ~2-3 weeks ahead and reported 2025-12-04) supports an early-December date generally.",
+    "Cash/debt figures used above are from Q1 FY2027 (~May 2026), one quarter stale relative to the Q2 FY2027 earnings catalyst (Aug 31, 2026); the more current Q2 balance sheet could not be fetched this session."
   ],
   "pendingFilings": [
-    "Q3 FY2027 earnings expected ~early December 2026, unconfirmed"
+    "10-Q for Q2 FY2027 (period ended ~2026-07-31)"
   ],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Good news flow since late August: Q2 beat/guide-raise, a $400M intelligence recompete, and a $330M Army award, offset by a Goldman Sachs Sell rating. Next material catalyst is Q3 FY2027, likely early December 2026.",
+  "notes": "Theme 'Government IT & Defense Services' fits well. The prior snapshot's catalyst item ('Goldman Sachs raised PT to $103 but rated Sell', 2026-09-08) has been DROPPED from this record rather than carried forward or refreshed: per this dashboard's own mandate (no ratings, no price targets, no buy/sell opinions), an analyst rating/PT is not an appropriate catalyst entry, and it has in any case been superseded by the substantive Q2 FY2027 earnings print and the MARPA facility expansion listed above. A $400M intelligence-agency recompete contract win (bringing H1 FY2027 intelligence/space awards above $1.6B) was reported by Virginia Business/WashingtonExec in August 2026, but no reliable exact date was found this session, so per the 'every catalyst needs a date' rule it is omitted from the dated list above rather than guessed. Annual (FY2025/FY2026) EPS figures were not established this session.",
   "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-20",
       "run": "pm",
@@ -230,5 +253,26 @@
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

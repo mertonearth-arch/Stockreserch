@@ -1,53 +1,92 @@
 {
   "ticker": "TER",
   "name": "Teradyne, Inc.",
-  "sector": null,
+  "sector": "AI Semiconductors",
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.432Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not established with a reliable dated figure in sandbox search; see shares outstanding and PE notes for why."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 159000000,
+      "asOf": null,
+      "source": "MarketBeat (older/undated snapshot, ~159M shares)",
+      "note": "This figure is from a stale-dated snapshot (2024/2025 era per source context); not confirmed current as of 2026-10-22."
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 5.1,
+      "asOf": "2026-08",
+      "source": "equibles.com (~8.0M shares short, ~5.1% of shares outstanding, 1.9 days to cover, short interest rising ~728K shares)",
+      "note": "An older MarketBeat snapshot (2025) separately showed 6.66% of float with 2.5 days to cover - directionally consistent but not the same metric/date, so not treated as a hard conflict."
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search; check latest 10-Q balance sheet."
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "asOf": null,
+      "note": "Not located in sandbox search; check latest 10-Q balance sheet."
     },
     "pe": {
-      "trailing": null,
+      "trailing": 55.5,
       "forward": null,
-      "note": "not disclosed in this dashboard capture (Teradyne is a profitable company; EPS/PE simply were not captured in this pass)"
+      "note": "Trailing PE per equibles.com (undated, approx. August 2026 snapshot), based on TTM diluted EPS of $3.47 on $3.2B TTM revenue. Forward PE not found in a current, reliable snapshot (older MarketBeat pages showed forward PE of 28-38 but are stale/conflicting - see conflicts).",
+      "asOf": null
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP/non-GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP/non-GAAP",
+        "note": "Not located in sandbox search."
+      },
+      {
+        "period": "Q2 2026",
+        "value": 2.47,
+        "basis": "non-GAAP diluted",
+        "note": "Reported 2026-07-28/29. Revenue $1,329M (Semiconductor Test $1,122M; Product Test $107M; Robotics $100M); non-GAAP net income $389.0M."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 1329000000,
+        "yoy": null,
+        "note": "YoY comparison not located in sandbox search."
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
+      "metric": "revenue YoY",
+      "period": "Q3 2026 guidance vs. consensus",
       "pct": null,
-      "note": "not disclosed"
+      "note": "True YoY % could not be computed (prior-year comparable revenue not located). However, Q3 2026 guidance of $1.2-1.3B revenue and $1.85-$2.15 non-GAAP EPS, issued alongside Q2 2026 results (2026-07-28/29), came in well above analyst consensus (~$1.03B revenue, ~$1.44 EPS) - CEO Greg Smith attributed this to 'robust AI-related demand.'"
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-10-27",
+      "confirmed": false,
+      "note": "One earnings-calendar aggregator lists an estimated/projected date of 2026-10-27 (5:00pm ET); not confirmed by a company announcement found in sandbox search. Teradyne reported Q3 2025 results on 2025-10-28, so a similar late-October date for Q3 2026 is plausible but unconfirmed."
+    }
   },
   "price": null,
   "catalysts": [
@@ -60,16 +99,75 @@
       "date": "2026-09-11",
       "type": "analyst",
       "headline": "Baird downgraded to Neutral from Outperform, price target $420"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "earnings",
+      "headline": "Teradyne reports record Q2 2026 results and issues strong Q3 2026 guidance",
+      "impact": "Revenue $1,329M (Semiconductor Test $1,122M, Product Test $107M, Robotics $100M); non-GAAP net income $389.0M ($2.47/diluted share); Q3 2026 guidance of $1.2B-$1.3B revenue (vs. ~$1.03B consensus) and $1.85-$2.15 non-GAAP EPS (vs. ~$1.44 consensus); shares rose on the print",
+      "source": "https://finviz.com/news/373906/teradyne-shares-rise-after-record-quarterly-results-and-strong-q3-outlook ; SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000097210/000119312526321933/ter-ex99_1.htm"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: No price, market cap, P/E, EPS, or growth figures disclosed. Teradyne was the worst performer in its peer group, falling ~13.3% in a broad semiconductor-equipment sector selloff (Lam Research, Applied Materials, KLA also down) on capex/valuation concerns; Baird also downgraded to Neutral with a $420 price target. One source's description of continued Tuesday weakness (~-9.8%) may have restated Monday's figure rather than a fresh move -- not independently disambiguated.",
-  "history": [],
+  "conflicts": [
+    "On-file catalyst stating TER 'fell ~13.3% in a broad semi-equipment selloff' on 2026-09-14 could not be independently confirmed in sandbox search; it has been omitted from the verified catalysts list above rather than re-asserted without a source.",
+    "PE and EPS figures conflict across snapshots of different vintages: equibles.com (~Aug 2026) shows trailing PE 55.5 and TTM diluted EPS $3.47; separate, explicitly older MarketBeat snapshots show trailing EPS $2.89 (trailing PE ~38, forward PE ~28, ~159M shares outstanding) and, in a different 2025 snapshot, trailing PE ~51 / forward PE ~38 with short interest 6.66% of float. These appear to be genuinely different time periods rather than a same-date disagreement, but could not be reconciled to a single current figure in this sandbox.",
+    "A German-language source (finanztrends.de) reporting Q3 2026 revenue of $737M and EPS of $0.89 with an 11%+ stock decline directly contradicts Teradyne's own Q3 2026 guidance ($1.2-1.3B revenue) and other sources, and appears to compare against Q3 2023 figures in error; disregarded as unreliable."
+  ],
+  "pendingFilings": [
+    "Q3 2026 earnings release/10-Q expected in late October 2026 (date unconfirmed as of 2026-10-22)"
+  ],
+  "notes": "Theme 'AI Semiconductors' is a reasonable fit in the loose sense used by this dashboard: Teradyne is semiconductor automated test equipment (ATE) plus robotics (Universal Robots, MiR), not a chipmaker itself, but its current growth narrative and guidance beat are explicitly tied to AI-chip-driven test demand (per CEO commentary on the Q2 2026 call), so it trades with the AI-semiconductor group. Q3 2026 actual results had not been reported as of 2026-10-22 in any source found; this record reflects Q2 2026 actuals plus Q3 2026 guidance only. Could not establish current market cap, cash, debt, or a confirmed earnings date because WebFetch to SEC.gov, businesswire, and other IR/press domains failed with DNS resolution errors throughout this session, and the WebSearch budget for the session was exhausted before further queries could run.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

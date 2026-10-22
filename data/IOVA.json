@@ -8,50 +8,72 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.404Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4980000000
+      "value": 3780000000,
+      "asOf": "2026-08-21",
+      "source": "Equibles (https://equibles.com/stocks/IOVA) — 452.97M shares; implied price ~$8.34, consistent with press reports of a large post-earnings rally (see notes)"
     },
     "float": {
-      "value": 394300000,
-      "asOf": "2026-09-30"
+      "value": null,
+      "asOf": null,
+      "note": "Not separately disclosed in sources found; only shares-outstanding figures were available."
     },
     "sharesOutstanding": {
-      "value": 453000000,
-      "asOf": "2026-09-30"
+      "value": 452970000,
+      "asOf": "2026-08-21",
+      "note": "A separate, undated Equibles page shows 446,502,396 shares at $3.82/share ($1.71B mkt cap) — see conflicts for the likely explanation of the price gap."
     },
     "shortInterest": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 22.1,
+      "asOf": "2026-08-21",
+      "note": "Reported as % of float, 100.0M shares short, 6.3 days to cover, per Equibles. A separate undated Equibles page shows 104.2M shares short / 8.2 days to cover."
     },
     "cash": {
       "value": 304000000,
-      "asOf": "2026-06-30"
+      "asOf": "2026-06-30",
+      "source": "Iovance Q2 2026 earnings release (via SEC 8-K exhibit), reported 2026-08-06"
     },
     "debt": {
-      "value": 53200000,
-      "asOf": "2026-06-30"
+      "value": null,
+      "asOf": null,
+      "note": "Not disclosed in the earnings summary sources found this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (adjusted quarterly loss of $0.11/share in Q2 2026)"
+      "note": "Not independently confirmed as negative earnings this session (exact Q2 2026 net loss/EPS figure was not retrieved), but Iovance is a recently-commercial, cash-burning biotech and has historically reported GAAP net losses, so a trailing P/E is unlikely to be meaningful; left null rather than assumed.",
+      "asOf": "2026-10-22"
     },
     "eps": [],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 99000000,
+        "yoy": 66
+      }
+    ],
     "growth": {
-      "metric": "revenue YoY Q2 2026",
-      "period": null,
-      "pct": 66
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 66,
+      "note": "US Amtagvi (lifileucel) product revenue was ~$91M of the ~$99M total, beating the company's own ~$86–88M guidance and the ~$87.3M consensus; gross margin reached 56%."
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": false
+      "confirmed": null
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-29",
+      "type": "guidance",
+      "headline": "Raised FY2026 revenue guidance to $410M–$420M (as carried on file)",
+      "impact": "Could not be independently confirmed this session before the search budget was exhausted. Note: as of the Aug 6, 2026 Q2 report, Iovance had said it was reviewing its prior FY2026 guidance of $350M–$370M and would provide an update during Q3 2026 — a late-September guidance raise to $410–420M would be consistent with that stated plan, but no primary source or press-wire confirmation was reached this session.",
+      "source": null
+    },
     {
       "date": "2026-09-29",
       "type": "guidance",
@@ -65,21 +87,69 @@
       "headline": "Q2 2026 results: record product revenue $99.3M (+66% YoY), adjusted loss per share $0.11 (beat estimate by $0.02), gross margin improved to 56% from 41% in Q1",
       "impact": "Beat",
       "source": "https://www.fool.com/data-news/2025/08/07/iovance-iova-q2-revenue-jumps-93"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "Iovance reported Q2 2026 results: total revenue ~$99M (+66% YoY), with US Amtagvi revenue ~$91M beating guidance and consensus; gross margin 56%; cash and equivalents $304M at quarter-end; said it was reviewing its FY2026 revenue guidance of $350M–$370M with an update expected during Q3 2026",
+      "impact": "Large beat; stock reportedly had its best single day in over six years amid 'buyout buzz' commentary",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001425205/000110465926091619/tm2622322d1_ex99-1.htm ; https://stocktwits.com/news-articles/markets/equity/iova-stock-heads-for-best-day-in-over-6-years-buyout-buzz-builds-after-blowout-q2/cZoBcmiRJJ4"
     }
   ],
   "conflicts": [
-    "Magnitude of the Sept 29 move is reported inconsistently: +31.5% vs +38.6% for what appears to be the same session; both given, not reconciled.",
-    "Closing price also inconsistent: one source cites the stock 'ended the last session 31.5% higher at $14.45,' another describes a close of $14.93 on 09-30 after 'a wild two-day move from around $11 to the mid-teens.' Used $14.93 (most recent) as the last price.",
-    "Short interest figures conflict (88.14M vs 115.07M shares) -- both readings given, point estimate left null.",
-    "Market cap ($4.98B) sourced as of 2026-09-28, i.e. before the guidance-raise rally, and has not been reconciled against the post-rally price (~452.97M shares x $14.93 implies ~$6.76B); flagged rather than recalculated since no source explicitly reported a post-rally market cap."
+    "Market cap: $3.78B at an implied ~$8.34/share (452.97M shares, 2026-08-21) vs. a separate, undated $1.71B at $3.82/share (446.5M shares). The ~2x price gap likely reflects the large post-Q2-earnings rally reported in the press (\"best day in over six years,\" buyout speculation) rather than a data error or reverse split, but this was not fully confirmed with a single live, dated quote this session.",
+    "Short interest: 22.1% of float / 100.0M shares / 6.3 days to cover (2026-08-21) vs. 104.2M shares / 8.2 days to cover (undated, likely pre-rally).",
+    "The Sept 29, 2026 guidance raise to $410–420M (on file) was not independently located this session, despite being directionally consistent with Iovance's own stated plan (as of Aug 6) to update guidance during Q3 2026."
   ],
   "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Not a leveraged ETF, warrant, or unit -- this is common stock of a commercial-stage biotech; the move was driven by a specific, dated guidance-raise catalyst tied to Amtagvi commercial uptake.",
-  "history": [],
+  "notes": "Theme 'Biotech Catalyst' is a genuine fit — Iovance is a commercial-stage cell-therapy biotech (Amtagvi/lifileucel for melanoma) whose stock is driven by launch metrics, guidance updates, and takeover speculation; themeLabel set to 'story stock' given the guidance revisions, large single-day moves, and buyout chatter. Cash and Q2 operating figures are sourced from the company's own earnings release (via SEC 8-K exhibit); market cap/shares/short-interest come only from a third-party aggregator (Equibles) with internally inconsistent snapshots, and SEC EDGAR itself was unreachable in this sandbox to confirm the 10-Q cover-page share count. EPS was not found and is left as an empty array rather than guessed.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

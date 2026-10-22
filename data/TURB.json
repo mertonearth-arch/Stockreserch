@@ -1,72 +1,179 @@
 {
   "ticker": "TURB",
   "name": "Turbo Energy, S.A.",
-  "sector": null,
+  "sector": "Energy / Clean Tech",
   "theme": "Advanced Materials",
-  "themeLabel": "established",
+  "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.433Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Sources disagree by >3x and none are dated after Aug 2026 (Public.com $25.90M as of 2026-04-01; Marketchameleon ~$39.55M as of ~2026-03-13; TipRanks $39.22M undated; Equibles $16.58M at $1.38/share; Wealthyhood $11.1M undated). Could not establish a reliable current figure in sandbox."
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "Conflicting: Benzinga reports float 3.54M ADS; Wealthyhood reports 13.5M. Could not resolve."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 11017140,
+      "asOf": "2026 (undated snapshot)",
+      "source": "TipRanks ownership page",
+      "note": "Benzinga shows 12.017M, Google Finance shows 12.58M -- see conflicts. A Nov 2025 SEC filing cited 55,085,700 ordinary shares; each ADS = 5 ordinary shares, i.e. ~11.02M ADS-equivalent, which is most consistent with TipRanks/Benzinga."
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not found in available sources"
     },
     "cash": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 503586,
+      "currency": "EUR",
+      "asOf": "2026-06-30",
+      "source": "News summary of unaudited H1 2026 6-K results (sustainabilitymag/GlobeNewswire mirror)",
+      "note": "Could not read the underlying 6-K directly (sec.gov blocked in sandbox); figure is from secondary coverage."
     },
     "debt": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 6850000,
+      "currency": "USD",
+      "asOf": "2025-12-31",
+      "source": "Third-party balance-sheet screener (vcpscanner/fintel aggregation)",
+      "note": "This is the FY2025 year-end figure, not June 2026. In Feb 2026 the company restructured ~EUR4.87M ($5.75M) of bank facilities into long-term loans; no clean total-debt figure for June 30 2026 was found."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "Company has a history of net losses (Q1 2025 revenue -28.1% YoY with widening losses); H1 2026 preliminary release claims a small positive net result but figures conflict (see conflicts). Trailing EPS not reliably establishable; no analyst forward estimates found."
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": null,
+        "note": "not found in available sources"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": null,
+        "note": "not found in available sources"
+      },
+      {
+        "period": "H1 2026 (preliminary, half-year not a single quarter)",
+        "value": -0.03,
+        "basis": "EUR, H1 2025 comparative figure actually (net loss EUR1.40M / EUR0.03 per share) -- most recent reported PERIOD found was H1 2026 preliminary with a small positive net result, exact per-share figure conflicting between sources (see conflicts)",
+        "note": "Company reports semi-annually in press releases; no standalone most-recent-quarter EPS was located."
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "H1 2026 (preliminary, vs H1 2025)",
+      "pct": 180,
+      "source": "GlobeNewswire/sustainabilitymag: 'Turbo Energy Reports Record Preliminary First Half 2026 Results with 180% Revenue Growth and Positive Operating Income' (2026-07-27)"
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not found; company reports via 6-K on an irregular schedule. H1 2026 preliminary results were released 2026-07-27; no next date announced."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-17",
+      "type": "contract",
+      "headline": "Announced a portfolio of 15 firm-order commercial & industrial (C&I) energy-storage projects across Spain and Chile, 15.6 MWh / 5.95 MW, estimated order value ~EUR3M (~US$3.48-3.5M) attributable to Turbo Energy",
+      "source": "https://finviz.com/news/393090/turbo-energy-expands-its-ci-footprint-with-a-35-million-portfolio-of-15-intelligent-energy-storage-projects (GlobeNewswire release, via Benzinga/Finviz mirrors)"
+    },
     {
       "date": "2026-09-17",
       "type": "contract award",
       "headline": "Announced a roughly $3.5M (EUR 3M) portfolio of 15 firm-order commercial and industrial energy-storage projects (15.6 MWh) across Spain and Chile",
       "impact": "stock up about 80% on thin volume",
       "source": "https://www.globenewswire.com/news-release/2026/09/17/3363942/0/en/turbo-energy-expands-its-c-i-footprint-with-a-3-5-million-portfolio-of-15-intelligent-energy-storage-projects.html"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "earnings",
+      "headline": "Preliminary H1 2026 results: record revenue, +180% YoY, positive operating income; shareholders' equity rose to ~EUR5.52M (from ~EUR1.60M at YE2025) largely on ~EUR3.78M raised via registered direct offering + ATM program",
+      "source": "https://sustainabilitymag.com/globenewswire/3333505"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "regulatory",
+      "headline": "Nasdaq confirmed Turbo Energy regained compliance with the minimum stockholders'-equity requirement (Listing Rule 5550(b)(1)) after the capital raise lifted equity from ~$1.88M to ~$6.48M",
+      "source": "News summary (briefglance.com 'Turbo Energy Regains Nasdaq Compliance After $5M Capital Raise')"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "corporate update",
+      "headline": "\"Turbo Energy Advances Nasdaq Compliance and Expands Global Energy Storage Footprint\"",
+      "source": "https://www.chartmill.com/news/external/31155/gnwcq-2026-6-3-turbo-energy-advances-nasdaq-compliance-and-expands-global-energy-storage-footprint"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Price $1.56, up 80.2%, on thin volume following a ~$3.5M (EUR 3M) contract-award portfolio of 15 firm-order commercial/industrial energy-storage projects (15.6 MWh) across Spain and Chile. Extremely thin float / nano-cap; no market cap, P/E, EPS, or other fundamentals disclosed and not yet fully researched.",
-  "history": [],
+  "conflicts": [
+    "Shares outstanding: Benzinga 12.017M ADS vs TipRanks 11.017M ADS vs Google Finance 12.58M ADS -- all undated, could not resolve to a single current figure.",
+    "Float: Benzinga 3.54M vs Wealthyhood 13.5M.",
+    "Market cap estimates range from $11.1M to $39.55M across sources dated Mar-Apr 2026, none current to Oct 2026.",
+    "H1 2026 net result: one summary gives net income of $10,606 (USD), another gives EUR65,647 for the same preliminary period -- these cannot both be correct and were not reconciled.",
+    "Price history shows a 52-week range from near $20 down to near $0.57 per some aggregators, which may reflect a stock split, a large capital raise/dilution event, or simply data error across sources from different dates -- flagging rather than guessing a ratio."
+  ],
+  "pendingFilings": [
+    "20-F/6-K cadence -- next scheduled financial disclosure date unknown"
+  ],
+  "notes": "MISMATCH flagged: 'Advanced Materials' does not describe this company. Turbo Energy is a Spain-based AI-optimized solar/battery energy storage integrator (residential + commercial & industrial storage, inverters, energy-management software). None of the existing theme strings (Biotech Catalyst, Advanced Materials, Government IT & Defense Services, AI Semiconductors, Consumer Hardware, Enterprise Software & Security, Crypto Treasury & Miners, Distressed / Restructuring, Fintech & Consumer Credit, Utilities & Wildfire Liability, Consumer Apparel & Retail) genuinely fit a storage/clean-energy integrator, so a new theme is proposed: 'Clean Energy Storage & Smart Grid'. Kept 'Advanced Materials' as the primary theme field per existing system convention is NOT done here -- see themeProposed. Sandbox could not reach sec.gov, stocktitan.net, globenewswire.com, businesswire.com, finviz.com or equibles.com directly (all WebFetch calls returned DNS/egress failures); all figures below come from WebSearch tool summaries of secondary aggregators and news mirrors, not primary filings, and should be re-verified once direct SEC/IR access is available. WebSearch quota for this session was exhausted before all items could be cross-checked twice.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }

@@ -2,71 +2,171 @@
   "ticker": "GNRC",
   "name": "Generac Holdings Inc.",
   "sector": null,
-  "theme": "Advanced Materials",
-  "themeLabel": "established",
+  "theme": "Backup Power & Energy Equipment",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": null,
+  "lastResearched": "2026-10-22T21:23:42.417Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 13300000000,
+      "asOf": "2026-10-11",
+      "source": "Trade-Ideas stock-info page, at $224.94/share"
     },
     "float": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not disclosed"
+      "value": 58870000,
+      "asOf": null,
+      "source": "equibles.com (undated; roughly consistent with the Oct 11 market cap and price)"
     },
     "shortInterest": {
       "value": null,
-      "note": "not disclosed"
+      "note": "sources disagree and none give a clean, dated %-of-float figure: Trade-Ideas (Oct 11, 2026) says short interest fell 7% month-over-month with ~4% of investors short; Equibles (undated) shows 2.4M shares short / 3.0 days to cover; MarketBeat (undated) shows a short-interest ratio (days to cover) of 1.86"
     },
     "cash": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not located in sources reachable this session"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed"
+      "note": "not located in sources reachable this session"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "no earnings"
+      "note": "only a single quarter's EPS ($2.91, Q2 2026) was confirmed this session — insufficient to compute a verified TTM EPS or trailing P/E, and no forward-estimate source was checked before the search budget was exhausted"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "not verified this session"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 2.91,
+        "basis": "reported (GAAP/non-GAAP basis not specified in source)"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": null,
+        "yoy": null
+      },
+      {
+        "period": "Q2 2026",
+        "value": 1170000000,
+        "yoy": 10.6
+      }
+    ],
     "growth": {
-      "metric": null,
-      "period": null,
-      "pct": null,
-      "note": "not disclosed"
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 10.6
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": "2026-11-04",
+      "confirmed": false,
+      "note": "Investing.com estimate for the Q3 2026 report; no company-confirmed date found. On-file next-earnings date was 'unknown'."
+    }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "contract",
+      "headline": "Generac disclosed a long-term supply agreement to provide backup generators for Amazon data centers, with aggregate potential gross payments of up to $8 billion over the life of the arrangement and roughly $2.4 billion of initial deliveries expected across 2027-2028. As part of the deal, Generac issued a warrant to an Amazon subsidiary for up to 1,693,745 shares at a $200.9266 strike price (one source instead describes the initial vesting tranche as 300,000 shares, with the remainder vesting as payments/deliveries occur — see conflicts).",
+      "impact": "Shares were up about 34.5% in premarket trading on the announcement; Cantor Fitzgerald kept its rating and called it the firm's most important data-center-related news item",
+      "source": "https://datacenterdynamics.com/en/news/generac-signs-8bn-back-up-generator-deal-with-amazon; https://pulse2.com/generac-signs-long-term-amazon-data-center-generator-agreement-with-up-to-8-billion-in-payments/; https://www.nasdaq.com/articles/generac-signs-amazon-generator-deal-24b-initial-deliveries"
+    },
     {
       "date": "2026-09-16",
       "type": "contract/investment",
       "headline": "Amazon obtained the right to buy up to $340M of Generac stock as part of a $2.4B backup-generator supply deal for AI data centers",
       "impact": "stock recorded a record single-session gain the following day",
       "source": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "earnings",
+      "headline": "Generac reported Q2 2026 results before the open: EPS of $2.91 on revenue of $1.17 billion (+10.6% YoY), with Commercial & Industrial external net sales up ~29% YoY to $556 million; revenue came in slightly below some analyst expectations. Management cited a data-center backlog of $1.6 billion as of July 2026 and said tariff refunds helped margins and cash flow; the Sussex, WI plant was said to be on track to begin production ahead of schedule.",
+      "impact": null,
+      "source": "https://www.barchart.com/story/news/3521153/generac-nysegnrc-misses-q2-cy2026-sales-expectations; https://www.barchart.com/story/news/3545202/gnrc-q2-deep-dive-data-center-backlog-fuels-commercial-segment-expansion"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Amazon obtained the right to buy up to $340M of Generac stock as part of a $2.4B backup-generator supply deal for AI data centers, driving a record single-session gain (+27.3%). Market cap, P/E, EPS, float, shares outstanding, short interest, cash, and debt are all not disclosed in the dashboard; no next earnings date scheduled.",
-  "history": [],
+  "conflicts": [
+    "Market cap: $13.3B at $224.94 (Trade-Ideas, 2026-10-11) vs. an undated MarketBeat page showing $16.10B at $273.50 — the higher figure is plausibly a mid/late-September 2026 snapshot captured near the post-Amazon-deal spike (shares reportedly jumped ~34.5% on 2026-09-16) before pulling back by October, but this timeline was not independently confirmed with dated prices for both points.",
+    "Amazon warrant structure: 1,693,745 total shares with 307,954 vesting immediately at a $200.9266 strike (Pulse2) vs. 300,000 shares available immediately with the remainder vesting as Generac receives payments/supplies generators (DataCenterDynamics) — these two secondary-source descriptions of the same SEC filing do not match exactly and the filing itself could not be fetched this session.",
+    "Short interest: no two sources gave a consistent, comparably-dated %-of-float figure (see fundamentals.shortInterest note)."
+  ],
+  "pendingFilings": [
+    "8-K 2026-09-16 (Amazon long-term generator supply agreement and warrant issuance)"
+  ],
+  "notes": "On-file theme 'Advanced Materials' is a clear mismatch — Generac manufactures backup power generators and related energy/power equipment, which is an industrials/energy-equipment business, not a materials-science one. None of the pre-existing theme strings in the provided list (including 'AI Semiconductors', which doesn't fit since Generac makes no semiconductors) genuinely describe this business, so a new theme, 'Backup Power & Energy Equipment', is proposed here; it should be reused verbatim for any other generator/power-equipment names rather than creating near-duplicates. themeLabel 'hot sector' reflects the AI-datacenter-backup-power narrative now driving the stock (the Amazon deal), distinct from Generac's traditional, more cyclical residential-generator business. Cash, debt, FY2024/FY2025 EPS, and a clean short-interest percentage could not be established this session — WebFetch failed against every external site attempted (SEC EDGAR, IR pages, news sites all returned DNS/connectivity errors in this sandbox) and the WebSearch budget for this task batch was exhausted before these gaps could be closed.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
   "recoveredFrom": {
     "source": "dashboard-live-2026-10-21-54names.html",
     "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
     "recoveredOn": "2026-10-22T09:46:03.122Z",
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  },
+  "lastPass": {
+    "date": "2026-10-22",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
+    "tradingDay": true
   }
 }
