@@ -1,5 +1,6 @@
 # Transient pass inputs — the dated run logs in runs/ are the durable record.
 runs/batch-*.json
+runs/pm-part-*.json
 
 node_modules/
 *.log
