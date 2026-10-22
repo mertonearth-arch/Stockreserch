@@ -199,18 +199,27 @@ Both run `claude-sonnet-5` against `https://github.com/mertonearth-arch/Stockres
 `Bash Read Write Edit Glob Grep WebSearch WebFetch Artifact PushNotification` and the
 `Claude_Code_Remote` connector. Each prompt is self-contained — it does not read this table.
 
-**Open blocker (found 2026-08-30, re-confirmed 2026-09-04):** the cloud run cannot write to
-GitHub. BOTH paths return 403 — `git push` says `Claude doesn't have GitHub access to
-mertonearth-arch/Stockreserch`, and the GitHub MCP `push_files` says `Resource not accessible
-by integration`. The environment does export `GITHUB_TOKEN` and `GH_TOKEN`, but both return 403
-against the REST API too. The Claude GitHub App is simply not installed for the account:
-https://github.com/apps/claude/installations/select_target
-Until it is, every cloud pass publishes a correct dashboard and then loses its state — the
-exact failure the bookends above exist to prevent. Both routine prompts are written to try the
-push once, report the failure as their first line, send a push notification, and stop. That
-last part matters: on 2026-09-04 the AM run kept hunting for a way through, started dumping
-every changed data file into context to push them through the API, and burned the account's
-five-hour limit before finishing.
+**Blocker RESOLVED 2026-10-22.** From 2026-08-30 to 2026-10-22, the cloud run could not write
+to GitHub at all — BOTH paths returned 403 (`git push` said `Claude doesn't have GitHub access
+to mertonearth-arch/Stockreserch`; the GitHub MCP `push_files` said `Resource not accessible by
+integration`; `GITHUB_TOKEN`/`GH_TOKEN` also 403'd against the REST API). Root cause: the Claude
+GitHub App was not installed for the account. The user installed it (or reconnected GitHub) on
+2026-10-22 and `git push` now succeeds normally from a cloud run — no special handling needed
+going forward. Still only ever push once per pass and stop on failure rather than hunting for a
+workaround (on 2026-08-30 — 2026-09-04 an AM run burned its five-hour budget dumping changed
+data files through the API trying to force a push through; don't repeat that regardless of
+cause).
+
+**Data gap left by the outage:** while the blocker was live, individual cloud sessions did real
+research and published it to the dashboard artifact, but none of that ever reached git — each
+session started from the same stale 2026-09-01 git snapshot and silently overwrote whatever the
+previous session had published. One such snapshot (a 2026-09-22 PM pass, 41 names, full
+fundamentals) was captured before being overwritten and is saved at
+`runs/backups/dashboard-live-2026-09-22-pm-41names.html`. The current `data/` only has the
+17 names from before the outage plus a 2026-09-23 AM delta on top. A future PM pass should
+treat every name as if it's never been researched (the backup HTML is the only source for
+what was learned about the other ~24 names in between) rather than trusting `quietRuns` or
+`lastResearched` on file, since both predate the gap.
 
 ### Two more things the cloud environment does differently
 
