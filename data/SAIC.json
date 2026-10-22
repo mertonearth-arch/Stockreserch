@@ -1,73 +1,79 @@
 {
   "ticker": "SAIC",
-  "name": "Science Applications International Corporation",
-  "sector": "Industrials",
+  "name": "Science Applications International Corp.",
+  "sector": null,
   "theme": "Government IT & Defense Services",
   "themeLabel": "established",
   "tier": "daily",
-  "addedOn": "2026-08-31",
-  "addedReason": "premarket +11.94% on a Q2 earnings beat and raised FY2027 guidance",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.474Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5420000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 42280000,
-      "asOf": "2026-08-31"
+      "value": 5310000000,
+      "asOf": "2026-08"
     },
     "float": {
       "value": 41800000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "asOf": "2026-08-31"
+    },
+    "sharesOutstanding": {
+      "value": 42300000,
+      "asOf": "2026-08"
     },
     "shortInterest": {
-      "value": 6.42,
-      "asOf": "2026-08-31",
-      "note": "2.71M shares, % of shares outstanding"
+      "value": 5.7,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (2,400,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
     },
     "cash": {
-      "value": 126000000,
-      "asOf": "2026-08-31"
+      "value": 109000000,
+      "asOf": "2026-05-01"
     },
     "debt": {
-      "value": 2710000000,
-      "asOf": "2026-08-31"
+      "value": 2460000000,
+      "asOf": "2026-05-01"
     },
     "pe": {
-      "trailing": 15.03,
-      "forward": 12.77,
-      "asOf": "2026-08-31"
+      "trailing": 16.4,
+      "forward": null
     },
     "eps": [
       {
         "period": "FY2025",
         "value": 7.17,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2026",
         "value": 7.7,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 10.75,
+        "basis": "adjusted (non-GAAP) diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 2.38,
+        "basis": "GAAP diluted"
       },
       {
         "period": "Q2 FY2027",
         "value": 3.01,
-        "basis": "adjusted"
+        "basis": "adjusted diluted"
       }
     ],
     "revenue": [
       {
         "period": "FY2025",
-        "value": 7479000000,
+        "value": 7480000000,
         "yoy": null
       },
       {
         "period": "FY2026",
-        "value": 7262000000,
+        "value": 7260000000,
         "yoy": -2.9
       },
       {
@@ -77,26 +83,45 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q2 FY2027",
-      "pct": 6.3,
-      "note": "as stated in the 2026-08-31 earnings release; full FY2026 revenue was still down 2.90% YoY"
+      "metric": "revenue YoY Q2 FY2027",
+      "period": null,
+      "pct": 6.3
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-31 (Q2 FY2027); next date not yet scheduled"
+      "date": "2026-12-01",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 131,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation, Sept 22 close"
+    "last": 126.31,
+    "changePct": null
   },
   "catalysts": [
     {
+      "date": "2026-09-08",
+      "type": "analyst action",
+      "headline": "Goldman Sachs raised price target to $103 (Sell)",
+      "impact": "bearish signal despite PT raise -- rating remains Sell"
+    },
+    {
       "date": "2026-09-01",
-      "type": "rating",
-      "headline": "Stifel Nicolaus raised its price target to $154 from $137 (Buy); UBS raised to $123 from $108; Truist raised to $130 from $110"
+      "type": "analyst action",
+      "headline": "Stifel raised PT to $154 (Buy); Jefferies raised PT to $140 (Hold)",
+      "impact": "mixed/minor"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "earnings",
+      "headline": "Q2 FY2027: revenue $1.88B +6.3% YoY (+5.3% organic); adjusted diluted EPS $3.01 vs $2.31 consensus (beat, but down 17% YoY from $3.63 on a prior-period settlement); GAAP diluted EPS $2.38 (down 12% YoY); book-to-bill 0.6x quarterly/0.8x TTM; backlog $22.1B; raised FY2027 revenue guidance to $7.2-$7.3B (from $7.0-$7.2B)",
+      "impact": "shares reportedly up as much as 13.3% intraday, settling to +3.2%",
+      "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "contract",
+      "headline": "Five-year ~$330M contract awarded to the U.S. Army, disclosed alongside Q2 results",
+      "impact": "backlog support",
+      "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
     },
     {
       "date": "2026-08-31",
@@ -104,22 +129,59 @@
       "headline": "Q2 adjusted EPS $3.01 vs $2.31 consensus; revenue $1.88B vs $1.76B consensus (~6.3% YoY growth); raised FY2027 adjusted EPS guidance to $10.65-$10.75 (from $9.90-$10.10) and revenue guidance to $7.20B-$7.30B",
       "impact": "premarket +11.94%",
       "sourceName": "Yahoo Finance / Investing.com"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "contract",
+      "headline": "Won $400M recompete contract supporting a U.S. intelligence agency (ground-based IC systems engineering/technical integration/mission support)",
+      "impact": "positive, backlog-supportive",
+      "source": "https://investors.saic.com/news-releases/news-release-details/saic-wins-400-million-recompete-contract-us-intelligence-agency"
     }
   ],
   "conflicts": [
-    "Earnings timing: stockanalysis's quote page text describes the Q2 report as 'scheduled for Aug 31, 2026' while the premarket move and Yahoo Finance/Investing.com coverage indicate results were already released same-day premarket (2026-08-31) — recording as released, per the reaction and named figures."
+    "Shares outstanding: 42.28M (Aug 2026 point-in-time) vs 46.5M (FY2026 weighted-average diluted, full year) -- different measures/dates.",
+    "Trailing P/E: 16.4 (computed) vs 14.1 (Equibles) vs 13.4 (Value Research, lower price/date) -- different price snapshots.",
+    "No explicit consensus revenue figure for Q2 FY2027 was found, so the $1.88B vs analyst estimate comparison could not be confirmed (only the EPS consensus beat is sourced)."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 FY2027 earnings expected ~early December 2026, unconfirmed"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Good news flow since late August: Q2 beat/guide-raise, a $400M intelligence recompete, and a $330M Army award, offset by a Goldman Sachs Sell rating. Next material catalyst is Q3 FY2027, likely early December 2026.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -139,7 +201,7 @@
         "debt updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -147,7 +209,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -160,17 +222,13 @@
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
-  },
-  "notes": "Faded hard intraday: premarket indicated +11.94% on the EPS/revenue beat and raised guidance, but closed up only +1.79%."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

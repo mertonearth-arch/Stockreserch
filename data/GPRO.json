@@ -1,109 +1,111 @@
 {
   "ticker": "GPRO",
   "name": "GoPro, Inc.",
-  "sector": "Consumer Discretionary",
+  "sector": null,
   "theme": "Consumer Hardware",
   "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-09-01",
-  "addedReason": "closed +46.06% after YouTube creator Markiplier (Mark Fischbach) disclosed an 8.5% stake, becoming the largest shareholder, on ~20x average volume",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.471Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 161660000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 184500000,
+      "value": 161700000,
       "asOf": "2026-08-31"
     },
     "float": {
-      "value": 137650000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "value": 137700000,
+      "asOf": "2026-08-31"
+    },
+    "sharesOutstanding": {
+      "value": 184500000,
+      "asOf": "2026-08-20"
     },
     "shortInterest": {
-      "value": 13.49,
-      "asOf": "2026-08-31",
-      "note": "24.88M shares, % of shares outstanding"
+      "value": 12.9,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (23,900,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
     },
     "cash": {
-      "value": 27270000,
-      "asOf": "2026-08-31"
+      "value": 27300000,
+      "asOf": "2026-06-30"
     },
     "debt": {
-      "value": 86050000,
-      "asOf": "2026-08-31"
+      "value": 87200000,
+      "asOf": "2026-06-30"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-08-31"
+      "note": "negative earnings"
     },
     "eps": [
       {
         "period": "FY2024",
         "value": -2.82,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2025",
         "value": -0.59,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
         "period": "Q2 2026",
         "value": -0.3,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.21,
+        "basis": "non-GAAP adjusted"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 801470000,
-        "yoy": -20.29
+        "value": 801500000,
+        "yoy": -20.3
       },
       {
         "period": "FY2025",
-        "value": 651540000,
-        "yoy": -18.71
+        "value": 651500000,
+        "yoy": -18.7
       },
       {
         "period": "Q2 2026",
-        "value": 104930000,
-        "yoy": -31.25
+        "value": 104900000,
+        "yoy": -31.3
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": -31.25
+      "metric": "revenue YoY Q2 2026",
+      "period": null,
+      "pct": -31
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-10; next date not yet scheduled"
+      "date": "2026-11-09",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 1.29,
-    "asOf": "2026-09-18",
-    "source": "WebSearch aggregation, Sept 18 intraday quote",
-    "note": "no reliable print between 2026-09-18 and premarket 2026-09-23 found in reachable sources"
+    "last": 1.18,
+    "changePct": -0.8
   },
   "catalysts": [
     {
-      "date": "2026-09-02",
-      "type": "product",
-      "headline": "Began global retail rollout of the MISSION 1 PRO ILS camera (50MP 1-inch sensor, GP3 processor, 8K60 video)"
+      "date": "2026-09-10",
+      "type": "price move, cause unclear",
+      "headline": "GPRO up 11% to $1.57 intraday; commentary frames this as possibly speculative/meme-driven rather than merger-arbitrage, since it traded above the pending deal's $1.14 cash value",
+      "impact": "positive, unexplained by company news",
+      "source": "https://247wallst.com/investing/2026/09/10/gopro-spikes-11-as-lumentum-eases-and-coherent-holds-flat-is-this-a-merger-trade-or-a-meme-trade/"
     },
     {
       "date": "2026-09-01",
       "type": "M&A",
-      "headline": "Entered definitive merger agreement with Starman Optical: GoPro shareholders to receive $285M aggregate cash ($1.14/share) and retain ~10% of the combined company; GoPro's ~$92M debt repaid in full at closing; expected to close by year-end 2026 subject to shareholder and regulatory approval",
-      "source": "https://investor.gopro.com/press-releases/press-release-details/2026/GOPRO-ENTERS-INTO-DEFINITIVE-AGREEMENT-TO-MERGE-WITH-STARMAN-OPTICAL-INC-/default.aspx"
+      "headline": "GoPro announces definitive merger agreement with Starman Optical: GoPro shareholders get an aggregate $285M cash ($1.14/share) plus ~10% of the combined company; GoPro's ~$92M debt repaid at closing; pivot toward AI/defense optics; expected to close by year-end 2026",
+      "impact": "major re-rating event for a distressed name",
+      "source": "https://www.newsshooter.com/2026/09/01/gopro-to-merge-with-starman-optical-in-285-million-deal-pivots-toward-ai-and-defense-markets/"
     },
     {
       "date": "2026-08-31",
@@ -111,20 +113,73 @@
       "headline": "YouTube personality Markiplier (Mark Fischbach) disclosed an 8.5% stake in GoPro, becoming its largest shareholder; he described the stock as cheap and the stake as a personal project to help the company turn around",
       "impact": "closed +46.06% (some sources report +43.5%/+46%) on ~142.5M shares traded, roughly 20x the prior 5-day average",
       "source": "https://www.benzinga.com/trading-ideas/movers/26/08/61531604/gopro-stock-soars-as-youtuber-becomes-largest-shareholder"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "13G stake disclosure",
+      "headline": "Bloomberg reports YouTube creator Mark Fischbach ('Markiplier') disclosed an 8.5% passive stake (13.5M Class A shares) via Schedule 13G filed 2026-08-20",
+      "impact": "closed +46.06% on 142.5M shares traded",
+      "source": "https://www.cined.com/markiplier-just-became-gopros-largest-shareholder-and-the-stock-jumped-46/"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "earnings",
+      "headline": "Q2 2026: revenue $105M (-31% Y/Y), GAAP net loss $51M / -$0.30 EPS, adjusted EPS -$0.21 vs -$0.08 Y/Y; also received a Nasdaq notice for non-compliance with the minimum bid price requirement (180-day grace period)",
+      "impact": "negative, continued listing risk"
+    },
+    {
+      "date": "2026-06-01",
+      "type": "going concern warning",
+      "headline": "GoPro files 8-K disclosing 'substantial doubt' about its ability to continue as a going concern; PwC adds explanatory paragraph",
+      "impact": "shares fell as much as 12% intraday",
+      "source": "https://news.bloomberglaw.com/business-and-practice/gopro-warns-about-going-concern-in-filing-shares-fall"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
+  "conflicts": [
+    "Shares outstanding: 184.50M (8/20/26) vs 170.98M (early Jul 2026) -- treated as real dilution over time, not a data error.",
+    "Price in early September ranged $1.20-$2.05 depending on source/date -- intraday volatility in a sub-$2 stock makes single-source citations unreliable.",
+    "Market cap figures ($117.14M at 8/20 vs $133.97M at 7/10 vs $208.35M undated) are not reconcilable without matching exact price/share-count dates."
+  ],
+  "pendingFilings": [
+    "proxy statement for the GoPro stockholder vote on the Starman Optical merger (not yet located)",
+    "Q3 2026 10-Q, if the merger has not closed by then",
+    "continued Nasdaq minimum-bid-price compliance monitoring"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Theme 'Consumer Hardware' technically still fits today but the company is actively pivoting away from it via the pending Starman Optical merger toward AI/defense optics -- this ticker may effectively cease to exist as a consumer-hardware name once/if the merger closes (year-end 2026 target). No evidence of a reverse split; the sub-$1 price in August reflects genuine fundamental distress (going concern), not a split artifact. Critical gap: no news or pricing found after 2026-09-10 -- a human should pull a live quote before trusting any current price.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "2 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -146,17 +201,13 @@
         "move 46.06%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Multiple shareholder-rights law firms are reviewing whether the Starman deal terms are fair to GoPro holders (as of mid-September); no dated filing on this found yet.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

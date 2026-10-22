@@ -1,0 +1,105 @@
+{
+  "ticker": "CLDX",
+  "name": "Celldex Therapeutics, Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 2650000000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 78500000,
+      "asOf": "2026-09-22"
+    },
+    "shortInterest": {
+      "value": 11.2
+    },
+    "cash": {
+      "value": 717600000,
+      "asOf": "2026-09-22"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-11-09",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "clinical trial",
+      "headline": "Celldex announces positive Phase 3 EMBARQ-CSU1 and EMBARQ-CSU2 topline results for barzolvolimab in chronic spontaneous urticaria: met primary endpoint (UAS7 change) and all key secondary endpoints at Week 12 across both dose regimens in ~1,939-2,000 patients; complete response rates ~42%-46% vs ~9%-13% placebo at Week 12, rising to 54% by Week 24; BLA submission targeted for 2027",
+      "impact": "'sell the news' reversal -- stock fell sharply intraday despite positive data; reported magnitude ranges from about -10% to -37%+ depending on measurement point (see conflicts)",
+      "source": "https://ir.celldex.com/news-releases/news-release-details/celldex-announces-positive-results-phase-3-embarq-csu1-and"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "clinical trial",
+      "headline": "H.C. Wainwright raised price target on Celldex to $64 from $42 (maintained Buy) following the Phase 3 data, implying ~90% upside",
+      "impact": "did not offset intraday sell-off",
+      "source": "https://www.tradingview.com/news/stocktwits:4c26ee128094b:0-cldx-stock-slumps-11-this-analyst-sees-nearly-90-upside-calls-phase-3-trial-safety-concerns-misplaced/"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "Celldex reports Q2 2026 results: R&D expense $67.5M, G&A $13.1M, net loss $73.5M (-$0.94/share); no material revenue; cash/investments sufficient into 2028; flagged CSU Phase 3 and other barzolvolimab data due Sept./Oct. 2026",
+      "impact": "set up expectations for the Phase 3 readout",
+      "source": "https://ir.celldex.com/news-releases/news-release-details/celldex-reports-second-quarter-financial-results-and-provides"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "clinical trial",
+      "headline": "Celldex reports Phase 2 prurigo nodularis (PN) study of barzolvolimab MISSED primary endpoint (WI-NRS >=4-point improvement at Week 12) and key secondary endpoints, despite rapid tryptase suppression; company is discontinuing the PN program",
+      "impact": "negative pipeline readout",
+      "source": "https://www.biospace.com/press-releases/celldex-reports-results-from-phase-2-study-of-barzolvolimab-in-prurigo-nodularis"
+    },
+    {
+      "date": "2026-04-06",
+      "type": "financing",
+      "headline": "Celldex closed a $345M public offering (11,896,750 shares at $29.00/share, including full underwriter over-allotment) to fund the barzolvolimab pipeline",
+      "impact": "dilutive but bolstered cash to $717.6M by Q2 2026",
+      "source": "https://ir.celldex.com/news-releases/news-release-details/celldex-therapeutics-announces-closing-public-offering-common-1"
+    }
+  ],
+  "conflicts": [
+    "Same-day decline magnitude reported very inconsistently: MarketBeat cites -$4.19 to $33.70 (~-11%); a separate same-day alert cites -5.1% (-$1.92) to $35.97; TradingView headline says stock 'slumps 11%'; RTTNews headline says stock 'falls 17%'; other coverage variously describes shares as 'crashing nearly 20%,' 'sliding,' 'plummeting,' or down '10.4% in mid-day trading.' Earlier reporting described a premarket spike to ~$41.62 that reversed intraday to as low as ~$23.86 (a ~-37% to -43% swing from the premarket peak) -- not independently corroborated but retained given the disagreement. None of these figures are reconciled to a single canonical close.",
+    "Market capitalization conflict: one source cites ~$3.26B-$3.27B (dated on/around Aug 19, 2026, pre-move); a calculated figure using the $33.70 close x 78.53M shares outstanding is ~$2.65B. Given the reported intraday range, the actual closing market cap is uncertain.",
+    "Short interest as % of float cited as both 11.2% and 11.36% by different trackers, with unclear and possibly differing settlement dates."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Compiled Sep 22, 2026 during an unusually volatile 'sell the news' session. Direct fetch of stockanalysis.com, cnbc.com, rttnews.com, and stocktitan.net was blocked (EGRESS_BLOCKED); figures rely on company IR, SEC EDGAR, and secondary aggregators/news. Given the scale of disagreement on the closing price, price.last should be treated as indicative only -- see conflicts.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

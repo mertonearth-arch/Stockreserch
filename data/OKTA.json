@@ -1,55 +1,64 @@
 {
   "ticker": "OKTA",
   "name": "Okta, Inc.",
-  "sector": "Technology",
+  "sector": null,
   "theme": "Enterprise Software & Security",
-  "themeLabel": "established",
+  "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "+28.6% on Q2 beat",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.473Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 29060000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 37000000000,
+      "asOf": "2026-10-01"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
     },
     "sharesOutstanding": {
-      "value": 174820000,
-      "asOf": "2026-08-28"
+      "value": 174000000,
+      "asOf": "2026-08-20"
+    },
+    "shortInterest": {
+      "value": 3.9,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (6,700,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 2300000000,
+      "asOf": "2026-07-31"
+    },
+    "debt": {
+      "value": 0,
+      "asOf": "2026-07-31"
     },
     "pe": {
-      "trailing": 101.14,
-      "forward": 40.74,
-      "asOf": "2026-08-28"
+      "trailing": 162,
+      "forward": 35.7
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -2.17,
-        "basis": "diluted"
-      },
-      {
         "period": "FY2025",
-        "value": 0.05,
-        "basis": "diluted"
+        "value": 0.06,
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2026",
         "value": 1.31,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
-        "period": "TTM",
-        "value": 1.64,
-        "basis": "diluted"
+        "period": "Q2 FY2027",
+        "value": 1.05,
+        "basis": "non-GAAP diluted"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 2263000000,
+        "value": 2260000000,
         "yoy": null
       },
       {
@@ -59,7 +68,7 @@
       },
       {
         "period": "FY2026",
-        "value": 2919000000,
+        "value": 2920000000,
         "yoy": 11.8
       },
       {
@@ -69,26 +78,51 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 11.2
+      "metric": "revenue YoY Q2 FY2027",
+      "period": null,
+      "pct": 10.6
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-26; next date not yet scheduled"
+      "date": "2026-12-02",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 191.33,
-    "changePct": 4.9,
-    "asOf": "2026-09-21",
-    "source": "WebSearch aggregation, Sept 21 close"
+    "last": 212.63,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-14",
-      "type": "governance",
-      "headline": "Director Emilie Choi resigned from the board"
+      "date": "2026-10-02",
+      "type": "analyst action",
+      "headline": "TD Cowen reiterated Hold, $200 price target",
+      "impact": "minor, neutral"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "analyst action",
+      "headline": "Morgan Stanley reiterated Buy, $245 price target",
+      "impact": "minor, supportive"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "analyst action",
+      "headline": "Truist reiterated Buy, $235 PT; Citizens reiterated Buy, $225 PT",
+      "impact": "minor, supportive"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "balance sheet",
+      "headline": "Settled remaining $350M principal of 2026 Convertible Notes in cash -- no convertible debt outstanding; repurchased $125M of stock in Q2 ($555M remaining under authorization)",
+      "impact": "deleveraging, supportive",
+      "source": "https://kalkinemedia.com/us/news/announcements/okta-announces-q2-fiscal-2027-financial-results-with-key-balance-sheet-updates"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "earnings",
+      "headline": "Q2 FY2027: EPS $1.05 vs $0.96 consensus; revenue $805M vs $793M est, +10.6% YoY; raised FY27 revenue growth outlook to 10-11% and adj. operating margin target to 26%",
+      "impact": "stock surged 12-29% depending on measurement window",
+      "source": "https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results/"
     },
     {
       "date": "2026-08-26",
@@ -99,19 +133,49 @@
     }
   ],
   "conflicts": [
-    "Move attribution: the +28.6% pop is reported in an article dated 2026-08-28 but describes the session after the 2026-08-26 print. The 2026-08-28 close itself was -3.86%."
+    "Price sources disagree sharply by date: $134.16 (2026-08-20, pre-earnings) vs $212.63 (2026-10-01) -- the $212.63 figure is best corroborated by analyst price-target context (targets clustering $200-245).",
+    "FY2025 GAAP EPS basic ($0.16) vs diluted ($0.06) -- unusually large spread, reported verbatim from source, not reconciled.",
+    "Forward P/E differs materially (35.72 at $137 price in August vs an implied ~54x recompute at the October price) purely due to the share-price rally, not new guidance."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 FY2027 earnings expected ~early December 2026, unconfirmed"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: No September/October 2026 news (earnings, M&A, executive, litigation) found beyond analyst price-target maintenance and the Aug 26-27 earnings/balance-sheet events -- genuinely quiet since late August aside from the sustained post-earnings rally.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -119,7 +183,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -129,7 +193,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -146,17 +210,13 @@
         "sharesOutstanding updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
-  },
-  "notes": "Oktane 2026 conference runs Sept 22-24 in Las Vegas; company previewing an AI agent identity/governance push. No dated results from the conference yet."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

@@ -1,98 +1,159 @@
 {
   "ticker": "CYTK",
   "name": "Cytokinetics, Incorporated",
-  "sector": "Healthcare",
+  "sector": null,
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "late-stage data in a genetic heart condition",
-  "quietRuns": 1,
-  "lastResearched": "2026-09-23T05:32:07.472Z",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10020000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 8570000000,
+      "asOf": "2026-10-08"
+    },
+    "float": {
+      "value": 138400000,
+      "asOf": "2026-08-28"
     },
     "sharesOutstanding": {
-      "value": 139020000,
+      "value": 139000000,
+      "asOf": "2026-08-28"
+    },
+    "shortInterest": {
+      "value": 11.8
+    },
+    "cash": {
+      "value": 1700000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 1420000000,
       "asOf": "2026-08-28"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-08-28"
+      "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": -7.18,
-        "basis": "diluted"
+        "period": "FY2024",
+        "value": -5.26,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": -6.54,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -1.5,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
         "period": "TTM",
-        "value": 67670000,
+        "value": 67700000,
         "yoy": -21.1
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": -21.1
+      "metric": "total revenue YoY Q2 2026",
+      "period": null,
+      "pct": -57.2
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-06; next date not yet scheduled"
-    },
-    "float": {
-      "value": 138390000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 11.8,
-      "asOf": "2026-08-28",
-      "note": "16.32M shares, % of float; 8.95 days to cover"
-    },
-    "cash": {
-      "value": 1170000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 1420000000,
-      "asOf": "2026-08-28"
+      "date": "2026-11-04",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 67.56,
-    "asOf": "2026-09-21",
-    "source": "WebSearch aggregation, Sept 21 close"
+    "last": 61.58,
+    "changePct": null
   },
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "medical conference",
+      "headline": "Four presentations at the Heart Failure Society of America (HFSA) Annual Scientific Meeting, Phoenix (Oct 9-12), incl. two Late-Breaking Clinical Research presentations on aficamten in non-obstructive HCM and right-ventricular function/dosing-safety data",
+      "impact": "medium"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "medical conference / data",
+      "headline": "Full ACACIA-HCM Phase 3 data (non-obstructive HCM) presented in a Hot Line session at ESC Congress 2026 (Munich) and published in NEJM; met both dual primary endpoints (KCCQ-CSS and peak VO2 vs placebo at Week 36); some reporting flagged a heart-failure imbalance early in dosing (10 vs 3 cases), which the company attributed to early dosing practices since adjusted",
+      "impact": "high",
+      "source": "https://www.fiercepharma.com/pharma/esc-2026-cytokinetics-delves-deeper-huge-myqorzo-readout-fueling-cardiomyopathy-expansion"
+    },
     {
       "date": "2026-08-28",
       "type": "clinical",
       "headline": "Late-stage data showed the drug significantly improved symptoms in patients with a genetic heart condition",
       "impact": "shares closed -7.46% the same session",
       "sourceName": "Investrade market review"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "Q2 2026: total revenue $28.6M (vs $66.8M Q2'25, prior year included a one-time Bayer milestone); MYQORZO net product revenue $25.3M; net loss $198.8M/-$1.50 EPS; cash/investments $1.7B",
+      "impact": "medium",
+      "source": "https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "regulatory",
+      "headline": "UK MHRA granted Marketing Authorisation for MYQORZO (aficamten); positive NICE guidance issued for symptomatic obstructive HCM in England and Wales",
+      "impact": "medium"
     }
   ],
   "conflicts": [
-    "Reaction vs. result: positive late-stage data was reported the same session the stock closed -7.46%. No explanation was found on the sources checked."
+    "Shares outstanding: ~124.43M (Google Finance) vs ~139.02M (Motley Fool Frankfurt listing) -- unreconciled.",
+    "Market cap at various August 2026 dates ($10.69B-$11.01B) is inconsistent with the Oct 8 $61.58 price implying ~$7.7-8.6B, consistent with a real pullback in the stock since late August.",
+    "Next earnings date: Nov 4 (EarningsWhispers, Nasdaq calendar) vs Nov 5 (second EarningsWhispers page) vs Oct 29 ('Confirmed' on TipRanks, though its own disclaimer calls it an estimate)."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "MAPLE-HCM sNDA (obstructive HCM at-home/expansion use) -- FDA PDUFA date Nov 14, 2026",
+    "planned sNDA submission for aficamten in non-obstructive HCM (ACACIA-HCM), targeted Q4 2026, not yet confirmed filed",
+    "Q3 2026 earnings, expected ~Nov 4-5, 2026"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: 'Biotech Catalyst' theme still fits but the company has shifted materially toward commercial-stage: MYQORZO (aficamten) launched in the US in late January 2026 and is generating real product revenue (~$25M/quarter), even though the YoY revenue comparison looks negative purely because of a one-off prior-year licensing payment. No reverse-split or price-consistency red flags; the ~$60-90 range through 2026 is internally consistent with a real ~20% pullback from late-August highs.",
   "history": [
     {
-      "date": "2026-09-23",
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
       "run": "am",
       "quiet": true,
-      "changes": [],
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -100,7 +161,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -110,7 +171,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -121,32 +182,13 @@
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
-    "tradingDay": true
-  },
-  "notes": "No material dated catalyst beyond routine inducement-grant filings found since the last pass."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

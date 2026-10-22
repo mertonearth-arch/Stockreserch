@@ -1,0 +1,94 @@
+{
+  "ticker": "FIGS",
+  "name": "FIGS, Inc.",
+  "sector": null,
+  "theme": "Consumer Apparel & Retail",
+  "themeLabel": null,
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 2230000000,
+      "asOf": "2026-09-25"
+    },
+    "float": {
+      "value": 151400000,
+      "asOf": "2026-09-25"
+    },
+    "sharesOutstanding": {
+      "value": 167000000,
+      "asOf": "2026-09-25"
+    },
+    "shortInterest": {
+      "value": 13.5
+    },
+    "cash": {
+      "value": 108500000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 0,
+      "asOf": "2026-06-30"
+    },
+    "pe": {
+      "trailing": 45,
+      "forward": null
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue YoY Q2 FY2026",
+      "period": null,
+      "pct": 28.8
+    },
+    "nextEarnings": {
+      "date": "2026-11-05",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-10-12",
+      "type": "analyst",
+      "headline": "Shares rose on an industry/sector review piece re-highlighting FIGS as the top performer among consumer-discretionary apparel peers on its already-reported Q2 FY2026 beat; move size reported inconsistently (5.5% to 13%) across outlets",
+      "impact": "+5.5% to +13% depending on source",
+      "source": "https://www.marketbeat.com/instant-alerts/price-figs-nyse-figs-stock-jumps-55-still-a-buy-2026-10-12/"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
+      "headline": "Q2 FY2026 results: revenue $196.6M (+28.8% YoY, beat $186M est. by ~5.6%); EPS $0.15 vs $0.07 est.; raised FY2026 revenue-growth guidance to ~20% (from 14-16%); adjusted EBITDA margin guidance set at 14.8-15.0%; buyback authorization increased by $100M to $200M total",
+      "impact": "stock jumped ~25-27% the next session",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001846576/000162828026054319/figs-20260806.htm"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "index",
+      "headline": "Added to the Russell 2000 Growth-Defensive Index and the Russell 2000 Defensive Index",
+      "source": "https://www.sahmcapital.com/news/content/figs-figs-joins-two-russell-2000-defensive-indexes-and-investors-may-notice-2026-07-02"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "earnings",
+      "headline": "Q1 FY2026 results: revenue $159.90M (+28.0% YoY, beat $153.15M est.); adjusted EPS $0.03 vs $0.01 est.; initial FY2026 guidance set at 14-16% revenue growth (later raised in August)"
+    }
+  ],
+  "conflicts": [
+    "Today's move size is reported inconsistently: ~5.5% (MarketBeat), ~8.5% (Investing.com/Fool), ~11% (Benzinga movers list), ~13% (StreetInsider headline, per the closing-movers search that surfaced this name). No single source was independently verified via full-article fetch (WebFetch failed for all of them this session) — recorded all, picked none.",
+    "Q2 FY2026 EPS: $0.15 (SEC 8-K, Benzinga, Investing.com, Quartr) vs $0.11 (Nasdaq/Zacks/Google Finance) — not reconciled; used the SEC-filing figure as primary.",
+    "Shares outstanding: ~158.1M (Equibles) vs ~167.0M (Chartmill/Pitchbook, late Sept 2026) — not reconciled."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: New addition — found via the closing-movers web search, not on the standing watchlist before this pass. Today's exact price/market cap could not be confirmed; recommend a live-quote check next pass.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

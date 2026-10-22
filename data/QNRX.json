@@ -1,83 +1,80 @@
 {
   "ticker": "QNRX",
-  "name": "Quoin Pharmaceuticals Ltd.",
-  "sector": "Healthcare",
+  "name": "Quoin Pharmaceuticals, Ltd.",
+  "sector": null,
   "theme": "Biotech Catalyst",
-  "themeLabel": "nano-cap",
+  "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "Phase 2/3 interim data, +41% to +50% depending on source",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.473Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12490000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 2010000,
-      "asOf": "2026-08-28"
+      "value": 12500000,
+      "asOf": "2026-08-31"
     },
     "float": {
-      "value": 1360000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 1400000,
+      "asOf": "2026-08-28"
+    },
+    "sharesOutstanding": {
+      "value": 2000000,
+      "asOf": "2026-08-28"
+    },
+    "shortInterest": {
+      "value": 5.6
+    },
+    "cash": {
+      "value": 10800000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 2000000,
+      "asOf": "2026-08-28"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "pre-revenue clinical stage, negative earnings",
-      "asOf": "2026-08-28"
+      "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": -8.52,
-        "basis": "diluted"
+        "period": "Q2 2026",
+        "value": -1.9,
+        "basis": "non-GAAP"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "revenue",
+      "metric": null,
+      "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical stage — nothing to measure"
+      "note": "company says the Aug 2026 private placement extends funded operations into H2 2029 IF all accompanying warrants are exercised for cash; independent analysts estimate actual runway closer to 6-8 months on current burn absent further financing. FDA conditionally approved 'QYLEKI' as the proposed brand name for QRX003 (Netherton Syndrome) on 2026-06-23; pivotal Phase 3 study (CL-QRX003-004) targeted to initiate 2H 2026."
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-14; next date not yet scheduled"
-    },
-    "shortInterest": {
-      "value": 5.56,
-      "asOf": "2026-08-28",
-      "note": "111,299 shares, quoted as % of shares outstanding; 6.14 days to cover"
-    },
-    "cash": {
-      "value": 10800000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 2020000,
-      "asOf": "2026-08-28"
+      "date": "2026-11-13",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 6.51,
-    "asOf": "2026-09-01",
-    "source": "WebSearch aggregation, Sept 1 quote"
+    "last": 6.74,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-22",
-      "type": "regulatory",
-      "headline": "Received FDA Fast Track Designation for QRX003 (topical) targeting Peeling Skin Syndrome",
-      "source": "https://www.gurufocus.com/news/9091778/quoin-pharmaceuticals-qnrx-gains-fda-fast-track-for-qrx003-faces-valuation-challenges"
+      "date": "2026-08-31",
+      "type": "financing (closing)",
+      "headline": "Private placement expected to close on or about this date, subject to customary conditions",
+      "impact": "high",
+      "source": "https://globalgenes.org/raredaily/quoin-pharmaceuticals-prices-private-placement-with-up-to-50-million-in-potential-proceeds/"
     },
     {
-      "date": "2026-09-18",
-      "type": "offering",
-      "headline": "Certain existing shareholders proposed a secondary sale of up to 9.37M ADS; company states it is not participating and derives no financial benefit",
-      "source": "https://www.gurufocus.com/news/9088613/qnrx-shareholders-propose-sale-of-937-million-ads-company-not-involved"
+      "date": "2026-08-28",
+      "type": "financing",
+      "headline": "Priced a private placement of up to $50.0M gross proceeds: 6,305,300 ADSs (or pre-funded warrants) + warrants for up to 3,152,650 more ADSs, at $4.88/ADS; warrants struck at $6.10/ADS, good for 5 years or 30 days after the CL-QRX003-004 Netherton Syndrome trial primary-endpoint announcement, whichever first; insiders bought ~57,370 ADSs+warrants (~$280K)",
+      "impact": "high",
+      "source": "https://www.barchart.com/story/news/4300974/quoin-pharmaceuticals-announces-private-placement-financing-of-up-to-50-0-million"
     },
     {
       "date": "2026-08-28",
@@ -101,6 +98,25 @@
       "sourceName": "Zacks / stockanalysis"
     },
     {
+      "date": "2026-08-14",
+      "type": "earnings",
+      "headline": "Q2 2026: non-GAAP EPS -$1.90 (vs -$1.78 est.); GAAP net loss ~$5.4M (up from $3.7M YoY); H1 2026 net loss $10.4M; cash $10.8M pre-financing",
+      "impact": "medium"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "regulatory",
+      "headline": "USPTO issued a Notice of Allowance for a patent covering a QRX003 combination treatment for Netherton syndrome",
+      "sourceName": "search summary (USPTO notice)"
+    },
+    {
+      "date": "2026-06-23",
+      "type": "regulatory",
+      "headline": "FDA granted conditional approval of 'QYLEKI' as the proposed brand name for QRX003 (Netherton Syndrome)",
+      "impact": "low-medium",
+      "source": "https://investors.quoinpharma.com/news-releases/news-release-details/quoin-pharmaceuticals-receives-fda-conditional-approval-qylekitm"
+    },
+    {
       "date": "2025-04-09",
       "type": "split",
       "headline": "Reverse stock split, 1-for-35",
@@ -108,19 +124,46 @@
     }
   ],
   "conflicts": [
-    "Move size: reported as +50% (Zacks), +45% pre-market (RTTNews) and +41% (search summary); the stockanalysis close shows +18.72%. All are as published, at different points in the session."
+    "Price level discontinuity ($20.50 Oct 2025 vs $4.20-4.45 mid-2026 vs $6.51-6.74 Sept 2026) is explained by a documented history of ADS-ratio reverse splits (most recently 1-for-20 eff. April 8, 2025, later clarified as 1-for-35 eff. April 9, 2025) plus heavy dilution from repeated financings -- predates the 6-month catalyst window but flagged per instruction on reverse splits.",
+    "Runway characterization: company states financing extends operations 'into the second half of 2029' (contingent on full warrant exercise) vs independent analyst estimates of roughly 6-8 months of actual runway on current cash burn -- reported as both, not reconciled."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 2026 10-Q (likely to show post-financing cash balance for the first time)",
+    "initiation of pivotal Phase 3 study CL-QRX003-004, targeted 2H 2026"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: The Aug 28, 2026 private placement (already known) is confirmed in detail. No new, more-specific financing or clinical catalyst dated after Aug 31, 2026 was found despite multiple targeted searches -- genuinely quiet ahead of a likely mid-November 2026 earnings report.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "2 new catalyst(s)"
+        "1 new catalyst(s)",
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -130,7 +173,7 @@
         "marketCap updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -138,7 +181,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -149,50 +192,13 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "2 new catalyst(s)",
-        "float updated",
-        "new filing(s)",
-        "conflicts updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "2 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "float updated",
-        "sharesOutstanding updated",
-        "move 18.72%",
-        "new filing(s)"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Private placement (6.31M ADSs) was expected to close on/about 2026-08-31; shares outstanding still shows 2.01M on stockanalysis as of this pass, so the post-closing share count is not yet reflected — expect a large upward revision once it settles.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

@@ -1,0 +1,79 @@
+{
+  "ticker": "CNTB",
+  "name": "Connect Biopharma Holdings Limited",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "clinical",
+      "headline": "Positive preliminary Phase 2 topline data for rademikibart in acute asthma exacerbations -- statistically significant FEV1 improvement at Day 7 vs placebo and ~66% reduction in 28-day treatment failures (the treatment-failure endpoint itself did not reach statistical significance; safety profile was clean)",
+      "source": "https://seekingalpha.com/article/4946898-connect-biopharma-holdings-limited-cntb-discusses-topline-results-of-rademikibart-phase-2"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "clinical",
+      "headline": "Lead candidate rademikibart failed to meet the primary endpoint in a Phase 2 asthma trial; the company's own release emphasized positive secondary findings (66% reduction in treatment failure, FEV1 improvement), but the stock reaction indicates the primary-endpoint miss dominated investor reaction",
+      "impact": "-26% to -40% premarket (day range $0.91-$1.82 per one source)"
+    }
+  ],
+  "conflicts": [
+    "Move size reported inconsistently across sources, roughly -26% to -40% -- recording the range, not a single figure."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Nasdaq-listed ADR, Cayman-domiciled clinical-stage biopharma. Lead candidate rademikibart missed the primary endpoint in a Phase 2 asthma trial but showed positive secondary findings (FEV1 improvement, reduced treatment failures) in a later preliminary readout. Market cap, float, shares outstanding, short interest, cash, debt, EPS/revenue, and next earnings date are not disclosed in the dashboard.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

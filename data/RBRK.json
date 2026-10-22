@@ -1,35 +1,59 @@
 {
   "ticker": "RBRK",
   "name": "Rubrik, Inc.",
-  "sector": "Technology",
+  "sector": null,
   "theme": "Enterprise Software & Security",
-  "themeLabel": "story stock",
+  "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "ARR beat and raise, shares -13%",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.473Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 19150000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 21700000000,
+      "asOf": "2026-09-18"
+    },
+    "float": {
+      "value": 157400000,
+      "asOf": "2026-08-28"
     },
     "sharesOutstanding": {
-      "value": 205830000,
-      "asOf": "2026-08-28"
+      "value": 205800000,
+      "asOf": "2026-08"
+    },
+    "shortInterest": {
+      "value": 6.2,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (12,800,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 1750000000,
+      "asOf": "2026-07-31"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
     },
     "pe": {
       "trailing": null,
-      "forward": 193.33,
-      "note": "negative trailing earnings",
-      "asOf": "2026-08-28"
+      "forward": null,
+      "note": "GAAP EPS negative (FY2026 diluted loss per share -$1.78); non-GAAP near breakeven (-$0.01/sh); no annual FY2027 non-GAAP EPS consensus found to compute a forward P/E"
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": -1.26,
-        "basis": "diluted"
+        "period": "FY2025",
+        "value": -7.48,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": -1.78,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": -0.01,
+        "basis": "non-GAAP diluted"
       }
     ],
     "revenue": [
@@ -40,50 +64,26 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 42.4
+      "metric": "revenue YoY Q2 FY2027",
+      "period": null,
+      "pct": 38
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-27; next date not yet scheduled"
-    },
-    "float": {
-      "value": 157420000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 9.51,
-      "asOf": "2026-08-28",
-      "note": "14.97M shares, % of float; 5.28 days to cover"
-    },
-    "cash": {
-      "value": 1750000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 1130000000,
-      "asOf": "2026-08-28"
+      "date": "2026-12-01",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 106.71,
-    "asOf": "2026-09-18",
-    "source": "WebSearch aggregation, Sept 18 close (all-time-high close of $107.83 was Sept 17)"
+    "last": 104.42,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-15",
-      "type": "product",
-      "headline": "Announced Rubrik MCP and Code Guardian, expanding its AI security, code analysis, and data protection portfolio"
-    },
-    {
-      "date": "2026-09-14",
-      "type": "partnership",
-      "headline": "Announced a partnership with CrowdStrike launching a closed-loop identity security and data protection workflow, integrating CrowdStrike Falcon Next-Gen Identity Security with Rubrik Identity Resilience",
-      "impact": "+13.09% on the session",
-      "source": "https://stockstotrade.com/news/rubrik-inc-rbrk-news-2026_09_14-2/"
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q2 FY2027: total revenue $427.3M +38% YoY; Subscription ARR $1.66B +33% YoY (beat by ~$20M); Cloud ARR $1.48B +39% YoY (89% of subscription ARR); raised FY27 guidance to revenue $1,685-$1,693M, subscription ARR $1,880-$1,885M",
+      "impact": "ARR beat, guidance raise",
+      "source": "https://www.rubrik.com/company/newsroom/press-releases/26/rubrik-reports-second-quarter-fiscal-year-2027-financial-results"
     },
     {
       "date": "2026-08-27",
@@ -94,19 +94,49 @@
     }
   ],
   "conflicts": [
-    "Reaction vs. result: sources describe an ARR beat and a raised guide, while the last close was -13.05%. No explanation was found on the sources checked."
+    "Shares outstanding reported inconsistently across sources/dates: ~157M-160M (per some 2026 snapshots) vs 205.83M (August 2026) -- likely a basis mismatch (e.g. Class A only vs total), not reconciled by sources.",
+    "Short interest: 12.8M shares / 6.2% (Equibles, Aug 2026) vs 13.14M / 8.35% (Fintel, undated) -- different % bases.",
+    "No October 2026 price data found; market cap figure is extrapolated from mid-Sept price and Aug share count."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 FY2027 earnings expected ~early December 2026, unconfirmed"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Genuinely quiet since the Aug 27 Q2 print -- no M&A, executive change, litigation, or analyst-action news found for Sept/Oct 2026 (honest nothing new). Next catalyst is Q3 FY2027, likely early December, not yet confirmed.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "2 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -114,7 +144,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -124,7 +154,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -135,35 +165,13 @@
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated",
-        "move -13.05%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
-    "tradingDay": true
-  },
-  "notes": "Quiet pass — no new dated catalyst since the Aug 27 ARR beat/raise."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

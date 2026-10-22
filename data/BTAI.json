@@ -1,69 +1,54 @@
 {
   "ticker": "BTAI",
   "name": "BioXcel Therapeutics, Inc.",
-  "sector": "Healthcare",
+  "sector": null,
   "theme": "Distressed / Restructuring",
   "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-31",
-  "addedReason": "continued collapse premarket (-14.77%) following its Aug 27 Chapter 11 filing",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.471Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5100000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 31310000,
-      "asOf": "2026-08-31"
+      "value": 1300000,
+      "asOf": "2026-09-08"
     },
     "float": {
-      "value": 26890000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "value": 26900000,
+      "asOf": "2026-08-31"
+    },
+    "sharesOutstanding": {
+      "value": 31300000,
+      "asOf": "2026-09-08"
     },
     "shortInterest": {
-      "value": 10.59,
-      "asOf": "2026-08-31",
-      "note": "3.31M shares, % of shares outstanding"
+      "value": 10.6
     },
     "cash": {
-      "value": 12840000,
-      "asOf": "2026-08-31"
+      "value": 14000000,
+      "asOf": "2026-06-30"
     },
     "debt": {
-      "value": 104450000,
-      "asOf": "2026-08-31"
+      "value": 107000000,
+      "asOf": "2026-06-30"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; company in Chapter 11",
-      "asOf": "2026-08-31"
+      "note": "negative earnings; also no longer a normal going concern (Chapter 11 debtor)"
     },
     "eps": [
       {
         "period": "FY2024",
         "value": -23.51,
-        "basis": "diluted"
-      },
-      {
-        "period": "FY2025",
-        "value": -5.73,
-        "basis": "diluted"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.49,
-        "basis": "diluted"
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 2270000,
+        "value": 2300000,
         "yoy": null
       },
       {
@@ -78,30 +63,36 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "pct": null,
-      "note": "revenue immaterial (IGALMI launch underperformed); company is liquidating via Chapter 11 asset sale to Teva, fundamentals no longer meaningful"
+      "metric": "commercial IGALMI revenue (immaterial, declining) Q3 2025",
+      "period": null,
+      "pct": -54.2
     },
-    "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-05 quarter; company in Chapter 11, further scheduled reporting uncertain"
-    }
+    "nextEarnings": null
   },
   "price": {
-    "last": null,
-    "asOf": "2026-09-23",
-    "note": "Delisted from Nasdaq 2026-08-31 over the Chapter 11 filing; began OTC trading as BTAIQ on 2026-09-08. Sources disagree sharply on the current quote (see conflicts) and no reliable reachable print was found; not recorded rather than guessed."
+    "last": 0.04,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-08",
-      "type": "listing",
-      "headline": "Began trading over-the-counter under new symbol BTAIQ following the Nasdaq delisting"
+      "date": "2026-10-09",
+      "type": "bankruptcy process",
+      "headline": "Per the bidding-procedures motion, competing bids for BioXcel's assets were due Oct 9, 2026, with an auction proposed for Oct 14, 2026, ahead of an Oct 30, 2026 outside date for the sale; auction outcome (whether Teva's stalking-horse bid prevailed) could not be confirmed",
+      "impact": "high -- determines ultimate recovery",
+      "source": "https://app.bondoro.com/preview/cases/Bioxcel_Therapeutics_Inc/apa-summary"
     },
     {
-      "date": "2026-08-31",
+      "date": "2026-09-08",
       "type": "delisting",
-      "headline": "Nasdaq notified BioXcel it would delist the stock following the Chapter 11 filing; trading suspended at the open"
+      "headline": "Common stock trading suspended on Nasdaq at market open; migrated to OTC Pink Limited Market under new ticker BTAIQ; company said it does not intend to appeal",
+      "impact": "high"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "bankruptcy filing",
+      "headline": "BioXcel Therapeutics and two subsidiaries filed voluntary Chapter 11 petitions in U.S. Bankruptcy Court, District of Delaware (Case No. 26-11360); Teva Pharmaceuticals named stalking-horse bidder for IGALMI/dexmedetomidine assets ($57.5M upfront + up to $67.5M milestones); Oaktree Capital and Qatar Investment Authority providing $19M new-money DIP financing (total DIP facility $77M)",
+      "impact": "very high",
+      "source": "https://www.biospace.com/business/bioxcel-files-for-bankruptcy-will-sell-assets-to-teva-for-up-to-125m"
     },
     {
       "date": "2026-08-27",
@@ -109,23 +100,59 @@
       "headline": "BioXcel Therapeutics and two subsidiaries filed voluntary Chapter 11 petitions; entered an asset sale agreement with Teva Pharmaceuticals as stalking-horse bidder in a court-supervised sale process",
       "impact": "stock collapsed from ~$0.72 to ~$0.18 over the following sessions",
       "sourceName": "company filing / market coverage"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "FDA",
+      "headline": "FDA accepted BioXcel's sNDA to expand IGALMI label to at-home/outpatient use (Phase 3 SERENITY At-Home trial); PDUFA target action date Nov 14, 2026",
+      "impact": "medium-high, now overtaken by bankruptcy",
+      "source": "https://www.barchart.com/story/news/1086279/bioxcel-therapeutics-announces-food-drug-administration-acceptance-of-supplemental-new-drug-application-for-use-of-igalmi-in-the-at-home-setting"
     }
   ],
   "conflicts": [
-    "Quote for BTAI/BTAIQ: one aggregator shows ~$2.13 (~$66.68M market cap) circa 2026-09-22, another shows $0.107 as of 2026-09-02 - roughly a 20x discrepancy not explained by any known split. Likely stale or mismatched-symbol data following the 2026-09-08 Nasdaq-to-OTC move. Not reconciled (2026-09-23)."
+    "Delisting determination date (Aug 31, 2026) comes from a single secondary summary, not independently confirmed against a primary filing.",
+    "Price snapshots conflict sharply: $0.07 (MarketChameleon, Sept 4) vs $0.17 (Syfe, 'Aug 28') vs $0.0384 (Benzinga, Sept 25) vs $0.051 (Trade Ideas, Sept 11) -- plausible for a thinly-traded OTC shell but not reconcilable to one number.",
+    "Market cap: ~$1.3M (Yahoo/StockAnalysis, Sept 8) vs ~$1.48M (Wedbush, on an inconsistent 1M-share basis)."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "bankruptcy court approval of the 363 asset sale",
+    "FDA at-home sNDA decision (PDUFA Nov 14, 2026; status under debtor-in-possession unclear, may be moot if assets are sold)"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: BTAI is a confirmed Chapter 11 debtor-in-possession, delisted from Nasdaq since Sept 8, 2026, trading (barely) OTC Pink as BTAIQ. Equity holders sit behind ~$107-125M of debt/DIP financing and are very unlikely to recover value regardless of the Teva auction outcome. No reverse split -- the sub-$0.05 price genuinely reflects equity value destruction. Theme kept as 'Distressed / Restructuring' per reuse rule, but status should be understood as bankruptcy-sale-in-progress, not merely 'filed'.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "2 new catalyst(s)",
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -146,7 +173,7 @@
         "move -10.25%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -156,7 +183,7 @@
         "move -10.25%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -168,18 +195,13 @@
         "move -14.77%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Equity holders are typically wiped out or heavily diluted in a Chapter 11 asset sale; these fundamentals describe a company mid-liquidation, not a going concern.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "conflicts updated"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

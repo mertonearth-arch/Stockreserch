@@ -1,98 +1,130 @@
 {
   "ticker": "PCG",
   "name": "PG&E Corporation",
-  "sector": "Utilities",
+  "sector": null,
   "theme": "Utilities & Wildfire Liability",
   "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-31",
-  "addedReason": "premarket -19% after CA Assembly stripped a wildfire-liability shield from SB 492",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.471Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
       "value": 29220000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "asOf": "2026-08-31"
+    },
+    "float": {
+      "value": 2200000000,
+      "asOf": "2026-08-31"
     },
     "sharesOutstanding": {
       "value": 2200000000,
       "asOf": "2026-08-31"
     },
-    "float": {
-      "value": 2200000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
     "shortInterest": {
-      "value": 0,
-      "asOf": "2026-08-31",
-      "note": "2,705 shares reported short — negligible"
+      "value": 1.8,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (39,200,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
     },
     "cash": {
       "value": 972000000,
       "asOf": "2026-08-31"
     },
     "debt": {
-      "value": 64700000000,
-      "asOf": "2026-08-31"
+      "value": null,
+      "note": "not disclosed"
     },
     "pe": {
-      "trailing": 9.56,
-      "forward": 7.86,
-      "asOf": "2026-08-31"
+      "trailing": null,
+      "forward": null,
+      "note": "earnings are positive (FY2025 GAAP EPS $1.18) but aggregators disagree (12.74x-14.82x) on stale pre-crash price snapshots; not reporting a single number"
     },
     "eps": [
       {
         "period": "FY2024",
         "value": 1.15,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2024",
+        "value": 1.36,
+        "basis": "non-GAAP core"
       },
       {
         "period": "FY2025",
         "value": 1.18,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 1.5,
+        "basis": "non-GAAP core"
       },
       {
         "period": "Q2 2026",
         "value": 0.33,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 0.4,
+        "basis": "non-GAAP core"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 24419000000,
-        "yoy": -0.04
+        "value": 24420000000,
+        "yoy": 0
       },
       {
         "period": "FY2025",
-        "value": 24935000000,
-        "yoy": 2.11
+        "value": 24930000000,
+        "yoy": 2.1
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM (Jun 2026)",
-      "pct": 5.66
+      "metric": "core EPS YoY Q2 2026 vs Q2 2025",
+      "period": null,
+      "pct": 29
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-07-23; next date not yet scheduled"
+      "date": "2026-10-22",
+      "confirmed": true
     }
   },
   "price": {
-    "last": 13.15,
-    "changePct": -3.3,
-    "asOf": "2026-09-15",
-    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 15 close"
+    "last": 13.27,
+    "changePct": null
   },
   "catalysts": [
     {
+      "date": "2026-09-08",
+      "type": "analyst action",
+      "headline": "BofA Securities downgrades PCG to Neutral from Buy, cuts price target $24 -> $13; shares closed $13.27 that Monday",
+      "impact": "negative / confirms depressed price level",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/09/61554114"
+    },
+    {
       "date": "2026-09-02",
-      "type": "guidance",
-      "headline": "Announced a strategic review (four-member independent director committee) and deferred ~$2B of previously planned 2027 capital spending (2027 capex plan cut from $13.4B to $11.4B), reducing 2027 debt financing needs by ~$2B; CEO cited the unresolved wildfire liability framework",
-      "source": "https://finance.yahoo.com/energy/articles/pg-e-begins-strategic-review-135115983.html"
+      "type": "corporate action",
+      "headline": "PG&E Corp launches strategic review aimed at regaining investment-grade credit ratings (lost in 2019 Chapter 11); management says wildfire policy 'is holding us back'",
+      "impact": "underscores ongoing credit overhang",
+      "source": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/9/pg-e-corp-launches-strategic-review-shares-fall-10-105638542"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "regulatory",
+      "headline": "California Assembly declines to vote on SB 492; bill dies without passing for the session",
+      "impact": "mixed -- avoided the specific bad version, but no durable wildfire-liability fix enacted",
+      "source": "https://www.insurancejournal.com/news/west/2026/09/02/883615.htm"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "regulatory",
+      "headline": "SB 492 compromise text (lacking liability protections) revealed; Wells Fargo cut to Equal Weight; BMO, Mizuho, HSBC also cut ratings same week",
+      "impact": "severe negative, -20.06% session",
+      "source": "https://www.tradingpedia.com/2026/08/31/pge-stock-drops-as-wildfire-risk-sparks-downgrades/"
     },
     {
       "date": "2026-08-31",
@@ -106,22 +138,67 @@
       "headline": "California State Assembly amended SB 492 to remove wildfire liability protection for utilities, prompting analyst downgrades sector-wide",
       "impact": "premarket -19.10%",
       "sourceName": "Investing.com"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Q2 2026: core EPS $0.40 (vs $0.31 Y/Y), GAAP EPS $0.33, revenue $5.90B (~flat Y/Y); reaffirmed FY2026 core EPS guidance $1.64-$1.66; completed $2.2B Utility bond issuance in June, $4.4B total debt financings YTD",
+      "impact": "earnings beat, revenue roughly in line",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001004980/000100498026000047/pge-q22026pressrelease.htm"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "M&A talks",
+      "headline": "PG&E and KKR enter exclusive talks on a Pacific Generation transaction",
+      "impact": "unclear / potential capital-raising event"
     }
   ],
   "conflicts": [
-    "Premarket change: stockanalysis's premarket-losers table showed PCG at $13.49 / -18.74% vs the PCG quote page showing $13.43 / -19.10%, both timestamped 2026-08-31 morning — both readings recorded here, using the quote-page figure as the tracked price."
+    "Shares outstanding: 2,197,967,954 vs 2,202,224,728 vs 2,679,968,318 across sources -- first two close enough to be rounding/date differences, third looks like a different basis or stale figure.",
+    "Market cap: $38.45B at $17.46 (8/13) vs $45.92B (FullRatio, undated) -- inconsistent with the post-crash low-$13s level described in the September BofA note; no reconciled current figure.",
+    "Trailing P/E figures of 12.74-14.82 all pre-date the Aug 31 crash and are therefore likely stale regardless of agreement.",
+    "Next earnings date: 2026-10-22 (TipRanks) vs 2026-10-30 (Earnings Whispers)."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 2026 10-Q (due around Oct 22-30, 2026 earnings)",
+    "Pacific Generation / KKR transaction, if advanced",
+    "strategic review toward investment-grade ratings (ongoing)"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Unlike EIX, no evidence PCG's price recovered after the Sept 1 bill-death news -- the only post-crash price point found ($13.27, Sept) suggests PCG stayed depressed while EIX rallied back toward $58-59. Real divergence, not a search artifact -- worth a human look. No evidence of a reverse split.",
   "history": [
     {
-      "date": "2026-09-23",
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
       "run": "am",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "shortInterest updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -142,7 +219,7 @@
         "move -20.06%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -153,7 +230,7 @@
         "move -20.06%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -166,17 +243,13 @@
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Same legislative catalyst also hit EIX (and reportedly Sempra) same day; grouped under the same theme.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

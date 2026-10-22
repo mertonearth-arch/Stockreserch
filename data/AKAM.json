@@ -1,0 +1,105 @@
+{
+  "ticker": "AKAM",
+  "name": "Akamai Technologies, Inc.",
+  "sector": null,
+  "theme": "Advanced Materials",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 17010000000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 144000000,
+      "asOf": "2026-06-30"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": 4620000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 5870000000,
+      "asOf": "2026-09"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "not captured in this pass (Akamai has positive earnings; P/E simply wasn't computed/displayed on the dashboard)"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue Q2 2026",
+      "period": null,
+      "pct": 5
+    },
+    "nextEarnings": {
+      "date": "2026-11-10",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-24",
+      "type": "commercial deal",
+      "headline": "Announced expanded 7-year, $11.6B cloud services deal with Anthropic (option to scale to ~$20B total) to support Anthropic's CPU compute workloads on Akamai Cloud; issued Anthropic a warrant for up to ~5% of Akamai shares at a $111.33/share strike; also disclosed a ~$1.7B hardware supply arrangement with Lenovo and contract manufacturer Jabil for memory components. Deal is >6x the size of a ~$1.8B Akamai-Anthropic deal reported in May 2026 and is described as the largest in Akamai's history.",
+      "impact": "strongly positive (shares surged; magnitude disputed across sources)",
+      "source": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "earnings",
+      "headline": "Q2 2026 results: revenue $1.10B (+5% YoY); GAAP diluted EPS $0.52 (-27% YoY); non-GAAP diluted EPS $1.59 (-8% YoY); Cloud Infrastructure Services revenue +39-40% YoY; FY2026 guidance: revenue $4.445B-$4.530B (6-8% growth), non-GAAP EPS $6.40-$7.05",
+      "impact": "mixed (revenue beat, EPS declined YoY)",
+      "source": "https://www.stocktitan.net/news/AKAM/akamai-reports-second-quarter-2026-financial-go4rrb5pszzs.html"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "M&A",
+      "headline": "Completed acquisition of LayerX, a secure enterprise browser / AI usage-control provider, for approximately $205 million",
+      "impact": "neutral/positive (strategic, dilutive to near-term EPS)",
+      "source": "https://www.akamai.com/newsroom/press-release/akamai-completes-acquisition-of-secure-enterprise-browser-provider-layerx"
+    },
+    {
+      "date": "2026-05-14",
+      "type": "M&A announcement",
+      "headline": "Announced intent to acquire LayerX for approximately $205 million to advance workforce/AI-usage security strategy",
+      "impact": "neutral",
+      "source": "https://www.globenewswire.com/news-release/2026/05/14/3294725/0/en/akamai-technologies-announces-intent-to-acquire-layerx-advancing-its-workforce-security-strategy-with-ai-usage-control.html"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "earnings",
+      "headline": "Q1 2026 results: revenue $1.074B (+6% YoY); EPS $1.61 (beat $1.60 estimate); announced global-scale NVIDIA AI Grid implementation and rollout of RTX Pro 6000 GPUs for distributed AI inference",
+      "impact": "positive",
+      "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-akamai-q1-2026-sees-strong-growth-stock-surges-21-93CH-4675571"
+    }
+  ],
+  "conflicts": [
+    "Magnitude of the 2026-09-25 stock move (multiple, unreconciled readings): premarket +21.3% (Yahoo Finance/Investing.com); intraday high +16.4% to $128.46 before paring to roughly +8% by the close (one report); +16.78% to $116.53 (aggregator); +15% ('Akamai Surges 15%', 247wallst.com); +7.93% (tradingkey.com); -6.78% for the regular session ('Akamai Technologies stock falls 6.78% despite $11.6B Anthropic deal boost', cryptonomist.ch); 'shares jump more than 20%' (SiliconANGLE, dated 2026-09-24 after-hours reaction, a different session). Not reconciled from accessible sources.",
+    "Shares outstanding: 144M per Q2 2026 10-Q (2026-06-30) vs 145.39M cited as 'most recent' by an aggregator",
+    "Cash figures: $930.45M (aggregator, definition unclear) vs $4.616B 'cash, cash equivalents and marketable securities' per Q2 2026 10-Q (2026-06-30) vs $1.733B for the same line item at 2026-03-31 - likely different metric definitions or snapshots, not reconciled"
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (the git-push blocker is 403 since 2026-09-04; see RUNBOOK.md) -- every PM/AM pass since then edited the live dashboard directly without ever committing data/*.json, so this and the other newer tickers existed only on the live artifact. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources in this reconstruction; re-research from primary sources on this ticker's next due full pass. Prior notes: NEW ticker addition, added 2026-09-25 due to the Anthropic cloud-deal news. Given the unusually wide and partly self-contradictory spread of reported same-day price-move figures, price.changePct is left out rather than selecting one source. Major finance aggregators (stockanalysis.com, cnbc.com, google.com) and SEC EDGAR were blocked by the egress proxy, limiting primary-source verification.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

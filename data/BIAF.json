@@ -1,0 +1,83 @@
+{
+  "ticker": "BIAF",
+  "name": "bioAffinity Technologies, Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-17",
+      "type": "IP/regulatory",
+      "headline": "Announced grant of Hong Kong Patent (HK40048460) for the CyPath Lung noninvasive lung-cancer diagnostic",
+      "impact": "stock up about 33% on the news, layered on top of a Sept 9 Nasdaq listing-compliance restoration and an Aug 18 nationwide federal (VA) distribution deal with AvMEDICAL",
+      "source": "https://www.biospace.com/press-releases/bioaffinity-technologies-announces-grant-of-hong-kong-patent-for-companys-cypath-lung-noninvasive-lung-cancer-diagnostic"
+    }
+  ],
+  "conflicts": [
+    "RECOVERY NOTE: this record was reconstructed on 2026-09-23 from the published dashboard HTML (built 2026-09-22 21:23 UTC) because the git repository had lost this ticker's data to the known cloud git-push failure. Monetary figures are rounded (dashboard displays K/M/B/T-formatted values); pe.trailing/forward could not be split reliably from the summary row and are recorded null pending the next full pass.",
+    "RECOVERY NOTE (2026-09-24 PM pass): this ticker was tracked on the live dashboard (44 names as of the 2026-09-23 build) but had NO git-committed data/BIAF.json in this cloud checkout -- the known git-push failure has caused several passes in a row to publish correct dashboards without ever saving state. Reconstructed mechanically from the published dashboard HTML rather than re-researched from primary sources; treat all figures here as approximate/stale and re-verify on the next full pass this ticker comes due. \"sector\" is not recoverable from the dashboard and is left null.",
+    "This record was reconstructed on 2026-09-24 21:24 UTC from the previously-published dashboard HTML because the git repository never captured it (known cloud git-push failure). All figures are approximate/rounded (dashboard displays K/M/B/T-formatted values) and this ticker has not been re-researched from primary sources this pass.",
+    "RECOVERY: reconstructed on 2026-09-28 from the published Cadence Desk dashboard HTML (built 2026-09-25 21:29 UTC) because git never captured this ticker's data (known cloud git-push failure, see RUNBOOK.md). Monetary figures are rounded (dashboard displays K/M/B/T-formatted values) and this ticker was not independently re-researched from primary sources in this reconstruction.",
+    "RECOVERED 2026-09-29 from the live published Cadence Desk dashboard HTML: this ticker's data/BIAF.json was never captured in git due to the ongoing cloud git-push blocker (see RUNBOOK.md). Figures are reconstructed from the dashboard's rounded K/M/B/T display values and were not independently re-verified from primary sources in this recovery pass. Re-research from primary sources on its next due full pass.",
+    "RECONSTRUCTED 2026-09-30 (AM pass) from the live published Cadence Desk dashboard HTML (built 2026-09-29 21:29 UTC), because this cloud checkout's git history stops at 2026-09-01 -- the known cloud git-push blocker (see RUNBOOK.md) means every PM/AM pass since then edited the live dashboard directly without ever committing data/*.json. Figures here are reconstructed from the dashboard's rounded K/M/B/T display values and HTML text and were not independently re-verified against primary sources in this recovery. Re-research from primary sources on this ticker's next full (PM) pass.",
+    "RECONSTRUCTED 2026-09-30 (PM pass) from the live published Cadence Desk dashboard HTML because this cloud checkout's git history stopped at 2026-09-01 (known cloud git-push blocker, see RUNBOOK.md) -- prior AM/PM passes since then edited the live dashboard directly without ever committing data/*.json. Figures here are reconstructed from the dashboard's rounded K/M/B/T display values and HTML text and have NOT been independently re-verified against primary sources in this recovery pass. Re-research from primary sources on this ticker's next full (PM) pass.",
+    "This record was reconstructed on 2026-10-07 by parsing the published Cadence Desk dashboard HTML, because git's history never captured it (the ongoing cloud git-push blocker -- see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have not been independently re-verified from primary sources.",
+    "RECOVERED 2026-10-08 (PM pass): this ticker was present on the live published Cadence Desk dashboard (54 names) but had no git-committed data/BIAF.json in this checkout — git push to this repo has returned 403 since 2026-09-04 (see RUNBOOK.md known blocker), so every pass since then edited the live artifact directly without ever committing data/*.json. This record was reconstructed by parsing the published dashboard HTML; monetary figures are back-converted from rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Re-research from primary sources on this ticker's next due full pass.",
+    "RECOVERED 2026-10-12 (PM pass): this ticker was present on the live published Cadence Desk dashboard (54 names, built 2026-10-08) but had no git-committed data file in this checkout -- git push to this repo has returned 403 since 2026-09-04 (see RUNBOOK.md known blocker), so every pass since then edited the live artifact directly without ever committing data/*.json. This session reconstructed it by parsing the published dashboard HTML (same approach prior passes used, now scripted) and is folding it back into git for the first time since the chain of reconstructions began around 2026-09-22. Monetary figures are back-converted from rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. This ticker was NOT re-researched this pass (it was not on the git-derived due list, which is exactly how it got missed for this long) -- re-research it from primary sources on its own next due pass."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-15: this record was reconstructed by parsing the published Cadence Desk dashboard HTML because git never captured it (cloud git-push blocker, see RUNBOOK.md). Figures are back-converted from rounded K/M/B/T display values and have NOT been independently re-verified from primary sources. Re-research from primary sources on this ticker's next due full pass. Prior notes: Diagnostics company behind the CyPath Lung noninvasive lung-cancer test. Also has separately listed warrants (BIAFW), distinct from the common stock (BIAF) tracked here. Market cap, float, shares outstanding, short interest, cash, debt, EPS/revenue, and next earnings date are not disclosed in the dashboard.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

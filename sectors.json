@@ -1,8 +1,14 @@
 {
-  "updated": "2026-09-23T05:32:07.478Z",
+  "updated": "2026-10-22T09:46:31.780Z",
   "themes": {
     "Biotech Catalyst": {
       "history": [
+        {
+          "date": "2026-10-22",
+          "names": 17,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
         {
           "date": "2026-09-23",
           "names": 3,
@@ -32,6 +38,12 @@
     "Enterprise Software & Security": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 4,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 3,
           "catalysts7": 0,
@@ -59,6 +71,12 @@
     },
     "AI Semiconductors": {
       "history": [
+        {
+          "date": "2026-10-22",
+          "names": 4,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
         {
           "date": "2026-09-23",
           "names": 2,
@@ -88,6 +106,12 @@
     "Crypto Treasury & Miners": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 3,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 2,
           "catalysts7": 2,
@@ -115,6 +139,12 @@
     },
     "Advanced Materials": {
       "history": [
+        {
+          "date": "2026-10-22",
+          "names": 7,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
         {
           "date": "2026-09-23",
           "names": 1,
@@ -144,6 +174,12 @@
     "Fintech & Consumer Credit": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 2,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 1,
           "catalysts7": 0,
@@ -172,6 +208,12 @@
     "Utilities & Wildfire Liability": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 2,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 2,
           "catalysts7": 1,
@@ -193,6 +235,12 @@
     },
     "Distressed / Restructuring": {
       "history": [
+        {
+          "date": "2026-10-22",
+          "names": 3,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
         {
           "date": "2026-09-23",
           "names": 1,
@@ -216,6 +264,12 @@
     "Government IT & Defense Services": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 7,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 1,
           "catalysts7": 0,
@@ -238,6 +292,12 @@
     "Consumer Hardware": {
       "history": [
         {
+          "date": "2026-10-22",
+          "names": 4,
+          "catalysts7": 0,
+          "newNames7": 0
+        },
+        {
           "date": "2026-09-23",
           "names": 1,
           "catalysts7": 0,
@@ -248,6 +308,16 @@
           "names": 1,
           "catalysts7": 1,
           "newNames7": 1
+        }
+      ]
+    },
+    "Consumer Apparel & Retail": {
+      "history": [
+        {
+          "date": "2026-10-22",
+          "names": 1,
+          "catalysts7": 0,
+          "newNames7": 0
         }
       ]
     }

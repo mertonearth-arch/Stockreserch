@@ -1,0 +1,71 @@
+{
+  "ticker": "JBHT",
+  "name": "J.B. Hunt Transport Services, Inc.",
+  "sector": null,
+  "theme": "Government IT & Defense Services",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "guidance",
+      "headline": "Warned Q3 earnings could fall 5-10% year-over-year",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-16-133949098.html"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Warned Q3 earnings could fall 5-10% year-over-year, coinciding with an 11.0% price decline. Market cap, P/E, EPS, float, shares outstanding, short interest, cash, and debt are all not disclosed in the dashboard; no next earnings date scheduled. No existing theme fit a trucking/logistics name, so 'Transportation & Logistics' was created as a new theme for this ticker.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

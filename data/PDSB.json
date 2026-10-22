@@ -1,0 +1,89 @@
+{
+  "ticker": "PDSB",
+  "name": "PDS Biotechnology Corporation",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 71700000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 56000000,
+      "asOf": "2026-09-23"
+    },
+    "shortInterest": {
+      "value": 3.4,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (1,894,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 5600000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "clinical data publication",
+      "headline": "PDS Biotech announces publication of VERSATILE-002 Phase 2 results for PDS0101 + pembrolizumab in HPV16-positive recurrent/metastatic head & neck cancer in JAMA Oncology; first-line, ICI-naive, PD-L1 CPS>=1 population showed 39.3-month median overall survival vs. a historical benchmark of 17.9 months",
+      "impact": "contributed to the ~68% single-day stock surge to $0.99, part of a 236% weekly gain",
+      "source": "https://www.biospace.com/press-releases/pds-biotech-announces-publication-of-versatile-002-clinical-trial-results-of-pds0101-with-pembrolizumab-in-hpv16-positive-recurrent-and-or-metastatic-r-m-head-and-neck-cancer-in-jama-oncology"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "financing/governance",
+      "headline": "PDS Biotech closes initial tranche of PIPE (~$11.3M gross of the up-to-$22.3M facility) led by Nant Capital; Dr. Patrick Soon-Shiong and James Banaag appointed to the Board of Directors; NantWorks receives a one-year exclusive right to negotiate a PDS0101 licensing deal; 16,502,870 common shares, 23,498,156 pre-funded warrants and 20,000,514 common warrants issued at closing",
+      "impact": "added new capital and a high-profile board member, extending the rally",
+      "source": "https://www.globenewswire.com/news-release/2026/09/14/3361267/37149/en/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-financing-and-the-appointment-of-dr-patrick-soon-shiong-to-its-board-of-directors.html"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "financing",
+      "headline": "PDS Biotech announces up to $22.55 million PIPE financing led by Dr. Patrick Soon-Shiong, founder of NantWorks/Nant Capital",
+      "impact": "initial share-price rally driver ahead of the JAMA Oncology publication",
+      "source": "https://www.globenewswire.com/news-release/2026/09/08/3357657/37149/en/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-patrick-soon-shiong-founder-of-nantworks.html"
+    }
+  ],
+  "conflicts": [
+    "Price on 2026-09-23: press coverage synthesis said shares soared ~68% to $0.99, while a separate aggregator snapshot showed trading around $0.85 -- not reconciled, may reflect different intraday timestamps.",
+    "marketCap: snapshots found ranged $12.31M (pre-rally, pre-PIPE, Sept 4), $38.1M, $55.45M, and $63.71M across different dates/times during a fast-moving week (236% weekly gain cited) -- not reconciled to one source.",
+    "shortInterest: 1.894M shares = 3.51% of float vs a separate figure of 1.6M shares = 3.0% of float."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Sub-$1, NASDAQ-listed micro-cap biotech (not OTC). Cash position was thin ($5.6M as of June 30, 2026, against a ~$9.8M quarterly net loss and negative stockholders' equity) prior to the Soon-Shiong-led PIPE, which materially improved near-term liquidity and added a high-profile strategic investor/board member. Two distinct catalysts stacked in the same week: the financing/governance news (Sept 8 and Sept 14) and the JAMA Oncology publication of positive PDS0101 Phase 2 data (Sept 22), with the stock's biggest single-day pop (Sept 23, to $0.99) attributed to the market continuing to digest the JAMA Oncology publication alongside the financing overhang resolution.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

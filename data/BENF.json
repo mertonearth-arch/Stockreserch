@@ -1,0 +1,91 @@
+{
+  "ticker": "BENF",
+  "name": "Beneficient",
+  "sector": null,
+  "theme": "Distressed / Restructuring",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 32000000
+    },
+    "float": {
+      "value": 1100000,
+      "asOf": "2026-09-23"
+    },
+    "sharesOutstanding": {
+      "value": 15400000,
+      "asOf": "2026-09-23"
+    },
+    "shortInterest": {
+      "value": 0.8,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (115,900) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 5600000,
+      "asOf": "2026-09-23"
+    },
+    "debt": {
+      "value": 96800000,
+      "asOf": "2026-09-23"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings disclosed; distressed/restructuring micro-cap"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-10-05",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-23",
+      "type": "restructuring plan",
+      "headline": "Beneficient announces strategy to eliminate HCLP debt and Heppner equity interests -- voids ~$130M disputed HCLP Nominees debt, exchanges ~$850M preferred liquidation preference for 162,132 Class A shares, and extinguishes another ~$88M in obligations; aims to end Brad Heppner's Class B super-voting/board/consent rights before his Oct 21, 2026 sentencing",
+      "impact": "stock spiked as high as +358% intraday before reversing sharply",
+      "source": "https://www.globenewswire.com/news-release/2026/09/23/3367391/0/en/beneficient-announces-strategy-to-eliminate-hclp-debt-and-heppner-equity-interests.html"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "product launch",
+      "headline": "Beneficient announces upcoming launch of AltLens, an alternative-asset portfolio analytics/risk platform for family offices and small institutions, targeted for Q4 2026",
+      "source": "https://www.globenewswire.com/news-release/2026/09/18/3364651/0/en/beneficient-announces-upcoming-launch-of-altlens-an-alternative-asset-portfolio-analytics-and-risk-platform-for-family-offices-and-small-institutional-investors.html"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "legal",
+      "headline": "Former CEO Brad Heppner convicted on federal fraud charges; sentencing scheduled for October 21, 2026",
+      "impact": "underlying basis for the Sept 23 restructuring/separation plan",
+      "source": "https://www.globenewswire.com/news-release/2026/09/23/3367391/0/en/beneficient-announces-strategy-to-eliminate-hclp-debt-and-heppner-equity-interests.html"
+    }
+  ],
+  "conflicts": [
+    "Price on 2026-09-23: Benzinga (intraday, time of publication) showed +250.79% at $1.89; a separate technical write-up said shares spiked to an intraday high of $3.03 then fell to $1.60; another aggregator snapshot showed $2.08 (+308.53% to +358.85% depending on quote time). No single authoritative closing print obtained for this extremely volatile, thinly-traded session.",
+    "Shares outstanding: one aggregator (dated Jan 12, 2026) showed ~9.70M shares / $6.58M market cap; the Form S-1 shows 15,388,036 Class A shares as of 2026-07-28. Company has been issuing equity via ATM/shelf offerings, so the count is a moving target.",
+    "Float/short interest: one source shows float ~1.1M shares with short interest 1.08M shares (11.11% of shares outstanding); another shows short interest of 115.9K shares (5.1% of float, 14.0 days to cover). Vendor snapshots disagree on the float basis."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Extremely thin, high-volatility, low-priced micro-cap (formerly a $0.54 stock) that on 2026-09-23 traded in a wide band intraday, reported as high as $3.03 and as low as ~$1.60. The company underwent a 1-for-80 reverse stock split effective April 18, 2024 to regain Nasdaq minimum-bid-price compliance (shares outstanding fell from ~287.87M to ~3.6M at that time) -- flagged per the reverse-split rule; the current price sits atop a legacy of heavy dilution and that prior split. Beneficient has an unusually complex, multi-tier capital structure resembling a business-development-company-like liquidity platform: Class A common stock (NASDAQ: BENF) alongside Class B common stock (historically Heppner-controlled, super-voting) and multiple layers of LP/preferred interests. The Sept 23 announcement targets unwinding much of that preferred/Class B overhang tied to convicted former CEO Brad Heppner.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

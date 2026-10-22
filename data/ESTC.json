@@ -1,34 +1,62 @@
 {
   "ticker": "ESTC",
   "name": "Elastic N.V.",
-  "sector": "Technology",
+  "sector": null,
   "theme": "Enterprise Software & Security",
-  "themeLabel": "established",
+  "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "+19.3% on raised FY2027 outlook",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.472Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10490000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 9600000000,
+      "asOf": "2026-10-01"
+    },
+    "float": {
+      "value": 90400000,
+      "asOf": "2026-07"
     },
     "sharesOutstanding": {
-      "value": 104990000,
-      "asOf": "2026-08-28"
+      "value": 104000000
+    },
+    "shortInterest": {
+      "value": 6.8,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (7,100,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 1460000000,
+      "asOf": "2026-07-31"
+    },
+    "debt": {
+      "value": 591600000,
+      "asOf": "2026-04-30"
     },
     "pe": {
-      "trailing": 27.76,
-      "forward": 27.76,
-      "asOf": "2026-08-31"
+      "trailing": 26.9,
+      "forward": 28
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": 3.51,
-        "basis": "diluted"
+        "period": "FY2025",
+        "value": -1.04,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 3.43,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q1 FY2027",
+        "value": -0.16,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q1 FY2027",
+        "value": 0.7,
+        "basis": "non-GAAP diluted"
       }
     ],
     "revenue": [
@@ -39,45 +67,32 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 16.2
+      "metric": "revenue YoY Q1 FY2027",
+      "period": null,
+      "pct": 15
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-27; next date not yet scheduled"
-    },
-    "float": {
-      "value": 85920000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 7.38,
-      "asOf": "2026-08-28",
-      "note": "6.34M shares, % of float; 3.29 days to cover"
-    },
-    "cash": {
-      "value": 1460000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 595780000,
-      "asOf": "2026-08-28"
+      "date": "2026-11-19",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 89.71,
-    "changePct": 3.2,
-    "asOf": "2026-09-21",
-    "source": "WebSearch aggregation (GuruFocus), Sept 21 close"
+    "last": 92.3,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-01",
-      "type": "insider",
-      "headline": "CTO Shay Banon-controlled fund and family trusts sold 476,298 ordinary shares (Aug 31-Sep 2) at weighted-average prices of roughly $89.71-$97.75; CLO Carolyn Herzog separately sold 10,000 shares on Sept 1",
-      "source": "https://www.tipranks.com/news/insider-trading/elastic-cto-cashes-in-massive-stock-sale-unveiled-insider-trading"
+      "date": "2026-08-27",
+      "type": "guidance",
+      "headline": "Raised FY2027 non-GAAP EPS guidance to $3.29-$3.37 per diluted share, alongside the revenue guidance raise",
+      "sourceName": "search summary of Q1 FY2027 earnings release"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q1 FY2027: non-GAAP EPS $0.70 vs $0.58 consensus; revenue $478.1M +15% YoY; GAAP net loss -$16.7M (-$0.16/sh); raised FY2027 revenue outlook to ~$1.9B",
+      "impact": "stock jumped ~20-24% on the print",
+      "source": "https://www.sahmcapital.com/news/content/elastic-stock-jumps-after-q1-earnings-beat-fiscal-2027-guidance-raise-2026-08-28"
     },
     {
       "date": "2026-08-27",
@@ -85,20 +100,61 @@
       "headline": "Strong Q1; raised FY2027 revenue outlook to $1.998B–$2.010B",
       "impact": "+19.31% on the 2026-08-28 close",
       "sourceName": "Investrade market review"
+    },
+    {
+      "date": "2026-06-24",
+      "type": "executive change",
+      "headline": "8-K: Chief Product Officer Ken Exner resigned (last day 2026-07-17); engineering leaders now report directly to CEO Ashutosh Kulkarni",
+      "impact": "minor, no notable price reaction found",
+      "source": "https://www.boardroomalpha.com/sec/estc-8-k-2026-06-24-0001707753-26-000024"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
+  "conflicts": [
+    "Price varies enormously by source/date: Coinglass ~$58.68 (dated ~late July 2026) vs Trade-Ideas $92.30 (2026-10-01) vs undated MarketBeat $83.16/$93.84 -- consistent with a large post-Q1-earnings rally; treat anything not explicitly dated after 2026-08-27 as stale.",
+    "Next earnings date: MarketBeat estimates 2026-11-19; EarningsWhispers estimates 2026-11-26 -- neither confirmed by company IR.",
+    "Debt figure: one aggregator shows $591.6M, another $570.6M, neither clearly dated to the latest quarter."
+  ],
+  "pendingFilings": [
+    "Q2 FY2027 10-Q/earnings release expected mid-to-late November 2026"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: No new catalyst-grade news found between the Aug 27 Q1 print and Oct 15 beyond the CPO departure -- honest nothing new for that window. Next real catalyst is Q2 FY2027 earnings, expected mid/late November 2026.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "1 new catalyst(s)",
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -108,7 +164,7 @@
         "pe updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -116,7 +172,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -126,35 +182,13 @@
         "float updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated",
-        "move 19.31%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
-  },
-  "notes": "Quiet pass — no new dated catalyst since the Aug 27 earnings beat/raise."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

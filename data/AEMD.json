@@ -1,79 +1,84 @@
 {
   "ticker": "AEMD",
   "name": "Aethlon Medical, Inc.",
-  "sector": "Healthcare",
+  "sector": null,
   "theme": "Biotech Catalyst",
-  "themeLabel": "nano-cap",
+  "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "+14.75% to +34% depending on source",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.470Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1460000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 711136,
-      "asOf": "2026-08-28"
+      "value": 1500000,
+      "asOf": "2026-08-31"
     },
     "float": {
-      "value": 706409,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 706400,
+      "asOf": "2026-08-28"
+    },
+    "sharesOutstanding": {
+      "value": 973200,
+      "asOf": "2026-01-14"
+    },
+    "shortInterest": {
+      "value": 9.2
+    },
+    "cash": {
+      "value": 4900000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 367600,
+      "asOf": "2026-08-28"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-08-28"
+      "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": -31.45,
-        "basis": "diluted"
+        "period": "FY2026 (ended 2026-03-31)",
+        "value": -10.61,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q1 FY2027 (ended 2026-06-30)",
+        "value": -4.02,
+        "basis": "GAAP"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "revenue",
+      "metric": null,
+      "period": null,
       "pct": null,
-      "note": "No revenue reported"
+      "note": "dosed first participant in the 3rd/final Phase 1 oncology dosing cohort (Australia); Hemopurifier has FDA Breakthrough Device Designation. Pending North Immunology merger would pivot pipeline to NOR-101 (atopic dermatitis bispecific)."
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-13; next date not yet scheduled"
-    },
-    "shortInterest": {
-      "value": 9.15,
-      "asOf": "2026-08-31",
-      "note": "% of shares outstanding"
-    },
-    "cash": {
-      "value": 4930000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 367608,
-      "asOf": "2026-08-28"
+      "date": "2026-11-12",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 6.9,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation (Benzinga/GuruFocus); trading range $6.16-$7.21 in sessions since the merger announcement",
-    "note": "premarket data for 2026-09-23 unavailable in reachable sources at this hour"
+    "last": 5.58,
+    "changePct": null
   },
   "catalysts": [
     {
       "date": "2026-09-17",
-      "type": "M&A",
-      "headline": "Announced all-stock merger with North Immunology: AEMD holders to retain ~4.75% of the combined entity (renamed North Immunology, Inc., ticker NRTX), North Immunology holders ~95.25%; concurrent ~$180M private placement; combined equity value ~$346.5M; deal targeted to close Q1 2027",
-      "impact": "premarket +346% on announcement day (2026-09-17), then pulled back the following session",
-      "source": "https://www.gurufocus.com/news/9085884/aemd-surges-346-premarket-on-merger-news-pricetosales-signals-market-skepticism"
+      "type": "M&A / financing",
+      "headline": "Aethlon Medical and privately-held North Immunology announced a definitive all-stock merger plus a concurrent ~$180M private placement (incl. ~$34M note conversion); combined company to operate as North Immunology, trade as NRTX; legacy Aethlon holders get ~4.75% of combined co. plus a CVR tied to Hemopurifier proceeds; targets closing Q1 2027",
+      "impact": "stock reportedly up 370-470% intraday/premarket on announcement",
+      "source": "https://www.cooley.com/news/coverage/2026/2026-09-17-aethlon-medical-and-north-immunology-announce-merger-concurrent-%24180-million-private-placement"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "unexplained price move",
+      "headline": "Shares jumped on the session; no company announcement found",
+      "impact": "unknown"
     },
     {
       "date": "2026-08-28",
@@ -83,10 +88,24 @@
       "sourceName": "search summary / stockanalysis"
     },
     {
+      "date": "2026-08-13",
+      "type": "earnings",
+      "headline": "Q1 FY2027 (qtr ended 6/30/26): net loss narrowed to $1.55M from $1.76M YoY; opex down 11.9%; cash $4.9M; dosed first participant in 3rd/final Phase 1 oncology cohort (Australia)",
+      "impact": "medium",
+      "source": "https://www.biospace.com/press-releases/aethlon-medical-to-release-first-quarter-financial-results-and-host-conference-call-on-august-13-2026"
+    },
+    {
       "date": "2026-08-04",
       "type": "split",
       "headline": "Split-adjusted trading began on Nasdaq under AEMD with a new CUSIP",
       "sourceName": "company announcement / stockanalysis"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "reverse split",
+      "headline": "1-for-5 reverse stock split effective 10:00am ET, trading split-adjusted ~Aug 4, 2026, for Nasdaq minimum bid price compliance; follows an earlier 1-for-10 reverse split effective 2025-10-16",
+      "impact": "mechanical, not fundamental",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000882291/000168316826005850/aethlon_8k.htm"
     },
     {
       "date": "2026-07-31",
@@ -96,20 +115,47 @@
     }
   ],
   "conflicts": [
-    "Move size: one source reports +34.0%, the stockanalysis close shows +14.75%.",
-    "Share count: the split math gives ~649,914 shares outstanding, while stockanalysis reports 711,136 as of 2026-08-28 — a difference consistent with issuance after the split, but no issuance was found on the sources checked."
+    "Market cap: PitchBook $3.3M (1.57M shares) as of 2026-06-03 @$2.11 vs Public.com $2.83M (4/1/26) vs ROIC.ai ~$1.68-2.08M with 973,213 shares -- unreconciled.",
+    "52-week high: $36.84 (MEXC, Oct 10) vs $41.50 (Yahoo DE, Sept 22) vs $137.00 (Google Finance, likely a data error).",
+    "Short interest: 13.9% of float (May 2026) vs 21-22% (June 2026) vs 65.04% (Quiver Quant, late Aug 2026) vs 0.71% (MarketBeat, undated) -- not reliable enough to report as a single figure."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Form S-4 / proxy for the North Immunology merger (not yet located)",
+    "next 10-Q (fiscal Q2, quarter ended Sept 30, 2026)"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: AEMD underwent two reverse splits within the past year (1-for-10 eff. 2025-10-16, then 1-for-5 eff. 2026-07-31), explaining large apparent price discontinuities across sources. On 2026-09-17 the company signed a definitive merger agreement to be absorbed into North Immunology (ticker would change to NRTX on close, expected Q1 2027); legacy AEMD holders would hold only ~4.75% of the combined company. Theme left as 'Biotech Catalyst' since the merger has not closed, but this materially changes the thesis toward reverse-merger arbitrage.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -121,7 +167,7 @@
         "move -17.27%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -131,7 +177,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -144,36 +190,13 @@
         "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "float updated",
-        "sharesOutstanding updated",
-        "move 14.75%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "No new company-specific news found for Aug 29-31; continued slide looks like unwind of the unexplained Aug 28 spike.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.121Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

@@ -1,33 +1,28 @@
 {
   "ticker": "EIX",
   "name": "Edison International",
-  "sector": "Utilities",
+  "sector": null,
   "theme": "Utilities & Wildfire Liability",
   "themeLabel": "story stock",
   "tier": "daily",
-  "addedOn": "2026-08-31",
-  "addedReason": "premarket -19.00% after CA Assembly stripped a wildfire-liability shield from SB 492",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.471Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
       "value": 20770000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 384810000,
       "asOf": "2026-08-31"
     },
     "float": {
-      "value": 383690000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "value": 383800000
+    },
+    "sharesOutstanding": {
+      "value": 384800000
     },
     "shortInterest": {
-      "value": 3.44,
-      "asOf": "2026-08-31",
-      "note": "13.23M shares, % of shares outstanding"
+      "value": 4,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (15,300,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
     },
     "cash": {
       "value": 242000000,
@@ -38,61 +33,112 @@
       "asOf": "2026-08-31"
     },
     "pe": {
-      "trailing": 5.57,
-      "forward": 9.31,
-      "asOf": "2026-08-31"
+      "trailing": null,
+      "forward": null,
+      "note": "earnings are positive (FY2025 GAAP EPS $11.58) but aggregators disagree wildly (5.56x to 15.31x) on different stale price snapshots; not reporting a single number"
     },
     "eps": [
       {
         "period": "FY2024",
-        "value": 3.31,
-        "basis": "diluted"
+        "value": 3.33,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2024",
+        "value": 4.93,
+        "basis": "non-GAAP core"
       },
       {
         "period": "FY2025",
-        "value": 11.55,
-        "basis": "diluted"
+        "value": 11.58,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": 6.55,
+        "basis": "non-GAAP core"
       },
       {
         "period": "Q2 2026",
-        "value": 1.38,
-        "basis": "diluted"
+        "value": 1.39,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 1.54,
+        "basis": "non-GAAP core"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 17599000000,
-        "yoy": 7.72
+        "value": 17600000000,
+        "yoy": 7.7
       },
       {
         "period": "FY2025",
-        "value": 19317000000,
-        "yoy": 9.76
+        "value": 19320000000,
+        "yoy": 9.8
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM (Jun 2026)",
-      "pct": 10.74
+      "metric": "core EPS YoY Q2 2026 vs Q2 2025",
+      "period": null,
+      "pct": 58.8
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-07-30; next date not yet scheduled"
+      "date": "2026-10-28",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 54.79,
-    "changePct": -0.94,
-    "asOf": "2026-09-21",
-    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 21 close"
+    "last": 54.24,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-16",
-      "type": "rating",
-      "headline": "Fitch revised Edison International's and Southern California Edison's rating outlooks to negative from stable; affirmed long/short-term issuer default ratings at BBB/F3, citing stalled wildfire liability reform",
-      "source": "https://ca.investing.com/news/stock-market-news/fitch-cuts-edison-international-outlook-on-wildfire-reform-stall-93CH-4842514"
+      "date": "2026-10-13",
+      "type": "short seller report",
+      "headline": "Muddy Waters alleges Edison/SCE acted with 'conscious' or 'willful' disregard in the Eaton Fire; says liability could reach ~$20B if willful misconduct is found (vs ~$4B base case)",
+      "impact": "EIX fell >3% that day",
+      "source": "https://www.insurancejournal.com/news/west/2026/10/13/888798.htm"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "analyst action",
+      "headline": "Jefferies downgrade to Sell, price target cut to $42",
+      "impact": "negative"
+    },
+    {
+      "date": "2026-09-24",
+      "type": "analyst action",
+      "headline": "UBS maintains Hold, price target $57",
+      "impact": "neutral"
+    },
+    {
+      "date": "2026-09-21",
+      "type": "analyst action",
+      "headline": "Morgan Stanley reiterates Sell, price target $60",
+      "impact": "negative"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "analyst action",
+      "headline": "Jefferies cuts price target $68 -> $53, keeps Hold",
+      "impact": "negative"
+    },
+    {
+      "date": "2026-09-03",
+      "type": "analyst action",
+      "headline": "Truist Securities cuts price target $77 -> $63, keeps Hold",
+      "impact": "negative"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "regulatory",
+      "headline": "California Assembly declines to vote on SB 492 compromise; bill dies for the session without passing -- the version that stripped liability protections never became law",
+      "impact": "EIX recovered ~9% intraday/close to $58.80",
+      "source": "https://www.insurancejournal.com/news/west/2026/09/02/883615.htm"
     },
     {
       "date": "2026-08-31",
@@ -100,20 +146,60 @@
       "headline": "California State Assembly revised SB 492, stripping out utility wildfire-liability shields and omitting Gov. Newsom's provision barring insurer subrogation suits against utilities; Mizuho cut EIX to Neutral from Outperform, Argus cut to Hold from Buy",
       "impact": "premarket -19.00%",
       "sourceName": "Investing.com / Mizuho / Argus"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Q2 2026: core EPS $1.54 (vs $0.97 Y/Y), GAAP EPS $1.39, revenue $4.357B (missed $4.72B estimate); reaffirmed FY2026 core EPS guidance $5.90-$6.20",
+      "impact": "mixed",
+      "source": "https://www.businesswire.com/news/home/20260730727743/en/"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
+  "conflicts": [
+    "Market cap: Coinglass $21.66B (2026-09-04) vs Syfe $27.55B (2026-09-11, same ~$56 price -- inconsistent with Coinglass), likely different share-count assumptions.",
+    "Trailing P/E: Coinglass 5.56 (9/4) vs Fullratio 8.03 (undated, price $54.86) vs Syfe 8.76 (9/11) vs eToro 15.31 (undated, price $52.17) -- no single reliable figure.",
+    "Short interest: ~10.7M shares (2026-03-13) vs ~15.3M shares (~2026-06, Equibles) vs Fintel 2.85% short float (undated).",
+    "Next earnings date: 2026-10-28 (AJ Bell) vs 2026-10-29 (Earnings Whispers) vs 2026-11-03 'confirmed' (TipRanks, though TipRanks' own text calls it an estimate)."
+  ],
+  "pendingFilings": [
+    "Q3 2026 10-Q (due around Oct 28-Nov 3, 2026 earnings)",
+    "CPUC prudency proceeding on SCE's Eaton Fire conduct -- no final decision issued",
+    "Eaton Fire bellwether jury trial scheduled for January 2027"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: The -23.07% changePct carried in the prior record was the real 2026-08-31 SB 492 move -- already captured here as a dated catalyst, not a new Oct 15 event. On 2026-09-01 the Assembly simply declined to vote on the bill at all, killing it for the session, and the stock partly recovered. The Oct 13 Muddy Waters report is the most recent ticker-specific development. No reverse split; price trajectory continuous with history.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "8 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -134,7 +220,7 @@
         "move -23.07%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -144,7 +230,7 @@
         "move -23.07%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -156,17 +242,13 @@
         "move -19%"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Trailing P/E now looks cheap only because the stock has fallen ~35% since Aug 28 on the SB 492 wildfire-liability news; no operating change behind the multiple compression.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

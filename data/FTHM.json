@@ -1,0 +1,99 @@
+{
+  "ticker": "FTHM",
+  "name": "Fathom Holdings Inc.",
+  "sector": null,
+  "theme": "Distressed / Restructuring",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 17800000
+    },
+    "float": {
+      "value": 20400000,
+      "asOf": "2026-09"
+    },
+    "sharesOutstanding": {
+      "value": 34200000,
+      "asOf": "2026-09"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": 4500000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 8200000,
+      "asOf": "2026-06-30"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue Q2 2026",
+      "period": null,
+      "pct": -6
+    },
+    "nextEarnings": {
+      "date": "2026-11-10",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-24",
+      "type": "M&A restructuring",
+      "headline": "Fathom and Neighborhood Intelligence (NXH) announced a proposed restructured transaction to replace their June 16, 2026 merger agreement: NXH would contribute its ~38.8% stake in tZERO Group, Medici-related fund assets, and a GrainChain investment to Fathom for >=$130 million in newly issued Fathom shares; NXH expected to retain a controlling interest in Fathom post-close.",
+      "impact": "strongly positive (shares jumped in after-hours trading; magnitude disputed)",
+      "source": "https://www.benzinga.com/markets/equities/26/09/61988918/fathom-holdings-stock-jumps-after-hours-neighborhood-intelligence-merger"
+    },
+    {
+      "date": "2026-08-07",
+      "type": "earnings",
+      "headline": "Q2 2026 results: revenue $114.6M (-6.0% YoY vs $121.4M); GAAP EPS -$0.19 (vs -$0.13 in Q2 2025); net loss $6.2M; transaction volumes down 13-15% YoY; agent count down ~30% due to strategic rationalization",
+      "impact": "negative (wider loss, revenue decline)",
+      "source": "https://www.tradingview.com/news/tradingview:41832e204df45:0-fathom-holdings-inc-q2-2026-revenue-114-6m-eps-0-19-10-q-summary/"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "M&A agreement (superseded)",
+      "headline": "Fathom Holdings entered a Merger Agreement and Plan of Reorganization with Bed Bath & Beyond, Inc. (subsequently renamed Neighborhood Intelligence, Inc.); implied FTHM equity value of ~$53.38 million; exchange ratio of 0.2236 BBBY shares per Fathom share; expected to close in 2H 2026 pending approvals. Replaced by the Sept 24, 2026 restructured transaction above.",
+      "impact": "positive at announcement; subsequently superseded",
+      "source": "https://www.housingwire.com/articles/bbby-acquire-fathom-holdings/"
+    },
+    {
+      "date": "2026-03-30",
+      "type": "earnings",
+      "headline": "Reported Q4 and full-year 2025 results: FY2025 revenue $420.5M (+25% YoY), FY2025 EPS -$0.72 (improved from -$1.07 in FY2024); Q4 2025 EPS -$0.21 (missed -$0.11 estimate), Q4 2025 revenue $90.6M (missed $97.55M estimate); total 2025 transactions up ~15% YoY",
+      "impact": "mixed (strong revenue growth, Q4 miss)",
+      "source": "https://www.gurufocus.com/news/8757361/fathom-holdings-reports-fourth-quarter-and-full-year-2025-results"
+    }
+  ],
+  "conflicts": [
+    "Shares outstanding: ~32.8M (June 2026) vs ~34.21M ('current') vs ~30M (Sept 30, 2025) vs ~20M (2024) - heavy historical dilution, current count not fully reconciled",
+    "Market cap: ~$25.22M (as of Aug 7, 2026) vs ~$14.4M (June 2026) - large discrepancy for nearby dates, likely reflecting rapid share-count and price changes. A rough calculation using 34.21M shares x the last confirmed $0.52 price gives ~$17.8M, also not independently confirmed for 2026-09-25",
+    "After-hours reaction to the Sept 24, 2026 news: +19.39% to $0.62 vs 'jumped as much as 27% after-hours' - not reconciled",
+    "Exact 2026-09-25 regular-session closing price could not be confirmed; last independently confirmed data point is the Thursday Sept 24, 2026 close of $0.52 plus Thursday after-hours activity"
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Sub-$1 micro-cap/penny stock with thin analyst coverage, heavy historical share dilution, and negative earnings - all figures should be treated as higher-uncertainty and this name as speculative. 'Distressed / Restructuring' theme reused given the just-unwound prior merger, ongoing corporate restructuring, and micro-cap financial distress signals (shrinking revenue, persistent losses, high-interest debt); the transaction also has a notable digital-assets/blockchain angle (tZERO, Medici, GrainChain).",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

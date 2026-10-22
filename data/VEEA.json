@@ -1,0 +1,71 @@
+{
+  "ticker": "VEEA",
+  "name": "Veea Inc.",
+  "sector": null,
+  "theme": "Government IT & Defense Services",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-14",
+      "type": "m&a",
+      "headline": "Signed a non-binding term sheet for a business combination with NovaGen Group B.V. (a regenerative medicine/longevity company) to launch 'NovaGen Health Networks', implying a combined-company valuation of roughly $750M; GeoNova Capital committing $10M as a cornerstone investor",
+      "impact": "+82% to +90% after-hours 2026-09-14, continuing into 2026-09-15 premarket"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Veea is an AI-powered edge computing/connectivity company, not an ETF, warrant, or unit. No market cap, P/E, EPS, or dollar price disclosed. Shares surged +82% to +90% after-hours on 2026-09-14 (continuing into 2026-09-15 premarket) after signing a non-binding term sheet for a business combination with NovaGen Group B.V. to launch 'NovaGen Health Networks', implying a combined-company valuation of roughly $750M, with GeoNova Capital committing $10M as a cornerstone investor. Deal is non-binding, not a definitive agreement.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

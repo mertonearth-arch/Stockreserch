@@ -1,34 +1,53 @@
 {
   "ticker": "SOLS",
   "name": "Solstice Advanced Materials, Inc.",
-  "sector": "Materials",
+  "sector": null,
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "$14.5B merger with ESI called off",
-  "quietRuns": 1,
-  "lastResearched": "2026-09-23T05:32:07.474Z",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10090000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 9290000000,
+      "asOf": "2026-09-16"
+    },
+    "float": {
+      "value": 158700000,
+      "asOf": "2026-08-28"
     },
     "sharesOutstanding": {
-      "value": 158850000,
-      "asOf": "2026-08-28"
+      "value": 158700000,
+      "asOf": "2025-12-31"
+    },
+    "shortInterest": {
+      "value": 6.1
+    },
+    "cash": {
+      "value": 750000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 1970000000,
+      "asOf": "2026-06-30"
     },
     "pe": {
-      "trailing": 48.4,
-      "forward": 20.33,
-      "asOf": "2026-08-28"
+      "trailing": null,
+      "forward": null,
+      "note": "earnings are positive but no reliable current price was found to pair with EPS; not reporting a fabricated ratio"
     },
     "eps": [
       {
-        "period": "TTM",
-        "value": 1.31,
-        "basis": "diluted"
+        "period": "Q2 2026",
+        "value": 0.75,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 0.88,
+        "basis": "non-GAAP adjusted diluted"
       }
     ],
     "revenue": [
@@ -39,59 +58,105 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 9.2
+      "metric": "net sales YoY Q2 2026",
+      "period": null,
+      "pct": 11
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-07-30; next date not yet scheduled"
-    },
-    "float": {
-      "value": 158660000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 6.08,
-      "asOf": "2026-08-28",
-      "note": "9.65M shares, % of float; 3.06 days to cover"
-    },
-    "cash": {
-      "value": 750000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 2430000000,
-      "asOf": "2026-08-28"
+      "date": "2026-11-04",
+      "confirmed": true
     }
   },
   "price": {
-    "last": 57.69,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation, Sept 22 close"
+    "last": 60.13,
+    "changePct": null
   },
   "catalysts": [
+    {
+      "date": "2026-10-01",
+      "type": "IR announcement",
+      "headline": "Solstice announces Q3 2026 earnings date of November 4, 2026",
+      "impact": "informational"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "buyback",
+      "headline": "Alongside the terminated Element Solutions merger, Solstice announced a $500M share buyback authorization; neither company paid a termination fee",
+      "sourceName": "RTTNews"
+    },
     {
       "date": "2026-08-28",
       "type": "m&a",
       "headline": "Solstice and ESI mutually agreed to scrap their $14.5B merger",
       "impact": "+12.76% on the close (+16% per one source)",
       "sourceName": "Investrade market review / Zacks"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "dividend",
+      "headline": "Ex-dividend date for $0.08 quarterly dividend",
+      "impact": "minor/routine"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Q2 2026: net sales $1,148M (+11% Y/Y), GAAP diluted EPS $0.75, adjusted diluted EPS $0.88 (beat ~$0.77-0.79 consensus); raised FY2026 guidance to net sales $4,125-4,185M, adjusted EBITDA $1,035-1,055M, adjusted diluted EPS $2.75-2.95",
+      "impact": "positive, beat and raise",
+      "source": "https://www.sec.gov/Archives/edgar/data/0002064953/000206495326000085/exhibit991-earningsrelease.htm"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "M&A",
+      "headline": "Solstice Advanced Materials agrees to acquire Element Solutions in a cash-and-stock deal valued at ~$14.5B (including assumed net debt); Element shareholders get $10 cash + 0.5 SOLS shares per ESI share; expected to close H1 2027",
+      "impact": "major; one source notes SOLS fell ~8.7% on the announcement (unconfirmed by a second source)",
+      "source": "https://www.specialchem.com/coatings/news/solstice-to-acquire-element-solutions-in-14-5b-advanced-materials-deal"
     }
   ],
   "conflicts": [
-    "Move size: one source reports +16%, the stockanalysis close shows +12.76%."
+    "Next earnings date: company's own Oct 1, 2026 announcement says Nov 4; an earnings-tracking aggregator separately listed Oct 29 -- treating the company's own announcement as authoritative.",
+    "Deal size: RTTNews reports the terminated Solstice/Element Solutions merger at 'more than $12 billion,' vs the $14.5B figure recorded from the original 2026-07-07 announcement (both referring to the same transaction) -- not reconciled to one figure."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "Q3 2026 10-Q (due around Nov 4, 2026 earnings)",
+    "Element Solutions acquisition -- shareholder and regulatory approvals pending, expected close H1 2027"
+  ],
+  "notes": "Resolved 2026-10-20: the 2026-07-07 Element Solutions acquisition announcement and the 2026-08-28 'merger scrapped' catalyst refer to the SAME transaction (announced, then mutually terminated), not two different ESI counterparties as an earlier pass's note speculated -- no outstanding M&A chronology conflict. Deal-size and buyback details added. Most recent dated price found is $60.13 (2026-10-14, third-party tracker), down from $63.39 on 2026-08-31; a separate $61.27/+5.53% intraday move on 2026-10-06 was found with no identified cause -- recorded as unexplained, not guessed. Sector/theme 'Advanced Materials' remains correct (Honeywell spin-off).",
   "history": [
     {
-      "date": "2026-09-23",
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "new filing(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "date": "2026-10-16",
       "run": "am",
       "quiet": true,
-      "changes": [],
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -99,7 +164,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -109,7 +174,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -119,33 +184,13 @@
         "float updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated",
-        "move 12.76%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
-    "tradingDay": true
-  },
-  "notes": "No new dated catalyst found beyond the already-recorded scrapped ESI merger."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

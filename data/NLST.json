@@ -1,0 +1,100 @@
+{
+  "ticker": "NLST",
+  "name": "Netlist, Inc.",
+  "sector": null,
+  "theme": "Government IT & Defense Services",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 2070000000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 349600000,
+      "asOf": "2026-09-23"
+    },
+    "shortInterest": {
+      "value": 8.3,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (28,900,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings disclosed"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-11-03",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-23",
+      "type": "regulatory/legal",
+      "headline": "US ITC votes to institute a Section 337 investigation into Micron, Super Micro Computer, HPE and Lenovo over alleged infringement of four Netlist DDR5 RDIMM/MRDIMM patents, based on Netlist's complaint",
+      "impact": "stock jumped intraday (reported variously as ~12.7% to ~14.5%)",
+      "source": "https://www.benzinga.com/trading-ideas/movers/26/09/61956922/netlist-stock-jumps-wednesday-whats-happening"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "analyst action",
+      "headline": "Roth Capital analyst Suji Desilva raised Netlist price target to $15 from $10, maintaining a Buy rating, citing the ITC complaint against Micron/Super Micro/HPE/Lenovo and the precedent of Netlist's Samsung settlement/SK Hynix license",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/nlst-stock-rallies-itc-patent-165402623.html"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "strategic partnership",
+      "headline": "Netlist announced a five-year strategic alliance with Samsung Electronics",
+      "impact": "cited by Roth Capital as supporting rationale for its subsequent price-target increase",
+      "source": "https://www.tipranks.com/news/the-fly/netlist-price-target-raised-to-5-from-3-at-roth-capital-thefly-news"
+    }
+  ],
+  "conflicts": [
+    "changePct for 2026-09-23: implied ~12.7% from prior close $5.26 vs a separate WebSearch synthesis saying shares rose 14.5%.",
+    "marketCap: one undated snapshot cites $1.8B, another cites '$1.01B as of July 2, 2026', while this pass's calculation gives ~$2.07B ($5.93 x ~349.6M shares, count date unconfirmed) -- dispersion likely reflects different snapshot dates given NLST's large price swings (+525.9% over the trailing 12 months per one source), not reconciled to one source.",
+    "cash (quarter ended 2026-06-27): one source states $40.7M cash and cash equivalents including restricted cash; another states $23.2M for the same 'including restricted cash' figure and date -- not reconciled.",
+    "nextEarnings.date: November 3, 2026 vs November 5, 2026.",
+    "shortInterest: 28.9M shares = 8.5% of float vs a separate figure of 5.54% of shares outstanding."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Confirmed via company history that NLST is Netlist, Inc.'s common stock trading OTCQB (moved off Nasdaq in 2018), not a warrant or unit ticker variant. Share-count-implied market cap data suggests NLST is a large-cap-sized company by dollar value (~$1-2B+) due to a very high share count (~349.6M) built up over years of dilution -- a notable disconnect for a name most coverage frames as a small/micro-cap patent-litigation mover, worth flagging rather than an outright error. Netlist has ongoing, separate IP litigation/licensing activity against several other companies (Samsung, Google, Nvidia, Broadcom) beyond the Sept 23 Micron/SMCI/HPE/Lenovo ITC action.",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": true,
+      "changes": []
+    }
+  ],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

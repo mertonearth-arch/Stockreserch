@@ -1,70 +1,89 @@
 {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
-  "sector": "Technology",
+  "sector": null,
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "Q2 print drove the tape; XLK +3.2% on 2026-08-28",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.473Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5250000000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 24150000000,
-      "asOf": "2026-08-28"
+      "value": 5760000000000,
+      "asOf": "2026-10-05"
     },
     "float": {
       "value": 23170000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "asOf": "2026-08-28"
+    },
+    "sharesOutstanding": {
+      "value": 24100000000,
+      "asOf": "2026-08-21"
+    },
+    "shortInterest": {
+      "value": 0.9,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (229,241,850) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 62470000000,
+      "asOf": "2026-08-28"
+    },
+    "debt": {
+      "value": 38860000000,
+      "asOf": "2026-08-28"
     },
     "pe": {
-      "trailing": 27.51,
-      "forward": 18.04,
-      "asOf": "2026-08-28"
+      "trailing": 48.8,
+      "forward": null
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": 1.19,
-        "basis": "diluted"
+        "period": "FY2025",
+        "value": 2.94,
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2025",
-        "value": 2.94,
-        "basis": "diluted"
+        "value": 2.99,
+        "basis": "non-GAAP diluted"
       },
       {
         "period": "FY2026",
         "value": 4.9,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
-        "period": "TTM",
-        "value": 7.91,
-        "basis": "diluted"
+        "period": "FY2026",
+        "value": 4.77,
+        "basis": "non-GAAP diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 2.46,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 2.22,
+        "basis": "non-GAAP diluted"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 60922000000,
+        "value": 60920000000,
         "yoy": null
       },
       {
         "period": "FY2025",
-        "value": 130497000000,
+        "value": 130500000000,
         "yoy": 114.2
       },
       {
         "period": "FY2026",
-        "value": 215938000000,
+        "value": 215940000000,
         "yoy": 65.5
       },
       {
@@ -74,39 +93,26 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 83.4
+      "metric": "revenue YoY Q2 FY2027",
+      "period": null,
+      "pct": 106
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-26; next date not yet scheduled"
-    },
-    "shortInterest": {
-      "value": 1.23,
-      "asOf": "2026-08-28",
-      "note": "285.96M shares, % of float; 2.35 days to cover"
-    },
-    "cash": {
-      "value": 62470000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 38860000000,
-      "asOf": "2026-08-28"
+      "date": "2026-11-18",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 227.38,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation, Sept 22 close"
+    "last": 238.9,
+    "changePct": 2.1
   },
   "catalysts": [
     {
-      "date": "2026-09-03",
-      "type": "M&A",
-      "headline": "Confirmed acquisition of Hugging Face for approximately $12.93B (~$11.9B cash plus up to $1B in equity retention for staff); expected to close H1 2027",
-      "source": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/"
+      "date": "2026-08-31",
+      "type": "investment / partnership",
+      "headline": "Nvidia invested $3.5B in MediaTek convertible bonds (part of a larger $3.9B offering; Alphabet also participated); MediaTek to adopt NVLink Fusion for custom XPUs; also expands RTX Spark/DGX Spark PC and automotive collaboration",
+      "impact": "positive",
+      "source": "https://www.guru3d.com/story/nvidia-invests-billion-in-mediatek-as-partnership-expands-to-future-rtx-pc-chips-and-nvlink-ai/"
     },
     {
       "date": "2026-08-31",
@@ -123,23 +129,55 @@
     {
       "date": "2026-08-26",
       "type": "earnings",
+      "headline": "Q2 FY2027: revenue $96.2B (+106% YoY, +18% QoQ); GAAP diluted EPS $2.46, non-GAAP $2.22; Q3 FY2027 guidance $105.8B-$110.2B; operating cash flow $24.1B (down 52% QoQ); issued $25.0B senior notes; returned $26.0B to shareholders",
+      "impact": "large beat and raise",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "earnings",
       "headline": "Q2 EPS $2.22 vs $2.09 consensus; revenue $96.22B, 4.82% above consensus",
       "impact": "lifted the whole tech complex; XLK +3.2% on 2026-08-28",
       "sourceName": "Zacks / Yahoo Finance"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "No dated, reliable Oct 12-15, 2026 chip-sector selloff specific to NVDA could be confirmed despite repeated targeted searches -- reported as an explicit non-finding, not a catalyst.",
+    "Market cap estimates for early Oct 2026 range $5.7T-$5.84T depending on source/timestamp/share-count assumptions.",
+    "Next earnings date estimate conflicts across sources (Nov 17 vs 18 vs 25); none is company-confirmed."
+  ],
   "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Theme 'AI Semiconductors' confirmed. No NVDA-specific adverse catalyst found in Sept-Oct 2026; news flow since late August has been positive (MediaTek deal, market-cap milestone commentary).",
   "history": [
     {
-      "date": "2026-09-23",
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-16",
       "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -147,7 +185,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -155,7 +193,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -165,44 +203,13 @@
         "1 new catalyst(s)"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "float updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "2 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "float updated",
-        "sharesOutstanding updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

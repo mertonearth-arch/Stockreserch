@@ -1,62 +1,30 @@
 {
   "ticker": "IREN",
-  "name": "IREN Limited",
-  "sector": "Technology",
+  "name": "IREN Ltd",
+  "sector": null,
   "theme": "Crypto Treasury & Miners",
-  "themeLabel": "hype sector",
+  "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "FY27 capex guide, loss widened, -12.5%",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.472Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 14630000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
-    },
-    "sharesOutstanding": {
-      "value": 394060000,
-      "asOf": "2026-08-28"
-    },
-    "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "negative earnings; net loss of $702.62M reported",
-      "asOf": "2026-08-28"
-    },
-    "eps": [
-      {
-        "period": "TTM",
-        "value": -2.22,
-        "basis": "diluted"
-      }
-    ],
-    "revenue": [
-      {
-        "period": "TTM",
-        "value": 707010000,
-        "yoy": 41.1
-      }
-    ],
-    "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 41.1
-    },
-    "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-27; next date not yet scheduled"
+      "value": 14970000000,
+      "asOf": "2026-09-09"
     },
     "float": {
-      "value": 346180000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 346200000,
+      "asOf": "2026-08-28"
+    },
+    "sharesOutstanding": {
+      "value": 357400000,
+      "asOf": "2026-08-20"
     },
     "shortInterest": {
-      "value": 23.92,
-      "asOf": "2026-08-31",
-      "note": "94.25M shares, % of shares outstanding"
+      "value": 18,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (64,400,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
     },
     "cash": {
       "value": 5900000000,
@@ -65,28 +33,44 @@
     "debt": {
       "value": 7840000000,
       "asOf": "2026-08-28"
-    }
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings (FY2026 net loss $702.6M); an unverified aggregator forward-P/E figure (136.99x, undated) is not reported"
+    },
+    "eps": [
+      {
+        "period": "Q4 FY2026 (ended 2026-06-30)",
+        "value": -0.74,
+        "basis": "non-GAAP adjusted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "TTM",
+        "value": 707000000,
+        "yoy": 41.1
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY FY2026 (ended 2026-06-30)",
+      "period": null,
+      "pct": 41.1
+    },
+    "nextEarnings": null
   },
   "price": {
-    "last": 46.39,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation, Sept 22 session (high $48.77 / low $46.40)"
+    "last": 45.37,
+    "changePct": -3.3
   },
   "catalysts": [
     {
-      "date": "2026-09-18",
-      "type": "rating",
-      "headline": "Northland initiated coverage at Outperform with a $99 price target"
-    },
-    {
-      "date": "2026-09-14",
-      "type": "rating",
-      "headline": "JPMorgan double-upgraded IREN to Overweight from Underweight with a $65 price target, citing the deepening Nvidia cloud infrastructure partnership and neocloud pricing power"
-    },
-    {
-      "date": "2026-09-08",
-      "type": "regulatory",
-      "headline": "2GW Sweetwater Hub (Sweetwater 1 & 2) conditionally included in ERCOT's Batch Zero process as Base Load"
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q4 FY2026: revenue $137.2M (down from $144.8M in Q3); net loss $684.0M incl. $450.4M in asset impairments; AI Cloud revenue grew sequentially from $33.6M to $70.5M; adjusted EBITDA $19.2M (~53% below expectations). FY2026 full year: revenue $707.0M (up from $501.0M), net loss $702.6M vs FY2025 net income $86.9M (loss driven by $638.8M non-cash impairments/transition costs). ~$1B operating ARR, ~$4B contracted ARR for 2026 capacity",
+      "impact": "stock fell 12.5% to $35.45",
+      "source": "https://www.kucoin.com/news/flash/iren-q4-fy2026-revenue-meets-expectations-ai-cloud-revenue-doubles"
     },
     {
       "date": "2026-08-27",
@@ -94,22 +78,63 @@
       "headline": "Guided FY27 capex of $25B–$30B; net loss widened despite revenue growth. Q4 revenue $137.2M vs $135.6M consensus",
       "impact": "-12.53% on the following close",
       "sourceName": "Investrade market review / stockanalysis"
+    },
+    {
+      "date": "2026-08-01",
+      "type": "contract",
+      "headline": "Signed multi-year cloud services contract with an unnamed 'leading frontier AI lab'",
+      "impact": "positive"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "contract",
+      "headline": "Entered multi-year cloud services contracts with AI developers including Prometheus, Perplexity, and Together AI, worth ~$2.8B; raised 2026 ARR target to over $4B",
+      "impact": "positive",
+      "source": "https://dealroom.co/news/139995-iren-lifts-ai-cloud-revenue-target-to-4b-after-2-8b-in-new-deals/"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "contract",
+      "headline": "Signed a 5-year, ~$3.4B cloud services contract with NVIDIA",
+      "impact": "positive"
     }
   ],
   "conflicts": [
-    "Q4 revenue of $137.2M against TTM revenue of $707.01M does not reconcile to four comparable quarters; one of the two figures may be on a different basis."
+    "Market cap/share price figures conflict significantly across sources and dates.",
+    "No BTC holdings figure was found/disclosed despite checking -- flagged as a gap, not a confirmed zero."
   ],
   "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: 'Crypto Treasury & Miners' still technically fits, but IREN's own disclosures increasingly frame it as an 'AI Cloud' infrastructure company (AI Cloud revenue the fastest-growing segment) rather than a pure bitcoin miner -- worth a future reclassification review, not changed here per the theme-reuse rule.",
   "history": [
     {
-      "date": "2026-09-23",
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-16",
       "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "3 new catalyst(s)"
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -120,7 +145,7 @@
         "shortInterest updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -130,7 +155,7 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -140,35 +165,13 @@
         "float updated"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated",
-        "move -12.53%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "Named among Aug 31's session gainers (+4.6-4.7%) with no distinct new catalyst beyond the Aug 27 FY27 capex guide/earnings print.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

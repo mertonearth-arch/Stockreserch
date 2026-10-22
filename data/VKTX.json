@@ -1,0 +1,108 @@
+{
+  "ticker": "VKTX",
+  "name": "Viking Therapeutics, Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 4650000000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 116700000,
+      "asOf": "2026-09-22"
+    },
+    "shortInterest": {
+      "value": 19
+    },
+    "cash": {
+      "value": 502000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings (net loss)"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-11-04",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-22",
+      "type": "clinical trial",
+      "headline": "Viking announces positive topline results from VK2735 maintenance-dosing study: 22% placebo-adjusted weight loss at week 33 (no plateau observed); patients switching from weekly to every-other-week dosing retained up to 97% of prior weight loss, and up to 90% with monthly dosing (vs ~61% retention on placebo); GI side effects during maintenance similar to placebo",
+      "impact": "Stock surged intraday; reported magnitude ranges +27% to +39% depending on source/timing (see conflicts)",
+      "source": "https://ir.vikingtherapeutics.com/2026-09-22-Viking-Therapeutics-Announces-Positive-Topline-Results-from-Maintenance-Study-of-GLP-1-GIP-Agonist-VK2735-Demonstrating-the-Promise-of-Multiple-Maintenance-Dosing-Regimens"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "clinical trial",
+      "headline": "Truist Securities called the VK2735 maintenance readout a 'best case scenario'; Oppenheimer raised price target to $120 from $100 (Outperform)",
+      "impact": "reinforced same-day rally",
+      "source": "https://www.gurufocus.com/news/9092169/oppenheimer-raises-price-target-on-vktx-amid-positive-vk2735-data-shares-surge-31"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "financing",
+      "headline": "Viking filed Form S-3ASR shelf registration enabling future capital raises to fund VK2735 subcutaneous and oral Phase 3 programs; company also completed a ~$159.6M follow-on equity raise around this period",
+      "impact": "dilutive financing event; extends balance sheet",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001607678/000119312526324455/vktx-20260730.htm"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "earnings",
+      "headline": "Viking reports Q2 2026 financial results: net loss $128.1M ($1.10/share) vs $65.6M ($0.58/share) in Q2 2025; R&D expense +92.4% YoY to $115.8M; cash & short-term investments of $502M",
+      "impact": "loss beat consensus (-$1.21 est.); shares reportedly held steady post-print",
+      "source": "https://www.prnewswire.com/news-releases/viking-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302838212.html"
+    }
+  ],
+  "conflicts": [
+    "Same-day price move reported inconsistently: StocksToTrade cites close of $39.89 (+32.5%); GuruFocus cites a 'closing' price of $39.58 (+31% midday); other reports cite +30.9% premarket ($39.42), +28% mid-morning ($38.63), and a premarket peak near +39% (~$42, high of day $45.92); intraday range cited as $31.00-$45.92 with close described as '10.9% below session peak.' Not reconciled to a single figure.",
+    "Market cap conflict: one source cites $3.51B as of Sep 21, 2026 close (pre-catalyst) and separately $4.12B (undated 2026 figure), versus a calculated post-surge figure of ~$4.65B. Sources not reconciled.",
+    "Short interest cited as ~22-25% 'of float' by some trackers vs. ~19% of shares outstanding when computed directly from FINRA's 22,186,520-share short figure; the float denominator underlying the higher percentage is not independently confirmed.",
+    "Next earnings date: file carries Nov 4, 2026 (unconfirmed); separate Oct 2026 sources gave conflicting unconfirmed estimates of Oct 26, 2026 and Oct 28, 2026 for the same report -- not reconciled, no company confirmation found either way."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Compiled Sep 22, 2026 amid extreme intraday volatility. Direct fetch of stockanalysis.com and cnbc.com was blocked (EGRESS_BLOCKED); figures rely on company IR, SEC filings, and secondary aggregators. Treat price.last and rvol as indicative, not exact — see conflicts. Phase 3 oral VK2735 studies expected to begin Q4 2026 following positive Phase 2 VENTURE-Oral data.",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    }
+  ],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

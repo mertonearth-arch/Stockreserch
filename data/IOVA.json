@@ -1,0 +1,85 @@
+{
+  "ticker": "IOVA",
+  "name": "Iovance Biotherapeutics, Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 4980000000
+    },
+    "float": {
+      "value": 394300000,
+      "asOf": "2026-09-30"
+    },
+    "sharesOutstanding": {
+      "value": 453000000,
+      "asOf": "2026-09-30"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": 304000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 53200000,
+      "asOf": "2026-06-30"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings (adjusted quarterly loss of $0.11/share in Q2 2026)"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": "revenue YoY Q2 2026",
+      "period": null,
+      "pct": 66
+    },
+    "nextEarnings": {
+      "date": "2026-11-05",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-29",
+      "type": "guidance",
+      "headline": "Iovance raises FY2026 total revenue guidance to $410-420M (from $350-370M) on strong Amtagvi and Proleukin commercial demand; shares surged",
+      "impact": "Stock up roughly 31.5% (one source) to 38.6% (another) intraday/close, continuing higher into 09-30; H.C. Wainwright raised its price target from $9 to $20",
+      "source": "https://www.benzinga.com/markets/guidance/26/09/62059046/iovance-biotherapeutics-amtagvi-demand-drives-2026-revenue-guidance-bump-stock-soars"
+    },
+    {
+      "date": "2026-08-07",
+      "type": "earnings",
+      "headline": "Q2 2026 results: record product revenue $99.3M (+66% YoY), adjusted loss per share $0.11 (beat estimate by $0.02), gross margin improved to 56% from 41% in Q1",
+      "impact": "Beat",
+      "source": "https://www.fool.com/data-news/2025/08/07/iovance-iova-q2-revenue-jumps-93"
+    }
+  ],
+  "conflicts": [
+    "Magnitude of the Sept 29 move is reported inconsistently: +31.5% vs +38.6% for what appears to be the same session; both given, not reconciled.",
+    "Closing price also inconsistent: one source cites the stock 'ended the last session 31.5% higher at $14.45,' another describes a close of $14.93 on 09-30 after 'a wild two-day move from around $11 to the mid-teens.' Used $14.93 (most recent) as the last price.",
+    "Short interest figures conflict (88.14M vs 115.07M shares) -- both readings given, point estimate left null.",
+    "Market cap ($4.98B) sourced as of 2026-09-28, i.e. before the guidance-raise rally, and has not been reconciled against the post-rally price (~452.97M shares x $14.93 implies ~$6.76B); flagged rather than recalculated since no source explicitly reported a post-rally market cap."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Not a leveraged ETF, warrant, or unit -- this is common stock of a commercial-stage biotech; the move was driven by a specific, dated guidance-raise catalyst tied to Amtagvi commercial uptake.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

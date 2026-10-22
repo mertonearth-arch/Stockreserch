@@ -1,65 +1,88 @@
 {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
-  "sector": "Technology",
+  "sector": null,
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "beat-and-raise print, sold off hard anyway",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.473Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 189960000000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
+      "value": 237300000000,
+      "asOf": "2026-10-05"
+    },
+    "float": {
+      "value": 748000000,
+      "asOf": "2026-06-30"
     },
     "sharesOutstanding": {
-      "value": 876930000,
-      "asOf": "2026-08-28"
+      "value": 874800000,
+      "asOf": "2026-05-21"
+    },
+    "shortInterest": {
+      "value": 4.1,
+      "note": "[Corrected 2026-10-20: stored value was a raw share count (35,800,000) left over from an earlier reconstruction bug, not a percentage — recomputed as shares / shares outstanding.]"
+    },
+    "cash": {
+      "value": 3800000000
+    },
+    "debt": {
+      "value": 4960000000,
+      "asOf": "2026-05-02"
     },
     "pe": {
-      "trailing": 72.78,
-      "forward": 39.9,
-      "asOf": "2026-08-28"
+      "trailing": 88.3,
+      "forward": null
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -1.08,
-        "basis": "diluted"
+        "period": "FY2025",
+        "value": -1.02,
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2025",
-        "value": -1.02,
-        "basis": "diluted"
+        "value": 1.57,
+        "basis": "non-GAAP diluted"
       },
       {
         "period": "FY2026",
         "value": 3.07,
-        "basis": "diluted"
+        "basis": "GAAP diluted"
       },
       {
-        "period": "TTM",
-        "value": 2.98,
-        "basis": "diluted"
+        "period": "FY2026",
+        "value": 2.84,
+        "basis": "non-GAAP diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 0.33,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 0.94,
+        "basis": "non-GAAP diluted"
       }
     ],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 5508000000,
+        "value": 5510000000,
         "yoy": null
       },
       {
         "period": "FY2025",
-        "value": 5767000000,
+        "value": 5770000000,
         "yoy": 4.7
       },
       {
         "period": "FY2026",
-        "value": 8195000000,
+        "value": 8200000000,
         "yoy": 42.1
       },
       {
@@ -69,46 +92,25 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "TTM",
-      "pct": 30.6
+      "metric": "revenue YoY Q2 FY2027",
+      "period": null,
+      "pct": 37
     },
     "nextEarnings": {
-      "date": null,
-      "note": "reported 2026-08-27; next date not yet scheduled"
-    },
-    "float": {
-      "value": 874010000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 3.25,
-      "asOf": "2026-08-28",
-      "note": "28.39M shares, % of float; 1.24 days to cover"
-    },
-    "cash": {
-      "value": 3930000000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 5290000000,
-      "asOf": "2026-08-28"
+      "date": "2026-12-02",
+      "confirmed": false
     }
   },
   "price": {
-    "last": 257.38,
-    "changePct": 5.38,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation (ad-hoc-news.de), Sept 22 close"
+    "last": 271.25,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-22",
-      "type": "product",
-      "headline": "Demonstrated industry-first 2nm optical interconnect technologies for AI data centers at ECOC 2026 (400G-per-lane PAM4, 800G ZR/ZR+, 1.6T coherent, co-packaged optics)",
-      "impact": "+5.38% on the session",
-      "source": "https://www.fxleaders.com/news/2026/09/22/marvell-stock-forecast-mrvl-2nm-optical-tech/"
+      "date": "2026-10-06",
+      "type": "investor day",
+      "headline": "Raised FY2028 revenue outlook to ~$20B (from ~$18B) and set an FY2031 revenue target of $70B-$90B at NYC Investor Day",
+      "impact": "stock reportedly +5.81% (intraday pop >11%), unverified against Marvell's own release"
     },
     {
       "date": "2026-08-28",
@@ -120,23 +122,70 @@
     {
       "date": "2026-08-27",
       "type": "earnings",
+      "headline": "Q2 FY2027: revenue $2.739B (+37% YoY, $39M above guidance midpoint); GAAP diluted EPS $0.33; non-GAAP diluted EPS $0.94; raised FY2027/FY2028 revenue outlook",
+      "impact": "beat, but stock fell >10% on valuation/expectations reset per analyst commentary",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
       "headline": "Q2 adjusted EPS $0.94 vs $0.92 consensus; revenue $2.74B vs $2.72B consensus — beat and raise",
       "impact": "shares fell 10.3% on the following session despite the beat",
       "sourceName": "Investrade market review"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "partnership / dilution",
+      "headline": "Marvell granted Google a warrant for up to 58.97M shares at $206.58 (~$12.2B fully exercised) under an expanded custom AI chip agreement covering AI inference accelerators and storage/network/memory controllers tied to Google's TPU ecosystem; full vesting tied to $120B of custom-product revenue milestones",
+      "impact": "stock +8-10%; Broadcom fell >5% on competitive concern",
+      "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/19/marvell-gives-google-option-to-buy-us122-billion-stake-in-custom-chip-deal/"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
+  "conflicts": [
+    "Market cap figures range ~$142B-$250B across sources dated July-September 2026, mostly reflecting staleness; two outlier figures (~$600B+) appear to be errors and were excluded.",
+    "The Oct 6 Investor Day stock reaction (+5.81%) comes from a single blog/aggregator source, not Marvell's own release.",
+    "No confirmed Oct 12-15, 2026 chip-sector selloff tied to Fed rate-hike fears could be found for MRVL specifically despite repeated targeted searches -- a similar-sounding narrative found in search is dated to June/July 2026, not October. Not reported as a catalyst here."
+  ],
+  "pendingFilings": [
+    "equity offering prospectus filed 2026-07-09, outcome/size not confirmed"
+  ],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: Theme 'AI Semiconductors' confirmed -- fits well given custom-silicon deals (Google, Nvidia NVLink Fusion) as the dominant news driver since the last pass.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
-        "1 new catalyst(s)"
+        "new filing(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -144,7 +193,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -152,7 +201,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-30",
@@ -164,35 +213,13 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated",
-        "move -10.28%"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
-  },
-  "notes": "Quiet pass — no new dated catalyst since the Aug 27-28 earnings/Google AI chip deal commentary."
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
 }

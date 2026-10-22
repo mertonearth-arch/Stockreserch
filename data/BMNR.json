@@ -1,29 +1,42 @@
 {
   "ticker": "BMNR",
   "name": "BitMine Immersion Technologies, Inc.",
-  "sector": "Financials",
+  "sector": null,
   "theme": "Crypto Treasury & Miners",
-  "themeLabel": "hype sector",
+  "themeLabel": "hot sector",
   "tier": "daily",
-  "addedOn": "2026-08-30",
-  "addedReason": "ETH treasury update; traded as a leveraged ETH proxy",
+  "addedOn": null,
+  "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-09-23T05:32:07.472Z",
+  "lastResearched": "2026-10-20T12:00:00.000Z",
   "fundamentals": {
     "marketCap": {
-      "value": 15270000000,
-      "asOf": "2026-08-31",
-      "source": "stockanalysis"
+      "value": 11030000000,
+      "asOf": "2026-08-19"
+    },
+    "float": {
+      "value": 594500000,
+      "asOf": "2026-08-28"
     },
     "sharesOutstanding": {
-      "value": 603230000,
+      "value": 603200000,
+      "asOf": "2026-08-19"
+    },
+    "shortInterest": {
+      "value": 8
+    },
+    "cash": {
+      "value": 612000000,
+      "asOf": "2026-10-11"
+    },
+    "debt": {
+      "value": 1300000,
       "asOf": "2026-08-28"
     },
     "pe": {
       "trailing": null,
-      "forward": 63.3,
-      "note": "negative trailing earnings",
-      "asOf": "2026-08-31"
+      "forward": null,
+      "note": "not established -- EPS/income-statement data could not be retrieved this pass; BitMine's earnings are driven substantially by unrealized ETH mark-to-market gains/losses, which may make a standard P/E less representative even once obtained"
     },
     "eps": [
       {
@@ -40,43 +53,30 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "pct": null,
-      "note": "TTM revenue $61.2M; no YoY comparison published on the sources checked"
+      "metric": "ETH holdings growth (token count) 2026-08-17 to 2026-10-11",
+      "period": null,
+      "pct": 3.6
     },
-    "nextEarnings": {
-      "date": "2026-11-20",
-      "confirmed": false
-    },
-    "float": {
-      "value": 594480000,
-      "asOf": "2026-08-28",
-      "source": "stockanalysis"
-    },
-    "shortInterest": {
-      "value": 7.99,
-      "asOf": "2026-08-31",
-      "note": "% of shares outstanding"
-    },
-    "cash": {
-      "value": 340290000,
-      "asOf": "2026-08-28"
-    },
-    "debt": {
-      "value": 1320000,
-      "asOf": "2026-08-28"
-    }
+    "nextEarnings": null
   },
   "price": {
-    "last": 28.75,
-    "asOf": "2026-09-22",
-    "source": "WebSearch aggregation, Sept 22 intraday range $27.72-$28.82"
+    "last": 28.03,
+    "changePct": null
   },
   "catalysts": [
     {
-      "date": "2026-09-20",
-      "type": "treasury",
-      "headline": "Disclosed crypto plus cash/securities plus 'moonshot' holdings totaling $17.1B; owns 4.9% of total ETH supply, targeting ~5% ownership as an Ethereum treasury/staking provider"
+      "date": "2026-10-11",
+      "type": "crypto holdings update",
+      "headline": "Reported total holdings of $16.2B (crypto + cash + securities + strategic investments): ETH position of 6,028,946 ETH valued at $2,544/token (~4.9% of total ETH supply); also 214 BTC; $612M cash & marketable securities; $180M stake in Beast Industries; $85M stake in Eightco Holdings",
+      "impact": "informational/positive",
+      "source": "https://coinpedia.org/crypto-live-news/bitmine-reports-16-2-billion-in-crypto-holdings-with-6-million-eth/"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "crypto purchase",
+      "headline": "Disclosed buying 28,086 ETH (~$69.5M at an average cost of $2,495/ETH), bringing total holdings to 5.93M ETH; company said it was 97% toward its goal of holding 5% of total ETH supply",
+      "impact": "positive",
+      "sourceName": "Cointelegraph (via lcx.com mirror)"
     },
     {
       "date": "2026-08-30",
@@ -90,22 +90,53 @@
       "headline": "Treasury update confirming Ethereum holdings; company describes a transition to a staking-focused revenue model",
       "impact": "traded as a leveraged proxy on ETH's ~30% weekly move; closed -7.14%",
       "sourceName": "search summary"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "crypto purchase",
+      "headline": "Disclosed adding 9,926 ETH in the prior week, pushing total holdings to 5.82M ETH; stock +4%",
+      "impact": "positive"
     }
   ],
   "conflicts": [
-    "Direction: one source describes the stock rallying on the treasury update, while the stockanalysis close for the session shows -7.14%."
+    "Shares outstanding conflict across sources is severe (284.7M to 603.23M) -- not resolved.",
+    "Market cap conflict across sources ($8.7B to $15.15B) spanning different dates -- not resolved.",
+    "A September-2026 article cited ETH holdings of only ~2.15M, directly conflicting with the much larger, more consistently-corroborated July/August/October figures (5.77M-6.03M) -- reported verbatim as an unresolved conflict.",
+    "EPS/P/E/income-statement data not retrieved this pass (search budget exhausted) -- flagged as an open gap."
   ],
   "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: 'Crypto Treasury & Miners' confirmed -- BMNR is an Ethereum treasury company (not a miner). Weekly ETH-accumulation cadence continued through at least early October 2026 with no signs of a pause. A follow-up pass should specifically target BMNR's net income/EPS and share-count reconciliation.",
   "history": [
     {
-      "date": "2026-09-23",
-      "run": "am",
+      "date": "2026-10-20",
+      "run": "pm",
       "quiet": false,
       "changes": [
         "1 new catalyst(s)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "run": "am",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "date": "2026-10-15",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -117,7 +148,7 @@
         "shortInterest updated"
       ],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-09-01",
@@ -125,7 +156,7 @@
       "quiet": true,
       "changes": [],
       "tier": "daily",
-      "from": "daily"
+      "from": ""
     },
     {
       "date": "2026-08-31",
@@ -136,44 +167,13 @@
         "conflict resolved"
       ],
       "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "float updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
-    },
-    {
-      "date": "2026-08-30",
-      "run": "pm",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)",
-        "pe updated",
-        "eps updated",
-        "revenue updated",
-        "growth updated",
-        "nextEarnings updated",
-        "marketCap updated",
-        "sharesOutstanding updated"
-      ],
-      "tier": "daily",
-      "from": "daily"
+      "from": ""
     }
   ],
-  "notes": "A $14.36B market cap against $61.2M of TTM revenue — the valuation tracks the treasury holdings, not the operating business.",
-  "lastPass": {
-    "date": "2026-09-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
-    "tradingDay": true
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   }
 }

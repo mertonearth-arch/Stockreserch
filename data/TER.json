@@ -1,0 +1,75 @@
+{
+  "ticker": "TER",
+  "name": "Teradyne, Inc.",
+  "sector": null,
+  "theme": "AI Semiconductors",
+  "themeLabel": "hot sector",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "not disclosed in this dashboard capture (Teradyne is a profitable company; EPS/PE simply were not captured in this pass)"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-14",
+      "type": "sector",
+      "headline": "Fell ~13.3% (worst performer in the group) in a broad semiconductor-equipment sector selloff on capex/valuation concerns (Lam Research -6.9%, Applied Materials -5.8%, KLA -5.5%)"
+    },
+    {
+      "date": "2026-09-11",
+      "type": "analyst",
+      "headline": "Baird downgraded to Neutral from Outperform, price target $420"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: No price, market cap, P/E, EPS, or growth figures disclosed. Teradyne was the worst performer in its peer group, falling ~13.3% in a broad semiconductor-equipment sector selloff (Lam Research, Applied Materials, KLA also down) on capex/valuation concerns; Baird also downgraded to Neutral with a $420 price target. One source's description of continued Tuesday weakness (~-9.8%) may have restated Monday's figure rather than a fresh move -- not independently disambiguated.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

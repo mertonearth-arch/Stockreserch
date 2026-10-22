@@ -1,0 +1,484 @@
+{
+  "date": "2026-10-22",
+  "run": "recovery",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "note": "Not a research pass. Reconciles git with the live dashboard (54 names, built 2026-10-21) after the 2026-08-30..2026-10-22 git-push outage, by parsing runs/backups/dashboard-live-2026-10-21-54names.html back into data/*.json. See RUNBOOK.md. All figures are approximate (back-converted from the page's rounded display values) and unverified against primary sources until each ticker's next full pass -- see each record's recoveredFrom field.",
+  "applied": [
+    {
+      "ticker": "AEMD",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "AFRM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "AKAM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "BENF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "BIAF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "BKYI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "BMNR",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "BTAI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "CIFR",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "CLDX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "CNTB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "DFTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "EIX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "ELMT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "ENVA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "ESTC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "FICO",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "FIGS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "FTHM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "GPRO",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "IOVA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "IREN",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "JBHT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "NLST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "NTHI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "PDSB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "QNRX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "QURE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "RARE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "RBRK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "SAIC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "SANG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "SLS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "SMMT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "SOLS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "TPST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "TURB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "TWST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "UPLD",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "VEEA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    },
+    {
+      "ticker": "VKTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "reconciled from published dashboard"
+      ]
+    }
+  ],
+  "created": [
+    "AKAM",
+    "BENF",
+    "BIAF",
+    "BKYI",
+    "CIFR",
+    "CLDX",
+    "CNTB",
+    "DFTX",
+    "ELMT",
+    "ENVA",
+    "FICO",
+    "FIGS",
+    "FTHM",
+    "GLW",
+    "GNRC",
+    "IONQ",
+    "IOVA",
+    "JBHT",
+    "LITE",
+    "MRNA",
+    "NLST",
+    "NTHI",
+    "ORCL",
+    "PDSB",
+    "QURE",
+    "RARE",
+    "RBLX",
+    "SANG",
+    "SLS",
+    "SMMT",
+    "TER",
+    "TPST",
+    "TURB",
+    "TWST",
+    "UPLD",
+    "VEEA",
+    "VKTX"
+  ],
+  "promoted": [],
+  "demoted": [],
+  "quiet": []
+}

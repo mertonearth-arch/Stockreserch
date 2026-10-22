@@ -1,0 +1,102 @@
+{
+  "ticker": "RARE",
+  "name": "Ultragenyx Pharmaceutical Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": "2026-10-20T12:00:00.000Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 1430000000
+    },
+    "float": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "sharesOutstanding": {
+      "value": 98300000,
+      "asOf": "2026-03-09"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": 436000000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-11-04",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-18",
+      "type": "analyst action",
+      "headline": "Cantor Fitzgerald raised price target to $39 (from $33), Overweight, raising probability-of-success on FAYUVI to 100% from 90%",
+      "sourceName": "GuruFocus; Investing.com; MarketBeat"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "FDA approval",
+      "headline": "FDA granted full approval of FAYUVI (UX111, rebisufligene etisparvovec-hopf) gene therapy, the first-ever approved treatment for Sanfilippo Syndrome Type A (MPS IIIA); Ultragenyx received a Priority Review Voucher",
+      "impact": "shares jumped ~12.6-13%, with further gains after-hours",
+      "sourceName": "ir.ultragenyx.com; FDA.gov"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "FDA approval",
+      "headline": "FDA approved GENGLYCOS gene therapy (Ultragenyx's other 2026 approval), which also came with a Priority Review Voucher",
+      "sourceName": "search aggregation referencing BioPharma Dive"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "earnings",
+      "headline": "Q2 2026 results: record quarterly revenue $214M; net loss $92M / $0.90 per share; FY2026 revenue guidance $730M-$760M",
+      "sourceName": "ir.ultragenyx.com"
+    }
+  ],
+  "conflicts": [
+    "The research agent's initial brief assumed the FAYUVI approval and stock reaction occurred around 2026-09-24, but multiple sources (Ultragenyx IR, SEC 8-K filed 2026-09-17, FDA.gov) confirm the actual approval date is 2026-09-17, about a week earlier. Recording the correct 2026-09-17 date rather than the assumed one.",
+    "No confirmed Sept 24 closing price was found; most recent reliably-dated price found was $15.80 on 2026-09-22."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: New addition to the watchlist. Stock remains down roughly 40% year-to-date despite the approval, per commentary found. Treat the FAYUVI approval as a ~1-week-old catalyst rather than breaking news.",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "run": "pm",
+      "quiet": true,
+      "changes": []
+    }
+  ],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "ticker": "SMMT",
+  "name": "Summit Therapeutics Inc.",
+  "sector": null,
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 14730000000
+    },
+    "float": {
+      "value": 152300000,
+      "asOf": "2026-09-29"
+    },
+    "sharesOutstanding": {
+      "value": 797800000,
+      "asOf": "2026-09-29"
+    },
+    "shortInterest": {
+      "value": 26.8
+    },
+    "cash": {
+      "value": 690700000,
+      "asOf": "2026-06-30"
+    },
+    "debt": {
+      "value": 0,
+      "asOf": "2026-06-30"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": null
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-09-29",
+      "type": "investment",
+      "headline": "AstraZeneca announced a $2B strategic equity investment via convertible preferred shares (~109,000 shares, each convertible into 1,000 common shares; implied ~$18.35/common-share-equivalent, ~10% premium to recent trading) plus a clinical collaboration on ivonescimab and sonesitatug vedotin, and evaluation of ivonescimab alongside additional AstraZeneca ADCs; announced with updated positive Phase III HARMONi/HARMONi-2 overall-survival data",
+      "impact": "stock +17% after-hours on 9/28 announcement; +19.38% to +21.12% (sources vary) on 9/29",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001599298/000119312526405776/d178892dex991.htm"
+    },
+    {
+      "date": "2026-07-23",
+      "type": "earnings",
+      "headline": "Q2 2026 results: GAAP net loss $215.7M, EPS -$0.28/-$0.37 (see conflicts); cash position rose to $690.7M including ~$231M raised via ATM facility during the quarter",
+      "source": "https://www.stocktitan.net/news/SMMT/summit-therapeutics-to-host-second-quarter-2026-financial-results-rdeynvdy194q.html"
+    }
+  ],
+  "conflicts": [
+    "Today's (2026-09-29) closing price/% move could not be confirmed to a single source: cited moves include +17% (after-hours 9/28), +19.38%, and +21.12%; an unrelated aggregator separately showed an apparently stale $13.66 quote with $12.35B market cap. The price/changePct given here are derived (9/28 close $15.48 x ~19.38% move ~ $18.46) and should be treated as approximate.",
+    "Market cap: $14.73B computed here vs $13.04B and $12.35B cited by other aggregators (different price/share-count pairings, one likely stale).",
+    "Q2 2026 EPS: one source states GAAP EPS -$0.28 (paired with the $215.7M net loss figure), another states actual EPS of -$0.3714 vs a -$0.28 analyst estimate -- the $0.28 figure may be the estimate rather than the actual; could not fully reconcile via accessible sources.",
+    "Cash: $690.7M as of 2026-06-30 (dated, from the Q2 2026 earnings release, used here) vs an undated separate snapshot showing $419.37M."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass.",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}

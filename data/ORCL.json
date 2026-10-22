@@ -1,0 +1,102 @@
+{
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "sector": null,
+  "theme": "Advanced Materials",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": null,
+  "addedReason": null,
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 414200000000
+    },
+    "float": {
+      "value": 1660000000,
+      "asOf": "2026-09-14"
+    },
+    "sharesOutstanding": {
+      "value": 2880000000,
+      "asOf": "2026-09-14"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "not disclosed"
+    },
+    "cash": {
+      "value": 36370000000,
+      "asOf": "2026-09-14"
+    },
+    "debt": {
+      "value": 165960000000,
+      "asOf": "2026-09-14"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "no earnings"
+    },
+    "eps": [],
+    "revenue": [],
+    "growth": {
+      "metric": null,
+      "period": null,
+      "pct": null,
+      "note": "not disclosed"
+    },
+    "nextEarnings": {
+      "date": "2026-12-14",
+      "confirmed": false
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "dividend",
+      "headline": "Upcoming ex-dividend date for Oracle's regular quarterly cash dividend of $0.50/share (payable 2026-10-23); routine, part of the dividend program already in place, not a new declaration"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "sector-selloff",
+      "headline": "Oracle fell ~4.7%-4.85% amid a broad AI-linked stock selloff, triggered by weekend comments from Anthropic and OpenAI leadership (including OpenAI CEO Sam Altman, in a 2026-09-11 Fortune interview) urging a slower pace of frontier AI development and confirming OpenAI's IPO will not occur in 2026 (pushed to 2027 or later); compounded by ongoing concern over Oracle's debt-funded AI capex buildout (Q1 FY2027 capex $28.5B vs $8.5B a year earlier; FY2027 capex guidance maintained at $90B-$95B)",
+      "impact": "-4.7% to -4.85% on the day per multiple outlets"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "sector-selloff",
+      "headline": "Oracle publicly rejected a Bloomberg report claiming certain OpenAI-committed data centers would slip to 2028 (a one-year delay from original schedule), stating 'There have been no delays on the sites required to meet our contractual commitments' and that timelines were jointly validated with OpenAI"
+    },
+    {
+      "date": "2026-09-12",
+      "type": "insider",
+      "headline": "Executive Chair/CTO Larry Ellison cancelled his Rule 10b5-1 trading plan (adopted 2026-06-22) that would have allowed sale of up to 50 million Oracle shares (~$7.5B); no shares were sold under the plan prior to cancellation; company gave no explanation, and Ellison stated he has no other plans to sell Oracle stock",
+      "impact": "cited by multiple outlets as a contributing factor in 2026-09-14 trading alongside the broader AI-sector selloff",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/Larry-Ellison-Cancels-His-Plan-to-Sell-Oracle-Stock/default.aspx"
+    },
+    {
+      "date": "2026-09-12",
+      "type": "insider",
+      "headline": "Oracle disclosed (in a regulatory filing following its Q1 FY2027 close) that it is expanding its 2026 Restructuring Plan by approximately $700M, raising total estimated plan costs to roughly $2.8B (severance, contract termination, and related exit costs tied in part to AI-driven workforce reductions); ~$2.1B in charges had been recorded against the plan through 2026-08-31",
+      "impact": "cited as a contributing factor in the stock's decline"
+    }
+  ],
+  "conflicts": [
+    "2026-09-14 closing price: $142.82 (Invezz, 'down 4% today') vs $143.80 (paired with $414.2B market cap) vs implied $142.99 (from a cited -4.85%/-$7.29 move off a $150.28 prior close) vs a day-range citation of $141.01-$145.40; a separate, likely stale snippet also labeled $150.28 as 'today's' price and a $166.00 day-high. None independently confirmed via a directly fetched exchange/aggregator page (stockanalysis, CNBC, Yahoo, MarketWatch, Nasdaq, investor.oracle.com all returned EGRESS_BLOCKED this session).",
+    "2026-09-11 (baseline) close: baseline $470.22B market cap / 2.88B shares implies ~$163/share, versus a search snippet citing $150.28 as the 2026-09-11 close -- this is the same unresolved conflict flagged in the prior (2026-09-11) pass, still unresolved.",
+    "2026-09-14 market cap: $414.2B (computed from $143.80 x 2.88B shares, most internally consistent) vs $454.41B cited by a separate aggregator as 'today's' cap (doesn't reconcile with any price point found) vs the 2026-09-11 baseline of $470.22B.",
+    "Short interest: 47.77M shares / 1.66% of shares outstanding (undated aggregator) vs 50.0M shares / 1.74% of outstanding as of FINRA settlement date 2026-07-31 -- likely just different as-of dates, both recorded.",
+    "Oracle's next earnings date: 2026-12-14 (cited by one aggregator as 'Confirmed') vs 2026-12-10 (a separate, less-corroborated snippet) -- neither independently confirmed via a primary Oracle IR source this pass."
+  ],
+  "pendingFilings": [],
+  "notes": "RECOVERED 2026-10-20 (PM pass) by parsing the published Cadence Desk dashboard HTML (built 2026-10-16), because this cloud checkout's git history stops at 2026-09-01 (known git-push blocker since 2026-09-04, see RUNBOOK.md) and this ticker was never committed. Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified against primary sources. Not researched this pass (not on the git-derived due list) — re-research from primary sources on its next due full pass. Prior notes: RECOVERED 2026-10-16 (AM pass) by parsing the published Cadence Desk dashboard HTML, because git's history for this cloud checkout stops at 2026-09-01 (git-push blocker, 403 since 2026-09-04; see RUNBOOK.md). Figures are back-converted from the dashboard's rounded K/M/B/T display values and have NOT been independently re-verified from primary sources; re-research from primary sources on this ticker's next due full pass. Prior notes: Market cap ~$414.20B, float 1.66B shares, shares outstanding 2.88B, cash $36.37B, debt $165.96B as of 2026-09-14; next earnings est. 2026-12-14. Stock fell amid a broader AI-sector selloff tied to Anthropic/OpenAI comments on slower frontier AI development and OpenAI's delayed IPO, plus concern over Oracle's debt-funded AI capex buildout; Ellison cancelled a planned 50M-share sale and Oracle publicly denied a Bloomberg report of data-center delays; the company also expanded its 2026 restructuring plan by ~$700M. Multiple unresolved source conflicts on price, market cap, short interest, and next earnings date (see conflicts).",
+  "history": [],
+  "recoveredFrom": {
+    "source": "dashboard-live-2026-10-21-54names.html",
+    "pageStamp": "built 2026-10-21 10:16 UTCas of 2026-10-21",
+    "recoveredOn": "2026-10-22T09:46:03.122Z",
+    "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
+  }
+}
