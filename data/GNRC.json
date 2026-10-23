@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.417Z",
+  "lastResearched": "2026-10-23T21:20:23.108Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -29,12 +29,16 @@
       "note": "sources disagree and none give a clean, dated %-of-float figure: Trade-Ideas (Oct 11, 2026) says short interest fell 7% month-over-month with ~4% of investors short; Equibles (undated) shows 2.4M shares short / 3.0 days to cover; MarketBeat (undated) shows a short-interest ratio (days to cover) of 1.86"
     },
     "cash": {
-      "value": null,
-      "note": "not located in sources reachable this session"
+      "value": 265500000,
+      "asOf": "2026-03-31",
+      "source": "OpenCapital balance-sheet aggregation of Q1 2026 10-Q (cash and short-term investments)",
+      "note": "Down from $341.4M at year-end 2025. This is a Q1 2026 figure, not current; no Q2/Q3 2026 cash figure was located this session."
     },
     "debt": {
-      "value": null,
-      "note": "not located in sources reachable this session"
+      "value": 1400000000,
+      "asOf": "2026-03-31",
+      "source": "OpenCapital (total debt vs. $2.7B shareholders' equity, debt/equity 0.52)",
+      "note": "Conflicts with FN2's Q1 2026 figure of $1,236.4M and StockAnalysis's TTM-through-June-2026 figure of $1,410M -- see conflicts."
     },
     "pe": {
       "trailing": null,
@@ -83,7 +87,11 @@
       "note": "Investing.com estimate for the Q3 2026 report; no company-confirmed date found. On-file next-earnings date was 'unknown'."
     }
   },
-  "price": null,
+  "price": {
+    "last": 214.29,
+    "changePct": -1.87,
+    "asOf": "2026-10-13"
+  },
   "catalysts": [
     {
       "date": "2026-09-16",
@@ -108,15 +116,24 @@
     }
   ],
   "conflicts": [
-    "Market cap: $13.3B at $224.94 (Trade-Ideas, 2026-10-11) vs. an undated MarketBeat page showing $16.10B at $273.50 — the higher figure is plausibly a mid/late-September 2026 snapshot captured near the post-Amazon-deal spike (shares reportedly jumped ~34.5% on 2026-09-16) before pulling back by October, but this timeline was not independently confirmed with dated prices for both points.",
-    "Amazon warrant structure: 1,693,745 total shares with 307,954 vesting immediately at a $200.9266 strike (Pulse2) vs. 300,000 shares available immediately with the remainder vesting as Generac receives payments/supplies generators (DataCenterDynamics) — these two secondary-source descriptions of the same SEC filing do not match exactly and the filing itself could not be fetched this session.",
-    "Short interest: no two sources gave a consistent, comparably-dated %-of-float figure (see fundamentals.shortInterest note)."
+    "Total debt: $1.4B (OpenCapital, as of 2026-03-31) vs $1,236.4M (FN2, Q1 2026) vs $1,410M (StockAnalysis, TTM ended June 2026) -- different as-of dates and possibly different debt definitions; not averaged.",
+    "Price: $214.29 (Google Finance, 2026-10-13) vs $224.94 (Trade-Ideas, 2026-10-11, already on file) -- both dated and plausible, tracking a modest pullback over two sessions; not treated as a conflict requiring resolution, just two valid dated points."
   ],
-  "pendingFilings": [
-    "8-K 2026-09-16 (Amazon long-term generator supply agreement and warrant issuance)"
-  ],
-  "notes": "On-file theme 'Advanced Materials' is a clear mismatch — Generac manufactures backup power generators and related energy/power equipment, which is an industrials/energy-equipment business, not a materials-science one. None of the pre-existing theme strings in the provided list (including 'AI Semiconductors', which doesn't fit since Generac makes no semiconductors) genuinely describe this business, so a new theme, 'Backup Power & Energy Equipment', is proposed here; it should be reused verbatim for any other generator/power-equipment names rather than creating near-duplicates. themeLabel 'hot sector' reflects the AI-datacenter-backup-power narrative now driving the stock (the Amazon deal), distinct from Generac's traditional, more cyclical residential-generator business. Cash, debt, FY2024/FY2025 EPS, and a clean short-interest percentage could not be established this session — WebFetch failed against every external site attempted (SEC EDGAR, IR pages, news sites all returned DNS/connectivity errors in this sandbox) and the WebSearch budget for this task batch was exhausted before these gaps could be closed.",
+  "pendingFilings": [],
+  "notes": "Cash and (approximate, disputed) total-debt figures established for the first time this session, both dated to Q1 2026 (2026-03-31) -- no more recent balance-sheet figure was located. Short interest still could not be resolved to one clean, dated %-of-float figure. Next earnings (Nov 4, 2026, unconfirmed) options market implies an expected move of about +/-12% per one source.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -148,23 +165,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
       "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

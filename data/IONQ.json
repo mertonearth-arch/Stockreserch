@@ -8,11 +8,11 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.418Z",
+  "lastResearched": "2026-10-23T21:20:23.116Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "sources conflict by more than 2x and could not be reconciled this session — see conflicts; WebFetch to live quote sources (Yahoo, MarketWatch, SEC.gov) failed with DNS errors in this sandbox"
+      "note": "Still not reconcilable — see conflicts for newly found dated readings, none of which reflect the October equity raise or current price."
     },
     "float": {
       "value": null,
@@ -31,12 +31,14 @@
       "note": "percent of float; ~42.4M shares short, ~1.9 days to cover per Curved Trading for the same settlement date — see conflicts for disagreeing readings"
     },
     "cash": {
-      "value": null,
-      "note": "sources disagree sharply for 2026-06-30 — see conflicts"
+      "value": 2959330000,
+      "asOf": "2026-06-30",
+      "source": "Quartr Q2 2026 earnings summary (derived from IonQ's 10-Q)",
+      "note": "Total cash, cash equivalents and investments; down from $3,091.9M at 2026-03-31. This is a more precise figure than the conflicting $3.0B/$1.2B readings flagged in the prior pass and is treated as superseding them, though it was not independently cross-checked against the 10-Q balance sheet itself this session."
     },
     "debt": {
       "value": null,
-      "note": "sources disagree — one aggregator cites ~$54.5M total debt as of 2026-06-30, while management commentary is reported elsewhere as describing the company as carrying no debt; not reconciled"
+      "note": "Still unverified — OpenCapital's ~$54.5M total-debt figure for 2026-06-30 could not be checked against the 10-Q this session."
     },
     "pe": {
       "trailing": null,
@@ -87,8 +89,26 @@
       "note": "Estimates disagree across aggregators: Nov 4 (Nasdaq calendar via ChartRow), Nov 5 (AJ Bell), Nov 9 (Earnings Whispers), Nov 11 (TipRanks). None is company-confirmed as of this research pass. Last year's Q3 report (FY2025) was Nov 5, 2025; the prior quarter (Q2 2026) was reported Aug 5, 2026."
     }
   },
-  "price": null,
+  "price": {
+    "last": 34.35,
+    "changePct": 9.33,
+    "asOf": "2026-10-15"
+  },
   "catalysts": [
+    {
+      "date": "2026-10-15",
+      "type": "price action",
+      "headline": "IonQ shares rose 9.33% to $34.35 on volume more than 100% above average, rebounding from the prior day's equity-offering-related drop",
+      "impact": "+9.33%; still about 53.5% below the 52-week high of $73.87",
+      "source": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-october-16-2026/"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "offering/dilution",
+      "headline": "IonQ priced a $2.0 billion common stock offering",
+      "impact": "Shares fell about 5.2% on the pricing news",
+      "source": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-october-16-2026/"
+    },
     {
       "date": "2026-10-12",
       "type": "product/partnership",
@@ -127,16 +147,27 @@
     }
   ],
   "conflicts": [
-    "Market cap: Capital.com $12.79B at 2026-09-07 vs $13.50B at 2026-08-20 vs Equibles ~$17.85B around 2026-08-19 vs Fintel ~$26.89B (undated) — a greater-than-2x spread, not reconciled; no reliable current figure could be obtained (WebFetch to live quote sources failed in this sandbox).",
-    "Shares outstanding/float: Fintel lists ~373.17M shares (undated) consistent with the Q1 2026 10-Q figure used above, but also separately cites 19.78% short-float vs Equibles/Benzinga's 13.2% float for a similar window — not reconciled.",
-    "Short interest: 13.2% of float (~2026-08-14 settlement, Equibles/Benzinga) vs 19.78% of float (Fintel, undated) vs 12.39% of shares outstanding (Benzinga, 2026-06-30 settlement) — not reconciled.",
-    "Cash (as of 2026-06-30): one source reports cash, cash equivalents and investments of $3.0B ($2.0B pro forma for the SkyWater acquisition), another reports cash and equivalents alone of only ~$1.2B — these may be using different line-item scopes but were not reconciled this session.",
-    "FY2026 revenue guidance: an on-file catalyst dated 2026-09-17 states guidance was raised to $260M-$270M; this session's research on the 2026-08-05 Q2 earnings release instead found guidance raised to $290M (quantumcomputingreport.com) — not reconciled; both figures are recorded.",
-    "Q4 2025 EPS: IonQ's own release cites GAAP EPS of $2.13; a secondary aggregator (MEXC) instead cites $1.93 for the same quarter — not reconciled."
+    "Market cap: Capital.com ~$12.79B (2026-09-07) vs Benzinga ~$14.99B at $41.70/share (2026-08-06) vs Simply Wall St ~$14.1B at $37.05 (undated) — still not reconciled; none of these reflect the October equity raise or the Oct 15 $34.35 price.",
+    "FY2026 revenue guidance: sources this session describe a raise to $450M-$460M tied to the SkyWater acquisition, with timing given only as 'early September 2026' (not pinned to an exact date), versus the $290M figure from the Aug 5, 2026 earnings release and the $260M-$270M figure from the Sept 17, 2026 catalyst already on file — not reconciled to each other. The $450-460M figure is reported here only as a conflict, not as a dated catalyst, since no specific date could be established for it."
   ],
   "pendingFilings": [],
-  "notes": "Theme corrected from on-file 'Government IT & Defense Services' — a clear mismatch, since IonQ is a quantum-computing hardware/cloud company with no defense-services business as such. None of the fixed theme list is a precise fit for quantum computing; 'AI Semiconductors' is used here per explicit task guidance (broadened to 'advanced/disruptive compute'), but this is an imperfect, broadened fit rather than a literal one — IonQ makes trapped-ion quantum processors, not semiconductors. themeLabel set to 'hype sector' given persistent large GAAP losses, warrant-driven dilution/volatility, and valuation detached from current revenue scale despite rapid top-line growth. Web-search budget for this task batch was exhausted partway through research (shared 200-call/turn limit across parallel agents), and WebFetch could not reach any external site in this sandbox (SEC EDGAR, Yahoo Finance, MarketWatch, StockTitan all failed with DNS/connectivity errors), so a reconciled market cap, a Q2 2026 per-share loss figure, and a verified forward P/E could not be established beyond what WebSearch snippets provided.",
+  "notes": "The $2.0B equity offering (priced 2026-10-14) is a significant new dilution event not previously on file. The cash figure for 2026-06-30 was refined to $2,959.33M via a 10-Q-sourced aggregator; treat as provisional pending direct confirmation against the filing.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "marketCap updated",
+        "cash updated",
+        "debt updated",
+        "move 9.33%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -167,22 +198,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
+      "2 new catalyst(s)",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
       "debt updated",
+      "move 9.33%",
       "conflicts updated"
     ],
     "tradingDay": true

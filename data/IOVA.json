@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.404Z",
+  "lastResearched": "2026-10-23T21:20:23.117Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -62,10 +62,15 @@
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": null
+      "confirmed": false,
+      "note": "Interim CEO Frederick Vogt stated on the Sept 29, 2026 guidance-raise call that Q3 2026 results would come in 'early November 2026' — consistent with, but not an exact confirmation of, Nov 5."
     }
   },
-  "price": null,
+  "price": {
+    "last": 12.96,
+    "changePct": -8.41,
+    "asOf": "2026-10-06"
+  },
   "catalysts": [
     {
       "date": "2026-09-29",
@@ -97,13 +102,23 @@
     }
   ],
   "conflicts": [
-    "Market cap: $3.78B at an implied ~$8.34/share (452.97M shares, 2026-08-21) vs. a separate, undated $1.71B at $3.82/share (446.5M shares). The ~2x price gap likely reflects the large post-Q2-earnings rally reported in the press (\"best day in over six years,\" buyout speculation) rather than a data error or reverse split, but this was not fully confirmed with a single live, dated quote this session.",
-    "Short interest: 22.1% of float / 100.0M shares / 6.3 days to cover (2026-08-21) vs. 104.2M shares / 8.2 days to cover (undated, likely pre-rally).",
-    "The Sept 29, 2026 guidance raise to $410–420M (on file) was not independently located this session, despite being directionally consistent with Iovance's own stated plan (as of Aug 6) to update guidance during Q3 2026."
+    "Market cap: a Google Finance figure found this session cites ~$5.9B (undated, but consistent with the stock trading in the $12-15 range after the Sept 29 guidance raise) vs the $3.78B at $8.34/share (2026-08-21, pre-rally) already on file vs a separate $1.71B at $3.82/share (undated) — not reconciled; the spread largely reflects the stock's rally since the guidance raise rather than a single data error."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Biotech Catalyst' is a genuine fit — Iovance is a commercial-stage cell-therapy biotech (Amtagvi/lifileucel for melanoma) whose stock is driven by launch metrics, guidance updates, and takeover speculation; themeLabel set to 'story stock' given the guidance revisions, large single-day moves, and buyout chatter. Cash and Q2 operating figures are sourced from the company's own earnings release (via SEC 8-K exhibit); market cap/shares/short-interest come only from a third-party aggregator (Equibles) with internally inconsistent snapshots, and SEC EDGAR itself was unreachable in this sandbox to confirm the 10-Q cover-page share count. EPS was not found and is left as an empty array rather than guessed.",
+  "notes": "Price updated to the most recent specific dated figure found this session ($12.96, 2026-10-06, Google Finance, -8.41% that day); an Oct 5 figure of $14.18 (AAII) suggests continued volatility this month. Per Stocktwits, Iovance is expected to present oral SARATOGA (soft-tissue sarcoma) trial data in 'late October 2026,' and a pivotal-study program update on a non-small-cell lung cancer program is due in Q4 2026 — both flagged as upcoming items without a confirmed date, not recorded as dated catalysts per the dated-catalyst rule.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "move -8.41%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -133,21 +148,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
+      "move -8.41%",
       "conflicts updated"
     ],
     "tradingDay": true

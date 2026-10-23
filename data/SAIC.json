@@ -8,21 +8,23 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.429Z",
+  "lastResearched": "2026-10-23T21:20:23.138Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5310000000,
-      "asOf": null,
-      "source": "Equibles (snapshot believed to be from Aug 2026: $126.31 price × 42.28M shares); exact as-of date not stated",
-      "note": "Other Equibles pages show $4.33B at a $106.73 price — likely an earlier snapshot. See conflicts."
+      "value": 5361000000,
+      "asOf": "2026-09-04",
+      "source": "Calculated: SAIC 10-Q cover-page shares outstanding (42,276,819, as of 2026-05-22) x price $126.80 (2026-09-04, MEXC)",
+      "note": "Consistent with MEXC's own stated ~$5.31B cap at that price/date (minor rounding difference). Supersedes the prior session's undated/unreconciled $5.31B-vs-$4.33B snapshots."
     },
     "float": {
       "value": null,
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 42280000,
-      "note": "Conflicts with another Equibles page showing 43,419,313 shares; not reconciled."
+      "value": 42276819,
+      "asOf": "2026-05-22",
+      "source": "SAIC Q1 FY2027 10-Q cover page (SEC EDGAR)",
+      "note": "Primary-source figure, resolving most of the prior session's conflicting Equibles readings (42.28M vs 43.42M). A separate undated Equibles page still shows 43,419,313 -- possibly a later, undated snapshot after further buyback activity; not reconciled."
     },
     "shortInterest": {
       "value": 5.6,
@@ -74,12 +76,14 @@
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Estimates across sources disagree: 2026-12-01 (prior on-file estimate), 2026-12-02 (Bullstory), 2026-12-03, and 2026-12-07 before market open (two other aggregators) -- none company-confirmed."
     }
   },
   "price": {
-    "last": 126.31,
-    "changePct": null
+    "last": 126.8,
+    "changePct": null,
+    "asOf": "2026-09-04"
   },
   "catalysts": [
     {
@@ -138,17 +142,24 @@
     }
   ],
   "conflicts": [
-    "Market cap / shares outstanding: Equibles shows multiple inconsistent snapshots — $5.31B at 42.28M shares/$126.31, vs. $4.33B at $106.73, vs. a separate page showing 43,419,313 shares — none clearly dated, not reconciled.",
-    "Short interest: Aug 2026 Equibles reading (~5.6% of float) vs. older/undated MarketBeat readings of 3.33% and 4.90% — inconsistent with each other and not clearly dated.",
-    "Trailing P/E: 11.43x (diluted EPS $8.88 @ $101.49) vs. 13.86x (diluted EPS $7.70 @ $106.73) — two different TTM EPS figures found, not reconciled; trailing P/E reported as null for this reason.",
-    "Next earnings date: on-file estimate is 2026-12-01; a third-party aggregator (Bullstory) separately lists 2026-12-02. Neither is company-confirmed; SAIC's historical pattern (Q3 FY2026 was announced ~2-3 weeks ahead and reported 2025-12-04) supports an early-December date generally.",
-    "Cash/debt figures used above are from Q1 FY2027 (~May 2026), one quarter stale relative to the Q2 FY2027 earnings catalyst (Aug 31, 2026); the more current Q2 balance sheet could not be fetched this session."
+    "Next-earnings date estimates span four different days (Dec 1, 2, 3, 7, 2026) across aggregators, none company-confirmed."
   ],
-  "pendingFilings": [
-    "10-Q for Q2 FY2027 (period ended ~2026-07-31)"
-  ],
-  "notes": "Theme 'Government IT & Defense Services' fits well. The prior snapshot's catalyst item ('Goldman Sachs raised PT to $103 but rated Sell', 2026-09-08) has been DROPPED from this record rather than carried forward or refreshed: per this dashboard's own mandate (no ratings, no price targets, no buy/sell opinions), an analyst rating/PT is not an appropriate catalyst entry, and it has in any case been superseded by the substantive Q2 FY2027 earnings print and the MARPA facility expansion listed above. A $400M intelligence-agency recompete contract win (bringing H1 FY2027 intelligence/space awards above $1.6B) was reported by Virginia Business/WashingtonExec in August 2026, but no reliable exact date was found this session, so per the 'every catalyst needs a date' rule it is omitted from the dated list above rather than guessed. Annual (FY2025/FY2026) EPS figures were not established this session.",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts found since the 2026-10-22 pass (Q2 FY2027 earnings 8/31, $400M intel recompete 8/5, MARPA amendment 8/14 remain the most recent). Shares outstanding is now anchored to a primary 10-Q cover-page figure (42,276,819, as of 2026-05-22); market cap recalculated accordingly.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -255,22 +266,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

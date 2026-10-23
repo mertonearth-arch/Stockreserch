@@ -8,21 +8,22 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.417Z",
+  "lastResearched": "2026-10-23T21:20:23.108Z",
   "fundamentals": {
     "marketCap": {
-      "value": 131210000000,
-      "asOf": "2026-08-19",
-      "source": "equibles.com, at a $152.45 close"
+      "value": 116420000000,
+      "asOf": "2026-10-21",
+      "source": "MarketBeat instant-alert page (P/E ratio cited alongside as 61.71)",
+      "note": "Conflicts with a 2026-10-05 Google Finance snapshot of $137.28B (at $159.37/share, 861.39M shares) and the on-file 2026-08-19 figure of $131.21B -- see conflicts. Treated as the most recent dated figure found."
     },
     "float": {
       "value": null,
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 860640000,
-      "asOf": "2026-08-19",
-      "source": "equibles.com (consistent with a late-May 2026 snapshot of 860,637,825 shares)"
+      "value": 861390000,
+      "asOf": "2026-10-05",
+      "source": "Google Finance snapshot"
     },
     "shortInterest": {
       "value": 2.1,
@@ -84,7 +85,7 @@
     "nextEarnings": {
       "date": "2026-10-27",
       "confirmed": false,
-      "note": "unconfirmed estimate per an Aug 19, 2026 equibles snapshot; on-file next-earnings date was 'unknown' and no company announcement was found this session"
+      "note": "Multiple earnings-calendar aggregators (EarningsWhispers et al.) list Q3 2026 results before market open on Oct 27, 2026, with analyst consensus EPS of $0.88 vs $0.67 a year earlier; not independently confirmed via a Corning press release this session."
     }
   },
   "price": null,
@@ -112,17 +113,25 @@
     }
   ],
   "conflicts": [
-    "Market cap/share price: equibles showed $131.21B at $152.45 (2026-08-19) vs. $168.8B at ~$196 (late May 2026) vs. a Yahoo Finance snapshot implying ~$124/share (undated) — none of these is clearly the current figure, and the 2026-09-14 ATM-offering selloff (to ~$145.61, per 247wallst) likely moved the market cap again without a fully reconciled post-selloff share count and price being available together.",
-    "Q2 2026 revenue: $4.74B (+17% YoY) per one source vs. $4.51B ('missed estimates,' stock -16.1%) per Webull — both labeled Q2 2026; could not determine if these reflect different metrics (e.g., core sales vs. GAAP) or a reporting discrepancy.",
-    "Stock reaction to Q2 2026 earnings/guidance: -2.5% vs. -11.2% across two sources.",
-    "Short interest: 2.1% of float / 1.1 days to cover (2026-08-19) vs. an earlier late-May 2026 reading of 21.4M shares / 1.7 days to cover with 35% short volume — direction of change unclear given different metrics reported.",
-    "Trailing P/E: 73.2 (Google Finance, 2026-10-05) vs. 76.5 (Yahoo Finance, 2026-08-14) on nearly identical TTM EPS ($2.18 vs. $2.17) — the gap is attributable to different share prices on those dates, not a data conflict per se, but is noted for completeness."
+    "Market cap/share price keeps diverging by source and date: $137.28B at $159.37 (Google Finance, 2026-10-05) vs $116.42B at implied ~$135/share (MarketBeat, 2026-10-21) vs $131.21B at $152.45 (equibles, 2026-08-19, on file) vs an undated TipRanks figure of only $75.02B at 857.36M shares. The Oct-21 MarketBeat figure is the most recent dated point but is far below the Oct-5 figure just 16 days earlier, which is a larger swing than typical trading would explain and could not be reconciled with a single confirmed daily closing price this session.",
+    "Possible reverse-split-scale flag: none of the above look impossible relative to each other (all in the $130-$160/share range), so no split is suspected -- but the $75.02B/857.36M-share TipRanks figure (implying ~$87/share) is far enough outside this band that it was excluded as unreliable rather than treated as a genuine current reading."
   ],
-  "pendingFilings": [
-    "8-K 2026-09-11 (Goldman Sachs Equity Distribution Agreement / $2B ATM program)"
-  ],
-  "notes": "Theme 'Advanced Materials' is a genuine fit and is kept as-is — Corning is fundamentally a specialty-glass/ceramics materials science company, and its current stock narrative (AI-datacenter optical fiber demand) is really a demand driver for that same materials/manufacturing business rather than a different sector. themeLabel set to 'hot sector' given the AI-driven re-rating (stock up roughly 91% YTD per one September 2026 report) and the market's sensitivity to any capital-raise/dilution news. Cash and debt could not be established this session: WebFetch failed to reach SEC EDGAR, Corning's investor-relations site, or any financial news site tried (DNS/connectivity errors in this sandbox), and the WebSearch budget for this task was exhausted before a follow-up query could be run.",
+  "pendingFilings": [],
+  "notes": "Could not confirm cash, debt, or a single reconciled market cap this session. Q3 2026 earnings date (Oct 27) is now corroborated across multiple earnings-calendar sites, versus 'unknown' previously on file, though still not a company-confirmed date.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -154,23 +163,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

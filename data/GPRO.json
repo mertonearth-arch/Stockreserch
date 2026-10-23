@@ -8,21 +8,20 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.418Z",
+  "lastResearched": "2026-10-23T21:20:23.115Z",
   "fundamentals": {
     "marketCap": {
-      "value": 117140000,
-      "asOf": "2026-08-20",
-      "source": "equibles.com, at a $0.62 close"
+      "value": null,
+      "asOf": null,
+      "note": "Still not reconcilable despite a renewed verification attempt this pass: dated readings range from ~$103.82M (2026-07-16, Capital.com) to ~$224.9M (undated, CoinGecko) — see conflicts. The spread is driven mainly by disagreeing share-count figures, not just price."
     },
     "float": {
       "value": null,
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 184500000,
-      "asOf": "2026-08-20",
-      "source": "equibles.com; up sharply from 170,980,000 shares in a July 2026 snapshot from the same aggregator — see conflicts"
+      "value": null,
+      "note": "Still not reconcilable — TipRanks 146,738,560 vs Google Finance ~158.25M vs equibles.com 184,500,000, none clearly dated to the same day; see conflicts."
     },
     "shortInterest": {
       "value": 13,
@@ -34,10 +33,10 @@
       "note": "not located in sources reachable this session"
     },
     "debt": {
-      "value": 92000000,
-      "asOf": "2026-09-01",
-      "source": "GoPro-Starman Optical merger agreement terms: Starman has agreed to fully repay GoPro's outstanding debt of $92 million at closing",
-      "note": "this is the debt balance referenced in the merger agreement, not a directly sourced 10-Q balance-sheet figure"
+      "value": 81600000,
+      "asOf": "2026-06-30",
+      "source": "GoPro FY2025 10-K/A and Q1/Q2 2026 10-Q/A restatement filings, dated 2026-10-19 (via news coverage)",
+      "note": "Short-term debt only, restated upward from $72.7M as previously reported, due to a non-cash warrant-liability and convertible-debenture valuation correction. Distinct from the separate ~$92M total debt that Starman Optical has agreed to repay in full at the merger's closing."
     },
     "pe": {
       "trailing": null,
@@ -85,14 +84,22 @@
     "nextEarnings": {
       "date": "2026-11-09",
       "confirmed": false,
-      "note": "on-file estimate; a separate equibles snapshot instead projected Nov 7, 2026 — see conflicts. Neither is company-confirmed."
+      "note": "Unchanged from prior pass; equibles.com separately estimates 2026-11-07. Neither is company-confirmed."
     }
   },
   "price": {
-    "last": 1.18,
-    "changePct": -0.8
+    "last": 1.16,
+    "changePct": -1.69,
+    "asOf": "2026-10-14"
   },
   "catalysts": [
+    {
+      "date": "2026-10-19",
+      "type": "restatement/regulatory",
+      "headline": "GoPro filed a preliminary proxy statement for the Starman Optical merger and simultaneously amended its FY2025 10-K and Q1/Q2 2026 10-Qs to correct non-cash accounting errors in a warrant liability (understated using too-short an expected term plus an illiquidity discount) and a convertible debenture's embedded conversion derivative. Corrections: FY2025 net loss restated to $92.6M (from $93.5M); H1 2026 net loss restated to $127.5M (from $131.8M); short-term debt at 2026-06-30 restated to $81.6M (from $72.7M). Revenue, gross margin, operating loss, cash and EBITDA are stated as unaffected. The restatement triggered a default/event of default under GoPro's credit facilities, convertible debentures and senior secured notes; the FY2025 10-K/A discloses GoPro was out of compliance with a 1.25x minimum asset-coverage ratio under its Farallon-agented credit agreement as of 2025-09-30 and 2025-12-31, with waivers subsequently obtained. Starman reiterated commitment to closing on the original terms.",
+      "impact": "No clear same-day stock reaction identified this session; the merger continues to be described as on track for a year-end 2026 close.",
+      "source": "https://s21.q4cdn.com/291350743/files/doc_news/GoPro-Files-Preliminary-Proxy-Statement-Proposed-Merger-with-Starman-Optical-on-Track-2026.pdf ; https://www.sec.gov/Archives/edgar/data/0001500435/000150043526000068/gpro-20251231.htm ; https://www.sec.gov/Archives/edgar/data/0001500435/000150043526000070/gpro-20260630.htm"
+    },
     {
       "date": "2026-09-10",
       "type": "price action",
@@ -159,17 +166,27 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding jumped from 170,980,000 (July 2026) to 184,500,000 (August 2026) per the same aggregator — a notable ~8% increase in a single month that was not independently explained (e.g., convertible-note conversion or new issuance) in sources checked this session.",
-    "Next earnings date: on-file 2026-11-09 vs. an equibles estimate of 2026-11-07 — neither is company-confirmed.",
-    "The SEC proxy filing disclosed earlier (July 2026) non-binding indications of interest from other parties ranging roughly $0.81 to $1.85 per share, well on either side of the final $1.14 cash (+0.1 share) terms that were ultimately signed — not a conflict in sources so much as a reminder that the deal price moved materially during negotiations."
+    "Market cap: Capital.com implies ~$103.82M (2026-07-16) vs Robinhood ~$121.31M at $0.66-$0.70 (2026-07-20) vs Yahoo Finance ~$109.78M at $0.595 (2026-08-14) vs equibles.com $117.14M at $0.62 (2026-08-20) vs CoinGecko $224.9M at $1.30 (undated). October price points found this session (~$1.16-$1.19, Oct 9-14) are roughly double the July/August prices, consistent with a real rally, but the unresolved share-count conflict below still prevents a reconciled market cap.",
+    "Shares outstanding: TipRanks 146,738,560 vs Google Finance ~158.25M vs equibles.com 184,500,000 — not reconciled to a single dated source this session; this is the same unresolved conflict flagged in the prior pass."
   ],
-  "pendingFilings": [
-    "PREM14A FY2026 (preliminary merger proxy statement for the Starman Optical transaction)",
-    "10-Q/A 2026 (period ended 2026-06-30)",
-    "424B3 prospectus supplements FY2026 (merger-related)"
-  ],
-  "notes": "The 'pending deal' referenced in the on-file catalyst is confirmed: it is GoPro's September 1, 2026 merger agreement with Starman Optical (a private optical-photonics company), structured as $1.14 cash plus 0.1 shares of the surviving company's stock per GoPro share, with Starman also repaying GoPro's ~$92M debt and existing GoPro holders retaining ~10% of the combined company. Expected close is by December 31, 2026, pending regulatory approval and a stockholder vote — it has not yet closed. Theme 'Consumer Hardware' remains a genuine fit for GoPro's core camera business; themeLabel is set to 'story stock' given the company is currently trading primarily on deal/M&A dynamics (cash value, working-capital adjuster, stockholder vote) rather than on its underlying (sharply declining) hardware fundamentals. Cash balance could not be established this session; WebFetch failed against SEC EDGAR and all other external sites attempted, and the WebSearch budget for this task batch was exhausted before a follow-up query could close this and several other gaps noted above.",
+  "pendingFilings": [],
+  "notes": "Renewed attempt made this pass to verify GPRO's numbers per standing instruction. Price is now reasonably corroborated in the $1.16-$1.19 range as of Oct 9-14, 2026 (up from ~$0.60-0.70 over the summer), and the restated short-term-debt figure ($81.6M as of 2026-06-30) is a solid new data point sourced to the company's own Oct 19 restatement filings. Market cap and shares outstanding remain genuinely unreconciled across sources even after additional search effort — this looks like real cross-aggregator data-quality variance rather than something resolvable without a single live, dated quote. The Oct 19 restatement/technical-default disclosure is the most important new development this pass and does not change the merger's own terms.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -256,22 +273,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
+      "1 new catalyst(s)",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
       "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

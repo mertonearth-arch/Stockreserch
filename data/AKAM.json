@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.408Z",
+  "lastResearched": "2026-10-23T21:20:23.110Z",
   "fundamentals": {
     "marketCap": {
       "value": 15510000000,
@@ -83,8 +83,19 @@
       "confirmed": false
     }
   },
-  "price": null,
+  "price": {
+    "last": 91.71,
+    "changePct": -8.23,
+    "asOf": "2026-10-14"
+  },
   "catalysts": [
+    {
+      "date": "2026-10-14",
+      "type": "price action",
+      "headline": "AKAM shares fell 8.23% to close at $91.71, the latest leg of a volatile Oct 9-14 stretch that also included a ~6% single-session drop on Oct 10; no specific company news event was identified as the cause in sources reviewed. A technical signal (50-day moving average crossing below the 200-day) occurred on Oct 5, per one technical-analysis source.",
+      "impact": "Continues a multi-week decline from the ~$107.91 level seen in late September",
+      "source": "https://finance.yahoo.com/quote/akam"
+    },
     {
       "date": "2026-09-24",
       "type": "contract",
@@ -105,6 +116,13 @@
       "headline": "Q2 2026 results: revenue $1.10B (+5% YoY); GAAP diluted EPS $0.52 (-27% YoY); non-GAAP diluted EPS $1.59 (-8% YoY); Cloud Infrastructure Services revenue +39-40% YoY; FY2026 guidance: revenue $4.445B-$4.530B (6-8% growth), non-GAAP EPS $6.40-$7.05",
       "impact": "mixed (revenue beat, EPS declined YoY)",
       "source": "https://www.stocktitan.net/news/AKAM/akamai-reports-second-quarter-2026-financial-go4rrb5pszzs.html"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "analyst action",
+      "headline": "HSBC downgraded Akamai to Hold from Buy and cut its price target to $123 from $171, citing weaker cloud infrastructure margins, slower earnings growth, and elevated capital spending (lowered valuation multiple to 17x estimated near-term EPS from 25x)",
+      "impact": "Shares fell in after-hours trading on the note, then rebounded roughly 5% the next session per one source",
+      "source": "https://www.barchart.com/story/news/3806556/hsbc-just-downgraded-akamai-technologies-stock-heres-why"
     },
     {
       "date": "2026-08-06",
@@ -136,16 +154,23 @@
     }
   ],
   "conflicts": [
-    "Theme on file ('Advanced Materials') is a clear mismatch — Akamai is a cloud/CDN/cybersecurity company with no advanced-materials business. Reassigned to 'Enterprise Software & Security' as the closest existing theme (security is now its largest reported segment at $604M/quarter), though this doesn't fully capture its legacy CDN/content-delivery business; a bespoke 'Cloud Infrastructure' theme could also be justified.",
-    "Stock move after the Sept 24, 2026 Anthropic deal: SiliconAngle reported shares 'jumped more than 20%' after-hours on Sept 24; Tikr reported shares up ~10% the next morning (~$120); Boston Globe reported the stock rose to an intraday high of $135 (vs. a $160 high from a May 2026 deal) but did not jump as much as in May. No single reconciled same-session percentage move was found.",
-    "Market cap varies widely by source/date in 2026, from ~$16.6B (Aug 19) to ~$23.3B (June, reflecting a much higher ~$160 share price before the September decline) to ~$15.51B (Sept 29) — these track a declining share price through the year rather than being inconsistent with each other.",
-    "Next earnings date: most calendar sites list Nov 5, 2026 (after close); TipRanks lists Nov 10, 2026. Neither was confirmed against Akamai's own investor-relations press release in this session.",
-    "Shares outstanding: 145.55M (AlphaQuery, quarter ended 3/31/26) vs. 143.59M (ROIC) — minor discrepancy, likely different as-of dates.",
-    "Short interest: 13.8% of float (~19.8M shares, Aug 19, 2026) vs. 12.8% (~18.2M shares, June 2026)."
+    "A separate search surfaced claims that AKAM rallied on a SpaceX spectrum-purchase announcement around Oct 9, 2026; a follow-up search found no actual reporting linking Akamai to that SpaceX deal (which involved Grain Management spectrum, unrelated telecom/wireless carriers). This claimed catalyst is NOT included above because it could not be corroborated and appears to be a search-aggregation error."
   ],
   "pendingFilings": [],
-  "notes": "Confirmed theme mismatch: Akamai is a cloud infrastructure / CDN / cybersecurity company, not an 'Advanced Materials' business — this looks like a data-entry error in the prior snapshot. Re-themed to 'Enterprise Software & Security' from the existing approved list; flagging that a new 'Cloud Infrastructure' theme might describe it even better given the large delivery/CDN and cloud-compute (Anthropic deal) components. Could not pin down FY2024/FY2025 annual EPS, a current total-debt figure, or a single reconciled percentage move for the Anthropic-deal stock pop — web search budget was exhausted and direct fetches to SEC EDGAR, Akamai IR, and most news sites were blocked in this sandbox before these could be resolved.",
+  "notes": "Price updated to the most recent dated close found ($91.71, 2026-10-14), down sharply from the $107.91 level (2026-09-29) already on file. Added a missing Aug-2026 HSBC downgrade catalyst. Could not confirm a specific cause for the Oct 14 drop or find any dated news after Oct 14; next earnings (Nov 5, 2026) and FY2024/FY2025 EPS remain as before.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "move -8.23%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -176,22 +201,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
+      "move -8.23%",
       "conflicts updated"
     ],
     "tradingDay": true

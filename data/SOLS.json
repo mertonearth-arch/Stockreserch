@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.407Z",
+  "lastResearched": "2026-10-23T21:20:23.124Z",
   "fundamentals": {
     "marketCap": {
       "value": 12550000000,
@@ -63,12 +63,14 @@
     "nextEarnings": {
       "date": "2026-11-04",
       "confirmed": false,
-      "note": "On-file record states the company itself announced this date on 2026-10-01, which would normally make this company-confirmed; that specific announcement could not be independently re-verified this session, so confirmed is left false."
+      "note": "Sources now actively disagree on which date is 'confirmed': TheRightTrader labels Nov 4, 2026 as company-confirmed, while TipRanks separately labels Nov 5, 2026 as 'Before Open (Confirmed)'; EarningsWhispers lists Oct 29, 2026 as an unconfirmed estimate. Left as unconfirmed here given the direct disagreement between two sources each claiming confirmation."
     }
   },
   "price": {
-    "last": 60.13,
-    "changePct": null
+    "last": 59.25,
+    "changePct": -1.12,
+    "asOf": "2026-10-16",
+    "source": "Chart-data aggregator (ChartRow-style snapshot); ~35% below the 52-week high of $90.80"
   },
   "catalysts": [
     {
@@ -126,13 +128,22 @@
     }
   ],
   "conflicts": [
-    "A single aggregator summary (surfaced via WebSearch, sourced to stockanalysis.com, which is egress-blocked in this sandbox) claims Solstice terminated a proposed ~$14.5 billion acquisition of Element Solutions and announced a new buyback plan. This could not be corroborated by any other source this session and looks suspect given Solstice's own reported market cap (~$12.55B, CNN) is smaller than the claimed deal size — flagged as unverified/possibly erroneous rather than reported as fact.",
-    "Market cap (~$12.55B, CNN, undated to the day) and FY2025 revenue (~$3.89B, stockanalysis.com summary) each rest on a single, not-independently-corroborated source and could not be cross-checked against a primary filing this session.",
-    "Several early-2026 analyst/corporate items (RBC upgrade to Outperform, UBS price target raised to $61, a planned $220M fiber-manufacturing investment) were found only with a vague 'January 2026' timeframe and no exact date, so per instructions they were excluded from the dated catalysts list."
+    "Next earnings date: TheRightTrader states Nov 4, 2026 is company-confirmed; TipRanks separately states Nov 5, 2026 is confirmed; EarningsWhispers shows Oct 29, 2026 as an estimate. These cannot all be correct simultaneously."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Advanced Materials' fits well and is confirmed — Solstice is a Honeywell spin-off (completed 2025-10-30) producing specialty materials for refrigerants, semiconductor manufacturing, data-center cooling, nuclear power, protective fibers, and healthcare packaging; themeLabel set to 'established' since the underlying businesses are mature (ex-Honeywell) franchises even though the standalone public company is less than one year old. Could not verify current market cap, float, short interest, cash, debt, EPS, or P/E from a primary source this session: WebFetch failed with DNS errors on every domain tested, SEC EDGAR was unreachable, and the WebSearch tool's shared quota was exhausted before dedicated follow-up searches could run. A claimed $14.5B Element Solutions acquisition/termination and buyback announcement could not be corroborated and is flagged as likely unreliable rather than reported as fact (see conflicts).",
+  "notes": "No new dated catalysts found beyond the Q2 2026 earnings (2026-07-30) and Element Solutions merger-termination/buyback (2026-08-28) items already on file. Price updated to a more recent ($59.25, 2026-10-16) dated snapshot, replacing the previously undated $60.13 figure. Market cap, float, short interest, cash, and debt remain unresolved from the prior pass.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -227,22 +238,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

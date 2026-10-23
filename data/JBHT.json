@@ -1,70 +1,73 @@
 {
   "ticker": "JBHT",
   "name": "J.B. Hunt Transport Services, Inc.",
-  "sector": null,
+  "sector": "Industrials",
   "theme": "Transportation & Logistics",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.419Z",
+  "lastResearched": "2026-10-23T21:20:23.133Z",
   "fundamentals": {
     "marketCap": {
-      "value": 26190000000,
-      "asOf": "2026-07-06",
-      "source": "equibles.com, at a $277.74 close",
-      "note": "stale — roughly 3.5 months old; no more recent figure could be obtained this session (WebFetch blocked, WebSearch budget exhausted)"
+      "value": 21210000000,
+      "asOf": "2026-10-06",
+      "source": "marketchameleon.com",
+      "note": "Down sharply from the prior pass's $26.19B (asOf 2026-07-06, at $277.74); the magnitude of this decline (~19%) is larger than the single-digit-percent price move disclosed around the 2026-10-15 Q3 earnings print, so this is flagged rather than fully reconciled -- see conflicts."
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately from shares outstanding in sources found"
+      "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
       "value": 94299203,
       "asOf": "2026-07-06",
       "source": "equibles.com",
-      "note": "stale, same snapshot as market cap above"
+      "note": "Unchanged from prior pass; stale"
     },
     "shortInterest": {
-      "value": null,
-      "note": "sources disagree on both magnitude and denominator for mid-July 2026 — see conflicts; no October figure found"
+      "value": 2700000,
+      "asOf": "2026-08-19",
+      "source": "Equibles aggregator -- 2.9% of float, ~2.3 days to cover",
+      "note": "A MarketBeat reading for 2026-07-15 showed 2,101,776 shares (~2.3% of shares outstanding, down 31.8% from June 30); denominators (float vs. shares outstanding) differ across sources and are not reconciled"
     },
     "cash": {
       "value": 4162000,
       "asOf": "2026-06-30",
       "source": "Q2 2026 10-Q balance sheet",
-      "note": "cash and cash equivalents; down from $17,284,000 at 2025-12-31"
+      "note": "Down from $17,284,000 at 2025-12-31"
     },
     "debt": {
       "value": 750000000,
       "asOf": "2026-06-30",
       "source": "Q2 2026 10-Q",
-      "note": "$750M of 4.90% senior notes due March 2030 (issued March 2025); the company's $700M of 3.875% senior notes matured in March 2026 and were paid in full at maturity. A third-party aggregator separately reports total debt of ~$1.3B based on the Q1 2026 filing, likely including finance leases not broken out here."
+      "note": "$750M of 4.90% senior notes due March 2030; the $700M of 3.875% senior notes due March 2026 were paid in full at maturity"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "company is profitable, but a current share price could not be obtained this session to compute a multiple (WebFetch to Yahoo/MarketWatch/SEC.gov all failed with DNS errors; WebSearch budget exhausted before a live quote could be found) — left null rather than guessed"
+      "note": "Company is profitable; a reliable current share price plus full trailing-quarter EPS breakdown were not both available to compute a defensible multiple this session",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
         "period": "FY2024",
-        "value": null,
+        "value": 5.56,
         "basis": "GAAP diluted",
-        "note": "not verified this session"
+        "note": "Per company's January 2026 Q4/full-year 2025 release (prior-year comparison)"
       },
       {
         "period": "FY2025",
-        "value": null,
+        "value": 6.12,
         "basis": "GAAP diluted",
-        "note": "not verified this session"
+        "note": "Full-year 2025 revenue $12.00B (-1%); operating income $865.1M (+4%); up 10% YoY from FY2024's $5.56"
       },
       {
         "period": "Q3 2026",
         "value": 1.82,
         "basis": "GAAP diluted",
-        "note": "vs $1.76 a year earlier; missed a $1.92 consensus estimate per one source, though a separate Zacks consensus of $1.89 was also cited pre-release"
+        "note": "vs $1.76 a year earlier; one source cites a $1.92 consensus (missed), another cites $1.89 consensus"
       }
     ],
     "revenue": [
@@ -94,16 +97,41 @@
       "period": "Q3 2026",
       "pct": 20
     },
-    "nextEarnings": null
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "No confirmed or estimated Q4 2026/FY2026 date found; FY2025 Q4 was reported 2026-01-15, so a mid-January 2027 report is a plausible but unconfirmed pattern"
+    }
   },
-  "price": null,
+  "price": {
+    "last": 225.93,
+    "changePct": null,
+    "asOf": "2026-10-06",
+    "source": "marketchameleon.com",
+    "note": "Most recent dated quote found; stale by ~17 days vs. 2026-10-23"
+  },
   "catalysts": [
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net earnings $172.4M ($1.82 diluted EPS) vs $170.8M ($1.76/share) a year earlier; revenue $3.68B (+20% YoY, +13% ex-fuel surcharge); operating income $247.1M (+2%), operating margin narrowed ~1.2pp to 6.7% on higher driver, insurance and group-medical costs; Intermodal and a return to profit in Integrated Capacity Solutions offset declines in Dedicated, Final Mile and Truckload; 9-month diluted EPS $5.21 vs $4.24; FY2026 capex target held at $700M",
+      "impact": "Shares fell intraday (reports range from roughly -2% to -5%)",
+      "source": "https://finviz.com/news/403321/jb-hunt-transport-services-inc-reports-us-gaap-revenues-net-earnings-and-earnings-per-share-for-the-third-quarter-2026"
+    },
     {
       "date": "2026-10-15",
       "type": "earnings",
       "headline": "Q3 2026 results: net earnings $172.4M ($1.82 diluted EPS) vs $170.8M ($1.76/share) a year earlier; revenue $3.68B (+20% YoY, +13% ex-fuel surcharge); operating income $247.1M (+2%), with the operating margin narrowing ~1.2pp to 6.7% on higher driver, insurance and group-medical costs; Intermodal and a return to profit in Integrated Capacity Solutions offset declines in Dedicated, Final Mile and Truckload; 9-month diluted EPS $5.21 vs $4.24; FY2026 capex target held at $700M",
       "impact": "shares fell intraday (reports range from roughly -2% to -5%)",
       "source": "https://finviz.com/news/403321/jb-hunt-transport-services-inc-reports-us-gaap-revenues-net-earnings-and-earnings-per-share-for-the-third-quarter-2026"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "guidance",
+      "headline": "Reportedly warned Q3 earnings could fall 5-10% year-over-year",
+      "impact": null,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-16-133949098.html",
+      "note": "Appears at odds with the actual Q3 2026 print (diluted EPS up 3.4% YoY, not down); kept on file rather than dropped -- see conflicts"
     },
     {
       "date": "2026-09-16",
@@ -121,13 +149,33 @@
     }
   ],
   "conflicts": [
-    "Market cap and shares outstanding are both from a 2026-07-06 snapshot (~3.5 months stale); an earlier same-aggregator reading on 2026-07-02 showed ~$26.95B, suggesting some intra-week movement even before the gap to October.",
-    "Short interest, mid-July 2026: MarketBeat reports 2,101,776 shares short as of July 15 (down 31.8% from the June 30 total), describing it as ~2.3% of shares outstanding with ~2.2 days to cover; Equibles separately shows 2.6M shares / 2.7% of float / 2.9 days to cover for early July — the two differ in both share count and denominator (float vs shares outstanding) and were not reconciled.",
-    "The on-file catalyst (2026-09-16, warning of a possible 5-10% Q3 earnings decline) appears to conflict with the actual reported Q3 2026 results (2026-10-15), which showed diluted EPS up 3.4% YoY rather than down — not independently reconciled this session; both are recorded rather than one being dropped."
+    "Market cap: $26.19B (asOf 2026-07-06, at $277.74) vs. $21.21B (asOf 2026-10-06, at $225.93) -- a ~19% decline between snapshots that is larger than the single-digit earnings-day price move disclosed for 2026-10-15, so part of this gap is unexplained/unreconciled rather than assumed to be a single news-driven move. No indication of a reverse split; flagged for data-quality awareness only.",
+    "Short interest, mid-2026: MarketBeat 2,101,776 shares (~2.3% of shares outstanding) as of 2026-07-15 vs. Equibles 2.7M shares (2.9% of float) as of 2026-08-19 -- different dates and denominators, not reconciled.",
+    "The on-file 2026-09-16 catalyst (warning of a possible 5-10% Q3 earnings decline) conflicts with the actual reported Q3 2026 results (2026-10-15), which showed diluted EPS up 3.4% YoY rather than down; not independently reconciled, both are recorded."
   ],
   "pendingFilings": [],
-  "notes": "Theme corrected from on-file 'Government IT & Defense Services' — a clear mismatch, since J.B. Hunt is a trucking/intermodal logistics company with no government IT or defense-services business. None of the fixed theme list fits a trucking/logistics name, so 'Transportation & Logistics' is used — this matches a theme string a prior PM pass already proposed for this same ticker (visible in its notes field) but which never made it into the committed `theme` field, likely lost in the documented 2026-08-30 to 2026-10-22 git-push outage; reusing it here for consistency rather than inventing a new near-duplicate string. themeLabel 'established' reflects JBHT's status as a large, mature, consistently profitable trucking/logistics company, in contrast to the catalyst-driven or speculative names elsewhere on this list. Cash and the $750M senior-notes debt figure come directly from the Q2 2026 10-Q (period ended 2026-06-30); a Q3 2026 10-Q with more current balance-sheet figures had likely not yet been filed/indexed as of this research pass. Market cap, shares outstanding, short interest, trailing/forward P/E and FY2024/FY2025 EPS could not be established or refreshed to a current date this session: WebFetch failed against every external site attempted (SEC EDGAR, Yahoo Finance, MarketWatch all returned DNS/connectivity errors in this sandbox), and the WebSearch budget for this task batch was exhausted before these gaps could be closed. No sourced estimate for the next (Q4 2026/FY2026) earnings date was found, so nextEarnings is left null rather than guessed at a 'typically mid-January' date with no direct support.",
+  "notes": "Theme 'Transportation & Logistics' remains the correct classification (trucking/intermodal logistics). FY2024 ($5.56) and FY2025 ($6.12) annual diluted EPS now confirmed directly from the company's own release, resolving the prior session's gap. Market cap, shares outstanding, short interest and a next-earnings date remain imprecisely dated/unconfirmed.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -157,15 +205,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "2 new catalyst(s)",
       "pe updated",
       "eps updated",
-      "revenue updated",
-      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
       "float updated",
       "sharesOutstanding updated",

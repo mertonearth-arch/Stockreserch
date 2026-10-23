@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.417Z",
+  "lastResearched": "2026-10-23T21:20:23.114Z",
   "fundamentals": {
     "marketCap": {
       "value": 18690000,
@@ -83,7 +83,7 @@
     "nextEarnings": {
       "date": "2026-11-10",
       "confirmed": false,
-      "note": "carried from prior snapshot; could not independently reconfirm this session (search budget exhausted before this could be checked)"
+      "note": "Unusual Whales independently lists the same Nov 10, 2026 date as an estimate, corroborating (but not company-confirming) the date already on file."
     }
   },
   "price": null,
@@ -145,12 +145,19 @@
     "Short interest: a Benzinga page shows 1.17% short interest and a $35.00M market cap at a $1.21 price with a 'June 11' date label, which does not reconcile with the ~$0.57-0.62 price range every other source shows for spring 2026 — this figure looks stale/mismatched and was excluded from the headline numbers.",
     "The 'most recent catalyst on file' (a 2026-09-24 restructured NXH deal with FICO-style >=$130M share contribution) is now superseded: the merger was terminated entirely on 2026-10-05, per multiple sources, with no deal of any structure currently pending."
   ],
-  "pendingFilings": [
-    "10-Q 2026-08 (Q2 FY2026, period ended 2026-06-30, going-concern disclosure)",
-    "8-K 2026-10-05 (mutual merger termination with Neighborhood Intelligence/NXH)"
-  ],
-  "notes": "Theme 'Distressed / Restructuring' fits well and is kept as-is: Fathom has disclosed going-concern doubt, a shrinking agent count, falling cash, and just walked away from (rather than closed) its merger. The single biggest update versus the on-file snapshot is that the NXH/Fathom deal did NOT progress to a vote — it was mutually terminated on 2026-10-05, with neither side paying a break fee. Web-search budget was exhausted before next-earnings-date and debt-balance figures could be independently reconfirmed; WebFetch could not reach SEC EDGAR or any IR/news site in this sandbox.",
+  "pendingFilings": [],
+  "notes": "No developments found beyond the Oct 5, 2026 mutual termination of the NXH/Fathom merger already on file; both companies appear to remain independent with no pending deal as of this pass. Price/share-count data found this session (Market Chameleon $0.68 as of 2026-09-03; Digrin $0.87 for July 2026) is stale relative to the file and was not used to update fundamentals. No October 2026 catalysts identified.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -181,23 +188,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

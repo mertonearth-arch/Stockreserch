@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.401Z",
+  "lastResearched": "2026-10-23T21:20:23.109Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -82,8 +82,9 @@
     }
   },
   "price": {
-    "last": 74.45,
-    "changePct": -4.3
+    "last": 75.17,
+    "changePct": 5.62,
+    "asOf": "2026-10-05"
   },
   "catalysts": [
     {
@@ -129,14 +130,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: Angel One $23.88B at $74.55 (2026-10-06) vs. DefiLlama $24.954B at $74.01 (undated) vs. Equibles ~$25.13B with 334.90M shares (snapshot data only current through Aug 2026).",
-    "Shares outstanding: Equibles shows 294,357,801 and 292,409,876 (undated, two different Equibles pages) vs. 334,898,565 (Equibles holdings page, undated) vs. 322,600,000 (MarketBeat, mid-2025).",
-    "Short interest: ~15.4M shares / 4.6% of float (undated) vs. 19,098,467 shares as of the 2026-04-30 settlement date.",
-    "Fiscal Q4 2026 GAAP EPS: $0.48 (Benzinga) vs. $4.62 (Beancount.io, attributing much of the gap to a $914M tax valuation-allowance release) — these cannot both be the same GAAP figure; not independently confirmed against Affirm's own shareholder letter this session."
+    "Price: ChartRow shows $70.77 (+0.48%) as of 2026-10-02 vs WealthAwesome's $75.17 (+5.62%) around 2026-10-05 -- both dated and plausible as a short rally, not reconciled to a precise Oct-22/23 close, which could not be found this session."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Fintech & Consumer Credit' is a genuine fit — Affirm is a BNPL/consumer-credit lender and this is its core business; keeping as-is. Data quality this session was limited by two sandbox constraints: (1) SEC EDGAR (www.sec.gov) is blocked by egress policy, so no 10-Q cover-page share count, balance sheet, or XBRL facts could be pulled; (2) the WebFetch tool failed with DNS/connectivity errors on every domain tried (SEC, Yahoo Finance, Reuters, StockTitan, Investing.com, even Wikipedia), so all data here comes from WebSearch result snippets only, and the web-search budget for this session was exhausted before AFRM-specific figures (market cap/shares/short interest/next-earnings confirmation) could be cross-checked further. The Oct 5 and Nov 5 dates are carried from the file as given and were not independently reconfirmed via a press release this session.",
+  "notes": "No material new news found for AFRM in this PM pass beyond what is already on file (Nov 5, 2026 next-earnings date; conflicting share-count and short-interest readings already captured). A slightly more recent dated price point (2026-10-05, $75.17) was found and is offered here, but no Oct-22/23 close could be confirmed, and cash/debt/shares-outstanding remain unresolved -- SEC EDGAR and most financial sites continue to be unreachable via WebFetch in this environment.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -234,22 +242,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

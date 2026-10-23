@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.409Z",
+  "lastResearched": "2026-10-23T21:20:23.127Z",
   "fundamentals": {
     "marketCap": {
       "value": 18000000,
@@ -72,7 +72,11 @@
       "confirmed": false
     }
   },
-  "price": null,
+  "price": {
+    "last": 1.24,
+    "asOf": "2026-10-07",
+    "note": "Delayed quote, carried over from the prior pass; no quote dated after 2026-10-07 was found. A secondary source (Crowdfunded Wealth) cites $1.43 for 2026-10-05, inconsistent with the $1.24 figure already on file for Oct 7 -- not reconciled."
+  },
   "catalysts": [
     {
       "date": "2026-10-07",
@@ -124,16 +128,21 @@
     }
   ],
   "conflicts": [
-    "IMPORTANT CORRECTION to data on file: the on-file record states Heppner's sentencing was scheduled for 2026-10-21 and asks whether it occurred. The actual scheduled date found in sources was 2026-10-07 (not 10-21), and that hearing was delayed indefinitely (not held) after his counsel withdrew. No sentencing has been confirmed to have occurred as of this session's research.",
-    "Next earnings date on file (2026-10-05) is confirmed stale/wrong — that date has passed with no evidence of a report; the company's last confirmed report was 2026-08-14 (fiscal Q1 2027), and the next is estimated around mid-November 2026 (Earnings Whispers: 2026-11-13; one other aggregator's 2026-10-05 estimate is the same stale date flagged on file).",
-    "Market cap: TipRanks shows $5.05M on 9,464,248 shares outstanding, which is inconsistent with the FY2026 10-K's 14.49M Class A + 0.03M Class B share count and looks stale/wrong; disregarded in favor of the 10-K figure.",
-    "Share price: most recent quote found is $1.24 (delayed, Oct 7, 2026), down from $3.05 in July 2026 and from a 52-week high of $12.48 — consistent with Beneficient's 1-for-8 reverse split (effective Dec 15, 2025) and a subsequent severe decline (~-83% YTD per one source); no quote later than Oct 7, 2026 was found."
+    "Heppner sentencing date/status remains unresolved and contradictory: this session's search again surfaced secondary coverage (of the Sept 23, 2026 debt-elimination announcement) stating sentencing 'was currently scheduled for October 21, 2026' -- matching the dashboard's original on-file date -- while the prior pass's primary source (InvestmentNews) said the actual hearing was set for Oct 7, 2026 and was delayed indefinitely after defense counsel withdrew. No source found this session confirms whether a sentencing hearing (on either date) actually occurred or its outcome, despite today (2026-10-23) being after both candidate dates."
   ],
-  "pendingFilings": [
-    "No definitive agreement finalizing the HCLP debt elimination / Heppner Class B rights restructuring has been confirmed as filed; company says it is still pursuing this on a consensual basis as of the Sept 23, 2026 announcement."
-  ],
-  "notes": "Theme 'Distressed / Restructuring' remains an excellent fit — ongoing going-concern-type issues, disputed debt, founder fraud conviction, and an active restructuring plan. The most consequential finding this session is that the Heppner sentencing date on file (Oct 21, 2026) does not match primary reporting (which points to an Oct 7, 2026 date that was itself postponed indefinitely) — this should be corrected and monitored for a new sentencing date. Cash and debt figures could not be pulled from the 10-Q this session because SEC EDGAR direct access was blocked in this sandbox and the web-search budget was exhausted before a full balance-sheet check could be completed.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-10-23: Heppner sentencing status is the key open item -- could not confirm whether/when sentencing occurred despite a targeted search for an October 2026 outcome; flag as a priority re-check for the next pass. No new restructuring-plan or earnings updates found beyond what's already on file (Sept 23 debt-elimination strategy, Aug 14 Q1 FY2027 earnings). Next earnings date remains only an unconfirmed Earnings Whispers estimate (2026-11-13).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -165,23 +174,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

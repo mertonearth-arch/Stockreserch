@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.404Z",
+  "lastResearched": "2026-10-23T21:20:23.113Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -21,9 +21,9 @@
       "note": "Not retrieved this session; see marketCap note."
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; see marketCap note."
+      "value": 166000000,
+      "asOf": "2026-09-25",
+      "source": "PitchBook"
     },
     "shortInterest": {
       "value": null,
@@ -72,7 +72,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": null
+      "confirmed": false,
+      "note": "Unusual Whales lists Nov 5, 2026; Earnings Whispers instead lists Nov 9, 2026 after market close — not reconciled."
     }
   },
   "price": null,
@@ -118,12 +119,24 @@
     }
   ],
   "conflicts": [
-    "Q2 2026 EPS: $0.15/share GAAP per the company's own release (and the figure Barchart's recap used) vs. $0.11/share cited by Zacks-based coverage and Google Finance against a $0.07 estimate — the $0.15 figure was treated as primary since it traces to the company release.",
-    "Exact Q2 2026 earnings release date: some outlets list August 6, 2026, others August 10, 2026 — not resolved to a single date this session."
+    "Market cap/price: PitchBook shows ~$2.23B at $13.42/share (2026-09-25) vs a Benzinga quote of $19.12, down 2.15% (2026-10-16) vs DefiLlama $3.188B at $19.12 (undated) vs equibles.com ~$1.97B at $11.78/share (undated) — not reconciled; the $19.12 figure appears via two independent sources on different dates but does not fit the ~$13-14 range most other sources show for September 2026.",
+    "Short interest: Fintel ~11.87% of float / 17.99M shares (undated) vs equibles.com 14.0M shares / 5.5 days to cover (undated summary) vs an equibles settlement-history point of 11.12M shares as of 2026-03-13 — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Consumer Apparel & Retail' is a genuine fit — FIGS designs and sells direct-to-consumer medical apparel (scrubs); keeping as-is. themeLabel set to 'story stock' given the large guidance raise and ~25-28% single-day stock reaction tied to the Q2 print. Fundamentals (market cap, float, shares outstanding, short interest, cash, debt) could not be established this session: an early search attempt was rate-limited, and the remaining session's web-search budget was exhausted (a hard, session-wide limit) before a retry could be made, and the WebFetch tool failed with connectivity errors on every domain attempted (including SEC EDGAR, Yahoo Finance, Investing.com, StockTitan). The Oct 12 catalyst is carried from the file as given and was not independently verified.",
+  "notes": "Market cap and a single reconciled next-earnings date could not be established this session. No new dated catalysts beyond what is already on file were found for FIGS.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -154,22 +167,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

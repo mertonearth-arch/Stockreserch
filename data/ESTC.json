@@ -8,65 +8,63 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.415Z",
+  "lastResearched": "2026-10-23T21:20:23.133Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
       "asOf": null,
-      "source": null,
-      "note": "Extreme dispersion across 2026 snapshots (see conflicts) consistent with a large re-rating in the stock; no current (2026-10-22) figure confirmed -- stockanalysis.com and google.com are egress-blocked and all other WebFetch attempts failed with DNS errors this run."
+      "note": "No current figure confirmed; see conflicts (prior pass)"
     },
     "float": {
       "value": null,
       "asOf": null,
-      "note": "Not disclosed separately from shares outstanding in sources found"
+      "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
       "value": 103951633,
       "asOf": null,
       "source": "Equibles aggregator snapshot",
-      "note": "Multiple sources converge near ~103.95M, but this was not independently confirmed against the Q1 FY2027 10-Q cover page (period ended 2026-07-31), which could not be fetched in this sandbox."
+      "note": "Unchanged from prior pass"
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "Not found in sandbox search (WebSearch budget exhausted before this could be queried)"
+      "note": "Not found"
     },
     "cash": {
       "value": 1461000000,
       "asOf": "2026-07-31",
-      "source": "Elastic Q1 FY2027 earnings release / 10-Q (period ended 2026-07-31) -- cash, cash equivalents, and marketable securities",
-      "note": "A separate third-party source (Quiver Quant) cites cash and cash equivalents alone (narrower line item) at $881.8M for the same period -- not necessarily contradictory, just a different subtotal; see conflicts."
+      "source": "Elastic Q1 FY2027 earnings release / 10-Q -- cash, cash equivalents, and marketable securities"
     },
     "debt": {
       "value": null,
       "asOf": null,
-      "note": "Could not confirm a current-period figure. Last figure located in search results is long-term debt, net of ~$568.9M from the July 2024 10-Q (convertible notes), which is almost certainly outdated by the 2026-07-31 period and is not reported as a current figure."
+      "note": "Not confirmed for a current period"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing: Elastic has historically reported GAAP net losses (heavy stock-based compensation); TTM GAAP EPS sign/value could not be confirmed in this sandbox, so trailing P/E is left null rather than assumed. Forward: FY2027 non-GAAP EPS guidance of $3.29-$3.37 was confirmed, but no current share price could be confirmed to compute a forward multiple.",
-      "asOf": "2026-10-22"
+      "note": "Mixed GAAP results: FY2026 GAAP diluted EPS of $3.43 was inflated by a ~$435M one-time tax-valuation-allowance release, while Q1 FY2027 showed a GAAP net loss of -$16.7M (-$0.16/sh); current trailing-twelve-month EPS sign/value not established this session, so left null rather than guessed",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
-        "period": "FY2026",
-        "value": null,
+        "period": "FY2025 (ended Apr 2025)",
+        "value": -1.04,
         "basis": "GAAP",
-        "note": "not found in sandbox search"
+        "note": "Third-party TTM figure (Fintel, as of 2026-04-30), not independently confirmed against Elastic's own FY2025 annual filing"
       },
       {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not found in sandbox search"
+        "period": "FY2026 (ended Apr 2026)",
+        "value": 3.43,
+        "basis": "GAAP diluted",
+        "note": "Includes a ~$435M one-time income tax benefit from release of a deferred-tax valuation allowance; non-GAAP diluted EPS was $2.57. GAAP operating result was a loss of $33M (operating margin -2%)"
       },
       {
         "period": "Q1 FY2027 (ended 2026-07-31)",
         "value": 0.7,
         "basis": "non-GAAP",
-        "note": "Beat consensus estimate of $0.58 by $0.12, per search results"
+        "note": "Beat $0.58 consensus; GAAP result for the quarter was a net loss of -$16.7M (-$0.16/sh)"
       }
     ],
     "revenue": [
@@ -84,14 +82,23 @@
     "nextEarnings": {
       "date": "2026-11-19",
       "confirmed": false,
-      "note": "Figure is an estimate based on prior-year reporting schedule per search results, not a company-confirmed date as of this research pass"
+      "note": "Widely cited analyst/platform estimate based on prior-year cadence; not company-confirmed as of this pass"
     }
   },
   "price": {
     "last": 92.3,
-    "changePct": null
+    "changePct": null,
+    "asOf": null,
+    "note": "Carried from prior pass; not independently reverified this session. Most recent cleanly-dated figure found this session was $58.68 on 2026-07-24 (Coinglass); a rise to ~$92 by October is directionally plausible given the Aug 27 earnings pop but is not confirmed for 2026-10-23."
   },
   "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q1 FY2027 results: revenue $478.1M (+15% YoY), non-GAAP EPS $0.70 (beat $0.58 consensus); GAAP net loss -$16.7M (-$0.16/sh); operating cash flow $132M, adjusted FCF $143M; raised FY2027 non-GAAP EPS guidance to $3.29-$3.37 and revenue guidance to $1.998B-$2.010B; set Q2 FY2027 guidance of $486M-$487M revenue (~+15% YoY) and $0.80-$0.82 non-GAAP EPS",
+      "impact": "Stock jumped ~19-24% on the print",
+      "source": "https://www.sahmcapital.com/news/content/elastic-stock-jumps-after-q1-earnings-beat-fiscal-2027-guidance-raise-2026-08-28"
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -128,15 +135,35 @@
     }
   ],
   "conflicts": [
-    "Market cap across 2026 snapshots: Google Finance ~$6.13B at $58.97 (June), ~$6.47B at $62.14 (asOf 2026-07-21), ~$10.25B at $97.55 (asOf 2026-08-31); Tickerleague reports $6.97B with no date given; TipRanks' $9.25B appears to be a stale 2025 figure. The spread implies a large price move across the year but no current (Oct 2026) figure could be confirmed.",
-    "Cash at 2026-07-31: earnings release/10-Q figure of $1.461B (cash+cash equivalents+marketable securities) vs Quiver Quant's narrower $881.8M (cash and cash equivalents only) -- likely different subtotals of the same balance sheet rather than a true conflict, but both are reported since the underlying line-item definitions could not be confirmed against the primary filing text.",
-    "FY2027 EPS guidance raise: one source states the prior non-GAAP EPS range was $3.21-$3.29 (making the new $3.29-$3.37 range a raise); another states revenue guidance was merely maintained rather than raised. Both cannot be fully reconciled from the search snippets alone."
+    "Market cap across 2026 snapshots ranged roughly $6.1B-$10.25B at prices from ~$59 to ~$98 (per prior pass); no 2026-10-23 figure confirmed this session either.",
+    "FY2026 GAAP EPS ($3.43) looks anomalously strong relative to Elastic's historical losses -- driven by a one-time ~$435M tax benefit, not operating performance; do not read as an operating-profitability signal."
   ],
   "pendingFilings": [
     "10-Q Q1 FY2027 (period ended 2026-07-31)"
   ],
-  "notes": "Theme 'Enterprise Software & Security' fits well -- search/observability/security platform vendor. themeLabel set to 'hot sector' given the dramatic 2026 share-price re-rating (roughly $59 to $98 across the snapshots found) consistent with AI/search-infrastructure enthusiasm, though this could also be read as 'established' given Elastic's long operating history; noted here for the dashboard maintainer's judgment. Debt and short interest could not be established, and the next-earnings date (2026-11-19) remains unconfirmed by the company itself, because SEC EDGAR and most finance/aggregator domains were unreachable via WebFetch/curl in this sandbox, and the WebSearch tool's per-turn budget was exhausted before these gaps could be closed.",
+  "notes": "Theme 'Enterprise Software & Security' fits well. FY2026 and FY2025 annual EPS added this pass, with the FY2026 figure flagged as tax-benefit-driven rather than organic profitability. Market cap and a confirmed current price remain unresolved; next-earnings date (2026-11-19) remains an unconfirmed estimate.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -233,15 +260,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
       "pe updated",
       "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
       "float updated",

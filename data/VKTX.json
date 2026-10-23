@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T05:30:01.923Z",
+  "lastResearched": "2026-10-23T21:20:23.109Z",
   "fundamentals": {
     "marketCap": {
       "value": 2900000000,
@@ -26,9 +26,9 @@
       "note": "stockanalysis.com: 116.65M; equibles.com gave 116,105,643 (slightly different date/filing) — see conflicts"
     },
     "shortInterest": {
-      "value": 20,
-      "asOf": "2026-08-19",
-      "note": "Sources range 19.3%-20.66% in Aug 2026 snapshots; no September/October 2026 figure found"
+      "value": 20.2,
+      "asOf": "2026-08-14",
+      "note": "FINRA settlement-date figure (~22.3M shares short, ~13.3 days to cover), described by one aggregator as 'declining -- bullish' from ~24.3M shares in February 2026. Broadly consistent with the 19.3%-20.66% range already on file for Aug 2026; no September/October 2026 figure found."
     },
     "cash": {
       "value": 125.961,
@@ -76,7 +76,7 @@
     "nextEarnings": {
       "date": "2026-10-28",
       "confirmed": true,
-      "note": "Company's own announcement, issued 2026-10-21: Q3 2026 results after market close Wed Oct 28, conference call 4:30pm ET. Corrects the prior unconfirmed 2026-10-26 estimate on file."
+      "note": "Reconfirmed via company's own 2026-10-21 announcement (already on file from the AM pass). Third-party consensus for the print: analyst estimates range from a loss of ~$1.00 to ~$1.12/share (EarningsWhispers, Benzinga, HC Wainwright -- the latter dated 2026-07-30 and likely stale); none of these is a company figure."
     }
   },
   "price": null,
@@ -131,8 +131,19 @@
     "Next earnings date: AJ Bell listed Oct 22, 2026 (today, with no corroborating news found); Earnings Whispers listed Oct 26, 2026; chartrow/Right Trader/Digrin listed Oct 28, 2026. None is a confirmed company announcement found in this session."
   ],
   "pendingFilings": [],
-  "notes": "AM pass 2026-10-23: no other overnight news found.",
+  "notes": "No material new company news found beyond the AM pass (2026-10-23) already on file. This PM pass mainly reconfirms the Oct 28 earnings date and adds a slightly more precise, similarly-dated short-interest reading; cash, debt and FY2024/FY2025 EPS remain unestablished.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-23",
       "run": "am",
@@ -182,11 +193,11 @@
   },
   "lastPass": {
     "date": "2026-10-23",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated"
+      "nextEarnings updated",
+      "shortInterest updated"
     ],
     "tradingDay": true
   }

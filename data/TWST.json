@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.433Z",
+  "lastResearched": "2026-10-23T21:20:23.125Z",
   "fundamentals": {
     "marketCap": {
       "value": 9130000000,
@@ -88,10 +88,15 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No company-issued date found. Third-party estimate sites disagree: Earnings Whispers shows both Nov 2, 2026 and Nov 20, 2026 on different pages of the same site; Bullstory shows Nov 12, 2026 and labels it 'verified' (unconfirmed by us). Fiscal Q4 FY2025 was reported in mid-November 2025, suggesting a mid/late-November 2026 report is likely but not confirmed."
+      "note": "Still unconfirmed; conflicting third-party estimates persist (Nov 2 / Nov 12 / Nov 20, 2026). No company-issued date found."
     }
   },
-  "price": null,
+  "price": {
+    "last": 148.69,
+    "changePct": -1.74,
+    "asOf": "2026-10-14",
+    "note": "Single aggregator dashboard snapshot, not independently cross-checked; no quote dated 2026-10-23 was found this session."
+  },
   "catalysts": [
     {
       "date": "2026-09-16",
@@ -108,6 +113,13 @@
       "source": "https://www.businesswire.com/news/home/20260916492399/en/Twist-Bioscience-Joins-Lilly-TuneLab-to-Advance-Antibody-Drug-Discovery"
     },
     {
+      "date": "2026-08-04",
+      "type": "offering/dilution",
+      "headline": "Priced upsized $300.0M public offering of common stock: 3,125,000 shares at $96.00/share; underwriters granted a 30-day option for up to 468,750 additional shares; closing expected 2026-08-06",
+      "impact": "Dilutive financing to fund R&D, manufacturing-capacity expansion and working capital",
+      "source": "https://www.businesswire.com/news/home/20260804240316/en/Twist-Bioscience-Announces-Pricing-of-Upsized-%24300.0-Million-Public-Offering-of-Common-Stock"
+    },
+    {
       "date": "2026-08-03",
       "type": "earnings",
       "headline": "Fiscal Q3 2026 results: record revenue $118.4M (+23% YoY, beat $114.6M consensus); GAAP net loss $35.1M / -$0.56 EPS (vs. $0.18 loss consensus); cash & short-term investments ~$167M; FY2026 revenue guidance raised to $456-457M",
@@ -119,11 +131,20 @@
     "Short interest: 22.4% of float / 14.1M shares (2026-08-21, equibles) vs 28.4% of float / 17.7M shares (2026-07-02, equibles) -- directionally consistent with a rising share price reducing % of float short, not necessarily contradictory, but both are single-aggregator figures not cross-checked against FINRA.",
     "Market cap: $9.13B (2026-08-21) vs $6.18B (2026-07-02), same source -- reflects a large price move (~$99 to ~$145) rather than a data conflict, but neither is dated to October 2026."
   ],
-  "pendingFilings": [
-    "Fiscal Q4 FY2026 8-K earnings release expected Nov 2026 (exact date unconfirmed)"
-  ],
-  "notes": "MISMATCH flagged: 'Advanced Materials' does not fit. Twist Bioscience manufactures synthetic DNA (silicon-based synthesis platform) for gene synthesis, NGS library prep, and biopharma antibody/protein discovery (incl. supplying data to Eli Lilly's TuneLab AI drug-discovery initiative). Of the existing theme list, 'Biotech Catalyst' is the closest but implies single binary FDA-style catalysts, which doesn't match Twist's recurring-revenue platform-and-volume-growth story. Proposing a new theme: 'Synthetic Biology & Life Science Tools'. Could not independently re-verify the 2026-09-16 Eli Lilly TuneLab item this session (WebSearch budget for the session was exhausted before a targeted query could run); treat that single catalyst as carried over from the prior unverified snapshot pending confirmation. SEC EDGAR and most IR/press sites were unreachable via WebFetch in this sandbox; figures are WebSearch-tool-summarized from secondary sources (GenomeWeb, RTT News, Nasdaq.com articles, MarketBeat, Earnings Whispers, equibles.com) rather than primary 10-Q/8-K text.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-10-23: no company news found dated after the 2026-09-16 Lilly TuneLab partnership already on file. Newly found and added: an Aug 4, 2026 $300M upsized stock offering (3,125,000 shares @ $96) that was missing from the prior catalyst list. No October 2026 earnings-date confirmation or market-cap update was found this session; fundamentals otherwise unchanged from the prior pass.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -155,24 +176,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

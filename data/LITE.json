@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.420Z",
+  "lastResearched": "2026-10-23T21:20:23.119Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -19,8 +19,8 @@
       "note": "not found in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not found in sources reachable this session"
+      "value": 77800000,
+      "note": "Most consistent figure across sources (Google Finance, equibles.com); Fintel shows 71.70M and Simply Wall St shows 90.58M as outliers not reconciled this session."
     },
     "shortInterest": {
       "value": null,
@@ -96,7 +96,12 @@
       "note": "company-announced reporting date for Q1 FY2027 results, after market close, call at 2:00pm PT / 5:00pm ET; a GuruFocus aggregator separately lists an estimated Nov 4, which should be disregarded in favor of the company-confirmed date"
     }
   },
-  "price": null,
+  "price": {
+    "last": 1045.78,
+    "changePct": 7.67,
+    "asOf": "2026-10-01",
+    "note": "Sourced from a Chinese-language aggregator (stock.10jqka.com.cn); direction is corroborated by a Yahoo Finance history snapshot showing a $988.98 close on 2026-09-09, a dip to $845.09 on 2026-09-14, and renewed upward momentum into early October. LITE genuinely trades in four figures per share (no stock split found this session) — this is a very high-priced but real quote, not a reverse-split artifact."
+  },
   "catalysts": [
     {
       "date": "2026-10-05",
@@ -128,14 +133,23 @@
     }
   ],
   "conflicts": [
-    "FY2026 GAAP Q4 diluted EPS: the company's own press release states -$84.65; a third-party aggregator (OpenCapital) instead shows -$95.55 for the same period — not reconciled.",
-    "Debt: only a single, unverified third-party figure (~$1.7B, OpenCapital) was found this session; it could not be checked against the FY2026 10-K balance sheet (WebFetch to SEC EDGAR failed)."
+    "Market cap: Motley Fool ~$65.16B at ~$833/share (late July 2026) vs Finhacker ~$51.19B (2026-07-31) vs Google Finance ~$63.84B (~2026-08-11) vs Robinhood ~$59.52B at $803.25 (2026-07-21, which itself implies ~74.1M shares, inconsistent with the 77.8M figure used above) — not reconciled.",
+    "Analyst price target: the file already records a Deutsche Bank Buy rating with a $1,200 target (2026-09-16); a separate Yahoo Finance headline found this session attributes a $1,200 price-target raise to Jefferies in coverage of LITE hitting an all-time high, with no clear date given — this may be a second, independent analyst action or a sourcing mix-up; not reconciled."
   ],
-  "pendingFilings": [
-    "Proxy statement filed 2026-10-06 (shareholder voting / governance matters)"
-  ],
-  "notes": "Theme 'AI Semiconductors' is kept — Lumentum makes optical/photonic components (lasers, transceivers, co-packaged-optics parts) rather than semiconductors in the strict sense, but it is tightly integrated into the same AI-datacenter-interconnect supply chain this theme is used for elsewhere in the system (e.g. TER, MRVL), so it is treated as a reasonable fit rather than a mismatch. themeLabel 'hot sector' reflects management's own characterization of optoelectronics demand as sold out through roughly 2029, a reported multi-hundred-million-dollar co-packaged-optics order deliverable in H1 2027, and a joint PCIe-over-optics demo with Astera Labs and Corning said to be planned for the 2026 OCP Global Summit (exact date not confirmed this session, so left out of the dated catalysts list per the 'every catalyst needs a date' rule). Market cap, float, shares outstanding and short interest could not be established this session: WebFetch failed against every external site attempted (SEC EDGAR, Yahoo Finance, StockTitan, MarketWatch all returned DNS/connectivity errors in this sandbox), and the shared WebSearch budget for this task batch was exhausted before these specific queries could be run for LITE.",
+  "pendingFilings": [],
+  "notes": "Market cap, float and short interest remain unestablished to a single reconciled figure. CMB International reportedly kept a Buy rating and raised its target to $1,230 (specific date not established this session).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -167,23 +181,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

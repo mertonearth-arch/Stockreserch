@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.424Z",
+  "lastResearched": "2026-10-23T21:20:23.137Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
       "asOf": null,
-      "note": "Only a share price was found (~$138.07 as of 2026-10-01, source: startuprise.co.uk aggregation), with no confirmed shares-outstanding figure to multiply against this session, so market cap itself is left null rather than computed from an unverified share count."
+      "note": "See price note. Dated reference points: ~$414.24B (2026-08-19, Google Finance) vs ~$405.11B (undated, Motley Fool, publicly-traded-shares basis only)."
     },
     "float": {
       "value": null,
@@ -21,9 +21,10 @@
       "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": null,
+      "value": 2880000000,
       "asOf": null,
-      "note": "not retrieved this session"
+      "source": "Motley Fool (undated aggregator snapshot); TipRanks separately notes share count down ~2.65% YoY (buybacks)",
+      "note": "Not cross-checked against Oracle's 10-Q cover page this session; treat as approximate."
     },
     "shortInterest": {
       "value": null,
@@ -79,7 +80,12 @@
       "note": "Carried over from the prior dashboard record; could not independently confirm via Oracle investor relations this session."
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "No single reliable NYSE quote for 2026-10-23 could be established. Dated snapshots found this session: $143.81 (2026-08-19, Google Finance, implied market cap $414.24B) and an undated Motley Fool reading of $140.69 ($405.11B cap, 'publicly traded shares only'). Other undated aggregator reads ranged from $145.74 to $159.27 and could not be pinned to a date, so no current price is reported."
+  },
   "catalysts": [
     {
       "date": "2026-10-18",
@@ -135,21 +141,28 @@
       "note": "Secondary reporting on the FY2026 10-K; exact filing date not pinned down (annual report would have been filed mid-2026) and not independently fetched this session."
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [
-    {
-      "item": "Oracle Investor Day",
-      "expectedDate": "2026-10-28",
-      "note": "Las Vegas; expected to detail long-term AI-infrastructure capex plans per preview coverage (Morningstar). Has not yet occurred as of this report (2026-10-22)."
-    },
-    {
-      "item": "Next earnings (FQ2 FY2027)",
-      "expectedDate": "2026-12-14",
-      "note": "Carried from prior record; not independently confirmed by the company this session."
-    }
+  "conflicts": [
+    "FY2027 capex guidance is reported two different ways across sources: a 'project net cash outlay' figure of ~$70B vs. a separate gross capex guide of $90-95B; one analysis suggests actual capex could run $20-25B above the net-cash-outlay headline. Not reconciled this session."
   ],
-  "notes": "Theme on file ('Advanced Materials') is a clear mismatch -- Oracle is an enterprise software / database / cloud-infrastructure company, not a materials company. Reassigned theme to 'Enterprise Software & Security' (the closest genuine fit among the existing theme strings); 'AI Semiconductors' was considered but rejected because Oracle does not design or manufacture chips -- it is a large buyer/consumer of AI compute and a cloud provider, which is a materially different business model. themeLabel set to 'hot sector' given the scale of current AI-datacenter capex/financing news driving the stock narrative, despite Oracle being a long-established company. This record's core valuation/EPS/balance-sheet fields could not be filled this session: SEC EDGAR, Oracle's investor-relations site and stocktitan.net were all unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain tried), and the session's shared WebSearch budget was exhausted before the FQ1 FY2027 earnings print (reported ~Sept 2026) and current balance-sheet figures could be independently retrieved. The 93% OCI growth figure and the FY2026 capex/RPO/lease figures above are the most substantive items this session could establish and should be cross-checked against Oracle's actual 10-K/earnings release in a follow-up pass.",
+  "pendingFilings": [
+    "Oracle Investor Day at AI World, Las Vegas, expected 2026-10-28 (has not yet occurred as of 2026-10-23); expected to detail long-term AI-infrastructure capex plans",
+    "Next earnings (FQ2 FY2027) ~2026-12-14, not independently confirmed this session"
+  ],
+  "notes": "No material new dated catalysts found beyond what is already on file (Investor Day 10/28 still pending, FY2026 capex/RPO disclosures, Sept 12-14 insider/selloff items). This session could not establish a dated current price, market cap, cash, debt, or EPS figure via WebSearch; sec.gov/IR sites remain unreachable via WebFetch in this sandbox. Re-verify after the 2026-10-28 Investor Day.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -180,23 +193,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "new filing(s)",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

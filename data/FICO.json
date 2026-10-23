@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.416Z",
+  "lastResearched": "2026-10-23T21:20:23.107Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -40,8 +40,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "FY2025 (ended 2025-09-30) GAAP diluted EPS was $26.54, but a true TTM EPS matching the current (post-crash) share price could not be confirmed this session; no verified forward estimate found either",
-      "asOf": "2026-10-22"
+      "note": "Still not computable with confidence -- no reconciled current share price alongside a verified TTM EPS this session.",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
@@ -88,6 +88,13 @@
   "price": null,
   "catalysts": [
     {
+      "date": "2026-10-19",
+      "type": "price action",
+      "headline": "FICO shares reported up roughly 16% over the week of Oct 12-19, 2026 to about $771, with 'no clear new catalyst' identified by the source; a partial rebound from the Sept 29, 2026 FHFA/VantageScore-driven crash (close $617.87)",
+      "impact": "Partial recovery, but price target cuts across Wall Street in the same window per the source",
+      "source": "https://www.tikr.com/blog/fico-stock-rose-16-last-week-with-no-news-the-streets-targets-fell-18"
+    },
+    {
       "date": "2026-09-29",
       "type": "regulatory/competitive",
       "headline": "FHFA (under Trump administration direction) and HUD green-light a single, unified Fannie Mae/Freddie Mac loan-level pricing grid covering both Classic FICO and VantageScore 4.0, removing the prior 20-point downward score adjustment VantageScore carried; ends FICO's structural mortgage-scoring pricing advantage. Classic FICO remains required for manually underwritten loans; FICO 10T is not yet approved for GSE delivery.",
@@ -128,6 +135,13 @@
       "source": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454726000031/exhibit991erq32026.htm"
     },
     {
+      "date": "2026-06-08",
+      "type": "buyback/financing",
+      "headline": "FICO announced a new $2.0 billion stock repurchase authorization (replacing remaining capacity under a prior $1.5B program), a new $1.5B incremental term loan (credit agreement amendment dated 2026-06-05), and an accelerated share repurchase (ASR) agreement with Wells Fargo Securities; initial ASR delivery of ~1,055,100 shares; ASR expected to complete by FY2026 year-end (2026-09-30)",
+      "impact": "Capital-return/financing event; not previously captured on file",
+      "source": "https://investors.fico.com/news-releases/news-release-details/fico-announces-new-stock-repurchase-authorization-new-term-loan"
+    },
+    {
       "date": "2026-04-28",
       "type": "earnings",
       "headline": "Q2 FY2026 results: revenue $692M (+38.7% YoY, vs $499M PY); GAAP net income $264.5M / EPS $11.14 (vs $162.6M/$6.59 PY); non-GAAP EPS $12.50 (vs $7.81 PY)",
@@ -141,16 +155,23 @@
     }
   ],
   "conflicts": [
-    "Market cap: Trade-Ideas showed $14.3B at a $662 share price (2026-10-02), but that implies ~21.6M shares, while the same aggregator's share-count pages show ~23.2-23.7M shares outstanding (implying ~$15.4-15.7B at that price) — the market cap and share count figures from this source are internally inconsistent.",
-    "Market cap (time series, not a true conflict but a large unreconciled gap): an Aug 19, 2026 Equibles snapshot showed ~$25.15B market cap, consistent with the pre-crash price before the 2026-09-29 FHFA/VantageScore news cut the stock ~27%.",
-    "Short interest: Options Analysis Suite reported 1.6M shares short as of the Apr 30, 2026 FINRA settlement date; Equibles separately reported short interest at 8.58% of float and falling month-over-month; Trade-Ideas (Oct 2026) says short interest is rising month-over-month but gives no percentage. These three readings disagree on both direction and magnitude, and none is clearly the most current.",
-    "Next earnings date: on-file snapshot listed 2026-11-11; this session's sources (unusualwhales, nextearningsdate.com, therighttrader) converge on 2026-11-04, but all are explicitly unconfirmed/projected, not company-announced."
+    "Post-crash price trajectory is only loosely reconstructed from non-dated or weekly-reference snapshots: ~$617.87 (confirmed close, 2026-09-29) vs ~$719.63 (an unlabeled source citing 2026-10-14) vs ~$771 (TIKR weekly reference, week of 2026-10-19). None of these conflict outright (they are a plausible recovery sequence) but none should be treated as a precise, sourced current quote."
   ],
-  "pendingFilings": [
-    "8-K 2026-07-29 (Q3 FY2026 earnings release, exhibit 99.1)"
-  ],
-  "notes": "Theme corrected from on-file 'Consumer Hardware' (clear mismatch — FICO sells analytics/scoring software and B2B credit-risk decisioning services, not hardware) to 'Fintech & Consumer Credit', which is an existing theme string in the system and fits FICO's core mortgage/credit-scoring business well. Also found: TransUnion is reportedly charging ~$0.99/score for VantageScore 4.0 to mortgage lenders vs. FICO's ~$10/score fee for 2026, and FICO reportedly imposed a 2x B2B mortgage-score price increase for 2026 (per an Equifax newsroom statement) — both relevant to the competitive-threat narrative but no precise date was confirmed for either in this session, so they are noted here rather than listed as dated catalysts. Web-search budget for this task batch was exhausted partway through research (a shared 200-call/turn limit across parallel research agents), and WebFetch could not reach any external site in this sandbox (SEC EDGAR, investor-relations pages, Yahoo Finance, StockTitan, BusinessWire, and Reuters all failed with DNS/connectivity errors), so cash balance, float, FY2024 EPS, and a reconciled short-interest/market-cap figure could not be independently verified beyond what WebSearch snippets provided.",
+  "pendingFilings": [],
+  "notes": "New $2B buyback/ASR/term-loan catalyst (2026-06-08) added -- was missing from the prior snapshot despite being a material capital-structure event (debt-funded buyback) predating the Sept 29 crash. No current, precisely-dated share price or market cap could be established this session; FY2024 EPS, cash, float, and a reconciled short-interest % remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -182,23 +203,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "2 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

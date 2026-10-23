@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.421Z",
+  "lastResearched": "2026-10-23T21:20:23.119Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -86,7 +86,12 @@
       "note": "company-announced; conference call at 8:00am ET"
     }
   },
-  "price": null,
+  "price": {
+    "last": 154.04,
+    "changePct": null,
+    "asOf": "2026-09-19",
+    "note": "Most recent dated figure found this session (InvestSMART); no October 2026 quote could be established. A separate $189.86 figure appearing in one aggregator looks like an error (inconsistent with the stock's 52-week range context from other sources) and was not used."
+  },
   "catalysts": [
     {
       "date": "2026-10-13",
@@ -147,14 +152,23 @@
     }
   ],
   "conflicts": [
-    "Market cap: one Equibles snapshot shows $69.62B at $133.32/share (2026-08-20, described as a -23.55% move that day); a separate Equibles summary shows $23.97B at $60.42/share; Fintel reports a $22.66B market cap dated 2026-08-03; a separate quote point cites $160.73/share as of 2026-09-17, which at ~397M shares would imply a market cap well above all of these. None of these could be reconciled to a single current figure — this spread looks like it reflects data-quality problems in the aggregators as much as genuine disagreement, but it could not be resolved this session (WebFetch to live quote sources failed, and the shared WebSearch budget for this task batch was exhausted before a follow-up query could be run).",
-    "Shares outstanding: Equibles shows both 396,786,259 and 396,586,862 on different pages; Fintel uses roughly 399 million — not reconciled, not averaged.",
-    "Short interest: Bank of America's equity team reportedly put Moderna's short interest at 17.8% of float, calling it the most-shorted S&P 500 stock (article undated); a later Equibles snapshot instead shows ~49.8M shares short, or 12.5% of float, 10.2 days to cover, with short interest described as falling. A prior PM-pass record separately carried conflicting figures of 13.13% of shares outstanding vs 13.5% of free float vs ~20% of float across three other sources. None of these are reconciled here.",
-    "Cash asOf date: the prior PM-pass record listed Moderna's $6.9B cash figure as 'asOf 2026-09-14'; this session's primary-source check (the Q2 2026 earnings release) ties that same $6.9B balance to June 30, 2026 — flagging this as a likely date-labeling error in the prior record rather than a genuine new conflict."
+    "Short interest: Benzinga shows ~15.3% of float (~2026-08-24 snapshot) and ~16.2% of float (~2026-08-04 snapshot), both described as declining — these refine but do not fully reconcile with the wider 12.5%-20% range already flagged in the file's existing conflicts.",
+    "Next earnings: an aggregator figure found this session estimates Oct 30, 2026, which conflicts with the company-announced Nov 6, 2026 date already on file (sourced to an Oct 13, 2026 company press release) — Nov 6 is treated as authoritative since it is company-sourced and more recently dated.",
+    "Market cap/shares outstanding: InvestSMART implies ~399M shares at a $59.43B cap / $148.86 price (2026-09-04); equibles.com separately lists 399.24M shares against a $69.62B cap, which would imply ~522M shares at that same price — internally inconsistent; not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Biotech Catalyst' is a good fit and is kept as-is — Moderna is a commercial-stage biotech whose stock moves heavily on discrete regulatory and clinical catalysts (FDA decisions, trial readouts, vaccine approvals) rather than steady fundamentals. themeLabel kept as 'story stock' given the heavy short interest and catalyst-driven volatility the theme name itself implies. The Q2 2026 earnings report's exact calendar date could not be pinned down this session (only the quarter and headline figures were confirmed), so it is described in the fundamentals/eps sections above but intentionally left out of the dated catalysts list per the 'every catalyst needs a date' rule, rather than guessing a specific day. Market cap, float, sharesOutstanding and shortInterest could not be established to a reliable, reconciled figure this session given the scale of disagreement across aggregators (see conflicts) combined with WebFetch failing against every external site attempted (SEC EDGAR, Yahoo Finance, MarketWatch all returned DNS/connectivity errors in this sandbox) and the shared WebSearch budget for this task batch being exhausted before these could be independently re-checked against a single authoritative source.",
+  "notes": "No new dated catalysts beyond the Oct 5, 2026 Juan Andres COO appointment and the Oct 13, 2026 Q3-earnings-date announcement already on file were found this session.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -194,22 +208,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.406Z",
+  "lastResearched": "2026-10-23T21:20:23.123Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
+      "value": 1574000000,
+      "asOf": "2026-10-09",
+      "source": "Derived: 101.9M shares (AAII, 2026-10-05) x $15.45 (Trade-Ideas, 2026-10-09)",
+      "note": "Share count and price dates differ by a few days; treated as approximate."
     },
     "float": {
       "value": null,
@@ -21,9 +22,9 @@
       "note": "not found this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
+      "value": 101900000,
+      "asOf": "2026-10-05",
+      "source": "AAII investing-ideas coverage"
     },
     "shortInterest": {
       "value": null,
@@ -59,7 +60,12 @@
       "confirmed": false
     }
   },
-  "price": null,
+  "price": {
+    "last": 15.45,
+    "changePct": null,
+    "asOf": "2026-10-09",
+    "source": "Trade-Ideas (morning quote, prior close $15.29); down roughly 33% YTD per the same source"
+  },
   "catalysts": [
     {
       "date": "2026-10-14",
@@ -123,11 +129,24 @@
     }
   ],
   "conflicts": [
-    "The exact dollar amounts and dates of the two October 2026 PRV sales ($203M on 10-14, $210M on 10-07) could not be independently confirmed against a primary company press release this session — they come from secondary aggregator summaries rather than a directly fetched Ultragenyx or PR Newswire release, since WebFetch failed for every tested domain."
+    "Shares outstanding: older snapshots (dated around May 2026) showed ~98M shares vs. the more recent ~101.9M (AAII, 2026-10-05) figure used above; not a large discrepancy but both readings exist in sources reviewed.",
+    "Price has fallen substantially from the ~$23-27 range seen in Aug 2026 sources to ~$15.45 by Oct 9, 2026 — this reflects a continuous multi-week decline reported consistently across sources (not a sudden unexplained jump), so it is not flagged as a possible reverse-split artifact, but is noted given the magnitude."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Biotech Catalyst' fits well — Ultragenyx is a commercial-stage rare-disease biotech with an active string of regulatory catalysts (FAYUVI and GENGLYCOS approvals, PRV monetizations, an EMA filing, and an upcoming GTX-102/Angelman Phase 3 Aspire readout); themeLabel set to 'established' given it already has multiple approved/commercial products and company-issued revenue guidance, despite the catalyst-rich newsflow. Could not establish market cap, shares outstanding, float, short interest, cash, debt, trailing/forward P/E, or historical EPS this session: WebFetch failed with DNS errors on every domain tested (SEC EDGAR, Ultragenyx IR site, news sites), and the WebSearch tool's shared quota was exhausted before dedicated financial-statement searches could be run. FY2026 total revenue guidance of $730M-$760M is reported in place of a verified YoY growth percentage.",
+  "notes": "No new dated catalysts located beyond the two October 2026 Priority Review Voucher sales ($203M on 10-14, $210M on 10-07) already on file. Market cap/shares-outstanding fields, previously null, are now populated (with the date-mismatch caveat above). Cash, debt, short interest, and trailing/forward P&E remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -161,19 +180,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "5 new catalyst(s)",
-      "pe updated",
-      "growth updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

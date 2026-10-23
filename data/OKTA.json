@@ -8,80 +8,92 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.423Z",
+  "lastResearched": "2026-10-23T21:20:23.136Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session before the shared WebSearch budget was exhausted."
+      "value": 31180000000,
+      "asOf": "2026-09-30",
+      "source": "Fintel.io, with 174.82M shares outstanding",
+      "note": "Up from $24.89B (2026-07-31, Finhacker) and $25.92B (2026-07-16, Capital.com), consistent with the +12% to +29% price reaction reported around the 2026-08-26 earnings beat."
     },
     "float": {
       "value": null,
       "asOf": null,
-      "note": "not retrieved this session"
+      "note": "Not separately disclosed"
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "value": 174820000,
+      "asOf": "2026-09-30",
+      "source": "Fintel.io",
+      "note": "A separate, undated Equibles snapshot shows 169,200,461 -- minor variance, not reconciled"
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "value": 6450000,
+      "asOf": "2026-08-14",
+      "source": "Altindex.com (settlement date) -- 3.86% of shares outstanding, 2.70 days to cover",
+      "note": "A separate, undated Fintel figure shows 8.45M shares / 5.06% short float on a different (float) basis; not reconciled"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "value": 2299000000,
+      "asOf": "2026-07-31",
+      "source": "Quartr summary of Q2 FY2027 earnings -- cash, cash equivalents, and short-term investments",
+      "note": "A narrower cash-and-equivalents-only figure of $769.0M (OpenCapital) reflects a different subtotal of the same balance sheet, not necessarily a contradiction"
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session; note one search result referenced historical Convertible Senior Notes (aggregate principal ~$1.0B) but the dateable source for that pricing appears to be from years prior (2021-era page), not a 2026 event -- excluded from catalysts as likely stale."
+      "value": 53000000,
+      "asOf": "2026-07-31",
+      "source": "OpenCapital (balance-sheet aggregation)",
+      "note": "Consistent with the 2026-08-27 settlement of the remaining $350M of 2026 Convertible Notes in cash (already on file), which left no convertible debt outstanding"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not retrieved this session. If trailing earnings are negative this must stay null regardless.",
-      "asOf": null
+      "note": "Okta is GAAP-profitable (FY2026 net income $235M) but a precise current trailing EPS/multiple was not computed this session for lack of a confirmed current share price",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
         "period": "FY2025 (ended Jan 2025)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "value": 0.06,
+        "basis": "GAAP diluted",
+        "note": "GAAP net income $28M; basic EPS was $0.16"
       },
       {
         "period": "FY2026 (ended Jan 2026)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "value": 1.31,
+        "basis": "GAAP diluted",
+        "note": "GAAP net income $235M; basic EPS was $1.33"
       },
       {
-        "period": "Q2 FY2027 (reported 2026-08-26)",
-        "value": null,
-        "basis": null,
-        "note": "Report date confirmed via Okta investor-relations press-release title found in search, but actual reported EPS/revenue figures were not retrieved before the search budget was exhausted."
+        "period": "Q2 FY2027 (ended 2026-07-31)",
+        "value": 0.65,
+        "basis": "GAAP diluted",
+        "note": "Non-GAAP diluted EPS was $1.05 vs. $0.96-$0.97 consensus. Net income for the quarter is reported inconsistently across aggregators ($116M per Quartr vs. $194.0M per TIKR); not reconciled -- see conflicts"
       }
     ],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q2 FY2027 (ended 2026-07-31)",
+        "value": 805000000,
+        "yoy": 10.6
+      }
+    ],
     "growth": {
       "metric": "revenue YoY",
-      "pct": null,
       "period": "Q2 FY2027",
-      "note": "Not established this session; one unrelated secondary source's chart title referenced 'large rev growth declining' as a qualitative characterization, not a figure -- not used as a number."
+      "pct": 10.6
     },
     "nextEarnings": {
       "date": "2026-12-02",
       "confirmed": false,
-      "note": "Carried over from the prior dashboard record; could not independently confirm via Okta's investor-relations site this session (WebFetch blocked in sandbox; search budget exhausted before a targeted confirmation search could be run)."
+      "note": "Carried from prior pass as an estimate based on past reporting cadence; not company-confirmed"
     }
   },
   "price": {
-    "last": 212.63,
-    "changePct": null
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "No current figure confirmed. A prior-pass figure of $212.63 (source/date unclear) could not be reverified; a new market-cap/shares-outstanding snapshot (Fintel, 2026-09-30) implies a share price of roughly $178, a large gap from $212.63 that could not be reconciled -- see conflicts."
   },
   "catalysts": [
     {
@@ -128,6 +140,13 @@
     {
       "date": "2026-08-26",
       "type": "earnings",
+      "headline": "Q2 FY2027: GAAP diluted EPS $0.65, non-GAAP EPS $1.05 vs $0.96-$0.97 consensus; revenue $805M (+10.6% YoY) vs ~$793M est; raised FY27 revenue growth outlook to 10-11% and adj. operating margin target to 26%; remaining performance obligations +17% YoY to $4.858B; operating cash flow $234M, FCF $227M",
+      "impact": "Stock surged 12-29% depending on measurement window",
+      "source": "https://www.okta.com/newsroom/press-releases/okta-announces-second-quarter-2027-financial-results/"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "earnings",
       "headline": "Reported Second Quarter Fiscal Year 2027 financial results",
       "impact": null,
       "source": "https://investor.okta.com",
@@ -156,16 +175,42 @@
       "note": "Exact May 2026 date not pinned down precisely."
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Price: Fintel's 2026-09-30 market-cap/shares-outstanding figures imply a share price near $178, versus a prior-pass figure of $212.63 (source/date unclear) -- a large, unreconciled gap.",
+    "Q2 FY2027 net income: Quartr reports $116M vs. TIKR reports $194.0M for the same quarter; not reconciled."
+  ],
   "pendingFilings": [
     {
       "item": "Next earnings (Q3 FY2027)",
       "expectedDate": "2026-12-02",
-      "note": "Not independently confirmed by the company this session."
+      "note": "Not independently confirmed by the company"
     }
   ],
-  "notes": "Theme on file ('Enterprise Software & Security') genuinely fits Okta's identity/access-management business; no change recommended. themeLabel set to 'established' reflecting Okta's position as a mature, large-cap identity vendor rather than a currently hyped narrative name (one secondary source characterized its revenue growth as decelerating, though that was not a sourced figure). This record is incomplete: valuation, balance-sheet, EPS and actual Q2 FY2027 reported figures could not be retrieved this session because SEC EDGAR, Okta's investor-relations site and stocktitan.net were all unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain attempted), and the session's shared WebSearch budget was exhausted before a dedicated OKTA fundamentals search could be run. A follow-up pass is needed.",
+  "notes": "Theme 'Enterprise Software & Security' fits well; themeLabel 'established' retained. FY2025/FY2026 annual GAAP EPS, Q2 FY2027 GAAP EPS, cash (cash+short-term investments), debt, market cap, shares outstanding and short interest are all newly established or refreshed this pass, substantially filling prior-session gaps. A confirmed current share price remains the main outstanding gap, flagged as a conflict rather than guessed.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -267,11 +312,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
+      "1 new catalyst(s)",
       "pe updated",
       "eps updated",
       "revenue updated",
@@ -284,7 +329,7 @@
       "cash updated",
       "debt updated",
       "new filing(s)",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

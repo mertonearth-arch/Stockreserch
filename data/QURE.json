@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.426Z",
+  "lastResearched": "2026-10-23T21:20:23.121Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
-      "asOf": "2026-10-02",
-      "source": "Calculated: Trade Ideas closing price $23.11 (2026-10-02) × Equibles-reported shares outstanding (63,067,485)",
-      "note": "Equibles' own market-cap figure of $1.70B uses a stale $26.99 price; see conflicts."
+      "asOf": "2026-10-05",
+      "source": "Derived: 63,067,485 shares outstanding (Equibles) x $23.11 (AAII, 2026-10-05)"
     },
     "float": {
       "value": null,
@@ -74,7 +73,12 @@
       "confirmed": false
     }
   },
-  "price": null,
+  "price": {
+    "last": 23.11,
+    "changePct": null,
+    "asOf": "2026-10-05",
+    "source": "AAII investing-ideas coverage ('down about 1.5% from the prior close of $23.46'); consistent with the prior pass's $23.11 (2026-10-02) figure used for its market-cap calc"
+  },
   "catalysts": [
     {
       "date": "2026-09-30",
@@ -124,11 +128,19 @@
     "Short interest: Fintel (22.33% short float, as of 2026-05-01) vs. an undated Equibles figure (11.1M shares / 9.0 days to cover) — different dates/methodologies, not reconciled.",
     "Next earnings date: aggregators disagree — Earnings Whisper shows Nov 4, 2026 (most recent/likely current); an older Earnings Whisper snapshot showed Oct 28, 2026; TheRightTrader projects Nov 9, 2026. None is company-confirmed."
   ],
-  "pendingFilings": [
-    "10-Q for Q2 2026 (period ended 2026-06-30)"
-  ],
-  "notes": "IMPORTANT for dashboard: the real catalyst behind QURE's September move was the Sept 29, 2026 AMT-130 48-month Huntington's disease data update (44% slowing of progression, NOT statistically significant, p=0.144) — a ~37% single-day drop. The Sept 30 '+6.9% partial recovery' noted in the prior snapshot is just the bounce off that drop, not an independent catalyst. Separately (outside the ~6-month catalyst window, so not listed above but relevant background): shares fell >35% on 2026-03-02 after the FDA said existing AMT-130 data were insufficient for a marketing application, and the stock later rallied in mid-June 2026 when the company announced plans to proceed with a BLA filing after further FDA feedback (exact June date not confirmed, so omitted from the dated catalyst list). Theme 'Biotech Catalyst' fits well given the binary regulatory/clinical-readout dependency. FY2024/FY2025 annual EPS not established this session (WebSearch budget exhausted).",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts located this session beyond the 2026-09-29/09-30 AMT-130 data-readout selloff and the 2026-09-02 BLA submission already on file; price confirms the stock has stabilized in the low-$20s since that ~37% single-day drop. Short interest, debt, and FY2024/FY2025 annual EPS remain unresolved. WebSearch budget for this run was exhausted before an October 2026-specific news check could be completed for this ticker.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -160,24 +172,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "marketCap updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.428Z",
+  "lastResearched": "2026-10-23T21:20:23.138Z",
   "fundamentals": {
     "marketCap": {
       "value": 21970000000,
@@ -74,12 +74,15 @@
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Carried from prior snapshot; no company 'to report' press release located this session. Rubrik's fiscal Q3 FY2027 ends 2026-10-31; based on the prior quarter's ~4-week reporting lag, an early-to-mid December date is plausible but unconfirmed."
     }
   },
   "price": {
-    "last": 104.42,
-    "changePct": null
+    "last": 113.41,
+    "changePct": null,
+    "asOf": "2026-10-19",
+    "source": "Bullfincher price history"
   },
   "catalysts": [
     {
@@ -105,15 +108,22 @@
     }
   ],
   "conflicts": [
-    "Market cap / shares outstanding: an Aug 19, 2026 Equibles snapshot shows 205.83M shares (~$20.88B at $99.78) vs. a separate, undated Equibles summary showing 160.96M shares (~$14.62B at $71.02, diluted EPS -$1.78) — the latter appears older/stale but was not dated, so not discarded outright.",
-    "Stock reaction to the Aug 27, 2026 Q2 earnings beat-and-raise: one source (Finviz) reports shares fell more than 8% in premarket trading; another (AllInvestView) reports a 3.2% decline — not reconciled.",
-    "Cash: $1.75B total cash+investments per the 10-Q MD&A vs. a third-party aggregator's narrower 'cash and cash equivalents' figure of ~$416.2M — likely different line items, not reconciled this session."
+    "Price: $113.41 (2026-10-19, Bullfincher) vs. an undated 'October 2026' reading of $118.58 (Digrin) -- not reconciled to a specific day."
   ],
-  "pendingFilings": [
-    "10-Q for Q2 FY2027 (period ended 2026-07-31)"
-  ],
-  "notes": "Theme 'Enterprise Software & Security' fits well (SaaS data security/backup/cyber-resilience vendor). Next earnings date (2026-12-01, carried from prior snapshot) could NOT be confirmed this session — no company 'to report' press release was found; Rubrik's fiscal Q3 FY2027 ends 2026-10-31, and the company's historical pattern (Q2 reported ~4 weeks after quarter-end) makes an early-December date plausible but it remains an unconfirmed carry-forward, not a verified figure. GAAP (as opposed to non-GAAP/adjusted) EPS, and full FY2025/FY2026 annual EPS, were not established this session (WebFetch to SEC EDGAR and the company's own IR PDF both failed with DNS errors in this sandbox; WebSearch budget was exhausted before a workaround could be found).",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts found since the 2026-10-22 pass; the Q2 FY2027 earnings print (2026-08-27) and balance-sheet figures already on file remain the most recent confirmed data. Next-earnings date remains an unconfirmed carry-forward.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -208,22 +218,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

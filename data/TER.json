@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.432Z",
+  "lastResearched": "2026-10-23T21:20:23.125Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not established with a reliable dated figure in sandbox search; see shares outstanding and PE notes for why."
+      "value": 63210000000,
+      "asOf": "2026-08-19",
+      "source": "Equibles"
     },
     "float": {
       "value": null,
@@ -21,10 +21,10 @@
       "note": "Not located in sandbox search."
     },
     "sharesOutstanding": {
-      "value": 159000000,
-      "asOf": null,
-      "source": "MarketBeat (older/undated snapshot, ~159M shares)",
-      "note": "This figure is from a stale-dated snapshot (2024/2025 era per source context); not confirmed current as of 2026-10-22."
+      "value": 156340000,
+      "asOf": "2026-08-19",
+      "source": "Equibles",
+      "note": "Supersedes the prior pass's stale MarketBeat figure (~159M, undated)."
     },
     "shortInterest": {
       "value": 5.1,
@@ -85,10 +85,15 @@
     "nextEarnings": {
       "date": "2026-10-27",
       "confirmed": false,
-      "note": "One earnings-calendar aggregator lists an estimated/projected date of 2026-10-27 (5:00pm ET); not confirmed by a company announcement found in sandbox search. Teradyne reported Q3 2025 results on 2025-10-28, so a similar late-October date for Q3 2026 is plausible but unconfirmed."
+      "note": "After market close, with call on 2026-10-28. Multiple aggregators (Investing.com, MarketBeat) now converge on this date; consensus estimates cited are EPS $2.08 and revenue $1.26B for Q3 2026."
     }
   },
-  "price": null,
+  "price": {
+    "last": 379.66,
+    "changePct": null,
+    "asOf": "2026-08-19",
+    "source": "Equibles"
+  },
   "catalysts": [
     {
       "date": "2026-09-14",
@@ -113,11 +118,21 @@
     "PE and EPS figures conflict across snapshots of different vintages: equibles.com (~Aug 2026) shows trailing PE 55.5 and TTM diluted EPS $3.47; separate, explicitly older MarketBeat snapshots show trailing EPS $2.89 (trailing PE ~38, forward PE ~28, ~159M shares outstanding) and, in a different 2025 snapshot, trailing PE ~51 / forward PE ~38 with short interest 6.66% of float. These appear to be genuinely different time periods rather than a same-date disagreement, but could not be reconciled to a single current figure in this sandbox.",
     "A German-language source (finanztrends.de) reporting Q3 2026 revenue of $737M and EPS of $0.89 with an 11%+ stock decline directly contradicts Teradyne's own Q3 2026 guidance ($1.2-1.3B revenue) and other sources, and appears to compare against Q3 2023 figures in error; disregarded as unreliable."
   ],
-  "pendingFilings": [
-    "Q3 2026 earnings release/10-Q expected in late October 2026 (date unconfirmed as of 2026-10-22)"
-  ],
-  "notes": "Theme 'AI Semiconductors' is a reasonable fit in the loose sense used by this dashboard: Teradyne is semiconductor automated test equipment (ATE) plus robotics (Universal Robots, MiR), not a chipmaker itself, but its current growth narrative and guidance beat are explicitly tied to AI-chip-driven test demand (per CEO commentary on the Q2 2026 call), so it trades with the AI-semiconductor group. Q3 2026 actual results had not been reported as of 2026-10-22 in any source found; this record reflects Q2 2026 actuals plus Q3 2026 guidance only. Could not establish current market cap, cash, debt, or a confirmed earnings date because WebFetch to SEC.gov, businesswire, and other IR/press domains failed with DNS resolution errors throughout this session, and the WebSearch budget for the session was exhausted before further queries could run.",
+  "pendingFilings": [],
+  "notes": "Q3 2026 results had still not been reported as of 2026-10-23 (report expected 2026-10-27 after close). Market cap and shares-outstanding fields, previously null, are now populated from an Aug 2026 snapshot (dated, not live). A $139.9M defense/diagnostic-test-station contract award and a June 2026 Nasdaq-100 index addition were both mentioned in sources reviewed but lack a precise date, so per the no-undated-catalysts rule they are noted here only, not added to the dated catalyst list. Cash and debt remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -149,24 +164,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "sharesOutstanding updated"
     ],
     "tradingDay": true
   }

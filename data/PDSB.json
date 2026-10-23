@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.424Z",
+  "lastResearched": "2026-10-23T21:20:23.137Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; the stock appears to trade below $1.00/share per a Nasdaq-compliance item found (see conflicts), consistent with a very small market cap, but no figure was independently confirmed."
+      "value": 16390000,
+      "asOf": "2026-09-12",
+      "source": "Tickertape (price $0.29 x shares outstanding)",
+      "note": "Highly volatile sub-$1 stock; other dated snapshots conflict materially -- see conflicts."
     },
     "float": {
       "value": null,
@@ -21,9 +22,9 @@
       "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "value": 55971338,
+      "asOf": "2026-08-06",
+      "source": "PDS Biotechnology Q2 2026 10-Q cover page (SEC EDGAR)"
     },
     "shortInterest": {
       "value": null,
@@ -31,9 +32,10 @@
       "note": "not retrieved this session"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session; the Aug 11, 2026 shareholder letter likely discusses cash runway but specific figures were not surfaced in search results before the budget was exhausted."
+      "value": 5600000,
+      "asOf": "2026-06-30",
+      "source": "Q2 2026 earnings release (reported 2026-08-13)",
+      "note": "Down sharply from $26.7M at 2025-12-31 (fiscal year-end) -- roughly a 79% decline over the six months, reflecting a severe cash burn rate. No debt figure located."
     },
     "debt": {
       "value": null,
@@ -43,26 +45,20 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (pre-revenue clinical-stage biotech); forward not published/not located",
-      "asOf": null
+      "note": "negative earnings (pre-revenue clinical-stage biotech)"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "period": "Q2 2025 (ended 2025-06-30)",
+        "value": -0.21,
+        "basis": "GAAP",
+        "note": "Net loss $9.4M"
       },
       {
-        "period": "FY2025",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
-      },
-      {
-        "period": "Q2 2026 (quarter ended 2026-06-30, reported 2026-08-13)",
+        "period": "Q2 2026 (ended 2026-06-30, reported 2026-08-13)",
         "value": -0.18,
-        "basis": "GAAP, as reported (consensus estimate was a loss of $0.13/share)"
+        "basis": "GAAP",
+        "note": "Net loss $9.8M; consensus estimate was a loss of $0.13/share (beat/missed depending on framing -- actual loss per share was smaller in magnitude than some earlier secondary reports suggested)"
       }
     ],
     "revenue": [
@@ -70,14 +66,14 @@
         "period": "Q2 2026",
         "value": 0,
         "yoy": null,
-        "note": "Pre-revenue clinical-stage company; $0.00M revenue reported for the quarter ended June 2026."
+        "note": "Pre-revenue clinical-stage company"
       }
     ],
     "growth": {
-      "metric": "cash burn / trial progress",
-      "pct": null,
-      "period": null,
-      "note": "Pre-revenue clinical-stage biotech. Aug 13, 2026: reported a GAAP loss of $0.18/share vs. $0.13 consensus, on $0 revenue. Aug 11, 2026: shareholder letter announced a strategic refocus prioritizing PDS0301 (an IL-12 immunocytokine) as the lead development program. Separately, Stage 1 data from an NCI-led colorectal-cancer combination trial (PDS0101-related) was reported in JCO Oncology Advances showing a 77.8% six-month response rate vs. 35% in a parallel non-combination arm -- exact publication date not pinned down this session."
+      "metric": "cash position (6-month decline)",
+      "period": "2025-12-31 to 2026-06-30",
+      "pct": -79,
+      "note": "Cash fell from $26.7M (FY2025 year-end) to $5.6M (2026-06-30). Company separately reported discontinuing the Phase 3 VERSATILE-003 trial (PDS0101 in recurrent/metastatic HNSCC) on 2026-08-11 to conserve capital, pivoting to PDS0301."
     },
     "nextEarnings": {
       "date": "2026-11-12",
@@ -85,7 +81,11 @@
       "note": "Platform estimate (Yahoo Finance); not company-confirmed."
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "asOf": null,
+    "note": "Dated snapshots conflict sharply: $0.29 (2026-09-12, Tickertape); $0.21 (2026-08-31, Value Research); $0.77 (early Aug 2026, Upstox). Stock has apparently traded below $1.00 continuously through at least mid-September 2026, consistent with the Nasdaq minimum-bid-price deficiency notice already on file (no reverse split has been confirmed as executed)."
+  },
   "catalysts": [
     {
       "date": "2026-09-22",
@@ -119,10 +119,24 @@
     {
       "date": "2026-08-13",
       "type": "earnings",
+      "headline": "Q2 2026 results: net loss $9.8M (-$0.18/share) vs. $9.4M (-$0.21/share) in Q2 2025; cash position fell to $5.6M as of 2026-06-30 (from $26.7M at 2025-12-31)",
+      "impact": null,
+      "source": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "earnings",
       "headline": "Reported Q2 2026 results: GAAP loss of $0.18/share vs. $0.13 consensus, on $0 revenue",
       "impact": null,
       "source": null,
       "note": "Sourced via earnings-aggregator coverage (e.g., roic.ai/quantisnow references); not independently fetched from a primary press release this session."
+    },
+    {
+      "date": "2026-08-11",
+      "type": "strategy / pipeline",
+      "headline": "PDS Biotech discontinues the Phase 3 VERSATILE-003 trial of PDS0101 in recurrent/metastatic head & neck squamous cell carcinoma, citing the capital, time and resources required to complete the study, and will seek external partnerships/funding for PDS0101 instead; refocuses on PDS0301 (IL-12 immunocytokine) as lead program, citing NCI-collaboration data showing a 71% six-month objective response rate and 80% 24-month survival in metastatic MSS/pMMR colorectal cancer with liver metastases",
+      "impact": null,
+      "source": "https://www.onclive.com/view/phase-3-versatile-003-trial-of-pds0101-in-hnscc-is-discontinued"
     },
     {
       "date": "2026-08-11",
@@ -141,8 +155,8 @@
     }
   ],
   "conflicts": [
-    "Nasdaq compliance / possible reverse split: a single non-English-language source (boerse-express.com) reported a Nasdaq notice for trading below $1.00 for 30 consecutive days, with an Aug 24, 2026 compliance deadline, and said the company was considering a reverse stock split. This is UNVERIFIED -- it could not be cross-checked against a primary Nasdaq notice or company 8-K this session (SEC EDGAR and Nasdaq's own site were unreachable via WebFetch in this sandbox, and the WebSearch budget was exhausted before a follow-up search). If a reverse split did occur, any current share price/count from other aggregators found in this session could be pre- or post-split and should not be assumed comparable.",
-    "The 2026-09-22 JAMA Oncology VERSATILE-002 catalyst (carried from the prior dashboard record) was not independently reconfirmed by this session's searches -- see the note on that catalyst entry above."
+    "Market cap/price snapshots across Aug-Sept 2026 range from $0.21 to $0.77/share depending on the date and aggregator; not all dated consistently.",
+    "Nasdaq bid-price deficiency notice (30 consecutive days below $1.00, compliance deadline 2026-08-24) remains on file as unconfirmed via a primary 8-K; no evidence found this session that a reverse split has actually been executed, and the stock appears to still be trading sub-$1.00 as of mid-September 2026 snapshots."
   ],
   "pendingFilings": [
     {
@@ -151,8 +165,27 @@
       "note": "Platform estimate only; not company-confirmed."
     }
   ],
-  "notes": "Theme on file ('Biotech Catalyst') fits PDS Biotechnology's actual business (clinical-stage immunotherapy oncology company) well; no change recommended. themeLabel set to 'nano-cap' given the apparent sub-$1 share price / Nasdaq-deficiency signal found, though market cap itself was not independently confirmed. This record is materially incomplete: valuation, balance-sheet, full EPS history and share-count figures could not be retrieved this session because SEC EDGAR, the company's investor-relations/press-release sites and stocktitan.net were all unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain attempted), and the session's shared WebSearch budget (shared across all concurrently running research agents in this run) was exhausted before a dedicated PDSB fundamentals search and a reverse-split confirmation search could be completed. A follow-up pass is strongly recommended, particularly to resolve the possible reverse split and reconfirm the JAMA Oncology catalyst.",
+  "notes": "Cash runway is now a live concern: cash fell from $26.7M to $5.6M in six months (as of 2026-06-30), alongside discontinuation of the VERSATILE-003 Phase 3 trial to conserve capital. This is a material update from the prior pass, which had cash/shares outstanding as null. Shares outstanding (55,971,338, as of 2026-08-06) is now sourced to the Q2 2026 10-Q cover page directly, resolving the prior session's gap.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -184,22 +217,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
+      "2 new catalyst(s)",
       "pe updated",
       "eps updated",
       "revenue updated",
       "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
-      "debt updated",
       "new filing(s)",
       "conflicts updated"
     ],

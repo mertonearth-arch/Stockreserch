@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.425Z",
+  "lastResearched": "2026-10-23T21:20:23.120Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "source": null,
-      "note": "Sources conflict wildly (see conflicts) and none could be confirmed for Oct 2026; not reported rather than guessed."
+      "value": 8600000,
+      "asOf": "2026-07-24",
+      "source": "MarketChameleon"
     },
     "float": {
       "value": null,
@@ -57,8 +56,10 @@
     }
   },
   "price": {
-    "last": 6.74,
-    "changePct": null
+    "last": 4.28,
+    "changePct": null,
+    "asOf": "2026-07-24",
+    "source": "MarketChameleon (most recent dated quote located this session)"
   },
   "catalysts": [
     {
@@ -137,15 +138,23 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding / market cap: Equibles shows ~3.35B shares ($9.34M mkt cap @ $4.65, tagged to a 2026-05-07 'last earnings' date) vs Morningstar and Google Finance both showing ~2.01M shares ($8.52M mkt cap @ $4.16) vs TipRanks/AlphaQuery showing ~588K shares ($12.06M mkt cap, data appears to date from around Oct 2025). The spread (588K to 3.35B) is too large to be mere staleness and strongly suggests one or more reverse stock splits plus ADS-ratio confusion across data vendors. Not resolved this session — flagging per runbook guidance rather than guessing a ratio.",
-    "Cash runway: a secondary/third-party analysis implies <8 months of runway on $10.8M combined cash+investments at a ~$1.3M/month burn rate, while the company's own Aug 2026 financing disclosure (424B3) states net proceeds — assuming FULL warrant exercise — are expected to fund operations into H2 2029. These are not necessarily contradictory (the gap is the warrant-exercise assumption), but both readings are recorded since they could mislead if conflated."
+    "Price/market cap: the prior pass's on-file price ($6.74, no asOf date) does not match any dated quote found this session; the most recent dated figures located are $4.28 / $8.60M market cap (MarketChameleon, 2026-07-24) and $4.20 / $8.44M (Yahoo Finance, 2026-06-25). None of these is confirmed as the current (2026-10-23) price.",
+    "Shares outstanding remains unresolved: sources span roughly 588K (TipRanks, stale) to ~2.01M (Morningstar/Google Finance/FXEmpire, all consistent with the confirmed 2025-04-08 1-for-35 ADS reverse split) to ~3.35B (Equibles, almost certainly a pre-split or data-error figure). The ~2.01M reading is the most internally consistent with the confirmed split ratio but was not independently verified against a current SEC filing cover page this session."
   ],
-  "pendingFilings": [
-    "424B3 (prospectus for Aug 2026 private placement, filed ~Sept 2026)",
-    "10-Q for Q2 2026 (period ended 2026-06-30) — going concern disclosure"
-  ],
-  "notes": "Theme 'Biotech Catalyst' is a good fit — Quoin is a clinical-stage dermatology/rare-disease biotech (lead candidate QRX003 for Netherton Syndrome). Could not establish shares outstanding, market cap, short interest, or per-share EPS figures with confidence this session: SEC EDGAR and other primary sources returned DNS/network errors via WebFetch, and the WebSearch tool's budget was exhausted mid-session before these could be pinned down from a primary filing. Next earnings date (2026-11-13) is an aggregator estimate (Earnings Whispers), not company-confirmed.",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts found since the 2026-08-28/08-31 private-placement financing already on file; the 2026-11-13 next-earnings estimate is unchanged (still not company-confirmed). Short interest, cash since the Q2 2026 10-Q, and debt remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -236,21 +245,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

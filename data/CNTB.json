@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.411Z",
+  "lastResearched": "2026-10-23T21:20:23.131Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "source": null,
-      "note": "No reliable current-dated quote reachable in this sandbox (stockanalysis.com and google.com are egress-blocked; WebFetch to all other domains failed with DNS errors this run). Historical snapshots from WebSearch alone span $114.5M-$194.5M at prices $2.00-$3.69, dated between ~Jan and Apr 2026 -- all stale relative to 2026-10-22 and mutually inconsistent, so none is reported as current."
+      "value": 115850000,
+      "asOf": "2026-09-04",
+      "source": "marketchameleon.com, at $1.84/share",
+      "note": "Stale vs. 2026-10-23; see conflicts for other readings."
     },
     "float": {
       "value": null,
@@ -24,65 +24,85 @@
     "sharesOutstanding": {
       "value": 62974309,
       "asOf": "2026-07-31",
-      "source": "SEC Form 10-Q cover page (Q2 2026, filed for period ended 2026-06-30)"
+      "source": "SEC Form 10-Q cover page (Q2 2026, period ended 2026-06-30)"
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "Not found in sandbox search"
+      "note": "Not found"
     },
     "cash": {
-      "value": 46034000,
-      "asOf": "2026-03-31",
-      "source": "SEC Form 10-Q (Q1 2026) -- cash and cash equivalents, no short-term investments reported that quarter",
-      "note": "Q2 2026 (as of 2026-06-30) figure of ~$31.5M cash+short-term investments combined is cited by Panabee (third-party aggregator, unverified against the primary 10-Q text, which could not be fetched in this sandbox) -- see conflicts"
+      "value": 31500000,
+      "asOf": "2026-06-30",
+      "source": "Company Q2 2026 earnings release (cash, cash equivalents and short-term investments), corroborated via Quartr/TipRanks earnings summaries",
+      "note": "Confirms a figure previously carried only from an unverified third-party source. Company guided this provides runway of at least one year from the August 2026 release date; a trailing six-month operating cash burn of ~$31.9M was cited by a third-party analysis (Panabee) as a reason for skepticism about that runway."
     },
     "debt": {
       "value": null,
       "asOf": null,
-      "note": "Not disclosed in sources found; clinical-stage biotechs of this size typically carry little/no debt but this was not independently confirmed"
+      "note": "Not disclosed; clinical-stage biotech, likely minimal/no debt but unconfirmed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings-based multiple applicable",
-      "asOf": "2026-10-22"
+      "note": "negative earnings; pre-revenue clinical-stage biotech",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
         "period": "FY2024",
-        "value": null,
+        "value": -0.28,
         "basis": "GAAP",
-        "note": "not found in sandbox search"
+        "note": "On ~55.2M weighted-average shares"
       },
       {
         "period": "FY2025",
-        "value": null,
+        "value": -1,
         "basis": "GAAP",
-        "note": "not found in sandbox search"
+        "note": "Net loss ~$55.5M on ~55.66M weighted-average shares"
       },
       {
-        "period": "Q2 2026",
-        "value": null,
+        "period": "H1 2026",
+        "value": -0.61,
         "basis": "GAAP",
-        "note": "not found in sandbox search"
+        "note": "Net loss $36.7M for the six months ended 2026-06-30; a single-quarter (Q2 2026 only) EPS figure was not located"
       }
     ],
     "revenue": [],
     "growth": {
       "metric": "cash position / trial progress (pre-revenue)",
-      "period": "H1 2026",
+      "period": "H1 2026-Q4 2026",
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech. One third-party source (Panabee, unverified) reported a ~29% decline in cash+short-term investments from year-end 2025 to 2026-06-30. Primary trial-progress metric: Phase 2 Seabreeze STAT asthma study of rademikibart completed and reported topline (see catalysts); Phase 2 COPD companion study topline was pending as of the article found."
+      "note": "Pre-revenue clinical-stage biotech. Phase 2 Seabreeze STAT asthma topline (2026-09-16) missed statistical significance on primary endpoint; Phase 2 Seabreeze STAT COPD topline (~2026-10-01) showed reduced treatment-failure rate (-81%, p=0.0122) and fewer moderate/severe exacerbations (-85%, p=0.030) vs. placebo but missed a secondary FEV1 endpoint."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No confirmed or estimated date found in sandbox search"
+      "note": "Not found"
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "No single reliable 2026-10-23 quote found. Most recent cleanly-dated snapshot was $1.84 on 2026-09-04 (marketchameleon); an undated eToro snapshot showed $1.93 after a reported -30% intraday move; a separate snapshot of $0.89 for 'Oct 14' could not be confirmed to be 2026 (year ambiguous in source). See conflicts."
+  },
   "catalysts": [
+    {
+      "date": "2026-10-01",
+      "type": "clinical trial",
+      "headline": "Phase 2 Seabreeze STAT COPD topline for rademikibart (add-on to standard of care, 159 patients): reduced treatment-failure rate by 81% (p=0.0122) and reduced new moderate-to-severe exacerbations by 85% (p=0.030) vs. placebo; missed a secondary FEV1 (lung-function) endpoint",
+      "impact": null,
+      "source": "https://www.fiercebiotech.com/biotech/connects-dupixent-rival-reduces-copd-attacks-85-misses-secondary-goal",
+      "note": "Exact release date not independently pinned down (reported via secondary coverage, not the primary press release); 'early October 2026' is the best-supported window"
+    },
+    {
+      "date": "2026-09-16",
+      "type": "clinical trial",
+      "headline": "Phase 2 Seabreeze STAT asthma topline for rademikibart (acute exacerbations): reduced 28-day treatment-failure rate by 66% vs placebo but did not reach statistical significance; secondary endpoint post-bronchodilator FEV1 showed a statistically significant improvement vs baseline",
+      "impact": "Stock fell sharply (-26% to -40% premarket per contemporaneous reports) on the primary-endpoint miss",
+      "source": "https://fiercebiotech.com/biotech/connect-biopharma-missing-asthma-primary-endpoint-sends-investors-spiraling-about-copd"
+    },
     {
       "date": "2026-09-16",
       "type": "clinical trial",
@@ -106,20 +126,45 @@
     {
       "date": "2026-06-17",
       "type": "guidance",
+      "headline": "Company press release set expected timing: Phase 2 Seabreeze STAT asthma topline in early September 2026, with Phase 2 COPD companion study topline to follow",
+      "source": "https://connectbiopharma.gcs-web.com/news-releases/news-release-details/connect-biopharma-announces-completion-enrollment-phase-2"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "guidance",
       "headline": "Company press release set expected timing: Phase 2 Seabreeze STAT asthma topline in early September 2026, with Phase 2 COPD companion study topline to follow soon after",
       "source": "https://connectbiopharma.gcs-web.com/news-releases/news-release-details/connect-biopharma-announces-completion-enrollment-phase-2"
     }
   ],
   "conflicts": [
-    "Shares outstanding: TipRanks ~55.7M vs Equibles ~56.5M vs Motley Fool/Google Finance/StockAnalysis ~62.96-62.97M vs SEC 10-Q cover page (most authoritative) 62,974,309 as of 2026-07-31 -- the SEC figure is used above.",
-    "Market cap across WebSearch snapshots, all dated Jan-Apr 2026 and mutually stale/inconsistent: TipRanks $114.49M, Motley Fool $125.93M at $2.00, MarketBeat $134.80M at ~$2.38, StockAnalysis $140.43M, Public.com $148.66M (asOf 2026-04-08), Value Research $162M (asOf 2026-04-01), Robinhood $194.54M at $3.69 (asOf 2026-03-29). No current (October 2026) figure could be established.",
-    "Cash at 2026-06-30: Panabee (third-party) cites ~$31.5M cash+short-term investments (a ~29% H1 decline), but this could not be verified against the primary 10-Q text, which could not be fetched in this sandbox."
+    "Market cap/price, October 2026: no single verified current figure. Snapshots found: $115.85M at $1.84 (marketchameleon, 2026-09-04); undated eToro quote of $1.93 (-30% intraday move cited, no date); an unconfirmed-year $0.89 reading labeled 'Oct 14'. None could be confirmed as the 2026-10-23 price."
   ],
   "pendingFilings": [
-    "10-Q Q2 2026 (filed ~2026-08, period ended 2026-06-30)"
+    "10-Q Q2 2026 (period ended 2026-06-30)"
   ],
-  "notes": "Theme 'Biotech Catalyst' fits: clinical-stage biopharma whose stock moves on binary trial readouts. themeLabel set to 'nano-cap' given sub-$200M historical market cap range. SEC EDGAR (www.sec.gov) and most news-wire domains (businesswire, stocktitan, globenewswire, prnewswire) were unreachable via WebFetch/curl in this sandbox session (DNS/connect failures), and the WebSearch tool's per-turn budget was exhausted partway through this research pass, so several fields rely only on WebSearch result snippets rather than primary-document confirmation.",
+  "notes": "Theme 'Biotech Catalyst' fits. Cash figure for 2026-06-30 ($31.5M) is now corroborated by multiple earnings-summary sources, resolving the prior session's unverified-source caveat. FY2024/FY2025 annual EPS now established from the company's year-end results release. COPD Seabreeze STAT topline (~2026-10-01) is a new catalyst not previously on file; exact day not confirmed.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -150,17 +195,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
+      "3 new catalyst(s)",
       "pe updated",
       "eps updated",
       "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
       "shortInterest updated",
       "cash updated",

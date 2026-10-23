@@ -8,86 +8,106 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.421Z",
+  "lastResearched": "2026-10-23T21:20:23.135Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
       "asOf": null,
-      "source": null,
-      "note": "Sources disagree sharply and span different dates amid a Sept 2026 offering/preferred redemption; see conflicts. PitchBook: ~$80.1M as of 2026-10-09 ($2.77/sh). Could not establish a single authoritative figure this session (SEC EDGAR unreachable in this sandbox)."
+      "note": "See price note and conflicts; no single figure established"
     },
     "float": {
       "value": null,
       "asOf": null,
-      "note": "Not reliably published. AAII shows ~8.1M shares but mixes in stale 2021 volume data; not trustworthy. Not independently verified."
+      "note": "Not reliably published"
     },
     "sharesOutstanding": {
       "value": null,
       "asOf": null,
-      "note": "Aggregators disagree widely (see conflicts) likely reflecting dilution from the Sept 2026 $15M registered direct offering mid-period. Could not confirm against the 10-Q cover page (SEC EDGAR unreachable this session)."
+      "note": "Aggregators disagree widely (prior-pass conflict); not resolved this session"
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "One aggregator (Equibles) shows '271K shares short / 1.0% of float' but is undated and the format is ambiguous; not independently verified, so left null rather than guessed."
+      "note": "Not independently verified"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Could not verify from a primary filing this session; SEC EDGAR unreachable (DNS/proxy blocked in this sandbox) and the shared WebSearch budget was exhausted before a targeted 10-Q search could be run."
+      "value": 1973420,
+      "asOf": "2026-06-30",
+      "source": "SEC Form 10-Q (Q2 2026)",
+      "note": "Up from $138,601 at 2026-03-31. Net cash used in operations was $11,756,954 for the six months ended 2026-06-30. Company reports an undrawn $10.0M line of credit with related party HCWG and ~$44.5M remaining available under a Mast Hill facility as of 2026-06-30 (available, not drawn -- not counted as debt)."
     },
     "debt": {
       "value": null,
       "asOf": null,
-      "note": "Same limitation as cash above."
+      "note": "No drawn debt figure disclosed; see available (undrawn) facilities noted under cash"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (clinical-stage, pre-revenue biotech); forward estimate not published/not located",
-      "asOf": null
+      "note": "negative earnings; pre-revenue clinical-stage biotech",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
         "period": "FY2024",
         "value": null,
         "basis": null,
-        "note": "not located this session"
+        "note": "not located"
       },
       {
         "period": "FY2025",
         "value": null,
         "basis": null,
-        "note": "not located this session"
+        "note": "not located"
       },
       {
-        "period": "most recent quarter",
-        "value": null,
-        "basis": null,
-        "note": "not located this session"
+        "period": "Q2 2026",
+        "value": -0.58,
+        "basis": "GAAP",
+        "note": "Reported loss per share on $0.00 revenue for the quarter ended June 2026; consensus was a loss of $0.16"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash burn / trial progress",
+      "metric": "net cash used in operations (pre-revenue)",
+      "period": "H1 2026",
       "pct": null,
-      "period": null,
-      "note": "Pre-revenue clinical-stage biotech. Key disclosed progress: August 2026 topline Phase 2a data for NEO100 in recurrent IDH1-mutant high-grade glioma — 6-month progression-free survival of 48.9% vs. a prespecified 20% benchmark (exact company press-release date not independently pinned down this session, reported via analyst/aggregator coverage). A third-party aggregator (BiopharmaWatch) separately rates cash runway at roughly 0 months with high dilution risk — this is a third-party label, not a company disclosure, and was not verified against filings."
+      "note": "$11.76M used in operations for the six months ended 2026-06-30. Filing discloses substantial doubt about ability to continue as a going concern without additional capital. Key clinical progress: August 2026 topline Phase 2a data for NEO100 in recurrent IDH1-mutant high-grade glioma -- 6-month progression-free survival of 48.9% vs. a prespecified 20% benchmark."
     },
     "nextEarnings": {
       "date": "2026-11-13",
       "confirmed": false,
-      "note": "Platform estimate (earningswhispers); not a company-announced date."
+      "note": "Platform estimate (earningswhispers); not company-announced"
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "Sources disagree sharply with no clear way to reconcile: an undated Investing.com snapshot shows $4.68 (implying ~$113.35M market cap), while a 2026-10-14-dated snapshot shows $2.65 -- a >75% gap. Given the magnitude, this is flagged per the reverse-split/implausible-price-move check rather than averaged or guessed; no reverse split was confirmed either way."
+  },
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "partnership",
+      "headline": "Subsidiary NuroMENA signed a master services agreement with M42's IROS and expanded its board of directors",
+      "impact": null,
+      "source": null,
+      "note": "Reported via aggregator headline; primary release not independently confirmed this session"
+    },
     {
       "date": "2026-09-24",
       "type": "analyst",
       "headline": "Roth Capital initiated coverage with a Buy rating, citing potential pivotal-trial start and an anticipated FDA Type B End-of-Phase 2 meeting in October 2026",
       "impact": null,
       "source": "https://finviz.com/news/395315/neonc-lands-new-coverage-and-roth-sees-potential-2026-trial-catalyst"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "capital structure",
+      "headline": "Redeemed all outstanding Series A Convertible Preferred Stock for $6.0M cash, eliminating related potential dilution, funded from a Sept 9 $15M registered direct offering",
+      "impact": "Stock up about 12.7% on the dilution-reduction news",
+      "source": "https://www.globenewswire.com/news-release/2026/09/17/3363907/0/en/neonc-technologies-redeems-all-outstanding-series-a-convertible-preferred-stock-and-eliminates-related-potential-dilution.html"
     },
     {
       "date": "2026-09-17",
@@ -106,9 +126,24 @@
     {
       "date": "2026-09-09",
       "type": "offering",
+      "headline": "Announced a $15 million registered direct offering; proceeds subsequently used in part to fund the Sept 17 Series A Preferred redemption",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001979414/000182912626010282/neonctechnologies_ex99-1.htm"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "offering",
       "headline": "Announced a $15 million registered direct offering; proceeds were subsequently used in part to fund the Sept 17 Series A Preferred redemption",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001979414/000182912626010282/neonctechnologies_ex99-1.htm"
+    },
+    {
+      "date": "2026-08-12",
+      "type": "clinical data",
+      "headline": "Confirmed and reported topline Phase 2a results for NEO100 in recurrent IDH1-mutant high-grade glioma: 6-month progression-free survival of 48.9% vs. a prespecified 20% benchmark",
+      "impact": null,
+      "source": "https://finviz.com/news/379929/neonc-reports-second-quarter-2026-financial-results-and-confirms-august-12-topline-phase-2a-neo100-data-readout",
+      "note": "Exact date now confirmed via the Q2 2026 earnings-release headline, superseding the prior 'August 2026' placeholder"
     },
     {
       "date": "2026-08",
@@ -128,24 +163,45 @@
     }
   ],
   "conflicts": [
-    "Market cap: PitchBook ~$80.1M as of 2026-10-09 (price $2.77/sh) vs. TipRanks ~$90.76M vs. Equibles ~$116.28M (price $4.47/sh) vs. Simply Wall St ~$193.8M (undated). These likely reflect different snapshot dates during a period of heavy share-price volatility and dilution (Sept 2026 offering), not simple errors, but could not be reconciled to one figure this session.",
-    "Shares outstanding: TipRanks/Morningstar/RedChip ~25.93M vs. Equibles ~26.01M (noted as of a 10-Q 'as of May 15') vs. Simply Wall St ~19.47M vs. an earlier Morningstar snapshot of 28.81M. Not reconciled this session.",
-    "Price: one source shows $4.68 as of 2026-08-21 and another $4.47 (undated, Equibles) vs. PitchBook's $2.77 as of 2026-10-09 — consistent with normal share-price decline/dilution around the Sept 2026 offering rather than a reverse split, but not independently confirmed."
+    "Price: undated Investing.com snapshot shows $4.68 vs. a 2026-10-14-dated snapshot of $2.65 -- a >75% discrepancy. Flagged per the reverse-split/implausible-price check; no split was confirmed, so neither figure is reported as current.",
+    "A set of search results referencing a '$50 million strategic partnership with Quazar Investment' set to close 'by October 23rd' carried source dates/content from 2025 (board approval 2025-06-30, contingencies met 2025-08-11, deadline 2025-10-23), i.e. one year prior to this report's date -- these appear to be stale/recycled content rather than a live 2026 catalyst, and were excluded from the catalysts list on that basis."
   ],
   "pendingFilings": [
     {
       "item": "FDA End-of-Phase 1 Type B meeting for NEO212 (in-person, announced)",
       "expectedDate": "2026-11-17",
-      "note": "Meeting has not yet occurred as of this report; outcome unknown."
+      "note": "Not yet occurred as of this report"
     },
     {
       "item": "Next earnings report",
       "expectedDate": "2026-11-13",
-      "note": "Platform estimate only, not company-confirmed."
+      "note": "Platform estimate only"
     }
   ],
-  "notes": "Theme 'Biotech Catalyst' fits NeOnc's actual business (clinical-stage CNS/brain-cancer oncology) well; no change recommended. Could not reach SEC EDGAR, stocktitan.net, globenewswire.com, investing.com, or other primary/aggregator sites via WebFetch in this sandbox this session (all returned DNS/proxy errors despite the task brief suggesting they should be reachable); the one 8-K exhibit URL cited above was surfaced via WebSearch snippets, not independently fetched. The shared WebSearch budget for this session was also exhausted (a session-wide limit shared across concurrently running research agents) before fundamentals (cash, debt, EPS, confirmed market cap/shares outstanding) could be pinned down — those fields are null with notes rather than guessed. A follow-up pass with fresh search budget and/or EDGAR access is needed to fill the fundamentals gaps.",
+  "notes": "Theme 'Biotech Catalyst' fits. Cash ($1,973,420 at 2026-06-30) and a quarterly EPS figure (-$0.58, Q2 2026) are now established from primary SEC filing / earnings-release content, resolving prior-session gaps. Price/market cap remain unresolved due to a large, unreconciled discrepancy between sources -- flagged rather than guessed. A previously-circulating 'Quazar Investment $50M partnership' storyline appears to be 2025-dated content, not a current (2026) catalyst, and was excluded.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -176,11 +232,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "5 new catalyst(s)",
+      "4 new catalyst(s)",
       "pe updated",
       "eps updated",
       "growth updated",

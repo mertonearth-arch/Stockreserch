@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.410Z",
+  "lastResearched": "2026-10-23T21:20:23.130Z",
   "fundamentals": {
     "marketCap": {
       "value": 9120000000,
@@ -126,15 +126,21 @@
     }
   ],
   "conflicts": [
-    "Debt: 'just over $6 billion' total corporate + project debt as of June 30, 2026 (TIKR) vs. $2.77B (VCP Scanner, unclear date/definition) vs. $8.3M (Digrin, appears to cover only corporate-level debt, excluding non-recourse project financing for the data-center buildout).",
-    "Shares outstanding: 405,112,315 (companiesmarketcap.com, Aug 2026) vs. 405,119,407 (Equibles, undated) vs. 393,282,650 (TipRanks, likely stale) vs. a ~335.2M 'float base' implied by a May 2026 Benzinga short-interest report.",
-    "Market cap: $9.12B (companiesmarketcap at $22.32/share) vs. ~$7.21B (Yahoo Finance, as of 6/30/2026) vs. ~$7.4B implied by an early-August 2026 Benzinga quote of $18.21 x ~405M shares (this last figure is this agent's own arithmetic, not a sourced figure).",
-    "FY2025 full-year EPS: one aggregator (Kalkine) shows an outsized net loss of ~$822M (diluted EPS ~-$2.15), while FY2024 net loss was only ~$44.6M and Q2 2026 alone was ~$0.65/share — the Kalkine FY2025 figure could not be reconciled with other sources and may reflect a large one-time/noncash item (e.g., warrant remeasurement) or a data error; treat as unverified.",
-    "Company naming: recent sources refer to the company as 'Cipher Digital Inc.' rather than 'Cipher Mining Inc.' under the same CIFR ticker — this apparent rename (consistent with its AI-datacenter pivot) could not be independently confirmed with a primary source in this sandbox."
+    "Company name: multiple 2026-dated secondary sources (enkiai.com, Simply Wall St as of 2026-05-22) refer to the company as 'Cipher Digital Inc.' rather than 'Cipher Mining Inc.' under the same CIFR ticker -- this corroborates, but does not newly confirm, the rename already flagged on file; no primary SEC filing documenting a rename was independently located this session."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Crypto Treasury & Miners' (on file) still reasonably fits since Cipher's core identity is Bitcoin mining infrastructure, but the company is visibly pivoting toward AI/HPC datacenter colocation (ERCOT 3.2GW grid capacity, Fluidstack/Google-backed colocation deal, Apollo site option) — this is a real and significant business-mix shift worth flagging even though no better theme string from the fixed list clearly fits better; kept as-is per instructions since no listed alternative is a cleaner match. A possible company rename to 'Cipher Digital Inc.' surfaced in secondary sources and should be verified. SEC EDGAR and most financial/news sites were policy-blocked (403) for direct WebFetch in this sandbox; all figures rely on WebSearch-summarized secondary/aggregator sources, which disagree substantially on debt and EPS — treat the fundamentals above as directional, not final, until checked against the actual 10-Q/10-K.",
+  "notes": "PM pass 2026-10-23: no new dated catalysts found beyond the Sept 16-17, 2026 ERCOT 'Batch Zero' grid-capacity items already on file. Additional secondary sources further corroborate the company's AI/HPC data-center pivot (AWS $5.5B 15-year lease, Google-backed Fluidstack ~$3B colocation deal) and a possible rename to 'Cipher Digital Inc.', but both the AWS and Fluidstack deals originate from 2025 (Fluidstack announced 2025-09-25) and are outside the ~6-month catalyst window -- they are the underlying deals behind the already-captured ERCOT item, not new catalysts, so not added to the list. No updated price/market-cap figure found this session (most recent is the existing Aug 2026 snapshot already on file).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -165,22 +171,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

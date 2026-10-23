@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.433Z",
+  "lastResearched": "2026-10-23T21:20:23.141Z",
   "fundamentals": {
     "marketCap": {
       "value": 13900000,
@@ -86,12 +86,16 @@
       "note": "Company attributes the decline mainly to 2025 divestitures. Adjusted EBITDA was $12.8M (26% margin) vs $13.6M (25%) a year earlier. Q3 2026 guidance: $45.7-48.7M revenue; FY2026 guidance: $190.1-196.1M revenue."
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2026-11-13",
       "confirmed": false,
-      "note": "No company-announced date found. Third-party estimates disagree: AJ Bell Nov 6 2026, TrendSpider Nov 5 2026, Earnings Whispers Nov 13 2026 -- see conflicts."
+      "note": "Earnings Whispers estimate (before market open); other aggregators show stale placeholder dates (Jul 30, Apr 30, 2026) that have already passed and are not reliable. Prior pass's conflicting Nov 5/Nov 6 estimates persist across other sources."
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "asOf": null,
+    "note": "Dated snapshots conflict: $5.07 (2026-08-07/08-10, Upstox, paired with an implausible $144.94M market-cap figure likely mixing pre-split ~29.4M share count with a post-split price) vs. $3.94 (2026-09-18, Value Research). No reliable figure for 2026-10-23 found."
+  },
   "catalysts": [
     {
       "date": "2026-09-16",
@@ -132,17 +136,22 @@
     }
   ],
   "conflicts": [
-    "Cash as of 2026-06-30: company release states $31.0M; Quartr third-party summary states $31.7M.",
-    "Debt as of 2026-06-30: $229.6M per Quartr summary only -- could not be checked against the primary 10-Q (sec.gov unreachable in sandbox), so treat as single-source/unconfirmed.",
-    "Next earnings date estimates differ across sources: Nov 5 (TrendSpider), Nov 6 (AJ Bell), Nov 13 (Earnings Whispers) -- none company-confirmed.",
-    "Market cap and share-count history around the June 2026 1:10 reverse split is confusing across aggregators that mix pre- and post-split figures (e.g. Google Finance's 2.94M shares vs. older 29.4M figures); using only post-split-dated sources above."
+    "A 2026-08-10 Upstox snapshot states a $144.94M market cap at a $5.07 share price, which is inconsistent with the ~2.94M post-split shares outstanding already on file (implying ~$14.9M, not $144.94M) -- likely an aggregator error mixing the pre-reverse-split (~29.4M) share count with a post-split price. Flagging rather than using this figure."
   ],
-  "pendingFilings": [
-    "Nasdaq market-value-of-publicly-held-shares cure period running to 2027-01-27",
-    "Q3 2026 10-Q / earnings release expected Nov 2026 (exact date unconfirmed)"
-  ],
-  "notes": "No mismatch -- Upland is a cloud-based enterprise/B2B software provider (cognitive business applications, knowledge management, contact-center software, project/IT management) and 'Enterprise Software & Security' fits well; kept as-is. Flagging that the business fundamentally looks closer in character to 'Distressed / Restructuring' (shrinking revenue, large GAAP impairments, Nasdaq minimum-market-value deficiency with a Jan 27 2027 cure deadline, a 1-for-10 reverse split in June 2026) -- noting this tension rather than changing the theme, since the company's product category is still enterprise software. SEC EDGAR, StockTitan and BusinessWire were unreachable via WebFetch in this sandbox; cash figure ($31.0M) is attributed to the company's own press release text as relayed by WebSearch; the debt figure is single-sourced to a third-party earnings summary (Quartr) and is NOT independently confirmed against the primary 10-Q.",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts found since the 2026-10-22 pass. The Nasdaq market-value-of-publicly-held-shares cure period (to 2027-01-27) and the Jun 17, 2026 1-for-10 reverse split remain the key structural items on file. Next-earnings date estimates remain unconfirmed and inconsistent across sources (Nov 5, Nov 6, Nov 13, 2026).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -174,23 +183,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "5 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

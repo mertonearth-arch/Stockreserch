@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.410Z",
+  "lastResearched": "2026-10-23T21:20:23.129Z",
   "fundamentals": {
     "marketCap": {
       "value": 10600000000,
@@ -69,9 +69,9 @@
     "revenue": [],
     "growth": {
       "metric": "ETH treasury holdings growth",
-      "period": "2026-08-02 to 2026-10-04",
-      "pct": 3.77,
-      "note": "ETH holdings rose from 5,797,813 (2026-08-02, ~4.8% of ETH supply) to 6,016,414 (2026-10-04, ~4.9% of ETH supply)"
+      "period": "2026-10-04 to 2026-10-18",
+      "pct": 0.42,
+      "note": "ETH holdings rose from 6,016,414 (2026-10-04) to 6,041,481 (2026-10-18), +12,535 ETH in the week of Oct 18 alone; holdings remain ~4.9% of total ETH supply (122.1M tokens), about 99% of the way to the stated 5% target."
     },
     "nextEarnings": {
       "date": "2026-11-20",
@@ -80,10 +80,18 @@
     }
   },
   "price": {
-    "last": 28.03,
-    "changePct": null
+    "last": 26.83,
+    "asOf": "2026-10-01",
+    "note": "Walletinvestor single-day Oct 1, 2026 close; no reliable quote found for the week of Oct 23. Other October snapshots range roughly $21.84-$27.56 across sources/dates; the figure already on file ($28.03, undated) could not be re-confirmed."
   },
   "catalysts": [
+    {
+      "date": "2026-10-18",
+      "type": "treasury update",
+      "headline": "Reported ETH holdings of 6,041,481 tokens (+12,535 ETH week-over-week), ~4.9% of ETH's 122.1M-token supply, ~99% of the way to its 'Alchemy of 5%' goal; 5.07M ETH staked; total crypto+cash holdings reported at $15.1B",
+      "impact": "Continued incremental accumulation; the total-dollar holdings figure is lower than the $16.2B reported for 2026-10-11 (on file) and the $17.4B reported for 2026-10-04, despite a rising ETH count -- plausibly explained by a falling ETH spot price over the period, not a data error, though this was not independently confirmed for 10-18 -- see conflicts",
+      "sourceName": "CoinCentral (secondary aggregation of a company social-media post dated 2026-10-19); no primary BitMine press release independently located this session"
+    },
     {
       "date": "2026-10-11",
       "type": "crypto holdings update",
@@ -133,14 +141,23 @@
     }
   ],
   "conflicts": [
-    "ETH treasury total: on-file record states 6,028,946 ETH as of 2026-10-11 with $612M cash; this session's search found a 6,016,414 ETH / $643M cash figure dated 2026-10-04. These appear to be two different (consecutive) weekly disclosures rather than a contradiction, but the exact 2026-10-11 figure could not be independently re-confirmed in this session due to search-budget exhaustion.",
-    "Shares outstanding: 284,742,300 (TipRanks) vs. 537,628,819 (coinlaw.io, dated 2026-04-13) vs. 569,576,819 (equibles.com/Google Finance, ~June 2026) vs. 603,230,000 (stockanalysis.com, 2026-07-21) — figures roughly trend upward over 2026 consistent with ongoing at-the-market share issuance to fund ETH purchases, but none could be tied to a verified SEC cover-page figure in this sandbox.",
-    "Market cap: $8.71B, $10.6B, $14B (Yahoo, undated/older), and $15.15B (TipRanks) all appear across different snapshot dates in 2026; not reconcilable without a single confirmed price+share-count pair.",
-    "Quarterly EPS: one source (stocktaper.com) lists Q1-2026 EPS -$15.98 and Q2-2026 -$8.40 with Q3-2026 -$0.15, while Simply Wall St's 'latest quarter' (unclear label) shows basic EPS of -$0.15 loss on $46.5M revenue and an $83.6M loss — these do not reconcile with each other or with the ~$3.82B net loss reported elsewhere for the quarter ended 2026-02-28, suggesting either stock-split adjustments, differing share-count denominators, or data errors across aggregators. None could be resolved with a primary filing in this session."
+    "Total treasury value (crypto+cash) reported across consecutive weekly updates does not move monotonically with the rising ETH count: $17.4B (2026-10-04) vs $16.2B (2026-10-11, on file) vs $15.1B (2026-10-18), while ETH holdings rose from 6,016,414 to 6,028,946 to 6,041,481 over the same period. Plausibly explained by a declining ETH spot price (~$2,726 on 10-04 vs ~$2,544 on 10-11), but no primary company source was found to confirm the 10-18 figures, so this is recorded as an unresolved conflict rather than assumed."
   ],
   "pendingFilings": [],
-  "notes": "Theme fits well — BMNR is explicitly operated as an Ethereum treasury vehicle, so 'Crypto Treasury & Miners' (on file) is appropriate; growth metric uses ETH holdings growth per the task's own guidance for crypto treasury vehicles rather than revenue. Fundamentals data quality is poor across third-party aggregators (likely due to a volatile share count from continuous ATM equity issuance and a non-calendar fiscal year ending ~Aug 31); SEC EDGAR, Yahoo Finance and other primary/aggregator sites were policy-blocked (403) for direct WebFetch in this sandbox, so all figures rely on WebSearch-summarized secondary sources. The WebSearch budget for this session was exhausted before FY2024/FY2025 annual EPS and current debt could be independently verified.",
+  "notes": "PM pass 2026-10-23: found one additional weekly treasury update (Oct 18, 2026, via secondary aggregator only -- no primary BitMine press release located) beyond what was already on file. No new EPS, debt, or share-count figures found this session; those remain as previously recorded (and already flagged as conflicting) on file.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -233,22 +250,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
+      "1 new catalyst(s)",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

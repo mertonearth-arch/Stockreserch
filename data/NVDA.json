@@ -8,81 +8,91 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.422Z",
+  "lastResearched": "2026-10-23T21:20:23.135Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "source": null,
-      "note": "Sources disagree and are inconsistently dated: one aggregator (heygotrade) cites ~$5.45T alongside a 2026-10-13 close of $228.52/share; an undated roic.ai snapshot shows ~$4.84T; a stockanalysis-derived snapshot (labeled with a stale Nov-2025 'next earnings' field) shows ~$4.45T. Left null rather than pick one; see conflicts."
+      "value": 5760000000000,
+      "asOf": "2026-10-05",
+      "source": "Market coverage of the 2026-10-05 record close",
+      "note": "Options pricing as of early October reportedly implied ~50% odds of NVIDIA crossing $6T market cap by month-end. Older/stale aggregator figures ($4.45T-$4.84T) from the prior pass are superseded by this more recent, better-dated figure; see conflicts for the full spread."
     },
     "float": {
-      "value": null,
+      "value": 23230000000,
       "asOf": null,
-      "note": "not located this session"
+      "source": "chartmill.com",
+      "note": "Undated; shares-outstanding basis for this source is 24.20B"
     },
     "sharesOutstanding": {
-      "value": null,
+      "value": 24300000000,
       "asOf": null,
-      "note": "Conflicting: ~24.30B (stockanalysis-derived snapshot, appears stale) vs. ~24.15B (roic.ai, undated). Not reconciled; see conflicts."
+      "source": "Equibles / chartmill aggregators",
+      "note": "Minor variance across sources, 24.15B-24.30B"
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not located this session"
+      "value": 285960000,
+      "asOf": "2026-08-14",
+      "source": "Short-interest aggregator (settlement date)",
+      "note": "~1.18% of shares outstanding, 2.52 days to cover on average daily volume of ~113.6M shares. Prior settlement dates showed higher counts (~299.7M at 2026-06-15; ~310.1M at 2026-06-30), consistent with a declining trend into August; no October settlement figure found."
     },
     "cash": {
       "value": null,
       "asOf": null,
-      "note": "Conflicting undated figures found (~$62.47B per roic.ai vs. ~$56.79B per a TipRanks snapshot that appears to date to late 2025); not reconciled. See conflicts."
+      "note": "Conflicting undated figures found (~$62.47B vs ~$56.79B); not reconciled, see conflicts"
     },
     "debt": {
       "value": null,
       "asOf": null,
-      "note": "Conflicting undated figures found (~$38.35B per roic.ai vs. ~$10.60B per the same TipRanks snapshot); large discrepancy not reconciled this session. See conflicts."
+      "note": "Conflicting undated figures found (~$38.35B vs ~$10.60B); not reconciled, see conflicts"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Could not independently verify current trailing/forward EPS and multiples this session before the shared WebSearch budget was exhausted.",
-      "asOf": null
+      "note": "FY2026 and FY2027-to-date EPS are established (see eps array) but a precise current trailing-twelve-month EPS/multiple was not computed this session",
+      "asOf": "2026-10-23"
     },
     "eps": [
       {
         "period": "FY2025 (ended Jan 2025)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "value": 2.94,
+        "basis": "GAAP diluted"
       },
       {
         "period": "FY2026 (ended Jan 2026)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "value": 4.9,
+        "basis": "GAAP diluted",
+        "note": "Non-GAAP diluted EPS was $4.77; +67% YoY vs FY2025"
       },
       {
-        "period": "most recent quarter",
-        "value": null,
-        "basis": null,
-        "note": "Q2 FY2027 results (reported ~late Aug 2026) were referenced in search snippets but actual reported EPS/revenue figures were not retrieved before the search budget was exhausted."
+        "period": "Q2 FY2027 (ended 2026-07-26)",
+        "value": 2.46,
+        "basis": "GAAP diluted",
+        "note": "Non-GAAP diluted EPS was $2.22"
       }
     ],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q2 FY2027 (ended 2026-07-26)",
+        "value": 96200000000,
+        "yoy": 106
+      }
+    ],
     "growth": {
       "metric": "revenue YoY",
-      "pct": null,
-      "period": null,
-      "note": "Not independently verified this session; avoided inferring from pre-training knowledge per instructions to re-establish via search. Consensus EPS of $2.47 for the upcoming quarter was mentioned in one aggregator snippet but that is a forward estimate, not a growth figure."
+      "period": "Q2 FY2027",
+      "pct": 106
     },
     "nextEarnings": {
       "date": "2026-11-18",
       "confirmed": false,
-      "note": "Widely cited as an estimate based on NVIDIA's usual cadence; multiple trackers explicitly state NVIDIA has NOT yet confirmed this date (one labels it 'INFERRED'). The prior dashboard record's 'confirmed' status for this date should be treated as unverified."
+      "note": "Widely cited as an estimate; multiple trackers (Wall Street Horizon, days.to) explicitly label it unconfirmed/inferred as of early-to-mid October 2026"
     }
   },
   "price": {
     "last": 238.9,
-    "changePct": 2.1
+    "changePct": 2.12,
+    "asOf": "2026-10-05",
+    "source": "Market coverage of the 2026-10-05 record close (crowdfundinsider.com / cryptobriefing.com)",
+    "note": "Record close at the time; intraday high the next session (2026-10-06) reached ~$243.37, implying a market cap approaching ~$5.84T. A separate, lower figure of $228.52 was reported for 2026-10-13 (see catalysts/conflicts) -- consistent with a pullback, not a data error, but not reconciled day-by-day."
   },
   "catalysts": [
     {
@@ -92,6 +102,20 @@
       "impact": "+1.0% same-day",
       "source": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-october-14-2026/",
       "note": "Reported via a secondary aggregator; could not independently verify via a primary NVIDIA or Doctolib press release this session (WebFetch blocked in sandbox)."
+    },
+    {
+      "date": "2026-10-05",
+      "type": "milestone",
+      "headline": "Shares closed at a then-record $238.90 (+2.12%, intraday high $240.10); market cap implied at roughly $5.76T; options pricing reportedly implied ~50% odds of crossing $6T market cap by end of October",
+      "impact": "Record close",
+      "source": "https://www.crowdfundinsider.com/?p=316268"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "investment / partnership",
+      "headline": "Invested $3.5B in MediaTek convertible bonds (part of a larger $3.9B offering in which Alphabet also participated); MediaTek to adopt NVLink Fusion for custom XPUs; also expands RTX Spark/DGX Spark PC and automotive collaboration",
+      "impact": "Positive",
+      "source": "https://www.guru3d.com/story/nvidia-invests-billion-in-mediatek-as-partnership-expands-to-future-rtx-pc-chips-and-nvlink-ai/"
     },
     {
       "date": "2026-08-31",
@@ -136,19 +160,41 @@
     }
   ],
   "conflicts": [
-    "Market cap: ~$5.45T (heygotrade, 2026-10-13/14) vs. ~$4.84T (roic.ai, undated) vs. ~$4.45T (stockanalysis-derived snapshot carrying a stale 'next earnings Nov 2025' label, so likely an old cached figure).",
-    "Shares outstanding: ~24.30B (stale-looking stockanalysis snapshot) vs. ~24.15B (roic.ai, undated).",
-    "Cash/debt: ~$62.47B cash / ~$38.35B debt (roic.ai, undated) vs. ~$56.79B cash / ~$10.60B debt (TipRanks snapshot that appears to date to around late 2025) — the debt figures in particular differ by nearly 4x and were not reconciled."
+    "Market cap: $5.76T (2026-10-05 record-close coverage) vs. prior-pass figures of ~$5.45T (2026-10-13/14), ~$4.84T (undated), ~$4.45T (stale, tagged with a 'next earnings Nov 2025' label). The 2026-10-05 and 2026-10-13/14 figures both post-date the prior pass and are broadly consistent with each other (small pullback); the $4.45T-$4.84T readings are treated as stale.",
+    "Cash/debt: ~$62.47B cash / ~$38.35B debt (one aggregator, undated) vs. ~$56.79B cash / ~$10.60B debt (another aggregator, appears to date to late 2025) -- debt figures differ by nearly 4x and were not reconciled this session either."
   ],
   "pendingFilings": [
     {
       "item": "Next earnings (Q3 FY2027)",
       "expectedDate": "2026-11-18",
-      "note": "Analyst/platform estimate; company has not confirmed the date as of this report."
+      "note": "Analyst/platform estimate; not company-confirmed"
     }
   ],
-  "notes": "Theme 'AI Semiconductors' clearly fits NVIDIA's actual business; no change recommended. The 52-week trading range found was $164.27-$243.37 (as of ~2026-10-13). This record is thinner than intended: SEC EDGAR, stocktitan.net and other primary/filing sources were unreachable via WebFetch in this sandbox (DNS/proxy errors on every domain tried), and the session's shared WebSearch budget (a limit shared across all concurrently running research agents in this run) was exhausted partway through NVDA research, before Q2 FY2027 reported figures, current market cap/shares outstanding, cash/debt, and EPS/PE could be pinned down to a single verified source. Flagging explicitly rather than filling with memory-based or guessed figures. A follow-up pass with fresh search budget is recommended to complete this record.",
+  "notes": "Theme 'AI Semiconductors' clearly fits. FY2025 ($2.94) and FY2026 ($4.90) annual GAAP diluted EPS, plus Q2 FY2027 revenue (+106% YoY) and float/short-interest figures are newly established this pass. Cash and debt remain unresolved due to conflicting, apparently differently-dated aggregator figures (prior pass's gap persists).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -236,7 +282,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [

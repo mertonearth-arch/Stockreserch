@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.415Z",
+  "lastResearched": "2026-10-23T21:20:23.106Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
       "asOf": null,
       "source": null,
-      "note": "No current (2026-10-22) figure confirmed -- see conflicts for dated historical snapshots ranging ~$5.56B-$6.33B at prices $223.52-$254.38 between May and August 2026. A material stock move is likely on both the Sept 14 Grasshopper-withdrawal (-20%+ per reports) and the Oct 22 Q3 earnings beat, so none of these pre-date figures is usable as current."
+      "note": "Still no single reliable current (post-Q3-earnings) figure. This round surfaced three more mutually inconsistent, mostly undated snapshots: $237.39, $230.58 (both undated aggregator pages), and $172.89 (a 'October 2026' monthly-average figure that is likely a partial-month blend spanning the pre-earnings low after the Sept 14 Grasshopper withdrawal). None is usable as a dated current figure; not treated as current per instructions against guessing."
     },
     "float": {
       "value": null,
@@ -72,7 +72,7 @@
         "period": "Q3 2026",
         "value": null,
         "yoy": 26,
-        "note": "Company reported total revenue up 26% YoY; absolute dollar figure not located in search snippets. One third-party source separately (and with lower confidence) cited ~$1.004B, which is flagged in conflicts."
+        "note": "Company's own 8-K press release states total company revenue surpassed $1 billion in a quarter for the first time in Enova's history, up 26% YoY; exact dollar figure not stated in source text located. Total company originations were $2.6B in the quarter; combined loans and finance receivables reached a record $5.9B, up 30% YoY (distinct metric from the +31% originations YoY figure already on file -- both describe the same quarter from different angles, not a conflict)."
       }
     ],
     "growth": {
@@ -83,11 +83,18 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 2026 report not yet scheduled per sources found; company typically reports in late January/early February"
+      "note": "Still no Q4 2026 date found; GuruFocus/Admiral Markets pages showing 'Oct 22/23' next-earnings dates are stale artifacts referencing the Q3 2026 report that already occurred on 2026-10-22."
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-22",
+      "type": "earnings",
+      "headline": "Supplemental detail on Q3 2026 print: total company originations $2.6B in the quarter; combined loans and finance receivables reached a record $5.9B (+30% YoY); revenue topped $1 billion in a quarter for the first time in company history (+26% YoY); consolidated net charge-off ratio improved to 8.1% from 8.5% YoY",
+      "impact": "Reinforces the earnings beat already on file",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526428941/enva-ex99_1.htm"
+    },
     {
       "date": "2026-10-22",
       "type": "earnings",
@@ -125,12 +132,22 @@
     "Market cap across dated snapshots, none current: Motley Fool $6.33B at close $254.38 (asOf 2026-08-19); ROIC.ai $5.56B at $223.52 (no date given); Benzinga implies a lower cap from a $226.72 close (asOf 2026-08-31). Older Lightyear/Yahoo/Finboard snapshots from March/May 2026 are stale and excluded.",
     "Q3 2026 adjusted EPS: company's own 8-K/press release states $4.48 (+33% YoY); a third-party aggregator (scanx.trade) instead reports $4.37 vs a $4.34 estimate and revenue of $1.004B -- the two do not reconcile and may reflect a reporting/date mix-up (one search summary separately flagged Q2 2026 figures as sometimes mislabeled Q3 across sources). The company 8-K figure ($4.48) is treated as authoritative above."
   ],
-  "pendingFilings": [
-    "8-K 2026-10-22 (Q3 2026 earnings)",
-    "8-K 2026-09-14 (Grasshopper withdrawal)"
-  ],
-  "notes": "Theme 'Fintech & Consumer Credit' fits well -- online/near-prime consumer and small-business lending platform. themeLabel 'established' given long operating history and a consistent pattern of EPS beats, despite the Sept 14 deal withdrawal, the associated stock drop, and a plaintiff-firm securities investigation announcement (which is not itself evidence of wrongdoing). Full balance-sheet figures (cash, debt, shares outstanding, short interest) could not be established because SEC EDGAR and most third-party finance sites were unreachable via WebFetch/curl in this sandbox, and the WebSearch tool's per-turn budget was exhausted before a live price/market-cap check could be completed.",
+  "pendingFilings": [],
+  "notes": "No reliable dated current share price/market cap could be found in this PM pass despite multiple targeted searches -- aggregator pages return undated or partial-month figures that cannot be reconciled to 2026-10-22/23. Theme and EPS/revenue-growth story unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -162,24 +179,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
+      "1 new catalyst(s)",
       "revenue updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "marketCap updated"
     ],
     "tradingDay": true
   }

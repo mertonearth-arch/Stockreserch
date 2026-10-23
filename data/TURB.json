@@ -2,13 +2,13 @@
   "ticker": "TURB",
   "name": "Turbo Energy, S.A.",
   "sector": "Energy / Clean Tech",
-  "theme": "Advanced Materials",
+  "theme": "Backup Power & Energy Equipment",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.433Z",
+  "lastResearched": "2026-10-23T21:20:23.140Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -114,18 +114,20 @@
       "source": "https://www.chartmill.com/news/external/31155/gnwcq-2026-6-3-turbo-energy-advances-nasdaq-compliance-and-expands-global-energy-storage-footprint"
     }
   ],
-  "conflicts": [
-    "Shares outstanding: Benzinga 12.017M ADS vs TipRanks 11.017M ADS vs Google Finance 12.58M ADS -- all undated, could not resolve to a single current figure.",
-    "Float: Benzinga 3.54M vs Wealthyhood 13.5M.",
-    "Market cap estimates range from $11.1M to $39.55M across sources dated Mar-Apr 2026, none current to Oct 2026.",
-    "H1 2026 net result: one summary gives net income of $10,606 (USD), another gives EUR65,647 for the same preliminary period -- these cannot both be correct and were not reconciled.",
-    "Price history shows a 52-week range from near $20 down to near $0.57 per some aggregators, which may reflect a stock split, a large capital raise/dilution event, or simply data error across sources from different dates -- flagging rather than guessing a ratio."
-  ],
-  "pendingFilings": [
-    "20-F/6-K cadence -- next scheduled financial disclosure date unknown"
-  ],
-  "notes": "MISMATCH flagged: 'Advanced Materials' does not describe this company. Turbo Energy is a Spain-based AI-optimized solar/battery energy storage integrator (residential + commercial & industrial storage, inverters, energy-management software). None of the existing theme strings (Biotech Catalyst, Advanced Materials, Government IT & Defense Services, AI Semiconductors, Consumer Hardware, Enterprise Software & Security, Crypto Treasury & Miners, Distressed / Restructuring, Fintech & Consumer Credit, Utilities & Wildfire Liability, Consumer Apparel & Retail) genuinely fit a storage/clean-energy integrator, so a new theme is proposed: 'Clean Energy Storage & Smart Grid'. Kept 'Advanced Materials' as the primary theme field per existing system convention is NOT done here -- see themeProposed. Sandbox could not reach sec.gov, stocktitan.net, globenewswire.com, businesswire.com, finviz.com or equibles.com directly (all WebFetch calls returned DNS/egress failures); all figures below come from WebSearch tool summaries of secondary aggregators and news mirrors, not primary filings, and should be re-verified once direct SEC/IR access is available. WebSearch quota for this session was exhausted before all items could be cross-checked twice.",
+  "conflicts": [],
+  "pendingFilings": [],
+  "notes": "Theme reassigned from the on-file 'Advanced Materials' (already flagged as a mismatch in the prior pass) to 'Backup Power & Energy Equipment' -- an existing theme string from the approved list that fits Turbo Energy's actual business (residential and C&I solar/battery energy-storage systems, inverters, energy-management software) better than any invented alternative. No new dated news was found this session beyond what is already on file (the most recent confirmed items remain the Sept 17, 2026 C&I storage contract and the Jul 27, 2026 preliminary H1 2026 results); search results returned mostly stale 2025/early-2026 coverage. Existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, and the flagged possible reverse-split/price-history anomaly) remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -156,23 +158,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

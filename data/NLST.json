@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.405Z",
+  "lastResearched": "2026-10-23T21:20:23.119Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -43,23 +43,49 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "could not verify this session; Netlist has historically reported operating losses aside from litigation/settlement proceeds, so sign of current trailing EPS is unconfirmed",
-      "asOf": null
+      "note": "Q2 2026 net income was positive ($1.4M) but a per-share EPS figure precise enough for a P/E was not located; EarningsWhispers/Chartmill describe the print as 'breakeven' on an EPS basis",
+      "asOf": "2026-07-30"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": 0,
+        "basis": "GAAP (approx.)",
+        "note": "Reported as 'breakeven' vs. a 'breakeven' consensus per EarningsWhispers/Chartmill; exact per-share figure to more than one decimal not located this session. Net income was $1.4M vs a $6.1M net loss in Q2 2025."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2025",
+        "value": null,
+        "yoy": null,
+        "note": "Base-period dollar figure not located; only the YoY growth rate was disclosed."
+      },
+      {
+        "period": "Q2 2026",
+        "value": 109800000,
+        "yoy": 163,
+        "note": "Net sales $109.8M, +163% YoY, vs. $90.0M consensus (EarningsWhispers). H1 2026 net sales $214.7M, +204% YoY."
+      }
+    ],
     "growth": {
-      "metric": "Patent-licensing settlement income (non-recurring), not organic revenue growth",
-      "period": "2026-10-05 Micron settlement",
-      "pct": null,
-      "note": "Netlist has no established organic revenue-growth figure verifiable this session. The dominant financial event is a new $600M patent license settlement with Micron ($30M/quarter for 20 quarters, Q4 2026 through Q3 2031), which will materially affect future reported revenue/income but is litigation-settlement income rather than organic growth."
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 163,
+      "note": "This is organic product-revenue growth (DDR4/DDR5 memory modules), distinct from the separate Oct 2026 Micron patent-licensing settlement income. Company guided Q3 2026 product revenue 'similar to Q2' on the July 30 call."
     },
     "nextEarnings": {
       "date": "2026-11-03",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Not company-confirmed; aggregators disagree (Investing.com: Nov 3; EarningsWhispers beta: Oct 29; EarningsWhispers main: Nov 5)."
     }
   },
-  "price": null,
+  "price": {
+    "last": 6.66,
+    "changePct": null,
+    "asOf": "2026-10-06",
+    "source": "Webull/Finviz settlement-day coverage (carried from prior pass)"
+  },
   "catalysts": [
     {
       "date": "2026-10-06",
@@ -101,15 +127,38 @@
       "headline": "Netlist announced a five-year strategic alliance with Samsung Electronics",
       "impact": "cited by Roth Capital as supporting rationale for its subsequent price-target increase",
       "source": "https://www.tipranks.com/news/the-fly/netlist-price-target-raised-to-5-from-3-at-roth-capital-thefly-news"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Netlist reported Q2 2026 results: net sales $109.8M (+163% YoY) vs. $90.0M consensus; net income $1.4M vs. a $6.1M net loss in Q2 2025; H1 2026 net sales $214.7M (+204% YoY); management guided Q3 2026 product revenue to be similar to Q2",
+      "impact": "First organic-growth earnings beat alongside the ongoing patent-litigation narrative; shares reportedly fell premarket despite the beat per one secondary headline ('Plunges 16% Pre-Market Despite Q2 Revenue Beat, Stuck at Break-Even EPS')",
+      "source": "https://www.barchart.com/story/news/3547874/netlist-reports-second-quarter-2026-results ; SEC 8-K (sec.gov/Archives/edgar/data/0001282631/000110465926088464/)"
     }
   ],
   "conflicts": [
-    "Market cap estimates for NLST vary widely by source/date even accounting for price moves: MarketBeat ~$778M (Aug 2026, $2.33/share); PitchBook ~$867M (2026-06-12); Investing.com ~$884M; Robinhood ~$833M (July 2026, $2.50/share); ROIC.AI ~$1.67B and DeFiLlama ~$1.88B and Digrin ~$2.3B appear stale or inconsistent with their own stated share price and were not used.",
-    "Unclear whether the 2026-10-05 Micron settlement dismisses Micron's role in the Section 337 ITC investigation (which also names Supermicro, HPE, and Lenovo) — sources describe the settlement as resolving 'all pending legal proceedings between the Company and Micron' but do not explicitly confirm the ITC case is included."
+    "Next-earnings date: Investing.com shows Nov 3, 2026; an EarningsWhispers 'beta' page shows Oct 29, 2026; the main EarningsWhispers page shows Nov 5, 2026. None is company-confirmed.",
+    "October 2026 price: a monthly aggregator (Digrin) lists $5.71 for 'October 2026' (exact day within the month not stated), below the $6.66 close recorded for 2026-10-06 from the prior session's Webull/Finviz sourcing — consistent with a pullback over the month but not confirmed day-by-day."
   ],
   "pendingFilings": [],
-  "notes": "Theme mismatch CONFIRMED: 'Government IT & Defense Services' (the on-file theme) does not fit Netlist at all — Netlist is a memory-technology/IP company (DDR4/DDR5 memory modules, NVDIMM/HybriDIMM) now primarily monetizing its patent portfolio via licensing and litigation against Samsung, SK Hynix, Google, Micron, Supermicro, HPE, and Lenovo. None of the pre-set theme strings genuinely fit, so a new theme 'Memory Technology & IP Licensing' is proposed here. themeLabel set to 'story stock' given the ~970% one-year rally is driven almost entirely by litigation/settlement headlines rather than steady underlying fundamentals. Could not verify short interest, cash, debt, EPS, or revenue history this session — WebFetch failed with DNS errors on SEC EDGAR and all other tested domains, and the WebSearch tool's shared quota was exhausted before these specific lookups could be completed.",
+  "notes": "Added the Q2 2026 (reported 2026-07-30) earnings print, which was missing from the prior record and is the first evidence of real organic product-revenue growth (+163% YoY) distinct from the Oct 2026 Micron settlement income. Shares outstanding/market cap/cash/debt/short interest remain unresolved from the prior pass (sources still conflict materially, see prior conflicts); no new resolution found this session.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -143,19 +192,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
+      "1 new catalyst(s)",
       "pe updated",
+      "eps updated",
+      "revenue updated",
       "growth updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

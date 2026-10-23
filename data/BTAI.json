@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.410Z",
+  "lastResearched": "2026-10-23T21:20:23.112Z",
   "fundamentals": {
     "marketCap": {
       "value": 1300000,
@@ -155,15 +155,25 @@
     }
   ],
   "conflicts": [
-    "AUCTION OUTCOME: the on-file catalyst described competing bids due Oct 9 and an auction proposed for Oct 14 as unresolved. This session establishes that the Oct 14 auction was CANCELED on Oct 13, 2026 because no competing qualified bids were received; Teva (the original stalking-horse bidder) was named successful bidder by default, and the bankruptcy court approved the sale to Teva on Oct 21, 2026 (deal value reported as up to ~$125M). Whether the deal has actually closed (targeted ~Oct 26, 2026) could not be confirmed in this session.",
-    "Market cap / share count: current (Oct 2026) figures show the stock essentially wiped out (~$1.3M market cap on OTC Pink, suffixed .Q typically denoting bankruptcy), while several aggregator pages (Simply Wall St ~$29.8M at 27.07M shares in April 2026; Equibles ~$40.45M at 30.9M shares, undated; Google Finance ~$27.25M at 30.88M shares) show much higher, apparently pre- or early-bankruptcy-filing values. These cannot be reconciled without a dated, current quote, which this sandbox could not obtain (WebFetch to Nasdaq/OTC quote pages was policy-blocked, and the WebSearch budget ran out before a current-price search could be completed)."
+    "One low-reliability secondary source (Signalbase) claims the Teva acquisition of BioXcel was already completed, effective 2026-09-01, for $125.0 million -- this directly contradicts the court-approval timeline already on file (court approved the sale on 2026-10-21, with closing targeted ~2026-10-26) and was not corroborated by any other source found. Flagged per instructions rather than resolved.",
+    "Price: file carries a last price of $0.04 (OTC Pink, post-delisting, consistent with the Sept 8, 2026 Nasdaq suspension). A separate undated eToro snapshot shows $0.7606, citing 'Nasdaq' as its exchange source -- almost certainly a stale pre-delisting cache, not a current OTC quote, and not used."
   ],
   "pendingFilings": [
-    "Combined Chapter 11 plan and disclosure statement — pending creditor vote following Oct 21, 2026 court approval",
-    "Sale closing on the Teva asset purchase agreement — targeted ~Oct 26, 2026 per pre-hearing reporting; not independently confirmed as completed"
+    "Sale closing on the Teva asset purchase agreement -- one source (Bloomberg Law, via secondary aggregation) describes an Oct 30, 2026 'outside date' by which the Teva transaction must close or a superior offer be identified; this was not found in a primary court filing this session and does not confirm whether closing has already occurred."
   ],
-  "notes": "Theme 'Distressed / Restructuring' fits well and is now strongly confirmed by the September 2026 Chapter 11 filing and subsequent court proceedings. This is the most important update in this batch: the previously-unresolved BTAI auction has been resolved — the live auction never happened (no competing bids), Teva was named successful bidder, and the bankruptcy court approved the ~$125M sale on 2026-10-21 (the day before 'today'). Equity holders should be aware the common stock appears to have collapsed to near-zero value consistent with a typical Chapter 11 equity wipeout, though this could not be fully confirmed with a current, dated quote in this sandbox. Cash, debt, EPS and shares-outstanding/float for the current period could not be established — WebFetch to SEC EDGAR and most financial news sites returned 403 policy-denial errors throughout this session, and the WebSearch budget was exhausted before these specific gaps could be filled via additional queries.",
+  "notes": "No source found this session confirming the Teva sale has actually closed as of 2026-10-22/23. The Oct 30, 2026 outside-date detail is new and worth tracking as the next hard deadline. Cash/DIP-financing balance, debt, EPS, and shares outstanding remain unestablished.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -272,22 +282,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "5 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "new filing(s)",
       "conflicts updated"
     ],

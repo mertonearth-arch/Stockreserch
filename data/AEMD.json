@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.408Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-10-23T21:20:23.127Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -159,11 +159,17 @@
     "Short interest: 13.9% vs. 22.03% of float on the same raw short-share count, due to disagreement over the float denominator.",
     "Next earnings date: Earnings Whispers says 2026-11-12; TipRanks says 2026-11-18 (its own page flags this as an estimate, not a confirmed company date)."
   ],
-  "pendingFilings": [
-    "Form S-4 registration statement / proxy statement-prospectus for the North Immunology merger — per company statements, intended to be filed with the SEC but not confirmed as filed as of this session's searches (~Oct 2026)."
-  ],
-  "notes": "Theme 'Biotech Catalyst' is a reasonable fit for the pre-merger company (clinical-stage Hemopurifier) and for the pending North Immunology deal (atopic dermatitis drug NOR-101), though note the business is about to pivot entirely via the merger (ticker would become NRTX). No update on a shareholder vote date or S-4 effectiveness was found — the deal remains a signed agreement with S-4/proxy still pending as of this session's research; the ~Q1 2027 targeted close date on file is consistent with what was found and was not contradicted. Market cap, float, and short interest could not be reliably pinned down this session due to the rapidly changing, reverse-split-affected share count and conflicting aggregator data; SEC EDGAR direct access was blocked in this sandbox, and the web-search budget was exhausted before a full 10-Q balance sheet reconciliation could be completed.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-10-23: nothing new. No update found on the North Immunology merger (no S-4/proxy filing located) or any catalyst beyond what's already on file (last confirmed item: the 2026-09-17 merger announcement). No reliable October 2026 price quote found this session (most recent sources located are dated May 2026); fundamentals otherwise unchanged from the prior pass.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -260,23 +266,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.402Z",
+  "lastResearched": "2026-10-23T21:20:23.113Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "The only figures found this session ($28.36B and $28.76B) were attributed to stockanalysis.com, which is excluded per task instructions (egress-blocked in this sandbox, not to be relied on). No alternate reachable source for current market cap was found before the search budget was exhausted."
+      "value": 20870000000,
+      "asOf": "2026-10-05",
+      "source": "Google Finance (via web search snapshot)",
+      "note": "Implied by $54.24/share and ~384.81M shares; sharply lower than ~$75-79/share and ~$28-30B market cap readings from mid-July 2026 found in sources this session — large apparent decline not fully explained (see conflicts)."
     },
     "float": {
       "value": null,
@@ -21,9 +22,9 @@
       "note": "Not found from a usable (non-stockanalysis) source this session."
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "A figure of 384,793,941 shares (cited to an April 28, 2026 filing) and 384.91M shares appeared only via stockanalysis.com-attributed search snippets, which are excluded per task instructions. SEC EDGAR (the actual 10-Q cover page) was unreachable in this sandbox."
+      "value": 384810000,
+      "asOf": "2026-10-05",
+      "source": "Google Finance (via web search snapshot)"
     },
     "shortInterest": {
       "value": null,
@@ -78,12 +79,14 @@
     },
     "nextEarnings": {
       "date": "2026-10-28",
-      "confirmed": true
+      "confirmed": false,
+      "note": "AJ Bell's calendar lists 2026-10-28 with a specific call time (13:30 UTC); other aggregators disagree (see conflicts) and no company press release confirming the date was found this session."
     }
   },
   "price": {
     "last": 54.24,
-    "changePct": null
+    "changePct": null,
+    "asOf": "2026-10-05"
   },
   "catalysts": [
     {
@@ -160,13 +163,25 @@
     }
   ],
   "conflicts": [
-    "Q2 2026 core EPS: one summary cites $1.54 (matching the company's own release and multiple outlets) while another cites $1.04 for the same quarter — the $1.04 figure appears to be an error and was not used as the primary value.",
-    "Market cap/shares outstanding/short interest figures found this session all trace back to stockanalysis.com, a site explicitly excluded for this task; these were not used as values and are flagged here rather than silently incorporated.",
-    "Muddy Waters short report and the ~$20B liability figure (on file, dated 2026-10-13) could not be confirmed against any source reached this session."
+    "Next earnings date: AJ Bell lists 2026-10-28 vs TipRanks 2026-11-03 (labeled an estimate) vs Earnings Whispers 2026-10-29 vs MarketScreener 2026-11-02 (projected) — not reconciled to a company-confirmed date.",
+    "Price/market cap: Google Finance shows $54.24/share and ~$20.87B market cap as of 2026-10-05, down sharply from ~$75-79/share and ~$28-30B market cap readings from mid-July 2026 found in the same round of searches — directionally consistent with the wildfire-liability overhang and analyst downgrades already on file for Sept-Oct 2026, but no single source bridges the two readings to confirm the magnitude."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Utilities & Wildfire Liability' is a genuine fit — EIX is a regulated California electric utility holding company currently facing Eaton Fire liability litigation and claims; keeping as-is. themeLabel set to 'established' given EIX is a decades-old, large regulated utility, notwithstanding the litigation overhang. Next earnings date of 2026-10-28 is set to confirmed=true because it is consistent with EIX's normal quarterly reporting cadence (Q2 was reported 2026-07-30, so an Oct 28 Q3 date fits the usual ~13-week cycle for this issuer), though no specific company press release naming that date was independently pulled this session. Fundamentals for market cap, float, shares outstanding, short interest, cash and debt could not be established from an allowed source this session — the only hits were from stockanalysis.com (excluded per instructions) or were too old; SEC EDGAR was also unreachable (blocked by sandbox egress policy) and the WebFetch tool failed outright on every domain tried.",
+  "notes": "No Edison/SCE on-the-record response to the Oct 13, 2026 Muddy Waters report was found this session. Cash, debt, float and short interest remain unverified this pass (SEC EDGAR and most live-quote sources were unreachable via WebFetch).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -273,22 +288,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

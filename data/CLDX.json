@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.410Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-10-23T21:20:23.131Z",
   "fundamentals": {
     "marketCap": {
       "value": 2300000000,
@@ -85,7 +85,11 @@
       "note": "the on-file date of 2026-11-09 is one of several conflicting unconfirmed estimates found (Unusual Whales: Nov 9; Earnings Whispers: Nov 5 after market close; GuruFocus: Nov 10 estimated); no company-confirmed date was located in this session"
     }
   },
-  "price": null,
+  "price": {
+    "last": 28.25,
+    "asOf": "2026-10",
+    "note": "Digrin monthly series shows $28.25 for October 2026 (exact day not specified), down from $32.41 in September and $39.63 in August -- roughly consistent with the ~$29.77 figure already used for the on-file market-cap estimate. Other undated sources ($35.65, $38.78, $39.11) look stale/unreliable and were not used."
+  },
   "catalysts": [
     {
       "date": "2026-09-22",
@@ -150,8 +154,16 @@
     "Next earnings date: at least three different unconfirmed estimates exist (Nov 5, Nov 9, Nov 10, 2026); none is confirmed by the company."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Biotech Catalyst' (on file) fits well and is reinforced by the large Phase 3 EMBARQ readout and a subsequent major cash build (likely a raise). Because Celldex is clinical-stage with negligible commercial revenue, the task's suggested revenue-YoY growth metric isn't meaningful (revenue fell 97% YoY on a near-zero base), so cash-position growth was used instead as a more informative capital-adequacy signal. The exact Sept 22, 2026 Phase 3 EMBARQ result date and characterization carried over from the original (unverified) dashboard record could not be independently re-confirmed with a primary source in this session before the WebSearch budget was exhausted, though it is directionally consistent with the company's own 'early fall' topline-readout guidance from its Q2 2026 earnings release. FY2024/FY2025 full-year EPS and any formal debt figure could not be established. SEC EDGAR and most other primary/aggregator financial sites returned 403 policy-denial errors for direct WebFetch throughout this session.",
+  "notes": "PM pass 2026-10-23: nothing materially new. No catalysts, earnings, or regulatory news found beyond the Sept 22, 2026 Phase 3 EMBARQ topline readout and Aug 6, 2026 Q2 earnings already on file. Next-earnings date remains unconfirmed (conflicting estimates of Nov 5/9/10, 2026 persist). FY2024/FY2025 full-year EPS and a clean debt figure still not located.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -182,24 +194,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

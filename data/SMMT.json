@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.431Z",
+  "lastResearched": "2026-10-23T21:20:23.140Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -78,7 +78,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 earnings date not located in sandbox search."
+      "note": "Multiple conflicting, already-past estimated dates were found (Oct 14, Oct 19, Oct 20, and Oct 22, 2026, across different aggregators), none of which could be matched to an actual earnings release in this session's search results as of 2026-10-23. Either a Q3 2026 report has not yet been issued or this session's search did not surface it -- flagging for an urgent follow-up check rather than reporting a specific date."
     }
   },
   "price": null,
@@ -112,16 +112,25 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding conflict: TipRanks 744,442,570 vs Equibles 775,372,700 vs MarketBeat 742,850,000 (dated to a stale 2025-09-15 record date). Could not confirm the authoritative 10-Q cover-page figure in this sandbox.",
-    "Market cap conflict: TipRanks ~$13.02B vs ROIC.ai snapshots of $10.67B (@$13.75) and $11.36B (@$14.63) - none dated with confidence.",
-    "The 2026-06-30 10-Q's going-concern / 'insufficient to fund operations for at least one year' disclosure appears unusual for a company with a ~$10-13B market capitalization, but this is standard boilerplate for a clinical-stage biotech with no material US product revenue and does not necessarily reflect actual near-term liquidity risk, especially given the $2B AstraZeneca investment that closed shortly after (2026-10-05)."
+    "Q3 2026 earnings status is unclear: several aggregators list estimated report dates in the Oct 14-22, 2026 window (all now in the past as of this 2026-10-23 pass), but no actual results coverage was found. This needs direct confirmation from Summit's investor relations page or an SEC 8-K."
   ],
   "pendingFilings": [
-    "SEC registration statement for resale of AstraZeneca's as-converted common shares (per the 2026-09-28 agreement) - pending/in process",
-    "Q3 2026 10-Q (not yet due/filed as of 2026-10-22)"
+    "FDA PDUFA goal action date of 2026-11-14 for the ivonescimab BLA (ivonescimab + chemotherapy in EGFR-mutated, locally advanced/metastatic NSCLC post-TKI therapy); BLA accepted by FDA 2026-01-29"
   ],
-  "notes": "Theme 'Biotech Catalyst' fits: Summit remains a clinical-stage oncology company (ivonescimab / SMT112, a PD-1/VEGF bispecific antibody licensed from Akeso) with no material US-approved product revenue, and its stock is currently driven by the AstraZeneca partnership/investment narrative and ongoing ivonescimab trial readouts (HARMONi, HARMONi-2) - themeLabel set to 'hot sector' given oncology bispecific/ADC combination therapy is a very actively bid area of biotech right now, reinforced by AstraZeneca's large investment. Could not verify market cap, shares outstanding, debt, or EPS figures against primary SEC filings in this sandbox because WebFetch to sec.gov and other IR/press domains failed with DNS resolution errors throughout this session, and the WebSearch budget for the session was exhausted before further confirmation queries could run.",
+  "notes": "Most material open item: this session could not confirm whether Summit has reported Q3 2026 results, despite several now-past estimated dates in circulation (Oct 14/19/20/22). This should be checked directly against the company's IR site before the next pass. Separately, the FDA's PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC, post-TKI) is 2026-11-14, roughly three weeks from this report date -- a significant near-term regulatory catalyst to watch. No update to market cap/shares-outstanding conflicts already on file (cluster of ~744M-797M shares, ~$10.7B-$13B cap, none dated with confidence).",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -152,21 +161,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "new filing(s)",
       "conflicts updated"
     ],

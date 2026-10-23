@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.405Z",
+  "lastResearched": "2026-10-23T21:20:23.120Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "could not verify shares outstanding / market cap this session; share price was trading around $12.93-$13.15 intraday on 2026-10-22"
+      "value": 34659000000,
+      "asOf": "2026-10-22",
+      "source": "Derived: 2,680,173,293 shares (SEC 10-Q, 2026-10-14) x $12.93 (2026-10-22 post-earnings close)",
+      "note": "An alternate calc excluding the 477.7M utility-held shares (~2.2026B shares x $12.93) gives ~$28.49B instead — see conflicts."
     },
     "float": {
       "value": null,
@@ -21,9 +22,10 @@
       "note": "not found this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
+      "value": 2680173293,
+      "asOf": "2026-10-14",
+      "source": "PG&E Corp Form 10-Q (Q3 2026, SEC EDGAR, sec.gov/Archives/edgar/data/0001004980/000100498026000055/pcg-20260930.htm)",
+      "note": "Filing's own footnote states this total includes 477,743,590 shares of PG&E Corp common stock held by Pacific Gas and Electric Company (its utility subsidiary); excluding those gives ~2.2026B shares. Both readings are carried — see conflicts."
     },
     "shortInterest": {
       "value": null,
@@ -107,8 +109,10 @@
     }
   },
   "price": {
-    "last": 13.27,
-    "changePct": null
+    "last": 12.93,
+    "changePct": null,
+    "asOf": "2026-10-22",
+    "source": "StockTitan/GuruFocus/Benzinga/Investing.com earnings-day coverage (post Q3 2026 earnings close, carried forward from prior pass's catalyst text)"
   },
   "catalysts": [
     {
@@ -195,13 +199,24 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 revenue consensus figures differ across sources: one source cites ~$6.71B, another references a ~$6.82B forecast; both describe the actual $6.188B print as a miss either way.",
-    "Q3 2026 net income reported inconsistently across secondary sources: one cites $749 million (attributable to common shareholders), another $776 million; not resolved against PG&E's own 8-K this session.",
-    "Q2 2026 non-GAAP EPS consensus cited differently across sources (Chartmill: $0.3635 vs. a TipRanks page showing an unexplained '7.59' figure that does not appear to be a comparable EPS number and was excluded as unreliable)."
+    "Market cap depends on which PCG share count is used: total shares of record per the Q3 2026 10-Q (2,680,173,293 as of 2026-10-14) implies ~$34.66B at the 2026-10-22 close of $12.93, while excluding the 477,743,590 shares the filing says are held by Pacific Gas and Electric Company (the utility subsidiary) implies ~$28.49B instead. Both readings are recorded rather than picking one.",
+    "The price on file from the prior pass ($13.27, no asOf date) is inconsistent with that same pass's own catalyst text describing an intraday move from a ~$13.15 prior close down to ~$12.93 after the 2026-10-22 Q3 earnings miss; this pass uses $12.93 (sourced to that catalyst text) in its place."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Utilities & Wildfire Liability' fits well — PG&E is a California electric/gas utility with a well-documented wildfire-liability history; themeLabel set to 'established'. Today's (2026-10-22) release means the on-file 'next earnings' date has already occurred and is now logged as a catalyst instead. Market cap, shares outstanding, float, short interest, cash, and debt could not be independently verified this session: SEC EDGAR, the company IR site, and most news domains returned DNS failures via WebFetch, and the WebSearch tool's shared quota was exhausted before these specific lookups could be completed.",
+  "notes": "No new dated catalysts found beyond the 2026-10-22 Q3 earnings/guidance items already on file. Primary addition this session is the SEC 10-Q-sourced share count, which resolves the previously-null sharesOutstanding field (with the dual-reading caveat above). Short interest, cash, and debt remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -311,22 +326,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true
