@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-22T21:23:42.408Z",
+  "lastResearched": "2026-10-23T05:30:01.923Z",
   "fundamentals": {
     "marketCap": {
       "value": 2900000000,
@@ -74,12 +74,19 @@
       "note": "Pre-revenue clinical-stage biotech (Phase 3 VK2735 obesity program); no product revenue, so standard revenue-growth figure is not applicable. Could not establish a precise cash-burn percentage this session."
     },
     "nextEarnings": {
-      "date": "2026-10-26",
-      "confirmed": false
+      "date": "2026-10-28",
+      "confirmed": true,
+      "note": "Company's own announcement, issued 2026-10-21: Q3 2026 results after market close Wed Oct 28, conference call 4:30pm ET. Corrects the prior unconfirmed 2026-10-26 estimate on file."
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-21",
+      "type": "earnings_date",
+      "headline": "Viking Therapeutics announced it will report Q3 2026 results after market close on Wednesday, October 28, 2026, with a conference call at 4:30pm ET",
+      "source": "https://www.aaii.com/investingideas/article/545576-why-viking-therapeutics-inc8217s-vktx-stock-is-up-3361; corroborated by unusualwhales.com earnings calendar"
+    },
     {
       "date": "2026-09-22",
       "type": "clinical trial",
@@ -124,8 +131,19 @@
     "Next earnings date: AJ Bell listed Oct 22, 2026 (today, with no corroborating news found); Earnings Whispers listed Oct 26, 2026; chartrow/Right Trader/Digrin listed Oct 28, 2026. None is a confirmed company announcement found in this session."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Biotech Catalyst' fits well — Viking is a clinical-stage biotech with a high-profile Phase 3 obesity program (VK2735) in a hot (GLP-1) space. Could NOT independently verify the on-file catalyst of a '2026-09-22 positive topline VK2735 maintenance-dosing result' in this session (web search budget was exhausted mid-task and SEC EDGAR / most news-site direct fetches were blocked in this sandbox), so it is omitted from the catalysts list rather than restated as fact — a follow-up search is recommended to confirm or correct it. FY2024/FY2025 annual EPS and a current debt figure could not be established in this session.",
+  "notes": "AM pass 2026-10-23: no other overnight news found.",
   "history": [
+    {
+      "date": "2026-10-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-22",
       "run": "pm",
@@ -163,22 +181,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-22",
-    "run": "pm",
+    "date": "2026-10-23",
+    "run": "am",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

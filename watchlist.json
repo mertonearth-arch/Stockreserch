@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T21:23:42.438Z",
+  "updated": "2026-10-23T05:30:01.929Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -323,11 +323,11 @@
       "tier": "daily",
       "theme": "Biotech Catalyst",
       "quietRuns": 0,
-      "lastResearched": "2026-10-22T21:23:42.408Z"
+      "lastResearched": "2026-10-23T05:30:01.923Z"
     }
   },
   "lastRun": {
-    "date": "2026-10-22",
-    "run": "pm"
+    "date": "2026-10-23",
+    "run": "am"
   }
 }
