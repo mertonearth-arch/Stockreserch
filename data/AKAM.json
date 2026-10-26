@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.110Z",
+  "lastResearched": "2026-10-26T05:31:29.937Z",
   "fundamentals": {
     "marketCap": {
       "value": 15510000000,
@@ -160,6 +160,14 @@
   "notes": "Price updated to the most recent dated close found ($91.71, 2026-10-14), down sharply from the $107.91 level (2026-09-29) already on file. Added a missing Aug-2026 HSBC downgrade catalyst. Could not confirm a specific cause for the Oct 14 drop or find any dated news after Oct 14; next earnings (Nov 5, 2026) and FY2024/FY2025 EPS remain as before.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -201,14 +209,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "move -8.23%",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

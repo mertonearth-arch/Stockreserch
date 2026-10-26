@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.115Z",
+  "lastResearched": "2026-10-26T05:31:29.948Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -173,6 +173,14 @@
   "notes": "Renewed attempt made this pass to verify GPRO's numbers per standing instruction. Price is now reasonably corroborated in the $1.16-$1.19 range as of Oct 9-14, 2026 (up from ~$0.60-0.70 over the summer), and the restated short-term-debt figure ($81.6M as of 2026-06-30) is a solid new data point sourced to the company's own Oct 19 restatement filings. Market cap and shares outstanding remain genuinely unreconciled across sources even after additional search effort — this looks like real cross-aggregator data-quality variance rather than something resolvable without a single live, dated quote. The Oct 19 restatement/technical-default disclosure is the most important new development this pass and does not change the merger's own terms.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -273,17 +281,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

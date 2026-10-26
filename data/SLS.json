@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.139Z",
+  "lastResearched": "2026-10-26T05:31:29.963Z",
   "fundamentals": {
     "marketCap": {
       "value": 2833000000,
@@ -139,6 +139,14 @@
   "notes": "As of 2026-08-18 (per licensing partner 3D Medicines), the REGAL trial had reached 78 of 80 required events -- still short of the 80th-event threshold that was reportedly already a subject of disclosure-delay allegations in Aug/Sept 2026 coverage (already on file); this timing tension is unresolved and flagged for a follow-up pass. Hong Kong arbitration with 3D Medicines over ~$13M in disputed milestone payments was reported with a ruling 'expected' in Q3 2026, but no outcome was located this session and no reliable date exists, so it is omitted from dated catalysts. Unconfirmed market speculation about a possible company sale (tied to revised change-of-control executive pay terms) was also not independently dated or confirmed, so omitted from catalysts per the dated-catalyst rule.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -180,14 +188,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "nextEarnings updated",
-      "conflict resolved"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

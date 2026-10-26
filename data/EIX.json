@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.113Z",
+  "lastResearched": "2026-10-26T05:31:29.942Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -170,6 +170,14 @@
   "notes": "No Edison/SCE on-the-record response to the Oct 13, 2026 Muddy Waters report was found this session. Cash, debt, float and short interest remain unverified this pass (SEC EDGAR and most live-quote sources were unreachable via WebFetch).",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -288,15 +296,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

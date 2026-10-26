@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.121Z",
+  "lastResearched": "2026-10-26T05:31:29.949Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -132,6 +132,14 @@
   "notes": "No new dated catalysts located this session beyond the 2026-09-29/09-30 AMT-130 data-readout selloff and the 2026-09-02 BLA submission already on file; price confirms the stock has stabilized in the low-$20s since that ~37% single-day drop. Short interest, debt, and FY2024/FY2025 annual EPS remain unresolved. WebSearch budget for this run was exhausted before an October 2026-specific news check could be completed for this ticker.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -172,12 +180,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

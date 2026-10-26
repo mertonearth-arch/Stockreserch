@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.138Z",
+  "lastResearched": "2026-10-26T05:31:29.962Z",
   "fundamentals": {
     "marketCap": {
       "value": 21970000000,
@@ -114,6 +114,14 @@
   "notes": "No new dated catalysts found since the 2026-10-22 pass; the Q2 FY2027 earnings print (2026-08-27) and balance-sheet figures already on file remain the most recent confirmed data. Next-earnings date remains an unconfirmed carry-forward.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -218,13 +226,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

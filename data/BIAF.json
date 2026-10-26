@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.128Z",
+  "lastResearched": "2026-10-26T05:31:29.939Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -169,6 +169,14 @@
   "notes": "PM pass 2026-10-23: major addition this pass -- discovered a 1-for-15 reverse stock split (effective Aug 21/24, 2026) entirely missing from the file. It directionally resolves the previously-unexplained market-cap conflict, since the post-split share count times a recent price lands back in the $2.8-3.6M range that the old conflicting aggregator figures implied. A next-earnings date (Nov 6, 2026) was also newly found; company confirmation is still outstanding. Cash and debt figures still not established (not found this session either).",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -213,17 +221,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "move -16.22%",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.140Z",
+  "lastResearched": "2026-10-26T05:31:29.963Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -120,6 +120,14 @@
   "notes": "Most material open item: this session could not confirm whether Summit has reported Q3 2026 results, despite several now-past estimated dates in circulation (Oct 14/19/20/22). This should be checked directly against the company's IR site before the next pass. Separately, the FDA's PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC, post-TKI) is 2026-11-14, roughly three weeks from this report date -- a significant near-term regulatory catalyst to watch. No update to market cap/shares-outstanding conflicts already on file (cluster of ~744M-797M shares, ~$10.7B-$13B cap, none dated with confidence).",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -161,14 +169,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

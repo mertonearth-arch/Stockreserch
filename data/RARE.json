@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.123Z",
+  "lastResearched": "2026-10-26T05:31:29.950Z",
   "fundamentals": {
     "marketCap": {
       "value": 1574000000,
@@ -136,6 +136,14 @@
   "notes": "No new dated catalysts located beyond the two October 2026 Priority Review Voucher sales ($203M on 10-14, $210M on 10-07) already on file. Market cap/shares-outstanding fields, previously null, are now populated (with the date-mismatch caveat above). Cash, debt, short interest, and trailing/forward P&E remain unresolved.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -180,14 +188,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

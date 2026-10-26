@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.109Z",
+  "lastResearched": "2026-10-26T05:31:29.941Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -136,6 +136,14 @@
   "notes": "No material new news found for AFRM in this PM pass beyond what is already on file (Nov 5, 2026 next-earnings date; conflicting share-count and short-interest readings already captured). A slightly more recent dated price point (2026-10-05, $75.17) was found and is offered here, but no Oct-22/23 close could be confirmed, and cash/debt/shares-outstanding remain unresolved -- SEC EDGAR and most financial sites continue to be unreachable via WebFetch in this environment.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -242,12 +250,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

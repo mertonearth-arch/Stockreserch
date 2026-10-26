@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.109Z",
+  "lastResearched": "2026-10-26T05:31:29.953Z",
   "fundamentals": {
     "marketCap": {
       "value": 2900000000,
@@ -134,6 +134,14 @@
   "notes": "No material new company news found beyond the AM pass (2026-10-23) already on file. This PM pass mainly reconfirms the Oct 28 earnings date and adds a slightly more precise, similarly-dated short-interest reading; cash, debt and FY2024/FY2025 EPS remain unestablished.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -192,13 +200,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "shortInterest updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

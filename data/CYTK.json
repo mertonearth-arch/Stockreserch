@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.112Z",
+  "lastResearched": "2026-10-26T05:31:29.942Z",
   "fundamentals": {
     "marketCap": {
       "value": 10650000000,
@@ -141,6 +141,14 @@
   "notes": "No confirmation could be found this session that Cytokinetics has actually filed the planned Q4 2026 sNDA for aficamten in non-obstructive HCM (ACACIA-HCM) -- sources only reconfirm the Phase 3 topline results and the company's stated intent to file in Q4 2026; still shown as a pending filing, not yet an actual filing event. Next earnings (Nov 4, 2026) and other fundamentals unchanged from the prior pass.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -242,12 +250,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

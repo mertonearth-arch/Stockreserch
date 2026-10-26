@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.125Z",
+  "lastResearched": "2026-10-26T05:31:29.951Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -122,6 +122,14 @@
   "notes": "Q3 2026 results had still not been reported as of 2026-10-23 (report expected 2026-10-27 after close). Market cap and shares-outstanding fields, previously null, are now populated from an Aug 2026 snapshot (dated, not live). A $139.9M defense/diagnostic-test-station contract award and a June 2026 Nasdaq-100 index addition were both mentioned in sources reviewed but lack a precise date, so per the no-undated-catalysts rule they are noted here only, not added to the dated catalyst list. Cash and debt remain unresolved.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -164,14 +172,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

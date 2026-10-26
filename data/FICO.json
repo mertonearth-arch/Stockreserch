@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.107Z",
+  "lastResearched": "2026-10-26T05:31:29.943Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -161,6 +161,14 @@
   "notes": "New $2B buyback/ASR/term-loan catalyst (2026-06-08) added -- was missing from the prior snapshot despite being a material capital-structure event (debt-funded buyback) predating the Sept 29 crash. No current, precisely-dated share price or market cap could be established this session; FY2024 EPS, cash, float, and a reconciled short-interest % remain unresolved.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -203,14 +211,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

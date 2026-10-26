@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.137Z",
+  "lastResearched": "2026-10-26T05:31:29.962Z",
   "fundamentals": {
     "marketCap": {
       "value": 16390000,
@@ -168,6 +168,14 @@
   "notes": "Cash runway is now a live concern: cash fell from $26.7M to $5.6M in six months (as of 2026-06-30), alongside discontinuation of the VERSATILE-003 Phase 3 trial to conserve capital. This is a material update from the prior pass, which had cash/shares outstanding as null. Shares outstanding (55,971,338, as of 2026-08-06) is now sourced to the Q2 2026 10-Q cover page directly, resolving the prior session's gap.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -217,21 +225,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

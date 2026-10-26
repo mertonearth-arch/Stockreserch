@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.119Z",
+  "lastResearched": "2026-10-26T05:31:29.949Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -144,6 +144,14 @@
   "notes": "Added the Q2 2026 (reported 2026-07-30) earnings print, which was missing from the prior record and is the first evidence of real organic product-revenue growth (+163% YoY) distinct from the Oct 2026 Micron settlement income. Shares outstanding/market cap/cash/debt/short interest remain unresolved from the prior pass (sources still conflict materially, see prior conflicts); no new resolution found this session.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -192,18 +200,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

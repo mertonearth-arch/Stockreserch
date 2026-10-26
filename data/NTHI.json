@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.135Z",
+  "lastResearched": "2026-10-26T05:31:29.960Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -181,6 +181,14 @@
   "notes": "Theme 'Biotech Catalyst' fits. Cash ($1,973,420 at 2026-06-30) and a quarterly EPS figure (-$0.58, Q2 2026) are now established from primary SEC filing / earnings-release content, resolving prior-session gaps. Price/market cap remain unresolved due to a large, unreconciled discrepancy between sources -- flagged rather than guessed. A previously-circulating 'Quazar Investment $50M partnership' storyline appears to be 2025-dated content, not a current (2026) catalyst, and was excluded.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -232,24 +240,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.118Z",
+  "lastResearched": "2026-10-26T05:31:29.940Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -192,6 +192,14 @@
   "notes": "IREN shares fell sharply through mid-October 2026 (from the low-to-mid $40s into the high $20s) amid financing-cost concerns tied to its AI-cloud capex buildout (FY2027 capex guided at $25B-$30B, already on file). This is a material move not yet reflected in the carried-forward market cap, cash and debt figures, which were not independently re-verified this session. One source mentioned IREN completing ~$2.8B of GPU-equipment financing at a roughly 9% fixed rate, but no specific date could be established, so it is flagged here rather than recorded as a dated catalyst.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -294,14 +302,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "move -11.19%",
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

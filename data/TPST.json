@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-23T21:20:23.125Z",
+  "lastResearched": "2026-10-26T05:31:29.952Z",
   "fundamentals": {
     "marketCap": {
       "value": 12500000,
@@ -117,6 +117,14 @@
   "notes": "No new dated catalysts found beyond the 2026-09-16 Senlang CD7 CAR-T licensing option and 2026-08-13 Q2 2026 earnings/financing items already on file. The 2025-04-08 1-for-13 reverse-split ratio is now independently confirmed via SEC 8-K (prior pass had the date but not a fully verified ratio/authorization trail). Market cap, cash, and debt figures already on file ($12.5M, $779K, $7.6K respectively, all as of 2026-10-16) are unchanged; no newer snapshot located this session.",
   "history": [
     {
+      "date": "2026-10-26",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-23",
       "run": "pm",
       "quiet": false,
@@ -156,12 +164,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-23",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-10-26",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
