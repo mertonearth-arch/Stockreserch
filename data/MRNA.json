@@ -8,19 +8,22 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.949Z",
+  "lastResearched": "2026-10-26T21:15:10.026Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "sources are wildly inconsistent (ranging roughly $23B-$70B across snapshots within weeks of each other) and could not be reconciled to a reliable current figure this session — see conflicts"
+      "value": 86500000000,
+      "asOf": "2026-10-16",
+      "source": "Derived: 396,786,250 shares outstanding (TipRanks) x $218.01 close (financialtechwiz/aggregator snapshot, 2026-10-16)",
+      "note": "Resolves most of the apparent wide spread found in earlier sessions ($23B-$70B): those were dated readings from well before an approximately 800%-over-one-year rally (per one Oct 2026 aggregator) that pushed MRNA from roughly $25-30 a year ago into the $200+ range by mid-October 2026. See conflicts for the specific earlier dated readings this doesn't erase."
     },
     "float": {
       "value": null,
       "note": "not found distinctly from shares outstanding in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "aggregators cluster around 396.6M-399M shares but are undated/inconsistent with each other; not averaged per the never-average rule — see conflicts"
+      "value": 396786250,
+      "asOf": "2026-10",
+      "source": "TipRanks"
     },
     "shortInterest": {
       "value": null,
@@ -122,6 +125,13 @@
     {
       "date": "2026-08-05",
       "type": "regulatory",
+      "headline": "RESOLVED (was pending on file): the FDA approved mFLUSIVA (Moderna's standalone mRNA seasonal flu vaccine, mRNA-1010) for adults 50 and older -- Moderna's second commercially approved mRNA vaccine, following the June 2026 unanimous 9-0 advisory-committee vote",
+      "impact": "Reported +3.6% premarket at $58.30 the morning of the approval (2026-08-06); note this predates the subsequent large rally that took the stock into the $200+ range by October.",
+      "source": "https://www.schaeffersresearch.com/content/news/2026/08/06/moderna-stock-climbs-on-flu-vaccine-approval"
+    },
+    {
+      "date": "2026-08-05",
+      "type": "regulatory",
       "headline": "FDA PDUFA goal date for the mRNA-1010 seasonal flu vaccine BLA; an FDA advisory committee had voted unanimously in June 2026 that its benefits outweigh its risks for adults 50 and older, but the outcome of the agency's decision on this goal date was not found or confirmed in sources reachable this session",
       "impact": null,
       "source": null
@@ -152,13 +162,24 @@
     }
   ],
   "conflicts": [
-    "Short interest: Benzinga shows ~15.3% of float (~2026-08-24 snapshot) and ~16.2% of float (~2026-08-04 snapshot), both described as declining — these refine but do not fully reconcile with the wider 12.5%-20% range already flagged in the file's existing conflicts.",
-    "Next earnings: an aggregator figure found this session estimates Oct 30, 2026, which conflicts with the company-announced Nov 6, 2026 date already on file (sourced to an Oct 13, 2026 company press release) — Nov 6 is treated as authoritative since it is company-sourced and more recently dated.",
-    "Market cap/shares outstanding: InvestSMART implies ~399M shares at a $59.43B cap / $148.86 price (2026-09-04); equibles.com separately lists 399.24M shares against a $69.62B cap, which would imply ~522M shares at that same price — internally inconsistent; not reconciled."
+    "Market cap across dated snapshots, reflecting a real, rapid price rally rather than source disagreement: PitchBook $25.4B (2026-06-18, ~$64/sh) vs Equibles $69.6B (2026-08-20, ~$133/sh) vs Google Finance $55.1B (2026-08-28, ~$138/sh) vs this session's derived $86.5B (2026-10-16, $218.01/sh)."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts beyond the Oct 5, 2026 Juan Andres COO appointment and the Oct 13, 2026 Q3-earnings-date announcement already on file were found this session.",
+  "notes": "The Aug 5, 2026 FDA flu-vaccine PDUFA catalyst already on file (previously logged as outcome-unknown) is now confirmed approved -- see catalysts. Nov 6 Q3 2026 earnings date remains company-confirmed.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -217,9 +238,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.943Z",
+  "lastResearched": "2026-10-26T21:15:10.021Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -40,26 +40,26 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Still not computable with confidence -- no reconciled current share price alongside a verified TTM EPS this session.",
-      "asOf": "2026-10-23"
+      "note": "FY2025 diluted EPS of $26.54 is confirmed, but no single source this session gave both a current verified share price and that EPS together (recent price reads range ~$1,150-1,206 depending on source/date), so no multiple is computed from a cross-source mix."
     },
     "eps": [
       {
         "period": "FY2024",
         "value": null,
-        "basis": "GAAP",
-        "note": "not verified via source this session"
+        "basis": "GAAP diluted",
+        "note": "Only derivable by arithmetic from a reported 29.8% YoY growth figure (~$20.45); not independently sourced from the FY2024 10-K this session, so left null rather than asserted."
       },
       {
         "period": "FY2025",
         "value": 26.54,
-        "basis": "GAAP diluted"
+        "basis": "GAAP diluted",
+        "note": "Fiscal year ended 2025-09-30; FY2026 has not yet been reported (next earnings Nov 2026 covers Q4 FY2026)."
       },
       {
-        "period": "Q3 FY2026",
-        "value": 12.18,
-        "basis": "non-GAAP diluted",
-        "note": "FICO raised FY2026 guidance on this July 29, 2026 report"
+        "period": "Q4 FY2025",
+        "value": 6.42,
+        "basis": "GAAP diluted",
+        "note": "For context only — not the most recent quarter; vs $5.44 in Q4 FY2024. Most recent reported quarter (Q3 FY2026, ~calendar Q2 2026) EPS was not established this session."
       }
     ],
     "revenue": [
@@ -82,7 +82,7 @@
     "nextEarnings": {
       "date": "2026-11-04",
       "confirmed": false,
-      "note": "Multiple earnings-calendar aggregators project Nov 4, 2026 (after close); FICO has not itself announced the date as of this session. On-file date was 2026-11-11, which does not match any source found; last year's Q4 report (FY2025) was Nov 5, 2025."
+      "note": "Multiple aggregators (TheRightTrader, NextEarningsDate, Unusual Whales) converge on Nov 4, 2026 as a projected date; still not a company-issued confirmation as of this session. Last year's Q4 FY2025 report was Nov 5, 2025."
     }
   },
   "price": null,
@@ -155,11 +155,25 @@
     }
   ],
   "conflicts": [
-    "Post-crash price trajectory is only loosely reconstructed from non-dated or weekly-reference snapshots: ~$617.87 (confirmed close, 2026-09-29) vs ~$719.63 (an unlabeled source citing 2026-10-14) vs ~$771 (TIKR weekly reference, week of 2026-10-19). None of these conflict outright (they are a plausible recovery sequence) but none should be treated as a precise, sourced current quote."
+    "Market cap/price: an Angel One snapshot dated 2026-10-06 lists FICO at $684.00/share ($14.28B market cap) — sharply inconsistent with every other source found (Motley Fool ~$1,150-1,206/share, ~$25-28B; Yahoo $1,153.57 at Aug 28 close, $24.914B market cap). The $684 reading is very likely a data error and was not used.",
+    "Shares outstanding: Motley Fool/TipRanks ~23.19M vs Equibles 21.60M (undated) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "New $2B buyback/ASR/term-loan catalyst (2026-06-08) added -- was missing from the prior snapshot despite being a material capital-structure event (debt-funded buyback) predating the Sept 29 crash. No current, precisely-dated share price or market cap could be established this session; FY2024 EPS, cash, float, and a reconciled short-interest % remain unresolved.",
+  "notes": "No new catalyst found this session beyond what's on file (the Sept 29 FHFA/VantageScore-driven crash and the Oct 19 partial rebound).",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -212,9 +226,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

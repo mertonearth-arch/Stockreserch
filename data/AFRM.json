@@ -3,12 +3,12 @@
   "name": "Affirm Holdings, Inc.",
   "sector": null,
   "theme": "Fintech & Consumer Credit",
-  "themeLabel": "established",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.941Z",
+  "lastResearched": "2026-10-26T21:15:10.017Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -43,42 +43,33 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "EPS figures for fiscal Q4 2026 conflict sharply across sources (see conflicts/eps) — one source's GAAP EPS of $4.62 appears inflated by a one-time $914M tax valuation-allowance release, while another cites $0.48. Given this, no reliable trailing or forward P/E could be computed this session.",
-      "asOf": "2026-10-22"
+      "note": "EPS for the most recent quarter (Q4 FY2026, ended 2026-06-30) is disputed across sources by an order of magnitude (see conflicts); no multiple computed.",
+      "asOf": "2026-10-26"
     },
     "eps": [
       {
-        "period": "FY2026 (fiscal year ended 2026-06-30)",
-        "value": 5.53,
-        "basis": "GAAP, diluted — single secondary source (beancount.io), unverified against Affirm's own release; conflicts with quarterly figure below"
-      },
-      {
-        "period": "Q4 FY2026 (quarter ended 2026-06-30)",
-        "value": 0.48,
-        "basis": "GAAP — per Benzinga earnings table; conflicts with a $4.62 figure reported elsewhere for the same quarter (see conflicts)"
+        "period": "Q4 FY2026 (qtr ended 2026-06-30)",
+        "value": null,
+        "basis": "disputed",
+        "note": "Sources disagree sharply: $4.62 GAAP (Zacks/Quiver Quant), inflated by a $1.45B one-time tax valuation-allowance release, vs $0.48 (EarningsWhispers, appears to be the adjusted/non-GAAP figure against a $0.33 consensus). Not reconciled — see conflicts."
       }
     ],
     "revenue": [
       {
-        "period": "Q4 FY2026 (quarter ended 2026-06-30)",
+        "period": "Q4 FY2026 (qtr ended 2026-06-30)",
         "value": 1170000000,
         "yoy": 33
-      },
-      {
-        "period": "FY2026 (fiscal year ended 2026-06-30)",
-        "value": 4261000000,
-        "yoy": null
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "fiscal Q4 2026 (quarter ended 2026-06-30, reported 2026-08-27)",
-      "pct": 33,
-      "note": "GMV for the same quarter was $14.1B, up 36% YoY."
+      "period": "Q4 FY2026 (qtr ended 2026-06-30)",
+      "pct": 33
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": null
+      "confirmed": true,
+      "note": "Company itself announced it will report Q1 FY2027 results Nov 5, 2026 (on-file catalyst from 2026-10-05); upgraded from 'null' confirmed status."
     }
   },
   "price": {
@@ -110,6 +101,13 @@
     {
       "date": "2026-08-27",
       "type": "earnings",
+      "headline": "Reported fiscal Q4 2026 results (qtr ended 2026-06-30): revenue $1.17B (+33.0% YoY, beat ~$1.11B consensus); adjusted operating income +49% to $353.4M (30.3% margin vs 27.0%); guided Q1 FY2027 GMV $13.7-14.0B, revenue $1.19-1.22B; FY2027 revenue guided to ~$5.43B. EPS figure disputed (see fundamentals.eps).",
+      "impact": "Shares rose 8.6% to $84.16 from $77.49",
+      "source": "https://www.earningswhispers.com/epsdetails/AFRM ; https://www.zacks.com/stock/news/2982799"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
       "headline": "Affirm reported fiscal Q4 2026 (quarter ended June 30, 2026) results: revenue $1.17B (+33% YoY) vs. ~$1.11B consensus; GMV $14.1B (+36% YoY)",
       "impact": "Revenue beat; EPS reporting is inconsistent across outlets (see conflicts)",
       "source": "https://www.benzinga.com/stock/AFRM/earnings ; https://beancount.io/blog/2026/09/13/affirm-fy2026-q4-earnings-analysis"
@@ -130,11 +128,28 @@
     }
   ],
   "conflicts": [
-    "Price: ChartRow shows $70.77 (+0.48%) as of 2026-10-02 vs WealthAwesome's $75.17 (+5.62%) around 2026-10-05 -- both dated and plausible as a short rally, not reconciled to a precise Oct-22/23 close, which could not be found this session."
+    "EPS Q4 FY2026 (qtr ended 2026-06-30): $4.62 GAAP (Zacks/Quiver Quant, includes $1.45B one-time tax valuation-allowance release) vs $0.48 non-GAAP/adjusted (EarningsWhispers) — not reconciled, never averaged.",
+    "Shares outstanding: Equibles snapshot (~Aug 2026) lists 334.90M, while two other Equibles pages (undated) list 294,357,801 and 292,409,876 — three disagreeing readings, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No material new news found for AFRM in this PM pass beyond what is already on file (Nov 5, 2026 next-earnings date; conflicting share-count and short-interest readings already captured). A slightly more recent dated price point (2026-10-05, $75.17) was found and is offered here, but no Oct-22/23 close could be confirmed, and cash/debt/shares-outstanding remain unresolved -- SEC EDGAR and most financial sites continue to be unreachable via WebFetch in this environment.",
+  "notes": "Market cap left unchanged on file ($23.88B, 2026-10-06, Angel One) — the Equibles $25.13B (~Aug 2026, $75.83/share) reading is close but from an earlier date and a disputed share count, so not substituted.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -251,9 +266,17 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

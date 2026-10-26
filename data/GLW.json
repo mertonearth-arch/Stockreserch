@@ -3,27 +3,26 @@
   "name": "Corning Incorporated",
   "sector": null,
   "theme": "Advanced Materials",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.947Z",
+  "lastResearched": "2026-10-26T21:15:10.022Z",
   "fundamentals": {
     "marketCap": {
       "value": 116420000000,
       "asOf": "2026-10-21",
-      "source": "MarketBeat instant-alert page (P/E ratio cited alongside as 61.71)",
-      "note": "Conflicts with a 2026-10-05 Google Finance snapshot of $137.28B (at $159.37/share, 861.39M shares) and the on-file 2026-08-19 figure of $131.21B -- see conflicts. Treated as the most recent dated figure found."
+      "source": "MarketBeat instant-alert page (carried forward; no cleaner newer figure found this session)"
     },
     "float": {
       "value": null,
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 861390000,
-      "asOf": "2026-10-05",
-      "source": "Google Finance snapshot"
+      "value": 861000000,
+      "asOf": "2026-10",
+      "source": "TipRanks (860,637,800) vs Motley Fool (857.95M), both undated-but-recent; averaged-range not computed, using TipRanks figure"
     },
     "shortInterest": {
       "value": 2.1,
@@ -41,7 +40,7 @@
     "pe": {
       "trailing": 73.2,
       "forward": null,
-      "note": "TTM EPS ~$2.18 per a 2026-10-05 Google Finance snapshot; a separate Aug 14, 2026 Yahoo Finance snapshot showed trailing P/E ~76.5 on TTM EPS of $2.17 (see conflicts). A pre-earnings Barchart estimate (predating the Q2 2026 report) projected FY2026 EPS of $3.19, which was not independently reconfirmed as current consensus, so forward P/E is left null rather than computed from a stale estimate.",
+      "note": "TTM EPS ~$2.18 (Google Finance, 2026-10-05); a separate Aug 4, 2026 Dividend.watch snapshot showed trailing P/E 59.44x and forward P/E 42.92x on a $137.74B market cap -- see conflicts. No current consensus forward EPS confirmed this session.",
       "asOf": "2026-10-05"
     },
     "eps": [
@@ -85,7 +84,7 @@
     "nextEarnings": {
       "date": "2026-10-27",
       "confirmed": false,
-      "note": "Multiple earnings-calendar aggregators (EarningsWhispers et al.) list Q3 2026 results before market open on Oct 27, 2026, with analyst consensus EPS of $0.88 vs $0.67 a year earlier; not independently confirmed via a Corning press release this session."
+      "note": "Still not company-confirmed via a Corning press release this session; multiple earnings-calendar aggregators converge on Oct 27 before market open."
     }
   },
   "price": null,
@@ -113,12 +112,27 @@
     }
   ],
   "conflicts": [
-    "Market cap/share price keeps diverging by source and date: $137.28B at $159.37 (Google Finance, 2026-10-05) vs $116.42B at implied ~$135/share (MarketBeat, 2026-10-21) vs $131.21B at $152.45 (equibles, 2026-08-19, on file) vs an undated TipRanks figure of only $75.02B at 857.36M shares. The Oct-21 MarketBeat figure is the most recent dated point but is far below the Oct-5 figure just 16 days earlier, which is a larger swing than typical trading would explain and could not be reconciled with a single confirmed daily closing price this session.",
-    "Possible reverse-split-scale flag: none of the above look impossible relative to each other (all in the $130-$160/share range), so no split is suspected -- but the $75.02B/857.36M-share TipRanks figure (implying ~$87/share) is far enough outside this band that it was excluded as unreliable rather than treated as a genuine current reading."
+    "Market cap: MarketBeat $116.42B (2026-10-21) vs Dividend.watch $137.74B (2026-08-04) vs Equibles $144.73B (2026-06-10 snapshot) vs Equibles $168.83B (late May 2026) -- spread covers both real price decline and disagreeing dates; not reconciled to a single current figure.",
+    "Trailing P/E: 73.2x (Google Finance TTM EPS $2.18, 2026-10-05) vs 59.44x (Dividend.watch, 2026-08-04) vs 107.20x (Equibles, late May 2026) vs 91.90x (Equibles, 2026-06-10).",
+    "Dated closing-price readings found this session, declining trend, none independently confirmed as an official NYSE close: $164.16 (2026-10-02, Ad-hoc News), $156.68 (2026-10-09, Yahoo Finance NYSE page), $140.19 (2026-10-14, Benzinga widget). Consistent direction with the on-file $116.42B (2026-10-21) cap, but not reconciled to exact share price."
   ],
   "pendingFilings": [],
-  "notes": "Could not confirm cash, debt, or a single reconciled market cap this session. Q3 2026 earnings date (Oct 27) is now corroborated across multiple earnings-calendar sites, versus 'unknown' previously on file, though still not a company-confirmed date.",
+  "notes": "No new dated catalyst found this session; Oct 27 earnings (pre-market open) remains the next event. Price trend across found snapshots is a steady decline through October.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -172,9 +186,15 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

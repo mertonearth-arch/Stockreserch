@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.951Z",
+  "lastResearched": "2026-10-26T21:15:10.031Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12550000000,
-      "asOf": "2026-01 (approximate; exact date unclear)",
-      "source": "CNN Markets (cnn.com/markets/stocks/SOLS) — single, not independently corroborated source this session; treat as approximate/unverified"
+      "value": 9290000000,
+      "asOf": "2026-09-16",
+      "source": "Google Finance snapshot: $58.48/share x 158.89M shares outstanding",
+      "note": "A separate roic.ai reading of $13.88B (undated, same ~158.80M share count) is inconsistent with this and with a July 23 Motley Fool close-based figure of $9.67B — see conflicts. Using the Sept 16 figure as the most recent dated reading, corroborated in range by the July figure."
     },
     "float": {
       "value": null,
@@ -21,9 +22,9 @@
       "note": "not separately disclosed in sources found this session"
     },
     "sharesOutstanding": {
-      "value": 158727456,
-      "asOf": "2025-10-17",
-      "source": "Honeywell spin-off distribution release (honeywell.com) — this is the initial share distribution at spin-off (1 SOLS share per 4 HON shares held); current count may differ slightly due to subsequent equity grants, not independently re-verified this session"
+      "value": 158890000,
+      "asOf": "2026-09-16",
+      "source": "Google Finance; corroborated by Macrotrends (0.159B, 2025) and roic.ai (158.80M)"
     },
     "shortInterest": {
       "value": null,
@@ -62,8 +63,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": false,
-      "note": "Sources now actively disagree on which date is 'confirmed': TheRightTrader labels Nov 4, 2026 as company-confirmed, while TipRanks separately labels Nov 5, 2026 as 'Before Open (Confirmed)'; EarningsWhispers lists Oct 29, 2026 as an unconfirmed estimate. Left as unconfirmed here given the direct disagreement between two sources each claiming confirmation."
+      "confirmed": true,
+      "note": "Company's own Oct 1, 2026 press release: Q3 2026 results before market open Nov 4, 2026, call at 8:30am ET. This resolves the prior dispute — TipRanks (Nov 5, labeled 'Confirmed') and Earnings Whispers (Oct 29) both conflict with the company's own release and should be disregarded."
     }
   },
   "price": {
@@ -128,11 +129,24 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: TheRightTrader states Nov 4, 2026 is company-confirmed; TipRanks separately states Nov 5, 2026 is confirmed; EarningsWhispers shows Oct 29, 2026 as an estimate. These cannot all be correct simultaneously."
+    "Market cap: Google Finance $9.29B (2026-09-16) vs roic.ai $13.88B (undated, same share count) vs Motley Fool-derived $9.67B (2026-07-23) — the roic.ai figure looks like an outlier/error but is recorded rather than discarded."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found beyond the Q2 2026 earnings (2026-07-30) and Element Solutions merger-termination/buyback (2026-08-28) items already on file. Price updated to a more recent ($59.25, 2026-10-16) dated snapshot, replacing the previously undated $60.13 figure. Market cap, float, short interest, cash, and debt remain unresolved from the prior pass.",
+  "notes": "52-week range on file ($40.43-$90.80) is consistent with the spinoff-era volatility (spun off from Honeywell's specialty materials business, listed Oct 30, 2025). No new dated catalyst found this session beyond the on-file Oct 1 earnings-date announcement, which is now resolved as the company-confirmed Nov 4 date above.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -247,9 +261,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

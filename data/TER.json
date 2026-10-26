@@ -3,12 +3,12 @@
   "name": "Teradyne, Inc.",
   "sector": "AI Semiconductors",
   "theme": "AI Semiconductors",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.951Z",
+  "lastResearched": "2026-10-26T21:15:10.032Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -21,16 +21,14 @@
       "note": "Not located in sandbox search."
     },
     "sharesOutstanding": {
-      "value": 156340000,
+      "value": 156500000,
       "asOf": "2026-08-19",
-      "source": "Equibles",
-      "note": "Supersedes the prior pass's stale MarketBeat figure (~159M, undated)."
+      "source": "Equibles"
     },
     "shortInterest": {
       "value": 5.1,
-      "asOf": "2026-08",
-      "source": "equibles.com (~8.0M shares short, ~5.1% of shares outstanding, 1.9 days to cover, short interest rising ~728K shares)",
-      "note": "An older MarketBeat snapshot (2025) separately showed 6.66% of float with 2.5 days to cover - directionally consistent but not the same metric/date, so not treated as a hard conflict."
+      "asOf": "2026-08-19",
+      "source": "Equibles (% of float, ~8.0M shares, 1.9 days to cover)"
     },
     "cash": {
       "value": null,
@@ -43,49 +41,49 @@
       "note": "Not located in sandbox search; check latest 10-Q balance sheet."
     },
     "pe": {
-      "trailing": 55.5,
+      "trailing": null,
       "forward": null,
-      "note": "Trailing PE per equibles.com (undated, approx. August 2026 snapshot), based on TTM diluted EPS of $3.47 on $3.2B TTM revenue. Forward PE not found in a current, reliable snapshot (older MarketBeat pages showed forward PE of 28-38 but are stale/conflicting - see conflicts).",
+      "note": "No reliable current-price-matched multiple established this session. Trailing P/E was quoted at 59.46 and separately 50.44 by different MarketBeat snapshots (both stale/undated relative to each other) — see conflicts. A rough forward P/E of ~36x can be derived from FY2026 consensus EPS of $8.86 (Northland Securities, 2026-08-03) against a stale ~$321 August price, but that price predates this session and is not usable as a current multiple.",
       "asOf": null
     },
     "eps": [
       {
         "period": "FY2024",
-        "value": null,
-        "basis": "GAAP/non-GAAP",
-        "note": "Not located in sandbox search."
+        "value": 3.32,
+        "basis": "GAAP"
       },
       {
         "period": "FY2025",
-        "value": null,
-        "basis": "GAAP/non-GAAP",
-        "note": "Not located in sandbox search."
+        "value": 3.47,
+        "basis": "GAAP"
       },
       {
         "period": "Q2 2026",
-        "value": 2.47,
-        "basis": "non-GAAP diluted",
-        "note": "Reported 2026-07-28/29. Revenue $1,329M (Semiconductor Test $1,122M; Product Test $107M; Robotics $100M); non-GAAP net income $389.0M."
+        "value": 2.38,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
+        "period": "Q2 2025",
+        "value": 652000000,
+        "yoy": null
+      },
+      {
         "period": "Q2 2026",
         "value": 1329000000,
-        "yoy": null,
-        "note": "YoY comparison not located in sandbox search."
+        "yoy": 104
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q3 2026 guidance vs. consensus",
-      "pct": null,
-      "note": "True YoY % could not be computed (prior-year comparable revenue not located). However, Q3 2026 guidance of $1.2-1.3B revenue and $1.85-$2.15 non-GAAP EPS, issued alongside Q2 2026 results (2026-07-28/29), came in well above analyst consensus (~$1.03B revenue, ~$1.44 EPS) - CEO Greg Smith attributed this to 'robust AI-related demand.'"
+      "period": "Q2 2026",
+      "pct": 104
     },
     "nextEarnings": {
       "date": "2026-10-27",
       "confirmed": false,
-      "note": "After market close, with call on 2026-10-28. Multiple aggregators (Investing.com, MarketBeat) now converge on this date; consensus estimates cited are EPS $2.08 and revenue $1.26B for Q3 2026."
+      "note": "Reports after market close Oct 27, with conference call Oct 28 at 8:30am ET, per MarketBeat/consensus aggregators; not independently confirmed via a Teradyne press release this session. Consensus: EPS $2.08, revenue $1.26B (Q3 2026); company's own July guidance was $1.79-$2.09 GAAP EPS on $1.2B-$1.3B revenue."
     }
   },
   "price": {
@@ -95,6 +93,12 @@
     "source": "Equibles"
   },
   "catalysts": [
+    {
+      "date": "2026-09-14",
+      "type": "sector selloff",
+      "headline": "Fell ~13.3% (worst performer in the group) in a broad semiconductor-equipment sector selloff on capex/valuation concerns (Lam Research -6.9%, Applied Materials -5.8%, KLA -5.5%) (reconfirmed, carried from prior pass)",
+      "impact": "-13.3%"
+    },
     {
       "date": "2026-09-14",
       "type": "sector",
@@ -108,19 +112,43 @@
     {
       "date": "2026-07-28",
       "type": "earnings",
+      "headline": "Q2 2026 results: record revenue of $1,329M (+104% YoY from $652M), GAAP EPS $2.38 (non-GAAP $2.47), second consecutive quarter of record revenue, exceeding high end of Q2 guidance; AI-driven demand cited as over 60% of sales per CEO commentary",
+      "impact": "Shares jumped ~12-18.8% on the report per contemporaneous coverage",
+      "source": "https://investors.teradyne.com/news-events/press-releases/detail/445"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "earnings",
       "headline": "Teradyne reports record Q2 2026 results and issues strong Q3 2026 guidance",
       "impact": "Revenue $1,329M (Semiconductor Test $1,122M, Product Test $107M, Robotics $100M); non-GAAP net income $389.0M ($2.47/diluted share); Q3 2026 guidance of $1.2B-$1.3B revenue (vs. ~$1.03B consensus) and $1.85-$2.15 non-GAAP EPS (vs. ~$1.44 consensus); shares rose on the print",
       "source": "https://finviz.com/news/373906/teradyne-shares-rise-after-record-quarterly-results-and-strong-q3-outlook ; SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000097210/000119312526321933/ter-ex99_1.htm"
     }
   ],
   "conflicts": [
-    "On-file catalyst stating TER 'fell ~13.3% in a broad semi-equipment selloff' on 2026-09-14 could not be independently confirmed in sandbox search; it has been omitted from the verified catalysts list above rather than re-asserted without a source.",
-    "PE and EPS figures conflict across snapshots of different vintages: equibles.com (~Aug 2026) shows trailing PE 55.5 and TTM diluted EPS $3.47; separate, explicitly older MarketBeat snapshots show trailing EPS $2.89 (trailing PE ~38, forward PE ~28, ~159M shares outstanding) and, in a different 2025 snapshot, trailing PE ~51 / forward PE ~38 with short interest 6.66% of float. These appear to be genuinely different time periods rather than a same-date disagreement, but could not be reconciled to a single current figure in this sandbox.",
-    "A German-language source (finanztrends.de) reporting Q3 2026 revenue of $737M and EPS of $0.89 with an 11%+ stock decline directly contradicts Teradyne's own Q3 2026 guidance ($1.2-1.3B revenue) and other sources, and appears to compare against Q3 2023 figures in error; disregarded as unreliable."
+    "Trailing P/E: MarketBeat snapshot A 59.46x vs MarketBeat snapshot B 50.44x (both undated relative to each other, pre-October 2026)",
+    "Market cap (undated/Aug 2026 snapshots, not independently re-verified this session, kept in notes not as an established figure): Robinhood $59.19B at $362.48/share (2026-08-10) vs Equibles $63.21B (2026-08-19 close) vs Equibles summary $66.87B at $427.20/share (undated, same source family) — none reflects a verified current (late Oct 2026) price; current market cap left unestablished this session rather than picking one."
   ],
   "pendingFilings": [],
-  "notes": "Q3 2026 results had still not been reported as of 2026-10-23 (report expected 2026-10-27 after close). Market cap and shares-outstanding fields, previously null, are now populated from an Aug 2026 snapshot (dated, not live). A $139.9M defense/diagnostic-test-station contract award and a June 2026 Nasdaq-100 index addition were both mentioned in sources reviewed but lack a precise date, so per the no-undated-catalysts rule they are noted here only, not added to the dated catalyst list. Cash and debt remain unresolved.",
+  "notes": "Could not verify a current (late-October 2026) share price or market cap this session — stockanalysis.com, cnbc.com and google.com are blocked, and WebSearch returned only August-dated snapshots that conflict with each other (see conflicts). Reports Q3 2026 results tomorrow (Oct 27) after close.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -173,9 +201,19 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

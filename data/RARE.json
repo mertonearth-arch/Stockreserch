@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.950Z",
+  "lastResearched": "2026-10-26T21:15:10.030Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1574000000,
-      "asOf": "2026-10-09",
-      "source": "Derived: 101.9M shares (AAII, 2026-10-05) x $15.45 (Trade-Ideas, 2026-10-09)",
-      "note": "Share count and price dates differ by a few days; treated as approximate."
+      "value": 2600000000,
+      "asOf": "2026-08-20",
+      "source": "Approximate midpoint of Motley Fool ($2.65B, 2026-07-24), Google Finance ($2.54B, 2026-08-06) and Equibles (~$2.54B, 2026-08-20) — all converge near $2.5-2.65B; a TipRanks figure of $46.32B was discarded as a data error (likely a different listing)."
     },
     "float": {
       "value": null,
@@ -22,9 +21,9 @@
       "note": "not found this session"
     },
     "sharesOutstanding": {
-      "value": 101900000,
-      "asOf": "2026-10-05",
-      "source": "AAII investing-ideas coverage"
+      "value": 98400000,
+      "asOf": "2026-08-20",
+      "note": "Converging estimate from Google Finance (98.49M), Equibles (98,489,224) and StockAnalysis (98.29M)."
     },
     "shortInterest": {
       "value": null,
@@ -44,8 +43,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "could not verify trailing EPS sign/value this session; Ultragenyx has historically reported net losses as an R&D-heavy rare-disease biotech, but this was not independently confirmed for the current TTM period, so a bare null is used rather than asserting 'negative earnings' without verification",
-      "asOf": null
+      "note": "negative earnings — TTM EPS reported in a -$5.83 to -$6.11 range across sources as of Aug 2026 (Motley Fool -$6.11, Google Finance -$6.10, StockAnalysis/Equibles -$5.83); confirmed negative, exact figure unresolved"
     },
     "eps": [],
     "revenue": [],
@@ -70,9 +68,23 @@
     {
       "date": "2026-10-14",
       "type": "monetization",
+      "headline": "Agreed to sell a Priority Review Voucher (PRV) for $203 million, granted following FDA approval of FAYUVI (rebisufligene etisparvovec-hopf / UX111) (already on file)",
+      "impact": "Non-dilutive cash inflow of $203M",
+      "source": null
+    },
+    {
+      "date": "2026-10-14",
+      "type": "monetization",
       "headline": "Ultragenyx agreed to sell a Priority Review Voucher (PRV) for $203 million; the voucher was granted following FDA approval of FAYUVI (rebisufligene etisparvovec-hopf, also known as UX111)",
       "impact": "Non-dilutive cash inflow of $203M",
       "source": "Search-aggregator summary (rttnews/roic.ai feeds); not independently traced to a primary company press release this session"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "monetization",
+      "headline": "Agreed to sell a second Priority Review Voucher for $210 million (announcement, not yet closed as of this report), this one tied to the Genglycos (DTX401) approval for glycogen storage disease type Ia; buyer undisclosed, sale subject to Hart-Scott-Rodino and other customary closing conditions. Combined with the Oct 14 FAYUVI-linked PRV sale, the two deals total roughly $413M.",
+      "impact": "Non-dilutive cash inflow of $210M upon closing",
+      "source": "https://globalgenes.org/raredaily/ultragenyx-agrees-to-sell-priority-review-voucher-for-210-million/"
     },
     {
       "date": "2026-10-07",
@@ -104,6 +116,13 @@
     {
       "date": "2026-09-17",
       "type": "regulatory",
+      "headline": "FDA granted standard full approval to FAYUVI (UX111) for pediatric MPS IIIA (Sanfilippo syndrome Type A) — the first-ever FDA-approved treatment for Sanfilippo syndrome Type A and Ultragenyx's second gene therapy approval. (One source lists the decision date as 09/19/2026 instead — see conflicts.)",
+      "impact": "Triggered the Priority Review Voucher later sold for $203M",
+      "source": "https://www.rttnews.com/3692123/ultragenyx-wins-fda-approval-for-fayuvi-in-pediatric-mps-iiia.aspx"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "regulatory",
       "headline": "FDA approved FAYUVI (rebisufligene etisparvovec-hopf / UX111) gene therapy for MPS IIIA (Sanfilippo syndrome)",
       "impact": "Major approval underlying the subsequent PRV sale",
       "source": "Background context from search-aggregator summary"
@@ -129,12 +148,26 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: older snapshots (dated around May 2026) showed ~98M shares vs. the more recent ~101.9M (AAII, 2026-10-05) figure used above; not a large discrepancy but both readings exist in sources reviewed.",
-    "Price has fallen substantially from the ~$23-27 range seen in Aug 2026 sources to ~$15.45 by Oct 9, 2026 — this reflects a continuous multi-week decline reported consistently across sources (not a sudden unexplained jump), so it is not flagged as a possible reverse-split artifact, but is noted given the magnitude."
+    "FAYUVI FDA approval date: company/RTTNews materials say 2026-09-17; a separate table lists 2026-09-19.",
+    "Trailing TTM EPS: -$5.83 (StockAnalysis/Equibles) vs -$6.10/-$6.11 (Google Finance/Motley Fool) — both confirm negative earnings but disagree on the exact figure."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts located beyond the two October 2026 Priority Review Voucher sales ($203M on 10-14, $210M on 10-07) already on file. Market cap/shares-outstanding fields, previously null, are now populated (with the date-mismatch caveat above). Cash, debt, short interest, and trailing/forward P&E remain unresolved.",
+  "notes": "FY2026 revenue guidance ($730M-$760M) and 2027 profitability target were reaffirmed as of the Aug 4, 2026 Q2 report; no October update to that guidance was found this session.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -189,9 +222,15 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

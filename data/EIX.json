@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.942Z",
+  "lastResearched": "2026-10-26T21:15:10.020Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -80,7 +80,7 @@
     "nextEarnings": {
       "date": "2026-10-28",
       "confirmed": false,
-      "note": "AJ Bell's calendar lists 2026-10-28 with a specific call time (13:30 UTC); other aggregators disagree (see conflicts) and no company press release confirming the date was found this session."
+      "note": "Left unchanged pending resolution of a new conflict found this session: an SCE-distributed advisory headline (indexed via Finviz) states the Q3 2026 call is 'Thursday, Oct 29' — and Oct 29, 2026 is in fact a Thursday (Oct 28 is a Wednesday), which lends some credibility to that reading. AJ Bell's calendar instead lists Oct 28 at 13:30. TipRanks separately shows Nov 3 but that appears to be a rolled-forward estimate, not a confirmation. See conflicts."
     }
   },
   "price": {
@@ -89,6 +89,13 @@
     "asOf": "2026-10-05"
   },
   "catalysts": [
+    {
+      "date": "2026-10-13",
+      "type": "short-seller report",
+      "headline": "Muddy Waters alleged Southern California Edison showed reckless/willful disregard in the Eaton Fire, citing potential liability of at least $4B in fire-related damages and up to roughly $20B if a court found willful misconduct; alleges SCE knew for ~5 years its wildfire risk model could not adequately handle high-wind conditions. Edison said it is cooperating with investigations and denies negligence or wrongdoing.",
+      "impact": "Shares fell more than 3% that session",
+      "source": "Reuters (via itiger.com republication): https://www.itiger.com/hans/news/2503531802"
+    },
     {
       "date": "2026-10-13",
       "type": "short-seller report",
@@ -163,12 +170,24 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: AJ Bell lists 2026-10-28 vs TipRanks 2026-11-03 (labeled an estimate) vs Earnings Whispers 2026-10-29 vs MarketScreener 2026-11-02 (projected) — not reconciled to a company-confirmed date.",
-    "Price/market cap: Google Finance shows $54.24/share and ~$20.87B market cap as of 2026-10-05, down sharply from ~$75-79/share and ~$28-30B market cap readings from mid-July 2026 found in the same round of searches — directionally consistent with the wildfire-liability overhang and analyst downgrades already on file for Sept-Oct 2026, but no single source bridges the two readings to confirm the magnitude."
+    "Next earnings date: AJ Bell says 2026-10-28 (13:30) vs an SCE/Finviz-indexed advisory headline that says the call is 'Thursday, Oct 29' (and Oct 29, 2026 is indeed a Thursday) vs TipRanks' Nov 3 estimate — not reconciled by any primary company source found this session.",
+    "Market cap/price: no October 2026 figure found beyond the on-file 2026-10-05 reading ($20.87B at $54.24/share); other sources found this session (Robinhood $29.04B at $75.70, 2026-06-30; Simply Wall St $28.8B at $74.74, undated; Value Research $26.5B at $68.94, 2026-04-27) are all pre-decline and corroborate the on-file note about a large unexplained drop from mid-2026 levels, not a current figure."
   ],
   "pendingFilings": [],
-  "notes": "No Edison/SCE on-the-record response to the Oct 13, 2026 Muddy Waters report was found this session. Cash, debt, float and short interest remain unverified this pass (SEC EDGAR and most live-quote sources were unreachable via WebFetch).",
+  "notes": "The Muddy Waters catalyst already on file (previously unverified) is now corroborated via a Reuters-sourced republication with specific liability figures.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -297,9 +316,13 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

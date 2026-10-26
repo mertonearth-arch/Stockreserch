@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.937Z",
+  "lastResearched": "2026-10-26T21:15:10.013Z",
   "fundamentals": {
     "marketCap": {
-      "value": 15510000000,
-      "asOf": "2026-09-29",
-      "source": "stockanalysis.com data (via search aggregation): price ~$107.91 x ~143.7-145.6M shares outstanding"
+      "value": 13335000000,
+      "asOf": "2026-10-14",
+      "source": "Derived: $91.71 close (2026-10-14, Yahoo Finance) x 145,385,451 shares outstanding (Equibles, undated)",
+      "note": "Approximate — no fresher dated market-cap source found this session; supersedes the on-file $15.51B figure, which was based on the stale 2026-09-29 price of ~$107.91."
     },
     "float": {
       "value": null,
@@ -21,9 +22,8 @@
       "note": "Not separately disclosed/found distinct from shares outstanding in sources located this session"
     },
     "sharesOutstanding": {
-      "value": 144000000,
-      "asOf": "2026-08-19",
-      "note": "AlphaQuery: 145.55M (quarter ended 2026-03-31); ROIC: 143.59M — approximate midpoint used; see conflicts"
+      "value": 145385451,
+      "note": "Equibles, undated snapshot"
     },
     "shortInterest": {
       "value": 13.8,
@@ -41,36 +41,36 @@
       "note": "Not confirmed in available sources this session; Akamai has historically carried convertible notes, but a current total-debt figure was not independently verified (SEC EDGAR access blocked in this sandbox)."
     },
     "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "Insufficient data to compute reliably this session — only the Q2 2026 quarterly EPS was confirmed, not trailing-twelve-month GAAP EPS or a verified current share price at time of calculation",
-      "asOf": "2026-10-22"
+      "trailing": 29.9,
+      "forward": 13.6,
+      "note": "Both approximate/derived, not analyst-consensus multiples. Trailing: $91.71 (2026-10-14) ÷ FY2025 GAAP diluted EPS $3.07. Forward: $91.71 ÷ FY2026 non-GAAP EPS guidance midpoint $6.725 (company guidance range $6.40-$7.05). Price is ~12 days stale as of this session.",
+      "asOf": "2026-10-14"
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": 0.52,
+        "period": "FY2024",
+        "value": 3.27,
         "basis": "GAAP diluted",
-        "note": "Down 27% YoY; non-GAAP diluted EPS was $1.59 (down 8% YoY)"
+        "note": "third-party (StockAnalysis), not independently confirmed against a company filing this session"
       },
       {
         "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not confirmed in available sources this session"
+        "value": 3.07,
+        "basis": "GAAP diluted",
+        "note": "company-reported (Q4/FY2025 release); down 6.1% YoY"
       },
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not confirmed in available sources this session"
+        "period": "Q2 2026",
+        "value": 0.52,
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
       {
         "period": "Q2 2026",
-        "value": 1100,
-        "yoy": 5
+        "value": 1100000000,
+        "yoy": 5,
+        "note": "approx $1.1B; security +10% YoY, cloud infrastructure +39% YoY, delivery/other cloud apps -6% YoY"
       }
     ],
     "growth": {
@@ -80,7 +80,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": false
+      "confirmed": false,
+      "note": "EarningsWhispers lists Nov 5 after close; TipRanks separately lists Nov 10 after close (labeled 'confirmed' but TipRanks' own text says such dates are projected from prior-quarter patterns, not company-announced). No Akamai press release with the date found this session."
     }
   },
   "price": {
@@ -89,6 +90,13 @@
     "asOf": "2026-10-14"
   },
   "catalysts": [
+    {
+      "date": "2026-10-14",
+      "type": "price action",
+      "headline": "AKAM shares fell 8.23% to close at $91.71, the latest leg of a volatile Oct 9-14 stretch that also included a ~6% single-session drop on Oct 10; no specific company news event was identified as the cause in sources reviewed this session either.",
+      "impact": "-8.23%",
+      "source": "https://finance.yahoo.com/quote/akam"
+    },
     {
       "date": "2026-10-14",
       "type": "price action",
@@ -127,6 +135,13 @@
     {
       "date": "2026-08-06",
       "type": "earnings",
+      "headline": "Q2 2026 results: revenue ~$1.1B (+5% YoY); non-GAAP EPS $1.59 (vs ~$1.57-1.58 consensus, -8% YoY); GAAP EPS $0.52 (-27% YoY); GAAP net income $79M (-23% YoY). Raised FY2026 guidance to $4.445B-$4.53B revenue and $6.40-$7.05 non-GAAP EPS; issued Q3 2026 guidance of $1.105B-$1.13B revenue and $1.60-$1.80 non-GAAP EPS.",
+      "impact": "Non-GAAP EPS modestly beat consensus",
+      "source": "https://www.ir.akamai.com/node/33716"
+    },
+    {
+      "date": "2026-08-06",
+      "type": "earnings",
       "headline": "Akamai reports Q2 2026 results: revenue $1.1B (+5% YoY); GAAP diluted EPS $0.52 (-27% YoY); non-GAAP diluted EPS $1.59 (-8% YoY); issues Q3 non-GAAP EPS guidance of $1.60-$1.80 and FY2026 revenue guidance of $4.445B-$4.53B",
       "impact": "In-line/mixed quarter; cloud infrastructure segment revenue +39% YoY to $99M, security +10% YoY to $604M, delivery/other cloud apps -6% YoY to $396M",
       "source": "https://www.ir.akamai.com/node/33716"
@@ -154,11 +169,29 @@
     }
   ],
   "conflicts": [
-    "A separate search surfaced claims that AKAM rallied on a SpaceX spectrum-purchase announcement around Oct 9, 2026; a follow-up search found no actual reporting linking Akamai to that SpaceX deal (which involved Grain Management spectrum, unrelated telecom/wireless carriers). This claimed catalyst is NOT included above because it could not be corroborated and appears to be a search-aggregation error."
+    "Next-earnings date: EarningsWhispers Nov 5, 2026 vs TipRanks Nov 10, 2026 (TipRanks labels its own date an estimate, not company-confirmed)",
+    "Q3 2026 consensus EPS: Benzinga $1.56 vs TipRanks $1.44 vs EarningsWhispers $0.92 (likely GAAP vs non-GAAP mix across sources, not reconciled)"
   ],
   "pendingFilings": [],
-  "notes": "Price updated to the most recent dated close found ($91.71, 2026-10-14), down sharply from the $107.91 level (2026-09-29) already on file. Added a missing Aug-2026 HSBC downgrade catalyst. Could not confirm a specific cause for the Oct 14 drop or find any dated news after Oct 14; next earnings (Nov 5, 2026) and FY2024/FY2025 EPS remain as before.",
+  "notes": "Market cap and both P/E figures are derived/approximate, built on a price that is ~12 days stale as of this research session (no fresher dated quote found). EPS history now has FY2024, FY2025 and Q2 2026 on file.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -210,9 +243,18 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

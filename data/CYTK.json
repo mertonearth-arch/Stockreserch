@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.942Z",
+  "lastResearched": "2026-10-26T21:15:10.019Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10650000000,
-      "asOf": "2026-08-20",
-      "source": "Equibles (https://equibles.com/stocks/cytk/summary) — price $77.18, 139.02M shares"
+      "value": 10110000000,
+      "asOf": "2026-09-06",
+      "source": "Benzinga",
+      "note": "Conflicts with Motley Fool's $11.01B (2026-08-26, price $79.20) — see conflicts. Neither is dated after early September; no October 2026 figure found this session."
     },
     "float": {
       "value": null,
@@ -33,17 +34,18 @@
     "cash": {
       "value": 1700000000,
       "asOf": "2026-06-30",
-      "source": "Cytokinetics Q2 2026 earnings release (via SEC 8-K exhibit), reported 2026-08-06 — cash, equivalents and investments, after a $760M public offering completed during the quarter"
+      "source": "Company Q2 2026 shareholder letter (via Motley Fool profile)"
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed in the earnings summary sources found this session."
+      "value": 1280000000,
+      "asOf": "2025 FY-end",
+      "source": "Motley Fool financials / Morningstar",
+      "note": "~$1.29B on a trailing-twelve-month basis through 2026-03-31 per PitchBook — roughly consistent."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings — Cytokinetics reported a GAAP net loss of $198.8M ($1.50/share) for Q2 2026 alone; trailing P/E is not meaningful. Forward EPS estimates not retrieved this session.",
+      "note": "negative earnings — Q2 2026 GAAP net loss of $198.8M ($1.50/share) on file; no forward EPS consensus found this session",
       "asOf": "2026-08-06"
     },
     "eps": [
@@ -71,14 +73,15 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "aficamten (MYQORZO) net product revenue, sequential",
       "period": "Q2 2026",
-      "pct": -57.2,
-      "note": "Headline revenue fell YoY only because Q2 2025 included a one-time milestone/license payment that did not recur. The underlying commercial story is the opposite: MYQORZO (aficamten) net product revenue was $25.3M in Q2 2026 (US $23M, Europe $2.3M), beating the ~$17.7M analyst consensus, in its first full launch year. Total revenue YoY is reported per the default instruction but is a misleading headline on its own for this ticker."
+      "pct": null,
+      "note": "Net product revenue grew from $4.8M (Q1 2026, partial-quarter launch) to $25M (Q2 2026); a YoY/QoQ percentage isn't meaningful given Q1 was a partial launch quarter, so no pct given."
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": null
+      "confirmed": false,
+      "note": "Motley Fool estimate; not company-confirmed this session."
     }
   },
   "price": {
@@ -86,6 +89,13 @@
     "changePct": null
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "regulatory",
+      "headline": "FDA PDUFA target action date for aficamten (MYQORZO) supplemental NDA covering MAPLE-HCM data, which would expand the oHCM label",
+      "impact": "Pending regulatory decision",
+      "source": "Company 8-K / shareholder letter (SEC EDGAR)"
+    },
     {
       "date": "2026-10-09",
       "type": "conference",
@@ -135,11 +145,29 @@
     }
   ],
   "conflicts": [
-    "Price: several more undated or partial-month snapshots were found this round ($63.57 Digrin 'October 2026' partial-month, $61.12 EarningsWhispers, $66.05 TradingView, $74.13 Digrin key-metrics page) -- all roughly consistent with the $61.58 figure already on file but none precisely dated to Oct 22/23, so the file's existing figure is retained rather than replaced."
+    "Market cap: Motley Fool ~$11.01B (2026-08-26, price $79.20) vs Benzinga ~$10.11B (2026-09-06) — not reconciled.",
+    "Shares outstanding: TipRanks 119.66M vs PitchBook 136M (2026-06-18) vs Motley Fool 123.16M (undated) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No confirmation could be found this session that Cytokinetics has actually filed the planned Q4 2026 sNDA for aficamten in non-obstructive HCM (ACACIA-HCM) -- sources only reconfirm the Phase 3 topline results and the company's stated intent to file in Q4 2026; still shown as a pending filing, not yet an actual filing event. Next earnings (Nov 4, 2026) and other fundamentals unchanged from the prior pass.",
+  "notes": "aficamten (brand MYQORZO) is FDA-approved (Dec 2025) for oHCM and commercially launched since Jan 2026; also approved in China (2025) and the EU (early 2026). The on-file HFSA conference catalyst (2026-10-09) could not be independently reconfirmed this session. ACACIA-HCM (non-obstructive HCM) reportedly met its dual primary endpoints per the company, with a supplemental NDA submission expected Q4 2026, but no specific dated announcement was found to cite as a catalyst.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -251,9 +279,18 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

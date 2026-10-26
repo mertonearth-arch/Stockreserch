@@ -3,37 +3,38 @@
   "name": "Viking Therapeutics, Inc.",
   "sector": null,
   "theme": "Biotech Catalyst",
-  "themeLabel": "hype sector",
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.953Z",
+  "lastResearched": "2026-10-26T21:15:10.034Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2900000000,
-      "asOf": "2026-10-16",
-      "source": "Computed from chartrow.com snapshot: price ~$25.17 x ~116.7M shares outstanding (Oct 16, 2026)"
+      "value": null,
+      "note": "Sources range $3.19B-$4.40B across undated/Aug-dated snapshots (StockAnalysis ~$3.95B, Motley Fool $3.80B-$4.40B depending on snapshot) — none independently verified against a current price this session; left null rather than picking one. See conflicts."
     },
     "float": {
-      "value": 113000000,
-      "asOf": "2026-08-19",
-      "note": "chartmill.com gave 112.87M, stockanalysis.com gave 113.73M (both undated/recent 2026 snapshots); used midpoint-ish figure"
+      "value": 113730000,
+      "asOf": null,
+      "source": "StockAnalysis.com snapshot (date not given)"
     },
     "sharesOutstanding": {
       "value": 116650000,
-      "asOf": "2026-10-16",
-      "note": "stockanalysis.com: 116.65M; equibles.com gave 116,105,643 (slightly different date/filing) — see conflicts"
+      "asOf": null,
+      "source": "StockAnalysis.com snapshot (date not given in search result), corroborated by Motley Fool (~116.11M) and roic.ai (~115.89M)"
     },
     "shortInterest": {
       "value": 20.2,
-      "asOf": "2026-08-14",
-      "note": "FINRA settlement-date figure (~22.3M shares short, ~13.3 days to cover), described by one aggregator as 'declining -- bullish' from ~24.3M shares in February 2026. Broadly consistent with the 19.3%-20.66% range already on file for Aug 2026; no September/October 2026 figure found."
+      "asOf": "2026-08-27",
+      "source": "Benzinga sentiment page (% of float)",
+      "note": "Described as 'declining' trend. Older 2025 MarketBeat snapshots (26.43% and 0.03%) are stale/inconsistent and disregarded."
     },
     "cash": {
-      "value": 125.961,
+      "value": 502000000,
       "asOf": "2026-06-30",
-      "note": "Cash, cash equivalents and restricted cash (end of period) per Q2 2026 10-Q cash flow statement, in $millions. A separate aggregator cited ~$118.12M cash plus ~$484.85M short-term investments (~$603M total liquidity) as of 2026-03-31 — different metric/period, see conflicts."
+      "source": "Company Q2 2026 earnings release via Zacks coverage: cash and investments at June 30, 2026; company stated this funds operations into 2028",
+      "note": "A separate Motley Fool snapshot shows $602.96M-$705.74M 'cash and short-term investments' at a later, undated point — not reconciled; the $502M figure is the one directly tied to a dated company release."
     },
     "debt": {
       "value": null,
@@ -43,27 +44,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings (trailing); forward PE not established — company is pre-revenue/clinical-stage",
-      "asOf": "2026-10-22"
+      "note": "Negative earnings (trailing); pre-commercial, no forward consensus EPS independently confirmed this session (reconfirmed)"
     },
     "eps": [
       {
         "period": "Q2 2026",
         "value": -1.1,
         "basis": "GAAP",
-        "note": "Beat consensus of -$1.21; reported July 29, 2026"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not confirmed in available sources this session"
-      },
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not confirmed in available sources this session"
+        "note": "Beat consensus estimate of -$1.21 by $0.11, per Zacks coverage of the 2026-07-29 release"
       }
     ],
     "revenue": [],
@@ -81,6 +69,12 @@
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-21",
+      "type": "earnings_date",
+      "headline": "Viking Therapeutics announced it will report Q3 2026 results after market close on Wednesday, October 28, 2026, with a conference call at 4:30pm ET (reconfirmed, carried from prior pass)",
+      "source": "https://www.aaii.com/investingideas/article/545576-why-viking-therapeutics-inc8217s-vktx-stock-is-up-3361"
+    },
     {
       "date": "2026-10-21",
       "type": "earnings_date",
@@ -111,6 +105,13 @@
     {
       "date": "2026-07-29",
       "type": "earnings",
+      "headline": "Q2 2026 results: GAAP EPS -$1.10 (beat consensus -$1.21 by $0.11); $502M cash and investments at June 30, 2026, which the company said funds operations into 2028; VANQUISH 1 (obesity) and VANQUISH 2 (obesity + T2D) Phase III trials for VK2735 remain on track and fully enrolled; oral VK2735 Phase III expected to start Q4 2026",
+      "impact": "Beat on EPS",
+      "source": "https://www.zacks.com/stock/news/2775753/viking-therapeutics-posts-wider-than-expected-loss-in-q3-sales-nil"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "earnings",
       "headline": "Viking Therapeutics reports Q2 2026 results: GAAP EPS of -$1.10 vs. -$1.21 consensus (beat)",
       "impact": "Narrower-than-expected quarterly loss",
       "source": "https://www.barchart.com/story/news/3411687/viking-therapeutics-to-report-financial-results-for-second-quarter-2026-on-july-29-2026"
@@ -124,15 +125,31 @@
     }
   ],
   "conflicts": [
-    "Market cap: stockanalysis.com shows $3.95B / EV $3.46B (reflects an earlier, higher share price before the stock's decline to the low-$20s/mid-$20s), vs. chartrow.com's Oct 16, 2026 snapshot of ~$2.9B at $25.17/share — treat $3.95B as stale.",
-    "Shares outstanding: stockanalysis.com lists 116.65M; equibles.com lists 116,105,643 — close but not identical, likely different as-of dates.",
-    "Short interest: Benzinga (Aug 27, 2026) says 20.2% of float; Equibles (Aug 19, 2026) says 19.3%; Chartmill (undated) says 20.66% — range used, no single authoritative figure found.",
-    "Cash figures reflect different metrics across sources/periods: $125.961M 'cash, cash equivalents and restricted cash' at 6/30/26 (10-Q) vs. an aggregator's ~$603M 'cash + short-term investments' at 3/31/26 — these are not directly comparable and should not be averaged.",
-    "Next earnings date: AJ Bell listed Oct 22, 2026 (today, with no corroborating news found); Earnings Whispers listed Oct 26, 2026; chartrow/Right Trader/Digrin listed Oct 28, 2026. None is a confirmed company announcement found in this session."
+    "Next-earnings date: company-announced Oct 28, 2026 after close (per the on-file Oct 21 company announcement, reconfirmed) vs EarningsWhispers listing Oct 26, 2026 after close (today) with no confirmation noted — the company's own announcement is treated as authoritative; the EarningsWhispers date appears to be a stale/incorrect estimate.",
+    "Market cap: StockAnalysis ~$3.95B vs Motley Fool snapshots $3.80B-$4.40B (undated/differing) — not reconciled to a single current figure this session.",
+    "Cash: company-sourced $502M at 2026-06-30 (Zacks, tied to the Q2 2026 release) vs an undated Motley Fool figure of $602.96M-$705.74M 'cash and short-term investments' — not reconciled; the dated, company-tied figure is used above."
   ],
   "pendingFilings": [],
-  "notes": "No material new company news found beyond the AM pass (2026-10-23) already on file. This PM pass mainly reconfirms the Oct 28 earnings date and adds a slightly more precise, similarly-dated short-interest reading; cash, debt and FY2024/FY2025 EPS remain unestablished.",
+  "notes": "Maintenance-dosing-regimen data (weekly/every-other-week/monthly) for VK2735 was expected 'later this quarter' per Q2 commentary — worth checking in the next pass's catalyst scan since it may land around or after the Oct 28 earnings print. $500M shelf registration remains on file as a dilution-risk item; not independently re-confirmed this session.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -201,9 +218,19 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

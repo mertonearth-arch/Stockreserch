@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.940Z",
+  "lastResearched": "2026-10-26T21:15:10.017Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -43,7 +43,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (FY2026 net loss $702.6M, incl. Q4 FY2026 net loss of $684.0M driven by $450.4M in asset impairments); no forward consensus EPS found this session"
+      "note": "negative earnings (FY2026 net loss $702.6M, incl. $450.4M in Q4 asset impairments) — unchanged from prior pass"
     },
     "eps": [
       {
@@ -67,31 +67,26 @@
     ],
     "revenue": [
       {
-        "period": "FY2025 (ended 2025-06-30)",
+        "period": "FY2025 (ended 2026-06-30 prior year)",
         "value": 501000000,
-        "yoy": null
+        "note": "company figure; label reflects IREN's June fiscal year-end"
       },
       {
         "period": "FY2026 (ended 2026-06-30)",
         "value": 707000000,
-        "yoy": 41.1
-      },
-      {
-        "period": "Q4 FY2026",
-        "value": 137200000,
-        "yoy": null,
-        "note": "down from $144.8M in Q3 FY2026; missed the ~$157.1M Street consensus"
+        "yoy": 41.1,
+        "note": "Newsquawk figure; one source's 'FY revenue $137.23M' appears to be the Q4-only figure mislabeled"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2026 (ended 2026-06-30)",
+      "period": "FY2026",
       "pct": 41.1
     },
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": false,
-      "note": "aggregator estimate for Q1 FY2027 results; not yet reported as of 2026-10-22 and not company-confirmed. Consensus estimates cited: ~$221.4M revenue, non-GAAP EPS of -$0.64 (Benzinga)."
+      "note": "unchanged from prior pass — aggregator estimate for Q1 FY2027, not company-confirmed"
     }
   },
   "price": {
@@ -100,6 +95,13 @@
     "asOf": "2026-10-16"
   },
   "catalysts": [
+    {
+      "date": "2026-10-16",
+      "type": "price action",
+      "headline": "IREN fell 11.19% to $26.99, a new 52-week low, amid investor concern over how the company will fund its AI-data-center buildout, after Morningstar revised its view on IREN citing rising borrowing costs (as carried on file)",
+      "impact": "-11.19%, new 52-week low",
+      "source": "https://www.heygotrade.com/en/news/iren-iren-stock-news-october-19-2026/"
+    },
     {
       "date": "2026-10-16",
       "type": "price action",
@@ -114,6 +116,13 @@
       "impact": "-6.27%",
       "source": null,
       "note": "AI Cloud revenue figure's period is ambiguous — IREN's own Q4 FY2026 (ended 2026-06-30) AI Cloud revenue was reported as $70.5M, so $128.8M would represent either a later, unreported period or a different revenue scope; not reconciled with figures already on file."
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Reported fiscal Q4 and full-year FY2026 results (year ended 2026-06-30): Q4 revenue $137.2M (miss vs ~$139-157M consensus depending on source); AI cloud revenue $70.5M, up from $33.6M QoQ (+110%), now 51.4% of quarterly revenue; bitcoin-mining revenue fell to $66.7M from $111.2M QoQ; Q4 adjusted EBITDA $19.2M (vs ~$34.9M expected); FY2026 revenue $707M (+41.1% YoY from $501M in FY2025); management said the $4B FY2026 ARR target is fully contracted, plus an incremental $700M ARR tied to an NVIDIA cloud agreement starting to ramp in 2027; FY2027 capex guided at $25B-$30B",
+      "impact": "Mixed — Q4 revenue miss and EBITDA miss against a long-term AI buildout growth narrative",
+      "source": "https://www.kucoin.com/news/flash/iren-q4-fy2026-revenue-meets-expectations-ai-cloud-revenue-doubles"
     },
     {
       "date": "2026-08-27",
@@ -186,11 +195,26 @@
     }
   ],
   "conflicts": [
-    "Price/market cap: the stock fell to $26.99 on 2026-10-16 (a new 52-week low per heygotrade), a sharp decline from the $45.37 price already on file and from the $50.30-$56.77 aggregator readings found in sources this session (mostly undated or from spring/summer 2026) — at the ~357M-358M shares outstanding consistently reported, this implies a market cap near $9.6B, well below the $14.97B-$17.98B figures already on file; not reconciled to a single authoritative, dated source this session."
+    "Market cap still not reconcilable: DefiLlama implies ~$11.55B (333.73M shares as of 2026-03-31, at $30.39), Roic.ai shows $13.88B (340.98M shares, undated), Equibles shows $17.98B (357.38M shares, undated), vs. the on-file $14.97B (asOf 2026-09-09). All differ mainly on share count and price date; none independently verified this session as current."
   ],
   "pendingFilings": [],
-  "notes": "IREN shares fell sharply through mid-October 2026 (from the low-to-mid $40s into the high $20s) amid financing-cost concerns tied to its AI-cloud capex buildout (FY2027 capex guided at $25B-$30B, already on file). This is a material move not yet reflected in the carried-forward market cap, cash and debt figures, which were not independently re-verified this session. One source mentioned IREN completing ~$2.8B of GPU-equipment financing at a roughly 9% fixed rate, but no specific date could be established, so it is flagged here rather than recorded as a dated catalyst.",
+  "notes": "FY2026 revenue/growth and the Aug 27 earnings catalyst are new this session. Market cap left as on file given the unreconciled spread above.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -303,9 +327,16 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

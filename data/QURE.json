@@ -3,12 +3,12 @@
   "name": "uniQure N.V.",
   "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "hype sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.949Z",
+  "lastResearched": "2026-10-26T21:15:10.029Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -29,10 +29,8 @@
       "note": "Conflicting and/or stale figures: Fintel reported 22.33% short float / 7.23 days to cover as of 2026-05-01; a separate, undated Equibles figure shows 11.1M shares short / 9.0 days to cover. Neither is confirmed current for Oct 2026."
     },
     "cash": {
-      "value": 810300000,
-      "asOf": "2026-06-30",
-      "source": "uniQure Q2 2026 10-Q / press release",
-      "note": "Cash, cash equivalents and current investment securities. Up from $622.5M at YE2025, driven mainly by a $259M follow-on public offering completed in June 2026. Net cash used in operating activities was $66.8M for H1 2026."
+      "value": null,
+      "note": "Sources disagree sharply and neither is clearly dated — see conflicts."
     },
     "debt": {
       "value": null,
@@ -41,13 +39,13 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings"
+      "note": "negative earnings — Q2 2026 GAAP EPS was -$1.22 (vs. -$0.75 estimate, per Benzinga)"
     },
     "eps": [
       {
         "period": "Q2 2026",
         "value": -1.22,
-        "basis": "GAAP (basic and diluted)"
+        "basis": "GAAP"
       }
     ],
     "revenue": [
@@ -70,7 +68,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": false
+      "confirmed": false,
+      "note": "EarningsWhispers estimates Nov 4 before open; The Right Trader instead projects Nov 9. Neither is company-confirmed. Last year the company announced its Q3 date ~4 days ahead (announced Nov 6, 2025 for a Nov 10 report), so an official date is likely to come in early November."
     }
   },
   "price": {
@@ -93,6 +92,13 @@
       "headline": "Shares partly recovered, +6.9% to $26.21, as some analysts argued the prior day's selloff was overdone relative to price targets",
       "impact": "Partial rebound",
       "source": "https://247wallst.com/investing/2026/09/30/uniqure-stock-crashed-on-its-huntingtons-data-wall-streets-price-target-says-the-selloff-went-too-far/"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "clinical data",
+      "headline": "AMT-130 (Huntington's disease gene therapy) four-year topline data showed the slowing of disease progression fall from ~80% at 3 years to ~44% at 4 years in the 12-patient high-dose cohort, missing statistical significance; uniQure said it still plans to pursue FDA approval based on the stronger 3-year data already submitted",
+      "impact": "Shares fell approximately 37% in a single session (reported variously as -37.14% to -37.3%); the following day (Sept 30) shares partially recovered +6.9% (already on file)",
+      "source": "https://site.financialmodelingprep.com/market-news/uniqure-qure-stock-plunges-amt130-huntingtons-data"
     },
     {
       "date": "2026-09-29",
@@ -124,13 +130,28 @@
     }
   ],
   "conflicts": [
-    "Market cap: Equibles' own stated figure ($1.70B) uses a stale $26.99 price; recalculating with the most recent price found this session ($23.11, 2026-10-02) against the same share count gives ~$1.46B instead.",
-    "Short interest: Fintel (22.33% short float, as of 2026-05-01) vs. an undated Equibles figure (11.1M shares / 9.0 days to cover) — different dates/methodologies, not reconciled.",
-    "Next earnings date: aggregators disagree — Earnings Whisper shows Nov 4, 2026 (most recent/likely current); an older Earnings Whisper snapshot showed Oct 28, 2026; TheRightTrader projects Nov 9, 2026. None is company-confirmed."
+    "Shares outstanding: one aggregator shows ~69.33M vs the on-file/Equibles-style figure of 63,067,485 — not reconciled this session.",
+    "Cash position: one TipRanks snippet cites 'approximately $810M cash supporting operations into 2030' while another TipRanks page lists 'Total Cash (Recent Filing) $586.55M' — dates on both are unclear; recorded as a conflict rather than picked.",
+    "Next earnings date: EarningsWhispers Nov 4 vs The Right Trader Nov 9 — neither company-confirmed."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts located this session beyond the 2026-09-29/09-30 AMT-130 data-readout selloff and the 2026-09-02 BLA submission already on file; price confirms the stock has stabilized in the low-$20s since that ~37% single-day drop. Short interest, debt, and FY2024/FY2025 annual EPS remain unresolved. WebSearch budget for this run was exhausted before an October 2026-specific news check could be completed for this ticker.",
+  "notes": "The Sept 29 four-year AMT-130 readout is very likely the actual catalyst behind the Sept 29/30 price action already on file (which had been recorded only as an unexplained bounce) — recommend treating this as the catalyst for that move going forward.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -181,9 +202,16 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

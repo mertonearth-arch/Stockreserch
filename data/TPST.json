@@ -3,12 +3,12 @@
   "name": "Tempest Therapeutics, Inc.",
   "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
-  "themeLabel": "nano-cap",
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.952Z",
+  "lastResearched": "2026-10-26T21:15:10.033Z",
   "fundamentals": {
     "marketCap": {
       "value": 12500000,
@@ -32,10 +32,10 @@
       "note": "Not located in sandbox search."
     },
     "cash": {
-      "value": 779000,
-      "asOf": "2026-10-16",
-      "source": "Trade-Ideas",
-      "note": "Very low cash balance relative to typical clinical-stage biotech burn rates - consistent with the company's recent small private placements/warrant inducements and implies likely near-term need for additional financing or dilution."
+      "value": 1222000,
+      "asOf": "2026-06-30",
+      "source": "SEC 10-Q (quarter ended 2026-06-30): cash, cash equivalents and restricted cash at end of period",
+      "note": "Extremely low relative to FY2025 operating cash burn of ~$26.8M per a third-party aggregator; implies a very short runway, though the company has also raised cash via warrant-based private placements since (see on-file catalysts)."
     },
     "debt": {
       "value": 7600,
@@ -46,7 +46,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis"
+      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis (reconfirmed)"
     },
     "eps": [
       {
@@ -70,15 +70,14 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash burn / financing need",
-      "period": "2026",
+      "metric": "revenue YoY",
       "pct": null,
-      "note": "Pre-revenue biotech. March 2026 private placement of common stock and warrants raised net proceeds of $1.7M; a Q2 2026 warrant inducement raised a further $1.7M (one secondary source says $2M - see conflicts). Cash on hand had fallen to approx. $779K by 2026-10-16, suggesting continued reliance on small, dilutive financings."
+      "note": "Pre-revenue clinical-stage biotech; no revenue to report. No other disclosed operating metric (e.g. enrollment, burn rate) was found with enough precision this session to use as a headline growth figure."
     },
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": false,
-      "note": "Yahoo Finance lists 2026-11-05 as the next earnings date, but that page's other data (price/market cap) was from a late-August 2026 snapshot, so the date itself should be treated as an estimate, not company-confirmed."
+      "note": "Unchanged — Yahoo Finance estimate, not independently reconfirmed or found elsewhere this session."
     }
   },
   "price": {
@@ -111,11 +110,27 @@
     }
   ],
   "conflicts": [
-    "The 2025-04-08 reverse split is now confirmed at an exact 1-for-13 ratio (SEC Form 8-K; stockholders authorized a 1-for-2 to 1-for-15 range on 2024-12-03, and the Board selected 1-for-13), which narrows but does not resolve the shares-outstanding confusion: sources dated April-September 2026 show a rising progression (~13.5M in early April, ~14.3-14.8M by mid-2026, ~15.98M by September, an implied ~19.7M by Oct 16 per the on-file Trade-Ideas-derived figure) that may reflect genuine share-count growth from the company's repeated small dilutive financings rather than pure data disagreement. A separate TipRanks figure of 4,440,161 shares is inconsistent with all of these and is likely stale or erroneous. Shares outstanding is left null given no single current authoritative figure."
+    "Shares outstanding: Value Research 13,481,070 (as of 2026-04-02) vs TipRanks ~4.44M (undated, likely reflects a different post-split count) vs a 10-K's pre-split 45,483,384 (as of 2025-03-21, i.e. before the 1-for-13 reverse split that took effect 2025-04-08). None of these is a verified current (late-2026) count; could not reconcile this session.",
+    "Market cap: Value Research ~$20M at $1.59/share (2026-04-02) vs Simply Wall St ~$15.5M (data as of 2025-11-24) vs TipRanks ~$48.75M (undated) — spread driven by both conflicting share counts and non-contemporaneous prices; not reconciled this session.",
+    "Cash: SEC 10-Q (quarter ended 2026-06-30) reports $1.222M cash+restricted cash at period end, which is far below a Simply Wall St estimate of ~$7.5M cash (dated late 2025) — the SEC figure is more current and more authoritative; flagging the gap rather than treating the older third-party figure as current."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found beyond the 2026-09-16 Senlang CD7 CAR-T licensing option and 2026-08-13 Q2 2026 earnings/financing items already on file. The 2025-04-08 1-for-13 reverse-split ratio is now independently confirmed via SEC 8-K (prior pass had the date but not a fully verified ratio/authorization trail). Market cap, cash, and debt figures already on file ($12.5M, $779K, $7.6K respectively, all as of 2026-10-16) are unchanged; no newer snapshot located this session.",
+  "notes": "Confirmed company underwent a 1-for-13 reverse stock split effective 2025-04-08 (10-Q disclosure) — explains at least part of the wide share-count disagreement across sources; pre-split figures found in some aggregators should not be used as current. No October 2026 company news was found this session (most recent primary-source item remains the Aug 13, 2026 Q2 earnings release / business update, already on file). The existing on-file Sept 16, 2026 Senlang licensing catalyst and its ~$2.5M warrant private placement were not independently re-verified this session but were not contradicted either.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -165,9 +180,15 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

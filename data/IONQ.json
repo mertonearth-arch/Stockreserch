@@ -3,16 +3,18 @@
   "name": "IonQ, Inc.",
   "sector": null,
   "theme": "AI Semiconductors",
-  "themeLabel": "hype sector",
+  "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.939Z",
+  "lastResearched": "2026-10-26T21:15:10.015Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Still not reconcilable — see conflicts for newly found dated readings, none of which reflect the October equity raise or current price."
+      "value": 12000000000,
+      "asOf": "2026-10-15",
+      "source": "QuantumComputingReport, regular-session close",
+      "note": "Share count behind this figure not disclosed by the source; implies ~349M shares at the $34.35 close, which is far above the ~222.8M shares outstanding the 10-K reported as of 2026-02-19 (pre the 2025/2026 equity offerings) — see conflicts. Still not independently reconciled."
     },
     "float": {
       "value": null,
@@ -31,10 +33,9 @@
       "note": "percent of float; ~42.4M shares short, ~1.9 days to cover per Curved Trading for the same settlement date — see conflicts for disagreeing readings"
     },
     "cash": {
-      "value": 2959330000,
-      "asOf": "2026-06-30",
-      "source": "Quartr Q2 2026 earnings summary (derived from IonQ's 10-Q)",
-      "note": "Total cash, cash equivalents and investments; down from $3,091.9M at 2026-03-31. This is a more precise figure than the conflicting $3.0B/$1.2B readings flagged in the prior pass and is treated as superseding them, though it was not independently cross-checked against the 10-Q balance sheet itself this session."
+      "value": 3000000000,
+      "asOf": "2026-08-05",
+      "note": "cash, cash equivalents and investments at Q2 2026 quarter-end; company separately noted this fell to ~$2B after closing the SkyWater acquisition"
     },
     "debt": {
       "value": null,
@@ -43,39 +44,21 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (large GAAP net losses in most quarters, including a $1.87B Q2 2026 net loss driven primarily by a $1.65B non-cash warrant-liability revaluation); no forward consensus EPS found this session"
+      "note": "negative earnings — Q2 2026 GAAP net loss of $1.87B, primarily a $1.65B non-cash warrant-liability revaluation; no forward consensus EPS established this session"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
-        "period": "FY2025",
-        "value": -1.82,
-        "basis": "GAAP",
-        "note": "full-year net loss $510.4M; Q4 2025 alone was a GAAP profit of $2.13/share per the company's own release (one secondary aggregator instead cites $1.93 for Q4 — see conflicts) due to a large non-operating gain"
-      },
-      {
         "period": "Q2 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "net loss of $1.87B reported (primarily a $1.65B non-cash warrant-liability revaluation); a per-share figure was not found in sources reachable this session"
+        "value": -0.33,
+        "basis": "non-GAAP (adjusted)",
+        "note": "vs. -$0.30 to -$0.35 analyst estimates depending on source; GAAP per-share figure not computed this session due to share-count uncertainty"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 20690000,
-        "yoy": null
-      },
-      {
         "period": "Q2 2026",
-        "value": 80050000,
-        "yoy": 287,
-        "note": "topped the high end of prior guidance"
+        "value": 80100000,
+        "yoy": 287
       }
     ],
     "growth": {
@@ -86,7 +69,7 @@
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": false,
-      "note": "Estimates disagree across aggregators: Nov 4 (Nasdaq calendar via ChartRow), Nov 5 (AJ Bell), Nov 9 (Earnings Whispers), Nov 11 (TipRanks). None is company-confirmed as of this research pass. Last year's Q3 report (FY2025) was Nov 5, 2025; the prior quarter (Q2 2026) was reported Aug 5, 2026."
+      "note": "Still not company-confirmed as of this session. Aggregators disagree: Nov 4 (Nasdaq calendar/ChartRow), Nov 5 (AJ Bell), Nov 9 (Earnings Whispers), Nov 11 (TipRanks, labeled 'confirmed' but its own text says the date is projected from prior quarters). Last year's equivalent announcement was made Oct 14, 2025 for a Nov 5, 2025 report; no 2026 equivalent press release found yet."
     }
   },
   "price": {
@@ -132,6 +115,13 @@
     },
     {
       "date": "2026-08-05",
+      "type": "earnings",
+      "headline": "Record Q2 2026 results: revenue $80.1M (+287% YoY), beating estimates ($49.7M-$66.5M range); raised FY2026 revenue guidance to $280M-$290M (excludes SkyWater acquisition contribution); adjusted EBITDA loss $120.3M; GAAP net loss $1.87B (mostly non-cash warrant-liability revaluation)",
+      "impact": "Shares rose on the beat/guidance raise",
+      "source": "https://quantumcomputingreport.com/ionq-reports-record-q2-2026-financial-results-revenue-soars-287-to-80-1m-full-year-guidance-raised-to-290m/"
+    },
+    {
+      "date": "2026-08-05",
       "type": "earnings/guidance",
       "headline": "Q2 2026 results: revenue $80.05M (+287% YoY vs $20.69M), above the high end of prior guidance; raised FY2026 revenue guidance to $290M; GAAP net loss of $1.87B driven primarily by a $1.65B non-cash warrant-liability revaluation; free cash flow roughly -$114M",
       "impact": null,
@@ -147,12 +137,29 @@
     }
   ],
   "conflicts": [
-    "Market cap: Capital.com ~$12.79B (2026-09-07) vs Benzinga ~$14.99B at $41.70/share (2026-08-06) vs Simply Wall St ~$14.1B at $37.05 (undated) — still not reconciled; none of these reflect the October equity raise or the Oct 15 $34.35 price.",
-    "FY2026 revenue guidance: sources this session describe a raise to $450M-$460M tied to the SkyWater acquisition, with timing given only as 'early September 2026' (not pinned to an exact date), versus the $290M figure from the Aug 5, 2026 earnings release and the $260M-$270M figure from the Sept 17, 2026 catalyst already on file — not reconciled to each other. The $450-460M figure is reported here only as a conflict, not as a dated catalyst, since no specific date could be established for it."
+    "Market cap implies ~349M shares outstanding (at $12.0B/$34.35), vs. the 10-K's ~222.8M shares as of 2026-02-19 (before the 2025-2026 equity offerings/SkyWater deal) — gap not reconciled this session.",
+    "Q2 2026 adjusted EPS: -$0.33 reported as a miss vs -$0.30 estimate by one source, but reported as a beat vs -$0.35 estimate by Benzinga — sources disagree on which consensus figure applies."
   ],
   "pendingFilings": [],
-  "notes": "The $2.0B equity offering (priced 2026-10-14) is a significant new dilution event not previously on file. The cash figure for 2026-06-30 was refined to $2,959.33M via a 10-Q-sourced aggregator; treat as provisional pending direct confirmation against the filing.",
+  "notes": "Still could not reconcile a current share count or a clean post-offering market cap this session.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -207,9 +214,18 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.947Z",
+  "lastResearched": "2026-10-26T21:15:10.024Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -43,25 +43,21 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "only a single quarter's EPS ($2.91, Q2 2026) was confirmed this session — insufficient to compute a verified TTM EPS or trailing P/E, and no forward-estimate source was checked before the search budget was exhausted"
+      "note": "Sources disagree sharply and neither gives a clear as-of date: MarketBeat trailing P/E 67.26x vs eToro snapshot 46.92x. FY2026 consensus EPS itself is unreconciled ($8.11 per Barchart vs $8.45 per Seeking Alpha, both apparently pre-dating the Q2 beat), so no forward P/E is recorded as established fact.",
+      "asOf": null
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
         "period": "Q2 2026",
         "value": 2.91,
-        "basis": "reported (GAAP/non-GAAP basis not specified in source)"
+        "basis": "non-GAAP",
+        "note": "beat $1.99 consensus; already on file"
+      },
+      {
+        "period": "Q3 2026 (est.)",
+        "value": 2.44,
+        "basis": "non-GAAP consensus estimate",
+        "note": "Benzinga analyst consensus, not yet reported; revenue consensus $1.33B"
       }
     ],
     "revenue": [
@@ -84,7 +80,7 @@
     "nextEarnings": {
       "date": "2026-11-04",
       "confirmed": false,
-      "note": "Investing.com estimate for the Q3 2026 report; no company-confirmed date found. On-file next-earnings date was 'unknown'."
+      "note": "Investing.com/aggregator estimate; still not company-confirmed."
     }
   },
   "price": {
@@ -116,12 +112,26 @@
     }
   ],
   "conflicts": [
-    "Total debt: $1.4B (OpenCapital, as of 2026-03-31) vs $1,236.4M (FN2, Q1 2026) vs $1,410M (StockAnalysis, TTM ended June 2026) -- different as-of dates and possibly different debt definitions; not averaged.",
-    "Price: $214.29 (Google Finance, 2026-10-13) vs $224.94 (Trade-Ideas, 2026-10-11, already on file) -- both dated and plausible, tracking a modest pullback over two sessions; not treated as a conflict requiring resolution, just two valid dated points."
+    "Trailing P/E: MarketBeat 67.26x vs eToro 46.92x (neither dated precisely).",
+    "FY2026 consensus EPS: Barchart $8.11 (implying ~27.9% YoY growth) vs Seeking Alpha $8.45 (Dec 2026 estimate) -- both found this session, dates/vintage unclear, likely pre-Q2-beat.",
+    "A low-confidence single-source price read (eToro/Robinhood-style aggregator, undated-to-Oct-14) showed GNRC closing 2026-10-14 at $198.06, down 7.57% from $214.29, with no company news identified as cause -- not added as a catalyst because the source quality and exact date could not be corroborated this session."
   ],
   "pendingFilings": [],
-  "notes": "Cash and (approximate, disputed) total-debt figures established for the first time this session, both dated to Q1 2026 (2026-03-31) -- no more recent balance-sheet figure was located. Short interest still could not be resolved to one clean, dated %-of-float figure. Next earnings (Nov 4, 2026, unconfirmed) options market implies an expected move of about +/-12% per one source.",
+  "notes": "Core Sept 16 Amazon generator supply agreement (up to $8B) remains the dominant catalyst on file; nothing new confirmed this session beyond the EPS/valuation detail above.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -174,9 +184,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

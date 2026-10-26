@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.950Z",
+  "lastResearched": "2026-10-26T21:15:10.030Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -21,14 +21,13 @@
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 714380000,
-      "note": "Conflicts with other Equibles pages showing 661,635,583 and 671,595,792 shares, which appear to be from earlier filings/snapshots."
+      "value": null,
+      "note": "Still not reconciled — see conflicts; left null rather than picking a figure."
     },
     "shortInterest": {
-      "value": 3.4,
-      "asOf": null,
-      "source": "Equibles (24.1M shares short, ~1.8 days to cover); % of float",
-      "note": "A July 2026 snapshot showed 4.2% (30.3M shares, 3.0 days to cover); a FINRA-settlement-based series showed 20.7M shares as of the 2026-04-30 settlement. Trend is not monotonic across sources/dates."
+      "value": 24100000,
+      "asOf": "2026-08-31",
+      "note": "Equibles summary: ~24.1M shares short, ~3.4% of float, 1.8 days to cover. A separate, earlier FINRA settlement (2026-04-30) showed ~20.7M shares short, ~2.2 days to cover — treated as the prior data point, not a live conflict, since it's simply an earlier settlement date."
     },
     "cash": {
       "value": null,
@@ -67,7 +66,7 @@
     "nextEarnings": {
       "date": "2026-10-29",
       "confirmed": true,
-      "note": "After market close. Multiple independent aggregators (ChartRow, Unusual Whales, TheRightTrader) now describe this date as company-confirmed, though one outlier (RTTNews, on file from the prior pass) showed Oct 23."
+      "note": "Reconfirmed via EarningsWhispers (after market close) and one other calendar explicitly describing it as company-announced; RTTNews shows an outlier 10/23 and MarketScreener shows an estimate-based 11/10 — both disregarded as the weaker/estimate sources."
     }
   },
   "price": {
@@ -106,15 +105,24 @@
     }
   ],
   "conflicts": [
-    "Market cap / shares outstanding: an Aug 2026 Equibles snapshot shows $26.84B at 714.38M shares vs. a July 2026 snapshot showing $42.28B at a $55.41 price — implying the stock roughly halved between July and August, which is a large move to leave unreconciled; flagging rather than picking one.",
-    "Short interest: inconsistent trend across snapshots/dates (20.7M shares as of 2026-04-30 FINRA settlement; 30.3M shares / 4.2% of float in a July 2026 snapshot; 24.1M shares / 3.4% of float in an Aug 2026 snapshot).",
-    "Q2 2026 revenue: $1.47B (Shacknews) vs. $1.56B (Benzinga).",
-    "Trailing EPS: Google Finance shows -$1.42 vs. Eulerpool shows -$1.52 (as of 2026-08-06); window/basis not clearly stated by either, not reconciled.",
-    "Next earnings date: Earnings Whispers and Benzinga both show Oct 29, 2026 (after market close), but RTTNews shows Oct 23, 2026 — a one-week discrepancy; the Oct 29 date is used above as the majority reading but is NOT company-confirmed."
+    "Shares outstanding: Equibles 714.38M vs Chartmill 715.98M (float 634.73M) vs Equibles' own short-interest page showing 671.6M — three figures from essentially the same window that don't agree."
   ],
   "pendingFilings": [],
-  "notes": "Added the Q2 2026 guidance-withdrawal/bookings-cut catalyst, which was missing from the prior record. Next-earnings date upgraded toward 'confirmed' given multiple aggregator agreement, though not independently verified against Roblox's own IR page. Cash/debt remain unresolved; WebSearch budget was exhausted before an October 23-specific news check could be completed.",
+  "notes": "No new dated catalyst found this session beyond the on-file Sept 14 'Roblox Everywhere' reaction; next earnings (Oct 29, after close) is now the dominant near-term catalyst to watch.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -167,9 +175,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

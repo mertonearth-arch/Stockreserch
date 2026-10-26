@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.948Z",
+  "lastResearched": "2026-10-26T21:15:10.025Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not found in sources reachable this session (WebFetch to live quote sources failed; WebSearch budget exhausted before a dated market-cap figure could be located)"
+      "value": 63950000000,
+      "asOf": "2026-10-20",
+      "source": "Derived: 77.8M shares outstanding (TipRanks/Equibles) x $822.51 close (tickzen.app, 2026-10-20)",
+      "note": "A separate Equibles snapshot dated 2026-08-21 used 89.70M shares against a $78.00B market cap -- see conflicts. Using the more recent, more corroborated 77.8M share count."
     },
     "float": {
       "value": null,
@@ -39,7 +41,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative GAAP trailing earnings — FY2026 GAAP net loss was ~$6.9B, driven almost entirely by a one-time, non-cash $7.8B debt-extinguishment loss from converting certain convertible notes in Q4 FY2026; non-GAAP FY2026 diluted EPS was positive at $8.67 but a current share price was not available this session to compute a non-GAAP-based multiple, and no verified forward EPS consensus was found"
+      "note": "FY2026 GAAP result was a ~$6.9B net loss, driven almost entirely by a one-time, non-cash $7.8B debt-extinguishment loss on convertible-note conversion (Q4 FY2026); non-GAAP FY2026 diluted EPS was positive at $8.67. At the $822.51 Oct 20 price, non-GAAP TTM P/E would be approximately 95x, but this is this session's own arithmetic, not a sourced multiple, so left as a note rather than a recorded figure.",
+      "asOf": "2026-10-20"
     },
     "eps": [
       {
@@ -133,12 +136,24 @@
     }
   ],
   "conflicts": [
-    "Market cap: Motley Fool ~$65.16B at ~$833/share (late July 2026) vs Finhacker ~$51.19B (2026-07-31) vs Google Finance ~$63.84B (~2026-08-11) vs Robinhood ~$59.52B at $803.25 (2026-07-21, which itself implies ~74.1M shares, inconsistent with the 77.8M figure used above) — not reconciled.",
-    "Analyst price target: the file already records a Deutsche Bank Buy rating with a $1,200 target (2026-09-16); a separate Yahoo Finance headline found this session attributes a $1,200 price-target raise to Jefferies in coverage of LITE hitting an all-time high, with no clear date given — this may be a second, independent analyst action or a sourcing mix-up; not reconciled."
+    "Shares outstanding: 77.8M (TipRanks, Equibles) vs 89.70M (a separate 2026-08-21 Equibles snapshot, paired with a $78.00B market cap that is internally consistent only with the 89.70M figure, not 77.8M).",
+    "Market cap: this session's derived $63.95B (2026-10-20, 77.8M sh. x $822.51) vs Motley Fool $65.16B (late July, $833.09) vs FinHacker $51.19B (2026-07-31) vs the 89.70M-share $78.00B Equibles snapshot (2026-08-21)."
   ],
   "pendingFilings": [],
-  "notes": "Market cap, float and short interest remain unestablished to a single reconciled figure. CMB International reportedly kept a Buy rating and raised its target to $1,230 (specific date not established this session).",
+  "notes": "Nov 5 FY2027 Q1 earnings date remains company-confirmed (on file). No new catalyst found this session beyond the market-cap/share-count data above.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -190,9 +205,13 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

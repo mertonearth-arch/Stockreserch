@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.949Z",
+  "lastResearched": "2026-10-26T21:15:10.028Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -21,14 +21,13 @@
       "source": "MarketBeat (approximate date)"
     },
     "sharesOutstanding": {
-      "value": 333890000,
-      "asOf": "2026-08-01",
-      "source": "MarketBeat (approximate date)"
+      "value": null,
+      "note": "Sources disagree sharply and none is dated after early Aug 2026 — see conflicts. Left null rather than picking one."
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
+      "value": 11.5,
+      "asOf": "2026-08-03",
+      "note": "Percent of float, per MarketBeat; days-to-cover 22.18. An older Equibles FINRA settlement (2026-03-13) showed ~27.6M shares short, 10.97 days to cover — too stale to merge into one figure."
     },
     "cash": {
       "value": null,
@@ -75,9 +74,9 @@
       "note": "This is organic product-revenue growth (DDR4/DDR5 memory modules), distinct from the separate Oct 2026 Micron patent-licensing settlement income. Company guided Q3 2026 product revenue 'similar to Q2' on the July 30 call."
     },
     "nextEarnings": {
-      "date": "2026-11-03",
+      "date": "2026-11-05",
       "confirmed": false,
-      "note": "Not company-confirmed; aggregators disagree (Investing.com: Nov 3; EarningsWhispers beta: Oct 29; EarningsWhispers main: Nov 5)."
+      "note": "Investing.com says Nov 3; EarningsWhispers and Digrin say Nov 5 (before open). No company press release or 8-K found confirming either. Using Nov 5 as the more-corroborated estimate (2 sources vs 1)."
     }
   },
   "price": {
@@ -137,12 +136,26 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date: Investing.com shows Nov 3, 2026; an EarningsWhispers 'beta' page shows Oct 29, 2026; the main EarningsWhispers page shows Nov 5, 2026. None is company-confirmed.",
-    "October 2026 price: a monthly aggregator (Digrin) lists $5.71 for 'October 2026' (exact day within the month not stated), below the $6.66 close recorded for 2026-10-06 from the prior session's Webull/Finviz sourcing — consistent with a pullback over the month but not confirmed day-by-day."
+    "Shares outstanding: Equibles 316,515,344 vs GuruFocus 349,580,000 (undated) vs on-file MarketBeat-derived 333,890,000 (~early Aug 2026) — not reconciled this session.",
+    "Next earnings date: Investing.com Nov 3, 2026 vs EarningsWhispers/Digrin Nov 5, 2026 — not company-confirmed either way.",
+    "Current price: a trade-tracking site (trade-ideas) showed $5.67 as of 2026-10-02, while other reachable sources' prices ($2.50, $2.65, $1.22) are either stale (pre-dating the Oct 6 Micron-settlement rally) or undated — current price could not be independently re-verified this session."
   ],
   "pendingFilings": [],
-  "notes": "Added the Q2 2026 (reported 2026-07-30) earnings print, which was missing from the prior record and is the first evidence of real organic product-revenue growth (+163% YoY) distinct from the Oct 2026 Micron settlement income. Shares outstanding/market cap/cash/debt/short interest remain unresolved from the prior pass (sources still conflict materially, see prior conflicts); no new resolution found this session.",
+  "notes": "No new dated catalyst found this session beyond the on-file Oct 6 Micron settlement reaction. OTC-listed (OTCMKTS), which is part of why pricing/share-count data is thin and conflicting across aggregators.",
   "history": [
+    {
+      "date": "2026-10-26",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "am",
@@ -201,9 +214,14 @@
   },
   "lastPass": {
     "date": "2026-10-26",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }
