@@ -58,8 +58,10 @@
     {
       "ticker": "EIX",
       "tier": "daily",
-      "quiet": true,
-      "changes": []
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
     },
     {
       "ticker": "FICO",
@@ -160,8 +162,10 @@
     {
       "ticker": "BKYI",
       "tier": "daily",
-      "quiet": true,
-      "changes": []
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
     },
     {
       "ticker": "BMNR",
@@ -343,7 +347,6 @@
     "IOVA",
     "IREN",
     "AFRM",
-    "EIX",
     "FICO",
     "FTHM",
     "GLW",
@@ -360,7 +363,6 @@
     "VKTX",
     "AEMD",
     "BENF",
-    "BKYI",
     "BMNR",
     "BTAI",
     "CIFR",

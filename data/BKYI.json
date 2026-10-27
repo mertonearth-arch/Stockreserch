@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.308Z",
+  "lastResearched": "2026-10-27T05:36:16.188Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -93,6 +93,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-13",
+      "type": "contract/personnel",
+      "headline": "BIO-key announced a new Middle East government security customer win and the hiring of Stephen Morrow to lead its PortalGuard business",
+      "impact": "Shares reported up roughly 95% intraday on outsized volume (magnitude not independently confirmed to an exact close price)",
+      "source": "quiverquant.com; SEC EDGAR 8-K filings index for BIO-key International"
+    },
+    {
       "date": "2026-10-06",
       "type": "shareholder meeting",
       "headline": "Annual meeting (previously adjourned Sept 8, 2026 over a warrant-share proposal) remains open on that vote; company plans to reconvene on 2026-10-30",
@@ -148,6 +155,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-23: two new catalysts found that were missing from the file -- an Oct 2, 2026 Streeterville note debt-for-equity exchange (247,805 new shares) and an Oct 6, 2026 report that the reconvened annual meeting / warrant-share vote is now set for Oct 30, 2026. The sharesOutstanding figure already on file (1,436,344 as of Oct 14) was NOT independently re-verified against the Oct 2 share issuance this session -- the 247,805 new shares may or may not already be reflected in that count; flagged for the next pass.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -208,8 +225,10 @@
   "lastPass": {
     "date": "2026-10-27",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

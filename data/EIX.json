@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.297Z",
+  "lastResearched": "2026-10-27T05:36:16.186Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -89,6 +89,13 @@
     "asOf": "2026-10-05"
   },
   "catalysts": [
+    {
+      "date": "2026-10-14",
+      "type": "operational",
+      "headline": "Bloomberg reported Edison International/Southern California Edison is considering shutting off power for up to roughly 246,000 customers amid wildfire-risk conditions",
+      "impact": "Operational/PSPS-related disclosure amid ongoing Eaton Fire liability scrutiny",
+      "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/EIX ; https://briefglance.com/companies/edison-international/pulses/83344"
+    },
     {
       "date": "2026-10-13",
       "type": "short-seller report",
@@ -176,6 +183,16 @@
   "pendingFilings": [],
   "notes": "The Muddy Waters catalyst already on file (previously unverified) is now corroborated via a Reuters-sourced republication with specific liability figures.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -325,8 +342,10 @@
   "lastPass": {
     "date": "2026-10-27",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }
