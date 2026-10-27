@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.024Z",
+  "lastResearched": "2026-10-27T05:34:07.300Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -120,6 +120,14 @@
   "notes": "Core Sept 16 Amazon generator supply agreement (up to $8B) remains the dominant catalyst on file; nothing new confirmed this session beyond the EPS/valuation detail above.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "pm",
       "quiet": false,
@@ -183,15 +191,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

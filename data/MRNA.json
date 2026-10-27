@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.026Z",
+  "lastResearched": "2026-10-27T05:34:07.290Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -97,6 +97,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-22",
+      "type": "data leak / sell-the-news",
+      "headline": "Embargoed Phase 3 melanoma-vaccine data (intismeran autogene / mRNA-4157 + Keytruda, with Merck) apparently leaked via the Oncology Central site ahead of its scheduled ESMO presentation; reported results showed a 42% reduction in recurrence risk and 38% reduction in distant metastasis vs. Keytruda alone -- better than many analysts expected -- but shares still fell ~18-26% (sources differ) that session. Commentary attributed the drop to valuation/sell-the-news positioning (stock up >8x YTD before the drop) rather than the data itself; Citigroup had downgraded Moderna to Sell shortly before. Merck fell only ~2% the same day.",
+      "impact": "-18% to -26% (sources differ) on 2026-10-22; CNBC reported the slide was still continuing as of 2026-10-26 premarket (-8%)",
+      "source": "https://www.tikr.com/blog/moderna-sinks-18-on-apparent-leak-of-embargoed-phase-3-melanoma-vaccine-data ; https://www.bostonglobe.com/2026/10/22/business/moderna-merck-cancer-vaccine-key-endpoints-melanoma-trial/"
+    },
+    {
       "date": "2026-10-13",
       "type": "scheduling announcement",
       "headline": "Moderna announced it will report Q3 2026 financial results on Friday, November 6, 2026, with a conference call at 8:00am ET",
@@ -165,8 +172,18 @@
     "Market cap across dated snapshots, reflecting a real, rapid price rally rather than source disagreement: PitchBook $25.4B (2026-06-18, ~$64/sh) vs Equibles $69.6B (2026-08-20, ~$133/sh) vs Google Finance $55.1B (2026-08-28, ~$138/sh) vs this session's derived $86.5B (2026-10-16, $218.01/sh)."
   ],
   "pendingFilings": [],
-  "notes": "The Aug 5, 2026 FDA flu-vaccine PDUFA catalyst already on file (previously logged as outcome-unknown) is now confirmed approved -- see catalysts. Nov 6 Q3 2026 earnings date remains company-confirmed.",
+  "notes": "AM delta check 2026-10-27: no newer (overnight) MRNA-specific news found beyond the continuing fallout from the 10-22 leak; current pre-market level could not be established from reachable sources.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "pm",
@@ -237,14 +254,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
+    "date": "2026-10-27",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

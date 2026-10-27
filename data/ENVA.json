@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.958Z",
+  "lastResearched": "2026-10-27T05:34:07.311Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -136,6 +136,14 @@
   "notes": "No reliable dated current share price/market cap could be found in this PM pass despite multiple targeted searches -- aggregator pages return undated or partial-month figures that cannot be reconciled to 2026-10-22/23. Theme and EPS/revenue-growth story unchanged from prior pass.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "am",
       "quiet": true,
@@ -187,7 +195,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "run": "am",
     "quiet": true,
     "changes": [],

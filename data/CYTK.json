@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.019Z",
+  "lastResearched": "2026-10-27T05:34:07.293Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -152,6 +152,14 @@
   "notes": "aficamten (brand MYQORZO) is FDA-approved (Dec 2025) for oHCM and commercially launched since Jan 2026; also approved in China (2025) and the EU (early 2026). The on-file HFSA conference catalyst (2026-10-09) could not be independently reconfirmed this session. ACACIA-HCM (non-obstructive HCM) reportedly met its dual primary endpoints per the company, with a supplemental NDA submission expected Q4 2026, but no specific dated announcement was found to cite as a catalyst.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "pm",
       "quiet": false,
@@ -278,19 +286,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

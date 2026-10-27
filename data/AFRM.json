@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.017Z",
+  "lastResearched": "2026-10-27T05:34:07.296Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -134,6 +134,14 @@
   "pendingFilings": [],
   "notes": "Market cap left unchanged on file ($23.88B, 2026-10-06, Angel One) — the Equibles $25.13B (~Aug 2026, $75.83/share) reading is close but from an earlier date and a disputed share count, so not substituted.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-26",
       "run": "pm",
@@ -265,18 +273,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

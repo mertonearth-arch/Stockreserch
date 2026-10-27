@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.031Z",
+  "lastResearched": "2026-10-27T05:34:07.305Z",
   "fundamentals": {
     "marketCap": {
       "value": 9290000000,
@@ -135,6 +135,14 @@
   "notes": "52-week range on file ($40.43-$90.80) is consistent with the spinoff-era volatility (spun off from Honeywell's specialty materials business, listed Oct 30, 2025). No new dated catalyst found this session beyond the on-file Oct 1 earnings-date announcement, which is now resolved as the company-confirmed Nov 4 date above.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "pm",
       "quiet": false,
@@ -260,15 +268,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

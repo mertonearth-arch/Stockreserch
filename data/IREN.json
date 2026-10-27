@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.017Z",
+  "lastResearched": "2026-10-27T05:34:07.295Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -201,6 +201,14 @@
   "notes": "FY2026 revenue/growth and the Aug 27 earnings catalyst are new this session. Market cap left as on file given the unreconciled spread above.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "pm",
       "quiet": false,
@@ -326,17 +334,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

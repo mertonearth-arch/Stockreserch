@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T21:15:10.032Z",
+  "lastResearched": "2026-10-27T05:34:07.305Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -132,6 +132,14 @@
   "notes": "Could not verify a current (late-October 2026) share price or market cap this session — stockanalysis.com, cnbc.com and google.com are blocked, and WebSearch returned only August-dated snapshots that conflict with each other (see conflicts). Reports Q3 2026 results tomorrow (Oct 27) after close.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "pm",
       "quiet": false,
@@ -200,20 +208,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

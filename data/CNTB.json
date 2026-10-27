@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-26T05:31:29.956Z",
+  "lastResearched": "2026-10-27T05:34:07.310Z",
   "fundamentals": {
     "marketCap": {
       "value": 115850000,
@@ -145,6 +145,14 @@
   "notes": "Theme 'Biotech Catalyst' fits. Cash figure for 2026-06-30 ($31.5M) is now corroborated by multiple earnings-summary sources, resolving the prior session's unverified-source caveat. FY2024/FY2025 annual EPS now established from the company's year-end results release. COPD Seabreeze STAT topline (~2026-10-01) is a new catalyst not previously on file; exact day not confirmed.",
   "history": [
     {
+      "date": "2026-10-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-26",
       "run": "am",
       "quiet": true,
@@ -203,7 +211,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "run": "am",
     "quiet": true,
     "changes": [],
