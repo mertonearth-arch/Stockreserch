@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.295Z",
+  "lastResearched": "2026-10-27T21:16:49.893Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -83,6 +83,27 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-26",
+      "type": "medical conference / data",
+      "headline": "Presented first clinical data for lifileucel (TIL cell therapy) in previously treated soft-tissue sarcomas (undifferentiated pleomorphic sarcoma and dedifferentiated liposarcoma) in a Rapid Oral session (abstract #3725RO) at ESMO Congress 2026, Madrid, from an MSK-led, Iovance-supported pilot trial; registrational Phase 2 SARATOGA trial (NCT07741877) ongoing in the same indications. One Iovance release lists this session as Oct 23, 2026 instead -- date not fully reconciled, see conflicts.",
+      "impact": "Builds on Feb 2026 pilot data (50% confirmed ORR in first 6 evaluable patients); FDA fast track designation already granted for UPS/DDLPS",
+      "source": "https://www.biopharmawatch.com/news/IOVA/iovance-lifileucel-pembrolizumab-esmo-2026"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "medical conference / data",
+      "headline": "Presented final Phase 2 data (abstract 2072O, proffered paper) for lifileucel plus pembrolizumab in untreated advanced melanoma at ESMO Congress 2026, Madrid: median overall survival not reached at >4 years median follow-up (n=24), objective response rate 62.5%, complete response rate 29.2%. A separate press summary (ecancer) describes an overlapping but not identical analysis (n=27, median PFS 19.8 months, mOS not reached after 50.9 months follow-up) -- cohort definitions not reconciled. Phase 3 TILVANCE-301 (lifileucel+pembrolizumab vs. pembrolizumab alone) remains the registrational study for this frontline indication.",
+      "impact": "Positive durability/response data for the earlier-line melanoma combination, ahead of Phase 3 TILVANCE-301 results",
+      "source": "https://ecancer.org/en/news/29084-esmo-2026-nearly-one-third-of-patients-with-advanced-melanoma-saw-tumours-disappear-completely-after-receiving-til-therapy-plus-pembrolizumab-immunotherapy"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "leadership",
+      "headline": "Announced appointment of Noah Berkowitz, M.D., Ph.D. (former Arvinas CMO) as Chief Medical Officer, effective 2026-09-30; granted inducement stock options/RSUs covering up to 450,000 shares",
+      "impact": "Executive leadership change in clinical/medical strategy function",
+      "source": "https://finviz.com/news/397524/iovance-biotherapeutics-appoints-noah-berkowitz-md-phd-as-chief-medical-officer"
+    },
+    {
       "date": "2026-09-29",
       "type": "guidance",
       "headline": "Raised FY2026 total revenue guidance to $410M-$420M (from $350M-$370M), implying ~60% full-year growth, citing strong US demand for Amtagvi and Proleukin; reiterated Q3/Q4 production visibility and a target of at least 110 treatment centers by year-end",
@@ -119,11 +140,22 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 revenue consensus varies across aggregators/dates: ~$117.8M vs ~$105.7M vs ~$115.5M (not reconciled; one Benzinga page still shows the superseded $350M-$370M guidance, apparently a stale cache)."
+    "ESMO 2026 session dates for Iovance's two presentations are given inconsistently across the company's own release and secondary coverage: the sarcoma Rapid Oral (#3725RO) is dated both Oct 23 and Oct 26, 2026, and the melanoma proffered paper (2072O) is dated both Oct 23 and Oct 24, 2026 (the latter with a specific 12:00-12:45 CEST session time). Not reconciled this session."
   ],
   "pendingFilings": [],
-  "notes": "Q2 2026 EPS/net loss now independently confirmed (was previously unverified on file). No market cap re-check this session; left as on file (2026-08-21).",
+  "notes": "No confirmed closing price found for Oct 2026 (a digrin monthly-table figure of $14.21 for 'October 2026' is roughly double the most recent confirmed price on file and could not be corroborated, so price is left unchanged from the on-file 2026-10-06 figure). FY2026 guidance ($410M-$420M) and Nov 2026 earnings timing unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -199,9 +231,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

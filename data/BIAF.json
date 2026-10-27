@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.292Z",
+  "lastResearched": "2026-10-27T21:16:49.889Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -22,8 +22,8 @@
       "note": "Not found distinct from shares outstanding in sources located this session"
     },
     "sharesOutstanding": {
-      "value": 592373,
-      "note": "Company press release, post 1-for-15 reverse split; unchanged from prior pass"
+      "value": null,
+      "note": "On-file 592,373 shares (post 1-for-15 reverse split) was pre the Oct 8-9, 2026 ~$4M offering (see catalysts). That offering sold common stock/pre-funded warrants at $6.122/$6.115 per unit, which at ~$4M gross implies roughly 650,000 additional shares (~1.24M post-offering) -- but no company-confirmed post-offering share count was found this session, so left null rather than estimated."
     },
     "shortInterest": {
       "value": null,
@@ -95,6 +95,27 @@
     "note": "Delayed Wedbush quote. A separate MarketScreener snapshot shows $6.055 on 2026-10-02 (-65.79% YTD) -- not reconciled with the Oct 9 figure; both recorded, see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-10-15",
+      "type": "conference/data presentation",
+      "headline": "8-K discloses bioAffinity will sponsor a Learning Theater at CHEST 2026 (American College of Chest Physicians annual meeting) on the clinical use of CyPath Lung for lung cancer risk assessment",
+      "impact": "Resolves the prior pass's note about an undated CHEST 2026 sponsorship",
+      "source": "https://app.edgar.tools/filing/1712762/0001493152-26-021861/ex99-1.htm"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "conference/data presentation",
+      "headline": "Announced new data to be presented at CHEST 2026 on a sputum-based diagnostic test in development to characterize lung inflammation and identify biologic drug targets for asthma/COPD therapies; Gordon Downie, MD, PhD to lead a related discussion",
+      "impact": "Pipeline/platform expansion beyond CyPath Lung; no stated price reaction",
+      "source": "https://www.biopharmawatch.com/news/BIAF/bioaffinity-technologies-present-positive-research-data-cheast-2026"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "offering/dilution",
+      "headline": "Closed a ~$4 million registered direct offering (common stock at $6.122/share or pre-funded warrants at $6.115) and concurrent private placement of warrants for up to 980,072 shares at $6.122/share (exercisable after stockholder approval, 5-year term); WallachBeth Capital sole placement agent; priced 2026-10-08",
+      "impact": "Dilutive financing; distinct from and larger than the on-file $3.2M June 2026 offering",
+      "source": "https://www.rttnews.com/3697835/bioaffinity-prices-4-mln-direct-offering-adds-warrants-to-support-cypath-lung-sales.aspx"
+    },
     {
       "date": "2026-10-08",
       "type": "regulatory/IP",
@@ -179,11 +200,23 @@
     }
   ],
   "conflicts": [
-    "Reverse split effective date: company press release says trading began post-split on 2026-08-24 (1-for-15); a Boardroom Alpha summary of an 2026-08-20 8-K instead says the split was effective 2026-08-21."
+    "Price/share-count inconsistency: the Oct 8, 2026 offering priced common stock at $6.122/share, but the on-file Oct 9, 2026 Wedbush delayed quote shows $4.725, and a separate secondary-source snapshot (biopharmawatch, via CHEST 2026 coverage) cites a $3.96 price and ~$5.1M market cap on 2026-10-15. None of these three reconcile against the 592,373 pre-offering shares outstanding; not resolved this session."
   ],
   "pendingFilings": [],
-  "notes": "No fresher dated market cap/price found this session (stockanalysis.com and similar price aggregators returned nothing newer than the on-file Oct 9 Wedbush close); market cap left unchanged from prior pass. Also sponsoring a CHEST 2026 Learning Theater (date not found) on CyPath Lung's clinical use.",
+  "notes": "No fresher confirmed closing price or post-offering share count found this session; market cap and sharesOutstanding fields involve unresolved conflicts above rather than a clean update. The CHEST 2026 Learning Theater date referenced in the prior pass's notes is now dated (2026-10-15 8-K).",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -261,9 +294,13 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

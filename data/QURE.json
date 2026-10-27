@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.302Z",
+  "lastResearched": "2026-10-27T21:16:49.904Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -80,6 +80,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-05",
+      "type": "analyst_action",
+      "headline": "Barclays downgraded uniQure to Equal Weight from Overweight and cut its price target to $28 from $60",
+      "impact": "Shares reportedly opened lower the same day (from a $23.46 prior close to a $22.28 open per one secondary source); compounds pressure from the Sept 29 AMT-130 data readout",
+      "source": "https://www.marketbeat.com/instant-alerts/price-uniqure-nasdaq-qure-shares-gap-up-should-you-buy-2026-10-22/"
+    },
+    {
       "date": "2026-09-30",
       "type": "price move",
       "headline": "Shares partially recovered (+6.9% reported) the day after the Sept 29 selloff — this is a bounce, NOT the underlying catalyst.",
@@ -129,14 +136,21 @@
       "source": "https://www.quiverquant.com/news/uniQure+Q2+Revenue+Rises+to+%245.8+Million+as+AMT-130+Filing+Nears"
     }
   ],
-  "conflicts": [
-    "Shares outstanding: one aggregator shows ~69.33M vs the on-file/Equibles-style figure of 63,067,485 — not reconciled this session.",
-    "Cash position: one TipRanks snippet cites 'approximately $810M cash supporting operations into 2030' while another TipRanks page lists 'Total Cash (Recent Filing) $586.55M' — dates on both are unclear; recorded as a conflict rather than picked.",
-    "Next earnings date: EarningsWhispers Nov 4 vs The Right Trader Nov 9 — neither company-confirmed."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "The Sept 29 four-year AMT-130 readout is very likely the actual catalyst behind the Sept 29/30 price action already on file (which had been recorded only as an unexplained bounce) — recommend treating this as the catalyst for that move going forward.",
+  "notes": "A MarketBeat alert headlined 'uniQure shares gap up' is dated 2026-10-22, but no cause/catalyst for that move could be identified from available snippets this session (not added as a catalyst for lack of a confirmed reason). No AMT-130/BLA regulatory update, no new offering, and no company-confirmed Q3 earnings date found dated after Oct 5; Nov 4 vs Nov 9 next-earnings conflict (already on file) remains unresolved — no new estimate found this session.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -210,9 +224,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.300Z",
+  "lastResearched": "2026-10-27T21:16:49.900Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -78,9 +78,9 @@
       "pct": 10.6
     },
     "nextEarnings": {
-      "date": "2026-11-04",
-      "confirmed": false,
-      "note": "Investing.com/aggregator estimate; still not company-confirmed."
+      "date": "2026-10-28",
+      "confirmed": true,
+      "note": "Company-announced (per Generac's own 'Third Quarter 2026 Earnings Release Date and Conference Call' press release, covered via Finviz): report before market open 2026-10-28, conference call 10:00am ET. Supersedes the prior on-file Nov 4 aggregator estimate."
     }
   },
   "price": {
@@ -117,8 +117,18 @@
     "A low-confidence single-source price read (eToro/Robinhood-style aggregator, undated-to-Oct-14) showed GNRC closing 2026-10-14 at $198.06, down 7.57% from $214.29, with no company news identified as cause -- not added as a catalyst because the source quality and exact date could not be corroborated this session."
   ],
   "pendingFilings": [],
-  "notes": "Core Sept 16 Amazon generator supply agreement (up to $8B) remains the dominant catalyst on file; nothing new confirmed this session beyond the EPS/valuation detail above.",
+  "notes": "No new dated catalyst found this session beyond the now-confirmed Q3 2026 earnings date. Market cap, share count, short interest, cash/debt and valuation figures turned up this session were all either stale (dated August-September 2026) or undated relative to what is already on file, so they were not used to overwrite existing fields.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -192,9 +202,11 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

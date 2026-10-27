@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.302Z",
+  "lastResearched": "2026-10-27T21:16:49.903Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -87,6 +87,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-21",
+      "type": "litigation_settlement",
+      "headline": "Latham & Watkins (Netlist's lead ITC counsel) announced that the October 2026 Netlist-Micron settlement/license agreement resolved the parties' dispute at the ITC as well as all other pending litigation between Netlist and Micron",
+      "impact": "Confirms the Oct 5-6 settlement closed out the DDR5 Section 337 investigation (337-TA-1472, instituted Sept 23, 2026) as between Netlist and Micron specifically; status of that investigation as to the other three respondents (Super Micro, HPE, Lenovo) not stated",
+      "source": "https://www.lw.com/en/news/2026/10/latham-client-netlist-reaches-settlement-with-micron"
+    },
+    {
       "date": "2026-10-06",
       "type": "price_reaction",
       "headline": "NLST shares closed at $6.66, up ~18% on the day following the Micron settlement; stock up more than 970% over the trailing year, with market value described as above $2 billion",
@@ -99,6 +106,14 @@
       "headline": "Netlist and Micron agreed to a $600 million patent license and settlement, resolving pending litigation between the companies",
       "impact": "Micron receives a 5-year license to Netlist's patent portfolio and will pay $30M per quarter for 20 quarters (Q4 2026 through Q3 2031), totaling $600M; settles and mutually releases pending legal proceedings between the companies",
       "source": "SEC 8-K, sec.gov/Archives/edgar/data/0001282631/000110465926113897/ (via Finviz/Webull summaries)"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "litigation",
+      "headline": "Netlist announced a NEW, separate ITC Section 337 complaint accusing Micron's HBM3E/HBM4/HBM4E products (patents 12,308,087 and 12,646,537) of infringement, also naming Nvidia, Broadcom and Google as respondents over use of the accused HBM chips in AI computing systems; this is distinct from the already-settled DDR5 RDIMM/MRDIMM case (337-TA-1472)",
+      "impact": "Opens a new, unresolved litigation front against Micron (and three additional large tech companies) that is NOT covered by the October Micron settlement, which only released 'pending' litigation as of its Oct 5 signing; could be a fresh overhang/catalyst independent of the settled DDR5 matter",
+      "source": "https://www.webull.com/news/15661550558446592",
+      "note": "Filing/announcement date conflicts across sources: company press release datelined Sept 29, 2026; one outlet reports the complaint was first filed confidentially on Sept 25, 2026; another source states ITC institution as Investigation No. 337-TA-1523 on Sept 23, 2026 (likely a conflation with the unrelated Aug 11, 2026 DDR5 complaint, which other sources instead identify as 337-TA-1523) — institution number/date not independently resolved this session"
     },
     {
       "date": "2026-09-23",
@@ -136,13 +151,23 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: Equibles 316,515,344 vs GuruFocus 349,580,000 (undated) vs on-file MarketBeat-derived 333,890,000 (~early Aug 2026) — not reconciled this session.",
-    "Next earnings date: Investing.com Nov 3, 2026 vs EarningsWhispers/Digrin Nov 5, 2026 — not company-confirmed either way.",
-    "Current price: a trade-tracking site (trade-ideas) showed $5.67 as of 2026-10-02, while other reachable sources' prices ($2.50, $2.65, $1.22) are either stale (pre-dating the Oct 6 Micron-settlement rally) or undated — current price could not be independently re-verified this session."
+    "New ITC HBM complaint (Micron/Nvidia/Broadcom/Google): announcement/filing date given variously as 2026-09-25 (Reuters, confidential filing), 2026-09-27, and 2026-09-29 (company press release); the ITC docket number is also disputed — one source ties it to 337-TA-1523 (which a different source instead assigns to the earlier, unrelated Aug 11 2026 DDR5 complaint against Micron/Supermicro/HPE/Lenovo) — not reconciled this session.",
+    "Next earnings date: this session found a THIRD estimate — EarningsWhispers' beta page lists Oct 29, 2026 — in addition to the on-file conflict between Investing.com (Nov 3) and EarningsWhispers/Digrin's non-beta pages (Nov 5). Still no company 8-K or press release confirming any date."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this session beyond the on-file Oct 6 Micron settlement reaction. OTC-listed (OTCMKTS), which is part of why pricing/share-count data is thin and conflicting across aggregators.",
+  "notes": "Primary new finding this session: Netlist has an active, unsettled ITC complaint (filed ~late Sept 2026) against Micron, Nvidia, Broadcom and Google over HBM patents, separate from the DDR5 dispute that the Oct 5-6 Micron settlement and the Oct 21 Latham announcement closed out. This HBM matter does not appear to be resolved by the Micron settlement and is worth tracking as a live catalyst. No new confirmed price or share-count data found this session (same stale/conflicting figures as prior passes).",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -222,9 +247,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

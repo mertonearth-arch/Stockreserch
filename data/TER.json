@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.305Z",
+  "lastResearched": "2026-10-27T21:16:49.906Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -58,32 +58,33 @@
         "basis": "GAAP"
       },
       {
-        "period": "Q2 2026",
-        "value": 2.38,
-        "basis": "GAAP"
+        "period": "Q3 2026",
+        "value": 2.17,
+        "basis": "GAAP",
+        "note": "Non-GAAP EPS was $2.29 for the same quarter (GuruFocus/aggregator coverage of the 2026-10-27 release)"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 652000000,
+        "period": "Q3 2025",
+        "value": 769000000,
         "yoy": null
       },
       {
-        "period": "Q2 2026",
-        "value": 1329000000,
-        "yoy": 104
+        "period": "Q3 2026",
+        "value": 1306000000,
+        "yoy": 69.8
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 104
+      "period": "Q3 2026",
+      "pct": 69.8
     },
     "nextEarnings": {
-      "date": "2026-10-27",
+      "date": null,
       "confirmed": false,
-      "note": "Reports after market close Oct 27, with conference call Oct 28 at 8:30am ET, per MarketBeat/consensus aggregators; not independently confirmed via a Teradyne press release this session. Consensus: EPS $2.08, revenue $1.26B (Q3 2026); company's own July guidance was $1.79-$2.09 GAAP EPS on $1.2B-$1.3B revenue."
+      "note": "Teradyne reported its Q3 2026 results today (2026-10-27) after market close, so the next report is Q4/FY2026 (historically released late Jan/early Feb, e.g. the Q4 2025 print was 2026-02-02) but no specific date has been announced by the company yet this session."
     }
   },
   "price": {
@@ -93,6 +94,13 @@
     "source": "Equibles"
   },
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "headline": "Q3 2026 results reported after close: revenue $1,306M (Semiconductor Test $1,072M, Product Test $138M, Robotics $96M — Robotics' highest-ever Q3 revenue and reported profitable), non-GAAP EPS $2.29 (GAAP EPS $2.17, GAAP net income $342.4M, non-GAAP net income $359.9M); both revenue and EPS beat consensus (~$1.26-1.27B / ~$2.08) and came in above the company's own July guidance ($1.2-1.3B revenue / $1.79-$2.09 GAAP EPS). Company guided Q4 2026 to $1.25B-$1.35B revenue and $1.95-$2.25 non-GAAP EPS.",
+      "impact": "Despite the beat-and-raise, shares were reported down approximately 6.7% following the release",
+      "source": "https://www.gurufocus.com/news/9145451/teradyne-ter-q3-earnings-beat-estimates-shares-drop-despite-strong-results ; https://rallies.ai/news/teradyne-q3-adjusted-eps-usd-229-vs-ibes-estimate-usd-208-a1cdfab66b860aa8"
+    },
     {
       "date": "2026-09-14",
       "type": "sector selloff",
@@ -125,12 +133,27 @@
     }
   ],
   "conflicts": [
-    "Trailing P/E: MarketBeat snapshot A 59.46x vs MarketBeat snapshot B 50.44x (both undated relative to each other, pre-October 2026)",
-    "Market cap (undated/Aug 2026 snapshots, not independently re-verified this session, kept in notes not as an established figure): Robinhood $59.19B at $362.48/share (2026-08-10) vs Equibles $63.21B (2026-08-19 close) vs Equibles summary $66.87B at $427.20/share (undated, same source family) — none reflects a verified current (late Oct 2026) price; current market cap left unestablished this session rather than picking one."
+    "Q3 2026 EPS beat size: GuruFocus states non-GAAP EPS $2.29 beat estimates \"by $0.23\" (implying ~$2.06 consensus) while a separate aggregator (rallies.ai, citing IBES) gives the pre-print consensus as $2.08 (implying a $0.21 beat) — the exact consensus denominator is not reconciled.",
+    "The -6.7% post-earnings stock-reaction figure comes from a single source (GuruFocus, via WebSearch synthesis) and could not be cross-checked against a second site this session — WebFetch to investors.teradyne.com, gurufocus.com, cryptobriefing.com, sec.gov and several other candidate verification sites all failed with DNS resolution errors in this sandbox (distinct from the three domains the runbook already flags as egress-blocked)."
   ],
   "pendingFilings": [],
-  "notes": "Could not verify a current (late-October 2026) share price or market cap this session — stockanalysis.com, cnbc.com and google.com are blocked, and WebSearch returned only August-dated snapshots that conflict with each other (see conflicts). Reports Q3 2026 results tomorrow (Oct 27) after close.",
+  "notes": "Prior-session unresolved current share price / market cap (see existing conflicts on file, last confirmed only against Aug-2026 snapshots) remains unresolved this session — no live post-earnings quote could be independently verified via a second reachable source.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -209,9 +232,16 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-27",
+  "run": "pm",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "AKAM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BIAF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "IOVA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "IREN",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "ticker": "AFRM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "EIX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "FICO",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "FTHM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "ticker": "GPRO",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "shortInterest updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "NLST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "QURE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "RARE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "SOLS",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TER",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "TPST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "VKTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ]
+    }
+  ],
+  "created": [],
+  "promoted": [],
+  "demoted": [],
+  "quiet": [
+    "SOLS",
+    "TPST"
+  ]
+}

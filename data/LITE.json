@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.301Z",
+  "lastResearched": "2026-10-27T21:16:49.901Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -26,7 +26,7 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "not found in sources reachable this session (not reached before the WebSearch budget for this task batch was exhausted)"
+      "note": "Sources found this session disagree and are stale/undated: equibles.com settlement date 2026-03-13 shows ~11.49M shares short (~1.8 days to cover); a Trefis page (undated) puts short interest at ~12% of basic shares outstanding; a MarketBeat figure of 15.17% of float is explicitly labeled 'last updated October 2025' and is stale. None reconciled to a current, clearly-dated %-of-float figure."
     },
     "cash": {
       "value": 2700000000,
@@ -136,12 +136,23 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 77.8M (TipRanks, Equibles) vs 89.70M (a separate 2026-08-21 Equibles snapshot, paired with a $78.00B market cap that is internally consistent only with the 89.70M figure, not 77.8M).",
-    "Market cap: this session's derived $63.95B (2026-10-20, 77.8M sh. x $822.51) vs Motley Fool $65.16B (late July, $833.09) vs FinHacker $51.19B (2026-07-31) vs the 89.70M-share $78.00B Equibles snapshot (2026-08-21)."
+    "Shares outstanding: equibles.com (undated, found this session) ~71.4M vs Trefis (undated, found this session) ~71-72M vs the on-file 77.8M (TipRanks/Equibles) vs the on-file 2026-08-21 Equibles snapshot of 89.70M -- not reconciled.",
+    "Short interest: equibles.com 2026-03-13 settlement ~11.49M shares (~1.8 days to cover) vs Trefis ~12% of basic shares (undated) vs MarketBeat 15.17% of float (dated 'last updated October 2025', stale) -- no current figure established."
   ],
   "pendingFilings": [],
-  "notes": "Nov 5 FY2027 Q1 earnings date remains company-confirmed (on file). No new catalyst found this session beyond the market-cap/share-count data above.",
+  "notes": "No new dated catalyst found this session. Could not establish a reliable closing price for the Oct 20-27, 2026 window; the most recent dated reads found were Oct 1 ($1,045.78, already on file) and Oct 6 ($1,133.40), both from a Chinese-language aggregator (stock.10jqka.com.cn), plus an undated-but-apparently-mid-October TIKR snapshot of ~$995.41 -- none added as a price update given uncertain exact dates and a single-source-only read.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -213,9 +224,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

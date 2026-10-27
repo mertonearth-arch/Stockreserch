@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.298Z",
+  "lastResearched": "2026-10-27T21:16:49.897Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -81,8 +81,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": false,
-      "note": "Multiple aggregators (TheRightTrader, NextEarningsDate, Unusual Whales) converge on Nov 4, 2026 as a projected date; still not a company-issued confirmation as of this session. Last year's Q4 FY2025 report was Nov 5, 2025."
+      "confirmed": true,
+      "note": "Company press release ('Fair Isaac Corporation Announces Date for Reporting of Fourth Quarter Fiscal 2026 Financial Results', republished via 01net.it) confirms FICO will report Q4 FY2026 results on Nov 4, 2026, after market close, with a conference call that day. Upgraded from aggregator-estimate to company-confirmed this session (prior pass had multiple aggregators converging on Nov 4 but no company confirmation)."
     }
   },
   "price": null,
@@ -155,12 +155,23 @@
     }
   ],
   "conflicts": [
-    "Market cap/price: an Angel One snapshot dated 2026-10-06 lists FICO at $684.00/share ($14.28B market cap) — sharply inconsistent with every other source found (Motley Fool ~$1,150-1,206/share, ~$25-28B; Yahoo $1,153.57 at Aug 28 close, $24.914B market cap). The $684 reading is very likely a data error and was not used.",
-    "Shares outstanding: Motley Fool/TipRanks ~23.19M vs Equibles 21.60M (undated) — not reconciled."
+    "Market cap/price: the on-file $684/share reading (flagged in a prior pass as 'very likely a data error') is corroborated by two further sources found this session — financialcontent.com showing $661.25 as of a 2026-10-02 close (with a stated market cap of $18.77B, which is itself inconsistent with ~23.7M shares outstanding) and a live trade-ideas.com snapshot showing $662.25 / $14.3B market cap. These are consistent with FICO actually trading in roughly the $617-771 range since the 2026-09-29 FHFA-driven crash (close $617.87) and the Oct 19 partial rebound to ~$771 already on file — suggesting the ~$660-684 readings may reflect real post-crash prices rather than a data error. Higher readings of ~$1,050-1,206/share found elsewhere this session and on prior passes look like stale, pre-crash data. Not fully reconciled to one verified current price this session, so left as a conflict rather than resolved by picking one.",
+    "Shares outstanding: Motley Fool/TipRanks ~23.19M vs Equibles 21.60M (undated) — not reconciled (carried from prior pass, unchanged)."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this session beyond what's on file (the Sept 29 FHFA/VantageScore-driven crash and the Oct 19 partial rebound).",
+  "notes": "No new dated catalyst found this session beyond the Oct 4, 2026 Q4-FY2026 earnings-date confirmation (not itself added as a catalyst since no exact announcement date was established — only the resulting report date). No Oct 20-27 company news found beyond this.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -234,9 +245,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

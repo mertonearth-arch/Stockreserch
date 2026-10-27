@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.296Z",
+  "lastResearched": "2026-10-27T21:16:49.896Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -73,11 +73,19 @@
     }
   },
   "price": {
-    "last": 75.17,
-    "changePct": 5.62,
-    "asOf": "2026-10-05"
+    "last": 72.4,
+    "changePct": -1.51,
+    "asOf": "2026-10-22",
+    "source": "TIKR, relaying the Oct 22, 2026 AFRM close following the Sam's Club deal announcement"
   },
   "catalysts": [
+    {
+      "date": "2026-10-22",
+      "type": "contract",
+      "headline": "Affirm announced a multi-year, exclusive deal to be Sam's Club's buy-now-pay-later provider. Online checkout on SamsClub.com is expected to go live in the coming weeks ahead of the holidays; in-store checkout at club locations is targeted for 2027. Affirm had lost Walmart's BNPL business to Klarna in 2025; Sam's Club had offered no installment option before this (BJ's has had one since 2021; Costco added Affirm in May 2025). Financial terms were not disclosed.",
+      "impact": "Shares closed down 1.51% at $72.40 on announcement day per TIKR",
+      "source": "https://www.pymnts.com/?p=4329284 ; https://www.paymentsjournal.com/sams-club-taps-affirm-as-exclusive-bnpl-provider/"
+    },
     {
       "date": "2026-10-05",
       "type": "guidance/IR",
@@ -132,8 +140,18 @@
     "Shares outstanding: Equibles snapshot (~Aug 2026) lists 334.90M, while two other Equibles pages (undated) list 294,357,801 and 292,409,876 — three disagreeing readings, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Market cap left unchanged on file ($23.88B, 2026-10-06, Angel One) — the Equibles $25.13B (~Aug 2026, $75.83/share) reading is close but from an earlier date and a disputed share count, so not substituted.",
+  "notes": "Searched specifically for Oct 20-27 news beyond what's on file; the Sam's Club deal (Oct 22) is the one new dated item found. A separate item (Simply Wall St/Webull, undated in results) describes an approximately $1.55B shelf registration tied to an ESOP-related Class A share offering around the time of the August 2026 earnings, but no exact filing date could be confirmed this session, so it was not added as a catalyst or to pendingFilings (per the 'every catalyst needs a date' rule) — worth checking SEC EDGAR for Affirm (CIK 1820953) on a future pass for an S-3/424B filed around Aug-Sept 2026. Next-earnings date (2026-11-05, confirmed) unchanged.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -274,9 +292,11 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

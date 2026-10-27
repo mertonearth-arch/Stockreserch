@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.303Z",
+  "lastResearched": "2026-10-27T21:16:49.904Z",
   "fundamentals": {
     "marketCap": {
       "value": 2600000000,
@@ -135,6 +135,13 @@
       "sourceName": "ir.ultragenyx.com; FDA.gov"
     },
     {
+      "date": "2026-09-02",
+      "type": "clinical data",
+      "headline": "Ultragenyx's Phase 3 ASPIRE study of apazunersen (GTX-102) in Angelman syndrome missed its primary endpoint (change from baseline in Bayley-4 cognitive raw score) and its key secondary endpoint (Multidomain Responder Index net response); safety was consistent with the earlier Phase 1/2 data. Company said it is evaluating the program's disposition and will implement 'significant' expense reductions.",
+      "impact": "Shares fell approximately 44-46% (reported variously, e.g. close of $14.84 vs prior close, down $11.68/-44%); JPMorgan downgraded to Neutral from Overweight and cut its price target to $36 from $80; Evercore cut its target to $16; this appears NOT to be reflected in the on-file market cap/EPS figures, which are dated Aug 20, 2026 (pre-crash) — see conflicts",
+      "source": "https://www.pharmexec.com/view/ultragenyx-shares-drop-failed-phase-iii-trial"
+    },
+    {
       "date": "2026-08-19",
       "type": "FDA approval",
       "headline": "FDA approved GENGLYCOS gene therapy (Ultragenyx's other 2026 approval), which also came with a Priority Review Voucher",
@@ -148,12 +155,23 @@
     }
   ],
   "conflicts": [
-    "FAYUVI FDA approval date: company/RTTNews materials say 2026-09-17; a separate table lists 2026-09-19.",
-    "Trailing TTM EPS: -$5.83 (StockAnalysis/Equibles) vs -$6.10/-$6.11 (Google Finance/Motley Fool) — both confirm negative earnings but disagree on the exact figure."
+    "On-file market cap ($2.6B, as of 2026-08-20) and sharesOutstanding-derived price level predate the Sept 2, 2026 ~44-46% single-day drop following the failed Phase 3 ASPIRE (apazunersen/GTX-102) readout; the on-file Oct 9 price of $15.45 is consistent with a post-crash level, implying a market cap closer to ~$1.5B (98.4M shares x $15.45) rather than the stale $2.6B figure. Not reconciled/recalculated with a verified current share count this session — flagging rather than recomputing.",
+    "DTX401/GENGLYCOS is confirmed (via company/press materials) to be the same product under two names (DTX401 = development code, GENGLYCOS/pariglasgene brecaparvovec-opnr = approved brand name for glycogen storage disease type Ia) — this clarifies, but does not change, the on-file Aug 19, 2026 GENGLYCOS approval catalyst (FDA's PDUFA date for DTX401 was Aug 23, 2026; approval reporting is inconsistently dated Aug 19-20 across sources)."
   ],
   "pendingFilings": [],
-  "notes": "FY2026 revenue guidance ($730M-$760M) and 2027 profitability target were reaffirmed as of the Aug 4, 2026 Q2 report; no October update to that guidance was found this session.",
+  "notes": "Company has not yet announced a final decision on the apazunersen/GTX-102 program's disposition (still under review as of the latest coverage found, early-to-mid Sept 2026); a related AURORA study in other Angelman genotypes is also in question per analyst commentary. No October 2026 update to this decision, and no confirmation of specific cost-cutting dollar figures or headcount, found this session. Next-earnings estimates now point to Nov 3, 2026 (EarningsWhispers/The Right Trader) rather than the on-file Nov 4 — still not company-confirmed either way; not overwriting the on-file date given both are unconfirmed estimates, flagging the discrepancy here instead.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -230,9 +248,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

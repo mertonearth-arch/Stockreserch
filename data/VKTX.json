@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.306Z",
+  "lastResearched": "2026-10-27T21:16:49.908Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -64,7 +64,7 @@
     "nextEarnings": {
       "date": "2026-10-28",
       "confirmed": true,
-      "note": "Reconfirmed via company's own 2026-10-21 announcement (already on file from the AM pass). Third-party consensus for the print: analyst estimates range from a loss of ~$1.00 to ~$1.12/share (EarningsWhispers, Benzinga, HC Wainwright -- the latter dated 2026-07-30 and likely stale); none of these is a company figure."
+      "note": "Reconfirmed via the company's own 2026-10-21 announcement (already on file) — after market close, conference call 4:30pm ET. Current third-party consensus ahead of the print: EPS of approximately -$1.00 (9 analysts, aggregator estimate) on $0 revenue (pre-commercial); options pricing implies a post-earnings move of roughly +/-11.65% (EarningsWhispers, undated/approximate, not a company figure)."
     }
   },
   "price": null,
@@ -130,8 +130,18 @@
     "Cash: company-sourced $502M at 2026-06-30 (Zacks, tied to the Q2 2026 release) vs an undated Motley Fool figure of $602.96M-$705.74M 'cash and short-term investments' — not reconciled; the dated, company-tied figure is used above."
   ],
   "pendingFilings": [],
-  "notes": "Maintenance-dosing-regimen data (weekly/every-other-week/monthly) for VK2735 was expected 'later this quarter' per Q2 commentary — worth checking in the next pass's catalyst scan since it may land around or after the Oct 28 earnings print. $500M shelf registration remains on file as a dilution-risk item; not independently re-confirmed this session.",
+  "notes": "Searched hard for any pre-earnings news since the Sept 22, 2026 VK2735 maintenance-dosing readout and found none — no new company press release, filing, or confirmed analyst action dated between 2026-09-22 and 2026-10-27. One widely-indexed item, a JPMorgan price-target cut to $75 from $80, is dated 2025-10-24 (one year old), not 2026, and is therefore not a new catalyst this session; flagging this to prevent it from being mistaken for current news in a future pass. Stock price/market cap remain unresolved (no current quote independently verified this session; stockanalysis.com and google.com blocked, and other candidate sites returned only stale Aug-2026 or undated snapshots). All other on-file fundamentals reconfirmed unchanged.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -226,9 +236,11 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

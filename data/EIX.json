@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:36:16.186Z",
+  "lastResearched": "2026-10-27T21:16:49.897Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -78,9 +78,9 @@
       "note": "Used core (non-GAAP) EPS growth as the headline because no prior-year revenue figure was found this session to compute revenue YoY for Q2 2026; core EPS is also the metric Edison itself guides to (FY2026 core EPS guidance of $5.90–$6.20, reaffirmed with Q2 results). Revenue of $4.36B for Q2 2026 came in below a ~$4.82B analyst estimate."
     },
     "nextEarnings": {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "confirmed": false,
-      "note": "Left unchanged pending resolution of a new conflict found this session: an SCE-distributed advisory headline (indexed via Finviz) states the Q3 2026 call is 'Thursday, Oct 29' — and Oct 29, 2026 is in fact a Thursday (Oct 28 is a Wednesday), which lends some credibility to that reading. AJ Bell's calendar instead lists Oct 28 at 13:30. TipRanks separately shows Nov 3 but that appears to be a rolled-forward estimate, not a confirmation. See conflicts."
+      "note": "Multiple current sources (Yahoo Finance, TipRanks — which labels its own entry 'Confirmed', Earnings Whispers, briefglance) converge on Thursday, Oct 29, 2026, after market close, with a call at 1:30-2:30pm PDT — matching the pattern of last year's Q3 2025 call (also a Tuesday-named advisory that was actually issued for Oct 28, 2025). However, no primary company source (an SEC 8-K advisory or an edisoninvestor.com/newsroom.edison.com release) could be reached or found this session to settle it definitively, and AJ Bell's calendar still shows Oct 28 at 13:30 while a separate TipRanks page shows Nov 3 (labeled an estimate). Oct 29 is the best-supported reading and resolves the prior 'today (Oct 27) or tomorrow (Oct 28)' ambiguity in favor of neither — the print has evidently NOT yet happened as of this Oct 27 pass."
     }
   },
   "price": {
@@ -130,6 +130,13 @@
       "impact": "neutral"
     },
     {
+      "date": "2026-09-22",
+      "type": "litigation",
+      "headline": "LA County Superior Court Judge Laura Seigle denied Edison International's motion for summary judgment seeking to be dropped from Eaton Fire litigation; the parent company had argued it had no ownership or control over the equipment at issue, but the judge found it had not met its burden of showing it bore no responsibility. The ruling is a denial of summary judgment, not a finding of liability.",
+      "impact": "Keeps Edison International (the parent, not just SCE) as a defendant exposed in Eaton Fire litigation",
+      "source": "https://dailyjournal.com/article/394580-judge-leans-against-dropping-edison-parent-from-eaton-fire-cases ; https://classlawgroup.com/eaton-fire-lawsuit-edison-summary-judgment-denied"
+    },
+    {
       "date": "2026-09-21",
       "type": "analyst action",
       "headline": "Morgan Stanley reiterates Sell, price target $60",
@@ -177,12 +184,24 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: AJ Bell says 2026-10-28 (13:30) vs an SCE/Finviz-indexed advisory headline that says the call is 'Thursday, Oct 29' (and Oct 29, 2026 is indeed a Thursday) vs TipRanks' Nov 3 estimate — not reconciled by any primary company source found this session.",
-    "Market cap/price: no October 2026 figure found beyond the on-file 2026-10-05 reading ($20.87B at $54.24/share); other sources found this session (Robinhood $29.04B at $75.70, 2026-06-30; Simply Wall St $28.8B at $74.74, undated; Value Research $26.5B at $68.94, 2026-04-27) are all pre-decline and corroborate the on-file note about a large unexplained drop from mid-2026 levels, not a current figure."
+    "Next earnings date: AJ Bell says 2026-10-28 (13:30) vs several current sources (Yahoo Finance, TipRanks 'Confirmed' tag, Earnings Whispers, briefglance) converging on Thursday 2026-10-29 after close vs a separate TipRanks page's Nov 3 estimate. No primary company advisory found this session (SEC EDGAR search for an October 2026 EIX 8-K returned none dated after July 30, 2026) — Oct 29 is best-supported but not company-confirmed as of this pass.",
+    "Market cap/price: no October 2026 figure found beyond the on-file 2026-10-05 reading ($20.87B at $54.24/share); other sources found this session (Digrin: $53.89 for 'October 2026', undated/monthly; no new dated single-day close found) still do not resolve the large apparent gap versus the ~$75-79/share, ~$28-30B readings from mid-2026 already flagged on file."
   ],
   "pendingFilings": [],
-  "notes": "The Muddy Waters catalyst already on file (previously unverified) is now corroborated via a Reuters-sourced republication with specific liability figures.",
+  "notes": "No fresh Muddy Waters follow-up, SCE rebuttal, or new PSPS/power-shutoff news dated after Oct 14, 2026 was found this session. The Sept 22 summary-judgment denial is new to the file and is litigation context for the Eaton Fire exposure already being tracked, not a new MW allegation. The Q3 2026 earnings print itself has NOT been found/confirmed as having occurred as of Oct 27 — it remains upcoming per the Oct 29 reading above.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -341,10 +360,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

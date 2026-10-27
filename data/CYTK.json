@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.293Z",
+  "lastResearched": "2026-10-27T21:16:49.891Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -85,8 +85,10 @@
     }
   },
   "price": {
-    "last": 61.58,
-    "changePct": null
+    "last": 62.82,
+    "changePct": -0.06,
+    "asOf": "2026-10-22",
+    "note": "Intraday quote (~12:31 PM CST per AAII/digrin aggregation), not a confirmed closing print; no price found for 2026-10-23 through 2026-10-27 this session."
   },
   "catalysts": [
     {
@@ -95,6 +97,13 @@
       "headline": "FDA PDUFA target action date for aficamten (MYQORZO) supplemental NDA covering MAPLE-HCM data, which would expand the oHCM label",
       "impact": "Pending regulatory decision",
       "source": "Company 8-K / shareholder letter (SEC EDGAR)"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "medical conference / data",
+      "headline": "Additional ACACIA-HCM (aficamten, non-obstructive HCM) safety and efficacy data presented at HFSA 2026: serious heart-failure adverse events in 12 patients (4.7%) on aficamten vs. 3 (1.2%) on placebo; LVEF <50% occurred in 27 patients (10%) on aficamten vs. 2 (1%) on placebo; overall serious adverse events 52 (20.2%) vs. 38 (14.7%); heart-failure events occurred during dose titration or before Week 12, often following a trigger such as rapid atrial fibrillation or infection. Independently confirms and supersedes the prior pass's unverified Oct 9 HFSA catalyst entry.",
+      "impact": "Confirms safety signal flagged earlier at ESC 2026; company still targets a Q4 2026 sNDA filing for non-obstructive HCM",
+      "source": "https://finviz.com/news/401374/cytokinetics-announces-additional-data-from-acacia-hcm-presented-at-the-hfsa-annual-scientific-meeting-2026"
     },
     {
       "date": "2026-10-09",
@@ -149,8 +158,18 @@
     "Shares outstanding: TipRanks 119.66M vs PitchBook 136M (2026-06-18) vs Motley Fool 123.16M (undated) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "aficamten (brand MYQORZO) is FDA-approved (Dec 2025) for oHCM and commercially launched since Jan 2026; also approved in China (2025) and the EU (early 2026). The on-file HFSA conference catalyst (2026-10-09) could not be independently reconfirmed this session. ACACIA-HCM (non-obstructive HCM) reportedly met its dual primary endpoints per the company, with a supplemental NDA submission expected Q4 2026, but no specific dated announcement was found to cite as a catalyst.",
+  "notes": "The on-file Oct 9, 2026 HFSA catalyst (previously flagged as 'not independently verified') is now confirmed via company press release and secondary coverage (finviz, biopharmawatch, HCPLive); additional Oct 12 safety/efficacy detail added above. No news found dated after Oct 22, 2026, and no update to the Nov 14, 2026 MAPLE-HCM PDUFA date or the Nov 4, 2026 estimated earnings date (both unchanged, still not company-confirmed).",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -287,9 +306,11 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

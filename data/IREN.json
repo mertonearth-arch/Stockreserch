@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.295Z",
+  "lastResearched": "2026-10-27T21:16:49.894Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -85,16 +85,37 @@
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": false,
-      "note": "unchanged from prior pass — aggregator estimate for Q1 FY2027, not company-confirmed"
+      "confirmed": true,
+      "note": "Company's own IR advisory, hosted at iren.gcs-web.com and dated 2026-10-22, confirms IREN will report results for the quarter ended 2026-09-30 (Q1 FY2027) on Thursday, Nov 5, 2026, with a conference call at 5:00pm ET. Upgraded from aggregator estimate to company-confirmed this session."
     }
   },
   "price": {
-    "last": 26.99,
-    "changePct": -11.19,
-    "asOf": "2026-10-16"
+    "last": 25.43,
+    "asOf": "2026-10-26",
+    "source": "Fool.com last-close listing (dated 2026-10-26); no changePct/rvol established this session"
   },
   "catalysts": [
+    {
+      "date": "2026-10-26",
+      "type": "price action",
+      "headline": "IREN closed at $25.43, a new low since the Oct 16 selloff, extending its October slide (per Fool.com's last-close listing). No single new catalyst identified for this specific session beyond the financing/competition concerns already on file.",
+      "impact": "Continued downtrend; below the $26.99 Oct 16 close already on file",
+      "source": "https://www.fool.com/quote/nasdaq/iren/"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "guidance/IR",
+      "headline": "IREN issued an investor-relations advisory confirming it will report Q1 FY2027 (quarter ended 2026-09-30) results on Thursday, Nov 5, 2026, with a conference call at 5:00pm ET and replay via iren.com/investors.",
+      "impact": "Sets next earnings date (company-confirmed)",
+      "source": "https://iren.gcs-web.com/static-files/27307e4c-33e5-4007-bdff-88ff09a274a7"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "analyst action",
+      "headline": "With IREN down roughly 40% in October and sitting near a 52-week low (~$26.62/share), three Wall Street analysts maintained price targets implying substantial upside: Sanford C. Bernstein $100, Northland Securities $99, Cantor Fitzgerald $99; average Street target cited at $77.81.",
+      "impact": "No immediate price reaction reported attributable to this specific piece; context on ongoing analyst support despite the selloff",
+      "source": "https://247wallst.com/investing/2026/10/21/iren-limted-crashed-40-this-month-three-wall-street-analysts-agree-its-going-to-quadruple/"
+    },
     {
       "date": "2026-10-16",
       "type": "price action",
@@ -198,8 +219,19 @@
     "Market cap still not reconcilable: DefiLlama implies ~$11.55B (333.73M shares as of 2026-03-31, at $30.39), Roic.ai shows $13.88B (340.98M shares, undated), Equibles shows $17.98B (357.38M shares, undated), vs. the on-file $14.97B (asOf 2026-09-09). All differ mainly on share count and price date; none independently verified this session as current."
   ],
   "pendingFilings": [],
-  "notes": "FY2026 revenue/growth and the Aug 27 earnings catalyst are new this session. Market cap left as on file given the unreconciled spread above.",
+  "notes": "No bounce confirmed since the Oct 16 new-low close — subsequent dated data points (Oct 21 ~$26.62, Oct 26 close $25.43) show the stock continuing to make fresh lows through this session's window, not recovering. No new financing (debt/equity) announcement found this session beyond what's on file. Next-earnings date is now company-confirmed (was aggregator estimate).",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -335,9 +367,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

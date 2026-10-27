@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.294Z",
+  "lastResearched": "2026-10-27T21:16:49.892Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -79,6 +79,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-16",
+      "type": "offering/dilution",
+      "headline": "Closed the previously announced $2.0 billion equity offering: 20.5 million common shares plus 29.5 million pre-funded warrants, each priced at $40.00/unit (~15% premium to the Oct 13, 2026 close of $34.78); includes 100 million seven-year Series C warrants exercisable at $69.46/share; buyer an entity managed by Heights Capital Management; J.P. Morgan sole underwriter",
+      "impact": "Resolves whether the Oct 14 priced offering actually closed -- it did, on Oct 16",
+      "source": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/ionq-closes-usd-2-billion-stock-and-warrant-offering"
+    },
+    {
       "date": "2026-10-15",
       "type": "price action",
       "headline": "IonQ shares rose 9.33% to $34.35 on volume more than 100% above average, rebounding from the prior day's equity-offering-related drop",
@@ -137,12 +144,23 @@
     }
   ],
   "conflicts": [
-    "Market cap implies ~349M shares outstanding (at $12.0B/$34.35), vs. the 10-K's ~222.8M shares as of 2026-02-19 (before the 2025-2026 equity offerings/SkyWater deal) — gap not reconciled this session.",
-    "Q2 2026 adjusted EPS: -$0.33 reported as a miss vs -$0.30 estimate by one source, but reported as a beat vs -$0.35 estimate by Benzinga — sources disagree on which consensus figure applies."
+    "Shares outstanding: one secondary source states the Oct 2026 offering 'adds to a share count of 405.1 million at the latest quarter' (quarter unspecified, not independently confirmed against a primary filing), vs. the on-file 373,269,948 shares as of the 2026-04-29 Q1 10-Q cover page and the already-flagged ~349M implied by the $12.0B/$34.35 market-cap calc. Not reconciled this session.",
+    "Post-offering price: a Oct 20, 2026 TIKR article headline states IonQ 'fell 15% in a week' after the $2B raise, and one aggregator showed an early-afternoon ET price near $31.50 that day, but no confirmed closing price for Oct 20-27, 2026 was located, so price/market cap are left unchanged from the on-file 2026-10-15 figures."
   ],
   "pendingFilings": [],
-  "notes": "Still could not reconcile a current share count or a clean post-offering market cap this session.",
+  "notes": "The $2.0B offering (20.5M shares + 29.5M pre-funded warrants at $40.00/unit, Heights Capital Management as buyer) is confirmed closed 2026-10-16 -- this answers the assignment's specific question. No confirmed post-close price found between Oct 16 and Oct 27.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -222,9 +240,12 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

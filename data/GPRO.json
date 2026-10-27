@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.301Z",
+  "lastResearched": "2026-10-27T21:16:49.900Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -168,9 +168,21 @@
     "Market cap: Google Finance $242.66M at $1.35 (2026-10-02, but doesn't arithmetically match its own stated 158.25M shares) vs TipRanks undated $284.65M (131.92M shares) vs TipRanks $2.27B at $12.46 (appears to be the BMV/Mexico cross-listing, not the NASDAQ common) vs the on-file range of $103.82M (2026-07-16) to $224.9M (undated, CoinGecko).",
     "Shares outstanding: 163M (Macrotrends, 2026-03-31) vs 137.33M (Value Research, 2026-05-01) vs 131.92M (TipRanks, undated) vs 146.74M (TipRanks, undated, likely cross-listing)."
   ],
-  "pendingFilings": [],
-  "notes": "No new dated catalyst found this session beyond the Oct 19 restatement/proxy filing already on file. The Starman Optical merger remains the dominant story; still expected to close by year-end 2026 per that filing.",
+  "pendingFilings": [
+    "Definitive proxy statement (DEF 14A) for the Starman Optical merger stockholder vote -- not yet filed as of 2026-10-27; the preliminary proxy (Form PREM14A), filed 2026-10-19, remains the most recent merger-related filing found."
+  ],
+  "notes": "No new dated catalyst found this session beyond the Oct 19 restatement/proxy filing already on file. No stockholder-meeting date has been set yet for the Starman Optical merger vote per the preliminary proxy. Market cap, shares-outstanding and short-interest figures found this session (e.g. an equibles.com short-interest table last updated to an April 2026 settlement date) were undated or materially stale relative to the existing on-file conflicts and were not used to update any field.",
   "history": [
+    {
+      "date": "2026-10-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -301,9 +313,11 @@
   },
   "lastPass": {
     "date": "2026-10-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "new filing(s)"
+    ],
     "tradingDay": true
   }
 }
