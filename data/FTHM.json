@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T21:16:49.898Z",
+  "lastResearched": "2026-10-28T05:34:03.904Z",
   "fundamentals": {
     "marketCap": {
       "value": 18690000,
@@ -146,6 +146,14 @@
   "notes": "No company news found dated Oct 20-27, 2026 beyond the Oct 5 mutual merger termination with Neighborhood Intelligence already on file. No details found on how FTHM or NXH shares actually reacted to the Oct 5 termination (searched specifically; sources report the deal terms and rationale but not the stock-price reaction). Next earnings (2026-11-10, unconfirmed) unchanged.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "pm",
       "quiet": false,
@@ -211,12 +219,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-10-28",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

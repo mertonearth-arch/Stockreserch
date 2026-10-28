@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.313Z",
+  "lastResearched": "2026-10-28T05:34:03.897Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -87,6 +87,13 @@
     "note": "Sources disagree sharply with no clear way to reconcile: an undated Investing.com snapshot shows $4.68 (implying ~$113.35M market cap), while a 2026-10-14-dated snapshot shows $2.65 -- a >75% gap. Given the magnitude, this is flagged per the reverse-split/implausible-price-move check rather than averaged or guessed; no reverse split was confirmed either way."
   },
   "catalysts": [
+    {
+      "date": "2026-10-21",
+      "type": "partnership/MOU",
+      "headline": "Announced a memorandum of understanding with the Department of Health - Abu Dhabi for scientific exchange and clinical research collaboration.",
+      "impact": null,
+      "source": "https://www.biopharmawatch.com/news/NTHI/neonc-breaks-through-key-levels-brain-cancer-stock (biopharmawatch discloses it is compensated by NTHI for coverage; treat accordingly)"
+    },
     {
       "date": "2026-10-09",
       "type": "partnership",
@@ -181,6 +188,16 @@
   "notes": "Theme 'Biotech Catalyst' fits. Cash ($1,973,420 at 2026-06-30) and a quarterly EPS figure (-$0.58, Q2 2026) are now established from primary SEC filing / earnings-release content, resolving prior-session gaps. Price/market cap remain unresolved due to a large, unreconciled discrepancy between sources -- flagged rather than guessed. A previously-circulating 'Quazar Investment $50M partnership' storyline appears to be 2025-dated content, not a current (2026) catalyst, and was excluded.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "am",
       "quiet": true,
@@ -248,10 +265,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

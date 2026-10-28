@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.312Z",
+  "lastResearched": "2026-10-28T05:34:03.918Z",
   "fundamentals": {
     "marketCap": {
       "value": 1970000000,
@@ -137,6 +137,14 @@
   "notes": "Market cap and float/short-interest figures are all stale relative to the Aug 2026 earnings-driven rally; no October 2026 snapshot was found despite a dedicated search this session.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "am",
       "quiet": true,
@@ -212,7 +220,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.312Z",
+  "lastResearched": "2026-10-28T05:34:03.918Z",
   "fundamentals": {
     "marketCap": {
       "value": 21210000000,
@@ -157,6 +157,14 @@
   "notes": "Theme 'Transportation & Logistics' remains the correct classification (trucking/intermodal logistics). FY2024 ($5.56) and FY2025 ($6.12) annual diluted EPS now confirmed directly from the company's own release, resolving the prior session's gap. Market cap, shares outstanding, short interest and a next-earnings date remain imprecisely dated/unconfirmed.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "am",
       "quiet": true,
@@ -221,7 +229,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
     "quiet": true,
     "changes": [],

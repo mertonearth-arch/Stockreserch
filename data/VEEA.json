@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-10-27T05:34:07.319Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-10-28T05:34:03.897Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -98,6 +98,13 @@
       "source": "Quiver Quant news summary"
     },
     {
+      "date": "2026-10-01",
+      "type": "contract",
+      "headline": "Signed an agreement with TROLLEE Holdings for phased deployment of the VeeaONE platform across up to 1,000 unattended retail stores, beginning with up to 50 locations, extending a strategic partnership with TROLLEE originally dating to 2018.",
+      "impact": "Reported as triggering a sharp single-session gain (one source cites ~48% intraday); single secondary-source report, no primary company press release or 8-K independently located this session",
+      "source": "https://tickeron.com/ticker/VEEA ; https://www.barchart.com/story/news/2601760/veea-inc-and-trollee-holdings-ltd-extend-strategic-partnership-to-deliver-a-highly-advanced-ai-powered-autonomous-retail-ecosystem"
+    },
+    {
       "date": "2026-09-14",
       "type": "M&A (non-binding)",
       "headline": "Signed a non-binding term sheet for a business combination with NovaGen Group B.V. (regenerative medicine/longevity) to form 'NovaGen Health Networks'; implied combined valuation ~$750M (management estimate); GeoNova Capital signed a term sheet for a proposed $10M investment. Parties targeted execution of a definitive agreement 'within the coming weeks' -- STILL NOT EXECUTED as of the most recent information found in this session (no October 2026 definitive-agreement filing located)",
@@ -131,6 +138,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-23: nothing new. No catalysts found beyond the 2026-10-09 Nasdaq-compliance item already on file. The NovaGen Group business combination remains a non-binding term sheet as of this session's search -- no definitive agreement, termination, or other update located (one secondary aggregator's Oct 5 item simply repeats the Sept 14 term-sheet announcement with no new terms). Price data remains too inconsistent across sources to establish a reliable current market cap (a Digrin monthly series shows ~$5.70 for Oct 2026 vs ~$0.49 in June 2026), consistent with the reverse-split-driven conflict already flagged on file -- not re-resolved this session.",
   "history": [
+    {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -186,10 +203,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

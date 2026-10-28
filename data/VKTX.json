@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T21:16:49.908Z",
+  "lastResearched": "2026-10-28T05:34:03.911Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -133,6 +133,14 @@
   "notes": "Searched hard for any pre-earnings news since the Sept 22, 2026 VK2735 maintenance-dosing readout and found none — no new company press release, filing, or confirmed analyst action dated between 2026-09-22 and 2026-10-27. One widely-indexed item, a JPMorgan price-target cut to $75 from $80, is dated 2025-10-24 (one year old), not 2026, and is therefore not a new catalyst this session; flagging this to prevent it from being mistaken for current news in a future pass. Stock price/market cap remain unresolved (no current quote independently verified this session; stockanalysis.com and google.com blocked, and other candidate sites returned only stale Aug-2026 or undated snapshots). All other on-file fundamentals reconfirmed unchanged.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "pm",
       "quiet": false,
@@ -235,12 +243,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated"
-    ],
+    "date": "2026-10-28",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

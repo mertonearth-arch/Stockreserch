@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.318Z",
+  "lastResearched": "2026-10-28T05:34:03.925Z",
   "fundamentals": {
     "marketCap": {
       "value": 9130000000,
@@ -135,6 +135,14 @@
   "notes": "PM pass 2026-10-23: no company news found dated after the 2026-09-16 Lilly TuneLab partnership already on file. Newly found and added: an Aug 4, 2026 $300M upsized stock offering (3,125,000 shares @ $96) that was missing from the prior catalyst list. No October 2026 earnings-date confirmation or market-cap update was found this session; fundamentals otherwise unchanged from the prior pass.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "am",
       "quiet": true,
@@ -192,7 +200,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T21:16:49.902Z",
+  "lastResearched": "2026-10-28T05:34:03.907Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -189,6 +189,14 @@
   "notes": "No post-Oct-24-ESMO-presentation analyst reaction or price level found this session beyond the Citi downgrade (which predates the leak). Current MRNA quote could not be established from reachable sources this session: conflicting, mostly undated or clearly-stale figures were found ranging roughly $42-$226, none clearly dated to the Oct 20-27 window, so price was left unchanged.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "pm",
       "quiet": false,
@@ -279,13 +287,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-10-28",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.308Z",
+  "lastResearched": "2026-10-28T05:34:03.914Z",
   "fundamentals": {
     "marketCap": {
       "value": 10600000000,
@@ -147,6 +147,14 @@
   "notes": "PM pass 2026-10-23: found one additional weekly treasury update (Oct 18, 2026, via secondary aggregator only -- no primary BitMine press release located) beyond what was already on file. No new EPS, debt, or share-count figures found this session; those remain as previously recorded (and already flagged as conflicting) on file.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "am",
       "quiet": true,
@@ -266,7 +274,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
     "quiet": true,
     "changes": [],

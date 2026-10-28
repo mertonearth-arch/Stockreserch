@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.313Z",
+  "lastResearched": "2026-10-28T05:34:03.896Z",
   "fundamentals": {
     "marketCap": {
       "value": 211120000000,
@@ -95,6 +95,13 @@
     "note": "Stale vs. 2026-10-23; the 2026-10-06 Investor Day catalyst was reported to have moved the stock +5.81% intraday that session, so the price has likely moved since, but no later confirmed quote was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-10-16",
+      "type": "price move",
+      "headline": "Shares extended their decline after the Oct 6 Investor Day, falling a cumulative 17.2% from Oct 9-16 (including an 8.7% single-session drop on Oct 14), attributed to broader AI-capex valuation concerns despite the raised FY2028 (~$20B) and new FY2031 ($70-90B) revenue targets announced at the event.",
+      "impact": "-17.2% over the Oct 9-16 window",
+      "source": "https://www.trefis.com/stock/mrvl/articles2/619152/what-just-happened-to-marvell-stock/2026-10-19"
+    },
     {
       "date": "2026-10-06",
       "type": "investor day",
@@ -193,6 +200,16 @@
   "pendingFilings": [],
   "notes": "Theme 'AI Semiconductors' is a confirmed fit. FY2025 ($-1.02) and FY2026 ($3.07) annual GAAP diluted EPS now established from primary company releases, and Q2 FY2027 revenue/growth figures are now formalized into structured fields (previously only embedded in catalyst text). Cash/debt remain aggregator-sourced rather than primary-filing-confirmed.",
   "history": [
+    {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -324,10 +341,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

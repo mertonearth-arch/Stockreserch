@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T21:16:49.892Z",
+  "lastResearched": "2026-10-28T05:34:03.901Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -151,6 +151,14 @@
   "notes": "The $2.0B offering (20.5M shares + 29.5M pre-funded warrants at $40.00/unit, Heights Capital Management as buyer) is confirmed closed 2026-10-16 -- this answers the assignment's specific question. No confirmed post-close price found between Oct 16 and Oct 27.",
   "history": [
     {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-27",
       "run": "pm",
       "quiet": false,
@@ -239,13 +247,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-10-28",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

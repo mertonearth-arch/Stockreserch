@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-27T05:34:07.309Z",
+  "lastResearched": "2026-10-28T05:34:03.895Z",
   "fundamentals": {
     "marketCap": {
       "value": 9120000000,
@@ -26,9 +26,9 @@
       "source": "companiesmarketcap.com"
     },
     "shortInterest": {
-      "value": 16.35,
-      "asOf": "2026-05-15",
-      "note": "~54.81M shares short per Benzinga/FINRA-settlement-date report; this is the most recent figure found and is likely stale relative to October 2026"
+      "value": 21.7,
+      "asOf": "2026-10-19",
+      "note": "Per Tapeboard's most-shorted-stocks list (2026-10-19), CIFR ranked #1 most-shorted at 21.7% of float; supersedes the on-file 16.35% (2026-05-15, pre-dates the Oct convertible-notes deal) but the two use different methodologies/dates and are not directly reconciled."
     },
     "cash": {
       "value": 715200000,
@@ -91,6 +91,13 @@
   "price": null,
   "catalysts": [
     {
+      "date": "2026-10-13",
+      "type": "offering/dilution",
+      "headline": "Announced a plan to sell $850M of 0% convertible senior notes due 2032 (initial conversion price $15.31/share, with a 13-day greenshoe for an additional $150M); priced the notes 2026-10-14 while concurrently exchanging roughly $166M of its existing 2030 convertible notes for about 41M shares of common stock. Proceeds earmarked partly for capped-call transactions (to limit dilution) and partly for the Barber Lake project and HPC pipeline build-out.",
+      "impact": "Stock fell sharply on the announcement — reported as its worst session in six months, with one source citing an ~18% single-day decline",
+      "source": "https://stocktwits.com/news-articles/markets/equity/cifr-stock-on-track-to-hit-6-month-low-after-cipher-digital-plans-to-sell-850-m-convertible-notes/cZxBSBfRBoy ; https://www.trefis.com/articles/619005/what-changed-for-cipher-digital-stock-and-what-did-not/2026-10-16 ; https://finance.yahoo.com/news/cipher-mining-cifr-nosedives-nearly-110059022.html ; https://www.panabee.com/news/cipher-mining-secures-850-million-via-convertible-notes-exchanges-2030-debt"
+    },
+    {
       "date": "2026-09-17",
       "type": "analyst coverage",
       "headline": "Wells Fargo initiates coverage of Cipher Mining (CIFR) with an Overweight rating and $25 price target",
@@ -131,6 +138,17 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-23: no new dated catalysts found beyond the Sept 16-17, 2026 ERCOT 'Batch Zero' grid-capacity items already on file. Additional secondary sources further corroborate the company's AI/HPC data-center pivot (AWS $5.5B 15-year lease, Google-backed Fluidstack ~$3B colocation deal) and a possible rename to 'Cipher Digital Inc.', but both the AWS and Fluidstack deals originate from 2025 (Fluidstack announced 2025-09-25) and are outside the ~6-month catalyst window -- they are the underlying deals behind the already-captured ERCOT item, not new catalysts, so not added to the list. No updated price/market-cap figure found this session (most recent is the existing Aug 2026 snapshot already on file).",
   "history": [
+    {
+      "date": "2026-10-28",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-27",
       "run": "am",
@@ -187,10 +205,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "run": "am",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "shortInterest updated"
+    ],
     "tradingDay": true
   }
 }
