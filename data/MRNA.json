@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.907Z",
+  "lastResearched": "2026-10-28T21:14:26.200Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -190,6 +190,14 @@
   "history": [
     {
       "date": "2026-10-28",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-10-28",
       "run": "am",
       "quiet": true,
       "changes": [],
@@ -288,7 +296,7 @@
   },
   "lastPass": {
     "date": "2026-10-28",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

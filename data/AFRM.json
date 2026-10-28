@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.903Z",
+  "lastResearched": "2026-10-28T21:14:26.193Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -26,9 +26,9 @@
       "note": "Sources conflict heavily and none is both current and clearly dated: Equibles shows 294,357,801 and 292,409,876 shares (undated pages) vs 334,898,565 (Equibles holdings page, undated); MarketBeat shows 322,600,000 (mid-2025, stale). Could not resolve to a single verified figure — SEC EDGAR (10-Q cover page) was unreachable in this sandbox (www.sec.gov blocked by egress policy)."
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "Conflicting readings: an undated Equibles snapshot shows 15.4M shares short, 4.6% of float, 4.4 days to cover; Equibles' settlement-date table shows 19,098,467 shares short as of the 2026-04-30 settlement date. Could not reconcile to one verified % this session."
+      "value": 14500000,
+      "asOf": "2026-08-14",
+      "note": "FINRA settlement data (quantisnow/curvedtrading aggregation), ~5.4 days to cover. Supersedes the prior on-file 2026-04-30 settlement-date figure and the undated 15.4M figure. Percent-of-float still disputed because the shares-outstanding denominator is itself disputed (294.4M vs 334.9M vs 292.4M across Equibles pages) — not computed; see conflicts."
     },
     "cash": {
       "value": null,
@@ -142,6 +142,16 @@
   "pendingFilings": [],
   "notes": "Searched specifically for Oct 20-27 news beyond what's on file; the Sam's Club deal (Oct 22) is the one new dated item found. A separate item (Simply Wall St/Webull, undated in results) describes an approximately $1.55B shelf registration tied to an ESOP-related Class A share offering around the time of the August 2026 earnings, but no exact filing date could be confirmed this session, so it was not added as a catalyst or to pendingFilings (per the 'every catalyst needs a date' rule) — worth checking SEC EDGAR for Affirm (CIK 1820953) on a future pass for an S-3/424B filed around Aug-Sept 2026. Next-earnings date (2026-11-05, confirmed) unchanged.",
   "history": [
+    {
+      "date": "2026-10-28",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-28",
       "run": "am",
@@ -300,9 +310,11 @@
   },
   "lastPass": {
     "date": "2026-10-28",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "shortInterest updated"
+    ],
     "tradingDay": true
   }
 }

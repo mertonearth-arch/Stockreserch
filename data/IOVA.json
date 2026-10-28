@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.898Z",
+  "lastResearched": "2026-10-28T21:14:26.188Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -140,11 +140,21 @@
     }
   ],
   "conflicts": [
-    "ESMO 2026 session dates for Iovance's two presentations are given inconsistently across the company's own release and secondary coverage: the sarcoma Rapid Oral (#3725RO) is dated both Oct 23 and Oct 26, 2026, and the melanoma proffered paper (2072O) is dated both Oct 23 and Oct 24, 2026 (the latter with a specific 12:00-12:45 CEST session time). Not reconciled this session."
+    "ESMO 2026 session dates: the melanoma proffered paper (2072O) date is now resolved as Oct 23, 2026 per Iovance's own Oct 23, 2026 press release (62.5% ORR, 29.2% CR, lifileucel+pembrolizumab frontline melanoma) — previously disputed Oct 23 vs Oct 24. The sarcoma Rapid Oral (#3725RO) date remains unresolved: Iovance's own announcement says Oct 23 (Fri, 16:15-17:45 CEST), a separate BiopharmaWatch item says Oct 26 (Mon) — not reconciled."
   ],
   "pendingFilings": [],
   "notes": "No confirmed closing price found for Oct 2026 (a digrin monthly-table figure of $14.21 for 'October 2026' is roughly double the most recent confirmed price on file and could not be corroborated, so price is left unchanged from the on-file 2026-10-06 figure). FY2026 guidance ($410M-$420M) and Nov 2026 earnings timing unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-10-28",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-28",
       "run": "am",
@@ -239,9 +249,11 @@
   },
   "lastPass": {
     "date": "2026-10-28",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

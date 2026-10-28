@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.908Z",
+  "lastResearched": "2026-10-28T21:14:26.203Z",
   "fundamentals": {
     "marketCap": {
       "value": 2600000000,
@@ -65,6 +65,13 @@
     "source": "Trade-Ideas (morning quote, prior close $15.29); down roughly 33% YTD per the same source"
   },
   "catalysts": [
+    {
+      "date": "2026-10-15",
+      "type": "analyst_action",
+      "headline": "UBS initiated coverage of Ultragenyx at Neutral with a $16 price target",
+      "impact": null,
+      "source": "aggregated via merlintrader.com / AAII coverage"
+    },
     {
       "date": "2026-10-14",
       "type": "monetization",
@@ -163,6 +170,16 @@
   "history": [
     {
       "date": "2026-10-28",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
+      "date": "2026-10-28",
       "run": "am",
       "quiet": true,
       "changes": [],
@@ -256,9 +273,11 @@
   },
   "lastPass": {
     "date": "2026-10-28",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }
