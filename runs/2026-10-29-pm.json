@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-29",
+  "run": "pm",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "AKAM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "BIAF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "IOVA",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "AEMD",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "AFRM",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "EIX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "ELMT",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "FICO",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "FTHM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "GPRO",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "IREN",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "LITE",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "MRNA",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "NLST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "PDSB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "new filing(s)"
+      ]
+    },
+    {
+      "ticker": "QURE",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "RARE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "SOLS",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TER",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TPST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "VKTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "conflicts updated"
+      ]
+    }
+  ],
+  "created": [],
+  "promoted": [],
+  "demoted": [],
+  "quiet": [
+    "IOVA",
+    "AEMD",
+    "AFRM",
+    "ELMT",
+    "FICO",
+    "GNRC",
+    "GPRO",
+    "IREN",
+    "LITE",
+    "MRNA",
+    "NLST",
+    "QURE",
+    "RBLX",
+    "SOLS",
+    "TER",
+    "TPST"
+  ]
+}

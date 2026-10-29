@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.272Z",
+  "lastResearched": "2026-10-29T21:18:40.258Z",
   "fundamentals": {
     "marketCap": {
       "value": 608000000,
@@ -164,11 +164,17 @@
   "conflicts": [
     "Market cap around Oct 1-16, 2026: $608.0M at $19.96 (trade-ideas, 2026-10-01) vs. $520.45M at $18.69 (Motley Fool, date unclear) vs. $643.30M (Angel One, undated, day range $19.95-$21.36). Not reconciled to one figure."
   ],
-  "pendingFilings": [
-    "10-Q Q2 2026 (period ended 2026-07-03)"
-  ],
-  "notes": "Theme 'Advanced Materials' remains the best fit (tungsten/molybdenum critical-materials manufacturer, now also a major defense-industrial-base counterparty). Three new dated catalysts added this pass: the Hemerdon tungsten offtake (2026-09-22), the ams OSRAM Schwabmünchen acquisition (announced 2026-09-09), and the Masan High-Tech Materials stake (2026-09-24). Cash, debt, EPS and revenue growth remain as last established; no fresher primary-filing data found this session.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-10-29: quiet — no October-dated news beyond what's on file. A reported IPO lockup expiring \"in late October\" had no exact date given, so not recorded as a catalyst per the dated-catalyst rule. The Q2 2026 10-Q (period ended 2026-07-03) is presumed filed by now (45-day deadline passed); clearing from pendingFilings.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -254,7 +260,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

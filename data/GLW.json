@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.275Z",
+  "lastResearched": "2026-10-29T21:18:40.260Z",
   "fundamentals": {
     "marketCap": {
       "value": 116420000000,
@@ -92,6 +92,13 @@
       "source": "SEC 8-K exhibit glw-20261027xex99xq32026.htm, via WebSearch summary (direct WebFetch to sec.gov failed to resolve in this sandbox)"
     },
     {
+      "date": "2026-10-26",
+      "type": "analyst action / price action",
+      "headline": "Corning shares rose approximately 3% intraday ahead of Q3 earnings (high $128.58, last $127.34); cites a UBS price-target raise to $201 (from $196, buy rating) dated 2026-10-05.",
+      "impact": "+3% intraday",
+      "source": "https://www.marketbeat.com/instant-alerts/price-corning-nyse-glw-stock-jumps-3-whats-next-2026-10-26/"
+    },
+    {
       "date": "2026-09-14",
       "type": "capital raise / offering",
       "headline": "Corning enters $2B at-the-market equity offering agreement with Goldman Sachs; no fixed price or share count disclosed",
@@ -119,8 +126,18 @@
     "Dated closing-price readings found this session, declining trend, none independently confirmed as an official NYSE close: $164.16 (2026-10-02, Ad-hoc News), $156.68 (2026-10-09, Yahoo Finance NYSE page), $140.19 (2026-10-14, Benzinga widget). Consistent direction with the on-file $116.42B (2026-10-21) cap, but not reconciled to exact share price."
   ],
   "pendingFilings": [],
-  "notes": "Same-day stock-price reaction to the Q3 2026 print could not be established from sources reachable this session (no post-earnings price move had been indexed yet). No GLW catalyst from 2026-10-27 was previously on file; this is new. The on-file conflicts (market cap, trailing P/E, dated price snapshots through mid-October) were not re-resolved this session and remain as recorded.",
+  "notes": "PM pass 2026-10-29: could not confirm the actual Oct 27-28 post-earnings stock reaction despite multiple queries (search results stale/off-year). Fundamentals otherwise unchanged from file.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -234,9 +251,11 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.273Z",
+  "lastResearched": "2026-10-29T21:18:40.259Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -159,8 +159,16 @@
     "Shares outstanding: Motley Fool/TipRanks ~23.19M vs Equibles 21.60M (undated) — not reconciled (carried from prior pass, unchanged)."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this session beyond the Oct 4, 2026 Q4-FY2026 earnings-date confirmation (not itself added as a catalyst since no exact announcement date was established — only the resulting report date). No Oct 20-27 company news found beyond this.",
+  "notes": "PM pass 2026-10-29: quiet — no Oct 28-29 company news found. Could not obtain a current, reliably-dated share price (search results ranged $661-$1,051 across undated/stale snapshots); existing price conflict carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -269,7 +277,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

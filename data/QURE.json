@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.282Z",
+  "lastResearched": "2026-10-29T21:18:40.265Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -138,8 +138,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "A MarketBeat alert headlined 'uniQure shares gap up' is dated 2026-10-22, but no cause/catalyst for that move could be identified from available snippets this session (not added as a catalyst for lack of a confirmed reason). No AMT-130/BLA regulatory update, no new offering, and no company-confirmed Q3 earnings date found dated after Oct 5; Nov 4 vs Nov 9 next-earnings conflict (already on file) remains unresolved — no new estimate found this session.",
+  "notes": "PM pass 2026-10-29: quiet — checked for AMT-130/BLA regulatory updates and a confirmed Q3 earnings date beyond the on-file Oct 5 Barclays downgrade; found only items already superseded by the on-file Sept 2 BLA submission. Next-earnings conflict (Nov 4 vs Nov 9, neither company-confirmed) remains unresolved.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -248,7 +256,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

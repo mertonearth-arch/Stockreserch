@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.271Z",
+  "lastResearched": "2026-10-29T21:18:40.257Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -44,10 +44,22 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "EIX is profitable (not a negative-earnings case), but only one quarter of 2026 EPS was retrieved this session (insufficient for a trailing-twelve-month figure) and no independently-sourced current share price was obtained (stockanalysis.com prices excluded per instructions), so neither multiple could be computed.",
-      "asOf": "2026-10-22"
+      "note": "EIX is profitable; TTM trailing multiple not computed this session (current share price still unresolved — see conflicts).",
+      "asOf": "2026-10-29"
     },
     "eps": [
+      {
+        "period": "Q3 2026 (quarter ended 2026-09-30)",
+        "value": 1.92,
+        "basis": "Core (non-GAAP)",
+        "note": "Beat ~$1.81 consensus. GAAP EPS for the quarter not found this session."
+      },
+      {
+        "period": "Q3 2025 (quarter ended 2025-09-30)",
+        "value": 2.34,
+        "basis": "Core (non-GAAP)",
+        "note": "Prior-year comparable quarter, for YoY context."
+      },
       {
         "period": "Q2 2026 (quarter ended 2026-06-30)",
         "value": 1.54,
@@ -66,6 +78,12 @@
     ],
     "revenue": [
       {
+        "period": "Q3 2026",
+        "value": 4890000000,
+        "yoy": null,
+        "note": "Missed ~$5.34B consensus; prior-year Q3 2025 revenue not found this session so YoY not computed."
+      },
+      {
         "period": "Q2 2026",
         "value": 4360000000,
         "yoy": null
@@ -73,14 +91,14 @@
     ],
     "growth": {
       "metric": "core EPS YoY",
-      "period": "Q2 2026",
-      "pct": 58.8,
-      "note": "Used core (non-GAAP) EPS growth as the headline because no prior-year revenue figure was found this session to compute revenue YoY for Q2 2026; core EPS is also the metric Edison itself guides to (FY2026 core EPS guidance of $5.90–$6.20, reaffirmed with Q2 results). Revenue of $4.36B for Q2 2026 came in below a ~$4.82B analyst estimate."
+      "period": "Q3 2026",
+      "pct": -17.9,
+      "note": "Core EPS $1.92 vs $2.34 in Q3 2025 = -17.9%, even though it beat the ~$1.81 consensus for this quarter. Full-year core EPS guidance ($5.90-$6.20) reportedly kept intact."
     },
     "nextEarnings": {
       "date": "2026-10-29",
-      "confirmed": false,
-      "note": "Multiple current sources (Yahoo Finance, TipRanks — which labels its own entry 'Confirmed', Earnings Whispers, briefglance) converge on Thursday, Oct 29, 2026, after market close, with a call at 1:30-2:30pm PDT — matching the pattern of last year's Q3 2025 call (also a Tuesday-named advisory that was actually issued for Oct 28, 2025). However, no primary company source (an SEC 8-K advisory or an edisoninvestor.com/newsroom.edison.com release) could be reached or found this session to settle it definitively, and AJ Bell's calendar still shows Oct 28 at 13:30 while a separate TipRanks page shows Nov 3 (labeled an estimate). Oct 29 is the best-supported reading and resolves the prior 'today (Oct 27) or tomorrow (Oct 28)' ambiguity in favor of neither — the print has evidently NOT yet happened as of this Oct 27 pass."
+      "confirmed": true,
+      "note": "Company reported Q3 2026 results today 2026-10-29 after close, resolving the prior date ambiguity in favor of Oct 29. Next report (Q4 2026/FY2026) date not yet announced."
     }
   },
   "price": {
@@ -89,6 +107,14 @@
     "asOf": "2026-10-05"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Edison International reported Q3 2026 results: core (non-GAAP) EPS $1.92, beating a ~$1.81 consensus; revenue $4.89B, missing a ~$5.34B consensus. Company reportedly kept full-year 2026 core EPS guidance ($5.90-$6.20) intact and expects to land toward the middle of the range.",
+      "impact": "EPS beat, revenue miss",
+      "source": "https://247wallst.com/cards/edison-international-q3-2026-earnings-eix-01m64mp7jb70acg2rd126vd16h",
+      "note": "Single-source secondary aggregator; primary IR/SEC sources unreachable in this sandbox — GAAP EPS and Eaton Fire liability commentary unverified."
+    },
     {
       "date": "2026-10-14",
       "type": "operational",
@@ -184,12 +210,27 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: AJ Bell says 2026-10-28 (13:30) vs several current sources (Yahoo Finance, TipRanks 'Confirmed' tag, Earnings Whispers, briefglance) converging on Thursday 2026-10-29 after close vs a separate TipRanks page's Nov 3 estimate. No primary company advisory found this session (SEC EDGAR search for an October 2026 EIX 8-K returned none dated after July 30, 2026) — Oct 29 is best-supported but not company-confirmed as of this pass.",
     "Market cap/price: no October 2026 figure found beyond the on-file 2026-10-05 reading ($20.87B at $54.24/share); other sources found this session (Digrin: $53.89 for 'October 2026', undated/monthly; no new dated single-day close found) still do not resolve the large apparent gap versus the ~$75-79/share, ~$28-30B readings from mid-2026 already flagged on file."
   ],
   "pendingFilings": [],
-  "notes": "No fresh Muddy Waters follow-up, SCE rebuttal, or new PSPS/power-shutoff news dated after Oct 14, 2026 was found this session. The Sept 22 summary-judgment denial is new to the file and is litigation context for the Eaton Fire exposure already being tracked, not a new MW allegation. The Q3 2026 earnings print itself has NOT been found/confirmed as having occurred as of Oct 27 — it remains upcoming per the Oct 29 reading above.",
+  "notes": "PM pass 2026-10-29: EIX reported Q3 2026 today. Core EPS beat, revenue missed. Earnings-date ambiguity now resolved.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -384,9 +425,17 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

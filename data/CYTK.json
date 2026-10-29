@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.264Z",
+  "lastResearched": "2026-10-29T21:18:40.253Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -80,8 +80,8 @@
     },
     "nextEarnings": {
       "date": "2026-11-04",
-      "confirmed": false,
-      "note": "Motley Fool estimate; not company-confirmed this session."
+      "confirmed": true,
+      "note": "Company press notice dated 2026-10-21 confirms Nov 4, 2026, 4:00 PM ET — supersedes prior \"estimate\" status"
     }
   },
   "price": {
@@ -97,6 +97,12 @@
       "headline": "FDA PDUFA target action date for aficamten (MYQORZO) supplemental NDA covering MAPLE-HCM data, which would expand the oHCM label",
       "impact": "Pending regulatory decision",
       "source": "Company 8-K / shareholder letter (SEC EDGAR)"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "earnings date announcement",
+      "headline": "Cytokinetics announced it will report Q3 2026 results on Nov 4, 2026 at 4:00 PM ET",
+      "source": "https://www.earningswhispers.com/article/CYTK/2607236685"
     },
     {
       "date": "2026-10-12",
@@ -158,8 +164,19 @@
     "Shares outstanding: TipRanks 119.66M vs PitchBook 136M (2026-06-18) vs Motley Fool 123.16M (undated) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "The on-file Oct 9, 2026 HFSA catalyst (previously flagged as 'not independently verified') is now confirmed via company press release and secondary coverage (finviz, biopharmawatch, HCPLive); additional Oct 12 safety/efficacy detail added above. No news found dated after Oct 22, 2026, and no update to the Nov 14, 2026 MAPLE-HCM PDUFA date or the Nov 4, 2026 estimated earnings date (both unchanged, still not company-confirmed).",
+  "notes": "PM pass 2026-10-29: no new clinical/regulatory catalyst since the Oct 12 HFSA ACACIA-HCM safety data already on file.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -330,9 +347,12 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

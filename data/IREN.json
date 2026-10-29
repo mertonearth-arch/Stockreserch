@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.278Z",
+  "lastResearched": "2026-10-29T21:18:40.261Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -219,8 +219,16 @@
     "Market cap still not reconcilable: DefiLlama implies ~$11.55B (333.73M shares as of 2026-03-31, at $30.39), Roic.ai shows $13.88B (340.98M shares, undated), Equibles shows $17.98B (357.38M shares, undated), vs. the on-file $14.97B (asOf 2026-09-09). All differ mainly on share count and price date; none independently verified this session as current."
   ],
   "pendingFilings": [],
-  "notes": "No bounce confirmed since the Oct 16 new-low close — subsequent dated data points (Oct 21 ~$26.62, Oct 26 close $25.43) show the stock continuing to make fresh lows through this session's window, not recovering. No new financing (debt/equity) announcement found this session beyond what's on file. Next-earnings date is now company-confirmed (was aggregator estimate).",
+  "notes": "PM pass 2026-10-29: quiet — no new verifiable information beyond the 2026-10-26 close ($25.43) already on file.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -391,7 +399,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.276Z",
+  "lastResearched": "2026-10-29T21:18:40.260Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -130,8 +130,16 @@
     "A low-confidence single-source price read (eToro/Robinhood-style aggregator, undated-to-Oct-14) showed GNRC closing 2026-10-14 at $198.06, down 7.57% from $214.29, with no company news identified as cause -- not added as a catalyst because the source quality and exact date could not be corroborated this session."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this session beyond the now-confirmed Q3 2026 earnings date. Market cap, share count, short interest, cash/debt and valuation figures turned up this session were all either stale (dated August-September 2026) or undated relative to what is already on file, so they were not used to overwrite existing fields.",
+  "notes": "PM pass 2026-10-29: quiet — no new information found beyond the Q3 2026 earnings catalyst already on file (2026-10-28). Multiple searches for the post-earnings price reaction returned only 2025-vintage coverage.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -245,7 +253,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.283Z",
+  "lastResearched": "2026-10-29T21:18:40.265Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -106,8 +106,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated pre-earnings catalyst, analyst note, or price-target change confirmed to October 2026 was found this session despite multiple search passes — most 'Roblox price target' results returned were clearly dated 2024 or 2025 (e.g. a Raymond James $165 target and Jefferies $130 target ahead of an October 30 report are from Oct 2025, not 2026). Next earnings Oct 29, 2026 (after close) remains the dominant confirmed near-term event; on-file 'confirmed: true' status is unchanged — no contradicting source found this session. No new company-specific legal/regulatory/CFO news found for the week of Oct 27.",
+  "notes": "PM pass 2026-10-29: Q3 2026 report due after close today; multiple searches found only pre-report consensus/guidance (bookings guided $1.58-1.65B, -14% to -18% YoY; revenue guided $1.41-1.49B), not yet the actual print — too early to be indexed at this pass's research time. Recommend the next pass pick up the actual figures.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -215,7 +223,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

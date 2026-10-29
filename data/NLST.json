@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.281Z",
+  "lastResearched": "2026-10-29T21:18:40.264Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -155,8 +155,16 @@
     "Next earnings date: this session found a THIRD estimate — EarningsWhispers' beta page lists Oct 29, 2026 — in addition to the on-file conflict between Investing.com (Nov 3) and EarningsWhispers/Digrin's non-beta pages (Nov 5). Still no company 8-K or press release confirming any date."
   ],
   "pendingFilings": [],
-  "notes": "Primary new finding this session: Netlist has an active, unsettled ITC complaint (filed ~late Sept 2026) against Micron, Nvidia, Broadcom and Google over HBM patents, separate from the DDR5 dispute that the Oct 5-6 Micron settlement and the Oct 21 Latham announcement closed out. This HBM matter does not appear to be resolved by the Micron settlement and is worth tracking as a live catalyst. No new confirmed price or share-count data found this session (same stale/conflicting figures as prior passes).",
+  "notes": "PM pass 2026-10-29: quiet — a Sept 30 Taiwanese report confirms the HBM ITC case institution decision is still pending, consistent with what's on file. No ruling yet. Conflicts (share count, next-earnings date, ITC docket numbers) remain unresolved.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -271,7 +279,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

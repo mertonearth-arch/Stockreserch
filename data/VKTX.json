@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.285Z",
+  "lastResearched": "2026-10-29T21:18:40.270Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -48,6 +48,12 @@
     },
     "eps": [
       {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Net loss for the quarter was $183.186M (vs $90.787M in Q3 2025) per SEC 8-K exhibit; a per-share figure was not found in available text. Not computed ourselves from net loss/share count per the never-invent-a-number rule."
+      },
+      {
         "period": "Q2 2026",
         "value": -1.1,
         "basis": "GAAP",
@@ -56,10 +62,10 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash burn / clinical pipeline progress",
-      "period": "H1 2026",
+      "metric": "net loss (cash burn) YoY",
+      "period": "Q3 2026",
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech (Phase 3 VK2735 obesity program); no product revenue, so standard revenue-growth figure is not applicable. Could not establish a precise cash-burn percentage this session."
+      "note": "Pre-revenue; net loss widened to $183.2M in Q3 2026 from $90.8M in Q3 2025 (9-month loss $469.5M) — named as the clearest disclosed figure rather than a % growth rate."
     },
     "nextEarnings": {
       "date": "2026-10-28",
@@ -69,6 +75,13 @@
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-28",
+      "type": "earnings",
+      "headline": "Viking Therapeutics reported Q3 2026 results after market close: net loss widened to $183.2M (vs $90.8M in Q3 2025); 9-month net loss $469.5M. Pipeline update: oral VK2735 SUNRISE Phase 3 program initiated; subcutaneous VANQUISH 1/2 Phase 3 trials continuing on track, expected completion 2027; VK3019 (amylin agonist) Phase 1 single-ascending-dose study nearing completion, 28-day multiple-ascending-dose study expected to start Q1 2027.",
+      "impact": "Confirmed the scheduled earnings date went ahead; stock-price reaction unconfirmed (see conflicts)",
+      "source": "SEC 8-K exhibit (accession 000119312526436145), via WebSearch summary — direct SEC fetch blocked in this sandbox"
+    },
     {
       "date": "2026-10-21",
       "type": "earnings_date",
@@ -125,13 +138,27 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date: company-announced Oct 28, 2026 after close (per the on-file Oct 21 company announcement, reconfirmed) vs EarningsWhispers listing Oct 26, 2026 after close (today) with no confirmation noted — the company's own announcement is treated as authoritative; the EarningsWhispers date appears to be a stale/incorrect estimate.",
     "Market cap: StockAnalysis ~$3.95B vs Motley Fool snapshots $3.80B-$4.40B (undated/differing) — not reconciled to a single current figure this session.",
-    "Cash: company-sourced $502M at 2026-06-30 (Zacks, tied to the Q2 2026 release) vs an undated Motley Fool figure of $602.96M-$705.74M 'cash and short-term investments' — not reconciled; the dated, company-tied figure is used above."
+    "Cash: company-sourced $502M at 2026-06-30 (Zacks, tied to the Q2 2026 release) vs an undated Motley Fool figure of $602.96M-$705.74M 'cash and short-term investments' — not reconciled; the dated, company-tied figure is used above.",
+    "Price (2026-10-29): Yahoo UK previous-close $64.67 vs Yahoo CA previous-close $63.85 vs a dated Oct 16 2026 snapshot of $25.17 vs an Oct 7 2026 close of $28.55 — not reconciled; left null rather than picking one. If the ~$64 figures are current, this is a major move since Oct 16 with no identified cause beyond the Oct 28 earnings and Sept 22 VK2735 maintenance-dosing readout.",
+    "Short interest: StockAnalysis.com shows 19.32% (~22.54M shares, undated) vs prior pass's 20.2% (2026-08-27, Benzinga) vs an older FINRA settlement-date figure of ~22.37M shares (2026-05-29) — all in a similar range but not a single clean figure."
   ],
   "pendingFilings": [],
-  "notes": "Searched hard for any pre-earnings news since the Sept 22, 2026 VK2735 maintenance-dosing readout and found none — no new company press release, filing, or confirmed analyst action dated between 2026-09-22 and 2026-10-27. One widely-indexed item, a JPMorgan price-target cut to $75 from $80, is dated 2025-10-24 (one year old), not 2026, and is therefore not a new catalyst this session; flagging this to prevent it from being mistaken for current news in a future pass. Stock price/market cap remain unresolved (no current quote independently verified this session; stockanalysis.com and google.com blocked, and other candidate sites returned only stale Aug-2026 or undated snapshots). All other on-file fundamentals reconfirmed unchanged.",
+  "notes": "PM pass 2026-10-29: Q3 2026 earnings confirmed to have occurred on schedule 2026-10-28. Net loss figures are SEC-filing-sourced and reliable; EPS, cash, and current price are the weak points — SEC EDGAR direct fetch is blocked in this sandbox, so only WebSearch snippets of the filing were available, not full tables.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -260,9 +287,14 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "growth updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

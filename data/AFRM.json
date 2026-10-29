@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.269Z",
+  "lastResearched": "2026-10-29T21:18:40.257Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -140,8 +140,16 @@
     "Shares outstanding: Equibles snapshot (~Aug 2026) lists 334.90M, while two other Equibles pages (undated) list 294,357,801 and 292,409,876 — three disagreeing readings, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Searched specifically for Oct 20-27 news beyond what's on file; the Sam's Club deal (Oct 22) is the one new dated item found. A separate item (Simply Wall St/Webull, undated in results) describes an approximately $1.55B shelf registration tied to an ESOP-related Class A share offering around the time of the August 2026 earnings, but no exact filing date could be confirmed this session, so it was not added as a catalyst or to pendingFilings (per the 'every catalyst needs a date' rule) — worth checking SEC EDGAR for Affirm (CIK 1820953) on a future pass for an S-3/424B filed around Aug-Sept 2026. Next-earnings date (2026-11-05, confirmed) unchanged.",
+  "notes": "PM pass 2026-10-29: quiet — Sam's Club deal (10-22) remains the latest dated catalyst; no new dated catalyst since. Price quotes found this session conflicted too widely ($44.76-$76) with inconsistent dates to use any of them.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -318,7 +326,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

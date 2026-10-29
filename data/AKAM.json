@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.262Z",
+  "lastResearched": "2026-10-29T21:18:40.251Z",
   "fundamentals": {
     "marketCap": {
       "value": 13335000000,
@@ -85,11 +85,19 @@
     }
   },
   "price": {
-    "last": 91.71,
-    "changePct": -8.23,
-    "asOf": "2026-10-14"
+    "last": 98.5,
+    "changePct": 5.31,
+    "asOf": "2026-10-26",
+    "note": "massive.com delayed quote (~4:16pm EDT), not confirmed as official NASDAQ close; supersedes stale on-file 2026-10-14 $91.71 print"
   },
   "catalysts": [
+    {
+      "date": "2026-10-26",
+      "type": "price action",
+      "headline": "AKAM shares rose approximately 5.3% to $98.50, rebounding off the Oct 14 low ($91.71); no specific news catalyst identified in sources reviewed",
+      "impact": "+5.31%",
+      "source": "https://massive.com/quote/akam"
+    },
     {
       "date": "2026-10-14",
       "type": "price action",
@@ -186,8 +194,18 @@
     "No AKAM closing price dated after 2026-10-14 could be confirmed this session; a Trefis snapshot shows $91.13 'as of 10/22/2026' but its own page header shows a '$0' price for 10/23 (apparent display error), and no other source corroborated either figure. Price/market cap left unchanged from the on-file 2026-10-14 figures."
   ],
   "pendingFilings": [],
-  "notes": "No fresher dated price, EPS, revenue, or market-cap figure found this session beyond what is already on file (still anchored to the 2026-10-14 close). Next-earnings date remains contested across aggregators (EarningsWhispers/Bullstory: Nov 5; TipRanks: Nov 10 est.; MarketScreener: Nov 9 projected) with no company press release located confirming any of them. Searches for AKAM news dated Oct 20-27 2026 returned no results newer than the Oct 1 Scotiabank note and Oct 8 Zacks downgrade added above.",
+  "notes": "PM pass 2026-10-29: price rebound noted, no company-specific driver found. Next-earnings date still contested (Nov 5 vs Nov 9/10 across aggregators), uncompany-confirmed.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -301,9 +319,11 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

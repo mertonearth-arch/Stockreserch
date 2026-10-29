@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.264Z",
+  "lastResearched": "2026-10-29T21:18:40.253Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -204,11 +204,22 @@
   "conflicts": [
     "Price/share-count inconsistency: the Oct 8, 2026 offering priced common stock at $6.122/share, but the on-file Oct 9, 2026 Wedbush delayed quote shows $4.725, and a separate secondary-source snapshot (biopharmawatch, via CHEST 2026 coverage) cites a $3.96 price and ~$5.1M market cap on 2026-10-15. None of these three reconcile against the then-592,373 pre-offering shares outstanding; not resolved this session.",
     "Shares outstanding progression is internally inconsistent across 2026 filings: 592,373 (post Aug 21, 2026 1-for-15 reverse split) -> 1,166,625 (per SEC 424B5, as of Oct 8, 2026, pre-offering) -> 1,283,170 (per same 424B5, post-offering, Oct 9, 2026). The roughly 2x jump between the post-split count and the pre-offering count on a later date is unexplained by any single financing found and is not reconciled.",
-    "A separate earlier-2026 S-1 cites 4,743,061 shares as of June 10, 2026 and a September prospectus cites 600,736 shares as of Sept 2, 2026 -- these two figures alone imply a reverse split happened between June and September, separate from the already-recorded Aug 21 1-for-15 split event. Not reconciled; treat all BIAF share counts with caution pending a clean primary-source timeline."
+    "A separate earlier-2026 S-1 cites 4,743,061 shares as of June 10, 2026 and a September prospectus cites 600,736 shares as of Sept 2, 2026 -- these two figures alone imply a reverse split happened between June and September, separate from the already-recorded Aug 21 1-for-15 split event. Not reconciled; treat all BIAF share counts with caution pending a clean primary-source timeline.",
+    "Next-earnings estimate dispersion widened this session: EarningsWhispers Nov 6, 2026 (matches on-file) vs TrendSpider Nov 13, 2026 vs a third aggregator's Nov 18, 2026 — none company-confirmed; on-file Nov 6 estimate left unchanged."
   ],
   "pendingFilings": [],
-  "notes": "No fresher confirmed closing price or post-offering share count found this session; market cap and sharesOutstanding fields involve unresolved conflicts above rather than a clean update. The CHEST 2026 Learning Theater date referenced in the prior pass's notes is now dated (2026-10-15 8-K).",
+  "notes": "PM pass 2026-10-29: no new dated catalyst. A widely-indexed \"CyPath sales doubled to record\" headline traced back to a May 2026 release about April 2026 volumes, not an Oct 2026 event, so not recorded as new.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -325,9 +336,11 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

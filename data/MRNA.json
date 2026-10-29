@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.281Z",
+  "lastResearched": "2026-10-29T21:18:40.263Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -186,8 +186,16 @@
     "Oct 22, 2026 same-day stock-price reaction to the leaked melanoma data: on-file range '-18% to -26%' (sources differ) vs a separate reading found this session that Moderna closed down 15.6% that day (with Merck/MSD down ~2.5%) -- not reconciled to a single figure."
   ],
   "pendingFilings": [],
-  "notes": "No post-Oct-24-ESMO-presentation analyst reaction or price level found this session beyond the Citi downgrade (which predates the leak). Current MRNA quote could not be established from reachable sources this session: conflicting, mostly undated or clearly-stale figures were found ranging roughly $42-$226, none clearly dated to the Oct 20-27 window, so price was left unchanged.",
+  "notes": "PM pass 2026-10-29: quiet — nothing dated later than the on-file Oct 24 ESMO INTerpath-001 presentation found.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -304,7 +312,7 @@
   },
   "lastPass": {
     "date": "2026-10-29",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true
