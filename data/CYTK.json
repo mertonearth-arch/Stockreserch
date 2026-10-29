@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T21:14:26.190Z",
+  "lastResearched": "2026-10-29T05:31:38.264Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -160,6 +160,14 @@
   "pendingFilings": [],
   "notes": "The on-file Oct 9, 2026 HFSA catalyst (previously flagged as 'not independently verified') is now confirmed via company press release and secondary coverage (finviz, biopharmawatch, HCPLive); additional Oct 12 safety/efficacy detail added above. No news found dated after Oct 22, 2026, and no update to the Nov 14, 2026 MAPLE-HCM PDUFA date or the Nov 4, 2026 estimated earnings date (both unchanged, still not company-confirmed).",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-28",
       "run": "pm",
@@ -321,8 +329,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
-    "run": "pm",
+    "date": "2026-10-29",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

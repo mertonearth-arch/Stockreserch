@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.919Z",
+  "lastResearched": "2026-10-29T05:31:38.294Z",
   "fundamentals": {
     "marketCap": {
       "value": 31180000000,
@@ -189,6 +189,14 @@
   "notes": "Theme 'Enterprise Software & Security' fits well; themeLabel 'established' retained. FY2025/FY2026 annual GAAP EPS, Q2 FY2027 GAAP EPS, cash (cash+short-term investments), debt, market cap, shares outstanding and short interest are all newly established or refreshed this pass, substantially filling prior-session gaps. A confirmed current share price remains the main outstanding gap, flagged as a conflict rather than guessed.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "am",
       "quiet": true,
@@ -336,7 +344,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

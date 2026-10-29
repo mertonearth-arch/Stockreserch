@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.924Z",
+  "lastResearched": "2026-10-29T05:31:38.299Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -119,6 +119,14 @@
   "notes": "Theme reassigned from the on-file 'Advanced Materials' (already flagged as a mismatch in the prior pass) to 'Backup Power & Energy Equipment' -- an existing theme string from the approved list that fits Turbo Energy's actual business (residential and C&I solar/battery energy-storage systems, inverters, energy-management software) better than any invented alternative. No new dated news was found this session beyond what is already on file (the most recent confirmed items remain the Sept 17, 2026 C&I storage contract and the Jul 27, 2026 preliminary H1 2026 results); search results returned mostly stale 2025/early-2026 coverage. Existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, and the flagged possible reverse-split/price-history anomaly) remain unresolved.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "am",
       "quiet": true,
@@ -182,7 +190,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T21:14:26.193Z",
+  "lastResearched": "2026-10-29T05:31:38.269Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -142,6 +142,14 @@
   "pendingFilings": [],
   "notes": "Searched specifically for Oct 20-27 news beyond what's on file; the Sam's Club deal (Oct 22) is the one new dated item found. A separate item (Simply Wall St/Webull, undated in results) describes an approximately $1.55B shelf registration tied to an ESOP-related Class A share offering around the time of the August 2026 earnings, but no exact filing date could be confirmed this session, so it was not added as a catalyst or to pendingFilings (per the 'every catalyst needs a date' rule) — worth checking SEC EDGAR for Affirm (CIK 1820953) on a future pass for an S-3/424B filed around Aug-Sept 2026. Next-earnings date (2026-11-05, confirmed) unchanged.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-28",
       "run": "pm",
@@ -309,12 +317,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "shortInterest updated"
-    ],
+    "date": "2026-10-29",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.923Z",
+  "lastResearched": "2026-10-29T05:31:38.297Z",
   "fundamentals": {
     "marketCap": {
       "value": 5361000000,
@@ -147,6 +147,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalysts found since the 2026-10-22 pass (Q2 FY2027 earnings 8/31, $400M intel recompete 8/5, MARPA amendment 8/14 remain the most recent). Shares outstanding is now anchored to a primary 10-Q cover-page figure (42,276,819, as of 2026-05-22); market cap recalculated accordingly.",
   "history": [
+    {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-28",
       "run": "am",
@@ -290,7 +298,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

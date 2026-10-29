@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T21:14:26.204Z",
+  "lastResearched": "2026-10-29T05:31:38.284Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -140,6 +140,14 @@
   "notes": "Prior-session unresolved current share price / market cap (see existing conflicts on file, last confirmed only against Aug-2026 snapshots) remains unresolved this session — no live post-earnings quote could be independently verified via a second reachable source.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "pm",
       "quiet": true,
@@ -247,8 +255,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
-    "run": "pm",
+    "date": "2026-10-29",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

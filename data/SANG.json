@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.923Z",
+  "lastResearched": "2026-10-29T05:31:38.297Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -115,6 +115,14 @@
   "notes": "No update to deal terms found (still US$4.925 cash + 0.04767 BRC share per Sangoma share, ~$204M enterprise value, deal announced 2026-09-28). One secondary aggregator gives an approximate outside date for the special shareholder meeting (on or before 2026-12-11) with closing still targeted for early 2027/January 2027; this is new since the last pass but is NOT from a primary management information circular, so treat as indicative only. No market cap, short interest, or current standalone price could be freshly confirmed this session; fundamentals are otherwise unchanged from the prior pass.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "am",
       "quiet": true,
@@ -180,7 +188,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

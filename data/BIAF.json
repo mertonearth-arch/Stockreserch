@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T21:14:26.190Z",
+  "lastResearched": "2026-10-29T05:31:38.264Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -210,6 +210,14 @@
   "notes": "No fresher confirmed closing price or post-offering share count found this session; market cap and sharesOutstanding fields involve unresolved conflicts above rather than a clean update. The CHEST 2026 Learning Theater date referenced in the prior pass's notes is now dated (2026-10-15 8-K).",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "pm",
       "quiet": false,
@@ -316,13 +324,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-29",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

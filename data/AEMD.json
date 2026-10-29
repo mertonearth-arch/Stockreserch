@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-10-28T05:34:03.912Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-10-29T05:31:38.268Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -163,6 +163,14 @@
   "notes": "PM pass 2026-10-23: nothing new. No update found on the North Immunology merger (no S-4/proxy filing located) or any catalyst beyond what's already on file (last confirmed item: the 2026-09-17 merger announcement). No reliable October 2026 price quote found this session (most recent sources located are dated May 2026); fundamentals otherwise unchanged from the prior pass.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "am",
       "quiet": true,
@@ -290,7 +298,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

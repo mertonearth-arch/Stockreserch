@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T05:34:03.922Z",
+  "lastResearched": "2026-10-29T05:31:38.295Z",
   "fundamentals": {
     "marketCap": {
       "value": 8600000,
@@ -145,6 +145,14 @@
   "notes": "No new dated catalysts found since the 2026-08-28/08-31 private-placement financing already on file; the 2026-11-13 next-earnings estimate is unchanged (still not company-confirmed). Short interest, cash since the Q2 2026 10-Q, and debt remain unresolved.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "am",
       "quiet": true,
@@ -269,7 +277,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "run": "am",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-28T21:14:26.202Z",
+  "lastResearched": "2026-10-29T05:31:38.282Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -141,6 +141,14 @@
   "notes": "A MarketBeat alert headlined 'uniQure shares gap up' is dated 2026-10-22, but no cause/catalyst for that move could be identified from available snippets this session (not added as a catalyst for lack of a confirmed reason). No AMT-130/BLA regulatory update, no new offering, and no company-confirmed Q3 earnings date found dated after Oct 5; Nov 4 vs Nov 9 next-earnings conflict (already on file) remains unresolved — no new estimate found this session.",
   "history": [
     {
+      "date": "2026-10-29",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-28",
       "run": "pm",
       "quiet": true,
@@ -239,8 +247,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-28",
-    "run": "pm",
+    "date": "2026-10-29",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true
