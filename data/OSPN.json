@@ -1,0 +1,75 @@
+{
+  "ticker": "OSPN",
+  "name": "OneSpan Inc.",
+  "sector": "Cybersecurity / Digital Identity Software",
+  "theme": "Enterprise Software & Security",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-10-30",
+  "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
+  "quietRuns": 0,
+  "lastResearched": "2026-10-30T21:26:19.262Z",
+  "fundamentals": {
+    "revenue": [
+      {
+        "period": "Q3 2026",
+        "value": 63900000,
+        "yoy": 12
+      }
+    ],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": 0.21,
+        "basis": "non-GAAP",
+        "note": "Beat $0.19 consensus."
+      }
+    ],
+    "growth": {
+      "metric": "subscription revenue YoY",
+      "period": "Q3 2026",
+      "pct": 16,
+      "note": "ARR $195.5M, +9% YoY."
+    }
+  },
+  "price": null,
+  "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "OneSpan reported Q3 2026 results after market close: revenue $63.9M (+12% YoY), subscription revenue +16% YoY, EPS $0.21 vs $0.19 consensus (beat), ARR $195.5M (+9% YoY). Shares rose approximately 22.9% premarket on 2026-10-30; the regular-session closing move was not independently confirmed this pass.",
+      "impact": "+22.9% premarket",
+      "source": "SEC 8-K (ex99-1); TipRanks"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New to the watchlist this pass — picked up via a closing-movers scan, not from the due list. Fundamentals beyond the Q3 print (market cap, P/E, cash/debt, shares outstanding, float, short interest) were not researched this pass and are left for the next full pass on this name.",
+  "lastPass": {
+    "date": "2026-10-30",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated"
+    ],
+    "tradingDay": true
+  }
+}

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.178Z",
+  "lastResearched": "2026-10-30T21:26:19.242Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -21,25 +21,27 @@
     },
     "sharesOutstanding": {
       "value": 63067485,
-      "asOf": null,
-      "source": "Equibles (exact as-of date not stated by source)"
+      "asOf": "2026-05-01",
+      "source": "SEC Q1 FY2026 10-Q cover page",
+      "note": "Q2 FY2026 cover-page count not retrieved this pass; likely higher given typical warrant/ATM activity."
     },
     "shortInterest": {
-      "value": null,
-      "note": "Conflicting and/or stale figures: Fintel reported 22.33% short float / 7.23 days to cover as of 2026-05-01; a separate, undated Equibles figure shows 11.1M shares short / 9.0 days to cover. Neither is confirmed current for Oct 2026."
+      "value": 10981448,
+      "asOf": "2026-03-31",
+      "note": "~18.4% of shares outstanding, down 13.7% from mid-March 2026. ~7 months stale relative to today; no more current figure found."
     },
     "cash": {
-      "value": null,
-      "note": "Sources disagree sharply and neither is clearly dated — see conflicts."
+      "value": 810300000,
+      "asOf": "2026-06-30",
+      "note": "Cash, cash equivalents and current investment securities. Up from $622.5M at 2025-12-31, boosted by a ~$259M follow-on offering completed June 2026.",
+      "source": "aggregator relay of Q2 2026 results"
     },
     "debt": {
-      "value": null,
-      "note": "No material traditional debt figure identified this session; uniQure has historically carried minimal debt beyond lease liabilities, not quantified here."
+      "note": "Hercules Capital senior secured term loan facility (refinanced Sept 2025): up to $175M total facility, maturity extended to 2030. As of ~2026-03-31: long-term borrowings ~$50M, long-term finance leases ~$10M, short-term debt ~$3-4M, per an aggregator (not primary filing). June 30, 2026 figures not found."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings — Q2 2026 GAAP EPS was -$1.22 (vs. -$0.75 estimate, per Benzinga)"
+      "note": "negative earnings"
     },
     "eps": [
       {
@@ -50,14 +52,8 @@
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 5300000,
-        "yoy": null
-      },
-      {
         "period": "Q2 2026",
-        "value": 5800000,
-        "yoy": 9.4
+        "value": 5800000
       }
     ],
     "growth": {
@@ -69,7 +65,7 @@
     "nextEarnings": {
       "date": "2026-11-04",
       "confirmed": false,
-      "note": "EarningsWhispers estimates Nov 4 before open; The Right Trader instead projects Nov 9. Neither is company-confirmed. Last year the company announced its Q3 date ~4 days ahead (announced Nov 6, 2025 for a Nov 10 report), so an official date is likely to come in early November."
+      "note": "Before market open, conference call 8:30am ET, per two independent third-party sources (QuiverQuant, BiopharmaWatch) — resolves the prior Nov 4 vs Nov 9 conflict in favor of Nov 4, but neither is uniQure's own primary press release, so left unconfirmed rather than company-confirmed."
     }
   },
   "price": {
@@ -85,6 +81,13 @@
       "headline": "Barclays downgraded uniQure to Equal Weight from Overweight and cut its price target to $28 from $60",
       "impact": "Shares reportedly opened lower the same day (from a $23.46 prior close to a $22.28 open per one secondary source); compounds pressure from the Sept 29 AMT-130 data readout",
       "source": "https://www.marketbeat.com/instant-alerts/price-uniqure-nasdaq-qure-shares-gap-up-should-you-buy-2026-10-22/"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "analyst_action",
+      "headline": "RBC Capital Markets maintained Outperform rating but cut price target from $65 to $48.",
+      "impact": null,
+      "source": "MarketBeat"
     },
     {
       "date": "2026-09-30",
@@ -136,10 +139,31 @@
       "source": "https://www.quiverquant.com/news/uniQure+Q2+Revenue+Rises+to+%245.8+Million+as+AMT-130+Filing+Nears"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Q2 2026 earnings direction: one secondary source headlines 'uniQure Narrows Loss in Fiscal Q2' while another headlines 'UniQure Rises on Pipeline Progress Despite Wider Q2 Loss' — directly conflicting characterizations; exact EPS figure not retrieved before search budget ran out, so not resolved with a hard number.",
+    "Market cap: ~$1.11B at ~$17.74 (April 2026) vs ~$993.28M at 62,529,408 shares (April 2026) vs ~$1.70B at $26.99/63,067,485 shares (undated) — all from April 2026 or undated; none confirmed for October 2026. Given the Barclays (PT cut to $28 from $60) and RBC (PT cut to $48) actions, current market cap is likely well below these stale figures, but no reliable current pairing was found."
+  ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — checked for AMT-130/BLA regulatory updates and a confirmed Q3 earnings date beyond the on-file Oct 5 Barclays downgrade; found only items already superseded by the on-file Sept 2 BLA submission. Next-earnings conflict (Nov 4 vs Nov 9, neither company-confirmed) remains unresolved.",
+  "notes": "HC Wainwright reaffirmed Buy on 2026-09-29 (day of the AMT-130 data readout, already on file); Wall Street Zen cut Hold to Sell on 2026-09-05 (before the window asked about, included for completeness). No confirmation was found that the Q3 2026 US/UK regulatory submissions for AMT-130 (targeted for Q3 2026) were actually filed, nor any outcome from the planned September 2026 presentation of 4-year AMT-130 follow-up data — these remain open items for a future pass.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -264,9 +288,19 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

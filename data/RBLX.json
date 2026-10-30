@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.164Z",
+  "lastResearched": "2026-10-30T21:26:19.228Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -21,8 +21,10 @@
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Still not reconciled — see conflicts; left null rather than picking a figure."
+      "value": 715696000,
+      "asOf": "2026-09-30",
+      "source": "SEC Form 10-Q, Roblox Corp FY2026 Q3 (accession 0001628280-26-068253), stockholders' equity statement",
+      "note": "Narrows prior conflict: close to Equibles' ~714.38M (2026-08-13) but disagrees with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative."
     },
     "shortInterest": {
       "value": 24100000,
@@ -30,12 +32,14 @@
       "note": "Equibles summary: ~24.1M shares short, ~3.4% of float, 1.8 days to cover. A separate, earlier FINRA settlement (2026-04-30) showed ~20.7M shares short, ~2.2 days to cover — treated as the prior data point, not a live conflict, since it's simply an earlier settlement date."
     },
     "cash": {
-      "value": null,
-      "note": "Not established this session — WebFetch to SEC EDGAR failed (sandbox DNS/network issue) and WebSearch budget was exhausted before a balance-sheet figure could be sourced for the Q2 2026 (period ended 2026-06-30) 10-Q."
+      "value": 1093000000,
+      "asOf": "2026-09-30",
+      "source": "SEC Form 8-K, Q3 2026 earnings release exhibit",
+      "note": "Cash and cash equivalents only. Also disclosed: short-term investments $2.103B, long-term investments $3.042B (both up from 2025-12-31). Total stockholders' equity reported as a deficit of -$27M as of 2026-09-30."
     },
     "debt": {
       "value": null,
-      "note": "Not established this session; same limitation as cash above."
+      "note": "Not established this session — SEC EDGAR direct fetch failed in this sandbox; search-snippet excerpts of the 10-Q/8-K did not surface a debt line."
     },
     "pe": {
       "trailing": null,
@@ -46,22 +50,34 @@
       {
         "period": "Q2 2026",
         "value": -0.26,
-        "basis": "GAAP (basic and diluted)"
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.32,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
         "period": "Q2 2026",
-        "value": null,
-        "yoy": null,
-        "note": "Disputed between sources: $1.47B (Shacknews) vs. $1.56B (Benzinga); not reconciled against the primary earnings release this session."
+        "value": 1469000000,
+        "yoy": 36,
+        "source": "SEC 8-K Q2 2026 earnings exhibit",
+        "note": "Resolves prior dispute in favor of the Shacknews figure (~$1.47B); Benzinga's $1.56B is not corroborated by the primary filing."
+      },
+      {
+        "period": "Q3 2026",
+        "value": 1570000000,
+        "yoy": 16,
+        "source": "Q3 2026 earnings release (on-file catalyst, formalized into the revenue array)"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": null,
-      "note": "Q2 2026 revenue itself is disputed between sources (see revenue field); YoY was not computed for that reason. Q2 EPS loss of -$0.26 beat consensus estimates of roughly -$0.33 to -$0.35."
+      "period": "Q3 2026",
+      "pct": 16,
+      "note": "Q2 2026 revenue YoY was +36% (resolved this pass); Q3 2026 growth decelerated to +16%."
     },
     "nextEarnings": {
       "date": "2026-10-29",
@@ -111,10 +127,29 @@
       "source": null
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding: SEC Q3 2026 10-Q reports 715.696M (Class A+B combined) as of 2026-09-30 — close to Equibles' ~714.38M (2026-08-13) but conflicts with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative; prior broad conflict narrowed, not fully eliminated.",
+    "RBLX price/market cap for 2026-10-30 is unverified — every quote-data site attempted failed with DNS/egress errors in this sandbox. The prior on-file market cap (~$34.03B, as of 2026-10-14, pre -17% AH drop on 10/29) is confirmed stale and should not be treated as current."
+  ],
   "pendingFilings": [],
-  "notes": "Sources conflict slightly on exact revenue ($1.57B vs ~$1.6B rounding) and EPS consensus figure cited (-$0.40 vs -$0.41 vs -$0.43); not reconciled, carried as reported.",
+  "notes": "FY2024/FY2025 annual EPS and the debt line were not reached this pass. A follow-up pass should prioritize RBLX's actual 2026-10-29/10-30 regular-session closing price and market cap given the -17% after-hours reaction to Q3 earnings.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -241,11 +276,16 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "move -17%"
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

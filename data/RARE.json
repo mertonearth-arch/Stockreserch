@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.178Z",
+  "lastResearched": "2026-10-30T21:26:19.243Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1570000000,
-      "asOf": "2026-10-27",
-      "source": "Derived: 98.4M shares outstanding (on-file) x $15.95",
-      "note": "Supersedes on-file $2.6B (2026-08-20), which used a stale higher price; reflects price decline since the Sept 2 ASPIRE readout, not a new conflict."
+      "value": 1540000000,
+      "asOf": "2026-10-26",
+      "source": "massive.com",
+      "note": "Price $16.01, up ~10% trailing month. Cross-checks reasonably with shares outstanding x price (98,588,873 x $16.01 ≈ $1.578B)."
     },
     "float": {
       "value": null,
@@ -22,9 +22,10 @@
       "note": "not found this session"
     },
     "sharesOutstanding": {
-      "value": 98400000,
-      "asOf": "2026-08-20",
-      "note": "Converging estimate from Google Finance (98.49M), Equibles (98,489,224) and StockAnalysis (98.29M)."
+      "value": 98588873,
+      "asOf": "2026-07-31",
+      "source": "SEC Q2 FY2026 10-Q cover page",
+      "note": "Up from 98,489,224 as of 2026-05-01 (Q1 10-Q)."
     },
     "shortInterest": {
       "value": null,
@@ -32,22 +33,33 @@
       "note": "not found this session"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Q2 2026 10-Q cash position not retrieved this session (WebFetch failure)"
+      "value": 436000000,
+      "asOf": "2026-06-30",
+      "note": "Down from $534M at 2026-03-31. Net cash used in operations in Q2 2026 was $97M."
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "note": "Royalty-related liabilities ~$1.2B, effective interest rates 5.5%-9.2%, per a secondary source — not confirmed against the primary 10-Q."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings — TTM EPS reported in a -$5.83 to -$6.11 range across sources as of Aug 2026 (Motley Fool -$6.11, Google Finance -$6.10, StockAnalysis/Equibles -$5.83); confirmed negative, exact figure unresolved"
+      "note": "negative earnings"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -0.9,
+        "basis": "GAAP",
+        "note": "Net loss $92M, vs $115M/-$1.17 a year earlier."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 214000000,
+        "yoy": 28,
+        "note": "Record quarterly revenue. Breakdown: Crysvita $156M, Dojolvi $27M, Evkeeza $21M, Mepsevii $10M. FY2026 guidance reaffirmed at $730-760M."
+      }
+    ],
     "growth": {
       "metric": "Total revenue guidance (FY2026, company-issued)",
       "period": "FY2026",
@@ -55,8 +67,9 @@
       "note": "Company reaffirmed FY2026 total revenue guidance of $730M-$760M in its Q2 2026 report (released ~August 2026). A specific YoY growth percentage could not be computed this session for lack of a verified FY2025 comparable figure."
     },
     "nextEarnings": {
-      "date": "2026-11-04",
-      "confirmed": false
+      "date": "2026-11-03",
+      "confirmed": false,
+      "note": "After market close, call 5:00pm ET, per a 2026-10-27-dated release and a corroborating Earnings Whispers preview also dated 2026-10-27. Differs from the baseline's unconfirmed 'Nov 4' — most current sources now point to Nov 3. Still not confirmed against Ultragenyx's own primary press release (IR site unreachable this pass)."
     }
   },
   "price": {
@@ -67,11 +80,25 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-19",
+      "type": "legal",
+      "headline": "Ultragenyx and Baylor Research Institute settled patent litigation with Navinta LLC over patents covering DOJOLVI oral liquid.",
+      "impact": null,
+      "source": "massive.com"
+    },
+    {
       "date": "2026-10-15",
       "type": "analyst_action",
       "headline": "UBS initiated coverage of Ultragenyx at Neutral with a $16 price target",
       "impact": null,
       "source": "aggregated via merlintrader.com / AAII coverage"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "financing/non-dilutive",
+      "headline": "Sold a second Priority Review Voucher, tied to the FAYUVI (UX111) approval, for $203 million.",
+      "impact": null,
+      "source": "rttnews.com"
     },
     {
       "date": "2026-10-14",
@@ -89,6 +116,13 @@
     },
     {
       "date": "2026-10-07",
+      "type": "financing/non-dilutive",
+      "headline": "Agreed to sell a rare pediatric disease Priority Review Voucher (PRV) for $210 million.",
+      "impact": null,
+      "source": "merlintrader.com"
+    },
+    {
+      "date": "2026-10-07",
       "type": "monetization",
       "headline": "Agreed to sell a second Priority Review Voucher for $210 million (announcement, not yet closed as of this report), this one tied to the Genglycos (DTX401) approval for glycogen storage disease type Ia; buyer undisclosed, sale subject to Hart-Scott-Rodino and other customary closing conditions. Combined with the Oct 14 FAYUVI-linked PRV sale, the two deals total roughly $413M.",
       "impact": "Non-dilutive cash inflow of $210M upon closing",
@@ -100,6 +134,13 @@
       "headline": "Ultragenyx agreed to sell a second Priority Review Voucher for $210 million, with proceeds earmarked for the rare-disease pipeline; this voucher followed FDA approval of GENGLYCOS for glycogen storage disease type Ia",
       "impact": "Additional non-dilutive cash inflow of $210M",
       "source": "Search-aggregator summary; not independently traced to a primary company press release this session"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "regulatory",
+      "headline": "European Medicines Agency validated the Marketing Authorisation Application for the MPS IIIA (Sanfilippo syndrome type A) gene therapy (UX111/FAYUVI) for EU review. Validation is procedural acceptance, not approval.",
+      "impact": null,
+      "source": "merlintrader.com"
     },
     {
       "date": "2026-10-02",
@@ -163,14 +204,32 @@
     }
   ],
   "conflicts": [
-    "On-file market cap ($2.6B, as of 2026-08-20) and sharesOutstanding-derived price level predate the Sept 2, 2026 ~44-46% single-day drop following the failed Phase 3 ASPIRE (apazunersen/GTX-102) readout; the on-file Oct 9 price of $15.45 is consistent with a post-crash level, implying a market cap closer to ~$1.5B (98.4M shares x $15.45) rather than the stale $2.6B figure. Not reconciled/recalculated with a verified current share count this session — flagging rather than recomputing.",
-    "DTX401/GENGLYCOS is confirmed (via company/press materials) to be the same product under two names (DTX401 = development code, GENGLYCOS/pariglasgene brecaparvovec-opnr = approved brand name for glycogen storage disease type Ia) — this clarifies, but does not change, the on-file Aug 19, 2026 GENGLYCOS approval catalyst (FDA's PDUFA date for DTX401 was Aug 23, 2026; approval reporting is inconsistently dated Aug 19-20 across sources).",
-    "Cash at 2026-06-30: company 8-K $436M (cash+equivalents+marketable securities) vs Digrin $292M (narrower cash definition, same date)",
-    "Debt: Digrin ~$1.1B at 2026-03-31 vs StockAnalysis $1.25B at 2025-12-31 — no single-date figure could be confirmed"
+    "On-file market cap ($2.6B, as of 2026-08-20) predates the Sept 2, 2026 ~44-46% single-day drop following the failed Phase 3 ASPIRE (apazunersen/GTX-102) readout — resolved this pass with a newer, consistent reading ($1.54B as of 2026-10-26).",
+    "Cash at 2026-06-30: company 8-K $436M (cash+equivalents+marketable securities) vs a narrower-definition aggregator figure of $292M for the same date — kept both.",
+    "Debt: one aggregator ~$1.1B at 2026-03-31 vs another $1.25B at 2025-12-31 — no single-date figure confirmed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: no new catalysts beyond what's already on file (UBS initiation 10/15, PRV sales 10/14 and 10/7). Price and market cap refreshed.",
+  "notes": "Two Priority Review Voucher sales in October (10/7 for $210M, 10/14 for $203M tied to the FAYUVI approval) total $413M in non-dilutive cash — a significant update not previously on file. FAYUVI (UX111) received full FDA approval for pediatric MPS IIIA in 'September' 2026 per secondary sources, but no exact date was found, so it is NOT included as a dated catalyst — flagged here as important context only. Short interest not found this pass.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -303,9 +362,20 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.174Z",
+  "lastResearched": "2026-10-30T21:26:19.248Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -23,9 +23,9 @@
       "note": "Disagreeing figures found: Macrotrends 163M (2026-03-31) vs Value Research 137.33M (2026-05-01) vs TipRanks 131.92M (undated) vs TipRanks 146.74M (undated, appears to be the BMV cross-listing). No single figure established as current."
     },
     "shortInterest": {
-      "value": 13,
+      "value": 23900000,
       "asOf": "2026-08-20",
-      "source": "equibles.com (23.9M shares short, ~6.0 days to cover; up from 12.4% / 21.3M shares / 3.1 days to cover in July 2026)"
+      "note": "~12.96% of float, 6.0 days to cover. ~2 months stale relative to 2026-10-30."
     },
     "cash": {
       "value": null,
@@ -34,12 +34,10 @@
     "debt": {
       "value": 81600000,
       "asOf": "2026-06-30",
-      "source": "GoPro FY2025 10-K/A and Q1/Q2 2026 10-Q/A restatement filings, dated 2026-10-19 (via news coverage)",
-      "note": "Short-term debt only, restated upward from $72.7M as previously reported, due to a non-cash warrant-liability and convertible-debenture valuation correction. Distinct from the separate ~$92M total debt that Starman Optical has agreed to repay in full at the merger's closing."
+      "note": "Restated short-term debt (10-Q/A), on file."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
       "note": "negative earnings"
     },
     "eps": [
@@ -92,6 +90,13 @@
     "asOf": "2026-10-14"
   },
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "filing",
+      "headline": "GoPro filed Post-Effective Amendment No. 3 to the Farallon resale S-1 (Reg. No. 333-289946) and Post-Effective Amendment No. 1 to the Yorkville resale S-1 (Reg. No. 333-294507), both incorporating the Oct 19, 2026 Form 10-K/A restatement into the resale prospectuses; no new securities registered, deal terms unchanged.",
+      "impact": null,
+      "source": "SEC EDGAR filing index"
+    },
     {
       "date": "2026-10-19",
       "type": "restatement/regulatory",
@@ -165,12 +170,27 @@
     }
   ],
   "conflicts": [
-    "Market cap: Google Finance $242.66M at $1.35 (2026-10-02, but doesn't arithmetically match its own stated 158.25M shares) vs TipRanks undated $284.65M (131.92M shares) vs TipRanks $2.27B at $12.46 (appears to be the BMV/Mexico cross-listing, not the NASDAQ common) vs the on-file range of $103.82M (2026-07-16) to $224.9M (undated, CoinGecko).",
-    "Shares outstanding: 163M (Macrotrends, 2026-03-31) vs 137.33M (Value Research, 2026-05-01) vs 131.92M (TipRanks, undated) vs 146.74M (TipRanks, undated, likely cross-listing)."
+    "Shares outstanding: one source lists 137,334,678; another 144,724,434; Equibles' July summary lists 170,982,980 — dates/definitions not reconcilable from available sources.",
+    "Short interest %: Equibles shows 12.96% of float as of 2026-08-20, vs. an earlier 2026-04-15 snapshot showing 13.64% of shares outstanding / 16.8% of float — different dates, not averaged.",
+    "No reverse-split signal found for GPRO this pass; flagging that this was checked per standing rule 7."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: the preliminary proxy already on file (2026-10-19) was found to detail a reverse-split range (1-for-2 to 1-for-10) and expected CEO succession (Woodman to resign, Tebele to become Chair/CEO) at merger close — supplemental detail on the same filing, not a new dated event, so no new catalyst recorded. No current share price established this session.",
+  "notes": "GPRO closed at $1.03 on 2026-10-28 and $1.00 on 2026-10-29 (down ~2.9%); no single new fundamental driver identified for that specific day's move. No news found since 2026-10-19 of the Starman Optical deal falling through, a new default, or a new waiver — only the procedural Oct 27 POS AM filings confirmed. The preliminary proxy (PREM14A) for the merger still leaves the stockholder-meeting date/time blank. Could not confirm Nov 7 vs Nov 9, 2026 earnings date this pass.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "shortInterest updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -351,9 +371,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "shortInterest updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

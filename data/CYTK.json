@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.167Z",
+  "lastResearched": "2026-10-30T21:26:19.233Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -34,7 +34,7 @@
     "cash": {
       "value": 1700000000,
       "asOf": "2026-06-30",
-      "source": "Company Q2 2026 shareholder letter (via Motley Fool profile)"
+      "note": "~$1.7B cash per Q2 2026 report."
     },
     "debt": {
       "value": 1280000000,
@@ -44,39 +44,27 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings — Q2 2026 GAAP net loss of $198.8M ($1.50/share) on file; no forward EPS consensus found this session",
-      "asOf": "2026-08-06"
+      "note": "Two sharply conflicting TTM EPS readings found (-$7.22 vs -$6.54 across aggregators, different calculation bases) — left null rather than computing a P/E off either."
     },
     "eps": [
       {
-        "period": "Q2 2026 (quarter ended 2026-06-30)",
+        "period": "Q2 2026",
         "value": -1.5,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q2 2025 (quarter ended 2025-06-30)",
-        "value": -1.12,
         "basis": "GAAP"
       }
     ],
     "revenue": [
       {
         "period": "Q2 2026",
-        "value": 28600000,
-        "yoy": -57.2
-      },
-      {
-        "period": "Q2 2025",
-        "value": 66800000,
-        "yoy": null
+        "value": 25000000,
+        "note": "MYQORZO (aficamten) net product revenue. As of 2026-06-30: >700 unique prescribers, ~1,500 patients dispensed."
       }
     ],
     "growth": {
-      "metric": "aficamten (MYQORZO) net product revenue, sequential",
-      "period": "Q2 2026",
+      "metric": "MYQORZO launch trajectory / regulatory approvals",
+      "period": "2026",
       "pct": null,
-      "note": "Net product revenue grew from $4.8M (Q1 2026, partial-quarter launch) to $25M (Q2 2026); a YoY/QoQ percentage isn't meaningful given Q1 was a partial launch quarter, so no pct given."
+      "note": "Fifth regulatory approval in under a year reached with Health Canada clearance (2026-10-19) for oHCM, following US/China/EU/UK. Launch revenue scaling from $0 pre-launch to $25M net product revenue in Q2 2026."
     },
     "nextEarnings": {
       "date": "2026-11-04",
@@ -103,6 +91,13 @@
       "type": "earnings date announcement",
       "headline": "Cytokinetics announced it will report Q3 2026 results on Nov 4, 2026 at 4:00 PM ET",
       "source": "https://www.earningswhispers.com/article/CYTK/2607236685"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "regulatory",
+      "headline": "Health Canada approved MYQORZO (aficamten) for adults with symptomatic obstructive HCM — the drug's fifth regulatory approval in under a year (following US, China, EU, UK). Stock reportedly rose on the news; exact percentage move not confirmed this pass.",
+      "impact": null,
+      "source": "rallies.ai; quantisnow.com"
     },
     {
       "date": "2026-10-12",
@@ -160,12 +155,30 @@
     }
   ],
   "conflicts": [
-    "Market cap: Motley Fool ~$11.01B (2026-08-26, price $79.20) vs Benzinga ~$10.11B (2026-09-06) — not reconciled.",
-    "Shares outstanding: TipRanks 119.66M vs PitchBook 136M (2026-06-18) vs Motley Fool 123.16M (undated) — not reconciled."
+    "Market cap: Yahoo Finance ~$9.313B (intraday snapshot), Motley Fool ~$10.81B, Digrin ~$7.8B — not reconciled, no single current figure established.",
+    "TTM EPS: Motley Fool -$7.22 vs Yahoo Finance -$6.54 — different calculation bases, kept both.",
+    "Shares outstanding: ranges from ~124.4M (likely stale, pre-offering) to ~135.6-135.8M (post the May 2026 offering) across aggregators.",
+    "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: no new clinical/regulatory catalyst since the Oct 12 HFSA ACACIA-HCM safety data already on file.",
+  "notes": "FDA PDUFA target action date for the aficamten (MYQORZO) sNDA (MAPLE-HCM data, oHCM label expansion) remains 2026-11-14, unchanged. Background: Cytokinetics' ACACIA-HCM Phase 3 (non-obstructive HCM) met both primary endpoints, but 2 patients on aficamten had a serious heart-failure AE; company plans a non-obstructive HCM sNDA submission in Q4 2026 — this sits just ahead of the Nov 4 earnings and Nov 14 PDUFA date. No analyst action dated after the Oct 19 Health Canada approval was found this pass.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -355,9 +368,17 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

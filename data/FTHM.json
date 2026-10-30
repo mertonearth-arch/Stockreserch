@@ -8,26 +8,23 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.173Z",
+  "lastResearched": "2026-10-30T21:26:19.257Z",
   "fundamentals": {
     "marketCap": {
-      "value": 18690000,
-      "asOf": "2026-05-29",
-      "source": "equibles.com, close of $0.57/share",
-      "note": "most recent dated figure found; likely stale by October 2026 given subsequent merger-termination news — see conflicts"
+      "value": null,
+      "note": "Recent (2026) snapshots cluster around $20-24M; older snapshots (~$39M) used a stale, lower share count and are not comparable."
     },
     "float": {
       "value": null,
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 33790000,
-      "asOf": "2026-06-30",
-      "source": "YCharts (from Q2 2026 10-Q cover page)"
+      "value": null,
+      "note": "Conflicting: ~32.78M (more recent) vs 21.01M (stale, tied to the Nov 2024 cycle)."
     },
     "shortInterest": {
-      "value": null,
-      "note": "most recent reliable reading found is a share count (not %): 204,857 shares short as of 2026-05-15 per Equibles, ~1.5 days to cover; no October figure located"
+      "value": 178300,
+      "note": "1.58% of float, 2.7 days to cover (source date ambiguous, possibly stale)."
     },
     "cash": {
       "value": 4500000,
@@ -40,7 +37,6 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
       "note": "negative earnings"
     },
     "eps": [
@@ -65,14 +61,9 @@
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 121400000,
-        "yoy": null
-      },
-      {
         "period": "Q2 2026",
-        "value": 114600000,
-        "yoy": -6
+        "value": null,
+        "note": "Net loss $6.2M (vs $3.6M loss Q2 2025); H1 2026 net loss $14.4M (vs $9.2M H1 2025). A summary describes a ~6% YoY revenue decline but no dollar figure was found. Q3 2026 analyst consensus (not yet reported): EPS -$0.11, revenue ~$130.75M."
       }
     ],
     "growth": {
@@ -152,11 +143,27 @@
     }
   ],
   "conflicts": [
-    "Price: Angel One shows $0.18/share, market cap $6.74M, as of 2026-10-19 vs MarketScreener showing a $0.3344 close (-12.00% that day) as of 2026-10-02 — an almost 2x discrepancy over roughly two and a half weeks, not reconciled. Not treated as a reverse-split signal (the move is a further decline, not an abrupt jump), but flagged given the size of the gap."
+    "Next earnings date given as both Nov 9, 2026 (one source) and Nov 10, 2026 (another) — on-file Nov 10 remains an unconfirmed estimate.",
+    "Shares outstanding conflict (32.78M current vs 21.01M stale) is large enough that market-cap figures derived from each are not comparable."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: two previously-unrecorded dated items found (both missed in prior passes). Fundamentals not independently re-verified this session.",
+  "notes": "No substantive dated news found since the 2026-10-05 merger-termination catalyst already on file. An undated item ('Neighborhood Intelligence Raises $45.5 Million Through Registered Direct Offering') surfaced but carried no date, so per standing rule 5 it is NOT reported as a catalyst — flag for a future pass, since NXH's (and indirectly FTHM's) liquidity picture would be affected. No October 2026 8-K was located for FTHM despite a direct search.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "revenue updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -266,9 +273,16 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "revenue updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.170Z",
+  "lastResearched": "2026-10-30T21:26:19.239Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Aggregator figures conflict sharply ($3.44M, $1.68M, $3.2M) and are undated/stale; share count has been changing rapidly due to pre-funded warrant exercises, making a reliable current market cap impossible to establish this session."
+      "value": 3590000,
+      "asOf": "2026-10-26",
+      "source": "massive.com",
+      "note": "Price $5.22, -17.99% trailing month. Implied share count (~688K) is far below the on-file 1,604,095 (2026-08-28) and below the 711,136-share annual-meeting record-date figure — see conflicts."
     },
     "float": {
       "value": null,
@@ -43,9 +44,7 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Negative earnings",
-      "asOf": "2026-10-22"
+      "note": "negative earnings"
     },
     "eps": [
       {
@@ -79,11 +78,32 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-07",
+      "type": "corporate/governance",
+      "headline": "Amendment to Articles of Incorporation increasing authorized shares from 20,000,000 to 200,000,000 (approved at the 10/1 annual meeting) became effective — consistent with preparing capacity for the North Immunology merger/PIPE share issuance.",
+      "impact": null,
+      "source": "SEC 8-K"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "shareholder meeting",
+      "headline": "Annual stockholders meeting (virtual); quorum met (399,752 of 711,136 shares entitled to vote as of the record date, ~56.21%); five directors elected. Explicitly unrelated to any North Immunology merger vote.",
+      "impact": null,
+      "source": "SEC 8-K (accession 000168316826007542)"
+    },
+    {
       "date": "2026-10-01",
       "type": "shareholder meeting",
       "headline": "Aethlon Medical annual stockholder meeting held (per DEF 14A filed 2026-09-01; unrelated to the North Immunology merger vote)",
       "impact": "Routine annual meeting",
       "source": null
+    },
+    {
+      "date": "2026-09-17",
+      "type": "M&A/merger",
+      "headline": "Aethlon Medical and privately-held North Immunology announced an all-stock merger agreement concurrent with a ~$180 million private placement. Combined company to be named North Immunology, Inc., trading on Nasdaq as NRTX. Aethlon's current shareholders would hold ~4.75% of the combined company; North Immunology holders/PIPE investors ~95.25%. Lead asset: NOR-101, an anti-IL-13 x IL-18 bispecific antibody for atopic dermatitis. Financing intended to fund operations into H2 2028. Aethlon's Hemopurifier program would NOT continue at the combined company; legacy Aethlon assets to be handled via contingent value rights. Deal approved by both boards; expected to close Q1 2027, subject to both companies' stockholder approval, an effective Form S-4, and Nasdaq initial-listing approval. Outside date 2027-06-17. Termination fees: Aethlon payable to North Immunology $300,000; North Immunology payable to Aethlon $2,000,000. AEMD shares rose sharply in pre-market trading (magnitude disputed across sources, roughly 370%-471%).",
+      "impact": "Major dilution/reverse-merger event; legacy AEMD holders retain only ~4.75% of the combined company",
+      "source": "Cooley; Gibson Dunn; SEC Form 8-K/425 filings (accessions 000168316826007206/000168316826007208)"
     },
     {
       "date": "2026-09-17",
@@ -154,14 +174,27 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 1,604,095 (8-K, as of 2026-08-28) vs. 973,213 (one aggregator, as of 2026-01-05) vs. 2,370,560 (another aggregator, undated) — these reflect a 10:1 reverse split (2025-10-20) and subsequent dilutive financings/warrant exercises layered on top of each other; the 8-K figure is the most recent and most authoritative found.",
-    "Market cap: aggregators show $3.44M, $1.68M, and $3.2M with no consistent share count or date basis.",
-    "Short interest: 13.9% vs. 22.03% of float on the same raw short-share count, due to disagreement over the float denominator.",
-    "Next earnings date: Earnings Whispers says 2026-11-12; TipRanks says 2026-11-18 (its own page flags this as an estimate, not a confirmed company date)."
+    "Shares outstanding (current): readings span roughly 711K to 2.37M across sources dated within weeks of each other: 1,604,095 (8-K, 2026-08-28, on-file); 711,136 (annual-meeting record date, implied); ~1.60M/float ~1.49M (Fox Business, 2026-10-23); ~688,000 implied (massive.com market-cap calc, 2026-10-26); 2,370,560 (Equibles, tied to the 10-K filed 2026-06-10); 1,569,110 (8-K dated 2026-03-16, post warrant exercises); 973,213 (Jan 2026 annual-meeting record date). Not resolved — cannot be explained by warrant exercises alone in that direction (some readings go down, not just up). AEMD has known reverse-split history; a further split or data-vendor error is possible but not confirmed, so no ratio is guessed.",
+    "Stock reaction magnitude to the 2026-09-17 merger announcement: ~370% (one source) vs >400% (another) vs ~471% (two others) — kept as a range, not averaged.",
+    "Market cap: aggregators show $3.44M, $1.68M, $3.2M (older) and $3.59M (2026-10-26, massive.com) with no consistent share count or date basis.",
+    "Next earnings date: Earnings Whispers says 2026-11-12; TipRanks says 2026-11-18 (flagged by TipRanks itself as an estimate)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no new catalyst found. Checked specifically for an S-4/proxy filing on the North Immunology merger beyond the 2026-09-17 announcement already on file; none located. No reliable current price found.",
+  "notes": "MAJOR FINDING: the North Immunology reverse merger is real, large, and highly material (~$180M PIPE-backed; legacy Aethlon shareholders retain only ~4.75% of the combined company) and was previously under-flagged on file. Expected close Q1 2027 (outside date 2027-06-17) — remains a live, dated catalyst track (watch for S-4 filing, special stockholder-vote date, Nasdaq listing approval). No news of merger completion or S-4 filing found as of 2026-10-30. No cash/debt update newer than the baseline's $4.9M (2026-06-30) was found.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -315,9 +348,14 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

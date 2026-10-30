@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.178Z",
+  "lastResearched": "2026-10-30T21:26:19.260Z",
   "fundamentals": {
     "marketCap": {
       "value": 9290000000,
@@ -22,9 +22,8 @@
       "note": "not separately disclosed in sources found this session"
     },
     "sharesOutstanding": {
-      "value": 158890000,
-      "asOf": "2026-09-16",
-      "source": "Google Finance; corroborated by Macrotrends (0.159B, 2025) and roic.ai (158.80M)"
+      "value": 158850000,
+      "note": "No precise date beyond 'recent' per source."
     },
     "shortInterest": {
       "value": null,
@@ -43,11 +42,16 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "not verified this session; a secondary source reported 2025 earnings down ~60% YoY but gave no EPS or P/E figure that could be independently confirmed",
-      "asOf": null
+      "note": "Conflicting readings (not negative earnings): ~45.8x (TTM EPS $1.32) vs ~48.4x (TTM EPS $1.31); forward P/E ~20.3x per one source."
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": 0.88,
+        "basis": "adjusted",
+        "note": "Beat $0.78 consensus. FY2026 guidance raised to adjusted EPS $2.75-$2.95."
+      }
+    ],
     "revenue": [
       {
         "period": "FY2025 (full year)",
@@ -65,7 +69,8 @@
       "date": "2026-11-04",
       "confirmed": true,
       "note": "Company's own Oct 1, 2026 press release: Q3 2026 results before market open Nov 4, 2026, call at 8:30am ET. This resolves the prior dispute — TipRanks (Nov 5, labeled 'Confirmed') and Earnings Whispers (Oct 29) both conflict with the company's own release and should be disregarded."
-    }
+    },
+    "CRITICAL_IDENTITY_NOTE": "Ticker SOLS on Nasdaq is Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — NOT Solidion Technology, which trades under ticker STI. The 'Advanced Materials' theme fits Solstice, not Solidion (a much smaller battery-materials company). This appears to be a company-identity question worth the PM owner's direct attention; this pass researched the ticker as given (SOLS = Solstice) and did not research Solidion/STI separately."
   },
   "price": {
     "last": 59.25,
@@ -129,11 +134,26 @@
     }
   ],
   "conflicts": [
-    "Market cap: Google Finance $9.29B (2026-09-16) vs roic.ai $13.88B (undated, same share count) vs Motley Fool-derived $9.67B (2026-07-23) — the roic.ai figure looks like an outlier/error but is recorded rather than discarded."
+    "IDENTITY: 'SOLS' resolves unambiguously to Solstice Advanced Materials, not to Solidion Technology (ticker STI) — flagging for the PM owner to confirm which company this watchlist slot is meant to track, since everything on file for 'SOLS' to date may be about a different company than intended if the original intent was Solidion.",
+    "Next earnings date: on-file 'confirmed' Nov 4, 2026 matches one source; another (TipRanks) instead shows Nov 5, 2026 — kept both, not reconciled.",
+    "Market cap figures vary by ~$3B+ depending on snapshot date (no October 2026 figure found; stale figures range $9.58B-$12.7B)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no new catalysts. Q3 2026 results not yet out (reports Nov 4); do not record pre-merger-termination figures as new.",
+  "notes": "STRONGLY RECOMMEND the PM owner confirm the intended company for this ticker slot before the next pass. Essential missing context found this pass: Solstice's proposed ~$14.5B acquisition of Element Solutions (NYSE: ESI) was announced 2026-07-06 ($10 cash + 0.5 SOLS shares per ESI share, ~15% premium) and TERMINATED by mutual agreement 2026-08-27 (no termination fee either way; Goldman Sachs financing commitments and a voting agreement with Sir Martin Franklin lapsed automatically). Following the termination, Solstice's board approved a share-repurchase program of up to $500M. Both events predate the Oct 1 research window but are essential background missing from the prior file. No substantive news dated after 2026-10-01 was found beyond the Q3 earnings-date item.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -317,9 +337,14 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

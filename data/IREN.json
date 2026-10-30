@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.175Z",
+  "lastResearched": "2026-10-30T21:26:19.248Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -22,9 +22,10 @@
       "source": "carried from prior PM pass record; not independently re-verified this session"
     },
     "sharesOutstanding": {
-      "value": 357400000,
+      "value": 357370000,
       "asOf": "2026-08-20",
-      "source": "Coinglass snapshot; consistent with the prior PM pass record"
+      "source": "coinglass.com",
+      "note": "No more current figure found."
     },
     "shortInterest": {
       "value": null,
@@ -41,9 +42,9 @@
       "source": "carried from prior PM pass record; not independently re-verified this session"
     },
     "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "negative earnings (FY2026 net loss $702.6M, incl. $450.4M in Q4 asset impairments) — unchanged from prior pass"
+      "trailing": 84.63,
+      "asOf": "2026-08-20",
+      "note": "Stale (~2 months, at a price of $41.65, 59% above the current $26.25); earnings were positive at that time so this isn't a negative-earnings null, but should not be treated as current."
     },
     "eps": [
       {
@@ -67,15 +68,10 @@
     ],
     "revenue": [
       {
-        "period": "FY2025 (ended 2026-06-30 prior year)",
-        "value": 501000000,
-        "note": "company figure; label reflects IREN's June fiscal year-end"
-      },
-      {
-        "period": "FY2026 (ended 2026-06-30)",
-        "value": 707000000,
-        "yoy": 41.1,
-        "note": "Newsquawk figure; one source's 'FY revenue $137.23M' appears to be the Q4-only figure mislabeled"
+        "period": "FY2026 (AI Cloud segment)",
+        "value": 128800000,
+        "yoy": 685,
+        "note": "vs $16.4M in FY2025 (AI Cloud segment only, not total revenue)."
       }
     ],
     "growth": {
@@ -95,6 +91,13 @@
     "source": "Fool.com last-close listing (dated 2026-10-26); no changePct/rvol established this session"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "price action",
+      "headline": "IREN closed at $26.25 (exact percent decline disputed across sources, roughly -4% to -9% depending on the cited prior close). MarketBeat attributes the move to a broader data-center/hyperscaler AI-capex-concern stock selloff, not bitcoin- or IREN-specific — Bitcoin itself held roughly in the $79,000-$85,000 range through this window and did not sell off concurrently.",
+      "impact": null,
+      "source": "MarketBeat; Yahoo Finance; Morningstar; Investing.com"
+    },
     {
       "date": "2026-10-26",
       "type": "price action",
@@ -216,11 +219,28 @@
     }
   ],
   "conflicts": [
-    "Market cap still not reconcilable: DefiLlama implies ~$11.55B (333.73M shares as of 2026-03-31, at $30.39), Roic.ai shows $13.88B (340.98M shares, undated), Equibles shows $17.98B (357.38M shares, undated), vs. the on-file $14.97B (asOf 2026-09-09). All differ mainly on share count and price date; none independently verified this session as current."
+    "Market cap still not reconcilable: implied ~$11.55B (333.73M shares as of 2026-03-31, at $30.39) vs ~$13.88B (340.98M shares, undated) vs ~$17.98B (357.38M shares, undated) vs the on-file $14.97B (asOf 2026-09-09). Differ mainly on share count and price date; none independently verified as current.",
+    "Oct 29, 2026 close: one source shows $26.25, down $2.59 (-8.98%) from a prior close of $28.84; another shows the same $26.25 close but a -4.34% change from a prior close of $27.44; a third shows a -5.96% change with a close of $27.12. All three disagree on both the percent move and the reference price — kept verbatim.",
+    "Price-trail inconsistency: a 2026-10-23 close of $24.91 (attributed to a 'neocloud'/CoreWeave-debt-contagion sector selloff) is LOWER than the on-file 2026-10-26 close of $25.43 described as a 'new low' — these two figures are not internally consistent. Flagging without attempting to resolve.",
+    "Short interest: one reading shows 64.4M shares / 1.3 days to cover (through 2026-06-24) vs a separate settlement-date reading of 58,363,974 shares / 1.63 days to cover (2026-04-30) — different dates, kept separately."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no new verifiable information beyond the 2026-10-26 close ($25.43) already on file.",
+  "notes": "From IREN's FY2026 10-K (fiscal year ended 2026-06-30): Microsoft contract 'Horizon 1' was delivered to and accepted by Microsoft in August 2026, with Horizons 2-4 targeted for phased delivery in calendar Q4 2026. Strategic NVIDIA partnership context (up to 5GW of DSX-aligned AI infrastructure, NVIDIA's right to invest up to $2.1B in IREN shares tied to GPU delivery/regulatory conditions, a 5-year ~$3.4B NVIDIA cloud-services agreement) corroborates prior on-file context but is not newly dated to this window. Nov 5, 2026 earnings date remains confirmed.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -407,9 +427,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

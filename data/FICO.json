@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.172Z",
+  "lastResearched": "2026-10-30T21:26:19.251Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -29,49 +29,32 @@
       "note": "sources conflict and no single reliable % was confirmed (see conflicts)"
     },
     "cash": {
-      "value": null,
-      "note": "not located in sources reachable this session"
+      "value": 134100000,
+      "asOf": "2025-09-30",
+      "note": "Down from $150.7M a year earlier."
     },
     "debt": {
-      "value": 3100000000,
+      "value": 3060000000,
       "asOf": "2025-09-30",
-      "source": "FY2025 10-K (fiscal year ended 2025-09-30); up from $2.2B at FY2024 year-end"
+      "note": "Total debt ~$3.06B; revolver balance $275M; long-term debt ~$2.66B (up from $2.19B); current debt maturities ~$399.5M (up from $15M)."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "FY2025 diluted EPS of $26.54 is confirmed, but no single source this session gave both a current verified share price and that EPS together (recent price reads range ~$1,150-1,206 depending on source/date), so no multiple is computed from a cross-source mix."
+      "note": "Highly conflicting readings (not negative earnings): 35.92x, 37.05x, 44.43x, 89.99x (likely stale denominator) across aggregators — kept verbatim per conflict rule rather than picked/averaged."
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP diluted",
-        "note": "Only derivable by arithmetic from a reported 29.8% YoY growth figure (~$20.45); not independently sourced from the FY2024 10-K this session, so left null rather than asserted."
-      },
-      {
-        "period": "FY2025",
-        "value": 26.54,
-        "basis": "GAAP diluted",
-        "note": "Fiscal year ended 2025-09-30; FY2026 has not yet been reported (next earnings Nov 2026 covers Q4 FY2026)."
-      },
-      {
-        "period": "Q4 FY2025",
+        "period": "FY2025 Q4 (qtr ended 9/30/25)",
         "value": 6.42,
-        "basis": "GAAP diluted",
-        "note": "For context only — not the most recent quarter; vs $5.44 in Q4 FY2024. Most recent reported quarter (Q3 FY2026, ~calendar Q2 2026) EPS was not established this session."
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "FY2024",
-        "value": null,
-        "yoy": null
-      },
-      {
-        "period": "FY2025",
-        "value": 1990000000,
-        "yoy": 16
+        "period": "FY2025 Q4",
+        "value": 515800000,
+        "yoy": 14,
+        "note": "vs $453.8M prior-year quarter per the company release; one aggregator instead cites ~$512M/+16.4% YoY — kept both, not reconciled."
       }
     ],
     "growth": {
@@ -83,10 +66,29 @@
       "date": "2026-11-04",
       "confirmed": true,
       "note": "Company press release ('Fair Isaac Corporation Announces Date for Reporting of Fourth Quarter Fiscal 2026 Financial Results', republished via 01net.it) confirms FICO will report Q4 FY2026 results on Nov 4, 2026, after market close, with a conference call that day. Upgraded from aggregator-estimate to company-confirmed this session (prior pass had multiple aggregators converging on Nov 4 but no company confirmation)."
+    },
+    "guidanceFY2026": {
+      "epsNonGAAP": 38.17,
+      "revenue": 2350000000,
+      "note": "Given with the Q4 FY25 release."
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "analyst_action",
+      "headline": "Wave of analyst actions the same week: Wells Fargo downgraded FICO to Equal Weight (PT cut to $735 from $800), shares fell a further ~7.5% intraday; JPMorgan downgraded to Neutral (PT cut to $900 from $1,530); UBS cut PT to $942 from $1,100; BMO Capital kept Outperform but cut PT to $897 from $1,150; Mizuho kept Outperform but cut PT to $1,063 from $1,344; BofA, by contrast, raised its PT slightly to $720 from $700.",
+      "impact": null,
+      "source": "Defense World; TipRanks; GuruFocus"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "regulatory/macro",
+      "headline": "FICO shares fell more than 13% after FHFA Director Bill Pulte said the agency was focused on 'more action' on mortgage credit-score competition, reigniting VantageScore-competition concerns (same storyline as the Sept 29 crash).",
+      "impact": "-13% to -14%",
+      "source": "Yahoo Finance, 'FICO stock falls 14% after Pulte pledges more action on credit score competition'"
+    },
     {
       "date": "2026-10-19",
       "type": "price action",
@@ -155,12 +157,30 @@
     }
   ],
   "conflicts": [
-    "Market cap/price: the on-file $684/share reading (flagged in a prior pass as 'very likely a data error') is corroborated by two further sources found this session — financialcontent.com showing $661.25 as of a 2026-10-02 close (with a stated market cap of $18.77B, which is itself inconsistent with ~23.7M shares outstanding) and a live trade-ideas.com snapshot showing $662.25 / $14.3B market cap. These are consistent with FICO actually trading in roughly the $617-771 range since the 2026-09-29 FHFA-driven crash (close $617.87) and the Oct 19 partial rebound to ~$771 already on file — suggesting the ~$660-684 readings may reflect real post-crash prices rather than a data error. Higher readings of ~$1,050-1,206/share found elsewhere this session and on prior passes look like stale, pre-crash data. Not fully reconciled to one verified current price this session, so left as a conflict rather than resolved by picking one.",
-    "Shares outstanding: Motley Fool/TipRanks ~23.19M vs Equibles 21.60M (undated) — not reconciled (carried from prior pass, unchanged)."
+    "Market cap estimates range from ~$17.78B (2026-10-24 snapshot) to $45.53B across different aggregators/dates — not reconciled; treat as volatile, not a single fact.",
+    "Analyst consensus is stale: an aggregate 'Hold' rating with a $1,014 consensus target clearly predates the Oct 26-27 downgrade wave (new individual targets as low as $720-$942).",
+    "Shares outstanding: 24,003,656 vs 23,190,906 vs ~23.7M across aggregators — no 10-Q/10-K cover-page figure independently confirmed this session.",
+    "EPS TTM: $27.01 vs $31.84 (different listing, not directly comparable) vs $20.78 (likely stale) across sources."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no Oct 28-29 company news found. Could not obtain a current, reliably-dated share price (search results ranged $661-$1,051 across undated/stale snapshots); existing price conflict carried forward unchanged.",
+  "notes": "Confirms the FHFA/VantageScore story is still the dominant driver and has resumed sharply to the downside after the Oct 12-19 rebound described in the baseline. A workforce-cut item (~15% headcount reduction, ~$27M pretax Q4 FY26 charge, dated 2026-10-10) predates the baseline's Oct 19 cutoff so is not reported as 'new' here. Short interest not established this session.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -285,9 +305,17 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

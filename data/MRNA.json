@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.176Z",
+  "lastResearched": "2026-10-30T21:26:19.236Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -21,9 +21,9 @@
       "note": "not found distinctly from shares outstanding in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": 396786250,
-      "asOf": "2026-10",
-      "source": "TipRanks"
+      "value": 397000000,
+      "asOf": "~2026-06-30",
+      "note": "Consistent with recent quarters (394M Dec 2025, 397M Mar 2026, 397M Jun 2026)."
     },
     "shortInterest": {
       "value": null,
@@ -42,40 +42,29 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
       "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP diluted",
-        "note": "not verified this session"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP diluted",
-        "note": "not verified this session"
+        "period": "Q1 2026",
+        "value": -3.4,
+        "basis": "GAAP",
+        "note": "Includes a ~$0.9B one-time litigation settlement charge."
       },
       {
         "period": "Q2 2026",
         "value": -1.97,
-        "basis": "GAAP diluted",
-        "note": "vs -$2.13 a year earlier; beat a consensus estimate of roughly -$2.03"
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 142000000,
-        "yoy": null
+        "period": "Q1 2026",
+        "value": 389000000
       },
       {
         "period": "Q2 2026",
-        "value": 145000000,
-        "yoy": 2.1,
-        "note": "US sales $87M, international sales $58M; weaker US/South American COVID vaccine sales offset by UK government partnership deliveries"
+        "value": 145000000
       }
     ],
     "growth": {
@@ -183,11 +172,28 @@
     }
   ],
   "conflicts": [
-    "Oct 22, 2026 same-day stock-price reaction to the leaked melanoma data: on-file range '-18% to -26%' (sources differ) vs a separate reading found this session that Moderna closed down 15.6% that day (with Merck/MSD down ~2.5%) -- not reconciled to a single figure."
+    "Market cap: one quote snapshot shows $59.56/share with a $23.63B market cap; another (same aggregator family, different date) shows $31.6B market cap; a third shows a $53.86 price with a 52-week range of $22.28-$85.60 — inconsistent with each other, not reconciled without a live quote.",
+    "Cash position: one source ~$7.5B vs balance-sheet cash+short-term-investments of $5.2-5.8B (Dec 2025/Mar 2026) — not reconciled, likely different definitions or dates.",
+    "Debt-to-equity ratio: 0.19 vs 0.07 across two sources — kept both, not averaged.",
+    "Q3 2026 consensus EPS (not yet reported, confirmed earnings 2026-11-06): one source shows -$1.37 with revenue consensus $882.4M, a differently-localized page from the same aggregator shows -$1.12 with revenue consensus $917.9M — kept both verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — nothing dated later than the on-file Oct 24 ESMO INTerpath-001 presentation found.",
+  "notes": "Could NOT find any analyst rating or price-target action, or other news, specifically dated after the 2026-10-24 INTerpath-001 presentation this pass. Important context found but NOT added as a dated catalyst (undated relative to the Oct 24 presentation, per the no-undated-news rule): reports describe an ESMO embargo breach/leak of the INTerpath-001 data BEFORE the formal Oct 24 presentation, with shares reportedly falling sharply on the leak (estimates range ~15.6% to ~25% across outlets, not reconciled) — a William Blair analyst (Myles Minter) characterized the reaction as 'sell-the-news' since investors wanted a hazard ratio of 0.6 or better and the 42% relative risk reduction (HR 0.58) was seen as smaller than the ~49% reduction in the earlier Phase 2b study. A follow-up pass should pin down the leak date vs. the Oct 24 presentation date, the exact share-price move, and any analyst actions after Oct 24.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -320,9 +326,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.176Z",
+  "lastResearched": "2026-10-30T21:26:19.250Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -47,31 +47,25 @@
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": 0,
-        "basis": "GAAP (approx.)",
-        "note": "Reported as 'breakeven' vs. a 'breakeven' consensus per EarningsWhispers/Chartmill; exact per-share figure to more than one decimal not located this session. Net income was $1.4M vs a $6.1M net loss in Q2 2025."
+        "period": "Q1 2026",
+        "value": 0.03,
+        "basis": "GAAP",
+        "note": "Beat forecast of -$0.01."
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": null,
-        "yoy": null,
-        "note": "Base-period dollar figure not located; only the YoY growth rate was disclosed."
-      },
-      {
-        "period": "Q2 2026",
-        "value": 109800000,
-        "yoy": 163,
-        "note": "Net sales $109.8M, +163% YoY, vs. $90.0M consensus (EarningsWhispers). H1 2026 net sales $214.7M, +204% YoY."
+        "period": "Q1 2026",
+        "value": 104900000,
+        "yoy": 262,
+        "note": "Source does not clearly specify whether this is product, licensing, or total revenue — flagged gap since licensing revenue specifically is Netlist's main thesis metric."
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 163,
-      "note": "This is organic product-revenue growth (DDR4/DDR5 memory modules), distinct from the separate Oct 2026 Micron patent-licensing settlement income. Company guided Q3 2026 product revenue 'similar to Q2' on the July 30 call."
+      "metric": "licensing revenue commitments",
+      "period": "2026-2031",
+      "pct": null,
+      "note": "Micron settlement: $600M total over 5 years ($30M/quarter for 20 quarters, Q4 2026 through Q3 2031). Samsung (background, Aug 2026 agreement, not newly confirmed this pass): $897M pre-tax over 5 years."
     },
     "nextEarnings": {
       "date": "2026-11-05",
@@ -99,6 +93,13 @@
       "headline": "NLST shares closed at $6.66, up ~18% on the day following the Micron settlement; stock up more than 970% over the trailing year, with market value described as above $2 billion",
       "impact": "Major positive price reaction to the settlement news",
       "source": "Webull News"
+    },
+    {
+      "date": "2026-10-05/2026-10-06",
+      "type": "litigation_settlement",
+      "headline": "Netlist's Form 8-K discloses the specific Micron settlement terms: a 5-year, worldwide, non-exclusive, non-transferable, non-sublicensable license to Netlist's full patent portfolio (reported to cover server DIMM and HBM-related patents); Micron to pay $30M/quarter for 20 quarters (Q4 2026 through Q3 2031), totaling $600M; settles and mutually releases all pending litigation between Netlist and Micron. Separately, Micron purchased 10 million Netlist common shares for $1 million in aggregate, with transfer restrictions lifting in stages over five years. Fills the payment-terms/amounts gap flagged in the baseline.",
+      "impact": null,
+      "source": "Netlist Form 8-K and Exhibit 99.1 on SEC EDGAR, via finviz.com / americanbazaaronline.com / panabee.com / Benzinga"
     },
     {
       "date": "2026-10-05",
@@ -151,12 +152,30 @@
     }
   ],
   "conflicts": [
-    "New ITC HBM complaint (Micron/Nvidia/Broadcom/Google): announcement/filing date given variously as 2026-09-25 (Reuters, confidential filing), 2026-09-27, and 2026-09-29 (company press release); the ITC docket number is also disputed — one source ties it to 337-TA-1523 (which a different source instead assigns to the earlier, unrelated Aug 11 2026 DDR5 complaint against Micron/Supermicro/HPE/Lenovo) — not reconciled this session.",
-    "Next earnings date: this session found a THIRD estimate — EarningsWhispers' beta page lists Oct 29, 2026 — in addition to the on-file conflict between Investing.com (Nov 3) and EarningsWhispers/Digrin's non-beta pages (Nov 5). Still no company 8-K or press release confirming any date."
+    "Oct 29, 2026 price: one source shows a $6.34 close, down 8.12% from $6.90; another shows an intraday range of $6.77-$7.02 with a 'current price' of $6.92 (though that page carried a timestamp suggesting possible staleness) — kept verbatim, not averaged.",
+    "Earnings date: on-file conflict (Nov 3 vs Nov 5) widened further — an older page lists an Oct 29, 2026 date for 'Q3, Sep 2026' earnings, but no news coverage of an actual Oct 29 release was found, so this third date looks like a stale/incorrect estimate rather than a confirmed report.",
+    "ITC investigation institution date: one source states the ITC instituted the DDR5 investigation on September 24, 2026, vs. the on-file September 23, 2026 — a one-day discrepancy, not resolved.",
+    "Shares outstanding/market cap: 333,890,000 shares/$777.96M cap (2026-08-03) vs 320.42M shares/$930.82M cap (2026-06-05) vs an older, apparently-stale 257,865,976 shares — kept separately.",
+    "Short interest: 11.50% of float (2026-08-03) vs 36.5M shares/8.6 days to cover (undated) vs a short-ratio reading with short-interest % shown as n/a — three different presentations, kept separately.",
+    "TTM EPS: -$0.02 vs -$0.023 across two sources — both negative, minor numeric difference not resolved."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — a Sept 30 Taiwanese report confirms the HBM ITC case institution decision is still pending, consistent with what's on file. No ruling yet. Conflicts (share count, next-earnings date, ITC docket numbers) remain unresolved.",
+  "notes": "No update was found on the ITC DDR5 investigation's status as to the three other respondents (Super Micro, HPE, Lenovo) since the baseline's Oct 21 note — remains an open gap. Separately, an August 2025 (not 2026) Netlist complaint/ITC matter against Samsung, Google, and Super Micro is a DIFFERENT docket from the 2026 Micron-named DDR5 case (337-TA-1472) and should not be conflated with it.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -287,9 +306,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

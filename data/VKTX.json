@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.169Z",
+  "lastResearched": "2026-10-30T21:26:19.232Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -25,10 +25,8 @@
       "source": "StockAnalysis.com snapshot (date not given in search result), corroborated by Motley Fool (~116.11M) and roic.ai (~115.89M)"
     },
     "shortInterest": {
-      "value": 20.2,
-      "asOf": "2026-08-27",
-      "source": "Benzinga sentiment page (% of float)",
-      "note": "Described as 'declining' trend. Older 2025 MarketBeat snapshots (26.43% and 0.03%) are stale/inconsistent and disregarded."
+      "value": null,
+      "note": "~19.3% of shares outstanding (~22.54M shares short) per a WebSearch summary of stockanalysis.com data (site itself EGRESS_BLOCKED); undated relative to the Q3 print, kept as a labeled estimate not a verified current figure."
     },
     "cash": {
       "value": 502000000,
@@ -44,28 +42,27 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings (trailing); pre-commercial, no forward consensus EPS independently confirmed this session (reconfirmed)"
+      "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "Q3 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Net loss for the quarter was $183.186M (vs $90.787M in Q3 2025) per SEC 8-K exhibit; a per-share figure was not found in available text. Not computed ourselves from net loss/share count per the never-invent-a-number rule."
+        "period": "Q3 2025",
+        "value": -0.81,
+        "basis": "GAAP"
       },
       {
-        "period": "Q2 2026",
-        "value": -1.1,
+        "period": "Q3 2026",
+        "value": -1.55,
         "basis": "GAAP",
-        "note": "Beat consensus estimate of -$1.21 by $0.11, per Zacks coverage of the 2026-07-29 release"
+        "note": "Wider than ~-$1.06 consensus (~$0.49/share miss)."
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "net loss (cash burn) YoY",
+      "metric": "R&D spend YoY",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "Pre-revenue; net loss widened to $183.2M in Q3 2026 from $90.8M in Q3 2025 (9-month loss $469.5M) — named as the clearest disclosed figure rather than a % growth rate."
+      "pct": 85,
+      "note": "R&D expense rose to $166.8M in Q3 2026 from $89.95M in Q3 2025, reflecting Phase 3 program scale-up (oral VK2735 SUNRISE initiated; VANQUISH 1/2 ongoing). Company remains pre-revenue."
     },
     "nextEarnings": {
       "date": "2026-10-28",
@@ -138,14 +135,29 @@
     }
   ],
   "conflicts": [
-    "Market cap: StockAnalysis ~$3.95B vs Motley Fool snapshots $3.80B-$4.40B (undated/differing) — not reconciled to a single current figure this session.",
-    "Cash: company-sourced $502M at 2026-06-30 (Zacks, tied to the Q2 2026 release) vs an undated Motley Fool figure of $602.96M-$705.74M 'cash and short-term investments' — not reconciled; the dated, company-tied figure is used above.",
-    "Price (2026-10-29): Yahoo UK previous-close $64.67 vs Yahoo CA previous-close $63.85 vs a dated Oct 16 2026 snapshot of $25.17 vs an Oct 7 2026 close of $28.55 — not reconciled; left null rather than picking one. If the ~$64 figures are current, this is a major move since Oct 16 with no identified cause beyond the Oct 28 earnings and Sept 22 VK2735 maintenance-dosing readout.",
-    "Short interest: StockAnalysis.com shows 19.32% (~22.54M shares, undated) vs prior pass's 20.2% (2026-08-27, Benzinga) vs an older FINRA settlement-date figure of ~22.37M shares (2026-05-29) — all in a similar range but not a single clean figure."
+    "Market cap: ~$3.0B implied (118.2M shares x $25.36 close 2026-10-28) vs an aggregator snapshot of $3.95B at a different, earlier price (~$33.9, 116.65M shares) — not reconciled; the $33.9 figure appears to predate a stock decline.",
+    "Cash position at Q3 2026 (2026-09-30): one filing-based summary cites cash & cash equivalents of $677.6M; multiple press-aggregator summaries cite $960M in 'cash, cash equivalents and short-term investments' (citing ~$575M gross raised in offerings during the quarter: $297.3M common stock offering + $251.0M 2032 Notes + $82.7M ATM, per the 9-month financing total of ~$633.2M). Both figures may be correct under different definitions — kept both, not averaged.",
+    "After-hours price reaction to the 2026-10-28 Q3 print: one source reports -2.79% (to $24.653 from a $25.36 close), another reports -2.37%. Neither independently verified against a primary exchange feed. No confirmed regular-session price data for 2026-10-29 or 2026-10-30 was found this pass — the options-implied +/-11.65% move from the prior pass was not clearly borne out by the modest AH move found.",
+    "Market cap: StockAnalysis.com (relayed via WebSearch, date unclear) showed ~$3.95B on 116.65M shares (implying ~$33.9), inconsistent with the confirmed $25.36 regular-session close on 2026-10-28 — likely a stale snapshot predating a price decline.",
+    "Shares outstanding: ~118.2M implied from the $183.2M net loss / $1.55 EPS vs. an aggregator's separately-cited 116.65M at an earlier date — both approximate, neither from a directly-read filing."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: Q3 2026 earnings confirmed to have occurred on schedule 2026-10-28. Net loss figures are SEC-filing-sourced and reliable; EPS, cash, and current price are the weak points — SEC EDGAR direct fetch is blocked in this sandbox, so only WebSearch snippets of the filing were available, not full tables.",
+  "notes": "Q3 2026 net loss widened to $183.2M (vs $90.8M Q3 2025); 9-month net loss $469.5M. No analyst rating/price-target action dated after the 2026-10-28 print was found this pass (search budget exhausted before this could be checked) — flag as an open gap, not an absence of activity. FY2024/FY2025 annual EPS and a clean current shares-outstanding count from a primary source remain unestablished.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -295,9 +307,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

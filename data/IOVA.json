@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.168Z",
+  "lastResearched": "2026-10-30T21:26:19.235Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -22,28 +22,25 @@
     },
     "sharesOutstanding": {
       "value": 452970000,
-      "asOf": "2026-08-21",
-      "note": "A separate, undated Equibles page shows 446,502,396 shares at $3.82/share ($1.71B mkt cap) — see conflicts for the likely explanation of the price gap."
+      "asOf": "2026-10-23",
+      "source": "Fox Business",
+      "note": "Consistent with other sources (~446.5M-453M) despite large market-cap discrepancies driven by price moves, not share-count differences."
     },
     "shortInterest": {
-      "value": 22.1,
-      "asOf": "2026-08-21",
-      "note": "Reported as % of float, 100.0M shares short, 6.3 days to cover, per Equibles. A separate undated Equibles page shows 104.2M shares short / 8.2 days to cover."
+      "value": null,
+      "note": "Conflicting: one aggregator (relaying stockanalysis.com) cites 114.71M shares short = 25.69% of shares outstanding / 29.57% of float, ~8 days to cover; Equibles (2026-08-21) cites ~22.07% of float, ~6.3 days to cover. Different dates/methodology, not reconciled."
     },
     "cash": {
-      "value": 304000000,
-      "asOf": "2026-06-30",
-      "note": "company states this funds operations into H2 2028"
+      "value": 313440000,
+      "note": "Cash figure via a WebSearch-relayed summary of stockanalysis.com data (site itself EGRESS_BLOCKED); exact as-of period not independently confirmed. Paired debt figure $47.78M, implying net cash ~$265.67M."
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed in the earnings summary sources found this session."
+      "value": 47780000,
+      "note": "See cash note — same source/caveat."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings (Q2 2026 GAAP net loss $0.11/share); no forward consensus EPS established this session"
+      "note": "Iovance has commercial revenue (Amtagvi) but no confirmed positive trailing EPS was found this pass; left null pending a clean EPS figure."
     },
     "eps": [
       {
@@ -61,14 +58,16 @@
     "revenue": [
       {
         "period": "Q2 2026",
-        "value": 99300000
+        "value": 99300000,
+        "yoy": 66,
+        "note": "Amtagvi $90.7M + Proleukin $8.6M. Amtagvi beat the company's own $79-81M quarterly guidance."
       }
     ],
     "growth": {
-      "metric": "revenue YoY (FY2026 guidance, implied)",
-      "period": "FY2026 (guided)",
+      "metric": "FY2026 revenue guidance raise",
+      "period": "2026",
       "pct": 60,
-      "note": "Company's Sept 29, 2026 guidance raise to $410M-$420M (from $350M-$370M) was described by the company as implying roughly 60% full-year growth; not a reported quarterly YoY figure."
+      "note": "On 2026-09-29, Iovance raised FY2026 total product revenue guidance to $410-420M (from $350-370M), implying ~60% YoY growth, after the Q2 2026 Amtagvi beat."
     },
     "nextEarnings": {
       "date": "2026-11-05",
@@ -97,11 +96,25 @@
       "source": "https://ecancer.org/en/news/29084-esmo-2026-nearly-one-third-of-patients-with-advanced-melanoma-saw-tumours-disappear-completely-after-receiving-til-therapy-plus-pembrolizumab-immunotherapy"
     },
     {
+      "date": "2026-10-23 (per one Iovance release) / 2026-10-26 (per a second Iovance release and subsequent coverage)",
+      "type": "conference/data presentation",
+      "headline": "Lifileucel sarcoma (UPS/DDLPS) pilot data at ESMO 2026: confirmed partial responses in 4 of 8 patients (50%) with refractory undifferentiated pleomorphic sarcoma or dedifferentiated liposarcoma who received in-specification product (as of a 2026-09-09 data cutoff); all 4 responses ongoing at cutoff. MSK-led pilot trial; registrational Phase 2 SARATOGA trial (NCT07741877) is the follow-on. Could not resolve the Oct 23 vs Oct 26 date discrepancy with a primary source — kept as unresolved conflict, not guessed.",
+      "impact": null,
+      "source": "finviz.com (relaying Iovance's own releases); ajmc.com; targetedonc.com"
+    },
+    {
       "date": "2026-10-01",
       "type": "leadership",
       "headline": "Announced appointment of Noah Berkowitz, M.D., Ph.D. (former Arvinas CMO) as Chief Medical Officer, effective 2026-09-30; granted inducement stock options/RSUs covering up to 450,000 shares",
       "impact": "Executive leadership change in clinical/medical strategy function",
       "source": "https://finviz.com/news/397524/iovance-biotherapeutics-appoints-noah-berkowitz-md-phd-as-chief-medical-officer"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "guidance",
+      "headline": "Iovance raised FY2026 total product revenue guidance to $410-420M (from $350-370M), a ~15% raise to the midpoint implying ~60% YoY total revenue growth, after Q2 2026 Amtagvi revenue ($90.7M) beat the company's own $79-81M quarterly forecast.",
+      "impact": null,
+      "source": "SEC 8-K (ex99-1); company Q2 2026 earnings coverage"
     },
     {
       "date": "2026-09-29",
@@ -140,11 +153,32 @@
     }
   ],
   "conflicts": [
-    "ESMO 2026 session dates: the melanoma proffered paper (2072O) date is now resolved as Oct 23, 2026 per Iovance's own Oct 23, 2026 press release (62.5% ORR, 29.2% CR, lifileucel+pembrolizumab frontline melanoma) — previously disputed Oct 23 vs Oct 24. The sarcoma Rapid Oral (#3725RO) date remains unresolved: Iovance's own announcement says Oct 23 (Fri, 16:15-17:45 CEST), a separate BiopharmaWatch item says Oct 26 (Mon) — not reconciled."
+    "ESMO 2026 session dates: already-on-file conflict for the sarcoma Rapid Oral (#3725RO) remains unresolved — Iovance's own Oct 19 release scheduled it for Oct 23; a second Iovance release (issued ~Oct 23) stated it would occur Oct 26; subsequent coverage (Oct 26, Oct 28) is consistent with the Oct 26 date but no ESMO-program primary source was reachable to confirm.",
+    "Market cap: ranges from ~$1.5B-$1.9B (older/lower-price snapshots) to $6.62B (2026-10-23, $14.14 close) to $3.78B (2026-08-21, $8.29 close) — driven by a large stock price move, not share-count differences (share count stable ~447-453M throughout).",
+    "Short interest: one aggregator reports 25.69% of shares outstanding / 29.57% of float; Equibles (2026-08-21) reports ~22.07% of float — different dates/methodology, both kept.",
+    "Next earnings date: company guidance says only 'early November 2026'; one aggregator guesses Nov 5, another (AJ Bell) guesses Nov 6 — neither company-confirmed; the range of unconfirmed guesses has widened, not narrowed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no new confirmed price, catalyst, or fundamentals change since the 2026-10-28 PM pass. Existing conflicts stand.",
+  "notes": "Could not establish a clean EPS figure or resolve P/E this pass. Revenue growth and the guidance-raise figure are the strongest new findings.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -273,9 +307,19 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

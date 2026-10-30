@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.166Z",
+  "lastResearched": "2026-10-30T21:26:19.237Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -33,9 +33,10 @@
       "note": "676,404 shares short as of 2026-04-30 (up from 515,756 two weeks earlier), ~1.44 days to cover — percent-of-float not confirmed for that date. An older MarketBeat figure of 60.26% of float as of 2025-09-30 is stale and from before the most recent financings."
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Not found in available sources this session; a $3.2M public offering priced 2026-06-17 (closed 2026-06-18) would have added to the cash balance, but a post-offering cash figure was not located"
+      "value": 2430000,
+      "asOf": "2026-06-30",
+      "source": "SEC 10-Q (accession 000149315226036619)",
+      "note": "Down from $3.1M at 2026-03-31 (down from $6.45M at 2025-12-31). Predates the Oct 8-9, 2026 financing, which added new proceeds not yet reflected here."
     },
     "debt": {
       "value": null,
@@ -98,11 +99,25 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-29",
+      "type": "community/marketing",
+      "headline": "Company to participate in Lung Cancer Initiative of North Carolina's 'Battle of the Blues' event.",
+      "impact": null,
+      "source": "SEC EDGAR 8-K"
+    },
+    {
       "date": "2026-10-15",
       "type": "conference/data presentation",
       "headline": "8-K discloses bioAffinity will sponsor a Learning Theater at CHEST 2026 (American College of Chest Physicians annual meeting) on the clinical use of CyPath Lung for lung cancer risk assessment",
       "impact": "Resolves the prior pass's note about an undated CHEST 2026 sponsorship",
       "source": "https://app.edgar.tools/filing/1712762/0001493152-26-021861/ex99-1.htm"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "conference/data presentation",
+      "headline": "8-K: company to present data at CHEST 2026 on investigational sputum-based tests (explicitly not yet FDA cleared/approved).",
+      "impact": null,
+      "source": "SEC EDGAR 8-K"
     },
     {
       "date": "2026-10-13",
@@ -121,6 +136,20 @@
     {
       "date": "2026-10-08",
       "type": "regulatory/IP",
+      "headline": "8-K: Japan Patent Office issued a Notice of Allowance for a method-of-predicting-lung-cancer-likelihood patent covering CyPath Lung.",
+      "impact": null,
+      "source": "SEC EDGAR 8-K"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "offering/dilution",
+      "headline": "8-K: entered a securities purchase agreement to sell 116,545 shares of common stock plus pre-funded warrants for up to 536,836 additional shares to an institutional investor; closing occurred 2026-10-09. This dilutive financing is the most plausible driver of the recent ~-16% session move, though the exact date/size of that move could not be independently pinned down this session.",
+      "impact": null,
+      "source": "SEC EDGAR 8-K"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "regulatory/IP",
       "headline": "8-K discloses bioAffinity's patent portfolio now includes 22 awarded U.S. and foreign patents and 36 pending applications, including a Japanese patent allowance (the 5th patent protecting CyPath Lung in Asia, alongside China and Hong Kong)",
       "impact": "Expands IP protection for CyPath Lung in Asian markets",
       "source": null
@@ -131,6 +160,13 @@
       "headline": "8-K discloses bioAffinity's patent portfolio now includes 22 awarded U.S. and foreign patents and 36 pending applications, including a Japanese patent allowance (the 5th patent protecting its early lung cancer test awarded in Asia, alongside China and Hong Kong)",
       "impact": "Expands IP protection for CyPath Lung in Asian markets",
       "source": null
+    },
+    {
+      "date": "2026-10-06",
+      "type": "operational",
+      "headline": "8-K/press release: CyPath Lung test sales increased more than 100% year-over-year through Q3 2026.",
+      "impact": null,
+      "source": "SEC EDGAR 8-K"
     },
     {
       "date": "2026-10-06",
@@ -202,14 +238,27 @@
     }
   ],
   "conflicts": [
-    "Price/share-count inconsistency: the Oct 8, 2026 offering priced common stock at $6.122/share, but the on-file Oct 9, 2026 Wedbush delayed quote shows $4.725, and a separate secondary-source snapshot (biopharmawatch, via CHEST 2026 coverage) cites a $3.96 price and ~$5.1M market cap on 2026-10-15. None of these three reconcile against the then-592,373 pre-offering shares outstanding; not resolved this session.",
-    "Shares outstanding progression is internally inconsistent across 2026 filings: 592,373 (post Aug 21, 2026 1-for-15 reverse split) -> 1,166,625 (per SEC 424B5, as of Oct 8, 2026, pre-offering) -> 1,283,170 (per same 424B5, post-offering, Oct 9, 2026). The roughly 2x jump between the post-split count and the pre-offering count on a later date is unexplained by any single financing found and is not reconciled.",
-    "A separate earlier-2026 S-1 cites 4,743,061 shares as of June 10, 2026 and a September prospectus cites 600,736 shares as of Sept 2, 2026 -- these two figures alone imply a reverse split happened between June and September, separate from the already-recorded Aug 21 1-for-15 split event. Not reconciled; treat all BIAF share counts with caution pending a clean primary-source timeline.",
-    "Next-earnings estimate dispersion widened this session: EarningsWhispers Nov 6, 2026 (matches on-file) vs TrendSpider Nov 13, 2026 vs a third aggregator's Nov 18, 2026 — none company-confirmed; on-file Nov 6 estimate left unchanged."
+    "Price/share-count inconsistency: the Oct 8, 2026 offering priced common stock at $6.122/share, but the on-file Oct 9, 2026 Wedbush delayed quote shows $4.725, and a separate secondary-source snapshot cites a $3.96 price and ~$5.1M market cap on 2026-10-15. None of these three reconcile against the then-592,373 pre-offering shares outstanding; not resolved.",
+    "Shares outstanding progression is internally inconsistent across 2026 filings: 592,373 (post Aug 21, 2026 1-for-15 reverse split) -> 1,166,625 (per SEC 424B5, as of Oct 8, 2026, pre-offering) -> 1,283,170 (per same 424B5, post-offering, Oct 9, 2026). The jump is unexplained by any single financing found.",
+    "A separate earlier-2026 S-1 cites 4,743,061 shares as of June 10, 2026 and a September prospectus cites 600,736 shares as of Sept 2, 2026 — implying a reverse split happened between June and September, separate from the already-recorded Aug 21 1-for-15 split. Not reconciled; treat all BIAF share counts with caution.",
+    "Next-earnings estimate dispersion: EarningsWhispers Nov 6, 2026 (on-file) vs TrendSpider Nov 13, 2026 vs a third aggregator's Nov 18, 2026 — none company-confirmed.",
+    "New (this pass) market cap conflict: aggregators (Simply Wall St ~$18.0M/4.49M shares; roic.ai internally inconsistent $5.35M vs a different implied price; TipRanks 4,498,709 shares) do NOT reconcile with the SEC-filed 1,283,170-share count at all — aggregators appear to be using unadjusted/stale share counts. Angel One separately shows price $3.53 (2026-10-19), market cap $2.38M, implying ~674K shares — below every count found including the SEC figure. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: no new dated catalyst. A widely-indexed \"CyPath sales doubled to record\" headline traced back to a May 2026 release about April 2026 volumes, not an Oct 2026 event, so not recorded as new.",
+  "notes": "SEC EDGAR and most aggregator sites were unreachable via WebFetch (DNS failures) this session; all figures above came from WebSearch result summaries. Found 4 new 8-Ks since the on-file 10-15 CHEST sponsorship item. The 10/8-10/9 dilutive financing is the strongest candidate cause of the recent ~-16% move, but this is inference, not a confirmed causal link.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -344,9 +393,13 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

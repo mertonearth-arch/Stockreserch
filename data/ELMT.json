@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.172Z",
+  "lastResearched": "2026-10-30T21:26:19.259Z",
   "fundamentals": {
     "marketCap": {
       "value": 608000000,
@@ -46,31 +46,33 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Profitability/earnings data not located",
-      "asOf": "2026-10-23"
+      "note": "GAAP net losses in both Q1 and Q2 2026; a clean trailing-twelve-month GAAP EPS was not established this pass, so left null rather than guessed."
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
+        "period": "Q1 2026",
+        "value": -0.02,
         "basis": "GAAP",
-        "note": "not found"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not found"
+        "note": "Adjusted +$0.24 (one source shows adjusted $0.23 instead — minor unreconciled conflict)."
       },
       {
         "period": "Q2 2026",
-        "value": null,
+        "value": -0.16,
         "basis": "GAAP",
-        "note": "not found"
+        "note": "vs GAAP net income +$0.06/sh Q2 2025. Adjusted +$0.18/sh vs adjusted $0.14/sh a year earlier."
       }
     ],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 66400000
+      },
+      {
+        "period": "TTM",
+        "value": 228500000,
+        "yoy": 8.2
+      }
+    ],
     "growth": {
       "metric": "revenue YoY",
       "period": null,
@@ -90,6 +92,13 @@
     "note": "Most recent dated quote found (Benzinga); stale by ~1 week vs. 2026-10-23"
   },
   "catalysts": [
+    {
+      "date": "2026-10-01",
+      "type": "M&A/investment",
+      "headline": "RESOLVES PRIOR TIMING CONFLICT: the Masan High-Tech Materials (MSR) 4.99% stake sale to The Elmet Group CLOSED on this date, per a Dechert LLP announcement (Dechert advised Masan Group on the sale for $124.75M, implying a $2.5B MSR equity valuation). The actual close (Oct 1) falls within the 'H1 October 2026' window one source estimated; the other source's 'Q3 2026' reference appears to have simply been wrong or used a non-calendar quarter convention. No company 8-K confirming the Oct 1 closing itself (only the Sept 23, 2026 signing 8-K) was located — this is a one-source (legal-advisor) confirmation, not a primary filing.",
+      "impact": null,
+      "source": "Dechert LLP, 'Dechert advises Masan Group on US$125 million sale of stake in Masan High-Tech Materials to The Elmet Group', published 2026-10-22"
+    },
     {
       "date": "2026-09-24",
       "type": "M&A/investment",
@@ -162,11 +171,26 @@
     }
   ],
   "conflicts": [
-    "Market cap around Oct 1-16, 2026: $608.0M at $19.96 (trade-ideas, 2026-10-01) vs. $520.45M at $18.69 (Motley Fool, date unclear) vs. $643.30M (Angel One, undated, day range $19.95-$21.36). Not reconciled to one figure."
+    "Next-earnings-date sources disagree: one aggregator lists 'next earnings date' as 2026-08-28, clearly stale (doesn't match the Q2 release of 2026-08-13); the on-file 2026-11-12 estimate for Q3 2026 results was not independently confirmed by a company source this session.",
+    "Market cap and shares-outstanding figures are not from October 2026 and could not be refreshed this session (stale figures range $437.7M-$514.8M; shares outstanding ~28.85M-30.46M across sources)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no October-dated news beyond what's on file. A reported IPO lockup expiring \"in late October\" had no exact date given, so not recorded as a catalyst per the dated-catalyst rule. The Q2 2026 10-Q (period ended 2026-07-03) is presumed filed by now (45-day deadline passed); clearing from pendingFilings.",
+  "notes": "Primary job (confirm whether the Masan deal closed) is answered: yes, closed 2026-10-01, per a reasonably authoritative legal-advisor release — recommend confirming against an ELMT 8-K Item 2.01 filing if precision is later needed. Company confirmed as The Elmet Group Co. (Nasdaq: ELMT), Portland, Maine, NOT Materion (ticker MTRN, a separate company).",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -268,9 +292,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

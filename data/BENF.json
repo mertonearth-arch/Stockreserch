@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.172Z",
+  "lastResearched": "2026-10-30T21:26:19.258Z",
   "fundamentals": {
     "marketCap": {
       "value": 18000000,
@@ -31,20 +31,18 @@
       "note": "Not disclosed/not found in available sources this session"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Not found in available sources this session; SEC EDGAR 10-Q access was blocked in this sandbox"
+      "value": 5600000,
+      "asOf": "2026-06-30",
+      "source": "Q1 FY2027 results release (2026-08-14)"
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Company disputes a ~$130M HCLP Nominees, L.L.C. loan/debt (principal + accrued interest) as fraudulent and is pursuing a restructuring strategy to eliminate it (announced 2026-09-23); no clean, undisputed total-debt figure was found independent of this litigation."
+      "value": 96800000,
+      "asOf": "2026-06-30",
+      "source": "Q1 FY2027 results release (2026-08-14)"
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Negative earnings",
-      "asOf": "2026-10-22"
+      "note": "negative earnings"
     },
     "eps": [
       {
@@ -78,6 +76,20 @@
     "note": "Delayed quote, carried over from the prior pass; no quote dated after 2026-10-07 was found. A secondary source (Crowdfunded Wealth) cites $1.43 for 2026-10-05, inconsistent with the $1.24 figure already on file for Oct 7 -- not reconciled."
   },
   "catalysts": [
+    {
+      "date": "2026-10-22",
+      "type": "legal",
+      "headline": "A Southern District of New York spokesperson confirmed Bradley Heppner's criminal sentencing 'was adjourned without a new date' — as of this date, NO new sentencing date has been set. Judge Rakoff approved Heppner's removal of his former Quinn Emanuel attorneys; he has retained new counsel (Alexandra Shapiro, Jonathan Bach, consistent with on-file info) and reportedly plans to appeal.",
+      "impact": null,
+      "source": "InvestmentNews, 'GWG's Heppner hires Puff Daddy's attorneys as criminal sentencing looms', dated 2026-10-22"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "debt/financing",
+      "headline": "8-K filed disclosing a debt-letter-agreement amendment, effective 2026-10-07, between Beneficient and HH-BDH that pushed back a $1,000,000 cash-payment deadline owed to HH-BDH to March 31, 2027.",
+      "impact": null,
+      "source": "SEC EDGAR Form 8-K (CIK 0001775734), filed 2026-10-14"
+    },
     {
       "date": "2026-10-07",
       "type": "legal",
@@ -128,11 +140,27 @@
     }
   ],
   "conflicts": [
-    "Heppner sentencing date/status remains unresolved and contradictory: this session's search again surfaced secondary coverage (of the Sept 23, 2026 debt-elimination announcement) stating sentencing 'was currently scheduled for October 21, 2026' -- matching the dashboard's original on-file date -- while the prior pass's primary source (InvestmentNews) said the actual hearing was set for Oct 7, 2026 and was delayed indefinitely after defense counsel withdrew. No source found this session confirms whether a sentencing hearing (on either date) actually occurred or its outcome, despite today (2026-10-23) being after both candidate dates."
+    "Heppner sentencing date/status: THIS PASS RESOLVES the prior ambiguity — SDNY confirmed (2026-10-22) that sentencing was adjourned with no new date set, superseding the earlier conflicting reports (original Oct 7 date vs. a dashboard-carried Oct 21 date). No new date has been set as of 2026-10-30.",
+    "Shares outstanding / EPS / market cap figures vary by roughly 1-10x across sources and dates; one source references a 1-for-8 reverse stock split dated 2025-12-15, which would explain much of the discrepancy — flagged per standing rule 7, not guessed or reconciled to a single ratio-adjusted number.",
+    "Most recent market cap found: ~$12.4M as of 2026-10-26 (price $0.8197, -43.86% over the past month) vs much older/higher snapshots ($48M-$91.9M) — not reconciled, kept verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-23: Heppner sentencing status is the key open item -- could not confirm whether/when sentencing occurred despite a targeted search for an October 2026 outcome; flag as a priority re-check for the next pass. No new restructuring-plan or earnings updates found beyond what's already on file (Sept 23 debt-elimination strategy, Aug 14 Q1 FY2027 earnings). Next earnings date remains only an unconfirmed Earnings Whispers estimate (2026-11-13).",
+  "notes": "The sentencing-date question is now answered: as of 2026-10-22, still no new date set. Recommend a follow-up check closer to the next PM pass since SDNY dockets can move quickly once new counsel is in place. No new Nasdaq-compliance or going-concern disclosure was found dated in October 2026.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -215,9 +243,15 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

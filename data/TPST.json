@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.179Z",
+  "lastResearched": "2026-10-30T21:26:19.246Z",
   "fundamentals": {
     "marketCap": {
       "value": 12500000,
@@ -27,15 +27,15 @@
       "note": "Could not reconcile conflicting figures: TipRanks 4,440,161 (likely stale, possibly pre-dating or otherwise inconsistent with the 2025-04-08 1-for-13 reverse split); Equibles 14,806,997; Google Finance 15.98M; and an implied ~19.7M backed out of the Trade-Ideas market cap/price snapshot (2026-10-16). None could be confirmed against the 10-Q cover page because WebFetch to SEC.gov failed with DNS errors in this sandbox."
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "Not located in sandbox search."
+      "value": 341334,
+      "asOf": "2026-05-29 (FINRA settlement date)",
+      "note": "2.3% of shares outstanding, 3.6 days to cover — down from 401,128 shares the prior settlement period. May be stale relative to today given how much the share count has apparently moved since."
     },
     "cash": {
-      "value": 1222000,
+      "value": 779000,
       "asOf": "2026-06-30",
-      "source": "SEC 10-Q (quarter ended 2026-06-30): cash, cash equivalents and restricted cash at end of period",
-      "note": "Extremely low relative to FY2025 operating cash burn of ~$26.8M per a third-party aggregator; implies a very short runway, though the company has also raised cash via warrant-based private placements since (see on-file catalysts)."
+      "source": "SEC Form 8-K (Item 2.02), Q2 2026 results, Exhibit 99.1",
+      "note": "Down sharply from $7,707K at December 31, 2025 — implies a very short cash runway, consistent with the March 2026 $2.16/share private placement and the September 2026 ~$2.5M warrant-based raise already on file. An undated aggregator figure of $14.28M cash with no debt and only 4.44M shares conflicts sharply with this SEC-sourced figure and is almost certainly stale/pre-dilution — kept as a conflict, not treated as current."
     },
     "debt": {
       "value": 7600,
@@ -45,8 +45,7 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis (reconfirmed)"
+      "note": "negative earnings; clinical-stage, pre-revenue"
     },
     "eps": [
       {
@@ -110,13 +109,27 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: Value Research 13,481,070 (as of 2026-04-02) vs TipRanks ~4.44M (undated, likely reflects a different post-split count) vs a 10-K's pre-split 45,483,384 (as of 2025-03-21, i.e. before the 1-for-13 reverse split that took effect 2025-04-08). None of these is a verified current (late-2026) count; could not reconcile this session.",
-    "Market cap: Value Research ~$20M at $1.59/share (2026-04-02) vs Simply Wall St ~$15.5M (data as of 2025-11-24) vs TipRanks ~$48.75M (undated) — spread driven by both conflicting share counts and non-contemporaneous prices; not reconciled this session.",
-    "Cash: SEC 10-Q (quarter ended 2026-06-30) reports $1.222M cash+restricted cash at period end, which is far below a Simply Wall St estimate of ~$7.5M cash (dated late 2025) — the SEC figure is more current and more authoritative; flagging the gap rather than treating the older third-party figure as current."
+    "WATCH FOR REVERSE SPLIT (flagging, not guessing a ratio): Tempest received a Nasdaq bid-price deficiency notice in December 2024 after closing below $1.00 for 30 consecutive business days; shareholders approved a reverse split at an unspecified ratio between 1-for-2 and 1-for-15. A mid-2026 snapshot shows a 52-week price range of $1.22 to $12.23 — a ~10x spread consistent with a reverse split having occurred within that window. Exact ratio/effective date NOT confirmed this pass.",
+    "Share counts across sources differ by roughly 10x (4.44M vs 14.8M vs 43.64M) depending on date — almost certainly reflects the above reverse split plus subsequent dilutive financings (March 2026 PIPE at $2.16/share; the Sept 2026 ~$2.5M warrant private placement already on file), rather than any single source being simply wrong. Not reconciled.",
+    "Cash figures conflict sharply: $779K (SEC 8-K, 2026-06-30) vs $14.28M (undated aggregator) — the latter almost certainly predates the reverse split/dilution and should not be treated as current.",
+    "Market cap: readings found span ~$15.5M to ~$48.75M across sources/dates, driven by both conflicting share counts and non-contemporaneous prices — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: a Factor Bioscience CAR-T acquisition (announced 2025-11-19, outside the ~6-month catalyst window and not confirmed to have closed) surfaced in stale sources — not recorded as a new catalyst. Confirmed it is a separate, distinct transaction from the on-file Hebei Senlang CD7 licensing deal (2026-08-13/09-16), not a duplicate. Shares-outstanding conflict remains unresolved.",
+  "notes": "Despite a thorough search, NO new dated news, press release, or 8-K was found for TPST between 2026-09-16 and 2026-10-30. The most recent filing located was the Aug 13, 2026 8-K covering Q2 2026 results (cash position above). Given the severe cash position and apparent reverse split/heavy dilution history, recommend treating all TPST share-count-derived figures (market cap, P/E, EPS) as unestablished until a current 10-Q or dated quote is obtained. Relevant pipeline context (not a dated catalyst): TPST-2003 CAR-T program reported a 100% complete response rate among 15 CAR-T-naive evaluable patients across partner-run trials in the Q2 2026 update; TPST-4003 (Senlang) collaboration first patient enrollment/dosing in China expected Q4 2026.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -236,9 +249,14 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "shortInterest updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

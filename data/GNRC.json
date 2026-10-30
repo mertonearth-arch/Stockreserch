@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.173Z",
+  "lastResearched": "2026-10-30T21:26:19.247Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -20,19 +20,20 @@
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 58870000,
-      "asOf": null,
-      "source": "equibles.com (undated; roughly consistent with the Oct 11 market cap and price)"
+      "value": 58868681,
+      "asOf": "2026-05-01",
+      "source": "SEC Form 10-Q (Q1 2026 cover page), cross-checked against the 2026-03-31 balance sheet (74,218,726 shares issued less 15,464,527 treasury shares = ~58.75M outstanding)",
+      "note": "Most authoritative figure found; a more current Q3 2026 10-Q cover-page figure was not located this pass."
     },
     "shortInterest": {
       "value": null,
       "note": "sources disagree and none give a clean, dated %-of-float figure: Trade-Ideas (Oct 11, 2026) says short interest fell 7% month-over-month with ~4% of investors short; Equibles (undated) shows 2.4M shares short / 3.0 days to cover; MarketBeat (undated) shows a short-interest ratio (days to cover) of 1.86"
     },
     "cash": {
-      "value": 265500000,
-      "asOf": "2026-03-31",
-      "source": "OpenCapital balance-sheet aggregation of Q1 2026 10-Q (cash and short-term investments)",
-      "note": "Down from $341.4M at year-end 2025. This is a Q1 2026 figure, not current; no Q2/Q3 2026 cash figure was located this session."
+      "value": 264921000,
+      "asOf": "2026-06-30",
+      "source": "SEC Form 8-K exhibit",
+      "note": "Down from $341,413,000 at 2025-12-31. A Q3 2026 (9/30/26) balance sheet was not located this pass."
     },
     "debt": {
       "value": 1400000000,
@@ -42,17 +43,10 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Sources disagree sharply and neither gives a clear as-of date: MarketBeat trailing P/E 67.26x vs eToro snapshot 46.92x. FY2026 consensus EPS itself is unreconciled ($8.11 per Barchart vs $8.45 per Seeking Alpha, both apparently pre-dating the Q2 beat), so no forward P/E is recorded as established fact.",
-      "asOf": null
+      "note": "Two sharply conflicting trailing P/E readings found, kept both: ~87x vs 29.51x. NOT a negative-earnings case — Generac is profitable — this is a genuine source conflict, likely reflecting different EPS bases (GAAP vs adjusted TTM) or different as-of dates.",
+      "forward": null
     },
     "eps": [
-      {
-        "period": "Q2 2026",
-        "value": 2.91,
-        "basis": "non-GAAP",
-        "note": "beat $1.99 consensus; already on file"
-      },
       {
         "period": "Q3 2026",
         "value": 1.83,
@@ -61,8 +55,8 @@
       {
         "period": "Q3 2026",
         "value": 2.54,
-        "basis": "non-GAAP (adjusted)",
-        "note": "beat consensus estimate of $2.44 (Benzinga)"
+        "basis": "adjusted diluted",
+        "note": "Beat consensus (cited as either $2.43 or $2.44 depending on source)."
       }
     ],
     "revenue": [
@@ -81,7 +75,8 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 16
+      "pct": 16,
+      "note": "Q3 2026 net sales $1.29B (+16% YoY) MISSED the ~$1.32B analyst consensus despite the YoY growth. Commercial & Industrial segment sales grew ~28% YoY in Q3 2026 (new this pass). FY2026 guidance (mid-to-high-teens% net sales growth; adj. EBITDA margin ~20.5-21.0%) reaffirmed."
     },
     "nextEarnings": {
       "date": null,
@@ -97,10 +92,24 @@
   "catalysts": [
     {
       "date": "2026-10-28",
+      "type": "price action",
+      "headline": "MIXED/CONFLICTING reports on the stock's reaction to the Q3 2026 print (kept verbatim, not reconciled): one source reports a ~2.07% premarket decline to $187.88 (well off the 52-week high of $296.44); another reports a ~3.0% premarket decline; a third (GuruFocus) reports a ~3.3% premarket GAIN, directly contradicting the first two. By 2026-10-29, sources describe the stock up ~1% intraday, closing around $203.32. Underlying driver, consistent across sources: adjusted EPS of $2.54 beat consensus (~$2.43-$2.44) but net sales of $1.29B missed the ~$1.32B consensus despite +16% YoY growth — a genuine beat-and-miss combination plausibly explaining the divergent characterizations (premarket dip on the revenue miss vs. recovery on the EPS beat/data-center backlog).",
+      "impact": null,
+      "source": "GuruFocus; Yahoo Finance; Investing.com"
+    },
+    {
+      "date": "2026-10-28",
       "type": "earnings",
       "headline": "Generac reported Q3 2026 results before market open: record net sales of $1.29B (+16% YoY), GAAP net income $109M ($1.83/diluted share), adjusted net income $151M ($2.54/diluted share, beating the $2.44 consensus estimate), gross margin 39.9%, free cash flow $131.7M. Data-center product backlog grown to approximately $4.5 billion following the Amazon agreement and other wins (the Amazon deal itself still projects ~$2.4B of initial deliveries across 2027-2028). Maintained full-year 2026 net sales growth guidance in the mid-to-high-teens percent range; narrowed full-year adjusted EBITDA margin guidance to approximately 20.5%-21.0%.",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001474735/000143774926033685/ex_1032565.htm"
+    },
+    {
+      "date": "2026-10-08",
+      "type": "analyst_action",
+      "headline": "Piper Sandler initiated coverage on GNRC with a Buy rating and a $303 price target.",
+      "impact": null,
+      "source": "Google Finance analyst-ratings page"
     },
     {
       "date": "2026-09-16",
@@ -122,16 +131,42 @@
       "headline": "Generac reported Q2 2026 results before the open: EPS of $2.91 on revenue of $1.17 billion (+10.6% YoY), with Commercial & Industrial external net sales up ~29% YoY to $556 million; revenue came in slightly below some analyst expectations. Management cited a data-center backlog of $1.6 billion as of July 2026 and said tariff refunds helped margins and cash flow; the Sussex, WI plant was said to be on track to begin production ahead of schedule.",
       "impact": null,
       "source": "https://www.barchart.com/story/news/3521153/generac-nysegnrc-misses-q2-cy2026-sales-expectations; https://www.barchart.com/story/news/3545202/gnrc-q2-deep-dive-data-center-backlog-fuels-commercial-segment-expansion"
+    },
+    {
+      "date": "~2026-10-28",
+      "type": "analyst_action",
+      "headline": "Jefferies reiterated a Buy rating on GNRC and kept its price target at $279 following the Q3 2026 print.",
+      "impact": null,
+      "source": "Investing.com ('Jefferies reiterates Buy on Generac stock, keeps $279 target')"
     }
   ],
   "conflicts": [
-    "Trailing P/E: MarketBeat 67.26x vs eToro 46.92x (neither dated precisely).",
-    "FY2026 consensus EPS: Barchart $8.11 (implying ~27.9% YoY growth) vs Seeking Alpha $8.45 (Dec 2026 estimate) -- both found this session, dates/vintage unclear, likely pre-Q2-beat.",
-    "A low-confidence single-source price read (eToro/Robinhood-style aggregator, undated-to-Oct-14) showed GNRC closing 2026-10-14 at $198.06, down 7.57% from $214.29, with no company news identified as cause -- not added as a catalyst because the source quality and exact date could not be corroborated this session."
+    "Pre-market/same-day stock reaction to the Oct 28, 2026 Q3 print is reported inconsistently across sources, ranging from a ~3.3% premarket GAIN to a ~2-3% premarket DECLINE, settling to a reported ~+1% by the next session — see catalysts.",
+    "Q3 2026 adjusted-EPS consensus cited as either $2.43 or $2.44 by different sources.",
+    "Trailing P/E: ~87x vs ~29.51x. Forward P/E: ~31.06x vs ~17.20x. Not reconciled.",
+    "Market cap: ~$16.29B vs ~$8.46B, despite near-identical share counts (~58.87M vs ~59.50M) — the ~2x gap strongly suggests one figure is stale; not resolved.",
+    "Current stock price itself disputed across October 2026 samples (~$214.29 vs $194.60 (10/20) vs $214.55 vs $187.88 (premarket 10/28) vs ~$203.32 (post-earnings)) — none could be confirmed as the definitive 2026-10-30 close.",
+    "Debt total: ~$1.51B (line-item sum, ~June 2026) vs $1.487B (appears to reflect an earlier/mismatched period)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — no new information found beyond the Q3 2026 earnings catalyst already on file (2026-10-28). Multiple searches for the post-earnings price reaction returned only 2025-vintage coverage.",
+  "notes": "Q4/FY2026 earnings date still not confirmed. Context: last cycle, Generac announced its Q4/FY2025 date on 2026-01-28 and reported 2026-02-11 — if that cadence holds, a Q4/FY2026 date announcement would be expected mid-to-late January 2027 with results early-to-mid February 2027 (pattern-based inference only, NOT a confirmed date). Direct WebFetch to most quote/filing sites failed in this sandbox beyond the three pre-flagged blocked domains; all figures here came via WebSearch snippets.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -261,9 +296,17 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

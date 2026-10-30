@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.177Z",
+  "lastResearched": "2026-10-30T21:26:19.245Z",
   "fundamentals": {
     "marketCap": {
-      "value": 16390000,
-      "asOf": "2026-09-12",
-      "source": "Tickertape (price $0.29 x shares outstanding)",
-      "note": "Highly volatile sub-$1 stock; other dated snapshots conflict materially -- see conflicts."
+      "value": 66140000,
+      "source": "stockanalysis.com snapshot (via WebSearch relay; exact date not shown)",
+      "note": "Other sources show a range ~$35-60M depending on date/price."
     },
     "float": {
       "value": null,
@@ -22,20 +21,17 @@
       "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": 55971338,
-      "asOf": "2026-08-06",
-      "source": "PDS Biotechnology Q2 2026 10-Q cover page (SEC EDGAR)"
+      "value": 55800000,
+      "source": "stockanalysis.com",
+      "note": "Up ~32% over the past year — meaningful dilution. This is shares outstanding, not float."
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
+      "note": "~1.85M shares / 3.31% of shares outstanding per one source; another shows a similar ~1.8M shares, ~1.5 days to cover. Reasonably consistent but exact as-of date not confirmed."
     },
     "cash": {
-      "value": 5600000,
-      "asOf": "2026-06-30",
-      "source": "Q2 2026 earnings release (reported 2026-08-13)",
-      "note": "Down sharply from $26.7M at 2025-12-31 (fiscal year-end) -- roughly a 79% decline over the six months, reflecting a severe cash burn rate. No debt figure located."
+      "value": null,
+      "note": "Two readings disagree: one source ~$26.7M cash vs ~$16.9M debt (net cash ~$9.8M); another ~$21.7M cash vs ~$15.9M debt. Kept both, not averaged."
     },
     "debt": {
       "value": null,
@@ -44,8 +40,7 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings (pre-revenue clinical-stage biotech)"
+      "note": "negative earnings; clinical-stage, pre-revenue"
     },
     "eps": [
       {
@@ -87,6 +82,27 @@
     "note": "Dated snapshots conflict sharply: $0.29 (2026-09-12, Tickertape); $0.21 (2026-08-31, Value Research); $0.77 (early Aug 2026, Upstox). Stock has apparently traded below $1.00 continuously through at least mid-September 2026, consistent with the Nasdaq minimum-bid-price deficiency notice already on file (no reverse split has been confirmed as executed)."
   },
   "catalysts": [
+    {
+      "date": "2026-10-18",
+      "type": "governance",
+      "headline": "Board shake-up (8-K filed 2026-10-20): four directors resigned effective immediately — Kamil Ali-Jackson, Esq., Stephen Glover, Gregory Freitag (J.D., CPA), and Otis Brawley, M.D. Three new directors appointed: Deborah A. Ramsdell, John A. Dawson, and Bruce Wendel.",
+      "impact": null,
+      "source": "SEC EDGAR Form 8-K (CIK 0001472091, filed 2026-10-20)"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "KOL event",
+      "headline": "Virtual KOL event featuring Dr. Jonathan M. Hernandez of the National Cancer Institute.",
+      "impact": null,
+      "source": "company announcement via secondary aggregator"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "publication",
+      "headline": "VERIFIES PRIOR-PASS UNCONFIRMED ITEM: PDS Biotechnology's VERSATILE-002 Phase 2 results (PDS0101 + pembrolizumab in HPV16-positive recurrent/metastatic head & neck squamous cell carcinoma) were published in the 2026-09-17 issue of JAMA Oncology. Specific figures corroborated consistently across multiple independent aggregators citing the same company press release: median OS 39.3 months (95% CI 23.9-NE) in the first-line, ICI-naive, CPS>=1 population vs. a cross-trial historical benchmark of ~17.9 months for standard pembrolizumab-based treatment; ORR 36% investigator / 34% central review in that group; Grade >=3 treatment-related AEs in 13.8% of treated patients (no Grade 5) vs ~17% historically. Cohort: 88 enrolled / 87 treated / 75 efficacy population / 53 ICI-naive CPS>=1 patients. Caveat: this is a company press release picked up by multiple aggregators, not an independent read of the JAMA Oncology article itself; also do not confuse with a separate, earlier Feb 2025 JAMA Oncology publication on a different PDS0101 combination across multiple HPV-associated cancers (median OS 42.4 months) — some secondary sources conflate the two.",
+      "impact": null,
+      "source": "Company press release via GlobeNewswire, syndicated across Finviz, BiopharmaWatch, iTiger, Panabee, BioSpace"
+    },
     {
       "date": "2026-09-22",
       "type": "publication",
@@ -161,8 +177,8 @@
     }
   ],
   "conflicts": [
-    "Market cap/price snapshots across Aug-Sept 2026 range from $0.21 to $0.77/share depending on the date and aggregator; not all dated consistently.",
-    "Nasdaq bid-price deficiency notice (30 consecutive days below $1.00, compliance deadline 2026-08-24) remains on file as unconfirmed via a primary 8-K; no evidence found this session that a reverse split has actually been executed, and the stock appears to still be trading sub-$1.00 as of mid-September 2026 snapshots."
+    "Market cap/price snapshots across Aug-Sept 2026 range from $0.21 to $0.77/share depending on date/aggregator; not all dated consistently (carried from prior pass).",
+    "Nasdaq bid-price deficiency notice (30 consecutive days below $1.00, compliance deadline 2026-08-24) remains unconfirmed via a primary 8-K; this pass found a further unconfirmed, undated reference to a Nasdaq minimum-bid-price deficiency (closing below $1.00 for 30 consecutive trading days) consistent with a 2026-10-16 close of $1.13 cited by a Japanese-language aggregator (down 13% that day, reason unconfirmed) — the stock appears to be trading near the $1 threshold again. NOT independently re-verified with a dated source; no reverse split assumed or guessed — flag for next pass."
   ],
   "pendingFilings": [
     {
@@ -172,11 +188,28 @@
     },
     {
       "item": "Nasdaq Minimum Bid Price deficiency notice (2nd)",
-      "note": "Received ~2026-07-30; compliance deadline reported by a secondary source as ~2026-01-26, unverified against primary 8-K text."
+      "note": "Received ~2026-07-30; compliance deadline reported by a secondary source as ~2026-01-26, unverified against primary 8-K text. Possible renewed deficiency risk per the 2026-10-16 $1.13 close noted above."
     }
   ],
-  "notes": "PM pass 2026-10-29: new finding — a SECOND Nasdaq bid-price deficiency notice, not previously recorded. Could not obtain a reliable current price (Oct 2026 snapshots conflict sharply, $0.21-$1.41) or confirm whether a reverse split has occurred.",
+  "notes": "Primary research priority (verifying the JAMA Oncology VERSATILE-002 publication) is now substantially corroborated — a material upgrade from last pass's null/unconfirmed status. The October board-refresh (8-K, Oct 18/20) is a new, filing-sourced catalyst not previously on file.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -279,9 +312,18 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

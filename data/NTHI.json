@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.176Z",
+  "lastResearched": "2026-10-30T21:26:19.244Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -43,9 +43,7 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech",
-      "asOf": "2026-10-23"
+      "note": "negative earnings"
     },
     "eps": [
       {
@@ -93,6 +91,13 @@
       "headline": "Announced a memorandum of understanding with the Department of Health - Abu Dhabi for scientific exchange and clinical research collaboration.",
       "impact": null,
       "source": "https://www.biopharmawatch.com/news/NTHI/neonc-breaks-through-key-levels-brain-cancer-stock (biopharmawatch discloses it is compensated by NTHI for coverage; treat accordingly)"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "governance",
+      "headline": "Board appointment effective this date: Ali Alabedin (Head of Islamic Banking Group, First Abu Dhabi Bank) named to NTHI board as Class I director, replacing Dr. Steven L. Giannotta (who moves to Scientific Advisory Board). Sourced to the company's own 8-K/press release, a materially better source than the paid biopharmawatch coverage flagged last pass.",
+      "impact": null,
+      "source": "Company 8-K Exhibit 99.1 (SEC EDGAR CIK 0001979414), syndicated via GlobeNewswire"
     },
     {
       "date": "2026-10-09",
@@ -170,8 +175,9 @@
     }
   ],
   "conflicts": [
-    "Price: undated Investing.com snapshot shows $4.68 vs. a 2026-10-14-dated snapshot of $2.65 -- a >75% discrepancy. Flagged per the reverse-split/implausible-price check; no split was confirmed, so neither figure is reported as current.",
-    "A set of search results referencing a '$50 million strategic partnership with Quazar Investment' set to close 'by October 23rd' carried source dates/content from 2025 (board approval 2025-06-30, contingencies met 2025-08-11, deadline 2025-10-23), i.e. one year prior to this report's date -- these appear to be stale/recycled content rather than a live 2026 catalyst, and were excluded from the catalysts list on that basis."
+    "Price: undated Investing.com snapshot shows $4.68 vs. a 2026-10-14-dated snapshot of $2.65 — a >75% discrepancy. No split confirmed, so neither figure treated as current (carried from prior pass).",
+    "FDA meeting confusion: a Roth Capital analyst expected an FDA Type B END-OF-PHASE-2 meeting for NEO100 'in October' 2026; separately, the company has confirmed an END-OF-PHASE-1 Type B meeting for NEO212 on 2026-11-17 (already on file as a pending item). These are two different drugs/meeting types — not to be conflated. No company release confirming the NEO100 October meeting was found.",
+    "NEO100 Phase 2a PFS metric cited inconsistently: one source cites 48.9% (unspecified timepoint), another cites 44% six-month PFS — not reconciled."
   ],
   "pendingFilings": [
     {
@@ -182,11 +188,24 @@
     {
       "item": "Next earnings report",
       "expectedDate": "2026-11-13",
-      "note": "Platform estimate only"
+      "note": "Platform estimate only; still not company-confirmed"
     }
   ],
-  "notes": "Theme 'Biotech Catalyst' fits. Cash ($1,973,420 at 2026-06-30) and a quarterly EPS figure (-$0.58, Q2 2026) are now established from primary SEC filing / earnings-release content, resolving prior-session gaps. Price/market cap remain unresolved due to a large, unreconciled discrepancy between sources -- flagged rather than guessed. A previously-circulating 'Quazar Investment $50M partnership' storyline appears to be 2025-dated content, not a current (2026) catalyst, and was excluded.",
+  "notes": "A June 16, 2026 8-K (Item 7.01) independently documents that the Department of Health - Abu Dhabi granted IND authorization for NEO212 — an earlier, SEC-filed event distinct from the Oct 21 MOU catalyst already on file, lending some independent credibility to the Abu Dhabi relationship generally. An unverified finviz item about a child's 'compassionate use' improvement with NEO100 could not be dated this pass — flagged for next pass, not added as a catalyst.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -282,9 +301,14 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

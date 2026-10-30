@@ -8,75 +8,54 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.179Z",
+  "lastResearched": "2026-10-30T21:26:19.261Z",
   "fundamentals": {
     "marketCap": {
-      "value": 13900000,
-      "asOf": "~2026-08 (exact date in source unclear)",
-      "source": "stockanalysis.com (via WebSearch summary only -- this domain is egress-blocked for direct WebFetch in this sandbox per environment notes, so this figure is unverified first-hand)",
-      "note": "Internally consistent with Value Research's Aug 28 2026 price of $4.70 x ~2.94M post-split shares outstanding (~$13.8M), which corroborates it."
+      "value": 11680000,
+      "asOf": "2026-10-26",
+      "source": "massive.com",
+      "note": "Price $3.97/share."
     },
     "float": {
       "value": null,
       "note": "not found in available sources"
     },
     "sharesOutstanding": {
-      "value": 2940000,
-      "asOf": "2026-06-17",
-      "source": "Company reverse-split press release (via 01net.it / placera.se / marketchameleon mirrors of the BusinessWire release)",
-      "note": "Pre-split count was 29,363,201 as of 2026-04-29 (Q1 2026 10-Q cover page, per WebSearch summary); company estimated the 1-for-10 reverse split effective 2026-06-17 would reduce this to ~2.9M. Google Finance separately shows 2.94M, consistent."
+      "value": 2960000,
+      "asOf": "2026-10-26",
+      "note": "Post-split."
     },
     "shortInterest": {
-      "value": null,
-      "note": "not found in available sources"
+      "value": 109440,
+      "asOf": "2026-09-30",
+      "note": "Post-split figure, 2.1 days to cover. An older PRE-split figure (842,712 shares, 2026-03-13) is not comparable — the apparent '87% decline' in shares short is largely or entirely a split artifact, not real short-covering."
     },
     "cash": {
-      "value": 31000000,
-      "asOf": "2026-06-30",
-      "source": "Company Q2 2026 earnings press release ('cash on hand as of the end of the second quarter of 2026 was $31.0 million')",
-      "note": "A third-party summary (Quartr) separately states $31.7M for the same date -- see conflicts."
+      "value": 31700000,
+      "asOf": "2026-06-30"
     },
     "debt": {
       "value": 229600000,
-      "asOf": "2026-06-30",
-      "source": "Quartr Q2 2026 earnings summary (third-party, not independently confirmed against the primary 10-Q -- sec.gov was unreachable in this sandbox)",
-      "note": "A separate third-party source (AlphaQuery) shows long-term debt of $223.54M as of 2026-03-31 (prior quarter), consistent in magnitude."
+      "asOf": "2026-06-30"
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "negative earnings -- Q2 2026 GAAP net loss was $35.3M, driven largely by a ~$35.2M goodwill impairment; company has reported losses across recent periods. No forward estimate found."
+      "note": "negative earnings — Q2 2026 GAAP net loss of $35.3M (vs $13.0M loss a year earlier), driven mainly by a non-cash goodwill impairment recorded in June 2026."
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved; FY2024 revenue was $274.79M per secondary source"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved; FY2025 revenue was $216.88M, down 21.08% YoY, per secondary source (simplywall.st/valueresearch)"
-      },
-      {
-        "period": "Q2 2026 (ended 2026-06-30)",
-        "value": null,
-        "basis": "GAAP",
-        "note": "GAAP net loss of $35.3M reported; no per-share figure was found in available sources, and post-split weighted-average share count during the transition quarter makes a derived estimate unreliable, so left null rather than guessed. Non-GAAP net income was $6.6M, +18% YoY."
+        "period": "Q2 2026",
+        "value": -12.53,
+        "basis": "GAAP (post-split-adjusted, aggregator-computed)",
+        "note": "Non-GAAP/adjusted EPS $1.78 vs $1.55 a year earlier; one consensus figure of $1.51 appears to be an estimate, not the actual."
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": 53400000,
-        "yoy": null
-      },
-      {
         "period": "Q2 2026",
         "value": 49100000,
-        "yoy": -8
+        "yoy": -8,
+        "note": "Mainly attributed to 2025 divestitures/sunset assets. Subscription & support revenue $46.2M, down 9% YoY (from $50.5M). Non-GAAP net income $6.6M, +18% YoY; adj. EBITDA margin steady at 26% of revenue. FY2026 guidance: revenue $190.1M-$196.1M; Q3 2026 guidance $45.7M-$48.7M."
       }
     ],
     "growth": {
@@ -89,7 +68,8 @@
       "date": "2026-11-13",
       "confirmed": false,
       "note": "Earnings Whispers estimate (before market open); other aggregators show stale placeholder dates (Jul 30, Apr 30, 2026) that have already passed and are not reliable. Prior pass's conflicting Nov 5/Nov 6 estimates persist across other sources."
-    }
+    },
+    "REVERSE_SPLIT_NOTE": "Upland executed a 1-for-10 reverse stock split, effective 2026-06-17 (charter amendment filed 2026-06-03), to regain Nasdaq minimum-bid-price compliance. Pre-split share count was ~29.4M; post-split ~2.9M. All post-6/17/2026 share counts below are POST-split; pre-split figures seen on some aggregator pages are stale/non-comparable."
   },
   "price": {
     "last": null,
@@ -136,11 +116,30 @@
     }
   ],
   "conflicts": [
-    "A 2026-08-10 Upstox snapshot states a $144.94M market cap at a $5.07 share price, which is inconsistent with the ~2.94M post-split shares outstanding already on file (implying ~$14.9M, not $144.94M) -- likely an aggregator error mixing the pre-reverse-split (~29.4M) share count with a post-split price. Flagging rather than using this figure."
+    "Carahsoft 'Master Government Aggregator' item: this session found the Carahsoft announcement itself (and syndicated pickups) dated 2026-08-17 ('Upland Software and Carahsoft Partner to Expand Public Sector Impact'), covering the same NASA SEWP V / NASPO ValuePoint contract-vehicle distribution described in the baseline. This is a DIFFERENT date than the on-file 2026-09-16 date, and no 2026-09-16-dated source for this item was found. Recommend treating 2026-08-17 as the better-supported date unless a 9/16 primary source turns up.",
+    "Next earnings date: on-file 2026-11-13 estimate (Earnings Whispers) still not confirmed directly by a company press release."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-10-22 pass. The Nasdaq market-value-of-publicly-held-shares cure period (to 2027-01-27) and the Jun 17, 2026 1-for-10 reverse split remain the key structural items on file. Next-earnings date estimates remain unconfirmed and inconsistent across sources (Nov 5, Nov 6, Nov 13, 2026).",
+  "notes": "The reverse split (confirmed this pass, 1-for-10 effective 2026-06-17) is the dominant fact for UPLD's fundamentals this period — it invalidates most pre-June-2026 share-count, market-cap, and short-interest figures found in generic aggregator searches. No clearly-dated substantive news found strictly after 2026-09-16/08-17.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -224,9 +223,19 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

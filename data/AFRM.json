@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T05:31:11.170Z",
+  "lastResearched": "2026-10-30T21:26:19.231Z",
   "fundamentals": {
     "marketCap": {
-      "value": 23880000000,
-      "asOf": "2026-10-06",
-      "source": "Angel One (https://www.angelone.in/us-stocks/affirm-holdings-inc-class-a-common-stock) — price $74.55, implied mkt cap $23.88B"
+      "value": 25130000000,
+      "asOf": "~2026-08",
+      "source": "Equibles snapshot, price $75.83",
+      "note": "Stale — predates the 2026-10-22 Sam's Club announcement and subsequent October price swings. No fresher figure established this pass."
     },
     "float": {
       "value": null,
@@ -27,8 +28,8 @@
     },
     "shortInterest": {
       "value": 14500000,
-      "asOf": "2026-08-14",
-      "note": "FINRA settlement data (quantisnow/curvedtrading aggregation), ~5.4 days to cover. Supersedes the prior on-file 2026-04-30 settlement-date figure and the undated 15.4M figure. Percent-of-float still disputed because the shares-outstanding denominator is itself disputed (294.4M vs 334.9M vs 292.4M across Equibles pages) — not computed; see conflicts."
+      "asOf": "2026-08-14 (FINRA settlement date)",
+      "note": "~5.4 days to cover. Prior settlement (2026-07-31): 15.4M shares, 4.4 days to cover. Percent-of-float conflicts: 4.60% (Equibles) vs 5.3% (Benzinga)."
     },
     "cash": {
       "value": null,
@@ -43,22 +44,40 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "EPS for the most recent quarter (Q4 FY2026, ended 2026-06-30) is disputed across sources by an order of magnitude (see conflicts); no multiple computed.",
-      "asOf": "2026-10-26"
+      "note": "GAAP TTM EPS is distorted by a one-time $1.448B tax benefit (true pre-tax income only $493M for FY2026); left null rather than computing a misleading multiple off the headline $5.53 GAAP EPS."
     },
     "eps": [
       {
-        "period": "Q4 FY2026 (qtr ended 2026-06-30)",
-        "value": null,
-        "basis": "disputed",
-        "note": "Sources disagree sharply: $4.62 GAAP (Zacks/Quiver Quant), inflated by a $1.45B one-time tax valuation-allowance release, vs $0.48 (EarningsWhispers, appears to be the adjusted/non-GAAP figure against a $0.33 consensus). Not reconciled — see conflicts."
+        "period": "FY2025 (ended 2025-06-30)",
+        "value": 0.16,
+        "basis": "GAAP basic",
+        "note": "Net income $52M; prior year FY2024 net loss $518M (-$1.67/share)."
+      },
+      {
+        "period": "FY2026 full year (ended 2026-06-30)",
+        "value": 5.53,
+        "basis": "GAAP diluted",
+        "note": "Net income $1.93B driven overwhelmingly by a one-time $1.448B income tax benefit — full-year pre-tax income was only $493M. Do NOT use this figure for a normal trailing P/E without flagging the distortion."
+      },
+      {
+        "period": "FQ4 FY2026 (qtr ended 2026-06-30)",
+        "value": 0.48,
+        "basis": "non-GAAP/adjusted",
+        "note": "Beat $0.33 consensus (EarningsWhispers). GAAP diluted for the same quarter is distorted by the same one-time tax benefit noted above."
       }
     ],
     "revenue": [
       {
-        "period": "Q4 FY2026 (qtr ended 2026-06-30)",
+        "period": "FQ4 FY2026",
         "value": 1170000000,
-        "yoy": 33
+        "yoy": 33,
+        "note": "Consensus was $1.11B. GMV $14.1B (+36% YoY), consensus GMV $13.4B."
+      },
+      {
+        "period": "FY2026 full year",
+        "value": 4300000000,
+        "yoy": 32,
+        "note": "GMV $50.2B (+37% YoY)."
       }
     ],
     "growth": {
@@ -80,11 +99,39 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-28",
+      "type": "macro",
+      "headline": "Ahead of the Fed's Oct 28 decision, traders' odds of a rate hold fell to 53% from 78.4% (LSEG data), shifting the macro backdrop for rate-sensitive fintech names including AFRM into month-end.",
+      "impact": null,
+      "source": "Reuters/LSEG data cited in secondary summary"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "price move",
+      "headline": "AFRM rose 4.6% to close near $73, a partial recovery following the Sam's Club deal and a broader fintech rebound.",
+      "impact": "+4.6%",
+      "source": "TIKR blog summary"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "price move",
+      "headline": "AFRM closed at $70.08, down approximately 3.2%, in the days following the Sam's Club announcement.",
+      "impact": "-3.2%",
+      "source": "MarketBeat"
+    },
+    {
       "date": "2026-10-22",
       "type": "contract",
       "headline": "Affirm announced a multi-year, exclusive deal to be Sam's Club's buy-now-pay-later provider. Online checkout on SamsClub.com is expected to go live in the coming weeks ahead of the holidays; in-store checkout at club locations is targeted for 2027. Affirm had lost Walmart's BNPL business to Klarna in 2025; Sam's Club had offered no installment option before this (BJ's has had one since 2021; Costco added Affirm in May 2025). Financial terms were not disclosed.",
       "impact": "Shares closed down 1.51% at $72.40 on announcement day per TIKR",
       "source": "https://www.pymnts.com/?p=4329284 ; https://www.paymentsjournal.com/sams-club-taps-affirm-as-exclusive-bnpl-provider/"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "macro",
+      "headline": "A hotter-than-expected September CPI inflation reading triggered a broad market selloff; AFRM shares fell more than 11.5% intraday at one point.",
+      "impact": "-11.5% intraday",
+      "source": "secondary market-commentary summary citing Reuters-sourced data"
     },
     {
       "date": "2026-10-05",
@@ -136,12 +183,30 @@
     }
   ],
   "conflicts": [
-    "EPS Q4 FY2026 (qtr ended 2026-06-30): $4.62 GAAP (Zacks/Quiver Quant, includes $1.45B one-time tax valuation-allowance release) vs $0.48 non-GAAP/adjusted (EarningsWhispers) — not reconciled, never averaged.",
-    "Shares outstanding: Equibles snapshot (~Aug 2026) lists 334.90M, while two other Equibles pages (undated) list 294,357,801 and 292,409,876 — three disagreeing readings, not reconciled."
+    "EPS Q4 FY2026: GAAP diluted $4.62-$5.53 depending on source/period scope (driven by a one-time $1.448B tax benefit; full-year pre-tax income only $493M) vs $0.48 non-GAAP/adjusted (beat $0.33 consensus) — kept distinct, not reconciled.",
+    "Shares outstanding: Equibles (~Aug 2026) 334.90M vs two other Equibles pages (undated) 294,357,801 and 292,409,876 — three disagreeing readings, not reconciled.",
+    "FY2025 revenue: $3.224B (aggregator consistent with 10-K context) vs $3.01B (SimplyWall St) — unresolved.",
+    "Market cap ($25.13B, ~Aug 2026) is stale, predating the Oct 22 Sam's Club announcement and subsequent price moves."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: quiet — Sam's Club deal (10-22) remains the latest dated catalyst; no new dated catalyst since. Price quotes found this session conflicted too widely ($44.76-$76) with inconsistent dates to use any of them.",
+  "notes": "No current (2026-10-30) closing price or updated market cap/P/E could be verified this pass — every quote site attempted failed in this sandbox.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "am",
@@ -334,9 +399,17 @@
   },
   "lastPass": {
     "date": "2026-10-30",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }
