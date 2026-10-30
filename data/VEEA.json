@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.300Z",
+  "lastResearched": "2026-10-30T05:31:11.187Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -139,6 +139,14 @@
   "notes": "PM pass 2026-10-23: nothing new. No catalysts found beyond the 2026-10-09 Nasdaq-compliance item already on file. The NovaGen Group business combination remains a non-binding term sheet as of this session's search -- no definitive agreement, termination, or other update located (one secondary aggregator's Oct 5 item simply repeats the Sept 14 term-sheet announcement with no new terms). Price data remains too inconsistent across sources to establish a reliable current market cap (a Digrin monthly series shows ~$5.70 for Oct 2026 vs ~$0.49 in June 2026), consistent with the reverse-split-driven conflict already flagged on file -- not re-resolved this session.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "am",
       "quiet": true,
@@ -211,7 +219,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "run": "am",
     "quiet": true,
     "changes": [],

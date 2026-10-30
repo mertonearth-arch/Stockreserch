@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.286Z",
+  "lastResearched": "2026-10-30T05:31:11.180Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -156,6 +156,14 @@
   "notes": "PM pass 2026-10-23: two new catalysts found that were missing from the file -- an Oct 2, 2026 Streeterville note debt-for-equity exchange (247,805 new shares) and an Oct 6, 2026 report that the reconvened annual meeting / warrant-share vote is now set for Oct 30, 2026. The sharesOutstanding figure already on file (1,436,344 as of Oct 14) was NOT independently re-verified against the Oct 2 share issuance this session -- the 247,805 new shares may or may not already be reflected in that count; flagged for the next pass.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "am",
       "quiet": true,
@@ -239,7 +247,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "run": "am",
     "quiet": true,
     "changes": [],

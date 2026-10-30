@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.265Z",
+  "lastResearched": "2026-10-30T05:31:11.164Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -70,12 +70,19 @@
     }
   },
   "price": {
-    "last": 47.63,
-    "changePct": -3.8,
-    "asOf": "2026-10-14",
-    "source": "Market-data aggregator snapshot (down $1.88, -3.80%, from a prior close of $49.51)"
+    "last": null,
+    "changePct": -17,
+    "asOf": "2026-10-29",
+    "note": "After-hours move on earnings reaction; no confirmed regular-session closing print found this session, source: WebSearch aggregation (Investing.com/GuruFocus)"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Roblox reported Q3 2026 results after market close: GAAP EPS -$0.32 (beat consensus of roughly -$0.40 to -$0.43); revenue $1.57B (+16% YoY from $1.36B), reported as a slight miss vs. ~$1.62B consensus; bookings $1.697B, down 12% YoY from $1.922B but above the high end of the company's own -14% to -18% guidance; GAAP net loss $230M (narrower than $258M a year ago); adjusted EBITDA $138M; free cash flow $364M. Daily active user growth reportedly turned negative (~-9%) for the first time. Q4 bookings guidance calls for a 10-15% YoY decline. Shares fell roughly 17% after hours despite the EPS/bookings beat.",
+      "impact": "-17% after hours",
+      "source": "https://www.gurufocus.com/news/9152597/roblox-corp-reports-q3-2026-loss-of-032-per-share-on-157-billion-revenue-beats-eps-estimates-but-misses-revenue-expectations"
+    },
     {
       "date": "2026-09-14",
       "type": "guidance",
@@ -106,8 +113,19 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-29: Q3 2026 report due after close today; multiple searches found only pre-report consensus/guidance (bookings guided $1.58-1.65B, -14% to -18% YoY; revenue guided $1.41-1.49B), not yet the actual print — too early to be indexed at this pass's research time. Recommend the next pass pick up the actual figures.",
+  "notes": "Sources conflict slightly on exact revenue ($1.57B vs ~$1.6B rounding) and EPS consensus figure cited (-$0.40 vs -$0.41 vs -$0.43); not reconciled, carried as reported.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -17%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "pm",
@@ -222,10 +240,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-10-30",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "move -17%"
+    ],
     "tradingDay": true
   }
 }

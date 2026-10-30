@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.261Z",
+  "lastResearched": "2026-10-30T05:31:11.174Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -171,6 +171,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-29: the preliminary proxy already on file (2026-10-19) was found to detail a reverse-split range (1-for-2 to 1-for-10) and expected CEO succession (Woodman to resign, Tebele to become Chair/CEO) at merger close — supplemental detail on the same filing, not a new dated event, so no new catalyst recorded. No current share price established this session.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "pm",
@@ -342,8 +350,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

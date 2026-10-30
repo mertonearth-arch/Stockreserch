@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.257Z",
+  "lastResearched": "2026-10-30T05:31:11.170Z",
   "fundamentals": {
     "marketCap": {
       "value": 23880000000,
@@ -142,6 +142,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-29: quiet — Sam's Club deal (10-22) remains the latest dated catalyst; no new dated catalyst since. Price quotes found this session conflicted too widely ($44.76-$76) with inconsistent dates to use any of them.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "pm",
@@ -325,8 +333,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

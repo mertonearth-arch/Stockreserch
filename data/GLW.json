@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.260Z",
+  "lastResearched": "2026-10-30T05:31:11.183Z",
   "fundamentals": {
     "marketCap": {
       "value": 116420000000,
@@ -128,6 +128,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-29: could not confirm the actual Oct 27-28 post-earnings stock reaction despite multiple queries (search results stale/off-year). Fundamentals otherwise unchanged from file.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "pm",
@@ -250,12 +258,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "date": "2026-10-30",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

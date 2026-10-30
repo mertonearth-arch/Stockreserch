@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T05:31:38.289Z",
+  "lastResearched": "2026-10-30T05:31:11.182Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -143,6 +143,14 @@
   ],
   "notes": "Theme 'Enterprise Software & Security' fits well. FY2026 and FY2025 annual EPS added this pass, with the FY2026 figure flagged as tax-benefit-driven rather than organic profitability. Market cap and a confirmed current price remain unresolved; next-earnings date (2026-11-19) remains an unconfirmed estimate.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "am",
@@ -292,7 +300,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "run": "am",
     "quiet": true,
     "changes": [],

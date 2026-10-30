@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.263Z",
+  "lastResearched": "2026-10-30T05:31:11.176Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -189,6 +189,14 @@
   "notes": "PM pass 2026-10-29: quiet — nothing dated later than the on-file Oct 24 ESMO INTerpath-001 presentation found.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": true,
@@ -311,8 +319,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

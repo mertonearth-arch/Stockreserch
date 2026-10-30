@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.264Z",
+  "lastResearched": "2026-10-30T05:31:11.177Z",
   "fundamentals": {
     "marketCap": {
       "value": 16390000,
@@ -178,6 +178,14 @@
   "notes": "PM pass 2026-10-29: new finding — a SECOND Nasdaq bid-price deficiency notice, not previously recorded. Could not obtain a reliable current price (Oct 2026 snapshots conflict sharply, $0.21-$1.41) or confirm whether a reverse split has occurred.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": false,
@@ -270,13 +278,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "new filing(s)"
-    ],
+    "date": "2026-10-30",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

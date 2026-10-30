@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.263Z",
+  "lastResearched": "2026-10-30T05:31:11.175Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -143,6 +143,14 @@
   "notes": "PM pass 2026-10-29: quiet — nothing dated after the on-file 2026-10-05 reporting-date announcement found. No reliable Oct 2026 closing price found.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": true,
@@ -255,8 +263,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.255Z",
+  "lastResearched": "2026-10-30T05:31:11.170Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -163,6 +163,14 @@
   "notes": "PM pass 2026-10-29: quiet — no new catalyst found. Checked specifically for an S-4/proxy filing on the North Immunology merger beyond the 2026-09-17 announcement already on file; none located. No reliable current price found.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": true,
@@ -306,8 +314,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

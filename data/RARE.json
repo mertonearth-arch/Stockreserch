@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.265Z",
+  "lastResearched": "2026-10-30T05:31:11.178Z",
   "fundamentals": {
     "marketCap": {
       "value": 1570000000,
@@ -172,6 +172,14 @@
   "notes": "PM pass 2026-10-29: no new catalysts beyond what's already on file (UBS initiation 10/15, PRV sales 10/14 and 10/7). Price and market cap refreshed.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": false,
@@ -294,13 +302,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-30",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 1,
-  "lastResearched": "2026-10-29T05:31:38.288Z",
+  "lastResearched": "2026-10-30T05:31:11.181Z",
   "fundamentals": {
     "marketCap": {
       "value": 2300000000,
@@ -157,6 +157,14 @@
   "notes": "PM pass 2026-10-23: nothing materially new. No catalysts, earnings, or regulatory news found beyond the Sept 22, 2026 Phase 3 EMBARQ topline readout and Aug 6, 2026 Q2 earnings already on file. Next-earnings date remains unconfirmed (conflicting estimates of Nov 5/9/10, 2026 persist). FY2024/FY2025 full-year EPS and a clean debt figure still not located.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "am",
       "quiet": true,
@@ -226,7 +234,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "run": "am",
     "quiet": true,
     "changes": [],

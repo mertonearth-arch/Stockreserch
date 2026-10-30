@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.258Z",
+  "lastResearched": "2026-10-30T05:31:11.172Z",
   "fundamentals": {
     "marketCap": {
       "value": 608000000,
@@ -168,6 +168,14 @@
   "notes": "PM pass 2026-10-29: quiet — no October-dated news beyond what's on file. A reported IPO lockup expiring \"in late October\" had no exact date given, so not recorded as a catalyst per the dated-catalyst rule. The Q2 2026 10-Q (period ended 2026-07-03) is presumed filed by now (45-day deadline passed); clearing from pendingFilings.",
   "history": [
     {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-29",
       "run": "pm",
       "quiet": true,
@@ -259,8 +267,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
+    "date": "2026-10-30",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-29T21:18:40.257Z",
+  "lastResearched": "2026-10-30T05:31:11.167Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -215,6 +215,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-10-29: EIX reported Q3 2026 today. Core EPS beat, revenue missed. Earnings-date ambiguity now resolved.",
   "history": [
+    {
+      "date": "2026-10-30",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-29",
       "run": "pm",
@@ -424,18 +432,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-29",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-10-30",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
