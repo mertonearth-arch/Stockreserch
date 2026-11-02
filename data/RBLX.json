@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.970Z",
+  "lastResearched": "2026-11-02T21:15:35.120Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -129,11 +129,21 @@
   ],
   "conflicts": [
     "Shares outstanding: SEC Q3 2026 10-Q reports 715.696M (Class A+B combined) as of 2026-09-30 — close to Equibles' ~714.38M (2026-08-13) but conflicts with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative; prior broad conflict narrowed, not fully eliminated.",
-    "RBLX price/market cap for 2026-10-30 is unverified — every quote-data site attempted failed with DNS/egress errors in this sandbox. The prior on-file market cap (~$34.03B, as of 2026-10-14, pre -17% AH drop on 10/29) is confirmed stale and should not be treated as current."
+    "RBLX current price/market cap still unverified as of 2026-11-02 PM pass — every quote-data source attempted this session (Investing.com, StockAnalysis, CoinGecko, eToro search snippets) returned conflicting, non-contemporaneous snapshots. The on-file ~$34.03B market cap (as of 2026-10-14, pre -17% post-earnings drop) remains known-stale and should not be read as current."
   ],
   "pendingFilings": [],
-  "notes": "FY2024/FY2025 annual EPS and the debt line were not reached this pass. A follow-up pass should prioritize RBLX's actual 2026-10-29/10-30 regular-session closing price and market cap given the -17% after-hours reaction to Q3 earnings.",
+  "notes": "No new dated catalyst found since the 2026-10-29 Q3 earnings print already on file (no dated analyst-reaction follow-up located this session). Could not obtain a reliable Nov 2, 2026 closing price or market cap — every quote source attempted (Investing.com, StockAnalysis, Benzinga, CoinGecko, eToro) returned stale or conflicting snapshots; stockanalysis.com and finance.yahoo.com direct fetches remain DNS-blocked. Price/market cap left as the existing stale/flagged figures rather than guessing.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -284,9 +294,11 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

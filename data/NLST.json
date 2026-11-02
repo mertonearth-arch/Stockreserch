@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.966Z",
+  "lastResearched": "2026-11-02T21:15:35.117Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -160,8 +160,16 @@
     "TTM EPS: -$0.02 vs -$0.023 across two sources — both negative, minor numeric difference not resolved."
   ],
   "pendingFilings": [],
-  "notes": "No update was found on the ITC DDR5 investigation's status as to the three other respondents (Super Micro, HPE, Lenovo) since the baseline's Oct 21 note — remains an open gap. Separately, an August 2025 (not 2026) Netlist complaint/ITC matter against Samsung, Google, and Super Micro is a DIFFERENT docket from the 2026 Micron-named DDR5 case (337-TA-1472) and should not be conflated with it.",
+  "notes": "PM pass 2026-11-02: no news dated after the on-file 2026-10-21 Latham & Watkins ITC-settlement-confirmation catalyst was found. No update on the DDR5 ITC investigation's status versus the other respondents (Super Micro, HPE, Lenovo). Earnings date remains an unresolved estimate conflict (Nov 3 vs Nov 5), unchanged.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -314,7 +322,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

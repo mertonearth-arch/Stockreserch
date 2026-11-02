@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.950Z",
+  "lastResearched": "2026-11-02T21:15:35.110Z",
   "fundamentals": {
     "marketCap": {
       "value": 3590000,
@@ -180,8 +180,16 @@
     "Next earnings date: Earnings Whispers says 2026-11-12; TipRanks says 2026-11-18 (flagged by TipRanks itself as an estimate)."
   ],
   "pendingFilings": [],
-  "notes": "MAJOR FINDING: the North Immunology reverse merger is real, large, and highly material (~$180M PIPE-backed; legacy Aethlon shareholders retain only ~4.75% of the combined company) and was previously under-flagged on file. Expected close Q1 2027 (outside date 2027-06-17) — remains a live, dated catalyst track (watch for S-4 filing, special stockholder-vote date, Nasdaq listing approval). No news of merger completion or S-4 filing found as of 2026-10-30. No cash/debt update newer than the baseline's $4.9M (2026-06-30) was found.",
+  "notes": "PM pass 2026-11-02: no update found on North Immunology merger progress (S-4, stockholder vote date, Nasdaq listing approval, or closing) since the 2026-09-17 announcement. No reliably-dated current price found — fundamentals left unchanged this session.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -356,7 +364,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

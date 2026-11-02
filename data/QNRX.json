@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.968Z",
+  "lastResearched": "2026-11-02T21:15:35.119Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -145,8 +145,16 @@
     "Market cap: ~$19.31M (recent aggregator, undated) vs $8.6M (on-file, 2026-07-24, MarketChameleon) — arithmetic mismatch, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No Quoin company news/press release was found dated between 2026-08-31 (the private-placement close on file) and 2026-10-30 — a ~2-month gap with no confirmed catalyst despite searching. Could not confirm current QRX003 (Netherton Syndrome) program status; the most recent dated program update found was from July 2025 (NDA filing targeted 2H 2026). No new 2026 ADS split identified beyond the confirmed 2025-04-09 1-for-35 ratio change.",
+  "notes": "PM pass 2026-11-02: no company news/press release found dated between the on-file 2026-08-31 private-placement close and today — confirms and extends the prior pass's finding of a ~2-month news gap. Earnings date remains an unconfirmed EarningsWhispers estimate of 2026-11-13; no company 8-K announcing a date was found.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -309,7 +317,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

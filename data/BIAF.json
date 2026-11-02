@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.944Z",
+  "lastResearched": "2026-11-02T21:15:35.106Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -245,8 +245,16 @@
     "New (this pass) market cap conflict: aggregators (Simply Wall St ~$18.0M/4.49M shares; roic.ai internally inconsistent $5.35M vs a different implied price; TipRanks 4,498,709 shares) do NOT reconcile with the SEC-filed 1,283,170-share count at all — aggregators appear to be using unadjusted/stale share counts. Angel One separately shows price $3.53 (2026-10-19), market cap $2.38M, implying ~674K shares — below every count found including the SEC figure. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "SEC EDGAR and most aggregator sites were unreachable via WebFetch (DNS failures) this session; all figures above came from WebSearch result summaries. Found 4 new 8-Ks since the on-file 10-15 CHEST sponsorship item. The 10/8-10/9 dilutive financing is the strongest candidate cause of the recent ~-16% move, but this is inference, not a confirmed causal link.",
+  "notes": "PM pass 2026-11-02: no new catalyst found beyond on-file 2026-10-29 item. Price/share-count searches returned only stale or lower-confidence figures than what's already on file (existing conflicts unresolved) — fundamentals left unchanged this session.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -401,7 +409,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

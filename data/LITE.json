@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.965Z",
+  "lastResearched": "2026-11-02T21:15:35.116Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -132,8 +132,16 @@
     "No reverse-split signal found for LITE this pass."
   ],
   "pendingFilings": [],
-  "notes": "No substantive LITE-specific news (analyst actions, customer wins, guidance updates) dated after 2026-10-05 was found this pass beyond the Oct 29/30 price-rally reporting — a gap, not a confirmed absence of news (lumentum.com unreachable in this sandbox). An ECOC 2026 optical die-to-die interconnect showcase with Qualcomm/Corning and a broad optical-sector selloff both predate Oct 5, 2026 and are excluded as 'new' catalysts.",
+  "notes": "No new dated catalyst found since the 2026-10-29/30 five-day-rally reporting already on file. WebSearch found only pre-existing Oct 1-28 price/revenue coverage and no new analyst actions or company announcements. Nov 5, 2026 earnings date remains company-confirmed. Fundamentals, conflicts unchanged.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -278,7 +286,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

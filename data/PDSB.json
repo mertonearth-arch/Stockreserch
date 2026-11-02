@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.967Z",
+  "lastResearched": "2026-11-02T21:15:35.118Z",
   "fundamentals": {
     "marketCap": {
       "value": 66140000,
@@ -178,21 +178,25 @@
   ],
   "conflicts": [
     "Market cap/price snapshots across Aug-Sept 2026 range from $0.21 to $0.77/share depending on date/aggregator; not all dated consistently (carried from prior pass).",
-    "Nasdaq bid-price deficiency notice (30 consecutive days below $1.00, compliance deadline 2026-08-24) remains unconfirmed via a primary 8-K; this pass found a further unconfirmed, undated reference to a Nasdaq minimum-bid-price deficiency (closing below $1.00 for 30 consecutive trading days) consistent with a 2026-10-16 close of $1.13 cited by a Japanese-language aggregator (down 13% that day, reason unconfirmed) — the stock appears to be trading near the $1 threshold again. NOT independently re-verified with a dated source; no reverse split assumed or guessed — flag for next pass."
+    "Price: one source (massive.com) shows PDSB at ~$1.04 on 2026-10-26 (down ~6% that day, implied market cap ~$80M); another (Upstox) shows $1.52-$1.54 on 2026-10-30 — a roughly 45-48% jump in 4 days with no corroborating catalyst found this session. Kept both, not averaged or picked."
   ],
   "pendingFilings": [
-    {
-      "item": "Next earnings",
-      "expectedDate": "2026-11-12",
-      "note": "Platform estimate only; not company-confirmed."
-    },
-    {
-      "item": "Nasdaq Minimum Bid Price deficiency notice (2nd)",
-      "note": "Received ~2026-07-30; compliance deadline reported by a secondary source as ~2026-01-26, unverified against primary 8-K text. Possible renewed deficiency risk per the 2026-10-16 $1.13 close noted above."
-    }
+    "Next earnings, estimated 2026-11-12 — platform estimate only, not company-confirmed",
+    "Nasdaq Minimum Bid Price deficiency notice (2nd), received 2026-07-30 (confirmed via primary 8-K, already on file as a catalyst with SEC source URL) — 180-day compliance deadline now corroborated by two independent secondary sources (StockTitan, minichart) as 2027-01-26, correcting the prior pass's \"~2026-01-26\" placeholder, which was an unverified date typo/guess, not a primary-source figure"
   ],
-  "notes": "Primary research priority (verifying the JAMA Oncology VERSATILE-002 publication) is now substantially corroborated — a material upgrade from last pass's null/unconfirmed status. The October board-refresh (8-K, Oct 18/20) is a new, filing-sourced catalyst not previously on file.",
+  "notes": "PM pass 2026-11-02: no news dated after the on-file 2026-10-18/20 board-shakeup 8-K was found. The second Nasdaq minimum-bid-price deficiency (2026-07-30) was already fully on file as a sourced catalyst; this session only corroborated/corrected its compliance-deadline date (see pendingFilings).",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -320,9 +324,12 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

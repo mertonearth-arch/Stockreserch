@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.952Z",
+  "lastResearched": "2026-11-02T21:15:35.110Z",
   "fundamentals": {
     "marketCap": {
       "value": 25130000000,
@@ -189,8 +189,16 @@
     "Market cap ($25.13B, ~Aug 2026) is stale, predating the Oct 22 Sam's Club announcement and subsequent price moves."
   ],
   "pendingFilings": [],
-  "notes": "No current (2026-10-30) closing price or updated market cap/P/E could be verified this pass — every quote site attempted failed in this sandbox.",
+  "notes": "PM pass 2026-11-02: no new dated catalyst found beyond what's already on file (last on-file catalyst 2026-10-28). WebSearch for a Nov 2 close price and fresh news returned only stale/undated aggregator snapshots (prices ranging $49.76-$73.65 with no reliable date); left price/fundamentals unchanged rather than recording an unverified number. Next earnings (2026-11-05, confirmed) still stands.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -407,7 +415,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

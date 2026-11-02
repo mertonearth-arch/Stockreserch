@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.968Z",
+  "lastResearched": "2026-11-02T21:15:35.119Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -144,8 +144,16 @@
     "Market cap: ~$1.11B at ~$17.74 (April 2026) vs ~$993.28M at 62,529,408 shares (April 2026) vs ~$1.70B at $26.99/63,067,485 shares (undated) — all from April 2026 or undated; none confirmed for October 2026. Given the Barclays (PT cut to $28 from $60) and RBC (PT cut to $48) actions, current market cap is likely well below these stale figures, but no reliable current pairing was found."
   ],
   "pendingFilings": [],
-  "notes": "HC Wainwright reaffirmed Buy on 2026-09-29 (day of the AMT-130 data readout, already on file); Wall Street Zen cut Hold to Sell on 2026-09-05 (before the window asked about, included for completeness). No confirmation was found that the Q3 2026 US/UK regulatory submissions for AMT-130 (targeted for Q3 2026) were actually filed, nor any outcome from the planned September 2026 presentation of 4-year AMT-130 follow-up data — these remain open items for a future pass.",
+  "notes": "No new dated catalyst found for QURE since the 2026-10-05 Barclays downgrade already on file (WebSearch of uniQure/AMT-130 news turned up nothing newer than the Jul 29 Q2 2026 print and Sept 29 AMT-130 readout, both already on file). Next earnings (Nov 4, 2026, before market open) remains unconfirmed by a uniQure primary source this session. Fundamentals, EPS, growth, cash/debt left unchanged.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -296,7 +304,7 @@
   },
   "lastPass": {
     "date": "2026-11-02",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true
