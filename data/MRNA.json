@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.236Z",
+  "lastResearched": "2026-11-02T05:31:54.966Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -181,6 +181,14 @@
   "notes": "Could NOT find any analyst rating or price-target action, or other news, specifically dated after the 2026-10-24 INTerpath-001 presentation this pass. Important context found but NOT added as a dated catalyst (undated relative to the Oct 24 presentation, per the no-undated-news rule): reports describe an ESMO embargo breach/leak of the INTerpath-001 data BEFORE the formal Oct 24 presentation, with shares reportedly falling sharply on the leak (estimates range ~15.6% to ~25% across outlets, not reconciled) — a William Blair analyst (Myles Minter) characterized the reaction as 'sell-the-news' since investors wanted a hazard ratio of 0.6 or better and the 42% relative risk reduction (HR 0.58) was seen as smaller than the ~49% reduction in the earlier Phase 2b study. A follow-up pass should pin down the leak date vs. the Oct 24 presentation date, the exact share-price move, and any analyst actions after Oct 24.",
   "history": [
     {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-30",
       "run": "pm",
       "quiet": false,
@@ -325,16 +333,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

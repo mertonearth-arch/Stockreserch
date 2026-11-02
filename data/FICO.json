@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.251Z",
+  "lastResearched": "2026-11-02T05:31:54.959Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -166,6 +166,14 @@
   "notes": "Confirms the FHFA/VantageScore story is still the dominant driver and has resumed sharply to the downside after the Oct 12-19 rebound described in the baseline. A workforce-cut item (~15% headcount reduction, ~$27M pretax Q4 FY26 charge, dated 2026-10-10) predates the baseline's Oct 19 cutoff so is not reported as 'new' here. Short interest not established this session.",
   "history": [
     {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-30",
       "run": "pm",
       "quiet": false,
@@ -304,18 +312,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

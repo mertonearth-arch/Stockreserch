@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.261Z",
+  "lastResearched": "2026-11-02T05:31:54.972Z",
   "fundamentals": {
     "marketCap": {
       "value": 11680000,
@@ -123,6 +123,14 @@
   "notes": "The reverse split (confirmed this pass, 1-for-10 effective 2026-06-17) is the dominant fact for UPLD's fundamentals this period — it invalidates most pre-June-2026 share-count, market-cap, and short-interest figures found in generic aggregator searches. No clearly-dated substantive news found strictly after 2026-09-16/08-17.",
   "history": [
     {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-30",
       "run": "pm",
       "quiet": false,
@@ -222,20 +230,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

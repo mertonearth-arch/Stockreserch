@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.233Z",
+  "lastResearched": "2026-11-02T05:31:54.946Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -163,6 +163,14 @@
   "pendingFilings": [],
   "notes": "FDA PDUFA target action date for the aficamten (MYQORZO) sNDA (MAPLE-HCM data, oHCM label expansion) remains 2026-11-14, unchanged. Background: Cytokinetics' ACACIA-HCM Phase 3 (non-obstructive HCM) met both primary endpoints, but 2 patients on aficamten had a serious heart-failure AE; company plans a non-obstructive HCM sNDA submission in Q4 2026 — this sits just ahead of the Nov 4 earnings and Nov 14 PDUFA date. No analyst action dated after the Oct 19 Health Canada approval was found this pass.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -367,18 +375,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "cash updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

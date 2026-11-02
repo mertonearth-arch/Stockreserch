@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.232Z",
+  "lastResearched": "2026-11-02T05:31:54.985Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -144,6 +144,14 @@
   "pendingFilings": [],
   "notes": "Q3 2026 net loss widened to $183.2M (vs $90.8M Q3 2025); 9-month net loss $469.5M. No analyst rating/price-target action dated after the 2026-10-28 print was found this pass (search budget exhausted before this could be checked) — flag as an open gap, not an absence of activity. FY2024/FY2025 annual EPS and a clean current shares-outstanding count from a primary source remain unestablished.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -306,16 +314,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "shortInterest updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

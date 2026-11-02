@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.248Z",
+  "lastResearched": "2026-11-02T05:31:54.962Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -177,6 +177,14 @@
   "pendingFilings": [],
   "notes": "GPRO closed at $1.03 on 2026-10-28 and $1.00 on 2026-10-29 (down ~2.9%); no single new fundamental driver identified for that specific day's move. No news found since 2026-10-19 of the Starman Optical deal falling through, a new default, or a new waiver — only the procedural Oct 27 POS AM filings confirmed. The preliminary proxy (PREM14A) for the merger still leaves the stockholder-meeting date/time blank. Could not confirm Nov 7 vs Nov 9, 2026 earnings date this pass.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -370,16 +378,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "shortInterest updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

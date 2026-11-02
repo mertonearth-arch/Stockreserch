@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.243Z",
+  "lastResearched": "2026-11-02T05:31:54.969Z",
   "fundamentals": {
     "marketCap": {
       "value": 1540000000,
@@ -212,6 +212,14 @@
   "notes": "Two Priority Review Voucher sales in October (10/7 for $210M, 10/14 for $203M tied to the FAYUVI approval) total $413M in non-dilutive cash — a significant update not previously on file. FAYUVI (UX111) received full FDA approval for pediatric MPS IIIA in 'September' 2026 per secondary sources, but no exact date was found, so it is NOT included as a dated catalyst — flagged here as important context only. Short interest not found this pass.",
   "history": [
     {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-30",
       "run": "pm",
       "quiet": false,
@@ -361,21 +369,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

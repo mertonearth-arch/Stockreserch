@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.244Z",
+  "lastResearched": "2026-11-02T05:31:54.967Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -194,6 +194,14 @@
   "notes": "A June 16, 2026 8-K (Item 7.01) independently documents that the Department of Health - Abu Dhabi granted IND authorization for NEO212 — an earlier, SEC-filed event distinct from the Oct 21 MOU catalyst already on file, lending some independent credibility to the Abu Dhabi relationship generally. An unverified finviz item about a child's 'compassionate use' improvement with NEO100 could not be dated this pass — flagged for next pass, not added as a catalyst.",
   "history": [
     {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-10-30",
       "run": "pm",
       "quiet": false,
@@ -300,15 +308,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

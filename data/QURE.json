@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.242Z",
+  "lastResearched": "2026-11-02T05:31:54.968Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -146,6 +146,14 @@
   "pendingFilings": [],
   "notes": "HC Wainwright reaffirmed Buy on 2026-09-29 (day of the AMT-130 data readout, already on file); Wall Street Zen cut Hold to Sell on 2026-09-05 (before the window asked about, included for completeness). No confirmation was found that the Q3 2026 US/UK regulatory submissions for AMT-130 (targeted for Q3 2026) were actually filed, nor any outcome from the planned September 2026 presentation of 4-year AMT-130 follow-up data — these remain open items for a future pass.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -287,20 +295,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

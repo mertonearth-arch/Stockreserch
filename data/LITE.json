@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.249Z",
+  "lastResearched": "2026-11-02T05:31:54.965Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -134,6 +134,14 @@
   "pendingFilings": [],
   "notes": "No substantive LITE-specific news (analyst actions, customer wins, guidance updates) dated after 2026-10-05 was found this pass beyond the Oct 29/30 price-rally reporting — a gap, not a confirmed absence of news (lumentum.com unreachable in this sandbox). An ECOC 2026 optical die-to-die interconnect showcase with Qualcomm/Corning and a broad optical-sector selloff both predate Oct 5, 2026 and are excluded as 'new' catalysts.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -269,16 +277,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

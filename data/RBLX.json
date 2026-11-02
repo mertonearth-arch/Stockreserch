@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-10-30T21:26:19.228Z",
+  "lastResearched": "2026-11-02T05:31:54.970Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -134,6 +134,14 @@
   "pendingFilings": [],
   "notes": "FY2024/FY2025 annual EPS and the debt line were not reached this pass. A follow-up pass should prioritize RBLX's actual 2026-10-29/10-30 regular-session closing price and market cap given the -17% after-hours reaction to Q3 earnings.",
   "history": [
+    {
+      "date": "2026-11-02",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-10-30",
       "run": "pm",
@@ -275,18 +283,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-10-30",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-02",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
