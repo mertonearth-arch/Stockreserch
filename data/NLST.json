@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T21:15:35.117Z",
+  "lastResearched": "2026-11-03T05:32:22.841Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -162,6 +162,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-02: no news dated after the on-file 2026-10-21 Latham & Watkins ITC-settlement-confirmation catalyst was found. No update on the DDR5 ITC investigation's status versus the other respondents (Super Micro, HPE, Lenovo). Earnings date remains an unresolved estimate conflict (Nov 3 vs Nov 5), unchanged.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "pm",
@@ -321,8 +329,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-02",
-    "run": "pm",
+    "date": "2026-11-03",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

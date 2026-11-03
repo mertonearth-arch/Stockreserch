@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T21:15:35.122Z",
+  "lastResearched": "2026-11-03T05:32:22.845Z",
   "fundamentals": {
     "marketCap": {
       "value": 11680000,
@@ -122,6 +122,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst confirmed for UPLD beyond what's on file; a Barron's piece dated roughly Oct 11-12, 2026 was referenced by an aggregator but its content could not be retrieved this session, so it is not recorded as a catalyst. Price snapshot found this session ($3.97, as of 2026-10-26) matches the figure already on file — not a change. Next earnings now also shown as Nov 5 via one source (TrendSpider) vs the on-file Nov 13 estimate — recording as an added conflict rather than overwriting.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "pm",
@@ -240,12 +248,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-02",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-03",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

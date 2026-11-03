@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.979Z",
+  "lastResearched": "2026-11-03T05:32:22.850Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -151,6 +151,14 @@
   "pendingFilings": [],
   "notes": "Q4/FY2026 earnings date still not confirmed. Context: last cycle, Generac announced its Q4/FY2025 date on 2026-01-28 and reported 2026-02-11 — if that cadence holds, a Q4/FY2026 date announcement would be expected mid-to-late January 2027 with results early-to-mid February 2027 (pattern-based inference only, NOT a confirmed date). Direct WebFetch to most quote/filing sites failed in this sandbox beyond the three pre-flagged blocked domains; all figures here came via WebSearch snippets.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-02",
       "run": "am",
@@ -303,7 +311,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "run": "am",
     "quiet": true,
     "changes": [],

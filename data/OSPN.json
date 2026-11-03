@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-02T05:31:54.981Z",
+  "lastResearched": "2026-11-03T05:32:22.852Z",
   "fundamentals": {
     "revenue": [
       {
@@ -46,6 +46,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-03",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-02",
       "run": "am",
       "quiet": true,
@@ -69,7 +77,7 @@
   ],
   "notes": "New to the watchlist this pass — picked up via a closing-movers scan, not from the due list. Fundamentals beyond the Q3 print (market cap, P/E, cash/debt, shares outstanding, float, short interest) were not researched this pass and are left for the next full pass on this name.",
   "lastPass": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "run": "am",
     "quiet": true,
     "changes": [],
