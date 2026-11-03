@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.843Z",
+  "lastResearched": "2026-11-03T21:19:52.942Z",
   "fundamentals": {
     "marketCap": {
       "value": 1540000000,
@@ -209,8 +209,16 @@
     "Debt: one aggregator ~$1.1B at 2026-03-31 vs another $1.25B at 2025-12-31 — no single-date figure confirmed."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found beyond the 2026-10-19 Navinta patent settlement already on file. Next earnings (2026-11-03, after close) has not yet happened — still unconfirmed by Ultragenyx's own IR site this session (its IR page was again unreachable). Fundamentals/EPS/cash left unchanged; short interest and float remain unestablished.",
+  "notes": "PM pass 2026-11-03: Q3 2026 earnings scheduled today after market close; not yet reported as of this research session, no actuals found. No new dated catalyst beyond what's already on file (Oct 19 patent settlement, Oct 15 UBS initiation, Oct 14 second PRV sale). Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -386,7 +394,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

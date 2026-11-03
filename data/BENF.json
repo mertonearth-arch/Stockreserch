@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.835Z",
+  "lastResearched": "2026-11-03T21:19:52.935Z",
   "fundamentals": {
     "marketCap": {
       "value": 18000000,
@@ -145,8 +145,16 @@
     "Most recent market cap found: ~$12.4M as of 2026-10-26 (price $0.8197, -43.86% over the past month) vs much older/higher snapshots ($48M-$91.9M) — not reconciled, kept verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: checked specifically for a new Heppner sentencing date — none has been set; the most recent report (2026-10-22, already on file) remains current: sentencing adjourned indefinitely, no new date. No other new dated catalyst found this session.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found. Heppner sentencing status (adjourned, no new date as of 2026-10-22) already resolved on file. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -267,7 +275,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

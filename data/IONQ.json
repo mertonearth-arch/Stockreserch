@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.830Z",
+  "lastResearched": "2026-11-03T21:19:52.930Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -158,8 +158,16 @@
     "Shares outstanding timeline still incomplete pending a Q3 2026 10-Q: 373.17M (2026-03-31) -> 381.00M (2026-07-29) -> + ~20.5M common shares from the Oct 16 offering close (warrants not yet counted)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: no new catalyst found beyond on-file 2026-10-22 earnings-date confirmation. No reliably-dated current price newer than the on-file 2026-10-15 close found — fundamentals left unchanged this session.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-22 earnings-date confirmation already on file. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -335,7 +343,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

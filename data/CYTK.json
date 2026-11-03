@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.830Z",
+  "lastResearched": "2026-11-03T21:19:52.929Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -161,8 +161,16 @@
     "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: no new catalyst found beyond on-file 2026-11-14 PDUFA item; Nov 4 earnings date remains company-confirmed per prior pass. No reliably-dated current price found — fundamentals left unchanged this session.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found. FDA PDUFA date (2026-11-14) for aficamten sNDA and the company-confirmed Nov 4 earnings date are both already on file. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -392,7 +400,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

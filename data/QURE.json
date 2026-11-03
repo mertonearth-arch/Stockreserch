@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.843Z",
+  "lastResearched": "2026-11-03T21:19:52.941Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -144,8 +144,16 @@
     "Market cap: ~$1.11B at ~$17.74 (April 2026) vs ~$993.28M at 62,529,408 shares (April 2026) vs ~$1.70B at $26.99/63,067,485 shares (undated) — all from April 2026 or undated; none confirmed for October 2026. Given the Barclays (PT cut to $28 from $60) and RBC (PT cut to $48) actions, current market cap is likely well below these stale figures, but no reliable current pairing was found."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found for QURE since the 2026-10-05 Barclays downgrade already on file (WebSearch of uniQure/AMT-130 news turned up nothing newer than the Jul 29 Q2 2026 print and Sept 29 AMT-130 readout, both already on file). Next earnings (Nov 4, 2026, before market open) remains unconfirmed by a uniQure primary source this session. Fundamentals, EPS, growth, cash/debt left unchanged.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-05 Barclays downgrade already on file. Q3 2026 earnings (Nov 4) not yet reported as of this pass; AMT-130 BLA submission status remains unconfirmed. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -312,7 +320,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

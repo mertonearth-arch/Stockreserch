@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.831Z",
+  "lastResearched": "2026-11-03T21:19:52.931Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -159,8 +159,16 @@
     "Next earnings date: company guidance says only 'early November 2026'; one aggregator guesses Nov 5, another (AJ Bell) guesses Nov 6 — neither company-confirmed; the range of unconfirmed guesses has widened, not narrowed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: no new catalyst found beyond on-file 2026-10-26 ESMO data presentation. No reliably-dated current price newer than the on-file 2026-10-06 reading found — fundamentals left unchanged this session.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found. Next-earnings date remains unconfirmed (company says only 'early November 2026'); aggregator guesses (Nov 5/Nov 6) unchanged. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -331,7 +339,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

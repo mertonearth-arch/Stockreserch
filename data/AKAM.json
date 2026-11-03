@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.835Z",
+  "lastResearched": "2026-11-03T21:19:52.934Z",
   "fundamentals": {
     "marketCap": {
       "value": 13335000000,
@@ -194,8 +194,16 @@
     "No AKAM closing price dated after 2026-10-14 could be confirmed this session; a Trefis snapshot shows $91.13 'as of 10/22/2026' but its own page header shows a '$0' price for 10/23 (apparent display error), and no other source corroborated either figure. Price/market cap left unchanged from the on-file 2026-10-14 figures."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: no new dated catalyst found (last on-file catalyst 2026-10-26). EarningsWhispers and Bullstory both now label the Nov 5 earnings date 'confirmed,' but neither is Akamai's own press release, so nextEarnings.confirmed stays false per standing rule (third-party label is not company confirmation). No fresher price than the on-file 2026-10-14 figure could be verified (SEC EDGAR and finance.yahoo.com unreachable from this sandbox).",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-26 record already on file. Next-earnings date (~2026-11-05) remains unconfirmed across aggregators. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -351,7 +359,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

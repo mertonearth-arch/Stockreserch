@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.838Z",
+  "lastResearched": "2026-11-03T21:19:52.938Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -175,8 +175,16 @@
     "No reverse-split signal found for GPRO this pass; flagging that this was checked per standing rule 7."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the 2026-10-27 POS AM resale-prospectus filings. WebSearch found nothing on the Starman Optical merger's status beyond the Sept 1, 2026 agreement and Oct 19 restatement already on file; still described as pending shareholder/regulatory approval, expected to close by year-end 2026. Nov 9, 2026 earnings date remains unconfirmed (one aggregator estimates Nov 7 instead). Fundamentals, conflicts unchanged.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-27 resale-prospectus amendment already on file. Confirmed the Oct 19 PREM14A merger-vote ballot (already on file) also bundles a reverse-stock-split and change-of-control proposal pending shareholder vote — not yet executed, so not logged as a separate catalyst. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -395,7 +403,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.838Z",
+  "lastResearched": "2026-11-03T21:19:52.937Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -147,8 +147,16 @@
     "Shares outstanding conflict (32.78M current vs 21.01M stale) is large enough that market-cap figures derived from each are not comparable."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the 2026-10-05 NXH merger termination and 2026-10-01 8-K debt-maturity extension (to 2026-11-01). WebSearch found a prior settlement detail requiring a $1.95M final payment and $5M convertible-note maturity on 2026-10-01 — consistent with, not additional to, the on-file 8-K extension; no confirmation found of how it was actually resolved. Nov 10, 2026 earnings date remains an unconfirmed estimate (two aggregators converge on it). Fundamentals, conflicts unchanged.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-05 NXH merger termination already on file. Nov 10 earnings date remains an unconfirmed estimate. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -297,7 +305,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

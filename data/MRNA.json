@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.840Z",
+  "lastResearched": "2026-11-03T21:19:52.939Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -178,8 +178,16 @@
     "Q3 2026 consensus EPS (not yet reported, confirmed earnings 2026-11-06): one source shows -$1.37 with revenue consensus $882.4M, a differently-localized page from the same aggregator shows -$1.12 with revenue consensus $917.9M — kept both verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-02: no news dated after the on-file 2026-10-24 INTerpath-001 presentation was found. Earnings remains confirmed for 2026-11-06, 8:00am ET (one secondary aggregator continues to show an unconfirmed Nov 5 estimate — not strong enough to displace the company-confirmed Nov 6 date already on file). No new reliable market-cap/price figure established.",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-24 Merck/Moderna Phase 3 data presentation already on file. Nov 6 earnings date remains company-confirmed. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -350,7 +358,7 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

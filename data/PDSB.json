@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.832Z",
+  "lastResearched": "2026-11-03T21:19:52.932Z",
   "fundamentals": {
     "marketCap": {
       "value": 66140000,
@@ -184,8 +184,18 @@
     "Next earnings, estimated 2026-11-12 — platform estimate only, not company-confirmed",
     "Nasdaq Minimum Bid Price deficiency notice (2nd), received 2026-07-30 (confirmed via primary 8-K, already on file as a catalyst with SEC source URL) — 180-day compliance deadline now corroborated by two independent secondary sources (StockTitan, minichart) as 2027-01-26, correcting the prior pass's \"~2026-01-26\" placeholder, which was an unverified date typo/guess, not a primary-source figure"
   ],
-  "notes": "PM pass 2026-11-02: no news dated after the on-file 2026-10-18/20 board-shakeup 8-K was found. The second Nasdaq minimum-bid-price deficiency (2026-07-30) was already fully on file as a sourced catalyst; this session only corroborated/corrected its compliance-deadline date (see pendingFilings).",
+  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond what's already on file. Nasdaq compliance deadline (2027-01-26) and Nov 12 earnings estimate remain pending/unconfirmed, carried forward unchanged. Quiet.",
   "history": [
+    {
+      "date": "2026-11-03",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -332,9 +342,11 @@
   },
   "lastPass": {
     "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "new filing(s)"
+    ],
     "tradingDay": true
   }
 }
