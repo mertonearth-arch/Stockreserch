@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.941Z",
+  "lastResearched": "2026-11-04T05:30:07.419Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -54,8 +54,9 @@
       "note": "Company is pre-commercial (no product revenue). 10-Q discloses going-concern doubt. A secondary source estimates combined liquidity of $10.8M against ~$1.3M/month burn (<8 months runway on that basis alone); this appears to exclude the Aug 2026 financing. See conflicts re: runway."
     },
     "nextEarnings": {
-      "date": "2026-11-13",
-      "confirmed": false
+      "date": "2026-11-05",
+      "confirmed": true,
+      "note": "Company's own 2026-10-29 press release: corporate update and Q3 2026 results before market open Nov 5, 2026. Supersedes prior unconfirmed Nov 13 aggregator estimate (Earnings Whispers), which is now the weaker/stale source."
     }
   },
   "price": {
@@ -147,6 +148,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-03: price updated to a more current dated reading ($4.02, 2026-10-25), superseding the on-file $4.28 (2026-07-24). No new dated catalysts, Nasdaq-compliance notices, or financing events found. Next earnings (~2026-11-13) remains unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -332,10 +343,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

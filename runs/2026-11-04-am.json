@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "run": "am",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "RARE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ]
+    },
+    {
+      "ticker": "QNRX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ]
+    }
+  ],
+  "created": [],
+  "promoted": [],
+  "demoted": [],
+  "quiet": []
+}
