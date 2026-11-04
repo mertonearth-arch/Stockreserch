@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T05:30:07.418Z",
+  "lastResearched": "2026-11-04T21:17:16.776Z",
   "fundamentals": {
     "marketCap": {
       "value": 1540000000,
@@ -216,8 +216,16 @@
     "Debt: one aggregator ~$1.1B at 2026-03-31 vs another $1.25B at 2025-12-31 — no single-date figure confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Last full-year revenue guidance on file (from an Aug 4, 2026 release) was $730M-$760M; this search did not surface whether the Nov 3 release changed that guidance.",
+  "notes": "PM pass 2026-11-04: Q3 2026 earnings (reported 2026-11-03, revenue $173M) already captured by this morning's AM pass — re-confirmed via WebSearch (revenue $173M vs ~$183.5-184.8M consensus, a miss; FY2026 guidance of $730-760M total / $500-520M Crysvita / $100-110M Dojolvi reaffirmed; company reiterated 2027 profitability target and said 2027 R&D spend would fall at least 50% vs. 2025). Could not locate the actual Q3 2026 EPS figure this session (pre-report consensus was -$0.66 to -$0.73/share, not an actual). No new catalyst beyond the AM-pass entry already on file; not re-appended to avoid duplication. Quiet for this pass.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "am",
@@ -412,12 +420,9 @@
   },
   "lastPass": {
     "date": "2026-11-04",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

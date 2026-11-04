@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.939Z",
+  "lastResearched": "2026-11-04T21:17:16.781Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -77,7 +77,7 @@
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": true,
-      "note": "company-announced reporting date for Q1 FY2027 results, after market close, call at 2:00pm PT / 5:00pm ET; a GuruFocus aggregator separately lists an estimated Nov 4, which should be disregarded in favor of the company-confirmed date"
+      "note": "Company-confirmed fiscal Q1 FY2027 report date, after market close; reconfirmed via multiple earnings calendars (EarningsWhispers, Tickeron, OpenCapital) this pass. Consensus estimates vary by source: EPS $3.82 (6-estimate average) vs $3.21 (another aggregator); company's own guidance was revenue $1.225-1.275B and non-GAAP EPS $4.05-4.35 -- not yet reported as of this pass."
     }
   },
   "price": {
@@ -132,8 +132,18 @@
     "No reverse-split signal found for LITE this pass."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-29 rally commentary already on file. Nov 5 earnings date remains company-confirmed. Quiet.",
+  "notes": "PM pass 2026-11-04: no new dated catalyst found since 2026-11-03. Nov 5 AMC earnings date remains company-confirmed; report not yet out as of this pass (market closed 2026-11-04). Quiet.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -301,10 +311,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

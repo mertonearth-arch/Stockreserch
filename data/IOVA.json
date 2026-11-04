@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.931Z",
+  "lastResearched": "2026-11-04T21:17:16.775Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -21,14 +21,16 @@
       "note": "Not separately disclosed in sources found; only shares-outstanding figures were available."
     },
     "sharesOutstanding": {
-      "value": 452970000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business",
-      "note": "Consistent with other sources (~446.5M-453M) despite large market-cap discrepancies driven by price moves, not share-count differences."
+      "value": 446500000,
+      "asOf": null,
+      "source": "StockAnalysis/Equibles (relayed via WebSearch; undated page)",
+      "note": "Close to but not identical to the on-file 452,970,000 (Fox Business, 2026-10-23). Difference is small and may be a rounding/timing artifact, not treated as resolving the conflict."
     },
     "shortInterest": {
-      "value": null,
-      "note": "Conflicting: one aggregator (relaying stockanalysis.com) cites 114.71M shares short = 25.69% of shares outstanding / 29.57% of float, ~8 days to cover; Equibles (2026-08-21) cites ~22.07% of float, ~6.3 days to cover. Different dates/methodology, not reconciled."
+      "value": 64800000,
+      "asOf": "2026-09-30",
+      "source": "Curved Trading, FINRA settlement date",
+      "note": "~2.8 days to cover; down sharply from 87.1M shares short at the 2026-09-15 settlement per the same source. Does NOT reconcile with the on-file Equibles (100.0M, 2026-08-21) or StockAnalysis-relayed (114.71M, undated) readings — kept as a separate, newer-dated conflicting reading, not averaged or substituted."
     },
     "cash": {
       "value": 313440000,
@@ -153,14 +155,24 @@
     }
   ],
   "conflicts": [
-    "ESMO 2026 session dates: already-on-file conflict for the sarcoma Rapid Oral (#3725RO) remains unresolved — Iovance's own Oct 19 release scheduled it for Oct 23; a second Iovance release (issued ~Oct 23) stated it would occur Oct 26; subsequent coverage (Oct 26, Oct 28) is consistent with the Oct 26 date but no ESMO-program primary source was reachable to confirm.",
-    "Market cap: ranges from ~$1.5B-$1.9B (older/lower-price snapshots) to $6.62B (2026-10-23, $14.14 close) to $3.78B (2026-08-21, $8.29 close) — driven by a large stock price move, not share-count differences (share count stable ~447-453M throughout).",
-    "Short interest: one aggregator reports 25.69% of shares outstanding / 29.57% of float; Equibles (2026-08-21) reports ~22.07% of float — different dates/methodology, both kept.",
-    "Next earnings date: company guidance says only 'early November 2026'; one aggregator guesses Nov 5, another (AJ Bell) guesses Nov 6 — neither company-confirmed; the range of unconfirmed guesses has widened, not narrowed."
+    "Short interest, newly found this pass: 64.8M shares / 2.8 days to cover at the 2026-09-30 FINRA settlement date (Curved Trading) vs. the on-file 100.0M (Equibles, 2026-08-21 settlement) and 114.71M (StockAnalysis-relayed, undated) readings — a large apparent decline, but settlement dates differ and none is confirmed current; all three kept verbatim, none chosen as authoritative.",
+    "Shares outstanding: 446,500,000 (StockAnalysis/Equibles, undated, found this pass) vs. 452,970,000 (Fox Business, 2026-10-23, on file) — close but not identical; not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found. Next-earnings date remains unconfirmed (company says only 'early November 2026'); aggregator guesses (Nov 5/Nov 6) unchanged. Quiet.",
+  "notes": "PM pass 2026-11-04: no new dated catalyst found. Next earnings (Nov 5, still only aggregator-estimated, not company-confirmed per the company's own 'early November 2026' language) unreported as of this pass. New short-interest data point added as a conflict, not a resolution.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -338,10 +350,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

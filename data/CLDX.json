@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-03T05:32:22.847Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-04T21:17:16.787Z",
   "fundamentals": {
     "marketCap": {
       "value": 2300000000,
@@ -154,8 +154,16 @@
     "Next earnings date: at least three different unconfirmed estimates exist (Nov 5, Nov 9, Nov 10, 2026); none is confirmed by the company."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-10-23: nothing materially new. No catalysts, earnings, or regulatory news found beyond the Sept 22, 2026 Phase 3 EMBARQ topline readout and Aug 6, 2026 Q2 earnings already on file. Next-earnings date remains unconfirmed (conflicting estimates of Nov 5/9/10, 2026 persist). FY2024/FY2025 full-year EPS and a clean debt figure still not located.",
+  "notes": "PM 2026-11-04: no follow-up found to the 2026-09-22 Phase 3 EMBARQ topline (barzolvolimab, CSU). Second consecutive quiet full pass for this name. Quiet.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -250,8 +258,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

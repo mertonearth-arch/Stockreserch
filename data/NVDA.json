@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.851Z",
+  "lastResearched": "2026-11-04T21:17:16.782Z",
   "fundamentals": {
     "marketCap": {
       "value": 5760000000000,
@@ -163,15 +163,17 @@
     "Market cap: $5.76T (2026-10-05 record-close coverage) vs. prior-pass figures of ~$5.45T (2026-10-13/14), ~$4.84T (undated), ~$4.45T (stale, tagged with a 'next earnings Nov 2025' label). The 2026-10-05 and 2026-10-13/14 figures both post-date the prior pass and are broadly consistent with each other (small pullback); the $4.45T-$4.84T readings are treated as stale.",
     "Cash/debt: ~$62.47B cash / ~$38.35B debt (one aggregator, undated) vs. ~$56.79B cash / ~$10.60B debt (another aggregator, appears to date to late 2025) -- debt figures differ by nearly 4x and were not reconciled this session either."
   ],
-  "pendingFilings": [
-    {
-      "item": "Next earnings (Q3 FY2027)",
-      "expectedDate": "2026-11-18",
-      "note": "Analyst/platform estimate; not company-confirmed"
-    }
-  ],
-  "notes": "Theme 'AI Semiconductors' clearly fits. FY2025 ($2.94) and FY2026 ($4.90) annual GAAP diluted EPS, plus Q2 FY2027 revenue (+106% YoY) and float/short-interest figures are newly established this pass. Cash and debt remain unresolved due to conflicting, apparently differently-dated aggregator figures (prior pass's gap persists).",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-13 Doctolib minority-stake report already on file. Nov 18 earnings date remains an unconfirmed analyst/platform estimate. Cash/debt figures remain unresolved per prior-pass conflicts. Quiet.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -338,8 +340,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

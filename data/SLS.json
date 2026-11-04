@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.855Z",
+  "lastResearched": "2026-11-04T21:17:16.785Z",
   "fundamentals": {
     "marketCap": {
       "value": 2833000000,
@@ -83,6 +83,13 @@
   "price": null,
   "catalysts": [
     {
+      "date": "2026-10-28",
+      "type": "clinical trial milestone",
+      "headline": "Phase 3 REGAL trial of galinpepimut-S (GPS) in AML reached its pre-specified 80th death event, triggering database lock, unblinding and final statistical analysis of the overall-survival primary endpoint; topline results expected later in Q4 2026",
+      "impact": "Shares fell ~18% per one source (TIKR, updated 2026-10-28); a separate source (Insider Monkey) reports a ~13% decline tied to the same news — not reconciled",
+      "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Reaches-80th-Event-in-Phase-3-REGAL-Trial-of-Galinpepimut-S-GPS-in-Acute-Myeloid-Leukemia/default.aspx"
+    },
+    {
       "date": "2026-10-16",
       "type": "price move",
       "headline": "Stock reported down approx. 12.6% intraday",
@@ -136,8 +143,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "As of 2026-08-18 (per licensing partner 3D Medicines), the REGAL trial had reached 78 of 80 required events -- still short of the 80th-event threshold that was reportedly already a subject of disclosure-delay allegations in Aug/Sept 2026 coverage (already on file); this timing tension is unresolved and flagged for a follow-up pass. Hong Kong arbitration with 3D Medicines over ~$13M in disputed milestone payments was reported with a ruling 'expected' in Q3 2026, but no outcome was located this session and no reliable date exists, so it is omitted from dated catalysts. Unconfirmed market speculation about a possible company sale (tied to revised change-of-control executive pay terms) was also not independently dated or confirmed, so omitted from catalysts per the dated-catalyst rule.",
+  "notes": "PM 2026-11-04: primary update is the 80th-event trigger for Phase 3 REGAL (company IR release). Topline OS results still pending, expected Q4 2026. Next-earnings estimates also diverge further this session (Earnings Whispers Nov 10, other aggregators Nov 11, vs on-file StreetInsider Nov 18) — none company-confirmed; not written into fundamentals.nextEarnings since no single source is more authoritative than what's on file. Market cap/short interest not re-verified this pass (egress-blocked/stale sources); carried over.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -236,10 +253,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

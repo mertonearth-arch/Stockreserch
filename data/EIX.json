@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.848Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-04T21:17:16.788Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -219,8 +219,16 @@
     "Market cap/price: no October 2026 figure confirmed beyond the stale on-file 2026-10-05 reading ($20.87B at $54.24/share); stock price reaction to the 10/29 print and regular-session closes on 10/29-10/30 could not be established this pass."
   ],
   "pendingFilings": [],
-  "notes": "Revenue of $4.89B for Q3 2026 remains single-sourced to 247wallst — a second source was not found this pass. Eaton Fire ignition-cause dispute (SCE disputes felony liability over an arcing event at a de-energized facility) reconfirmed but not newly dated.",
+  "notes": "No new catalyst found since the 2026-10-29 Q3 print already on file. No November 2026 news located.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -467,8 +475,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

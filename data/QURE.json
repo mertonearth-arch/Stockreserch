@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.941Z",
+  "lastResearched": "2026-11-04T21:17:16.784Z",
   "fundamentals": {
     "marketCap": {
       "value": 1457000000,
@@ -31,10 +31,10 @@
       "note": "~18.4% of shares outstanding, down 13.7% from mid-March 2026. ~7 months stale relative to today; no more current figure found."
     },
     "cash": {
-      "value": 810300000,
-      "asOf": "2026-06-30",
-      "note": "Cash, cash equivalents and current investment securities. Up from $622.5M at 2025-12-31, boosted by a ~$259M follow-on offering completed June 2026.",
-      "source": "aggregator relay of Q2 2026 results"
+      "value": 768400000,
+      "asOf": "2026-09-30",
+      "source": "Q3 2026 earnings release (Form 8-K, SEC EDGAR, filed 2026-11-04)",
+      "note": "Cash, cash equivalents and investment securities; down from $810.3M at 2026-06-30. Company states this funds projected operating expenses into 2030."
     },
     "debt": {
       "note": "Hercules Capital senior secured term loan facility (refinanced Sept 2025): up to $175M total facility, maturity extended to 2030. As of ~2026-03-31: long-term borrowings ~$50M, long-term finance leases ~$10M, short-term debt ~$3-4M, per an aggregator (not primary filing). June 30, 2026 figures not found."
@@ -48,24 +48,35 @@
         "period": "Q2 2026",
         "value": -1.22,
         "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.88,
+        "basis": "GAAP",
+        "note": "AP reports a $0.88/share loss ($61.2M net loss); Investing.com frames this as a beat vs. an $0.92 consensus estimate, while Zacks' average estimate was -$0.84 -- sources disagree on which consensus to use, kept as found."
       }
     ],
     "revenue": [
       {
         "period": "Q2 2026",
         "value": 5800000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 5200000,
+        "yoy": 40.5,
+        "note": "Up from $3.7M in Q3 2025, per the company's Q3 2026 release. A separate Investing.com item frames this as a miss vs. a $6.21M revenue forecast."
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 9.4,
-      "note": "Revenue is small royalty/license income (primarily HEMGENIX-related) relative to company size; operating cash burn of $66.8M for H1 2026 (net loss $134.6M) is arguably the more representative metric for this pre-commercial-scale biotech."
+      "period": "Q3 2026",
+      "pct": 40.5
     },
     "nextEarnings": {
-      "date": "2026-11-04",
+      "date": null,
       "confirmed": false,
-      "note": "Before market open, conference call 8:30am ET, per two independent third-party sources (QuiverQuant, BiopharmaWatch) — resolves the prior Nov 4 vs Nov 9 conflict in favor of Nov 4, but neither is uniQure's own primary press release, so left unconfirmed rather than company-confirmed."
+      "note": "Q3 2026 now reported (2026-11-04); next report (Q4/FY2026) date not yet announced."
     }
   },
   "price": {
@@ -75,6 +86,21 @@
     "source": "AAII investing-ideas coverage ('down about 1.5% from the prior close of $23.46'); consistent with the prior pass's $23.11 (2026-10-02) figure used for its market-cap calc"
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $5.2M (+40.5% YoY from $3.7M), a secondary source frames this as a miss vs. a $6.21M consensus; net loss $61.2M (-$0.88/share GAAP per AP, described elsewhere as a beat vs. an $0.92 consensus or Zacks' -$0.84 average); R&D $35.5M (up from $34.4M YoY); SG&A $23.9M (+$4.5M YoY, mainly commercial-recruitment and IT costs); cash, cash equivalents and investment securities $768.4M as of 2026-09-30 (down from $810.3M at 2026-06-30), which the company says funds operations into 2030",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001590560/000110465926122362/tm2628930d1_ex99-1.htm ; https://www.benzinga.com/news/26/11/62867470/uniqure-q3-2026-earnings-call-transcript"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "regulatory",
+      "headline": "FDA accepted uniQure's BLA for AMT-130 (Huntington's disease gene therapy) with Priority Review; secondary coverage reports a target PDUFA action date of 2027-05-01",
+      "impact": null,
+      "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-uniqure-posts-q3-2026-eps-beat-as-fda-review-advances-93CH-4999868",
+      "note": "Secondary coverage states the PDUFA target date as May 1, 2027; flagged for independent primary-source confirmation given it is nearly 6 months past the Q3 2026 report date -- plausible given typical priority-review timelines (BLA accepted ~Nov 2026 + ~6 months), but the 8-K excerpt available this session did not itself state the date verbatim."
+    },
     {
       "date": "2026-10-05",
       "type": "analyst_action",
@@ -140,12 +166,28 @@
     }
   ],
   "conflicts": [
-    "Q2 2026 earnings direction: one secondary source headlines 'uniQure Narrows Loss in Fiscal Q2' while another headlines 'UniQure Rises on Pipeline Progress Despite Wider Q2 Loss' — directly conflicting characterizations; exact EPS figure not retrieved before search budget ran out, so not resolved with a hard number.",
-    "Market cap: ~$1.11B at ~$17.74 (April 2026) vs ~$993.28M at 62,529,408 shares (April 2026) vs ~$1.70B at $26.99/63,067,485 shares (undated) — all from April 2026 or undated; none confirmed for October 2026. Given the Barclays (PT cut to $28 from $60) and RBC (PT cut to $48) actions, current market cap is likely well below these stale figures, but no reliable current pairing was found."
+    "Q3 2026 EPS/consensus framing: AP reports a -$0.88 loss per share and calls it simply 'a loss'; Investing.com calls the same result a beat vs. a -$0.92 consensus; Zacks' average estimate was -$0.84 (which -$0.88 would miss) -- three different consensus figures, not reconciled.",
+    "Q3 2026 revenue vs. forecast: Investing.com frames $5.2M as a miss vs. a $6.21M forecast, while the headline EPS result is simultaneously framed as a beat -- kept both characterizations, not reconciled into a single verdict."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-05 Barclays downgrade already on file. Q3 2026 earnings (Nov 4) not yet reported as of this pass; AMT-130 BLA submission status remains unconfirmed. Quiet.",
+  "notes": "PM pass 2026-11-04: Q3 2026 results reported before market open. Replaces the prior 'not yet reported' placeholder. FDA BLA acceptance with Priority Review for AMT-130 is the key new catalyst; the May 2027 PDUFA date is sourced to secondary coverage only.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -319,10 +361,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

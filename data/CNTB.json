@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.847Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-04T21:17:16.787Z",
   "fundamentals": {
     "marketCap": {
       "value": 115850000,
@@ -139,11 +139,17 @@
   "conflicts": [
     "Market cap/price, October 2026: no single verified current figure. Snapshots found: $115.85M at $1.84 (marketchameleon, 2026-09-04); undated eToro quote of $1.93 (-30% intraday move cited, no date); an unconfirmed-year $0.89 reading labeled 'Oct 14'. None could be confirmed as the 2026-10-23 price."
   ],
-  "pendingFilings": [
-    "10-Q Q2 2026 (period ended 2026-06-30)"
-  ],
-  "notes": "Theme 'Biotech Catalyst' fits. Cash figure for 2026-06-30 ($31.5M) is now corroborated by multiple earnings-summary sources, resolving the prior session's unverified-source caveat. FY2024/FY2025 annual EPS now established from the company's year-end results release. COPD Seabreeze STAT topline (~2026-10-01) is a new catalyst not previously on file; exact day not confirmed.",
+  "pendingFilings": [],
+  "notes": "No new catalyst found this pass. Price/market-cap conflict from prior pass remains unresolved (new undated snapshots found: $2.60 TradingView, $2.85 SimplyWall, $2.38 MarketBeat — all undated, not added to conflicts as they don't improve on the existing unresolved range).",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -251,8 +257,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

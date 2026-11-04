@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.853Z",
+  "lastResearched": "2026-11-04T21:17:16.791Z",
   "fundamentals": {
     "marketCap": {
       "value": 21970000000,
@@ -73,9 +73,9 @@
       "pct": 38
     },
     "nextEarnings": {
-      "date": "2026-12-01",
+      "date": null,
       "confirmed": false,
-      "note": "Carried from prior snapshot; no company 'to report' press release located this session. Rubrik's fiscal Q3 FY2027 ends 2026-10-31; based on the prior quarter's ~4-week reporting lag, an early-to-mid December date is plausible but unconfirmed."
+      "note": "Conflicting unconfirmed estimates: Dec 7, 2026 (Chartmill, citing consensus estimates of $0.08 EPS / $438.77M revenue for the quarter, not an actual earnings-date announcement) vs. the prior on-file ~Dec 1, 2026 estimate (no source found this session). Rubrik's fiscal Q3 FY2027 ends 2026-10-31; neither date is company-confirmed."
     }
   },
   "price": {
@@ -108,11 +108,23 @@
     }
   ],
   "conflicts": [
-    "Price: $113.41 (2026-10-19, Bullfincher) vs. an undated 'October 2026' reading of $118.58 (Digrin) -- not reconciled to a specific day."
+    "Price: $113.41 (2026-10-19, Bullfincher) vs. an undated 'October 2026' reading of $118.58 (Digrin) -- not reconciled to a specific day.",
+    "Next earnings date: Dec 7, 2026 (Chartmill, consensus-estimate basis) vs. ~Dec 1, 2026 (prior on-file estimate, source unclear) -- neither company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-10-22 pass; the Q2 FY2027 earnings print (2026-08-27) and balance-sheet figures already on file remain the most recent confirmed data. Next-earnings date remains an unconfirmed carry-forward.",
+  "notes": "No new dated catalysts found since the 2026-08-27 Q2 FY2027 print, still the most recent confirmed event. Next-earnings-date estimates now show a wider, still-unconfirmed range (Dec 1-7, 2026). Fundamentals otherwise unchanged.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -274,10 +286,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

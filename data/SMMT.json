@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.855Z",
+  "lastResearched": "2026-11-04T21:17:16.792Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -112,13 +112,21 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 earnings status is unclear: several aggregators list estimated report dates in the Oct 14-22, 2026 window (all now in the past as of this 2026-10-23 pass), but no actual results coverage was found. This needs direct confirmation from Summit's investor relations page or an SEC 8-K."
+    "Q3 2026 earnings status remains unresolved as of 2026-11-04: no 8-K or press release confirming Q3 2026 results was located in a second consecutive full pass, despite multiple now-past aggregator estimate dates (Oct 14-22, 2026) already flagged in the prior pass. This should be checked directly against Summit's IR site/SEC EDGAR before the next pass."
   ],
-  "pendingFilings": [
-    "FDA PDUFA goal action date of 2026-11-14 for the ivonescimab BLA (ivonescimab + chemotherapy in EGFR-mutated, locally advanced/metastatic NSCLC post-TKI therapy); BLA accepted by FDA 2026-01-29"
-  ],
-  "notes": "Most material open item: this session could not confirm whether Summit has reported Q3 2026 results, despite several now-past estimated dates in circulation (Oct 14/19/20/22). This should be checked directly against the company's IR site before the next pass. Separately, the FDA's PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC, post-TKI) is 2026-11-14, roughly three weeks from this report date -- a significant near-term regulatory catalyst to watch. No update to market cap/shares-outstanding conflicts already on file (cluster of ~744M-797M shares, ~$10.7B-$13B cap, none dated with confidence).",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-11-04: no new catalyst found beyond the 2026-10-05 AstraZeneca investment close already on file. FDA PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC) remains 2026-11-14, now 10 days out -- the key near-term catalyst to watch. Q3 2026 earnings-date conflict carried forward unresolved (see conflicts).",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -217,10 +225,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

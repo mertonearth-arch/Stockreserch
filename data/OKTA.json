@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.852Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-04T21:17:16.790Z",
   "fundamentals": {
     "marketCap": {
       "value": 31180000000,
@@ -179,15 +179,17 @@
     "Price: Fintel's 2026-09-30 market-cap/shares-outstanding figures imply a share price near $178, versus a prior-pass figure of $212.63 (source/date unclear) -- a large, unreconciled gap.",
     "Q2 FY2027 net income: Quartr reports $116M vs. TIKR reports $194.0M for the same quarter; not reconciled."
   ],
-  "pendingFilings": [
-    {
-      "item": "Next earnings (Q3 FY2027)",
-      "expectedDate": "2026-12-02",
-      "note": "Not independently confirmed by the company"
-    }
-  ],
-  "notes": "Theme 'Enterprise Software & Security' fits well; themeLabel 'established' retained. FY2025/FY2026 annual GAAP EPS, Q2 FY2027 GAAP EPS, cash (cash+short-term investments), debt, market cap, shares outstanding and short interest are all newly established or refreshed this pass, substantially filling prior-session gaps. A confirmed current share price remains the main outstanding gap, flagged as a conflict rather than guessed.",
+  "pendingFilings": [],
+  "notes": "No new dated catalysts found since the 2026-10-23 pass. The on-file Q3 FY2027 next-earnings estimate (2026-12-02, unconfirmed) is consistent with last year's reporting cadence (Q3 FY2026 was reported Dec 2, 2025, per search), but still has no company confirmation. Fundamentals otherwise unchanged -- quiet pass.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -368,8 +370,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

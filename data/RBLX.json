@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.943Z",
+  "lastResearched": "2026-11-04T21:17:16.784Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -80,9 +80,9 @@
       "note": "Q2 2026 revenue YoY was +36% (resolved this pass); Q3 2026 growth decelerated to +16%."
     },
     "nextEarnings": {
-      "date": "2026-10-29",
-      "confirmed": true,
-      "note": "Reconfirmed via EarningsWhispers (after market close) and one other calendar explicitly describing it as company-announced; RTTNews shows an outlier 10/23 and MarketScreener shows an estimate-based 11/10 — both disregarded as the weaker/estimate sources."
+      "date": null,
+      "confirmed": false,
+      "note": "The on-file 2026-10-29 date was the just-reported Q3 2026 print (now captured as a catalyst, not an upcoming one) -- correcting a carryover labeling issue from the prior pass. The next report (Q4 2026) date is not yet company-announced. One secondary aggregator (Investing.com) shows Nov 11, 2026, but that figure is inconsistent with Roblox's typical Q4-reporting cadence (historically February) and was not independently corroborated, so it is not used."
     }
   },
   "price": {
@@ -132,8 +132,18 @@
     "RBLX current price/market cap still unverified as of 2026-11-02 PM pass — every quote-data source attempted this session (Investing.com, StockAnalysis, CoinGecko, eToro search snippets) returned conflicting, non-contemporaneous snapshots. The on-file ~$34.03B market cap (as of 2026-10-14, pre -17% post-earnings drop) remains known-stale and should not be read as current."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: due today for the -17% post-earnings move, already on file as the 2026-10-29 Q3 2026 earnings catalyst. No new dated catalyst or follow-through news found since. Current share price still unconfirmed from a contemporaneous source. Quiet.",
+  "notes": "PM pass 2026-11-04: no new dated catalyst found since the Oct 29 earnings print already on file. Current share price still unconfirmed from a contemporaneous source this pass either. Corrected a stale nextEarnings field that still pointed at the already-reported date. Quiet otherwise.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -309,10 +319,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

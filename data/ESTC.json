@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.849Z",
+  "lastResearched": "2026-11-04T21:17:16.788Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -82,7 +82,7 @@
     "nextEarnings": {
       "date": "2026-11-19",
       "confirmed": false,
-      "note": "Widely cited analyst/platform estimate based on prior-year cadence; not company-confirmed as of this pass"
+      "note": "Still not company-confirmed. MarketBeat and The Right Trader both estimate 2026-11-19; Earnings Whispers instead lists 2026-11-26 after close. Two disagreeing estimates now on record — neither is a company confirmation."
     }
   },
   "price": {
@@ -135,14 +135,22 @@
     }
   ],
   "conflicts": [
-    "Market cap across 2026 snapshots ranged roughly $6.1B-$10.25B at prices from ~$59 to ~$98 (per prior pass); no 2026-10-23 figure confirmed this session either.",
-    "FY2026 GAAP EPS ($3.43) looks anomalously strong relative to Elastic's historical losses -- driven by a one-time ~$435M tax benefit, not operating performance; do not read as an operating-profitability signal."
+    "Next earnings date estimates disagree: MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26. Neither is company-confirmed."
   ],
-  "pendingFilings": [
-    "10-Q Q1 FY2027 (period ended 2026-07-31)"
-  ],
-  "notes": "Theme 'Enterprise Software & Security' fits well. FY2026 and FY2025 annual EPS added this pass, with the FY2026 figure flagged as tax-benefit-driven rather than organic profitability. Market cap and a confirmed current price remain unresolved; next-earnings date (2026-11-19) remains an unconfirmed estimate.",
+  "pendingFilings": [],
+  "notes": "No new catalyst found this pass; fundamentals otherwise unchanged from file.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -316,10 +324,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

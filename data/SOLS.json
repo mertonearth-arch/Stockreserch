@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.943Z",
+  "lastResearched": "2026-11-04T21:17:16.785Z",
   "fundamentals": {
     "marketCap": {
       "value": 9290000000,
@@ -46,13 +46,24 @@
     },
     "eps": [
       {
+        "period": "Q3 2026",
+        "value": 0.5,
+        "basis": "GAAP diluted",
+        "note": "vs GAAP diluted EPS of -$0.22 in Q3 2025"
+      },
+      {
         "period": "Q2 2026",
         "value": 0.88,
         "basis": "adjusted",
-        "note": "Beat $0.78 consensus. FY2026 guidance raised to adjusted EPS $2.75-$2.95."
+        "note": "Beat $0.78 consensus."
       }
     ],
     "revenue": [
+      {
+        "period": "Q3 2026",
+        "value": 1046000000,
+        "yoy": 8
+      },
       {
         "period": "FY2025 (full year)",
         "value": 3890000000,
@@ -60,10 +71,9 @@
       }
     ],
     "growth": {
-      "metric": "Revenue (FY2025 total, pre/at-spinoff basis)",
-      "period": "FY2025",
-      "pct": null,
-      "note": "Could not establish a YoY growth percentage this session. A single secondary aggregator source reported FY2025 revenue of ~$3.89B with earnings down ~60% YoY; this is unverified (not corroborated or traced to a primary filing this session)."
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 8
     },
     "nextEarnings": {
       "date": "2026-11-04",
@@ -79,6 +89,13 @@
     "source": "Chart-data aggregator (ChartRow-style snapshot); ~35% below the 52-week high of $90.80"
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net sales $1,046M (+8% YoY), GAAP diluted EPS $0.50 (vs -$0.22 in Q3 2025); raised FY2026 guidance to net sales $4,195-4,220M, adjusted EBITDA $1,050-1,060M, adjusted diluted EPS $2.90-2.95 (up from $4,125-4,185M / $1,035-1,055M / $2.75-2.95 prior guidance); returned $112M to shareholders in Q3 including $100M of share buybacks, on track to substantially complete the $500M buyback authorization by end of Q1 2027",
+      "impact": "beat and raise",
+      "source": "https://www.sec.gov/Archives/edgar/data/0002064953/000206495326000098/exhibit991-earningsrelease.htm"
+    },
     {
       "date": "2026-10-01",
       "type": "scheduling",
@@ -139,8 +156,21 @@
     "Market cap figures vary by ~$3B+ depending on snapshot date (no October 2026 figure found; stale figures range $9.58B-$12.7B)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-01 earnings-date announcement already on file. Nov 4 earnings date remains company-confirmed. Quiet.",
+  "notes": "PM 2026-11-04: Q3 2026 results reported as scheduled (beat-and-raise), confirming the company-stated Nov 4 BMO date. Market cap/share count/short interest/P-E not re-verified this pass (sources remain stale/conflicting); carried over unchanged. Identity note already on file (SOLS = Solstice Advanced Materials, not Solidion/STI) still stands.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -368,10 +398,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated"
+    ],
     "tradingDay": true
   }
 }

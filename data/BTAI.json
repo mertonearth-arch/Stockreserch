@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.846Z",
+  "lastResearched": "2026-11-04T21:17:16.786Z",
   "fundamentals": {
     "marketCap": {
       "value": 1300000,
@@ -85,6 +85,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-10-26",
+      "type": "bankruptcy/M&A — SALE CLOSED",
+      "headline": "Teva completed its acquisition of substantially all of BioXcel's neuroscience assets (IGALMI, BXCL501) out of Chapter 11; BioXcel retained BXCL701/BXCL702, which were excluded from the sale",
+      "impact": "$57.5M cash paid at closing (crediting an earlier $5.75M deposit) plus assumed liabilities; up to $67.5M development milestone tied to FDA approval of IGALMI for at-home use, up to $20M in commercial milestones if that approval isn't obtained by 2027-02-28; proceeds used to repay DIP financing",
+      "source": "https://www.ropesgray.com/en/news-and-events/news/2026/10/teva-pharmaceuticals-completes-acquisition-of-novel-neuroscience-assets-from-bioxcel-therapeutics"
+    },
+    {
       "date": "2026-10-21",
       "type": "bankruptcy/M&A — AUCTION OUTCOME RESOLVED",
       "headline": "Delaware bankruptcy court approved BioXcel's asset sale to Teva (reported deal value up to ~$125M total); judge also allowed the combined Chapter 11 plan and disclosure statement to go to a creditor vote",
@@ -155,14 +162,23 @@
     }
   ],
   "conflicts": [
-    "One low-reliability secondary source (Signalbase) claims the Teva acquisition of BioXcel was already completed, effective 2026-09-01, for $125.0 million -- this directly contradicts the court-approval timeline already on file (court approved the sale on 2026-10-21, with closing targeted ~2026-10-26) and was not corroborated by any other source found. Flagged per instructions rather than resolved.",
-    "Price: file carries a last price of $0.04 (OTC Pink, post-delisting, consistent with the Sept 8, 2026 Nasdaq suspension). A separate undated eToro snapshot shows $0.7606, citing 'Nasdaq' as its exchange source -- almost certainly a stale pre-delisting cache, not a current OTC quote, and not used."
+    "RESOLVED 2026-11-04: Teva's acquisition of BioXcel's assets closed 2026-10-26 (confirmed via Ropes Gray and company 8-K coverage): $57.5M cash paid at closing, plus assumed liabilities and contingent milestones. This confirms the on-file court-approval timeline (approved 2026-10-21) and contradicts the low-reliability Signalbase claim of a $125.0M closing on 2026-09-01 — that claim is now disconfirmed.",
+    "Price: file carries a last price of $0.04 (OTC Pink, post-delisting, consistent with the Sept 8, 2026 Nasdaq suspension). A separate undated eToro snapshot shows $0.7606, citing 'Nasdaq' as its exchange source — almost certainly a stale pre-delisting cache, not a current OTC quote, and not used."
   ],
-  "pendingFilings": [
-    "Sale closing on the Teva asset purchase agreement -- one source (Bloomberg Law, via secondary aggregation) describes an Oct 30, 2026 'outside date' by which the Teva transaction must close or a superior offer be identified; this was not found in a primary court filing this session and does not confirm whether closing has already occurred."
-  ],
-  "notes": "No source found this session confirming the Teva sale has actually closed as of 2026-10-22/23. The Oct 30, 2026 outside-date detail is new and worth tracking as the next hard deadline. Cash/DIP-financing balance, debt, EPS, and shares outstanding remain unestablished.",
+  "pendingFilings": [],
+  "notes": "PM 2026-11-04: Teva-BioXcel asset sale closed 2026-10-26. Company in Chapter 11 wind-down; no scheduled earnings or going-forward operations.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -338,10 +354,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

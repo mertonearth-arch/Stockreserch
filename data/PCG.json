@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.853Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-04T21:17:16.791Z",
   "fundamentals": {
     "marketCap": {
       "value": 34659000000,
@@ -203,8 +203,16 @@
     "The price on file from the prior pass ($13.27, no asOf date) is inconsistent with that same pass's own catalyst text describing an intraday move from a ~$13.15 prior close down to ~$12.93 after the 2026-10-22 Q3 earnings miss; this pass uses $12.93 (sourced to that catalyst text) in its place."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found beyond the 2026-10-22 Q3 earnings/guidance items already on file. Primary addition this session is the SEC 10-Q-sourced share count, which resolves the previously-null sharesOutstanding field (with the dual-reading caveat above). Short interest, cash, and debt remain unresolved.",
+  "notes": "No new dated catalysts found for November 2026; search results returned only July-September 2026 items already reflected in the on-file record (SB 492 shelved, reaffirmed guidance, strategic review). The 2026-10-22 Q3 print remains the most recent confirmed event. Quiet pass -- fundamentals unchanged.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -382,8 +390,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

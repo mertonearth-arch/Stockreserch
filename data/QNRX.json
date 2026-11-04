@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T05:30:07.419Z",
+  "lastResearched": "2026-11-04T21:17:16.782Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -56,7 +56,7 @@
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": true,
-      "note": "Company's own 2026-10-29 press release: corporate update and Q3 2026 results before market open Nov 5, 2026. Supersedes prior unconfirmed Nov 13 aggregator estimate (Earnings Whispers), which is now the weaker/stale source."
+      "note": "Company's own 2026-10-29 press release confirms corporate update and Q3 2026 results before market open Nov 5, 2026. A separate EarningsWhispers tracker still lists Nov 13, 2026 with a -$1.88 consensus estimate -- the weaker, unconfirmed aggregator estimate, superseded by the company's own date."
     }
   },
   "price": {
@@ -146,8 +146,18 @@
     "Market cap: ~$19.31M (recent aggregator, undated) vs $8.6M (on-file, 2026-07-24, MarketChameleon) — arithmetic mismatch, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: price updated to a more current dated reading ($4.02, 2026-10-25), superseding the on-file $4.28 (2026-07-24). No new dated catalysts, Nasdaq-compliance notices, or financing events found. Next earnings (~2026-11-13) remains unconfirmed.",
+  "notes": "PM pass 2026-11-04: no new dated catalyst found since the 2026-08-31 private placement closing already on file. Nov 5 earnings date remains company-confirmed (reports tomorrow, before this pass). Quiet.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "am",
@@ -344,7 +354,7 @@
   },
   "lastPass": {
     "date": "2026-11-04",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
       "nextEarnings updated"

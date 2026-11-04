@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.939Z",
+  "lastResearched": "2026-11-04T21:17:16.780Z",
   "fundamentals": {
     "marketCap": {
       "value": 14970000000,
@@ -86,11 +86,20 @@
     }
   },
   "price": {
-    "last": 25.43,
-    "asOf": "2026-10-26",
-    "source": "Fool.com last-close listing (dated 2026-10-26); no changePct/rvol established this session"
+    "last": 23.95,
+    "changePct": -8.7,
+    "asOf": "2026-10-30",
+    "source": "aggregator day-range snapshot (range $23.06-$24.93) for the 2026-10-30 session",
+    "note": "Updates the on-file 2026-10-29 $26.25 print; continues the October decline. No quote dated after 2026-10-30 was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-10-30",
+      "type": "price action",
+      "headline": "IREN closed at $23.95, down approximately 8.7% on the day (range $23.06-$24.93), extending the October slide amid continuing investor concern over AI-data-center financing needs; no single new catalyst identified beyond the financing/competition concerns already on file.",
+      "impact": "-8.7%, new low since the Oct 16 selloff",
+      "source": null
+    },
     {
       "date": "2026-10-29",
       "type": "price action",
@@ -225,8 +234,19 @@
     "Short interest: one reading shows 64.4M shares / 1.3 days to cover (through 2026-06-24) vs a separate settlement-date reading of 58,363,974 shares / 1.63 days to cover (2026-04-30) — different dates, kept separately."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-29 record already on file. Nov 5 earnings date remains company-confirmed. Quiet.",
+  "notes": "PM pass 2026-11-04: price/catalyst updated to the 2026-10-30 session (-8.7%, qualifying session-move threshold). Q1 FY2027 earnings remain scheduled, company-confirmed, for 2026-11-05 after market close. No other new dated catalyst found.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -8.7%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -458,10 +478,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "move -8.7%"
+    ],
     "tradingDay": true
   }
 }

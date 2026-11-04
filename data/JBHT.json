@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.851Z",
+  "lastResearched": "2026-11-04T21:17:16.789Z",
   "fundamentals": {
     "marketCap": {
-      "value": 21210000000,
-      "asOf": "2026-10-06",
-      "source": "marketchameleon.com",
-      "note": "Down sharply from the prior pass's $26.19B (asOf 2026-07-06, at $277.74); the magnitude of this decline (~19%) is larger than the single-digit-percent price move disclosed around the 2026-10-15 Q3 earnings print, so this is flagged rather than fully reconciled -- see conflicts."
+      "value": 21540000000,
+      "asOf": "2026-10-29",
+      "source": "Upstox",
+      "note": "Corroborates the lower reading already flagged in conflicts (vs. the pre-earnings $26.19B snapshot); several other sources (Yahoo ~$25.06B, Motley Fool $26.39B/$266.67, StockCircle $25.52B) are undated and appear to predate the 2026-10-15 earnings-day decline rather than genuinely contradict this dated figure, but none is independently reconciled."
     },
     "float": {
       "value": null,
@@ -104,11 +104,10 @@
     }
   },
   "price": {
-    "last": 225.93,
+    "last": 221.82,
     "changePct": null,
-    "asOf": "2026-10-06",
-    "source": "marketchameleon.com",
-    "note": "Most recent dated quote found; stale by ~17 days vs. 2026-10-23"
+    "asOf": "2026-10-29",
+    "source": "Upstox"
   },
   "catalysts": [
     {
@@ -151,11 +150,23 @@
   "conflicts": [
     "Market cap: $26.19B (asOf 2026-07-06, at $277.74) vs. $21.21B (asOf 2026-10-06, at $225.93) -- a ~19% decline between snapshots that is larger than the single-digit earnings-day price move disclosed for 2026-10-15, so part of this gap is unexplained/unreconciled rather than assumed to be a single news-driven move. No indication of a reverse split; flagged for data-quality awareness only.",
     "Short interest, mid-2026: MarketBeat 2,101,776 shares (~2.3% of shares outstanding) as of 2026-07-15 vs. Equibles 2.7M shares (2.9% of float) as of 2026-08-19 -- different dates and denominators, not reconciled.",
-    "The on-file 2026-09-16 catalyst (warning of a possible 5-10% Q3 earnings decline) conflicts with the actual reported Q3 2026 results (2026-10-15), which showed diluted EPS up 3.4% YoY rather than down; not independently reconciled, both are recorded."
+    "The on-file 2026-09-16 catalyst (warning of a possible 5-10% Q3 earnings decline) conflicts with the actual reported Q3 2026 results (2026-10-15), which showed diluted EPS up 3.4% YoY rather than down; not independently reconciled, both are recorded.",
+    "Market cap/price snapshots continue to diverge: Upstox $221.82/$21.54B (2026-10-29, dated) vs. undated Yahoo Finance ~$25.06B, Motley Fool $26.39B/$266.67, and StockCircle $25.52B -- the undated readings look pre-earnings/stale rather than genuinely current, but not independently reconciled this session."
   ],
   "pendingFilings": [],
-  "notes": "Theme 'Transportation & Logistics' remains the correct classification (trucking/intermodal logistics). FY2024 ($5.56) and FY2025 ($6.12) annual diluted EPS now confirmed directly from the company's own release, resolving the prior session's gap. Market cap, shares outstanding, short interest and a next-earnings date remain imprecisely dated/unconfirmed.",
+  "notes": "No new dated catalysts found for November 2026; the 2026-10-15 Q3 print remains the most recent. Price/market cap refreshed from a dated 2026-10-29 source (Upstox), which sits closer to the already-flagged lower-end estimate. No confirmed next-earnings date found (next report is FY2026 Q4/full-year, typically mid-January).",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -261,10 +272,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

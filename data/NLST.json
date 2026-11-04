@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.940Z",
+  "lastResearched": "2026-11-04T21:17:16.781Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -152,16 +152,22 @@
     }
   ],
   "conflicts": [
-    "Oct 29, 2026 price: one source shows a $6.34 close, down 8.12% from $6.90; another shows an intraday range of $6.77-$7.02 with a 'current price' of $6.92 (though that page carried a timestamp suggesting possible staleness) — kept verbatim, not averaged.",
-    "Earnings date: on-file conflict (Nov 3 vs Nov 5) widened further — an older page lists an Oct 29, 2026 date for 'Q3, Sep 2026' earnings, but no news coverage of an actual Oct 29 release was found, so this third date looks like a stale/incorrect estimate rather than a confirmed report.",
-    "ITC investigation institution date: one source states the ITC instituted the DDR5 investigation on September 24, 2026, vs. the on-file September 23, 2026 — a one-day discrepancy, not resolved.",
-    "Shares outstanding/market cap: 333,890,000 shares/$777.96M cap (2026-08-03) vs 320.42M shares/$930.82M cap (2026-06-05) vs an older, apparently-stale 257,865,976 shares — kept separately.",
-    "Short interest: 11.50% of float (2026-08-03) vs 36.5M shares/8.6 days to cover (undated) vs a short-ratio reading with short-interest % shown as n/a — three different presentations, kept separately.",
-    "TTM EPS: -$0.02 vs -$0.023 across two sources — both negative, minor numeric difference not resolved."
+    "Next earnings date remains unresolved: EarningsWhispers/Digrin estimate Nov 5, 2026 (on file); a separate Investing.com listing shows '03/11/2026' which could read as either Nov 3 (US format, matching the other on-file Nov 3 estimate) or Mar 11 (international format) -- ambiguous, not used to update the field.",
+    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- this predates the current pass and was not previously itemized in this record's catalyst list (which only names the DDR5 case vs Micron/Supermicro/HPE/Lenovo and the HBM case vs Micron/Nvidia/Broadcom/Google). Flagging for completeness rather than backfilling as a 'new' catalyst since it is several months old and not independently re-verified against the USITC EDIS docket this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-21 ITC counsel statement already on file. Next-earnings date conflict (Nov 3 vs Nov 5 estimates) remains open and unresolved. Quiet.",
+  "notes": "PM pass 2026-11-04: no new dated catalyst found since the 2026-10-21 ITC counsel statement already on file. Next-earnings date conflict remains open. Quiet.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -337,10 +343,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

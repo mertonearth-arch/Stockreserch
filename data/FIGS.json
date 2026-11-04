@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.849Z",
+  "lastResearched": "2026-11-04T21:17:16.788Z",
   "fundamentals": {
     "marketCap": {
       "value": 1970000000,
@@ -76,7 +76,9 @@
       "pct": 28.8
     },
     "nextEarnings": {
-      "note": "No new confirmation found this session; the on-file conflict between Nov 5 (Unusual Whales) and Nov 9 (Earnings Whispers) remains unresolved."
+      "date": "2026-11-05",
+      "confirmed": false,
+      "note": "2026-11-05 is now the more-supported estimate (Unusual Whales, Earnings Whispers beta page at 4:05pm ET) vs. Earnings Whispers' main page showing 2026-11-09. Still not company-confirmed; supersedes the prior pass's flat Nov-5-vs-Nov-9 tie with a lean toward Nov 5."
     }
   },
   "price": null,
@@ -134,8 +136,18 @@
     "EPS Q2 2026: company release states $0.15 GAAP diluted (net income $28.4M) vs $0.11 reported by Zacks/Google Finance coverage of the same quarter (likely adjusted) — not reconciled, never averaged."
   ],
   "pendingFilings": [],
-  "notes": "Market cap and float/short-interest figures are all stale relative to the Aug 2026 earnings-driven rally; no October 2026 snapshot was found despite a dedicated search this session.",
+  "notes": "No new catalyst found this pass; market cap/float/short-interest remain stale (pre-Aug-2026-rally) as on file.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -252,10 +264,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

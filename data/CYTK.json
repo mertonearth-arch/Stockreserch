@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.929Z",
+  "lastResearched": "2026-11-04T21:17:16.774Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -48,23 +48,35 @@
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -1.5,
-        "basis": "GAAP"
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Q3 2026 release (GlobeNewswire, 2026-11-04) confirmed revenue detail but this session could not locate the GAAP net loss / EPS figure in the release coverage found; pre-report consensus was -$1.44 to -$1.45/share (MarketBeat, Investing.com) — not an actual result."
       }
     ],
     "revenue": [
       {
+        "period": "Q3 2025",
+        "value": 1900000,
+        "note": "Prior-year comparable collaboration/total revenue context from the Q3 2025 print."
+      },
+      {
         "period": "Q2 2026",
-        "value": 25000000,
-        "note": "MYQORZO (aficamten) net product revenue. As of 2026-06-30: >700 unique prescribers, ~1,500 patients dispensed."
+        "value": 25300000,
+        "note": "MYQORZO net product revenue (on file)."
+      },
+      {
+        "period": "Q3 2026",
+        "value": 44500000,
+        "yoy": null,
+        "note": "MYQORZO (aficamten) net product revenue: $43.1M US + $1.4M Europe (Germany). Separately, collaboration revenue was $3.1M (vs $1.9M in Q3 2025). Combined total revenue ~$47.6M is this session's own arithmetic (product + collaboration), not a figure the company stated directly."
       }
     ],
     "growth": {
-      "metric": "MYQORZO launch trajectory / regulatory approvals",
-      "period": "2026",
-      "pct": null,
-      "note": "Fifth regulatory approval in under a year reached with Health Canada clearance (2026-10-19) for oHCM, following US/China/EU/UK. Launch revenue scaling from $0 pre-launch to $25M net product revenue in Q2 2026."
+      "metric": "MYQORZO net product revenue QoQ",
+      "period": "Q3 2026 vs Q2 2026",
+      "pct": 75.9,
+      "note": "$44.5M vs $25.3M. Patient/prescriber reach also scaled: ~1,100 unique prescribers (up from >700 at Q2) and over 2,800 patients dispensed (up from ~1,500 at Q2)."
     },
     "nextEarnings": {
       "date": "2026-11-04",
@@ -85,6 +97,13 @@
       "headline": "FDA PDUFA target action date for aficamten (MYQORZO) supplemental NDA covering MAPLE-HCM data, which would expand the oHCM label",
       "impact": "Pending regulatory decision",
       "source": "Company 8-K / shareholder letter (SEC EDGAR)"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Cytokinetics reported Q3 2026 results: MYQORZO (aficamten) net product revenue $44.5M ($43.1M US + $1.4M Europe/Germany), up from $25.3M in Q2 2026; collaboration revenue $3.1M (vs $1.9M in Q3 2025); nearly 1,100 unique prescribers and over 2,800 patients dispensed MYQORZO to date (up from >700 prescribers / ~1,500 patients at Q2 2026). GAAP net loss/EPS not confirmed this session.",
+      "impact": null,
+      "source": "https://www.globenewswire.com/news-release/2026/11/04/3395757/35409/en/cytokinetics-reports-third-quarter-2026-financial-results-and-provides-business-update.html"
     },
     {
       "date": "2026-10-21",
@@ -161,8 +180,21 @@
     "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found. FDA PDUFA date (2026-11-14) for aficamten sNDA and the company-confirmed Nov 4 earnings date are both already on file. Quiet.",
+  "notes": "PM pass 2026-11-04: Q3 2026 earnings released after close today; MYQORZO revenue scaling confirmed (+76% QoQ) but GAAP EPS/net loss not located this session — follow up next pass. FDA PDUFA date 2026-11-14 for the non-oHCM sNDA remains on file, unchanged.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -399,10 +431,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated"
+    ],
     "tradingDay": true
   }
 }

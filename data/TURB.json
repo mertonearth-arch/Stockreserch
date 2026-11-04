@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.856Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-04T21:17:16.792Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -116,8 +116,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Theme reassigned from the on-file 'Advanced Materials' (already flagged as a mismatch in the prior pass) to 'Backup Power & Energy Equipment' -- an existing theme string from the approved list that fits Turbo Energy's actual business (residential and C&I solar/battery energy-storage systems, inverters, energy-management software) better than any invented alternative. No new dated news was found this session beyond what is already on file (the most recent confirmed items remain the Sept 17, 2026 C&I storage contract and the Jul 27, 2026 preliminary H1 2026 results); search results returned mostly stale 2025/early-2026 coverage. Existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, and the flagged possible reverse-split/price-history anomaly) remain unresolved.",
+  "notes": "PM pass 2026-11-04: no new catalyst found. Search results returned only stale pre-2026-05 coverage (Q1 2025 results, an April 2026 outlook piece); nothing dated after the 2026-09-17 C&I storage contract already on file. All existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, possible reverse-split price anomaly) remain unresolved and unchanged this pass.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -214,8 +222,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
+    "date": "2026-11-04",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

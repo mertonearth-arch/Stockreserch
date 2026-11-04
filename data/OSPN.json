@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T05:32:22.852Z",
+  "lastResearched": "2026-11-04T21:17:16.791Z",
   "fundamentals": {
     "revenue": [
       {
@@ -30,6 +30,36 @@
       "period": "Q3 2026",
       "pct": 16,
       "note": "ARR $195.5M, +9% YoY."
+    },
+    "sharesOutstanding": {
+      "value": 36850000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business / Google Finance (convergent reading)",
+      "note": "Snapshot pre-dates the 2026-10-29 Q3 earnings move, but share count itself is not expected to move on an earnings print alone."
+    },
+    "shortInterest": {
+      "value": 3000000,
+      "asOf": "2026-08-20",
+      "source": "Equibles -- 8.12% of float, 7.9 days to cover",
+      "note": "Pre-dates the Q3 2026 earnings move; no post-earnings short-interest settlement figure found this session."
+    },
+    "cash": {
+      "value": 70500000,
+      "asOf": null,
+      "source": "SharesGrow aggregator",
+      "note": "Undated; not independently confirmed against the Q3 2026 10-Q."
+    },
+    "debt": {
+      "value": 6140000,
+      "asOf": null,
+      "source": "SharesGrow aggregator",
+      "note": "Undated; same caveat as cash."
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "Pre-earnings trailing-P/E readings ranged 5.2x-8.93x across sources, none dated after the 2026-10-29 Q3 print; not reliable for a current multiple, so left null rather than picking one.",
+      "asOf": null
     }
   },
   "price": null,
@@ -42,9 +72,26 @@
       "source": "SEC 8-K (ex99-1); TipRanks"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap / P/E: readings of $695.40M cap at $19.21 / P/E unclear (Fox Business, 2026-10-23), $581.16-581.53M cap at $15.59-15.78 / P/E 8.93 (Equibles/Google Finance, Aug-Oct 2026), $411.77M cap / P/E 5.83 (Public.com, 2026-04-08, stale), and $380.29M cap / P/E 5.2x (Simply Wall St, undated) -- all pre-date or are ambiguous relative to the 2026-10-29 earnings move and are not reconciled."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "am",
@@ -75,12 +122,19 @@
       "from": "daily"
     }
   ],
-  "notes": "New to the watchlist this pass — picked up via a closing-movers scan, not from the due list. Fundamentals beyond the Q3 print (market cap, P/E, cash/debt, shares outstanding, float, short interest) were not researched this pass and are left for the next full pass on this name.",
+  "notes": "First full pass on this name since it was added via the 2026-10-30 closing-movers scan. Shares outstanding and a dated (pre-earnings) short-interest figure are now established; a reliable post-earnings price, market cap and P/E could not be pinned down this session -- all available snapshots pre-date or are ambiguously dated relative to the 2026-10-29 Q3 print. Float and a confirmed next-earnings date remain outstanding.",
   "lastPass": {
-    "date": "2026-11-03",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-04",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

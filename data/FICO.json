@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-03T21:19:52.937Z",
+  "lastResearched": "2026-11-04T21:17:16.778Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -163,8 +163,16 @@
     "EPS TTM: $27.01 vs $31.84 (different listing, not directly comparable) vs $20.78 (likely stale) across sources."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-03: no new dated catalyst found beyond the 2026-10-27 analyst-downgrade wave already on file. Nov 4 earnings date remains company-confirmed. Quiet.",
+  "notes": "PM pass 2026-11-04: Q4 FY2026 results were scheduled for today (2026-11-04) after market close per company press release; no release was found in sources reachable this session (searches ran before/shortly after the close, before wire pickup). No new dated catalyst beyond the 2026-10-27 analyst-downgrade wave already on file. Quiet pending tomorrow's wire coverage of the print.",
   "history": [
+    {
+      "date": "2026-11-04",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-03",
       "run": "pm",
@@ -336,7 +344,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "run": "pm",
     "quiet": true,
     "changes": [],
