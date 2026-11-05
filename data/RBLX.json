@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.784Z",
+  "lastResearched": "2026-11-05T21:18:33.063Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -86,12 +86,34 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": -17,
-    "asOf": "2026-10-29",
-    "note": "After-hours move on earnings reaction; no confirmed regular-session closing print found this session, source: WebSearch aggregation (Investing.com/GuruFocus)"
+    "last": 47.57,
+    "changePct": -3.53,
+    "asOf": "2026-11-05",
+    "source": "Secondary aggregator (JKN, 기업주식정보), citing an SEC Form 4 insider-sale disclosure; NOT independently cross-checked against a primary exchange feed -- treat as provisional",
+    "note": "This is today's (Nov 5) close -- a modest -3.53% move, NOT a fresh -17%. The -17%-to-22% decline this batch was scoped around actually happened 2026-10-29 after-hours / 2026-10-30 regular session, on the Q3 2026 earnings/guidance miss (already on file as a catalyst). RBLX has continued drifting lower since then on follow-on sell-side target cuts. See conflicts for the clarification."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "price reaction / insider sale",
+      "headline": "Shares closed down 3.53% at $47.57; one outlet linked part of the move to a disclosed insider stock sale (~$757,974, per an SEC Form 4) amid unspecified 'broader market positioning'; the same day, Raymond James reportedly raised its price target to $51 (Buy)",
+      "impact": "-3.53% on the session",
+      "source": "Single secondary outlet (JKN, 기업주식정보) -- UNVERIFIED by a second source; treat with caution"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "analyst action",
+      "headline": "DA Davidson cut its price target to $48 from $50 (Neutral); JPMorgan also cut its price target the same day; both cited weaker-than-expected user engagement and guidance from the Oct 29 Q3 print",
+      "impact": null,
+      "source": "WebSearch aggregation (MarketBeat RBLX news feed, 2026-11-02)"
+    },
+    {
+      "date": "2026-11-01",
+      "type": "analyst action",
+      "headline": "Wedbush cut its Roblox price target to $52 from $55 and moved to Neutral, citing the Q3 2026 user-metrics/guidance miss; shares gapped down on the downgrade",
+      "impact": null,
+      "source": "WebSearch aggregation (Defense World: 'Roblox (NYSE:RBLX) Shares Gap Down on Analyst Downgrade', dated 2026-11-01; MarketBeat RBLX news feed)"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -128,12 +150,25 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: SEC Q3 2026 10-Q reports 715.696M (Class A+B combined) as of 2026-09-30 — close to Equibles' ~714.38M (2026-08-13) but conflicts with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative; prior broad conflict narrowed, not fully eliminated.",
-    "RBLX current price/market cap still unverified as of 2026-11-02 PM pass — every quote-data source attempted this session (Investing.com, StockAnalysis, CoinGecko, eToro search snippets) returned conflicting, non-contemporaneous snapshots. The on-file ~$34.03B market cap (as of 2026-10-14, pre -17% post-earnings drop) remains known-stale and should not be read as current."
+    "Shares outstanding: SEC Q3 2026 10-Q reports 715.696M (Class A+B combined) as of 2026-09-30 -- close to Equibles' ~714.38M (2026-08-13) but conflicts with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative; prior broad conflict narrowed, not fully eliminated.",
+    "RBLX current price/market cap remains effectively unverified from a contemporaneous primary source; the on-file ~$34.03B market cap (as of 2026-10-14, pre -17% post-earnings drop) is known-stale and should not be read as current.",
+    "The magnitude of the Oct 29/30 post-earnings drop is reported inconsistently across sources: -17% (on file, after-hours), -19.1% (Investing.com, pre-market), -20.47% (another Investing.com-sourced intraday snapshot, Oct 30), and ~-22% (one Yahoo Finance aggregation) -- not reconciled to one figure.",
+    "Flagging explicitly: today's (2026-11-05) actual session move was a modest -3.53% to $47.57 per the only dated source found, not a fresh -17% figure. The -17% this batch was scoped to investigate belongs to Oct 29/30, already on file as a catalyst -- the desk should not read this record as describing a second, new -17% day."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found since the Oct 29 earnings print already on file. Current share price still unconfirmed from a contemporaneous source this pass either. Corrected a stale nextEarnings field that still pointed at the already-reported date. Quiet otherwise.",
+  "notes": "PM pass 2026-11-05: investigated the -17% move flagged for today. Finding: that figure is the already-on-file Oct 29 (after-hours) / Oct 30 (regular session) reaction to the Q3 2026 earnings print (soft DAU/user metrics, Q4 bookings guidance of -10% to -15% YoY, despite an EPS/bookings beat) -- not a new drop today. Shares have continued grinding lower this week on follow-on sell-side target cuts (Wedbush Nov 1; DA Davidson and JPMorgan Nov 2; Benchmark and BTIG are also reported to carry Sell ratings on the name, but no specific date for those calls was pinned down this session) layered on the pre-existing child-safety litigation overhang (Texas/Louisiana/Kentucky AG suits, ongoing since 2025 -- no new November 2026 development found). Today's own close was a modest -3.53%, per a single, unverified secondary source. No fresh, well-corroborated company-specific news dated 2026-11-05 itself was found.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -319,11 +354,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "3 new catalyst(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

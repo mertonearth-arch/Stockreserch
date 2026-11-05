@@ -1,14 +1,14 @@
 {
   "ticker": "CIFR",
-  "name": "Cipher Mining Inc. (recently also referred to as Cipher Digital Inc.)",
+  "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.; ticker CIFR unchanged)",
   "sector": null,
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.786Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.051Z",
   "fundamentals": {
     "marketCap": {
       "value": 9120000000,
@@ -31,65 +31,71 @@
       "note": "Per Tapeboard's most-shorted-stocks list (2026-10-19), CIFR ranked #1 most-shorted at 21.7% of float; supersedes the on-file 16.35% (2026-05-15, pre-dates the Oct convertible-notes deal) but the two use different methodologies/dates and are not directly reconciled."
     },
     "cash": {
-      "value": 715200000,
-      "asOf": "2026-03-31",
-      "source": "Digrin aggregator (Q1 2026); no June 30, 2026 figure could be confirmed"
+      "value": 724000000,
+      "asOf": "2026-09-30",
+      "source": "SEC 8-K Q3 2026 business update / earnings coverage (pro forma unrestricted cash)",
+      "note": "Supersedes the on-file $715.2M figure (asOf 2026-03-31)."
     },
     "debt": {
-      "value": 6000000000,
-      "asOf": "2026-06-30",
-      "note": "TIKR reports 'total corporate and project debt stood at just over $6 billion as of June 30' — this is the figure most consistent with the company's large-scale Texas data-center buildout; see conflicts for materially different figures from other aggregators"
+      "value": 6700000000,
+      "asOf": "2026-09-30",
+      "note": "Reflects the $850M zero-coupon convertible notes priced 2026-10-14; up from the on-file ~$6.0B as of 2026-06-30."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-10-22"
+      "note": "Q3 2026 GAAP net income was positive ($31.6M, basic EPS +$0.08) only because of a $127.2M non-cash warrant-revaluation gain; diluted EPS remained negative (-$0.22) and underlying operations were loss-making (Motley Fool estimates an ex-warrant-gain loss of roughly -$96M, unconfirmed by a primary source). No meaningful P/E.",
+      "asOf": "2026-11-02"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -0.145,
-        "basis": "diluted, non-GAAP/normalized",
-        "note": "net loss ~$44.6M on revenue of ~$151.27M; per Stockopedia/Macrotrends aggregation, not independently confirmed against the 10-K"
+        "period": "Q3 2026",
+        "value": -0.22,
+        "basis": "GAAP diluted",
+        "note": "Beat the -$0.25/-$0.26 consensus by ~$0.04 per GuruFocus."
       },
       {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "one aggregator (Kalkine) cited net loss ~-$822M / diluted EPS ~-$2.15 for FY2025, but this conflicts sharply with other data and could not be verified — treated as unreliable, see conflicts"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.65,
-        "basis": "GAAP",
-        "note": "vs. analyst estimate of -$0.24; revenue $24.84M vs. $33.16M estimate; large noncash ~$150.5M warrant-remeasurement charge contributed to the loss per TIKR"
+        "period": "Q3 2026",
+        "value": 0.08,
+        "basis": "GAAP basic",
+        "note": "Positive only due to the $127.2M non-cash warrant-revaluation gain; net income $31.6M vs. a net loss of $3.28M in Q3 2025."
       }
     ],
     "revenue": [
       {
-        "period": "FY2024",
-        "value": 151270000
-      },
-      {
-        "period": "Q2 2026",
-        "value": 24840000
+        "period": "Q3 2026",
+        "value": 26700000,
+        "yoy": -62.8,
+        "note": "Vs. ~$71.7M in Q3 2025; missed a ~$39.3M FactSet consensus. Includes the company's first HPC lease revenue, recognized from the Black Pearl campus."
       }
     ],
     "growth": {
       "metric": "revenue YoY (quarterly)",
-      "period": "Q2 2026",
-      "pct": null,
-      "note": "Q2 2025 comparable revenue figure not located in sandbox to compute a YoY %; Q2 2026 revenue of $24.84M missed consensus estimate of $33.16M"
+      "period": "Q3 2026",
+      "pct": -62.8,
+      "note": "Resolves the on-file null -- Q3 2025 comparable revenue (~$71.7M) was located this session. Large YoY decline reflects the ongoing transition from bitcoin mining toward HPC/AI colocation leasing."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "not found; Q2 2026 was reported Aug 4, 2026, so a Q3 2026 report is plausible in early-mid November 2026 but no date was confirmed in this session"
+      "note": "Q3 2026 was reported 2026-11-02 (ahead of the on-file unconfirmed Nov 11 estimate). Next report would be Q4/FY2026 results, historically released in February (FY2025 results came out Feb 2026); no confirmed date found this session."
     }
   },
-  "price": null,
+  "price": {
+    "last": 7.67,
+    "changePct": null,
+    "asOf": "2026-11-03",
+    "source": "Benzinga (\"Cipher Stock Jumps: What's Going On?\")",
+    "note": "Sources disagree sharply on the size of the post-earnings move -- see conflicts; $7.67 is the Benzinga print closest to a clean timestamp ('Tuesday', near a 52-week low of $6.62 reached earlier in the move)."
+  },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "earnings",
+      "headline": "Cipher Digital reported Q3 2026 results: revenue $26.7M (down ~62.8% YoY from ~$71.7M in Q3 2025, missing a ~$39.3M consensus); GAAP diluted EPS -$0.22 (beat -$0.25/-$0.26 consensus by ~$0.04); net income $31.6M, driven by a $127.2M non-cash warrant-revaluation gain (vs. a $3.28M net loss a year earlier); adjusted EBITDA -$10M. First HPC lease revenue recognized from the Black Pearl campus. Odessa site produced ~296 BTC (207MW capacity, ~17.2 J/TH fleet efficiency); sold 632 BTC for $45.5M (realized gain ~$0.5M). Company now cites 3 contracted HPC campuses totaling 700MW and ~$16.6B of contracted revenue, after amending the Barber Lake lease (extended term, added an AI lab as a direct tenant) to lift that site's own contracted revenue to ~$9.1B. Pro forma unrestricted cash ~$724M as of 2026-09-30.",
+      "impact": "Stock rose on the print; magnitude disputed across sources -- see conflicts",
+      "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-cipher-digital-beats-q3-2026-eps-misses-revenue-93CH-4991951 ; https://www.marketscreener.com/news/cipher-digital-inc-reports-earnings-results-for-the-third-quarter-and-nine-months-ended-september-3-ce785fd9d98df123 ; https://www.marketscreener.com/news/cipher-digital-provides-third-quarter-2026-business-update-ce785fd8d18ef720"
+    },
     {
       "date": "2026-10-13",
       "type": "offering/dilution",
@@ -133,11 +139,32 @@
     }
   ],
   "conflicts": [
-    "Company name: multiple 2026-dated secondary sources (enkiai.com, Simply Wall St as of 2026-05-22) refer to the company as 'Cipher Digital Inc.' rather than 'Cipher Mining Inc.' under the same CIFR ticker -- this corroborates, but does not newly confirm, the rename already flagged on file; no primary SEC filing documenting a rename was independently located this session."
+    "CIFR's post-Q3-2026-earnings stock move (2026-11-02/03) is reported inconsistently: Investing.com cites +3.98% premarket to $7.58; Benzinga cites +11.81% to $7.67; Yahoo Finance and Motley Fool describe an intraday jump of 18.7%/18.37%. Kept verbatim, not reconciled."
   ],
-  "pendingFilings": [],
-  "notes": "PM 2026-11-04: no update found on the $850M convertible notes offering beyond on-file 2026-10-13/14 pricing details. No confirmed Q3 2026 earnings date found. No November-2026-dated news located this session. Quiet.",
+  "pendingFilings": [
+    "8-K 2026-11-02 (Q3 2026 earnings / business update, incl. Barber Lake lease amendment)"
+  ],
+  "notes": "PM 2026-11-05: this is NOT a quiet pass -- CIFR reported Q3 2026 earnings on 2026-11-02, which was not yet captured on file (prior pass had nextEarnings as unconfirmed/null). EPS beat, revenue miss, headline profit driven by a non-cash warrant gain. Share count/float/market cap not re-verified this session (dilution from the Oct 2030-notes exchange, ~41M new shares, is likely not yet reflected in the on-file sharesOutstanding figure -- flagging for a future pass rather than guessing an update). Short interest (21.7%, 2026-10-19) carried forward unchanged, no newer reading found.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -245,10 +272,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

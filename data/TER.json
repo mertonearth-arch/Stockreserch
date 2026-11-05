@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.792Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.013Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -31,14 +31,16 @@
       "source": "Equibles (% of float, ~8.0M shares, 1.9 days to cover)"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Not located in sandbox search; check latest 10-Q balance sheet."
+      "value": 460740000,
+      "asOf": "2026-09-27",
+      "source": "CSIMarket aggregator reading of the Q3 2026 10-Q (period ended 2026-09-27)",
+      "note": "Cash and cash equivalents only; the same aggregator shows cash plus short-term investments combined at $665.0M. Not independently verified against the primary 10-Q text — SEC EDGAR was unreachable from this sandbox this session."
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Not located in sandbox search; check latest 10-Q balance sheet."
+      "value": 10000000,
+      "asOf": "2026-09-27",
+      "source": "CSIMarket aggregator, same source as cash figure above",
+      "note": "Described as short-term debt only; the aggregator shows no long-term debt line for this period. Unverified against the primary filing; prior-quarter (2026-03-29) 10-Q had shown short-term debt of $0 and no outstanding revolver balance, so this reading was not simply carried over."
     },
     "pe": {
       "trailing": null,
@@ -137,8 +139,19 @@
     "The -6.7% post-earnings stock-reaction figure comes from a single source (GuruFocus, via WebSearch synthesis) and could not be cross-checked against a second site this session — WebFetch to investors.teradyne.com, gurufocus.com, cryptobriefing.com, sec.gov and several other candidate verification sites all failed with DNS resolution errors in this sandbox (distinct from the three domains the runbook already flags as egress-blocked)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new catalyst found beyond the 2026-10-27 Q3 2026 earnings beat-and-drop already on file. One secondary source (Robinhood snapshot) suggested a price near $314.50 as of 2026-10-27, but this could not be cross-checked against a second source this session and is not recorded as a confirmed price given the existing unresolved post-earnings-reaction conflict already on file. Fundamentals, EPS, revenue and existing conflicts otherwise unchanged.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-27 Q3 2026 earnings beat-and-drop already on file. Added cash/debt for the period ended 2026-09-27 from a third-party aggregator's reading of the Q3 2026 10-Q, since SEC EDGAR itself could not be fetched from this sandbox this session — treat as directional pending primary-source confirmation. Next earnings date remains unannounced by the company; no new estimate found this session.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -295,10 +308,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.792Z",
+  "lastResearched": "2026-11-05T21:18:33.048Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -81,7 +81,12 @@
       "note": "Multiple conflicting, already-past estimated dates were found (Oct 14, Oct 19, Oct 20, and Oct 22, 2026, across different aggregators), none of which could be matched to an actual earnings release in this session's search results as of 2026-10-23. Either a Q3 2026 report has not yet been issued or this session's search did not surface it -- flagging for an urgent follow-up check rather than reporting a specific date."
     }
   },
-  "price": null,
+  "price": {
+    "last": 15.97,
+    "changePct": null,
+    "asOf": "2026-10-30",
+    "source": "WebSearch aggregator snapshot (exact site not identified in result); 52-week range cited as $12.07-$29.21 in the same snapshot"
+  },
   "catalysts": [
     {
       "date": "2026-10-05",
@@ -112,11 +117,24 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 earnings status remains unresolved as of 2026-11-04: no 8-K or press release confirming Q3 2026 results was located in a second consecutive full pass, despite multiple now-past aggregator estimate dates (Oct 14-22, 2026) already flagged in the prior pass. This should be checked directly against Summit's IR site/SEC EDGAR before the next pass."
+    "Updating the prior pass's unresolved conflict: a Q3 2026 10-Q (period ended 2026-09-30) was located on SEC EDGAR this session, confirming Q3 2026 figures do exist - nine-month 2026 net loss $613.5M and nine-month operating cash outflow $423.2M (vs $221.0M in the prior-year nine-month period) per the filing, via a WebSearch summary (direct SEC.gov fetch blocked in this sandbox). However, no earnings press release, exact filing date, or standalone Q3-only net loss/EPS figure could be confirmed this session - a back-calculation from Q1 ($189.4M net loss) + Q2 ($215.7M net loss, per the prior pass) against the $613.5M nine-month total would imply roughly $208M for Q3 alone, but this is an inference, not a sourced figure, so it is not recorded as fact."
   ],
-  "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new catalyst found beyond the 2026-10-05 AstraZeneca investment close already on file. FDA PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC) remains 2026-11-14, now 10 days out -- the key near-term catalyst to watch. Q3 2026 earnings-date conflict carried forward unresolved (see conflicts).",
+  "pendingFilings": [
+    "Form 10-Q for the quarter ended 2026-09-30, on SEC EDGAR (https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000090/smmt-20260930.htm) - exact filing date not confirmed this session; SEC.gov itself could not be fetched directly from this sandbox (DNS blocked)"
+  ],
+  "notes": "PM pass 2026-11-05: FDA PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC) is now 9 days out (2026-11-14) - still the key near-term catalyst; no change to that date found. Located the Q3 2026 10-Q on SEC EDGAR (see conflicts/pendingFilings) confirming Q3 figures exist, but could not pin down the actual earnings-release date or a clean current market cap/share count this session (SEC.gov and several aggregator sites were unreachable from this sandbox). Refreshed price only (2026-10-30 snapshot, $15.97).",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -225,10 +243,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

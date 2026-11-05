@@ -8,27 +8,27 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.779Z",
+  "lastResearched": "2026-11-05T21:18:33.054Z",
   "fundamentals": {
     "marketCap": {
       "value": 18000000,
       "asOf": "2026-10-07",
-      "source": "Computed: delayed quote price $1.24 (Oct 7, 2026) x 14,518,468 total shares (14,488,560 Class A + 29,908 Class B per FY2026 10-K, as of 2026-06-22)"
+      "source": "Carried forward (computed: $1.24 x 14,518,468 shares); no fresher dated figure found this session"
     },
     "float": {
       "value": null,
       "asOf": null,
-      "note": "Not separately disclosed/found in sources located this session"
+      "note": "Not separately disclosed; carried forward"
     },
     "sharesOutstanding": {
       "value": 14518468,
       "asOf": "2026-06-22",
-      "source": "Beneficient FY2026 10-K: 14,488,560 Class A common + 29,908 Class B common shares outstanding"
+      "source": "Beneficient FY2026 10-K: 14,488,560 Class A + 29,908 Class B shares"
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "Not disclosed/not found in available sources this session"
+      "note": "Not disclosed; carried forward"
     },
     "cash": {
       "value": 5600000,
@@ -49,7 +49,7 @@
         "period": "Q1 FY2027 (quarter ended 2026-06-30)",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss of $377,000 reported on $12.2M revenue; per-share figure not independently confirmed this session"
+        "note": "Net loss of $377,000 on $12.2M revenue; per-share figure still not independently confirmed"
       }
     ],
     "revenue": [
@@ -63,7 +63,7 @@
       "metric": "revenue",
       "period": "Q1 FY2027 (quarter ended 2026-06-30)",
       "pct": null,
-      "note": "$12.2M revenue reported for the quarter; a YoY comparison figure was not found in this session's searches"
+      "note": "$12.2M revenue; no YoY comparison figure found"
     },
     "nextEarnings": {
       "date": "2026-11-13",
@@ -82,6 +82,14 @@
       "headline": "Bradley Heppner's criminal sentencing hearing (SDNY) has reportedly been rescheduled to January 11, 2027. This is a single-source report (Panabee); no second independent outlet or court-docket confirmation was found this session, and it supersedes the prior 'adjourned, no new date set' status on file (as of 2026-10-22).",
       "impact": null,
       "source": "https://www.panabee.com/news/beneficient-advances-strategy-to-eliminate-130-million-in-debt-and-recover-211-million"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "legal",
+      "headline": "Beneficient reportedly filed a motion to intervene in existing litigation seeking to recover approximately $211 million previously paid on HCLP-related obligations, alongside its ongoing strategy (on file from 2026-09-23) to void ~$130M in disputed HCLP Nominees debt.",
+      "impact": null,
+      "source": "https://www.panabee.com/news/beneficient-advances-strategy-to-eliminate-130-million-in-debt-and-recover-211-million",
+      "note": "This detail is drawn from WebSearch-engine synthesis of the Panabee article title/summary; panabee.com could not be directly fetched this session (WebFetch returned host-unreachable for it), so the specifics (motion type, exact $211M figure, exact date) should be treated as moderately confident, not primary-source-verified."
     },
     {
       "date": "2026-10-22",
@@ -152,8 +160,24 @@
     "Most recent market cap found: ~$12.4M as of 2026-10-26 (price $0.8197, -43.86% over the past month) vs much older/higher snapshots ($48M-$91.9M) -- not reconciled, kept verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: one new single-sourced catalyst (Heppner sentencing reportedly rescheduled to 2026-01-11/Jan 11 2027 per Panabee only). No other new dated catalyst found.",
+  "notes": "PM pass 2026-11-05: targeted searches for corroboration of the single-sourced (Panabee) Jan 11, 2027 Heppner sentencing date found nothing matching — a docket-style search surfaced only an unrelated case with that date — so it remains neither confirmed nor contradicted; carried forward as-is. New dated catalyst found: an Oct 28, 2026 motion reportedly seeking to recover ~$211M on HCLP obligations (sourcing caveat above). Next earnings 2026-11-13 (unconfirmed) unchanged. No fresher financials located this session. Session note: WebFetch returned host-unreachable (DNS) errors for essentially every site attempted (SEC EDGAR, GlobeNewswire, panabee.com, and others), and the batch's shared WebSearch budget was exhausted before all planned follow-up queries could run, limiting verification depth on this ticker.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -292,12 +316,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "conflicts updated"
+      "eps updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated"
     ],
     "tradingDay": true
   }

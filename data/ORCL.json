@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.790Z",
+  "lastResearched": "2026-11-05T21:18:33.060Z",
   "fundamentals": {
     "marketCap": {
-      "value": 416280000000,
-      "asOf": "2026-10-28",
-      "note": "Approximate: computed from the 2026-10-28 post-Investor-Day close ($144.54) and an undated ~2.88B-share count (Google Finance / Equibles). A separate Motley Fool figure of 3.02B shares ('publicly traded shares only'), paired with its own Oct 26 pre-event close of $126.06, implies $381.17B instead -- not reconciled, see conflicts."
+      "value": 331780000000,
+      "asOf": "2026-11-05",
+      "source": "Derived: $115.20 intraday quote (Yahoo Finance/Motley Fool aggregation, ~3:19pm ET, 2026-11-05) x 2.88B shares outstanding (Google Finance/Equibles, undated, on file)",
+      "note": "Approximate and intraday, not a confirmed close; supersedes the on-file $416.28B figure, which was based on the stale 2026-10-28 post-Investor-Day close of $144.54. The on-file 2.88B-vs-3.02B shares-outstanding conflict still applies and was not resolved this session."
     },
     "float": {
       "value": null,
@@ -81,12 +82,26 @@
     }
   },
   "price": {
-    "last": 144.54,
-    "changePct": 10.73,
-    "asOf": "2026-10-28",
-    "source": "Oracle Investor Day market coverage (heygotrade.com), post-event close"
+    "last": 115.2,
+    "changePct": -6.9,
+    "asOf": "2026-11-05",
+    "note": "Intraday quote (~3:19pm ET per Yahoo Finance/Motley Fool aggregation), not a confirmed close; a separate snapshot from the same aggregation at ~12:02pm ET showed $114.29 / -7.63% instead -- see conflicts. This is a DECLINE, not a +10.73% move: the +10.73% already on file is the 2026-10-28 Investor Day move, not a repeat move today. Prior close 2026-11-04 was ~$123.77 (-1.92%)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "price action",
+      "headline": "ORCL fell sharply intraday (roughly -7% to -8%, trading in the $114-115 area vs. a prior close of ~$123.77) amid a broad AI-infrastructure stock selloff following the U.S. midterm elections, on investor concern that political opposition to data-center development could slow AI buildouts; session range $111.66-$124.24, with $111.66 also the 52-week low.",
+      "impact": "-6.9% to -7.6% intraday depending on quote timestamp (not a confirmed close)",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-stock-slides-market-214502640.html"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "price action",
+      "headline": "A Fool.com headline ('Stock Market Today, Nov. 4: Oracle Falls on Canceled $7 Billion Tencent Chip-Leasing Deal') attributes a same-day Oracle decline to cancellation of a reported $7B Tencent AI-chip leasing deal. This could not be corroborated: every other source located (Goldesel, TIKR, Boerse-Global, TrendForce, w.media, aiweekly.co) describes the Tencent deal only as FT-reported/signed around 2026-10-01 and still unconfirmed by either company, with no cancellation reported anywhere else found. See conflicts.",
+      "impact": "Cited as contributing to a two-day decline into 2026-11-05",
+      "source": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-oracle-falls-on-canceled-7-billion-tencent-chip-leasing-deal/"
+    },
     {
       "date": "2026-10-28",
       "type": "investor day",
@@ -149,14 +164,25 @@
     }
   ],
   "conflicts": [
-    "FY2027 capex guidance is reported two different ways across sources: a 'project net cash outlay' figure of ~$70B vs. a separate gross capex guide of $90-95B; one analysis suggests actual capex could run $20-25B above the net-cash-outlay headline. Not reconciled this session.",
-    "Shares outstanding: ~2.88B (Google Finance / Equibles, undated) vs. 3.02B 'publicly traded shares only' (Motley Fool, paired with a 2026-10-26 close of $126.06) -- not reconciled, flows into the market-cap conflict above."
+    "This pass's brief described a '+10.73% today' move to investigate, but that figure matches the already-on-file 2026-10-28 Investor Day catalyst, not a new move on 2026-11-05. Today's actual session move, per independent research, is a DECLINE of roughly -6.9% to -7.6% intraday (~$114-115 vs. ~$123.77 prior close) -- flagging so the Oct 28 move is not double-counted as today's.",
+    "A Fool.com headline attributes a 2026-11-04 Oracle decline to a canceled $7B Tencent AI-chip leasing deal; no other source found corroborates a cancellation -- all other coverage describes the deal as FT-reported/signed in early October 2026, unconfirmed by either company, with no mention of cancellation. Not reconciled.",
+    "Intraday price itself is inconsistent across timestamps within the same aggregation: $115.20 / -6.90% (~3:19pm ET) vs. $114.29 / -7.63% (~12:02pm ET)."
   ],
-  "pendingFilings": [
-    "Next earnings (FQ2 FY2027) ~2026-12-14, not independently confirmed this session"
-  ],
-  "notes": "Material update: the previously-pending Oct 28 Investor Day occurred and is now recorded as a dated catalyst with its own targets; the pendingFilings placeholder for it is removed. Price and an approximate market cap are now dated to the post-event close. Growth metric and FQ2 FY2027 earnings-date estimate remain unconfirmed carry-forwards; cash, debt and EPS were still not independently established this session.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-11-05: this pass's brief described a '+10.73% today' move to investigate, but that figure is the already-on-file 2026-10-28 Investor Day catalyst, not today's move. Independent research instead found ORCL falling sharply today (-7% to -8% intraday) amid a broad AI-infrastructure selloff tied to the midterm elections and data-center political risk, compounded by an unconfirmed Fool.com report of a canceled $7B Tencent chip-leasing deal dated 2026-11-04. See catalysts and conflicts. Other fundamentals (EPS, cash, debt, float, short interest) were not re-verified this session -- WebFetch failed to resolve on every domain tried and this batch's shared WebSearch budget was exhausted partway through; carried forward from the existing file.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -272,16 +298,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "growth updated",
+      "2 new catalyst(s)",
       "marketCap updated",
-      "sharesOutstanding updated",
-      "move 10.73%",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

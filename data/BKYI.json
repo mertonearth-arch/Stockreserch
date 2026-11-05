@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.778Z",
+  "lastResearched": "2026-11-05T21:18:33.058Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -86,10 +86,10 @@
     }
   },
   "price": {
-    "last": 2.79,
-    "changePct": -1.47,
-    "asOf": "2026-10-14",
-    "note": "Same figure as the prior pass; no later quote found. Other undated aggregator pages show materially different figures ($4.75, $3.46, $0.66) -- treated as unreliable and not used."
+    "last": 2.7,
+    "changePct": null,
+    "asOf": "2026-10-27",
+    "note": "Market Chameleon quote, supersedes the stale $2.79 (2026-10-14) on file. Market Chameleon also reported a ~15.9% drop to $2.85 on 2026-10-26 ahead of this print; exact day-over-day change from $2.79 not independently computed."
   },
   "catalysts": [
     {
@@ -157,11 +157,21 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: TipRanks shows 2026-11-16 (found this session) vs. the prior file's unconfirmed 2026-11-13 Earnings Whispers estimate -- neither is company-confirmed."
+    "Market cap: Market Chameleon shows $5.49M (date on its own page not precisely shown, roughly concurrent with its Oct 26-27 2026 price data) vs. $2.70 price (Market Chameleon, 2026-10-27) x 1,436,344 shares outstanding on file = ~$3.88M computed -- not reconciled; on-file $4.0M market cap left unchanged rather than overwritten with either unreconciled figure."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-30 annual-meeting close already on file. Next-earnings-date conflict (Nov 13 vs Nov 16 estimates) remains open; no company confirmation located this session. Quiet.",
+  "notes": "PM pass 2026-11-05: price updated to $2.70 (2026-10-27, Market Chameleon). No new dated catalyst found beyond what's already on file (2026-10-30 annual-meeting close, 2026-10-13 Middle East contract/Stephen Morrow hire, etc.). CNN Finance TTM figures ($6.93M TTM revenue, $1.55M for 'Q3', -$4.30M TTM net income) were also found but without clear period labels/dates, so not used to update EPS/revenue. Next-earnings-date conflict (Nov 13 vs Nov 16 estimates) remains open, unconfirmed. This batch's shared WebSearch budget was exhausted and WebFetch could not reach any tested domain before further verification could be attempted.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -296,10 +306,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

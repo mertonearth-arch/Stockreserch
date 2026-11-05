@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.781Z",
+  "lastResearched": "2026-11-05T21:18:33.038Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -85,6 +85,13 @@
     "source": "Yahoo Finance (NasdaqGM delayed quote, confirmed close)"
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "medical conference",
+      "headline": "NeOnc Technologies scheduled to present two posters (NEO100 and NEO212 data) at the Society for Neuro-Oncology (SNO) annual meeting in Philadelphia, poster session 7:30-9:30pm.",
+      "impact": null,
+      "source": "https://www.biopharmawatch.com/news/NTHI/neonc-technologies-sno-annual-meeting-2026 ; https://finviz.com/news/399355/neoncs-fda-catalyst-run-could-give-nthi-a-serious-jolt (biopharmawatch discloses it is compensated by NTHI for coverage -- treat accordingly)"
+    },
     {
       "date": "2026-10-21",
       "type": "partnership/MOU",
@@ -181,13 +188,22 @@
     }
   ],
   "conflicts": [
-    "FDA meeting confusion: a Roth Capital analyst expected an FDA Type B END-OF-PHASE-2 meeting for NEO100 'in October' 2026; separately, the company has confirmed an END-OF-PHASE-1 Type B meeting for NEO212 on 2026-11-17 (already on file as a pending item). These are two different drugs/meeting types — not to be conflated. No company release confirming the NEO100 October meeting was found.",
-    "NEO100 Phase 2a PFS metric cited inconsistently: one source cites 48.9% (unspecified timepoint), another cites 44% six-month PFS — not reconciled.",
-    "Next earnings date: one aggregator estimates Nov 9, 2026 before market open with a consensus of -$0.16/share; the on-file EarningsWhispers estimate is Nov 13, 2026. Neither is company-confirmed; kept both, not picked."
+    "Next earnings date: an EarningsWhispers listing found this pass shows Nov 9, 2026, before market open, consensus -$0.16/share -- a different reading than the one already flagged in this record's prior-pass conflict (which cited EarningsWhispers at Nov 13, 2026). Neither is company-confirmed. Kept both unresolved readings; not to be conflated with the Nov 13, 2026 SNO poster-presentation date above, which is a conference, not an earnings date."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found since the 2026-10-21 Abu Dhabi MOU already on file. A TipRanks headline references a prior share-sale-registration filing ('NeOnc files to sell 5.71M shares of common stock for holders') but carries no date, so it is not recorded as a catalyst per the undated-news rule. Next-earnings estimate conflict (Nov 9 vs Nov 13) persists, neither company-confirmed. Quiet.",
+  "notes": "PM pass 2026-11-05: one new dated catalyst (Nov 13 SNO poster presentations, paid-coverage source). FDA End-of-Phase 1 Type B meeting for NEO212 (2026-11-17, in-person) and the Nov 9 vs Nov 13 earnings-date conflict remain as previously flagged, now with an additional conflicting Nov 9 reading. No fresher price, share-count, or cash figures found this session; this session's shared WebSearch budget was exhausted before further verification.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -342,10 +358,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

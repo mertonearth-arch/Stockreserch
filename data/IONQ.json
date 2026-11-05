@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.774Z",
+  "lastResearched": "2026-11-05T21:18:33.007Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -70,7 +70,7 @@
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": true,
-      "note": "Company-confirmed via IonQ investor relations press release dated 2026-10-22, 'IonQ to Report Third Quarter 2026 Financial Results on November 5, 2026' (conference call 4:30pm ET). Resolves prior scattered aggregator dates (Nov 4/5/9/11)."
+      "note": "Q3 2026 results were due today after market close (conference call 4:30pm ET, company-confirmed 2026-10-22). The actual print could not be located via sources reachable this session before this pass's search budget ran out, so no EPS/revenue/guidance figures were updated from the Q2 2026 print already on file. Pre-report consensus estimates found diverge widely by source (FXEmpire ~-$0.38 EPS / $144.46M revenue vs. Benzinga ~-$0.56 EPS / $67.0M revenue) and are not recorded as actuals."
     }
   },
   "price": {
@@ -152,11 +152,23 @@
     }
   ],
   "conflicts": [
-    "Market cap/shares-outstanding snapshots found this session (TipRanks $13.50B @ 2026-08-20; another $17.1B/381M shares @2026-08-13; others undated at $24.41B/373M shares or $18.87B/unclear shares) remain mutually inconsistent and do not clearly postdate the on-file Oct 15, 2026 figure — not used to update marketCap, kept on-file reading."
+    "Market cap/shares-outstanding snapshots found this session (TipRanks $13.50B @ 2026-08-20; another $17.1B/381M shares @2026-08-13; others undated at $24.41B/373M shares or $18.87B/unclear shares) remain mutually inconsistent and do not clearly postdate the on-file Oct 15, 2026 figure — not used to update marketCap, kept on-file reading.",
+    "This pass's assignment brief cited a same-day +9.33% session move for 2026-11-05, but that could not be independently verified this session (web search budget was exhausted before a current quote could be sourced); it numerically matches the already-on-file 2026-10-15 move of +9.33%, raising the possibility of a mix-up with that earlier date rather than a genuine new move today. Not used to overwrite the on-file price/move."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-22 earnings-date confirmation already on file. Q3 2026 earnings (due tomorrow, 2026-11-05) not yet reported. Quiet.",
+  "notes": "PM pass 2026-11-05: Q3 2026 earnings were due today after market close; actual results not located via available sources this session (see nextEarnings note) — treat as still pending as of this record. No other new dated catalyst found beyond the 2026-10-22 earnings-date confirmation already on file. Fundamentals, EPS and revenue history otherwise carried forward unchanged pending the actual print.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -349,10 +361,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

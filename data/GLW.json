@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.789Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.062Z",
   "fundamentals": {
     "marketCap": {
       "value": 116420000000,
@@ -25,9 +25,10 @@
       "source": "TipRanks (860,637,800) vs Motley Fool (857.95M), both undated-but-recent; averaged-range not computed, using TipRanks figure"
     },
     "shortInterest": {
-      "value": 2.1,
-      "asOf": "2026-08-19",
-      "source": "equibles.com (18.0M shares short, ~1.1 days to cover)"
+      "value": 16840000,
+      "asOf": null,
+      "source": "WebSearch aggregation",
+      "note": "~16.84M shares short, average volume 7.75M, ~2.2 days to cover; described only as 'late September 2026', exact date not given. Supersedes the on-file 2026-08-19 reading (18.0M shares / 2.1% of float / 1.1 days to cover) as a later data point, not a live conflict -- the two are within normal settlement-to-settlement drift."
     },
     "cash": {
       "value": null,
@@ -82,8 +83,21 @@
       "note": "Corning reported Q3 2026 results today (2026-10-27), resolving the previously-pending next-earnings date that was on file. 2027-01-28 is an aggregator-estimated (AJ Bell calendar) Q4 2026 report date, not yet company-confirmed."
     }
   },
-  "price": null,
+  "price": {
+    "last": 125.04,
+    "changePct": 0.85,
+    "asOf": "2026-10-23",
+    "source": "WebSearch aggregation of an intraday snapshot timestamped 2:10:38 PM EDT on 2026-10-23; not independently cross-checked against an NYSE closing print",
+    "note": "Described by the same source as down ~18.85% over the trailing month. A separate, ambiguously-dated reading of $123.31 (labelled '01/11/2026', plausibly Nov 1, 2026 in day/month format) was also found this session but not used given the date ambiguity."
+  },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "scheduled event (unspecified)",
+      "headline": "One aggregator (MarketBeat) flags an unspecified 'key catalyst' for Corning dated Nov 11, 2026; no content, detail, or second-source corroboration was found this session",
+      "impact": null,
+      "source": "WebSearch aggregation (MarketBeat); unverified"
+    },
     {
       "date": "2026-10-27",
       "type": "earnings",
@@ -123,11 +137,23 @@
   "conflicts": [
     "Market cap: MarketBeat $116.42B (2026-10-21) vs Dividend.watch $137.74B (2026-08-04) vs Equibles $144.73B (2026-06-10 snapshot) vs Equibles $168.83B (late May 2026) -- spread covers both real price decline and disagreeing dates; not reconciled to a single current figure.",
     "Trailing P/E: 73.2x (Google Finance TTM EPS $2.18, 2026-10-05) vs 59.44x (Dividend.watch, 2026-08-04) vs 107.20x (Equibles, late May 2026) vs 91.90x (Equibles, 2026-06-10).",
-    "Dated closing-price readings found this session, declining trend, none independently confirmed as an official NYSE close: $164.16 (2026-10-02, Ad-hoc News), $156.68 (2026-10-09, Yahoo Finance NYSE page), $140.19 (2026-10-14, Benzinga widget). Consistent direction with the on-file $116.42B (2026-10-21) cap, but not reconciled to exact share price."
+    "Dated closing-price readings found this session, declining trend, none independently confirmed as an official NYSE close: $164.16 (2026-10-02, Ad-hoc News), $156.68 (2026-10-09, Yahoo Finance NYSE page), $140.19 (2026-10-14, Benzinga widget), $125.04 (2026-10-23 intraday, this session). Consistent downward direction but not reconciled to one exact current price."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass beyond the already-filed 2026-10-27 Q3 print. Next ex-dividend date (2026-11-13, $0.28/share) noted but not treated as a catalyst per runbook definition.",
+  "notes": "PM pass 2026-11-05: no new material catalyst since the already-filed 2026-10-27 Q3 print; next ex-dividend date 2026-11-13 ($0.28/share) remains routine, not a catalyst. Logged a newer (2026-10-23) intraday price and a fresher short-interest reading this session. One aggregator flags an unspecified 'key catalyst' on Nov 11, 2026 -- unverified, worth checking again next pass.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -282,10 +308,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

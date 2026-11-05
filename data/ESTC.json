@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.788Z",
+  "lastResearched": "2026-11-05T21:18:33.059Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -138,8 +138,16 @@
     "Next earnings date estimates disagree: MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26. Neither is company-confirmed."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass; fundamentals otherwise unchanged from file.",
+  "notes": "PM pass 2026-11-05: No new dated catalyst found; next earnings remains unconfirmed with the same two competing estimates on file (MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26). New undated price snapshots were found (Investing.com ~$88.12, Earnings Whispers ~$91.81) roughly consistent with the on-file $92.30, but carry no date, so price is left unchanged rather than overwritten with another undated figure. Also found (undated): an analyst consensus of 18 buy / 0 sell ratings and an average 12-month price target of $110.69 (Investing.com) -- supplementary color, not a dated catalyst. Fundamentals otherwise unchanged. Quiet pass. WebFetch could not reach any tested domain this session and this batch's shared WebSearch budget was exhausted before additional verification could be attempted.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -324,13 +332,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

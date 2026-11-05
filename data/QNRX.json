@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.782Z",
+  "lastResearched": "2026-11-05T21:18:33.042Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -66,6 +66,13 @@
     "source": "stockalarm.io aggregator; Digrin's October 2026 monthly close of $3.99 is consistent"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "scheduling",
+      "headline": "Quoin Pharmaceuticals announced it will provide a corporate update and report Q3 2026 financial results (quarter ended September 30, 2026) before market open on Thursday, November 5, 2026.",
+      "impact": null,
+      "source": "https://finviz.com/news/411527/quoin-pharmaceuticals-to-announce-corporate-update-and-third-quarter-2026-financial-results-on-thursday-november-5-2026"
+    },
     {
       "date": "2026-08-31",
       "type": "offering",
@@ -146,8 +153,18 @@
     "Market cap: ~$19.31M (recent aggregator, undated) vs $8.6M (on-file, 2026-07-24, MarketChameleon) — arithmetic mismatch, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found since the 2026-08-31 private placement closing already on file. Nov 5 earnings date remains company-confirmed (reports tomorrow, before this pass). Quiet.",
+  "notes": "PM pass 2026-11-05: Quoin was due to report Q3 2026 results before today's open per its own 2026-10-29 announcement, but this session could not locate the actual release text or figures -- every attempt to reach the company's investor-relations site, GlobeNewswire, and SEC EDGAR directly (WebFetch) returned DNS failures in this sandbox, and the shared WebSearch budget was exhausted before an indexed copy of the release surfaced. All fundamentals (cash $10.8M as of 2026-06-30, shares outstanding 2,008,417 ADS as of 2026-08-12, the Aug 2026 $30.8M private placement, the market-cap and shares-outstanding conflicts) are carried forward unchanged from the prior pass. Flagging this explicitly rather than inventing a Q3 print: the actual Nov 5 results should be the first thing checked next pass.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -353,11 +370,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

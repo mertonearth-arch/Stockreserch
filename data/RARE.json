@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.776Z",
+  "lastResearched": "2026-11-05T21:18:33.046Z",
   "fundamentals": {
     "marketCap": {
       "value": 1540000000,
@@ -50,6 +50,12 @@
         "value": -0.9,
         "basis": "GAAP",
         "note": "Net loss $92M, vs $115M/-$1.17 a year earlier."
+      },
+      {
+        "period": "Q3 2026",
+        "value": -1.16,
+        "basis": "GAAP",
+        "note": "Net loss $118M vs $180M/-$1.81 in Q3 2025. Nine-month 2026 net loss $395M (-$3.89/share). Source: SEC 8-K Exhibit 99.1, filed 2026-11-03."
       }
     ],
     "revenue": [
@@ -57,7 +63,13 @@
         "period": "Q2 2026",
         "value": 214000000,
         "yoy": 28,
-        "note": "Record quarterly revenue. Breakdown: Crysvita $156M, Dojolvi $27M, Evkeeza $21M, Mepsevii $10M. FY2026 guidance reaffirmed at $730-760M."
+        "note": "Record quarterly revenue at the time."
+      },
+      {
+        "period": "Q3 2026",
+        "value": 173000000,
+        "yoy": null,
+        "note": "Below analyst consensus of roughly $183.5M-$185M (a miss). FY2026 total revenue guidance reaffirmed at $730M-$760M. Q3 2025 comparable revenue not independently confirmed this session, so YoY left null rather than estimated."
       }
     ],
     "growth": {
@@ -67,9 +79,9 @@
       "note": "Company reaffirmed FY2026 total revenue guidance of $730M-$760M in its Q2 2026 report (released ~August 2026). A specific YoY growth percentage could not be computed this session for lack of a verified FY2025 comparable figure."
     },
     "nextEarnings": {
-      "date": "2026-11-03",
-      "confirmed": true,
-      "note": "Confirmed by the actual Q3 2026 earnings release itself (SEC 8-K exhibit, filed 2026-11-03)."
+      "date": null,
+      "confirmed": false,
+      "note": "The on-file 'next earnings' date of 2026-11-03 has now occurred (Q3 2026 results reported that date). The next report would be Q4/FY2026 results, which were not found scheduled in this session's search; left null rather than guessing a February 2027 date."
     }
   },
   "price": {
@@ -79,6 +91,13 @@
     "source": "Tickertape"
   },
   "catalysts": [
+    {
+      "date": "2026-11-03",
+      "type": "earnings_detail",
+      "headline": "Full Q3 2026 figures confirmed via SEC 8-K exhibit: GAAP net loss $118M (-$1.16/share) vs $180M (-$1.81/share) in Q3 2025; nine-month 2026 net loss $395M (-$3.89/share). Revenue $173M (CRYSVITA $109M, DOJOLVI $30M per the exhibit breakdown) vs consensus near $183.5M-$185M. Pre-report non-GAAP consensus estimates found this session ranged from -$0.66 to -$0.88/share across sources (not directly comparable to the GAAP actual).",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526445342/rare-ex99_1.htm"
+    },
     {
       "date": "2026-11-03",
       "type": "earnings",
@@ -211,13 +230,26 @@
     }
   ],
   "conflicts": [
-    "On-file market cap ($2.6B, as of 2026-08-20) predates the Sept 2, 2026 ~44-46% single-day drop following the failed Phase 3 ASPIRE (apazunersen/GTX-102) readout — resolved this pass with a newer, consistent reading ($1.54B as of 2026-10-26).",
-    "Cash at 2026-06-30: company 8-K $436M (cash+equivalents+marketable securities) vs a narrower-definition aggregator figure of $292M for the same date — kept both.",
-    "Debt: one aggregator ~$1.1B at 2026-03-31 vs another $1.25B at 2025-12-31 — no single-date figure confirmed."
+    "Stock-price reaction to the 2026-11-03 Q3 print could not be confirmed from a reliable source this session. Several search results claiming an '~11.89% pre-market plummet' carried garbled/duplicated timestamps (e.g. identical '2026-04-20 09:41:44 EST' stamps across dozens of unrelated mirror-site URLs) and appear to actually describe the November 2025 Q3 report, not November 2026 — not used.",
+    "Scattered recent price snapshots found this session ($14.30-$14.90, undated or dated early-to-mid September 2026) are lower than the on-file $15.95 (2026-10-27) / $16.01 (2026-10-26) figures, suggesting a possible decline, but none could be tied to a specific November 2026 date reliably enough to update price or market cap."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: Q3 2026 earnings (reported 2026-11-03, revenue $173M) already captured by this morning's AM pass — re-confirmed via WebSearch (revenue $173M vs ~$183.5-184.8M consensus, a miss; FY2026 guidance of $730-760M total / $500-520M Crysvita / $100-110M Dojolvi reaffirmed; company reiterated 2027 profitability target and said 2027 R&D spend would fall at least 50% vs. 2025). Could not locate the actual Q3 2026 EPS figure this session (pre-report consensus was -$0.66 to -$0.73/share, not an actual). No new catalyst beyond the AM-pass entry already on file; not re-appended to avoid duplication. Quiet for this pass.",
+  "notes": "PM pass 2026-11-05: filled in the Q3 2026 GAAP EPS figure (-$1.16/share, net loss $118M) that the prior pass could not locate, plus the Q3 2026 revenue line item ($173M) and reaffirmed FY2026 guidance ($730-760M). Could not confirm the actual post-earnings stock move or get a clean current market cap/price this session (see conflicts) - price and marketCap carried forward from the prior pass. nextEarnings updated to null/unconfirmed since the on-file date already passed and no Q4/FY2026 date was found.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -419,10 +451,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

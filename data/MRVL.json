@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.790Z",
+  "lastResearched": "2026-11-05T21:18:33.009Z",
   "fundamentals": {
     "marketCap": {
       "value": 211120000000,
@@ -84,7 +84,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Conflicting unconfirmed estimates: Nov 26, 2026 (FXEmpire; TipRanks' Swiss listing labels it 'Confirmed' but the same page's own text flags it as estimated) vs. Dec 1, 2026 (TrendSpider, no source cited). Neither verified via Marvell IR this session; supersedes the prior pass's single-point Dec 2, 2026 estimate."
+      "note": "Three disagreeing, uncompany-confirmed estimates now on file: Nov 26, 2026 (FXEmpire; TipRanks' Swiss listing labels it 'Confirmed' but the page's own text flags it as estimated); Dec 1, 2026 (TrendSpider, no source cited); and Dec 2, 2026 (AJ Bell key-dates listing, found this session, also unconfirmed). No official Marvell IR announcement found this session either. Company's own Q3 FY2027 guidance is net revenue $3.150B +/- 5%, non-GAAP diluted EPS $1.10 +/- $0.05."
     }
   },
   "price": {
@@ -196,11 +196,23 @@
   "conflicts": [
     "Cash/debt figures sourced from a third-party AI-extraction aggregator rather than the primary 10-Q text; treat as directional, not exact.",
     "Market cap: $211.12B at $240.76 (Motley Fool, 2026-09-17, publicly-traded-shares-only count) vs. $197.66B at $225.41 with 876.90M shares (Google Finance, 2026-09-08) -- differing price/date and share-count methodology, not reconciled.",
-    "Next earnings date: Nov 26, 2026 (FXEmpire / TipRanks CH, inconsistently labeled 'Confirmed' vs. 'estimated' on the same source) vs. Dec 1, 2026 (TrendSpider); no official company date found, not reconciled."
+    "Next earnings date: Nov 26, 2026 (FXEmpire / TipRanks CH, inconsistently labeled 'Confirmed' vs. 'estimated' on the same source) vs. Dec 1, 2026 (TrendSpider); no official company date found, not reconciled.",
+    "A third unconfirmed next-earnings estimate, Dec 2, 2026 (AJ Bell key-dates listing), was found this session alongside the two above — none company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-10-23 pass; the Oct 6 Investor Day and Oct 9-16 decline remain the most recent items on file. Only new information this session is a conflicting set of unconfirmed next-earnings-date estimates, recorded above rather than picked.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-06 Investor Day and the Oct 9-16 decline already on file. Only new information this session is a third, also-unconfirmed next-earnings-date estimate (Dec 2, 2026), recorded as an additional conflict rather than picked. Price/share-count/short-interest not refreshed this session (search budget exhausted before they could be revisited); carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -385,7 +397,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [

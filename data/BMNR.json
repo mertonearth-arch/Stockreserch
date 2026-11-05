@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.786Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.050Z",
   "fundamentals": {
     "marketCap": {
       "value": 10600000000,
@@ -69,9 +69,9 @@
     "revenue": [],
     "growth": {
       "metric": "ETH treasury holdings growth",
-      "period": "2026-10-04 to 2026-10-18",
-      "pct": 0.42,
-      "note": "ETH holdings rose from 6,016,414 (2026-10-04) to 6,041,481 (2026-10-18), +12,535 ETH in the week of Oct 18 alone; holdings remain ~4.9% of total ETH supply (122.1M tokens), about 99% of the way to the stated 5% target."
+      "period": "2026-10-18 to 2026-11-05",
+      "pct": 0.31,
+      "note": "ETH holdings rose from 6,041,481 (2026-10-18, on file) to 6,051,933 (2026-10-25, per company release at $2,356/ETH, total crypto+cash holdings $15.0B) to 6,060,506 (2026-11-05, per secondary coverage), +19,025 ETH over the period; now ~4.9% of total ETH supply, reported to need ~50,000 more ETH to reach the stated 5% ('Alchemy of 5%') target."
     },
     "nextEarnings": {
       "date": "2026-11-20",
@@ -85,6 +85,20 @@
     "note": "Walletinvestor single-day Oct 1, 2026 close; no reliable quote found for the week of Oct 23. Other October snapshots range roughly $21.84-$27.56 across sources/dates; the figure already on file ($28.03, undated) could not be re-confirmed."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "treasury update",
+      "headline": "Secondary coverage (24/7 Wall St) reports BitMine holds 6,060,506 ETH, ~4.9% of circulating ETH supply, and says the company needs roughly 50,000 more ETH to reach its stated 5%-of-supply ('Alchemy of 5%') target; no primary BitMine press release for this specific figure independently located this session.",
+      "impact": "Continued incremental progress toward the 5% target",
+      "source": "https://247wallst.com/investing/cryptocurrency/2026/11/05/bitmine-owns-4-9-of-all-ethereum-what-happens-to-eth-at-5/"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "treasury update",
+      "headline": "BitMine Immersion announced ETH holdings reached 6,051,933 tokens at $2,356/ETH, with total crypto and cash & marketable securities holdings of $15.0 billion; company described itself as ~99% of the way to its 'Alchemy of 5%' goal.",
+      "impact": "Incremental accumulation; total-dollar holdings continuing to track ETH spot price moves rather than rising monotonically with token count (consistent with the conflict already on file for the Oct 4-18 window)",
+      "source": "https://www.cryptotimes.io/2026/10/05/bitmine-nears-alchemy-of-5-with-latest-15112-eth-purchase-leading-its-treasury-to-6-02-million/ ; https://www.marketscreener.com/news/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-05-million-tokens-and-total-cr-ce785cdcda8df52c"
+    },
     {
       "date": "2026-10-18",
       "type": "treasury update",
@@ -144,8 +158,19 @@
     "Total treasury value (crypto+cash) reported across consecutive weekly updates does not move monotonically with the rising ETH count: $17.4B (2026-10-04) vs $16.2B (2026-10-11, on file) vs $15.1B (2026-10-18), while ETH holdings rose from 6,016,414 to 6,028,946 to 6,041,481 over the same period. Plausibly explained by a declining ETH spot price (~$2,726 on 10-04 vs ~$2,544 on 10-11), but no primary company source was found to confirm the 10-18 figures, so this is recorded as an unresolved conflict rather than assumed."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: no ETH-holdings update found beyond the on-file 2026-10-18 figure (6,041,481 ETH). No November-2026-dated disclosure located this session. Quiet.",
+  "notes": "PM 2026-11-05: found two newer ETH-holdings data points (2026-10-25: 6,051,933 ETH, $15.0B total; 2026-11-05 secondary mention: 6,060,506 ETH, ~4.9% of supply) beyond the on-file 2026-10-18 figure (6,041,481 ETH) -- incremental accumulation continues, still short of the stated 5% target. No current share price, market cap, cash/debt, or EPS update found this session (WebFetch to most finance sites including stockanalysis.com, benzinga.com, gurufocus.com, finance.yahoo.com, sec.gov all returned DNS/ENOTFOUND errors in this sandbox, and the WebSearch budget for this pass was exhausted before a clean current quote could be pinned down) -- carrying forward the on-file $26.83 (2026-10-01) price and all other fundamentals unchanged. No formal fiscal Q4 FY2026 earnings print (next-earnings estimate remains 2026-11-20, unconfirmed) located this session.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -314,10 +339,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "growth updated"
+    ],
     "tradingDay": true
   }
 }

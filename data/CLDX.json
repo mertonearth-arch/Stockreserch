@@ -4,11 +4,11 @@
   "sector": null,
   "theme": "Biotech Catalyst",
   "themeLabel": "hot sector",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-04T21:17:16.787Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.028Z",
   "fundamentals": {
     "marketCap": {
       "value": 2300000000,
@@ -154,8 +154,16 @@
     "Next earnings date: at least three different unconfirmed estimates exist (Nov 5, Nov 9, Nov 10, 2026); none is confirmed by the company."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: no follow-up found to the 2026-09-22 Phase 3 EMBARQ topline (barzolvolimab, CSU). Second consecutive quiet full pass for this name. Quiet.",
+  "notes": "PM pass 2026-11-05: no follow-up found to the 2026-09-22 Phase 3 EMBARQ topline (barzolvolimab, CSU); BLA still guided for 2027, no BLA-submission update found. Next-earnings date remains unconfirmed with the same conflicting estimates on file (Nov 5 Earnings Whispers, Nov 9 TheRightTrader/Digrin, Nov 10 AJBell) — no resolution found this session; as of this pass no Q3 2026 release has been located yet. Short interest still only available as of the 2026-09-30 FINRA settlement (11.0M shares, 3.8 days to cover), consistent with on file; percent-of-float still not reconcilable across sources. Third consecutive quiet full pass for this name.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -258,7 +266,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": true,
     "changes": [],

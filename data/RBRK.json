@@ -8,45 +8,46 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.791Z",
+  "lastResearched": "2026-11-05T21:18:33.061Z",
   "fundamentals": {
     "marketCap": {
-      "value": 21970000000,
-      "asOf": "2026-09-18",
-      "source": "Calculated: Yahoo Finance closing price $106.71 (2026-09-18) × Equibles-reported shares outstanding (205.83M, from a 2026-08-19 snapshot)",
-      "note": "A separate, undated Equibles summary shows $14.62B at 160.96M shares / $71.02 — likely a stale snapshot predating a share-count increase. See conflicts."
+      "value": 25274000000,
+      "asOf": "2026-10-30",
+      "source": "Calculated: Benzinga price $121.9176 (2026-10-30) x SEC-filed shares outstanding (207,304,433, 2026-08-24 10-Q cover page)",
+      "note": "Conflicting aggregator-reported caps found this session: ~$26.7B at $135.29 (2026-10-26, same aggregator family) and ~$21.6-21.97B at earlier Aug/Sept 2026 snapshots -- likely reflect different share-count conventions (Class A only vs. combined Class A+B) and/or stale prices. Not reconciled; see conflicts."
     },
     "float": {
       "value": null,
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 205830000,
-      "asOf": "2026-08-19",
-      "source": "Equibles"
+      "value": 207304433,
+      "asOf": "2026-08-24",
+      "source": "Rubrik 10-Q (Q2 FY2027) cover page, SEC EDGAR filing rbrk-20260731.htm -- 167,367,143 Class A + 39,937,290 Class B shares",
+      "note": "Primary-source (SEC cover page) combined share count. Supersedes prior on-file 205.83M (2026-08-19, Equibles) figure. Third-party aggregators variously show 167.37M (Class A only) or 157.4M (unsourced) -- see conflicts."
     },
     "shortInterest": {
-      "value": 6.2,
-      "asOf": "2026-08-19",
-      "source": "Equibles (12.8M shares short, ~6.3 days to cover); % of float",
-      "note": "Single source only this session; not cross-verified against a FINRA settlement figure."
+      "value": 13100000,
+      "asOf": "2026-09-30",
+      "source": "Aggregator citing FINRA settlement data, ~4.2 days to cover",
+      "note": "Reported as raw shares short. Prior on-file figure (12.8M shares / 6.2% of float, 2026-08-19) used a % of float; not strictly comparable but directionally consistent (share count up slightly)."
     },
     "cash": {
       "value": 1750000000,
       "asOf": "2026-07-31",
       "source": "Rubrik 10-Q (Q2 FY2027)",
-      "note": "Cash, cash equivalents and short-term investments; excludes $6.0M restricted cash. The identical $1.75B total was also reported as of 2026-04-30 (with $16.6M restricted cash), i.e. headline liquidity was flat quarter-over-quarter. A third-party aggregator separately shows a narrower 'cash and cash equivalents' figure of ~$416.2M as of 2026-07-31 — likely a different line item (cash-only vs. cash+investments), not reconciled against the filing text this session."
+      "note": "Unchanged this pass -- fiscal Q3 FY2027 (ending 2026-10-31) has not yet been reported. Cash, cash equivalents and short-term investments; excludes $6.0M restricted cash."
     },
     "debt": {
       "value": 1150000000,
       "asOf": "2026-07-31",
       "source": "Rubrik 10-Q (Q2 FY2027)",
-      "note": "$1.15B aggregate principal of Convertible Notes issued in a June 2025 private offering to qualified institutional buyers; carrying value is somewhat lower (~$1.13B per a third-party aggregator, net of issuance costs, as of ~April 2026)."
+      "note": "Unchanged this pass. $1.15B aggregate principal of Convertible Notes (June 2025 private offering); carrying value somewhat lower net of issuance costs."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing: negative GAAP earnings (non-GAAP/adjusted EPS was positive, see eps). Forward: a non-GAAP-basis multiple of roughly ~12x can be computed from Rubrik's own FY27 adjusted diluted EPS guidance ($0.47-$0.53) against the ~$106.71 price, but no GAAP-basis forward consensus was established this session, so forward is left null rather than reporting a non-GAAP-only multiple as if comparable."
+      "note": "Trailing: negative GAAP earnings. Forward: a non-GAAP-basis multiple of roughly ~12x can be derived from FY27 adjusted diluted EPS guidance ($0.47-$0.53) against recent prices, but no GAAP-basis forward consensus was established, so left null rather than reporting a non-GAAP-only multiple as if comparable."
     },
     "eps": [
       {
@@ -75,14 +76,14 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Conflicting unconfirmed estimates: Dec 7, 2026 (Chartmill, citing consensus estimates of $0.08 EPS / $438.77M revenue for the quarter, not an actual earnings-date announcement) vs. the prior on-file ~Dec 1, 2026 estimate (no source found this session). Rubrik's fiscal Q3 FY2027 ends 2026-10-31; neither date is company-confirmed."
+      "note": "Estimates remain scattered and not company-confirmed: Dec 1 (prior on-file, source unclear), Dec 3 (Benzinga), Dec 4 (MarketBeat), Dec 7 2026 (Chartmill, consensus basis: EPS $0.08 / revenue $438.77M). Fiscal Q3 FY2027 ends 2026-10-31; last year's Q3 FY2026 report was 2025-12-04, and the FY2027 Q1 date was announced ~4 weeks ahead (2026-05-07 for a 2026-06-04 release), so a company announcement would likely land in early-to-mid November 2026 -- none found yet this session."
     }
   },
   "price": {
-    "last": 113.41,
+    "last": 121.92,
     "changePct": null,
-    "asOf": "2026-10-19",
-    "source": "Bullfincher price history"
+    "asOf": "2026-10-30",
+    "source": "Benzinga quote"
   },
   "catalysts": [
     {
@@ -108,12 +109,31 @@
     }
   ],
   "conflicts": [
-    "Price: $113.41 (2026-10-19, Bullfincher) vs. an undated 'October 2026' reading of $118.58 (Digrin) -- not reconciled to a specific day.",
-    "Next earnings date: Dec 7, 2026 (Chartmill, consensus-estimate basis) vs. ~Dec 1, 2026 (prior on-file estimate, source unclear) -- neither company-confirmed, not reconciled."
+    "Price: $121.92 (2026-10-30, Benzinga) vs. $135.29 (2026-10-26, same aggregator family) -- a ~10% move in 4 trading days with no specific dated news found to explain it (only generic, undated 'software sector selloff' / 'price-target cuts' commentary). Also vs. an undated 'October 2026' reading of $118.58 (Digrin, carried from a prior pass).",
+    "Market cap: $25.27B (calculated, 2026-10-30) vs. ~$26.7B (aggregator, 2026-10-26) vs. $21.6-21.97B (aggregator, Aug/Sept 2026 snapshots) -- not reconciled; likely different share-count conventions and/or dates. See fundamentals.marketCap note.",
+    "Shares outstanding: 207.30M (SEC 10-Q cover page, 2026-08-24, Class A + Class B combined) vs. third-party figures of 167.37M (Class A only, same filing) and 157.4M (unsourced) -- 207.30M is the primary-source figure, but market-cap calculators may be using a Class-A-only count.",
+    "Next earnings date: on-file Dec 1, 2026 estimate vs. Dec 3 (Benzinga) vs. Dec 4 (MarketBeat) vs. Dec 7, 2026 (Chartmill) -- none company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-08-27 Q2 FY2027 print, still the most recent confirmed event. Next-earnings-date estimates now show a wider, still-unconfirmed range (Dec 1-7, 2026). Fundamentals otherwise unchanged.",
+  "notes": "PM 2026-11-05: no new dated catalyst since the 2026-08-27 Q2 FY2027 print (fiscal Q3 FY2027, ending 2026-10-31, has not yet been reported). This pass pins shares outstanding to the SEC 10-Q cover-page figure (207.30M combined Class A+B, 2026-08-24) and finds a newer short-interest settlement figure (13.1M shares, 2026-09-30), but the resulting market cap and next-earnings date remain unreconciled across sources -- see conflicts. A ~10% price drop between 2026-10-26 and 2026-10-30 was found but not tied to a specific dated news item this session.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -286,11 +306,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

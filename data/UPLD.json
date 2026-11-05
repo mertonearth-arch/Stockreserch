@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.786Z",
+  "lastResearched": "2026-11-05T21:18:33.061Z",
   "fundamentals": {
     "marketCap": {
       "value": 11680000,
@@ -67,7 +67,7 @@
     "nextEarnings": {
       "date": "2026-11-13",
       "confirmed": false,
-      "note": "Earnings Whispers estimate (before market open); other aggregators show stale placeholder dates (Jul 30, Apr 30, 2026) that have already passed and are not reliable. Prior pass's conflicting Nov 5/Nov 6 estimates persist across other sources."
+      "note": "On-file Earnings Whispers estimate retained, but see conflicts: WebSearch this session twice surfaced what appears to be an already-filed SEC 8-K exhibit (q326991earningsrelease.htm) containing actual Q3 2026 figures, which would imply Q3 2026 was already reported before this pass. Exact filing date could not be confirmed -- sec.gov could not be fetched directly this session (DNS-blocked) and no dated BusinessWire/GlobeNewswire/StockTitan article was found, unlike the Q1 and Q2 2026 releases which did have dated wire articles. Flagged as unconfirmed/unresolved rather than treated as fact."
     },
     "REVERSE_SPLIT_NOTE": "Upland executed a 1-for-10 reverse stock split, effective 2026-06-17 (charter amendment filed 2026-06-03), to regain Nasdaq minimum-bid-price compliance. Pre-split share count was ~29.4M; post-split ~2.9M. All post-6/17/2026 share counts below are POST-split; pre-split figures seen on some aggregator pages are stale/non-comparable."
   },
@@ -116,12 +116,22 @@
     }
   ],
   "conflicts": [
-    "Carahsoft 'Master Government Aggregator' item: this session found the Carahsoft announcement itself (and syndicated pickups) dated 2026-08-17 ('Upland Software and Carahsoft Partner to Expand Public Sector Impact'), covering the same NASA SEWP V / NASPO ValuePoint contract-vehicle distribution described in the baseline. This is a DIFFERENT date than the on-file 2026-09-16 date, and no 2026-09-16-dated source for this item was found. Recommend treating 2026-08-17 as the better-supported date unless a 9/16 primary source turns up.",
-    "Next earnings date: on-file 2026-11-13 (Earnings Whispers estimate) vs. a newer TrendSpider estimate of 2026-11-05 found this session — neither is a company confirmation; kept both rather than picking one."
+    "Possible Q3 2026 earnings already reported: WebSearch (twice, independently) surfaced SEC 8-K exhibit content at https://www.sec.gov/Archives/edgar/data/0001505155/000150515526000078/q326991earningsrelease.htm citing actual Q3 2026 figures -- total revenue $47.5M (-6% YoY from $50.5M); subscription & support revenue $45.3M (-5% YoY from $47.7M); GAAP net loss $0.5M (vs. $1.1M year-ago loss); non-GAAP net income $6.4M (-41% YoY from $10.8M); adjusted EBITDA $12.6M / 27% of revenue (vs. 32% a year earlier) -- but no dated press release confirming this was located, and sec.gov itself could not be fetched directly this session to verify the filing date/authenticity. This conflicts with the on-file 2026-11-13 Earnings Whispers estimate and a separate AJBell calendar listing of 2026-11-06. NOT recorded as a dated catalyst and NOT used to update revenue/EPS/growth fields this pass because the date could not be independently confirmed -- next pass should verify directly against SEC EDGAR or Upland's investor-relations page (investor.uplandsoftware.com)."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: no new dated catalyst found since 2026-09-16 Carahsoft government-aggregator announcement. No November-2026-dated news located this session. Quiet.",
+  "notes": "PM 2026-11-05: earnings context flags the next report as due 2026-11-13 (8 days out). This session found search-engine-summarized content suggesting Q3 2026 results may already be filed, continuing the revenue-decline pattern from Q1/Q2 2026, but could not confirm this independently (sec.gov unreachable, no dated wire article found) -- see conflicts. Treated as UNCONFIRMED; fundamentals (revenue/EPS/growth/cash/debt) left at their last-confirmed (Q2 2026) values rather than updated from an unverified source. No other new dated catalyst found since the 2026-09-16 Carahsoft Master Government Aggregator announcement. Flag for close attention on the next pass given the earnings-date uncertainty.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -264,10 +274,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -7,14 +7,14 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.787Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.030Z",
   "fundamentals": {
     "marketCap": {
-      "value": 115850000,
-      "asOf": "2026-09-04",
-      "source": "marketchameleon.com, at $1.84/share",
-      "note": "Stale vs. 2026-10-23; see conflicts for other readings."
+      "value": 49100000,
+      "asOf": "2026-11-03",
+      "source": "Computed: 62,974,309 shares (SEC 10-Q, as of 2026-07-31) x $0.78 (Benzinga, 2026-11-03)",
+      "note": "Supersedes the on-file stale $115.85M (2026-09-04, pre-selloff) figure. This is an estimate computed this session, not a primary-sourced market cap."
     },
     "float": {
       "value": null,
@@ -82,10 +82,11 @@
     }
   },
   "price": {
-    "last": null,
+    "last": 0.78,
     "changePct": null,
-    "asOf": null,
-    "note": "No single reliable 2026-10-23 quote found. Most recent cleanly-dated snapshot was $1.84 on 2026-09-04 (marketchameleon); an undated eToro snapshot showed $1.93 after a reported -30% intraday move; a separate snapshot of $0.89 for 'Oct 14' could not be confirmed to be 2026 (year ambiguous in source). See conflicts."
+    "asOf": "2026-11-03",
+    "source": "Benzinga quote, last updated 2026-11-03 7:20PM EST",
+    "note": "First dated 2026-Q4 quote found for this name; resolves (does not avg) the prior pass's stale 2026-09-04 $1.84 figure. Consistent with the stock's September 2026 primary-endpoint-miss selloff."
   },
   "catalysts": [
     {
@@ -137,11 +138,22 @@
     }
   ],
   "conflicts": [
-    "Market cap/price, October 2026: no single verified current figure. Snapshots found: $115.85M at $1.84 (marketchameleon, 2026-09-04); undated eToro quote of $1.93 (-30% intraday move cited, no date); an unconfirmed-year $0.89 reading labeled 'Oct 14'. None could be confirmed as the 2026-10-23 price."
+    "Market cap/price, October-November 2026: resolved this pass to $0.78/share as of 2026-11-03 (Benzinga) and ~$49.1M computed market cap. Prior-pass undated snapshots ($2.60 TradingView, $2.85 SimplyWall, $2.38 MarketBeat, $1.93 eToro, $0.89 unconfirmed-year) remain unreconciled with each other but are now superseded in relevance by this dated figure, which is also broadly consistent with Upstox's $0.83 as of 2026-10-30 -- both show the stock well below its pre-September levels."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass. Price/market-cap conflict from prior pass remains unresolved (new undated snapshots found: $2.60 TradingView, $2.85 SimplyWall, $2.38 MarketBeat — all undated, not added to conflicts as they don't improve on the existing unresolved range).",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found. Price/market-cap conflict substantially improved this pass with a dated Nov 3, 2026 quote ($0.78), consistent with a nearby $0.83 (Oct 30) snapshot -- both corroborate the stock's post-Seabreeze-STAT-miss decline. Next earnings date still not found. No update found on rademikibart/Simcere China program this session (NDA acceptance was July 2025; a ~$7M regulatory milestone was recognized in Q2 2026 per the 10-Q, already pre-dating this pass's window in spirit though not previously logged as a catalyst -- not added here for lack of an exact release date).",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -257,10 +269,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

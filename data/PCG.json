@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.791Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.053Z",
   "fundamentals": {
     "marketCap": {
       "value": 34659000000,
@@ -130,6 +130,14 @@
       "source": "StockTitan earnings coverage, 2026-10-22"
     },
     {
+      "date": "2026-09-30",
+      "type": "legal/financial disclosure",
+      "headline": "PG&E's Q3 2026 Form 10-Q reiterates an aggregate Kincade Fire liability of $1.325 billion (before available insurance), unchanged since 2025-12-31 and still unchanged as of 2026-09-30; the company continues to record estimated wildfire liabilities at the low end of the reasonably estimable range of losses and says actual losses could be higher as claims develop. The filing also notes that the statutes of limitations for federal fire-suppression claims tied to the 2021 Dixie Fire and 2022 Mosquito Fire expire in 2027 and 2028 respectively, and that PG&E intends to contest both criminal charges and civil complaints (inverse condemnation, negligence, and other theories) tied to its wildfire litigation.",
+      "impact": "No new liability quantification; reiterates existing Kincade Fire exposure and flags upcoming statute-of-limitations deadlines on older fires",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001004980/000100498026000055/pcg-20260930.htm",
+      "note": "Date reflects the 10-Q's reporting period (2026-09-30); exact SEC filing date not independently confirmed this session. This is additional detail from the same Q3 2026 filing already partly on file (which only captured the Q3 earnings print itself)."
+    },
+    {
       "date": "2026-09-08",
       "type": "analyst_action",
       "headline": "BofA downgraded PG&E to Neutral",
@@ -203,8 +211,18 @@
     "The price on file from the prior pass ($13.27, no asOf date) is inconsistent with that same pass's own catalyst text describing an intraday move from a ~$13.15 prior close down to ~$12.93 after the 2026-10-22 Q3 earnings miss; this pass uses $12.93 (sourced to that catalyst text) in its place."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found for November 2026; search results returned only July-September 2026 items already reflected in the on-file record (SB 492 shelved, reaffirmed guidance, strategic review). The 2026-10-22 Q3 print remains the most recent confirmed event. Quiet pass -- fundamentals unchanged.",
+  "notes": "PM 2026-11-05: no new PCG-specific news dated November 2026 found; search results for wildfire/liability news returned only PG&E's SEC filings already substantially reflected on file, plus the Kincade Fire liability and statute-of-limitations detail added above. No new analyst actions found since the on-file 2026-09-08 BofA downgrade. Price, market cap, cash, debt, and short interest could not be refreshed this session (WebFetch to reachable finance sites failed with DNS/ENOTFOUND errors in this sandbox); all carried forward unchanged from the on-file 2026-10-22 snapshot. Quiet pass apart from the 10-Q detail noted above.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -390,10 +408,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

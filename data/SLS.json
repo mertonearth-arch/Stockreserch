@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.785Z",
+  "lastResearched": "2026-11-05T21:18:33.047Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2833000000,
-      "asOf": "2026-09-04",
-      "source": "Value Research (price $14.02 x 201,945,709 shares, 2026-09-04)",
-      "note": "Value Research's own stated market cap figure for the same snapshot ($2,668M) does not reconcile with price x shares ($2,833M); see conflicts. Stock has since fallen further (see catalysts, Oct 2026 declines), so current cap is likely lower than this Sept 4 figure."
+      "value": 1730000000,
+      "asOf": "2026-11-03",
+      "source": "Robinhood (price $8.64; implied vs. 201,945,709 shares outstanding on file is ~$1.745B, reasonably consistent)",
+      "note": "Materially lower than the on-file $2.833B (as of 2026-09-04, price $14.02) - consistent with the stock's decline through the Sept/Oct REGAL disclosure-timing controversy and the Oct 28 80th-event announcement."
     },
     "float": {
       "value": null,
@@ -27,10 +27,10 @@
       "source": "Value Research"
     },
     "shortInterest": {
-      "value": 27.5,
-      "asOf": null,
-      "source": "Fintel (28.23% of float) and Equibles (27.22% of float), both undated/recent; Benzinga shows 28.1%",
-      "note": "Approximate midpoint of the ~27-28% cluster. Older/lower MarketBeat readings of 12.60% and 11.17% conflict and appear to be from different, unspecified dates - see conflicts."
+      "value": 27.9,
+      "asOf": "2026-08-14",
+      "source": "FINRA short-interest settlement data via aggregator: 56.4M shares short at the 2026-08-14 settlement date, ~10.4 days to cover; computed against the 201,945,709 shares-outstanding figure already on file",
+      "note": "Consistent with the ~27-28% cluster already on file, but now tied to a specific settlement date. A separate Koyfin-sourced figure cited ~30.7% of float (2026-05-11) and ~33% of float (2026-06-15) - different date/denominator, not reconciled. An even earlier FINRA read showed 63.3M shares short at the 2026-06-30 settlement (~4.75 days to cover)."
     },
     "cash": {
       "value": 138300000,
@@ -80,7 +80,12 @@
       "note": "StreetInsider platform estimate; not company-confirmed. Supersedes prior pass's null value."
     }
   },
-  "price": null,
+  "price": {
+    "last": 8.64,
+    "changePct": null,
+    "asOf": "2026-11-03",
+    "source": "Robinhood quote snapshot"
+  },
   "catalysts": [
     {
       "date": "2026-10-28",
@@ -141,10 +146,25 @@
       "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update/default.aspx ; SEC 8-K: https://www.sec.gov/Archives/edgar/data/0001390478/000139047826000013/sls-202608118xkexhibit991.htm"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap fell from $2.833B (2026-09-04, $14.02/share) to an implied ~$1.73B (2026-11-03, $8.64/share) - a roughly 38% decline in share price over two months, consistent with the disclosure-timing controversy and REGAL 80th-event catalysts already on file, not a data error.",
+    "Short interest as % of float/shares outstanding varies 27-33% across sources/dates (FINRA 27.9% at 2026-08-14 settlement vs. Koyfin ~30.7%-33% at May/June 2026 dates) - kept both, not averaged."
+  ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: primary update is the 80th-event trigger for Phase 3 REGAL (company IR release). Topline OS results still pending, expected Q4 2026. Next-earnings estimates also diverge further this session (Earnings Whispers Nov 10, other aggregators Nov 11, vs on-file StreetInsider Nov 18) — none company-confirmed; not written into fundamentals.nextEarnings since no single source is more authoritative than what's on file. Market cap/short interest not re-verified this pass (egress-blocked/stale sources); carried over.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst - Phase 3 REGAL topline overall-survival results (triggered by the 80th event on 2026-10-28) are still pending; search this session found no release of the actual topline data. Refreshed price (Robinhood, 2026-11-03: $8.64, mcap ~$1.73B) and short interest (FINRA settlement 2026-08-14: 56.4M shares, ~27.9% of shares outstanding, 10.4 days to cover) with real dates, superseding the previously undated estimates. Next-earnings date remains unconfirmed (on file: 2026-11-18 per StreetInsider); no company confirmation found this session either.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -253,11 +273,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "marketCap updated",
+      "shortInterest updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

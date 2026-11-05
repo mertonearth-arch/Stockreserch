@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.793Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.049Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -25,8 +25,10 @@
       "source": "StockAnalysis.com snapshot (date not given in search result), corroborated by Motley Fool (~116.11M) and roic.ai (~115.89M)"
     },
     "shortInterest": {
-      "value": null,
-      "note": "~19.3% of shares outstanding (~22.54M shares short) per a WebSearch summary of stockanalysis.com data (site itself EGRESS_BLOCKED); undated relative to the Q3 print, kept as a labeled estimate not a verified current figure."
+      "value": 19.2,
+      "asOf": "2026-08-14",
+      "source": "FINRA settlement data via aggregator: ~22.3M shares short at the 2026-08-14 settlement date, 13.3 days to cover, computed against ~116M shares outstanding on file",
+      "note": "A second aggregator showed 22.5M shares short at the 2026-08-19 settlement (10.5 days to cover) - both roughly consistent with the ~19.3% already on file, now tied to specific settlement dates rather than an undated WebSearch summary. A third, undated source's 20.69%-of-float figure was not reconciled."
     },
     "cash": {
       "value": 502000000,
@@ -142,8 +144,18 @@
     "Shares outstanding: ~118.2M implied from the $183.2M net loss / $1.55 EPS vs. an aggregator's separately-cited 116.65M at an earlier date — both approximate, neither from a directly-read filing."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file. No current (November) price or analyst-action coverage dated after the print was found this session -- most recent analyst-rating item located was a 2026-07-22 Zacks downgrade to Strong Sell, already stale and not added as new. Existing conflicts (market cap, cash-position definitions, after-hours price reaction, shares outstanding) remain unresolved and unchanged this pass.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file; no November-2026-dated news, price, or analyst-action coverage located this session. Refreshed the short-interest figure with a dated FINRA settlement (2026-08-14) in place of the prior pass's undated estimate - otherwise quiet. Market cap, cash-position definition, and after-hours-price conflicts already on file remain unresolved and unchanged.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "shortInterest updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -330,10 +342,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "shortInterest updated"
+    ],
     "tradingDay": true
   }
 }

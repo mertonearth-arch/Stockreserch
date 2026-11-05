@@ -8,62 +8,57 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.777Z",
+  "lastResearched": "2026-11-05T21:18:33.056Z",
   "fundamentals": {
     "marketCap": {
       "value": 25130000000,
       "asOf": "~2026-08",
-      "source": "Equibles snapshot, price $75.83",
-      "note": "Stale — predates the 2026-10-22 Sam's Club announcement and subsequent October price swings. No fresher figure established this pass."
+      "source": "carried forward (Equibles snapshot, stale, predates Oct 22 Sam's Club news and today's Q1 FY2027 report)"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Most recent published float figure found (284.469M shares) is from MarketBeat, dated mid-2025, and is stale. No current float figure could be verified this session."
+      "note": "carried forward; stale MarketBeat figure only"
     },
     "sharesOutstanding": {
       "value": null,
-      "asOf": null,
-      "note": "Sources conflict heavily and none is both current and clearly dated: Equibles shows 294,357,801 and 292,409,876 shares (undated pages) vs 334,898,565 (Equibles holdings page, undated); MarketBeat shows 322,600,000 (mid-2025, stale). Could not resolve to a single verified figure — SEC EDGAR (10-Q cover page) was unreachable in this sandbox (www.sec.gov blocked by egress policy)."
+      "note": "carried forward; conflicting sources, unresolved"
     },
     "shortInterest": {
       "value": 14500000,
       "asOf": "2026-08-14 (FINRA settlement date)",
-      "note": "~5.4 days to cover. Prior settlement (2026-07-31): 15.4M shares, 4.4 days to cover. Percent-of-float conflicts: 4.60% (Equibles) vs 5.3% (Benzinga)."
+      "note": "carried forward; ~5.4 days to cover"
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; Affirm's 10-Q/10-K balance sheet was not reachable (SEC EDGAR blocked) and no press summary with a cash balance was found before the search budget was exhausted."
+      "note": "carried forward; not retrieved"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; same constraint as cash above."
+      "note": "carried forward; not retrieved"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "GAAP TTM EPS is distorted by a one-time $1.448B tax benefit (true pre-tax income only $493M for FY2026); left null rather than computing a misleading multiple off the headline $5.53 GAAP EPS."
+      "note": "GAAP TTM EPS distorted by a one-time $1.448B tax benefit; left null rather than compute a misleading multiple"
     },
     "eps": [
       {
         "period": "FY2025 (ended 2025-06-30)",
         "value": 0.16,
         "basis": "GAAP basic",
-        "note": "Net income $52M; prior year FY2024 net loss $518M (-$1.67/share)."
+        "note": "carried forward"
       },
       {
         "period": "FY2026 full year (ended 2026-06-30)",
         "value": 5.53,
         "basis": "GAAP diluted",
-        "note": "Net income $1.93B driven overwhelmingly by a one-time $1.448B income tax benefit — full-year pre-tax income was only $493M. Do NOT use this figure for a normal trailing P/E without flagging the distortion."
+        "note": "carried forward; distorted by one-time $1.448B tax benefit"
       },
       {
         "period": "FQ4 FY2026 (qtr ended 2026-06-30)",
         "value": 0.48,
         "basis": "non-GAAP/adjusted",
-        "note": "Beat $0.33 consensus (EarningsWhispers). GAAP diluted for the same quarter is distorted by the same one-time tax benefit noted above."
+        "note": "carried forward; beat $0.33 consensus"
       }
     ],
     "revenue": [
@@ -71,24 +66,25 @@
         "period": "FQ4 FY2026",
         "value": 1170000000,
         "yoy": 33,
-        "note": "Consensus was $1.11B. GMV $14.1B (+36% YoY), consensus GMV $13.4B."
+        "note": "carried forward"
       },
       {
         "period": "FY2026 full year",
         "value": 4300000000,
         "yoy": 32,
-        "note": "GMV $50.2B (+37% YoY)."
+        "note": "carried forward"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q4 FY2026 (qtr ended 2026-06-30)",
-      "pct": 33
+      "pct": 33,
+      "note": "Not yet updated to the Q1 FY2027 print reported today; see catalysts"
     },
     "nextEarnings": {
-      "date": "2026-11-05",
-      "confirmed": true,
-      "note": "Company itself announced it will report Q1 FY2027 results Nov 5, 2026 (on-file catalyst from 2026-10-05); upgraded from 'null' confirmed status."
+      "date": null,
+      "confirmed": false,
+      "note": "Affirm released its fiscal Q1 FY2027 (qtr ended 2026-09-30) shareholder letter/results after market close today, 2026-11-05, as scheduled (company-confirmed in advance; release itself corroborated by wire pickup, e.g. StockTitan's 'Affirm Reports First Fiscal Quarter 2027 Results'). This field now refers to the UNANNOUNCED next report (Q2 FY2027), which has no date yet."
     }
   },
   "price": {
@@ -98,6 +94,14 @@
     "source": "TIKR, relaying the Oct 22, 2026 AFRM close following the Sam's Club deal announcement"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Affirm released its fiscal Q1 FY2027 (quarter ended 2026-09-30) shareholder letter/results after market close, as previously scheduled, with a conference call at 2:00pm PT hosted by Max Levchin, Michael Linford, and Rob O'Hare.",
+      "impact": null,
+      "source": "https://www.stocktitan.net/news/AFRM/affirm-reports-first-fiscal-quarter-2027-3eptxppmrwi4.html",
+      "note": "IMPORTANT LIMITATION: actual reported figures (revenue, GMV, GAAP/adjusted EPS, active consumers, FY2027 guidance update) could NOT be retrieved this session — WebFetch returned host-unreachable (DNS) errors for investors.affirm.com, StockTitan, and every other finance site attempted, and the batch's shared WebSearch budget was exhausted before a follow-up query could surface the published numbers. Do not infer a beat/miss from this entry. For reference only, the company's own pre-report guidance (given 2026-08-27) was GMV $13.7-14.0B and revenue $1.19-1.22B for this quarter, against a Zacks consensus of ~$0.35 EPS / ~$1.22B revenue — these are estimates/guidance, NOT actuals, and must not be recorded as the print."
+    },
     {
       "date": "2026-10-28",
       "type": "macro",
@@ -189,8 +193,29 @@
     "Market cap ($25.13B, ~Aug 2026) is stale, predating the Oct 22 Sam's Club announcement and subsequent price moves."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-28 Fed-decision-odds note already on file. Q1 FY2027 earnings (company-confirmed for 2026-11-05) not yet reported as of this pass. Market cap remains stale (pre-Oct-22 Sam's Club announcement); no fresher figure found this session. Quiet.",
+  "notes": "PM pass 2026-11-05: Q1 FY2027 earnings day. The release itself is confirmed to have occurred (company-scheduled, wire-corroborated), but this session could not retrieve the actual figures due to a combination of WebFetch host-unreachable errors across every finance site attempted and exhaustion of the batch's shared WebSearch query budget. A follow-up pass (or AM pass tomorrow) should capture the actual Q1 FY2027 print, the market's reaction, and update fundamentals.eps/revenue/growth/marketCap/nextEarnings accordingly. All other fundamentals carried forward unchanged from the prior pass.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -438,10 +463,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

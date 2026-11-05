@@ -8,32 +8,32 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.780Z",
+  "lastResearched": "2026-11-05T21:18:33.055Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Recent (2026) snapshots cluster around $20-24M; older snapshots (~$39M) used a stale, lower share count and are not comparable."
+      "note": "carried forward; no reliable single current figure"
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately from shares outstanding in sources found"
+      "note": "carried forward"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Conflicting: ~32.78M (more recent) vs 21.01M (stale, tied to the Nov 2024 cycle)."
+      "note": "carried forward; conflicting ~32.78M vs 21.01M"
     },
     "shortInterest": {
       "value": 178300,
-      "note": "1.58% of float, 2.7 days to cover (source date ambiguous, possibly stale)."
+      "note": "carried forward; 1.58% of float, 2.7 days to cover (date ambiguous)"
     },
     "cash": {
       "value": 4500000,
       "asOf": "2026-06-30",
-      "source": "Q2 FY2026 10-Q, via Quartr earnings summary; down from $5.8M at 2025-12-31"
+      "source": "Q2 FY2026 10-Q (carried forward)"
     },
     "debt": {
       "value": null,
-      "note": "not located in sources reachable this session; Panabee reported $44.8M in current liabilities and debt maturities/litigation settlements due October 2026, but did not break out a specific debt balance"
+      "note": "carried forward; not located"
     },
     "pe": {
       "trailing": null,
@@ -41,29 +41,18 @@
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
         "period": "Q2 2026",
         "value": -0.19,
         "basis": "GAAP",
-        "note": "net loss of $6.2M for the quarter ended 2026-06-30, per AP/WTOP earnings snapshot"
+        "note": "carried forward; net loss $6.2M for qtr ended 2026-06-30"
       }
     ],
     "revenue": [
       {
         "period": "Q2 2026",
-        "value": null,
-        "note": "Net loss $6.2M (vs $3.6M loss Q2 2025); H1 2026 net loss $14.4M (vs $9.2M H1 2025). A summary describes a ~6% YoY revenue decline but no dollar figure was found. Q3 2026 analyst consensus (not yet reported): EPS -$0.11, revenue ~$130.75M."
+        "value": 114600000,
+        "yoy": -6,
+        "note": "carried forward: revenue $114.6M, down 6% YoY"
       }
     ],
     "growth": {
@@ -74,7 +63,7 @@
     "nextEarnings": {
       "date": "2026-11-10",
       "confirmed": false,
-      "note": "Unusual Whales independently lists the same Nov 10, 2026 date as an estimate, corroborating (but not company-confirming) the date already on file."
+      "note": "Independently corroborated by two sources this session (Unusual Whales and NextEarningsDate.com), both projecting Nov 10, 2026. A third source (EarningsWhispers) instead projects Nov 12, 2026 — kept as a conflict below. No company-issued conference-call notice for Q3 2026 was located."
     }
   },
   "price": null,
@@ -143,12 +132,30 @@
     }
   ],
   "conflicts": [
-    "Next earnings date given as both Nov 9, 2026 (one source) and Nov 10, 2026 (another) — on-file Nov 10 remains an unconfirmed estimate.",
-    "Shares outstanding conflict (32.78M current vs 21.01M stale) is large enough that market-cap figures derived from each are not comparable."
+    "Next earnings date: Unusual Whales and NextEarningsDate.com both independently project 2026-11-10 (corroborating, kept as the primary on-file estimate); EarningsWhispers instead projects 2026-11-12. Neither is a company confirmation — kept both per the conflict rule, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-05 NXH merger termination already on file. No November 2026 coverage located in this session's searches. Nov 10 earnings date remains an unconfirmed estimate. Quiet.",
+  "notes": "PM pass 2026-11-05 (routine refresh): no new dated catalyst found beyond the 2026-10-05 NXH merger termination already on file. No company-issued Q3 2026 earnings-call notice located this session (last year's pattern would put such a notice in mid-October, which was not found in this search); the Nov 10, 2026 date remains an aggregator estimate only, now corroborated by two independent sources vs. one source citing Nov 12. Fundamentals unchanged from prior pass. Quiet pass — consistent with the 'routine refresh' characterization for this ticker.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -312,10 +319,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

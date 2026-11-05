@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.789Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.016Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -146,11 +146,22 @@
     "Trailing P/E: ~87x vs ~29.51x. Forward P/E: ~31.06x vs ~17.20x. Not reconciled.",
     "Market cap: ~$16.29B vs ~$8.46B, despite near-identical share counts (~58.87M vs ~59.50M) — the ~2x gap strongly suggests one figure is stale; not resolved.",
     "Current stock price itself disputed across October 2026 samples (~$214.29 vs $194.60 (10/20) vs $214.55 vs $187.88 (premarket 10/28) vs ~$203.32 (post-earnings)) — none could be confirmed as the definitive 2026-10-30 close.",
-    "Debt total: ~$1.51B (line-item sum, ~June 2026) vs $1.487B (appears to reflect an earlier/mismatched period)."
+    "Debt total: ~$1.51B (line-item sum, ~June 2026) vs $1.487B (appears to reflect an earlier/mismatched period).",
+    "PM 2026-11-05 pass: attempted to resolve the Oct 28 reaction conflict but could not. Two additional dated price points surfaced -- Benzinga $194.65 (asOf 2026-10-28) and Upstox $211.78 (asOf 2026-10-29) -- which are themselves inconsistent with each other and with the existing readings above, so the conflict is widened rather than resolved. Separately, a third-party earnings-analytics tool (FN2) describes 'a 16.5% abnormal move on the report and a subsequent 10.5% drift' without tying this to a specific date or session, so it could not be used to adjudicate the premarket-gain-vs-decline dispute either. No single authoritative source for the Oct 28/29 close was found this pass; verbatim conflict kept per standing rules rather than silently picking one reading."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass beyond the already-filed 2026-10-28 Q3 print. Q4/FY2026 earnings date still unconfirmed.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found since the 2026-10-28 Q3 print already on file. Searched for a Piper Sandler/Jefferies-style single-firm, dated price-target action to add as a fresh analyst_action catalyst; only found undated aggregator consensus figures (Benzinga consensus $260.26 as of 2026-10-28; Investing.com $287.13; MarketBeat $284.18, July 2026) which are not attributable to one dated action and were not added as a catalyst. Q4/FY2026 earnings date remains unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -319,10 +330,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

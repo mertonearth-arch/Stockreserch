@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.773Z",
+  "lastResearched": "2026-11-05T21:18:33.027Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -88,7 +88,7 @@
     "nextEarnings": {
       "date": "2026-11-06",
       "confirmed": false,
-      "note": "unchanged from prior pass — third-party estimate, not company-confirmed"
+      "note": "Most aggregators (Earnings Whispers, both main and beta pages) still point to Nov 6, 2026 before market open — unchanged from prior pass. One new, unconfirmed source found this session instead suggested Nov 18, 2026; could not verify against the company or an SEC filing, so Nov 6 is retained as the better-supported (though still unconfirmed) estimate. As of this pass (PM, Nov 5), no Q3 2026 release has been found."
     }
   },
   "price": {
@@ -238,11 +238,23 @@
     }
   ],
   "conflicts": [
-    "Current price/market cap still unresolved this pass: WebSearch this session found only undated or non-2026-Q4 snapshots (Digrin July 2026 $0.71; MarketChameleon Feb 2026 $0.93; Robinhood March 2026 $2.25) that do not reconcile with the on-file Oct 9, 2026 $4.725 Wedbush delayed quote or with each other — none usable to update price, kept the on-file figure, not averaged."
+    "Current price/market cap still unresolved this pass: WebSearch this session found only undated or non-2026-Q4 snapshots (Digrin July 2026 $0.71; MarketChameleon Feb 2026 $0.93; Robinhood March 2026 $2.25) that do not reconcile with the on-file Oct 9, 2026 $4.725 Wedbush delayed quote or with each other — none usable to update price, kept the on-file figure, not averaged.",
+    "Additional new late-October 2026 price snapshots found this session (Upstox $3.06 as of 2026-10-30; Tickertape $2.84 as of 2026-10-26) suggest the price declined further from the on-file $4.725 (2026-10-09) figure, but conflict with each other and could not be corroborated by a primary source — not used to update the recorded price; the ~-16% move already on file (2026-10-09, -16.22%) may also not be the same move referenced by these later undated/low-confidence snapshots."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond what is already on file (last catalyst 2026-10-29). Earnings due 2026-11-06 (unreported as of this pass). Share-count/price conflicts remain open and unresolved. Quiet.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond what is already on file (last catalyst 2026-10-29). Earnings due 2026-11-06 per most sources (unreported as of this pass), though one unconfirmed source suggests Nov 18 — flagged, not resolved. Share-count/price conflicts remain open and unresolved. Quiet.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -430,10 +442,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

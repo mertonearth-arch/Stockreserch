@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.791Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.020Z",
   "fundamentals": {
     "marketCap": {
       "value": 5361000000,
@@ -75,9 +75,9 @@
       "note": "5.3% organic growth; remainder (~$20M) from the SilverEdge Government Solutions acquisition."
     },
     "nextEarnings": {
-      "date": "2026-12-01",
+      "date": "2026-12-03",
       "confirmed": false,
-      "note": "Estimates across sources disagree: 2026-12-01 (prior on-file estimate), 2026-12-02 (Bullstory), 2026-12-03, and 2026-12-07 before market open (two other aggregators) -- none company-confirmed."
+      "note": "Estimates across sources disagree: 2026-12-01 (prior on-file estimate), 2026-12-02 (Bullstory), 2026-12-03 (therighttrader.com, explicitly labeled 'projected from past report dates, not yet confirmed by the company'), and 2026-12-07 before market open (two other aggregators) -- none company-confirmed. For context, last fiscal year's Q3 call was announced 2025-11-20 for a 2025-12-04 release (before market open); a similarly-timed late-November scheduling announcement would be expected for FY2027 Q3 but has not been found."
     }
   },
   "price": {
@@ -142,11 +142,23 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date estimates span four different days (Dec 1, 2, 3, 7, 2026) across aggregators, none company-confirmed."
+    "Next-earnings date estimates span four different days (Dec 1, 2, 3, 7, 2026) across aggregators, none company-confirmed.",
+    "PM 2026-11-05 pass: could NOT verify the on-file catalyst 'Goldman Sachs raised price target to $103 (Sell), dated 2026-09-08.' Multiple sources instead show: (1) on 2025-09-08, Goldman Sachs analyst Noah Poponak LOWERED (not raised) its SAIC target to $91 from $104, keeping Sell -- note the $104 prior target is close to but not the same as the on-file '$103'; and (2) on 2026-02-12, Goldman Sachs further lowered its target to $82 from $94, keeping Sell. No source found in this pass shows a Goldman Sachs action dated 2026-09-08, nor any Goldman SAIC price target of exactly $103, raised or otherwise. The Sell rating itself IS accurate and consistently corroborated across all Goldman actions found (2025-09-08, 2026-02-12, and others referencing a Gavin Parsons Sell/raise from $83 to $94, undated). Likely explanation: the on-file catalyst may conflate the 2025-09-08 action's old target ($104, misremembered as $103) with a 'raise' framing that actually belongs to a different, undated Goldman action (the $83-to-$94 raise). Kept the on-file catalyst verbatim (not deleted) and recorded this discrepancy here per standing rules rather than silently correcting or dropping it; the 'Sell rating despite the PT change' characterization is confirmed accurate regardless of which specific figure is correct."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found for November 2026; search results surfaced only FY2026 (2025-dated) items that predate and are superseded by what's already on file (the 2026-08-31 Q2 FY2027 print, Aug 5 and Aug 31 contract awards). Quiet pass -- fundamentals, next-earnings-date conflict, and catalysts unchanged.",
+  "notes": "PM pass 2026-11-05: no new dated catalysts found for November 2026; search results surfaced only FY2026/2025-dated items already superseded by what's on file. Focused this pass on resolving the Goldman Sachs Sept 2026 PT-raise catalyst per the batch request -- could not confirm it as stated; see conflicts for the full discrepancy. Quiet otherwise -- fundamentals and catalysts unchanged.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -330,10 +342,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

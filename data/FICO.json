@@ -8,45 +8,52 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.778Z",
+  "lastResearched": "2026-11-05T21:18:33.057Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
       "asOf": "2026-10-02",
-      "source": "Trade-Ideas stock-info page"
+      "source": "carried forward (Trade-Ideas); no fresher dated figure found this session"
     },
     "float": {
       "value": null,
-      "note": "not disclosed in sources found"
+      "note": "carried forward; not disclosed"
     },
     "sharesOutstanding": {
       "value": 23700000,
       "asOf": null,
-      "source": "equibles.com (undated, approximate; another page on same aggregator showed 23,722,134)"
+      "source": "carried forward (equibles.com, approximate/undated)"
     },
     "shortInterest": {
       "value": null,
-      "note": "sources conflict and no single reliable % was confirmed (see conflicts)"
+      "note": "carried forward; conflicting, unresolved"
     },
     "cash": {
       "value": 134100000,
       "asOf": "2025-09-30",
-      "note": "Down from $150.7M a year earlier."
+      "note": "carried forward; FY2026 Q4 balance-sheet cash figure not found this session"
     },
     "debt": {
       "value": 3060000000,
       "asOf": "2025-09-30",
-      "note": "Total debt ~$3.06B; revolver balance $275M; long-term debt ~$2.66B (up from $2.19B); current debt maturities ~$399.5M (up from $15M)."
+      "note": "carried forward; FY2026 Q4 balance-sheet debt figure not found this session"
     },
     "pe": {
       "trailing": null,
-      "note": "Highly conflicting readings (not negative earnings): 35.92x, 37.05x, 44.43x, 89.99x (likely stale denominator) across aggregators — kept verbatim per conflict rule rather than picked/averaged."
+      "note": "carried forward; conflicting readings across aggregators, no fresh price to compute against the new EPS"
     },
     "eps": [
       {
         "period": "FY2025 Q4 (qtr ended 9/30/25)",
         "value": 6.42,
-        "basis": "GAAP"
+        "basis": "GAAP",
+        "note": "carried forward"
+      },
+      {
+        "period": "Q4 FY2026 (qtr ended 2026-09-30)",
+        "value": 8.12,
+        "basis": "GAAP diluted",
+        "note": "Net income $175.0M, vs $155.0M/$6.42 EPS a year earlier (consistent with the on-file FY2025 Q4 figure). Includes three one-time items: a $65M accrual for a proposed antitrust-class-action settlement tied to the Scores business, a $48M non-operating gain on sale of an equity investment, and a $27M restructuring charge for a workforce reduction. Non-GAAP EPS for the quarter was not found this session."
       }
     ],
     "revenue": [
@@ -54,27 +61,41 @@
         "period": "FY2025 Q4",
         "value": 515800000,
         "yoy": 14,
-        "note": "vs $453.8M prior-year quarter per the company release; one aggregator instead cites ~$512M/+16.4% YoY — kept both, not reconciled."
+        "note": "carried forward"
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 657000000,
+        "yoy": 27.3,
+        "note": "vs $516M prior-year quarter per the company's own Q4 FY2026 earnings release (8-K exhibit 99.1, filed 2026-11-04). Operating cash flow was $294.2M vs $223.7M a year earlier."
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2025 (ended 2025-09-30)",
-      "pct": 16
+      "period": "Q4 FY2026 (qtr ended 2026-09-30)",
+      "pct": 27.3
     },
     "nextEarnings": {
-      "date": "2026-11-04",
-      "confirmed": true,
-      "note": "Company press release ('Fair Isaac Corporation Announces Date for Reporting of Fourth Quarter Fiscal 2026 Financial Results', republished via 01net.it) confirms FICO will report Q4 FY2026 results on Nov 4, 2026, after market close, with a conference call that day. Upgraded from aggregator-estimate to company-confirmed this session (prior pass had multiple aggregators converging on Nov 4 but no company confirmation)."
+      "date": null,
+      "confirmed": false,
+      "note": "Q4 FY2026 was reported 2026-11-04 as scheduled. Q1 FY2027 report date not yet announced."
     },
     "guidanceFY2026": {
       "epsNonGAAP": 38.17,
       "revenue": 2350000000,
-      "note": "Given with the Q4 FY25 release."
+      "note": "carried forward (given with Q4 FY25 release; superseded by the FY2026 print now on file; FY2027 guidance not found this session)"
     }
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "FICO reported Q4 FY2026 results (quarter ended 2026-09-30): revenue $657M (+27.3% YoY vs $516M PY); GAAP net income $175.0M / diluted EPS $8.12 (vs $155.0M / $6.42 PY); operating cash flow $294.2M (vs $223.7M PY). Results included three disclosed one-time items: a $65M accrual for a proposed settlement of antitrust class actions tied to the Scores business, a $48M non-operating gain from the sale of an equity investment, and a $27M restructuring charge tied to a workforce reduction.",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454726000037/exhibit991erq42026.htm",
+      "note": "The SEC filing itself could not be directly fetched this session (WebFetch returned host-unreachable for sec.gov); figures are corroborated via WebSearch-engine synthesis of multiple secondary write-ups of the same 8-K exhibit. Non-GAAP EPS, full FY2026 totals, and any FY2027 guidance were not found this session — the WebSearch budget for this batch run was exhausted before a follow-up query could surface them."
+    },
     {
       "date": "2026-10-27",
       "type": "analyst_action",
@@ -163,8 +184,29 @@
     "EPS TTM: $27.01 vs $31.84 (different listing, not directly comparable) vs $20.78 (likely stale) across sources."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: Q4 FY2026 results were scheduled for today (2026-11-04) after market close per company press release; no release was found in sources reachable this session (searches ran before/shortly after the close, before wire pickup). No new dated catalyst beyond the 2026-10-27 analyst-downgrade wave already on file. Quiet pending tomorrow's wire coverage of the print.",
+  "notes": "PM pass 2026-11-05: FICO's Q4 FY2026 print, anticipated-but-not-yet-released as of the prior pass, is now confirmed: revenue $657M (+27.3% YoY), GAAP EPS $8.12, with a quality-of-earnings caveat from three one-time items ($65M antitrust-settlement accrual for the Scores business, $48M equity-sale gain, $27M restructuring charge). The $65M antitrust accrual is itself notable given this ticker's history of regulatory/competitive pressure (FHFA/VantageScore). Non-GAAP EPS, full-year FY2026 totals, FY2027 guidance, and an updated balance sheet (cash/debt as of 2026-09-30) were not found this session and should be filled in on a future pass. No new analyst-action catalyst found beyond the 2026-10-27 downgrade wave already on file.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -344,10 +386,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

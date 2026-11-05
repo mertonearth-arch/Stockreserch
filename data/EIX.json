@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.788Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.052Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -148,6 +148,14 @@
     },
     {
       "date": "2026-09-30",
+      "type": "legal/regulatory disclosure",
+      "headline": "Edison International's Q3 2026 Form 10-Q discloses that the county fire department and CAL FIRE issued reports in August 2026 pointing to an electrical arcing event on a de-energized, idle SCE transmission line as the Eaton Fire's probable ignition source; SCE states that, absent new evidence, its equipment was likely associated with the ignition. The filing also discloses that SCE exhausted its $1.0 billion of self-insurance recoveries for Eaton Fire losses as of 2026-02-11, that fines/penalties tied to the fire will not be recoverable from insurance, the Wildfire Fund, or electric rates, and that a state safety investigation and a Los Angeles County District Attorney investigation remain open (SCE says it sees no basis for a felony liability finding). Multiple individual, subrogation, and public-entity lawsuits remain pending against SCE and Edison International.",
+      "impact": "Clarifies the probable ignition cause and the exhaustion of self-insurance, while leaving total liability unquantified; keeps both SCE and the parent exposed to ongoing litigation and investigations",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000827052/000082705226000073/eix-20260930.htm",
+      "note": "Date reflects the 10-Q's reporting period (2026-09-30); the exact SEC filing date was not independently confirmed this session, but the content is new relative to the on-file record, which only captured the $9M after-tax settlement-charge figure from the same filing."
+    },
+    {
+      "date": "2026-09-30",
       "type": "legal/financial disclosure",
       "headline": "Eaton Fire settlement charge of $9M (after-tax) recorded cumulatively through Q3 2026; company states it still cannot estimate total Eaton Fire losses but says SCE has identified funding sources to resolve claims. Bellwether jury trials are set for January, May, and September 2027; SCE has filed a motion to continue the January 2027 trial to June 2027.",
       "impact": "Liability remains unquantified",
@@ -219,8 +227,18 @@
     "Market cap/price: no October 2026 figure confirmed beyond the stale on-file 2026-10-05 reading ($20.87B at $54.24/share); stock price reaction to the 10/29 print and regular-session closes on 10/29-10/30 could not be established this pass."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found since the 2026-10-29 Q3 print already on file. No November 2026 news located.",
+  "notes": "PM 2026-11-05: no new EIX-specific news dated November 2026 found. The one addition this session is from EIX's own Q3 2026 10-Q (CAL FIRE/county ignition-cause findings, self-insurance exhaustion, open investigations) -- substantive detail from the same filing already partially on file, not previously captured. No new analyst actions found since the on-file 2026-09-14 Jefferies cut. Price, market cap, cash, debt, and short interest could not be refreshed this session (WebFetch to reachable finance sites failed with DNS/ENOTFOUND errors in this sandbox); all carried forward unchanged from the on-file 2026-10-05 snapshot.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -475,10 +493,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

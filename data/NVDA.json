@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.782Z",
+  "lastResearched": "2026-11-05T21:18:33.010Z",
   "fundamentals": {
     "marketCap": {
       "value": 5760000000000,
@@ -82,9 +82,9 @@
       "pct": 106
     },
     "nextEarnings": {
-      "date": "2026-11-18",
-      "confirmed": false,
-      "note": "Widely cited as an estimate; multiple trackers (Wall Street Horizon, days.to) explicitly label it unconfirmed/inferred as of early-to-mid October 2026"
+      "date": "2026-11-17",
+      "confirmed": true,
+      "note": "CME Group's Oct 31, 2026-dated page states NVIDIA confirmed Tuesday, Nov 17, 2026 (after market close) on Oct 28, 2026; the same page's own Oct 21, 2026 version had listed the date as not yet confirmed. Other trackers (MarketBeat, Wall Street Horizon, days.to) still carry Nov 18, 2026, explicitly labeled inferred/unconfirmed, and a separate tracker cites Nov 25, 2026 with no source. Not fully reconciled — see conflicts; this record's prior Nov 18 estimate is superseded pending direct confirmation from investor.nvidia.com, which was unreachable this session."
     }
   },
   "price": {
@@ -161,11 +161,23 @@
   ],
   "conflicts": [
     "Market cap: $5.76T (2026-10-05 record-close coverage) vs. prior-pass figures of ~$5.45T (2026-10-13/14), ~$4.84T (undated), ~$4.45T (stale, tagged with a 'next earnings Nov 2025' label). The 2026-10-05 and 2026-10-13/14 figures both post-date the prior pass and are broadly consistent with each other (small pullback); the $4.45T-$4.84T readings are treated as stale.",
-    "Cash/debt: ~$62.47B cash / ~$38.35B debt (one aggregator, undated) vs. ~$56.79B cash / ~$10.60B debt (another aggregator, appears to date to late 2025) -- debt figures differ by nearly 4x and were not reconciled this session either."
+    "Cash/debt: ~$62.47B cash / ~$38.35B debt (one aggregator, undated) vs. ~$56.79B cash / ~$10.60B debt (another aggregator, appears to date to late 2025) -- debt figures differ by nearly 4x and were not reconciled this session either.",
+    "Next earnings date: Nov 17, 2026 (CME Group, citing an Oct 28, 2026 company confirmation) vs. Nov 18, 2026 (MarketBeat, Wall Street Horizon, days.to — all explicitly labeled inferred/unconfirmed) vs. Nov 25, 2026 (a separate tracker, no source cited) — not reconciled beyond noting the CME figure is the only one claiming direct company confirmation."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-13 Doctolib minority-stake report already on file. Nov 18 earnings date remains an unconfirmed analyst/platform estimate. Cash/debt figures remain unresolved per prior-pass conflicts. Quiet.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-13 Doctolib minority-stake report already on file. Next-earnings date updated per the conflict above (one source now claims a company-confirmed Nov 17, 2026 date, superseding the prior Nov 18 estimate, but this is not unanimous across trackers). Cash/debt conflicts from prior passes remain unresolved; market cap, float, shares outstanding and short interest were not refreshed this session (search budget exhausted) and are carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -340,10 +352,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

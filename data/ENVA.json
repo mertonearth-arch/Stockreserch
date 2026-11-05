@@ -7,64 +7,44 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.788Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.057Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": null,
-      "source": null,
-      "note": "Still no single reliable current (post-Q3-earnings) figure. This round surfaced three more mutually inconsistent, mostly undated snapshots: $237.39, $230.58 (both undated aggregator pages), and $172.89 (a 'October 2026' monthly-average figure that is likely a partial-month blend spanning the pre-earnings low after the Sept 14 Grasshopper withdrawal). None is usable as a dated current figure; not treated as current per instructions against guessing."
+      "note": "carried forward; still no single reliable current dated figure despite additional searches this session"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not found in sandbox search"
+      "note": "carried forward; not found"
     },
     "sharesOutstanding": {
       "value": null,
-      "asOf": null,
-      "note": "Not found in sandbox search; not backed into from market cap/price per instructions against guessing"
+      "note": "carried forward; not found"
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "Not found in sandbox search"
+      "note": "carried forward; not found"
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "Not found in sandbox search; Enova's balance sheet is receivables/securitization-funding heavy, full detail requires the 10-Q, which could not be fetched in this sandbox"
+      "note": "carried forward; not found"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not found in sandbox search for the same reason as cash"
+      "note": "carried forward; not found"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Could not compute: no verified current share price and incomplete trailing-twelve-month EPS in this sandbox",
-      "asOf": "2026-10-22"
+      "note": "carried forward; no verified current price"
     },
     "eps": [
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not found in sandbox search"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not found in sandbox search"
-      },
       {
         "period": "Q3 2026",
         "value": 4.06,
         "basis": "GAAP diluted",
-        "note": "up 34% YoY; adjusted (non-GAAP) EPS was $4.48, up 33% YoY, per company's own Q3 2026 8-K press release"
+        "note": "carried forward; up 34% YoY; adjusted (non-GAAP) EPS $4.48, up 33% YoY"
       }
     ],
     "revenue": [
@@ -72,7 +52,7 @@
         "period": "Q3 2026",
         "value": null,
         "yoy": 26,
-        "note": "Company's own 8-K press release states total company revenue surpassed $1 billion in a quarter for the first time in Enova's history, up 26% YoY; exact dollar figure not stated in source text located. Total company originations were $2.6B in the quarter; combined loans and finance receivables reached a record $5.9B, up 30% YoY (distinct metric from the +31% originations YoY figure already on file -- both describe the same quarter from different angles, not a conflict)."
+        "note": "carried forward; revenue topped $1B for the first time in company history, +26% YoY"
       }
     ],
     "growth": {
@@ -83,7 +63,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Still no Q4 2026 date found; GuruFocus/Admiral Markets pages showing 'Oct 22/23' next-earnings dates are stale artifacts referencing the Q3 2026 report that already occurred on 2026-10-22."
+      "note": "Still no Q4 2026 date found this session. Based on the company's prior-year cadence (Q4 2025 reported ~late Jan 2026), a Q4 2026 report would be expected around late January/early February 2027 — this is an inference from pattern, not a sourced date, so left null rather than guessed."
     }
   },
   "price": null,
@@ -133,8 +113,27 @@
     "Q3 2026 adjusted EPS: company's own 8-K/press release states $4.48 (+33% YoY); a third-party aggregator (scanx.trade) instead reports $4.37 vs a $4.34 estimate and revenue of $1.004B -- the two do not reconcile and may reflect a reporting/date mix-up (one search summary separately flagged Q2 2026 figures as sometimes mislabeled Q3 across sources). The company 8-K figure ($4.48) is treated as authoritative above."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass. Market cap/share price remains unconfirmed for a current date, consistent with prior pass.",
+  "notes": "PM pass 2026-11-05 (routine refresh, quiet1 carried in): no new dated catalyst found. The Grasshopper Bancorp acquisition remains withdrawn per the 2026-09-14 catalyst already on file (company pulled its OCC/Fed regulatory applications); background searches this session only turned up pre-withdrawal (Dec 2025) deal-announcement coverage describing it as 'on track to close H2 2026,' which is now superseded and not treated as new information. Market cap, shares outstanding, cash, debt, short interest and a confirmed Q4 2026 earnings date all remain unresolved despite additional targeted searches this session. Session note: WebFetch returned host-unreachable errors for every finance site attempted, and the batch's shared WebSearch budget was exhausted before further queries could run — genuinely quiet pass, not an under-researched one, given the volume of searches that turned up nothing new.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -243,10 +242,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

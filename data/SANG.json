@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.792Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-05T21:18:33.061Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -106,8 +106,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new catalyst found. BRC Group acquisition terms unchanged (US$4.925 cash + 0.04767 BRC share/share, ~$204M enterprise value); special meeting still targeted on/before 2026-12-11 per secondary aggregator, closing still targeted January 2027 (outside date 2027-01-22), no primary proxy circular located confirming the meeting date. No current standalone price/market cap could be freshly confirmed this session (only stale pre-2026-11 snapshots found); existing conflicts and null fields unchanged.",
+  "notes": "PM 2026-11-05: checked specifically for BRC Group deal progress/closing news -- none found this session. Deal remains pending with unchanged terms (US$4.925 cash + 0.04767 BRC share per Sangoma share, ~US$204M enterprise value, unanimous board approval, officers/directors holding ~27% signed voting support agreements); special shareholder meeting still targeted on/before 2026-12-11, closing still targeted January 2027 (outside date 2027-01-22). No definitive proxy circular with a confirmed meeting date, no vote result, and no closing announcement located this session. Standalone market cap/price still not reliably establishable (same caveats as prior passes -- see on-file conflicts); all other fundamentals unchanged from the 2026-11-04 pass. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -214,7 +222,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": true,
     "changes": [],

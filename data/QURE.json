@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.784Z",
+  "lastResearched": "2026-11-05T21:18:33.045Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1457000000,
-      "asOf": "2026-10-05",
-      "source": "Derived: 63,067,485 shares outstanding (Equibles) x $23.11 (AAII, 2026-10-05)"
+      "value": 1440000000,
+      "asOf": "2026-10-29",
+      "source": "Upstox, 2026-10-29",
+      "note": "Broadly consistent with (not materially different from) the on-file $1.457B figure derived for 2026-10-05; not treated as a conflict given the ~1% gap and the few-week date difference."
     },
     "float": {
       "value": null,
@@ -80,10 +81,11 @@
     }
   },
   "price": {
-    "last": 23.11,
-    "changePct": null,
-    "asOf": "2026-10-05",
-    "source": "AAII investing-ideas coverage ('down about 1.5% from the prior close of $23.46'); consistent with the prior pass's $23.11 (2026-10-02) figure used for its market-cap calc"
+    "last": 24.96,
+    "changePct": 2.97,
+    "asOf": "2026-10-29",
+    "source": "Upstox (\"up $0.72 (2.97%)\", last updated 2026-10-29); day's range $23.80-$25.19",
+    "note": "Most recent dated quote found this session -- newer than the on-file 2026-10-05 $23.11 figure, but still predates today (2026-11-05); no same-day post-earnings quote could be sourced before the WebSearch budget was exhausted."
   },
   "catalysts": [
     {
@@ -170,8 +172,18 @@
     "Q3 2026 revenue vs. forecast: Investing.com frames $5.2M as a miss vs. a $6.21M forecast, while the headline EPS result is simultaneously framed as a beat -- kept both characterizations, not reconciled into a single verdict."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: Q3 2026 results reported before market open. Replaces the prior 'not yet reported' placeholder. FDA BLA acceptance with Priority Review for AMT-130 is the key new catalyst; the May 2027 PDUFA date is sourced to secondary coverage only.",
+  "notes": "PM pass 2026-11-05: verified the 2026-11-04 Q3 2026 catalyst already on file (revenue $5.2M +40.5% YoY, net loss $61.2M/-$0.88 GAAP, cash $768.4M as of 2026-09-30, FDA BLA acceptance with Priority Review for AMT-130) -- no independent source found this session that contradicts or materially adds to those figures, and no newer catalyst beyond it was located. Updated price/market cap to a slightly fresher (2026-10-29, still pre-earnings) dated quote. The AMT-130 PDUFA date (~2027-05-01) remains sourced only to secondary coverage, as previously flagged. This session's shared WebSearch budget was exhausted before further verification of the Nov 4 print against a primary source could be completed.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -361,17 +373,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "cash updated",
-      "conflicts updated"
+      "marketCap updated"
     ],
     "tradingDay": true
   }

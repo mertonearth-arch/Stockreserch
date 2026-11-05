@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.775Z",
+  "lastResearched": "2026-11-05T21:18:33.037Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -42,7 +42,7 @@
     },
     "pe": {
       "trailing": null,
-      "note": "Iovance has commercial revenue (Amtagvi) but no confirmed positive trailing EPS was found this pass; left null pending a clean EPS figure."
+      "note": "negative earnings -- net loss narrowed to $22.3M in Q3 2026 from $91.3M in Q3 2025 but remains negative"
     },
     "eps": [
       {
@@ -54,7 +54,13 @@
         "period": "Q2 2026",
         "value": -0.11,
         "basis": "GAAP",
-        "note": "net loss narrowed from $111.7M (Q2 2025) to $47.3M, attributed to higher sales and lower R&D/cost of sales"
+        "note": "net loss narrowed from $111.7M (Q2 2025) to $47.3M"
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Per-share figure not independently located this session. Form 10-Q (period ended 2026-09-30) reports net loss of $22.271M for the quarter, sharply narrowed from $91.253M in Q3 2025 -- a company-stated EPS figure was not confirmed from a reachable source, so left null rather than derived/guessed."
       }
     ],
     "revenue": [
@@ -62,27 +68,41 @@
         "period": "Q2 2026",
         "value": 99300000,
         "yoy": 66,
-        "note": "Amtagvi $90.7M + Proleukin $8.6M. Amtagvi beat the company's own $79-81M quarterly guidance."
+        "note": "Amtagvi $90.7M + Proleukin $8.6M"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 122000000,
+        "yoy": 80,
+        "note": "Total revenue ~$122M, +80% YoY; Amtagvi product revenue specifically +77% YoY; gross margin improved to ~60% (from 56% in Q2 2026)."
       }
     ],
     "growth": {
-      "metric": "FY2026 revenue guidance raise",
-      "period": "2026",
-      "pct": 60,
-      "note": "On 2026-09-29, Iovance raised FY2026 total product revenue guidance to $410-420M (from $350-370M), implying ~60% YoY growth, after the Q2 2026 Amtagvi beat."
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 80,
+      "note": "FY2026 total revenue guidance of $410-420M (raised 2026-09-29) was reaffirmed with the Q3 2026 print."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
+      "date": null,
       "confirmed": false,
-      "note": "Company's own guidance-raise release says only 'early November 2026'; one aggregator separately lists Nov 5 as an estimate, not company-confirmed."
+      "note": "Q3 2026 reported 2026-11-05. Date for the next (Q4/FY2026) report has not yet been announced."
     }
   },
   "price": {
-    "last": 12.96,
+    "last": null,
     "changePct": -8.41,
-    "asOf": "2026-10-06"
+    "asOf": "2026-11-05",
+    "note": "Session move as supplied in this pass's brief (earnings day). This session could not independently source a same-day closing print: WebFetch to SEC EDGAR, StockAnalysis, TipRanks, Finviz, GlobeNewswire and iTiger all failed DNS resolution in this sandbox, and the WebSearch tool's own result budget was exhausted before a dated Nov 5 quote surfaced. Do not conflate with the separate -8.41% move already in this record's pass history dated 2026-10-23 -- that appears to be a distinct, earlier event."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 results: total revenue ~$122M (+80% YoY), Amtagvi product revenue +77% YoY, gross margin ~60% (vs 56% in Q2 2026); net loss narrowed to $22.3M (10-Q) from $91.3M in Q3 2025; R&D expenses down ~16% YoY; reaffirmed FY2026 total revenue guidance of $410-420M. Clinical updates cited in the release: 24.6% ORR in 69 patients with non-squamous metastatic NSCLC, and 55.6% ORR in the UPS/DDLPS sarcoma cohort. Quote attributed to Frederick Vogt, Interim CEO and President (no permanent CEO announcement found).",
+      "impact": "Shares fell 8.41% in the session despite an apparent improvement on most reported metrics; this session could not locate a sourced explanation for the drop (direct access to SEC EDGAR and most news aggregators was blocked in this sandbox) -- flagged as unconfirmed, not guessed at.",
+      "source": "SEC Form 8-K Ex-99.1 (filed 2026-11-05) and Form 10-Q for the period ended 2026-09-30, per WebSearch-relayed summaries of SEC EDGAR filings; direct WebFetch to sec.gov was blocked in this sandbox this session."
+    },
     {
       "date": "2026-10-26",
       "type": "medical conference / data",
@@ -155,12 +175,28 @@
     }
   ],
   "conflicts": [
-    "Short interest, newly found this pass: 64.8M shares / 2.8 days to cover at the 2026-09-30 FINRA settlement date (Curved Trading) vs. the on-file 100.0M (Equibles, 2026-08-21 settlement) and 114.71M (StockAnalysis-relayed, undated) readings — a large apparent decline, but settlement dates differ and none is confirmed current; all three kept verbatim, none chosen as authoritative.",
-    "Shares outstanding: 446,500,000 (StockAnalysis/Equibles, undated, found this pass) vs. 452,970,000 (Fox Business, 2026-10-23, on file) — close but not identical; not reconciled."
+    "This pass could not independently corroborate the -8.41% session move supplied in the research brief with a same-day closing price (every finance site WebFetch was attempted on returned DNS failure in this sandbox). Kept as supplied, not fabricated into a specific price level."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found. Next earnings (Nov 5, still only aggregator-estimated, not company-confirmed per the company's own 'early November 2026' language) unreported as of this pass. New short-interest data point added as a conflict, not a resolution.",
+  "notes": "PM pass 2026-11-05: Q3 2026 results reported before market open -- revenue and margin beat/improved on prior quarters and FY guidance was reaffirmed, but shares fell 8.41% intraday for a reason this session could not source. Per-share Q3 loss not confirmed from a reachable source (left null, not derived). Next earnings date not yet announced now that Q3 is reported.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "move -8.41%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -350,12 +386,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "sharesOutstanding updated",
-      "shortInterest updated",
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "move -8.41%",
       "conflicts updated"
     ],
     "tradingDay": true

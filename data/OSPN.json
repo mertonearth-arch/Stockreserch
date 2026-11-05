@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.791Z",
+  "lastResearched": "2026-11-05T21:18:33.060Z",
   "fundamentals": {
     "revenue": [
       {
@@ -34,32 +34,37 @@
     "sharesOutstanding": {
       "value": 36850000,
       "asOf": "2026-10-23",
-      "source": "Fox Business / Google Finance (convergent reading)",
-      "note": "Snapshot pre-dates the 2026-10-29 Q3 earnings move, but share count itself is not expected to move on an earnings print alone."
+      "source": "Fox Business (re-checked 2026-11-05, unchanged)",
+      "note": "Other sources range 36.85M-38.07M (TipRanks/Stoculator ~37.07M, Motley Fool ~37.47M, Finspry ~38.07M); treated as approximate."
     },
     "shortInterest": {
-      "value": 3000000,
-      "asOf": "2026-08-20",
-      "source": "Equibles -- 8.12% of float, 7.9 days to cover",
-      "note": "Pre-dates the Q3 2026 earnings move; no post-earnings short-interest settlement figure found this session."
+      "value": 3600000,
+      "asOf": "2026-09-30",
+      "source": "Curvedtrading, citing FINRA Consolidated Short Interest settlement data",
+      "note": "~5.2 days to cover. Supersedes prior on-file 2026-08-20 Equibles snapshot (3.0M shares, 8.12% of float, 7.9 days to cover) with a more recent, dated settlement figure."
     },
     "cash": {
-      "value": 70500000,
-      "asOf": null,
-      "source": "SharesGrow aggregator",
-      "note": "Undated; not independently confirmed against the Q3 2026 10-Q."
+      "value": 51400000,
+      "asOf": "2026-09-30",
+      "source": "OneSpan 10-Q (Q3 2026), SEC EDGAR filing ospn-20260930.htm",
+      "note": "Found via WebSearch snippet of the filing text; sec.gov could not be fetched directly this session (DNS-blocked). Down from $70.5M at 2025-12-31 (the filing's own prior-year-end comparison) -- this resolves the prior pass's undated $70.5M aggregator figure as the FY2025 year-end balance, not a current one."
     },
     "debt": {
-      "value": 6140000,
-      "asOf": null,
-      "source": "SharesGrow aggregator",
-      "note": "Undated; same caveat as cash."
+      "value": 5000000,
+      "asOf": "2026-09-30",
+      "source": "OneSpan 10-Q (Q3 2026), SEC EDGAR filing ospn-20260930.htm",
+      "note": "Borrowings drawn under the $100M revolving credit facility at quarter-end; the 10-Q's subsequent-events section states this was repaid in full on 2026-10-06. Company also carried $0.4M letters of credit outstanding at quarter-end, not included in this figure. Supersedes prior undated $6.14M aggregator figure."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Pre-earnings trailing-P/E readings ranged 5.2x-8.93x across sources, none dated after the 2026-10-29 Q3 print; not reliable for a current multiple, so left null rather than picking one.",
+      "note": "Pre-earnings (pre-2026-10-29) trailing-P/E readings ranged ~5.2x-10.6x across sources depending on snapshot date (e.g. Fox Business 2026-10-23: P/E 10.59 at $19.21/share). No dated post-earnings (after 2026-10-29) P/E or price was found this session either, so left null rather than picking one.",
       "asOf": null
+    },
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Next report is Q4 2026 results. Last year's Q4 2025 report was 2026-02-26 (announced via a 2026-01-13 press release), so a Q4 2026 date would likely be announced mid-January 2027 -- nothing found yet this session."
     }
   },
   "price": null,
@@ -77,6 +82,21 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -122,18 +142,18 @@
       "from": "daily"
     }
   ],
-  "notes": "First full pass on this name since it was added via the 2026-10-30 closing-movers scan. Shares outstanding and a dated (pre-earnings) short-interest figure are now established; a reliable post-earnings price, market cap and P/E could not be pinned down this session -- all available snapshots pre-date or are ambiguously dated relative to the 2026-10-29 Q3 print. Float and a confirmed next-earnings date remain outstanding.",
+  "notes": "PM 2026-11-05: no new catalyst found since the 2026-10-29 Q3 2026 print (still the most recent event). This pass pins cash, debt and a short-interest settlement figure to the Q3 2026 10-Q and FINRA data (all dated 2026-09-30), an improvement on last pass's undated aggregator figures. A reliable post-earnings market cap, P/E and share price remain unestablished -- all available quote snapshots pre-date or are ambiguously dated relative to the 2026-10-29 print. Next earnings date (Q4 2026) not yet announced.",
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
       "pe updated",
+      "nextEarnings updated",
       "sharesOutstanding updated",
       "shortInterest updated",
       "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "debt updated"
     ],
     "tradingDay": true
   }

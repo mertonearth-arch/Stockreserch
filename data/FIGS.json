@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.788Z",
+  "lastResearched": "2026-11-05T21:18:33.022Z",
   "fundamentals": {
     "marketCap": {
       "value": 1970000000,
@@ -78,7 +78,7 @@
     "nextEarnings": {
       "date": "2026-11-05",
       "confirmed": false,
-      "note": "2026-11-05 is now the more-supported estimate (Unusual Whales, Earnings Whispers beta page at 4:05pm ET) vs. Earnings Whispers' main page showing 2026-11-09. Still not company-confirmed; supersedes the prior pass's flat Nov-5-vs-Nov-9 tie with a lean toward Nov 5."
+      "note": "As of this PM pass (2026-11-05), no Q3 2026 earnings release, 8-K, or press coverage of actual results could be found despite dedicated searching -- the report does not appear to have been published yet at search time. Most sources (Unusual Whales, TIKR, Chartmill) point to 2026-11-05 after market close as the date; Earnings Whispers' main page is an outlier showing 2026-11-09, 4:05pm ET. Neither date is company-confirmed. Consensus estimates found: EPS ~$0.07 (6 analysts per Benzinga), revenue ~$186.1-186.35M (Chartmill) vs. ~$181M (Earnings Whispers) -- these are pre-print estimates, not actuals, and are not recorded as a catalyst."
     }
   },
   "price": null,
@@ -136,8 +136,18 @@
     "EPS Q2 2026: company release states $0.15 GAAP diluted (net income $28.4M) vs $0.11 reported by Zacks/Google Finance coverage of the same quarter (likely adjusted) — not reconciled, never averaged."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found this pass; market cap/float/short-interest remain stale (pre-Aug-2026-rally) as on file.",
+  "notes": "PM pass 2026-11-05: this ticker was flagged as reporting earnings today. Despite dedicated, repeated searches (including an extended-mode search and an attempted SEC EDGAR 8-K filing lookup, which failed with a DNS/network error in this sandbox -- sec.gov could not be reached by WebFetch this session), no actual Q3 FY2026 print was found; all retrievable results are either the Q2 2026 release (Aug 6, 2026, already on file) or confusable Figma (ticker FIG, unrelated company) Q3 2026 results. Treating the FIGS Q3 2026 print as NOT YET AVAILABLE as of this pass rather than inventing figures. The 2026-10-12 sector-review catalyst remains on file unchanged. A follow-up pass should re-check once the print is out.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -264,7 +274,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [

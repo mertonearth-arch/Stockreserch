@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.777Z",
+  "lastResearched": "2026-11-05T21:18:33.024Z",
   "fundamentals": {
     "marketCap": {
       "value": 3590000,
@@ -174,11 +174,22 @@
     }
   ],
   "conflicts": [
-    "Additional undated/loosely-dated price snapshots found this session (Value Research ~$2.10 as of 2026-03-31; Google Finance caches ~$1.90-2.78, undated; equibles.com $1.93/2,370,560 shares, undated) are far below the on-file 2026-10-26 $5.22-5.58 range and do not carry clear 2026-Q4 dates — treated as likely stale/pre-dating the on-file figures or using a different share-count basis, NOT used to update price or market cap, and not treated as resolving the existing share-count conflict."
+    "Additional undated/loosely-dated price snapshots found this session (Value Research ~$2.10 as of 2026-03-31; Google Finance caches ~$1.90-2.78, undated; equibles.com $1.93/2,370,560 shares, undated) are far below the on-file 2026-10-26 $5.22-5.58 range and do not carry clear 2026-Q4 dates — treated as likely stale/pre-dating the on-file figures or using a different share-count basis, NOT used to update price or market cap, and not treated as resolving the existing share-count conflict.",
+    "New unconfirmed November 2026 price snapshots found this session conflict with each other and cannot be reconciled with the on-file $5.22-5.58 (2026-10-26/08-28) range: Benzinga shows $5.97 as of 2026-11-02 3:30PM EST; a separate (unverified, could not be re-confirmed from an independent source) figure of $5.44 for 2026-10-30 also circulated. Neither is used to update the recorded price given single-source/unverifiable sourcing; share-count conflict (sharesOutstanding 1,604,095 vs. 973,213 vs. 2,370,560) remains open."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found beyond the 2026-10-07 record already on file. North Immunology merger (targeted Q1 2027 close) has no confirmed status update this session. Share-count/price conflicts remain open. Quiet.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found. No update located on the North Immunology merger (Q1 2027 targeted close) — searched specifically for an S-4 filing or registration-statement status and found none; deal terms as announced 2026-09-17 remain the most recent confirmed status. Next earnings 2026-11-12 (7 days out) unchanged, unconfirmed. Share-count/price conflicts remain open. Quiet except for conflicts note.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -386,7 +397,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [

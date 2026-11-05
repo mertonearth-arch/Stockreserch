@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.793Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-05T21:18:33.021Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -136,8 +136,16 @@
     "A Benzinga Korean-language page lists a $5.84 price alongside '35.7% short float,' which is roughly consistent with the October price range but was not fully cross-checked against the Quiver Quant $5.70 figure for the same window."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst confirmed. A search surfaced reference to an earlier Nasdaq majority-independent-director deficiency notice with a cure deadline of 2026-11-27 (contingent on when the next annual meeting is held), but this could not be dated with confidence relative to the 2026-10-08/09 announcement already on file that the company had 'resolved remaining governance deficiencies and regained full Nasdaq listing compliance' -- flagging rather than adding as a catalyst, since it may simply be the same matter already resolved. The NovaGen Group non-binding term sheet (2026-09-14) still shows no definitive-agreement update. All existing conflicts (short interest range, share-count jump, reverse-split-driven price conflict) remain unresolved and unchanged.",
+  "notes": "PM pass 2026-11-05: search for VEEA news turned up nothing dated after the 2026-10-09 compliance/+47.3% spike catalyst already on file; results were a mix of September 2026 NovaGen coverage already on file and stale 2024-2025 items. The NovaGen Group non-binding term sheet (2026-09-14) still shows no definitive-agreement update found. All existing conflicts (short interest range ~0.7%-65% across sources, share-count jump, reverse-split-driven price conflict) remain unresolved and unchanged this pass.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -243,7 +251,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": true,
     "changes": [],

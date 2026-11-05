@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.785Z",
+  "lastResearched": "2026-11-05T21:18:33.049Z",
   "fundamentals": {
     "marketCap": {
       "value": 12500000,
@@ -74,9 +74,9 @@
       "note": "Pre-revenue clinical-stage biotech; no revenue to report. No other disclosed operating metric (e.g. enrollment, burn rate) was found with enough precision this session to use as a headline growth figure."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
+      "date": null,
       "confirmed": false,
-      "note": "Unchanged — Yahoo Finance estimate, not independently reconfirmed or found elsewhere this session."
+      "note": "The on-file estimate of 2026-11-05 (today) produced no located Q3 2026 earnings release in this session's searches. Third-party aggregators conflict on the date: Earnings Whispers main page says 2026-11-09 after market close; Earnings Whispers beta page says 2026-11-12; Digrin shows 2026-11-04 as a placeholder with no estimates attached. None is company-confirmed. Left null rather than picking one."
     }
   },
   "price": {
@@ -109,14 +109,22 @@
     }
   ],
   "conflicts": [
-    "WATCH FOR REVERSE SPLIT (flagging, not guessing a ratio): Tempest received a Nasdaq bid-price deficiency notice in December 2024 after closing below $1.00 for 30 consecutive business days; shareholders approved a reverse split at an unspecified ratio between 1-for-2 and 1-for-15. A mid-2026 snapshot shows a 52-week price range of $1.22 to $12.23 — a ~10x spread consistent with a reverse split having occurred within that window. Exact ratio/effective date NOT confirmed this pass.",
-    "Share counts across sources differ by roughly 10x (4.44M vs 14.8M vs 43.64M) depending on date — almost certainly reflects the above reverse split plus subsequent dilutive financings (March 2026 PIPE at $2.16/share; the Sept 2026 ~$2.5M warrant private placement already on file), rather than any single source being simply wrong. Not reconciled.",
-    "Cash figures conflict sharply: $779K (SEC 8-K, 2026-06-30) vs $14.28M (undated aggregator) — the latter almost certainly predates the reverse split/dilution and should not be treated as current.",
-    "Market cap: readings found span ~$15.5M to ~$48.75M across sources/dates, driven by both conflicting share counts and non-contemporaneous prices — not reconciled."
+    "Next-earnings date estimates for Q3 2026 conflict across sources and none is company-confirmed: on-file 2026-11-05 (Yahoo Finance) vs Earnings Whispers 2026-11-09 vs Earnings Whispers-beta 2026-11-12 vs Digrin 2026-11-04 (likely a placeholder, no estimates given). No actual Q3 2026 print was found as of this pass despite today being the on-file estimated date."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: no new dated catalyst found since 2026-09-16 Senlang CD7 licensing option. No November-2026-dated news located this session. Quiet.",
+  "notes": "PM pass 2026-11-05: no new dated catalyst found since the 2026-09-16 Hebei Senlang CD7 licensing-option announcement already on file. Today was the on-file estimated earnings date but no Q3 2026 release was located this session (see conflicts) - flagging for the next pass to check directly once a print appears. Price, cash, share count, and reverse-split conflicts all carried forward unchanged (no improvement found this session).",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -288,10 +296,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

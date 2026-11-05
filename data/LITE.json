@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.781Z",
+  "lastResearched": "2026-11-05T21:18:33.009Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -55,6 +55,12 @@
         "value": 3.23,
         "basis": "non-GAAP adjusted",
         "note": "Reported 2026-08-11/12, a beat; a separate source instead reports $2.97 for the same quarter — kept both, not reconciled."
+      },
+      {
+        "period": "Q1 FY2027 (ended 2026-09-26)",
+        "value": 3.54,
+        "basis": "GAAP diluted",
+        "note": "GAAP net income $360.3M. Non-GAAP diluted EPS for the same quarter was $4.57 (non-GAAP net income $461.1M)."
       }
     ],
     "revenue": [
@@ -67,17 +73,24 @@
         "value": 2490000000,
         "yoy": 51,
         "note": "Sum of $480.7M + $533.8M + $665.5M + $808.4M across FY2026 quarters per one source; +~51% YoY vs FY2025's $1.645B. A separate source states Q4 FY2026 revenue was $1.01B/$987.70M instead of the implied $808.4M — materially different, not reconciled."
+      },
+      {
+        "period": "Q1 FY2027 (ended 2026-09-26)",
+        "value": 1260000000,
+        "yoy": null,
+        "note": "Company-reported net revenue of $1.26B for fiscal Q1 2027. YoY base is disputed between sources: one secondary read implies a prior-year comparator of $533.8M (+136%), while this record's own FY2026 quarterly breakdown lists Q1 FY2026 at $480.7M (+162%) — not reconciled, left as null rather than guessed."
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2026 (ended 2026-06-27)",
-      "pct": 83.2
+      "period": "Q1 FY2027 (ended 2026-09-26)",
+      "pct": null,
+      "note": "Disputed YoY base — see conflicts and the revenue entry note. GAAP gross margin was 51.0%, non-GAAP gross margin 53.2%."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
-      "confirmed": true,
-      "note": "Company-confirmed fiscal Q1 FY2027 report date, after market close; reconfirmed via multiple earnings calendars (EarningsWhispers, Tickeron, OpenCapital) this pass. Consensus estimates vary by source: EPS $3.82 (6-estimate average) vs $3.21 (another aggregator); company's own guidance was revenue $1.225-1.275B and non-GAAP EPS $4.05-4.35 -- not yet reported as of this pass."
+      "date": null,
+      "confirmed": false,
+      "note": "Fiscal Q1 FY2027 results (quarter ended 2026-09-26) are now on file via this pass. The next report would be fiscal Q2 FY2027; company guided Q2 FY2027 revenue to $1.575B-$1.625B and non-GAAP diluted EPS to $5.90-$6.20, but no specific report date was found this session."
     }
   },
   "price": {
@@ -87,6 +100,14 @@
     "note": "Sourced from a Chinese-language aggregator (stock.10jqka.com.cn); direction is corroborated by a Yahoo Finance history snapshot showing a $988.98 close on 2026-09-09, a dip to $845.09 on 2026-09-14, and renewed upward momentum into early October. LITE genuinely trades in four figures per share (no stock split found this session) — this is a very high-priced but real quote, not a reverse-split artifact."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings/guidance",
+      "headline": "Fiscal Q1 FY2027 results (quarter ended 2026-09-26): net revenue $1.26B; GAAP net income $360.3M ($3.54/diluted share); non-GAAP net income $461.1M ($4.57/diluted share); GAAP gross margin 51.0%, non-GAAP gross margin 53.2%; guided fiscal Q2 FY2027 revenue to $1.575B-$1.625B and non-GAAP diluted EPS to $5.90-$6.20; announced a second major NPO/CPO (coherent/packet optics) customer win backed by more than $5B of purchase commitments.",
+      "impact": null,
+      "source": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx",
+      "note": "Company's own 2026-10-05 announcement scheduled this report for Nov 5, 2026 after market close; a secondary aggregator (ithome.com) carried the same figures under a Nov 2, 2026 dateline — not reconciled, see conflicts."
+    },
     {
       "date": "2026-10-29",
       "type": "price action",
@@ -129,11 +150,28 @@
     "Q4 FY2026 revenue: one aggregation implies ~$808.4M, another separately states $1.01B/$987.70M — materially different, not reconciled.",
     "Shares outstanding: 77.80M (most sources) vs 89.70M (2026-08-21) — kept separately.",
     "A separately-sourced Q3 FY2026 figure (a non-English aggregator citing $2.008B for a quarter reported 2026-05-06) is far larger than the other quarterly figures ($533.8M-$808.4M range) and may reflect a unit/labeling error — flagged rather than resolved or discarded.",
-    "No reverse-split signal found for LITE this pass."
+    "No reverse-split signal found for LITE this pass.",
+    "Q1 FY2027 report date: company's 2026-10-05 announcement scheduled Nov 5, 2026 after close; a secondary aggregator (ithome.com) reported the same results under a Nov 2, 2026 dateline — not reconciled.",
+    "Q1 FY2027 YoY revenue base: $533.8M (implied by one source's prior-year comparator) vs $480.7M (this record's own FY2026 quarterly figures) — not reconciled, so growth.pct left null."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found since 2026-11-03. Nov 5 AMC earnings date remains company-confirmed; report not yet out as of this pass (market closed 2026-11-04). Quiet.",
+  "notes": "PM pass 2026-11-05: fiscal Q1 FY2027 results reported (see catalysts) — revenue and EPS both ahead of the Aug 11 guidance/consensus cited pre-report. Cash/debt and share-count fields not independently refreshed this session (no new figures found); carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -311,11 +349,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

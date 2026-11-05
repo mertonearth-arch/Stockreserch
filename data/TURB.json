@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.792Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-05T21:18:33.019Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -116,8 +116,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new catalyst found. Search results returned only stale pre-2026-05 coverage (Q1 2025 results, an April 2026 outlook piece); nothing dated after the 2026-09-17 C&I storage contract already on file. All existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, possible reverse-split price anomaly) remain unresolved and unchanged this pass.",
+  "notes": "PM pass 2026-11-05: dedicated search for TURB news turned up nothing dated after the 2026-09-17 C&I storage contract already on file; most results were stale pre-2026-05 coverage (Q1 2025 results, April 2026 technical-analysis pieces) or garbled mirror-site duplicates. All existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, reverse-split-related price anomaly) remain unresolved and unchanged this pass; no new catalyst, no fundamentals update.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -222,7 +230,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -8,82 +8,71 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.786Z",
+  "lastResearched": "2026-11-05T21:18:33.055Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1300000,
-      "asOf": "2026-10-22",
-      "source": "Simply Wall St OTC page (OTCPK:BTAI.Q), no share price shown alongside it",
-      "note": "equity value has collapsed consistent with a Chapter 11 filing; see conflicts for much higher, likely stale, pre/early-bankruptcy figures"
+      "value": 407000,
+      "asOf": "2026-10-24",
+      "source": "WebSearch-aggregated OTC snapshot (see price note); supersedes the $1.3M figure on file from 2026-10-22",
+      "note": "Equity value remains a near-worthless shell residual post Teva asset sale; see conflicts on file for stale higher pre-bankruptcy figures"
     },
     "float": {
       "value": null,
       "asOf": null,
-      "note": "not found"
+      "note": "not found; carried forward"
     },
     "sharesOutstanding": {
       "value": null,
       "asOf": null,
-      "note": "no figure could be confirmed for the current (post-bankruptcy-filing) period; various sources show 14.56M–30.9M shares at different undated or pre-filing snapshots"
+      "note": "carried forward; no figure confirmed for the current post-filing period"
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "not found in sandbox searches"
+      "note": "not found; carried forward"
     },
     "cash": {
       "value": null,
       "asOf": null,
-      "note": "DIP financing / cash position not located; search for this could not be completed before the session's WebSearch budget was exhausted"
+      "note": "not found; carried forward"
     },
     "debt": {
       "value": null,
       "asOf": null,
-      "note": "not located in sandbox"
+      "note": "not found; carried forward"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; company is in Chapter 11 with a pending asset sale",
-      "asOf": "2026-10-22"
+      "note": "negative earnings; company is a post-sale Chapter 11 shell",
+      "asOf": "2026-10-24"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not retrieved in this session"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not retrieved in this session"
-      },
-      {
-        "period": "most recent quarter",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not retrieved; company's last pre-bankruptcy quarterly filing not located in this session"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "N/A — pre-revenue clinical-stage company in Chapter 11 asset-sale process",
-      "period": "2026-10",
+      "metric": "N/A — post-asset-sale Chapter 11 shell",
+      "period": "2026-11",
       "pct": null
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "no scheduled earnings call identified; company is in active Chapter 11 proceedings with asset-sale/plan confirmation as the operative near-term events instead of a normal earnings cadence"
+      "note": "No scheduled earnings call identified for the shell entity. EarningsWhispers lists a speculative Nov 12, 2026 date, but this is not treated as meaningful given the company has no going-forward operations post Teva asset sale."
     }
   },
   "price": {
-    "last": 0.04,
-    "changePct": null
+    "last": 0.02,
+    "asOf": "2026-10-24",
+    "source": "WebSearch-aggregated OTC Pink (BTAIQ) snapshot; trend across dated snapshots: ~$0.05 (Sept 29) -> $0.052 (Oct 2) -> $0.03 (Oct 16) -> $0.02 (Oct 24), market cap falling from ~$1.29M to ~$407K over the same stretch, consistent with continued post-Chapter-11/post-asset-sale shell status. WebFetch to primary quote sources failed (host-unreachable) this session, so these are WebSearch-engine-reported figures, not independently verified against a live quote."
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "FDA (pending decision)",
+      "headline": "FDA's PDUFA target action date for the sNDA expanding IGALMI's label to at-home/outpatient use (BXCL501, Phase 3 SERENITY At-Home) falls on 2026-11-14. As of this session's searches, no approval/decision outcome has been reported.",
+      "impact": "Directly relevant to Teva's contingent development milestone (up to $67.5M) tied to FDA approval of IGALMI for at-home use, part of the already-on-file closed Teva asset-sale terms (closed 2026-10-26).",
+      "source": "https://bioxceltherapeutics.gcs-web.com/news-releases/news-release-details/bioxcel-therapeutics-announces-food-drug-administration"
+    },
     {
       "date": "2026-10-26",
       "type": "bankruptcy/M&A — SALE CLOSED",
@@ -166,8 +155,28 @@
     "Price: file carries a last price of $0.04 (OTC Pink, post-delisting, consistent with the Sept 8, 2026 Nasdaq suspension). A separate undated eToro snapshot shows $0.7606, citing 'Nasdaq' as its exchange source — almost certainly a stale pre-delisting cache, not a current OTC quote, and not used."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: Teva-BioXcel asset sale closed 2026-10-26. Company in Chapter 11 wind-down; no scheduled earnings or going-forward operations.",
+  "notes": "PM pass 2026-11-05 (routine refresh): the 2026-10-26 Teva acquisition-completion catalyst on file is confirmed accurate — Teva closed its purchase of BioXcel's IGALMI/BXCL501 neuroscience assets for $57.5M cash plus up to $67.5M in development milestones (tied to FDA approval of the at-home indication) and up to $20M in commercial milestones; BioXcel retained BXCL701/BXCL702, which were excluded from the sale. New information this pass: the FDA's PDUFA date for that at-home approval (which the $67.5M Teva milestone depends on) is 2026-11-14 — an unresolved near-term catalyst. OTC shell price continued declining through late October. No new bankruptcy-docket events found. Session note: WebFetch returned host-unreachable errors for nearly every site tried this session, and the batch's shared WebSearch budget was exhausted before further queries could confirm whether the Nov 14 FDA decision has since been made.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -354,12 +363,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "conflicts updated"
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
     ],
     "tradingDay": true
   }

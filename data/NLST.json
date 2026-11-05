@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.781Z",
+  "lastResearched": "2026-11-05T21:18:33.063Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -68,9 +68,9 @@
       "note": "Micron settlement: $600M total over 5 years ($30M/quarter for 20 quarters, Q4 2026 through Q3 2031). Samsung (background, Aug 2026 agreement, not newly confirmed this pass): $897M pre-tax over 5 years."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
-      "confirmed": false,
-      "note": "Investing.com says Nov 3; EarningsWhispers and Digrin say Nov 5 (before open). No company press release or 8-K found confirming either. Using Nov 5 as the more-corroborated estimate (2 sources vs 1)."
+      "date": "2026-11-10",
+      "confirmed": true,
+      "note": "Resolves the prior Nov 3 / Nov 5 conflict: Netlist's own scheduling press release ('Netlist Schedules Third Quarter 2026 Financial Results and Conference Call', via PR Newswire/TradingView) sets the release after 4:00pm ET on 2026-11-10, with a conference call at 5:00pm ET, covering the fiscal quarter ended 2026-09-26, 2026. Zacks/MarketBeat consensus: EPS $0.60, revenue ~$308.6M (unchanged over the trailing 60 days)."
     }
   },
   "price": {
@@ -152,12 +152,22 @@
     }
   ],
   "conflicts": [
-    "Next earnings date remains unresolved: EarningsWhispers/Digrin estimate Nov 5, 2026 (on file); a separate Investing.com listing shows '03/11/2026' which could read as either Nov 3 (US format, matching the other on-file Nov 3 estimate) or Mar 11 (international format) -- ambiguous, not used to update the field.",
-    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- this predates the current pass and was not previously itemized in this record's catalyst list (which only names the DDR5 case vs Micron/Supermicro/HPE/Lenovo and the HBM case vs Micron/Nvidia/Broadcom/Google). Flagging for completeness rather than backfilling as a 'new' catalyst since it is several months old and not independently re-verified against the USITC EDIS docket this session."
+    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- carried forward from the prior pass; not independently re-verified against the USITC EDIS docket this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-04: no new dated catalyst found since the 2026-10-21 ITC counsel statement already on file. Next-earnings date conflict remains open. Quiet.",
+  "notes": "PM pass 2026-11-05: resolved the long-standing next-earnings-date conflict -- Q3 2026 results are now confirmed by the company for 2026-11-10 after market close (not today, as one on-file estimate had suggested). No new ITC ruling or settlement development found this session beyond the 2026-10-21 Latham & Watkins statement already on file confirming the October Micron settlement closed out the ITC dispute as between Netlist and Micron specifically. The parallel ITC tracks (DDR5 vs. Supermicro/HPE/Lenovo, instituted 2026-09-23; HBM vs. Micron/Nvidia/Broadcom/Google, announced 2026-09-29) remain open per prior passes, unchanged this session. Litigation-driven name shows no new ruling this pass -- otherwise quiet.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -343,10 +353,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

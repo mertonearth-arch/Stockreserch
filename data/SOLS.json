@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-04T21:17:16.785Z",
+  "lastResearched": "2026-11-05T21:18:33.063Z",
   "fundamentals": {
     "marketCap": {
       "value": 9290000000,
@@ -151,13 +151,22 @@
     }
   ],
   "conflicts": [
-    "IDENTITY: 'SOLS' resolves unambiguously to Solstice Advanced Materials, not to Solidion Technology (ticker STI) — flagging for the PM owner to confirm which company this watchlist slot is meant to track, since everything on file for 'SOLS' to date may be about a different company than intended if the original intent was Solidion.",
-    "Next earnings date: on-file 'confirmed' Nov 4, 2026 matches one source; another (TipRanks) instead shows Nov 5, 2026 — kept both, not reconciled.",
-    "Market cap figures vary by ~$3B+ depending on snapshot date (no October 2026 figure found; stale figures range $9.58B-$12.7B)."
+    "IDENTITY: 'SOLS' resolves unambiguously to Solstice Advanced Materials, not to Solidion Technology (ticker STI) -- flagging for the PM owner to confirm which company this watchlist slot is meant to track.",
+    "Market cap figures vary by several billion dollars depending on snapshot date: $9.29B (Google Finance-derived, 2026-09-16, on file), $8.92B (Benzinga, close $56.65/share, 2026-09-25, found this session), $9.67B (Motley Fool, 2026-07-23), up to $13.88B/$10.09B on undated aggregator snapshots -- no October or November 2026 figure found; not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-04: Q3 2026 results reported as scheduled (beat-and-raise), confirming the company-stated Nov 4 BMO date. Market cap/share count/short interest/P-E not re-verified this pass (sources remain stale/conflicting); carried over unchanged. Identity note already on file (SOLS = Solstice Advanced Materials, not Solidion/STI) still stands.",
+  "notes": "PM pass 2026-11-05: the Q3 2026 beat-and-raise print reported yesterday (net sales $1,046M +8% YoY, GAAP diluted EPS $0.50, raised FY2026 guidance to net sales $4,195-4,220M / adjusted EPS $2.90-2.95, on-track to substantially complete the $500M buyback by end of Q1 2027) is already fully captured on file from the prior pass. This session added one more dated pre-earnings market-cap snapshot (Benzinga, 2026-09-25) but could not locate a post-earnings (Nov 4/5) price quote before the WebSearch budget for this batch was exhausted -- flagged as a gap for the next pass. Next-earnings-date conflict (TipRanks Nov 5 vs. company's own Nov 4) is effectively resolved by the fact results were reported Nov 4 as the company had stated, so that item is dropped from conflicts this pass. Otherwise carried forward unchanged; identity note still stands.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -398,14 +407,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-04T21:17:16.790Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-05T21:18:33.059Z",
   "fundamentals": {
     "marketCap": {
       "value": 31180000000,
@@ -167,6 +167,13 @@
       "sourceName": "Zacks / Yahoo Finance"
     },
     {
+      "date": "2026-07-30",
+      "type": "M&A",
+      "headline": "Okta agreed to acquire identity-security startup Permiso for approximately $200 million",
+      "impact": null,
+      "sourceName": "WebSearch aggregated result (TIKR/Barchart-sourced coverage); exact primary-source URL not isolated this session before the search budget was exhausted"
+    },
+    {
       "date": "2026-05",
       "type": "recognition",
       "headline": "Named a Leader in The Forrester Wave: Workforce Identity Security Platforms, 2026",
@@ -176,12 +183,22 @@
     }
   ],
   "conflicts": [
-    "Price: Fintel's 2026-09-30 market-cap/shares-outstanding figures imply a share price near $178, versus a prior-pass figure of $212.63 (source/date unclear) -- a large, unreconciled gap.",
-    "Q2 FY2027 net income: Quartr reports $116M vs. TIKR reports $194.0M for the same quarter; not reconciled."
+    "Next earnings date now diverges three ways: a tracker found this session shows 2026-11-25 after close (consensus $0.43/sh), a separate calendar shows a 2026-12-07 projection, and the on-file estimate was 2026-12-02 -- none is company-confirmed."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-10-23 pass. The on-file Q3 FY2027 next-earnings estimate (2026-12-02, unconfirmed) is consistent with last year's reporting cadence (Q3 FY2026 was reported Dec 2, 2025, per search), but still has no company confirmation. Fundamentals otherwise unchanged -- quiet pass.",
+  "notes": "PM pass 2026-11-05: found one new dated catalyst not previously on file -- Okta's 2026-07-30 agreement to acquire identity-security startup Permiso for ~$200M, ending the prior quiet streak. Next-earnings-date estimates now diverge three ways (Nov 25 vs Dec 7 vs the on-file Dec 2); none confirmed by the company. Current share price remains unconfirmed; a new undated sighting of $170.60 was found but could not be dated or reconciled with the existing $212.63-vs-~$178 price conflict already on file, so price is left unchanged. Fundamentals otherwise not re-verified this session -- WebFetch could not reach any tested domain and this batch's shared WebSearch budget was exhausted partway through.",
   "history": [
+    {
+      "date": "2026-11-05",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-04",
       "run": "pm",
@@ -370,10 +387,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }
