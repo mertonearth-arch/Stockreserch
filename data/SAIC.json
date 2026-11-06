@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.020Z",
+  "lastResearched": "2026-11-06T21:22:03.996Z",
   "fundamentals": {
     "marketCap": {
       "value": 5361000000,
@@ -142,12 +142,21 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date estimates span four different days (Dec 1, 2, 3, 7, 2026) across aggregators, none company-confirmed.",
-    "PM 2026-11-05 pass: could NOT verify the on-file catalyst 'Goldman Sachs raised price target to $103 (Sell), dated 2026-09-08.' Multiple sources instead show: (1) on 2025-09-08, Goldman Sachs analyst Noah Poponak LOWERED (not raised) its SAIC target to $91 from $104, keeping Sell -- note the $104 prior target is close to but not the same as the on-file '$103'; and (2) on 2026-02-12, Goldman Sachs further lowered its target to $82 from $94, keeping Sell. No source found in this pass shows a Goldman Sachs action dated 2026-09-08, nor any Goldman SAIC price target of exactly $103, raised or otherwise. The Sell rating itself IS accurate and consistently corroborated across all Goldman actions found (2025-09-08, 2026-02-12, and others referencing a Gavin Parsons Sell/raise from $83 to $94, undated). Likely explanation: the on-file catalyst may conflate the 2025-09-08 action's old target ($104, misremembered as $103) with a 'raise' framing that actually belongs to a different, undated Goldman action (the $83-to-$94 raise). Kept the on-file catalyst verbatim (not deleted) and recorded this discrepancy here per standing rules rather than silently correcting or dropping it; the 'Sell rating despite the PT change' characterization is confirmed accurate regardless of which specific figure is correct."
+    "Next-earnings date estimates now span FIVE different days across sources: Dec 1 (on-file prior estimate), Dec 2 (Bullstory), Dec 3 (therighttrader.com, explicitly labeled unconfirmed), Dec 7 (two aggregators), and now Nov 30, 2026 before market open (a newly found earnings-whispers-style tracker, consensus EPS $2.35, citing -9.7% post-earnings drift since the 2026-08-31 print). None is company-confirmed; kept all rather than picking one."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalysts found for November 2026; search results surfaced only FY2026/2025-dated items already superseded by what's on file. Focused this pass on resolving the Goldman Sachs Sept 2026 PT-raise catalyst per the batch request -- could not confirm it as stated; see conflicts for the full discrepancy. Quiet otherwise -- fundamentals and catalysts unchanged.",
+  "notes": "PM 2026-11-06: no new dated catalyst found for November 2026 -- search turned up only FY2026/2025-dated items already superseded by what's on file, plus one more conflicting next-earnings estimate (Nov 30) added to the existing four-way conflict. Fundamentals and catalysts otherwise unchanged; quiet pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -342,11 +351,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

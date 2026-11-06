@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.057Z",
+  "lastResearched": "2026-11-06T21:22:03.989Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "carried forward; still no single reliable current dated figure despite additional searches this session"
+      "value": 4250000000,
+      "asOf": "2026-11-02",
+      "source": "Same WebSearch aggregator snapshot as price",
+      "note": "First dated market cap found since the on-file null; treat with some caution given the exact source outlet could not be pinned down."
     },
     "float": {
       "value": null,
@@ -66,7 +68,13 @@
       "note": "Still no Q4 2026 date found this session. Based on the company's prior-year cadence (Q4 2025 reported ~late Jan 2026), a Q4 2026 report would be expected around late January/early February 2027 — this is an inference from pattern, not a sourced date, so left null rather than guessed."
     }
   },
-  "price": null,
+  "price": {
+    "last": 173.94,
+    "changePct": null,
+    "asOf": "2026-11-02",
+    "source": "WebSearch aggregator snapshot (specific outlet not identifiable from the search result itself)",
+    "note": "First dated November 2026 price found for this name, resolving the long-standing null price/market-cap fields. Implied share count (~24.4M) is reasonably consistent with the ~24.7-25M share-count cluster already corroborated across multiple sources this and prior passes."
+  },
   "catalysts": [
     {
       "date": "2026-10-22",
@@ -113,8 +121,18 @@
     "Q3 2026 adjusted EPS: company's own 8-K/press release states $4.48 (+33% YoY); a third-party aggregator (scanx.trade) instead reports $4.37 vs a $4.34 estimate and revenue of $1.004B -- the two do not reconcile and may reflect a reporting/date mix-up (one search summary separately flagged Q2 2026 figures as sometimes mislabeled Q3 across sources). The company 8-K figure ($4.48) is treated as authoritative above."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05 (routine refresh, quiet1 carried in): no new dated catalyst found. The Grasshopper Bancorp acquisition remains withdrawn per the 2026-09-14 catalyst already on file (company pulled its OCC/Fed regulatory applications); background searches this session only turned up pre-withdrawal (Dec 2025) deal-announcement coverage describing it as 'on track to close H2 2026,' which is now superseded and not treated as new information. Market cap, shares outstanding, cash, debt, short interest and a confirmed Q4 2026 earnings date all remain unresolved despite additional targeted searches this session. Session note: WebFetch returned host-unreachable errors for every finance site attempted, and the batch's shared WebSearch budget was exhausted before further queries could run — genuinely quiet pass, not an under-researched one, given the volume of searches that turned up nothing new.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Oct 22 Q3 print and Sept 14 Grasshopper Bancorp regulatory-application withdrawal already on file. First dated price/market-cap figures found since those fields were null ($173.94 / ~$4.25B as of 2026-11-02), though the exact source outlet is not fully identifiable. Float, cash, debt, short interest and a confirmed Q4 2026 earnings date remain unresolved despite further searches this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -242,20 +260,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "marketCap updated"
     ],
     "tradingDay": true
   }

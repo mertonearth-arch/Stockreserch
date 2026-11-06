@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.038Z",
+  "lastResearched": "2026-11-06T21:22:03.981Z",
   "fundamentals": {
     "marketCap": {
       "value": 86500000000,
@@ -42,7 +42,7 @@
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "note": "Negative trailing-twelve-month earnings despite a profitable Q3 2026 (GAAP EPS $0.38); TTM remains negative given the Q1-Q2 2026 losses (-$3.40, -$1.97) against one profitable quarter."
     },
     "eps": [
       {
@@ -55,6 +55,12 @@
         "period": "Q2 2026",
         "value": -1.97,
         "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 0.38,
+        "basis": "GAAP",
+        "note": "GAAP net income $162M vs. a $200M net loss (-$0.51/share) in Q3 2025 -- first GAAP-profitable quarter in the series on file."
       }
     ],
     "revenue": [
@@ -65,17 +71,23 @@
       {
         "period": "Q2 2026",
         "value": 145000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 1310000000,
+        "yoy": 29,
+        "note": "U.S. $780M + international $533M, per the company's Q3 2026 release. Large sequential jump vs. Q2 is consistent with Moderna's seasonal (fall) flu/COVID vaccine shipping pattern."
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 2.1
+      "period": "Q3 2026",
+      "pct": 29
     },
     "nextEarnings": {
-      "date": "2026-11-06",
-      "confirmed": true,
-      "note": "Reconfirmed this pass via a company-sourced item (money365.market citing Moderna's own Nov 6 announcement, 8:00am ET call) -- corroborates the on-file date over a competing Nov 5 aggregator estimate."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 results (the date previously tracked here) were reported today, 2026-11-06, as scheduled. The next report (Q4/FY2026, historically reported in February) is not yet company-announced."
     }
   },
   "price": {
@@ -85,6 +97,13 @@
     "note": "Most recent dated figure found this session (InvestSMART); no October 2026 quote could be established. A separate $189.86 figure appearing in one aggregator looks like an error (inconsistent with the stock's 52-week range context from other sources) and was not used."
   },
   "catalysts": [
+    {
+      "date": "2026-11-06",
+      "type": "earnings",
+      "headline": "Moderna reported Q3 2026 results: revenue $1.31B (+29% YoY; U.S. $780M, international $533M), swinging to GAAP net income of $162M (diluted EPS $0.38) from a $200M net loss (-$0.51/share) in Q3 2025. Raised FY2026 revenue-growth guidance to 15%-25% (from 'up to 10%'), improved FY2026 GAAP operating-expense guidance by ~$0.2B, and raised the FY2026 year-end cash-balance outlook to $8.1B-$8.3B (including $2.6B net proceeds from a convertible notes offering). The release also reiterated the Phase 3 melanoma-vaccine data and mFLUSIVA flu-vaccine approval already on file as separate catalysts.",
+      "impact": "Shares rose on the print (premarket +8% to +8.5%; intraday levels were reported variously between roughly $241 and $258 through the session, with gains described as fading later in the day) -- no single, independently confirmed closing price or percent change for 2026-11-06 was established this session, so the price block below was left unchanged rather than guessed.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001682852/000168285226000194/exhibit9912026q3pressrelea.htm ; https://247wallst.com/investing/2026/11/06/moderna-climbs-5-as-surprise-profit-and-raised-outlook-beat-forecasts-pfizer-dips-biontech-edges-higher/ ; https://www.schaeffersresearch.com/content/news/2026/11/06/moderna-stock-pops-taps-multi-year-high-after-earnings"
+    },
     {
       "date": "2026-10-24",
       "type": "clinical/presentation",
@@ -175,8 +194,23 @@
     "Price, early Nov 2026: one snapshot shows a $220.83 close (2026-11-02), another shows $228.85 (2026-11-03), and a third shows $196.48 (undated) -- not reconciled to a single contemporaneous quote this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found since the 2026-10-24 Merck/Moderna ESMO Presidential Symposium data presentation already on file. Q3 2026 earnings date (Nov 6, 2026, 8:00am ET call) reconfirmed again via multiple trackers (money365.market citing the company's own announcement; EarningsWhispers; Benzinga). Analyst consensus estimates found this session vary widely across sources (Q3 EPS consensus ranging from -$1.08 to -$1.37; revenue consensus ~$882-892M) -- these are estimates, not reported results, so not recorded as fundamentals. Quiet pass; this session's shared WebSearch budget was exhausted before a fresher dated price quote could be sourced, so the existing price-conflict note (three undated/differently-dated early-Nov snapshots) is carried forward unresolved.",
+  "notes": "PM pass 2026-11-06: Q3 2026 earnings (confirmed date) are now out -- first GAAP-profitable quarter on file, on a seasonal flu/COVID revenue surge, plus a raised FY2026 revenue-growth and cash outlook. Shares rose on the print but intraday price reports conflicted sharply by timestamp (roughly $241-$258) and no confirmed close was found before this batch's shared WebSearch budget was exhausted, so today's closing price/% change were NOT recorded (existing price block carried forward unchanged rather than guessed, per instructions). Next-earnings field cleared pending a Q4/FY2026 date.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -373,10 +407,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.039Z",
+  "lastResearched": "2026-11-06T21:22:03.984Z",
   "fundamentals": {
     "marketCap": {
-      "value": 66140000,
-      "source": "stockanalysis.com snapshot (via WebSearch relay; exact date not shown)",
-      "note": "Other sources show a range ~$35-60M depending on date/price."
+      "value": 80600000,
+      "asOf": "2026-10-30",
+      "source": "Wallstreetzen, derived from 55,971,338 shares outstanding x $1.44",
+      "note": "Supersedes the on-file $66.14M undated figure; consistent with an ongoing rally following the Sept 2026 Soon-Shiong PIPE and JAMA Oncology publication catalysts already on file. A separately-dated, vaguer 'October 2026' MarketCapOf reading of $1.51/$84.28M is broadly consistent (within ~5%) and not treated as a hard conflict."
     },
     "float": {
       "value": null,
@@ -21,9 +22,9 @@
       "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": 55800000,
-      "source": "stockanalysis.com",
-      "note": "Up ~32% over the past year — meaningful dilution. This is shares outstanding, not float."
+      "value": 55971338,
+      "source": "Wallstreetzen, 2026-10-30/31",
+      "note": "Confirms the on-file ~55.8M figure; this is shares outstanding, not float."
     },
     "shortInterest": {
       "value": null,
@@ -77,9 +78,10 @@
     }
   },
   "price": {
-    "last": null,
-    "asOf": null,
-    "note": "Dated snapshots conflict sharply: $0.29 (2026-09-12, Tickertape); $0.21 (2026-08-31, Value Research); $0.77 (early Aug 2026, Upstox). Stock has apparently traded below $1.00 continuously through at least mid-September 2026, consistent with the Nasdaq minimum-bid-price deficiency notice already on file (no reverse split has been confirmed as executed)."
+    "last": 1.44,
+    "asOf": "2026-10-30",
+    "source": "Wallstreetzen",
+    "note": "Supersedes the on-file null/wide-conflicting range ($0.21-$0.77, Aug-Sept 2026 snapshots). No reverse split is implicated -- shares outstanding is essentially unchanged from the on-file figure, so this reads as a genuine price rally, not a split artifact. No confirmed 2026-11-06 (today's) close was found this session."
   },
   "catalysts": [
     {
@@ -177,12 +179,24 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding / market cap, new reading this pass: massive.com shows PDSB market cap $80.45M as of 2026-10-26 with a listed share count of 105.01M -- materially higher than the on-file 55.8M (stockanalysis.com, undated) and implying meaningful dilution since that figure was set, consistent with the Sept 2026 Nant Capital PIPE and ongoing warrant overhang already on file, but not independently confirmed from a primary filing this session. Kept as a new, unreconciled reading, not substituted for the on-file figure.",
-    "Short interest, new reading this pass: massive.com shows 2.77M shares short / 1.0 days to cover at the 2026-09-30 FINRA settlement -- differs from the on-file ~1.85M shares / 3.31% of shares outstanding reading (settlement date not stated on file). Kept both, not averaged or picked."
+    "Stocktitan reports a $0.9349 close for PDSB on 2026-10-05 but its own FAQ section states $1.17 for the same date -- internally inconsistent at the source, kept as found, not reconciled.",
+    "Kraken (undated, implied ~late Sept/early Oct 2026) shows $0.40, and Companiesmarketcap (dated September 2026) shows $0.22/$12.31M market cap -- both well below the Oct 30/31 $1.44-$1.51 readings above; read together they sketch a rally from roughly $0.22 (Sept) through ~$0.93-$1.17 (Oct 5) to ~$1.44-$1.51 (Oct 30/31), consistent with the on-file catalyst timeline, but no single source confirms the whole path."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-18/10-20 board-shakeup 8-K already on file -- no November follow-up 8-K located (an '$11.1 million registered direct offering' headline that surfaced in search is dated November 2025, a different financing, and was not used). New conflicting share-count/market-cap and short-interest readings found and logged as conflicts, not resolved. Next earnings (2026-11-12, platform-estimated, still unconfirmed) and the Nasdaq Minimum Bid Price 180-day cure deadline (2027-01-26) are unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-18/10-20 board-shakeup 8-K already on file. Secondary coverage mentions an August 2026 ~36% workforce reduction and a September CFO departure/interim-officer appointment, but no specific day could be pinned down for either, so neither was added as a dated catalyst (per the no-undated-catalysts rule) -- flagging both for a follow-up search with an exact date. Price and market cap were meaningfully updated (see above) after this session located better-dated late-October readings; next earnings (2026-11-12, platform-estimated, still unconfirmed) is unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -358,10 +372,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "marketCap updated",
+      "sharesOutstanding updated",
       "conflicts updated"
     ],
     "tradingDay": true

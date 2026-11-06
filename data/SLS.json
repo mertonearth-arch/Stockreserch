@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.047Z",
+  "lastResearched": "2026-11-06T21:22:03.987Z",
   "fundamentals": {
     "marketCap": {
       "value": 1730000000,
@@ -151,8 +151,16 @@
     "Short interest as % of float/shares outstanding varies 27-33% across sources/dates (FINRA 27.9% at 2026-08-14 settlement vs. Koyfin ~30.7%-33% at May/June 2026 dates) - kept both, not averaged."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst - Phase 3 REGAL topline overall-survival results (triggered by the 80th event on 2026-10-28) are still pending; search this session found no release of the actual topline data. Refreshed price (Robinhood, 2026-11-03: $8.64, mcap ~$1.73B) and short interest (FINRA settlement 2026-08-14: 56.4M shares, ~27.9% of shares outstanding, 10.4 days to cover) with real dates, superseding the previously undated estimates. Next-earnings date remains unconfirmed (on file: 2026-11-18 per StreetInsider); no company confirmation found this session either.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst. Phase 3 REGAL topline overall-survival results (triggered by the pre-specified 80th event on 2026-10-28) have still not been released -- a secondary oncology outlet (CancerNetwork) covering the same 80th-event milestone confirms no topline data has been reported yet; company says results are expected later in Q4 2026. No reliable dated November 2026 price/quote found this session (WebSearch repeated only the already-on-file 2026-11-03 Robinhood snapshot of $8.64); price, market cap and all other fundamentals carried forward unchanged. Next-earnings date remains unconfirmed (on file: 2026-11-18 estimate).",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -273,14 +281,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "shortInterest updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

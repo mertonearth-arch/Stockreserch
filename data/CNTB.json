@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.030Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.988Z",
   "fundamentals": {
     "marketCap": {
       "value": 49100000,
@@ -141,8 +141,16 @@
     "Market cap/price, October-November 2026: resolved this pass to $0.78/share as of 2026-11-03 (Benzinga) and ~$49.1M computed market cap. Prior-pass undated snapshots ($2.60 TradingView, $2.85 SimplyWall, $2.38 MarketBeat, $1.93 eToro, $0.89 unconfirmed-year) remain unreconciled with each other but are now superseded in relevance by this dated figure, which is also broadly consistent with Upstox's $0.83 as of 2026-10-30 -- both show the stock well below its pre-September levels."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found. Price/market-cap conflict substantially improved this pass with a dated Nov 3, 2026 quote ($0.78), consistent with a nearby $0.83 (Oct 30) snapshot -- both corroborate the stock's post-Seabreeze-STAT-miss decline. Next earnings date still not found. No update found on rademikibart/Simcere China program this session (NDA acceptance was July 2025; a ~$7M regulatory milestone was recognized in Q2 2026 per the 10-Q, already pre-dating this pass's window in spirit though not previously logged as a catalyst -- not added here for lack of an exact release date).",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 1, 2026 Phase 2 Seabreeze STAT COPD topline already on file. No reliable November 2026 price found this session -- WebSearch returned only undated or clearly stale aggregator snapshots ($0.78-$2.85 range across sources with no current dates), consistent with the price conflict already on file. Fundamentals and price carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -269,13 +277,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

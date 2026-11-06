@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.009Z",
+  "lastResearched": "2026-11-06T21:22:03.980Z",
   "fundamentals": {
     "marketCap": {
       "value": 63950000000,
@@ -145,18 +145,25 @@
     }
   ],
   "conflicts": [
-    "Oct 28, 2026 close: one source shows $913.95; another's 'prior close' field shows $866.18 — these do not agree, kept verbatim.",
+    "Oct 28, 2026 close: one source shows $913.95; another's 'prior close' field shows $866.18 -- these do not agree, kept verbatim.",
     "Q4 FY2026 adjusted EPS: $3.23 vs $2.97 across sources, both characterized as a beat on roughly the same report date.",
-    "Q4 FY2026 revenue: one aggregation implies ~$808.4M, another separately states $1.01B/$987.70M — materially different, not reconciled.",
-    "Shares outstanding: 77.80M (most sources) vs 89.70M (2026-08-21) — kept separately.",
-    "A separately-sourced Q3 FY2026 figure (a non-English aggregator citing $2.008B for a quarter reported 2026-05-06) is far larger than the other quarterly figures ($533.8M-$808.4M range) and may reflect a unit/labeling error — flagged rather than resolved or discarded.",
-    "No reverse-split signal found for LITE this pass.",
-    "Q1 FY2027 report date: company's 2026-10-05 announcement scheduled Nov 5, 2026 after close; a secondary aggregator (ithome.com) reported the same results under a Nov 2, 2026 dateline — not reconciled.",
-    "Q1 FY2027 YoY revenue base: $533.8M (implied by one source's prior-year comparator) vs $480.7M (this record's own FY2026 quarterly figures) — not reconciled, so growth.pct left null."
+    "Shares outstanding: 77.80M (most sources) vs 89.70M (2026-08-21) -- kept separately.",
+    "A Benzinga snapshot labeled 2026-11-03 shows LITE at $698.14, well below both the on-file $1,045.78 (2026-10-01) price and the already-recorded 2026-10-29 $919.53 close -- a roughly 24-39% drop with no corroborating news or second source found this session. Not used to update price.last; flagged as a possible bad/mislabeled data point or an unremarked pre-earnings selloff that could not be verified.",
+    "Q1 FY2027 report date: company's 2026-10-05 announcement scheduled Nov 5, 2026 after close; a secondary aggregator (ithome.com) reported the same results under a Nov 2, 2026 dateline -- not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: fiscal Q1 FY2027 results reported (see catalysts) — revenue and EPS both ahead of the Aug 11 guidance/consensus cited pre-report. Cash/debt and share-count fields not independently refreshed this session (no new figures found); carried forward unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst beyond the 2026-11-05 fiscal Q1 FY2027 earnings print already on file. An unreconciled, much lower Nov 3, 2026 price snapshot (Benzinga, $698.14) surfaced this session but could not be corroborated against the $900s levels implied by the pre-earnings rally described in the existing Oct 29 catalyst, nor against any post-earnings reaction coverage (none found) -- see conflicts. Cash, debt and share count not independently refreshed this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -349,15 +356,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

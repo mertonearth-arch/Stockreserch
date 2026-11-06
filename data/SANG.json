@@ -4,11 +4,11 @@
   "sector": "Enterprise Software & Security",
   "theme": "Enterprise Software & Security",
   "themeLabel": "nano-cap",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-05T21:18:33.061Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-06T21:22:03.996Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -106,8 +106,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM 2026-11-05: checked specifically for BRC Group deal progress/closing news -- none found this session. Deal remains pending with unchanged terms (US$4.925 cash + 0.04767 BRC share per Sangoma share, ~US$204M enterprise value, unanimous board approval, officers/directors holding ~27% signed voting support agreements); special shareholder meeting still targeted on/before 2026-12-11, closing still targeted January 2027 (outside date 2027-01-22). No definitive proxy circular with a confirmed meeting date, no vote result, and no closing announcement located this session. Standalone market cap/price still not reliably establishable (same caveats as prior passes -- see on-file conflicts); all other fundamentals unchanged from the 2026-11-04 pass. Quiet pass.",
+  "notes": "PM 2026-11-06: checked specifically for BRC Group deal progress per standing instruction -- still no shareholder-vote result, no closing announcement, and no definitive proxy circular with a confirmed meeting date found. Deal remains pending with unchanged terms (US$4.925 cash + 0.04767 BRC share per Sangoma share, ~US$204M enterprise value, unanimous board approval, ~27% insider voting support already secured); special meeting still only loosely targeted on/before 2026-12-11 per a single aggregator (Panabee) not independently corroborated, closing still targeted January 2027 (outside date 2027-01-22). No other new dated catalyst found. Standalone market cap/price still not reliably establishable. Quiet pass -- deal status unchanged from last pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -222,7 +230,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": true,
     "changes": [],

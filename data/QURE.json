@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.045Z",
+  "lastResearched": "2026-11-06T21:22:03.986Z",
   "fundamentals": {
     "marketCap": {
       "value": 1440000000,
@@ -104,6 +104,13 @@
       "note": "Secondary coverage states the PDUFA target date as May 1, 2027; flagged for independent primary-source confirmation given it is nearly 6 months past the Q3 2026 report date -- plausible given typical priority-review timelines (BLA accepted ~Nov 2026 + ~6 months), but the 8-K excerpt available this session did not itself state the date verbatim."
     },
     {
+      "date": "2026-11-02",
+      "type": "regulatory",
+      "headline": "uniQure announced the FDA accepted its BLA for AMT-130 (ifezuntirgene inilparvovec, Huntington's disease gene therapy) under accelerated approval with Priority Review, with a confirmed PDUFA target action date of 2027-05-01 -- resolving the secondary-sourced-only date flagged in the prior pass. The FDA is tentatively planning an advisory committee meeting. uniQure and the FDA have agreed on the design of a confirmatory trial (~200 patients, randomized 2:1, primary endpoint at 36 months), with US patient screening expected to begin by year-end 2026. The UK MHRA has separately validated a parallel marketing authorization application. The filing relies on 36-month Phase 1/2 data vs. a propensity-score-matched external control from the Enroll-HD natural history database. This reverses the FDA's November 2025 position that the Phase 1/2 data were insufficient.",
+      "impact": null,
+      "source": "https://uniqure.gcs-web.com/news-releases/news-release-details/uniqure-provides-regulatory-update-amt-130-huntingtons-disease ; https://pharmashots.com/37055/uniqure-amt-130-bla-fda-priority-review-huntingtons ; https://www.medicaldaily.com/fda-accepts-uniqure-huntingtons-gene-therapy-480764"
+    },
+    {
       "date": "2026-10-05",
       "type": "analyst_action",
       "headline": "Barclays downgraded uniQure to Equal Weight from Overweight and cut its price target to $28 from $60",
@@ -172,8 +179,18 @@
     "Q3 2026 revenue vs. forecast: Investing.com frames $5.2M as a miss vs. a $6.21M forecast, while the headline EPS result is simultaneously framed as a beat -- kept both characterizations, not reconciled into a single verdict."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: verified the 2026-11-04 Q3 2026 catalyst already on file (revenue $5.2M +40.5% YoY, net loss $61.2M/-$0.88 GAAP, cash $768.4M as of 2026-09-30, FDA BLA acceptance with Priority Review for AMT-130) -- no independent source found this session that contradicts or materially adds to those figures, and no newer catalyst beyond it was located. Updated price/market cap to a slightly fresher (2026-10-29, still pre-earnings) dated quote. The AMT-130 PDUFA date (~2027-05-01) remains sourced only to secondary coverage, as previously flagged. This session's shared WebSearch budget was exhausted before further verification of the Nov 4 print against a primary source could be completed.",
+  "notes": "PM pass 2026-11-06: found the primary-source regulatory update (company's own 2026-11-02 announcement) behind the FDA BLA acceptance already noted as part of the 2026-11-04 earnings catalyst on file -- this resolves the prior pass's flag that the 2027-05-01 PDUFA date was secondary-sourced only; it is now confirmed via uniQure's own release, which also adds confirmatory-trial design detail not previously on file. No newer price than the on-file 2026-10-29 $24.96 was established this session (shared WebSearch budget exhausted); no new catalyst dated after Nov 2 was found.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -373,11 +390,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "marketCap updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.054Z",
+  "lastResearched": "2026-11-06T21:22:03.956Z",
   "fundamentals": {
     "marketCap": {
       "value": 18000000,
@@ -160,8 +160,16 @@
     "Most recent market cap found: ~$12.4M as of 2026-10-26 (price $0.8197, -43.86% over the past month) vs much older/higher snapshots ($48M-$91.9M) -- not reconciled, kept verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: targeted searches for corroboration of the single-sourced (Panabee) Jan 11, 2027 Heppner sentencing date found nothing matching — a docket-style search surfaced only an unrelated case with that date — so it remains neither confirmed nor contradicted; carried forward as-is. New dated catalyst found: an Oct 28, 2026 motion reportedly seeking to recover ~$211M on HCLP obligations (sourcing caveat above). Next earnings 2026-11-13 (unconfirmed) unchanged. No fresher financials located this session. Session note: WebFetch returned host-unreachable (DNS) errors for essentially every site attempted (SEC EDGAR, GlobeNewswire, panabee.com, and others), and the batch's shared WebSearch budget was exhausted before all planned follow-up queries could run, limiting verification depth on this ticker.",
+  "notes": "PM pass 2026-11-06: re-searched for corroboration of the single-sourced (Panabee) Jan 11, 2027 Heppner sentencing date; every result found was the same Panabee article repeated or syndicated verbatim — still no second independent source or court-docket confirmation. No new dated catalyst, and no fresher price or fundamentals, found this session; carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -316,18 +324,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "growth updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

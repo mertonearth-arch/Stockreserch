@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.055Z",
+  "lastResearched": "2026-11-06T21:22:03.972Z",
   "fundamentals": {
     "marketCap": {
       "value": 407000,
@@ -151,12 +151,21 @@
     }
   ],
   "conflicts": [
-    "RESOLVED 2026-11-04: Teva's acquisition of BioXcel's assets closed 2026-10-26 (confirmed via Ropes Gray and company 8-K coverage): $57.5M cash paid at closing, plus assumed liabilities and contingent milestones. This confirms the on-file court-approval timeline (approved 2026-10-21) and contradicts the low-reliability Signalbase claim of a $125.0M closing on 2026-09-01 — that claim is now disconfirmed.",
-    "Price: file carries a last price of $0.04 (OTC Pink, post-delisting, consistent with the Sept 8, 2026 Nasdaq suspension). A separate undated eToro snapshot shows $0.7606, citing 'Nasdaq' as its exchange source — almost certainly a stale pre-delisting cache, not a current OTC quote, and not used."
+    "New OTC price snapshot found this session: Debelegger shows a 2026-11-01 close of $0.05 (-3.2%), market cap ~$2.3M; Simply Wall St's OTC page (ticker shown as OTCPK:BTAI.Q) shows $0.047, 52-week range $0.019-$3.95. Both are dated AFTER the on-file $0.02 (2026-10-24) reading but show a higher price, which runs counter to the steady decline trend already on file ($0.05 Sept 29 -> ... -> $0.02 Oct 24). Given thin OTC-shell trading and single-aggregator sourcing (WebFetch could not independently verify -- unreachable for every domain this session), this is flagged as a conflict rather than used to overwrite the on-file price."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05 (routine refresh): the 2026-10-26 Teva acquisition-completion catalyst on file is confirmed accurate — Teva closed its purchase of BioXcel's IGALMI/BXCL501 neuroscience assets for $57.5M cash plus up to $67.5M in development milestones (tied to FDA approval of the at-home indication) and up to $20M in commercial milestones; BioXcel retained BXCL701/BXCL702, which were excluded from the sale. New information this pass: the FDA's PDUFA date for that at-home approval (which the $67.5M Teva milestone depends on) is 2026-11-14 — an unresolved near-term catalyst. OTC shell price continued declining through late October. No new bankruptcy-docket events found. Session note: WebFetch returned host-unreachable errors for nearly every site tried this session, and the batch's shared WebSearch budget was exhausted before further queries could confirm whether the Nov 14 FDA decision has since been made.",
+  "notes": "PM pass 2026-11-06: no new bankruptcy-docket events or FDA action found. The Nov 14, 2026 PDUFA date (IGALMI at-home sNDA, tied to the up-to-$67.5M Teva milestone) remains ahead and undecided as of this session -- confirmed still pending, no outcome yet since today is Nov 6. One new (but unreconciled) OTC price data point found; see conflicts. Otherwise quiet; all other fundamentals carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -363,21 +372,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

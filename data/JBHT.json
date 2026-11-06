@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.023Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.991Z",
   "fundamentals": {
     "marketCap": {
       "value": 20800000000,
@@ -154,8 +154,16 @@
     "Market cap/price snapshots continue to diverge: Upstox $221.82/$21.54B (2026-10-29, dated) vs. undated Yahoo Finance ~$25.06B, Motley Fool $26.39B/$266.67, and StockCircle $25.52B -- the undated readings look pre-earnings/stale rather than genuinely current, but not independently reconciled this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalysts found since the 2026-10-15 Q3 2026 print already on file. Undated analyst items surfaced this pass (a Bernstein upgrade to Outperform/$329 PT, a Citigroup downgrade to Neutral/$221 PT) could not be assigned a date and were therefore NOT added as catalysts per standing rules (every catalyst needs a date). No confirmed Q4 2026/FY2026 earnings date found; FY2025 Q4 was reported 2026-01-15, so a mid-January 2027 report remains a plausible but unconfirmed pattern. Existing conflicts (market cap divergence, short-interest denominator mismatch, the Sept 16 guidance-warning-vs-actual-results conflict) remain unresolved and unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 15, 2026 Q3 print already on file. No confirmed Q4 2026/FY2026 earnings date found. Searches surfaced only stale (pre-November, mostly summer 2026) price and analyst-target snapshots already reflected in the on-file conflicts. No changes made this pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -282,12 +290,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

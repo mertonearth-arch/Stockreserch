@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.052Z",
+  "lastResearched": "2026-11-06T21:22:03.989Z",
   "fundamentals": {
     "marketCap": {
       "value": 20870000000,
@@ -92,9 +92,11 @@
     }
   },
   "price": {
-    "last": 54.24,
+    "last": 58.77,
     "changePct": null,
-    "asOf": "2026-10-05"
+    "asOf": "2026-10-31",
+    "source": "Upstox share-price snapshot",
+    "note": "More recent than the on-file 2026-10-05 reading of $54.24, but still not a confirmed November 2026 close -- no reliable Nov 2026 quote was found this session, so this later-but-still-October figure is recorded rather than guessing at today's close."
   },
   "catalysts": [
     {
@@ -222,13 +224,21 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 GAAP EPS: SEC 8-K earnings release exhibit states $1.88 (basic); the Q3 2026 earnings call deck states diluted EPS of $1.87 for the same quarter. Both SEC-sourced; kept as basic vs. diluted rather than reconciled.",
-    "EIX Q4/FY2026 earnings date not yet company-confirmed. Secondary calendar estimates disagree: AJ Bell ~2027-02-18 vs Stock3 ~2027-02-25.",
-    "Market cap/price: no October 2026 figure confirmed beyond the stale on-file 2026-10-05 reading ($20.87B at $54.24/share); stock price reaction to the 10/29 print and regular-session closes on 10/29-10/30 could not be established this pass."
+    "Price: Upstox snapshot of $58.77 as of 2026-10-31 (more recent than the on-file 2026-10-05 figure of $54.24) suggests a partial recovery after the Oct 29 Q3 print, but no later (November) close could be confirmed this session to see whether that held."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-05: no new EIX-specific news dated November 2026 found. The one addition this session is from EIX's own Q3 2026 10-Q (CAL FIRE/county ignition-cause findings, self-insurance exhaustion, open investigations) -- substantive detail from the same filing already partially on file, not previously captured. No new analyst actions found since the on-file 2026-09-14 Jefferies cut. Price, market cap, cash, debt, and short interest could not be refreshed this session (WebFetch to reachable finance sites failed with DNS/ENOTFOUND errors in this sandbox); all carried forward unchanged from the on-file 2026-10-05 snapshot.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Oct 29 Q3 print and Sept 30 10-Q disclosures (CAL FIRE/county ignition-cause findings, self-insurance exhaustion) already on file. Price refreshed to a newer, though still not current-day, dated snapshot. Q4/FY2026 earnings date remains unconfirmed; secondary calendar estimates still disagree (AJ Bell ~2027-02-18 vs Stock3 ~2027-02-25). Cash, debt and short interest not re-established this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -493,11 +503,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

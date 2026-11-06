@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.053Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.993Z",
   "fundamentals": {
     "marketCap": {
       "value": 34659000000,
@@ -211,8 +211,16 @@
     "The price on file from the prior pass ($13.27, no asOf date) is inconsistent with that same pass's own catalyst text describing an intraday move from a ~$13.15 prior close down to ~$12.93 after the 2026-10-22 Q3 earnings miss; this pass uses $12.93 (sourced to that catalyst text) in its place."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-05: no new PCG-specific news dated November 2026 found; search results for wildfire/liability news returned only PG&E's SEC filings already substantially reflected on file, plus the Kincade Fire liability and statute-of-limitations detail added above. No new analyst actions found since the on-file 2026-09-08 BofA downgrade. Price, market cap, cash, debt, and short interest could not be refreshed this session (WebFetch to reachable finance sites failed with DNS/ENOTFOUND errors in this sandbox); all carried forward unchanged from the on-file 2026-10-22 snapshot. Quiet pass apart from the 10-Q detail noted above.",
+  "notes": "PM 2026-11-06: no new PCG-specific dated news found for November 2026 (searched wildfire liability, bond/offering activity, and general news -- nothing beyond what's already on file from the 2026-10-22 Q3 earnings catalysts). A WebSearch snapshot put the most recent dated PCG close at $13.29 on 2026-11-03 (+0.1%, volume 22.1M shares, 52-week range $11.77-$19.16), but since today's (2026-11-06) close could not be independently confirmed, price is left unchanged from the on-file 2026-10-22 ($12.93) figure per the 'omit rather than guess' rule rather than substituting a stale same-week figure. Fundamentals otherwise unchanged -- quiet pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -408,12 +416,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

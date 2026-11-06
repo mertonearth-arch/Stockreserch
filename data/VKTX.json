@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.049Z",
+  "lastResearched": "2026-11-06T21:22:04.001Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -137,15 +137,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: ~$3.0B implied (118.2M shares x $25.36 close 2026-10-28) vs an aggregator snapshot of $3.95B at a different, earlier price (~$33.9, 116.65M shares) — not reconciled; the $33.9 figure appears to predate a stock decline.",
-    "Cash position at Q3 2026 (2026-09-30): one filing-based summary cites cash & cash equivalents of $677.6M; multiple press-aggregator summaries cite $960M in 'cash, cash equivalents and short-term investments' (citing ~$575M gross raised in offerings during the quarter: $297.3M common stock offering + $251.0M 2032 Notes + $82.7M ATM, per the 9-month financing total of ~$633.2M). Both figures may be correct under different definitions — kept both, not averaged.",
-    "After-hours price reaction to the 2026-10-28 Q3 print: one source reports -2.79% (to $24.653 from a $25.36 close), another reports -2.37%. Neither independently verified against a primary exchange feed. No confirmed regular-session price data for 2026-10-29 or 2026-10-30 was found this pass — the options-implied +/-11.65% move from the prior pass was not clearly borne out by the modest AH move found.",
-    "Market cap: StockAnalysis.com (relayed via WebSearch, date unclear) showed ~$3.95B on 116.65M shares (implying ~$33.9), inconsistent with the confirmed $25.36 regular-session close on 2026-10-28 — likely a stale snapshot predating a price decline.",
-    "Shares outstanding: ~118.2M implied from the $183.2M net loss / $1.55 EPS vs. an aggregator's separately-cited 116.65M at an earlier date — both approximate, neither from a directly-read filing."
+    "New, low-confidence item this pass: a German-language aggregator (kapitalmarktexperten.de) states Viking was presenting VK2735 data at two medical conferences in early November 2026, cites an analyst price target of $106 and short interest of about 23% of shares, and says the stock rose nearly 45% in October 2026. None of this could be corroborated against a second source or a primary release this session, and the site's own dating is unclear, so it is recorded here as an unverified lead rather than used to update any field."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file; no November-2026-dated news, price, or analyst-action coverage located this session. Refreshed the short-interest figure with a dated FINRA settlement (2026-08-14) in place of the prior pass's undated estimate - otherwise quiet. Market cap, cash-position definition, and after-hours-price conflicts already on file remain unresolved and unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file; no company press release, 8-K, or clearly-dated analyst action from November 2026 was located this session. Checked specifically for a post-earnings price reaction, an ObesityWeek/November-conference presentation, and new analyst price-target action — the only new lead found is the single unverified German-language source in conflicts. All existing conflicts (market cap range, cash-position definition, after-hours price reaction, share count) remain unresolved and unchanged. Could not establish today's closing price (see TER notes on WebFetch access this session).",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -342,11 +348,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "shortInterest updated"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

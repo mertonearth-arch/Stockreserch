@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.063Z",
+  "lastResearched": "2026-11-06T21:22:03.966Z",
   "fundamentals": {
     "marketCap": {
       "value": 9290000000,
@@ -155,8 +155,16 @@
     "Market cap figures vary by several billion dollars depending on snapshot date: $9.29B (Google Finance-derived, 2026-09-16, on file), $8.92B (Benzinga, close $56.65/share, 2026-09-25, found this session), $9.67B (Motley Fool, 2026-07-23), up to $13.88B/$10.09B on undated aggregator snapshots -- no October or November 2026 figure found; not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: the Q3 2026 beat-and-raise print reported yesterday (net sales $1,046M +8% YoY, GAAP diluted EPS $0.50, raised FY2026 guidance to net sales $4,195-4,220M / adjusted EPS $2.90-2.95, on-track to substantially complete the $500M buyback by end of Q1 2027) is already fully captured on file from the prior pass. This session added one more dated pre-earnings market-cap snapshot (Benzinga, 2026-09-25) but could not locate a post-earnings (Nov 4/5) price quote before the WebSearch budget for this batch was exhausted -- flagged as a gap for the next pass. Next-earnings-date conflict (TipRanks Nov 5 vs. company's own Nov 4) is effectively resolved by the fact results were reported Nov 4 as the company had stated, so that item is dropped from conflicts this pass. Otherwise carried forward unchanged; identity note still stands.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Nov 4, 2026 Q3 beat-and-raise print already on file. Could not locate a post-earnings (Nov 5/6) closing price or market-cap figure this session -- WebFetch was unreachable for every domain attempted (DNS failures across the board, not just the documented stockanalysis/cnbc/google blocks), and WebSearch turned up only stale pre-earnings snapshots (Sept 2026) or undated analyst-target pages. Quiet pass; all fundamentals, conflicts, and the identity note carried forward unchanged from the prior pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -407,12 +415,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

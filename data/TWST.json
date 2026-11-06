@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.063Z",
+  "lastResearched": "2026-11-06T21:22:04.000Z",
   "fundamentals": {
     "marketCap": {
       "value": 9130000000,
@@ -127,12 +127,22 @@
     }
   ],
   "conflicts": [
-    "Next earnings date still unconfirmed and split across sources (checked again 2026-11-05): one source gives 2026-11-12/11-13 (projection, not confirmed), EarningsWhispers gives 2026-11-20. No company-issued date found. Consensus EPS estimate circulating is approximately -$0.44/share.",
-    "New price/valuation conflict found this session: one aggregator shows a 52-week high of $116.32 and low of $23.30, and an average analyst price target of $85.5 (described as ~7.68% below the 'latest price', implying a current price near $92.6) -- all well below the on-file $148.69 (2026-10-14) print and its implied ~$150+ 52-week high. No reverse split has been reported for TWST; flagging per the reverse-split-watch rule rather than reconciling, since the on-file figure is itself a single-aggregator snapshot that was never independently corroborated either."
+    "Next fiscal-Q4-2026 earnings date still not company-confirmed; the field of third-party estimates widened again this pass: Bullstory labels 2026-11-12 before market open as 'verified' (but cites no company source, and no company press release announcing the call date was found, so treated as unconfirmed like the others) vs Unusual Whales/NextEarningsDate 2026-11-13 (both explicitly labelled projections) vs EarningsWhispers 2026-11-20 before market open with consensus EPS around -$0.44/share. In fiscal 2025 the company's own call-date press release went out 2026-10-23 for a 2025-11-14 report; no equivalent company release for fiscal 2026 was located as of this pass despite being in the same window of the year.",
+    "Price/valuation conflict carried forward unresolved from 2026-11-05: on-file $148.69 (2026-10-14, single-aggregator snapshot) vs a separate aggregator's 52-week high of $116.32 / average price target $85.5 implying a current price near $92.6. This pass found a third, partially-corroborating snapshot: Upstox shows $152.75 as of 2026-10-31 (previous close $173.51 on an implied 2026-10-30), which is closer to the on-file $148.69 level than to the $92.6 implied figure — suggesting the on-file price range may be closer to correct and the $92.6 figure the stale/erroneous one, but this is not independently confirmed and no reverse split has been reported for TWST, so flagged rather than resolved."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-08-04 public offering and 2026-09-16 Eli Lilly TuneLab partnership already on file. New price-data discrepancy found this session (see conflicts) needs resolving on a future pass -- could be a stale/erroneous aggregator snapshot rather than a real price level.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-08-04 public offering and 2026-09-16 Eli Lilly TuneLab partnership already on file. Could not establish today's (2026-11-06) closing price with confidence — see conflicts for the closest dated snapshots found (2026-10-31). Next-earnings-date conflict narrowed slightly in credibility (two independent sources now cluster around Nov 12-13) but still has no company confirmation, so left as a conflict rather than picked.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -252,11 +262,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "growth updated",
       "conflicts updated"
     ],
     "tradingDay": true

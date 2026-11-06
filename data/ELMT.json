@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.062Z",
+  "lastResearched": "2026-11-06T21:22:03.974Z",
   "fundamentals": {
     "marketCap": {
       "value": 608000000,
@@ -80,9 +80,9 @@
       "note": "Not established; company IPO'd April 2026 with limited public comparables"
     },
     "nextEarnings": {
-      "date": "2026-11-12",
-      "confirmed": false,
-      "note": "Earnings Whispers reiterates Nov 12, 2026 before-market-open with a consensus estimate of $0.15/share; still not company-confirmed."
+      "date": "2026-11-10",
+      "confirmed": true,
+      "note": "Company scheduled a Q3 2026 (quarter ended 2026-10-02) earnings conference call and webcast for Nov 10, 2026, 8:00 AM ET, with a press release to precede the call; per a company notice carried by GlobeNewswire, dated 2026-11-03 per aggregator attribution (the primary GlobeNewswire release itself could not be fetched this session -- globenewswire.com was unreachable from this sandbox). This supersedes the prior pass's unconfirmed Nov 12 estimate. Earnings Whispers still separately lists Nov 12, and TrendSpider lists Nov 25 -- kept as conflicts, not reconciled."
     }
   },
   "price": {
@@ -92,6 +92,14 @@
     "note": "Most recent dated quote found (Benzinga); stale by ~1 week vs. 2026-10-23"
   },
   "catalysts": [
+    {
+      "date": "2026-11-03",
+      "type": "earnings date announcement",
+      "headline": "The Elmet Group scheduled its Q3 2026 (quarter ended Oct 2, 2026) earnings conference call and webcast for November 10, 2026 at 8:00 AM ET; a press release with results is to precede the call.",
+      "impact": null,
+      "source": "https://pluang.com/en/news-feed/the-elmet-group-jadwalkan-panggilan-laba-q3-2026",
+      "note": "Aggregator attributes the underlying notice to a GlobeNewswire release; GlobeNewswire itself was unreachable this session to confirm directly."
+    },
     {
       "date": "2026-10-01",
       "type": "M&A/investment",
@@ -171,13 +179,25 @@
     }
   ],
   "conflicts": [
-    "Next-earnings-date sources disagree: one aggregator lists 'next earnings date' as 2026-08-28, clearly stale (doesn't match the Q2 release of 2026-08-13); the on-file 2026-11-12 estimate for Q3 2026 results was not independently confirmed by a company source this session.",
-    "Market cap and shares-outstanding figures are not from October 2026 and could not be refreshed this session (stale figures range $437.7M-$514.8M; shares outstanding ~28.85M-30.46M across sources).",
-    "New, unconfirmed price snapshots found this session read $14.25 (one aggregator, described as -24.84% over the trailing month) and $15.66 (another, -0.14% 24h change) -- both well below the on-file $18.51 (2026-10-16) print, but neither carries a reliable as-of date, so not used to update price.last this pass."
+    "Next earnings date: company appears to have scheduled the Q3 2026 call for 2026-11-10 (per GlobeNewswire via aggregator, dated 2026-11-03); Earnings Whispers separately lists 2026-11-12, and TrendSpider lists 2026-11-25 -- not reconciled.",
+    "Market cap and shares-outstanding figures remain stale (not refreshed this session); prior readings range roughly $437.7M-$608M depending on source/date, and shares outstanding ~28.85M-30.46M.",
+    "Unconfirmed low price snapshots from a prior session ($14.25, $15.66) remain well below the on-file $18.51 (2026-10-16) print and were neither corroborated nor refuted this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-01 Masan High-Tech Materials stake-sale closing already on file. Nov 12 BMO earnings estimate reaffirmed by EarningsWhispers (consensus EPS $0.15) but remains unconfirmed by the company. Possible further price decline flagged (see conflicts) but not corroborated well enough to update price.last. Otherwise quiet.",
+  "notes": "PM pass 2026-11-06: Elmet's Q3 2026 earnings call now appears scheduled via a company notice for Nov 10, 2026, 8:00 AM ET -- supersedes the prior Nov 12 unconfirmed estimate, though Earnings Whispers (Nov 12) and TrendSpider (Nov 25) remain unreconciled conflicting estimates. No other new dated catalyst found; the Masan High-Tech Materials stake-sale closing (2026-10-01) already on file remains the most recent confirmed M&A item. Price/fundamentals otherwise not independently refreshed this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -343,10 +363,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "nextEarnings updated",
       "conflicts updated"
     ],

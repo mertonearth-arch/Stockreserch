@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.013Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.998Z",
   "fundamentals": {
     "marketCap": {
       "value": 63210000000,
@@ -139,8 +139,16 @@
     "The -6.7% post-earnings stock-reaction figure comes from a single source (GuruFocus, via WebSearch synthesis) and could not be cross-checked against a second site this session — WebFetch to investors.teradyne.com, gurufocus.com, cryptobriefing.com, sec.gov and several other candidate verification sites all failed with DNS resolution errors in this sandbox (distinct from the three domains the runbook already flags as egress-blocked)."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-27 Q3 2026 earnings beat-and-drop already on file. Added cash/debt for the period ended 2026-09-27 from a third-party aggregator's reading of the Q3 2026 10-Q, since SEC EDGAR itself could not be fetched from this sandbox this session — treat as directional pending primary-source confirmation. Next earnings date remains unannounced by the company; no new estimate found this session.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-27 Q3 2026 earnings beat-and-drop already on file. Searched specifically for a November 2026 CFO/analyst-action angle after a WebSearch snippet referenced a 'CFO transition' and 'analyst upgrades' — both traced back to October 2025 and April-June 2026 respectively, i.e. already stale/superseded, not new information this pass. Could not establish today's (2026-11-06) closing price, an updated market cap, or resolve the on-file trailing-P/E conflict: WebFetch failed with DNS/ENOTFOUND errors this session against every finance site tried (finance.yahoo.com, www.nasdaq.com, www.marketwatch.com, www.benzinga.com, www.sec.gov, www.stocktitan.net) — broader than the three domains the RUNBOOK already flags as egress-blocked, so this looks like the session's network allowlist rather than those specific sites. Price omitted rather than guessed. Genuinely quiet pass on fundamentals and catalysts.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -308,13 +316,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "cash updated",
-      "debt updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

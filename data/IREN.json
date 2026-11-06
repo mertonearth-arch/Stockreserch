@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T05:32:13.632Z",
+  "lastResearched": "2026-11-06T21:22:03.964Z",
   "fundamentals": {
     "marketCap": {
       "value": 7758000000,
@@ -55,7 +55,14 @@
         "note": "Company reported a net loss of $263M for the quarter in its 2026-11-05 GlobeNewswire release (vs. a $684.0M net loss in Q4 FY2026, which included $450.4M of impairments) -- a narrower loss. A reported per-share EPS figure was not captured from the source text reachable this session (WebFetch to globenewswire.com was blocked/DNS-unreachable in this sandbox). Pre-earnings consensus had estimated an adjusted loss of roughly -$0.67 to -$0.73/share."
       }
     ],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q1 FY2027 (ended 2026-09-30)",
+        "value": 228000000,
+        "yoy": null,
+        "note": "Total company revenue: AI Cloud $200M + bitcoin mining $28M (down from $67M in Q4 FY2026), per an SEC 8-K breakdown surfaced via WebSearch this session. A second reading ($240.3M, vs. a cited $241.97M consensus, per TipRanks/TheFly) of the same earnings release remains unreconciled -- both kept, see conflicts, never averaged."
+      }
+    ],
     "growth": {
       "metric": "AI Cloud revenue QoQ",
       "period": "Q1 FY2027",
@@ -76,6 +83,13 @@
     "note": "Supersedes the on-file 2026-10-30 print ($23.95, -8.7%). This was the session immediately before the 2026-11-05 Q1 FY2027 earnings release (a fresh 52-week low, $21.05 intraday); premarket on 2026-11-05 itself was reported around $20.54, but no confirmed regular-session close for 2026-11-05 (the earnings day) was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Further detail on the Q1 FY2027 print beyond what was captured on file: total company revenue $228M (AI Cloud $200M + bitcoin mining $28M, down from $67M in Q4 FY2026); adjusted EBITDA $66M (up from $19M in Q4 FY2026); revenue backlog rose 22% QoQ to $20.3B, with roughly two-thirds held by investment-grade counterparties.",
+      "impact": null,
+      "source": "SEC Form 8-K (irenreportsq1-fy27result.htm, CIK 1878848), content surfaced via WebSearch indexing -- sec.gov itself returns ENOTFOUND from this sandbox, so the filing could not be fetched directly to double-check line items"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -232,11 +246,23 @@
     }
   ],
   "conflicts": [
-    "Q1 FY2027 (reported 2026-11-05) total company revenue: one source reports $240.3M (vs $241.97M consensus); another reports $228M (AI Cloud $200M + bitcoin mining $28M, adjusted EBITDA $66M). Not reconciled; neither independently verified against the primary release this session."
+    "Q1 FY2027 (reported 2026-11-05) total company revenue: the SEC 8-K breakdown surfaced this session ($228M = AI Cloud $200M + bitcoin mining $28M) matches one of the two readings already flagged on file; a second, higher reading ($240.3M vs. a $241.97M consensus, per TipRanks/TheFly) of the same release remains unreconciled with it. Neither was independently fetched directly (sec.gov blocked in this sandbox)."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-05: IREN reported Q1 FY2027 results today as scheduled. Headline figures captured: net loss $263M (narrower than Q4 FY2026's $684.0M) and AI Cloud revenue ~$200M (+182% QoQ from ~$71M), at 86% AI Cloud gross margin, plus a new post-quarter 'frontier AI lab' contract. Total revenue, EPS, and the actual post-earnings stock reaction could NOT be confirmed this session: WebFetch to globenewswire.com, benzinga.com, fool.com, yahoo finance, stocktitan.net, gurufocus.com, kucoin.com and sec.gov all failed with DNS/ENOTFOUND errors in this sandbox, and the shared WebSearch budget for this pass was exhausted before a follow-up query could pin down the missing figures. A near-term follow-up pass should re-fetch the GlobeNewswire release or IREN's 10-Q to fill in total revenue, EPS, and the actual close/reaction on 2026-11-05. The 2026-10-29 close move description on file (which this prompt's framing referenced as 'today, -8.7%') actually corresponds to the already-on-file 2026-10-30 session; the real most-recent pre-earnings move is the 2026-11-04 -11.24% print recorded above.",
+  "notes": "PM pass 2026-11-06: new detail found on the already-reported Q1 FY2027 print -- a total-revenue breakdown ($228M: AI Cloud $200M + bitcoin mining $28M) and a revenue-backlog figure ($20.3B, +22% QoQ) not previously captured. This reinforces, rather than resolves, the total-revenue conflict already on file (a second, higher $240.3M reading remains separately sourced). The actual EPS/adjusted-EPS figure and the post-earnings stock price reaction still could not be confirmed this session -- WebFetch to globenewswire.com, sec.gov and other finance sites remained blocked/unreachable in this sandbox. No fresher (November 2026) closing price was found; the on-file 2026-11-04 price is carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "am",
@@ -508,10 +534,11 @@
   },
   "lastPass": {
     "date": "2026-11-06",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "revenue updated",
       "conflicts updated"
     ],
     "tradingDay": true

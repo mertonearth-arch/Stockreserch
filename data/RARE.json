@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.046Z",
+  "lastResearched": "2026-11-06T21:22:03.994Z",
   "fundamentals": {
     "marketCap": {
       "value": 1540000000,
@@ -230,12 +230,21 @@
     }
   ],
   "conflicts": [
-    "Stock-price reaction to the 2026-11-03 Q3 print could not be confirmed from a reliable source this session. Several search results claiming an '~11.89% pre-market plummet' carried garbled/duplicated timestamps (e.g. identical '2026-04-20 09:41:44 EST' stamps across dozens of unrelated mirror-site URLs) and appear to actually describe the November 2025 Q3 report, not November 2026 — not used.",
-    "Scattered recent price snapshots found this session ($14.30-$14.90, undated or dated early-to-mid September 2026) are lower than the on-file $15.95 (2026-10-27) / $16.01 (2026-10-26) figures, suggesting a possible decline, but none could be tied to a specific November 2026 date reliably enough to update price or market cap."
+    "This session re-searched for the market reaction to the 2026-11-03 Q3 2026 print (revenue miss, $173M vs ~$183.5-185M consensus) and still found nothing dated November 2026 -- all 'Ultragenyx Q3 miss, shares plummet ~11.8-11.9% pre-market' coverage found is explicitly the November 2025 Q3 2025 report (loss -$1.81/sh vs -$1.23 consensus), a different year. Confirms the prior pass's conclusion that this headline does not apply to the 2026 print; not used."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: filled in the Q3 2026 GAAP EPS figure (-$1.16/share, net loss $118M) that the prior pass could not locate, plus the Q3 2026 revenue line item ($173M) and reaffirmed FY2026 guidance ($730-760M). Could not confirm the actual post-earnings stock move or get a clean current market cap/price this session (see conflicts) - price and marketCap carried forward from the prior pass. nextEarnings updated to null/unconfirmed since the on-file date already passed and no Q4/FY2026 date was found.",
+  "notes": "PM 2026-11-06: no new dated catalyst found since the 2026-11-03 Q3 2026 earnings print already on file. Could not confirm the market's reaction to that print, nor a current share price/market cap, this session -- carried forward unchanged from the prior pass. Quiet pass on fundamentals.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -451,14 +460,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

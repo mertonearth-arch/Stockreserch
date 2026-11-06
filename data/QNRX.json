@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.042Z",
+  "lastResearched": "2026-11-06T21:22:03.985Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -23,18 +23,17 @@
       "unit": "ADS (1 ADS = 35 ordinary shares)",
       "ordinarySharesValue": 70294615,
       "asOf": "2026-08-12",
-      "source": "SEC Q2 FY2026 10-Q cover page (accession 000110465926097064), matches the Q1 FY2026 10-Q cover page (as of 2026-05-05)",
-      "note": "Substantially narrows the prior wild conflict (588K to 3.35B). However this is dated 2026-08-12, BEFORE the 2026-08-31 ~$30.8M private placement, so is not necessarily the current count today."
+      "note": "UNCHANGED from the on-file SEC 10-Q cover-page figure, which predates the Aug 28-31, 2026 private placement (6,305,300 new ADSs plus warrants for up to 3,152,650 more). Total ADS count today is very likely well above this figure, but no post-placement SEC cover-page count was independently confirmed this session -- treat the figure above as stale."
     },
     "shortInterest": {
       "value": null,
       "note": "Not found in sources reviewed this session."
     },
     "cash": {
-      "value": 10800000,
-      "asOf": "2026-06-30",
-      "source": "Quoin 10-Q (Q2 2026), via WebSearch summary of SEC filing",
-      "note": "Comprises $3.8M cash & equivalents + $7.0M investments as of 2026-06-30. Prior quarter (2026-03-31): $3.1M cash + $10.9M investments, accumulated deficit $76.0M."
+      "value": 33200000,
+      "asOf": "2026-09-30",
+      "source": "Company Q3 2026 release (GlobeNewswire, 2026-11-05): $10.1M cash & equivalents + $23.1M investments",
+      "note": "Large increase from $10.8M at 2026-06-30, reflecting the Aug 28-31, 2026 private placement (~$30.8M gross / ~$29.0M net at closing) closing during Q3 2026."
     },
     "debt": {
       "value": null,
@@ -45,18 +44,25 @@
       "forward": null,
       "note": "negative earnings; pre-revenue clinical-stage biotech"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Company reported a Q3 2026 net loss of ~$4.9M (vs. ~$3.9M in Q3 2025); a per-ADS/per-share EPS figure was not located in the release excerpts reachable this session, so it is left null rather than derived from an unconfirmed post-placement share count."
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": "cash burn",
-      "period": "H1 2026",
-      "pct": null,
-      "note": "Company is pre-commercial (no product revenue). 10-Q discloses going-concern doubt. A secondary source estimates combined liquidity of $10.8M against ~$1.3M/month burn (<8 months runway on that basis alone); this appears to exclude the Aug 2026 financing. See conflicts re: runway."
+      "metric": "net loss growth (9-month YoY)",
+      "period": "9M 2026",
+      "pct": 32,
+      "note": "Pre-commercial, pre-revenue biotech. Nine-month 2026 net loss widened to ~$15.2M from ~$11.5M in 9M 2025 (a ~32% increase in losses) -- this is a loss-widening figure, not a revenue-growth figure."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
-      "confirmed": true,
-      "note": "Company's own 2026-10-29 press release confirms corporate update and Q3 2026 results before market open Nov 5, 2026. A separate EarningsWhispers tracker still lists Nov 13, 2026 with a -$1.88 consensus estimate -- the weaker, unconfirmed aggregator estimate, superseded by the company's own date."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 results (the date previously tracked here) were reported 2026-11-05 as scheduled. The next report (Q4/FY2026) date is not yet company-announced."
     }
   },
   "price": {
@@ -66,6 +72,13 @@
     "source": "stockalarm.io aggregator; Digrin's October 2026 monthly close of $3.99 is consistent"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Quoin Pharmaceuticals reported Q3 2026 results (quarter ended 2026-09-30): net loss ~$4.9M (vs. ~$3.9M in Q3 2025); nine-month 2026 net loss ~$15.2M (vs. ~$11.5M in 9M 2025); cash, cash equivalents and marketable securities ~$33.2M at quarter-end ($10.1M cash + $23.1M investments), reflecting the August private-placement proceeds. Company reiterated it expects topline data from the Netherton syndrome pivotal trial (CL-QRX003-004) in Q2 2027.",
+      "impact": null,
+      "source": "https://www.globenewswire.com/news-release/2026/11/05/3396437/0/en/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-quarter-2026-financial-results.html ; https://www.stocktitan.net/news/QNRX/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-26928l5wl9f9.html"
+    },
     {
       "date": "2026-10-29",
       "type": "scheduling",
@@ -153,8 +166,23 @@
     "Market cap: ~$19.31M (recent aggregator, undated) vs $8.6M (on-file, 2026-07-24, MarketChameleon) — arithmetic mismatch, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: Quoin was due to report Q3 2026 results before today's open per its own 2026-10-29 announcement, but this session could not locate the actual release text or figures -- every attempt to reach the company's investor-relations site, GlobeNewswire, and SEC EDGAR directly (WebFetch) returned DNS failures in this sandbox, and the shared WebSearch budget was exhausted before an indexed copy of the release surfaced. All fundamentals (cash $10.8M as of 2026-06-30, shares outstanding 2,008,417 ADS as of 2026-08-12, the Aug 2026 $30.8M private placement, the market-cap and shares-outstanding conflicts) are carried forward unchanged from the prior pass. Flagging this explicitly rather than inventing a Q3 print: the actual Nov 5 results should be the first thing checked next pass.",
+  "notes": "PM pass 2026-11-06: the Q3 2026 results flagged as pending in the prior pass are now out. Headline figures (net loss, 9-month loss, cash) are well corroborated across the company's own release and secondary aggregators. A per-ADS EPS figure and a post-placement shares-outstanding count were NOT located this session -- both left null/stale respectively rather than derived or guessed. No current (2026-11-06) price was established; the on-file 2026-10-25 $4.02 figure is carried forward unchanged (October 2026 monthly-close data found this session, ~$3.99, is broadly consistent and not treated as a conflict).",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -370,11 +398,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "cash updated"
     ],
     "tradingDay": true
   }

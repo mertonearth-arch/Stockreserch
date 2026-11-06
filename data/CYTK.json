@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.033Z",
+  "lastResearched": "2026-11-06T21:22:03.973Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -200,8 +200,16 @@
     "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: Q3 2026 GAAP net loss/EPS now confirmed at $190.1M / $(1.37), closing the gap flagged in the prior pass. FDA PDUFA date 2026-11-14 for the MAPLE-HCM sNDA (oHCM label expansion) corroborated by multiple secondary sources, unchanged from on file. No Q4/FY2026 earnings date found yet. Market cap, shares outstanding, and short-interest conflicts remain unresolved (no newer figures found this session) -- left as on file.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Nov 4, 2026 Q3 2026 earnings print already fully captured on file. No fresher market cap, shares-outstanding, or short-interest figure found -- WebFetch was unreachable for every domain attempted this session, and WebSearch turned up only the same pre-existing conflicting aggregator figures (e.g. a Nov 2, 2026 MarketChameleon snapshot of $63.29/$8.80B market cap, which is in the same range as but not clearly reconciling the on-file Yahoo/Motley Fool/Digrin conflict). FDA PDUFA date 2026-11-14 for the MAPLE-HCM sNDA remains pending, unchanged. Quiet pass; all fundamentals and conflicts carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -465,16 +473,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

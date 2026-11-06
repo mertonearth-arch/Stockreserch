@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.058Z",
+  "lastResearched": "2026-11-06T21:22:03.970Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -82,7 +82,7 @@
     "nextEarnings": {
       "date": "2026-11-16",
       "confirmed": false,
-      "note": "TipRanks estimate found this session; differs from the prior file's unconfirmed 2026-11-13 Earnings Whispers estimate -- see conflicts."
+      "note": "On-file TipRanks estimate (Nov 16) now also conflicts with two additional unconfirmed readings found this session: TrendSpider shows Nov 13, 2026; EarningsWhispers shows Nov 12, 2026 after market close. None is company-confirmed; all three kept, see conflicts. Consensus for the quarter (Benzinga): EPS -$0.35, revenue $2.4M."
     }
   },
   "price": {
@@ -157,11 +157,22 @@
     }
   ],
   "conflicts": [
-    "Market cap: Market Chameleon shows $5.49M (date on its own page not precisely shown, roughly concurrent with its Oct 26-27 2026 price data) vs. $2.70 price (Market Chameleon, 2026-10-27) x 1,436,344 shares outstanding on file = ~$3.88M computed -- not reconciled; on-file $4.0M market cap left unchanged rather than overwritten with either unreconciled figure."
+    "Next earnings date: three disagreeing unconfirmed readings now on file -- TipRanks Nov 16, 2026 (on file); TrendSpider Nov 13, 2026; EarningsWhispers Nov 12, 2026 after market close (both found this session). None is company-announced."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: price updated to $2.70 (2026-10-27, Market Chameleon). No new dated catalyst found beyond what's already on file (2026-10-30 annual-meeting close, 2026-10-13 Middle East contract/Stephen Morrow hire, etc.). CNN Finance TTM figures ($6.93M TTM revenue, $1.55M for 'Q3', -$4.30M TTM net income) were also found but without clear period labels/dates, so not used to update EPS/revenue. Next-earnings-date conflict (Nov 13 vs Nov 16 estimates) remains open, unconfirmed. This batch's shared WebSearch budget was exhausted and WebFetch could not reach any tested domain before further verification could be attempted.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond what's on file (Oct 30 annual-meeting vote close, Oct 13 Middle East contract/hire, etc.). No fresher price, market cap, or cash/debt figures found -- WebFetch was unreachable for every domain attempted this session. Added a third conflicting next-earnings-date estimate (see conflicts). Otherwise quiet; all other fundamentals carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -306,10 +317,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

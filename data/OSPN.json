@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.060Z",
+  "lastResearched": "2026-11-06T21:22:03.993Z",
   "fundamentals": {
     "revenue": [
       {
@@ -64,10 +64,15 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Next report is Q4 2026 results. Last year's Q4 2025 report was 2026-02-26 (announced via a 2026-01-13 press release), so a Q4 2026 date would likely be announced mid-January 2027 -- nothing found yet this session."
+      "note": "No Q4 2026 date announcement found. Company's own pattern: the Q4 2025 date (2026-02-26) was announced via a press release on 2026-01-13, roughly 6 weeks ahead -- so a Q4 2026 date announcement is not expected until mid-January 2027. Carried from prior pass."
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "Still unestablished post-earnings. This session found two further conflicting snapshots -- see conflicts -- neither clean enough to use."
+  },
   "catalysts": [
     {
       "date": "2026-10-29",
@@ -78,10 +83,21 @@
     }
   ],
   "conflicts": [
-    "Market cap / P/E: readings of $695.40M cap at $19.21 / P/E unclear (Fox Business, 2026-10-23), $581.16-581.53M cap at $15.59-15.78 / P/E 8.93 (Equibles/Google Finance, Aug-Oct 2026), $411.77M cap / P/E 5.83 (Public.com, 2026-04-08, stale), and $380.29M cap / P/E 5.2x (Simply Wall St, undated) -- all pre-date or are ambiguous relative to the 2026-10-29 earnings move and are not reconciled."
+    "Price snapshots found this session add to the existing unreconciled set: Upstox shows $19.74 as of 2026-10-29 (-1.6% that day), while a Debelegger snapshot shows $25.66 with an update timestamp of 2026-11-01 describing a +27.3% close move -- a jump neither tied to a specific dated news item nor consistent with the 52-week high of $20.78 that the same Upstox page cites. Not reconciled; carried alongside the prior pass's conflicting $19.21/$15.59-15.78/$11.77 cluster already on file."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -142,18 +158,14 @@
       "from": "daily"
     }
   ],
-  "notes": "PM 2026-11-05: no new catalyst found since the 2026-10-29 Q3 2026 print (still the most recent event). This pass pins cash, debt and a short-interest settlement figure to the Q3 2026 10-Q and FINRA data (all dated 2026-09-30), an improvement on last pass's undated aggregator figures. A reliable post-earnings market cap, P/E and share price remain unestablished -- all available quote snapshots pre-date or are ambiguously dated relative to the 2026-10-29 print. Next earnings date (Q4 2026) not yet announced.",
+  "notes": "PM 2026-11-06: no new dated catalyst since the 2026-10-29 Q3 2026 earnings print (still the most recent event). Next earnings (Q4 2026) still not announced. Price/market-cap conflict grew rather than resolved this pass -- see conflicts. Other fundamentals (cash, debt, shares outstanding, short interest) unchanged from the 2026-11-05 pass.",
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
       "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

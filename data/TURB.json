@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-05T21:18:33.019Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-06T21:22:03.999Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -83,6 +83,13 @@
   "price": null,
   "catalysts": [
     {
+      "date": "2026-10-06",
+      "type": "operational milestone",
+      "headline": "Turbo Energy brought 62.5 MWh of intelligent battery energy storage fully online (installed, commissioned and operating commercially) across three industrial sites in Spain — ECO Porcelánico, Compacglass and TAU Porcelánico — paired with 34 MWp of installed/operating photovoltaic capacity, all part of the company's $53M, 366 MWh Pamesa Net Zero contract (previously disclosed; this is the operational-milestone update, not a new contract)",
+      "impact": "No independently-verified stock-price reaction found this session",
+      "source": "SEC Form 6-K (filed 2026-10-06) via energydigital.com GlobeNewswire mirror: https://energydigital.com/globenewswire/3375467 ; also mirrored at https://finviz.com/news/399232/turbo-energy-brings-625-mwh-of-intelligent-energy-storage-online-across-three-industrial-sites"
+    },
+    {
       "date": "2026-09-17",
       "type": "contract",
       "headline": "Announced a portfolio of 15 firm-order commercial & industrial (C&I) energy-storage projects across Spain and Chile, 15.6 MWh / 5.95 MW, estimated order value ~EUR3M (~US$3.48-3.5M) attributable to Turbo Energy",
@@ -116,8 +123,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: dedicated search for TURB news turned up nothing dated after the 2026-09-17 C&I storage contract already on file; most results were stale pre-2026-05 coverage (Q1 2025 results, April 2026 technical-analysis pieces) or garbled mirror-site duplicates. All existing conflicts (shares outstanding, float, market cap range, H1 2026 net-result discrepancy, reverse-split-related price anomaly) remain unresolved and unchanged this pass; no new catalyst, no fundamentals update.",
+  "notes": "PM pass 2026-11-06: this was the name flagged for extra scrutiny (quietRuns=2, one more quiet PM pass drops a tier). A deeper search past the generic ticker-news query turned up a genuine new dated item: a 2026-10-06 SEC 6-K/press release on the Pamesa Net Zero project reaching 62.5 MWh of fully operational storage (added to catalysts above) — this was not on file (prior catalysts stopped at 2026-09-17). Two other Turbo Energy items surfaced in search (an April 20, 2026 Hithium AI-optimization partnership and an April 9, 2026 US patent grant) are both older than the ~6-month catalyst window from today and were already stale relative to the file's September/July items, so not added. All pre-existing conflicts (shares outstanding, float, market-cap range, H1 2026 net-result discrepancy, reverse-split-related price anomaly) remain unresolved and unchanged — no new figures found to update them. Could not establish today's price (see TER notes on WebFetch access this session).",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -230,10 +247,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

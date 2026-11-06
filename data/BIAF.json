@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.027Z",
+  "lastResearched": "2026-11-06T21:22:03.957Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -242,8 +242,16 @@
     "Additional new late-October 2026 price snapshots found this session (Upstox $3.06 as of 2026-10-30; Tickertape $2.84 as of 2026-10-26) suggest the price declined further from the on-file $4.725 (2026-10-09) figure, but conflict with each other and could not be corroborated by a primary source — not used to update the recorded price; the ~-16% move already on file (2026-10-09, -16.22%) may also not be the same move referenced by these later undated/low-confidence snapshots."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond what is already on file (last catalyst 2026-10-29). Earnings due 2026-11-06 per most sources (unreported as of this pass), though one unconfirmed source suggests Nov 18 — flagged, not resolved. Share-count/price conflicts remain open and unresolved. Quiet.",
+  "notes": "PM pass 2026-11-06: most aggregators had estimated Q3 2026 earnings for today, but no formal Q3 2026 financial release (10-Q or press release with an actual revenue dollar figure) was found this session. The only Q3-2026-dated material surfacing is the already-on-file Oct 6, 2026 operational update (CyPath Lung test volume >100% YoY through Q3 2026 YTD); several low-quality aggregator pages appear to be recycling or mislabeling that update as a 'Q3 report,' and one Investing.com snippet citing a '-$4.74 EPS miss' could not be dated and looks like a mismatched Q3-2025 figure, so it was not used. Treating the formal Q3 2026 financial print as still not released. No fresher price found either — only stale or mutually conflicting undated snapshots, consistent with the price conflict already on file. Carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -442,13 +450,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

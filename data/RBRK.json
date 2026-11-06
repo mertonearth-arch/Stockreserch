@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.061Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.995Z",
   "fundamentals": {
     "marketCap": {
       "value": 25274000000,
@@ -115,8 +115,16 @@
     "Next earnings date: on-file Dec 1, 2026 estimate vs. Dec 3 (Benzinga) vs. Dec 4 (MarketBeat) vs. Dec 7, 2026 (Chartmill) -- none company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-05: no new dated catalyst since the 2026-08-27 Q2 FY2027 print (fiscal Q3 FY2027, ending 2026-10-31, has not yet been reported). This pass pins shares outstanding to the SEC 10-Q cover-page figure (207.30M combined Class A+B, 2026-08-24) and finds a newer short-interest settlement figure (13.1M shares, 2026-09-30), but the resulting market cap and next-earnings date remain unreconciled across sources -- see conflicts. A ~10% price drop between 2026-10-26 and 2026-10-30 was found but not tied to a specific dated news item this session.",
+  "notes": "PM 2026-11-06: fiscal Q3 FY2027 (quarter ended 2026-10-31) has still not been reported and no company-confirmed report date was found this session -- estimates remain scattered (Dec 1/3/4/7, none company-sourced), consistent with the pattern that Rubrik typically announces its report date about 3 weeks ahead (as it did for Q1 FY2027 on 2026-05-07 for a 2026-06-04 release), so a notice would be expected in mid-to-late November. No new dated catalyst found since the 2026-08-27 Q2 FY2027 print. Price/market-cap/next-earnings conflicts already on file were not resolved this session -- left unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -306,19 +314,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

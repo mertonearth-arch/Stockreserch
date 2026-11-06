@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.038Z",
+  "lastResearched": "2026-11-06T21:22:03.965Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -31,10 +31,10 @@
       "note": "Not independently verified"
     },
     "cash": {
-      "value": 1973420,
-      "asOf": "2026-06-30",
-      "source": "SEC Form 10-Q (Q2 2026)",
-      "note": "Up from $138,601 at 2026-03-31. Net cash used in operations was $11,756,954 for the six months ended 2026-06-30. Company reports an undrawn $10.0M line of credit with related party HCWG and ~$44.5M remaining available under a Mast Hill facility as of 2026-06-30 (available, not drawn -- not counted as debt)."
+      "value": 6166342,
+      "asOf": "2026-09-30",
+      "source": "SEC Form 10-Q (Q3 2026) / 8-K Exhibit 99.1 filed 2026-11-05",
+      "note": "Up sharply from $1,973,420 at 2026-06-30, reflecting the Sept 10, 2026 $15M registered direct offering closing. Supersedes the on-file Q2 figure."
     },
     "debt": {
       "value": null,
@@ -47,35 +47,23 @@
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": null,
-        "note": "not located"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": null,
-        "note": "not located"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.58,
+        "period": "Q3 2026",
+        "value": -0.28,
         "basis": "GAAP",
-        "note": "Reported loss per share on $0.00 revenue for the quarter ended June 2026; consensus was a loss of $0.16"
+        "note": "Loss attributable to common stockholders $7.3M, or $(0.28)/share, vs $(0.45)/share in Q3 2025. Includes $2.8M of noncash deemed dividends from the Series A preferred redemption and a warrant down-round adjustment. Underlying net loss (before those items) was $4.4M, down 49% YoY from $8.6M in Q3 2025. R&D rose to $1.3M (from $0.7M); G&A fell to $0.6M (from $0.9M). Nine-month 2026 net loss $27,500,185; accumulated deficit $140,254,840. Going-concern language continues."
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "net cash used in operations (pre-revenue)",
-      "period": "H1 2026",
-      "pct": null,
-      "note": "$11.76M used in operations for the six months ended 2026-06-30. Filing discloses substantial doubt about ability to continue as a going concern without additional capital. Key clinical progress: August 2026 topline Phase 2a data for NEO100 in recurrent IDH1-mutant high-grade glioma -- 6-month progression-free survival of 48.9% vs. a prespecified 20% benchmark."
+      "metric": "net loss YoY (pre-revenue)",
+      "period": "Q3 2026",
+      "pct": -49,
+      "note": "Net loss narrowed to $4.4M from $8.6M in Q3 2025, a 49% decline in the loss itself -- an improvement, despite the negative sign on this metric. Company remains pre-revenue."
     },
     "nextEarnings": {
-      "date": "2026-11-13",
+      "date": null,
       "confirmed": false,
-      "note": "Platform estimate (earningswhispers); not company-announced"
+      "note": "RESOLVED: Q3 2026 results were actually reported 2026-11-05 via 8-K/press release, which moots the prior pass's conflicting Nov 9 vs. Nov 13, 2026 earnings-date estimates (those were EarningsWhispers guesses for what turned out to already be reported). This field now refers to the unannounced Q4/FY2026 report; no date found yet. Do not confuse with the Nov 13 SNO poster-presentation date (a conference) or the Nov 17 FDA End-of-Phase 1 meeting for NEO212, both already on file."
     }
   },
   "price": {
@@ -91,6 +79,13 @@
       "headline": "NeOnc Technologies scheduled to present two posters (NEO100 and NEO212 data) at the Society for Neuro-Oncology (SNO) annual meeting in Philadelphia, poster session 7:30-9:30pm.",
       "impact": null,
       "source": "https://www.biopharmawatch.com/news/NTHI/neonc-technologies-sno-annual-meeting-2026 ; https://finviz.com/news/399355/neoncs-fda-catalyst-run-could-give-nthi-a-serious-jolt (biopharmawatch discloses it is compensated by NTHI for coverage -- treat accordingly)"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "NeOnc reported Q3 2026 (quarter ended 2026-09-30) financial results: net loss narrowed to $4.4M from $8.6M in Q3 2025 (total opex $5.8M vs $6.9M); loss attributable to common stockholders $7.3M / $(0.28) per share vs $(0.45) a year earlier (includes $2.8M noncash deemed dividends from the Series A preferred redemption and a warrant down-round adjustment); cash $6,166,342 at 9/30/26 (up from $1.97M at 6/30/26 after the Sept 10 $15M registered direct offering closed); nine-month net loss $27,500,185; accumulated deficit $140,254,840; going-concern doubt continues. Release reiterated positive topline Phase 2a NEO100 data and the Nov 13 SNO poster presentations and highlighted the Abu Dhabi MOU.",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001979414/000182912626012024/neonctechnologies_8k.htm ; https://www.biospace.com/press-releases/neonc-reports-third-quarter-2026-financial-results-and-highlights-recent-corporate-and-clinical-progress"
     },
     {
       "date": "2026-10-21",
@@ -188,11 +183,26 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: an EarningsWhispers listing found this pass shows Nov 9, 2026, before market open, consensus -$0.16/share -- a different reading than the one already flagged in this record's prior-pass conflict (which cited EarningsWhispers at Nov 13, 2026). Neither is company-confirmed. Kept both unresolved readings; not to be conflated with the Nov 13, 2026 SNO poster-presentation date above, which is a conference, not an earnings date."
+    "RESOLVED 2026-11-06: the prior pass's unresolved 'Nov 9 vs Nov 13, 2026' next-earnings-date conflict is moot -- NTHI's Q3 2026 results were actually reported 2026-11-05, before either speculative date. Both prior EarningsWhispers readings were simply wrong estimates for an already-reported quarter."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: one new dated catalyst (Nov 13 SNO poster presentations, paid-coverage source). FDA End-of-Phase 1 Type B meeting for NEO212 (2026-11-17, in-person) and the Nov 9 vs Nov 13 earnings-date conflict remain as previously flagged, now with an additional conflicting Nov 9 reading. No fresher price, share-count, or cash figures found this session; this session's shared WebSearch budget was exhausted before further verification.",
+  "notes": "PM pass 2026-11-06: WebFetch returned DNS/host-unreachable errors for every domain attempted this session (not just the documented stockanalysis/cnbc/google blocks) -- all figures below come from WebSearch synthesis only, not direct page fetches. Main finding: NTHI filed an 8-K on 2026-11-05 with actual Q3 2026 results (net loss narrowing 49% YoY, cash replenished to $6.2M post-offering), which was not yet on file. No fresher price, market cap, share count, or short-interest figures found this session; those remain as on file (still flagged there as unresolved aggregator disagreements).",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -358,11 +368,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

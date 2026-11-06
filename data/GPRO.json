@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.015Z",
+  "lastResearched": "2026-11-06T21:22:03.980Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -176,8 +176,16 @@
     "No reverse-split signal found for GPRO this pass; flagging that this was checked per standing rule 7."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-27 resale-prospectus amendment already on file. The Nov 9, 2026 earnings estimate was reconfirmed via a second tracker but is still not company-confirmed. No post-2026-09-01 update on the Starman Optical merger was found this session (search budget exhausted before IR/SEC follow-up could be checked); it remains described, as of the last confirmed coverage, as on track for a year-end 2026 close. Price, share count, short interest and cash were not refreshed this session and are carried forward unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-27 resale-prospectus (424B3) amendment already on file. No update located on the Starman Optical merger beyond its last confirmed status (signed 2026-09-01; targeted for a year-end 2026 close, pending shareholder and regulatory approval). Price, share count, short interest and cash were not refreshed this session -- sources found were undated or conflicting (roughly $0.72-$1.30 across undated aggregator snapshots) and not used.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -421,12 +429,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

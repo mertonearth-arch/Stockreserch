@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.063Z",
+  "lastResearched": "2026-11-06T21:22:03.982Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -152,11 +152,22 @@
     }
   ],
   "conflicts": [
-    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- carried forward from the prior pass; not independently re-verified against the USITC EDIS docket this session."
+    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- carried forward from the prior pass; not independently re-verified against the USITC EDIS docket this session.",
+    "Price, new unconfirmed reading this pass: a Dutch aggregator (debelegger.nl) shows NLST at $6.32 as of 2026-10-30 21:00, with an implied market cap near $2.3B -- modestly below the on-file $6.66 (2026-10-06) price and $2.22B market cap, but the aggregator's own share-count basis for that $2.3B figure was not independently confirmed and may differ from the on-file 333.89M-share basis. Kept as an additional data point, not substituted for the on-file figures."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: resolved the long-standing next-earnings-date conflict -- Q3 2026 results are now confirmed by the company for 2026-11-10 after market close (not today, as one on-file estimate had suggested). No new ITC ruling or settlement development found this session beyond the 2026-10-21 Latham & Watkins statement already on file confirming the October Micron settlement closed out the ITC dispute as between Netlist and Micron specifically. The parallel ITC tracks (DDR5 vs. Supermicro/HPE/Lenovo, instituted 2026-09-23; HBM vs. Micron/Nvidia/Broadcom/Google, announced 2026-09-29) remain open per prior passes, unchanged this session. Litigation-driven name shows no new ruling this pass -- otherwise quiet.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst, ITC ruling, or earnings development found beyond what is already on file (Q3 2026 results remain scheduled for 2026-11-10 after close, per the company's own announcement, unchanged). No fully reliable newer price than the on-file 2026-10-06 $6.66 was established -- see conflicts for a lower, less-certain 2026-10-30 reading. This batch's shared WebSearch budget was exhausted before a more thorough check of the DDR5 (337-TA-1472 remnants vs. non-Micron respondents) and HBM (vs. Micron/Nvidia/Broadcom/Google) ITC tracks could be completed; both remain open per prior passes.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -353,11 +364,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

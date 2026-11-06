@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.048Z",
+  "lastResearched": "2026-11-06T21:22:03.997Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -33,10 +33,10 @@
       "note": "Raw share counts found rather than a percent: 39.9M shares short at the 2026-06-30 settlement date, 37.3M shares short at the 2026-07-15 settlement date, ~6.7 days to cover. Percent-of-shares-outstanding not independently computed here given the unresolved share count conflict above."
     },
     "cash": {
-      "value": 419365000,
-      "asOf": "2026-06-30",
-      "source": "Summit Therapeutics 10-Q (SEC EDGAR, period ended 2026-06-30)",
-      "note": "Plus short-term investments of $271,313,000, for total cash + short-term investments of approx. $690.7M as of 2026-06-30. This predates the AstraZeneca $2B investment, which closed 2026-10-05, so cash position as of today (2026-10-22) would be materially higher but was not separately confirmed in sandbox search."
+      "value": 629800000,
+      "asOf": "2026-09-30",
+      "source": "Summit Therapeutics 8-K earnings release, filed/dated 2026-11-05 (SEC EDGAR exhibit a2026_prx1105xq32026earn.htm), headline 'Summit Closes Third Quarter with $629.8 Million in Cash'",
+      "note": "Down from $690.7M (cash + short-term investments) at 2026-06-30. This is PRE the AstraZeneca $2B investment close (2026-10-05), so the $2B inflow is not yet reflected in this Q3-end balance-sheet date (2026-09-30) -- current cash is materially higher but not independently confirmed this session."
     },
     "debt": {
       "value": null,
@@ -50,30 +50,24 @@
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
+        "period": "Q3 2026",
+        "value": -0.26,
         "basis": "GAAP",
-        "note": "Not located in sandbox search."
+        "note": "Net loss $208.4M, vs -$0.31/$231.8M net loss in Q3 2025. Nine-month 2026 GAAP net loss $613.5M vs $860.4M in the prior-year nine-month period."
       },
       {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search."
-      },
-      {
-        "period": "Q2 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search; 10-Q balance-sheet cash figures were found but not the income statement EPS line."
+        "period": "Q3 2026",
+        "value": -0.2,
+        "basis": "non-GAAP",
+        "note": "Non-GAAP net loss $160.7M, excludes stock-based compensation."
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash burn / cash position",
-      "period": "as of 2026-06-30",
-      "pct": null,
-      "note": "The company's 2026-06-30 10-Q states that cash and cash equivalents plus short-term investments ($690.7M) are not sufficient to fund planned operations for at least one year, and management flagged substantial doubt about the company's ability to continue as a going concern as of that filing date - standard clinical-stage biotech disclosure language. This was before the AstraZeneca $2B investment closed on 2026-10-05, which materially changes the cash picture going forward."
+      "metric": "GAAP net loss YoY (no revenue reported; pre-commercial biotech)",
+      "period": "Q3 2026",
+      "pct": -10.1,
+      "note": "GAAP net loss narrowed 10.1% YoY ($208.4M vs $231.8M in Q3 2025); GAAP operating expenses also fell to $214.6M from $234.2M YoY. Not a revenue figure -- Summit is pre-commercial and reports no product revenue."
     },
     "nextEarnings": {
       "date": null,
@@ -88,6 +82,14 @@
     "source": "WebSearch aggregator snapshot (exact site not identified in result); 52-week range cited as $12.07-$29.21 in the same snapshot"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Summit Therapeutics reported Q3 2026 results: GAAP net loss $208.4M (-$0.26/share) vs $231.8M (-$0.31/share) in Q3 2025; non-GAAP net loss $160.7M (-$0.20/share); nine-month 2026 GAAP net loss $613.5M vs $860.4M prior-year nine months; GAAP operating expenses $214.6M (down from $234.2M YoY); cash position $629.8M as of 2026-09-30 (pre-dates the AstraZeneca $2B investment, which closed 2026-10-05)",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000088/a2026_prx1105xq32026earn.htm",
+      "note": "Direct SEC.gov fetch blocked in this sandbox; figures assembled from WebSearch snippets of the 8-K exhibit text. Stock-price reaction to this print not found/confirmed this session."
+    },
     {
       "date": "2026-10-05",
       "type": "financing/strategic investment",
@@ -119,11 +121,22 @@
   "conflicts": [
     "Updating the prior pass's unresolved conflict: a Q3 2026 10-Q (period ended 2026-09-30) was located on SEC EDGAR this session, confirming Q3 2026 figures do exist - nine-month 2026 net loss $613.5M and nine-month operating cash outflow $423.2M (vs $221.0M in the prior-year nine-month period) per the filing, via a WebSearch summary (direct SEC.gov fetch blocked in this sandbox). However, no earnings press release, exact filing date, or standalone Q3-only net loss/EPS figure could be confirmed this session - a back-calculation from Q1 ($189.4M net loss) + Q2 ($215.7M net loss, per the prior pass) against the $613.5M nine-month total would imply roughly $208M for Q3 alone, but this is an inference, not a sourced figure, so it is not recorded as fact."
   ],
-  "pendingFilings": [
-    "Form 10-Q for the quarter ended 2026-09-30, on SEC EDGAR (https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000090/smmt-20260930.htm) - exact filing date not confirmed this session; SEC.gov itself could not be fetched directly from this sandbox (DNS blocked)"
-  ],
-  "notes": "PM pass 2026-11-05: FDA PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC) is now 9 days out (2026-11-14) - still the key near-term catalyst; no change to that date found. Located the Q3 2026 10-Q on SEC EDGAR (see conflicts/pendingFilings) confirming Q3 figures exist, but could not pin down the actual earnings-release date or a clean current market cap/share count this session (SEC.gov and several aggregator sites were unreachable from this sandbox). Refreshed price only (2026-10-30 snapshot, $15.97).",
+  "pendingFilings": [],
+  "notes": "PM 2026-11-06: found and filled in the Q3 2026 earnings print (released 2026-11-05, one day before this pass -- the gap the prior pass's pendingFilings flagged). GAAP net loss narrowed YoY; cash $629.8M at quarter-end (pre-AstraZeneca-close). The FDA PDUFA goal date for ivonescimab (EGFRm NSCLC BLA) is now 8 days out (2026-11-14) -- unchanged and confirmed again this session via multiple sources, still the key near-term catalyst; no delay, no advisory-committee signal, and no label/review-issue found. Could not confirm the stock's reaction to the Nov 5 print, nor a clean current market cap/share count, this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -243,12 +256,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "new filing(s)",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "eps updated",
+      "growth updated",
+      "cash updated"
     ],
     "tradingDay": true
   }

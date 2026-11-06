@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-05T21:18:33.021Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-06T21:22:04.000Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -133,11 +133,22 @@
     "Short interest estimates range from ~0.7% to ~65% of float/shares across sources and dates -- could not be reconciled; recorded as a conflict rather than resolved.",
     "Price appears to jump from $0.23 (2026-07-02, equibles) to a $3.87-$5.70 range in October 2026 (various sources) -- this is very likely explained by the 1-for-20 reverse stock split effective 2026-08-31 (pre-split $0.23 x 20 ~= $4.60, consistent with the October range), rather than a real anomaly; flagged per instructions rather than silently adjusted.",
     "Share count: a Benzinga page shows 19,070,336 shares (late 2025) vs. the Q1 2026 10-Q's 50,407,567 shares (as of 2026-05-13) -- a large jump that was not explained by any single source found (likely dilution/offerings over the period); the post-split (~2.52M) figure used above is a derived estimate, not directly observed.",
-    "A Benzinga Korean-language page lists a $5.84 price alongside '35.7% short float,' which is roughly consistent with the October price range but was not fully cross-checked against the Quiver Quant $5.70 figure for the same window."
+    "A Benzinga Korean-language page lists a $5.84 price alongside '35.7% short float,' which is roughly consistent with the October price range but was not fully cross-checked against the Quiver Quant $5.70 figure for the same window.",
+    "New this pass: Market Chameleon reports VEEA closed at $4.30 on 2026-11-02, down 10.8%, on low volume (176,950 shares vs a 30-day average of 8,734,676 — a quiet, low-conviction move with no company news found tied to that date). That same source states a market cap of $13.38M at that price, which implies roughly 3.11M shares outstanding — a third, independent figure that does not match the on-file ~2.52M derived post-split estimate, nor the various pre-split figures above. None of these share-count readings has been confirmed against a primary filing this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: search for VEEA news turned up nothing dated after the 2026-10-09 compliance/+47.3% spike catalyst already on file; results were a mix of September 2026 NovaGen coverage already on file and stale 2024-2025 items. The NovaGen Group non-binding term sheet (2026-09-14) still shows no definitive-agreement update found. All existing conflicts (short interest range ~0.7%-65% across sources, share-count jump, reverse-split-driven price conflict) remain unresolved and unchanged this pass.",
+  "notes": "PM pass 2026-11-06: this was the other name flagged for extra scrutiny (quietRuns=2). No new dated catalyst beyond the 2026-10-08/10-09 Nasdaq-compliance item already on file — confirmed via a second source this pass (the underlying governance fix: Alan Black added to the Compensation Committee and Kanishka Roy added to the Audit Committee, both effective 2026-10-08, after director Helder Antunes resigned from the board on 2026-10-08 and the board was reduced to five members; this is the same event already on file, just with more detail, so not logged as a separate catalyst). The non-binding NovaGen Group B.V. term sheet (2026-09-14) still shows no definitive-agreement update as of this search. What DID change: a new, independently-sourced price/share-count data point (2026-11-02, see conflicts) that was not on file (price was previously null) — this is not today's close so it is not reported in the price block, but it meaningfully updates the conflict picture, which is why this pass is not being marked fully quiet despite no new catalyst.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -251,10 +262,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

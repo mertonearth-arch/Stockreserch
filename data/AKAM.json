@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T05:32:13.630Z",
+  "lastResearched": "2026-11-06T21:22:03.955Z",
   "fundamentals": {
     "marketCap": {
       "value": 13335000000,
@@ -208,8 +208,16 @@
     "AKAM Q3 2026 earnings (due today 2026-11-05 after close): an RTTNews headline ('Q3 profit increases, beats estimates') surfaced in search with extracted figures of EPS $0.97 and revenue $1.054B, but the search tool's own summary cautioned these figures/dates more likely belong to Q3 2025, not Q3 2026. A second headline (rallies.ai: 'Q3 Cloud Services Up 39% with Expanded Deutsche Telekom Security Partnership') could not be fetched to verify. Neither was usable as a confirmed print this session; left unresolved for the next pass."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: Q3 2026 earnings were scheduled today after market close. Could not independently confirm the actual reported figures this session -- WebFetch failed to resolve on every domain tried (ir.akamai.com, sec.gov, rttnews.com, rallies.ai, stocktitan.net, nasdaq.com, globenewswire.com, prnewswire.com, marketwatch.com, finance.yahoo.com, fool.com all returned DNS/ENOTFOUND in this sandbox) and this batch's shared WebSearch budget was exhausted partway through research. See conflicts for the one ambiguous lead found. All other fundamentals/price/catalysts carried forward unchanged from the 2026-11-04 pass; the actual Q3 2026 print needs to be run down on the next due pass.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst beyond the Q3 2026 earnings print already captured in today's AM pass. Searched for a fresher closing price but found only stale (pre-August 2026) or undated snapshots across every source checked (Yahoo, MarketBeat, Equibles, TwelveData, Digrin, iTiger) — none postdating the on-file 2026-10-26 $98.50 print, so price and fundamentals are carried forward unchanged this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "am",
@@ -402,11 +410,9 @@
   },
   "lastPass": {
     "date": "2026-11-06",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

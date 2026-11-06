@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.057Z",
+  "lastResearched": "2026-11-06T21:22:03.976Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -184,8 +184,16 @@
     "EPS TTM: $27.01 vs $31.84 (different listing, not directly comparable) vs $20.78 (likely stale) across sources."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: FICO's Q4 FY2026 print, anticipated-but-not-yet-released as of the prior pass, is now confirmed: revenue $657M (+27.3% YoY), GAAP EPS $8.12, with a quality-of-earnings caveat from three one-time items ($65M antitrust-settlement accrual for the Scores business, $48M equity-sale gain, $27M restructuring charge). The $65M antitrust accrual is itself notable given this ticker's history of regulatory/competitive pressure (FHFA/VantageScore). Non-GAAP EPS, full-year FY2026 totals, FY2027 guidance, and an updated balance sheet (cash/debt as of 2026-09-30) were not found this session and should be filled in on a future pass. No new analyst-action catalyst found beyond the 2026-10-27 downgrade wave already on file.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-11-04 Q4 FY2026 print and the 2026-10-27 analyst downgrade wave already on file. No reliable current-dated price was established this session -- sources found this session span roughly $712 to $1,300+ depending on source and date, none clearly dated to early November 2026, so price is left unchanged rather than guessed. Non-GAAP EPS, full FY2026 totals, FY2027 guidance and an updated balance sheet remain not found.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -386,23 +394,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

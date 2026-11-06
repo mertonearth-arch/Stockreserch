@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.059Z",
+  "lastResearched": "2026-11-06T21:22:03.992Z",
   "fundamentals": {
     "marketCap": {
       "value": 31180000000,
@@ -84,9 +84,9 @@
       "pct": 10.6
     },
     "nextEarnings": {
-      "date": "2026-12-02",
-      "confirmed": false,
-      "note": "Carried from prior pass as an estimate based on past reporting cadence; not company-confirmed"
+      "date": "2026-12-01",
+      "confirmed": true,
+      "note": "Company-confirmed via its own 8-K press release: Q3 FY2027 (quarter ended 2026-10-31) results after market close 2026-12-01, webcast 2pm PT/5pm ET. Supersedes the on-file three-way-conflicting estimate (Nov 25 / Dec 2 / Dec 7) -- all of those were third-party guesses; MarketScreener's separate Dec 7 projection is also superseded by this confirmed date."
     }
   },
   "price": {
@@ -183,11 +183,22 @@
     }
   ],
   "conflicts": [
-    "Next earnings date now diverges three ways: a tracker found this session shows 2026-11-25 after close (consensus $0.43/sh), a separate calendar shows a 2026-12-07 projection, and the on-file estimate was 2026-12-02 -- none is company-confirmed."
+    "Price remains unresolved and got worse this pass: regional Yahoo Finance snapshots (hk/au, undated) show a 'previous close' of $92.93-$93.80, while a separate undated ryanoconnellfinance snapshot shows $187.26 (dated to an Oct 16 close) and a MarketBeat item (2026-09-10) shows a 52-week-high move to ~$177. These cannot all be the same stock at nearby dates without an unreported split; no Okta stock split was found in this session's search. Left price blank rather than guess which (if any) reading is current."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: found one new dated catalyst not previously on file -- Okta's 2026-07-30 agreement to acquire identity-security startup Permiso for ~$200M, ending the prior quiet streak. Next-earnings-date estimates now diverge three ways (Nov 25 vs Dec 7 vs the on-file Dec 2); none confirmed by the company. Current share price remains unconfirmed; a new undated sighting of $170.60 was found but could not be dated or reconciled with the existing $212.63-vs-~$178 price conflict already on file, so price is left unchanged. Fundamentals otherwise not re-verified this session -- WebFetch could not reach any tested domain and this batch's shared WebSearch budget was exhausted partway through.",
+  "notes": "PM 2026-11-06: main finding is the company's own confirmed Q3 FY2027 earnings date (Dec 1, 2026, after close), resolving the three-way next-earnings conflict on file. No new dated catalyst (contract, filing, FDA/reg, offering) found since the 2026-07-30 Permiso acquisition already on file. Current share price could not be established -- see conflicts; fundamentals (market cap, EPS, revenue, cash/debt) left unchanged from the 2026-11-05 pass since no newer dated figures were found this session.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -387,11 +398,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

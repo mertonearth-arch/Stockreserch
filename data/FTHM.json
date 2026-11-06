@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.055Z",
+  "lastResearched": "2026-11-06T21:22:03.976Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -135,8 +135,16 @@
     "Next earnings date: Unusual Whales and NextEarningsDate.com both independently project 2026-11-10 (corroborating, kept as the primary on-file estimate); EarningsWhispers instead projects 2026-11-12. Neither is a company confirmation — kept both per the conflict rule, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05 (routine refresh): no new dated catalyst found beyond the 2026-10-05 NXH merger termination already on file. No company-issued Q3 2026 earnings-call notice located this session (last year's pattern would put such a notice in mid-October, which was not found in this search); the Nov 10, 2026 date remains an aggregator estimate only, now corroborated by two independent sources vs. one source citing Nov 12. Fundamentals unchanged from prior pass. Quiet pass — consistent with the 'routine refresh' characterization for this ticker.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found. Next-earnings estimate remains Nov 10, 2026 (Unusual Whales, NextEarningsDate.com both still project this) vs Nov 12, 2026 (Earnings Whispers); no company-issued Q3 2026 conference-call notice was located this session either. Fundamentals unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -319,21 +327,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

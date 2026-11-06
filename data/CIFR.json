@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.051Z",
+  "lastResearched": "2026-11-06T21:22:03.973Z",
   "fundamentals": {
     "marketCap": {
       "value": 9120000000,
@@ -139,13 +139,21 @@
     }
   ],
   "conflicts": [
-    "CIFR's post-Q3-2026-earnings stock move (2026-11-02/03) is reported inconsistently: Investing.com cites +3.98% premarket to $7.58; Benzinga cites +11.81% to $7.67; Yahoo Finance and Motley Fool describe an intraday jump of 18.7%/18.37%. Kept verbatim, not reconciled."
+    "Cash (2026-09-30): on-file $724M is labelled 'pro forma unrestricted cash' per the Q3 2026 8-K business update. A separate read of the same Nov 2, 2026 8-K's financial-statement exhibit this session shows GAAP cash and cash equivalents of approximately $656M plus a separately-held bitcoin position of approximately $25.9M as of the same date -- different accounting lines from the same filing, not reconciled."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-02 (Q3 2026 earnings / business update, incl. Barber Lake lease amendment)"
-  ],
-  "notes": "PM 2026-11-05: this is NOT a quiet pass -- CIFR reported Q3 2026 earnings on 2026-11-02, which was not yet captured on file (prior pass had nextEarnings as unconfirmed/null). EPS beat, revenue miss, headline profit driven by a non-cash warrant gain. Share count/float/market cap not re-verified this session (dilution from the Oct 2030-notes exchange, ~41M new shares, is likely not yet reflected in the on-file sharesOutstanding figure -- flagging for a future pass rather than guessing an update). Short interest (21.7%, 2026-10-19) carried forward unchanged, no newer reading found.",
+  "pendingFilings": [],
+  "notes": "PM pass 2026-11-06: no new catalyst, price, or share-count figure found beyond the Nov 2, 2026 earnings already captured on file. Added one unreconciled cash-figure refinement (see conflicts) sourced from the same 8-K exhibit. WebFetch was unreachable for every domain attempted this session, so the underlying filing could not be read directly -- this comes from WebSearch synthesis of the indexed filing text. Share-count/dilution impact of the October convertible-notes exchange (~41M new shares) remains unverified, as flagged by the prior pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -272,19 +280,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

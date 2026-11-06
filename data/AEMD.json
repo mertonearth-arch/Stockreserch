@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.024Z",
+  "lastResearched": "2026-11-06T21:22:03.967Z",
   "fundamentals": {
     "marketCap": {
       "value": 3590000,
@@ -178,8 +178,16 @@
     "New unconfirmed November 2026 price snapshots found this session conflict with each other and cannot be reconciled with the on-file $5.22-5.58 (2026-10-26/08-28) range: Benzinga shows $5.97 as of 2026-11-02 3:30PM EST; a separate (unverified, could not be re-confirmed from an independent source) figure of $5.44 for 2026-10-30 also circulated. Neither is used to update the recorded price given single-source/unverifiable sourcing; share-count conflict (sharesOutstanding 1,604,095 vs. 973,213 vs. 2,370,560) remains open."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found. No update located on the North Immunology merger (Q1 2027 targeted close) — searched specifically for an S-4 filing or registration-statement status and found none; deal terms as announced 2026-09-17 remain the most recent confirmed status. Next earnings 2026-11-12 (7 days out) unchanged, unconfirmed. Share-count/price conflicts remain open. Quiet except for conflicts note.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found. Specifically checked for an S-4 registration statement or other update on the North Immunology merger (targeted Q1 2027 close) and found none newer than the 2026-09-17 deal announcement already on file. No fresher price confirmed for today (WebFetch unreachable for every domain attempted this session; WebSearch returned only stale, undated, or mutually conflicting snapshots, consistent with the price/share-count conflicts already flagged on file). Next earnings (2026-11-12, unconfirmed) unchanged. Quiet pass; all fundamentals and conflicts carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -397,12 +405,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

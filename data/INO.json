@@ -1,0 +1,86 @@
+{
+  "ticker": "INO",
+  "name": "Inovio Pharmaceuticals, Inc.",
+  "sector": "Biotechnology",
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-11-06",
+  "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-06T21:22:04.002Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": null,
+      "note": "Sources disagree sharply amid this week's volatility (implied roughly $54M-$165M depending on which price/share-count snapshot is used); not establishing a figure rather than picking one."
+    },
+    "sharesOutstanding": {
+      "value": 82270000,
+      "asOf": "2026-07-30",
+      "source": "Google Finance / Value Research mid-2026 snapshots",
+      "note": "Predates this week's rally; a current count was not found. This is shares outstanding, not float -- float not established."
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings; long pre-revenue/clinical-stage company whose first product was just approved and is not yet commercially launched (guided for Q1 2027)"
+    },
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established this pass."
+    }
+  },
+  "price": {
+    "last": 1.62,
+    "asOf": "2026-11-04",
+    "source": "Benzinga quote, 2026-11-04 4:29pm EST",
+    "note": "No 2026-11-06 close could be confirmed this pass; most recent dated figure found was from 2026-11-04. See conflicts for the wide disagreement across sources this week."
+  },
+  "catalysts": [
+    {
+      "date": "2026-10-30",
+      "type": "regulatory",
+      "headline": "FDA granted accelerated approval of VOCERYQ (a plasmid DNA immunotherapy delivered with Inovio's CELLECTRA 5PSP device) to reduce the frequency of surgery in adults with recurrent respiratory papillomatosis (RRP) -- Inovio's first-ever FDA-approved product. Approval is based on the RRP-001 study (32 adult patients). FDA requires a confirmatory trial; Inovio must submit a draft protocol by end of 2026. Company guides to shipping availability in ~60 days and full commercial launch in Q1 2027.",
+      "impact": "Shares rallied sharply off a 52-week low near $0.56-$0.60; secondary coverage describes single-session moves as large as roughly +200% to +283% across 2026-10-30 through 2026-11-02, though outlets disagree on exact timing and magnitude (see conflicts)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001055726/000119312526442648/d150457d8k.htm"
+    }
+  ],
+  "conflicts": [
+    "Share price this week: Benzinga $1.62 (2026-11-04, 4:29pm EST) vs Upstox ~$0.93 (2026-10-29) vs Marketchameleon $0.60 (2026-10-30) vs secondary coverage describing +200% to +283% single-session moves between 2026-10-30 and 2026-11-02 -- the exact day-by-day trajectory could not be reconciled from sources reachable this pass.",
+    "Market cap / shares outstanding: Google Finance ~$54M market cap on 82.27M shares (2026-07-30 snapshot) vs Value Research ~$88M (2026-06-05) vs TipRanks 53.14M shares (older, likely stale count) -- no reliable current figure; all predate this week's rally."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New addition this pass, found via the closing-movers web sweep rather than the due list. First-ever FDA product approval is a major dated catalyst for a long-pre-revenue biotech, but the stock's actual price/market-cap today could not be pinned down from reachable sources -- next pass should prioritize refreshing price, market cap and short interest now that the stock has repriced sharply off its approval.",
+  "lastPass": {
+    "date": "2026-11-06",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
+    "tradingDay": true
+  }
+}

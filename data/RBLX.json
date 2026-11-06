@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.063Z",
+  "lastResearched": "2026-11-06T21:22:03.986Z",
   "fundamentals": {
     "marketCap": {
       "value": 34030000000,
@@ -86,13 +86,20 @@
     }
   },
   "price": {
-    "last": 47.57,
-    "changePct": -3.53,
+    "last": 47.65,
+    "changePct": -3.37,
     "asOf": "2026-11-05",
-    "source": "Secondary aggregator (JKN, 기업주식정보), citing an SEC Form 4 insider-sale disclosure; NOT independently cross-checked against a primary exchange feed -- treat as provisional",
-    "note": "This is today's (Nov 5) close -- a modest -3.53% move, NOT a fresh -17%. The -17%-to-22% decline this batch was scoped around actually happened 2026-10-29 after-hours / 2026-10-30 regular session, on the Q3 2026 earnings/guidance miss (already on file as a catalyst). RBLX has continued drifting lower since then on follow-on sell-side target cuts. See conflicts for the clarification."
+    "source": "CNBC / Yahoo Finance / Macrotrends / StockAnalysis (convergent) -- confirmed official close",
+    "note": "Refines the on-file 2026-11-05 figure ($47.57/-3.53%, previously sourced to a single unverified secondary outlet) with a well-corroborated official close; the magnitude is essentially unchanged (within rounding), so this is a confirmation, not a correction. No independently confirmed 2026-11-06 close was found this session -- Finviz showed a non-final intraday quote of $48.88 (+2.57%) as of ~2:50pm ET Nov 6, consistent with the broader chip/tech-sector rebound that day, but that is not a confirmed close."
   },
   "catalysts": [
+    {
+      "date": "2026-11-06",
+      "type": "sector rebound",
+      "headline": "RBLX traded higher intraday alongside a broad tech/chip-stock rebound following the prior day's AI-sector selloff; Finviz showed $48.88 (+2.57% vs. the $47.65 Nov 5 close) as of ~2:50pm ET -- not a confirmed close.",
+      "impact": "unconfirmed, approx. +2.6% intraday",
+      "source": "Finviz intraday quote, 2026-11-06"
+    },
     {
       "date": "2026-11-05",
       "type": "price reaction / insider sale",
@@ -156,8 +163,18 @@
     "Flagging explicitly: today's (2026-11-05) actual session move was a modest -3.53% to $47.57 per the only dated source found, not a fresh -17% figure. The -17% this batch was scoped to investigate belongs to Oct 29/30, already on file as a catalyst -- the desk should not read this record as describing a second, new -17% day."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: investigated the -17% move flagged for today. Finding: that figure is the already-on-file Oct 29 (after-hours) / Oct 30 (regular session) reaction to the Q3 2026 earnings print (soft DAU/user metrics, Q4 bookings guidance of -10% to -15% YoY, despite an EPS/bookings beat) -- not a new drop today. Shares have continued grinding lower this week on follow-on sell-side target cuts (Wedbush Nov 1; DA Davidson and JPMorgan Nov 2; Benchmark and BTIG are also reported to carry Sell ratings on the name, but no specific date for those calls was pinned down this session) layered on the pre-existing child-safety litigation overhang (Texas/Louisiana/Kentucky AG suits, ongoing since 2025 -- no new November 2026 development found). Today's own close was a modest -3.53%, per a single, unverified secondary source. No fresh, well-corroborated company-specific news dated 2026-11-05 itself was found.",
+  "notes": "PM pass 2026-11-06: confirmed yesterday's (2026-11-05) close with multiple convergent primary-aggregator sources, resolving the prior pass's single-source caveat ($47.57 vs. $47.65 -- effectively the same move, now well corroborated). No new company-specific catalyst dated 2026-11-06 was found; today's intraday strength reads as part of the same broad chip/tech-sector bounce that lifted NVDA and ORCL after the 2026-11-05 selloff, not an RBLX-specific event. No confirmed Nov 6 close was established before the shared WebSearch budget was exhausted.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -354,12 +371,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

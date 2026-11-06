@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.009Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-06T21:22:03.991Z",
   "fundamentals": {
     "marketCap": {
       "value": 211120000000,
@@ -200,8 +200,16 @@
     "A third unconfirmed next-earnings estimate, Dec 2, 2026 (AJ Bell key-dates listing), was found this session alongside the two above — none company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-05: no new dated catalyst found beyond the 2026-10-06 Investor Day and the Oct 9-16 decline already on file. Only new information this session is a third, also-unconfirmed next-earnings-date estimate (Dec 2, 2026), recorded as an additional conflict rather than picked. Price/share-count/short-interest not refreshed this session (search budget exhausted before they could be revisited); carried forward unchanged.",
+  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 6, 2026 Investor Day and the Oct 9-16 decline already on file. Re-searched for a confirmed Q3 FY2027 earnings date; none found -- the quarter ends around Oct 31, 2026 so a late-Nov/early-Dec report is the expected window, consistent with the three disagreeing, uncompany-confirmed estimates already on file (Nov 26, Dec 1, Dec 2, 2026). No changes made this pass.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -397,13 +405,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
