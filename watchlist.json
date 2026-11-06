@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T21:18:33.071Z",
+  "updated": "2026-11-06T05:32:13.644Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -17,7 +17,7 @@
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-11-05T21:18:33.058Z"
+      "lastResearched": "2026-11-06T05:32:13.630Z"
     },
     "BENF": {
       "tier": "daily",
@@ -113,7 +113,7 @@
       "tier": "daily",
       "theme": "Consumer Apparel & Retail",
       "quietRuns": 0,
-      "lastResearched": "2026-11-05T21:18:33.022Z"
+      "lastResearched": "2026-11-06T05:32:13.631Z"
     },
     "FTHM": {
       "tier": "daily",
@@ -155,7 +155,7 @@
       "tier": "daily",
       "theme": "Crypto Treasury & Miners",
       "quietRuns": 0,
-      "lastResearched": "2026-11-05T21:18:33.052Z"
+      "lastResearched": "2026-11-06T05:32:13.632Z"
     },
     "JBHT": {
       "tier": "daily",
@@ -333,7 +333,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-05",
-    "run": "pm"
+    "date": "2026-11-06",
+    "run": "am"
   }
 }

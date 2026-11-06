@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-05T21:18:33.052Z",
+  "lastResearched": "2026-11-06T05:32:13.632Z",
   "fundamentals": {
     "marketCap": {
       "value": 7758000000,
@@ -76,6 +76,13 @@
     "note": "Supersedes the on-file 2026-10-30 print ($23.95, -8.7%). This was the session immediately before the 2026-11-05 Q1 FY2027 earnings release (a fresh 52-week low, $21.05 intraday); premarket on 2026-11-05 itself was reported around $20.54, but no confirmed regular-session close for 2026-11-05 (the earnings day) was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "AM follow-up on the Q1 FY2027 print: total-company revenue now surfaced but conflicting across sources — one aggregator reports $240.3M (vs. $241.97M consensus); a separate aggregator reports $228M (AI Cloud $200M + bitcoin mining $28M, adjusted EBITDA $66M). Neither figure was independently verified against the primary GlobeNewswire release this session (unreachable from this sandbox). See conflicts.",
+      "impact": null,
+      "source": "WebSearch aggregator summaries only; not independently verified against the primary release"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -225,14 +232,22 @@
     }
   ],
   "conflicts": [
-    "Market cap still not reconcilable: implied ~$11.55B (333.73M shares as of 2026-03-31, at $30.39) vs ~$13.88B (340.98M shares, undated) vs ~$17.98B (357.38M shares, undated) vs the on-file $14.97B (asOf 2026-09-09). Differ mainly on share count and price date; none independently verified as current.",
-    "Oct 29, 2026 close: one source shows $26.25, down $2.59 (-8.98%) from a prior close of $28.84; another shows the same $26.25 close but a -4.34% change from a prior close of $27.44; a third shows a -5.96% change with a close of $27.12. All three disagree on both the percent move and the reference price — kept verbatim.",
-    "Price-trail inconsistency: a 2026-10-23 close of $24.91 (attributed to a 'neocloud'/CoreWeave-debt-contagion sector selloff) is LOWER than the on-file 2026-10-26 close of $25.43 described as a 'new low' — these two figures are not internally consistent. Flagging without attempting to resolve.",
-    "Short interest: one reading shows 64.4M shares / 1.3 days to cover (through 2026-06-24) vs a separate settlement-date reading of 58,363,974 shares / 1.63 days to cover (2026-04-30) — different dates, kept separately."
+    "Q1 FY2027 (reported 2026-11-05) total company revenue: one source reports $240.3M (vs $241.97M consensus); another reports $228M (AI Cloud $200M + bitcoin mining $28M, adjusted EBITDA $66M). Not reconciled; neither independently verified against the primary release this session."
   ],
   "pendingFilings": [],
   "notes": "PM 2026-11-05: IREN reported Q1 FY2027 results today as scheduled. Headline figures captured: net loss $263M (narrower than Q4 FY2026's $684.0M) and AI Cloud revenue ~$200M (+182% QoQ from ~$71M), at 86% AI Cloud gross margin, plus a new post-quarter 'frontier AI lab' contract. Total revenue, EPS, and the actual post-earnings stock reaction could NOT be confirmed this session: WebFetch to globenewswire.com, benzinga.com, fool.com, yahoo finance, stocktitan.net, gurufocus.com, kucoin.com and sec.gov all failed with DNS/ENOTFOUND errors in this sandbox, and the shared WebSearch budget for this pass was exhausted before a follow-up query could pin down the missing figures. A near-term follow-up pass should re-fetch the GlobeNewswire release or IREN's 10-Q to fill in total revenue, EPS, and the actual close/reaction on 2026-11-05. The 2026-10-29 close move description on file (which this prompt's framing referenced as 'today, -8.7%') actually corresponds to the already-on-file 2026-10-30 session; the real most-recent pre-earnings move is the 2026-11-04 -11.24% print recorded above.",
   "history": [
+    {
+      "date": "2026-11-06",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-05",
       "run": "pm",
@@ -492,18 +507,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-05",
-    "run": "pm",
+    "date": "2026-11-06",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "move -11.24%"
+      "1 new catalyst(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }
