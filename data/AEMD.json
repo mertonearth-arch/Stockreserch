@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.335Z",
+  "lastResearched": "2026-11-09T21:16:48.433Z",
   "fundamentals": {
     "marketCap": {
-      "value": 3590000,
-      "asOf": "2026-10-26",
-      "source": "massive.com",
-      "note": "Price $5.22, -17.99% trailing month. Implied share count (~688K) is far below the on-file 1,604,095 (2026-08-28) and below the 711,136-share annual-meeting record-date figure — see conflicts."
+      "value": 4100000,
+      "asOf": "2026-11-04",
+      "source": "MarketChameleon",
+      "note": "Implied share-count basis differs from the on-file 1,604,095 and 711,136-share figures -- same unresolved share-count conflict as flagged previously; this cap pairs with the $5.75 price above."
     },
     "float": {
       "value": null,
@@ -55,9 +55,9 @@
       },
       {
         "period": "Q1 FY2027 (quarter ended 2026-06-30)",
-        "value": null,
+        "value": -4.02,
         "basis": "GAAP",
-        "note": "Specific EPS not confirmed; company reported continued operating losses amid a going-concern qualification"
+        "note": "Actual EPS -$4.02 vs -$3.76 consensus estimate, per Benzinga. Fills the previously-null field; reported 2026-08-13."
       }
     ],
     "revenue": [],
@@ -73,8 +73,10 @@
     }
   },
   "price": {
-    "last": 5.58,
-    "changePct": null
+    "last": 5.75,
+    "changePct": -0.9,
+    "asOf": "2026-11-04",
+    "source": "MarketChameleon"
   },
   "catalysts": [
     {
@@ -175,11 +177,24 @@
   ],
   "conflicts": [
     "Additional undated/loosely-dated price snapshots found this session (Value Research ~$2.10 as of 2026-03-31; Google Finance caches ~$1.90-2.78, undated; equibles.com $1.93/2,370,560 shares, undated) are far below the on-file 2026-10-26 $5.22-5.58 range and do not carry clear 2026-Q4 dates — treated as likely stale/pre-dating the on-file figures or using a different share-count basis, NOT used to update price or market cap, and not treated as resolving the existing share-count conflict.",
-    "New unconfirmed November 2026 price snapshots found this session conflict with each other and cannot be reconciled with the on-file $5.22-5.58 (2026-10-26/08-28) range: Benzinga shows $5.97 as of 2026-11-02 3:30PM EST; a separate (unverified, could not be re-confirmed from an independent source) figure of $5.44 for 2026-10-30 also circulated. Neither is used to update the recorded price given single-source/unverifiable sourcing; share-count conflict (sharesOutstanding 1,604,095 vs. 973,213 vs. 2,370,560) remains open."
+    "New unconfirmed November 2026 price snapshots found this session conflict with each other and cannot be reconciled with the on-file $5.22-5.58 (2026-10-26/08-28) range: Benzinga shows $5.97 as of 2026-11-02 3:30PM EST; a separate (unverified, could not be re-confirmed from an independent source) figure of $5.44 for 2026-10-30 also circulated. Neither is used to update the recorded price given single-source/unverifiable sourcing; share-count conflict (sharesOutstanding 1,604,095 vs. 973,213 vs. 2,370,560) remains open.",
+    "Market cap/shares outstanding: MarketChameleon's 2026-11-04 $4.1M market cap implies a share count that does not match any of the three figures above (1,604,095 / 973,213 / 2,370,560) -- added as a fourth data point in an already-unresolved conflict, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found. Specifically checked for an S-4 registration statement or other update on the North Immunology merger (targeted Q1 2027 close) and found none newer than the 2026-09-17 deal announcement already on file. No fresher price confirmed for today (WebFetch unreachable for every domain attempted this session; WebSearch returned only stale, undated, or mutually conflicting snapshots, consistent with the price/share-count conflicts already flagged on file). Next earnings (2026-11-12, unconfirmed) unchanged. Quiet pass; all fundamentals and conflicts carried forward unchanged.",
+  "notes": "PM pass 2026-11-09: price nudged up to $5.75 (MarketChameleon, 2026-11-04) from the on-file $5.22 (2026-10-26). Confirmed Q1 FY2027 actual EPS of -$4.02 (Benzinga) vs a -$3.76 consensus estimate -- fills the previously-null EPS field. No update found on the North Immunology merger (last confirmed via the 2026-09-17 announcement; Q1 2027 target close; S-4 status unknown, sec.gov unreachable this session). Next earnings still 2026-11-12, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -414,9 +429,13 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

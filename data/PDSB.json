@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.349Z",
+  "lastResearched": "2026-11-09T21:16:48.444Z",
   "fundamentals": {
     "marketCap": {
-      "value": 80600000,
-      "asOf": "2026-10-30",
-      "source": "Wallstreetzen, derived from 55,971,338 shares outstanding x $1.44",
-      "note": "Supersedes the on-file $66.14M undated figure; consistent with an ongoing rally following the Sept 2026 Soon-Shiong PIPE and JAMA Oncology publication catalysts already on file. A separately-dated, vaguer 'October 2026' MarketCapOf reading of $1.51/$84.28M is broadly consistent (within ~5%) and not treated as a hard conflict."
+      "value": 89100000,
+      "asOf": "2026-11-06",
+      "source": "Derived from a $1.23 close (allinvestview, +5.1%)",
+      "note": "Supersedes the on-file $80.6M (2026-10-30) figure."
     },
     "float": {
       "value": null,
@@ -31,8 +31,10 @@
       "note": "~1.85M shares / 3.31% of shares outstanding per one source; another shows a similar ~1.8M shares, ~1.5 days to cover. Reasonably consistent but exact as-of date not confirmed."
     },
     "cash": {
-      "value": null,
-      "note": "Two readings disagree: one source ~$26.7M cash vs ~$16.9M debt (net cash ~$9.8M); another ~$21.7M cash vs ~$15.9M debt. Kept both, not averaged."
+      "value": 5600000,
+      "asOf": "2026-06-30",
+      "source": "Company Q2 2026 release (2026-08-13)",
+      "note": "Down from $26.7M at FYE2025; H1 2026 operating cash burn was $7.2M. Going-concern warning reiterated."
     },
     "debt": {
       "value": null,
@@ -66,10 +68,10 @@
       }
     ],
     "growth": {
-      "metric": "cash position (6-month decline)",
-      "period": "2025-12-31 to 2026-06-30",
-      "pct": -79,
-      "note": "Cash fell from $26.7M (FY2025 year-end) to $5.6M (2026-06-30). Company separately reported discontinuing the Phase 3 VERSATILE-003 trial (PDS0101 in recurrent/metastatic HNSCC) on 2026-08-11 to conserve capital, pivoting to PDS0301."
+      "metric": "operating cash burn",
+      "period": "H1 2026",
+      "pct": null,
+      "note": "$7.2M burned in H1 2026; pre-revenue clinical-stage company, no revenue reported."
     },
     "nextEarnings": {
       "date": "2026-11-12",
@@ -128,11 +130,24 @@
       "source": "https://www.globenewswire.com/news-release/2026/09/14/3361267/37149/en/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-financing-and-the-appointment-of-dr-patrick-soon-shiong-to-its-board-of-directors.html"
     },
     {
+      "date": "2026-09-12",
+      "type": "management change",
+      "headline": "CFO Lars Boesgaard resigned as principal financial/accounting officer, effective this date, to pursue other professional endeavors; Janetta Trochimiuk appointed interim Principal Accounting Officer and Frank Bedu-Addo, Ph.D. appointed interim Principal Financial Officer, both effective the same date",
+      "source": "SEC 8-K"
+    },
+    {
       "date": "2026-09-08",
       "type": "financing",
       "headline": "PDS Biotech announces up to $22.55 million PIPE financing led by Dr. Patrick Soon-Shiong, founder of NantWorks/Nant Capital",
       "impact": "initial share-price rally driver ahead of the JAMA Oncology publication",
       "source": "https://www.globenewswire.com/news-release/2026/09/08/3357657/37149/en/pds-biotech-announces-up-to-22-55-million-financing-led-by-dr-patrick-soon-shiong-founder-of-nantworks.html"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "restructuring",
+      "headline": "Company began notifying affected employees of the RIF; COO Stephan Toutain terminated without cause, effective this date",
+      "source": "SEC 8-K",
+      "note": "The COO-termination detail is secondary-sourced (Panabee write-up citing the 8-K) rather than independently confirmed from the 8-K text directly this session."
     },
     {
       "date": "2026-08-13",
@@ -164,12 +179,24 @@
       "source": null
     },
     {
+      "date": "2026-08-06",
+      "type": "restructuring",
+      "headline": "Board approved a reduction in force of approximately 36% of the workforce to align operating expenses with the PDS0301 program focus",
+      "source": "SEC 8-K"
+    },
+    {
       "date": "2026-08",
       "type": "clinical data",
       "headline": "Published positive Stage 1 data from an NCI-led colorectal-cancer combination trial in JCO Oncology Advances: 77.8% six-month response rate vs. 35% in a parallel trial arm without the combination",
       "impact": null,
       "source": null,
       "note": "Exact August 2026 date not pinned down precisely."
+    },
+    {
+      "date": "2026-07-30",
+      "type": "listing",
+      "headline": "Received a Nasdaq bid-price deficiency notice (below $1.00); 180-day compliance period, implying a compliance deadline around 2027-01-26",
+      "source": "SEC 8-K"
     },
     {
       "date": "2026-07-30",
@@ -180,11 +207,26 @@
   ],
   "conflicts": [
     "Stocktitan reports a $0.9349 close for PDSB on 2026-10-05 but its own FAQ section states $1.17 for the same date -- internally inconsistent at the source, kept as found, not reconciled.",
-    "Kraken (undated, implied ~late Sept/early Oct 2026) shows $0.40, and Companiesmarketcap (dated September 2026) shows $0.22/$12.31M market cap -- both well below the Oct 30/31 $1.44-$1.51 readings above; read together they sketch a rally from roughly $0.22 (Sept) through ~$0.93-$1.17 (Oct 5) to ~$1.44-$1.51 (Oct 30/31), consistent with the on-file catalyst timeline, but no single source confirms the whole path."
+    "Kraken (undated, implied ~late Sept/early Oct 2026) shows $0.40, and Companiesmarketcap (dated September 2026) shows $0.22/$12.31M market cap -- both well below the Oct 30/31 $1.44-$1.51 readings above; read together they sketch a rally from roughly $0.22 (Sept) through ~$0.93-$1.17 (Oct 5) to ~$1.44-$1.51 (Oct 30/31) to $1.23 (Nov 6), consistent with the on-file catalyst timeline, but no single source confirms the whole path.",
+    "Cash runway: a secondary source (rallies.ai) claims runway was extended to Q3 2027 after a Q1 2026 financing -- this conflicts with the company's own 2026-08-13 release reiterating going-concern language and the $5.6M cash balance above; the company-sourced figure is treated as higher-confidence, the rallies.ai claim flagged as unverified."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-18/10-20 board-shakeup 8-K already on file. Secondary coverage mentions an August 2026 ~36% workforce reduction and a September CFO departure/interim-officer appointment, but no specific day could be pinned down for either, so neither was added as a dated catalyst (per the no-undated-catalysts rule) -- flagging both for a follow-up search with an exact date. Price and market cap were meaningfully updated (see above) after this session located better-dated late-October readings; next earnings (2026-11-12, platform-estimated, still unconfirmed) is unchanged.",
+  "notes": "PM pass 2026-11-09: resolved the prior pass's undated workforce-reduction/CFO-departure items with specific dates from SEC 8-Ks (Aug 6 RIF board approval, Aug 21 employee notifications + COO termination, Sep 12 CFO resignation), plus a previously-unrecorded Jul 30 Nasdaq bid-price deficiency notice -- added as four new dated catalysts. New cash figure ($5.6M at 2026-06-30, going-concern reiterated) fills a previously-missing field. Market cap updated to ~$89.1M (2026-11-06) from the prior $80.6M (2026-10-30). Next earnings still 2026-11-12, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "growth updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -381,9 +423,15 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "growth updated",
+      "marketCap updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

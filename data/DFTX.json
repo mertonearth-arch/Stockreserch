@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.341Z",
+  "lastResearched": "2026-11-09T21:16:48.438Z",
   "fundamentals": {
     "marketCap": {
       "value": 4600000000,
@@ -81,7 +81,7 @@
     "nextEarnings": {
       "date": "2026-11-09",
       "confirmed": true,
-      "note": "Company-confirmed via press notice issued 2026-10-29: Q3 2026 (quarter ended 2026-09-30) results and webcast scheduled for Nov 9, 2026, 4:30 PM EST. Supersedes the prior pass's 'not found' status."
+      "note": "Now double-sourced: BioPharmaWatch and Finviz both independently cite Definium's own 2026-10-29 Business Wire release confirming the 4:30pm ET webcast today. Supersedes the stale EarningsWhispers (Nov 5) and GuruFocus (Nov 6) aggregator guesses, which are templated noise rather than real updates."
     }
   },
   "price": {
@@ -165,11 +165,22 @@
   ],
   "conflicts": [
     "Price/market cap trend across 2026: ~$44.57 (2026-08-12) -> ~$44.81 (2026-08-25) -> ~$38.23/$5.18B (2026-09-09) -> ~$35.60/$4.8B (2026-10-07) -> ~$32.90/$4.60B (2026-10-19); no dated print newer than 2026-10-19 was established this session either.",
-    "Earnings-date aggregator noise: EarningsWhispers and Digrin both show a 'Nov 5, 2026, after close' placeholder for Q3 2026, which conflicts with the company's own confirmed Nov 9, 2026 report date (press notice issued 2026-10-29); the aggregator date appears stale/templated rather than a real update, so the company-confirmed Nov 9 date is retained as primary."
+    "Earnings-date aggregator noise: EarningsWhispers and Digrin both showed a 'Nov 5, 2026, after close' placeholder for Q3 2026, and GuruFocus separately showed Nov 6 -- both conflict with the company's own confirmed Nov 9, 2026 report date (press notice issued 2026-10-29, now double-sourced); the aggregator dates appear stale/templated rather than real updates, so the company-confirmed Nov 9 date is retained as primary."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found. Q3 2026 earnings remain scheduled for 2026-11-09 (company-confirmed) and had not yet been reported as of today's close. No fresher dated price/market-cap print than the on-file 2026-10-19 $32.90 was established this session.",
+  "notes": "PM pass 2026-11-09: Q3 2026 earnings webcast confirmed today 4:30pm ET, now double-sourced (BioPharmaWatch, Finviz) -- reaffirms the on-file date. Actual figures not yet posted to the search index as of this pass (same-day, after-close report). No fresher price found. Quiet pass pending tomorrow's figures.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -317,9 +328,12 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

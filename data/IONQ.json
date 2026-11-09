@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.345Z",
+  "lastResearched": "2026-11-09T21:16:48.441Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -167,11 +167,22 @@
   ],
   "conflicts": [
     "Market cap/shares-outstanding snapshots found this session (TipRanks $13.50B @ 2026-08-20; another $17.1B/381M shares @2026-08-13; others undated at $24.41B/373M shares or $18.87B/unclear shares) remain mutually inconsistent and do not clearly postdate the on-file Oct 15, 2026 figure — not used to update marketCap, kept on-file reading.",
-    "This pass's assignment brief cited a same-day +9.33% session move for 2026-11-05, but that could not be independently verified this session (web search budget was exhausted before a current quote could be sourced); it numerically matches the already-on-file 2026-10-15 move of +9.33%, raising the possibility of a mix-up with that earlier date rather than a genuine new move today. Not used to overwrite the on-file price/move."
+    "Post-earnings price remains unresolved: a Nov 3, 2026 close of $29.99 (+6.46%, heygotrade, described as a pre-earnings run-up) vs. a separate description of the stock trading at ~$26.63 'near the bottom of its 52-week range' as of 2026-11-06 (24/7 Wall St) -- neither reconciles with the on-file Oct 15, 2026 $34.35, and no 2026-11-09 close was found. This pass's assignment brief cited a same-day +9.33% session move, which still cannot be pinned to a specific date/close and numerically matches the already-on-file 2026-10-15 move, raising the possibility of a mix-up with that earlier date rather than a genuine new move -- not used to overwrite the on-file price/move.",
+    "Pre-earnings adjusted-EPS consensus for Q3 2026 is reported inconsistently across sources as -$0.80, -$0.34, and -$0.38 -- not reconciled; the actual reported adjusted EPS (-$0.29, on file) beat all three readings regardless of which is used."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: IonQ's Q3 2026 earnings (due 2026-11-05 after close, still unconfirmed as of the 2026-11-05 PM pass) are now confirmed via a WebSearch-surfaced SEC 8-K exhibit -- direct fetch to sec.gov remains blocked in this sandbox. Revenue surged 336% YoY to $173.8M, well above either conflicting pre-report consensus figure already on file. GAAP EPS was positive only because of a large non-cash warrant revaluation gain; adjusted/non-GAAP EPS remained negative. FY2026 revenue guidance was raised sharply, from $280M-$290M to $505M-$515M. The stock's post-earnings price reaction and a current quote could not be independently confirmed this session despite repeated searches; the on-file 2026-10-15 price/move is carried forward unchanged and the open market-cap/shares-outstanding conflicts on file are untouched.",
+  "notes": "PM pass 2026-11-09: price remains unresolved post-earnings -- two conflicting November readings ($29.99 pre-earnings pop vs $26.63 'near 52-week low' days later), neither matching the on-file Oct 15 figure; no 2026-11-09 close found. EPS/revenue figures already on file reconfirmed (adjusted EPS -$0.29, GAAP +$1.42 warrant-driven, revenue $173.83M +336% YoY) -- no change needed there. No resolution on the flagged +9.33% move.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -399,9 +410,11 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

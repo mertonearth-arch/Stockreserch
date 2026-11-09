@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.340Z",
+  "lastResearched": "2026-11-09T21:16:48.437Z",
   "fundamentals": {
     "marketCap": {
       "value": 10110000000,
@@ -197,11 +197,22 @@
     "Market cap: Yahoo Finance ~$9.313B (intraday snapshot), Motley Fool ~$10.81B, Digrin ~$7.8B — not reconciled, no single current figure established.",
     "TTM EPS: Motley Fool -$7.22 vs Yahoo Finance -$6.54 — different calculation bases, kept both.",
     "Shares outstanding: ranges from ~124.4M (likely stale, pre-offering) to ~135.6-135.8M (post the May 2026 offering) across aggregators.",
-    "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled."
+    "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled.",
+    "FDA PDUFA date for the aficamten (MYQORZO) MAPLE-HCM label-expansion sNDA (2026-11-14) could not be corroborated beyond a single third-party calendar site (dansfera.com) this session; no Cytokinetics press release or 8-K confirming FDA acceptance/PDUFA date was found -- flagged as unconfirmed/single-sourced rather than company-confirmed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Nov 4, 2026 Q3 2026 earnings print already fully captured on file. No fresher market cap, shares-outstanding, or short-interest figure found -- WebFetch was unreachable for every domain attempted this session, and WebSearch turned up only the same pre-existing conflicting aggregator figures (e.g. a Nov 2, 2026 MarketChameleon snapshot of $63.29/$8.80B market cap, which is in the same range as but not clearly reconciling the on-file Yahoo/Motley Fool/Digrin conflict). FDA PDUFA date 2026-11-14 for the MAPLE-HCM sNDA remains pending, unchanged. Quiet pass; all fundamentals and conflicts carried forward unchanged.",
+  "notes": "PM pass 2026-11-09: confirmed MYQORZO (aficamten) net product revenue of $44.5M within the already-on-file Q3 2026 print (2026-11-04) -- new granularity, not a new catalyst date. The 2026-11-14 PDUFA date for the MAPLE-HCM sNDA remains unconfirmed by any Cytokinetics source this session (single third-party calendar site only). No fresher market cap found. Otherwise quiet.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -482,9 +493,11 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

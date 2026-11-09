@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.348Z",
+  "lastResearched": "2026-11-09T21:16:48.443Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -63,7 +63,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "RESOLVED: Q3 2026 results were actually reported 2026-11-05 via 8-K/press release, which moots the prior pass's conflicting Nov 9 vs. Nov 13, 2026 earnings-date estimates (those were EarningsWhispers guesses for what turned out to already be reported). This field now refers to the unannounced Q4/FY2026 report; no date found yet. Do not confuse with the Nov 13 SNO poster-presentation date (a conference) or the Nov 17 FDA End-of-Phase 1 meeting for NEO212, both already on file."
+      "note": "An EarningsWhispers listing newly found this session shows 'Nov 9, 2026 before market open' -- but Q3 2026 was already reported 2026-11-05, so this looks like stale/mislabeled templating rather than a company confirmation, consistent with the same aggregator's past pattern on this name. No date for the unannounced next (Q4/FY2026) report."
     }
   },
   "price": {
@@ -73,6 +73,14 @@
     "source": "Yahoo Finance (NasdaqGM delayed quote, confirmed close)"
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "regulatory",
+      "headline": "FDA End-of-Phase 1 Type B meeting for NEO212 confirmed scheduled, in-person at the FDA's White Oak campus, to get feedback on patient population, trial design, endpoints, dose, and the accelerated-approval pathway",
+      "impact": null,
+      "source": "Company announcement, 2026-09-28",
+      "note": "No outcome yet (meeting is in the future as of this pass). An earlier End-of-Phase 1 meeting set for 2026-07-09 was canceled after FDA CMC feedback requiring an in vivo relative bioavailability study for the capsule-to-tablet transition. Company caveats: efficacy/safety not established, FDA feedback may differ from expectations, meeting could be rescheduled."
+    },
     {
       "date": "2026-11-13",
       "type": "medical conference",
@@ -183,11 +191,27 @@
     }
   ],
   "conflicts": [
-    "RESOLVED 2026-11-06: the prior pass's unresolved 'Nov 9 vs Nov 13, 2026' next-earnings-date conflict is moot -- NTHI's Q3 2026 results were actually reported 2026-11-05, before either speculative date. Both prior EarningsWhispers readings were simply wrong estimates for an already-reported quarter."
+    "RESOLVED 2026-11-06: the prior pass's unresolved 'Nov 9 vs Nov 13, 2026' next-earnings-date conflict is moot -- NTHI's Q3 2026 results were actually reported 2026-11-05, before either speculative date. Both prior EarningsWhispers readings were simply wrong estimates for an already-reported quarter.",
+    "Price: Yahoo Finance $3.49 close 2026-11-06 (+9.06%) vs MarketChameleon $3.07 close 2026-11-03 (~$88M market cap) -- not reconciled, kept both.",
+    "Market cap: ~$88M (MarketChameleon, 2026-11-03) vs ~$86M (Morningstar) vs ~$92.18M (Motley Fool) vs ~$111.8M (Trefis, stale Jun 2026 price) vs ~$193.8M (Simply Wall St, stale Feb 2026) -- wide spread, not reconciled.",
+    "Shares outstanding: 19.47M (Simply Wall St, Feb 2026, stale) vs ~23M (Trefis, Jun 2026) vs 25.93M (TipRanks) vs 28.81M (Morningstar, most recent but undated) -- not reconciled.",
+    "Cash: $58.73K (TipRanks) vs $6.17M (Motley Fool) vs ~$2M (Roic.ai, Mar 2026) -- wildly inconsistent, too large a gap to reconcile, kept all three verbatim."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: WebFetch returned DNS/host-unreachable errors for every domain attempted this session (not just the documented stockanalysis/cnbc/google blocks) -- all figures below come from WebSearch synthesis only, not direct page fetches. Main finding: NTHI filed an 8-K on 2026-11-05 with actual Q3 2026 results (net loss narrowing 49% YoY, cash replenished to $6.2M post-offering), which was not yet on file. No fresher price, market cap, share count, or short-interest figures found this session; those remain as on file (still flagged there as unresolved aggregator disagreements).",
+  "notes": "PM pass 2026-11-09: confirmed the FDA End-of-Phase 1 Type B meeting date for NEO212 (2026-11-17, in-person at FDA White Oak), announced by the company 2026-09-28 -- adds a dated, company-sourced catalyst. An EarningsWhispers 'Nov 9, 2026' next-earnings listing appears to be stale/mislabeled templating given Q3 2026 was already reported 2026-11-05; not used. New price/market-cap/shares/cash conflicts recorded, none resolved, none used to override on-file figures.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -377,9 +401,13 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

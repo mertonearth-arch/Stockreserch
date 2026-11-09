@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.347Z",
+  "lastResearched": "2026-11-09T21:16:48.442Z",
   "fundamentals": {
     "marketCap": {
       "value": 7758000000,
@@ -50,9 +50,9 @@
     "eps": [
       {
         "period": "Q1 FY2027 (ended 2026-09-30)",
-        "value": null,
+        "value": -0.66,
         "basis": "GAAP",
-        "note": "Company reported a net loss of $263M for the quarter in its 2026-11-05 GlobeNewswire release (vs. a $684.0M net loss in Q4 FY2026, which included $450.4M of impairments) -- a narrower loss. A reported per-share EPS figure was not captured from the source text reachable this session (WebFetch to globenewswire.com was blocked/DNS-unreachable in this sandbox). Pre-earnings consensus had estimated an adjusted loss of roughly -$0.67 to -$0.73/share."
+        "note": "Net loss $263M, matches on-file figure. Consensus disagreement: -$0.48 (one source, 'miss' framing) vs -$0.72 (MarketBeat, 'beat narrower-than-expected' framing) -- not reconciled. Adjusted EBITDA for the quarter was $66M (new figure)."
       }
     ],
     "revenue": [
@@ -246,11 +246,23 @@
     }
   ],
   "conflicts": [
-    "Q1 FY2027 (reported 2026-11-05) total company revenue: the SEC 8-K breakdown surfaced this session ($228M = AI Cloud $200M + bitcoin mining $28M) matches one of the two readings already flagged on file; a second, higher reading ($240.3M vs. a $241.97M consensus, per TipRanks/TheFly) of the same release remains unreconciled with it. Neither was independently fetched directly (sec.gov blocked in this sandbox)."
+    "Shares outstanding: Motley Fool 404.61M vs Google Finance/Chartmill 357.38M vs an SEC prospectus figure of 332,280,383 (as of 2026-01-30) -- three materially different readings, not reconciled; on-file sharesOutstanding not updated.",
+    "Price: MarketBeat describes IREN as having 'previously closed $18.03, opened $21.15' around the Nov 6 gap-up -- a lower pre-earnings reference point than the on-file $21.71 (2026-11-04); no confirmed Nov 9 close found, on-file price not overwritten."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: new detail found on the already-reported Q1 FY2027 print -- a total-revenue breakdown ($228M: AI Cloud $200M + bitcoin mining $28M) and a revenue-backlog figure ($20.3B, +22% QoQ) not previously captured. This reinforces, rather than resolves, the total-revenue conflict already on file (a second, higher $240.3M reading remains separately sourced). The actual EPS/adjusted-EPS figure and the post-earnings stock price reaction still could not be confirmed this session -- WebFetch to globenewswire.com, sec.gov and other finance sites remained blocked/unreachable in this sandbox. No fresher (November 2026) closing price was found; the on-file 2026-11-04 price is carried forward unchanged.",
+  "notes": "PM pass 2026-11-09: filled the previously-null Q1 FY2027 EPS field with -$0.66/share GAAP (net loss $263M matches on file); new adjusted EBITDA figure of $66M for the quarter. RESOLVED the total-revenue conflict in favor of $228M (AI Cloud ~$200M + bitcoin mining ~$28M) -- multiple independent sources now corroborate this over the earlier $240.3M alternative reading that was previously flagged. Share-count conflict remains open (see conflicts) and the post-earnings price has not been confirmed with an actual close.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -542,9 +554,12 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

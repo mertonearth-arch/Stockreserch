@@ -8,23 +8,23 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.342Z",
+  "lastResearched": "2026-11-09T21:16:48.439Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "No current figure confirmed; see conflicts (prior pass)"
+      "value": 10470000000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business",
+      "note": "105.98M shares outstanding, public float 95.99M per the same source. Resolves the previously-null marketCap field."
     },
     "float": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed separately from shares outstanding"
+      "value": 95990000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "sharesOutstanding": {
-      "value": 103951633,
-      "asOf": null,
-      "source": "Equibles aggregator snapshot",
-      "note": "Unchanged from prior pass"
+      "value": 105980000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "shortInterest": {
       "value": null,
@@ -135,11 +135,25 @@
     }
   ],
   "conflicts": [
-    "Next earnings date estimates disagree: MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26. Neither is company-confirmed."
+    "Next earnings date estimates disagree: MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26. Neither is company-confirmed.",
+    "Market cap: Fox Business $10.47B / 105.98M shares (2026-10-23, newly recorded as current) vs. older $10.25B/103.95M shares (Google Finance, late Aug 2026) and $7.39B/103.95M shares (Motley Fool, undated/apparently stale) -- the Fox Business figure is treated as current given it is the most recently dated; the older readings are kept here rather than discarded."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found. Next-earnings-date conflict remains unresolved (MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26); no company confirmation located. No fresher dated price than the on-file $92.30 figure was established this session -- fundamentals unchanged.",
+  "notes": "PM pass 2026-11-09: established a current market cap ($10.47B, Fox Business, 2026-10-23) and share/float counts, resolving the previously-null marketCap field. Next-earnings-date conflict remains unresolved (MarketBeat/The Right Trader ~Nov19 vs Earnings Whispers ~Nov26); no company confirmation found. No new dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -349,9 +363,14 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

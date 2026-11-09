@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.347Z",
+  "lastResearched": "2026-11-09T21:16:48.443Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -156,8 +156,16 @@
     "Price, new unconfirmed reading this pass: a Dutch aggregator (debelegger.nl) shows NLST at $6.32 as of 2026-10-30 21:00, with an implied market cap near $2.3B -- modestly below the on-file $6.66 (2026-10-06) price and $2.22B market cap, but the aggregator's own share-count basis for that $2.3B figure was not independently confirmed and may differ from the on-file 333.89M-share basis. Kept as an additional data point, not substituted for the on-file figures."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst, ITC ruling, or earnings development found beyond what is already on file (Q3 2026 results remain scheduled for 2026-11-10 after close, per the company's own announcement, unchanged). No fully reliable newer price than the on-file 2026-10-06 $6.66 was established -- see conflicts for a lower, less-certain 2026-10-30 reading. This batch's shared WebSearch budget was exhausted before a more thorough check of the DDR5 (337-TA-1472 remnants vs. non-Micron respondents) and HBM (vs. Micron/Nvidia/Broadcom/Google) ITC tracks could be completed; both remain open per prior passes.",
+  "notes": "PM pass 2026-11-09: no new dated catalyst, ITC ruling, or earnings development found beyond what is on file. Confirmed the 337-TA-1511 Samsung/Google/Supermicro/Nvidia/Broadcom ITC case (instituted mid-July 2026, over the '537 HBM and '937 DDR5/MRDIMM patents) has an evidentiary hearing 'scheduled to start in November 2026' per one source, though no exact date or ruling was found -- consistent with, not contradicting, what's on file. Earnings remain scheduled for tomorrow, 2026-11-10 (company-confirmed), no pre-announcement news. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -373,7 +381,7 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

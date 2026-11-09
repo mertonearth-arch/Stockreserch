@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.349Z",
+  "lastResearched": "2026-11-09T21:16:48.445Z",
   "fundamentals": {
     "marketCap": {
       "value": 1730000000,
@@ -35,7 +35,8 @@
     "cash": {
       "value": 138300000,
       "asOf": "2026-06-30",
-      "source": "SELLAS Q2 2026 financial results press release, reported 2026-08-11 (SEC 8-K exhibit)"
+      "source": "Merlintrader/Weiss Ratings, citing the Q2 2026 10-Q",
+      "note": "Cash and short-term investments, up from $71.8M at FYE2025. Q3 2026 10-Q filing status not independently confirmed this session."
     },
     "debt": {
       "value": null,
@@ -148,11 +149,23 @@
   ],
   "conflicts": [
     "Market cap fell from $2.833B (2026-09-04, $14.02/share) to an implied ~$1.73B (2026-11-03, $8.64/share) - a roughly 38% decline in share price over two months, consistent with the disclosure-timing controversy and REGAL 80th-event catalysts already on file, not a data error.",
-    "Short interest as % of float/shares outstanding varies 27-33% across sources/dates (FINRA 27.9% at 2026-08-14 settlement vs. Koyfin ~30.7%-33% at May/June 2026 dates) - kept both, not averaged."
+    "Short interest as % of float/shares outstanding varies 27-33% across sources/dates (FINRA 27.9% at 2026-08-14 settlement vs. Koyfin ~30.7%-33% at May/June 2026 dates; a new Finviz/Merlintrader reading of 29.58% at the 2026-09-15 settlement falls within this same range) - kept all, not averaged.",
+    "Price: debelegger shows a $9.68 close on 2026-10-30 (-4.72%, ~$1.95B implied market cap) -- an earlier, higher reading than the on-file $8.64 (2026-11-03), consistent with a continued decline Oct 30 to Nov 3 rather than a contradiction; no 2026-11-09 close found. Undated CoinGecko ($11.65) and Trade-Ideas ($11.44) quotes are higher still and look stale -- not used."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst. Phase 3 REGAL topline overall-survival results (triggered by the pre-specified 80th event on 2026-10-28) have still not been released -- a secondary oncology outlet (CancerNetwork) covering the same 80th-event milestone confirms no topline data has been reported yet; company says results are expected later in Q4 2026. No reliable dated November 2026 price/quote found this session (WebSearch repeated only the already-on-file 2026-11-03 Robinhood snapshot of $8.64); price, market cap and all other fundamentals carried forward unchanged. Next-earnings date remains unconfirmed (on file: 2026-11-18 estimate).",
+  "notes": "PM pass 2026-11-09: REGAL Phase 3 topline overall-survival results remain unreleased -- company continuing through database lock/unblinding/analysis following the Oct 28 80th-event milestone, still guided to 'this quarter' (Q4 2026); reconfirmed pending as of today, no new catalyst. New cash figure established ($138.3M at 2026-06-30, up from $71.8M FYE2025) -- previously missing field. New price/short-interest data points recorded as conflicts, not used to override on-file figures. Next earnings still 2026-11-18, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -290,9 +303,12 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

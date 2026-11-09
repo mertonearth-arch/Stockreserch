@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.346Z",
+  "lastResearched": "2026-11-09T21:16:48.442Z",
   "fundamentals": {
     "marketCap": {
       "value": 3780000000,
@@ -58,9 +58,9 @@
       },
       {
         "period": "Q3 2026",
-        "value": null,
+        "value": -0.05,
         "basis": "GAAP",
-        "note": "Per-share figure not independently located this session. Form 10-Q (period ended 2026-09-30) reports net loss of $22.271M for the quarter, sharply narrowed from $91.253M in Q3 2025 -- a company-stated EPS figure was not confirmed from a reachable source, so left null rather than derived/guessed."
+        "note": "vs -$0.09 consensus. Single secondary source (Tickeron, 2026-11-05 recap) rather than a primary filing -- used with a caveat, not full confidence. Net loss $22.27M and revenue $121.47M (+80% YoY) both match the already-on-file 10-Q/press figures."
       }
     ],
     "revenue": [
@@ -175,11 +175,23 @@
     }
   ],
   "conflicts": [
-    "This pass could not independently corroborate the -8.41% session move supplied in the research brief with a same-day closing price (every finance site WebFetch was attempted on returned DNS failure in this sandbox). Kept as supplied, not fabricated into a specific price level."
+    "This pass could not independently corroborate the -8.41% session move supplied in the research brief with a same-day closing price (every finance site WebFetch was attempted on returned DNS failure in this sandbox). Kept as supplied, not fabricated into a specific price level.",
+    "Late-October price readings found this session conflict badly with each other and look like a data/sourcing problem: Oct 28 $14.81 -> Oct 29 '$9.72' -> Oct 31 $8.47, an implausible ~45% two-day drop -- not used to update price or to corroborate the -8.41% move."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: searched again for the actual Q3 2026 per-share loss (still null on file); only found a pre-report analyst consensus estimate of -$0.09/share (vs. an on-file Q2 2026 actual of -$0.11), which is not a reported figure and so was not recorded per standing rules. No fresher closing price found either -- results were stale (late October 2026) or undated/conflicting. No new dated catalyst beyond the Q3 2026 earnings print already on file from 2026-11-05.",
+  "notes": "PM pass 2026-11-09: filled the previously-null Q3 2026 EPS field with -$0.05/share (vs -$0.09 consensus) -- single secondary-source (Tickeron), used with a caveat. The -8.41% session move flagged for this pass still could not be corroborated with an actual closing price; new late-October readings found are internally inconsistent and not usable.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -403,9 +415,12 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

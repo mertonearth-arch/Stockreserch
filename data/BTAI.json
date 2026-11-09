@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.340Z",
+  "lastResearched": "2026-11-09T21:16:48.437Z",
   "fundamentals": {
     "marketCap": {
       "value": 407000,
@@ -151,11 +151,23 @@
     }
   ],
   "conflicts": [
-    "New OTC price snapshot found this session: Debelegger shows a 2026-11-01 close of $0.05 (-3.2%), market cap ~$2.3M; Simply Wall St's OTC page (ticker shown as OTCPK:BTAI.Q) shows $0.047, 52-week range $0.019-$3.95. Both are dated AFTER the on-file $0.02 (2026-10-24) reading but show a higher price, which runs counter to the steady decline trend already on file ($0.05 Sept 29 -> ... -> $0.02 Oct 24). Given thin OTC-shell trading and single-aggregator sourcing (WebFetch could not independently verify -- unreachable for every domain this session), this is flagged as a conflict rather than used to overwrite the on-file price."
+    "New OTC price snapshot found this session: Debelegger shows a 2026-11-01 close of $0.05 (-3.2%), market cap ~$2.3M; Simply Wall St's OTC page (ticker shown as OTCPK:BTAI.Q) shows $0.047, 52-week range $0.019-$3.95. Both are dated AFTER the on-file $0.02 (2026-10-24) reading but show a higher price, which runs counter to the steady decline trend already on file ($0.05 Sept 29 -> ... -> $0.02 Oct 24). Given thin OTC-shell trading and single-aggregator sourcing (WebFetch could not independently verify -- unreachable for every domain this session), this is flagged as a conflict rather than used to overwrite the on-file price.",
+    "Additional conflicting OTC snapshots found this pass: a Digrin page under ticker BTAIQ shows $0.02 for October 2026 (consistent with on-file); TrendSpider separately shows $0.07 (-91% over 30 days, undated/stale-looking) -- not reconciled, thin OTC-shell trading continues to make a single current price unreliable.",
+    "Speculative next-report dates (meaningless for this post-sale shell, same caveat as on file): TrendSpider suggests Nov 11, 2026; a Stock Events page suggests Nov 18, 2026 -- neither is company-sourced and the entity has no going-forward operations post Teva sale."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new bankruptcy-docket events or FDA action found. The Nov 14, 2026 PDUFA date (IGALMI at-home sNDA, tied to the up-to-$67.5M Teva milestone) remains ahead and undecided as of this session -- confirmed still pending, no outcome yet since today is Nov 6. One new (but unreconciled) OTC price data point found; see conflicts. Otherwise quiet; all other fundamentals carried forward unchanged.",
+  "notes": "PM pass 2026-11-09: FDA PDUFA target action date for the IGALMI at-home sNDA (2026-11-14) remains pending, no outcome yet (5 days out). No new bankruptcy-docket events found. New but unreconciled OTC price snapshots found (see conflicts); not used to update the recorded price given thin/single-aggregator sourcing. Quiet pass otherwise.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -381,9 +393,11 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.338Z",
+  "lastResearched": "2026-11-09T21:16:48.435Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -157,11 +157,22 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: three disagreeing unconfirmed readings now on file -- TipRanks Nov 16, 2026 (on file); TrendSpider Nov 13, 2026; EarningsWhispers Nov 12, 2026 after market close (both found this session). None is company-announced."
+    "Next earnings date: three disagreeing unconfirmed readings now on file -- TipRanks Nov 16, 2026 (on file); TrendSpider Nov 13, 2026; EarningsWhispers Nov 12, 2026 after market close (both found this session). None is company-announced.",
+    "Price: Benzinga shows $2.51 as of 2026-11-03, tied to the same Middle East government contract catalyst already on file (2026-10-13) rather than a distinct event, vs. TrendSpider's ~$2.98 (down ~26% over 30 days) -- the two do not fully reconcile on magnitude; neither confirmed as an exact session close, kept both."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond what's on file (Oct 30 annual-meeting vote close, Oct 13 Middle East contract/hire, etc.). No fresher price, market cap, or cash/debt figures found -- WebFetch was unreachable for every domain attempted this session. Added a third conflicting next-earnings-date estimate (see conflicts). Otherwise quiet; all other fundamentals carried forward unchanged.",
+  "notes": "PM pass 2026-11-09: no new dated catalyst found; the Benzinga Nov 3 price move appears tied to the same Middle East contract/hire already on file, not a new event. Earnings-date three-way conflict (Nov 12/13/16) remains unresolved, no company confirmation found. Essentially quiet.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -326,9 +337,11 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

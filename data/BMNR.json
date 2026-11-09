@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.339Z",
+  "lastResearched": "2026-11-09T21:16:48.436Z",
   "fundamentals": {
     "marketCap": {
       "value": 10600000000,
@@ -160,8 +160,16 @@
     "Next earnings date: on-file estimate Nov 20, 2026 vs a newer Earnings Whispers estimate of Nov 23, 2026 before market open -- neither company-confirmed, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: found a slightly fresher price ($22.08, 2026-10-29, Upstox) than the on-file 2026-10-01 figure, and a conflicting next-earnings-date estimate (Nov 23 vs the on-file Nov 20). No new dated ETH-treasury catalyst or other fundamentals update found beyond what the 2026-11-05 PM pass already captured.",
+  "notes": "PM pass 2026-11-09: no fresher ETH-holdings figure, price, or catalyst found this session -- search results were either stale (pre-November) or undated. Next earnings remains 2026-11-23 (Earnings Whispers, unconfirmed), still conflicting with the on-file Nov 20 estimate. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -361,7 +369,7 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

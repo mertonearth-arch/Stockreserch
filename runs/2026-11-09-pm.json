@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-09",
+  "run": "pm",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "NVDA",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "AEMD",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "marketCap updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BENF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BIAF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BKYI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "BMNR",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "BTAI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "DFTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "ELMT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "ESTC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "FTHM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "GPRO",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "IONQ",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "IOVA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "IREN",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "NLST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "NTHI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "PDSB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "growth updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "SLS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "cash updated",
+        "conflicts updated"
+      ]
+    }
+  ],
+  "created": [],
+  "promoted": [],
+  "demoted": [],
+  "quiet": [
+    "NVDA",
+    "BMNR",
+    "GPRO",
+    "NLST"
+  ]
+}

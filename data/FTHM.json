@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.343Z",
+  "lastResearched": "2026-11-09T21:16:48.440Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "carried forward; no reliable single current figure"
+      "value": 6500000,
+      "asOf": "2026-10-30",
+      "source": "Yahoo Finance / aggregator cross-check",
+      "note": "Two independent aggregators (dated 10/23 and 10/30) agree within ~10% on a $6-7M range at a ~$0.18-0.20 share price -- resolves the previously-null marketCap field. ~33M shares outstanding is consistent across sources; no reverse-split signal found (checked specifically)."
     },
     "float": {
       "value": null,
@@ -135,8 +137,18 @@
     "Next earnings date: Unusual Whales and NextEarningsDate.com both independently project 2026-11-10 (corroborating, kept as the primary on-file estimate); EarningsWhispers instead projects 2026-11-12. Neither is a company confirmation — kept both per the conflict rule, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found. Next-earnings estimate remains Nov 10, 2026 (Unusual Whales, NextEarningsDate.com both still project this) vs Nov 12, 2026 (Earnings Whispers); no company-issued Q3 2026 conference-call notice was located this session either. Fundamentals unchanged from prior pass.",
+  "notes": "PM pass 2026-11-09: established a market cap figure (~$6-7M, two corroborating aggregators), resolving the previously-null field; no reverse-split signal found. No 8-K newer than the on-file 2026-10-05 one (merger termination + note maturity extension). Next earnings estimate unchanged (Nov 10 vs Nov 12 conflict, both unconfirmed).",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -336,9 +348,11 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "marketCap updated"
+    ],
     "tradingDay": true
   }
 }

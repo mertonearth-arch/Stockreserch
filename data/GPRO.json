@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.344Z",
+  "lastResearched": "2026-11-09T21:16:48.441Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -176,8 +176,16 @@
     "No reverse-split signal found for GPRO this pass; flagging that this was checked per standing rule 7."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-27 resale-prospectus (424B3) amendment already on file. No update located on the Starman Optical merger beyond its last confirmed status (signed 2026-09-01; targeted for a year-end 2026 close, pending shareholder and regulatory approval). Price, share count, short interest and cash were not refreshed this session -- sources found were undated or conflicting (roughly $0.72-$1.30 across undated aggregator snapshots) and not used.",
+  "notes": "PM pass 2026-11-09: Q3 2026 earnings were due today but no print found yet (SEC EDGAR unreachable in this sandbox; search index has not caught up). No fresher price than the on-file unreconciled $103.82M-$284.65M market-cap spread. Quiet pass pending the actual report.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -438,7 +446,7 @@
   },
   "lastPass": {
     "date": "2026-11-09",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true
