@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.999Z",
+  "lastResearched": "2026-11-09T05:32:26.365Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -125,6 +125,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: this was the name flagged for extra scrutiny (quietRuns=2, one more quiet PM pass drops a tier). A deeper search past the generic ticker-news query turned up a genuine new dated item: a 2026-10-06 SEC 6-K/press release on the Pamesa Net Zero project reaching 62.5 MWh of fully operational storage (added to catalysts above) — this was not on file (prior catalysts stopped at 2026-09-17). Two other Turbo Energy items surfaced in search (an April 20, 2026 Hithium AI-optimization partnership and an April 9, 2026 US patent grant) are both older than the ~6-month catalyst window from today and were already stale relative to the file's September/July items, so not added. All pre-existing conflicts (shares outstanding, float, market-cap range, H1 2026 net-result discrepancy, reverse-split-related price anomaly) remain unresolved and unchanged — no new figures found to update them. Could not establish today's price (see TER notes on WebFetch access this session).",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -247,12 +255,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.993Z",
+  "lastResearched": "2026-11-09T05:32:26.359Z",
   "fundamentals": {
     "revenue": [
       {
@@ -88,6 +88,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": false,
@@ -160,13 +168,10 @@
   ],
   "notes": "PM 2026-11-06: no new dated catalyst since the 2026-10-29 Q3 2026 earnings print (still the most recent event). Next earnings (Q4 2026) still not announced. Price/market-cap conflict grew rather than resolved this pass -- see conflicts. Other fundamentals (cash, debt, shares outstanding, short interest) unchanged from the 2026-11-05 pass.",
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

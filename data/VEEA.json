@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:04.000Z",
+  "lastResearched": "2026-11-09T05:32:26.367Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -140,6 +140,14 @@
   "notes": "PM pass 2026-11-06: this was the other name flagged for extra scrutiny (quietRuns=2). No new dated catalyst beyond the 2026-10-08/10-09 Nasdaq-compliance item already on file — confirmed via a second source this pass (the underlying governance fix: Alan Black added to the Compensation Committee and Kanishka Roy added to the Audit Committee, both effective 2026-10-08, after director Helder Antunes resigned from the board on 2026-10-08 and the board was reduced to five members; this is the same event already on file, just with more detail, so not logged as a separate catalyst). The non-binding NovaGen Group B.V. term sheet (2026-09-14) still shows no definitive-agreement update as of this search. What DID change: a new, independently-sourced price/share-count data point (2026-11-02, see conflicts) that was not on file (price was previously null) — this is not today's close so it is not reported in the price block, but it meaningfully updates the conflict picture, which is why this pass is not being marked fully quiet despite no new catalyst.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": false,
@@ -262,12 +270,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

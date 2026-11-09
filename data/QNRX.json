@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.985Z",
+  "lastResearched": "2026-11-09T05:32:26.360Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -168,6 +168,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: the Q3 2026 results flagged as pending in the prior pass are now out. Headline figures (net loss, 9-month loss, cash) are well corroborated across the company's own release and secondary aggregators. A per-ADS EPS figure and a post-placement shares-outstanding count were NOT located this session -- both left null/stale respectively rather than derived or guessed. No current (2026-11-06) price was established; the on-file 2026-10-25 $4.02 figure is carried forward unchanged (October 2026 monthly-close data found this session, ~$3.99, is broadly consistent and not treated as a conflict).",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -398,17 +406,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "cash updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

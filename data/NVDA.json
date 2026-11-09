@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.982Z",
+  "lastResearched": "2026-11-09T05:32:26.334Z",
   "fundamentals": {
     "marketCap": {
       "value": 4410000000000,
@@ -174,6 +174,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: the broad market/AI selloff flagged for ORCL on 2026-11-05 hit NVDA at least as hard -- a confirmed -9.26% close to $181.60, its worst session in a year. Market and chip-sector coverage describes a rebound on 2026-11-06 (Nasdaq ~+1.3%, S&P ~+0.6% late-day) but no NVDA-specific closing print for today was found before this batch's shared WebSearch budget was exhausted. The existing next-earnings-date conflict (Nov 17 vs. Nov 18 vs. Nov 25) was re-checked but not resolved further this session -- EarningsWhispers' main page still claims a company-confirmed Nov 17, while most trackers still call Nov 18 unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -371,14 +379,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "marketCap updated",
-      "move -9.26%"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

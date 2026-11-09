@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.973Z",
+  "lastResearched": "2026-11-09T05:32:26.351Z",
   "fundamentals": {
     "marketCap": {
       "value": 9120000000,
@@ -145,6 +145,14 @@
   "notes": "PM pass 2026-11-06: no new catalyst, price, or share-count figure found beyond the Nov 2, 2026 earnings already captured on file. Added one unreconciled cash-figure refinement (see conflicts) sourced from the same 8-K exhibit. WebFetch was unreachable for every domain attempted this session, so the underlying filing could not be read directly -- this comes from WebSearch synthesis of the indexed filing text. Share-count/dilution impact of the October convertible-notes exchange (~41M new shares) remains unverified, as flagged by the prior pass.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": false,
@@ -280,12 +288,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

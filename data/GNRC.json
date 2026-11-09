@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 1,
-  "lastResearched": "2026-11-06T21:22:03.990Z",
+  "lastResearched": "2026-11-09T05:32:26.355Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -152,6 +152,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 28, 2026 Q3 print already on file. Searched again for a confirmed November price/close and a Q4 2026 earnings date; found only stale/conflicting Oct 27-28 snapshots that duplicate the conflicts already recorded on file, plus an EarningsWhispers calendar entry placing a GNRC report on Nov 2, 2026 that appears to be a stale/incorrect listing given Q3 was already reported Oct 28. No changes made this pass.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -338,8 +346,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
+    "date": "2026-11-09",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

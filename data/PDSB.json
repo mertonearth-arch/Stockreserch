@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.984Z",
+  "lastResearched": "2026-11-09T05:32:26.349Z",
   "fundamentals": {
     "marketCap": {
       "value": 80600000,
@@ -185,6 +185,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-18/10-20 board-shakeup 8-K already on file. Secondary coverage mentions an August 2026 ~36% workforce reduction and a September CFO departure/interim-officer appointment, but no specific day could be pinned down for either, so neither was added as a dated catalyst (per the no-undated-catalysts rule) -- flagging both for a follow-up search with an exact date. Price and market cap were meaningfully updated (see above) after this session located better-dated late-October readings; next earnings (2026-11-12, platform-estimated, still unconfirmed) is unchanged.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -372,14 +380,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.972Z",
+  "lastResearched": "2026-11-09T05:32:26.340Z",
   "fundamentals": {
     "marketCap": {
       "value": 407000,
@@ -156,6 +156,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new bankruptcy-docket events or FDA action found. The Nov 14, 2026 PDUFA date (IGALMI at-home sNDA, tied to the up-to-$67.5M Teva milestone) remains ahead and undecided as of this session -- confirmed still pending, no outcome yet since today is Nov 6. One new (but unreconciled) OTC price data point found; see conflicts. Otherwise quiet; all other fundamentals carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -372,12 +380,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

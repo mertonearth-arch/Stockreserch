@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.970Z",
+  "lastResearched": "2026-11-09T05:32:26.338Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -162,6 +162,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond what's on file (Oct 30 annual-meeting vote close, Oct 13 Middle East contract/hire, etc.). No fresher price, market cap, or cash/debt figures found -- WebFetch was unreachable for every domain attempted this session. Added a third conflicting next-earnings-date estimate (see conflicts). Otherwise quiet; all other fundamentals carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -317,13 +325,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

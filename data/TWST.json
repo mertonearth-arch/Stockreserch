@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:04.000Z",
+  "lastResearched": "2026-11-09T05:32:26.366Z",
   "fundamentals": {
     "marketCap": {
       "value": 9130000000,
@@ -133,6 +133,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-08-04 public offering and 2026-09-16 Eli Lilly TuneLab partnership already on file. Could not establish today's (2026-11-06) closing price with confidence — see conflicts for the closest dated snapshots found (2026-10-31). Next-earnings-date conflict narrowed slightly in credibility (two independent sources now cluster around Nov 12-13) but still has no company confirmation, so left as a conflict rather than picked.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -262,12 +270,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

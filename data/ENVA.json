@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.989Z",
+  "lastResearched": "2026-11-09T05:32:26.353Z",
   "fundamentals": {
     "marketCap": {
       "value": 4250000000,
@@ -123,6 +123,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Oct 22 Q3 print and Sept 14 Grasshopper Bancorp regulatory-application withdrawal already on file. First dated price/market-cap figures found since those fields were null ($173.94 / ~$4.25B as of 2026-11-02), though the exact source outlet is not fully identifiable. Float, cash, debt, short interest and a confirmed Q4 2026 earnings date remain unresolved despite further searches this session.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -260,12 +268,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

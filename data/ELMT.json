@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.974Z",
+  "lastResearched": "2026-11-09T05:32:26.342Z",
   "fundamentals": {
     "marketCap": {
       "value": 608000000,
@@ -187,6 +187,14 @@
   "notes": "PM pass 2026-11-06: Elmet's Q3 2026 earnings call now appears scheduled via a company notice for Nov 10, 2026, 8:00 AM ET -- supersedes the prior Nov 12 unconfirmed estimate, though Earnings Whispers (Nov 12) and TrendSpider (Nov 25) remain unreconciled conflicting estimates. No other new dated catalyst found; the Masan High-Tech Materials stake-sale closing (2026-10-01) already on file remains the most recent confirmed M&A item. Price/fundamentals otherwise not independently refreshed this session.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": false,
@@ -363,14 +371,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

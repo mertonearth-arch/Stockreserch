@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 1,
-  "lastResearched": "2026-11-06T21:22:03.993Z",
+  "lastResearched": "2026-11-09T05:32:26.360Z",
   "fundamentals": {
     "marketCap": {
       "value": 34659000000,
@@ -214,6 +214,14 @@
   "notes": "PM 2026-11-06: no new PCG-specific dated news found for November 2026 (searched wildfire liability, bond/offering activity, and general news -- nothing beyond what's already on file from the 2026-10-22 Q3 earnings catalysts). A WebSearch snapshot put the most recent dated PCG close at $13.29 on 2026-11-03 (+0.1%, volume 22.1M shares, 52-week range $11.77-$19.16), but since today's (2026-11-06) close could not be independently confirmed, price is left unchanged from the on-file 2026-10-22 ($12.93) figure per the 'omit rather than guess' rule rather than substituting a stale same-week figure. Fundamentals otherwise unchanged -- quiet pass.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": true,
@@ -416,8 +424,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
+    "date": "2026-11-09",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

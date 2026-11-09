@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.983Z",
+  "lastResearched": "2026-11-09T05:32:26.359Z",
   "fundamentals": {
     "marketCap": {
       "value": 331780000000,
@@ -185,6 +185,14 @@
   "notes": "PM pass 2026-11-06: confirmed the cause of the 2026-11-05 drop flagged for this pass -- it was a broad, market-wide AI-infrastructure/data-center selloff tied to post-midterm-election political risk (not an Oracle-specific event), hitting NVDA and the wider Nasdaq/S&P at least as hard the same session. The prior pass's two-intraday-timestamp price conflict is resolved with a confirmed $115.16/-6.93% close. The still-open Tencent-deal-cancellation conflict (single Fool.com source) was rechecked but not corroborated further. EPS, cash, debt, float and short interest were not re-verified this session (WebFetch is non-functional in this sandbox beyond WebSearch synthesis, and the shared search budget was exhausted) -- carried forward unchanged from the existing file.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": false,
@@ -322,13 +330,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

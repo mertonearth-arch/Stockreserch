@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.967Z",
+  "lastResearched": "2026-11-09T05:32:26.335Z",
   "fundamentals": {
     "marketCap": {
       "value": 3590000,
@@ -180,6 +180,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found. Specifically checked for an S-4 registration statement or other update on the North Immunology merger (targeted Q1 2027 close) and found none newer than the 2026-09-17 deal announcement already on file. No fresher price confirmed for today (WebFetch unreachable for every domain attempted this session; WebSearch returned only stale, undated, or mutually conflicting snapshots, consistent with the price/share-count conflicts already flagged on file). Next earnings (2026-11-12, unconfirmed) unchanged. Quiet pass; all fundamentals and conflicts carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -405,8 +413,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
+    "date": "2026-11-09",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.964Z",
+  "lastResearched": "2026-11-09T05:32:26.347Z",
   "fundamentals": {
     "marketCap": {
       "value": 7758000000,
@@ -251,6 +251,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: new detail found on the already-reported Q1 FY2027 print -- a total-revenue breakdown ($228M: AI Cloud $200M + bitcoin mining $28M) and a revenue-backlog figure ($20.3B, +22% QoQ) not previously captured. This reinforces, rather than resolves, the total-revenue conflict already on file (a second, higher $240.3M reading remains separately sourced). The actual EPS/adjusted-EPS figure and the post-earnings stock price reaction still could not be confirmed this session -- WebFetch to globenewswire.com, sec.gov and other finance sites remained blocked/unreachable in this sandbox. No fresher (November 2026) closing price was found; the on-file 2026-11-04 price is carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -533,14 +541,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "revenue updated",
-      "conflicts updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

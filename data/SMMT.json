@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.997Z",
+  "lastResearched": "2026-11-09T05:32:26.364Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -124,6 +124,14 @@
   "pendingFilings": [],
   "notes": "PM 2026-11-06: found and filled in the Q3 2026 earnings print (released 2026-11-05, one day before this pass -- the gap the prior pass's pendingFilings flagged). GAAP net loss narrowed YoY; cash $629.8M at quarter-end (pre-AstraZeneca-close). The FDA PDUFA goal date for ivonescimab (EGFRm NSCLC BLA) is now 8 days out (2026-11-14) -- unchanged and confirmed again this session via multiple sources, still the key near-term catalyst; no delay, no advisory-committee signal, and no label/review-issue found. Could not confirm the stock's reaction to the Nov 5 print, nor a clean current market cap/share count, this session.",
   "history": [
+    {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -256,15 +264,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "growth updated",
-      "cash updated"
-    ],
+    "date": "2026-11-09",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

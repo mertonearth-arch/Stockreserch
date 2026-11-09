@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 1,
-  "lastResearched": "2026-11-06T21:22:03.988Z",
+  "lastResearched": "2026-11-09T05:32:26.352Z",
   "fundamentals": {
     "marketCap": {
       "value": 49100000,
@@ -144,6 +144,14 @@
   "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 1, 2026 Phase 2 Seabreeze STAT COPD topline already on file. No reliable November 2026 price found this session -- WebSearch returned only undated or clearly stale aggregator snapshots ($0.78-$2.85 range across sources with no current dates), consistent with the price conflict already on file. Fundamentals and price carried forward unchanged.",
   "history": [
     {
+      "date": "2026-11-09",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-06",
       "run": "pm",
       "quiet": true,
@@ -277,8 +285,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
-    "run": "pm",
+    "date": "2026-11-09",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true
