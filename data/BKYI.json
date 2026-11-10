@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.435Z",
+  "lastResearched": "2026-11-10T21:26:29.081Z",
   "fundamentals": {
     "marketCap": {
       "value": 4000000,
@@ -86,10 +86,11 @@
     }
   },
   "price": {
-    "last": 2.7,
+    "last": 2.41,
     "changePct": null,
-    "asOf": "2026-10-27",
-    "note": "Market Chameleon quote, supersedes the stale $2.79 (2026-10-14) on file. Market Chameleon also reported a ~15.9% drop to $2.85 on 2026-10-26 ahead of this print; exact day-over-day change from $2.79 not independently computed."
+    "asOf": "2026-11-08",
+    "source": "Upstox",
+    "note": "Supersedes on-file 2026-10-27 $2.70 figure."
   },
   "catalysts": [
     {
@@ -98,6 +99,24 @@
       "headline": "Reconvened 2026 annual meeting closed its final proposal: stockholders approved Proposal 4, authorizing issuance of up to 1,236,668 shares issuable on exercise of warrants from the Aug 10, 2026 warrant inducement transaction. Final vote: 129,795 for, 89,849 against, 648 abstain, 0 broker non-votes — passes even counting abstentions as against.",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001019034/000143774926034242/bkyi20261030_8k.htm"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "contract",
+      "headline": "Deployment with another Middle East government customer in a national-security context (customer unnamed)",
+      "source": "secondary aggregator, unconfirmed against primary release"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "contract",
+      "headline": "New Middle East government institution selected BIO-key for passwordless biometric authentication — 7th new Gulf-region customer in six months",
+      "source": "https://easternherald.com/press-release/bio-key-secures-another-middle-east-government-contract-for-its-passwordless-biometric-identity-and-access-management-solutions/"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "contract",
+      "headline": "New Middle East government security agency customer adopted BIO-key's MFA/SSO platform via Gulf distribution partner IT Harmony",
+      "source": "https://finviz.com/news/401493/bio-key-adds-new-middle-east-government-security-agency-customer-expanding-regional-footprint"
     },
     {
       "date": "2026-10-13",
@@ -163,6 +182,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: no new dated catalyst found; the Benzinga Nov 3 price move appears tied to the same Middle East contract/hire already on file, not a new event. Earnings-date three-way conflict (Nov 12/13/16) remains unresolved, no company confirmation found. Essentially quiet.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -336,11 +365,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflicts updated"
+      "3 new catalyst(s)"
     ],
     "tradingDay": true
   }

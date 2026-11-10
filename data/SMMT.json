@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.364Z",
+  "lastResearched": "2026-11-10T21:26:29.101Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -83,6 +83,12 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-14",
+      "type": "regulatory",
+      "headline": "FDA PDUFA goal action date for the ivonescimab BLA in EGFR-mutated NSCLC — decision pending as of 2026-11-10",
+      "source": "https://rallies.ai/news/summit-therapeutics-gains-as-ivonescimab-bla-clock-ticks-toward-nov-14-2026-pdufa"
+    },
+    {
       "date": "2026-11-05",
       "type": "earnings",
       "headline": "Summit Therapeutics reported Q3 2026 results: GAAP net loss $208.4M (-$0.26/share) vs $231.8M (-$0.31/share) in Q3 2025; non-GAAP net loss $160.7M (-$0.20/share); nine-month 2026 GAAP net loss $613.5M vs $860.4M prior-year nine months; GAAP operating expenses $214.6M (down from $234.2M YoY); cash position $629.8M as of 2026-09-30 (pre-dates the AstraZeneca $2B investment, which closed 2026-10-05)",
@@ -116,6 +122,12 @@
       "type": "earnings",
       "headline": "Q2 2026 results: GAAP net loss $215.7M, EPS -$0.28/-$0.37 (see conflicts); cash position rose to $690.7M including ~$231M raised via ATM facility during the quarter",
       "source": "https://www.stocktitan.net/news/SMMT/summit-therapeutics-to-host-second-quarter-2026-financial-results-rdeynvdy194q.html"
+    },
+    {
+      "date": "2026-01-12",
+      "type": "regulatory",
+      "headline": "FDA accepted the BLA for ivonescimab plus chemotherapy in EGFR-mutated, locally advanced/metastatic non-squamous NSCLC after prior EGFR TKI therapy, based on Phase III HARMONi trial; PDUFA goal date set for 2026-11-14",
+      "source": "https://www.businesswire.com/news/home/20260112655330/en"
     }
   ],
   "conflicts": [
@@ -124,6 +136,16 @@
   "pendingFilings": [],
   "notes": "PM 2026-11-06: found and filled in the Q3 2026 earnings print (released 2026-11-05, one day before this pass -- the gap the prior pass's pendingFilings flagged). GAAP net loss narrowed YoY; cash $629.8M at quarter-end (pre-AstraZeneca-close). The FDA PDUFA goal date for ivonescimab (EGFRm NSCLC BLA) is now 8 days out (2026-11-14) -- unchanged and confirmed again this session via multiple sources, still the key near-term catalyst; no delay, no advisory-committee signal, and no label/review-issue found. Could not confirm the stock's reaction to the Nov 5 print, nor a clean current market cap/share count, this session.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -264,10 +286,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

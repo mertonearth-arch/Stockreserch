@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-09T05:32:26.363Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-10T21:26:29.101Z",
   "fundamentals": {
     "marketCap": {
       "value": 25274000000,
@@ -117,6 +117,14 @@
   "pendingFilings": [],
   "notes": "PM 2026-11-06: fiscal Q3 FY2027 (quarter ended 2026-10-31) has still not been reported and no company-confirmed report date was found this session -- estimates remain scattered (Dec 1/3/4/7, none company-sourced), consistent with the pattern that Rubrik typically announces its report date about 3 weeks ahead (as it did for Q1 FY2027 on 2026-05-07 for a 2026-06-04 release), so a notice would be expected in mid-to-late November. No new dated catalyst found since the 2026-08-27 Q2 FY2027 print. Price/market-cap/next-earnings conflicts already on file were not resolved this session -- left unchanged.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -322,8 +330,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
+    "date": "2026-11-10",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

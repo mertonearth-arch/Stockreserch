@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.360Z",
+  "lastResearched": "2026-11-10T21:26:29.100Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -142,6 +142,12 @@
       "impact": "medium"
     },
     {
+      "date": "2026-07-09",
+      "type": "regulatory",
+      "headline": "FDA cleared Quoin's IND application for QRX003 in Peeling Skin Syndrome (PSS), a new indication beyond Netherton Syndrome; Phase 2/3 study planned by end-2026",
+      "source": "SEC Form 424B5 prospectus"
+    },
+    {
       "date": "2026-06-30",
       "type": "regulatory",
       "headline": "USPTO issued a Notice of Allowance for a patent covering a QRX003 combination treatment for Netherton syndrome",
@@ -168,6 +174,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: the Q3 2026 results flagged as pending in the prior pass are now out. Headline figures (net loss, 9-month loss, cash) are well corroborated across the company's own release and secondary aggregators. A per-ADS EPS figure and a post-placement shares-outstanding count were NOT located this session -- both left null/stale respectively rather than derived or guessed. No current (2026-11-06) price was established; the on-file 2026-10-25 $4.02 figure is carried forward unchanged (October 2026 monthly-close data found this session, ~$3.99, is broadly consistent and not treated as a conflict).",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -406,10 +422,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

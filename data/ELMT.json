@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.439Z",
+  "lastResearched": "2026-11-10T21:26:29.085Z",
   "fundamentals": {
     "marketCap": {
       "value": 674070000,
@@ -92,6 +92,12 @@
     "note": "Single-sourced; fresher than the on-file $19.96 (2026-10-01) but not yet corroborated by a second source."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 earnings call held today (8:00am ET) for fiscal quarter ended 2026-10-02; figures not yet indexed by search at research time",
+      "source": "https://pluang.com/en/news-feed/the-elmet-group-jadwalkan-panggilan-laba-q3-2026"
+    },
     {
       "date": "2026-11-03",
       "type": "earnings date announcement",
@@ -186,6 +192,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: Nov 10, 8:00am ET earnings call now corroborated by two independent aggregators (Pluang, Barchart) citing the company's own announcement. New price point: Fool.com shows a $22.06 close (2026-11-03, single-sourced) vs the on-file $19.96 (2026-10-01) -- recorded as current given it is fresher and dated, flagged as single-source pending corroboration. No new dated catalyst beyond the Masan stake-sale already on file.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -383,13 +399,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

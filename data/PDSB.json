@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.444Z",
+  "lastResearched": "2026-11-10T21:26:29.091Z",
   "fundamentals": {
     "marketCap": {
       "value": 89100000,
@@ -213,6 +213,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: resolved the prior pass's undated workforce-reduction/CFO-departure items with specific dates from SEC 8-Ks (Aug 6 RIF board approval, Aug 21 employee notifications + COO termination, Sep 12 CFO resignation), plus a previously-unrecorded Jul 30 Nasdaq bid-price deficiency notice -- added as four new dated catalysts. New cash figure ($5.6M at 2026-06-30, going-concern reiterated) fills a previously-missing field. Market cap updated to ~$89.1M (2026-11-06) from the prior $80.6M (2026-10-30). Next earnings still 2026-11-12, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -422,16 +430,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "growth updated",
-      "marketCap updated",
-      "cash updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

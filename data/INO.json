@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.355Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-10T21:26:29.097Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -53,6 +53,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-09",
       "run": "am",
       "quiet": true,
@@ -78,8 +86,8 @@
   ],
   "notes": "New addition this pass, found via the closing-movers web sweep rather than the due list. First-ever FDA product approval is a major dated catalyst for a long-pre-revenue biotech, but the stock's actual price/market-cap today could not be pinned down from reachable sources -- next pass should prioritize refreshing price, market cap and short interest now that the stock has repriced sharply off its approval.",
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
+    "date": "2026-11-10",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

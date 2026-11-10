@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.365Z",
+  "lastResearched": "2026-11-10T21:26:29.103Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -111,6 +111,12 @@
     {
       "date": "2026-06-05",
       "type": "regulatory",
+      "headline": "Turbo Energy regained compliance with Nasdaq's minimum stockholders' equity requirement",
+      "source": "MarketBeat"
+    },
+    {
+      "date": "2026-06-05",
+      "type": "regulatory",
       "headline": "Nasdaq confirmed Turbo Energy regained compliance with the minimum stockholders'-equity requirement (Listing Rule 5550(b)(1)) after the capital raise lifted equity from ~$1.88M to ~$6.48M",
       "source": "News summary (briefglance.com 'Turbo Energy Regains Nasdaq Compliance After $5M Capital Raise')"
     },
@@ -119,12 +125,28 @@
       "type": "corporate update",
       "headline": "\"Turbo Energy Advances Nasdaq Compliance and Expands Global Energy Storage Footprint\"",
       "source": "https://www.chartmill.com/news/external/31155/gnwcq-2026-6-3-turbo-energy-advances-nasdaq-compliance-and-expands-global-energy-storage-footprint"
+    },
+    {
+      "date": "2026-04-28",
+      "type": "business update",
+      "headline": "Expansion into defense/energy-security applications; deployed AI-driven energy storage in international military operations; partnered with Hithium to integrate AI-driven battery storage software across Europe and Latin America",
+      "source": "MarketBeat"
     }
   ],
   "conflicts": [],
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: this was the name flagged for extra scrutiny (quietRuns=2, one more quiet PM pass drops a tier). A deeper search past the generic ticker-news query turned up a genuine new dated item: a 2026-10-06 SEC 6-K/press release on the Pamesa Net Zero project reaching 62.5 MWh of fully operational storage (added to catalysts above) — this was not on file (prior catalysts stopped at 2026-09-17). Two other Turbo Energy items surfaced in search (an April 20, 2026 Hithium AI-optimization partnership and an April 9, 2026 US patent grant) are both older than the ~6-month catalyst window from today and were already stale relative to the file's September/July items, so not added. All pre-existing conflicts (shares outstanding, float, market-cap range, H1 2026 net-result discrepancy, reverse-split-related price anomaly) remain unresolved and unchanged — no new figures found to update them. Could not establish today's price (see TER notes on WebFetch access this session).",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -255,10 +277,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

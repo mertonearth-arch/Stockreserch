@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-09T05:32:26.355Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-10T21:26:29.096Z",
   "fundamentals": {
     "marketCap": {
       "value": 13300000000,
@@ -92,6 +92,12 @@
   "catalysts": [
     {
       "date": "2026-10-28",
+      "type": "guidance",
+      "headline": "Data-center backlog reached ~$4.5B including a long-term Amazon supply agreement with initial combined deliveries of $2.4B across 2027-2028; lead times cited at 45-50 weeks",
+      "source": "https://247wallst.com/cards/generac-q3-2026-earnings-gnrc-01m60ztbceak40kt17w5zvbg6m"
+    },
+    {
+      "date": "2026-10-28",
       "type": "price action",
       "headline": "MIXED/CONFLICTING reports on the stock's reaction to the Q3 2026 print (kept verbatim, not reconciled): one source reports a ~2.07% premarket decline to $187.88 (well off the 52-week high of $296.44); another reports a ~3.0% premarket decline; a third (GuruFocus) reports a ~3.3% premarket GAIN, directly contradicting the first two. By 2026-10-29, sources describe the stock up ~1% intraday, closing around $203.32. Underlying driver, consistent across sources: adjusted EPS of $2.54 beat consensus (~$2.43-$2.44) but net sales of $1.29B missed the ~$1.32B consensus despite +16% YoY growth — a genuine beat-and-miss combination plausibly explaining the divergent characterizations (premarket dip on the revenue miss vs. recovery on the EPS beat/data-center backlog).",
       "impact": null,
@@ -152,6 +158,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 28, 2026 Q3 print already on file. Searched again for a confirmed November price/close and a Q4 2026 earnings date; found only stale/conflicting Oct 27-28 snapshots that duplicate the conflicts already recorded on file, plus an EarningsWhispers calendar entry placing a GNRC report on Nov 2, 2026 that appears to be a stale/incorrect listing given Q3 was already reported Oct 28. No changes made this pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -346,10 +362,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

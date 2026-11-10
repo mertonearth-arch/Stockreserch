@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.441Z",
+  "lastResearched": "2026-11-10T21:26:29.088Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -178,6 +178,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: Q3 2026 earnings were due today but no print found yet (SEC EDGAR unreachable in this sandbox; search index has not caught up). No fresher price than the on-file unreconciled $103.82M-$284.65M market-cap spread. Quiet pass pending the actual report.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -445,7 +453,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": true,
     "changes": [],

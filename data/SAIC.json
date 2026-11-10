@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.363Z",
+  "lastResearched": "2026-11-10T21:26:29.101Z",
   "fundamentals": {
     "marketCap": {
       "value": 5361000000,
@@ -101,6 +101,12 @@
     {
       "date": "2026-08-31",
       "type": "earnings",
+      "headline": "Q2 FY2027 results included a ~$400M 5-year intelligence-agency recompete, a ~$330M 5-year Army contract, and a ~$130M 5-year Navy airborne-electronic-warfare contract; SilverEdge Government Solutions acquisition contributed $20M to the quarter",
+      "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "earnings",
       "headline": "Q2 FY2027 results: revenue ~$1.88B (+6% YoY, 5.3% organic, plus ~$20M from the SilverEdge acquisition); net income $102M (-20% YoY); adjusted EBITDA $193M (10.3% margin); diluted EPS $2.38 (GAAP, vs. $2.71 PY) and $3.01 adjusted (vs. $3.63 PY); operating cash flow $146M, free cash flow $131M; net bookings ~$1.2B (quarterly book-to-bill 0.6x, TTM 0.8x); backlog $22.1B ($3.8B funded); capital deployment of $106M ($90M buybacks + $16M dividends). Raised FY2027 guidance: revenue $7.2-$7.3B, adjusted EBITDA $750-$755M, adjusted diluted EPS $10.65-$10.75 (FCF guidance reiterated).",
       "impact": null,
       "source": "https://investors.saic.com/news-releases/news-release-details/saic-announces-second-quarter-fiscal-year-2027-results"
@@ -147,6 +153,16 @@
   "pendingFilings": [],
   "notes": "PM 2026-11-06: no new dated catalyst found for November 2026 -- search turned up only FY2026/2025-dated items already superseded by what's on file, plus one more conflicting next-earnings estimate (Nov 30) added to the existing four-way conflict. Fundamentals and catalysts otherwise unchanged; quiet pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -359,10 +375,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

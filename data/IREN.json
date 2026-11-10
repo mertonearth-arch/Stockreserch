@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.442Z",
+  "lastResearched": "2026-11-10T21:26:29.089Z",
   "fundamentals": {
     "marketCap": {
       "value": 7758000000,
@@ -252,6 +252,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: filled the previously-null Q1 FY2027 EPS field with -$0.66/share GAAP (net loss $263M matches on file); new adjusted EBITDA figure of $66M for the quarter. RESOLVED the total-revenue conflict in favor of $228M (AI Cloud ~$200M + bitcoin mining ~$28M) -- multiple independent sources now corroborate this over the earlier $240.3M alternative reading that was previously flagged. Share-count conflict remains open (see conflicts) and the post-earnings price has not been confirmed with an actual close.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -553,13 +561,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

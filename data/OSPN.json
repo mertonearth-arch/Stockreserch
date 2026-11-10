@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.359Z",
+  "lastResearched": "2026-11-10T21:26:29.099Z",
   "fundamentals": {
     "revenue": [
       {
@@ -68,12 +68,19 @@
     }
   },
   "price": {
-    "last": null,
+    "last": 19.74,
     "changePct": null,
-    "asOf": null,
-    "note": "Still unestablished post-earnings. This session found two further conflicting snapshots -- see conflicts -- neither clean enough to use."
+    "asOf": "2026-10-29",
+    "source": "Upstox",
+    "note": "Fills previously-null price field."
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "guidance",
+      "headline": "OneSpan raised FY2026 total revenue outlook to $254M-$258M from prior $248M-$252M",
+      "source": "https://finviz.com/news/412062/onespan-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -87,6 +94,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -168,10 +185,12 @@
   ],
   "notes": "PM 2026-11-06: no new dated catalyst since the 2026-10-29 Q3 2026 earnings print (still the most recent event). Next earnings (Q4 2026) still not announced. Price/market-cap conflict grew rather than resolved this pass -- see conflicts. Other fundamentals (cash, debt, shares outstanding, short interest) unchanged from the 2026-11-05 pass.",
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

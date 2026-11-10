@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.436Z",
+  "lastResearched": "2026-11-10T21:26:29.082Z",
   "fundamentals": {
     "marketCap": {
       "value": 10600000000,
@@ -162,6 +162,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: no fresher ETH-holdings figure, price, or catalyst found this session -- search results were either stale (pre-November) or undated. Next earnings remains 2026-11-23 (Earnings Whispers, unconfirmed), still conflicting with the on-file Nov 20 estimate. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -368,7 +376,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": true,
     "changes": [],

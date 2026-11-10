@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.433Z",
+  "lastResearched": "2026-11-10T21:26:29.080Z",
   "fundamentals": {
     "marketCap": {
       "value": 4100000,
@@ -144,6 +144,13 @@
     {
       "date": "2026-08-13",
       "type": "earnings",
+      "headline": "Q1 FY2027 results (qtr ended 2026-06-30): zero revenue, GAAP loss $4.02/share vs $4.05 consensus, opex down 11.9% YoY to ~$1.6M, cash $4.93M",
+      "impact": "shares reported up ~37.8% premarket",
+      "source": "aggregator coverage (Benzinga/BioPharmaWatch)"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "earnings",
       "headline": "Q1 FY2027 (qtr ended 6/30/26): net loss narrowed to $1.55M from $1.76M YoY; opex down 11.9%; cash $4.9M; dosed first participant in 3rd/final Phase 1 oncology cohort (Australia)",
       "impact": "medium",
       "source": "https://www.biospace.com/press-releases/aethlon-medical-to-release-first-quarter-financial-results-and-host-conference-call-on-august-13-2026"
@@ -183,6 +190,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: price nudged up to $5.75 (MarketChameleon, 2026-11-04) from the on-file $5.22 (2026-10-26). Confirmed Q1 FY2027 actual EPS of -$4.02 (Benzinga) vs a -$3.76 consensus estimate -- fills the previously-null EPS field. No update found on the North Immunology merger (last confirmed via the 2026-09-17 announcement; Q1 2027 target close; S-4 status unknown, sec.gov unreachable this session). Next earnings still 2026-11-12, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -428,13 +445,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
-      "marketCap updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

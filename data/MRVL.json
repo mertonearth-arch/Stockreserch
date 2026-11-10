@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-09T05:32:26.358Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-10T21:26:29.098Z",
   "fundamentals": {
     "marketCap": {
       "value": 211120000000,
@@ -202,6 +202,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 6, 2026 Investor Day and the Oct 9-16 decline already on file. Re-searched for a confirmed Q3 FY2027 earnings date; none found -- the quarter ends around Oct 31, 2026 so a late-Nov/early-Dec report is the expected window, consistent with the three disagreeing, uncompany-confirmed estimates already on file (Nov 26, Dec 1, Dec 2, 2026). No changes made this pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -413,8 +421,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
+    "date": "2026-11-10",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

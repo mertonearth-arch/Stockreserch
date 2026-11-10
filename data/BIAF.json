@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.434Z",
+  "lastResearched": "2026-11-10T21:26:29.078Z",
   "fundamentals": {
     "marketCap": {
       "value": 2799562,
@@ -92,10 +92,10 @@
     }
   },
   "price": {
-    "last": 4.725,
-    "changePct": -16.22,
-    "asOf": "2026-10-09",
-    "note": "Delayed Wedbush quote. A separate MarketScreener snapshot shows $6.055 on 2026-10-02 (-65.79% YTD) -- not reconciled with the Oct 9 figure; both recorded, see conflicts."
+    "last": 3.35,
+    "changePct": null,
+    "asOf": "2026-11-04",
+    "note": "Investing.com snapshot (prior close $3.32). Supersedes the on-file 2026-10-09 $4.725 figure."
   },
   "catalysts": [
     {
@@ -219,6 +219,12 @@
     {
       "date": "2026-08-07",
       "type": "earnings",
+      "headline": "Q2 2026 results: EPS topped estimate",
+      "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/BIAF"
+    },
+    {
+      "date": "2026-08-07",
+      "type": "earnings",
       "headline": "Q2 2026 results: CyPath Lung test volume up 216% YoY vs. Q2 2025; longitudinal clinical trial began patient enrollment at 11 clinical sites",
       "source": "https://www.1stoncology.com/blog/?p=112745"
     },
@@ -240,11 +246,23 @@
   "conflicts": [
     "Current price/market cap still unresolved this pass: WebSearch this session found only undated or non-2026-Q4 snapshots (Digrin July 2026 $0.71; MarketChameleon Feb 2026 $0.93; Robinhood March 2026 $2.25) that do not reconcile with the on-file Oct 9, 2026 $4.725 Wedbush delayed quote or with each other — none usable to update price, kept the on-file figure, not averaged.",
     "Additional new late-October 2026 price snapshots found this session (Upstox $3.06 as of 2026-10-30; Tickertape $2.84 as of 2026-10-26) suggest the price declined further from the on-file $4.725 (2026-10-09) figure, but conflict with each other and could not be corroborated by a primary source — not used to update the recorded price; the ~-16% move already on file (2026-10-09, -16.22%) may also not be the same move referenced by these later undated/low-confidence snapshots.",
-    "A further price point found this session (MarketScreener, ~$6.06 as of 2026-10-02, down ~24% over the prior week) is dated BEFORE the on-file 2026-10-09 $4.725 Wedbush close yet is higher than it -- an odd sequencing that is not reconciled; not used to override."
+    "A further price point found this session (MarketScreener, ~$6.06 as of 2026-10-02, down ~24% over the prior week) is dated BEFORE the on-file 2026-10-09 $4.725 Wedbush close yet is higher than it -- an odd sequencing that is not reconciled; not used to override.",
+    "Next earnings date unconfirmed/conflicting: EarningsWhispers said 2026-11-06 (passed with no confirmed release found), TrendSpider says 2026-11-13."
   ],
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: the -16.22% move flagged for this pass remains unexplained -- no dated catalyst or news found to account for it (WebFetch continues to be unreachable for verification). No Q3 2026 financial release found yet; the on-file Nov 6, 2026 earnings estimate has now passed without a confirmed report, so next-earnings is updated to TrendSpider's Nov 13, 2026 estimate (still unconfirmed). Added a cash figure ($3.1M at 2026-03-31, down from $6.4M FYE2025) not previously on file.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -471,12 +489,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "cash updated",
+      "1 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

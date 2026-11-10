@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.353Z",
+  "lastResearched": "2026-11-10T21:26:29.095Z",
   "fundamentals": {
     "marketCap": {
       "value": 14300000000,
@@ -88,6 +88,12 @@
   },
   "price": null,
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q4 FY2026 results included a $65M accrual for a proposed Scores antitrust-litigation settlement, a $48M non-operating gain on sale of an equity stake, and a $27M restructuring charge; management declined to give FY2027 guidance citing mortgage-market uncertainty",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454726000037/exhibit991erq42026.htm"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -186,6 +192,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-11-04 Q4 FY2026 print and the 2026-10-27 analyst downgrade wave already on file. No reliable current-dated price was established this session -- sources found this session span roughly $712 to $1,300+ depending on source and date, none clearly dated to early November 2026, so price is left unchanged rather than guessed. Non-GAAP EPS, full FY2026 totals, FY2027 guidance and an updated balance sheet remain not found.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -402,10 +418,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

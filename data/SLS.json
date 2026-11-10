@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.445Z",
+  "lastResearched": "2026-11-10T21:26:29.092Z",
   "fundamentals": {
     "marketCap": {
       "value": 1730000000,
@@ -89,6 +89,12 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-04",
+      "type": "clinical/regulatory",
+      "headline": "Completed Phase 2 data for SLS009 (tambiciclib) in relapsed/refractory AML to be presented at ASH 2026 (Dec 12-15, New Orleans); frontline Phase 2 data expected Q4 2026",
+      "source": "https://www.barchart.com/story/news/804307/sellas-life-sciences-to-present-preclinical-data-highlighting-potent-activity-of-sls009-in-aml-at-the-2026-aacr-conference"
+    },
+    {
       "date": "2026-10-28",
       "type": "clinical trial milestone",
       "headline": "Phase 3 REGAL trial of galinpepimut-S (GPS) in AML reached its pre-specified 80th death event, triggering database lock, unblinding and final statistical analysis of the overall-survival primary endpoint; topline results expected later in Q4 2026",
@@ -155,6 +161,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: REGAL Phase 3 topline overall-survival results remain unreleased -- company continuing through database lock/unblinding/analysis following the Oct 28 80th-event milestone, still guided to 'this quarter' (Q4 2026); reconfirmed pending as of today, no new catalyst. New cash figure established ($138.3M at 2026-06-30, up from $71.8M FYE2025) -- previously missing field. New price/short-interest data points recorded as conflicts, not used to override on-file figures. Next earnings still 2026-11-18, unconfirmed.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -302,12 +318,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "cash updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

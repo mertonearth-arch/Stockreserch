@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.433Z",
+  "lastResearched": "2026-11-10T21:26:29.081Z",
   "fundamentals": {
     "marketCap": {
       "value": 10080000,
@@ -154,6 +154,12 @@
       "headline": "Former CEO Brad Heppner convicted on federal fraud charges; sentencing scheduled for October 21, 2026",
       "impact": "underlying basis for the Sept 23 restructuring/separation plan",
       "source": "https://www.globenewswire.com/news-release/2026/09/23/3367391/0/en/beneficient-announces-strategy-to-eliminate-hclp-debt-and-heppner-equity-interests.html"
+    },
+    {
+      "date": "2026-01-02",
+      "type": "regulatory",
+      "headline": "Nasdaq confirmed Beneficient regained compliance with the bid-price rule and another listing requirement",
+      "source": "search aggregation (iTiger/TipRanks)"
     }
   ],
   "conflicts": [
@@ -164,6 +170,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: new lower price point found (Benzinga $0.6945, 2026-11-06), roughly corroborated by an undated RedChip reading, consistent with the stock's ongoing decline already on file. Heppner sentencing date remains single-sourced (Panabee, Jan 11 2027) with no second corroboration found again this session. No new dated catalyst; no debt-settlement announcement found.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -345,12 +361,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "marketCap updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

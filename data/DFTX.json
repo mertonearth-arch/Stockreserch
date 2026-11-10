@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.438Z",
+  "lastResearched": "2026-11-10T21:26:29.084Z",
   "fundamentals": {
     "marketCap": {
       "value": 4600000000,
@@ -99,6 +99,12 @@
       "source": "https://finviz.com/news/412058/definium-therapeutics-to-report-third-quarter-2026-financial-results-on-november-9-2026"
     },
     {
+      "date": "2026-09-21",
+      "type": "regulatory",
+      "headline": "FDA granted Breakthrough Therapy Designation for DT120 ODT in major depressive disorder; also reported positive topline Phase 3 Panorama (GAD) results",
+      "source": "https://www.healio.com/news/psychiatry/20260921/fda-grants-breakthrough-therapy-designation-for-dt120-odt-in-depression-treatment"
+    },
+    {
       "date": "2026-09-14",
       "type": "clinical trial",
       "headline": "Positive Phase 3 Panorama topline for DT120 ODT in generalized anxiety disorder: 100µg dose showed 5.1-point placebo-adjusted HAM-A improvement at Week 12 (p<0.0001, Cohen's d=0.64); DT120 holds FDA Breakthrough Therapy designation for GAD and MDD; pre-NDA meeting planned 4Q 2026, NDA filing planned 1H 2027",
@@ -170,6 +176,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: Q3 2026 earnings webcast confirmed today 4:30pm ET, now double-sourced (BioPharmaWatch, Finviz) -- reaffirms the on-file date. Actual figures not yet posted to the search index as of this pass (same-day, after-close report). No fresher price found. Quiet pass pending tomorrow's figures.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -327,12 +343,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

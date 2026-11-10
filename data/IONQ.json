@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.441Z",
+  "lastResearched": "2026-11-10T21:26:29.088Z",
   "fundamentals": {
     "marketCap": {
       "value": 12000000000,
@@ -173,6 +173,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: price remains unresolved post-earnings -- two conflicting November readings ($29.99 pre-earnings pop vs $26.63 'near 52-week low' days later), neither matching the on-file Oct 15 figure; no 2026-11-09 close found. EPS/revenue figures already on file reconfirmed (adjusted EPS -$0.29, GAAP +$1.42 warrant-driven, revenue $173.83M +336% YoY) -- no change needed there. No resolution on the flagged +9.33% move.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -409,12 +417,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

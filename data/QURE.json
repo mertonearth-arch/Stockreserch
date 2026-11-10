@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.361Z",
+  "lastResearched": "2026-11-10T21:26:29.100Z",
   "fundamentals": {
     "marketCap": {
       "value": 1440000000,
@@ -88,6 +88,12 @@
     "note": "Most recent dated quote found this session -- newer than the on-file 2026-10-05 $23.11 figure, but still predates today (2026-11-05); no same-day post-earnings quote could be sourced before the WebSearch budget was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "regulatory",
+      "headline": "FDA accepted the BLA for AMT-130 (Huntington's disease gene therapy) with Priority Review, target PDUFA date 2027-05-01; UK MHRA validated the corresponding marketing application",
+      "source": "https://briefglance.com/companies/uniqure-n-v/pulses/63297"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -181,6 +187,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: found the primary-source regulatory update (company's own 2026-11-02 announcement) behind the FDA BLA acceptance already noted as part of the 2026-11-04 earnings catalyst on file -- this resolves the prior pass's flag that the 2027-05-01 PDUFA date was secondary-sourced only; it is now confirmed via uniQure's own release, which also adds confirmatory-trial design detail not previously on file. No newer price than the on-file 2026-10-29 $24.96 was established this session (shared WebSearch budget exhausted); no new catalyst dated after Nov 2 was found.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -398,10 +414,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

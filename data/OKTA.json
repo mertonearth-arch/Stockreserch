@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.358Z",
+  "lastResearched": "2026-11-10T21:26:29.098Z",
   "fundamentals": {
     "marketCap": {
       "value": 31180000000,
@@ -86,7 +86,7 @@
     "nextEarnings": {
       "date": "2026-12-01",
       "confirmed": true,
-      "note": "Company-confirmed via its own 8-K press release: Q3 FY2027 (quarter ended 2026-10-31) results after market close 2026-12-01, webcast 2pm PT/5pm ET. Supersedes the on-file three-way-conflicting estimate (Nov 25 / Dec 2 / Dec 7) -- all of those were third-party guesses; MarketScreener's separate Dec 7 projection is also superseded by this confirmed date."
+      "note": "Company's own press release: Q3 FY2027 (qtr ended 2026-10-31) after close 2026-12-01, webcast 2pm PT. Matches/confirms the on-file date."
     }
   },
   "price": {
@@ -96,6 +96,13 @@
     "note": "No current figure confirmed. A prior-pass figure of $212.63 (source/date unclear) could not be reverified; a new market-cap/shares-outstanding snapshot (Fintel, 2026-09-30) implies a share price of roughly $178, a large gap from $212.63 that could not be reconciled -- see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-10-30",
+      "type": "index",
+      "headline": "S&P Dow Jones Indices announced Okta will join the S&P 500 effective before trading opens 2026-11-04, replacing Kenvue",
+      "impact": "shares rose 2.1% after-hours on the announcement",
+      "source": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"
+    },
     {
       "date": "2026-10-30",
       "type": "index add",
@@ -194,6 +201,17 @@
   "pendingFilings": [],
   "notes": "PM 2026-11-06: main finding is the company's own confirmed Q3 FY2027 earnings date (Dec 1, 2026, after close), resolving the three-way next-earnings conflict on file. No new dated catalyst (contract, filing, FDA/reg, offering) found since the 2026-07-30 Permiso acquisition already on file. Current share price could not be established -- see conflicts; fundamentals (market cap, EPS, revenue, cash/debt) left unchanged from the 2026-11-05 pass since no newer dated figures were found this session.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -414,11 +432,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
+    "date": "2026-11-10",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.443Z",
+  "lastResearched": "2026-11-10T21:26:29.090Z",
   "fundamentals": {
     "marketCap": {
       "value": 2223706740,
@@ -118,6 +118,12 @@
     },
     {
       "date": "2026-09-23",
+      "type": "regulatory",
+      "headline": "ITC instituted Investigation No. 337-TA-1523 on Netlist's new complaint against Micron over HBM patents",
+      "source": "SEC filings; webull.com"
+    },
+    {
+      "date": "2026-09-23",
       "type": "litigation",
       "headline": "US ITC instituted a Section 337 investigation into Micron, Supermicro, HPE, and Lenovo over alleged infringement of Netlist DDR5 patents (the underlying complaint was filed by Netlist in August 2026)",
       "impact": "Opens a second litigation/exclusion-order track against four large respondents; it is unclear from available sources whether the October 2026 Micron settlement resolves Micron's portion of this ITC matter specifically",
@@ -137,6 +143,12 @@
       "source": "https://finance.yahoo.com/markets/stocks/articles/nlst-stock-rallies-itc-patent-165402623.html"
     },
     {
+      "date": "2026-08-12",
+      "type": "litigation",
+      "headline": "Netlist filed new patent infringement action against Micron at the ITC over DDR5 RDIMM/MRDIMM patents (also naming Supermicro, HPE, Lenovo in a related California case)",
+      "source": "placera.se press release; barchart.com"
+    },
+    {
       "date": "2026-08-05",
       "type": "strategic partnership",
       "headline": "Netlist announced a five-year strategic alliance with Samsung Electronics",
@@ -149,6 +161,12 @@
       "headline": "Netlist reported Q2 2026 results: net sales $109.8M (+163% YoY) vs. $90.0M consensus; net income $1.4M vs. a $6.1M net loss in Q2 2025; H1 2026 net sales $214.7M (+204% YoY); management guided Q3 2026 product revenue to be similar to Q2",
       "impact": "First organic-growth earnings beat alongside the ongoing patent-litigation narrative; shares reportedly fell premarket despite the beat per one secondary headline ('Plunges 16% Pre-Market Despite Q2 Revenue Beat, Stuck at Break-Even EPS')",
       "source": "https://www.barchart.com/story/news/3547874/netlist-reports-second-quarter-2026-results ; SEC 8-K (sec.gov/Archives/edgar/data/0001282631/000110465926088464/)"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "litigation",
+      "headline": "Netlist expanded legal action against Samsung and Google alleging infringement of new AI memory patents (new ITC complaint and EDTX case, also naming Supermicro, Nvidia, Broadcom)",
+      "source": "storagenewsletter.com/2026/07/02"
     }
   ],
   "conflicts": [
@@ -158,6 +176,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: no new dated catalyst, ITC ruling, or earnings development found beyond what is on file. Confirmed the 337-TA-1511 Samsung/Google/Supermicro/Nvidia/Broadcom ITC case (instituted mid-July 2026, over the '537 HBM and '937 DDR5/MRDIMM patents) has an evidentiary hearing 'scheduled to start in November 2026' per one source, though no exact date or ruling was found -- consistent with, not contradicting, what's on file. Earnings remain scheduled for tomorrow, 2026-11-10 (company-confirmed), no pre-announcement news. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -380,10 +408,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

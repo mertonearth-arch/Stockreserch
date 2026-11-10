@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.437Z",
+  "lastResearched": "2026-11-10T21:26:29.083Z",
   "fundamentals": {
     "marketCap": {
       "value": 407000,
@@ -158,6 +158,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: FDA PDUFA target action date for the IGALMI at-home sNDA (2026-11-14) remains pending, no outcome yet (5 days out). No new bankruptcy-docket events found. New but unreconciled OTC price snapshots found (see conflicts); not used to update the recorded price given thin/single-aggregator sourcing. Quiet pass otherwise.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -392,12 +400,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

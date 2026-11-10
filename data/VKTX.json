@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.368Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-10T21:26:29.104Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -142,6 +142,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file; no company press release, 8-K, or clearly-dated analyst action from November 2026 was located this session. Checked specifically for a post-earnings price reaction, an ObesityWeek/November-conference presentation, and new analyst price-target action — the only new lead found is the single unverified German-language source in conflicts. All existing conflicts (market cap range, cash-position definition, after-hours price reaction, share count) remain unresolved and unchanged. Could not establish today's closing price (see TER notes on WebFetch access this session).",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -356,8 +364,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
+    "date": "2026-11-10",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

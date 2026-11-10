@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T05:32:26.367Z",
+  "lastResearched": "2026-11-10T21:26:29.103Z",
   "fundamentals": {
     "marketCap": {
       "value": 14400000,
@@ -89,7 +89,12 @@
       "note": "Not found in available sources."
     }
   },
-  "price": null,
+  "price": {
+    "last": 4.89,
+    "changePct": null,
+    "asOf": "2026-11-07",
+    "note": "Fills previously-null price field; thinly-traded micro-cap, volatile."
+  },
   "catalysts": [
     {
       "date": "2026-10-09",
@@ -98,11 +103,29 @@
       "source": "Quiver Quant news summary"
     },
     {
+      "date": "2026-10-06",
+      "type": "governance",
+      "headline": "8-K: director Kanishka Roy added to the audit committee, part of remediation for a Nasdaq continued-listing/independent-director compliance gap",
+      "source": "SEC 8-K"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "contract",
+      "headline": "TROLLEE agreement signed for phased deployment of the VeeaONE platform to 1,000 unattended retail stores",
+      "source": "WebSearch aggregation"
+    },
+    {
       "date": "2026-10-01",
       "type": "contract",
       "headline": "Signed an agreement with TROLLEE Holdings for phased deployment of the VeeaONE platform across up to 1,000 unattended retail stores, beginning with up to 50 locations, extending a strategic partnership with TROLLEE originally dating to 2018.",
       "impact": "Reported as triggering a sharp single-session gain (one source cites ~48% intraday); single secondary-source report, no primary company press release or 8-K independently located this session",
       "source": "https://tickeron.com/ticker/VEEA ; https://www.barchart.com/story/news/2601760/veea-inc-and-trollee-holdings-ltd-extend-strategic-partnership-to-deliver-a-highly-advanced-ai-powered-autonomous-retail-ecosystem"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "M&A",
+      "headline": "Veea and NovaGen signed a non-binding term sheet for a ~$750M combination to form NovaGen Health Networks on VeeaONE; GeoNova Capital commits an initial $10M investment",
+      "source": "SEC 8-K / Panabee / Benzinga"
     },
     {
       "date": "2026-09-14",
@@ -137,8 +160,18 @@
     "New this pass: Market Chameleon reports VEEA closed at $4.30 on 2026-11-02, down 10.8%, on low volume (176,950 shares vs a 30-day average of 8,734,676 — a quiet, low-conviction move with no company news found tied to that date). That same source states a market cap of $13.38M at that price, which implies roughly 3.11M shares outstanding — a third, independent figure that does not match the on-file ~2.52M derived post-split estimate, nor the various pre-split figures above. None of these share-count readings has been confirmed against a primary filing this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: this was the other name flagged for extra scrutiny (quietRuns=2). No new dated catalyst beyond the 2026-10-08/10-09 Nasdaq-compliance item already on file — confirmed via a second source this pass (the underlying governance fix: Alan Black added to the Compensation Committee and Kanishka Roy added to the Audit Committee, both effective 2026-10-08, after director Helder Antunes resigned from the board on 2026-10-08 and the board was reduced to five members; this is the same event already on file, just with more detail, so not logged as a separate catalyst). The non-binding NovaGen Group B.V. term sheet (2026-09-14) still shows no definitive-agreement update as of this search. What DID change: a new, independently-sourced price/share-count data point (2026-11-02, see conflicts) that was not on file (price was previously null) — this is not today's close so it is not reported in the price block, but it meaningfully updates the conflict picture, which is why this pass is not being marked fully quiet despite no new catalyst.",
+  "notes": "Theme assignment (Government IT & Defense Services) is uncertain per this pass's research — only retail and healthcare deployments were found for VeeaONE, no defense/government contract; worth re-verifying on a future pass.",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "am",
@@ -270,10 +303,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-10",
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-09T21:16:48.440Z",
+  "lastResearched": "2026-11-10T21:26:29.086Z",
   "fundamentals": {
     "marketCap": {
       "value": 6500000,
@@ -68,7 +68,13 @@
       "note": "Independently corroborated by two sources this session (Unusual Whales and NextEarningsDate.com), both projecting Nov 10, 2026. A third source (EarningsWhispers) instead projects Nov 12, 2026 — kept as a conflict below. No company-issued conference-call notice for Q3 2026 was located."
     }
   },
-  "price": null,
+  "price": {
+    "last": 0.18,
+    "changePct": 0,
+    "asOf": "2026-10-30",
+    "source": "MarketChameleon",
+    "note": "Fills previously-null price field."
+  },
   "catalysts": [
     {
       "date": "2026-10-05",
@@ -139,6 +145,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: established a market cap figure (~$6-7M, two corroborating aggregators), resolving the previously-null field; no reverse-split signal found. No 8-K newer than the on-file 2026-10-05 one (merger termination + note maturity extension). Next earnings estimate unchanged (Nov 10 vs Nov 12 conflict, both unconfirmed).",
   "history": [
+    {
+      "date": "2026-11-10",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-09",
       "run": "pm",
@@ -347,12 +361,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
