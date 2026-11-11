@@ -1,0 +1,55 @@
+{
+  "ticker": "MVST",
+  "name": "Microvast Holdings, Inc.",
+  "sector": "Industrials",
+  "theme": "EV Battery & Energy Storage",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-11-11",
+  "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T05:31:58.857Z",
+  "fundamentals": {},
+  "price": {
+    "last": 0.32,
+    "changePct": -48.5,
+    "asOf": "2026-11-11",
+    "source": "Benzinga premarket movers roundup",
+    "note": "Premarket indicative price."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Microvast reported Q3 2026 results after market close 2026-11-09; pre-report consensus (Earnings Whispers, 2026-11-02) had been ~$74.2M revenue vs. $87.3M in Q2 2026. Actual reported figures not independently located this session -- stock's -48.5% premarket move on 2026-11-11 is reported as tied to a miss, per aggregator coverage, not yet confirmed against the primary release.",
+      "impact": "-48.5% premarket",
+      "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-11",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -48.5%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New stub, AM pass. Actual Q3 2026 reported figures not located this session -- PM pass should confirm against the primary earnings release.",
+  "lastPass": {
+    "date": "2026-11-11",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "move -48.5%"
+    ],
+    "tradingDay": true
+  }
+}

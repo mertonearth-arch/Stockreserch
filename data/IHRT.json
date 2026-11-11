@@ -1,0 +1,54 @@
+{
+  "ticker": "IHRT",
+  "name": "iHeartMedia, Inc.",
+  "sector": "Communication Services",
+  "theme": "Media & Broadcasting",
+  "themeLabel": "established",
+  "tier": "daily",
+  "addedOn": "2026-11-11",
+  "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T05:31:58.857Z",
+  "fundamentals": {},
+  "price": {
+    "last": null,
+    "changePct": -29,
+    "asOf": "2026-11-11",
+    "source": "Benzinga premarket movers roundup"
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "earnings",
+      "headline": "iHeartMedia fell ~29% premarket after its Q3 2026 report; no further detail (reported figures, consensus comparison) located beyond the aggregator mover headline this session.",
+      "impact": "-29% premarket",
+      "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-11",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -29%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New stub, AM pass. Thinly sourced (single aggregator roundup, no primary release found this session) -- PM pass to verify and fill in fundamentals.",
+  "lastPass": {
+    "date": "2026-11-11",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "move -29%"
+    ],
+    "tradingDay": true
+  }
+}

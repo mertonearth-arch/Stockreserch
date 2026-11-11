@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.079Z",
+  "lastResearched": "2026-11-11T05:31:58.855Z",
   "fundamentals": {
     "marketCap": {
       "value": 4410000000000,
@@ -88,13 +88,20 @@
     }
   },
   "price": {
-    "last": 181.6,
-    "changePct": -9.26,
-    "asOf": "2026-11-05",
-    "source": "Trefis / Kalkine coverage of the confirmed Nov 5 close",
-    "note": "Confirmed full-session close -- NVDA's largest single-session decline in the trailing 365 days, part of the same broad AI/data-center selloff (tied to post-midterm-election political risk around data-center buildout) that hit ORCL the same day. Supersedes the stale on-file 2026-10-05 $238.90 figure. No independently confirmed 2026-11-06 close was found this session; general coverage describes chip stocks 'bouncing back' intraday on Nov 6 but without an NVDA-specific closing figure, so this record still reflects the Nov 5 close rather than today's."
+    "last": 176.41,
+    "changePct": -5.48,
+    "asOf": "2026-11-11",
+    "source": "Benzinga premarket movers roundup",
+    "note": "Premarket indicative quote, not a confirmed regular-session close. Same source states NVDA's prior-day close was $186.64 (+2.78%) on 2026-11-10, which would supersede the on-file 2026-11-05 $181.60 print, but that Nov 10 close was not independently corroborated by a second source this session, so it is recorded here only as context, not as the filed price."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "sector move",
+      "headline": "NVDA fell ~5.48% premarket to $176.41, flagged among the day's weakest S&P 500 premarket names, continuing the AI/chip-stock weakness that produced the 2026-11-05 selloff already on file.",
+      "impact": "-5.48% premarket",
+      "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
     {
       "date": "2026-11-05",
       "type": "sector-selloff",
@@ -174,6 +181,16 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-09: no fresher price, catalyst, or fundamentals figure found since the 2026-11-06 pass (no NVDA-specific closing print for 2026-11-06/07/09 located this session). Next earnings remains 2026-11-17 (CME Group-sourced company confirmation); the Nov 17 vs Nov 18 vs Nov 25 conflict is unchanged and unresolved. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -395,10 +412,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-11",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

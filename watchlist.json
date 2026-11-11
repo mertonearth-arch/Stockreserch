@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T21:26:29.110Z",
+  "updated": "2026-11-11T05:31:58.866Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -103,6 +103,12 @@
       "quietRuns": 0,
       "lastResearched": "2026-11-10T21:26:29.086Z"
     },
+    "FF": {
+      "tier": "daily",
+      "theme": "Specialty Chemicals & Biofuels",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-11T05:31:58.857Z"
+    },
     "FICO": {
       "tier": "daily",
       "theme": "Fintech & Consumer Credit",
@@ -138,6 +144,12 @@
       "theme": "Consumer Hardware",
       "quietRuns": 0,
       "lastResearched": "2026-11-10T21:26:29.088Z"
+    },
+    "IHRT": {
+      "tier": "daily",
+      "theme": "Media & Broadcasting",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-11T05:31:58.857Z"
     },
     "INO": {
       "tier": "daily",
@@ -187,6 +199,12 @@
       "quietRuns": 2,
       "lastResearched": "2026-11-10T21:26:29.098Z"
     },
+    "MVST": {
+      "tier": "daily",
+      "theme": "EV Battery & Energy Storage",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-11T05:31:58.857Z"
+    },
     "NLST": {
       "tier": "daily",
       "theme": "Memory Technology & IP Licensing",
@@ -203,7 +221,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-10T21:26:29.079Z"
+      "lastResearched": "2026-11-11T05:31:58.855Z"
     },
     "OKTA": {
       "tier": "daily",
@@ -234,6 +252,12 @@
       "theme": "Biotech Catalyst",
       "quietRuns": 0,
       "lastResearched": "2026-11-10T21:26:29.091Z"
+    },
+    "PEPG": {
+      "tier": "daily",
+      "theme": "Biotech Catalyst",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-11T05:31:58.856Z"
     },
     "QNRX": {
       "tier": "daily",
@@ -276,6 +300,12 @@
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
       "lastResearched": "2026-11-06T21:22:03.996Z"
+    },
+    "SANM": {
+      "tier": "daily",
+      "theme": "Electronics Manufacturing & AI Infrastructure",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-11T05:31:58.856Z"
     },
     "SLS": {
       "tier": "daily",
@@ -339,7 +369,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-10",
-    "run": "pm"
+    "date": "2026-11-11",
+    "run": "am"
   }
 }

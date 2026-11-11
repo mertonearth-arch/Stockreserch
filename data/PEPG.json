@@ -1,0 +1,56 @@
+{
+  "ticker": "PEPG",
+  "name": "PepGen Inc.",
+  "sector": "Healthcare",
+  "theme": "Biotech Catalyst",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-11-11",
+  "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T05:31:58.856Z",
+  "fundamentals": {},
+  "price": {
+    "last": null,
+    "changePct": 122.9,
+    "rvol": null,
+    "asOf": "2026-11-11",
+    "source": "Benzinga premarket movers roundup",
+    "note": "No dollar price confirmed this session, only the premarket percentage move (~29M shares traded premarket per the same source)."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "clinical",
+      "headline": "PepGen's lead candidate (PGN-EDO51, Duchenne muscular dystrophy program) reported to have achieved the highest splicing correction yet seen in its mid-stage trial, per aggregator coverage; underlying primary source (company release / trial data) not independently located this session.",
+      "impact": "+122.9% premarket on ~29M shares",
+      "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-11",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move 122.9%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New stub, AM pass. Fundamentals not researched -- PM pass to fill in. Headline detail is single-sourced via an aggregator roundup, not the primary clinical release; verify in PM.",
+  "lastPass": {
+    "date": "2026-11-11",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "move 122.9%"
+    ],
+    "tradingDay": true
+  }
+}

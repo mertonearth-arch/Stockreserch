@@ -1,0 +1,71 @@
+{
+  "ticker": "SANM",
+  "name": "Sanmina Corporation",
+  "sector": "Technology",
+  "theme": "Electronics Manufacturing & AI Infrastructure",
+  "themeLabel": "hot sector",
+  "tier": "daily",
+  "addedOn": "2026-11-11",
+  "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T05:31:58.856Z",
+  "fundamentals": {
+    "revenue": [
+      {
+        "period": "Q4 FY2026 (ended 2026-10-03)",
+        "value": 3860000000,
+        "yoy": null
+      }
+    ],
+    "growth": {
+      "metric": "FY2027 revenue guidance growth (midpoint)",
+      "period": "FY2027 outlook",
+      "pct": 27
+    }
+  },
+  "price": {
+    "last": null,
+    "changePct": 18.8,
+    "asOf": "2026-11-11",
+    "source": "Benzinga premarket movers roundup"
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Sanmina reported Q4 FY2026 (quarter ended 2026-10-03) revenue of $3.86B with a 6.0% GAAP operating margin; FY2026 full-year revenue grew 79% and non-GAAP operating profit rose 130%. Issued FY2027 outlook implying ~27% revenue growth and ~24% non-GAAP diluted EPS growth at the midpoint, citing AI/data-center demand.",
+      "impact": "+18.8% premarket",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-11",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "growth updated",
+        "move 18.8%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "New stub, AM pass. Q4 non-GAAP EPS figure and exact FY2027 dollar guidance range not located this session; fuller fundamentals for PM pass.",
+  "lastPass": {
+    "date": "2026-11-11",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "revenue updated",
+      "growth updated",
+      "move 18.8%"
+    ],
+    "tradingDay": true
+  }
+}

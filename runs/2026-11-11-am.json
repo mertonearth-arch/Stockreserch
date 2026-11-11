@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-11",
+  "run": "am",
+  "movers": [
+    "PEPG",
+    "SANM",
+    "MVST",
+    "FF",
+    "IHRT"
+  ],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "NVDA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "PEPG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move 122.9%"
+      ]
+    },
+    {
+      "ticker": "SANM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "growth updated",
+        "move 18.8%"
+      ]
+    },
+    {
+      "ticker": "MVST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -48.5%"
+      ]
+    },
+    {
+      "ticker": "FF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -30%"
+      ]
+    },
+    {
+      "ticker": "IHRT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -29%"
+      ]
+    }
+  ],
+  "created": [
+    "PEPG",
+    "SANM",
+    "MVST",
+    "FF",
+    "IHRT"
+  ],
+  "promoted": [],
+  "demoted": [],
+  "quiet": []
+}
