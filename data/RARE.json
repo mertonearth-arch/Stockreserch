@@ -1,63 +1,36 @@
 {
   "ticker": "RARE",
   "name": "Ultragenyx Pharmaceutical Inc.",
-  "sector": null,
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.100Z",
+  "lastResearched": "2026-11-11T21:19:14.102Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1540000000,
-      "asOf": "2026-10-26",
-      "source": "massive.com",
-      "note": "Price $16.01, up ~10% trailing month. Cross-checks reasonably with shares outstanding x price (98,588,873 x $16.01 ≈ $1.578B)."
-    },
-    "float": {
       "value": null,
       "asOf": null,
-      "note": "not found this session"
+      "note": "Not retrieved this session."
     },
-    "sharesOutstanding": {
-      "value": 98588873,
-      "asOf": "2026-07-31",
-      "source": "SEC Q2 FY2026 10-Q cover page",
-      "note": "Up from 98,489,224 as of 2026-05-01 (Q1 10-Q)."
-    },
-    "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
-    },
+    "float": null,
+    "sharesOutstanding": null,
+    "shortInterest": null,
     "cash": {
-      "value": 436000000,
-      "asOf": "2026-06-30",
-      "note": "Down from $534M at 2026-03-31. Net cash used in operations in Q2 2026 was $97M."
+      "value": 401000000,
+      "asOf": "2026-09-30",
+      "source": "company Q3 2026 press release (via finviz.com)"
     },
-    "debt": {
-      "note": "Royalty-related liabilities ~$1.2B, effective interest rates 5.5%-9.2%, per a secondary source — not confirmed against the primary 10-Q."
-    },
+    "debt": null,
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-11-03"
     },
-    "eps": [
-      {
-        "period": "Q2 2026",
-        "value": -0.9,
-        "basis": "GAAP",
-        "note": "Net loss $92M, vs $115M/-$1.17 a year earlier."
-      },
-      {
-        "period": "Q3 2026",
-        "value": -1.16,
-        "basis": "GAAP",
-        "note": "Net loss $118M vs $180M/-$1.81 in Q3 2025. Nine-month 2026 net loss $395M (-$3.89/share). Source: SEC 8-K Exhibit 99.1, filed 2026-11-03."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 2026",
@@ -73,24 +46,36 @@
       }
     ],
     "growth": {
-      "metric": "Total revenue guidance (FY2026, company-issued)",
-      "period": "FY2026",
-      "pct": null,
-      "note": "Company reaffirmed FY2026 total revenue guidance of $730M-$760M in its Q2 2026 report (released ~August 2026). A specific YoY growth percentage could not be computed this session for lack of a verified FY2025 comparable figure."
+      "metric": "revenue vs. consensus",
+      "period": "Q3 2026",
+      "pct": -6.1,
+      "note": "Revenue of $173.0M missed the $184.25M consensus estimate by 6.1%. Year-over-year revenue growth could not be computed — a comparable Q3 2025 revenue figure was not retrieved this session."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "The on-file 'next earnings' date of 2026-11-03 has now occurred (Q3 2026 results reported that date). The next report would be Q4/FY2026 results, which were not found scheduled in this session's search; left null rather than guessing a February 2027 date."
+      "note": "No next earnings date found; consistent with prior state."
     }
   },
   "price": {
-    "last": 15.95,
+    "last": 16.3,
     "changePct": null,
-    "asOf": "2026-10-27",
-    "source": "Tickertape"
+    "asOf": "2026-11-02",
+    "note": "This is the pre-Q3-earnings close (report came Nov 3); current/post-earnings price not retrieved before the search budget was exhausted. 52-week range: low $12.73 (2026-09-16), high $28.50 (2026-08-20)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "restructuring",
+      "headline": "Ultragenyx announced a 20% workforce reduction alongside Q3 2026 results, part of a push toward reaffirmed 2027 profitability",
+      "source": "https://globalgenes.org/raredaily/ultragenyx-to-cut-20-percent-of-workforce/"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "earnings",
+      "headline": "Ultragenyx reported Q3 2026 results: revenue $173.0M (missed $184.25M consensus by 6.1%); reaffirmed FY2026 Crysvita revenue guidance of $500M-$520M; cash, cash equivalents and marketable securities of $401M as of Sept 30, 2026",
+      "source": "https://finviz.com/news/414661/ultragenyx-reports-third-quarter-2026-financial-results-announces-substantial-expense-reductions-and-reaffirms-profitability-in-2027"
+    },
     {
       "date": "2026-11-03",
       "type": "restructuring",
@@ -116,6 +101,13 @@
       "headline": "Ultragenyx reported Q3 2026 revenue of $173M, below analyst estimates of roughly $183.5M-$185.2M; announced substantial expense and headcount reductions expected to cut 2027 R&D spend by at least 50% vs. 2025, and reaffirmed its expectation to be profitable in 2027. Full Q3 EPS figure not found this session.",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526445342/rare-ex99_1.htm"
+    },
+    {
+      "date": "2026-10-31",
+      "type": "asset monetization",
+      "headline": "Ultragenyx's $210 million priority review voucher sale tied to the GENGLYCOS (gene therapy for GSDIa) accelerated approval closed in late October 2026; a second voucher sale (Fayuvi, $203M) was expected to close later in November 2026. Combined net proceeds from both vouchers were expected to total approximately $350 million.",
+      "source": "https://finviz.com/news/415052/ultragenyx-misses-on-revenue-but-gene-therapy-approvals-350-million-in-voucher-proceeds-and-deep-cuts-push-it-toward-profitability",
+      "note": "Exact close date approximated as 'late October 2026' per source wording; the Fayuvi voucher sale closing (expected later in Nov 2026) had not been confirmed as completed as of this research."
     },
     {
       "date": "2026-10-19",
@@ -241,12 +233,31 @@
       "sourceName": "ir.ultragenyx.com"
     }
   ],
-  "conflicts": [
-    "This session re-searched for the market reaction to the 2026-11-03 Q3 2026 print (revenue miss, $173M vs ~$183.5-185M consensus) and still found nothing dated November 2026 -- all 'Ultragenyx Q3 miss, shares plummet ~11.8-11.9% pre-market' coverage found is explicitly the November 2025 Q3 2025 report (loss -$1.81/sh vs -$1.23 consensus), a different year. Confirms the prior pass's conclusion that this headline does not apply to the 2026 print; not used."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM 2026-11-06: no new dated catalyst found since the 2026-11-03 Q3 2026 earnings print already on file. Could not confirm the market's reaction to that print, nor a current share price/market cap, this session -- carried forward unchanged from the prior pass. Quiet pass on fundamentals.",
+  "notes": "Per the non-negotiable rules, analyst rating/price-target changes (Morgan Stanley to Equal Weight, BofA to Neutral, both following the August 2026 Phase 3 ASPIRE apazunersen Angelman-syndrome trial failure) were found in sources but deliberately excluded from this record as opinions/trade calls, not facts. Market cap, shares outstanding, short interest and discrete EPS figures were not retrieved before the session's WebSearch budget was exhausted — a follow-up message could continue this research.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -490,11 +501,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

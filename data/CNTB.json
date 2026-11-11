@@ -1,20 +1,18 @@
 {
   "ticker": "CNTB",
   "name": "Connect Biopharma Holdings Limited",
-  "sector": "Healthcare",
+  "sector": "Healthcare (Biotechnology, clinical-stage)",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.094Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.093Z",
   "fundamentals": {
     "marketCap": {
-      "value": 49100000,
-      "asOf": "2026-11-03",
-      "source": "Computed: 62,974,309 shares (SEC 10-Q, as of 2026-07-31) x $0.78 (Benzinga, 2026-11-03)",
-      "note": "Supersedes the on-file stale $115.85M (2026-09-04, pre-selloff) figure. This is an estimate computed this session, not a primary-sourced market cap."
+      "value": null,
+      "note": "sources disagree sharply ($138.52M vs $56M) and are undated/stale; recorded in conflicts instead of a single value"
     },
     "float": {
       "value": null,
@@ -22,9 +20,9 @@
       "note": "Not disclosed in any source found"
     },
     "sharesOutstanding": {
-      "value": 62974309,
-      "asOf": "2026-07-31",
-      "source": "SEC Form 10-Q cover page (Q2 2026, period ended 2026-06-30)"
+      "value": 55800000,
+      "asOf": "2025-09-30",
+      "note": "stale figure (~55.7-55.9M as of Q3 2025, per aggregator); a March 2026 private placement likely increased the count but a current figure was not found"
     },
     "shortInterest": {
       "value": null,
@@ -32,10 +30,9 @@
       "note": "Not found"
     },
     "cash": {
-      "value": 31500000,
-      "asOf": "2026-06-30",
-      "source": "Company Q2 2026 earnings release (cash, cash equivalents and short-term investments), corroborated via Quartr/TipRanks earnings summaries",
-      "note": "Confirms a figure previously carried only from an unverified third-party source. Company guided this provides runway of at least one year from the August 2026 release date; a trailing six-month operating cash burn of ~$31.9M was cited by a third-party analysis (Panabee) as a reason for skepticism about that runway."
+      "value": 46000000,
+      "asOf": "2026-03-31",
+      "source": "company Q1 2026 release (via biospace/gcs-web coverage)"
     },
     "debt": {
       "value": null,
@@ -45,50 +42,35 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech",
-      "asOf": "2026-10-23"
+      "note": "clinical-stage biotech with no earnings; no analyst EPS estimates found"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": -0.28,
-        "basis": "GAAP",
-        "note": "On ~55.2M weighted-average shares"
-      },
-      {
-        "period": "FY2025",
-        "value": -1,
-        "basis": "GAAP",
-        "note": "Net loss ~$55.5M on ~55.66M weighted-average shares"
-      },
-      {
-        "period": "H1 2026",
-        "value": -0.61,
-        "basis": "GAAP",
-        "note": "Net loss $36.7M for the six months ended 2026-06-30; a single-quarter (Q2 2026 only) EPS figure was not located"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "cash position / trial progress (pre-revenue)",
-      "period": "H1 2026-Q4 2026",
+      "metric": "operating cash burn",
+      "period": "Q1 2026",
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech. Phase 2 Seabreeze STAT asthma topline (2026-09-16) missed statistical significance on primary endpoint; Phase 2 Seabreeze STAT COPD topline (~2026-10-01) showed reduced treatment-failure rate (-81%, p=0.0122) and fewer moderate/severe exacerbations (-85%, p=0.030) vs. placebo but missed a secondary FEV1 endpoint."
+      "note": "pre-revenue biotech; ~$16M net cash used in operating activities in Q1 2026 (most recent disclosed burn figure found). Cash plus short-term investments including March 2026 private-placement proceeds (~$18.6M net) guided to fund operations into H2 2027."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found"
+      "note": "no next earnings/data date found"
     }
   },
   "price": {
-    "last": 0.78,
-    "changePct": null,
-    "asOf": "2026-11-03",
-    "source": "Benzinga quote, last updated 2026-11-03 7:20PM EST",
-    "note": "First dated 2026-Q4 quote found for this name; resolves (does not avg) the prior pass's stale 2026-09-04 $1.84 figure. Consistent with the stock's September 2026 primary-endpoint-miss selloff."
+    "last": 1.235,
+    "changePct": 24.57,
+    "asOf": "unconfirmed - reported by RTTNews as an intraday move on an unspecified recent 'Wednesday'; could not confirm this was today's (2026-11-11) close or an earlier date"
   },
   "catalysts": [
+    {
+      "date": "2026-10-01",
+      "type": "clinical trial data",
+      "headline": "Positive preliminary topline data from global Phase 2 Seabreeze STAT COPD study of rademikibart as add-on treatment for acute exacerbations: treatment failure cut 81% through Week 4 vs. placebo (p=0.0122, primary endpoint met); new moderate-to-severe exacerbations cut 85% (p=0.030); FEV1 improvement of 70 mL not statistically significant (p=0.1607); no new safety signals; company to engage FDA on potential Phase 3 program",
+      "impact": "stock reported up ~24.6% in follow-on coverage",
+      "source": "https://www.rttnews.com/3695437/connect-biopharma-stock-rises-25-after-positive-phase-2-copd-trial-results.aspx"
+    },
     {
       "date": "2026-10-01",
       "type": "clinical trial",
@@ -138,11 +120,31 @@
     }
   ],
   "conflicts": [
-    "Market cap/price, October-November 2026: resolved this pass to $0.78/share as of 2026-11-03 (Benzinga) and ~$49.1M computed market cap. Prior-pass undated snapshots ($2.60 TradingView, $2.85 SimplyWall, $2.38 MarketBeat, $1.93 eToro, $0.89 unconfirmed-year) remain unreconciled with each other but are now superseded in relevance by this dated figure, which is also broadly consistent with Upstox's $0.83 as of 2026-10-30 -- both show the stock well below its pre-September levels."
+    "Market cap: one aggregator (roic.ai-style data) shows ~$138.52M at a $2.20 share price; a separate undated analysis cites ~$56M as of May 2026. The two could not be reconciled and the share-count basis for each is unclear.",
+    "Stock price move: RTTNews reports CNTB up 24.57% to $1.2350, which is inconsistent with the ~$2.20 and ~$56M-market-cap readings found elsewhere, suggesting the sources are not all from the same date or that a corporate action (e.g., the March 2026 private placement) changed the share count materially between readings."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 1, 2026 Phase 2 Seabreeze STAT COPD topline already on file. No reliable November 2026 price found this session -- WebSearch returned only undated or clearly stale aggregator snapshots ($0.78-$2.85 range across sources with no current dates), consistent with the price conflict already on file. Fundamentals and price carried forward unchanged.",
+  "notes": "This name was already quiet for 2 passes per the brief (lastCatalyst 2026-10-01 COPD topline). All news found in this pass (RTTNews, biopharmawatch, researchpool, panabee coverage of the same 81%/85% COPD figures) appears to be recirculated/aggregator coverage of the SAME October 1, 2026 Seabreeze STAT COPD topline event already on file - no distinct new dated press release was confirmed since Oct 1. One source (Panabee) also references a Seabreeze STAT ASTHMA readout that reportedly 'missed its primary endpoint on treatment failure over 28 days' with lung-function improvement noted as a secondary finding - this could be a separate, potentially new and material catalyst, but no publication date could be confirmed for it in this pass, so it is flagged here rather than added as a dated catalyst. Recommend explicit follow-up next pass: check company IR/GlobeNewswire directly for (1) an exact date on the COPD release and (2) any dated Seabreeze STAT asthma topline release, given the trial was guided for 'mid-2026' and may already have occurred without being captured here.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "move 24.57%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -293,10 +295,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "move 24.57%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,19 +1,18 @@
 {
   "ticker": "TER",
   "name": "Teradyne, Inc.",
-  "sector": "AI Semiconductors",
+  "sector": "Information Technology",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.102Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.105Z",
   "fundamentals": {
     "marketCap": {
-      "value": 63210000000,
-      "asOf": "2026-08-19",
-      "source": "Equibles"
+      "value": null,
+      "note": "Not established this pass"
     },
     "float": {
       "value": null,
@@ -45,25 +44,19 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "No reliable current-price-matched multiple established this session. Trailing P/E was quoted at 59.46 and separately 50.44 by different MarketBeat snapshots (both stale/undated relative to each other) — see conflicts. A rough forward P/E of ~36x can be derived from FY2026 consensus EPS of $8.86 (Northland Securities, 2026-08-03) against a stale ~$321 August price, but that price predates this session and is not usable as a current multiple.",
-      "asOf": null
+      "note": "Not established this pass; Teradyne has positive earnings, but no multiple could be sourced this pass."
     },
     "eps": [
-      {
-        "period": "FY2024",
-        "value": 3.32,
-        "basis": "GAAP"
-      },
-      {
-        "period": "FY2025",
-        "value": 3.47,
-        "basis": "GAAP"
-      },
       {
         "period": "Q3 2026",
         "value": 2.17,
         "basis": "GAAP",
-        "note": "Non-GAAP EPS was $2.29 for the same quarter (GuruFocus/aggregator coverage of the 2026-10-27 release)"
+        "note": "GAAP net income $342.4M / diluted share"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 2.29,
+        "basis": "non-GAAP"
       }
     ],
     "revenue": [
@@ -80,22 +73,29 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": 69.8
+      "period": "9M 2026",
+      "pct": 86,
+      "note": "Nine-month 2026 revenue reached $3.9B, +86% YoY, driven by AI-related compute/memory semiconductor test demand. A specific Q3-only YoY % was not disclosed in sources reviewed."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Teradyne reported its Q3 2026 results today (2026-10-27) after market close, so the next report is Q4/FY2026 (historically released late Jan/early Feb, e.g. the Q4 2025 print was 2026-02-02) but no specific date has been announced by the company yet this session."
+      "note": "Q4/FY2026 results not yet scheduled as of 2026-11-11. For comparison, Q4/FY2025 results were announced via a Jan 13, 2026 press release ('Teradyne to Announce Fourth Quarter and Full Year 2025 Results'), implying a similar mid-to-late January 2027 announcement/report pattern for FY2026, but unconfirmed."
     }
   },
   "price": {
-    "last": 379.66,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-08-19",
-    "source": "Equibles"
+    "asOf": null,
+    "note": "Not established this pass"
   },
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $1,306M (Semiconductor Test $1,072M, Product Test $138M, Robotics $96M); non-GAAP EPS $2.29 vs. $2.04 consensus; GAAP net income $342.4M ($2.17/diluted share); nine-month revenue $3.9B (+86% YoY); guided Q4 2026 revenue to $1.25B-$1.35B",
+      "source": "https://www.zacks.com/stock/news/3017640/teradyne-q3-earnings-beat-estimates,-revenues-increase-year-over-year"
+    },
     {
       "date": "2026-10-27",
       "type": "earnings",
@@ -134,13 +134,26 @@
       "source": "https://finviz.com/news/373906/teradyne-shares-rise-after-record-quarterly-results-and-strong-q3-outlook ; SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000097210/000119312526321933/ter-ex99_1.htm"
     }
   ],
-  "conflicts": [
-    "Q3 2026 EPS beat size: GuruFocus states non-GAAP EPS $2.29 beat estimates \"by $0.23\" (implying ~$2.06 consensus) while a separate aggregator (rallies.ai, citing IBES) gives the pre-print consensus as $2.08 (implying a $0.21 beat) — the exact consensus denominator is not reconciled.",
-    "The -6.7% post-earnings stock-reaction figure comes from a single source (GuruFocus, via WebSearch synthesis) and could not be cross-checked against a second site this session — WebFetch to investors.teradyne.com, gurufocus.com, cryptobriefing.com, sec.gov and several other candidate verification sites all failed with DNS resolution errors in this sandbox (distinct from the three domains the runbook already flags as egress-blocked)."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-27 Q3 2026 earnings beat-and-drop already on file. Searched specifically for a November 2026 CFO/analyst-action angle after a WebSearch snippet referenced a 'CFO transition' and 'analyst upgrades' — both traced back to October 2025 and April-June 2026 respectively, i.e. already stale/superseded, not new information this pass. Could not establish today's (2026-11-06) closing price, an updated market cap, or resolve the on-file trailing-P/E conflict: WebFetch failed with DNS/ENOTFOUND errors this session against every finance site tried (finance.yahoo.com, www.nasdaq.com, www.marketwatch.com, www.benzinga.com, www.sec.gov, www.stocktitan.net) — broader than the three domains the RUNBOOK already flags as egress-blocked, so this looks like the session's network allowlist rather than those specific sites. Price omitted rather than guessed. Genuinely quiet pass on fundamentals and catalysts.",
+  "notes": "No news found dated after Oct 27, 2026 (second consecutive quiet verification pass) — searches for 'Teradyne news November 2026' and related queries returned nothing newer than the Q3 earnings cycle and its associated earnings-call commentary on AI demand and 2027 growth plans (Zacks, Oct 2026). No new dividend declaration, CFO change, or M&A news was found for November 2026 (Teradyne's dividend is typically declared mid-November, so a new declaration may still be pending). Market cap, P/E multiples, shares outstanding, float, short interest, cash and debt were not established this pass (quote/data-provider sites unreachable via WebFetch; WebSearch budget exhausted before dedicated fundamentals queries).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -332,10 +345,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

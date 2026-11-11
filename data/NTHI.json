@@ -1,78 +1,72 @@
 {
   "ticker": "NTHI",
   "name": "NeOnc Technologies Holdings, Inc.",
-  "sector": "Healthcare - Biotechnology",
+  "sector": "Biotechnology (Clinical-Stage, Neuro-Oncology)",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.090Z",
+  "lastResearched": "2026-11-11T21:19:14.088Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": null,
-      "note": "See price note and conflicts; no single figure established"
+      "note": "Not established this session."
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not reliably published"
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
       "value": null,
-      "asOf": null,
-      "note": "Aggregators disagree widely (prior-pass conflict); not resolved this session"
+      "note": "Not established this session."
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "Not independently verified"
+      "note": "Not established this session."
     },
     "cash": {
-      "value": 6166342,
-      "asOf": "2026-09-30",
-      "source": "SEC Form 10-Q (Q3 2026) / 8-K Exhibit 99.1 filed 2026-11-05",
-      "note": "Up sharply from $1,973,420 at 2026-06-30, reflecting the Sept 10, 2026 $15M registered direct offering closing. Supersedes the on-file Q2 figure."
+      "value": null,
+      "note": "Not established this session."
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "No drawn debt figure disclosed; see available (undrawn) facilities noted under cash"
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "pre-revenue / no earnings (clinical-stage biotech)",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "Q3 2026",
-        "value": -0.28,
-        "basis": "GAAP",
-        "note": "Loss attributable to common stockholders $7.3M, or $(0.28)/share, vs $(0.45)/share in Q3 2025. Includes $2.8M of noncash deemed dividends from the Series A preferred redemption and a warrant down-round adjustment. Underlying net loss (before those items) was $4.4M, down 49% YoY from $8.6M in Q3 2025. R&D rose to $1.3M (from $0.7M); G&A fell to $0.6M (from $0.9M). Nine-month 2026 net loss $27,500,185; accumulated deficit $140,254,840. Going-concern language continues."
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "net loss YoY (pre-revenue)",
-      "period": "Q3 2026",
-      "pct": -49,
-      "note": "Net loss narrowed to $4.4M from $8.6M in Q3 2025, a 49% decline in the loss itself -- an improvement, despite the negative sign on this metric. Company remains pre-revenue."
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "Pre-revenue clinical-stage biotech; no revenue to measure YoY growth against."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "An EarningsWhispers listing newly found this session shows 'Nov 9, 2026 before market open' -- but Q3 2026 was already reported 2026-11-05, so this looks like stale/mislabeled templating rather than a company confirmation, consistent with the same aggregator's past pattern on this name. No date for the unannounced next (Q4/FY2026) report."
+      "note": "Not established this session; company does not appear to have a widely tracked earnings calendar entry in sources reviewed."
     }
   },
   "price": {
-    "last": 2.7,
-    "changePct": -1.82,
-    "asOf": "2026-10-16",
-    "source": "Yahoo Finance (NasdaqGM delayed quote, confirmed close)"
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "Not established this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "regulatory",
+      "headline": "Scheduled FDA End-of-Phase 1 Type B meeting for NEO212 (in-person, FDA White Oak campus) to discuss Phase 2 study design, proposed patient population, trial design/endpoints, dose selection, and potential for an accelerated-approval pathway. Still upcoming as of today (2026-11-11); no outcome reported yet.",
+      "source": "https://stocktwits.com/news-articles/business/others/ne-onc-technologies-announces-fda-end-of-phase-1-meeting-for-neo-212/cZMSvrdRBQo"
+    },
     {
       "date": "2026-11-17",
       "type": "regulatory",
@@ -122,6 +116,12 @@
       "impact": null,
       "source": null,
       "note": "Reported via aggregator headline; primary release not independently confirmed this session"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "regulatory",
+      "headline": "NeOnc announced the scheduling of the November 17, 2026 FDA End-of-Phase 1 Type B meeting for NEO212",
+      "source": "https://finviz.com/news/395894/neonc-technologies-announces-fda-end-of-phase-1-meeting-for-neo212"
     },
     {
       "date": "2026-09-24",
@@ -182,6 +182,12 @@
       "note": "Exact calendar day in August 2026 not independently pinned down this session; reported via analyst/aggregator coverage, not a primary press release URL."
     },
     {
+      "date": "2026-07-09",
+      "type": "regulatory",
+      "headline": "An earlier End-of-Phase 1 meeting (on CMC / capsule-to-tablet transition) was canceled after NeOnc received FDA written feedback stating the formulation transition should be supported by an in vivo relative bioavailability study",
+      "source": "https://neonctechnologies.gcs-web.com/news-releases/news-release-details/neonc-receives-fda-written-feedback-neo212-cmc-development-and"
+    },
+    {
       "date": "2026-06",
       "type": "offering",
       "headline": "Issued Series A Convertible Preferred Stock in a private placement for $5.0 million gross proceeds (the tranche redeemed on 2026-09-17)",
@@ -190,16 +196,31 @@
       "note": "Background context cited in coverage of the Sept 17 redemption; exact June date not pinned down."
     }
   ],
-  "conflicts": [
-    "RESOLVED 2026-11-06: the prior pass's unresolved 'Nov 9 vs Nov 13, 2026' next-earnings-date conflict is moot -- NTHI's Q3 2026 results were actually reported 2026-11-05, before either speculative date. Both prior EarningsWhispers readings were simply wrong estimates for an already-reported quarter.",
-    "Price: Yahoo Finance $3.49 close 2026-11-06 (+9.06%) vs MarketChameleon $3.07 close 2026-11-03 (~$88M market cap) -- not reconciled, kept both.",
-    "Market cap: ~$88M (MarketChameleon, 2026-11-03) vs ~$86M (Morningstar) vs ~$92.18M (Motley Fool) vs ~$111.8M (Trefis, stale Jun 2026 price) vs ~$193.8M (Simply Wall St, stale Feb 2026) -- wide spread, not reconciled.",
-    "Shares outstanding: 19.47M (Simply Wall St, Feb 2026, stale) vs ~23M (Trefis, Jun 2026) vs 25.93M (TipRanks) vs 28.81M (Morningstar, most recent but undated) -- not reconciled.",
-    "Cash: $58.73K (TipRanks) vs $6.17M (Motley Fool) vs ~$2M (Roic.ai, Mar 2026) -- wildly inconsistent, too large a gap to reconcile, kept all three verbatim."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: confirmed the FDA End-of-Phase 1 Type B meeting date for NEO212 (2026-11-17, in-person at FDA White Oak), announced by the company 2026-09-28 -- adds a dated, company-sourced catalyst. An EarningsWhispers 'Nov 9, 2026' next-earnings listing appears to be stale/mislabeled templating given Q3 2026 was already reported 2026-11-05; not used. New price/market-cap/shares/cash conflicts recorded, none resolved, none used to override on-file figures.",
+  "notes": "Phase 1 NEO212 data found in background sources: dose escalation was discontinued after a dose-limiting toxicity at 810 mg; 610 mg was selected as the recommended Phase 2 dose (RP2D). The company reported one partial response in a recurrent glioblastoma patient and one case of ~16-month stable disease in a lung-cancer brain-metastasis patient; the company itself cautions these individual results do not establish efficacy and require confirmation in larger studies. The Nov 17, 2026 FDA meeting outcome is not yet known (meeting is still ~6 days out as of 2026-11-11); the company has also cautioned the meeting's format/date could change and that FDA feedback may differ from NeOnc's proposals. Market cap/shares/float/short-interest/cash/debt are null because WebSearch budget for this session was exhausted before those lookups could be completed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -408,10 +429,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

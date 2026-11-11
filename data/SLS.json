@@ -1,20 +1,19 @@
 {
   "ticker": "SLS",
   "name": "SELLAS Life Sciences Group, Inc.",
-  "sector": "Biotech Catalyst",
+  "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.092Z",
+  "lastResearched": "2026-11-11T21:19:14.090Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1730000000,
-      "asOf": "2026-11-03",
-      "source": "Robinhood (price $8.64; implied vs. 201,945,709 shares outstanding on file is ~$1.745B, reasonably consistent)",
-      "note": "Materially lower than the on-file $2.833B (as of 2026-09-04, price $14.02) - consistent with the stock's decline through the Sept/Oct REGAL disclosure-timing controversy and the Oct 28 80th-event announcement."
+      "value": 2050000000,
+      "asOf": "2026-10-30",
+      "source": "stockanalysis.com snapshot via search aggregation (undated on the page itself)"
     },
     "float": {
       "value": null,
@@ -22,9 +21,8 @@
       "note": "Not found as a separately published figure distinct from shares outstanding."
     },
     "sharesOutstanding": {
-      "value": 201945709,
-      "asOf": "2026-09-04",
-      "source": "Value Research"
+      "value": 201950000,
+      "source": "stockanalysis.com snapshot via search aggregation (undated)"
     },
     "shortInterest": {
       "value": 27.9,
@@ -33,10 +31,9 @@
       "note": "Consistent with the ~27-28% cluster already on file, but now tied to a specific settlement date. A separate Koyfin-sourced figure cited ~30.7% of float (2026-05-11) and ~33% of float (2026-06-15) - different date/denominator, not reconciled. An even earlier FINRA read showed 63.3M shares short at the 2026-06-30 settlement (~4.75 days to cover)."
     },
     "cash": {
-      "value": 138300000,
-      "asOf": "2026-06-30",
-      "source": "Merlintrader/Weiss Ratings, citing the Q2 2026 10-Q",
-      "note": "Cash and short-term investments, up from $71.8M at FYE2025. Q3 2026 10-Q filing status not independently confirmed this session."
+      "value": 71800000,
+      "asOf": "2025-12-31",
+      "source": "company FY2025 results press release (via search aggregation)"
     },
     "debt": {
       "value": null,
@@ -46,48 +43,37 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech, no earnings estimate basis"
+      "note": "negative earnings (clinical-stage biotech)",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search."
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search."
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.05,
-        "basis": "GAAP",
-        "note": "Net loss $9.6M; prior-year Q2 2025 was -$0.07/share on a $6.6M net loss."
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "cash burn (net loss)",
-      "period": "Q2 2026 vs Q2 2025",
-      "pct": null,
-      "note": "Pre-revenue biotech. Net loss widened to $9.6M in Q2 2026 from $6.6M in Q2 2025 (R&D $6.3M vs $3.9M; G&A $4.4M vs $3.0M). First-half 2026 net loss was $18.0M. Cash on hand $138.3M as of 2026-06-30."
+      "metric": "net loss YoY",
+      "period": "Q3 2025",
+      "pct": -4.2,
+      "note": "Net loss narrowed to $6.8M in Q3 2025 from $7.1M in Q3 2024 (~4.2% narrower); Q3 2026 actuals not yet reported as of this research. Company is pre-revenue (clinical-stage)."
     },
     "nextEarnings": {
       "date": "2026-11-18",
       "confirmed": false,
-      "note": "StreetInsider platform estimate; not company-confirmed. Supersedes prior pass's null value."
+      "note": "Company has not published a confirmed Q3 2026 report date in sources found; estimate is consistent with prior-year pattern (Q3 2025 results were reported Nov 12, 2025)."
     }
   },
   "price": {
-    "last": 8.64,
-    "changePct": null,
-    "asOf": "2026-11-03",
-    "source": "Robinhood quote snapshot"
+    "last": 9.68,
+    "changePct": -4.72,
+    "asOf": "2026-10-30",
+    "note": "Most recent dated price found; no Nov 11 2026 quote retrievable (see notes)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "clinical data",
+      "headline": "Completed Phase 2 data for SLS009 (tambiciclib) in relapsed/refractory AML; company has previously stated the trial met all primary endpoints and that it received FDA guidance to advance into a first-line (newly diagnosed) AML study",
+      "impact": null,
+      "source": "https://www.barchart.com/story/news/33405620/sellas-meets-all-primary-endpoints-in-phase-2-trial-of-sls009-in-r-r-aml-and-receives-fda-guidance-to-advance-into-first-line-therapy-study"
+    },
     {
       "date": "2026-11-04",
       "type": "clinical/regulatory",
@@ -154,13 +140,30 @@
     }
   ],
   "conflicts": [
-    "Market cap fell from $2.833B (2026-09-04, $14.02/share) to an implied ~$1.73B (2026-11-03, $8.64/share) - a roughly 38% decline in share price over two months, consistent with the disclosure-timing controversy and REGAL 80th-event catalysts already on file, not a data error.",
-    "Short interest as % of float/shares outstanding varies 27-33% across sources/dates (FINRA 27.9% at 2026-08-14 settlement vs. Koyfin ~30.7%-33% at May/June 2026 dates; a new Finviz/Merlintrader reading of 29.58% at the 2026-09-15 settlement falls within this same range) - kept all, not averaged.",
-    "Price: debelegger shows a $9.68 close on 2026-10-30 (-4.72%, ~$1.95B implied market cap) -- an earlier, higher reading than the on-file $8.64 (2026-11-03), consistent with a continued decline Oct 30 to Nov 3 rather than a contradiction; no 2026-11-09 close found. Undated CoinGecko ($11.65) and Trade-Ideas ($11.44) quotes are higher still and look stale -- not used."
+    "Shares outstanding: one stockanalysis.com snapshot lists 201.95M shares outstanding (implying ~$1.95B market cap at the $9.68 Oct 30 close against the stated $2.05B market cap figure, a ~5% internal mismatch); a separate source lists 170,282,026 shares outstanding, which appears to be an older count. Could not reconcile which is current.",
+    "Price range: SLS traded near $15.46 (Aug 21, 2026 close, ~$3.12B market cap) versus $9.68 (Oct 30, 2026 close) -- a large decline over ~2 months; this looks like ordinary post-catalyst volatility rather than a split, but could not independently confirm the cause with available tools."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: REGAL Phase 3 topline overall-survival results remain unreleased -- company continuing through database lock/unblinding/analysis following the Oct 28 80th-event milestone, still guided to 'this quarter' (Q4 2026); reconfirmed pending as of today, no new catalyst. New cash figure established ($138.3M at 2026-06-30, up from $71.8M FYE2025) -- previously missing field. New price/short-interest data points recorded as conflicts, not used to override on-file figures. Next earnings still 2026-11-18, unconfirmed.",
+  "notes": "Could not confirm a Q3 2026 earnings-date announcement from a primary company source (IR site / GlobeNewswire / SEC EDGAR were all unreachable via WebFetch in this sandbox, and WebSearch quota was exhausted before this could be re-checked). No clinical data readout newer than the Nov 4, 2026 item already on file was found; the March 2026 AACR preclinical presentation and the original Cohort 3 overall-survival data (8.8 months median OS vs. 2.5-month historical benchmark) both predate the ~6-month catalyst window and are omitted from the catalysts list. Float and short interest were not established.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -318,11 +321,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -1,58 +1,39 @@
 {
   "ticker": "BENF",
   "name": "Beneficient",
-  "sector": null,
+  "sector": "Financial Services (Alternative Asset Management / Distressed)",
   "theme": "Distressed / Restructuring",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.081Z",
+  "lastResearched": "2026-11-11T21:19:14.077Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10080000,
-      "asOf": "2026-11-06",
-      "source": "Computed: $0.6945 x 14,518,468 shares (same share-count basis as the prior pass; no fresher count found)",
-      "note": "Share count itself remains part of the broader 1-10x reverse-split-related conflict already on file; this figure should be read with that caveat."
+      "value": null
     },
     "float": {
-      "value": null,
-      "asOf": null,
-      "note": "Not separately disclosed; carried forward"
+      "value": null
     },
     "sharesOutstanding": {
-      "value": 14518468,
-      "asOf": "2026-06-22",
-      "source": "Beneficient FY2026 10-K: 14,488,560 Class A + 29,908 Class B shares"
+      "value": null
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed; carried forward"
+      "value": null
     },
     "cash": {
-      "value": 5600000,
-      "asOf": "2026-06-30",
-      "source": "Q1 FY2027 results release (2026-08-14)"
+      "value": null
     },
     "debt": {
-      "value": 96800000,
-      "asOf": "2026-06-30",
-      "source": "Q1 FY2027 results release (2026-08-14)"
+      "value": null
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "not established this session"
     },
-    "eps": [
-      {
-        "period": "Q1 FY2027 (quarter ended 2026-06-30)",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Net loss of $377,000 on $12.2M revenue; per-share figure still not independently confirmed"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q1 FY2027 (quarter ended 2026-06-30)",
@@ -61,14 +42,14 @@
       }
     ],
     "growth": {
-      "metric": "revenue",
-      "period": "Q1 FY2027 (quarter ended 2026-06-30)",
+      "metric": null,
       "pct": null,
-      "note": "$12.2M revenue; no YoY comparison figure found"
+      "note": "No operating financial metrics were established this session; BENF's recent news flow is dominated by founder Bradley Heppner's criminal case and related debt/equity disputes rather than routine operating results."
     },
     "nextEarnings": {
       "date": "2026-11-13",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Carried over from file; not independently verified this session."
     }
   },
   "price": {
@@ -78,6 +59,12 @@
     "note": "Roughly corroborated by an undated RedChip figure of $0.6932. Steep further decline from the on-file $1.24 (2026-10-07)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "legal",
+      "headline": "Bradley Heppner's criminal sentencing hearing (SDNY) rescheduled",
+      "source": null
+    },
     {
       "date": "2026-11-04",
       "type": "legal",
@@ -144,6 +131,12 @@
     {
       "date": "2026-05-07",
       "type": "legal",
+      "headline": "Manhattan federal jury convicts Beneficient/GWG Holdings founder Bradley Heppner on all four counts: securities fraud, wire fraud, conspiracy, and making false statements to auditors",
+      "source": "https://missouriindependent.com/2026/05/07/repub/former-beneficient-executive-with-kansas-political-ties-guilty-of-fraud-in-150m-scheme/"
+    },
+    {
+      "date": "2026-05-07",
+      "type": "legal",
       "headline": "A Manhattan federal jury convicts Bradley Heppner (Beneficient/GWG Holdings founder) on all four counts: securities fraud, wire fraud, conspiracy, and false statements to auditors",
       "impact": "Negative overhang resolved in part — Beneficient called it a verdict that 'closes an important chapter' and said it had parted ways with Heppner upon learning of the fraud",
       "source": "https://www.nasdaq.com/press-release/beneficient-statement-heppner-conviction-2026-05-11"
@@ -163,13 +156,32 @@
     }
   ],
   "conflicts": [
-    "Heppner sentencing date: Panabee (single source, found 2026-11-04) reports a rescheduled date of 2026-01-11 [sic, reported as January 11, 2027]; this is NOT corroborated by a second source or a court filing this session (re-checked again 2026-11-09, still only the same Panabee article syndicated), and is kept as a single-sourced reading rather than treated as confirmed. The prior on-file status (SDNY confirmed 2026-10-22 that sentencing was adjourned with no new date set) is not contradicted, just possibly superseded.",
-    "Shares outstanding / EPS / market cap figures vary by roughly 1-10x across sources and dates; one source references a 1-for-8 reverse stock split dated 2025-12-15, which would explain much of the discrepancy -- flagged per standing rule 7, not guessed or reconciled to a single ratio-adjusted number.",
-    "Most recent market cap found before this pass: ~$12.4M as of 2026-10-26 (price $0.8197, -43.86% over the past month) vs much older/higher snapshots ($48M-$91.9M) -- not reconciled, kept verbatim."
+    "Heppner's original sentencing date is reported as 2026-10-07 before Judge Jed S. Rakoff (SDNY) by several outlets, but a Beneficient company filing separately gave 2026-10-21 as the scheduled sentencing date. An undated follow-up report states the sentencing was 'adjourned without a new date' and that Heppner retained new defense counsel (Alexandra Shapiro and Jonathan Bach); this is consistent with the file's 2026-11-04 'rescheduled' catalyst, but no new fixed hearing date was found this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: new lower price point found (Benzinga $0.6945, 2026-11-06), roughly corroborated by an undated RedChip reading, consistent with the stock's ongoing decline already on file. Heppner sentencing date remains single-sourced (Panabee, Jan 11 2027) with no second corroboration found again this session. No new dated catalyst; no debt-settlement announcement found.",
+  "notes": "Separately, Beneficient has proposed a settlement to eliminate roughly $130 million of disputed debt (and an associated ~$850 million equity stake claim) tied to Heppner, per finviz/briefglance coverage, but no definitive signed agreement was found and the coverage was undated, so it is not listed as a dated catalyst. Market cap, shares outstanding, float, short interest, cash, debt, and EPS were not established this session; the WebSearch budget for the turn was exhausted before further queries could be run.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -361,11 +373,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

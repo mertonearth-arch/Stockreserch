@@ -1,67 +1,39 @@
 {
   "ticker": "BIAF",
   "name": "bioAffinity Technologies, Inc.",
-  "sector": null,
+  "sector": "Biotechnology / Diagnostics",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.078Z",
+  "lastResearched": "2026-11-11T21:19:14.078Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2799562,
-      "asOf": "2026-10-09",
-      "source": "Computed: 592,373 post-split shares x $4.725 (Wedbush delayed close, 2026-10-09)",
-      "note": "Supersedes the previously-recorded undated $3.81M/$5.98M aggregator figures; this is an estimate, not a primary-sourced market cap, but lands in a similar range."
+      "value": null
     },
     "float": {
-      "value": null,
-      "asOf": null,
-      "note": "Not found distinct from shares outstanding in sources located this session"
+      "value": null
     },
     "sharesOutstanding": {
-      "value": 1283170,
-      "asOf": "2026-10-09",
-      "source": "SEC Form 424B5 prospectus supplement for the Oct 2026 registered direct offering",
-      "note": "SEC filing states 1,166,625 shares outstanding immediately before the offering (as of 2026-10-08) and 1,283,170 immediately after (excludes pre-funded warrants for up to 536,836 shares). Does not reconcile with the on-file 592,373 post-split count from early September — recorded as the most recent primary-sourced figure available, not as a resolution; see conflicts."
+      "value": null
     },
     "shortInterest": {
-      "value": null,
-      "asOf": "2026-04-30",
-      "note": "676,404 shares short as of 2026-04-30 (up from 515,756 two weeks earlier), ~1.44 days to cover — percent-of-float not confirmed for that date. An older MarketBeat figure of 60.26% of float as of 2025-09-30 is stale and from before the most recent financings."
+      "value": null
     },
     "cash": {
-      "value": 3100000,
-      "asOf": "2026-03-31",
-      "source": "Zacks",
-      "note": "Down from $6.4M at FYE2025 (2025-12-31); going-concern language reiterated. No fresher (Q2/Q3 2026) cash figure found this session."
+      "value": null
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed/not found in available sources this session"
+      "value": null
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings"
+      "note": "negative earnings (net loss reported each period found)"
     },
-    "eps": [
-      {
-        "period": "FY2025",
-        "value": -8.66,
-        "basis": "GAAP",
-        "note": "Reverse-split-adjusted"
-      },
-      {
-        "period": "Q2 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Aggregator figures for this quarter conflict and look mislabeled (one source shows +$0.64, another -$9.60) — not used"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 2026",
@@ -80,15 +52,15 @@
       }
     ],
     "growth": {
-      "metric": "CyPath Lung test volume YoY",
-      "period": "Q2 2026",
-      "pct": 216,
-      "note": "Company-reported test-volume growth (not revenue). Q3 2026 YTD volume growth separately reported as 'more than 100%' YoY (less precise, see catalysts)."
+      "metric": "CyPath Lung tests delivered YoY",
+      "period": "Q3 2026",
+      "pct": 109,
+      "note": "1,620 tests delivered through Q3 2026 vs 775 in the same period of 2025 (per third-party summary of the company's SEC 8-K exhibit); company's own release describes CyPath Lung sales as more than doubling and physician-office adoption up nearly 90% YoY. Per-share EPS and exact Q3 2026 dollar revenue were not found this session."
     },
     "nextEarnings": {
-      "date": "2026-11-13",
+      "date": null,
       "confirmed": false,
-      "note": "The on-file Nov 6, 2026 Earnings Whispers estimate has now passed without a confirmed Q3 2026 financial release being found; TrendSpider separately estimates Nov 13, 2026, treated as the best current (still unconfirmed) read. A previously-noted unconfirmed Nov 18, 2026 reading also remains uncorroborated."
+      "note": "File listed 2026-11-13 as an unconfirmed estimate. This session found multiple SEC 8-K exhibits (CIK 0001712762) indicating Q3 2026 (quarter ended 2026-09-30) results have already been filed, which suggests the file's Nov-13 estimate may already have occurred or be about to; the exact filing/report date could not be pinned down because www.sec.gov was unreachable via WebFetch in this sandbox and the WebSearch budget ran out before a follow-up query could find the dated press release."
     }
   },
   "price": {
@@ -98,6 +70,12 @@
     "note": "Investing.com snapshot (prior close $3.32). Supersedes the on-file 2026-10-09 $4.725 figure."
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "corporate",
+      "headline": "Lung Cancer Initiative of North Carolina participation",
+      "source": null
+    },
     {
       "date": "2026-10-29",
       "type": "community/marketing",
@@ -244,14 +222,32 @@
     }
   ],
   "conflicts": [
-    "Current price/market cap still unresolved this pass: WebSearch this session found only undated or non-2026-Q4 snapshots (Digrin July 2026 $0.71; MarketChameleon Feb 2026 $0.93; Robinhood March 2026 $2.25) that do not reconcile with the on-file Oct 9, 2026 $4.725 Wedbush delayed quote or with each other — none usable to update price, kept the on-file figure, not averaged.",
-    "Additional new late-October 2026 price snapshots found this session (Upstox $3.06 as of 2026-10-30; Tickertape $2.84 as of 2026-10-26) suggest the price declined further from the on-file $4.725 (2026-10-09) figure, but conflict with each other and could not be corroborated by a primary source — not used to update the recorded price; the ~-16% move already on file (2026-10-09, -16.22%) may also not be the same move referenced by these later undated/low-confidence snapshots.",
-    "A further price point found this session (MarketScreener, ~$6.06 as of 2026-10-02, down ~24% over the prior week) is dated BEFORE the on-file 2026-10-09 $4.725 Wedbush close yet is higher than it -- an odd sequencing that is not reconciled; not used to override.",
-    "Next earnings date unconfirmed/conflicting: EarningsWhispers said 2026-11-06 (passed with no confirmed release found), TrendSpider says 2026-11-13."
+    "File's nextEarnings estimate (2026-11-13, unconfirmed) may be stale: SEC 8-K exhibits found this session (ex99-1.htm filings) indicate Q3 2026 results reporting a net loss of approximately $5.3 million (vs ~$5.1 million in Q3 2025) and operating expenses of about $4.6 million (vs ~$3.7 million) have already been filed, but no exact calendar date could be confirmed this session, so it is not listed as a dated catalyst per the no-undated-catalyst rule."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: the -16.22% move flagged for this pass remains unexplained -- no dated catalyst or news found to account for it (WebFetch continues to be unreachable for verification). No Q3 2026 financial release found yet; the on-file Nov 6, 2026 earnings estimate has now passed without a confirmed report, so next-earnings is updated to TrendSpider's Nov 13, 2026 estimate (still unconfirmed). Added a cash figure ($3.1M at 2026-03-31, down from $6.4M FYE2025) not previously on file.",
+  "notes": "Q3 2026 figures referenced above (net loss, opex, test-volume growth) come from SEC 8-K exhibits and third-party summaries (biopharmawatch, panabee-style aggregator) found via WebSearch; the underlying sec.gov pages and aggregator pages could not be opened directly via WebFetch in this sandbox (ENOTFOUND), so figures are as reported in WebSearch result summaries, not independently re-verified against the primary filing text. Market cap, shares outstanding, float, short interest, cash, debt, and per-share EPS were not established this session.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -489,11 +485,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

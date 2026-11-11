@@ -1,20 +1,18 @@
 {
   "ticker": "SOLS",
   "name": "Solstice Advanced Materials, Inc.",
-  "sector": null,
+  "sector": "Materials",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.102Z",
+  "lastResearched": "2026-11-11T21:19:14.104Z",
   "fundamentals": {
     "marketCap": {
-      "value": 9290000000,
-      "asOf": "2026-09-16",
-      "source": "Google Finance snapshot: $58.48/share x 158.89M shares outstanding",
-      "note": "A separate roic.ai reading of $13.88B (undated, same ~158.80M share count) is inconsistent with this and with a July 23 Motley Fool close-based figure of $9.67B — see conflicts. Using the Sept 16 figure as the most recent dated reading, corroborated in range by the July figure."
+      "value": null,
+      "note": "Not established this pass"
     },
     "float": {
       "value": null,
@@ -42,22 +40,10 @@
     },
     "pe": {
       "trailing": null,
-      "note": "Conflicting readings (not negative earnings): ~45.8x (TTM EPS $1.32) vs ~48.4x (TTM EPS $1.31); forward P/E ~20.3x per one source."
+      "forward": null,
+      "note": "Not established this pass"
     },
-    "eps": [
-      {
-        "period": "Q3 2026",
-        "value": 0.5,
-        "basis": "GAAP diluted",
-        "note": "vs GAAP diluted EPS of -$0.22 in Q3 2025"
-      },
-      {
-        "period": "Q2 2026",
-        "value": 0.88,
-        "basis": "adjusted",
-        "note": "Beat $0.78 consensus."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q3 2026",
@@ -71,24 +57,32 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "net sales YoY",
       "period": "Q3 2026",
-      "pct": 8
+      "pct": 8,
+      "note": "Q3 2026 net sales $1,046M, +8% YoY (carried from prior pass; corroborated this pass by a Nov 6, 2026 report that SOLS beat Q3 sales guidance and raised its full-year 2026 outlook)"
     },
     "nextEarnings": {
-      "date": "2026-11-04",
-      "confirmed": true,
-      "note": "Company's own Oct 1, 2026 press release: Q3 2026 results before market open Nov 4, 2026, call at 8:30am ET. This resolves the prior dispute — TipRanks (Nov 5, labeled 'Confirmed') and Earnings Whispers (Oct 29) both conflict with the company's own release and should be disregarded."
+      "date": null,
+      "confirmed": false,
+      "note": "Q4/FY2026 results not yet announced; company has a calendar fiscal year so a report is expected in mid-February 2027 based on typical specialty-chemicals reporting cadence, but this is unconfirmed."
     },
     "CRITICAL_IDENTITY_NOTE": "Ticker SOLS on Nasdaq is Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — NOT Solidion Technology, which trades under ticker STI. The 'Advanced Materials' theme fits Solstice, not Solidion (a much smaller battery-materials company). This appears to be a company-identity question worth the PM owner's direct attention; this pass researched the ticker as given (SOLS = Solstice) and did not research Solidion/STI separately."
   },
   "price": {
-    "last": 59.25,
-    "changePct": -1.12,
-    "asOf": "2026-10-16",
-    "source": "Chart-data aggregator (ChartRow-style snapshot); ~35% below the 52-week high of $90.80"
+    "last": 58,
+    "changePct": null,
+    "asOf": "2026-11-06",
+    "source": "Benzinga quote (as cited in search results)",
+    "note": "A separate Fox Business quote dated 2026-10-23 showed ~$59.80, implying the stock was roughly flat to slightly lower over that ~2-week span; not a single-day change figure."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net sales $1,046M (+8% YoY); beat Q3 sales guidance and raised full-year 2026 outlook on strong growth",
+      "source": "https://www.indianchemicalnews.com/advanced-materials/lite/solstice-advanced-materials-beats-q3-sales-guidance-raising-2026-outlook-on-strong-growth-32561"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -101,6 +95,12 @@
       "headline": "Q3 2026 results: net sales $1,046M (+8% YoY), GAAP diluted EPS $0.50 (vs -$0.22 in Q3 2025); raised FY2026 guidance to net sales $4,195-4,220M, adjusted EBITDA $1,050-1,060M, adjusted diluted EPS $2.90-2.95 (up from $4,125-4,185M / $1,035-1,055M / $2.75-2.95 prior guidance); returned $112M to shareholders in Q3 including $100M of share buybacks, on track to substantially complete the $500M buyback authorization by end of Q1 2027",
       "impact": "beat and raise",
       "source": "https://www.sec.gov/Archives/edgar/data/0002064953/000206495326000098/exhibit991-earningsrelease.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "dividend",
+      "headline": "Board declared a quarterly dividend of $0.075 per common share, payable Dec 10, 2026 to shareholders of record as of Nov 25, 2026",
+      "source": "https://www.itiger.com/news/2680088007"
     },
     {
       "date": "2026-10-01",
@@ -130,6 +130,12 @@
     },
     {
       "date": "2026-08-27",
+      "type": "M&A termination",
+      "headline": "Element Solutions and Solstice Advanced Materials announced the mutual termination of their previously disclosed merger agreement",
+      "source": "https://www.placera.se/pressmeddelanden/element-solutions-solstice-advanced-materials-announces-mutual-termination-of-merger-agreement-with-element-solutions-20260827"
+    },
+    {
+      "date": "2026-08-27",
       "type": "dividend",
       "headline": "Ex-dividend date for $0.08 quarterly dividend",
       "impact": "minor/routine"
@@ -156,13 +162,26 @@
       "source": "Honeywell/Nasdaq press releases (honeywell.com, nasdaq.com)"
     }
   ],
-  "conflicts": [
-    "IDENTITY: 'SOLS' resolves unambiguously to Solstice Advanced Materials, not to Solidion Technology (ticker STI) -- flagging for the PM owner to confirm which company this watchlist slot is meant to track.",
-    "Market cap figures vary by several billion dollars depending on snapshot date: $9.29B (Google Finance-derived, 2026-09-16, on file), $8.92B (Benzinga, close $56.65/share, 2026-09-25, found this session), $9.67B (Motley Fool, 2026-07-23), up to $13.88B/$10.09B on undated aggregator snapshots -- no October or November 2026 figure found; not reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Nov 4, 2026 Q3 beat-and-raise print already on file. Could not locate a post-earnings (Nov 5/6) closing price or market-cap figure this session -- WebFetch was unreachable for every domain attempted (DNS failures across the board, not just the documented stockanalysis/cnbc/google blocks), and WebSearch turned up only stale pre-earnings snapshots (Sept 2026) or undated analyst-target pages. Quiet pass; all fundamentals, conflicts, and the identity note carried forward unchanged from the prior pass.",
+  "notes": "No news found dated after Nov 6, 2026. The Nov 3 dividend declaration and Nov 4 earnings report together explain all identified activity since the last-known catalyst; nothing new emerged in the Nov 7-11 window. A litigation settlement-in-principle (Metropolis Works operations) and a $200M Spokane facility expansion were mentioned in search snippets but carried no date and were excluded per the 'every catalyst needs a date' rule. EPS, market cap, shares outstanding, float, short interest, cash and debt were not established this pass (quote/data-provider sites unreachable via WebFetch; WebSearch budget exhausted before dedicated fundamentals queries).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -439,11 +458,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

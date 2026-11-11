@@ -1,20 +1,18 @@
 {
   "ticker": "SAIC",
   "name": "Science Applications International Corporation",
-  "sector": "Government IT Services / Defense & Intelligence",
+  "sector": "Information Technology",
   "theme": "Government IT & Defense Services",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.101Z",
+  "lastResearched": "2026-11-11T21:19:14.104Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5361000000,
-      "asOf": "2026-09-04",
-      "source": "Calculated: SAIC 10-Q cover-page shares outstanding (42,276,819, as of 2026-05-22) x price $126.80 (2026-09-04, MEXC)",
-      "note": "Consistent with MEXC's own stated ~$5.31B cap at that price/date (minor rounding difference). Supersedes the prior session's undated/unreconciled $5.31B-vs-$4.33B snapshots."
+      "value": null,
+      "note": "Not established this pass"
     },
     "float": {
       "value": null,
@@ -46,21 +44,10 @@
     },
     "pe": {
       "trailing": null,
-      "forward": 11.8,
-      "note": "Trailing: two inconsistent TTM readings were found (P/E 11.43x on diluted EPS $8.88 at a $101.49 price, vs. P/E 13.86x on diluted EPS $7.70 at a $106.73 price) and could not be reconciled, so trailing is left null rather than picking one (see conflicts). Forward 11.8x is computed from SAIC's own FY2027 adjusted diluted EPS guidance midpoint ($10.70) against the $126.31 price used for market cap above — this is a non-GAAP-basis multiple, not a GAAP forward P/E."
+      "forward": null,
+      "note": "Not established this pass"
     },
-    "eps": [
-      {
-        "period": "Q2 FY2027 (ended ~2026-07-31)",
-        "value": 2.38,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "Q2 FY2027 (ended ~2026-07-31)",
-        "value": 3.01,
-        "basis": "non-GAAP/Adjusted diluted"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 FY2027",
@@ -70,22 +57,29 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 FY2027",
-      "pct": 6,
-      "note": "5.3% organic growth; remainder (~$20M) from the SilverEdge Government Solutions acquisition."
+      "period": null,
+      "pct": null,
+      "note": "Not established this pass; a Feb 15, 2026 MarketBeat item (outside this pass's lookback window) referenced SAIC cutting its FY2027 revenue outlook after two contract recompete losses and Q4 softness, but no current-quarter growth figure was retrieved."
     },
     "nextEarnings": {
-      "date": "2026-12-03",
+      "date": null,
       "confirmed": false,
-      "note": "Estimates across sources disagree: 2026-12-01 (prior on-file estimate), 2026-12-02 (Bullstory), 2026-12-03 (therighttrader.com, explicitly labeled 'projected from past report dates, not yet confirmed by the company'), and 2026-12-07 before market open (two other aggregators) -- none company-confirmed. For context, last fiscal year's Q3 call was announced 2025-11-20 for a 2025-12-04 release (before market open); a similarly-timed late-November scheduling announcement would be expected for FY2027 Q3 but has not been found."
+      "note": "Fiscal Q3 2027 earnings date unconfirmed as of 2026-11-11; see conflicts. Last year's comparable report (fiscal Q3 2026) was announced via press release on Nov 20, 2025 for a Dec 4, 2025 report date — SAIC's official Q3 FY2027 scheduling announcement was not found this pass, likely because it had not yet been issued or was not indexed."
     }
   },
   "price": {
-    "last": 126.8,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-09-04"
+    "asOf": null,
+    "note": "Not established this pass"
   },
   "catalysts": [
+    {
+      "date": "2026-09-08",
+      "type": "analyst action",
+      "headline": "Goldman Sachs raised price target to $103 while maintaining a Sell rating (carried from prior research pass)",
+      "source": null
+    },
     {
       "date": "2026-09-08",
       "type": "analyst action",
@@ -148,11 +142,36 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date estimates now span FIVE different days across sources: Dec 1 (on-file prior estimate), Dec 2 (Bullstory), Dec 3 (therighttrader.com, explicitly labeled unconfirmed), Dec 7 (two aggregators), and now Nov 30, 2026 before market open (a newly found earnings-whispers-style tracker, consensus EPS $2.35, citing -9.7% post-earnings drift since the 2026-08-31 print). None is company-confirmed; kept all rather than picking one."
+    {
+      "field": "nextEarnings.date",
+      "values": [
+        "2026-12-01 (from original on-file estimate set)",
+        "2026-12-02 (Bullstory.io verified-earnings calendar: 'Science Applications International is scheduled to report Q3 2027 earnings on December 2, 2026')",
+        "2026-12-03 (TheRightTrader.com: 'Next earnings report Thursday, December 3, 2026 — projected from past report dates, not confirmed by the company')",
+        "2026-12-07 (EarningsWhispers: 'expected to report earnings on December 7, 2026, before the market open', consensus EPS estimate $2.31)"
+      ],
+      "note": "No source carried an official SAIC/GlobeNewswire press release confirming the fiscal Q3 2027 date. Historical pattern (fiscal Q3 2026 reported Thursday Dec 4, 2025, announced ~2 weeks ahead on Nov 20, 2025) suggests an early-December, Thursday report is most likely (Dec 3, 2026 is a Thursday), but this is an inference, not a confirmation, and the conflict is unresolved."
+    }
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-06: no new dated catalyst found for November 2026 -- search turned up only FY2026/2025-dated items already superseded by what's on file, plus one more conflicting next-earnings estimate (Nov 30) added to the existing four-way conflict. Fundamentals and catalysts otherwise unchanged; quiet pass.",
+  "notes": "Dedicated news search for SAIC catalysts since Sept 8, 2026 was constrained this pass: an initial query errored (search-provider rate limit) and the WebSearch budget was exhausted before it could be retried with a non-earnings-date-focused query. Only earnings-date-related material was retrieved. No evidence of a reverse split, halt, offering, or new contract award was found, but absence of new catalysts here should be treated as an incomplete check rather than a confirmed quiet pass. Market cap, P/E, EPS, shares outstanding, float, short interest, cash and debt were not established this pass (quote/data-provider sites unreachable via WebFetch in this sandbox).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -375,11 +394,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -1,77 +1,75 @@
 {
   "ticker": "QNRX",
   "name": "Quoin Pharmaceuticals, Ltd.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.100Z",
+  "lastResearched": "2026-11-11T21:19:14.101Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "A recent-looking aggregator figure gives ~$19.31M at a ~$4 price (implying ~4.8M ADS), which does not reconcile with the confirmed 2,008,417 ADS count (2,008,417 x ~$4 ≈ $8.0M). The on-file $8.6M (2026-07-24, MarketChameleon) reconciles well with 2,008,417 ADS at the contemporaneous price. Kept as an open conflict, not resolved or averaged."
+      "asOf": null,
+      "note": "Not retrieved this session."
     },
-    "float": {
-      "value": null,
-      "note": "Not disclosed in sources reviewed."
-    },
-    "sharesOutstanding": {
-      "value": 2008417,
-      "unit": "ADS (1 ADS = 35 ordinary shares)",
-      "ordinarySharesValue": 70294615,
-      "asOf": "2026-08-12",
-      "note": "UNCHANGED from the on-file SEC 10-Q cover-page figure, which predates the Aug 28-31, 2026 private placement (6,305,300 new ADSs plus warrants for up to 3,152,650 more). Total ADS count today is very likely well above this figure, but no post-placement SEC cover-page count was independently confirmed this session -- treat the figure above as stale."
-    },
-    "shortInterest": {
-      "value": null,
-      "note": "Not found in sources reviewed this session."
-    },
+    "float": null,
+    "sharesOutstanding": null,
+    "shortInterest": null,
     "cash": {
       "value": 33200000,
       "asOf": "2026-09-30",
-      "source": "Company Q3 2026 release (GlobeNewswire, 2026-11-05): $10.1M cash & equivalents + $23.1M investments",
-      "note": "Large increase from $10.8M at 2026-06-30, reflecting the Aug 28-31, 2026 private placement (~$30.8M gross / ~$29.0M net at closing) closing during Q3 2026."
+      "source": "company press release (via finviz.com/biopharmawatch.com)"
     },
-    "debt": {
-      "value": null,
-      "note": "A third-party (unverified) analysis mentions ~$1.1M in legacy 2020 notes and a contingent $5.0M Skinvisible milestone payable on FDA/EU approval; not independently confirmed from the filing text this session."
-    },
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech"
+      "note": "negative earnings / net-loss clinical-stage biotech",
+      "asOf": "2026-11-05"
     },
     "eps": [
+      {
+        "period": "Q3 2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Net loss figure available (~$3.9M) but per-share EPS not disclosed in sources reviewed."
+      },
       {
         "period": "Q3 2026",
         "value": null,
         "basis": "GAAP",
-        "note": "Company reported a Q3 2026 net loss of ~$4.9M (vs. ~$3.9M in Q3 2025); a per-ADS/per-share EPS figure was not located in the release excerpts reachable this session, so it is left null rather than derived from an unconfirmed post-placement share count."
+        "note": "Net loss ~$4.9M for the quarter ended 2026-09-30; per-share EPS not disclosed in sources reviewed."
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "net loss growth (9-month YoY)",
-      "period": "9M 2026",
-      "pct": 32,
-      "note": "Pre-commercial, pre-revenue biotech. Nine-month 2026 net loss widened to ~$15.2M from ~$11.5M in 9M 2025 (a ~32% increase in losses) -- this is a loss-widening figure, not a revenue-growth figure."
+      "metric": "cash & marketable securities (QoQ)",
+      "period": "Q3 2026 vs Q2 2026",
+      "pct": 207.4,
+      "note": "Pre-revenue clinical-stage biotech; no product revenue. Cash grew from ~$10.8M at 2026-06-30 to ~$33.2M at 2026-09-30, driven by an August 2026 private placement, not operations."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 results (the date previously tracked here) were reported 2026-11-05 as scheduled. The next report (Q4/FY2026) date is not yet company-announced."
+      "note": "No next earnings date found; consistent with prior state."
     }
   },
   "price": {
-    "last": 4.02,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-25",
-    "source": "stockalarm.io aggregator; Digrin's October 2026 monthly close of $3.99 is consistent"
+    "asOf": null,
+    "note": "Not retrieved this session; search budget exhausted before a price quote could be fetched."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Quoin reported Q3 2026 results: net loss of approximately $4.9 million (vs ~$3.9 million in Q3 2025); cash, cash equivalents and marketable securities of approximately $33.2 million as of Sept 30, 2026",
+      "source": "https://finviz.com/news/416995/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -144,6 +142,12 @@
     {
       "date": "2026-07-09",
       "type": "regulatory",
+      "headline": "FDA cleared Quoin's IND to initiate a Phase 2 study of QRX003 in peeling skin syndrome (PSS); study expected to begin H2 2026, enrolling 6-8 pediatric/adult patients in the US and Europe, targeting a 2028 approval",
+      "source": "https://www.barchart.com/story/news/4314497/quoin-pharmaceuticals-receives-fda-ind-clearance-to-initiate-phase-2-study-of-qrx003-in-peeling-skin-syndrome"
+    },
+    {
+      "date": "2026-07-09",
+      "type": "regulatory",
       "headline": "FDA cleared Quoin's IND application for QRX003 in Peeling Skin Syndrome (PSS), a new indication beyond Netherton Syndrome; Phase 2/3 study planned by end-2026",
       "source": "SEC Form 424B5 prospectus"
     },
@@ -168,12 +172,33 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding substantially narrowed (though not 100% closed): SEC 10-Q cover pages for Q1 and Q2 FY2026 agree at 2,008,417 ADS / 70,294,615 ordinary shares as of both 2026-05-05 and 2026-08-12. Prior wildly conflicting aggregator figures (588K to 3.35B) were not individually re-traced, but likely reflect pre-dilution counts or ordinary-share-equivalent math applied incorrectly / pre-2025-04-09 (1-for-35) reverse-split-unadjusted data. This figure predates the Aug 31, 2026 private placement, so may not be current today.",
-    "Market cap: ~$19.31M (recent aggregator, undated) vs $8.6M (on-file, 2026-07-24, MarketChameleon) — arithmetic mismatch, not reconciled."
+    "Reported size of the August 2026 private placement differs by source: one headline cites 'up to $50.0 million' with healthcare-focused institutional investors, while another summary describes net proceeds of about $28 million plus an $11 million ATM facility available for future financing. Could not confirm an exact closing date for this raise, so it is not listed as a separately dated catalyst.",
+    "Cash runway guidance differs by source: one analysis says the Q3 2026 update extended the runway into 2028 (from a prior target of 'into 2027'); another describes runway into 'late 2027.' The company's own precise wording was not retrieved."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: the Q3 2026 results flagged as pending in the prior pass are now out. Headline figures (net loss, 9-month loss, cash) are well corroborated across the company's own release and secondary aggregators. A per-ADS EPS figure and a post-placement shares-outstanding count were NOT located this session -- both left null/stale respectively rather than derived or guessed. No current (2026-11-06) price was established; the on-file 2026-10-25 $4.02 figure is carried forward unchanged (October 2026 monthly-close data found this session, ~$3.99, is broadly consistent and not treated as a conflict).",
+  "notes": "FDA clearance for an additional Netherton Syndrome study (expanded body-surface-area application) was also reported, but no reliable date was found for that announcement, so it is omitted from the dated catalysts list. Market cap, shares outstanding and current share price were not retrieved before this session's WebSearch budget was exhausted — a follow-up message could continue.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -422,11 +447,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

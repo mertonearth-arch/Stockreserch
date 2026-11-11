@@ -1,20 +1,18 @@
 {
   "ticker": "RBRK",
   "name": "Rubrik, Inc.",
-  "sector": "Enterprise Software / Data Security & Backup (SaaS)",
+  "sector": "Information Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.101Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.103Z",
   "fundamentals": {
     "marketCap": {
-      "value": 25274000000,
-      "asOf": "2026-10-30",
-      "source": "Calculated: Benzinga price $121.9176 (2026-10-30) x SEC-filed shares outstanding (207,304,433, 2026-08-24 10-Q cover page)",
-      "note": "Conflicting aggregator-reported caps found this session: ~$26.7B at $135.29 (2026-10-26, same aggregator family) and ~$21.6-21.97B at earlier Aug/Sept 2026 snapshots -- likely reflect different share-count conventions (Class A only vs. combined Class A+B) and/or stale prices. Not reconciled; see conflicts."
+      "value": null,
+      "note": "Not established this pass"
     },
     "float": {
       "value": null,
@@ -47,20 +45,9 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing: negative GAAP earnings. Forward: a non-GAAP-basis multiple of roughly ~12x can be derived from FY27 adjusted diluted EPS guidance ($0.47-$0.53) against recent prices, but no GAAP-basis forward consensus was established, so left null rather than reporting a non-GAAP-only multiple as if comparable."
+      "note": "Not established this pass"
     },
-    "eps": [
-      {
-        "period": "Q2 FY2026 (ended 2025-07-31)",
-        "value": -0.03,
-        "basis": "non-GAAP/Adjusted"
-      },
-      {
-        "period": "Q2 FY2027 (ended 2026-07-31)",
-        "value": 0.2,
-        "basis": "non-GAAP/Adjusted"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 FY2027 (ended 2026-07-31)",
@@ -70,22 +57,29 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 FY2027 (ended 2026-07-31)",
-      "pct": 38
+      "period": "Q2 FY2027",
+      "pct": 38,
+      "note": "Q2 FY2027 (quarter ended July 31, 2026) revenue $427.3M, +38% YoY (figure carried from prior research pass, not contradicted this pass)"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Estimates remain scattered and not company-confirmed: Dec 1 (prior on-file, source unclear), Dec 3 (Benzinga), Dec 4 (MarketBeat), Dec 7 2026 (Chartmill, consensus basis: EPS $0.08 / revenue $438.77M). Fiscal Q3 FY2027 ends 2026-10-31; last year's Q3 FY2026 report was 2025-12-04, and the FY2027 Q1 date was announced ~4 weeks ahead (2026-05-07 for a 2026-06-04 release), so a company announcement would likely land in early-to-mid November 2026 -- none found yet this session."
+      "note": "No official IR announcement of the Q3 FY2027 report date was found this pass. Company guided Q3 FY2027 (quarter ended Oct 31, 2026) revenue of $429M-$431M and non-GAAP EPS of $0.07-$0.09 in its Aug 27, 2026 release (guidance, not actuals)."
     }
   },
   "price": {
-    "last": 121.92,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-30",
-    "source": "Benzinga quote"
+    "asOf": null,
+    "note": "Not established this pass; data-provider sites were unreachable and WebSearch budget ran out before a dedicated quote query could be run."
   },
   "catalysts": [
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q2 FY2027 results: revenue $427.3M (+38% YoY); issued Q3 FY2027 guidance of $429M-$431M revenue and $0.07-$0.09 non-GAAP EPS; stock reported up as much as 24.5% on the report combined with an AI agent governance product push",
+      "source": "https://www.01net.it/rubrik-reports-second-quarter-fiscal-year-2027-financial-results/"
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -109,14 +103,36 @@
     }
   ],
   "conflicts": [
-    "Price: $121.92 (2026-10-30, Benzinga) vs. $135.29 (2026-10-26, same aggregator family) -- a ~10% move in 4 trading days with no specific dated news found to explain it (only generic, undated 'software sector selloff' / 'price-target cuts' commentary). Also vs. an undated 'October 2026' reading of $118.58 (Digrin, carried from a prior pass).",
-    "Market cap: $25.27B (calculated, 2026-10-30) vs. ~$26.7B (aggregator, 2026-10-26) vs. $21.6-21.97B (aggregator, Aug/Sept 2026 snapshots) -- not reconciled; likely different share-count conventions and/or dates. See fundamentals.marketCap note.",
-    "Shares outstanding: 207.30M (SEC 10-Q cover page, 2026-08-24, Class A + Class B combined) vs. third-party figures of 167.37M (Class A only, same filing) and 157.4M (unsourced) -- 207.30M is the primary-source figure, but market-cap calculators may be using a Class-A-only count.",
-    "Next earnings date: on-file Dec 1, 2026 estimate vs. Dec 3 (Benzinga) vs. Dec 4 (MarketBeat) vs. Dec 7, 2026 (Chartmill) -- none company-confirmed, not reconciled."
+    {
+      "field": "nextEarnings.date",
+      "values": [
+        "2026-12-01 (estimate, source unspecified, carried from prior pass)",
+        "2026-12-03 (estimate, carried from prior pass)",
+        "2026-12-04 (estimate, carried from prior pass)",
+        "2026-12-07 (estimate, carried from prior pass)"
+      ],
+      "note": "No confirmed IR press release ('Rubrik to Report Third Quarter Fiscal 2027 Financial Results') was found this pass. Historical pattern: FY2026 Q3 (quarter ended Oct 31, 2025) was reported Thursday Dec 4, 2025, announced via press release on Nov 10, 2025; FY2027 Q1 was reported June 4, 2026; FY2027 Q2 was reported Aug 27, 2026 (quarter ended July 31, 2026, so FY2027 Q3 quarter end is Oct 31, 2026). This supports an early-December 2026 date (Thursday Dec 3, 2026 would match the prior year's Thursday pattern) but none of the four estimates could be confirmed or eliminated."
+    }
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-06: fiscal Q3 FY2027 (quarter ended 2026-10-31) has still not been reported and no company-confirmed report date was found this session -- estimates remain scattered (Dec 1/3/4/7, none company-sourced), consistent with the pattern that Rubrik typically announces its report date about 3 weeks ahead (as it did for Q1 FY2027 on 2026-05-07 for a 2026-06-04 release), so a notice would be expected in mid-to-late November. No new dated catalyst found since the 2026-08-27 Q2 FY2027 print. Price/market-cap/next-earnings conflicts already on file were not resolved this session -- left unchanged.",
+  "notes": "No new dated catalysts found between 2026-08-27 and 2026-11-11 (second consecutive quiet verification pass) — this appears to be the correct, confirmed-quiet outcome rather than a search gap, since multiple queries covering 'Rubrik news' and the Q3 FY2027 date all returned only the Aug 27 report and pre-existing guidance. Market cap, P/E, shares outstanding, float, short interest, cash and debt were not established this pass due to blocked access to quote/data-provider sites and exhaustion of the WebSearch budget.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -330,10 +346,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

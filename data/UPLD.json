@@ -1,55 +1,64 @@
 {
   "ticker": "UPLD",
   "name": "Upland Software, Inc.",
-  "sector": "Enterprise Software",
+  "sector": "Technology (Enterprise Software)",
   "theme": "Enterprise Software & Security",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.103Z",
+  "lastResearched": "2026-11-11T21:19:14.107Z",
   "fundamentals": {
     "marketCap": {
-      "value": 11680000,
-      "asOf": "2026-10-26",
-      "source": "massive.com",
-      "note": "Price $3.97/share."
+      "value": 10050000,
+      "asOf": "2026-09-11",
+      "source": "equibles.com",
+      "note": "based on ~2.96M shares outstanding (post reverse split) at $3.22/share"
     },
-    "float": {
-      "value": null,
-      "note": "not found in available sources"
-    },
+    "float": null,
     "sharesOutstanding": {
       "value": 2960000,
-      "asOf": "2026-10-26",
-      "note": "Post-split."
+      "asOf": "2026-09-11",
+      "source": "equibles.com"
     },
     "shortInterest": {
-      "value": 109440,
-      "asOf": "2026-09-30",
-      "note": "Post-split figure, 2.1 days to cover. An older PRE-split figure (842,712 shares, 2026-03-13) is not comparable — the apparent '87% decline' in shares short is largely or entirely a split artifact, not real short-covering."
+      "value": 3.48,
+      "asOf": "2026-09-11",
+      "source": "equibles.com",
+      "note": "102.9K shares short, 3.48% of float, ~3.5 days to cover"
     },
     "cash": {
-      "value": 28900000,
-      "asOf": "2026-09-30",
-      "source": "SEC 8-K Q3 2026 earnings release exhibit (q326991earningsrelease.htm), filed 2026-11-04",
-      "note": "$30.0M revolving credit facility remained undrawn."
+      "value": 19400000,
+      "source": "stockanalysis.com (via web search snippet)",
+      "note": "date not clearly established; appears to reflect FY2025 10-K balance sheet"
     },
     "debt": {
-      "value": 229600000,
-      "asOf": "2026-06-30"
+      "value": 201800000,
+      "source": "stockanalysis.com (via web search snippet)",
+      "note": "same source/date caveat as cash figure; implies net debt of roughly $182M"
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings -- Q3 2026 GAAP net loss of $0.5M (narrower than the $1.1M loss a year earlier)."
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -12.53,
-        "basis": "GAAP (post-split-adjusted, aggregator-computed)",
-        "note": "Non-GAAP/adjusted EPS $1.78 vs $1.55 a year earlier; one consensus figure of $1.51 appears to be an estimate, not the actual."
+        "period": "FY2024",
+        "value": -4.26,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": -1.56,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.67,
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
@@ -63,22 +72,34 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -6,
-      "note": "Non-GAAP net income $6.4M, -41% YoY from $10.8M; adjusted EBITDA $12.6M (27% of revenue, down from 32% a year earlier)."
+      "pct": -5.9,
+      "note": "$47.5M vs $50.5M a year earlier; company described this as approximately -6% YoY"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 is now confirmed reported (filed 2026-11-04), resolving the prior pass's ambiguity over whether it had already been released. No Q4 2026/FY2026 report date found yet."
+      "note": "No Q4 2026/FY2026 earnings date found; prior-year Q4 2025 results were released around 2026-03-03, suggesting a similar early-March 2027 window, but this is not confirmed"
     },
     "REVERSE_SPLIT_NOTE": "Upland executed a 1-for-10 reverse stock split, effective 2026-06-17 (charter amendment filed 2026-06-03), to regain Nasdaq minimum-bid-price compliance. Pre-split share count was ~29.4M; post-split ~2.9M. All post-6/17/2026 share counts below are POST-split; pre-split figures seen on some aggregator pages are stale/non-comparable."
   },
   "price": {
     "last": null,
     "asOf": null,
-    "note": "Dated snapshots conflict: $5.07 (2026-08-07/08-10, Upstox, paired with an implausible $144.94M market-cap figure likely mixing pre-split ~29.4M share count with a post-split price) vs. $3.94 (2026-09-18, Value Research). No reliable figure for 2026-10-23 found."
+    "note": "No reliable current quote found. Most recent dated figure: $4.52 (prior close $4.89) on investing.com as of 2026-07-30, which pre-dates a 1-for-10 reverse split reportedly effective 2026-06-17 per marketlog.com — so this figure's split-adjustment basis is unclear. An undated stockevents.app figure of $3.98 could not be dated."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "capital structure",
+      "headline": "Upland agreed to waive the 4.5% paid-in-kind dividend on preferred stock held by Ulysses Aggregator indefinitely, to support deleveraging",
+      "source": "https://www.panabee.com/news/upland-software-dividend-q4-2026-news"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: total revenue $47.5M (-6% YoY from $50.5M); GAAP diluted loss per share narrowed to $0.67 from $0.90 a year earlier; company outlined a deleveraging/simplification plan running into early 2027",
+      "source": "https://www.webull.com/news/15867543134444544"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -131,11 +152,35 @@
     }
   ],
   "conflicts": [
-    "RESOLVED 2026-11-06: the SEC 8-K exhibit (q326991earningsrelease.htm) that the prior pass could not date or confirm is now established as genuine and dated -- filed 2026-11-04. The figures cited there match what is now recorded above."
+    "Share count: ~28.48M shares outstanding / ~24.27M free float per 2025 MarketBeat data vs. ~2.96M shares per a September 2026 Equibles snapshot. The ratio (~9.6x) is consistent with a 1-for-10 reverse split reportedly effective around 2026-06-17 (per marketlog.com), rather than a data error, though no primary-source (company filing) confirmation of the split was found.",
+    "Market cap: $10.05M (Equibles, Sept 2026, post-split basis) vs $13.69M (Yahoo Finance stat page, 'as of 3/31/2026') vs ~$55M (2025 MarketBeat, pre-split) — dates and split basis differ across sources.",
+    "FY2025 diluted EPS: -$1.56 (edgar.tools, tenk.fyi) vs -$15.60 (AlphaQuery) — the AlphaQuery figure looks inconsistent with the reported ~$38.7M net loss on the share count in its own table and is treated as an outlier.",
+    "Float: one stockanalysis.com snippet showed a float of ~21.6M shares, which is larger than the ~2.96M shares outstanding reported elsewhere — almost certainly a pre-reverse-split, stale figure; excluded from the float field above."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: Q3 2026 earnings now confirmed reported via a dated SEC 8-K (filed 2026-11-04), resolving the prior pass's open conflict about whether that report already existed. Revenue $47.5M (-6% YoY) continues the decline pattern seen in Q1/Q2 2026, which the company attributes mainly to 2025 divestitures. GAAP net loss narrowed to $0.5M from $1.1M; non-GAAP net income fell 41% YoY to $6.4M; adjusted EBITDA margin compressed to 27% from 32%. No Q4 2026/FY2026 earnings date found. Carahsoft government-aggregator partnership and 1-for-10 reverse-split history unchanged from prior passes.",
+  "notes": "Beyond the Nov 4 earnings and Nov 9 preferred-dividend waiver, the only other item found was Upland earning badges in G2's Fall 2026 market reports, which carried no specific date and is not listed as a dated catalyst. Cash/debt figures could not be pinned to an exact reporting date; treat as approximate.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -323,11 +368,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -1,70 +1,49 @@
 {
   "ticker": "VEEA",
   "name": "Veea Inc.",
-  "sector": "Edge Computing / IoT Infrastructure",
+  "sector": "Technology (Edge Computing / IoT)",
   "theme": "Government IT & Defense Services",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.103Z",
+  "lastResearched": "2026-11-11T21:19:14.108Z",
   "fundamentals": {
     "marketCap": {
-      "value": 14400000,
-      "asOf": "2026-10-09",
-      "source": "Derived: ~2.52M post-split shares (see sharesOutstanding note) x $5.70 close on 2026-10-09",
-      "note": "This is a calculated estimate, not a directly-sourced market-cap figure, flagged as such. No aggregator market-cap figure dated after the Aug 2026 reverse split was found."
+      "value": 13400000,
+      "asOf": "2026-11-02",
+      "source": "derived from $4.30 price and ~3.11M shares outstanding (marketchameleon.com)"
     },
-    "float": {
-      "value": null,
-      "note": "not found in available sources; see shortInterest conflicts for float-related figures that could not be reconciled"
-    },
+    "float": null,
     "sharesOutstanding": {
-      "value": 2520378,
-      "asOf": "estimated post-split, 2026-08-31",
-      "source": "Derived from last confirmed pre-split count (50,407,567 shares as of 2026-05-13, per Q1 2026 10-Q cover page) divided by the announced 1-for-20 reverse split ratio effective 2026-08-31",
-      "note": "This is an arithmetic estimate based on disclosed figures, not a directly observed post-split share count -- no 10-Q or 8-K filed after the split with an updated share count was reachable in sandbox. The company also filed a Form 424B5 (securities offering prospectus) around mid-August 2026, which may have added shares after this count; treat as approximate and likely a floor."
+      "value": 3110000,
+      "source": "marketchameleon.com",
+      "note": "post 1-for-20 reverse split (effective late August 2026)"
     },
     "shortInterest": {
-      "value": null,
-      "note": "Could not establish a reliable figure -- sources are wildly inconsistent and dated across different pre/post-split periods: Benzinga ~0.68% (late 2025); Equibles 0.8% of float (2026-07-02, pre-split); Chartmill 4.38% of float (undated); a Benzinga Korean-language page cites 35.7% short float (dated near the Sept 2026 NovaGen news); Tickeron cites 'about 39% of shares sold short' (Oct 2026); Quiverquant headline cites short interest 'rises to 64.77%' (undated). These cannot be reconciled in this sandbox and are recorded verbatim in conflicts."
+      "value": 0.8,
+      "asOf": "2026-07-02",
+      "source": "equibles.com",
+      "note": "~408K shares short, ~1.0 days to cover; described as rising. A separate stockanalysis.com snippet showed 337,378 shares / 2.71% of float on an undated, possibly pre-split basis — see conflicts."
     },
     "cash": {
-      "value": 1900000,
+      "value": 886970,
       "asOf": "2026-06-30",
-      "source": "Third-party earnings analysis (panabee.com), summarizing the Q2 2026 10-Q -- NOT independently confirmed against the primary filing (sec.gov unreachable in sandbox)",
-      "note": "Same source states the company remains dependent on related-party debt from its CEO and affiliated entities (e.g., NLabs) to fund operations, and that accrued rent/debt has been converted into Series A Preferred Stock."
+      "source": "fool.com (Motley Fool), Q2 2026 balance sheet"
     },
     "debt": {
-      "value": null,
-      "note": "No clean total-debt figure found; disclosed as primarily related-party debt from the CEO/affiliates per third-party summary, amount not quantified in available sources."
+      "value": 13440000,
+      "asOf": "2026-06-30",
+      "source": "fool.com (Motley Fool), Q2 2026 balance sheet"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings -- company reported an operating loss of ~$12.2M against ~$0.4M of revenue for H1 2026; pre-revenue-stage economics, no analyst forward estimate found."
+      "note": "negative earnings; TTM net income approximately -$12.25M per fool.com",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved in sandbox"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved in sandbox"
-      },
-      {
-        "period": "H1 2026 (ended 2026-06-30)",
-        "value": null,
-        "basis": null,
-        "note": "Operating loss of ~$12.2M disclosed (third-party summary) but no per-share figure found; most recent discrete quarter's EPS not isolated from the half-year figure in available sources."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "H1 2025",
@@ -79,23 +58,30 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "H1 2026 (six months ended 2026-06-30)",
-      "pct": 300,
-      "note": "Growth is off a very small base (~$0.4M vs ~$0.1M); not indicative of a mature revenue ramp. Company is effectively pre-revenue for its edge-infrastructure business as filed."
+      "period": null,
+      "pct": null,
+      "note": "TTM revenue reported as ~$491K (fool.com, date unclear); a year-over-year comparison figure was not found"
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2026-11-17",
       "confirmed": false,
-      "note": "Not found in available sources."
+      "note": "listed by one data provider; not independently confirmed by company IR"
     }
   },
   "price": {
-    "last": 4.89,
-    "changePct": null,
-    "asOf": "2026-11-07",
-    "note": "Fills previously-null price field; thinly-traded micro-cap, volatile."
+    "last": 4.3,
+    "changePct": -10.8,
+    "asOf": "2026-11-02",
+    "source": "ryanoconnellfinance.com",
+    "note": "No quote found dated 2026-11-11; this is the most recent dated figure located."
   },
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "governance/listing",
+      "headline": "Veea resolved governance matters following an unexpected board vacancy (board/committee changes); shares rose 47.3% to $5.70; Nasdaq listing compliance restored after the post-split closing bid price held at/above $1.00 for 10 consecutive business days (Aug 31-Sept 14, 2026)",
+      "source": "https://www.taiwannews.com.tw/news/6454999"
+    },
     {
       "date": "2026-10-09",
       "type": "regulatory/listing",
@@ -153,15 +139,35 @@
     }
   ],
   "conflicts": [
-    "Short interest estimates range from ~0.7% to ~65% of float/shares across sources and dates -- could not be reconciled; recorded as a conflict rather than resolved.",
-    "Price appears to jump from $0.23 (2026-07-02, equibles) to a $3.87-$5.70 range in October 2026 (various sources) -- this is very likely explained by the 1-for-20 reverse stock split effective 2026-08-31 (pre-split $0.23 x 20 ~= $4.60, consistent with the October range), rather than a real anomaly; flagged per instructions rather than silently adjusted.",
-    "Share count: a Benzinga page shows 19,070,336 shares (late 2025) vs. the Q1 2026 10-Q's 50,407,567 shares (as of 2026-05-13) -- a large jump that was not explained by any single source found (likely dilution/offerings over the period); the post-split (~2.52M) figure used above is a derived estimate, not directly observed.",
-    "A Benzinga Korean-language page lists a $5.84 price alongside '35.7% short float,' which is roughly consistent with the October price range but was not fully cross-checked against the Quiver Quant $5.70 figure for the same window.",
-    "New this pass: Market Chameleon reports VEEA closed at $4.30 on 2026-11-02, down 10.8%, on low volume (176,950 shares vs a 30-day average of 8,734,676 — a quiet, low-conviction move with no company news found tied to that date). That same source states a market cap of $13.38M at that price, which implies roughly 3.11M shares outstanding — a third, independent figure that does not match the on-file ~2.52M derived post-split estimate, nor the various pre-split figures above. None of these share-count readings has been confirmed against a primary filing this session."
+    "Short interest as % of float: ~0.8% / 408K shares (equibles, as of 2026-07-02, post-split) vs 337,378 shares / 2.71% of float (stockanalysis.com snippet, undated) — percentages are not reconcilable without knowing each source's float base and whether it is pre- or post- the 1-for-20 reverse split.",
+    "Price history shows a large jump from roughly $0.12 (pre-split, pre-August 2026) to the $4-5 range after the 1-for-20 reverse split — this is a confirmed reverse split (not a data error), per taiwannews.com reporting on the Nasdaq compliance timeline.",
+    "Market cap estimates range from ~$9.8M (Yahoo, Sept 23 2026) to ~$13.4M (derived Nov 2 2026) to ~$12.38M (roic.ai, undated) — all roughly consistent given the stock's volatility, but not from a single date."
   ],
   "pendingFilings": [],
-  "notes": "Theme assignment (Government IT & Defense Services) is uncertain per this pass's research — only retail and healthcare deployments were found for VeeaONE, no defense/government contract; worth re-verifying on a future pass.",
+  "notes": "Additional news items were found referencing a Telarus technology-services distribution agreement (secure edge computing), a 'TROLLEE' deal for phased VeeaONE deployment to up to 1,000 unattended retail stores, and a proposed connected-health combination — none of these could be pinned to a specific date in the available search results, so per the task's rules they are omitted from dated catalysts rather than guessed. No search budget remained to pursue exact dates for these three items; a follow-up search is recommended to confirm them. Theme 'Government IT & Defense Services' was carried over from the prior record as instructed; current search results describe Veea's business as edge computing/IoT (enterprise, retail, and connected-health use cases) rather than defense-specific, so this theme may be worth revisiting against the company's original government-contract history.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -10.8%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -303,11 +309,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -10.8%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

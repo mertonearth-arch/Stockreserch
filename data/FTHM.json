@@ -1,20 +1,18 @@
 {
   "ticker": "FTHM",
   "name": "Fathom Holdings Inc.",
-  "sector": null,
+  "sector": "Real Estate Services",
   "theme": "Distressed / Restructuring",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.086Z",
+  "lastResearched": "2026-11-11T21:19:14.084Z",
   "fundamentals": {
     "marketCap": {
-      "value": 6500000,
-      "asOf": "2026-10-30",
-      "source": "Yahoo Finance / aggregator cross-check",
-      "note": "Two independent aggregators (dated 10/23 and 10/30) agree within ~10% on a $6-7M range at a ~$0.18-0.20 share price -- resolves the previously-null marketCap field. ~33M shares outstanding is consistent across sources; no reverse-split signal found (checked specifically)."
+      "value": null,
+      "note": "Not located"
     },
     "float": {
       "value": null,
@@ -22,7 +20,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "carried forward; conflicting ~32.78M vs 21.01M"
+      "note": "Not located"
     },
     "shortInterest": {
       "value": 178300,
@@ -39,14 +37,15 @@
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "Company has a history of net losses (e.g., Q3 2025 GAAP net loss $4.4M, -$0.15/share); current-period figure not located"
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -0.19,
+        "period": "Q3 2025",
+        "value": -0.15,
         "basis": "GAAP",
-        "note": "carried forward; net loss $6.2M for qtr ended 2026-06-30"
+        "note": "Most recent reliably-sourced EPS found; this is a year-old quarter, not FY2024/FY2025 full-year or Q3 2026 figures, which were not located"
       }
     ],
     "revenue": [
@@ -59,29 +58,40 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": -6
+      "pct": null,
+      "note": "Q3 2026 results were not located in any source searched as of 2026-11-11; the most recent confirmed figure is Q3 2025 revenue of $115.3M, +37.7% YoY (reported 2025-11-11) — now stale by a full year and not usable as a current figure"
     },
     "nextEarnings": {
       "date": "2026-11-10",
       "confirmed": false,
-      "note": "Independently corroborated by two sources this session (Unusual Whales and NextEarningsDate.com), both projecting Nov 10, 2026. A third source (EarningsWhispers) instead projects Nov 12, 2026 — kept as a conflict below. No company-issued conference-call notice for Q3 2026 was located."
+      "note": "Conflicts with a 2026-11-12 estimate per data on file. As of today (2026-11-11), I found no Q3 2026 earnings release, press release, or 8-K in any source searched — only recurring coverage of the (now year-old) Q3 2025 report, which was itself released on 2025-11-11. This strongly suggests either the Q3 2026 report has not yet been published, or it was published very recently (Nov 10/11) and is not yet indexed by the search sources available. Could not confirm either way."
     }
   },
   "price": {
-    "last": 0.18,
-    "changePct": 0,
-    "asOf": "2026-10-30",
-    "source": "MarketChameleon",
-    "note": "Fills previously-null price field."
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "No current price, market cap, or shares-outstanding figure could be located in this session before the research budget was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-10-05",
+      "type": "M&A",
+      "headline": "Fathom Holdings and Neighborhood Intelligence Inc. (NXH, formerly the Bed Bath & Beyond entity) announced mutual termination of their previously announced merger agreement; Fathom's chairman said 'At current valuations, we do not believe a merger appropriately reflects the fair value of either company'",
+      "source": "https://www.rismedia.com/2026/10/05/fathom-bed-bath-beyond-parent-merger-called-off/"
+    },
     {
       "date": "2026-10-05",
       "type": "M&A",
       "headline": "Fathom Holdings and Neighborhood Intelligence, Inc. (NXH, formerly Bed Bath & Beyond's parent) mutually agreed to terminate their proposed merger agreement entirely. No termination fee is owed by either party. Both boards concluded a deal at prevailing valuations would misprice one or both companies; NXH's chairman/CEO Marcus Lemonis said the decision followed shareholder consultation and a wish to retain NXH's blockchain/digital-asset stakes (including tZERO). Both companies plan to stay independent but continue exploring collaboration, including possible data-sharing.",
       "impact": null,
       "source": "https://www.realestatenews.com/2026/10/05/bed-bath-and-beyond-drops-53m-deal-to-acquire-fathom; https://www.rismedia.com/2026/10/05/fathom-bed-bath-beyond-parent-merger-called-off/; https://www.housingwire.com/articles/fathom-neighborhood-merger-terminated/"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "debt/dilution",
+      "headline": "Fathom executed a Second Omnibus Amendment to its Senior Secured Convertible Promissory Notes",
+      "source": null
     },
     {
       "date": "2026-10-01",
@@ -139,12 +149,27 @@
       "source": "https://www.gurufocus.com/news/8757361/fathom-holdings-reports-fourth-quarter-and-full-year-2025-results"
     }
   ],
-  "conflicts": [
-    "Next earnings date: Unusual Whales and NextEarningsDate.com both independently project 2026-11-10 (corroborating, kept as the primary on-file estimate); EarningsWhispers instead projects 2026-11-12. Neither is a company confirmation — kept both per the conflict rule, not reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: established a market cap figure (~$6-7M, two corroborating aggregators), resolving the previously-null field; no reverse-split signal found. No 8-K newer than the on-file 2026-10-05 one (merger termination + note maturity extension). Next earnings estimate unchanged (Nov 10 vs Nov 12 conflict, both unconfirmed).",
+  "notes": "After the October 5, 2026 merger termination, Fathom and NXH reportedly proposed a restructured transaction combining Fathom's national residential brokerage and title business with NXH's digital-asset interests (tZERO, the Medici portfolio, GrainChain), valuing NXH's contributed assets at 'no less than $130 million' and giving NXH a controlling interest in the combined company post-close; this proposal is subject to definitive agreements, board/shareholder approvals, a fairness opinion, and regulatory approvals. I could not find a confirmed date for this restructured-deal announcement, so it is omitted from the dated catalyst list. Most importantly for this task: I was unable to confirm whether Fathom's Q3 2026 results have actually been released as of 2026-11-11 — every search returned only Q3 2025 coverage (also dated Nov 11, almost exactly one year earlier), which raises the possibility of either a reporting delay, a change in reporting schedule, or simply a lag in search indexing. Recommend checking ir.fathominc.com or an SEC EDGAR 8-K search directly once network access allows; WebFetch to all candidate sources (including SEC EDGAR, stocktitan, panabee) failed with DNS resolution errors in this sandbox, and the WebSearch budget for this task was exhausted before a follow-up query could be run.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -361,10 +386,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

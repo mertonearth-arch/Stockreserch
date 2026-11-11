@@ -1,66 +1,46 @@
 {
   "ticker": "IONQ",
   "name": "IonQ, Inc.",
-  "sector": null,
+  "sector": "Quantum Computing",
   "theme": "AI Semiconductors",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.088Z",
+  "lastResearched": "2026-11-11T21:19:14.086Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12000000000,
-      "asOf": "2026-10-15",
-      "source": "QuantumComputingReport, regular-session close",
-      "note": "Share count behind this figure not disclosed by the source; implies ~349M shares at the $34.35 close, which is far above the ~222.8M shares outstanding the 10-K reported as of 2026-02-19 (pre the 2025/2026 equity offerings) — see conflicts. Still not independently reconciled."
+      "value": null,
+      "note": "Not established this session."
     },
     "float": {
       "value": null,
-      "note": "not found distinctly from shares outstanding; aggregators report short-interest-as-%-of-float but not a float share count itself"
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
-      "value": 381002314,
-      "asOf": "2026-07-29",
-      "source": "SEC Q2 2026 10-Q",
-      "note": "Up from 373,171,320 as of 2026-03-31 (Q1 10-Q). Does not yet reflect the Oct 16, 2026 offering's +20.5M common shares (pre-funded warrants not immediately counted); no Q3 2026 10-Q available yet to confirm a current total."
+      "value": null,
+      "note": "Not established this session."
     },
     "shortInterest": {
-      "value": 13.2,
-      "asOf": "2026-08-14",
-      "source": "Equibles/Benzinga, FINRA settlement date",
-      "note": "percent of float; ~42.4M shares short, ~1.9 days to cover per Curved Trading for the same settlement date — see conflicts for disagreeing readings"
+      "value": null,
+      "note": "Not established this session."
     },
     "cash": {
       "value": null,
-      "note": "Conflicting figures for the June 30, 2026 quarter: one aggregator describes ~$3B cash/investments pre-SkyWater acquisition dropping to ~$2B post-acquisition; another lists cash & equivalents of $1.2B (likely excluding investments); a third lists $2.03B cash. Not reconciled."
+      "note": "Not established this session."
     },
     "debt": {
-      "value": 54500000,
-      "asOf": "2026-06-30",
-      "source": "aggregator citing Q2 2026 balance sheet",
-      "note": "A separate aggregator (undated, likely stale) shows $30.44M instead — kept as unresolved conflict."
+      "value": null,
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "GAAP EPS for Q3 2026 was positive ($1.42) only because of a large non-cash mark-to-market gain on warrant liabilities (net income attributable to IonQ of $564.0M); adjusted/non-GAAP EPS remained negative (-$0.29) and adjusted EBITDA was a loss of $133.6M. Treated as a negative-earnings case on an operating basis per standing rule 4; no multiple computed."
+      "note": "negative earnings (pre-profitability quantum computing company)",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "Q3 2026",
-        "value": 1.42,
-        "basis": "GAAP diluted",
-        "note": "Driven almost entirely by a non-cash warrant-liability mark-to-market gain (net income attributable to IonQ $564.0M), not operating profitability."
-      },
-      {
-        "period": "Q3 2026",
-        "value": -0.29,
-        "basis": "non-GAAP (adjusted)",
-        "note": "Adjusted EBITDA loss $133.6M for the quarter."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q3 2026",
@@ -72,20 +52,35 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 336
+      "pct": null,
+      "note": "Q3 2026 results were confirmed reported 2026-11-05 per system state, but the specific revenue figure/YoY growth rate was not retrieved from an available source before the WebSearch budget for this session was exhausted."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 reported 2026-11-05 (now confirmed, resolving the prior pass's pending status). Q4 2026 report date not yet announced."
+      "note": "None scheduled; Q3 2026 already reported 2026-11-05 per system state."
     }
   },
   "price": {
-    "last": 34.35,
+    "last": null,
     "changePct": 9.33,
-    "asOf": "2026-10-15"
+    "asOf": "2026-11-11",
+    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "sector/analyst",
+      "headline": "Stock reported up roughly 12% intraday amid a broader quantum-computing sector rally tied to a reported U.S. government plan to invest about $2 billion in quantum computing; IonQ itself was not named as a direct beneficiary of that plan (D-Wave Quantum and Rigetti Computing were named), but shares rose alongside peers. The same report also references a shareholder vote approving IonQ's pending acquisition of SkyWater Technology, and cites a share price of $58.84.",
+      "impact": "+9.33% (per system state, today's session)",
+      "source": "https://www.barchart.com/story/news/2067341/why-ionq-ionq-stock-is-up-today"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 results reported (per system state); specific revenue/EPS figures not retrieved this session",
+      "source": ""
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -166,13 +161,33 @@
     }
   ],
   "conflicts": [
-    "Market cap/shares-outstanding snapshots found this session (TipRanks $13.50B @ 2026-08-20; another $17.1B/381M shares @2026-08-13; others undated at $24.41B/373M shares or $18.87B/unclear shares) remain mutually inconsistent and do not clearly postdate the on-file Oct 15, 2026 figure — not used to update marketCap, kept on-file reading.",
-    "Post-earnings price remains unresolved: a Nov 3, 2026 close of $29.99 (+6.46%, heygotrade, described as a pre-earnings run-up) vs. a separate description of the stock trading at ~$26.63 'near the bottom of its 52-week range' as of 2026-11-06 (24/7 Wall St) -- neither reconciles with the on-file Oct 15, 2026 $34.35, and no 2026-11-09 close was found. This pass's assignment brief cited a same-day +9.33% session move, which still cannot be pinned to a specific date/close and numerically matches the already-on-file 2026-10-15 move, raising the possibility of a mix-up with that earlier date rather than a genuine new move -- not used to overwrite the on-file price/move.",
-    "Pre-earnings adjusted-EPS consensus for Q3 2026 is reported inconsistently across sources as -$0.80, -$0.34, and -$0.38 -- not reconciled; the actual reported adjusted EPS (-$0.29, on file) beat all three readings regardless of which is used."
+    "The Barchart article used for today's catalyst was returned by a generic ('why IONQ stock is up today') search query and its publish date could not be independently confirmed to be 2026-11-11 vs. a near-by date; it is the best-matching available source for today's move (price level $58.84 and 'up today' framing) but should be treated as probable, not certain, attribution."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: price remains unresolved post-earnings -- two conflicting November readings ($29.99 pre-earnings pop vs $26.63 'near 52-week low' days later), neither matching the on-file Oct 15 figure; no 2026-11-09 close found. EPS/revenue figures already on file reconfirmed (adjusted EPS -$0.29, GAAP +$1.42 warrant-driven, revenue $173.83M +336% YoY) -- no change needed there. No resolution on the flagged +9.33% move.",
+  "notes": "Sector/theme note: IonQ is a quantum computing company, not a semiconductor maker; the 'AI Semiconductors' theme label on file does not precisely describe its business (closer fit: 'Quantum Computing'). Kept the given theme string per instructions but flagged the mismatch here; sector field above is set to the more accurate 'Quantum Computing'. Market cap/shares/float/short-interest/cash/debt and exact Q3 2026 financials are null because the WebSearch budget for this session was exhausted before those lookups could be completed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 9.33%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -417,10 +432,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 9.33%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

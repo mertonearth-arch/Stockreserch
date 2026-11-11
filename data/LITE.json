@@ -1,20 +1,18 @@
 {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
-  "sector": null,
+  "sector": "Technology Hardware — Optical Components / Networking",
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.097Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.097Z",
   "fundamentals": {
     "marketCap": {
-      "value": 63950000000,
-      "asOf": "2026-10-20",
-      "source": "Derived: 77.8M shares outstanding (TipRanks/Equibles) x $822.51 close (tickzen.app, 2026-10-20)",
-      "note": "A separate Equibles snapshot dated 2026-08-21 used 89.70M shares against a $78.00B market cap -- see conflicts. Using the more recent, more corroborated 77.8M share count."
+      "value": null,
+      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
     },
     "float": {
       "value": null,
@@ -41,26 +39,15 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "FY2026 GAAP result was a ~$6.9B net loss, driven almost entirely by a one-time, non-cash $7.8B debt-extinguishment loss on convertible-note conversion (Q4 FY2026); non-GAAP FY2026 diluted EPS was positive at $8.67. At the $822.51 Oct 20 price, non-GAAP TTM P/E would be approximately 95x, but this is this session's own arithmetic, not a sourced multiple, so left as a note rather than a recorded figure.",
-      "asOf": "2026-10-20"
+      "note": "not established in accessible sources",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "FY2025",
-        "value": -0.49,
-        "basis": "loss per share"
-      },
-      {
         "period": "Q4 FY2026",
         "value": 3.23,
-        "basis": "non-GAAP adjusted",
-        "note": "Reported 2026-08-11/12, a beat; a separate source instead reports $2.97 for the same quarter — kept both, not reconciled."
-      },
-      {
-        "period": "Q1 FY2027 (ended 2026-09-26)",
-        "value": 3.54,
-        "basis": "GAAP diluted",
-        "note": "GAAP net income $360.3M. Non-GAAP diluted EPS for the same quarter was $4.57 (non-GAAP net income $461.1M)."
+        "basis": "non-GAAP",
+        "note": "reported Aug 11, 2026; beat consensus estimate of $2.97 by $0.26"
       }
     ],
     "revenue": [
@@ -83,14 +70,14 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027 (ended 2026-09-26)",
+      "period": "Q1 FY2027",
       "pct": null,
-      "note": "Disputed YoY base — see conflicts and the revenue entry note. GAAP gross margin was 51.0%, non-GAAP gross margin 53.2%."
+      "note": "Fiscal Q1 FY2027 net revenue reported at $1.26B on Nov 5, 2026 (per existing record); prior-year comparable quarter revenue needed to compute YoY% was not located in accessible sources."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Fiscal Q1 FY2027 results (quarter ended 2026-09-26) are now on file via this pass. The next report would be fiscal Q2 FY2027; company guided Q2 FY2027 revenue to $1.575B-$1.625B and non-GAAP diluted EPS to $5.90-$6.20, but no specific report date was found this session."
+      "note": "Q1 FY2027 just reported Nov 5, 2026; Q2 FY2027 report date not announced in accessible sources."
     }
   },
   "price": {
@@ -100,6 +87,12 @@
     "note": "Sourced from a Chinese-language aggregator (stock.10jqka.com.cn); direction is corroborated by a Yahoo Finance history snapshot showing a $988.98 close on 2026-09-09, a dip to $845.09 on 2026-09-14, and renewed upward momentum into early October. LITE genuinely trades in four figures per share (no stock split found this session) — this is a very high-priced but real quote, not a reverse-split artifact."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Fiscal Q1 FY2027 results: net revenue $1.26B",
+      "source": null
+    },
     {
       "date": "2026-11-05",
       "type": "earnings/guidance",
@@ -144,16 +137,26 @@
       "source": "https://s21.q4cdn.com/377324469/files/doc_news/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results-2026.pdf"
     }
   ],
-  "conflicts": [
-    "Oct 28, 2026 close: one source shows $913.95; another's 'prior close' field shows $866.18 -- these do not agree, kept verbatim.",
-    "Q4 FY2026 adjusted EPS: $3.23 vs $2.97 across sources, both characterized as a beat on roughly the same report date.",
-    "Shares outstanding: 77.80M (most sources) vs 89.70M (2026-08-21) -- kept separately.",
-    "A Benzinga snapshot labeled 2026-11-03 shows LITE at $698.14, well below both the on-file $1,045.78 (2026-10-01) price and the already-recorded 2026-10-29 $919.53 close -- a roughly 24-39% drop with no corroborating news or second source found this session. Not used to update price.last; flagged as a possible bad/mislabeled data point or an unremarked pre-earnings selloff that could not be verified.",
-    "Q1 FY2027 report date: company's 2026-10-05 announcement scheduled Nov 5, 2026 after close; a secondary aggregator (ithome.com) reported the same results under a Nov 2, 2026 dateline -- not reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst beyond the 2026-11-05 fiscal Q1 FY2027 earnings print already on file. An unreconciled, much lower Nov 3, 2026 price snapshot (Benzinga, $698.14) surfaced this session but could not be corroborated against the $900s levels implied by the pre-earnings rally described in the existing Oct 29 catalyst, nor against any post-earnings reaction coverage (none found) -- see conflicts. Cash, debt and share count not independently refreshed this session.",
+  "notes": "No new catalysts found since the Nov 5, 2026 earnings print — this name is genuinely quiet; confirming unchanged fundamentals rather than padding. The only post-event context search turned up was stale, pre-earnings commentary from early October 2026 (e.g., a mid-Oct MarketBeat alert citing a last trade near $1,103.36 on Oct 9, 2026, and large single-day moves tied to AI/optical-networking demand and profit-taking) — not used as a current price since it predates the Nov 5 report. Yahoo Finance, Finviz and StockTitan all failed DNS resolution in this sandbox, so no live quote, market cap, or current short interest could be confirmed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -372,10 +375,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

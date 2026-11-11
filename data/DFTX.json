@@ -1,20 +1,20 @@
 {
   "ticker": "DFTX",
   "name": "Definium Therapeutics, Inc.",
-  "sector": "Healthcare",
+  "sector": "Biopharmaceuticals",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.084Z",
+  "lastResearched": "2026-11-11T21:19:14.083Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4600000000,
-      "asOf": "2026-10-19",
-      "source": "Quote aggregator snapshot at $32.90/share (publisher not clearly identified in search result)",
-      "note": "Down from ~$5.1-5.2B in early September 2026 as the share price has pulled back; see conflicts."
+      "value": 5910000000,
+      "asOf": "2026-07-31",
+      "source": "fool.com",
+      "note": "Derived from ~132.74M shares at $43.52; stale by over three months and likely does not reflect price/share-count changes since"
     },
     "float": {
       "value": 128540000,
@@ -23,10 +23,9 @@
       "note": "~95.9% of shares outstanding per the same source; a second figure from the same source cites 128.88M"
     },
     "sharesOutstanding": {
-      "value": 134365950,
-      "asOf": "2026-06-30",
-      "source": "SEC Form 10-Q (Q2 2026) cover/balance sheet -- issued and outstanding",
-      "note": "Up sharply from 98,776,265 at 2025-12-31, reflecting the large mid-2026 equity offering. This confirms (to the SEC primary-filing level) the figure previously carried from an aggregator-only source."
+      "value": 132743260,
+      "asOf": "2026-07-31",
+      "source": "tipranks.com"
     },
     "shortInterest": {
       "value": 10700000,
@@ -35,62 +34,66 @@
       "note": "A separate aggregator (Finviz, 2026-08-17) cites 8.36% of float, broadly consistent. Down from ~15.4% of shares (15,008,738 shares) as of 2026-03-13 per MarketBeat."
     },
     "cash": {
-      "value": 655267000,
-      "asOf": "2026-06-30",
-      "source": "SEC Form 10-Q (Q2 2026) balance sheet -- cash and cash equivalents",
-      "note": "Plus $428,612,000 short-term investments (total ~$1.1B); company states resources fund operations into 2030."
+      "value": 1050000000,
+      "asOf": "2026-09-30",
+      "source": "search synthesis citing company Q3 2026 release (via panabee.com summary)",
+      "note": "Down ~$37M from prior quarter"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not disclosed; company appears equity-funded"
+      "note": "Not located"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage biotech",
-      "asOf": "2026-10-23"
+      "note": "Pre-commercial biopharma with negative earnings"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
+        "period": "Q1 2026",
+        "value": -0.71,
         "basis": "GAAP",
-        "note": "not found"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not found"
+        "note": "From Weiss Ratings aggregator; MarketBeat's 2026-05-08 item independently corroborates a loss of $0.71/share vs a $0.48 estimate"
       },
       {
         "period": "Q2 2026",
-        "value": null,
+        "value": -1.44,
         "basis": "GAAP",
-        "note": "not found"
+        "note": "From Benzinga aggregator; actual Q3 2026 EPS could not be confirmed despite the report being released on 2026-11-09 (only a consensus estimate of roughly -$0.55 was found)"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "clinical trial progress (pre-revenue)",
-      "period": "H1-H2 2026",
-      "pct": null,
-      "note": "Three consecutive positive Phase 3 readouts for DT120 ODT in 2026: Emerge (MDD, 2026-06-22), Voyage (GAD, ~2026-08-10/11), Panorama (GAD, 2026-09-14)."
+      "metric": "operating expenses YoY",
+      "period": "Q3 2026",
+      "pct": 58,
+      "note": "Company is pre-revenue (clinical-stage); revenue YoY is not applicable. Total operating expenses were $72.3M in Q3 2026, up 58% YoY, driven by hiring and launch preparation."
     },
     "nextEarnings": {
-      "date": "2026-11-09",
-      "confirmed": true,
-      "note": "Now double-sourced: BioPharmaWatch and Finviz both independently cite Definium's own 2026-10-29 Business Wire release confirming the 4:30pm ET webcast today. Supersedes the stale EarningsWhispers (Nov 5) and GuruFocus (Nov 6) aggregator guesses, which are templated noise rather than real updates."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 already reported 2026-11-09; next (Q4/FY2026) date not yet announced in sources reviewed"
     }
   },
   "price": {
-    "last": 32.9,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-19",
-    "note": "Most recent dated snapshot found; publisher of this specific quote unclear from search snippet. Stock has declined from an August/September 2026 high (~$44-49) through October; see conflicts."
+    "asOf": "2026-11-11",
+    "note": "No current quote located. Most recent dated figure found: $43.52 close on 2026-07-31 (Motley Fool), more than three months stale. See conflicts for the wide range of other figures found at various unconfirmed dates."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Reported Q3 2026 results (quarter ended 2026-09-30): operating expenses $72.3M (+58% YoY); cash & short-term investments $1.05B (runway guided into 2030); also disclosed early Phase 2a DT402 autism data (small, n=5, uncontrolled, but positive) alongside the financial results",
+      "source": "https://www.biopharmawatch.com/news/DFTX/definium-therapeutics-q3-2026-results"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "disclosure",
+      "headline": "Announced it would report Q3 2026 financial results on November 9, 2026",
+      "source": "https://finviz.com/news/412058/definium-therapeutics-to-report-third-quarter-2026-financial-results-on-november-9-2026"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings date announcement",
@@ -170,12 +173,31 @@
     }
   ],
   "conflicts": [
-    "Price/market cap trend across 2026: ~$44.57 (2026-08-12) -> ~$44.81 (2026-08-25) -> ~$38.23/$5.18B (2026-09-09) -> ~$35.60/$4.8B (2026-10-07) -> ~$32.90/$4.60B (2026-10-19); no dated print newer than 2026-10-19 was established this session either.",
-    "Earnings-date aggregator noise: EarningsWhispers and Digrin both showed a 'Nov 5, 2026, after close' placeholder for Q3 2026, and GuruFocus separately showed Nov 6 -- both conflict with the company's own confirmed Nov 9, 2026 report date (press notice issued 2026-10-29, now double-sourced); the aggregator dates appear stale/templated rather than real updates, so the company-confirmed Nov 9 date is retained as primary."
+    "Market cap/shares outstanding/price vary enormously across sources and appear to reflect different snapshot dates over 2026 rather than a single disputed fact: $5.91B cap / 132.74M shares / $43.52 (Fool, 2026-07-31); $6.25B cap / 132.74M shares (TipRanks, same period); $4.548B cap / $34.26 price (DeFiLlama, undated); $2.6B cap / 111.6M shares, 52-week range $15.05-$24.59 (americancompanies.com, undated); $2.57B cap / 104.04M shares (roic.ai, undated); $1.75B cap / 99.70M shares (SimplyWall St, undated); $1.89B cap at $18.96 (FXEmpire, dated only 'March', year unspecified). The spread likely reflects a rapidly rising share price and/or large share-count growth (dilutive financings) over 2026, but cannot be reconciled into a single current figure from available sources.",
+    "IPO date conflict: americancompanies.com states 2020-03-03; roic.ai states 2016-11-15. These are irreconcilable from available data."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: Q3 2026 earnings webcast confirmed today 4:30pm ET, now double-sourced (BioPharmaWatch, Finviz) -- reaffirms the on-file date. Actual figures not yet posted to the search index as of this pass (same-day, after-close report). No fresher price found. Quiet pass pending tomorrow's figures.",
+  "notes": "Q3 2026 results were confirmed reported on 2026-11-09 as scheduled (data-on-file date), so the earnings event is NOT still pending — but I could not locate the company's actual press release or an SEC 8-K/10-Q directly (WebFetch to ir.definiumtx.com, biopharmawatch.com, panabee.com and SEC EDGAR all failed with DNS resolution errors in this sandbox), so figures above are drawn from secondary aggregator summaries of that release, not the primary source, and the exact revenue (likely $0, pre-commercial — no explicit confirmation found) and exact Q3 EPS figure remain unconfirmed. Pipeline highlights mentioned in coverage: DT120 ODT (fast-dissolving lysergide tablet) Phase 3 data in anxiety (Voyage and Panorama studies, both met primary endpoints at Week 12, beating placebo by 5.4 and 5.1 points) with an FDA filing targeted for H1 2027 per CEO Rob Barrow; these trial results were mentioned without a clear date and are therefore not listed as dated catalysts. Research budget (WebSearch calls) was exhausted before these gaps could be closed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -343,11 +365,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

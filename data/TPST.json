@@ -1,20 +1,18 @@
 {
   "ticker": "TPST",
   "name": "Tempest Therapeutics, Inc.",
-  "sector": "Biotechnology",
+  "sector": "Health Care",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.102Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.106Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12500000,
-      "asOf": "2026-10-16",
-      "source": "Trade-Ideas (price $0.635 x implied ~19.7M shares)",
-      "note": "A Benzinga snapshot dated 2026-09-27 showed a reasonably close $13.60M, lending some support to this figure, though the underlying share count used by each source is inconsistent - see conflicts."
+      "value": null,
+      "note": "Not established this pass"
     },
     "float": {
       "value": null,
@@ -45,47 +43,43 @@
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings; clinical-stage, pre-revenue"
+      "forward": null,
+      "note": "Clinical-stage, pre-revenue biotech with net losses; no earnings-based multiple applies."
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search."
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not located in sandbox search."
-      },
-      {
         "period": "Q2 2026",
-        "value": null,
+        "value": -0.34,
         "basis": "GAAP",
-        "note": "Not located in sandbox search; only financing-related figures (private placement/warrant proceeds) were found, not the income statement EPS line."
+        "note": "Net loss $5.2M for the quarter ended June 30, 2026"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "revenue YoY",
-      "pct": null,
-      "note": "Pre-revenue clinical-stage biotech; no revenue to report. No other disclosed operating metric (e.g. enrollment, burn rate) was found with enough precision this session to use as a headline growth figure."
+      "metric": "cash position change (vs. prior fiscal year-end)",
+      "period": "Q2 2026 (as of 2026-06-30)",
+      "pct": -89.6,
+      "note": "Pre-revenue clinical-stage company. Cash and cash equivalents fell to $0.8M as of June 30, 2026 from $7.7M as of Dec 31, 2025 — a steep burn that predates the Sept 16, 2026 CD7 asset licensing-option announcement. Revenue not applicable."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Still no company-confirmed Q3 2026 date or release found. Sources now disagree even more widely: Digrin/Motley Fool/Defense World (the last dated 2026-11-02, saying 'expected Wednesday' i.e. 2026-11-04) point to 2026-11-04 — that date has now passed with no release located; a separate preview mentions a conference call 'Friday, November 13, 2026 at 4:00pm ET'; Earnings Whispers' main page still shows 2026-11-09. No single source is a primary company statement. Consensus Q3 2026 EPS estimate per Benzinga: -$0.32."
+      "note": "URGENT FINDING: As of 2026-11-11, no Q3 2026 earnings press release, business update, or 10-Q filing was found for Tempest Therapeutics despite a dedicated search. The Nov 4 and Nov 9, 2026 estimated dates have both passed with nothing confirmed. The remaining Nov 13, 2026 estimate is still 2 days in the future and is roughly consistent with the ~45-day post-quarter-end SEC 10-Q deadline for non-accelerated filers (quarter ended Sept 30, 2026 => deadline around Nov 14, 2026). Q3 2026 earnings should be treated as still pending, not yet reported, as of this pass."
     }
   },
   "price": {
-    "last": 0.635,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-16",
-    "source": "Trade-Ideas (carried forward from prior pass; down ~78% YTD, ~48% over the trailing month per the same source)"
+    "asOf": null,
+    "note": "An EarningsWhispers snippet referenced a price of approximately $0.79 but gave no as-of date, so it was not used; see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "licensing",
+      "headline": "Exclusive option to license Hebei Senlang Biotechnology's CD7-targeting asset (carried from prior research pass)",
+      "source": null
+    },
     {
       "date": "2026-09-16",
       "type": "licensing",
@@ -109,12 +103,42 @@
     }
   ],
   "conflicts": [
-    "Next-earnings date for Q3 2026 remains unresolved and the field of estimates has widened this pass: on-file 2026-11-05 (Yahoo) vs Digrin/Motley Fool/Defense World 2026-11-04 (now passed with no release found) vs a separate preview's 2026-11-13 4pm ET conference call vs Earnings Whispers 2026-11-09 vs Earnings Whispers-beta 2026-11-12 vs Digrin's earlier 2026-11-04 placeholder. No company-issued date located in two consecutive passes.",
-    "Market cap / share count still inconsistent across sources (TipRanks 4,440,161 shares vs Equibles ~14.8M vs Google Finance ~15.98M vs an implied ~19.7M from a 2026-10-16 Trade-Ideas market-cap/price snapshot); unresolved again this pass. A 2026-10 price-history aggregator (Digrin) shows $0.51 in October 2026 vs the on-file $0.635 (2026-10-16) — within normal drift for a sub-$1 name but not independently reconciled."
+    {
+      "field": "price",
+      "values": [
+        "EarningsWhispers snippet: ~$0.79, no as-of date given"
+      ],
+      "note": "Single unverified, undated data point; not used as the recorded price."
+    },
+    {
+      "field": "nextEarnings.date",
+      "values": [
+        "2026-11-04 (estimate, from original on-file conflict set — now past-due with no confirmed report found)",
+        "2026-11-09 (estimate, from original on-file conflict set — now past-due with no confirmed report found)",
+        "2026-11-13 (estimate, from original on-file conflict set — still pending as of 2026-11-11)"
+      ],
+      "note": "No Q3 2026 earnings release located this pass; see nextEarnings note."
+    }
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found since the 2026-09-16 Hebei Senlang CD7 licensing-option announcement already on file. Today's on-file estimate (2026-11-05) and this pass's best-supported estimate (2026-11-04, per Defense World dated 2026-11-02) have both now passed with no Q3 2026 press release, 8-K, or 10-Q located via WebSearch. Flag hard for the next pass to check directly once a print appears — this is now the second consecutive pass where an estimated earnings date passed without a confirmed release. Could not fetch a current price (WebFetch blocked broadly this session; see TER notes for detail).",
+  "notes": "This pass could not locate a Tempest Q3 2026 earnings/business-update release through either GlobeNewswire-syndicated coverage, the company's own investor-relations listing (ir.tempesttx.com was unreachable via WebFetch in this sandbox), or general web search — the most recent confirmed financial disclosure found is the Q2 2026 report (quarter ended June 30, 2026: cash $0.8M, net loss $5.2M / -$0.34 per share, R&D expense $1.8M vs. $3.9M prior year). Other 2026 pipeline news outside the ~6-month catalyst window (Feb 11 CAR-T asset acquisition completion, Feb 25 REDEEM-1 interim data, Apr 29 ISCT clinical update) was found but excluded as too old. TPST-4003 investigator-initiated trial enrollment is planned for Q4 2026 per the Q2 2026 update. Market cap, shares outstanding, float, short interest and debt were not established this pass (WebSearch budget exhausted; most data-provider domains unreachable via WebFetch).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -324,10 +348,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

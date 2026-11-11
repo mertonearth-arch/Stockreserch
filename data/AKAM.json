@@ -1,20 +1,18 @@
 {
   "ticker": "AKAM",
   "name": "Akamai Technologies, Inc.",
-  "sector": null,
+  "sector": "Internet Infrastructure & Cybersecurity",
   "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.093Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.091Z",
   "fundamentals": {
     "marketCap": {
-      "value": 13335000000,
-      "asOf": "2026-10-14",
-      "source": "Derived: $91.71 close (2026-10-14, Yahoo Finance) x 145,385,451 shares outstanding (Equibles, undated)",
-      "note": "Approximate — no fresher dated market-cap source found this session; supersedes the on-file $15.51B figure, which was based on the stale 2026-09-29 price of ~$107.91."
+      "value": null,
+      "note": "Not established."
     },
     "float": {
       "value": null,
@@ -41,30 +39,12 @@
       "note": "Not confirmed in available sources this session; Akamai has historically carried convertible notes, but a current total-debt figure was not independently verified (SEC EDGAR access blocked in this sandbox)."
     },
     "pe": {
-      "trailing": 29.9,
-      "forward": 13.6,
-      "note": "Both approximate/derived, not analyst-consensus multiples. Trailing: $91.71 (2026-10-14) ÷ FY2025 GAAP diluted EPS $3.07. Forward: $91.71 ÷ FY2026 non-GAAP EPS guidance midpoint $6.725 (company guidance range $6.40-$7.05). Price is ~12 days stale as of this session.",
-      "asOf": "2026-10-14"
+      "trailing": null,
+      "forward": null,
+      "note": "Not established from sources found; company is profitable (GAAP net income $117M in Q3 2026) but a per-share EPS figure and trailing P/E were not located.",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": 3.27,
-        "basis": "GAAP diluted",
-        "note": "third-party (StockAnalysis), not independently confirmed against a company filing this session"
-      },
-      {
-        "period": "FY2025",
-        "value": 3.07,
-        "basis": "GAAP diluted",
-        "note": "company-reported (Q4/FY2025 release); down 6.1% YoY"
-      },
-      {
-        "period": "Q2 2026",
-        "value": 0.52,
-        "basis": "GAAP diluted"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 2026",
@@ -75,22 +55,35 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 5
+      "period": "Q3 2026",
+      "pct": 6,
+      "note": "Consistent with prior record: revenue $1.122B, +6% YoY. Segment detail: cloud infrastructure revenue $109M (+34% YoY); security revenue $622M (+9% YoY). GAAP net income was $117M, down 16% YoY."
     },
     "nextEarnings": {
-      "date": "2026-11-05",
+      "date": null,
       "confirmed": false,
-      "note": "Three independent aggregators (EarningsWhispers, Bullstory, UnusualWhales) now converge on Nov 5, 2026 after market close; UnusualWhales describes this as the company-announced date and prices an options-implied move of ~13.6%. MarketScreener's Nov 9 remains an outlier/unconfirmed projection. No single company press release was directly located this session, so left unconfirmed out of caution."
+      "note": "Q3 2026 already reported Nov 5, 2026; next (Q4/full-year 2026) report date not yet announced in sources found."
     }
   },
   "price": {
-    "last": 98.5,
-    "changePct": 5.31,
-    "asOf": "2026-10-26",
-    "note": "massive.com delayed quote (~4:16pm EDT), not confirmed as official NASDAQ close; supersedes stale on-file 2026-10-14 $91.71 print"
+    "last": null,
+    "note": "No price data point for AKAM was retrievable via the sources reachable in this session before the WebSearch quota was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 results confirmed: revenue $1.122B (+6% YoY); cloud infrastructure revenue $109M (+34% YoY); security revenue $622M (+9% YoY); GAAP net income $117M (-16% YoY); Q4 2026 revenue guidance of $1.16B came in ~3.5% below analyst estimates; full-year adjusted EPS guidance lowered to $6.57 at the midpoint (-2.2%); management still projects FX-adjusted revenue growth accelerating to 17%-22% YoY in 2027",
+      "impact": "stock fell on weak guidance despite in-line quarter",
+      "source": "https://stockstory.org/us/stocks/nasdaq/akam/news/earnings/akamai-nasdaqakam-reports-q3-2026-in-line-with-expectations-but-stock-drops-on-weak-guidance"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "contract",
+      "headline": "Akamai announced an 11.6 billion dollar, seven-year multi-year cloud/AI infrastructure agreement with Anthropic, with potential expansion of up to an additional $9 billion over the term; Akamai issued Anthropic a warrant covering approximately 5% of Akamai's shares outstanding; company also noted the recent launch of Akamai Inference and Akamai Agent Sandbox products",
+      "impact": null,
+      "source": "https://www.rttnews.com/3693810/akamai-anthropic-enter-11-6-bln-multi-year-cloud-agreement.aspx"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -204,12 +197,26 @@
       "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-akamai-q1-2026-sees-strong-growth-stock-surges-21-93CH-4675571"
     }
   ],
-  "conflicts": [
-    "AKAM Q3 2026 earnings (due today 2026-11-05 after close): an RTTNews headline ('Q3 profit increases, beats estimates') surfaced in search with extracted figures of EPS $0.97 and revenue $1.054B, but the search tool's own summary cautioned these figures/dates more likely belong to Q3 2025, not Q3 2026. A second headline (rallies.ai: 'Q3 Cloud Services Up 39% with Expanded Deutsche Telekom Security Partnership') could not be fetched to verify. Neither was usable as a confirmed print this session; left unresolved for the next pass."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst beyond the Q3 2026 earnings print already captured in today's AM pass. Searched for a fresher closing price but found only stale (pre-August 2026) or undated snapshots across every source checked (Yahoo, MarketBeat, Equibles, TwelveData, Digrin, iTiger) — none postdating the on-file 2026-10-26 $98.50 print, so price and fundamentals are carried forward unchanged this session.",
+  "notes": "New finding beyond the prior on-file catalyst: alongside the Nov 5, 2026 Q3 earnings release, Akamai also announced a large ($11.6B, 7-year) cloud/AI agreement with Anthropic, including a warrant for ~5% of shares outstanding -- this was not previously captured in the lastCatalyst record and is material. No further news was found after Nov 5, 2026, consistent with the expected quiet period (quietRuns=1). Price, market cap, shares outstanding, float, short interest, cash and debt were not established: Akamai's own newsroom, finviz.com, marketwatch.com, benzinga.com, stocktitan.net and Yahoo Finance were all unreachable via WebFetch in this sandbox, and the WebSearch quota was exhausted before a targeted quote search could be completed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -425,10 +432,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

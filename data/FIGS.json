@@ -1,20 +1,19 @@
 {
   "ticker": "FIGS",
   "name": "FIGS, Inc.",
-  "sector": null,
+  "sector": "Consumer Discretionary (Apparel/Direct-to-Consumer Retail)",
   "theme": "Consumer Apparel & Retail",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.096Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.095Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1970000000,
-      "asOf": "~2026-06",
-      "source": "Equibles (price $11.78, 167.05M shares)",
-      "note": "This predates the ~25-28% jump after the Aug 6, 2026 Q2 earnings beat, so it understates the current market cap. No October 2026 figure was found this session despite a dedicated search."
+      "value": 3620000000,
+      "asOf": "2026-11-09",
+      "source": "businessquant.com"
     },
     "float": {
       "value": 115205000,
@@ -47,20 +46,18 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "FIGS was profitable in Q2 2026 (not a negative-earnings case), but a trailing-twelve-month diluted EPS and a verified current share price were not both established this session, so no multiple is computed."
+      "note": "insufficient TTM EPS data found to compute a reliable multiple"
     },
     "eps": [
       {
-        "period": "Q2 2025",
-        "value": 0.04,
-        "basis": "GAAP diluted",
-        "note": "Prior-year comparator from company release; net income $7.1M."
+        "period": "Q3 2025",
+        "value": 0.05,
+        "basis": "GAAP diluted"
       },
       {
-        "period": "Q2 2026",
-        "value": 0.15,
-        "basis": "GAAP diluted",
-        "note": "Per company release, net income $28.4M. A separate reading of $0.11 appears in Zacks/Google Finance coverage of the same quarter, against a $0.07 consensus — likely an adjusted/non-GAAP figure, not reconciled with the company's own $0.15. See conflicts."
+        "period": "Q3 2026",
+        "value": 0.1,
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
@@ -71,24 +68,44 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 28.8
+      "metric": "EPS YoY",
+      "period": "Q3 2026",
+      "pct": 100,
+      "note": "EPS doubled to $0.10 from $0.05; a specific Q3 2026 revenue figure/YoY% was not confirmed in available sources (only described qualitatively as a 'beat and raise' quarter with 'strong sales'), so EPS growth is used as the headline metric instead of revenue YoY"
     },
     "nextEarnings": {
-      "date": "2026-11-05",
+      "date": null,
       "confirmed": false,
-      "note": "As of this PM pass (2026-11-05), no Q3 2026 earnings release, 8-K, or press coverage of actual results could be found despite dedicated searching -- the report does not appear to have been published yet at search time. Most sources (Unusual Whales, TIKR, Chartmill) point to 2026-11-05 after market close as the date; Earnings Whispers' main page is an outlier showing 2026-11-09, 4:05pm ET. Neither date is company-confirmed. Consensus estimates found: EPS ~$0.07 (6 analysts per Benzinga), revenue ~$186.1-186.35M (Chartmill) vs. ~$181M (Earnings Whispers) -- these are pre-print estimates, not actuals, and are not recorded as a catalyst."
+      "note": "no confirmed date found; Q4 2026 results would typically be expected ~Feb 2027 based on prior cadence"
     }
   },
-  "price": null,
+  "price": {
+    "last": 21.74,
+    "changePct": 9.69,
+    "asOf": "2026-11-09",
+    "source": "businessquant.com",
+    "note": "most recent dated price found; could not confirm a price specifically as of 2026-11-11 (today)"
+  },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 results: EPS $0.10 vs. $0.05 a year earlier; described in coverage as a beat-and-raise for a fourth straight quarter, with optimistic revenue guidance for Q4 2026; a Jordan-brand supply squeeze flagged as a near-term constraint on growth through mid-2027 alongside a Vietnam manufacturing transition",
+      "impact": "shares reported up sharply post-print; up ~44% since the prior (August) report per one source, touching a 52-week high of $22.46 on 2026-11-02",
+      "source": "https://stockstory.org/us/stocks/nyse/figs/news/earnings/figss-nysefigs-q3-2026-strong-sales-provides-optimistic-revenue-guidance-for-next-quarter"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
       "headline": "Q3 2026 results now confirmed (prior pass found the print not yet available): net revenue $190.7M (+25.7% YoY); scrubwear revenue $157.5M (+24.0% YoY); non-scrubwear revenue $33.2M (+34.6% YoY); US revenue $153.9M (+20.8% YoY); international revenue $36.8M (+51.4% YoY). EPS and margin figures were not disclosed in the portion of the release surfaced by search this session.",
       "impact": null,
       "source": "SEC 8-K (figs-q32026xearningsreleas.htm), content surfaced via WebSearch indexing — sec.gov itself returns ENOTFOUND from this sandbox, so the filing could not be fetched directly to double-check"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "insider filing",
+      "headline": "CFO Sarah Oughtred had shares withheld to cover tax obligations tied to vested equity awards (not an open-market sale)",
+      "source": "https://qnow.quantisnow.com/insight/executive-chair-hasson-heather-l-exercised-1213336-shares-at-a-6426553"
     },
     {
       "date": "2026-10-12",
@@ -138,13 +155,28 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: Equibles ~167.05M (~June 2026) vs Equibles 158.09M (April 2026) vs MarketBeat 163.27M (2025) — three disagreeing readings, not reconciled.",
-    "Short interest: Equibles 14.0M shares / ~5.5 days to cover (~June 2026) vs Equibles 11.12M shares / 2.71 days to cover (2026-03-13) — not reconciled, both predate the Aug 2026 earnings jump.",
-    "EPS Q2 2026: company release states $0.15 GAAP diluted (net income $28.4M) vs $0.11 reported by Zacks/Google Finance coverage of the same quarter (likely adjusted) — not reconciled, never averaged."
+    "An Earnings Whispers page shows a FIGS price of $14.42, which is far below the ~$21-22 range from other, more recently dated sources; recorded as likely stale/outdated rather than silently discarded."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no fresher closing price found this session -- every result was either stale (pre-October 2026), undated, or mutually conflicting, so the price block remains omitted (null) per standing rules rather than guessed. No new dated catalyst beyond the Q3 2026 print already on file (reported 2026-11-05, captured in today's AM pass). A pre-report KeyCorp EPS estimate ($0.05) that turned up in search is now moot since actual Q3 results are already on file, and is not recorded as a catalyst.",
+  "notes": "Confirms the Nov. 5, 2026 Q3 2026 print already on file as this ticker's lastCatalyst, and finds a continued strong post-earnings reaction (new 52-week high, +9.69% on 2026-11-09) with no negative news since - consistent with a genuinely quiet/positive period rather than missed coverage. Executive Chair Heather Hasson also had an option-exercise-related filing referenced in search results but details/date were not fully confirmed. Recommend checking FIGS IR or GlobeNewswire directly for exact Q3 2026 revenue and YoY% once accessible, and for today's (2026-11-11) closing price.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "move 9.69%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -315,10 +347,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "move 9.69%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

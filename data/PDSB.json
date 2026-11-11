@@ -1,20 +1,19 @@
 {
   "ticker": "PDSB",
   "name": "PDS Biotechnology Corporation",
-  "sector": "Healthcare - Biotechnology",
+  "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.091Z",
+  "lastResearched": "2026-11-11T21:19:14.089Z",
   "fundamentals": {
     "marketCap": {
-      "value": 89100000,
-      "asOf": "2026-11-06",
-      "source": "Derived from a $1.23 close (allinvestview, +5.1%)",
-      "note": "Supersedes the on-file $80.6M (2026-10-30) figure."
+      "value": 80450000,
+      "asOf": "2026-10-26",
+      "source": "massive.com (aggregator)"
     },
     "float": {
       "value": null,
@@ -22,9 +21,9 @@
       "note": "not retrieved this session"
     },
     "sharesOutstanding": {
-      "value": 55971338,
-      "source": "Wallstreetzen, 2026-10-30/31",
-      "note": "Confirms the on-file ~55.8M figure; this is shares outstanding, not float."
+      "value": 105010000,
+      "asOf": "2026-10-26",
+      "source": "massive.com (aggregator)"
     },
     "shortInterest": {
       "value": null,
@@ -43,20 +42,15 @@
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings; clinical-stage, pre-revenue"
+      "forward": null,
+      "note": "negative earnings (clinical-stage biotech, no profitability)",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "Q2 2025 (ended 2025-06-30)",
-        "value": -0.21,
-        "basis": "GAAP",
-        "note": "Net loss $9.4M"
-      },
-      {
-        "period": "Q2 2026 (ended 2026-06-30, reported 2026-08-13)",
-        "value": -0.18,
-        "basis": "GAAP",
-        "note": "Net loss $9.8M; consensus estimate was a loss of $0.13/share (beat/missed depending on framing -- actual loss per share was smaller in magnitude than some earlier secondary reports suggested)"
+        "period": "Q3 2025",
+        "value": -0.19,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
@@ -68,24 +62,31 @@
       }
     ],
     "growth": {
-      "metric": "operating cash burn",
-      "period": "H1 2026",
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
       "pct": null,
-      "note": "$7.2M burned in H1 2026; pre-revenue clinical-stage company, no revenue reported."
+      "note": "pre-revenue clinical-stage biotech; no product revenue"
     },
     "nextEarnings": {
       "date": "2026-11-12",
       "confirmed": false,
-      "note": "Platform estimate (Yahoo Finance); not company-confirmed."
+      "note": "Earnings Whispers lists Nov 12 2026 before market open with consensus EPS estimate of -$0.11; not yet confirmed by a company press release found in search, and as of this research (Nov 11) the report had not yet been published."
     }
   },
   "price": {
-    "last": 1.44,
-    "asOf": "2026-10-30",
-    "source": "Wallstreetzen",
-    "note": "Supersedes the on-file null/wide-conflicting range ($0.21-$0.77, Aug-Sept 2026 snapshots). No reverse split is implicated -- shares outstanding is essentially unchanged from the on-file figure, so this reads as a genuine price rally, not a split artifact. No confirmed 2026-11-06 (today's) close was found this session."
+    "last": 1.04,
+    "changePct": null,
+    "asOf": "2026-10-26",
+    "note": "No live Nov 11 2026 quote retrievable in this sandbox (finviz/marketwatch/benzinga/stocktitan/yahoo all DNS-blocked for WebFetch; WebSearch quota exhausted). Most recent dated price found via search aggregator (massive.com)."
   },
   "catalysts": [
+    {
+      "date": "2026-10-18",
+      "type": "governance",
+      "headline": "Board restructuring effective Oct 18, 2026 (8-K filed Oct 20): four directors resigned (Kamil Ali-Jackson, Stephen Glover, Gregory Freitag, Otis Brawley) and three new independent directors appointed (Deborah A. Ramsdell, John A. Dawson CBE, Bruce Wendel); board fixed at seven members; new directors each granted options for 22,700 shares vesting over three years",
+      "impact": null,
+      "source": "https://www.panabee.com/news/board-restructuring-positions-pds-biotechnology-for-phase-3-trial-and-partnership-strate"
+    },
     {
       "date": "2026-10-18",
       "type": "governance",
@@ -206,13 +207,28 @@
     }
   ],
   "conflicts": [
-    "Stocktitan reports a $0.9349 close for PDSB on 2026-10-05 but its own FAQ section states $1.17 for the same date -- internally inconsistent at the source, kept as found, not reconciled.",
-    "Kraken (undated, implied ~late Sept/early Oct 2026) shows $0.40, and Companiesmarketcap (dated September 2026) shows $0.22/$12.31M market cap -- both well below the Oct 30/31 $1.44-$1.51 readings above; read together they sketch a rally from roughly $0.22 (Sept) through ~$0.93-$1.17 (Oct 5) to ~$1.44-$1.51 (Oct 30/31) to $1.23 (Nov 6), consistent with the on-file catalyst timeline, but no single source confirms the whole path.",
-    "Cash runway: a secondary source (rallies.ai) claims runway was extended to Q3 2027 after a Q1 2026 financing -- this conflicts with the company's own 2026-08-13 release reiterating going-concern language and the $5.6M cash balance above; the company-sourced figure is treated as higher-confidence, the rallies.ai claim flagged as unverified."
+    "Market cap/price: massive.com showed ~$1.04/share, ~$80.45M market cap, 105.01M shares outstanding as of Oct 26, 2026; fool.com showed ~$1.11/share, ~$116.56M market cap, 105.00M shares as of Oct 23, 2026; Yahoo Finance (ca.finance.yahoo.com) showed market cap ~$42.4M as of Sept 15, 2026 with 52-week range $0.195-$1.55; tickertape.in showed a $0.29 price around Sept 12, 2026. These readings are not internally consistent and could not be reconciled with the tools available in this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: resolved the prior pass's undated workforce-reduction/CFO-departure items with specific dates from SEC 8-Ks (Aug 6 RIF board approval, Aug 21 employee notifications + COO termination, Sep 12 CFO resignation), plus a previously-unrecorded Jul 30 Nasdaq bid-price deficiency notice -- added as four new dated catalysts. New cash figure ($5.6M at 2026-06-30, going-concern reiterated) fills a previously-missing field. Market cap updated to ~$89.1M (2026-11-06) from the prior $80.6M (2026-10-30). Next earnings still 2026-11-12, unconfirmed.",
+  "notes": "Could not independently verify from a primary source (company IR site or SEC EDGAR) because WebFetch returned DNS/egress failures for sec.gov, stocktitan.net, finviz.com, marketwatch.com, benzinga.com, yahoo finance, panabee.com, globenewswire.com, prnewswire.com and reuters.com in this sandbox, and the WebSearch tool's per-turn quota was exhausted partway through this ticker's research. No additional board/governance news beyond the Oct 18 shake-up was found. Cash, debt, float, and short interest were not established from available search snippets.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -430,10 +446,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

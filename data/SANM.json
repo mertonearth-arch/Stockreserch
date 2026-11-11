@@ -1,14 +1,14 @@
 {
   "ticker": "SANM",
   "name": "Sanmina Corporation",
-  "sector": "Technology",
+  "sector": "Electronics Manufacturing Services",
   "theme": "Electronics Manufacturing & AI Infrastructure",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T05:31:58.856Z",
+  "lastResearched": "2026-11-11T21:19:14.075Z",
   "fundamentals": {
     "revenue": [
       {
@@ -18,9 +18,62 @@
       }
     ],
     "growth": {
-      "metric": "FY2027 revenue guidance growth (midpoint)",
-      "period": "FY2027 outlook",
-      "pct": 27
+      "metric": "revenue YoY",
+      "period": "FY2026",
+      "pct": 79,
+      "note": "Full-year FY2026 revenue $14.53B vs prior year, driven largely by the ZT Systems acquisition; Q4 FY2026 revenue (~$3.86-3.9B) grew ~84% YoY on the same driver."
+    },
+    "marketCap": {
+      "value": null,
+      "note": "Not established this session; WebFetch to Yahoo Finance, StockTitan and SEC EDGAR (www.sec.gov) all returned ENOTFOUND in this sandbox, and the WebSearch tool's per-turn budget was exhausted before a dedicated market-cap/shares/short-interest query could be run."
+    },
+    "float": {
+      "value": null
+    },
+    "sharesOutstanding": {
+      "value": null
+    },
+    "shortInterest": {
+      "value": null
+    },
+    "cash": {
+      "value": null
+    },
+    "debt": {
+      "value": null
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "Price not retrieved this session, so no multiple could be computed; FY2026 GAAP diluted EPS was positive ($6.85), so this is not a negative-earnings case.",
+      "asOf": null
+    },
+    "eps": [
+      {
+        "period": "FY2026",
+        "value": 6.85,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2026",
+        "value": 13.28,
+        "basis": "non-GAAP"
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 2.14,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 4.43,
+        "basis": "non-GAAP"
+      }
+    ],
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Fiscal Q1 FY2027 guidance was issued (revenue $3.8-4.1B) alongside the Q4 FY2026 report, but no specific Q1 FY2027 earnings call date was found. Historically Sanmina reports fiscal Q1 results in late January; not confirmed this session."
     }
   },
   "price": {
@@ -36,11 +89,42 @@
       "headline": "Sanmina reported Q4 FY2026 (quarter ended 2026-10-03) revenue of $3.86B with a 6.0% GAAP operating margin; FY2026 full-year revenue grew 79% and non-GAAP operating profit rose 130%. Issued FY2027 outlook implying ~27% revenue growth and ~24% non-GAAP diluted EPS growth at the midpoint, citing AI/data-center demand.",
       "impact": "+18.8% premarket",
       "source": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Sanmina reports Q4 and full-year FY2026 results: Q4 revenue ~$3.86-3.9B (+84% YoY) on the ZT Systems acquisition, non-GAAP diluted EPS $4.43, GAAP diluted EPS $2.14; FY2026 revenue a record $14.53B (+79% YoY), GAAP diluted EPS $6.85, non-GAAP EPS $13.28, full-year GAAP operating margin 4.7%; issues FY2027 guidance of $17.5-19.5B revenue and $15.50-17.50 non-GAAP EPS, with Q1 FY2027 revenue guided to $3.8-4.1B",
+      "impact": "Stock reported +18.8% per file for 2026-11-10; this session could not independently reconfirm the exact percentage (SEC EDGAR and most stock-data sites were unreachable via WebFetch), but secondary coverage (Webull, rallies.ai) independently describes a sharp rally tied to the Q4 beat and confident FY2027 AI/cloud-infrastructure guidance, consistent in direction.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "A MarketBeat-sourced figure cites a Q4 FY2026 EPS of $3.31, which does not match either the $4.43 non-GAAP or $2.14 GAAP diluted EPS figures reported in the SEC 8-K exhibit and secondary coverage (panabee); could not determine what measure the $3.31 figure refers to.",
+    "The file's 2026-11-10 +18.8% stock-move figure could not be independently reconfirmed this session; searches surfaced qualitative confirmation of a large AI-infrastructure-driven rally around the Q4 release but no source stating the exact 18.8% figure or its date explicitly as 2026-11-10 (the earnings release itself is dated 2026-11-09 per the SEC exhibit)."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "am",
@@ -55,16 +139,24 @@
       "from": "daily"
     }
   ],
-  "notes": "New stub, AM pass. Q4 non-GAAP EPS figure and exact FY2027 dollar guidance range not located this session; fuller fundamentals for PM pass.",
+  "notes": "Q4 FY2026 ended 2026-10-03. Market cap, shares outstanding, float, short interest, current share price, and a confirmed next-earnings date were not established this session: WebFetch failed with ENOTFOUND on www.sec.gov, finance.yahoo.com, www.stocktitan.net, and www.panabee.com in this sandbox, and the WebSearch tool's shared per-turn budget was exhausted before these specific queries could be completed.",
   "lastPass": {
     "date": "2026-11-11",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "revenue updated",
+      "pe updated",
+      "eps updated",
       "growth updated",
-      "move 18.8%"
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

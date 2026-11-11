@@ -1,65 +1,71 @@
 {
   "ticker": "ELMT",
   "name": "The Elmet Group Co.",
-  "sector": "Materials",
+  "sector": "Advanced Materials / Aerospace & Defense Components",
   "theme": "Advanced Materials",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.085Z",
+  "lastResearched": "2026-11-11T21:19:14.070Z",
   "fundamentals": {
     "marketCap": {
       "value": 674070000,
       "asOf": "2026-11-03",
-      "source": "Fool.com (Motley Fool)",
-      "note": "Pairs with the $22.06 price above; single-sourced, not yet corroborated."
+      "source": "fool.com quote page"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not disclosed separately from shares outstanding"
+      "note": "Not established; third-party free-float estimates ranged ~8M-9.85M shares but were undated/unreconciled, so omitted."
     },
     "sharesOutstanding": {
-      "value": 29979862,
-      "asOf": null,
-      "source": "Multiple aggregators (consistent ~29,979,862-29,979,863)",
-      "note": "Unchanged from prior pass; exact as-of date still unconfirmed"
+      "value": 30460000,
+      "asOf": "2026-08-20",
+      "source": "equibles.com"
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "Not found"
+      "note": "Sources conflict heavily (3.0%-17.4% of float depending on denominator/date); see conflicts."
     },
     "cash": {
-      "value": 66100000,
-      "asOf": "2026-07-03",
-      "source": "Company Q2 2026 earnings call (per MarketBeat summary)",
-      "note": "Unchanged from prior pass; no fresher balance-sheet figure found this session"
+      "value": null,
+      "note": "Not established from available sources."
     },
     "debt": {
-      "value": 10538000,
-      "asOf": "2026-07-03",
-      "source": "SEC Form 10-Q (Q2 2026, period ended 2026-07-03)",
-      "note": "Unchanged from prior pass; down from $36,278,000 at 2025-12-31 on IPO-proceeds debt paydown"
+      "value": null,
+      "note": "Not established from available sources."
     },
     "pe": {
       "trailing": null,
-      "note": "GAAP net losses in both Q1 and Q2 2026; a clean trailing-twelve-month GAAP EPS was not established this pass, so left null rather than guessed."
+      "forward": null,
+      "note": "Reported Q3 2026 EPS not confirmed by a primary source; trailing P/E not computable without it.",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "Q1 2026",
-        "value": -0.02,
+        "period": "FY2024",
+        "value": null,
         "basis": "GAAP",
-        "note": "Adjusted +$0.24 (one source shows adjusted $0.23 instead — minor unreconciled conflict)."
+        "note": "Pre-IPO comparative year; net income ~$15.4M disclosed in S-1 but no public-float EPS computed (sources disagree: $11.8M-$15.4M net income)."
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Pre-IPO fiscal year (IPO priced April 2026); net income ~$5.5M on revenue ~$201.6M per S-1, but no per-share figure reported for pre-IPO capital structure."
       },
       {
         "period": "Q2 2026",
-        "value": -0.16,
+        "value": 0.18,
         "basis": "GAAP",
-        "note": "vs GAAP net income +$0.06/sh Q2 2025. Adjusted +$0.18/sh vs adjusted $0.14/sh a year earlier."
+        "note": "Revenue $66.40M for the quarter ended ~July 2026, per secondary earnings-summary source (digrin.com); not cross-checked against primary filing."
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "No source reported an exact per-share figure. Net income $8.3M vs $1.6M prior-year quarter was widely reported, with ~$634K preferred dividend/accretion reducing income available to common. A rough derived estimate (~$0.25/share) exists but is NOT a reported figure and is excluded per instructions against inventing numbers."
       }
     ],
     "revenue": [
@@ -75,23 +81,29 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Not established; company IPO'd April 2026 with limited public comparables"
+      "period": "Q3 2026",
+      "pct": 55.6
     },
     "nextEarnings": {
       "date": "2026-11-10",
       "confirmed": true,
-      "note": "Now corroborated by two additional independent aggregators (Pluang, Barchart), both citing the company's own announcement -- strengthens the GlobeNewswire-sourced date already on file. Earnings Whispers (Nov 12) and TrendSpider (Nov 25) still disagree, unresolved."
+      "note": "Per the task's state-on-file this date already passed as the Q3 2026 call; next earnings date (Q4 2026/FY2026) not yet found."
     }
   },
   "price": {
     "last": 22.06,
+    "changePct": null,
     "asOf": "2026-11-03",
-    "source": "Fool.com (Motley Fool)",
-    "note": "Single-sourced; fresher than the on-file $19.96 (2026-10-01) but not yet corroborated by a second source."
+    "note": "Most recent dated quote found is Nov 3, 2026 close ($22.06, Motley Fool); no Nov 11, 2026 close located via available sources."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Elmet Group reports Q3 2026 results (quarter ended Oct 2, 2026): revenue $79.6M (+55.6-56% YoY) vs $51.1M prior year; net income $8.3M vs $1.6M prior year; open order backlog ~$347.4M (+298% YoY, +164% QoQ); effective tax rate 39.9%; Engineered Microwave Products segment posted operating loss of ~$570K; G&A up 72% to $9.6M; earnings call held 8:00am ET",
+      "impact": "unconfirmed",
+      "source": "https://finviz.com/news/419434/the-elmet-group-co-reports-third-quarter-2026-results"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -177,6 +189,13 @@
       "note": "Exact date within June 2026 not pinned down; placeholder day used"
     },
     {
+      "date": "2026-04-23",
+      "type": "IPO",
+      "headline": "Elmet Group IPO priced at $14.00/share (top of upsized range), ~9.9M shares sold including overallotment, net proceeds ~$125.5M; began trading on Nasdaq Capital Market as ELMT",
+      "impact": "n/a",
+      "source": "https://www.renaissancecapital.com/IPO-Center/News/118288/high-power-microwave-systems-manufacturer-the-elmet-group-sets-terms"
+    },
+    {
       "date": "2026-04-01",
       "type": "IPO",
       "headline": "IPO upsized and priced at $14.00 per share (top of range)",
@@ -185,13 +204,35 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: company appears to have scheduled the Q3 2026 call for 2026-11-10 (per GlobeNewswire via aggregator, dated 2026-11-03, now also corroborated by Pluang and Barchart); Earnings Whispers separately lists 2026-11-12, and TrendSpider lists 2026-11-25 -- not reconciled.",
-    "Market cap and shares-outstanding figures remain otherwise stale apart from the new Nov 3 Fool.com reading above; prior readings range roughly $437.7M-$608M depending on source/date, and shares outstanding ~28.85M-30.46M.",
-    "Unconfirmed low price snapshots from a prior session ($14.25, $15.66) remain well below the on-file prints and were neither corroborated nor refuted this session."
+    "Q3 2026 revenue reported variously as $79.6M, $79M, and $80M across secondary sources (panabee, finviz); exact figure not confirmed from a primary filing accessible in this session.",
+    "Shares outstanding reported variously: ~28.85M (stockanalysis), ~29.98M (chartmill/simplywall.st), 30,133,363 (chartexchange), 30.46M (equibles, Aug 20 2026) -- dates differ and were not reconciled.",
+    "Short interest reported variously: 3.2% of shares short (MarketBeat, mid-July settlement), 3.60% of float / 3.0 days to cover (equibles, Aug 20), 9.79% of float (chartmill), 11.14% (benzinga, undated), 17.36% of float (stockmarketwatch, undated) -- not reconciled.",
+    "Market cap reported variously: ~$526M at $16.67/share (equibles, Aug 20), ~$694M at $22.98/share (benzinga, undated), ~$674M at $22.06/share (fool.com, Nov 3 2026), ~$507M (stockanalysis, undated) -- reflects different dates/share prices, not reconciled to a single current figure."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: Nov 10, 8:00am ET earnings call now corroborated by two independent aggregators (Pluang, Barchart) citing the company's own announcement. New price point: Fool.com shows a $22.06 close (2026-11-03, single-sourced) vs the on-file $19.96 (2026-10-01) -- recorded as current given it is fresher and dated, flagged as single-source pending corroboration. No new dated catalyst beyond the Masan stake-sale already on file.",
+  "notes": "Elmet converted from a private/LLC structure to a C-corporation in January 2026 and completed its Nasdaq IPO on April 23, 2026, so FY2024/FY2025 EPS on a public-share basis is not a meaningful or reported figure; pre-IPO net income figures are given instead. No Q3 2026 press release full text or SEC 8-K/10-Q text was retrievable in this session (SEC.gov and finviz.com did not resolve via WebFetch); all Q3 2026 figures are from secondary aggregator summaries of the release and should be verified against the company's own 8-K Exhibit 99.1 when accessible.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -399,11 +440,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

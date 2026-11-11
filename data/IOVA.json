@@ -1,66 +1,51 @@
 {
   "ticker": "IOVA",
   "name": "Iovance Biotherapeutics, Inc.",
-  "sector": null,
+  "sector": "Biotechnology",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.089Z",
+  "lastResearched": "2026-11-11T21:19:14.086Z",
   "fundamentals": {
     "marketCap": {
-      "value": 3780000000,
-      "asOf": "2026-08-21",
-      "source": "Equibles (https://equibles.com/stocks/IOVA) — 452.97M shares; implied price ~$8.34, consistent with press reports of a large post-earnings rally (see notes)"
+      "value": null,
+      "note": "Not established this session."
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not separately disclosed in sources found; only shares-outstanding figures were available."
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
-      "value": 446500000,
-      "asOf": null,
-      "source": "StockAnalysis/Equibles (relayed via WebSearch; undated page)",
-      "note": "Close to but not identical to the on-file 452,970,000 (Fox Business, 2026-10-23). Difference is small and may be a rounding/timing artifact, not treated as resolving the conflict."
+      "value": null,
+      "note": "Not established this session."
     },
     "shortInterest": {
-      "value": 64800000,
-      "asOf": "2026-09-30",
-      "source": "Curved Trading, FINRA settlement date",
-      "note": "~2.8 days to cover; down sharply from 87.1M shares short at the 2026-09-15 settlement per the same source. Does NOT reconcile with the on-file Equibles (100.0M, 2026-08-21) or StockAnalysis-relayed (114.71M, undated) readings — kept as a separate, newer-dated conflicting reading, not averaged or substituted."
+      "value": null,
+      "note": "Not established this session."
     },
     "cash": {
-      "value": 313440000,
-      "note": "Cash figure via a WebSearch-relayed summary of stockanalysis.com data (site itself EGRESS_BLOCKED); exact as-of period not independently confirmed. Paired debt figure $47.78M, implying net cash ~$265.67M."
+      "value": null,
+      "note": "Not established this session."
     },
     "debt": {
-      "value": 47780000,
-      "note": "See cash note — same source/caveat."
+      "value": null,
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings -- net loss narrowed to $22.3M in Q3 2026 from $91.3M in Q3 2025 but remains negative"
+      "forward": null,
+      "note": "negative earnings",
+      "asOf": "2026-11-11"
     },
     "eps": [
-      {
-        "period": "Q2 2025",
-        "value": -0.33,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.11,
-        "basis": "GAAP",
-        "note": "net loss narrowed from $111.7M (Q2 2025) to $47.3M"
-      },
       {
         "period": "Q3 2026",
         "value": -0.05,
         "basis": "GAAP",
-        "note": "vs -$0.09 consensus. Single secondary source (Tickeron, 2026-11-05 recap) rather than a primary filing -- used with a caveat, not full confidence. Net loss $22.27M and revenue $121.47M (+80% YoY) both match the already-on-file 10-Q/press figures."
+        "note": "Beat consensus estimate of -$0.09 by $0.04 per MarketBeat/Quiver Quant aggregation."
       }
     ],
     "revenue": [
@@ -80,22 +65,27 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 80,
-      "note": "FY2026 total revenue guidance of $410-420M (raised 2026-09-29) was reaffirmed with the Q3 2026 print."
+      "pct": 80
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 reported 2026-11-05. Date for the next (Q4/FY2026) report has not yet been announced."
+      "note": "None scheduled; Q3 2026 already reported 2026-11-05."
     }
   },
   "price": {
     "last": null,
     "changePct": -8.41,
-    "asOf": "2026-11-05",
-    "note": "Session move as supplied in this pass's brief (earnings day). This session could not independently source a same-day closing print: WebFetch to SEC EDGAR, StockAnalysis, TipRanks, Finviz, GlobeNewswire and iTiger all failed DNS resolution in this sandbox, and the WebSearch tool's own result budget was exhausted before a dated Nov 5 quote surfaced. Do not conflate with the separate -8.41% move already in this record's pass history dated 2026-10-23 -- that appears to be a distinct, earlier event."
+    "asOf": "2026-11-11",
+    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $121.5 million (+80% YoY, ~$122M per system state); GAAP/non-GAAP loss of $0.05/share vs. consensus estimate of -$0.09 loss; company reiterated it remains on track for full-year 2026 total product revenue guidance of $410-$420 million",
+      "source": "https://finviz.com/news/416728/iovance-biotherapeutics-reports-record-third-quarter-2026-revenue-of-122m-business-achievements-and-corporate-updates"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -175,12 +165,34 @@
     }
   ],
   "conflicts": [
-    "This pass could not independently corroborate the -8.41% session move supplied in the research brief with a same-day closing price (every finance site WebFetch was attempted on returned DNS failure in this sandbox). Kept as supplied, not fabricated into a specific price level.",
-    "Late-October price readings found this session conflict badly with each other and look like a data/sourcing problem: Oct 28 $14.81 -> Oct 29 '$9.72' -> Oct 31 $8.47, an implausible ~45% two-day drop -- not used to update price or to corroborate the -8.41% move."
+    "Some search results describing a large (~28%) post-earnings rally for IOVA explicitly refer to the Q3 2025 report (November 2025), not Q3 2026 — these were excluded from this record. The actual one-day market reaction to the 2026-11-05 Q3 2026 print (initial pop vs. later pullback) could not be precisely pinned down this session.",
+    "A Seeking Alpha piece (undated in search results, likely dated on/around the Nov 5, 2026 earnings) maintains a bearish ('Sell') view citing ongoing dilution risk, sub-consensus revenue versus some analyst models, and only modest margin improvement — included here as context, not as the specific cause of today's -8.41% move, which was not independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: filled the previously-null Q3 2026 EPS field with -$0.05/share (vs -$0.09 consensus) -- single secondary-source (Tickeron), used with a caveat. The -8.41% session move flagged for this pass still could not be corroborated with an actual closing price; new late-October readings found are internally inconsistent and not usable.",
+  "notes": "The specific driver of today's (2026-11-11) -8.41% move was NOT confirmed in available sources this session — WebSearch budget was exhausted before a dated, same-day article could be located. Possible contributing context found: this move occurs several trading days after the 2026-11-05 Q3 earnings beat, so it may reflect post-earnings-rally profit-taking and/or ongoing dilution-risk commentary (see conflicts), but this is not established as the confirmed cause.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -8.41%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -422,10 +434,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -8.41%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

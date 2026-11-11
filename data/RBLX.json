@@ -1,20 +1,18 @@
 {
   "ticker": "RBLX",
   "name": "Roblox Corporation",
-  "sector": "Interactive Media & Online Gaming Platform",
+  "sector": "Communication Services",
   "theme": "Consumer Internet & Gaming Platforms",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.101Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.103Z",
   "fundamentals": {
     "marketCap": {
-      "value": 34030000000,
-      "asOf": "2026-10-14",
-      "source": "Derived: 714,380,000 shares outstanding (on-file, Equibles) x $47.63 (2026-10-14 snapshot)",
-      "note": "Shares-outstanding figure itself carries known conflicts from the prior pass (see on-file conflicts); this is an approximate derived figure."
+      "value": null,
+      "note": "One stale/undated source (Stockopedia) showed ~$25.43bn but with no as-of date; not used to avoid misdating. See conflicts."
     },
     "float": {
       "value": null,
@@ -44,20 +42,9 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (GAAP)"
+      "note": "Roblox reported a net loss in Q3 2026 ($230M) and on a trailing basis; negative earnings. Forward P/E not established this pass."
     },
-    "eps": [
-      {
-        "period": "Q2 2026",
-        "value": -0.26,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2026",
-        "value": -0.32,
-        "basis": "GAAP"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 2026",
@@ -77,22 +64,28 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 16,
-      "note": "Q2 2026 revenue YoY was +36% (resolved this pass); Q3 2026 growth decelerated to +16%."
+      "note": "Q3 2026 revenue $1.57B vs prior-year quarter, net loss narrowed 11% YoY to $230M"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "The on-file 2026-10-29 date was the just-reported Q3 2026 print (now captured as a catalyst, not an upcoming one) -- correcting a carryover labeling issue from the prior pass. The next report (Q4 2026) date is not yet company-announced. One secondary aggregator (Investing.com) shows Nov 11, 2026, but that figure is inconsistent with Roblox's typical Q4-reporting cadence (historically February) and was not independently corroborated, so it is not used."
+      "note": "Q4/FY2026 results not yet scheduled as of 2026-11-11; company said it will issue 2026-cycle guidance context on the Q4 call. Historically reported in early-to-mid February."
     }
   },
   "price": {
     "last": 47.65,
-    "changePct": -3.37,
-    "asOf": "2026-11-05",
-    "source": "CNBC / Yahoo Finance / Macrotrends / StockAnalysis (convergent) -- confirmed official close",
-    "note": "Refines the on-file 2026-11-05 figure ($47.57/-3.53%, previously sourced to a single unverified secondary outlet) with a well-corroborated official close; the magnitude is essentially unchanged (within rounding), so this is a confirmation, not a correction. No independently confirmed 2026-11-06 close was found this session -- Finviz showed a non-final intraday quote of $48.88 (+2.57%) as of ~2:50pm ET Nov 6, consistent with the broader chip/tech-sector rebound that day, but that is not a confirmed close."
+    "changePct": null,
+    "asOf": "2026-11-06",
+    "source": "Fox Business quote page",
+    "note": "No price data dated after Nov 6, 2026 was retrievable this pass (search budget exhausted, most quote-site domains unreachable from this sandbox). Day-over-day change not computable from available data."
   },
   "catalysts": [
+    {
+      "date": "2026-11-06",
+      "type": "price action",
+      "headline": "Traded higher intraday alongside broad tech/chip sector rebound (carried over from prior research pass; no new corroborating source found this pass)",
+      "source": null
+    },
     {
       "date": "2026-11-06",
       "type": "sector rebound",
@@ -120,6 +113,18 @@
       "headline": "Wedbush cut its Roblox price target to $52 from $55 and moved to Neutral, citing the Q3 2026 user-metrics/guidance miss; shares gapped down on the downgrade",
       "impact": null,
       "source": "WebSearch aggregation (Defense World: 'Roblox (NYSE:RBLX) Shares Gap Down on Analyst Downgrade', dated 2026-11-01; MarketBeat RBLX news feed)"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "guidance/price reaction",
+      "headline": "Shares gapped down from $52.46 (Oct 28 close) to as low as $43.31 premarket (-17.4%) after Roblox guided Q4 2026 bookings to decline 10-15% YoY and gave cautious initial 2026-cycle commentary",
+      "source": "https://www.marketbeat.com/instant-alerts/price-roblox-nyse-rblx-shares-gap-down-time-to-sell-2026-10-30/"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $1.57B (+16% YoY), net loss narrowed 11% YoY to $230M; nine-month revenue $4.48B (+29% YTD); DAUs 138M (+12% QoQ, -9% YoY)",
+      "source": "https://capital.com/en-au/news/roblox-q3-net-loss-narrows-11-year-over-year-to"
     },
     {
       "date": "2026-10-29",
@@ -157,14 +162,35 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: SEC Q3 2026 10-Q reports 715.696M (Class A+B combined) as of 2026-09-30 -- close to Equibles' ~714.38M (2026-08-13) but conflicts with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative; prior broad conflict narrowed, not fully eliminated.",
-    "RBLX current price/market cap remains effectively unverified from a contemporaneous primary source; the on-file ~$34.03B market cap (as of 2026-10-14, pre -17% post-earnings drop) is known-stale and should not be read as current.",
-    "The magnitude of the Oct 29/30 post-earnings drop is reported inconsistently across sources: -17% (on file, after-hours), -19.1% (Investing.com, pre-market), -20.47% (another Investing.com-sourced intraday snapshot, Oct 30), and ~-22% (one Yahoo Finance aggregation) -- not reconciled to one figure.",
-    "Flagging explicitly: today's (2026-11-05) actual session move was a modest -3.53% to $47.57 per the only dated source found, not a fresh -17% figure. The -17% this batch was scoped to investigate belongs to Oct 29/30, already on file as a catalyst -- the desk should not read this record as describing a second, new -17% day."
+    {
+      "field": "price/marketCap",
+      "values": [
+        "Fox Business: $47.65 close, as of 2026-11-06",
+        "Undated source (Stockopedia-style aggregator): ~$56.70 with 52-week range $40.15-$150.59 (no as-of date, 52-week high looks inconsistent with recent $43-53 trading range reported by MarketBeat around the Oct 29 earnings date)",
+        "Stockopedia snippet: market cap '~$25.43bn' with no as-of date"
+      ],
+      "note": "Could not confirm which reading is current; not resolved this pass due to blocked fetch access to live quote pages."
+    }
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: confirmed yesterday's (2026-11-05) close with multiple convergent primary-aggregator sources, resolving the prior pass's single-source caveat ($47.57 vs. $47.65 -- effectively the same move, now well corroborated). No new company-specific catalyst dated 2026-11-06 was found; today's intraday strength reads as part of the same broad chip/tech-sector bounce that lifted NVDA and ORCL after the 2026-11-05 selloff, not an RBLX-specific event. No confirmed Nov 6 close was established before the shared WebSearch budget was exhausted.",
+  "notes": "No news found dated after 2026-11-06; confirms the ticker remains quiet aside from the already-known Oct 29 Q3 2026 earnings cycle. Shares outstanding, float, short interest, cash and debt were not established this pass: most quote/data-provider domains (finviz.com, finance.yahoo.com, benzinga.com, marketchameleon.com, panabee.com, stockanalysis.com) returned DNS/egress failures via WebFetch in this sandbox, and the WebSearch tool's per-turn budget was exhausted before dedicated fundamentals queries could run.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -387,10 +413,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

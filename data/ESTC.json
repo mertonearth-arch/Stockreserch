@@ -1,20 +1,18 @@
 {
   "ticker": "ESTC",
   "name": "Elastic N.V.",
-  "sector": "Technology",
+  "sector": "Enterprise Software",
   "theme": "Enterprise Software & Security",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.086Z",
+  "lastResearched": "2026-11-11T21:19:14.083Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10470000000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business",
-      "note": "105.98M shares outstanding, public float 95.99M per the same source. Resolves the previously-null marketCap field."
+      "value": null,
+      "note": "Not located in available sources"
     },
     "float": {
       "value": 95990000,
@@ -44,29 +42,9 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Mixed GAAP results: FY2026 GAAP diluted EPS of $3.43 was inflated by a ~$435M one-time tax-valuation-allowance release, while Q1 FY2027 showed a GAAP net loss of -$16.7M (-$0.16/sh); current trailing-twelve-month EPS sign/value not established this session, so left null rather than guessed",
-      "asOf": "2026-10-23"
+      "note": "Not located in available sources this session"
     },
-    "eps": [
-      {
-        "period": "FY2025 (ended Apr 2025)",
-        "value": -1.04,
-        "basis": "GAAP",
-        "note": "Third-party TTM figure (Fintel, as of 2026-04-30), not independently confirmed against Elastic's own FY2025 annual filing"
-      },
-      {
-        "period": "FY2026 (ended Apr 2026)",
-        "value": 3.43,
-        "basis": "GAAP diluted",
-        "note": "Includes a ~$435M one-time income tax benefit from release of a deferred-tax valuation allowance; non-GAAP diluted EPS was $2.57. GAAP operating result was a loss of $33M (operating margin -2%)"
-      },
-      {
-        "period": "Q1 FY2027 (ended 2026-07-31)",
-        "value": 0.7,
-        "basis": "non-GAAP",
-        "note": "Beat $0.58 consensus; GAAP result for the quarter was a net loss of -$16.7M (-$0.16/sh)"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q1 FY2027 (ended 2026-07-31)",
@@ -76,22 +54,35 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027 (ended 2026-07-31)",
-      "pct": 15
+      "period": "Q1 FY2027",
+      "pct": 15,
+      "note": "From data on file: Q1 FY2027 results (2026-08-27) showed revenue of $478.1M, +15% YoY. No actual EPS figure for that quarter was located in this session."
     },
     "nextEarnings": {
-      "date": "2026-11-19",
+      "date": null,
       "confirmed": false,
-      "note": "Still not company-confirmed. MarketBeat and The Right Trader both estimate 2026-11-19; Earnings Whispers instead lists 2026-11-26 after close. Two disagreeing estimates now on record — neither is a company confirmation."
+      "note": "Three conflicting third-party estimates found; no official Elastic press release confirming the Q2 FY2027 report date was located (see conflicts). 52-week pattern: prior-year Q2 FY2026 was reported 2025-11-20, announced via press release on 2025-11-06."
     }
   },
   "price": {
-    "last": 92.3,
+    "last": null,
     "changePct": null,
-    "asOf": null,
-    "note": "Carried from prior pass; not independently reverified this session. Most recent cleanly-dated figure found this session was $58.68 on 2026-07-24 (Coinglass); a rise to ~$92 by October is directionally plausible given the Aug 27 earnings pop but is not confirmed for 2026-10-23."
+    "asOf": "2026-11-11",
+    "note": "No confirmed quote for 2026-11-11. Most recent dated figure found: $106.27 on 2026-10-26 (massive.com), up ~20.57% over the trailing month per that source; also $98.18 close on 2026-10-23 (Fox Business) and ~$93.94 close on 2026-10-02 (Yahoo Finance)."
   },
   "catalysts": [
+    {
+      "date": "2026-10-09",
+      "type": "analyst action",
+      "headline": "Stifel maintained a Buy rating and raised its price target from $107 to $120",
+      "source": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Q1 FY2027 results: revenue $478.1M, +15% YoY (per data on file)",
+      "source": null
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -135,12 +126,28 @@
     }
   ],
   "conflicts": [
-    "Next earnings date estimates disagree: MarketBeat/The Right Trader ~2026-11-19 vs Earnings Whispers ~2026-11-26. Neither is company-confirmed.",
-    "Market cap: Fox Business $10.47B / 105.98M shares (2026-10-23, newly recorded as current) vs. older $10.25B/103.95M shares (Google Finance, late Aug 2026) and $7.39B/103.95M shares (Motley Fool, undated/apparently stale) -- the Fox Business figure is treated as current given it is the most recently dated; the older readings are kept here rather than discarded."
+    "Next earnings date is a three-way conflict among non-company sources: Tickzen projects November 16, 2026; MarketBeat and The Right Trader project November 19, 2026 (after market close), both explicitly noting Elastic has not confirmed the date; Earnings Whispers lists November 26, 2026 at 4:05 PM ET with no cited source. This is consistent with the conflict already on file (Nov 19 vs Nov 26) but adds a third candidate date (Nov 16) not previously noted.",
+    "Q2 FY2027 EPS: company's own guidance is non-GAAP diluted EPS of $0.80-$0.82 (on revenue guidance of $486M-$487M), but Benzinga's consensus estimate is listed at $0.68 EPS on $486.7M revenue — the consensus EPS sits notably below the company's own guidance range, which is unusual and unreconciled in available sources."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: established a current market cap ($10.47B, Fox Business, 2026-10-23) and share/float counts, resolving the previously-null marketCap field. Next-earnings-date conflict remains unresolved (MarketBeat/The Right Trader ~Nov19 vs Earnings Whispers ~Nov26); no company confirmation found. No new dated catalyst.",
+  "notes": "Could not confirm Elastic's official Q2 FY2027 (quarter ended Oct 31, 2026) earnings announcement date from ir.elastic.co directly — WebFetch to that and other sites failed with DNS resolution errors in this sandbox — so the date remains unresolved among three competing third-party estimates (Nov 16 / Nov 19 / Nov 26, 2026). No ESTC news beyond an October 9, 2026 Stifel price-target increase and a product update (two AI tools, 'nightshift AI SRE' and 'AlertZero,' added to the Observability/Security platform, undated) was found since the August 27 Q1 FY2027 report; the product update is omitted from catalysts for lack of a date. Market cap, P/E, and a confirmed current price could not be established before the WebSearch budget for this task was exhausted.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -370,10 +377,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

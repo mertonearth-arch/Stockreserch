@@ -1,58 +1,46 @@
 {
   "ticker": "NLST",
   "name": "Netlist, Inc.",
-  "sector": null,
+  "sector": "Memory Technology & IP Licensing",
   "theme": "Memory Technology & IP Licensing",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.090Z",
+  "lastResearched": "2026-11-11T21:19:14.088Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2223706740,
-      "asOf": "2026-10-06",
-      "source": "Derived: 333,890,000 shares outstanding (MarketBeat, ~early Aug 2026) x $6.66 close (2026-10-06, per Webull/Finviz settlement-day coverage); approximate since the share-count and price dates differ slightly. Webull independently described the resulting market value as 'above $2 billion', corroborating this range."
+      "value": null,
+      "note": "Not established this session."
     },
     "float": {
-      "value": 320538000,
-      "asOf": "2026-08-01",
-      "source": "MarketBeat (approximate date)"
+      "value": null,
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Sources disagree sharply and none is dated after early Aug 2026 — see conflicts. Left null rather than picking one."
+      "note": "Not established this session."
     },
     "shortInterest": {
-      "value": 11.5,
-      "asOf": "2026-08-03",
-      "note": "Percent of float, per MarketBeat; days-to-cover 22.18. An older Equibles FINRA settlement (2026-03-13) showed ~27.6M shares short, 10.97 days to cover — too stale to merge into one figure."
+      "value": null,
+      "note": "Not established this session."
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "could not verify current 10-Q figures this session"
+      "note": "Not established this session."
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "could not verify current 10-Q figures this session"
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q2 2026 net income was positive ($1.4M) but a per-share EPS figure precise enough for a P/E was not located; EarningsWhispers/Chartmill describe the print as 'breakeven' on an EPS basis",
-      "asOf": "2026-07-30"
+      "note": "not established this session",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "Q1 2026",
-        "value": 0.03,
-        "basis": "GAAP",
-        "note": "Beat forecast of -$0.01."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q1 2026",
@@ -62,24 +50,36 @@
       }
     ],
     "growth": {
-      "metric": "licensing revenue commitments",
-      "period": "2026-2031",
-      "pct": null,
-      "note": "Micron settlement: $600M total over 5 years ($30M/quarter for 20 quarters, Q4 2026 through Q3 2031). Samsung (background, Aug 2026 agreement, not newly confirmed this pass): $897M pre-tax over 5 years."
+      "metric": "revenue YoY",
+      "period": "Q2 2026",
+      "pct": 163,
+      "note": "Most recent CONFIRMED quarter found in sources (net sales $109.8M, +163% YoY, gross profit $22.9M +1,544% YoY, operating income $1.3M). Q3 2026 actual figures (reported after-market 2026-11-10 per company's own release schedule) were NOT located this session."
     },
     "nextEarnings": {
       "date": "2026-11-10",
       "confirmed": true,
-      "note": "Resolves the prior Nov 3 / Nov 5 conflict: Netlist's own scheduling press release ('Netlist Schedules Third Quarter 2026 Financial Results and Conference Call', via PR Newswire/TradingView) sets the release after 4:00pm ET on 2026-11-10, with a conference call at 5:00pm ET, covering the fiscal quarter ended 2026-09-26, 2026. Zacks/MarketBeat consensus: EPS $0.60, revenue ~$308.6M (unchanged over the trailing 60 days)."
+      "note": "Company itself scheduled Q3 2026 (quarter ended 2026-09-26) results for release after 4:00pm ET on Tuesday 2026-11-10, with a same-evening conference call. Actual reported figures (revenue, EPS, litigation update) could NOT be located in available sources this session — WebSearch budget was exhausted before locating the earnings release/8-K. Treat Q3 2026 actuals as STILL UNCONFIRMED pending further research."
     }
   },
   "price": {
-    "last": 6.66,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-06",
-    "source": "Webull/Finviz settlement-day coverage (carried from prior pass)"
+    "asOf": "2026-11-11",
+    "note": "Not established this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results scheduled for release after market close (per company announcement); actual reported figures not retrieved this session",
+      "source": "https://www.ariva.de/news/netlist-schedules-third-quarter-2026-financial-results-and-4958048"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "litigation",
+      "headline": "Latham & Watkins ITC litigation update (per existing system record; not independently re-verified this session)",
+      "source": ""
+    },
     {
       "date": "2026-10-21",
       "type": "litigation_settlement",
@@ -156,6 +156,12 @@
       "source": "https://www.tipranks.com/news/the-fly/netlist-price-target-raised-to-5-from-3-at-roth-capital-thefly-news"
     },
     {
+      "date": "2026-08-01",
+      "type": "earnings",
+      "headline": "Q2 2026 results: net sales $109.8 million (+163% YoY); gross profit $22.9 million (+1,544% YoY); operating income $1.3 million. Management indicated (no formal guidance) that Q3 2026 product revenue was expected to be similar to Q2 2026 based on bookings/shipments to date.",
+      "source": "https://www.marketbeat.com/instant-alerts/netlist-q2-earnings-call-highlights-2026-08-01/"
+    },
+    {
       "date": "2026-07-30",
       "type": "earnings",
       "headline": "Netlist reported Q2 2026 results: net sales $109.8M (+163% YoY) vs. $90.0M consensus; net income $1.4M vs. a $6.1M net loss in Q2 2025; H1 2026 net sales $214.7M (+204% YoY); management guided Q3 2026 product revenue to be similar to Q2",
@@ -167,15 +173,42 @@
       "type": "litigation",
       "headline": "Netlist expanded legal action against Samsung and Google alleging infringement of new AI memory patents (new ITC complaint and EDTX case, also naming Supermicro, Nvidia, Broadcom)",
       "source": "storagenewsletter.com/2026/07/02"
+    },
+    {
+      "date": "2026-04-21",
+      "type": "litigation",
+      "headline": "Markman hearing held in Netlist's ITC investigation against Samsung (DDR5 memory modules / HBM patents); company was awaiting the Markman order afterward",
+      "source": ""
     }
   ],
   "conflicts": [
-    "A third, separate ITC Section 337 investigation (337-TA-1511) naming Samsung plus customers Google, Supermicro, Nvidia and Broadcom was instituted 2026-07-15 on a complaint Netlist filed 2026-06-16 -- carried forward from the prior pass; not independently re-verified against the USITC EDIS docket this session.",
-    "Price, new unconfirmed reading this pass: a Dutch aggregator (debelegger.nl) shows NLST at $6.32 as of 2026-10-30 21:00, with an implied market cap near $2.3B -- modestly below the on-file $6.66 (2026-10-06) price and $2.22B market cap, but the aggregator's own share-count basis for that $2.3B figure was not independently confirmed and may differ from the on-file 333.89M-share basis. Kept as an additional data point, not substituted for the on-file figures."
+    "One third-party aggregator (via a search snippet) listed an NLST 'earnings date' of November 5 with a revenue estimate of $308.6M for the quarter, which conflicts with Netlist's own company-issued schedule of after-market Tuesday 2026-11-10. The company's own announced date (2026-11-10) should be treated as authoritative; the $308.6M estimate figure is unverified and not used in this record.",
+    "Search results gave two different pictures of the ITC litigation timeline: a Q1 2026 earnings-call summary pointed to an ITC trial 'this fall' (2026), while a Q2 2026 call summary instead emphasized pending appeals of the $303 million and $445 million jury awards (Samsung/Micron) and a newer, second Samsung ITC investigation, without repeating a fall-2026 trial date. Both readings are recorded; neither was reconciled this session."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: no new dated catalyst, ITC ruling, or earnings development found beyond what is on file. Confirmed the 337-TA-1511 Samsung/Google/Supermicro/Nvidia/Broadcom ITC case (instituted mid-July 2026, over the '537 HBM and '937 DDR5/MRDIMM patents) has an evidentiary hearing 'scheduled to start in November 2026' per one source, though no exact date or ruling was found -- consistent with, not contradicting, what's on file. Earnings remain scheduled for tomorrow, 2026-11-10 (company-confirmed), no pre-announcement news. Quiet pass.",
+  "notes": "NLST trades OTCQB (ticker context from source material), not a major exchange — relevant for float/short-interest data availability generally. Q3 2026 actual results (revenue, EPS, litigation update) were NOT found in available sources this session despite the report date (2026-11-10) having passed; the WebSearch budget for this session was exhausted before the earnings release or related 8-K could be located. This is the key open item requiring follow-up research. Market cap/shares/float/short-interest/cash/debt are null for the same reason (unresearched, not confirmed absent).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -408,11 +441,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)"
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

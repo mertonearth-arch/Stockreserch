@@ -1,20 +1,18 @@
 {
   "ticker": "ENVA",
   "name": "Enova International, Inc.",
-  "sector": "Financials",
+  "sector": "Financials (Consumer & Small Business Finance)",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.095Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.094Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4250000000,
-      "asOf": "2026-11-02",
-      "source": "Same WebSearch aggregator snapshot as price",
-      "note": "First dated market cap found since the on-file null; treat with some caution given the exact source outlet could not be pinned down."
+      "value": null,
+      "note": "not found in accessible sources"
     },
     "float": {
       "value": null,
@@ -39,14 +37,23 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "carried forward; no verified current price"
+      "note": "not found in accessible sources"
     },
     "eps": [
       {
+        "period": "Q3 2025",
+        "value": 3.36,
+        "basis": "adjusted (non-GAAP)"
+      },
+      {
         "period": "Q3 2026",
         "value": 4.06,
-        "basis": "GAAP diluted",
-        "note": "carried forward; up 34% YoY; adjusted (non-GAAP) EPS $4.48, up 33% YoY"
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 4.48,
+        "basis": "adjusted (non-GAAP)"
       }
     ],
     "revenue": [
@@ -60,22 +67,34 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 26
+      "pct": 26,
+      "note": "total revenue surpassed $1B for the first time in Q3 2026"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Still no Q4 2026 date found this session. Based on the company's prior-year cadence (Q4 2025 reported ~late Jan 2026), a Q4 2026 report would be expected around late January/early February 2027 — this is an inference from pattern, not a sourced date, so left null rather than guessed."
+      "note": "no confirmed date found; Q4 2026 results would typically be expected ~Jan/Feb 2027 based on prior cadence"
     }
   },
   "price": {
-    "last": 173.94,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-11-02",
-    "source": "WebSearch aggregator snapshot (specific outlet not identifiable from the search result itself)",
-    "note": "First dated November 2026 price found for this name, resolving the long-standing null price/market-cap fields. Implied share count (~24.4M) is reasonably consistent with the ~24.7-25M share-count cluster already corroborated across multiple sources this and prior passes."
+    "asOf": null,
+    "note": "current quote not found in accessible sources"
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "debt offering",
+      "headline": "Enova announces private offering of $600 million of senior notes due 2031 (subject to market conditions); proceeds intended to redeem all outstanding 11.25% senior notes due 2028 on Dec. 15, 2026, with any remainder applied to revolving credit facility, conditioned on the offering closing",
+      "source": "https://finviz.com/news/415601/enova-announces-private-offering-of-600-million-of-senior-notes-due-2031"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "earnings",
+      "headline": "Q3 2026 results: originations $2.6B (+31% YoY); total revenue crossed $1B for the first time (+26% YoY); GAAP diluted EPS $4.06 (+34%); adjusted EPS $4.48 (+33% vs. $3.36 a year earlier); repurchased $46M of stock in the quarter with $252M of buyback capacity remaining entering Q4",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526428941/enva-ex99_1.htm"
+    },
     {
       "date": "2026-10-22",
       "type": "earnings",
@@ -110,6 +129,12 @@
       "headline": "Citizens JMP cut its price target to $215 from $270"
     },
     {
+      "date": "2026-08-21",
+      "type": "securitization (8-K)",
+      "headline": "Entry into a securitization agreement: $300,886,000 aggregate principal of ENVA 2026-A notes across 3 classes, non-recourse to Enova",
+      "source": "https://www.boardroomalpha.com/sec/enva-8-k-2026-08-21-0001193125-26-361123"
+    },
+    {
       "date": "2026-07-23",
       "type": "earnings",
       "headline": "Q2 2026 results: adjusted (non-GAAP) EPS $4.31, beating the $3.92 consensus estimate cited by Benzinga",
@@ -117,12 +142,29 @@
     }
   ],
   "conflicts": [
-    "Market cap across dated snapshots, none current: Motley Fool $6.33B at close $254.38 (asOf 2026-08-19); ROIC.ai $5.56B at $223.52 (no date given); Benzinga implies a lower cap from a $226.72 close (asOf 2026-08-31). Older Lightyear/Yahoo/Finboard snapshots from March/May 2026 are stale and excluded.",
-    "Q3 2026 adjusted EPS: company's own 8-K/press release states $4.48 (+33% YoY); a third-party aggregator (scanx.trade) instead reports $4.37 vs a $4.34 estimate and revenue of $1.004B -- the two do not reconcile and may reflect a reporting/date mix-up (one search summary separately flagged Q2 2026 figures as sometimes mislabeled Q3 across sources). The company 8-K figure ($4.48) is treated as authoritative above."
+    "Q3 2026 consumer originations: one source (statementdog) cites a record $807M (+37%); another (Webull/Motley Fool transcript) cites $870M.",
+    "Q3 2026 combined portfolio size: one source (Finviz PR copy) gives $5.9B in combined loans and finance receivables; another (Panabee) gives $6.6B at fair value.",
+    "Grasshopper Bancorp acquisition status: one source (StockAnalysis transcript reference) describes the deal as pending, expected to close in H2 2026; another (Panabee) refers to its termination. Status could not be reconciled in this pass."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Oct 22 Q3 print and Sept 14 Grasshopper Bancorp regulatory-application withdrawal already on file. First dated price/market-cap figures found since those fields were null ($173.94 / ~$4.25B as of 2026-11-02), though the exact source outlet is not fully identifiable. Float, cash, debt, short interest and a confirmed Q4 2026 earnings date remain unresolved despite further searches this session.",
+  "notes": "The Nov. 4, 2026 $600M notes offering is new information since the Oct. 22 Q3 print already on file and should break the quiet streak. Recommend confirming in a follow-up pass whether the notes offering priced/closed, and resolving the Grasshopper Bancorp deal-status conflict directly via Enova IR or an 8-K search (sec.gov was unreachable via WebFetch in this sandbox; the SEC exhibit URL above was surfaced via WebSearch only).",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -276,10 +318,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

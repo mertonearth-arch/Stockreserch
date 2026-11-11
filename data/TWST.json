@@ -1,70 +1,61 @@
 {
   "ticker": "TWST",
   "name": "Twist Bioscience Corporation",
-  "sector": "Life Science Tools / Synthetic Biology",
+  "sector": "Healthcare (Life Sciences Tools & Synthetic Biology)",
   "theme": "Advanced Materials",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.103Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.107Z",
   "fundamentals": {
     "marketCap": {
-      "value": 9130000000,
-      "asOf": "2026-08-21",
-      "source": "equibles.com (aggregator, not a primary filing)",
-      "note": "An earlier equibles snapshot (2026-07-02) showed $6.18B at $99.24/share; price appears to have risen ~47% between those two dates. No October 2026 figure was found."
+      "value": 10520000000,
+      "asOf": "2026-11-11",
+      "source": "foxbusiness.com"
     },
     "float": {
-      "value": null,
-      "note": "Aggregator reported short interest as a % of float but not a raw float share count; could not establish separately from shares outstanding."
+      "value": 64010000,
+      "source": "foxbusiness.com"
     },
     "sharesOutstanding": {
-      "value": 62710000,
-      "asOf": "2026-08-21",
-      "source": "equibles.com"
+      "value": 65830000,
+      "source": "foxbusiness.com"
     },
     "shortInterest": {
       "value": 22.4,
-      "unit": "% of float",
-      "asOf": "2026-08-21",
+      "asOf": "2026-08",
       "source": "equibles.com",
-      "note": "14.1M shares short, ~11.1 days to cover per same source. A 2026-07-02 snapshot showed 28.4% of float (17.7M shares, 9.6 days to cover) -- see conflicts. Short-interest data is reported with a lag by FINRA/exchanges, so the true October figure may differ."
+      "note": "reported as 14.1M shares / 22.4% of float, 11.1 days to cover, settlement date in August 2026"
     },
     "cash": {
       "value": 167000000,
       "asOf": "2026-06-30",
-      "source": "Fiscal Q3 FY2026 8-K / earnings release (via GenomeWeb, Nasdaq.com, RTT News coverage)",
-      "note": "Cash, cash equivalents and short-term investments combined."
+      "source": "company fiscal Q3 2026 press release (via genomeweb/SEC 8-K)"
     },
-    "debt": {
-      "value": null,
-      "note": "Not found in available sources; could not reach SEC EDGAR balance sheet directly in sandbox."
-    },
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings -- fiscal Q3 FY2026 GAAP net loss was $35.1M ($0.56/share); company targets adjusted-EBITDA breakeven (not GAAP profitability) in fiscal Q4 FY2026, so trailing GAAP EPS is negative. No forward P/E estimate found."
+      "note": "negative earnings (GAAP net losses in all recent periods)",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
         "period": "FY2024",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved in sandbox"
+        "value": -3.6,
+        "basis": "GAAP"
       },
       {
         "period": "FY2025",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved in sandbox; FY2025 Q4 coverage described 'narrowing losses' but no exact annual EPS figure was found"
+        "value": -1.3,
+        "basis": "GAAP"
       },
       {
-        "period": "Q3 FY2026 (quarter ended 2026-06-30)",
+        "period": "Q3 FY2026",
         "value": -0.56,
-        "basis": "GAAP, reported 2026-08-03",
-        "note": "Net loss of $35.1M. Prior-year Q3 FY2025 was net income of $20.4M / $0.33 per share, but that included a one-time $48.8M gain from the Atlas Data Storage spinout -- not a comparable organic figure."
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
@@ -81,23 +72,29 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "fiscal Q3 2026 (quarter ended 2026-06-30)",
+      "period": "Q3 FY2026",
       "pct": 23.2,
-      "note": "Headline figure unchanged. Separately, one secondary (SeekingAlpha-sourced) summary describes the company citing a 13-15.5% full-year fiscal 2026 revenue growth target tied to AI-driven order acceleration; not independently traced to a primary transcript or release this session, so not used to replace the quarterly figure above."
+      "note": "quarter ended 2026-06-30: revenue $118.4M vs $96.1M a year earlier"
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false,
-      "note": "Still unconfirmed; conflicting third-party estimates persist (Nov 2 / Nov 12 / Nov 20, 2026). No company-issued date found."
+      "date": "2026-11-12",
+      "confirmed": true,
+      "source": "marketchameleon.com (listed as 'confirmed', before market open)"
     }
   },
   "price": {
-    "last": 148.69,
-    "changePct": -1.74,
-    "asOf": "2026-10-14",
-    "note": "Single aggregator dashboard snapshot, not independently cross-checked; no quote dated 2026-10-23 was found this session."
+    "last": 135.34,
+    "changePct": null,
+    "asOf": "2026-11-09",
+    "source": "marketchameleon.com"
   },
   "catalysts": [
+    {
+      "date": "2026-09-16",
+      "type": "partnership",
+      "headline": "Twist Bioscience joined Eli Lilly's TuneLab program",
+      "source": null
+    },
     {
       "date": "2026-09-16",
       "type": "partnership",
@@ -122,17 +119,48 @@
     {
       "date": "2026-08-03",
       "type": "earnings",
+      "headline": "Fiscal Q3 2026 results (qtr ended 6/30/26): record revenue of $118.4M (+23% YoY, beat $114.6M estimate); GAAP net loss $35.1M (-$0.56/diluted share); adjusted EBITDA loss $11.3M; gross margin 52.8%; raised FY2026 revenue guidance to $456-457M; reiterated Q4 adjusted EBITDA breakeven target; DNA synthesis/protein solutions revenue +39% to $56.6M, NGS applications +12% to $61.8M, therapeutics +49% to $40.4M",
+      "source": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "earnings",
       "headline": "Fiscal Q3 2026 results: record revenue $118.4M (+23% YoY, beat $114.6M consensus); GAAP net loss $35.1M / -$0.56 EPS (vs. $0.18 loss consensus); cash & short-term investments ~$167M; FY2026 revenue guidance raised to $456-457M",
       "source": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug ; https://www.rttnews.com/3682164/twist-bioscience-twst-q3-revenue-jumps-23-as-fy2026-guidance-raised.aspx"
     }
   ],
   "conflicts": [
-    "Next fiscal-Q4-2026 earnings date still not company-confirmed; the field of third-party estimates widened again this pass: Bullstory labels 2026-11-12 before market open as 'verified' (but cites no company source, and no company press release announcing the call date was found, so treated as unconfirmed like the others) vs Unusual Whales/NextEarningsDate 2026-11-13 (both explicitly labelled projections) vs EarningsWhispers 2026-11-20 before market open with consensus EPS around -$0.44/share. In fiscal 2025 the company's own call-date press release went out 2026-10-23 for a 2025-11-14 report; no equivalent company release for fiscal 2026 was located as of this pass despite being in the same window of the year.",
-    "Price/valuation conflict carried forward unresolved from 2026-11-05: on-file $148.69 (2026-10-14, single-aggregator snapshot) vs a separate aggregator's 52-week high of $116.32 / average price target $85.5 implying a current price near $92.6. This pass found a third, partially-corroborating snapshot: Upstox shows $152.75 as of 2026-10-31 (previous close $173.51 on an implied 2026-10-30), which is closer to the on-file $148.69 level than to the $92.6 implied figure — suggesting the on-file price range may be closer to correct and the $92.6 figure the stale/erroneous one, but this is not independently confirmed and no reverse split has been reported for TWST, so flagged rather than resolved."
+    "Next earnings date: Nov 12, 2026 marked 'confirmed' by marketchameleon.com, but earningswhispers.com's calendar lists Nov 20, 2026 (Friday, 7:15am ET), and a separate earningswhispers 'beta' page lists Nov 2, 2026 (which appears to be stale/incorrect, since no Q4/annual report had surfaced in any source as of this research on Nov 11). Last year's (FY2025) Q4 report was released Nov 14, 2025.",
+    "Price: $135.34 (marketchameleon, dated Nov 9 2026) vs $151.87 (coingecko, undated, intraday range $148.28-$173.47) vs $120.79 (stockevents, undated) — could not reconcile to a single Nov 11 close.",
+    "Market cap/shares outstanding: $10.52B / 65.83M shares (foxbusiness, undated) vs an earlier equibles snapshot of $7.97B and ~$6.18B with 62,271,314 shares (dated July 2026) — the July figures are older and at a lower share price, consistent with the stock's reported 2026 rally, not necessarily a data error.",
+    "Short interest: 19.2% of float (-14.5% MoM, 6.9 days to cover) vs 22.4% of float / 14.1M shares (11.1 days, Aug 2026 settlement) vs an earlier 28.36% of float (+18.5% MoM, 9.6 days) from a June 2026 snapshot — trend direction unclear across sources.",
+    "Cash: company reported ~$167M cash/cash equivalents/short-term investments as of 2026-06-30, but one source also cited a 'net cash position' of ~$181.6M, which is higher than gross cash — inconsistent and not reconciled.",
+    "TTM EPS of -$2.22 appears on one statistics page, which does not match the FY2025 full-year figure of -$1.30; likely reflects a different trailing-twelve-month window (e.g., spanning part of FY2025 and FY2026) rather than an error, but not independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-08-04 public offering and 2026-09-16 Eli Lilly TuneLab partnership already on file. Could not establish today's (2026-11-06) closing price with confidence — see conflicts for the closest dated snapshots found (2026-10-31). Next-earnings-date conflict narrowed slightly in credibility (two independent sources now cluster around Nov 12-13) but still has no company confirmation, so left as a conflict rather than picked.",
+  "notes": "Stock has had a large 2026 rally attributed to AI drug-discovery momentum (one Finviz headline referenced a 72% rally), which is consistent with the much higher 2026 prices vs. 2025 share levels; this is not a reverse split. Company intends to give FY2027 guidance alongside the upcoming Q4 report. No news items found between the Sept 16 TuneLab announcement and the Aug 3 earnings call beyond analyst/earnings-calendar commentary.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -278,10 +306,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

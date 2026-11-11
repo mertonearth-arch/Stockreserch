@@ -1,63 +1,50 @@
 {
   "ticker": "GPRO",
   "name": "GoPro, Inc.",
-  "sector": null,
+  "sector": "Consumer Hardware",
   "theme": "Consumer Hardware",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.088Z",
+  "lastResearched": "2026-11-11T21:19:14.085Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Still unreconcilable this session -- found readings span $103.82M to $284.65M depending on source, date and which listing (NASDAQ vs a Mexican BMV cross-listing) is being quoted; several pages are undated. See conflicts."
+      "note": "Not established — not retrieved from a live source before WebSearch budget for this session was exhausted."
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately from shares outstanding in sources found"
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Disagreeing figures found: Macrotrends 163M (2026-03-31) vs Value Research 137.33M (2026-05-01) vs TipRanks 131.92M (undated) vs TipRanks 146.74M (undated, appears to be the BMV cross-listing). No single figure established as current."
+      "note": "Not established this session."
     },
     "shortInterest": {
-      "value": 23900000,
-      "asOf": "2026-08-20",
-      "note": "~12.96% of float, 6.0 days to cover. ~2 months stale relative to 2026-10-30."
+      "value": null,
+      "note": "Not established this session."
     },
     "cash": {
       "value": null,
-      "note": "not located in sources reachable this session"
+      "note": "Not established this session."
     },
     "debt": {
-      "value": 81600000,
-      "asOf": "2026-06-30",
-      "note": "Restated short-term debt (10-Q/A), on file."
+      "value": null,
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "Negative earnings in recent quarters (GAAP net loss); multiple not established",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "not verified this session"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.3,
-        "basis": "GAAP diluted",
-        "note": "GAAP net loss of $51M for the quarter ended 2026-06-30, vs. a $16M loss a year earlier; non-GAAP net loss was $36M. Includes a $19M tariff-refund benefit offset by a $15M charge tied to component purchase commitments."
+        "period": "Q3 2025",
+        "value": -0.13,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
@@ -76,21 +63,28 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q2 2026",
-      "pct": -31
+      "pct": -31,
+      "note": "Most recent CONFIRMED quarter found in sources; Q3 2026 figures not located this session."
     },
     "nextEarnings": {
       "date": "2026-11-09",
       "confirmed": false,
-      "note": "Reconfirmed via EarningsWhispers (after-market-close estimate) this session; equibles.com separately estimates 2026-11-07 (on file from a prior pass). Neither is company-confirmed; no GoPro IR Q3 2026 earnings-webcast announcement was found this session (investor.gopro.com was unreachable from this sandbox)."
+      "note": "Per system state. No confirmed Q3 2026 results release could be located in available sources as of this research session (2026-11-11), despite this date having passed. Could mean the report has not yet been released/was delayed, or coverage is not yet indexed by the sources accessible here. Status should be treated as STILL PENDING / UNCONFIRMED, not as 'no report occurred.'"
     }
   },
   "price": {
-    "last": 1.04,
-    "asOf": "2026-10-27",
-    "source": "aggregator day-range snapshot (high $1.07 / low $1.02) for the 2026-10-27 session",
-    "note": "Updates the stale on-file 2026-10-14 $1.16 print. Several undated aggregator pages show materially higher figures ($1.23-$1.39); not used, consistent with the existing conflicts note on this name's price reliability."
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "Not established from available sources this session."
   },
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "offering/dilution",
+      "headline": "Filed Post-Effective Amendment No. 3 to the Farallon resale S-1 (per existing system record; not independently re-verified this session)",
+      "source": ""
+    },
     {
       "date": "2026-10-27",
       "type": "filing",
@@ -151,6 +145,13 @@
     {
       "date": "2026-08-10",
       "type": "earnings",
+      "headline": "Q2 2026 results: revenue approx. $105 million (-31% YoY); sell-through down 38% to roughly 291,000 units; subscription & services revenue $29 million (+11% YoY)",
+      "impact": "unconfirmed",
+      "source": "https://www.zacks.com/stock/news/2787631/gopro-s-q3-loss-wider-than-expected-revenues-fall-y-y-stock-down"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "earnings",
       "headline": "GoPro reported Q2 2026 results: revenue of $104.9 million (down ~31% YoY), GAAP net loss of $51 million ($(0.30)/share), gross margin of 30.2% (down from 35.8%), and adjusted EBITDA of -$29.5 million. The board had authorized a process to evaluate a potential sale and other strategic alternatives, and the company cut its global workforce by 23% in a Q2 restructuring.",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001500435/000150043526000034/gpro2026-6x30ex991xer.htm; https://sgbonline.com/gopros-q2-sales-slump-31-percent-on-hardware-declines/",
@@ -168,16 +169,41 @@
       "headline": "GoPro files 8-K disclosing 'substantial doubt' about its ability to continue as a going concern; PwC adds explanatory paragraph",
       "impact": "shares fell as much as 12% intraday",
       "source": "https://news.bloomberglaw.com/business-and-practice/gopro-warns-about-going-concern-in-filing-shares-fall"
+    },
+    {
+      "date": "2025-11-06",
+      "type": "earnings",
+      "headline": "Q3 2025 results: revenue $163 million (-37% YoY); GAAP net loss $21 million (EPS -$0.13); adjusted EBITDA -$8 million",
+      "source": "https://thedeadpixelssociety.com/gopro-announces-third-quarter-revenue-down-37/"
     }
   ],
   "conflicts": [
-    "Shares outstanding: one source lists 137,334,678; another 144,724,434; Equibles' July summary lists 170,982,980 — dates/definitions not reconcilable from available sources.",
-    "Short interest %: Equibles shows 12.96% of float as of 2026-08-20, vs. an earlier 2026-04-15 snapshot showing 13.64% of shares outstanding / 16.8% of float — different dates, not averaged.",
-    "No reverse-split signal found for GPRO this pass; flagging that this was checked per standing rule 7."
+    "Several search hits for 'GoPro Q3 EPS' (e.g. TipRanks/StreetInsider items citing a 9c or 2c EPS beat) could not be reliably dated to 2026 and appear to reference earlier fiscal years (likely 2023-2024); they were excluded from this record to avoid misattribution."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: Q3 2026 earnings were due today but no print found yet (SEC EDGAR unreachable in this sandbox; search index has not caught up). No fresher price than the on-file unreconciled $103.82M-$284.65M market-cap spread. Quiet pass pending the actual report.",
+  "notes": "Q3 2026 earnings status is the key open item: nextEarnings on file is 2026-11-09 (unconfirmed) and that date has passed, but no actual Q3 2026 print (revenue/EPS) was found via WebSearch in this session. Treat as PENDING CONFIRMATION, not as a miss or non-event. Market-cap/shares/float/short-interest/cash/debt fields are null because the WebSearch budget for this session was exhausted before those lookups could be completed — they are not confirmed zero or absent, simply unresearched this pass.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -453,10 +479,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

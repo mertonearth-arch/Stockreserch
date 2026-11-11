@@ -1,14 +1,14 @@
 {
   "ticker": "OSPN",
   "name": "OneSpan Inc.",
-  "sector": "Cybersecurity / Digital Identity Software",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.099Z",
+  "lastResearched": "2026-11-11T21:19:14.100Z",
   "fundamentals": {
     "revenue": [
       {
@@ -19,62 +19,67 @@
     ],
     "eps": [
       {
+        "period": "Q3 2025",
+        "value": 0.17,
+        "basis": "GAAP"
+      },
+      {
         "period": "Q3 2026",
-        "value": 0.21,
-        "basis": "non-GAAP",
-        "note": "Beat $0.19 consensus."
+        "value": 0.2,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 0.35,
+        "basis": "non-GAAP"
       }
     ],
     "growth": {
-      "metric": "subscription revenue YoY",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 16,
-      "note": "ARR $195.5M, +9% YoY."
+      "pct": 12,
+      "note": "Total revenue $63.9M, up 12% YoY; subscription revenue (within total) grew 16% YoY to $51.5M."
     },
     "sharesOutstanding": {
       "value": 36850000,
       "asOf": "2026-10-23",
-      "source": "Fox Business (re-checked 2026-11-05, unchanged)",
-      "note": "Other sources range 36.85M-38.07M (TipRanks/Stoculator ~37.07M, Motley Fool ~37.47M, Finspry ~38.07M); treated as approximate."
+      "source": "foxbusiness.com"
     },
-    "shortInterest": {
-      "value": 3600000,
-      "asOf": "2026-09-30",
-      "source": "Curvedtrading, citing FINRA Consolidated Short Interest settlement data",
-      "note": "~5.2 days to cover. Supersedes prior on-file 2026-08-20 Equibles snapshot (3.0M shares, 8.12% of float, 7.9 days to cover) with a more recent, dated settlement figure."
-    },
-    "cash": {
-      "value": 51400000,
-      "asOf": "2026-09-30",
-      "source": "OneSpan 10-Q (Q3 2026), SEC EDGAR filing ospn-20260930.htm",
-      "note": "Found via WebSearch snippet of the filing text; sec.gov could not be fetched directly this session (DNS-blocked). Down from $70.5M at 2025-12-31 (the filing's own prior-year-end comparison) -- this resolves the prior pass's undated $70.5M aggregator figure as the FY2025 year-end balance, not a current one."
-    },
-    "debt": {
-      "value": 5000000,
-      "asOf": "2026-09-30",
-      "source": "OneSpan 10-Q (Q3 2026), SEC EDGAR filing ospn-20260930.htm",
-      "note": "Borrowings drawn under the $100M revolving credit facility at quarter-end; the 10-Q's subsequent-events section states this was repaid in full on 2026-10-06. Company also carried $0.4M letters of credit outstanding at quarter-end, not included in this figure. Supersedes prior undated $6.14M aggregator figure."
-    },
+    "shortInterest": null,
+    "cash": null,
+    "debt": null,
     "pe": {
-      "trailing": null,
+      "trailing": 10.59,
       "forward": null,
-      "note": "Pre-earnings (pre-2026-10-29) trailing-P/E readings ranged ~5.2x-10.6x across sources depending on snapshot date (e.g. Fox Business 2026-10-23: P/E 10.59 at $19.21/share). No dated post-earnings (after 2026-10-29) P/E or price was found this session either, so left null rather than picking one.",
-      "asOf": null
+      "note": "Pre-earnings (Oct 23, 2026) trailing P/E per Fox Business; see conflicts for other readings",
+      "asOf": "2026-10-23"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No Q4 2026 date announcement found. Company's own pattern: the Q4 2025 date (2026-02-26) was announced via a press release on 2026-01-13, roughly 6 weeks ahead -- so a Q4 2026 date announcement is not expected until mid-January 2027. Carried from prior pass."
-    }
+      "note": "No next earnings date found. Pattern suggests Q4/FY2026 results around Feb 2026-ish; not confirmed by any source."
+    },
+    "marketCap": {
+      "value": 695400000,
+      "asOf": "2026-10-23",
+      "source": "foxbusiness.com",
+      "note": "Pre-earnings (before Oct 29 Q3 report); no post-earnings figure retrieved."
+    },
+    "float": null
   },
   "price": {
-    "last": 19.74,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-29",
-    "source": "Upstox",
-    "note": "Fills previously-null price field."
+    "asOf": null,
+    "note": "No post-earnings (after 2026-10-29) dated quote retrieved before search budget was exhausted. Most recent dated pre-earnings figure: Fox Business listed OSPN around its Oct 23, 2026 snapshot implying a price near $18-19 (back-calculated from market cap/shares); not confirmed directly as a quoted price."
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "OneSpan reported Q3 2026 results: revenue $63.9M (+12% YoY), subscription revenue $51.5M (+16% YoY), operating income $9.2M (+12% YoY), GAAP EPS $0.20 (vs $0.17 prior year), non-GAAP EPS $0.35 (vs $0.33 prior year); raised full-year guidance for the second consecutive quarter",
+      "source": "https://finviz.com/news/412062/onespan-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-10-29",
       "type": "guidance",
@@ -90,10 +95,33 @@
     }
   ],
   "conflicts": [
-    "Price snapshots found this session add to the existing unreconciled set: Upstox shows $19.74 as of 2026-10-29 (-1.6% that day), while a Debelegger snapshot shows $25.66 with an update timestamp of 2026-11-01 describing a +27.3% close move -- a jump neither tied to a specific dated news item nor consistent with the 52-week high of $20.78 that the same Upstox page cites. Not reconciled; carried alongside the prior pass's conflicting $19.21/$15.59-15.78/$11.77 cluster already on file."
+    "Shares outstanding: 36.85M (Fox Business, 2026-10-23) vs 37.07M (Google Finance, 2026-08-04).",
+    "Market cap: $695.40M (Fox Business, 2026-10-23) vs $620.96M (Equibles, 2026-09-11) vs ~$602M (Google Finance, 2026-08-04) vs $902M (Fullratio, undated, paired with an apparently stale $24.45 share price).",
+    "Trailing P/E: 10.59 (Fox Business) vs 9.5 (Equibles) vs 9.02 (Google Finance) vs 13.29 (Fullratio, likely stale)."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -183,13 +211,24 @@
       "from": "daily"
     }
   ],
-  "notes": "PM 2026-11-06: no new dated catalyst since the 2026-10-29 Q3 2026 earnings print (still the most recent event). Next earnings (Q4 2026) still not announced. Price/market-cap conflict grew rather than resolved this pass -- see conflicts. Other fundamentals (cash, debt, shares outstanding, short interest) unchanged from the 2026-11-05 pass.",
+  "notes": "No news found specific to OneSpan since the Oct 29, 2026 Q3 report (which is the same event already on file as the Oct 29 outlook raise). One analyst-style commentary flagged that part of Q3's revenue strength came from a $2.3M one-time boost tied to customers shifting to multi-year contracts, and that operating costs (+17%) grew faster than revenue — included for context, not as a new dated catalyst. Could not retrieve a current (post-earnings) price, market cap or share count before the session's search budget was exhausted.",
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

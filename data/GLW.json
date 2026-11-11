@@ -1,19 +1,18 @@
 {
   "ticker": "GLW",
   "name": "Corning Incorporated",
-  "sector": null,
+  "sector": "Specialty Materials / Technology Hardware",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.087Z",
+  "lastResearched": "2026-11-11T21:19:14.084Z",
   "fundamentals": {
     "marketCap": {
-      "value": 116420000000,
-      "asOf": "2026-10-21",
-      "source": "MarketBeat instant-alert page (carried forward; no cleaner newer figure found this session)"
+      "value": null,
+      "note": "Not located in available sources this session"
     },
     "float": {
       "value": null,
@@ -39,25 +38,11 @@
       "note": "not located in sources reachable this session"
     },
     "pe": {
-      "trailing": 73.2,
+      "trailing": null,
       "forward": null,
-      "note": "TTM EPS ~$2.18 (Google Finance, 2026-10-05); a separate Aug 4, 2026 Dividend.watch snapshot showed trailing P/E 59.44x and forward P/E 42.92x on a $137.74B market cap -- see conflicts. No current consensus forward EPS confirmed this session.",
-      "asOf": "2026-10-05"
+      "note": "Not located in available sources this session (Corning is profitable, so this is a gap in research, not a 'negative earnings' case)"
     },
-    "eps": [
-      {
-        "period": "Q3 2026",
-        "value": 0.78,
-        "basis": "GAAP diluted",
-        "note": "GAAP EPS reported 2026-10-27"
-      },
-      {
-        "period": "Q3 2026",
-        "value": 0.91,
-        "basis": "non-GAAP (core)",
-        "note": "beat the company's own core guidance of $0.85-0.89"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q3 2026",
@@ -73,22 +58,21 @@
       }
     ],
     "growth": {
-      "metric": "core sales YoY",
-      "period": "Q3 2026",
-      "pct": 19
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "Could not confirm Corning's Q3 2026 earnings print (revenue/EPS) in available sources, despite analyst price-target activity in late October 2026 that appears to follow an earnings release"
     },
     "nextEarnings": {
       "date": "2027-01-28",
       "confirmed": false,
-      "note": "Corning reported Q3 2026 results today (2026-10-27), resolving the previously-pending next-earnings date that was on file. 2027-01-28 is an aggregator-estimated (AJ Bell calendar) Q4 2026 report date, not yet company-confirmed."
+      "note": "Matches data on file and Corning's established pattern of reporting full-year/Q4 results on January 28 (it reported FY2025 results on 2026-01-28)"
     }
   },
   "price": {
-    "last": 125.04,
-    "changePct": 0.85,
-    "asOf": "2026-10-23",
-    "source": "WebSearch aggregation of an intraday snapshot timestamped 2:10:38 PM EDT on 2026-10-23; not independently cross-checked against an NYSE closing print",
-    "note": "Described by the same source as down ~18.85% over the trailing month. A separate, ambiguously-dated reading of $123.31 (labelled '01/11/2026', plausibly Nov 1, 2026 in day/month format) was also found this session but not used given the date ambiguity."
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "No confirmed quote for 2026-11-11. Dated figures found nearby: $115.95, reportedly +9.25% in the trailing 24 hours, on a page dated 2026-11-09; $106.13 close on 2026-11-06 (marketchameleon.com); $126.30 on 2026-10-28 (coinglass.com). Taken together these suggest a sharp decline from late October into early November followed by a rebound, but none is confirmed as today's close."
   },
   "catalysts": [
     {
@@ -97,6 +81,18 @@
       "headline": "One aggregator (MarketBeat) flags an unspecified 'key catalyst' for Corning dated Nov 11, 2026; no content, detail, or second-source corroboration was found this session",
       "impact": null,
       "source": "WebSearch aggregation (MarketBeat); unverified"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "analyst action",
+      "headline": "Multiple analysts revised price targets, apparently following a Q3 2026 earnings report: UBS lowered target to $192 from $201 (kept Buy); Morgan Stanley lowered target to $155 from $165 (Equal-weight); Truist lowered target to $175 from $182 (kept Buy); Barclays raised target to $132 from $129 (Equal-weight)",
+      "source": null
+    },
+    {
+      "date": "2026-10-27",
+      "type": "analyst action",
+      "headline": "Citi reaffirmed a Buy rating",
+      "source": null
     },
     {
       "date": "2026-10-27",
@@ -111,6 +107,12 @@
       "headline": "Corning shares rose approximately 3% intraday ahead of Q3 earnings (high $128.58, last $127.34); cites a UBS price-target raise to $201 (from $196, buy rating) dated 2026-10-05.",
       "impact": "+3% intraday",
       "source": "https://www.marketbeat.com/instant-alerts/price-corning-nyse-glw-stock-jumps-3-whats-next-2026-10-26/"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "analyst action",
+      "headline": "JPMorgan lowered its price target to $165 from $170, Neutral rating",
+      "source": null
     },
     {
       "date": "2026-09-14",
@@ -134,16 +136,26 @@
       "source": "https://www.marketbeat.com/instant-alerts/corning-nyseglw-announces-quarterly-earnings-results-2026-07-28/"
     }
   ],
-  "conflicts": [
-    "Market cap: MarketBeat $116.42B (2026-10-21) vs Dividend.watch $137.74B (2026-08-04) vs Equibles $144.73B (2026-06-10 snapshot) vs Equibles $168.83B (late May 2026) -- spread covers both real price decline and disagreeing dates; not reconciled to a single current figure.",
-    "Trailing P/E: 73.2x (Google Finance TTM EPS $2.18, 2026-10-05) vs 59.44x (Dividend.watch, 2026-08-04) vs 107.20x (Equibles, late May 2026) vs 91.90x (Equibles, 2026-06-10).",
-    "Dated closing-price readings found this session, declining trend, none independently confirmed as an official NYSE close: $164.16 (2026-10-02, Ad-hoc News), $156.68 (2026-10-09, Yahoo Finance NYSE page), $140.19 (2026-10-14, Benzinga widget), $126.30 (2026-10-27, day of the Q3 print), $125.04 (2026-10-23, on file). Consistent downward direction but not reconciled to one exact current price.",
-    "An additional ambiguously-dated reading ('01/11/2026' format, day range $120.48-$126.70) suggests ~$123.31 -- the date format is unclear (could be Jan 11 or Nov 1) and it is not used to override the on-file price, kept here as a flagged data point.",
-    "The MarketBeat 'key catalyst Nov 11, 2026' flag could not be substantiated this session -- no corroborating event found. The closest candidates are the routine 2026-11-13 ex-dividend date ($0.28/share, already on file as non-catalyst) or a possible confusion with last year's Nov 11, 2025 earnings date; treated as unsubstantiated noise, not recorded as a catalyst. TipRanks separately shows a stale/mislabeled 'Nov 3, 2026 TBA (Confirmed)' next-earnings entry that contradicts the already-reported Oct 27 Q3 print -- not used; the on-file 2027-01-28 AJ Bell estimate remains the best (still unconfirmed) read."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: no resolution on the unexplained MarketBeat 'key catalyst Nov 11' flag -- treated as noise/unsubstantiated, not recorded as a catalyst. Price remains unresolved across a wide spread depending on date/source; one new ambiguously-dated reading found, not used to override. No new dated catalyst beyond the 2026-10-27 Q3 print already on file.",
+  "notes": "Could NOT identify a specific, dated November 11, 2026 catalyst for Corning despite multiple targeted searches — MarketBeat's 'key catalyst' flag for today remains unconfirmed and unexplained in every source reviewed. The nearest concrete, dated news cluster is a round of analyst price-target cuts/raises on October 21, 27, and 28, 2026, which appears to follow a Q3 2026 earnings report, though I could not locate the actual earnings print (revenue, EPS, guidance) to confirm this inference or its date. Price data points from 2026-10-28 ($126.30) through 2026-11-06 ($106.13) to 2026-11-09 ($115.95, +9.25% in 24h) suggest real volatility in this window that could itself be related to whatever MarketBeat is flagging for Nov 11, but I found no article, 8-K, index-rebalancing notice, or dividend-date disclosure dated specifically Nov 11, 2026. Recommend checking Corning's newsroom (corning.com/worldwide/en/newsroom) or MarketBeat's own GLW news page directly, or re-running this research once the per-task WebSearch budget (shared across concurrently running research agents in this session) has reset — it was exhausted before this gap could be closed. Direct WebFetch to stocktitan.net, finviz.com, and other candidate sources also failed with DNS resolution errors in this sandbox.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -344,10 +356,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

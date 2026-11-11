@@ -1,19 +1,18 @@
 {
   "ticker": "CIFR",
-  "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.; ticker CIFR unchanged)",
-  "sector": null,
+  "name": "Cipher Digital Inc. (formerly Cipher Mining)",
+  "sector": "Digital Infrastructure / Bitcoin Mining (transitioning toward AI data centers)",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.094Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.092Z",
   "fundamentals": {
     "marketCap": {
-      "value": 9120000000,
-      "asOf": "2026-08-01",
-      "source": "companiesmarketcap.com ($22.32 x 405,112,315 shares)"
+      "value": null,
+      "note": "Not established."
     },
     "float": {
       "value": 335200000,
@@ -44,21 +43,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 GAAP net income was positive ($31.6M, basic EPS +$0.08) only because of a $127.2M non-cash warrant-revaluation gain; diluted EPS remained negative (-$0.22) and underlying operations were loss-making (Motley Fool estimates an ex-warrant-gain loss of roughly -$96M, unconfirmed by a primary source). No meaningful P/E.",
-      "asOf": "2026-11-02"
+      "note": "negative earnings",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": -0.22,
-        "basis": "GAAP diluted",
-        "note": "Beat the -$0.25/-$0.26 consensus by ~$0.04 per GuruFocus."
-      },
-      {
-        "period": "Q3 2026",
-        "value": 0.08,
-        "basis": "GAAP basic",
-        "note": "Positive only due to the $127.2M non-cash warrant-revaluation gain; net income $31.6M vs. a net loss of $3.28M in Q3 2025."
+        "basis": "unspecified (per Earnings Whispers aggregator; reported as beating consensus)"
       }
     ],
     "revenue": [
@@ -70,25 +62,29 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY (quarterly)",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": -62.8,
-      "note": "Resolves the on-file null -- Q3 2025 comparable revenue (~$71.7M) was located this session. Large YoY decline reflects the ongoing transition from bitcoin mining toward HPC/AI colocation leasing."
+      "note": "Consistent with prior record: revenue $26.7M (also reported as $26.70M), down ~62.8% YoY, for the quarter ended Sept 30, 2026."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 was reported 2026-11-02 (ahead of the on-file unconfirmed Nov 11 estimate). Next report would be Q4/FY2026 results, historically released in February (FY2025 results came out Feb 2026); no confirmed date found this session."
+      "note": "Q3 2026 already reported Nov 2, 2026; next (Q4/full-year 2026) report date not yet announced in sources found."
     }
   },
   "price": {
-    "last": 7.67,
-    "changePct": null,
-    "asOf": "2026-11-03",
-    "source": "Benzinga (\"Cipher Stock Jumps: What's Going On?\")",
-    "note": "Sources disagree sharply on the size of the post-earnings move -- see conflicts; $7.67 is the Benzinga print closest to a clean timestamp ('Tuesday', near a 52-week low of $6.62 reached earlier in the move)."
+    "last": null,
+    "note": "No price data point for CIFR was retrievable via the sources reachable in this session before the WebSearch quota was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $26.70M (down ~62.8% YoY), loss of $0.22 per share, reported as beating consensus estimates",
+      "impact": null,
+      "source": "https://www.earningswhispers.com/epsdetails/CIFR/202609"
+    },
     {
       "date": "2026-11-02",
       "type": "earnings",
@@ -136,14 +132,35 @@
       "headline": "Company states it began delivering data-center capacity at the start of August 2026, roughly two months ahead of its original schedule; also acquired an option on a new ~900 MW 'Apollo' site near San Antonio, TX",
       "impact": "Accelerated AI/HPC colocation timeline and expanded future capacity pipeline",
       "source": "secondary coverage (search aggregation); company's own August 2026 operational update not independently fetched"
+    },
+    {
+      "date": "2026-05-05",
+      "type": "financing",
+      "headline": "Cipher Digital reported Q1 2026 revenue of $35 million and secured a $200 million revolving credit facility, continuing its strategic shift from bitcoin mining toward long-term AI/data-center leases (company rebranded from Cipher Mining to Cipher Digital in February 2026)",
+      "impact": null,
+      "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/CIFRW"
     }
   ],
-  "conflicts": [
-    "Cash (2026-09-30): on-file $724M is labelled 'pro forma unrestricted cash' per the Q3 2026 8-K business update. A separate read of the same Nov 2, 2026 8-K's financial-statement exhibit this session shows GAAP cash and cash equivalents of approximately $656M plus a separately-held bitcoin position of approximately $25.9M as of the same date -- different accounting lines from the same filing, not reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new catalyst, price, or share-count figure found beyond the Nov 2, 2026 earnings already captured on file. Added one unreconciled cash-figure refinement (see conflicts) sourced from the same 8-K exhibit. WebFetch was unreachable for every domain attempted this session, so the underlying filing could not be read directly -- this comes from WebSearch synthesis of the indexed filing text. Share-count/dilution impact of the October convertible-notes exchange (~41M new shares) remains unverified, as flagged by the prior pass.",
+  "notes": "No Cipher Digital-specific news dated after the Nov 2, 2026 Q3 earnings report was found. On bitcoin-sector context: search results referencing 'crypto sector weakness' on or near Nov 11, 2026 could not be pinned to a single reliable, dated BTC price for today -- different dated snippets from across 2026 showed BTC at widely different levels ($59K-$93K+) reflecting a volatile year, and none could be confidently confirmed as the Nov 11, 2026 price with the tools available (WebFetch was blocked for coingecko/coinglass/price-tracker domains, and the WebSearch quota was exhausted). This should be treated as an open item rather than a confirmed figure. Price, market cap, shares outstanding, float, short interest, cash, and debt for CIFR itself were likewise not established from reachable sources.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -296,10 +313,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

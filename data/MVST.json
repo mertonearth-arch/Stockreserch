@@ -1,23 +1,94 @@
 {
   "ticker": "MVST",
   "name": "Microvast Holdings, Inc.",
-  "sector": "Industrials",
+  "sector": "EV Battery & Energy Storage",
   "theme": "EV Battery & Energy Storage",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T05:31:58.857Z",
-  "fundamentals": {},
+  "lastResearched": "2026-11-11T21:19:14.073Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 232370000,
+      "asOf": "2026-11-04",
+      "source": "equibles.com (pre-earnings, at $0.66/share)"
+    },
+    "float": {
+      "value": null,
+      "note": "Not established."
+    },
+    "sharesOutstanding": {
+      "value": 384530000,
+      "asOf": "2026-11-04",
+      "source": "equibles.com"
+    },
+    "shortInterest": {
+      "value": 5.16,
+      "asOf": "2026-11-04",
+      "source": "equibles.com (19.8M shares short, 5.16% of shares outstanding, ~6.3 days to cover, described as down from the prior month)"
+    },
+    "cash": {
+      "value": 124400000,
+      "asOf": "2026-09-30",
+      "source": "SEC-filed Q3 2026 earnings press release (cash, cash equivalents and restricted cash)"
+    },
+    "debt": {
+      "value": 196000000,
+      "asOf": "2026-11",
+      "source": "secondary summary (panabee.com) of Q3 2026 release, citing debt obligations maturing within 12 months, including $41.7M of convertible bonds due Jan 31, 2027"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings (Q3 2026 adjusted net loss of $76.0M; GAAP results also a loss)",
+      "asOf": "2026-11-11"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -0.61,
+        "basis": "GAAP, per company FY2025 release comparative figure"
+      },
+      {
+        "period": "FY2025",
+        "value": -0.09,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "No reported per-share figure found; non-GAAP adjusted net loss was $76.0M (vs. adjusted profit of $11.9M in Q3 2025) but was not divided into a disclosed EPS by any source retrieved."
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": -62.8,
+      "note": "Revenue fell to $45.8M from $123.3M in Q3 2025 (-62.8%); volume fell ~62% to 190 MWh."
+    },
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established."
+    }
+  },
   "price": {
-    "last": 0.32,
-    "changePct": -48.5,
+    "last": null,
+    "changePct": null,
     "asOf": "2026-11-11",
-    "source": "Benzinga premarket movers roundup",
-    "note": "Premarket indicative price."
+    "note": "No confirmed Nov 10/11, 2026 close found. Most recent dated price found: $0.66 close on Nov 4, 2026 (equibles.com), i.e. pre-earnings."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Microvast Q3 2026 results (reported after market close): revenue $45.8M, down 62.8% YoY from $123.3M, missing consensus of ~$74.2M; volume fell ~62% to 190 MWh on weaker heavy-duty truck, port equipment and mining equipment demand in Europe and APAC plus industry pricing pressure; gross margin collapsed to 5.2% from 37.6% a year earlier, with a $9.3M inventory write-down accounting for ~20 points of the decline; non-GAAP adjusted net loss of $76.0M vs. an adjusted profit of $11.9M in Q3 2025; a $35.7M long-lived asset impairment was recorded; cash, cash equivalents and restricted cash of $124.4M as of Sept 30, 2026 versus $196M of debt obligations maturing within 12 months (including $41.7M of convertible bonds due Jan 31, 2027); CEO Yang Wu said the sharp drop in sales and margins has significantly constrained liquidity; company disclosed substantial doubt about its ability to continue as a going concern",
+      "impact": "task-stated session move of approximately -48.5%; exact percentage not independently re-confirmed from a live quote in this session",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001760689/000162828026072310/mvst2026q3ex991earningspre.htm"
+    },
     {
       "date": "2026-11-09",
       "type": "earnings",
@@ -26,9 +97,34 @@
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Revenue decline cited as both '63%' (panabee headline) and '62.8%'/'62%' precise calculations in secondary sources; treated as consistent rounding, not a true conflict.",
+    "Net loss figure cited as both '$76.0 million' (non-GAAP adjusted net loss, most commonly cited) and '$76.8 million' in one WebSearch AI summary -- not reconciled against a primary-document read, since SEC.gov did not resolve via WebFetch in this session.",
+    "Market cap/shares outstanding/short-interest figures are from a pre-earnings Nov 4, 2026 snapshot; given the ~48.5% post-earnings move cited in the task, current (post-Nov 9) market cap would be materially different, but no post-earnings dated snapshot was found in available sources."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "am",
@@ -41,14 +137,24 @@
       "from": "daily"
     }
   ],
-  "notes": "New stub, AM pass. Actual Q3 2026 reported figures not located this session -- PM pass should confirm against the primary earnings release.",
+  "notes": "SEC.gov did not resolve via WebFetch in this session (network restriction), so the SEC-filed Exhibit 99.1 earnings release content above is drawn from WebSearch result summaries that explicitly cite and quote that filing, not a direct document read. No corroborating no-connection price source for the exact -48.5% session move was found independently of the task's own stated figure.",
   "lastPass": {
     "date": "2026-11-11",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "move -48.5%"
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -1,20 +1,18 @@
 {
   "ticker": "EIX",
   "name": "Edison International",
-  "sector": null,
+  "sector": "Utilities (Electric)",
   "theme": "Utilities & Wildfire Liability",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.095Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.093Z",
   "fundamentals": {
     "marketCap": {
-      "value": 20870000000,
-      "asOf": "2026-10-05",
-      "source": "Google Finance (via web search snapshot)",
-      "note": "Implied by $54.24/share and ~384.81M shares; sharply lower than ~$75-79/share and ~$28-30B market cap readings from mid-July 2026 found in sources this session — large apparent decline not fully explained (see conflicts)."
+      "value": null,
+      "note": "not found in accessible sources"
     },
     "float": {
       "value": null,
@@ -44,26 +42,18 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not computed — EIX is profitable (core EPS $1.92 Q3 2026) but a clean TTM GAAP EPS was not established this pass; left null rather than guessed."
+      "note": "not found in accessible sources"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 1.88,
-        "basis": "GAAP basic",
-        "source": "SEC 8-K Q3 2026 earnings release exhibit"
+        "basis": "GAAP"
       },
       {
         "period": "Q3 2026",
-        "value": 1.87,
-        "basis": "GAAP diluted",
-        "source": "SEC 8-K Q3 2026 earnings call deck",
-        "note": "Basic vs. diluted — both SEC-sourced, kept distinct rather than reconciled to one figure."
-      },
-      {
-        "period": "Q3 2025",
-        "value": 2.16,
-        "basis": "GAAP diluted (prior year)"
+        "value": 1.92,
+        "basis": "core (non-GAAP)"
       }
     ],
     "revenue": [
@@ -80,25 +70,31 @@
       }
     ],
     "growth": {
-      "metric": "core EPS YoY",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -17.9,
-      "note": "Core EPS $1.92 vs $2.34 in Q3 2025 = -17.9%, even though it beat the ~$1.81 consensus for this quarter. Full-year core EPS guidance ($5.90-$6.20) reportedly kept intact."
+      "pct": -15,
+      "note": "revenue ~$4.89B vs. ~$5.75B in Q3 2025; prior-year quarter included a one-time rate-case true-up that inflated the comparison base"
     },
     "nextEarnings": {
-      "date": "2026-10-29",
-      "confirmed": true,
-      "note": "Company reported Q3 2026 results today 2026-10-29 after close, resolving the prior date ambiguity in favor of Oct 29. Next report (Q4 2026/FY2026) date not yet announced."
+      "date": null,
+      "confirmed": false,
+      "note": "Q4 2026 results typically expected late Feb 2027 based on prior-year cadence; no confirmed date found"
     }
   },
   "price": {
-    "last": 58.77,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-10-31",
-    "source": "Upstox share-price snapshot",
-    "note": "More recent than the on-file 2026-10-05 reading of $54.24, but still not a confirmed November 2026 close -- no reliable Nov 2026 quote was found this session, so this later-but-still-October figure is recorded rather than guessing at today's close."
+    "asOf": null,
+    "note": "current quote not found in accessible sources (Yahoo Finance, Finviz, MarketWatch, stockanalysis.com were unreachable in this sandbox)"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Q3 2026 results: core EPS $1.92 (down from $2.34 a year earlier, which included a one-time rate-case true-up), GAAP EPS $1.88; revenue ~$4.89B, down from ~$5.75B; core EPS beat consensus (Zacks: $1.83 consensus, 4.9% beat; 24/7 Wall St cites $1.81 consensus); revenue missed consensus (Zacks $5.53B vs. 24/7 Wall St $5.34B); 2026 core EPS guidance of $5.90-$6.20 and 5-7% annual core EPS growth target through 2030 reaffirmed; YTD core EPS through Q3 is $4.89",
+      "impact": "EPS beat overshadowed by wildfire-reform setback per coverage",
+      "source": "https://www.zacks.com/stock/news/3019735/edison-international-q3-earnings-outpace-estimates,-revenues-miss"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -165,6 +161,12 @@
     },
     {
       "date": "2026-09-24",
+      "type": "regulatory/community program",
+      "headline": "SCE announces additional community engagement opportunities ahead of Nov. 30 Wildfire Recovery Compensation Program deadline",
+      "source": "https://secure.businesswire.com/news/home/20260924889725/en/SCE-Announces-Additional-Community-Engagement-Opportunities-Ahead-of-Nov.-30-Wildfire-Recovery-Compensation-Program-Deadline"
+    },
+    {
+      "date": "2026-09-24",
       "type": "analyst action",
       "headline": "UBS maintains Hold, price target $57",
       "impact": "neutral"
@@ -181,6 +183,12 @@
       "type": "analyst action",
       "headline": "Morgan Stanley reiterates Sell, price target $60",
       "impact": "negative"
+    },
+    {
+      "date": "2026-09-17",
+      "type": "regulatory/community program",
+      "headline": "Community meeting highlights continued participation and interest in SCE's Wildfire Recovery Compensation Program",
+      "source": "https://secure.businesswire.com/news/home/20260917772369/en/Community-Meeting-Highlights-Continued-Participation-and-Interest-in-SCEs-Wildfire-Recovery-Compensation-Program"
     },
     {
       "date": "2026-09-14",
@@ -202,11 +210,24 @@
       "source": "https://www.insurancejournal.com/news/west/2026/09/02/883615.htm"
     },
     {
+      "date": "2026-09",
+      "type": "legislative",
+      "headline": "California Legislature's regular session ended without advancing Gov. Newsom's proposal to amend wildfire-liability reform (SB 492 amendment); SCE says the amended bill falls short and is pushing for a special legislative session before a Nov. 15 constitutional deadline for the Governor to act; CEO called the lack of action 'disappointing' and said a fallback to 2027 would be 'significant and costly'",
+      "source": "https://www.utilitydive.com/news/wildfire-reform-sce-edison-international-earnings/873322/",
+      "exactDateNote": "month-level date only; exact day not found"
+    },
+    {
       "date": "2026-08-31",
       "type": "regulatory",
       "headline": "California State Assembly revised SB 492, stripping out utility wildfire-liability shields and omitting Gov. Newsom's provision barring insurer subrogation suits against utilities; Mizuho cut EIX to Neutral from Outperform, Argus cut to Hold from Buy",
       "impact": "premarket -19.00%",
       "sourceName": "Investing.com / Mizuho / Argus"
+    },
+    {
+      "date": "2026-08-30",
+      "type": "PR/advocacy",
+      "headline": "SCE calls for comprehensive wildfire reform to protect communities and keep bills affordable",
+      "source": "https://secure.businesswire.com/news/home/20260830760008/en/SCE-Calls-for-Comprehensive-Wildfire-Reform-to-Protect-Communities-and-Keep-Bills-Affordable"
     },
     {
       "date": "2026-07-30",
@@ -224,11 +245,28 @@
     }
   ],
   "conflicts": [
-    "Price: Upstox snapshot of $58.77 as of 2026-10-31 (more recent than the on-file 2026-10-05 figure of $54.24) suggests a partial recovery after the Oct 29 Q3 print, but no later (November) close could be confirmed this session to see whether that held."
+    "Q3 2026 consensus EPS: Zacks cites $1.83 consensus (4.9% beat); 24/7 Wall St cites $1.81 consensus. Both readings recorded verbatim; not averaged.",
+    "Q3 2026 consensus revenue: Zacks cites ~$5.53B consensus; 24/7 Wall St cites ~$5.34B consensus."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the Oct 29 Q3 print and Sept 30 10-Q disclosures (CAL FIRE/county ignition-cause findings, self-insurance exhaustion) already on file. Price refreshed to a newer, though still not current-day, dated snapshot. Q4/FY2026 earnings date remains unconfirmed; secondary calendar estimates still disagree (AJ Bell ~2027-02-18 vs Stock3 ~2027-02-25). Cash, debt and short interest not re-established this session.",
+  "notes": "Key open item as of 2026-11-11 (today): a Nov. 15, 2026 constitutional deadline for the Governor to call a special legislative session on wildfire liability reform was referenced in Oct/early-Nov coverage, but no source confirms the outcome yet (the date has not yet passed at time of this research). The Wildfire Recovery Compensation Program had scaled to >3,200 offers totaling ~$1.1B as of the Q3 call (up from ~$775M the prior quarter), ahead of a Nov. 30, 2026 program deadline. CPUC approved SCE's 2026-2028 Wildfire Mitigation Plan (OEIS approval referenced in search results, exact date not confirmed); ~90% of distribution lines in high-fire-risk areas reported hardened. Recommend a follow-up pass after Nov. 15-16 to capture the special-session outcome, and direct SEC EDGAR/Edison IR access (sec.gov and most financial-data sites were unreachable in this sandbox) for market cap/P/E and Eaton Fire litigation docket status.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -519,10 +557,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

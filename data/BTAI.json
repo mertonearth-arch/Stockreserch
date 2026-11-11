@@ -1,20 +1,20 @@
 {
   "ticker": "BTAI",
   "name": "BioXcel Therapeutics, Inc.",
-  "sector": null,
+  "sector": "Biopharmaceuticals",
   "theme": "Distressed / Restructuring",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.083Z",
+  "lastResearched": "2026-11-11T21:19:14.081Z",
   "fundamentals": {
     "marketCap": {
-      "value": 407000,
-      "asOf": "2026-10-24",
-      "source": "WebSearch-aggregated OTC snapshot (see price note); supersedes the $1.3M figure on file from 2026-10-22",
-      "note": "Equity value remains a near-worthless shell residual post Teva asset sale; see conflicts on file for stale higher pre-bankruptcy figures"
+      "value": null,
+      "asOf": "2026-11-11",
+      "source": null,
+      "note": "Cannot reconcile shares-outstanding figure with current penny-stock price range; no reliable current market cap found"
     },
     "float": {
       "value": null,
@@ -22,9 +22,9 @@
       "note": "not found; carried forward"
     },
     "sharesOutstanding": {
-      "value": null,
-      "asOf": null,
-      "note": "carried forward; no figure confirmed for the current post-filing period"
+      "value": 21869491,
+      "source": "chartexchange.com",
+      "note": "Undated page; may predate further dilution/decline and is inconsistent with sub-$0.10 prices seen in September 2026"
     },
     "shortInterest": {
       "value": null,
@@ -44,26 +44,27 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; company is a post-sale Chapter 11 shell",
-      "asOf": "2026-10-24"
+      "note": "Company is in Chapter 11 wind-down with core commercial assets sold; no meaningful earnings/EPS basis",
+      "asOf": "2026-11-11"
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "N/A — post-asset-sale Chapter 11 shell",
-      "period": "2026-11",
-      "pct": null
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "Core commercial asset (IGALMI) and BXCL501 rights sold to Teva in the Chapter 11 process; company is winding down and no current revenue figures were found"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No scheduled earnings call identified for the shell entity. EarningsWhispers lists a speculative Nov 12, 2026 date, but this is not treated as meaningful given the company has no going-forward operations post Teva asset sale."
+      "note": "None scheduled; shell/wind-down entity post Teva asset sale, consistent with data on file"
     }
   },
   "price": {
-    "last": 0.02,
-    "asOf": "2026-10-24",
-    "source": "WebSearch-aggregated OTC Pink (BTAIQ) snapshot; trend across dated snapshots: ~$0.05 (Sept 29) -> $0.052 (Oct 2) -> $0.03 (Oct 16) -> $0.02 (Oct 24), market cap falling from ~$1.29M to ~$407K over the same stretch, consistent with continued post-Chapter-11/post-asset-sale shell status. WebFetch to primary quote sources failed (host-unreachable) this session, so these are WebSearch-engine-reported figures, not independently verified against a live quote."
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "No confirmed live quote located for 2026-11-11. Most recent dated prices found were both for 2026-09-04 and disagree sharply: $0.07 (marketchameleon.com) vs $0.0422, -42.90% (massive.com). A separate, undated ChartExchange page showed $1.83 with 21,869,491 shares outstanding ($40.02M market cap), which is inconsistent with the September penny-stock quotes and is likely stale/pre-decline. Massive also notes a 1-for-16 reverse split effective 2025-02-10."
   },
   "catalysts": [
     {
@@ -75,10 +76,22 @@
     },
     {
       "date": "2026-10-26",
+      "type": "M&A/bankruptcy",
+      "headline": "Teva asset-sale transaction reported closed (single-source report); Teva acquired rights to IGALMI and BXCL501, BioXcel retained BXCL701/BXCL702",
+      "source": "https://dealroom.co/news/168739-teva-buys-bioxcel-neuroscience-assets-for-57-5m-upfront-in-bankruptcy-sa/"
+    },
+    {
+      "date": "2026-10-26",
       "type": "bankruptcy/M&A — SALE CLOSED",
       "headline": "Teva completed its acquisition of substantially all of BioXcel's neuroscience assets (IGALMI, BXCL501) out of Chapter 11; BioXcel retained BXCL701/BXCL702, which were excluded from the sale",
       "impact": "$57.5M cash paid at closing (crediting an earlier $5.75M deposit) plus assumed liabilities; up to $67.5M development milestone tied to FDA approval of IGALMI for at-home use, up to $20M in commercial milestones if that approval isn't obtained by 2027-02-28; proceeds used to repay DIP financing",
       "source": "https://www.ropesgray.com/en/news-and-events/news/2026/10/teva-pharmaceuticals-completes-acquisition-of-novel-neuroscience-assets-from-bioxcel-therapeutics"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "legal/bankruptcy",
+      "headline": "Delaware bankruptcy court entered Sale Order approving sale of substantially all BioXcel assets to Teva after auction was cancelled for lack of other qualifying bids",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001720893/000110465926120737/tm2624733d2_8k.htm"
     },
     {
       "date": "2026-10-21",
@@ -131,6 +144,12 @@
     {
       "date": "2026-08-27",
       "type": "bankruptcy filing",
+      "headline": "BioXcel filed for Chapter 11 (Case No. 26-11360 (TMH), Delaware); Teva named stalking-horse bidder ($57.5M upfront cash plus up to $67.5M in contingent/milestone payments); Samir Saleem named Chief Restructuring Officer",
+      "source": "https://www.biospace.com/business/bioxcel-files-for-bankruptcy-will-sell-assets-to-teva-for-up-to-125m"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "bankruptcy filing",
       "headline": "BioXcel Therapeutics and two subsidiaries filed voluntary Chapter 11 petitions in U.S. Bankruptcy Court, District of Delaware (Case No. 26-11360); Teva Pharmaceuticals named stalking-horse bidder for IGALMI/dexmedetomidine assets ($57.5M upfront + up to $67.5M milestones); Oaktree Capital and Qatar Investment Authority providing $19M new-money DIP financing (total DIP facility $77M)",
       "impact": "very high",
       "source": "https://www.biospace.com/business/bioxcel-files-for-bankruptcy-will-sell-assets-to-teva-for-up-to-125m"
@@ -144,6 +163,12 @@
     },
     {
       "date": "2026-04-01",
+      "type": "regulatory",
+      "headline": "FDA accepted sNDA for IGALMI use in the at-home/outpatient setting, set PDUFA target action date of November 14, 2026",
+      "source": "https://bioxceltherapeutics.gcs-web.com/news-releases/news-release-details/bioxcel-therapeutics-announces-food-drug-administration"
+    },
+    {
+      "date": "2026-04-01",
       "type": "FDA",
       "headline": "FDA accepted BioXcel's sNDA to expand IGALMI label to at-home/outpatient use (Phase 3 SERENITY At-Home trial); PDUFA target action date Nov 14, 2026",
       "impact": "medium-high, now overtaken by bankruptcy",
@@ -151,13 +176,30 @@
     }
   ],
   "conflicts": [
-    "New OTC price snapshot found this session: Debelegger shows a 2026-11-01 close of $0.05 (-3.2%), market cap ~$2.3M; Simply Wall St's OTC page (ticker shown as OTCPK:BTAI.Q) shows $0.047, 52-week range $0.019-$3.95. Both are dated AFTER the on-file $0.02 (2026-10-24) reading but show a higher price, which runs counter to the steady decline trend already on file ($0.05 Sept 29 -> ... -> $0.02 Oct 24). Given thin OTC-shell trading and single-aggregator sourcing (WebFetch could not independently verify -- unreachable for every domain this session), this is flagged as a conflict rather than used to overwrite the on-file price.",
-    "Additional conflicting OTC snapshots found this pass: a Digrin page under ticker BTAIQ shows $0.02 for October 2026 (consistent with on-file); TrendSpider separately shows $0.07 (-91% over 30 days, undated/stale-looking) -- not reconciled, thin OTC-shell trading continues to make a single current price unreliable.",
-    "Speculative next-report dates (meaningless for this post-sale shell, same caveat as on file): TrendSpider suggests Nov 11, 2026; a Stock Events page suggests Nov 18, 2026 -- neither is company-sourced and the entity has no going-forward operations post Teva sale."
+    "Price for 2026-09-04: marketchameleon.com reports $0.07 vs massive.com reports $0.0422 (-42.90%) for the same date.",
+    "Total Teva deal value reported inconsistently across outlets: ~$125M (biospace.com, americanpharmaceuticalreview.com: $57.5M upfront + up to $67.5M contingent) vs ~$145M (hartfordbusiness.com). Not reconciled.",
+    "Closing date of the Teva transaction: only a single source (dealroom.co) reports a 2026-10-26 close; no independent corroboration found despite the court's Sale Order being entered 2026-10-21 per the company's 8-K.",
+    "Shares outstanding/market cap figures appear stale or mutually inconsistent (21.87M shares at $1.83 = $40.02M market cap on an undated ChartExchange page) versus sub-$0.10 prices reported in September 2026; likely reflects a snapshot taken before the steepest decline, a reverse split adjustment, or further dilution in bankruptcy."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: FDA PDUFA target action date for the IGALMI at-home sNDA (2026-11-14) remains pending, no outcome yet (5 days out). No new bankruptcy-docket events found. New but unreconciled OTC price snapshots found (see conflicts); not used to update the recorded price given thin/single-aggregator sourcing. Quiet pass otherwise.",
+  "notes": "BioXcel filed Chapter 11 on 2026-08-27 and sold substantially all assets to Teva via a Section 363 bankruptcy sale; the court's Sale Order was entered 2026-10-21, with one unconfirmed secondary report placing the closing on 2026-10-26. Per that reporting, Teva acquired rights to IGALMI and BXCL501 (the asset underlying the sNDA with the 2026-11-14 PDUFA date for at-home use), while BioXcel retained BXCL701/BXCL702. This means responsibility for, and economics of, the pending IGALMI at-home sNDA decision likely passed to Teva as part of the asset sale; I found no primary-source confirmation of the FDA's actual Nov 14 decision or of a formal NDA-transfer filing, and no SEC filing from November 2026 was retrievable before the research budget was exhausted. Secondary reporting (panabee.com, unverified against a primary filing) says sale proceeds repaid the DIP facility, remaining funds are being used for estate wind-down, and the company plans to rename itself BX Liquidation, Inc. Given this, the lastCatalyst note on file ('shell entity post Teva asset sale') is confirmed as directionally correct. Could not verify current share price, market cap, or EPS history with confidence; WebFetch to most candidate sources (SEC EDGAR, panabee, finviz, stocktitan, Yahoo Finance) failed with DNS/host-resolution errors in this sandbox, and the WebSearch tool's per-turn budget was exhausted before further confirmation could be obtained.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -400,10 +442,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

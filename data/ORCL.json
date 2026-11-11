@@ -1,94 +1,79 @@
 {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
-  "sector": "Technology - Enterprise Software & Cloud Infrastructure",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.099Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.099Z",
   "fundamentals": {
     "marketCap": {
-      "value": 331780000000,
-      "asOf": "2026-11-05",
-      "source": "Derived: $115.20 intraday quote (Yahoo Finance/Motley Fool aggregation, ~3:19pm ET, 2026-11-05) x 2.88B shares outstanding (Google Finance/Equibles, undated, on file)",
-      "note": "Approximate and intraday, not a confirmed close; supersedes the on-file $416.28B figure, which was based on the stale 2026-10-28 post-Investor-Day close of $144.54. The on-file 2.88B-vs-3.02B shares-outstanding conflict still applies and was not resolved this session."
+      "value": 361970000000,
+      "asOf": "2026-11-06",
+      "source": "marketchameleon.com"
     },
-    "float": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
-    },
-    "sharesOutstanding": {
-      "value": 2880000000,
-      "asOf": null,
-      "source": "Google Finance / Equibles (undated, convergent)",
-      "note": "A separate Motley Fool figure shows 3.02B shares on a 'publicly traded shares only' basis; not reconciled."
-    },
-    "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not retrieved this session"
-    },
-    "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "Total balance-sheet cash figure not retrieved this session; only incremental FY2026 financing activity was found (see notes/catalysts: $43B debt + $5B equity raised during FY2026, with ~$40B more planned in FY2027)."
-    },
-    "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Same limitation as cash -- only incremental FY2026 issuance figures were found, not a total balance-sheet debt stock figure."
-    },
+    "float": null,
+    "sharesOutstanding": null,
+    "shortInterest": null,
+    "cash": null,
+    "debt": null,
     "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "Not retrieved this session; Oracle is profitable so trailing P/E should not be null for lack of earnings, but the actual trailing EPS figure needed to compute it was not independently verified before the search budget was exhausted.",
-      "asOf": null
+      "trailing": 24.43,
+      "forward": 17.64,
+      "note": "Yahoo Finance figures, exact as-of date not stated by source; see conflicts for competing readings",
+      "asOf": "2026-11-06"
     },
     "eps": [
       {
-        "period": "FY2025 (ended May 2025)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "period": "Q2 FY2026",
+        "value": 2.26,
+        "basis": "non-GAAP",
+        "note": "reported 2025-12-10; full fiscal-year FY2025/FY2026 EPS not retrieved this session"
       },
       {
-        "period": "FY2026 (ended May 2026)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
-      },
-      {
-        "period": "most recent quarter (FQ1 2027, reported ~Sept 2026)",
-        "value": null,
-        "basis": null,
-        "note": "not retrieved this session"
+        "period": "TTM",
+        "value": 5.83,
+        "basis": "GAAP diluted",
+        "note": "trailing-twelve-month figure per Yahoo Finance, not a discrete fiscal-year label"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "OCI / cloud infrastructure (IaaS) revenue YoY growth",
-      "pct": 93,
-      "period": "unspecified recent quarter/period",
-      "note": "Carried from prior pass; exact period and underlying figure still not independently cross-checked against Oracle's own earnings release. Total-company revenue YoY was not established this session either."
+      "metric": "Oracle Cloud Infrastructure (OCI) revenue YoY",
+      "period": "Q1 FY2027 (reported 2026-09-10)",
+      "pct": null,
+      "note": "Press release headline described \"triple-digit growth\" in OCI revenue; exact percentage not retrieved before search budget was exhausted. Total company revenue YoY % also not retrieved."
     },
     "nextEarnings": {
       "date": "2026-12-14",
       "confirmed": false,
-      "note": "Carried over from the prior dashboard record; could not independently confirm via Oracle investor relations this session."
+      "note": "No official Oracle 'Sets the Date' press release found for Q2 FY2027. Third-party earnings calendars estimate Dec 14, 2026 (most common), with alternates of Dec 10 and Dec 9 also circulating; see conflicts. Q2 FY2027 covers the quarter ending 2026-11-30."
     }
   },
   "price": {
-    "last": 115.16,
-    "changePct": -6.93,
-    "asOf": "2026-11-05",
-    "source": "Yahoo Finance / MSN (via journalarta.com aggregation) and Investing.com historical data -- confirmed official close",
-    "note": "Resolves the prior pass's two-intraday-timestamp conflict ($115.20 vs. $114.29, both same-day estimates) with a confirmed session close. No independently confirmed 2026-11-06 close was found this session -- intraday Nov 6 quotes (Morningstar ~$117.32 as of 3:13pm ET; Google Finance ~$117.37 ~10:13am ET; Yahoo ~$116.35) point to a rebound of roughly +1% to +2% alongside the broader market, but none is a confirmed close, so this price block still reflects 2026-11-05."
+    "last": 116.1,
+    "changePct": null,
+    "asOf": "2026-11-06",
+    "note": "Most recent dated close found was Nov 6, 2026 (MarketChameleon). Could not confirm today's (2026-11-11) close before WebSearch budget for this session was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-11-18",
+      "type": "corporate event",
+      "headline": "Oracle's 2026 Annual Meeting of Stockholders scheduled",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/ORACLES-ANNUAL-MEETING-OF-STOCKHOLDERS-TO-BE-HELD-NOVEMBER-18-2026/default.aspx"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "offering/dilution",
+      "headline": "Oracle shares fell roughly 5.5% after the company filed SEC registration plans to issue $20 billion in new securities ($10B common stock, $10B senior notes) to help fund its AI data-center expansion",
+      "impact": "-5.5% intraday",
+      "source": "https://www.rttnews.com/3705261/oracle-shares-gain-on-long-term-outlook-plans-for-positive-free-cash-flow.aspx",
+      "note": "Exact filing/announcement date not fully pinned down; grouped with the most recent dated trading data (Nov 6) found referencing it. Multiple RTTNews/StockStory items referencing large single-day moves (+7.8%, -7%) could not be reliably dated and were excluded."
+    },
     {
       "date": "2026-11-06",
       "type": "sector rebound",
@@ -170,6 +155,12 @@
       "impact": "cited as a contributing factor in the stock's decline"
     },
     {
+      "date": "2026-09-10",
+      "type": "earnings",
+      "headline": "Oracle announced Q1 FY2027 results, driven by triple-digit growth in cloud infrastructure (OCI) revenue",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx"
+    },
+    {
       "date": "2026 (FY2026 10-K, year ended 2026-05-31)",
       "type": "disclosure",
       "headline": "FY2026 remaining performance obligations (RPO) reached $638B; disclosed $248B in additional off-balance-sheet lease commitments (15-19 year terms, 'substantially all related to data centers and cloud capacity'); disclosed $75B of customer-prepaid/supplied hardware reducing Oracle's own GPU capex burden",
@@ -179,11 +170,34 @@
     }
   ],
   "conflicts": [
-    "A Fool.com headline attributes a 2026-11-04 Oracle decline to a canceled $7B Tencent AI-chip leasing deal; no second source corroborating a cancellation was found again this session (still only Fool.com) -- remains unresolved."
+    "Market cap: $361.97B (marketchameleon.com, as of 2026-11-06) vs $410.32B (Yahoo Finance, undated) vs $380.6B (Value Research Online, late Oct 2026) vs $475.01B (Motley Fool, appears stale — quoted alongside a $157.07 share price that doesn't match the $116.10 Nov 6 close).",
+    "Trailing P/E: 24.43 (Yahoo Finance) vs 20.2 (Value Research, late Oct 2026) vs 28.35 (Motley Fool, likely stale) vs 50.61 (roic.ai, paired with an EPS of $4.39 that is inconsistent with the ~$5.8 EPS reported elsewhere — treated as an outlier).",
+    "Next earnings date: Dec 14, 2026 (most common third-party estimate) vs Dec 10, 2026 (days.to) vs Dec 9, 2026 (alternate calendar cited by investorsignals.com) — none is an official Oracle press release."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: confirmed the cause of the 2026-11-05 drop flagged for this pass -- it was a broad, market-wide AI-infrastructure/data-center selloff tied to post-midterm-election political risk (not an Oracle-specific event), hitting NVDA and the wider Nasdaq/S&P at least as hard the same session. The prior pass's two-intraday-timestamp price conflict is resolved with a confirmed $115.16/-6.93% close. The still-open Tencent-deal-cancellation conflict (single Fool.com source) was rechecked but not corroborated further. EPS, cash, debt, float and short interest were not re-verified this session (WebFetch is non-functional in this sandbox beyond WebSearch synthesis, and the shared search budget was exhausted) -- carried forward unchanged from the existing file.",
+  "notes": "Last confirmed catalyst on file (2026-11-06, broad market/chip-stock rebound) remains the most recent clearly-dated, well-sourced item specific to the broader tape; the $20B capital-raise filing is new information about Oracle specifically but its exact date could not be pinned precisely. Oracle's fiscal year ends May 31; FY2027 Q2 (period ending 2026-11-30) is the quarter covered by the still-unconfirmed Dec 14 earnings date. Could not confirm from a primary Oracle source (investor.oracle.com press release) before the session's WebSearch budget was exhausted — a follow-up message can continue this research.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -338,10 +352,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

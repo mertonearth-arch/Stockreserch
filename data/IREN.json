@@ -1,60 +1,46 @@
 {
   "ticker": "IREN",
   "name": "IREN Ltd",
-  "sector": null,
+  "sector": "Bitcoin Mining / AI Data Centers",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.089Z",
+  "lastResearched": "2026-11-11T21:19:14.087Z",
   "fundamentals": {
     "marketCap": {
-      "value": 7758000000,
-      "asOf": "2026-11-04",
-      "source": "Derived: $21.71 (2026-11-04 close) x 357,370,000 shares outstanding (2026-08-20, stale count carried from prior pass)",
-      "note": "Supersedes the on-file $14.97B calc, which used a now-stale $41.65 price from 2026-08-20. Share count itself may also be stale; no post-August figure was found this session."
+      "value": null,
+      "note": "Not established this session."
     },
     "float": {
-      "value": 346200000,
-      "asOf": "2026-08-28",
-      "source": "carried from prior PM pass record; not independently re-verified this session"
+      "value": null,
+      "note": "Not established this session."
     },
     "sharesOutstanding": {
-      "value": 357370000,
-      "asOf": "2026-08-20",
-      "source": "coinglass.com",
-      "note": "No more current figure found."
+      "value": null,
+      "note": "Not established this session."
     },
     "shortInterest": {
       "value": null,
-      "note": "sources disagree materially and could not be reconciled this session — see conflicts (prior record's 18% figure itself carried a correction flag from an earlier reconstruction bug)"
+      "note": "Not established this session."
     },
     "cash": {
-      "value": 5900000000,
-      "asOf": "2026-08-28",
-      "source": "carried from prior PM pass record; not independently re-verified this session (search budget exhausted before reaching IREN balance-sheet detail)"
+      "value": null,
+      "note": "Not established this session."
     },
     "debt": {
-      "value": 7840000000,
-      "asOf": "2026-08-28",
-      "source": "carried from prior PM pass record; not independently re-verified this session"
+      "value": null,
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings. Corrects the on-file trailing P/E of 84.63 (asOf 2026-08-20), which was already flagged as stale and was internally inconsistent with FY2026's already-negative net income ($702.6M loss) -- that figure should not have been carried as a positive multiple. Q1 FY2027 (ended 2026-09-30) also reported a net loss ($263M, see below).",
-      "asOf": "2026-11-05"
+      "note": "not established this session",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "Q1 FY2027 (ended 2026-09-30)",
-        "value": -0.66,
-        "basis": "GAAP",
-        "note": "Net loss $263M, matches on-file figure. Consensus disagreement: -$0.48 (one source, 'miss' framing) vs -$0.72 (MarketBeat, 'beat narrower-than-expected' framing) -- not reconciled. Adjusted EBITDA for the quarter was $66M (new figure)."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q1 FY2027 (ended 2026-09-30)",
@@ -64,25 +50,30 @@
       }
     ],
     "growth": {
-      "metric": "AI Cloud revenue QoQ",
+      "metric": "revenue YoY",
       "period": "Q1 FY2027",
-      "pct": 181.7,
-      "note": "AI Cloud revenue (services $135M + lease $65M = ~$200M) vs. ~$71M in Q4 FY2026 (prior quarter), per the 2026-11-05 release, at an 86% AI Cloud gross margin. Total-company revenue figure could not be confirmed from the source text reachable this session, so it is left out rather than inferred from the release's net-income-margin disclosure."
+      "pct": null,
+      "note": "Q1 FY2027 was reported 2026-11-05 per system state; specific revenue figures not retrieved from an available source before the WebSearch budget for this session was exhausted."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q1 FY2027 was reported 2026-11-05 as scheduled (company-confirmed date, now resolved). Next report (Q2 FY2027) date not yet announced."
+      "note": "None scheduled; Q1 FY2027 already reported 2026-11-05."
     }
   },
   "price": {
-    "last": 21.71,
+    "last": null,
     "changePct": -11.24,
-    "asOf": "2026-11-04",
-    "source": "TipRanks / FXLeaders pre-earnings coverage",
-    "note": "Supersedes the on-file 2026-10-30 print ($23.95, -8.7%). This was the session immediately before the 2026-11-05 Q1 FY2027 earnings release (a fresh 52-week low, $21.05 intraday); premarket on 2026-11-05 itself was reported around $20.54, but no confirmed regular-session close for 2026-11-05 (the earnings day) was found this session."
+    "asOf": "2026-11-11",
+    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q1 FY2027 results reported (per system state); specific figures not retrieved this session",
+      "source": ""
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -246,12 +237,33 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: Motley Fool 404.61M vs Google Finance/Chartmill 357.38M vs an SEC prospectus figure of 332,280,383 (as of 2026-01-30) -- three materially different readings, not reconciled; on-file sharesOutstanding not updated.",
-    "Price: MarketBeat describes IREN as having 'previously closed $18.03, opened $21.15' around the Nov 6 gap-up -- a lower pre-earnings reference point than the on-file $21.71 (2026-11-04); no confirmed Nov 9 close found, on-file price not overwritten."
+    "A search snapshot (undated within the result, inferred ~2026-11-09) put IREN at $21.41 (-1.06% in 24h) with ~75.7M shares traded, while other undated snapshots from aggregator sites showed materially different levels (e.g. ~$23.95 and ~$34.77). These are likely stale/cached pages from different dates rather than a reverse-split signal, but the discrepancy could not be resolved this session and is flagged rather than averaged."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: filled the previously-null Q1 FY2027 EPS field with -$0.66/share GAAP (net loss $263M matches on file); new adjusted EBITDA figure of $66M for the quarter. RESOLVED the total-revenue conflict in favor of $228M (AI Cloud ~$200M + bitcoin mining ~$28M) -- multiple independent sources now corroborate this over the earlier $240.3M alternative reading that was previously flagged. Share-count conflict remains open (see conflicts) and the post-earnings price has not been confirmed with an actual close.",
+  "notes": "The specific, dated cause of today's (2026-11-11) -11.24% move was NOT confirmed this session — no same-day article was located before the WebSearch budget was exhausted. General, recurring context found in older (non-dated-to-today) coverage: IREN's share price has repeatedly moved with (a) Bitcoin price swings, since Bitcoin mining remains a large revenue component, and (b) dilution/AI-capex-funding concerns, including a previously reported expansion of an at-the-market share sale program to up to $6 billion. Neither of these was confirmed as specifically dated to 2026-11-11, so they are offered only as plausible background, not as an established cause.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -11.24%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -561,10 +573,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -11.24%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

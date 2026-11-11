@@ -1,72 +1,62 @@
 {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
-  "sector": "Technology - Semiconductors",
+  "sector": "AI Semiconductors",
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T05:31:58.855Z",
+  "lastResearched": "2026-11-11T21:19:14.074Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4410000000000,
-      "asOf": "2026-11-05",
-      "source": "Derived: ~24.3B shares outstanding (on-file, Equibles/chartmill) x $181.60 confirmed close (2026-11-05)",
-      "note": "Reflects the Nov 5 sector selloff; supersedes the stale $5.76T figure dated 2026-10-05. The options-implied ~50% odds (reported in early October) of NVIDIA crossing $6T market cap by month-end did not materialize."
+      "value": null,
+      "note": "No dated Nov 11, 2026 market cap found; snapshots found for other 2026 dates ranged $5.08T-$5.48T and were not current (see conflicts)."
     },
     "float": {
-      "value": 23230000000,
-      "asOf": null,
-      "source": "chartmill.com",
-      "note": "Undated; shares-outstanding basis for this source is 24.20B"
+      "value": null
     },
     "sharesOutstanding": {
-      "value": 24300000000,
-      "asOf": null,
-      "source": "Equibles / chartmill aggregators",
-      "note": "Minor variance across sources, 24.15B-24.30B"
+      "value": null,
+      "note": "Not re-confirmed this session; widely known to be roughly 24.3-24.4 billion shares per FY2026 10-K but not independently re-sourced here."
     },
     "shortInterest": {
-      "value": 285960000,
-      "asOf": "2026-08-14",
-      "source": "Short-interest aggregator (settlement date)",
-      "note": "~1.18% of shares outstanding, 2.52 days to cover on average daily volume of ~113.6M shares. Prior settlement dates showed higher counts (~299.7M at 2026-06-15; ~310.1M at 2026-06-30), consistent with a declining trend into August; no October settlement figure found."
+      "value": null,
+      "note": "Not established; short interest is typically minimal/not a major factor for NVDA and was not researched in depth given time constraints."
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "Conflicting undated figures found (~$62.47B vs ~$56.79B); not reconciled, see conflicts"
+      "note": "Not established this session; see FY2026 10-K/annual report for balance-sheet detail."
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Conflicting undated figures found (~$38.35B vs ~$10.60B); not reconciled, see conflicts"
+      "note": "Not established this session."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "FY2026 and FY2027-to-date EPS are established (see eps array) but a precise current trailing-twelve-month EPS/multiple was not computed this session",
-      "asOf": "2026-10-23"
+      "note": "Trailing P/E snapshots conflict heavily across sources and dates (28.4, 26.3, 46.0) and none is dated to Nov 11, 2026; not reported here to avoid presenting a stale/unreconciled figure.",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "FY2025 (ended Jan 2025)",
+        "period": "FY2025",
         "value": 2.94,
-        "basis": "GAAP diluted"
+        "basis": "GAAP diluted",
+        "note": "Fiscal year ended ~January 2025."
       },
       {
-        "period": "FY2026 (ended Jan 2026)",
+        "period": "FY2026",
         "value": 4.9,
         "basis": "GAAP diluted",
-        "note": "Non-GAAP diluted EPS was $4.77; +67% YoY vs FY2025"
+        "note": "Fiscal year ended January 25, 2026; non-GAAP diluted EPS was $4.77."
       },
       {
-        "period": "Q2 FY2027 (ended 2026-07-26)",
-        "value": 2.46,
-        "basis": "GAAP diluted",
-        "note": "Non-GAAP diluted EPS was $2.22"
+        "period": "Q3 FY2027",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Not yet reported; scheduled for release Nov 17, 2026 per company's own investor-relations announcement."
       }
     ],
     "revenue": [
@@ -78,29 +68,43 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 FY2027",
-      "pct": 106
+      "period": "FY2026 (fiscal year ended Jan 25, 2026)",
+      "pct": 73,
+      "note": "Full-year FY2026 revenue was $215.9B; Q4 FY2026 revenue of $68.1B was up 73% YoY and 20% QoQ. Q3 FY2027 (the quarter about to be reported Nov 17, 2026) growth figure not yet available."
     },
     "nextEarnings": {
       "date": "2026-11-17",
       "confirmed": true,
-      "note": "CME Group's Oct 31, 2026-dated page states NVIDIA confirmed Tuesday, Nov 17, 2026 (after market close) on Oct 28, 2026; the same page's own Oct 21, 2026 version had listed the date as not yet confirmed. Other trackers (MarketBeat, Wall Street Horizon, days.to) still carry Nov 18, 2026, explicitly labeled inferred/unconfirmed, and a separate tracker cites Nov 25, 2026 with no source. Not fully reconciled — see conflicts; this record's prior Nov 18 estimate is superseded pending direct confirmation from investor.nvidia.com, which was unreachable this session."
+      "note": "RESOLVED: NVIDIA's own investor-relations release (Oct 28, 2026, investor.nvidia.com) confirms the fiscal Q3 FY2027 earnings call for Tuesday, November 17, 2026 at 2:00pm PT / 5:00pm ET, with CFO commentary posted to investor.nvidia.com at approximately 1:20pm PT right after results are announced. This is the authoritative primary-source date; third-party calendar entries showing Nov 18 or Nov 25 predate or disregard the company's own release and should be treated as superseded."
     }
   },
   "price": {
-    "last": 176.41,
+    "last": null,
     "changePct": -5.48,
     "asOf": "2026-11-11",
-    "source": "Benzinga premarket movers roundup",
-    "note": "Premarket indicative quote, not a confirmed regular-session close. Same source states NVDA's prior-day close was $186.64 (+2.78%) on 2026-11-10, which would supersede the on-file 2026-11-05 $181.60 print, but that Nov 10 close was not independently corroborated by a second source this session, so it is recorded here only as context, not as the filed price."
+    "note": "Task's stated premarket figure (-5.48% to $176.41) is used as the most specific data point for today; no independently confirmed regular-session close for Nov 11, 2026 was found. Nearby dated reference points found: Nov 6, 2026 close ~$186.64 (+2.78%); Nov 9, 2026 intraday ~$178.95 (-4.2% from prior close); stock described as down ~23.5% from Oct 7 to Nov 5, 2026 vs. S&P 500 -5.7% over the same span, and as having its 'worst 5 days since 2022' as of Nov 11, 2026."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "price move",
+      "headline": "NVDA flagged among weakest S&P 500 performers, falling ~5.48% premarket to $176.41, extending the board-probe-driven selloff",
+      "impact": "-5.48% premarket",
+      "source": "task-stated figure; not independently re-confirmed by a dated primary quote in this session"
+    },
     {
       "date": "2026-11-11",
       "type": "sector move",
       "headline": "NVDA fell ~5.48% premarket to $176.41, flagged among the day's weakest S&P 500 premarket names, continuing the AI/chip-stock weakness that produced the 2026-11-05 selloff already on file.",
       "impact": "-5.48% premarket",
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
+    {
+      "date": "2026-11-08",
+      "type": "corporate governance / investigation",
+      "headline": "NVIDIA's board launched an independent investigation, overseen by independent directors with outside counsel, into reports (originating from a late-October New York Times article) that CEO Jensen Huang was the target of an alleged Chinese intelligence effort via a personal relationship with Alice Huang (aka Huang Le), a former Megaspeed International executive; the board said it has no reason to believe national security or NVIDIA secrets were compromised but would examine all available information, and reaffirmed support for Huang, who remains CEO; three House Republican committee chairs requested a closed-door briefing from Huang on Nov. 18; claims that the individual worked for China's Ministry of State Security or was involved in chip smuggling are unconfirmed and denied by Beijing",
+      "impact": "Cited as the primary driver of a multi-day NVDA selloff culminating in the stock's worst 5-day stretch since 2022 and its worst day versus the S&P 500 since the Jan 2025 DeepSeek shock",
+      "source": "https://www.roic.ai/news/nvidia-board-launches-espionage-probe-involving-ceo-jensen-huang-11-08-2026"
     },
     {
       "date": "2026-11-05",
@@ -171,16 +175,44 @@
       "headline": "Q2 EPS $2.22 vs $2.09 consensus; revenue $96.22B, 4.82% above consensus",
       "impact": "lifted the whole tech complex; XLK +3.2% on 2026-08-28",
       "sourceName": "Zacks / Yahoo Finance"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "earnings",
+      "headline": "NVIDIA reported Q4/fiscal full-year 2026 results: Q4 revenue $68.1B (+73% YoY, +20% QoQ); full-year FY2026 revenue $215.9B; FY2026 GAAP diluted EPS $4.90 (non-GAAP $4.77); guided fiscal Q1 2027 revenue to $78.0B +/- 2%",
+      "impact": "n/a",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026"
     }
   ],
   "conflicts": [
-    "Market cap: $5.76T (2026-10-05 record-close coverage) vs. prior-pass figures of ~$5.45T (2026-10-13/14), ~$4.84T (undated), ~$4.45T (stale, tagged with a 'next earnings Nov 2025' label). The 2026-10-05 and 2026-10-13/14 figures both post-date the prior pass and are broadly consistent with each other (small pullback); the $4.45T-$4.84T readings are treated as stale.",
-    "Cash/debt: ~$62.47B cash / ~$38.35B debt (one aggregator, undated) vs. ~$56.79B cash / ~$10.60B debt (another aggregator, appears to date to late 2025) -- debt figures differ by nearly 4x and were not reconciled this session either.",
-    "Next earnings date: Nov 17, 2026 (CME Group, citing an Oct 28, 2026 company confirmation) vs. Nov 18, 2026 (MarketBeat, Wall Street Horizon, days.to — all explicitly labeled inferred/unconfirmed) vs. Nov 25, 2026 (a separate tracker, no source cited) — not reconciled beyond noting the CME figure is the only one claiming direct company confirmation."
+    "Next-earnings-date conflict RESOLVED this session in favor of Nov 17, 2026, per NVIDIA's own Oct 28, 2026 investor-relations press release (investor.nvidia.com), which is the authoritative primary source. Other trackers showing Nov 18 or Nov 25 should be treated as stale/incorrect.",
+    "Premarket/intraday price readings for the surrounding days conflict across sources and were not fully reconciled: a Nov 6, 2026 close of $186.64 vs. $186.71 (two sources); a Nov 9, 2026 intraday level of $178.95 (-4.2%) vs. other unreconciled readings; one earlier WebSearch pass surfaced a '5.4% to $176.61' figure essentially matching the task's '$176.41, -5.48%' figure but attributed to 'a Monday session' without a clear date stamp, alongside separate stated last-close figures of $168.89 in two other sources for 'Tuesday.' Given the task explicitly supplies the $176.41/-5.48% figure for Nov 11, 2026, that figure is used as the primary price data point above, with the surrounding noisy/conflicting secondary reads not used.",
+    "Market cap and trailing P/E snapshots found this session (ranging $5.08T-$5.48T market cap; trailing P/E 26.3-46.0) were all dated to other points in 2026 (April, September, August 10-Q) and not to Nov 11, 2026, so none is reported as a current figure."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: no fresher price, catalyst, or fundamentals figure found since the 2026-11-06 pass (no NVDA-specific closing print for 2026-11-06/07/09 located this session). Next earnings remains 2026-11-17 (CME Group-sourced company confirmation); the Nov 17 vs Nov 18 vs Nov 25 conflict is unchanged and unresolved. Quiet pass.",
+  "notes": "Primary driver of the Nov 2026 NVDA weakness is the Nvidia board's espionage-related investigation into CEO Jensen Huang (disclosed ~Nov 8, 2026), not a company-specific earnings or operational event. Next earnings (fiscal Q3 2027) is confirmed for Nov 17, 2026 directly from investor.nvidia.com, resolving the prior date conflict.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "am",
@@ -413,10 +445,21 @@
   },
   "lastPass": {
     "date": "2026-11-11",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

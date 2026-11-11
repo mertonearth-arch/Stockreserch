@@ -1,20 +1,20 @@
 {
   "ticker": "CYTK",
   "name": "Cytokinetics, Incorporated",
-  "sector": null,
+  "sector": "Biopharmaceuticals",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.084Z",
+  "lastResearched": "2026-11-11T21:19:14.082Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10110000000,
-      "asOf": "2026-09-06",
-      "source": "Benzinga",
-      "note": "Conflicts with Motley Fool's $11.01B (2026-08-26, price $79.20) — see conflicts. Neither is dated after early September; no October 2026 figure found this session."
+      "value": 10650000000,
+      "asOf": "2026-08-20",
+      "source": "equibles.com",
+      "note": "Based on close of $77.18 and ~139.02M shares; stale (pre-Q3 report), not a current figure"
     },
     "float": {
       "value": null,
@@ -24,40 +24,44 @@
     "sharesOutstanding": {
       "value": 139020000,
       "asOf": "2026-08-20",
-      "note": "Conflicts with an undated Equibles page (124.4M shares, $81.20 price, $10.04B mkt cap) and the April 30, 2026 short-interest settlement table (135.8M shares) — see conflicts."
+      "source": "equibles.com"
     },
     "shortInterest": {
       "value": 11,
       "asOf": "2026-08-20",
-      "note": "Reported as % of float with 9.6 days to cover, per Equibles; a separate undated page shows 14.8M shares / 9.3 days, and the 2026-04-30 settlement shows 15.9M shares / 9.68 days to cover."
+      "source": "equibles.com",
+      "note": "11.0% of float, 15.3M shares short, 9.6 days to cover; a separate equibles.com page lists a settlement-date short position of 15,896,196 shares as of 2026-04-30"
     },
     "cash": {
-      "value": 1700000000,
-      "asOf": "2026-06-30",
-      "note": "~$1.7B cash per Q2 2026 report."
+      "value": 1600000000,
+      "asOf": "2026-09-30",
+      "source": "Cytokinetics Q3 2026 financial results release"
     },
     "debt": {
-      "value": 1280000000,
-      "asOf": "2025 FY-end",
-      "source": "Motley Fool financials / Morningstar",
-      "note": "~$1.29B on a trailing-twelve-month basis through 2026-03-31 per PitchBook — roughly consistent."
+      "value": null,
+      "note": "Not located in available sources"
     },
     "pe": {
       "trailing": null,
-      "note": "Two sharply conflicting TTM EPS readings found (-$7.22 vs -$6.54 across aggregators, different calculation bases) — left null rather than computing a P/E off either."
+      "forward": null,
+      "note": "Negative earnings (net loss every period); no forward consensus EPS located",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": -2.55,
-        "basis": "GAAP",
-        "note": "Prior-year comparable; net loss $306.2M."
+        "period": "FY2024",
+        "value": -5.26,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": -6.54,
+        "basis": "GAAP"
       },
       {
         "period": "Q3 2026",
         "value": -1.37,
-        "basis": "GAAP",
-        "note": "Net loss $190.1M, basic and diluted, confirmed via SEC 8-K Exhibit 99.1 (Q3 2026 earnings release) and the Q3 2026 10-Q. Supersedes the prior pass's 'not confirmed this session' placeholder and the pre-report consensus of -$1.44 to -$1.45."
+        "basis": "GAAP"
       }
     ],
     "revenue": [
@@ -79,24 +83,30 @@
       }
     ],
     "growth": {
-      "metric": "MYQORZO net product revenue QoQ",
-      "period": "Q3 2026 vs Q2 2026",
-      "pct": 75.9,
-      "note": "$44.5M vs $25.3M, confirmed. R&D expense $99.3M and SG&A $113.1M in Q3 2026 per the same SEC 8-K; nine-month 2026 net loss $594.9M with nine-month operating cash used of $429.3M per the Q3 2026 10-Q."
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 2405.3,
+      "note": "Total Q3 2026 revenue ~$47.6M vs ~$1.9M in Q3 2025; the large percentage reflects that the prior-year quarter predates MYQORZO's commercial launch (approved Dec 2025, launched late Jan 2026), not organic growth. MYQORZO product revenue alone was $44.5M in Q3 2026, up 76% sequentially from Q2 2026."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 results already reported 2026-11-04 (see catalysts). No Q4 2026/FY2026 earnings date found yet this session."
+      "note": "Q3 2026 already reported 2026-11-04; next report (Q4/FY2026) date not yet announced in sources reviewed"
     }
   },
   "price": {
-    "last": 62.82,
-    "changePct": -0.06,
-    "asOf": "2026-10-22",
-    "note": "Intraday quote (~12:31 PM CST per AAII/digrin aggregation), not a confirmed closing print; no price found for 2026-10-23 through 2026-10-27 this session."
+    "last": null,
+    "changePct": null,
+    "asOf": "2026-11-11",
+    "note": "No confirmed quote for 2026-11-11 located. Most recent dated figure found: $62.99, -0.32 (-0.51%) at close 2026-10-30 (per a search snippet referencing stockanalysis.com data, not independently fetched since that site is blocked in this sandbox). Other undated/older figures conflict (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "FDA/regulatory",
+      "headline": "PDUFA target action date for aficamten (MYQORZO) sNDA (MAPLE-HCM study, obstructive HCM at-home/label-expansion use) — decision pending as of today (2026-11-11)",
+      "source": null
+    },
     {
       "date": "2026-11-14",
       "type": "regulatory",
@@ -110,6 +120,12 @@
       "headline": "FDA PDUFA target action date for aficamten (MYQORZO) supplemental NDA covering MAPLE-HCM data, which would expand the oHCM label",
       "impact": "Pending regulatory decision",
       "source": "Company 8-K / shareholder letter (SEC EDGAR)"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: total revenue ~$47.6M (MYQORZO product revenue $44.5M, +76% sequential) vs $1.9M a year earlier (beat $42.01M consensus by ~13.2%); net loss $190.1M, -$1.37/share (vs -$2.55/share Q3 2025, beat -$1.50 consensus); cash/investments ~$1.6B at 9/30/26 (vs $1.7B at 6/30/26); R&D $99.3M, SG&A $113.1M; company guided to file an sNDA for aficamten in non-obstructive HCM in Q4 2026 following positive ACACIA-HCM Phase 3 results",
+      "source": "https://s206.q4cdn.com/793207125/files/doc_news/Cytokinetics-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update-2026.pdf"
     },
     {
       "date": "2026-11-04",
@@ -194,15 +210,33 @@
     }
   ],
   "conflicts": [
-    "Market cap: Yahoo Finance ~$9.313B (intraday snapshot), Motley Fool ~$10.81B, Digrin ~$7.8B — not reconciled, no single current figure established.",
-    "TTM EPS: Motley Fool -$7.22 vs Yahoo Finance -$6.54 — different calculation bases, kept both.",
-    "Shares outstanding: ranges from ~124.4M (likely stale, pre-offering) to ~135.6-135.8M (post the May 2026 offering) across aggregators.",
-    "Short interest trend: one source describes short interest as 'falling' month-over-month, another describes it as 'rising' — contradictory directional claims, not reconciled.",
-    "FDA PDUFA date for the aficamten (MYQORZO) MAPLE-HCM label-expansion sNDA (2026-11-14) could not be corroborated beyond a single third-party calendar site (dansfera.com) this session; no Cytokinetics press release or 8-K confirming FDA acceptance/PDUFA date was found -- flagged as unconfirmed/single-sourced rather than company-confirmed."
+    "Shares outstanding: 139.02M (equibles.com, 2026-08-20) vs 135.77M (equibles.com, different page, undated) vs ~119.66M (MarketBeat, late 2025).",
+    "Stock price: $62.99 as of 2026-10-30 (search snippet citing stockanalysis.com) vs $77.60 as of 2026-08-26 (Benzinga) vs $73.44 undated (ChartRow) — no single live quote for 2026-11-11 could be confirmed.",
+    "52-week range reported inconsistently across sources: 29.31–70.98 vs a separate source showing a high of 88.31."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: confirmed MYQORZO (aficamten) net product revenue of $44.5M within the already-on-file Q3 2026 print (2026-11-04) -- new granularity, not a new catalyst date. The 2026-11-14 PDUFA date for the MAPLE-HCM sNDA remains unconfirmed by any Cytokinetics source this session (single third-party calendar site only). No fresher market cap found. Otherwise quiet.",
+  "notes": "ACACIA-HCM (non-obstructive HCM) Phase 3 reportedly met both primary endpoints, supporting a planned Q4 2026 sNDA filing for that indication, but I could not find a specific, confirmed announcement date for the topline readout, so it is omitted from the dated catalyst list. The 2026-11-14 PDUFA date is for the separate, already-pending MAPLE-HCM sNDA (obstructive HCM) and remains undecided as of today's research (2026-11-11), three days ahead of the target date. No FDA decision, delay notice, or Complete Response Letter was found. Several fundamentals (current price, market cap, debt) are dated or unconfirmed because direct WebFetch access to most finance/aggregator sites and SEC EDGAR failed with DNS resolution errors in this sandbox, and the WebSearch budget for this task was exhausted before all gaps could be closed.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -500,10 +534,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

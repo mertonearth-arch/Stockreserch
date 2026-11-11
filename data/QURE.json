@@ -1,62 +1,32 @@
 {
   "ticker": "QURE",
   "name": "uniQure N.V.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "hype sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.100Z",
+  "lastResearched": "2026-11-11T21:19:14.102Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1440000000,
-      "asOf": "2026-10-29",
-      "source": "Upstox, 2026-10-29",
-      "note": "Broadly consistent with (not materially different from) the on-file $1.457B figure derived for 2026-10-05; not treated as a conflict given the ~1% gap and the few-week date difference."
-    },
-    "float": {
       "value": null,
-      "note": "Not disclosed separately from shares outstanding in sources reviewed."
+      "asOf": null,
+      "note": "Not retrieved this session."
     },
-    "sharesOutstanding": {
-      "value": 63067485,
-      "asOf": "2026-05-01",
-      "source": "SEC Q1 FY2026 10-Q cover page",
-      "note": "Q2 FY2026 cover-page count not retrieved this pass; likely higher given typical warrant/ATM activity."
-    },
-    "shortInterest": {
-      "value": 10981448,
-      "asOf": "2026-03-31",
-      "note": "~18.4% of shares outstanding, down 13.7% from mid-March 2026. ~7 months stale relative to today; no more current figure found."
-    },
-    "cash": {
-      "value": 768400000,
-      "asOf": "2026-09-30",
-      "source": "Q3 2026 earnings release (Form 8-K, SEC EDGAR, filed 2026-11-04)",
-      "note": "Cash, cash equivalents and investment securities; down from $810.3M at 2026-06-30. Company states this funds projected operating expenses into 2030."
-    },
-    "debt": {
-      "note": "Hercules Capital senior secured term loan facility (refinanced Sept 2025): up to $175M total facility, maturity extended to 2030. As of ~2026-03-31: long-term borrowings ~$50M, long-term finance leases ~$10M, short-term debt ~$3-4M, per an aggregator (not primary filing). June 30, 2026 figures not found."
-    },
+    "float": null,
+    "sharesOutstanding": null,
+    "shortInterest": null,
+    "cash": null,
+    "debt": null,
     "pe": {
       "trailing": null,
-      "note": "negative earnings"
+      "forward": null,
+      "note": "Not retrieved this session.",
+      "asOf": null
     },
-    "eps": [
-      {
-        "period": "Q2 2026",
-        "value": -1.22,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2026",
-        "value": -0.88,
-        "basis": "GAAP",
-        "note": "AP reports a $0.88/share loss ($61.2M net loss); Investing.com frames this as a beat vs. an $0.92 consensus estimate, while Zacks' average estimate was -$0.84 -- sources disagree on which consensus to use, kept as found."
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 2026",
@@ -70,22 +40,21 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": 40.5
+      "metric": null,
+      "pct": null,
+      "note": "Not retrieved this session."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 now reported (2026-11-04); next report (Q4/FY2026) date not yet announced."
+      "note": "No next earnings date found; consistent with prior state."
     }
   },
   "price": {
-    "last": 24.96,
-    "changePct": 2.97,
-    "asOf": "2026-10-29",
-    "source": "Upstox (\"up $0.72 (2.97%)\", last updated 2026-10-29); day's range $23.80-$25.19",
-    "note": "Most recent dated quote found this session -- newer than the on-file 2026-10-05 $23.11 figure, but still predates today (2026-11-05); no same-day post-earnings quote could be sourced before the WebSearch budget was exhausted."
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "Not retrieved this session; search budget exhausted before a price quote could be fetched."
   },
   "catalysts": [
     {
@@ -108,6 +77,12 @@
       "impact": null,
       "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-uniqure-posts-q3-2026-eps-beat-as-fda-review-advances-93CH-4999868",
       "note": "Secondary coverage states the PDUFA target date as May 1, 2027; flagged for independent primary-source confirmation given it is nearly 6 months past the Q3 2026 report date -- plausible given typical priority-review timelines (BLA accepted ~Nov 2026 + ~6 months), but the 8-K excerpt available this session did not itself state the date verbatim."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "regulatory",
+      "headline": "FDA accepted uniQure's BLA for ifezuntirgene inilparvovec (AMT-130) for Huntington's disease and granted Priority Review; PDUFA target action date set for May 1, 2027. The submission relies on 36-month data from 12 high-dose patients vs. a propensity-score-matched external control; the company and FDA have also aligned on a confirmatory trial (~200 patients, 2:1 randomized to AMT-130 vs. standard of care, TFC as the 36-month primary endpoint). The FDA's acceptance letter indicates it is tentatively planning to hold an advisory committee meeting, though no date has been set.",
+      "source": "https://www.neurologylive.com/view/fda-grants-priority-review-to-huntington-disease-gene-therapy-bla"
     },
     {
       "date": "2026-11-02",
@@ -181,12 +156,32 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 EPS/consensus framing: AP reports a -$0.88 loss per share and calls it simply 'a loss'; Investing.com calls the same result a beat vs. a -$0.92 consensus; Zacks' average estimate was -$0.84 (which -$0.88 would miss) -- three different consensus figures, not reconciled.",
-    "Q3 2026 revenue vs. forecast: Investing.com frames $5.2M as a miss vs. a $6.21M forecast, while the headline EPS result is simultaneously framed as a beat -- kept both characterizations, not reconciled into a single verdict."
+    "Date of the BLA-acceptance/Priority-Review announcement: multiple outlets (neurologylive.com, biopharminternational.com) date it 2026-11-02, while the prior on-file catalyst recorded it as 2026-11-04. Same underlying event; exact announcement date not fully reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: found the primary-source regulatory update (company's own 2026-11-02 announcement) behind the FDA BLA acceptance already noted as part of the 2026-11-04 earnings catalyst on file -- this resolves the prior pass's flag that the 2027-05-01 PDUFA date was secondary-sourced only; it is now confirmed via uniQure's own release, which also adds confirmatory-trial design detail not previously on file. No newer price than the on-file 2026-10-29 $24.96 was established this session (shared WebSearch budget exhausted); no new catalyst dated after Nov 2 was found.",
+  "notes": "The PDUFA target action date (2026-05-01) is the key new, confirmable fact established this session, directly answering the task's ask. No other QURE-specific news since Nov 2/4, 2026 was found before the session's WebSearch budget was exhausted. Market cap, shares outstanding, cash position and EPS were not retrieved this session — a follow-up message could continue this research.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -414,11 +409,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

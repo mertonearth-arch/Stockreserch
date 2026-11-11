@@ -1,19 +1,18 @@
 {
   "ticker": "FICO",
   "name": "Fair Isaac Corporation",
-  "sector": null,
+  "sector": "Financial Services / Analytics Software",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.095Z",
+  "lastResearched": "2026-11-11T21:19:14.094Z",
   "fundamentals": {
     "marketCap": {
-      "value": 14300000000,
-      "asOf": "2026-10-02",
-      "source": "carried forward (Trade-Ideas); no fresher dated figure found this session"
+      "value": null,
+      "note": "not found in accessible sources"
     },
     "float": {
       "value": null,
@@ -40,20 +39,24 @@
     },
     "pe": {
       "trailing": null,
-      "note": "carried forward; conflicting readings across aggregators, no fresh price to compute against the new EPS"
+      "forward": null,
+      "note": "not found in accessible sources; company withheld FY2027 guidance so forward estimates are in flux"
     },
     "eps": [
       {
-        "period": "FY2025 Q4 (qtr ended 9/30/25)",
-        "value": 6.42,
-        "basis": "GAAP",
-        "note": "carried forward"
+        "period": "Q4 FY2025",
+        "value": 7.74,
+        "basis": "non-GAAP"
       },
       {
-        "period": "Q4 FY2026 (qtr ended 2026-09-30)",
+        "period": "Q4 FY2026",
         "value": 8.12,
-        "basis": "GAAP diluted",
-        "note": "Net income $175.0M, vs $155.0M/$6.42 EPS a year earlier (consistent with the on-file FY2025 Q4 figure). Includes three one-time items: a $65M accrual for a proposed antitrust-class-action settlement tied to the Scores business, a $48M non-operating gain on sale of an equity investment, and a $27M restructuring charge for a workforce reduction. Non-GAAP EPS for the quarter was not found this session."
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 11.1,
+        "basis": "non-GAAP"
       }
     ],
     "revenue": [
@@ -72,13 +75,14 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q4 FY2026 (qtr ended 2026-09-30)",
-      "pct": 27.3
+      "period": "Q4 FY2026",
+      "pct": 27.4,
+      "note": "revenue $657.05M vs. ~$516M a year earlier; Scores segment revenue +33% to $413.8M, Software segment revenue +19% to $243.2M"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 FY2026 was reported 2026-11-04 as scheduled. Q1 FY2027 report date not yet announced."
+      "note": "FY2027 guidance was explicitly withheld pending mortgage-pricing negotiations; no next earnings date found"
     },
     "guidanceFY2026": {
       "epsNonGAAP": 38.17,
@@ -86,8 +90,19 @@
       "note": "carried forward (given with Q4 FY25 release; superseded by the FY2026 print now on file; FY2027 guidance not found this session)"
     }
   },
-  "price": null,
+  "price": {
+    "last": null,
+    "changePct": null,
+    "asOf": null,
+    "note": "current quote not found in accessible sources"
+  },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings / litigation accrual",
+      "headline": "Q4 FY2026 results (fiscal year ended Sept. 30, 2026): GAAP EPS $8.12 (revenue $657.05M, +27.4% YoY, beat $652.35M consensus); non-GAAP EPS $11.10 (vs. $7.74 a year earlier), beat $10.89 consensus by 4.6%. GAAP results absorbed a $65 million accrual for a proposed antitrust class-action settlement tied to the Scores business and a $27 million restructuring charge for workforce reductions, partly offset by a $48 million gain on sale of a minority equity investment. Company withheld FY2027 guidance while negotiating customized mortgage-pricing arrangements for calendar 2027",
+      "source": "https://www.morningstar.com/news/business-wire/20261104478581/fico-announces-earnings-of-812-per-share-for-fourth-quarter-fiscal-2026"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -151,6 +166,13 @@
       "sourceName": "search aggregate citing FHFA/housing-industry reporting"
     },
     {
+      "date": "2026-09",
+      "type": "regulatory risk",
+      "headline": "FICO shares fell sharply (reported ~27% by one source, ~17% by another) after the FHFA director announced plans for Fannie Mae and Freddie Mac to merge their two mortgage credit-score pricing grids into one, with VantageScore added alongside FICO Classic - seen as a threat to FICO's mortgage-scoring position; no start date or new pricing schedule had been announced per the coverage found",
+      "source": "https://www.tikr.com/ja/blog/fico-sinks-27-as-trump-admin-announces-plans-to-end-its-mortgage-scoring-monopoly",
+      "exactDateNote": "month-level date only; exact day not found"
+    },
+    {
       "date": "2026-07-29",
       "type": "earnings",
       "headline": "FICO reported Q3 fiscal 2026 results with non-GAAP diluted EPS of $12.18 and raised full-year fiscal 2026 EPS guidance",
@@ -162,6 +184,13 @@
       "type": "earnings",
       "headline": "Q3 FY2026 results: revenue $674M (+25.7% YoY, vs $536M PY); GAAP net income $237.2M / EPS $10.45 (vs $181.8M/$7.40 PY); non-GAAP EPS $12.18 (vs $8.57 PY); raised FY2026 guidance to revenue $2.53B (+20% YoY) and non-GAAP EPS $42.43 (+42% YoY)",
       "source": "https://www.sec.gov/Archives/edgar/data/0000814547/000081454726000031/exhibit991erq32026.htm"
+    },
+    {
+      "date": "2026-07",
+      "type": "regulatory/investigation",
+      "headline": "Florida Attorney General opened an antitrust investigation into FICO, examining product bundling, predatory pricing, and restrictive agreements with credit bureaus",
+      "source": "https://www.pymnts.com/cpi-posts/florida-opens-antitrust-probe-into-fico-over-credit-scoring-market-practices/",
+      "exactDateNote": "month-level date only; exact day not found"
     },
     {
       "date": "2026-06-08",
@@ -184,14 +213,28 @@
     }
   ],
   "conflicts": [
-    "Market cap estimates range from ~$17.78B (2026-10-24 snapshot) to $45.53B across different aggregators/dates — not reconciled; treat as volatile, not a single fact.",
-    "Analyst consensus is stale: an aggregate 'Hold' rating with a $1,014 consensus target clearly predates the Oct 26-27 downgrade wave (new individual targets as low as $720-$942).",
-    "Shares outstanding: 24,003,656 vs 23,190,906 vs ~23.7M across aggregators — no 10-Q/10-K cover-page figure independently confirmed this session.",
-    "EPS TTM: $27.01 vs $31.84 (different listing, not directly comparable) vs $20.78 (likely stale) across sources."
+    "Q4 FY2026 EPS: Zacks reports EPS of $9.61 vs. a $9.20 consensus, which matches neither the company's reported GAAP ($8.12) nor non-GAAP ($11.10) figures; recorded verbatim as a conflicting reading, not reconciled.",
+    "FICO stock decline tied to the September 2026 FHFA/VantageScore mortgage-pricing-grid news: one source cites a ~27% drop, another cites ~17%; could not determine if these refer to the same trading session or different ones."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-11-04 Q4 FY2026 print and the 2026-10-27 analyst downgrade wave already on file. No reliable current-dated price was established this session -- sources found this session span roughly $712 to $1,300+ depending on source and date, none clearly dated to early November 2026, so price is left unchanged rather than guessed. Non-GAAP EPS, full FY2026 totals, FY2027 guidance and an updated balance sheet remain not found.",
+  "notes": "The $65M accrual disclosed Nov. 4, 2026 is for a PROPOSED antitrust CLASS-ACTION SETTLEMENT specifically tied to the Scores business - this is distinct from (though related in subject matter to) the long-running Sky Federal Credit Union-led monopolization litigation before Judge Edmond Chang (N.D. Ill.), which as of the last confirmed ruling found (November 2024) allowed Sherman Act monopolization and state-law claims to proceed against FICO while dismissing claims against the credit bureaus and other claims with prejudice. No 2025-2026 docket update, trial date, or settlement terms for the Chang litigation itself were found in this pass; the $65M figure may or may not relate to that specific case versus one of the other ~10 related antitrust suits Chang is overseeing. Separately, the September 2026 FHFA/VantageScore mortgage-pricing development is a material, dated regulatory risk that predates but likely still weighs on the stock heading into Nov. 11. Recommend a follow-up pass specifically on court dockets (Law360/Bloomberg Law) to identify which case the $65M settlement accrual actually covers.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -418,11 +461,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

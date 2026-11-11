@@ -1,79 +1,98 @@
 {
   "ticker": "VKTX",
   "name": "Viking Therapeutics, Inc.",
-  "sector": null,
+  "sector": "Healthcare (Clinical-Stage Biotechnology)",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.104Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.108Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Sources range $3.19B-$4.40B across undated/Aug-dated snapshots (StockAnalysis ~$3.95B, Motley Fool $3.80B-$4.40B depending on snapshot) — none independently verified against a current price this session; left null rather than picking one. See conflicts."
+      "value": 3950000000,
+      "source": "stockanalysis.com (via web search snippet)",
+      "note": "price-dependent; date not precisely established"
     },
-    "float": {
-      "value": 113730000,
-      "asOf": null,
-      "source": "StockAnalysis.com snapshot (date not given)"
-    },
+    "float": null,
     "sharesOutstanding": {
       "value": 116650000,
-      "asOf": null,
-      "source": "StockAnalysis.com snapshot (date not given in search result), corroborated by Motley Fool (~116.11M) and roic.ai (~115.89M)"
+      "source": "stockanalysis.com (via web search snippet)"
     },
     "shortInterest": {
-      "value": 19.2,
-      "asOf": "2026-08-14",
-      "source": "FINRA settlement data via aggregator: ~22.3M shares short at the 2026-08-14 settlement date, 13.3 days to cover, computed against ~116M shares outstanding on file",
-      "note": "A second aggregator showed 22.5M shares short at the 2026-08-19 settlement (10.5 days to cover) - both roughly consistent with the ~19.3% already on file, now tied to specific settlement dates rather than an undated WebSearch summary. A third, undated source's 20.69%-of-float figure was not reconciled."
+      "value": 19.32,
+      "source": "stockanalysis.com (via web search snippet)",
+      "note": "22.54M shares short / 19.32% of shares outstanding; a separate Sept 10 2026 tracker showed 22.2M shares / 19.0% of float / 12.4 days to cover"
     },
     "cash": {
-      "value": 502000000,
-      "asOf": "2026-06-30",
-      "source": "Company Q2 2026 earnings release via Zacks coverage: cash and investments at June 30, 2026; company stated this funds operations into 2028",
-      "note": "A separate Motley Fool snapshot shows $602.96M-$705.74M 'cash and short-term investments' at a later, undated point — not reconciled; the $502M figure is the one directly tied to a dated company release."
+      "value": 960000000,
+      "asOf": "2026-09-30",
+      "source": "Q3 2026 earnings coverage (Zacks/RTTNews/Securities.io), includes ~$550M net proceeds from a September 2026 financing"
     },
-    "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Could not confirm a total debt figure in available sources this session; clinical-stage biotechs of this type typically carry little/no traditional debt, but this was not independently verified from the 10-Q (SEC EDGAR access blocked in this sandbox)."
-    },
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings"
+      "note": "negative earnings; clinical-stage biotech with no approved commercial product and no meaningful forward-earnings estimate found",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": -0.81,
+        "period": "FY2024",
+        "value": -1.01,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": -3.19,
         "basis": "GAAP"
       },
       {
         "period": "Q3 2026",
         "value": -1.55,
-        "basis": "GAAP",
-        "note": "Wider than ~-$1.06 consensus (~$0.49/share miss)."
+        "basis": "GAAP"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "R&D spend YoY",
+      "metric": "R&D expense YoY",
       "period": "Q3 2026",
-      "pct": 85,
-      "note": "R&D expense rose to $166.8M in Q3 2026 from $89.95M in Q3 2025, reflecting Phase 3 program scale-up (oral VK2735 SUNRISE initiated; VANQUISH 1/2 ongoing). Company remains pre-revenue."
+      "pct": 85.3,
+      "note": "Pre-revenue clinical-stage biotech (no material commercial revenue); R&D expense was $166.8M in Q3 2026 vs $90.0M in Q3 2025, reflecting Phase 3 VANQUISH trial spend and the new oral SUNRISE program. Net loss also widened to $183.2M (-$1.55/share) from $0.81/share a year earlier."
     },
     "nextEarnings": {
-      "date": "2026-10-28",
-      "confirmed": true,
-      "note": "Reconfirmed via the company's own 2026-10-21 announcement (already on file) — after market close, conference call 4:30pm ET. Current third-party consensus ahead of the print: EPS of approximately -$1.00 (9 analysts, aggregator estimate) on $0 revenue (pre-commercial); options pricing implies a post-earnings move of roughly +/-11.65% (EarningsWhispers, undated/approximate, not a company figure)."
+      "date": null,
+      "confirmed": false,
+      "note": "No Q4 2026/FY2026 report date found; Q3 2026 was reported 2026-10-28"
     }
   },
-  "price": null,
+  "price": {
+    "last": 26.18,
+    "changePct": -1.79,
+    "asOf": "2026-11-06",
+    "source": "aggregator cited in web search results (exact publisher unclear)",
+    "note": "No quote dated 2026-11-11 found; closest dated figure used."
+  },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "conference/data",
+      "headline": "Viking Therapeutics scheduled to present two VK2735 posters at ObesityWeek 2026 (Washington, D.C., Nov 14-17, 2026): Phase 3 VANQUISH-2 baseline data and Phase 2 VENTURE results",
+      "source": "https://www.biopharmawatch.com/news/VKTX/viking-therapeutics-obesityweek-2026-presentations"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "investor conference",
+      "headline": "Viking announced participation in November/December healthcare investor conferences, including a UBS fireside chat (London, Nov 17) and a Jefferies fireside chat (New York, Dec 2)",
+      "source": null
+    },
+    {
+      "date": "2026-10-28",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net loss widened to $183.2M (-$1.55/diluted share) from -$0.81/share in Q3 2025; nine-month net loss $469.5M (-$4.03/share) vs -$1.80/share a year earlier; R&D expense $166.8M vs $90.0M; cash/cash equivalents/short-term investments ~$960M including ~$550M net proceeds from a September 2026 financing; VK2735 Phase 3 (VANQUISH) programs continuing to advance",
+      "source": "https://www.securities.io/viking-therapeutics-q3-net-loss-widens-to-183-2-million/"
+    },
     {
       "date": "2026-10-28",
       "type": "earnings",
@@ -137,11 +156,35 @@
     }
   ],
   "conflicts": [
-    "New, low-confidence item this pass: a German-language aggregator (kapitalmarktexperten.de) states Viking was presenting VK2735 data at two medical conferences in early November 2026, cites an analyst price target of $106 and short interest of about 23% of shares, and says the stock rose nearly 45% in October 2026. None of this could be corroborated against a second source or a primary release this session, and the site's own dating is unclear, so it is recorded here as an unverified lead rather than used to update any field."
+    "Consensus EPS estimate for Q3 2026: Zacks cites a consensus of -$1.00/share, while 24/7 Wall St. cites -$1.06/share — both describe the $1.55 actual as a miss, but the exact consensus figure is not agreed.",
+    "FY2025 net loss: $358.5M per the earnings release/most sources vs $359.6M per one financials aggregator site — minor discrepancy, not reconciled.",
+    "Price: $26.18 (-1.79%) on 2026-11-06 vs $25.17 (-8.04%) on 2026-10-16 vs several undated aggregator figures ranging from $24.61 to $34.80 — the undated figures could not be placed on a timeline.",
+    "Investor-conference schedule: one copy of the November 3 press release lists a Stifel fireside chat on Nov 11 and a Piper Sandler chat, while another copy lists different dates for some of the same events — could not be reconciled to a single authoritative schedule."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found beyond the 2026-10-28 Q3 2026 earnings print already on file; no company press release, 8-K, or clearly-dated analyst action from November 2026 was located this session. Checked specifically for a post-earnings price reaction, an ObesityWeek/November-conference presentation, and new analyst price-target action — the only new lead found is the single unverified German-language source in conflicts. All existing conflicts (market cap range, cash-position definition, after-hours price reaction, share count) remain unresolved and unchanged. Could not establish today's closing price (see TER notes on WebFetch access this session).",
+  "notes": "No clinical trial results, FDA/regulatory actions, new contracts, offerings, or halts found dated after the Oct 28 earnings report, aside from the conference/poster-presentation items listed above. A reference to the start of the oral VK2735 'SUNRISE' Phase 3 program (RTTNews) could not be dated and may predate the Oct 28 report, so it is not listed as a dated catalyst here.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -364,10 +407,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

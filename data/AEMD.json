@@ -1,75 +1,58 @@
 {
   "ticker": "AEMD",
   "name": "Aethlon Medical, Inc.",
-  "sector": null,
+  "sector": "Biotechnology / Medical Devices",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.080Z",
+  "lastResearched": "2026-11-11T21:19:14.076Z",
   "fundamentals": {
     "marketCap": {
-      "value": 4100000,
-      "asOf": "2026-11-04",
-      "source": "MarketChameleon",
-      "note": "Implied share-count basis differs from the on-file 1,604,095 and 711,136-share figures -- same unresolved share-count conflict as flagged previously; this cap pairs with the $5.75 price above."
+      "value": null
     },
     "float": {
-      "value": null,
-      "asOf": null,
-      "note": "Not reliably established — see shares outstanding conflict"
+      "value": null
     },
     "sharesOutstanding": {
-      "value": 1604095,
-      "asOf": "2026-08-28",
-      "source": "Aethlon 8-K (filed ~Aug 31, 2026), post pre-funded-warrant exercises",
-      "note": "Other aggregators show materially different, likely stale figures (973,213 as of 2026-01-05; 2,370,560 undated) — see conflicts"
+      "value": null
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "Conflicting % of float depending on denominator used: 13.9% (settlement date 2026-05-29, using 2,370,560 shares) vs. 22.03% (shortsqueeze.com, undated, using a 1.5M-share float) — both on the same ~330,400-share short position. Given the share count has since changed again (reverse split + warrant exercises), neither % is usable as current."
+      "value": null
     },
     "cash": {
-      "value": 4.9,
-      "asOf": "2026-06-30",
-      "note": "In $millions, down from $7.0M at 2025-12-31, per aggregator citing company financials"
+      "value": 7000000,
+      "asOf": "2025-12-31",
+      "source": "company fiscal Q3 2026 results, reported via SeekingAlpha PR / Benzinga, 2026-02-12",
+      "note": "This is the most recent cash figure found this session; it predates the file's current catalyst window (Oct-Nov 2026) and is included only as the last confirmed data point."
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "Not disclosed/not found in available sources this session"
+      "value": null
     },
     "pe": {
       "trailing": null,
+      "forward": null,
       "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "FY2026 (ended 2026-03-31)",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Net loss attributable to common stockholders was $7.2M for the fiscal year; per-share figure not independently confirmed this session"
-      },
-      {
-        "period": "Q1 FY2027 (quarter ended 2026-06-30)",
-        "value": -4.02,
-        "basis": "GAAP",
-        "note": "Actual EPS -$4.02 vs -$3.76 consensus estimate, per Benzinga. Fills the previously-null field; reported 2026-08-13."
+        "period": "Q3 FY2026 (qtr ended 2025-12-31)",
+        "value": -2.45,
+        "basis": "GAAP"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash position (sequential decline / burn)",
-      "period": "2025-12-31 to 2026-06-30",
-      "pct": -30,
-      "note": "Cash fell from $7.0M to $4.9M over the six-month period — this is a burn-rate figure, not a YoY growth rate; company is essentially pre-revenue (going-concern doubt flagged in the 10-K filed 2026-06-10)."
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "Pre-revenue; fiscal Q3 2026 revenue was reported at $0.00. Nine-month operating expenses fell 26.9% YoY to about $5.36M; quarterly opex rose 13.6% YoY to about $2.06M on higher payroll."
     },
     "nextEarnings": {
       "date": "2026-11-12",
-      "confirmed": false
+      "confirmed": false,
+      "note": "Carried over from file; this session found no 8-K, press release, or earnings-calendar update confirming or changing this date before the WebSearch budget for the turn was exhausted. AEMD's fiscal-quarter cadence (Q3 FY2026 = Oct-Dec 2025, reported Feb 2026) implies the quarter being reported around November 2026 would be a later fiscal quarter (not independently identified this session)."
     }
   },
   "price": {
@@ -79,6 +62,12 @@
     "source": "MarketChameleon"
   },
   "catalysts": [
+    {
+      "date": "2026-10-07",
+      "type": "corporate",
+      "headline": "Amendment to Articles of Incorporation increasing authorized shares",
+      "source": null
+    },
     {
       "date": "2026-10-07",
       "type": "corporate/governance",
@@ -180,16 +169,40 @@
       "headline": "FY2026 10-K (fiscal year ended 2026-03-31) flags substantial doubt about Aethlon's ability to continue as a going concern",
       "impact": "Negative — going-concern qualification",
       "source": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "earnings",
+      "headline": "Aethlon Medical fiscal Q3 2026 results: GAAP EPS -$2.45 (vs -$2.29 estimate), revenue $0 (pre-revenue), net loss $2.02M for the quarter and $5.27M for the nine-month period, cash ~$7.0M as of 2025-12-31; Australian hemopurifier oncology trial: first cohort complete, second cohort underway",
+      "impact": null,
+      "source": "https://seekingalpha.com/pr/20398581"
     }
   ],
-  "conflicts": [
-    "Additional undated/loosely-dated price snapshots found this session (Value Research ~$2.10 as of 2026-03-31; Google Finance caches ~$1.90-2.78, undated; equibles.com $1.93/2,370,560 shares, undated) are far below the on-file 2026-10-26 $5.22-5.58 range and do not carry clear 2026-Q4 dates — treated as likely stale/pre-dating the on-file figures or using a different share-count basis, NOT used to update price or market cap, and not treated as resolving the existing share-count conflict.",
-    "New unconfirmed November 2026 price snapshots found this session conflict with each other and cannot be reconciled with the on-file $5.22-5.58 (2026-10-26/08-28) range: Benzinga shows $5.97 as of 2026-11-02 3:30PM EST; a separate (unverified, could not be re-confirmed from an independent source) figure of $5.44 for 2026-10-30 also circulated. Neither is used to update the recorded price given single-source/unverifiable sourcing; share-count conflict (sharesOutstanding 1,604,095 vs. 973,213 vs. 2,370,560) remains open.",
-    "Market cap/shares outstanding: MarketChameleon's 2026-11-04 $4.1M market cap implies a share count that does not match any of the three figures above (1,604,095 / 973,213 / 2,370,560) -- added as a fourth data point in an already-unresolved conflict, not reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-09: price nudged up to $5.75 (MarketChameleon, 2026-11-04) from the on-file $5.22 (2026-10-26). Confirmed Q1 FY2027 actual EPS of -$4.02 (Benzinga) vs a -$3.76 consensus estimate -- fills the previously-null EPS field. No update found on the North Immunology merger (last confirmed via the 2026-09-17 announcement; Q1 2027 target close; S-4 status unknown, sec.gov unreachable this session). Next earnings still 2026-11-12, unconfirmed.",
+  "notes": "Could not confirm whether a Q earnings release occurred around 2026-11-12 or identify any new catalysts since 2026-10-07; the WebSearch tool's shared per-turn budget was exhausted before a targeted follow-up query could run. Market cap, shares outstanding, float, short interest, debt, and FY2024/FY2025 annual EPS were not established this session.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -445,11 +458,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

@@ -1,19 +1,18 @@
 {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
-  "sector": "Technology - Semiconductors",
+  "sector": "Semiconductors",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.098Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.098Z",
   "fundamentals": {
     "marketCap": {
-      "value": 211120000000,
-      "asOf": "2026-09-17",
-      "source": "The Motley Fool, at $240.76 close (counts only publicly traded shares)"
+      "value": null,
+      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
     },
     "float": {
       "value": null,
@@ -46,27 +45,15 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "FY2025 was a GAAP net-loss year and FY2026 a GAAP net-income year; current trailing-twelve-month EPS was not computed this session for lack of a full quarterly breakdown, so left null rather than guessed",
-      "asOf": "2026-10-23"
+      "note": "not established in accessible sources",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "FY2025 (ended Feb 2025)",
-        "value": -1.02,
-        "basis": "GAAP diluted",
-        "note": "GAAP net loss of $885.0M; non-GAAP EPS was $1.57. Per rule, no negative multiple is reported."
-      },
-      {
-        "period": "FY2026 (ended Jan 2026)",
-        "value": 3.07,
-        "basis": "GAAP diluted",
-        "note": "GAAP net income $2.670B; non-GAAP EPS was $2.84"
-      },
-      {
-        "period": "Q2 FY2027 (ended 2026-08-01)",
-        "value": 0.33,
-        "basis": "GAAP diluted",
-        "note": "Non-GAAP EPS was $0.94"
+        "period": "Q2 FY2027",
+        "value": 0.94,
+        "basis": "non-GAAP",
+        "note": "reported Aug 27, 2026; beat consensus estimate of $0.87 by ~8.05%"
       }
     ],
     "revenue": [
@@ -77,14 +64,15 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "data center segment revenue YoY",
       "period": "Q2 FY2027",
-      "pct": 37
+      "pct": 46,
+      "note": "Data center revenue hit a record $2.74B, growth accelerating to ~46% YoY, driven by AI demand. (No total-company revenue YoY figure located; data-center is the disclosed headline growth metric in coverage.)"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Three disagreeing, uncompany-confirmed estimates now on file: Nov 26, 2026 (FXEmpire; TipRanks' Swiss listing labels it 'Confirmed' but the page's own text flags it as estimated); Dec 1, 2026 (TrendSpider, no source cited); and Dec 2, 2026 (AJ Bell key-dates listing, found this session, also unconfirmed). No official Marvell IR announcement found this session either. Company's own Q3 FY2027 guidance is net revenue $3.150B +/- 5%, non-GAAP diluted EPS $1.10 +/- $0.05."
+      "note": "Conflicting/unconfirmed estimates: Nov 26, 2026 after market close (TipRanks — marked 'confirmed' only on Marvell's Swiss/UK secondary listing pages, reliability unclear); Dec 1, 2026 and Dec 2, 2026 (other tracker estimates per prior record). For reference, the prior-year Q3 FY2026 report was issued Dec 2, 2025, suggesting a late-Nov/early-Dec 2026 date is plausible for Q3 FY2027, but no primary-source (Marvell IR/press release) confirmation was found in accessible sources."
     }
   },
   "price": {
@@ -95,6 +83,12 @@
     "note": "Stale vs. 2026-10-23; the 2026-10-06 Investor Day catalyst was reported to have moved the stock +5.81% intraday that session, so the price has likely moved since, but no later confirmed quote was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-10-16",
+      "type": "price action",
+      "headline": "Shares extended decline after the Oct 6, 2026 Investor Day",
+      "source": null
+    },
     {
       "date": "2026-10-16",
       "type": "price move",
@@ -194,14 +188,34 @@
     }
   ],
   "conflicts": [
-    "Cash/debt figures sourced from a third-party AI-extraction aggregator rather than the primary 10-Q text; treat as directional, not exact.",
-    "Market cap: $211.12B at $240.76 (Motley Fool, 2026-09-17, publicly-traded-shares-only count) vs. $197.66B at $225.41 with 876.90M shares (Google Finance, 2026-09-08) -- differing price/date and share-count methodology, not reconciled.",
-    "Next earnings date: Nov 26, 2026 (FXEmpire / TipRanks CH, inconsistently labeled 'Confirmed' vs. 'estimated' on the same source) vs. Dec 1, 2026 (TrendSpider); no official company date found, not reconciled.",
-    "A third unconfirmed next-earnings estimate, Dec 2, 2026 (AJ Bell key-dates listing), was found this session alongside the two above — none company-confirmed, not reconciled."
+    {
+      "field": "Q3 FY2027 earnings date",
+      "readings": [
+        "November 26, 2026, after market close (TipRanks, confirmed status applies only to Swiss/UK listing pages)",
+        "December 1, 2026 (prior tracker estimate, per existing record)",
+        "December 2, 2026 (prior tracker estimate, per existing record; matches prior-year Q3 FY2026 report date of Dec 2, 2025)"
+      ]
+    }
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 6, 2026 Investor Day and the Oct 9-16 decline already on file. Re-searched for a confirmed Q3 FY2027 earnings date; none found -- the quarter ends around Oct 31, 2026 so a late-Nov/early-Dec report is the expected window, consistent with the three disagreeing, uncompany-confirmed estimates already on file (Nov 26, Dec 1, Dec 2, 2026). No changes made this pass.",
+  "notes": "No new market-moving news found since the Oct 16, 2026 post-Investor-Day decline. Other coverage found (25% FY2027 data-center growth target, Celestial AI acquisition progress, FQ3 guidance of ~$3.15B revenue ±5% and ~$1.10 non-GAAP EPS ±$0.05) all trace back to the Oct 6 Investor Day / Q2 FY2027 earnings call, not new events. Earnings-date conflict could not be resolved from accessible sources — recommend checking Marvell's investor relations site directly closer to the date.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -421,10 +435,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

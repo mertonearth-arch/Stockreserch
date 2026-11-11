@@ -1,33 +1,144 @@
 {
   "ticker": "IHRT",
   "name": "iHeartMedia, Inc.",
-  "sector": "Communication Services",
+  "sector": "Media & Broadcasting",
   "theme": "Media & Broadcasting",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T05:31:58.857Z",
-  "fundamentals": {},
+  "lastResearched": "2026-11-11T21:19:14.073Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 481390000,
+      "asOf": "2026-08-20",
+      "source": "equibles.com (pre-crash figure; not valid post Nov 10 price collapse)"
+    },
+    "float": {
+      "value": null,
+      "note": "Not established."
+    },
+    "sharesOutstanding": {
+      "value": 154790000,
+      "asOf": "2026-08-20",
+      "source": "equibles.com"
+    },
+    "shortInterest": {
+      "value": 4,
+      "asOf": "2026-08-20",
+      "source": "equibles.com (6.2M shares short, 4.0% of float, 10.3 days to cover, described as rising)"
+    },
+    "cash": {
+      "value": 139700000,
+      "asOf": "2026-09-30",
+      "source": "secondary analysis of Q3 2026 10-Q (cash fell from $174.4M in June 2026)"
+    },
+    "debt": {
+      "value": null,
+      "note": "Not established from available sources, though iHeartMedia carries a large legacy debt load referenced qualitatively by multiple sources."
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative earnings (GAAP net losses in FY2024, FY2025, and Q3 2026)",
+      "asOf": "2026-11-11"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": -6.68,
+        "basis": "GAAP basic/diluted"
+      },
+      {
+        "period": "FY2025",
+        "value": -3.06,
+        "basis": "GAAP basic/diluted"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.06,
+        "basis": "GAAP",
+        "note": "Reported loss of $0.06/share, wider than the analyst estimate of a $0.02 loss, per RBR/Benzinga coverage; a separate secondary aggregator figure of -$0.54 for 'Q3' conflicts and is likely mislabeled/misdated (see conflicts)."
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 3.3
+    },
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established."
+    }
+  },
   "price": {
-    "last": null,
-    "changePct": -29,
-    "asOf": "2026-11-11",
-    "source": "Benzinga premarket movers roundup"
+    "last": 0.62,
+    "changePct": -66.2,
+    "asOf": "2026-11-10",
+    "note": "No separately confirmed Nov 11, 2026 close was found; most recent dated figure is the post-earnings Nov 10, 2026 session (new 52-week low). Stock closed at $0.62 (CNBC snapshot showed $0.598-$0.6095 intraday, -66.2%) on volume of 38.88M shares; this is the day after the Nov 9 earnings release and may be the move the task's 'fell ~29% premarket' note is referencing (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "legal/shareholder notice",
+      "headline": "Law firm 'SueWallSt' issued a shareholder-investigation notice regarding potential securities claims tied to the stock's collapse (solicitation-style release, not a regulatory action)",
+      "impact": "n/a",
+      "source": "https://www.prnewswire.com/news-releases/ihrt-shareholder-investigation-suewallst-notifies-investors-of-potential-securities-claims-involving-iheartmedia-inc-302936016.html"
+    },
     {
       "date": "2026-11-11",
       "type": "earnings",
       "headline": "iHeartMedia fell ~29% premarket after its Q3 2026 report; no further detail (reported figures, consensus comparison) located beyond the aggregator mover headline this session.",
       "impact": "-29% premarket",
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "CEO commentary / advertiser weakness",
+      "headline": "iHeartMedia CEO warned major advertisers are delaying spending as economic uncertainty bites, cited as driver of continued share weakness the day after earnings",
+      "impact": "part of the -66% two-day move",
+      "source": "https://www.benzinga.com/markets/earnings/26/11/63103911/iheartmedia-ceo-warns-major-advertisers-are-delaying-spending-as-economic-uncertainty-bites"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "iHeartMedia Q3 2026 results: revenue $1.03B (+3.3% YoY, +1% ex-political); Adjusted EBITDA $170.5M, down 16.7% YoY and below the company's own $180-220M plan; GAAP EPS loss of $0.06 (vs -$0.02 est.); Multiplatform Group (broadcast) segment adjusted EBITDA fell 42.9%; Digital Audio Group revenue +13.8% but segment EBITDA -2.3%; podcast revenue +24.4% to $173.7M; free cash flow -$10.4M for the quarter; cash fell to $139.7M from $174.4M at June 2026; company cut full-year 2026 Adjusted EBITDA guidance to $550M-$600M from the prior ~$800M target cited on prior calls, largely on weaker-than-expected political advertising, advertiser spending delays amid macro uncertainty, and a shift to programmatic audio buying",
+      "impact": "Shares fell sharply; reported after-hours decline of approximately 35-37%, with the stock later touching a new 52-week low intraday around -66% to $0.598-$0.6095 before settling near $0.62",
+      "source": "https://rbr.com/investors-dump-ihrt-shares-on-weak-q3-political-revenue/"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "The magnitude of the post-earnings decline is reported very inconsistently: ~35-37% after-hours on Nov 9 per one summary, vs. an intraday move described as 'down 66%' to ~$0.60-$0.61 on Nov 10 per a CNBC/finwire snapshot (52-week-low date listed as 11/10/26). The task's stated figure of '~29% premarket' does not closely match either of these; it may reflect only the initial premarket print before the stock continued falling intraday and the next day.",
+    "Q3 2026 EPS reported as -$0.06 (RBR/Benzinga-sourced commentary) vs. a MarketBeat aggregator figure of -$0.54 against a -$0.28 estimate dated to a URL labeled 2026-08-10 (likely a different/mislabeled quarter) -- not reconciled.",
+    "Full-year 2026 EBITDA guidance: multiple prior-quarter previews said management had reaffirmed ~$800M full-year Adjusted EBITDA and $200M free cash flow targets through Q2 2026 calls; the Q3 2026 release is reported by one source as cutting that full-year target to $550M-$600M, while another secondary summary suggests only the quarter missed plan without explicitly confirming a formal full-year guidance cut. Treat the guidance-cut framing as sourced from secondary commentary, not a directly read primary release.",
+    "Market cap/shares outstanding/short interest figures above are from an Aug 20, 2026 snapshot (pre-crash); given the stock's subsequent ~90%+ decline from 2026 highs into the $0.60s, current market cap is materially lower than the $481M figure shown, but a current recalculation was not available from a dated source."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -66.2%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "am",
@@ -40,14 +151,25 @@
       "from": "daily"
     }
   ],
-  "notes": "New stub, AM pass. Thinly sourced (single aggregator roundup, no primary release found this session) -- PM pass to verify and fill in fundamentals.",
+  "notes": "SEC.gov, stocktitan.net, and benzinga.com full-article fetches failed in this session (network restrictions); figures are drawn from WebSearch summaries of those and other secondary outlets (RBR, finwire, barchart, panabee), not direct primary-document reads.",
   "lastPass": {
     "date": "2026-11-11",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "move -29%"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -66.2%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

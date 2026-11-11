@@ -7,12 +7,12 @@
   "tier": "daily",
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-10T21:26:29.097Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.096Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree sharply amid this week's volatility (implied roughly $54M-$165M depending on which price/share-count snapshot is used); not establishing a figure rather than picking one."
+      "note": "Not established — Yahoo Finance, Finviz and stockanalysis.com all failed DNS resolution in this sandbox; no reliable market-cap figure found via WebSearch snippets."
     },
     "sharesOutstanding": {
       "value": 82270000,
@@ -23,12 +23,39 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; long pre-revenue/clinical-stage company whose first product was just approved and is not yet commercially launched (guided for Q1 2027)"
+      "note": "negative earnings / clinical-stage company; no consensus forward estimate located",
+      "asOf": "2026-11-11"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established this pass."
+      "note": "Q3 2026 results were scheduled for release after market close on Nov 10, 2026 (per company IR PDF); actual reported figures and the following (Q4/FY2026) date were not found in accessible sources as of this research."
+    },
+    "cash": {
+      "value": 36700000,
+      "asOf": "2026-06-30",
+      "source": "Inovio Q2 2026 earnings release (via GuruFocus/1stOncology coverage)",
+      "note": "Excludes ~$18.3M net proceeds from a July 2026 offering; figure is pre-Q3. A further public offering priced in early November 2026 (see catalysts) raised additional cash not yet reflected in a published balance figure."
+    },
+    "eps": [
+      {
+        "period": "Q2 2025",
+        "value": -0.61,
+        "basis": "GAAP",
+        "note": "quarterly, not fiscal-year — FY2024/FY2025 annual EPS not located in accessible sources"
+      },
+      {
+        "period": "Q2 2026",
+        "value": -0.07,
+        "basis": "GAAP",
+        "note": "improvement driven mainly by a $13.9M non-cash fair-value gain on warrant liabilities, not operating performance"
+      }
+    ],
+    "growth": {
+      "metric": "guided quarterly operating net cash burn",
+      "period": "Q3 2026",
+      "pct": null,
+      "note": "Company guided ~$18M net operating cash burn for Q3 2026 on its Aug 12, 2026 call; clinical-stage/pre-commercial company with no meaningful product revenue yet. Actual Q3 2026 financial results (scheduled for release Nov 10, 2026) were not found in accessible sources."
     }
   },
   "price": {
@@ -39,6 +66,31 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "INOVIO scheduled to report Q3 2026 financial results after market close (actual figures not independently confirmed in accessible sources)",
+      "source": "https://s21.q4cdn.com/283306112/files/doc_news/INOVIO-to-Report-Third-Quarter-2026-Financial-Results-on-November-10-2026-2026.pdf"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "offering",
+      "headline": "Inovio announced a proposed public offering of common stock; reported pricing of approximately $75 million at $1.05/share, expected to close on or about Nov 9, 2026 — dilutive capital raise",
+      "impact": "dilutive",
+      "source": "https://finviz.com/news/417560/inovio-announces-proposed-public-offering-of-its-common-stock"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "regulatory",
+      "headline": "Conference call held to discuss the FDA accelerated approval of VOCERYQ",
+      "source": "https://finviz.com/news/412878/inovio-announces-fda-accelerated-approval-of-voceryq-an-immunotherapy-to-reduce-the-frequency-of-surgery-in-adults-with-recurrent-respiratory-papillomatosis-rrp"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "regulatory",
+      "headline": "FDA granted accelerated approval of VOCERYQ (INO-3107), an immunotherapy to reduce frequency of surgery in adults with recurrent respiratory papillomatosis (RRP) — first U.S. FDA-approved DNA medicine",
+      "source": "https://finviz.com/news/412878/inovio-announces-fda-accelerated-approval-of-voceryq-an-immunotherapy-to-reduce-the-frequency-of-surgery-in-adults-with-recurrent-respiratory-papillomatosis-rrp"
+    },
+    {
       "date": "2026-10-30",
       "type": "regulatory",
       "headline": "FDA granted accelerated approval of VOCERYQ (a plasmid DNA immunotherapy delivered with Inovio's CELLECTRA 5PSP device) to reduce the frequency of surgery in adults with recurrent respiratory papillomatosis (RRP) -- Inovio's first-ever FDA-approved product. Approval is based on the RRP-001 study (32 adult patients). FDA requires a confirmatory trial; Inovio must submit a draft protocol by end of 2026. Company guides to shipping availability in ~60 days and full commercial launch in Q1 2027.",
@@ -46,12 +98,26 @@
       "source": "https://www.sec.gov/Archives/edgar/data/0001055726/000119312526442648/d150457d8k.htm"
     }
   ],
-  "conflicts": [
-    "Share price this week: Benzinga $1.62 (2026-11-04, 4:29pm EST) vs Upstox ~$0.93 (2026-10-29) vs Marketchameleon $0.60 (2026-10-30) vs secondary coverage describing +200% to +283% single-session moves between 2026-10-30 and 2026-11-02 -- the exact day-by-day trajectory could not be reconciled from sources reachable this pass.",
-    "Market cap / shares outstanding: Google Finance ~$54M market cap on 82.27M shares (2026-07-30 snapshot) vs Value Research ~$88M (2026-06-05) vs TipRanks 53.14M shares (older, likely stale count) -- no reliable current figure; all predate this week's rally."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -84,12 +150,21 @@
       "from": "daily"
     }
   ],
-  "notes": "New addition this pass, found via the closing-movers web sweep rather than the due list. First-ever FDA product approval is a major dated catalyst for a long-pre-revenue biotech, but the stock's actual price/market-cap today could not be pinned down from reachable sources -- next pass should prioritize refreshing price, market cap and short interest now that the stock has repriced sharply off its approval.",
+  "notes": "This name was NOT quiet: a new dilutive public offering (announced/priced ~Nov 5, closing ~Nov 9, 2026) occurred since the Oct 30 FDA approval catalyst, plus the scheduled Nov 10 Q3 2026 earnings release. Recommend treating quietRuns as reset rather than incremented. Could not independently verify actual Q3 2026 reported figures, current share price, or market cap — Yahoo Finance, Finviz, StockTitan and SEC.gov all returned DNS/egress failures in this sandbox; all figures above are from WebSearch result snippets citing aggregator sites (finviz news index, GuruFocus, 1stOncology), not primary filings.",
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

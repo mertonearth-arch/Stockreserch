@@ -1,20 +1,82 @@
 {
   "ticker": "FF",
   "name": "FutureFuel Corp.",
-  "sector": "Materials",
+  "sector": "Specialty Chemicals & Biofuels",
   "theme": "Specialty Chemicals & Biofuels",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T05:31:58.857Z",
-  "fundamentals": {},
+  "lastResearched": "2026-11-11T21:19:14.072Z",
+  "fundamentals": {
+    "marketCap": {
+      "value": 243880000,
+      "asOf": "2026-10-23",
+      "source": "foxbusiness.com quote page (pre-earnings, at $5.51/share)"
+    },
+    "float": {
+      "value": null,
+      "note": "Not established."
+    },
+    "sharesOutstanding": {
+      "value": 43860000,
+      "asOf": "2026-10-23",
+      "source": "foxbusiness.com"
+    },
+    "shortInterest": {
+      "value": 2.2,
+      "asOf": "2026-08",
+      "source": "equibles.com (945K shares short, 2.2% of float, 3.1 days to cover)"
+    },
+    "cash": {
+      "value": null,
+      "note": "Company stated a plan to rebuild cash to $50M over the next year post-Q3 2026 (Seeking Alpha), implying cash is currently below that target; exact Q3 2026 cash balance not confirmed from a primary source."
+    },
+    "debt": {
+      "value": null,
+      "note": "Not established."
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "negative trailing earnings (FY2025 net loss; Q3 2026 net loss)",
+      "asOf": "2026-11-11"
+    },
+    "eps": [
+      {
+        "period": "FY2024",
+        "value": 0.35,
+        "basis": "diluted GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": -1.13,
+        "basis": "diluted GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.19,
+        "basis": "diluted GAAP"
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 361.2,
+      "note": "Revenue $104.7M vs $22.7M in Q3 2025; some sources describe this as a '361%' increase (biofuel revenue specifically was cited elsewhere as up ~1,137% YoY)."
+    },
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established; FY2025 annual results were released mid-March 2026, suggesting FY2026 annual results likely land similarly in March 2027, but this is inferred, not confirmed."
+    }
+  },
   "price": {
     "last": null,
-    "changePct": -30,
+    "changePct": null,
     "asOf": "2026-11-11",
-    "source": "Benzinga premarket movers roundup"
+    "note": "No confirmed Nov 11, 2026 closing price found. Last dated pre-earnings price found: $5.19 close on 2026-10-12 (MarketBeat). Post-earnings (Nov 9/10) prices reported range $2.78-$5.07 depending on source/timing -- see conflicts."
   },
   "catalysts": [
     {
@@ -23,11 +85,57 @@
       "headline": "FutureFuel fell ~30% premarket after its Q3 2026 results; no further detail (reported figures, consensus comparison) located beyond the aggregator mover headline this session.",
       "impact": "-30% premarket",
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "FutureFuel Q3 2026 results: revenue $104.7M (up from $22.7M in Q3 2025); net loss $8.4M (-$0.19/diluted share) vs $9.2M loss a year earlier; Biofuel segment posted a $9.8M gross loss on elevated feedstock costs and $8.7M in derivative losses despite record production/sales volumes and higher utilization; Chemicals segment revenue grew from capacity expansions despite maintenance-driven volume declines; management said orders booked through early November covered >90% of Q4 biodiesel production capacity and guided to ~$7M of Q4 adjusted EBITDA; plan outlined to rebuild cash to $50M over the next year",
+      "impact": "Stock fell sharply after the print; magnitude reported inconsistently across sources from -29% to -45% (see conflicts)",
+      "source": "https://www.stocktitan.net/news/FF/future-fuel-announces-third-quarter-2026-d8j1np7v5xnb.html"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "dividend",
+      "headline": "FutureFuel declared Q3 2026 cash dividend of $0.01/share (payable Sept. 18, 2026 to holders of record Sept. 4, 2026), maintaining the reduced rate",
+      "impact": "n/a",
+      "source": "https://www.chartmill.com/news/external/61988/gnwcq-2026-6-30-futurefuel-corp-declares-third-quarter-2026-cash-dividend"
+    },
+    {
+      "date": "2026-03",
+      "type": "guidance/dividend cut",
+      "headline": "Board of Directors cut the quarterly dividend from $0.06/share to $0.01/share effective for Q2 2026, to preserve cash for projects and opportunistic buybacks",
+      "impact": "n/a",
+      "source": "search aggregation citing company disclosure (exact primary URL not retrieved)"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Post-earnings stock-price decline reported inconsistently: Arkansas Business says shares 'fell as much as 29%' after closing at $5.07 (closest match to the task's stated ~30% figure); Investing.com reports a ~45.17% drop to $2.78 from $5.07; Alphastreet reports the stock at $2.99, down 41.0%; a Motley Fool transcript page shows -38.46%. These may reflect different measurement windows (after-hours vs. next-day regular session vs. cumulative multi-day) that were not reconciled from available sources.",
+    "Revenue growth YoY for Q3 2026 described as both '361%' (stocktitan headline) and the biofuel segment specifically as '+1,137%' (biobased-diesel.com) -- likely referring to different scopes (total company vs. biofuel segment) but not fully reconciled.",
+    "The task's stated catalyst (-30% premarket move, 2026-11-11) most closely matches the Arkansas Business figure (~29%, after-hours) dated to the Nov 9 release, not a distinct Nov 11 move; no separate Nov 11-dated price action was found."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "am",
@@ -40,14 +148,24 @@
       "from": "daily"
     }
   ],
-  "notes": "New stub, AM pass. Thinly sourced (single aggregator roundup, no primary release found this session) -- PM pass to verify and fill in fundamentals.",
+  "notes": "SEC.gov, panabee.com, pluang.com, benzinga.com, stocktitan.net, and finviz.com all failed to resolve via WebFetch in this session (network restrictions); all figures above come from WebSearch result summaries of those sources, not direct document reads.",
   "lastPass": {
     "date": "2026-11-11",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "move -30%"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

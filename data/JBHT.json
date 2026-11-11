@@ -1,20 +1,18 @@
 {
   "ticker": "JBHT",
   "name": "J.B. Hunt Transport Services, Inc.",
-  "sector": "Industrials",
+  "sector": "Trucking & Logistics",
   "theme": "Transportation & Logistics",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.097Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.097Z",
   "fundamentals": {
     "marketCap": {
-      "value": 20800000000,
-      "asOf": "2026-10-30",
-      "source": "PitchBook ($221.08/share, 93.9M shares)",
-      "note": "Corroborates, within ~3%, the prior 2026-10-29 Upstox reading of $21.54B/$221.82 already on file; both sit well below the undated Yahoo (~$25.06B), Motley Fool ($26.39B/$266.67) and StockCircle ($25.52B) figures already flagged as likely pre-earnings/stale. Not used to replace the existing dated figure -- recorded as a corroborating second source at a slightly different date/share-count basis."
+      "value": null,
+      "note": "Not established — price/fundamentals aggregators (Yahoo Finance, Finviz) failed DNS resolution in this sandbox."
     },
     "float": {
       "value": null,
@@ -47,27 +45,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company is profitable; a reliable current share price plus full trailing-quarter EPS breakdown were not both available to compute a defensible multiple this session",
-      "asOf": "2026-10-23"
+      "note": "not established in accessible sources",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": 5.56,
-        "basis": "GAAP diluted",
-        "note": "Per company's January 2026 Q4/full-year 2025 release (prior-year comparison)"
-      },
-      {
-        "period": "FY2025",
-        "value": 6.12,
-        "basis": "GAAP diluted",
-        "note": "Full-year 2025 revenue $12.00B (-1%); operating income $865.1M (+4%); up 10% YoY from FY2024's $5.56"
-      },
-      {
         "period": "Q3 2026",
         "value": 1.82,
-        "basis": "GAAP diluted",
-        "note": "vs $1.76 a year earlier; one source cites a $1.92 consensus (missed), another cites $1.89 consensus"
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
@@ -95,12 +80,13 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 20
+      "pct": 21,
+      "note": "Talk Business & Politics reported total company revenue up 21% YoY to $3.68B for Q3 2026. A separate Zacks piece cited intermodal segment revenue (not total company revenue) up ~20% YoY to $1.83B — a different metric, not a direct conflict, but flagged for context since a 21% total-company jump is larger than JBHT's recent historical quarterly growth rate and was not corroborated by a primary-source press release in accessible search results."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No confirmed or estimated Q4 2026/FY2026 date found; FY2025 Q4 was reported 2026-01-15, so a mid-January 2027 report is a plausible but unconfirmed pattern"
+      "note": "Q4 2026 date not found in accessible sources."
     }
   },
   "price": {
@@ -110,6 +96,18 @@
     "source": "Upstox"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "corporate",
+      "headline": "J.B. Hunt announced participation in upcoming investor conferences, including Baird's 2026 Global Industrial Conference in Chicago on Nov 10",
+      "source": "https://www.businesswire.com/news/home/20251029590042/en/J.B.-Hunt-Transport-Services-Inc.-Announces-Participation-in-Upcoming-Investor-Conferences/"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net earnings $172.4M ($1.82 diluted EPS); total revenue reported up ~21% YoY to $3.68B (per Talk Business); intermodal segment revenue up ~20% YoY to $1.83B (per Zacks)",
+      "source": "https://talkbusiness.net/2026/10/j-b-hunt-third-quarter-earnings-rise-narrowly-revenue-up-20/"
+    },
     {
       "date": "2026-10-15",
       "type": "earnings",
@@ -147,15 +145,26 @@
       "source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-16-133949098.html"
     }
   ],
-  "conflicts": [
-    "Market cap: $26.19B (asOf 2026-07-06, at $277.74) vs. $21.21B (asOf 2026-10-06, at $225.93) -- a ~19% decline between snapshots that is larger than the single-digit earnings-day price move disclosed for 2026-10-15, so part of this gap is unexplained/unreconciled rather than assumed to be a single news-driven move. No indication of a reverse split; flagged for data-quality awareness only.",
-    "Short interest, mid-2026: MarketBeat 2,101,776 shares (~2.3% of shares outstanding) as of 2026-07-15 vs. Equibles 2.7M shares (2.9% of float) as of 2026-08-19 -- different dates and denominators, not reconciled.",
-    "The on-file 2026-09-16 catalyst (warning of a possible 5-10% Q3 earnings decline) conflicts with the actual reported Q3 2026 results (2026-10-15), which showed diluted EPS up 3.4% YoY rather than down; not independently reconciled, both are recorded.",
-    "Market cap/price snapshots continue to diverge: Upstox $221.82/$21.54B (2026-10-29, dated) vs. undated Yahoo Finance ~$25.06B, Motley Fool $26.39B/$266.67, and StockCircle $25.52B -- the undated readings look pre-earnings/stale rather than genuinely current, but not independently reconciled this session."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-06: no new dated catalyst found since the Oct 15, 2026 Q3 print already on file. No confirmed Q4 2026/FY2026 earnings date found. Searches surfaced only stale (pre-November, mostly summer 2026) price and analyst-target snapshots already reflected in the on-file conflicts. No changes made this pass.",
+  "notes": "No material news found since the Oct 15, 2026 Q3 print beyond routine investor-conference participation and a regular quarterly dividend (record date Nov 6, 2026; payable Nov 20, 2026 — exact declaration date not confirmed, so omitted from dated catalysts list). Fundamentals appear unchanged. This is genuinely quiet — no filler catalysts added. 52-week trading range was cited elsewhere as roughly $158–$300 but could not be confirmed against a live quote.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -306,10 +315,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

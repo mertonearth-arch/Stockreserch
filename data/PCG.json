@@ -1,54 +1,36 @@
 {
   "ticker": "PCG",
   "name": "PG&E Corporation",
-  "sector": null,
+  "sector": "Utilities",
   "theme": "Utilities & Wildfire Liability",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-10T21:26:29.099Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-11T21:19:14.101Z",
   "fundamentals": {
     "marketCap": {
-      "value": 34659000000,
-      "asOf": "2026-10-22",
-      "source": "Derived: 2,680,173,293 shares (SEC 10-Q, 2026-10-14) x $12.93 (2026-10-22 post-earnings close)",
-      "note": "An alternate calc excluding the 477.7M utility-held shares (~2.2026B shares x $12.93) gives ~$28.49B instead — see conflicts."
-    },
-    "float": {
       "value": null,
       "asOf": null,
-      "note": "not found this session"
+      "note": "Not retrieved this session."
     },
-    "sharesOutstanding": {
-      "value": 2680173293,
-      "asOf": "2026-10-14",
-      "source": "PG&E Corp Form 10-Q (Q3 2026, SEC EDGAR, sec.gov/Archives/edgar/data/0001004980/000100498026000055/pcg-20260930.htm)",
-      "note": "Filing's own footnote states this total includes 477,743,590 shares of PG&E Corp common stock held by Pacific Gas and Electric Company (its utility subsidiary); excluding those gives ~2.2026B shares. Both readings are carried — see conflicts."
-    },
-    "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
-    },
-    "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "could not access 10-Q/balance sheet data this session"
-    },
-    "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "could not access 10-Q/balance sheet data this session"
-    },
+    "float": null,
+    "sharesOutstanding": null,
+    "shortInterest": null,
+    "cash": null,
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "trailing EPS is positive (not negative), but a full trailing-twelve-month EPS figure could not be assembled this session (only Q3 2026 and 9-month 2026 figures were available, not Q4 2025), so trailing P/E could not be computed; forward P/E not found",
-      "asOf": "2026-10-22"
+      "note": "Not retrieved this session."
     },
     "eps": [
+      {
+        "period": "Q3 2025",
+        "value": 0.37,
+        "basis": "GAAP diluted"
+      },
       {
         "period": "Q3 2026",
         "value": 0.34,
@@ -57,17 +39,8 @@
       {
         "period": "Q3 2026",
         "value": 0.41,
-        "basis": "non-GAAP core"
-      },
-      {
-        "period": "Q3 2025",
-        "value": 0.37,
-        "basis": "GAAP diluted (prior-year comparison)"
-      },
-      {
-        "period": "Q3 2025",
-        "value": 0.5,
-        "basis": "non-GAAP core (prior-year comparison)"
+        "basis": "core/non-GAAP",
+        "note": "down from $0.50 a year earlier; missed Zacks consensus of $0.42 by 2.4%"
       },
       {
         "period": "9M 2026",
@@ -75,19 +48,9 @@
         "basis": "GAAP diluted"
       },
       {
-        "period": "9M 2026",
-        "value": 1.24,
-        "basis": "non-GAAP core"
-      },
-      {
         "period": "9M 2025",
         "value": 0.89,
-        "basis": "GAAP diluted (prior-year comparison)"
-      },
-      {
-        "period": "9M 2025",
-        "value": 1.14,
-        "basis": "non-GAAP core (prior-year comparison)"
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
@@ -100,21 +63,28 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -0.99
+      "pct": -1,
+      "note": "Total revenues $6.19B vs $6.25B in Q3 2025."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "On-file date (2026-10-22) was TODAY's Q3 2026 release, now captured as a catalyst below rather than a future date. The next report would be Q4/full-year 2026 results (typically released in February), but no confirmed date was found this session."
+      "note": "No next earnings date found; consistent with prior state."
     }
   },
   "price": {
-    "last": 12.93,
+    "last": 13.4,
     "changePct": null,
-    "asOf": "2026-10-22",
-    "source": "StockTitan/GuruFocus/Benzinga/Investing.com earnings-day coverage (post Q3 2026 earnings close, carried forward from prior pass's catalyst text)"
+    "asOf": "2026-11-04",
+    "note": "Figure is a Trefis analytical estimate (not a confirmed exchange closing price) representing a -22.6% change from the 2026-07-31 level. No confirmed quote for 2026-11-11 retrieved before the search budget was exhausted."
   },
   "catalysts": [
+    {
+      "date": "2026-10-22",
+      "type": "earnings",
+      "headline": "PG&E reported Q3 2026 results: GAAP diluted EPS $0.34 (down from $0.37), core/adjusted EPS $0.41 (down from $0.50, missing consensus), revenue $6.19B (-1% YoY); reaffirmed 2026 core EPS guidance of $1.64-$1.66 and 2027 guidance of $1.78-$1.82; reaffirmed a previously announced $2 billion cut to the 2027 capital plan",
+      "source": "https://www.nasdaq.com/articles/pge-q3-earnings-lag-estimates-revenues-decrease-year-over-year"
+    },
     {
       "date": "2026-10-22",
       "type": "earnings",
@@ -153,6 +123,12 @@
     },
     {
       "date": "2026-09-02",
+      "type": "strategic review / capital plan",
+      "headline": "PG&E launched a strategic review and cut its 2027 capital plan by $2 billion",
+      "source": "https://www.fool.com/investing/2026/09/02/why-pge-stock-keeps-going-down/"
+    },
+    {
+      "date": "2026-09-02",
       "type": "corporate action",
       "headline": "PG&E Corp launches strategic review aimed at regaining investment-grade credit ratings (lost in 2019 Chapter 11); management says wildfire policy 'is holding us back'",
       "impact": "underscores ongoing credit overhang",
@@ -164,6 +140,13 @@
       "headline": "California Assembly declines to vote on SB 492; bill dies without passing for the session",
       "impact": "mixed -- avoided the specific bad version, but no durable wildfire-liability fix enacted",
       "source": "https://www.insurancejournal.com/news/west/2026/09/02/883615.htm"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "wildfire liability / legislative",
+      "headline": "PG&E shares fell more than 20% after a Sacramento legislative effort to limit utilities' exposure to lawsuits from insurance companies over wildfire losses collapsed",
+      "impact": "-20%+ single session",
+      "source": "https://www.fool.com/investing/2026/08/31/why-pge-stock-just-crashed/"
     },
     {
       "date": "2026-08-31",
@@ -207,12 +190,33 @@
     }
   ],
   "conflicts": [
-    "Market cap depends on which PCG share count is used: total shares of record per the Q3 2026 10-Q (2,680,173,293 as of 2026-10-14) implies ~$34.66B at the 2026-10-22 close of $12.93, while excluding the 477,743,590 shares the filing says are held by Pacific Gas and Electric Company (the utility subsidiary) implies ~$28.49B instead. Both readings are recorded rather than picking one.",
-    "The price on file from the prior pass ($13.27, no asOf date) is inconsistent with that same pass's own catalyst text describing an intraday move from a ~$13.15 prior close down to ~$12.93 after the 2026-10-22 Q3 earnings miss; this pass uses $12.93 (sourced to that catalyst text) in its place."
+    "An AAII article reports a Q3 EPS of $0.40 with a report date of 2026-07-23, which does not match PG&E's own Q3 2026 release ($0.34 GAAP, dated 2026-10-22) and appears to be a mislabeled/different quarter — not relied upon.",
+    "Q3 2026 net income is reported as $749M (income available to common shareholders, used for the $0.34 EPS) by one source vs $776M (total net income before preferred dividends) by another — both figures are legitimate but measure different things."
   ],
   "pendingFilings": [],
-  "notes": "PM 2026-11-06: no new PCG-specific dated news found for November 2026 (searched wildfire liability, bond/offering activity, and general news -- nothing beyond what's already on file from the 2026-10-22 Q3 earnings catalysts). A WebSearch snapshot put the most recent dated PCG close at $13.29 on 2026-11-03 (+0.1%, volume 22.1M shares, 52-week range $11.77-$19.16), but since today's (2026-11-06) close could not be independently confirmed, price is left unchanged from the on-file 2026-10-22 ($12.93) figure per the 'omit rather than guess' rule rather than substituting a stale same-week figure. Fundamentals otherwise unchanged -- quiet pass.",
+  "notes": "Remains quiet on genuinely new, confirmed developments since the Oct 22, 2026 Q3 report (this would be quiet pass #3). Two previously flagged near-term catalysts — a CPUC wildfire report due 2026-11-01 and a proposed CPUC decision on Kincade/Dixie fire cost recovery expected in November 2026 — were referenced in secondary analysis but no dated source confirming their actual publication/outcome was found before the search budget was exhausted; flagging as pending/unconfirmed rather than fabricating an outcome. Fitch reportedly held PG&E's rating at BBB- but moved the outlook to Negative from Stable (citing wildfire liability risk and the lack of legislative reform) — exact date not established, so excluded from the dated catalysts list; noted here only. Theme (Utilities & Wildfire Liability) is strongly reconfirmed by this quarter's news.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -432,10 +436,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,20 +1,18 @@
 {
   "ticker": "OKTA",
   "name": "Okta, Inc.",
-  "sector": "Technology - Software & Security",
+  "sector": "Software — Infrastructure / Cybersecurity",
   "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-10T21:26:29.098Z",
+  "lastResearched": "2026-11-11T21:19:14.099Z",
   "fundamentals": {
     "marketCap": {
-      "value": 31180000000,
-      "asOf": "2026-09-30",
-      "source": "Fintel.io, with 174.82M shares outstanding",
-      "note": "Up from $24.89B (2026-07-31, Finhacker) and $25.92B (2026-07-16, Capital.com), consistent with the +12% to +29% price reaction reported around the 2026-08-26 earnings beat."
+      "value": null,
+      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
     },
     "float": {
       "value": null,
@@ -48,29 +46,10 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Okta is GAAP-profitable (FY2026 net income $235M) but a precise current trailing EPS/multiple was not computed this session for lack of a confirmed current share price",
-      "asOf": "2026-10-23"
+      "note": "not established in accessible sources",
+      "asOf": "2026-11-11"
     },
-    "eps": [
-      {
-        "period": "FY2025 (ended Jan 2025)",
-        "value": 0.06,
-        "basis": "GAAP diluted",
-        "note": "GAAP net income $28M; basic EPS was $0.16"
-      },
-      {
-        "period": "FY2026 (ended Jan 2026)",
-        "value": 1.31,
-        "basis": "GAAP diluted",
-        "note": "GAAP net income $235M; basic EPS was $1.33"
-      },
-      {
-        "period": "Q2 FY2027 (ended 2026-07-31)",
-        "value": 0.65,
-        "basis": "GAAP diluted",
-        "note": "Non-GAAP diluted EPS was $1.05 vs. $0.96-$0.97 consensus. Net income for the quarter is reported inconsistently across aggregators ($116M per Quartr vs. $194.0M per TIKR); not reconciled -- see conflicts"
-      }
-    ],
+    "eps": [],
     "revenue": [
       {
         "period": "Q2 FY2027 (ended 2026-07-31)",
@@ -80,13 +59,13 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 FY2027",
-      "pct": 10.6
+      "period": null,
+      "pct": null,
+      "note": "Search snippets referenced quarterly revenue figures (e.g. ~$728M beating a ~$711M forecast; a separate fiscal-Q3 print with revenue up ~12% YoY and GAAP net income of $43M) but fiscal-quarter/fiscal-year labeling across sources was ambiguous/inconsistent, so no figure is reported here rather than risk mislabeling."
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": true,
-      "note": "Company's own press release: Q3 FY2027 (qtr ended 2026-10-31) after close 2026-12-01, webcast 2pm PT. Matches/confirms the on-file date."
+      "confirmed": true
     }
   },
   "price": {
@@ -96,6 +75,18 @@
     "note": "No current figure confirmed. A prior-pass figure of $212.63 (source/date unclear) could not be reverified; a new market-cap/shares-outstanding snapshot (Fintel, 2026-09-30) implies a share price of roughly $178, a large gap from $212.63 that could not be reconciled -- see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "index",
+      "headline": "Okta's addition to the S&P 500 became effective before the market open, replacing Kenvue Inc. (KVUE); Okta moved up from the S&P MidCap 400",
+      "source": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "index",
+      "headline": "S&P Dow Jones Indices announced Okta will join the S&P 500, effective Nov 4, 2026",
+      "source": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"
+    },
     {
       "date": "2026-10-30",
       "type": "index",
@@ -195,12 +186,26 @@
       "note": "Exact May 2026 date not pinned down precisely."
     }
   ],
-  "conflicts": [
-    "Price remains unresolved and got worse this pass: regional Yahoo Finance snapshots (hk/au, undated) show a 'previous close' of $92.93-$93.80, while a separate undated ryanoconnellfinance snapshot shows $187.26 (dated to an Oct 16 close) and a MarketBeat item (2026-09-10) shows a 52-week-high move to ~$177. These cannot all be the same stock at nearby dates without an unreported split; no Okta stock split was found in this session's search. Left price blank rather than guess which (if any) reading is current."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM 2026-11-06: main finding is the company's own confirmed Q3 FY2027 earnings date (Dec 1, 2026, after close), resolving the three-way next-earnings conflict on file. No new dated catalyst (contract, filing, FDA/reg, offering) found since the 2026-07-30 Permiso acquisition already on file. Current share price could not be established -- see conflicts; fundamentals (market cap, EPS, revenue, cash/debt) left unchanged from the 2026-11-05 pass since no newer dated figures were found this session.",
+  "notes": "No further Okta-specific news found dated after Nov 4, 2026 in accessible sources. Other search hits were stale (ranging roughly July–September 2026, e.g. the Permiso acquisition and AI-agent-security commentary) and not usable as recent catalysts. Fundamentals (EPS, revenue growth, market cap, share counts) could not be reliably confirmed via accessible sources in this research pass — Yahoo Finance, Finviz, and similar aggregators all failed DNS resolution in this sandbox, and WebSearch snippets on Okta's financials used inconsistent fiscal-period labels. Next earnings date (2026-12-01, confirmed) carried forward unchanged from the existing record; no contradicting information found.",
   "history": [
+    {
+      "date": "2026-11-11",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-10",
       "run": "pm",
@@ -432,12 +437,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflict resolved"
     ],
     "tradingDay": true
   }
