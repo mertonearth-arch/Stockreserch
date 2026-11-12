@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-12",
+  "run": "am",
+  "movers": [
+    "FOSL",
+    "CRWV",
+    "TLF",
+    "LWLG"
+  ],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "FOSL",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 25.7%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CRWV",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 13.7%"
+      ]
+    },
+    {
+      "ticker": "TLF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 10.7%"
+      ]
+    },
+    {
+      "ticker": "LWLG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move -13%"
+      ]
+    }
+  ],
+  "created": [
+    "FOSL",
+    "CRWV",
+    "TLF",
+    "LWLG"
+  ],
+  "promoted": [],
+  "demoted": [],
+  "quiet": []
+}

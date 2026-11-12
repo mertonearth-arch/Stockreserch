@@ -1,0 +1,61 @@
+{
+  "ticker": "CRWV",
+  "name": "CoreWeave, Inc.",
+  "sector": "AI Cloud Infrastructure / Data Centers",
+  "theme": "AI Cloud Infrastructure",
+  "themeLabel": "hot sector",
+  "tier": "daily",
+  "addedOn": "2026-11-12",
+  "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "fundamentals": {
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 report appears to have just been released; prior preview coverage expected it around Nov 10, 2026. Actual figures not independently confirmed this session."
+    }
+  },
+  "price": {
+    "changePct": 13.7,
+    "asOf": "2026-11-12",
+    "note": "Premarket move reported as +13.7% (Investing.com) to ~+14% (MarketBeat). No confirmed last price located this session."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "CoreWeave reported Q3 2026 results described as topping estimates; specific revenue/EPS figures not independently located this session",
+      "impact": "+13.7% to ~+14% premarket",
+      "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-12",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 13.7%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "AM-pass stub only; fundamentals not researched. PM pass should pull the actual Q3 2026 print (revenue, EPS, guidance, interest expense) from a primary source.",
+  "lastPass": {
+    "date": "2026-11-12",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "move 13.7%"
+    ],
+    "tradingDay": true
+  }
+}

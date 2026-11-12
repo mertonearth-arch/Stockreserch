@@ -1,0 +1,66 @@
+{
+  "ticker": "FOSL",
+  "name": "Fossil Group, Inc.",
+  "sector": "Consumer Discretionary (Watches & Accessories)",
+  "theme": "Consumer Apparel & Retail",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-11-12",
+  "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "fundamentals": {
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 appears to have just reported (sources disagree on exact date, Nov 9 or Nov 11); next report not established."
+    }
+  },
+  "price": {
+    "changePct": 25.7,
+    "asOf": "2026-11-12",
+    "note": "Premarket move reported inconsistently across aggregators (Stockmarketwatch +25.7%, MarketBeat ~+23%, Investing.com +20.2% described as after-hours) — see conflicts. No confirmed last price located this session."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "Fossil Group reported Q3 2026 results described as an earnings beat and raised its full-year 2026 revenue outlook to approximately $990M (up from a prior ~$954-974M range)",
+      "impact": "Premarket move reported between +20.2% and +25.7% across aggregators",
+      "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    }
+  ],
+  "conflicts": [
+    "Premarket move magnitude for FOSL reported inconsistently: Stockmarketwatch +25.7%, MarketBeat ~+23%, Investing.com +20.2% (labeled after-hours rather than premarket) — not reconciled this session.",
+    "Report date for the underlying Q3 2026 print is unclear: one EarningsWhispers listing says Nov 9, 2026 after close; another says Nov 11, 2026 4:15pm ET."
+  ],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-12",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 25.7%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "AM-pass stub only; fundamentals not researched. PM pass should confirm the actual Q3 2026 print, exact date, and current price.",
+  "lastPass": {
+    "date": "2026-11-12",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "move 25.7%",
+      "conflicts updated"
+    ],
+    "tradingDay": true
+  }
+}

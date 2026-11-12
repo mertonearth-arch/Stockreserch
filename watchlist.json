@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T21:19:14.120Z",
+  "updated": "2026-11-12T05:32:57.149Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -67,6 +67,12 @@
       "quietRuns": 0,
       "lastResearched": "2026-11-11T21:19:14.093Z"
     },
+    "CRWV": {
+      "tier": "daily",
+      "theme": "AI Cloud Infrastructure",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-12T05:32:57.135Z"
+    },
     "CYTK": {
       "tier": "daily",
       "theme": "Biotech Catalyst",
@@ -120,6 +126,12 @@
       "theme": "Consumer Apparel & Retail",
       "quietRuns": 0,
       "lastResearched": "2026-11-11T21:19:14.095Z"
+    },
+    "FOSL": {
+      "tier": "daily",
+      "theme": "Consumer Apparel & Retail",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-12T05:32:57.135Z"
     },
     "FTHM": {
       "tier": "daily",
@@ -186,6 +198,12 @@
       "theme": "AI Semiconductors",
       "quietRuns": 0,
       "lastResearched": "2026-11-11T21:19:14.097Z"
+    },
+    "LWLG": {
+      "tier": "daily",
+      "theme": "Advanced Materials",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-12T05:32:57.135Z"
     },
     "MRNA": {
       "tier": "daily",
@@ -331,6 +349,12 @@
       "quietRuns": 0,
       "lastResearched": "2026-11-11T21:19:14.105Z"
     },
+    "TLF": {
+      "tier": "daily",
+      "theme": "Consumer Apparel & Retail",
+      "quietRuns": 0,
+      "lastResearched": "2026-11-12T05:32:57.135Z"
+    },
     "TPST": {
       "tier": "daily",
       "theme": "Biotech Catalyst",
@@ -369,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-11",
-    "run": "pm"
+    "date": "2026-11-12",
+    "run": "am"
   }
 }

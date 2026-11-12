@@ -1,0 +1,61 @@
+{
+  "ticker": "TLF",
+  "name": "Tandy Leather Factory, Inc.",
+  "sector": "Consumer Discretionary (Specialty Leather Retail)",
+  "theme": "Consumer Apparel & Retail",
+  "themeLabel": "nano-cap",
+  "tier": "daily",
+  "addedOn": "2026-11-12",
+  "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "fundamentals": {
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established; Q3 2026 appears to have just reported."
+    }
+  },
+  "price": {
+    "changePct": 10.7,
+    "asOf": "2026-11-12",
+    "note": "Premarket move per Stockmarketwatch. No confirmed last price located this session; Q3 2025 (year-ago) close was ~$2.95-2.96."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "Tandy Leather reported a sharp turnaround in third-quarter (2026) profitability, per aggregator coverage; specific figures not independently located this session (Q3 2025 a year earlier had shown a $1.4M net loss)",
+      "impact": "+10.7% premarket",
+      "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-12",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move 10.7%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "AM-pass stub only; fundamentals not researched. PM pass should confirm actual Q3 2026 results against a primary source.",
+  "lastPass": {
+    "date": "2026-11-12",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "move 10.7%"
+    ],
+    "tradingDay": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "LWLG",
+  "name": "Lightwave Logic, Inc.",
+  "sector": "Advanced Materials (Polymer Photonics)",
+  "theme": "Advanced Materials",
+  "themeLabel": "story stock",
+  "tier": "daily",
+  "addedOn": "2026-11-12",
+  "addedReason": "premarket decliner on reported foundry integration delays",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "fundamentals": {
+    "nextEarnings": {
+      "date": null,
+      "confirmed": false,
+      "note": "Not established this session."
+    }
+  },
+  "price": {
+    "changePct": -13,
+    "asOf": "2026-11-12",
+    "note": "Premarket move per Investing.com/Stockmarketwatch roundup. No confirmed last price located this session; this appears to be a separate, more recent delay disclosure than a similar June 2026 selloff (-10% on foundry timeline extension) already reported elsewhere."
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "operational/guidance",
+      "headline": "Lightwave Logic fell on reports that foundry integration delays pushed expected volume production back to 2028",
+      "impact": "-13% premarket",
+      "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-12",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "move -13%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "AM-pass stub only; fundamentals not researched. Note the company has had at least one earlier, similarly-themed foundry-delay selloff (~-10% in June 2026) — PM pass should confirm this is a distinct Nov 2026 event and not a stale re-surfaced story.",
+  "lastPass": {
+    "date": "2026-11-12",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "nextEarnings updated",
+      "move -13%"
+    ],
+    "tradingDay": true
+  }
+}
