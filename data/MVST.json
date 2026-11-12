@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.073Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.085Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -105,6 +105,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-11",
       "run": "pm",
       "quiet": false,
@@ -137,25 +145,12 @@
       "from": "daily"
     }
   ],
-  "notes": "SEC.gov did not resolve via WebFetch in this session (network restriction), so the SEC-filed Exhibit 99.1 earnings release content above is drawn from WebSearch result summaries that explicitly cite and quote that filing, not a direct document read. No corroborating no-connection price source for the exact -48.5% session move was found independently of the task's own stated figure.",
+  "notes": "No new catalysts or fundamentals found since the Nov 9, 2026 earnings print on file. Could not confirm a post-earnings (Nov 10/11) closing price — only conflicting/undated snapshots were found (search results for 'Nov 11' iTiger articles describing a 7.23% drop and a separate 9.24% after-hours gain do not state a year, so could not be confirmed as 2026). Genuinely quiet beyond what's already recorded.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

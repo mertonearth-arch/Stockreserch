@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.082Z",
+  "lastResearched": "2026-11-12T21:17:16.069Z",
   "fundamentals": {
     "marketCap": {
       "value": 10650000000,
@@ -215,8 +215,16 @@
     "52-week range reported inconsistently across sources: 29.31–70.98 vs a separate source showing a high of 88.31."
   ],
   "pendingFilings": [],
-  "notes": "ACACIA-HCM (non-obstructive HCM) Phase 3 reportedly met both primary endpoints, supporting a planned Q4 2026 sNDA filing for that indication, but I could not find a specific, confirmed announcement date for the topline readout, so it is omitted from the dated catalyst list. The 2026-11-14 PDUFA date is for the separate, already-pending MAPLE-HCM sNDA (obstructive HCM) and remains undecided as of today's research (2026-11-11), three days ahead of the target date. No FDA decision, delay notice, or Complete Response Letter was found. Several fundamentals (current price, market cap, debt) are dated or unconfirmed because direct WebFetch access to most finance/aggregator sites and SEC EDGAR failed with DNS resolution errors in this sandbox, and the WebSearch budget for this task was exhausted before all gaps could be closed.",
+  "notes": "Checked ahead of the 2026-11-14 PDUFA target action date for the aficamten (MYQORZO) MAPLE-HCM supplemental NDA (oHCM label expansion to monotherapy use): no FDA decision found yet, consistent with the date being two days out. (Distinct from aficamten's original oHCM approval, which was granted in December 2025 -- confirmed via this session's search and not a new event.) No new catalyst to add; genuinely quiet since the 2026-11-11 pass on fundamentals and catalysts.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -534,22 +542,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

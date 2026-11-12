@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.106Z",
+  "lastResearched": "2026-11-12T21:17:16.091Z",
   "fundamentals": {
     "marketCap": {
       "value": 14540000,
@@ -60,6 +60,12 @@
     "note": "No reliable quote for 2026-11-11 found in accessible sources (stockanalysis.com, Google, CNBC are blocked in this environment). Most recent dated figure is from Nov 5."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "contract",
+      "headline": "Announced a Phase II expansion of the Pamesa Net Zero industrial program: additional orders worth ~EUR6.83M (~$7.6M), adding a net 51 MWh of battery storage across two new industrial sites plus existing locations; equipment deliveries set for H1 2027. Company also cites a $53M industrial backlog across 10 manufacturing sites (366 MWh total capacity).",
+      "source": "https://www.panabee.com/news/turbo-energy-secures-7-6-million-phase-ii-expansion-for-pamesa-net-zero-industrial-progr"
+    },
     {
       "date": "2026-10-06",
       "type": "operational",
@@ -130,8 +136,18 @@
     "Price: $0.87 (tickertape, Nov 5 2026) vs $1.00 (Robinhood, Dec 8 2025) vs $1.94 (chartmill, undated) vs $3.59 (chartmill, March 2026, -12.65% that day) vs $0.806 (trade-ideas, undated) — wide dispersion, no single current price could be confirmed; given the microcap/illiquid profile, this looks like data staleness/provider lag rather than a confirmed reverse split, but could not be fully resolved."
   ],
   "pendingFilings": [],
-  "notes": "No company news found dated after 2026-10-06 in the sources checked (StreetInsider, Finviz, Benzinga, TipRanks, RTTNews, GlobeNewswire syndication, SEC EDGAR 6-K filings). A $100M mixed-securities shelf registration was referenced by one aggregator (stockanalysis.com, via search snippet) but no filing date could be confirmed independently, so it is not listed as a dated catalyst. Fundamentals (cash, debt, EPS) could not be established from accessible sources; TURB is a Spanish foreign private issuer reporting on Form 6-K, which limits standardized data coverage on US-facing aggregators.",
+  "notes": "PM pass 2026-11-12: added the Nov 10 Pamesa Phase II expansion catalyst. A Feb 9, 2026 bank-debt restructuring (EUR4.87M converted to long-term financing with Bankinter/CaixaBank/BBVA) was found but falls outside the ~6-month catalyst window, so not added. No reliable current price found this pass (stockanalysis.com/cnbc.com/google.com blocked); price field left as on file.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -293,22 +309,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

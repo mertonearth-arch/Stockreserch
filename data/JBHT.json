@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.097Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.083Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -90,10 +90,10 @@
     }
   },
   "price": {
-    "last": 221.82,
-    "changePct": null,
-    "asOf": "2026-10-29",
-    "source": "Upstox"
+    "last": 218.54,
+    "changePct": -0.45,
+    "asOf": "2026-11-06",
+    "source": "quote aggregation (Fox Business/Morningstar) via WebSearch, Nov 6 2026 close"
   },
   "catalysts": [
     {
@@ -147,8 +147,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No material news found since the Oct 15, 2026 Q3 print beyond routine investor-conference participation and a regular quarterly dividend (record date Nov 6, 2026; payable Nov 20, 2026 — exact declaration date not confirmed, so omitted from dated catalysts list). Fundamentals appear unchanged. This is genuinely quiet — no filler catalysts added. 52-week trading range was cited elsewhere as roughly $158–$300 but could not be confirmed against a live quote.",
+  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-10-15 Q3 2026 earnings and 2026-10-29 investor-conference announcement already on file. One source now cites investor-conference dates of both Nov 10 and Nov 17, 2026 without distinguishing which conference each is -- not treated as a new catalyst, just noted.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -315,18 +323,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

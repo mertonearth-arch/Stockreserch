@@ -8,12 +8,68 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "lastResearched": "2026-11-12T21:17:16.065Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
       "note": "Not established; Q3 2026 appears to have just reported."
+    },
+    "marketCap": {
+      "value": 19090000,
+      "asOf": "2026-10-23",
+      "source": "FoxBusiness",
+      "note": "Pre-earnings-print figure; not yet refreshed for the Nov 10 report or the Nov 12 continued move."
+    },
+    "sharesOutstanding": {
+      "value": 8190000,
+      "asOf": "2026-10-23",
+      "source": "FoxBusiness / Equibles"
+    },
+    "shortInterest": {
+      "value": 0.02,
+      "asOf": "2026-10-15",
+      "source": "FINRA via Equibles",
+      "note": "1,644 shares short; days to cover 1.00"
+    },
+    "cash": {
+      "value": 5700000,
+      "asOf": "2026-09-30",
+      "source": "company Q3 2026 8-K"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "TTM EPS not established; only the single Q3 2026 EPS figure ($0.06) is on hand"
+    },
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": -0.17,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 0.06,
+        "basis": "GAAP"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 17300000,
+        "yoy": null
+      },
+      {
+        "period": "Q3 2026",
+        "value": 18500000,
+        "yoy": 7.3
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 7.3
     }
   },
   "price": {
@@ -24,15 +80,47 @@
   "catalysts": [
     {
       "date": "2026-11-12",
+      "type": "move",
+      "headline": "Shares continued higher in premarket trading two sessions after the Q3 print, picked up by retail-aggregator coverage",
+      "impact": "+10.7% premarket",
+      "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-12",
       "type": "earnings",
       "headline": "Tandy Leather reported a sharp turnaround in third-quarter (2026) profitability, per aggregator coverage; specific figures not independently located this session (Q3 2025 a year earlier had shown a $1.4M net loss)",
       "impact": "+10.7% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results (quarter ended 2026-09-30): revenue $18.5M (+7.3% YoY from $17.3M); net income $0.5M vs net loss $1.4M a year earlier; EPS $0.06 vs $(0.17); operating income $0.6M; adjusted EBITDA $0.9M; gross margin 62.4% (up from 58.9%); cash fell to $5.7M from $16.1M at 12/31/25, mainly reflecting a $6.0M dividend paid in Q1 2026 plus inventory/store investment",
+      "impact": "Swing to profitability after a year-ago loss",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000909724/000114036126043052/ef20085096_ex99-1.htm"
     }
   ],
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "am",
@@ -46,15 +134,21 @@
       "from": "daily"
     }
   ],
-  "notes": "AM-pass stub only; fundamentals not researched. PM pass should confirm actual Q3 2026 results against a primary source.",
+  "notes": "One third-party analyst (Panabee) argues a non-recurring tariff refund drove ~270bps of the gross-margin improvement, implying underlying operating-margin expansion is more modest than the headline suggests — flagged as outside commentary, not company disclosure.",
   "lastPass": {
     "date": "2026-11-12",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated",
-      "move 10.7%"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated"
     ],
     "tradingDay": true
   }

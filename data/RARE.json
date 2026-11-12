@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.102Z",
+  "lastResearched": "2026-11-12T21:17:16.087Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -16,7 +16,11 @@
       "note": "Not retrieved this session."
     },
     "float": null,
-    "sharesOutstanding": null,
+    "sharesOutstanding": {
+      "value": 98600000,
+      "asOf": "2026-11-01",
+      "source": "chartrow.com / equibles.com (two independent aggregators agree: 98.6M / 98.59M)"
+    },
     "shortInterest": null,
     "cash": {
       "value": 401000000,
@@ -233,10 +237,24 @@
       "sourceName": "ir.ultragenyx.com"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: $1.59B (asOf ~2026-11-01, at a pre-earnings $16.10 close) vs $1.43B (equibles, asOf 2026-09-30) vs stale $2.65B readings from July/August 2026. No figure found that is confirmed post-Q3-earnings (report was 2026-11-03, workforce cut announced same day) — none used to update marketCap.",
+    "One aggregator (chartrow.com) lists 'next earnings Nov 3, 2026' as if upcoming, but Q3 2026 results were already reported on that date per the catalyst already on file — that source's earnings-date field is stale/wrong, not used."
+  ],
   "pendingFilings": [],
-  "notes": "Per the non-negotiable rules, analyst rating/price-target changes (Morgan Stanley to Equal Weight, BofA to Neutral, both following the August 2026 Phase 3 ASPIRE apazunersen Angelman-syndrome trial failure) were found in sources but deliberately excluded from this record as opinions/trade calls, not facts. Market cap, shares outstanding, short interest and discrete EPS figures were not retrieved before the session's WebSearch budget was exhausted — a follow-up message could continue this research.",
+  "notes": "No confirmed post-earnings (after 2026-11-03) price found this pass; existing price.last=16.30 (asOf 2026-11-02, pre-earnings) left unchanged rather than overwritten with unconfirmed figures.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -501,22 +519,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

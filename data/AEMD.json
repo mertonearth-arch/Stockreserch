@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.076Z",
+  "lastResearched": "2026-11-12T21:17:16.066Z",
   "fundamentals": {
     "marketCap": {
       "value": null
@@ -50,9 +50,9 @@
       "note": "Pre-revenue; fiscal Q3 2026 revenue was reported at $0.00. Nine-month operating expenses fell 26.9% YoY to about $5.36M; quarterly opex rose 13.6% YoY to about $2.06M on higher payroll."
     },
     "nextEarnings": {
-      "date": "2026-11-12",
+      "date": null,
       "confirmed": false,
-      "note": "Carried over from file; this session found no 8-K, press release, or earnings-calendar update confirming or changing this date before the WebSearch budget for the turn was exhausted. AEMD's fiscal-quarter cadence (Q3 FY2026 = Oct-Dec 2025, reported Feb 2026) implies the quarter being reported around November 2026 would be a later fiscal quarter (not independently identified this session)."
+      "note": "No 8-K or press release for the fiscal quarter ended 2026-09-30 located this session. Earnings-calendar aggregators disagree: Nov 10, Nov 11, and Nov 12 2026 have each been cited; none is a company-confirmed date."
     }
   },
   "price": {
@@ -178,10 +178,23 @@
       "source": "https://seekingalpha.com/pr/20398581"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "AEMD's next-earnings date is unresolved: aggregators variously cite Nov 10, Nov 11 (after close), and Nov 12 2026 (4:15pm ET) for the fiscal quarter ended 2026-09-30; no company press release or 8-K confirming any of these, or reporting results, was found this session."
+  ],
   "pendingFilings": [],
-  "notes": "Could not confirm whether a Q earnings release occurred around 2026-11-12 or identify any new catalysts since 2026-10-07; the WebSearch tool's shared per-turn budget was exhausted before a targeted follow-up query could run. Market cap, shares outstanding, float, short interest, debt, and FY2024/FY2025 annual EPS were not established this session.",
+  "notes": "No new catalysts found since the 2026-10-07 authorized-shares amendment already on file. Market cap, shares outstanding, float, short interest, debt and FY2024/FY2025 annual EPS remain unestablished.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -458,22 +471,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

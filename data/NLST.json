@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.088Z",
+  "lastResearched": "2026-11-12T21:17:16.060Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -40,25 +40,31 @@
       "note": "not established this session",
       "asOf": "2026-11-11"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Conflicting figures found and not reconciled: Panabee reports net income of $85M / $0.22 per diluted share, driven largely by a one-time $44M tax benefit from recognizing an $89M deferred tax asset; a separate TipRanks/TheFly headline reports Q3 EPS of $0.04 vs $0.07 in the prior-year quarter. Could not locate the company's own press release or 8-K this session to reconcile."
+      }
+    ],
     "revenue": [
       {
-        "period": "Q1 2026",
-        "value": 104900000,
-        "yoy": 262,
-        "note": "Source does not clearly specify whether this is product, licensing, or total revenue — flagged gap since licensing revenue specifically is Netlist's main thesis metric."
+        "period": "Q3 2026 (ended 2026-09-26)",
+        "value": 105100000,
+        "yoy": 149
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": 163,
-      "note": "Most recent CONFIRMED quarter found in sources (net sales $109.8M, +163% YoY, gross profit $22.9M +1,544% YoY, operating income $1.3M). Q3 2026 actual figures (reported after-market 2026-11-10 per company's own release schedule) were NOT located this session."
+      "period": "Q3 2026",
+      "pct": 149,
+      "note": "Net sales $105.1M vs $42.2M in Q3 2025, per Panabee; attributed to the Samsung settlement (license revenue) plus growing data-center memory product demand. Not independently corroborated by a primary source this session."
     },
     "nextEarnings": {
-      "date": "2026-11-10",
-      "confirmed": true,
-      "note": "Company itself scheduled Q3 2026 (quarter ended 2026-09-26) results for release after 4:00pm ET on Tuesday 2026-11-10, with a same-evening conference call. Actual reported figures (revenue, EPS, litigation update) could NOT be located in available sources this session — WebSearch budget was exhausted before locating the earnings release/8-K. Treat Q3 2026 actuals as STILL UNCONFIRMED pending further research."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 (quarter ended 2026-09-26) results were released 2026-11-10, resolving the prior pending report. No Q4 2026 earnings date found yet."
     }
   },
   "price": {
@@ -68,6 +74,13 @@
     "note": "Not established this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Netlist reported Q3 2026 results (quarter ended Sept 26, 2026): net sales $105.1M (+149% YoY vs $42.2M), ~$45M of it license-fee revenue tied to the Samsung settlement and ~$60M product sales; net income $85M ($0.22/diluted share) including a one-time $44M tax benefit from recognizing an $89M deferred tax asset. A separate secondary source instead reports Q3 EPS of $0.04 vs $0.07 a year ago — not reconciled (see conflicts).",
+      "impact": null,
+      "source": "https://www.panabee.com/news/netlist-earnings-q3-2026"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -182,12 +195,28 @@
     }
   ],
   "conflicts": [
-    "One third-party aggregator (via a search snippet) listed an NLST 'earnings date' of November 5 with a revenue estimate of $308.6M for the quarter, which conflicts with Netlist's own company-issued schedule of after-market Tuesday 2026-11-10. The company's own announced date (2026-11-10) should be treated as authoritative; the $308.6M estimate figure is unverified and not used in this record.",
-    "Search results gave two different pictures of the ITC litigation timeline: a Q1 2026 earnings-call summary pointed to an ITC trial 'this fall' (2026), while a Q2 2026 call summary instead emphasized pending appeals of the $303 million and $445 million jury awards (Samsung/Micron) and a newer, second Samsung ITC investigation, without repeating a fall-2026 trial date. Both readings are recorded; neither was reconciled this session."
+    "Q3 2026 EPS conflict: Panabee's $0.22/diluted-share GAAP figure (boosted by a one-time $44M deferred-tax-asset benefit) vs. a TipRanks/TheFly headline citing $0.04 vs $0.07 last year. Both are recorded; neither is treated as authoritative pending the primary earnings release.",
+    "Panabee also cites Q3 2026 operating cash flow of $245M, which looks implausibly high against $105.1M of revenue — flagged as unverified, not used as a recorded figure.",
+    "Carried forward, unresolved: one aggregator previously listed a Nov 5 earnings date / $308.6M revenue estimate that conflicts with the company's own Nov 10 schedule and the $105.1M actual now reported; the $308.6M figure appears to have been a bad estimate."
   ],
   "pendingFilings": [],
-  "notes": "NLST trades OTCQB (ticker context from source material), not a major exchange — relevant for float/short-interest data availability generally. Q3 2026 actual results (revenue, EPS, litigation update) were NOT found in available sources this session despite the report date (2026-11-10) having passed; the WebSearch budget for this session was exhausted before the earnings release or related 8-K could be located. This is the key open item requiring follow-up research. Market cap/shares/float/short-interest/cash/debt are null for the same reason (unresearched, not confirmed absent).",
+  "notes": "Q3 2026 figures above rest on a single secondary aggregator (Panabee); the official Netlist press release/8-K was not located via WebSearch this session (stockanalysis.com, cnbc.com, google.com are egress-blocked; SEC EDGAR full text was not found in results). Market cap, float, shares outstanding, short interest, cash and debt remain unestablished — not re-attempted this session, see prior record.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -441,21 +470,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
+      "1 new catalyst(s)",
       "eps updated",
+      "revenue updated",
       "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.079Z",
+  "lastResearched": "2026-11-12T21:17:16.067Z",
   "fundamentals": {
     "marketCap": {
       "value": null
@@ -47,7 +47,7 @@
     "nextEarnings": {
       "date": "2026-11-23",
       "confirmed": false,
-      "note": "File carries a conflicting prior estimate of 2026-11-20. This session's WebSearch budget was exhausted before a BMNR earnings-date-specific follow-up query could be run, so the conflict remains unresolved."
+      "note": "On-file date (2026-11-23) now also partly contradicted by FXEmpire, which lists 'Date of Next Report' as 2026-11-20 (labeled Q4'26, unconfirmed/estimated). MarketBeat separately shows the prior-year Q4 2025 report landed 2025-11-21. Conflict remains unresolved; both dates recorded."
     }
   },
   "price": {
@@ -140,13 +140,23 @@
     }
   ],
   "conflicts": [
-    "Cash and marketable securities for the 2026-11-08 disclosure were reported as $475 million in one syndicated copy of the release and $498 million in another syndicated copy of the same release; both figures are recorded, neither resolved.",
-    "A StreetInsider article found this session reports BitMine holding only about 3.4 million ETH worth $13.7 billion in total holdings — far below the 6.07 million ETH figure in the November 2026 releases. No publication date could be confirmed for this figure, so it is likely a stale/earlier-2026 report rather than a genuine current conflict, but it is flagged here since it could not be dated and excluded with confidence.",
-    "Next-earnings date: file gives 2026-11-23 vs a prior estimate of 2026-11-20; not resolved this session."
+    "Market cap / shares outstanding cannot be established: Motley Fool shows 603.23M shares at $18.76 (~$11.79B mkt cap, undated, 'around Q3 2026 filing'); Simply Wall St shows 569.58M shares (~$8.37B, as of 2026-07-10); DefiLlama shows 551.79M shares (period ending 2026-05-31) at $23.35 (~$13.53B); ROIC.AI shows 493.91M shares (~$9.09B, undated); a January 2026 ChartExchange snapshot shows 425.84M shares (~$13.27B); Base.report shows 173.50M shares (~$9.90B, inconsistent with all of the above). No single current figure could be reconciled; none is recorded as the established value.",
+    "Next earnings date: on-file 2026-11-23 vs FXEmpire's 2026-11-20 (labeled Q4'26 estimate) -- not resolved this session."
   ],
   "pendingFilings": [],
-  "notes": "Market cap, shares outstanding, float, short interest, trailing/forward P/E, and debt were not established this session; the WebSearch tool's shared per-turn budget was exhausted before these follow-up queries could be run, and WebFetch to standard data sites (Yahoo Finance, StockTitan, etc.) failed with ENOTFOUND in this sandbox.",
+  "notes": "No new catalyst found since the 2026-11-11 pass; ETH treasury holdings figures already on file (as of 2026-11-08) remain the latest found. Market cap, shares outstanding, float, short interest, cash and debt still not independently re-established this session beyond what the 2026-11-11 pass already recorded -- conflicting aggregator snapshots are noted above rather than guessed at.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -382,21 +392,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

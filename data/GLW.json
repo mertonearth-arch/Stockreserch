@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.084Z",
+  "lastResearched": "2026-11-12T21:17:16.071Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -138,8 +138,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Could NOT identify a specific, dated November 11, 2026 catalyst for Corning despite multiple targeted searches — MarketBeat's 'key catalyst' flag for today remains unconfirmed and unexplained in every source reviewed. The nearest concrete, dated news cluster is a round of analyst price-target cuts/raises on October 21, 27, and 28, 2026, which appears to follow a Q3 2026 earnings report, though I could not locate the actual earnings print (revenue, EPS, guidance) to confirm this inference or its date. Price data points from 2026-10-28 ($126.30) through 2026-11-06 ($106.13) to 2026-11-09 ($115.95, +9.25% in 24h) suggest real volatility in this window that could itself be related to whatever MarketBeat is flagging for Nov 11, but I found no article, 8-K, index-rebalancing notice, or dividend-date disclosure dated specifically Nov 11, 2026. Recommend checking Corning's newsroom (corning.com/worldwide/en/newsroom) or MarketBeat's own GLW news page directly, or re-running this research once the per-task WebSearch budget (shared across concurrently running research agents in this session) has reset — it was exhausted before this gap could be closed. Direct WebFetch to stocktitan.net, finviz.com, and other candidate sources also failed with DNS resolution errors in this sandbox.",
+  "notes": "The unexplained MarketBeat 'key catalyst' flag for Nov 11, 2026 remains unresolved; no second source found it. One new fact located: GLW's ex-dividend date is 2026-11-13 (payable 2026-12-11) — routine, not recorded as a catalyst. Price sources still disagree ($106.13 marketchameleon vs $103.44 Fox Business for Nov 6); left unchanged pending a reliable same-week quote.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -356,18 +364,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

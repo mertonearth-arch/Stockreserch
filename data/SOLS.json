@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.104Z",
+  "lastResearched": "2026-11-12T21:17:16.089Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -77,6 +77,12 @@
     "note": "A separate Fox Business quote dated 2026-10-23 showed ~$59.80, implying the stock was roughly flat to slightly lower over that ~2-week span; not a single-day change figure."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "product milestone",
+      "headline": "Announced a key development milestone for its next-generation foam blowing agent; plans to begin sampling with selected global customers in early 2027",
+      "source": "https://finviz.com/news/419573/solstice-advanced-materials-reaches-key-development-milestone-for-next-generation-foam-blowing-agent"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings",
@@ -164,8 +170,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No news found dated after Nov 6, 2026. The Nov 3 dividend declaration and Nov 4 earnings report together explain all identified activity since the last-known catalyst; nothing new emerged in the Nov 7-11 window. A litigation settlement-in-principle (Metropolis Works operations) and a $200M Spokane facility expansion were mentioned in search snippets but carried no date and were excluded per the 'every catalyst needs a date' rule. EPS, market cap, shares outstanding, float, short interest, cash and debt were not established this pass (quote/data-provider sites unreachable via WebFetch; WebSearch budget exhausted before dedicated fundamentals queries).",
+  "notes": "Otherwise quiet since the Nov 3-4 dividend/earnings catalysts already on file. CRITICAL_IDENTITY_NOTE on file (SOLS = Solstice, not Solidion/STI) still stands and needs no further action this pass.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -458,17 +474,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

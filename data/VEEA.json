@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.108Z",
+  "lastResearched": "2026-11-12T21:17:16.065Z",
   "fundamentals": {
     "marketCap": {
       "value": 13400000,
@@ -144,8 +144,16 @@
     "Market cap estimates range from ~$9.8M (Yahoo, Sept 23 2026) to ~$13.4M (derived Nov 2 2026) to ~$12.38M (roic.ai, undated) — all roughly consistent given the stock's volatility, but not from a single date."
   ],
   "pendingFilings": [],
-  "notes": "Additional news items were found referencing a Telarus technology-services distribution agreement (secure edge computing), a 'TROLLEE' deal for phased VeeaONE deployment to up to 1,000 unattended retail stores, and a proposed connected-health combination — none of these could be pinned to a specific date in the available search results, so per the task's rules they are omitted from dated catalysts rather than guessed. No search budget remained to pursue exact dates for these three items; a follow-up search is recommended to confirm them. Theme 'Government IT & Defense Services' was carried over from the prior record as instructed; current search results describe Veea's business as edge computing/IoT (enterprise, retail, and connected-health use cases) rather than defense-specific, so this theme may be worth revisiting against the company's original government-contract history.",
+  "notes": "Checked for news this session (2026-11-12); found nothing dated beyond what's already on file as of 2026-11-11 (last confirmed price/market-cap snapshot remains 2026-11-02; TROLLEE, NovaGen and Telarus items on file remain the most recent substantive catalysts). No new earnings-date confirmation found for the 2026-11-17 estimate.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -309,24 +317,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -10.8%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

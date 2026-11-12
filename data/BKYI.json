@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.079Z",
+  "lastResearched": "2026-11-12T21:17:16.067Z",
   "fundamentals": {
     "marketCap": {
       "value": null
@@ -47,9 +47,9 @@
       "note": "not established this session"
     },
     "nextEarnings": {
-      "date": "2026-11-16",
-      "confirmed": false,
-      "note": "File carries conflicting estimates of Nov 12, Nov 13, and Nov 16, 2026. This session's WebSearch queries for BKYI returned no results before the shared per-turn search budget was exhausted, so the conflict could not be resolved and no new catalysts could be checked."
+      "date": "2026-11-13",
+      "confirmed": true,
+      "note": "Company-confirmed via GlobeNewswire release dated 2026-11-06: Q3 2026 results before market open Friday Nov 13, 2026, investor call 10am ET."
     }
   },
   "price": {
@@ -60,6 +60,12 @@
     "note": "Supersedes on-file 2026-10-27 $2.70 figure."
   },
   "catalysts": [
+    {
+      "date": "2026-11-06",
+      "type": "corporate",
+      "headline": "BIO-key announced it will report Q3 2026 results before market open on Friday, November 13, 2026, with an investor call at 10am ET led by CEO Mike DePasquale and CFO Cecilia Welch",
+      "source": "https://finviz.com/news/418588/identity-and-biometric-authentication-technologies-provider-bio-key-hosts-q3-investor-call-friday-november-13-at-10am-et"
+    },
     {
       "date": "2026-10-30",
       "type": "corporate",
@@ -148,12 +154,22 @@
       "source": "https://www.panabee.com/news/bio-key-stockholders-approve-reverse-split-authorization"
     }
   ],
-  "conflicts": [
-    "Earnings-date estimates for BKYI conflict across sources: 2026-11-12, 2026-11-13, and 2026-11-16 have all been cited (per file). This session could not run any BKYI-specific queries (WebSearch budget exhausted before reaching this ticker's follow-up searches), so the conflict remains unresolved."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new research could be completed for BKYI this session beyond the pre-existing file state: the WebSearch tool's shared per-turn budget was exhausted immediately after the first round of queries, before any BKYI-specific follow-up could be run. All fields beyond what was already on file are left null/unconfirmed.",
+  "notes": "Resolves the prior file conflict over a Nov 12 / Nov 13 / Nov 16 earnings-date discrepancy — Nov 13 before market open is now the company-confirmed date. No other new catalysts found this session; market cap, shares outstanding, float, short interest, cash, debt, and EPS remain unestablished.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -358,22 +374,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

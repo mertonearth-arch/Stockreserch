@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.093Z",
+  "lastResearched": "2026-11-12T21:17:16.080Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -82,12 +82,18 @@
     }
   },
   "price": {
-    "last": null,
+    "last": 61.48,
     "changePct": null,
-    "asOf": null,
-    "note": "current quote not found in accessible sources (Yahoo Finance, Finviz, MarketWatch, stockanalysis.com were unreachable in this sandbox)"
+    "asOf": "2026-11-05",
+    "source": "Trefis"
   },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "analyst action",
+      "headline": "Mizuho cut its price target on Edison International to $63, citing ongoing California wildfire-liability-reform uncertainty.",
+      "source": "https://www.trefis.com/data/companies/EIX?from=section_ticker"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -245,12 +251,22 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 consensus EPS: Zacks cites $1.83 consensus (4.9% beat); 24/7 Wall St cites $1.81 consensus. Both readings recorded verbatim; not averaged.",
-    "Q3 2026 consensus revenue: Zacks cites ~$5.53B consensus; 24/7 Wall St cites ~$5.34B consensus."
+    "Price: Trefis $61.48 (as of 2026-11-05) vs. Earnings Whispers $59.38 (undated) vs. StreetInsider $56.77 (undated) vs. Yahoo Finance $68.32 (undated) — no single November 2026 quote confirmed across sources; using Trefis's dated figure as the best-dated reading."
   ],
   "pendingFilings": [],
-  "notes": "Key open item as of 2026-11-11 (today): a Nov. 15, 2026 constitutional deadline for the Governor to call a special legislative session on wildfire liability reform was referenced in Oct/early-Nov coverage, but no source confirms the outcome yet (the date has not yet passed at time of this research). The Wildfire Recovery Compensation Program had scaled to >3,200 offers totaling ~$1.1B as of the Q3 call (up from ~$775M the prior quarter), ahead of a Nov. 30, 2026 program deadline. CPUC approved SCE's 2026-2028 Wildfire Mitigation Plan (OEIS approval referenced in search results, exact date not confirmed); ~90% of distribution lines in high-fire-risk areas reported hardened. Recommend a follow-up pass after Nov. 15-16 to capture the special-session outcome, and direct SEC EDGAR/Edison IR access (sec.gov and most financial-data sites were unreachable in this sandbox) for market cap/P/E and Eaton Fire litigation docket status.",
+  "notes": "Coverage also references a possible California legislative special session around a November 15, 2026 deadline on wildfire-liability reform, but this is a forward-looking item, not yet a dated event — not recorded as a catalyst.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -557,16 +573,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "5 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
+      "1 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

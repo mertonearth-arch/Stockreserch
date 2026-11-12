@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.091Z",
+  "lastResearched": "2026-11-12T21:17:16.078Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -181,12 +181,20 @@
       "sourceName": "Investrade market review"
     }
   ],
-  "conflicts": [
-    "Next earnings date: TIKR implies the next (fiscal Q2 FY2027) report lands around early February 2027, consistent with Affirm's normal quarterly cadence; a cached Earnings Whispers listing shows Nov 26, 2026, which is inconsistent with a company that just reported on Nov 5, 2026 and is treated here as likely stale/erroneous."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No news found since the Nov 5, 2026 earnings report beyond continued commentary/analysis on that same print -- consistent with the expected quiet period for this name (quietRuns=1). Market cap, share count, float, short interest, cash and debt were not established from the sources reachable in this session (finviz.com, marketwatch.com, benzinga.com, Yahoo Finance and investors.affirm.com were all unreachable via WebFetch; WebSearch quota was exhausted before a targeted follow-up search could be run).",
+  "notes": "Routine PM recheck 2026-11-12: no AFRM-specific news dated Nov 12 found via WebSearch beyond what's already on file from the Nov 5 fiscal Q1 FY2027 print. Genuinely quiet pass.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -503,17 +511,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.098Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.084Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -213,8 +213,16 @@
     }
   ],
   "pendingFilings": [],
-  "notes": "A Phase 3 INTerpath-001 melanoma readout with Merck was referenced in October 2026 coverage (ESMO Congress) but no exact presentation date was confirmed in accessible sources, so it was omitted from dated catalysts per the no-undated-catalysts rule. Moderna's Analyst Day on Nov 12, 2026 is upcoming, not yet occurred as of this research (Nov 11, 2026).",
+  "notes": "Moderna's previously-scheduled Analyst Day occurred today (2026-11-12, 9:00am ET) per the company's own 2026 investor-event calendar, but no coverage of what was actually presented was found in accessible sources as of this research — too soon after the event. Not recorded as a catalyst since no actual content/outcome could be confirmed (a bare 'a meeting happened' is not informative). Otherwise quiet: no new dated catalysts found since the Nov 6, 2026 Q3 earnings print.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -458,18 +466,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

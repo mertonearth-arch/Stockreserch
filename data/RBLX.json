@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.103Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.088Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -173,8 +173,16 @@
     }
   ],
   "pendingFilings": [],
-  "notes": "No news found dated after 2026-11-06; confirms the ticker remains quiet aside from the already-known Oct 29 Q3 2026 earnings cycle. Shares outstanding, float, short interest, cash and debt were not established this pass: most quote/data-provider domains (finviz.com, finance.yahoo.com, benzinga.com, marketchameleon.com, panabee.com, stockanalysis.com) returned DNS/egress failures via WebFetch in this sandbox, and the WebSearch tool's per-turn budget was exhausted before dedicated fundamentals queries could run.",
+  "notes": "Quiet recheck 2026-11-12: no news found dated after the Nov 6 close already on file. Q3 2026 earnings cycle remains the latest material event.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -413,18 +421,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

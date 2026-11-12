@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.087Z",
+  "lastResearched": "2026-11-12T21:17:16.074Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -240,8 +240,16 @@
     "A search snapshot (undated within the result, inferred ~2026-11-09) put IREN at $21.41 (-1.06% in 24h) with ~75.7M shares traded, while other undated snapshots from aggregator sites showed materially different levels (e.g. ~$23.95 and ~$34.77). These are likely stale/cached pages from different dates rather than a reverse-split signal, but the discrepancy could not be resolved this session and is flagged rather than averaged."
   ],
   "pendingFilings": [],
-  "notes": "The specific, dated cause of today's (2026-11-11) -11.24% move was NOT confirmed this session — no same-day article was located before the WebSearch budget was exhausted. General, recurring context found in older (non-dated-to-today) coverage: IREN's share price has repeatedly moved with (a) Bitcoin price swings, since Bitcoin mining remains a large revenue component, and (b) dilution/AI-capex-funding concerns, including a previously reported expansion of an at-the-market share sale program to up to $6 billion. Neither of these was confirmed as specifically dated to 2026-11-11, so they are offered only as plausible background, not as an established cause.",
+  "notes": "Checked 2026-11-12 PM pass: WebSearch found no Nov 11/12-dated, IREN-specific news beyond what was already on file (the Nov 9 ~$21.41 quote remains the most recent dated price point found; a MarketBeat item from 2026-03-06 and older items turned up but are stale/out of window). No new catalyst, no fundamentals change established this pass -- recorded as an honest quiet check, not padded with filler.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -573,24 +581,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -11.24%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

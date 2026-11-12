@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.072Z",
+  "lastResearched": "2026-11-12T21:17:16.070Z",
   "fundamentals": {
     "marketCap": {
       "value": 243880000,
@@ -73,10 +73,11 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No confirmed Nov 11, 2026 closing price found. Last dated pre-earnings price found: $5.19 close on 2026-10-12 (MarketBeat). Post-earnings (Nov 9/10) prices reported range $2.78-$5.07 depending on source/timing -- see conflicts."
+    "last": 3.12,
+    "changePct": -38.46,
+    "asOf": "2026-11-10",
+    "source": "financialcontent.com (official 4:10 PM EST close)",
+    "note": "First confirmed post-earnings closing price found (prior pass had none). A separate source (Kalkine) reports the same day's close as $2.84 (-43.98%) off a 'calculated' prior close -- both figures recorded; not reconciled. Prior close used by financialcontent was $5.07 (2026-11-09)."
   },
   "catalysts": [
     {
@@ -116,6 +117,16 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -38.46%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-11",
       "run": "pm",
       "quiet": false,
@@ -148,24 +159,13 @@
       "from": "daily"
     }
   ],
-  "notes": "SEC.gov, panabee.com, pluang.com, benzinga.com, stocktitan.net, and finviz.com all failed to resolve via WebFetch in this session (network restrictions); all figures above come from WebSearch result summaries of those sources, not direct document reads.",
+  "notes": "No new catalyst beyond the Q3 2026 earnings print already on file. Cash balance, debt and next-earnings date remain unestablished.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "move -38.46%"
     ],
     "tradingDay": true
   }

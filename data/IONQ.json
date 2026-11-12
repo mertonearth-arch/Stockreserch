@@ -8,31 +8,35 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.086Z",
+  "lastResearched": "2026-11-12T21:17:16.059Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 12680000000,
+      "asOf": "2026-11-05",
+      "source": "ORTEX (close $29.54 on 2026-11-05); roughly cross-checks against Fox Business's $13.86B/429.41M-shares snapshot"
     },
     "float": {
       "value": null,
       "note": "Not established this session."
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 429410000,
+      "asOf": "2026-11-05",
+      "source": "Fox Business; implied share count from ORTEX's market cap / price ($12.68B / $29.54 = ~429.2M) is consistent with this"
     },
     "shortInterest": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 11.11,
+      "asOf": "2026-11-03",
+      "source": "ORTEX (% of free float, 2.1 days to cover, ~1% average borrow cost)"
     },
     "cash": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 2120000000,
+      "asOf": "2026-09-30",
+      "source": "equibles.com, described as 'net cash' (i.e. net of debt), not gross cash"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "No standalone gross-debt figure found; only the net-cash figure above (which nets out any debt) was located. IonQ is not known to carry meaningful conventional debt."
     },
     "pe": {
       "trailing": null,
@@ -161,11 +165,28 @@
     }
   ],
   "conflicts": [
-    "The Barchart article used for today's catalyst was returned by a generic ('why IONQ stock is up today') search query and its publish date could not be independently confirmed to be 2026-11-11 vs. a near-by date; it is the best-matching available source for today's move (price level $58.84 and 'up today' framing) but should be treated as probable, not certain, attribution."
+    "Shares outstanding also reported as 405.14M (Yahoo Finance) and 373M (StockAnalysis, noting +44.82% YoY dilution) -- both lower than the 429.41M (Fox Business) / ~429.2M (implied by ORTEX) figures used above; not reconciled, likely reflects different as-of dates given IonQ's heavy 2026 share issuance (including the Oct 16 $2.0B offering).",
+    "Short interest also reported as ~10.5% of shares outstanding (Yahoo, 2026-08-14, ~42.4M shares short) and ~22% of shares outstanding in an earlier StockAnalysis snapshot -- both predate the 2026-10-16 $2.0B offering that diluted the share base, so the 11.11% ORTEX figure (2026-11-03) is used as the most current.",
+    "Q3 2026 GAAP diluted EPS of $1.42 (already on file) was driven entirely by a non-cash mark-to-market gain on warrants, not operating profitability (the company posted an adjusted EBITDA loss of $133.6M the same quarter); pe.trailing is kept null rather than computing a misleading multiple from the one-off gain."
   ],
   "pendingFilings": [],
-  "notes": "Sector/theme note: IonQ is a quantum computing company, not a semiconductor maker; the 'AI Semiconductors' theme label on file does not precisely describe its business (closer fit: 'Quantum Computing'). Kept the given theme string per instructions but flagged the mismatch here; sector field above is set to the more accurate 'Quantum Computing'. Market cap/shares/float/short-interest/cash/debt and exact Q3 2026 financials are null because the WebSearch budget for this session was exhausted before those lookups could be completed.",
+  "notes": "Market cap/shares/short interest/cash established this pass (were null on file). Debt remains unestablished as a standalone figure. Today's (2026-11-11 dated) catalyst already on file (quantum-sector rally / SkyWater vote) stands; no newer same-day item found.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -432,22 +453,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
       "shortInterest updated",
       "cash updated",
       "debt updated",
-      "move 9.33%",
       "conflicts updated"
     ],
     "tradingDay": true

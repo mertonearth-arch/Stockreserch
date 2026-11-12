@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.094Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.082Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,8 +217,16 @@
     "FICO stock decline tied to the September 2026 FHFA/VantageScore mortgage-pricing-grid news: one source cites a ~27% drop, another cites ~17%; could not determine if these refer to the same trading session or different ones."
   ],
   "pendingFilings": [],
-  "notes": "The $65M accrual disclosed Nov. 4, 2026 is for a PROPOSED antitrust CLASS-ACTION SETTLEMENT specifically tied to the Scores business - this is distinct from (though related in subject matter to) the long-running Sky Federal Credit Union-led monopolization litigation before Judge Edmond Chang (N.D. Ill.), which as of the last confirmed ruling found (November 2024) allowed Sherman Act monopolization and state-law claims to proceed against FICO while dismissing claims against the credit bureaus and other claims with prejudice. No 2025-2026 docket update, trial date, or settlement terms for the Chang litigation itself were found in this pass; the $65M figure may or may not relate to that specific case versus one of the other ~10 related antitrust suits Chang is overseeing. Separately, the September 2026 FHFA/VantageScore mortgage-pricing development is a material, dated regulatory risk that predates but likely still weighs on the stock heading into Nov. 11. Recommend a follow-up pass specifically on court dockets (Law360/Bloomberg Law) to identify which case the $65M settlement accrual actually covers.",
+  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-11-04 Q4 FY2026 earnings already on file. Post-earnings stock-move reporting is still inconsistent across sources (-6.46% vs. a ~17% drop to ~$1,140) — this corroborates, not resolves, the existing uncertainty; current price left unresolved.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -461,18 +469,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

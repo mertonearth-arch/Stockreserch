@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.101Z",
+  "lastResearched": "2026-11-12T21:17:16.086Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -73,10 +73,10 @@
     }
   },
   "price": {
-    "last": 13.4,
+    "last": 13.28,
     "changePct": null,
-    "asOf": "2026-11-04",
-    "note": "Figure is a Trefis analytical estimate (not a confirmed exchange closing price) representing a -22.6% change from the 2026-07-31 level. No confirmed quote for 2026-11-11 retrieved before the search budget was exhausted."
+    "asOf": "2026-11-05",
+    "source": "tickertape.in quote aggregator"
   },
   "catalysts": [
     {
@@ -190,12 +190,23 @@
     }
   ],
   "conflicts": [
-    "An AAII article reports a Q3 EPS of $0.40 with a report date of 2026-07-23, which does not match PG&E's own Q3 2026 release ($0.34 GAAP, dated 2026-10-22) and appears to be a mislabeled/different quarter — not relied upon.",
-    "Q3 2026 net income is reported as $749M (income available to common shareholders, used for the $0.34 EPS) by one source vs $776M (total net income before preferred dividends) by another — both figures are legitimate but measure different things."
+    "Price: tickertape.in shows $13.28 as of 2026-11-05; foxbusiness.com-style snapshot shows $13.29 close on 2026-11-03; a later unsourced/undated aggregator figure shows $13.14. Figures are close but not identical; using the 2026-11-05 reading as most recently dated.",
+    "Market cap: sources disagree sharply — one gives $29.27B, another $39.9B (asOf 2026-11-05), a third $28.94B. The spread tracks a shares-outstanding disagreement (2.20B vs 2.68B); not reconciled, recorded verbatim rather than averaged.",
+    "Shares outstanding: 2.20B (majority of sources) vs 2.68B (one source) — not confirmed against PG&E's own SEC filings this pass."
   ],
   "pendingFilings": [],
-  "notes": "Remains quiet on genuinely new, confirmed developments since the Oct 22, 2026 Q3 report (this would be quiet pass #3). Two previously flagged near-term catalysts — a CPUC wildfire report due 2026-11-01 and a proposed CPUC decision on Kincade/Dixie fire cost recovery expected in November 2026 — were referenced in secondary analysis but no dated source confirming their actual publication/outcome was found before the search budget was exhausted; flagging as pending/unconfirmed rather than fabricating an outcome. Fitch reportedly held PG&E's rating at BBB- but moved the outlook to Negative from Stable (citing wildfire liability risk and the lack of legislative reform) — exact date not established, so excluded from the dated catalysts list; noted here only. Theme (Utilities & Wildfire Liability) is strongly reconfirmed by this quarter's news.",
+  "notes": "marketCap and sharesOutstanding left null given the unresolved conflicts above rather than picking one reading.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -436,21 +447,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

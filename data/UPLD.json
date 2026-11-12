@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.107Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.090Z",
   "fundamentals": {
     "marketCap": {
       "value": 10050000,
@@ -158,8 +158,16 @@
     "Float: one stockanalysis.com snippet showed a float of ~21.6M shares, which is larger than the ~2.96M shares outstanding reported elsewhere — almost certainly a pre-reverse-split, stale figure; excluded from the float field above."
   ],
   "pendingFilings": [],
-  "notes": "Beyond the Nov 4 earnings and Nov 9 preferred-dividend waiver, the only other item found was Upland earning badges in G2's Fall 2026 market reports, which carried no specific date and is not listed as a dated catalyst. Cash/debt figures could not be pinned to an exact reporting date; treat as approximate.",
+  "notes": "PM pass 2026-11-12: no news beyond the already-recorded Nov 4 Q3 2026 earnings and Nov 9 preferred-dividend waiver. Quiet pass — nothing new.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -368,23 +376,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

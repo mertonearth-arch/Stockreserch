@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.095Z",
+  "lastResearched": "2026-11-12T21:17:16.070Z",
   "fundamentals": {
     "marketCap": {
       "value": 3620000000,
@@ -158,8 +158,16 @@
     "An Earnings Whispers page shows a FIGS price of $14.42, which is far below the ~$21-22 range from other, more recently dated sources; recorded as likely stale/outdated rather than silently discarded."
   ],
   "pendingFilings": [],
-  "notes": "Confirms the Nov. 5, 2026 Q3 2026 print already on file as this ticker's lastCatalyst, and finds a continued strong post-earnings reaction (new 52-week high, +9.69% on 2026-11-09) with no negative news since - consistent with a genuinely quiet/positive period rather than missed coverage. Executive Chair Heather Hasson also had an option-exercise-related filing referenced in search results but details/date were not fully confirmed. Recommend checking FIGS IR or GlobeNewswire directly for exact Q3 2026 revenue and YoY% once accessible, and for today's (2026-11-11) closing price.",
+  "notes": "No dated news found since the 2026-11-05 Q3 2026 print and the 11-09 52-week-high note already on file. Sources this session disagreed sharply on current price/market cap (one undated snapshot ~$11.28/$1.98B, another ~$2.23B) and none was dated to this week, so no price/marketCap update was made rather than guess between them.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -347,19 +355,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "move 9.69%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

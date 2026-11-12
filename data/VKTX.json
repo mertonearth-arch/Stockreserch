@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.108Z",
+  "lastResearched": "2026-11-12T21:17:16.077Z",
   "fundamentals": {
     "marketCap": {
-      "value": 3950000000,
-      "source": "stockanalysis.com (via web search snippet)",
-      "note": "price-dependent; date not precisely established"
+      "value": 3290000000,
+      "asOf": "2026-11-05",
+      "source": "MarketBeat"
     },
     "float": null,
     "sharesOutstanding": {
@@ -155,15 +155,21 @@
       "source": "https://www.prnewswire.com/news-releases/viking-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302838212.html"
     }
   ],
-  "conflicts": [
-    "Consensus EPS estimate for Q3 2026: Zacks cites a consensus of -$1.00/share, while 24/7 Wall St. cites -$1.06/share — both describe the $1.55 actual as a miss, but the exact consensus figure is not agreed.",
-    "FY2025 net loss: $358.5M per the earnings release/most sources vs $359.6M per one financials aggregator site — minor discrepancy, not reconciled.",
-    "Price: $26.18 (-1.79%) on 2026-11-06 vs $25.17 (-8.04%) on 2026-10-16 vs several undated aggregator figures ranging from $24.61 to $34.80 — the undated figures could not be placed on a timeline.",
-    "Investor-conference schedule: one copy of the November 3 press release lists a Stifel fireside chat on Nov 11 and a Piper Sandler chat, while another copy lists different dates for some of the same events — could not be reconciled to a single authoritative schedule."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No clinical trial results, FDA/regulatory actions, new contracts, offerings, or halts found dated after the Oct 28 earnings report, aside from the conference/poster-presentation items listed above. A reference to the start of the oral VK2735 'SUNRISE' Phase 3 program (RTTNews) could not be dated and may predate the Oct 28 report, so it is not listed as a dated catalyst here.",
+  "notes": "Routine PM recheck 2026-11-12: no name-specific news dated Nov 12 found. Most recent dated price point located is 2026-11-05 close $25.79 (-7.8%), MarketBeat, alongside the existing file's 2026-11-06 $26.18 (-1.79%) -- consistent sequence (not treated as a conflict). No new catalyst beyond the already-recorded Nov 14 ObesityWeek VK2735 poster presentations.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -407,22 +413,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

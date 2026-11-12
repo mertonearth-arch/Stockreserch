@@ -8,7 +8,7 @@
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.096Z",
+  "lastResearched": "2026-11-12T21:17:16.072Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -32,23 +32,35 @@
       "note": "Q3 2026 results were scheduled for release after market close on Nov 10, 2026 (per company IR PDF); actual reported figures and the following (Q4/FY2026) date were not found in accessible sources as of this research."
     },
     "cash": {
-      "value": 36700000,
-      "asOf": "2026-06-30",
-      "source": "Inovio Q2 2026 earnings release (via GuruFocus/1stOncology coverage)",
-      "note": "Excludes ~$18.3M net proceeds from a July 2026 offering; figure is pre-Q3. A further public offering priced in early November 2026 (see catalysts) raised additional cash not yet reflected in a published balance figure."
+      "value": 48400000,
+      "asOf": "2026-09-30",
+      "source": "INOVIO Q3 2026 earnings release",
+      "note": "Cash, cash equivalents and short-term investments at quarter-end; excludes ~$80.5M net proceeds from a November 2026 public offering that closed after quarter-end."
     },
     "eps": [
       {
         "period": "Q2 2025",
         "value": -0.61,
         "basis": "GAAP",
-        "note": "quarterly, not fiscal-year — FY2024/FY2025 annual EPS not located in accessible sources"
+        "note": "quarterly, not fiscal-year"
       },
       {
         "period": "Q2 2026",
         "value": -0.07,
         "basis": "GAAP",
         "note": "improvement driven mainly by a $13.9M non-cash fair-value gain on warrant liabilities, not operating performance"
+      },
+      {
+        "period": "Q3 2025",
+        "value": -0.87,
+        "basis": "GAAP",
+        "note": "net loss $45.5M"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.5,
+        "basis": "GAAP",
+        "note": "net loss $49.2M; operating expenses fell to $19.8M from $21.2M YoY"
       }
     ],
     "growth": {
@@ -65,6 +77,13 @@
     "note": "No 2026-11-06 close could be confirmed this pass; most recent dated figure found was from 2026-11-04. See conflicts for the wide disagreement across sources this week."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "INOVIO reported Q3 2026 results: net loss $49.2M ($0.50/share GAAP) vs. $45.5M ($0.87/share) in Q3 2025; operating expenses fell to $19.8M from $21.2M YoY; cash, equivalents and short-term investments were $48.4M at Sept 30, 2026, excluding ~$80.5M of net proceeds from a November 2026 public offering that closed after quarter-end. Reiterated FDA accelerated approval of VOCERYQ (Oct 30, 2026) and said it plans to submit a draft confirmatory-trial protocol to the FDA and a European conditional marketing application before year-end 2026.",
+      "impact": null,
+      "source": "https://s21.q4cdn.com/283306112/files/doc_news/INOVIO-Reports-Third-Quarter-2026-Financial-Results-and-Recent-Business-Highlights-2026.pdf"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -101,6 +120,18 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -150,20 +181,15 @@
       "from": "daily"
     }
   ],
-  "notes": "This name was NOT quiet: a new dilutive public offering (announced/priced ~Nov 5, closing ~Nov 9, 2026) occurred since the Oct 30 FDA approval catalyst, plus the scheduled Nov 10 Q3 2026 earnings release. Recommend treating quietRuns as reset rather than incremented. Could not independently verify actual Q3 2026 reported figures, current share price, or market cap — Yahoo Finance, Finviz, StockTitan and SEC.gov all returned DNS/egress failures in this sandbox; all figures above are from WebSearch result snippets citing aggregator sites (finviz news index, GuruFocus, 1stOncology), not primary filings.",
+  "notes": "Confirms the actual Q3 2026 print for the earnings event already flagged on file as scheduled for 2026-11-10. Next earnings date, current market cap and share price still not located in accessible sources.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
+      "1 new catalyst(s)",
       "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "cash updated",
-      "conflict resolved"
+      "cash updated"
     ],
     "tradingDay": true
   }

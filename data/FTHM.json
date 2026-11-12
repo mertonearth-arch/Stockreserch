@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.084Z",
+  "lastResearched": "2026-11-12T21:17:16.071Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -151,8 +151,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "After the October 5, 2026 merger termination, Fathom and NXH reportedly proposed a restructured transaction combining Fathom's national residential brokerage and title business with NXH's digital-asset interests (tZERO, the Medici portfolio, GrainChain), valuing NXH's contributed assets at 'no less than $130 million' and giving NXH a controlling interest in the combined company post-close; this proposal is subject to definitive agreements, board/shareholder approvals, a fairness opinion, and regulatory approvals. I could not find a confirmed date for this restructured-deal announcement, so it is omitted from the dated catalyst list. Most importantly for this task: I was unable to confirm whether Fathom's Q3 2026 results have actually been released as of 2026-11-11 — every search returned only Q3 2025 coverage (also dated Nov 11, almost exactly one year earlier), which raises the possibility of either a reporting delay, a change in reporting schedule, or simply a lag in search indexing. Recommend checking ir.fathominc.com or an SEC EDGAR 8-K search directly once network access allows; WebFetch to all candidate sources (including SEC EDGAR, stocktitan, panabee) failed with DNS resolution errors in this sandbox, and the WebSearch budget for this task was exhausted before a follow-up query could be run.",
+  "notes": "Q3 2026 results still not found in any source searched as of 2026-11-12 (every result surfaced is the year-old Q3 2025 report, released 2025-11-11). Open question from the prior pass is unresolved: either the Q3 2026 report has not yet been published or it is not yet indexed. No update made.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -386,19 +394,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.102Z",
+  "lastResearched": "2026-11-12T21:17:16.087Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -16,7 +16,12 @@
       "note": "Not retrieved this session."
     },
     "float": null,
-    "sharesOutstanding": null,
+    "sharesOutstanding": {
+      "value": 69300000,
+      "asOf": "2026-11-06",
+      "source": "aggregator quote, approximate",
+      "note": "Two aggregator sources agree on ~69.3M; could not confirm against uniQure's own SEC filing or exact as-of date. Older snapshots (62.5-63.1M) likely predate a since-completed offering."
+    },
     "shortInterest": null,
     "cash": null,
     "debt": null,
@@ -51,10 +56,10 @@
     }
   },
   "price": {
-    "last": null,
+    "last": 22,
     "changePct": null,
-    "asOf": null,
-    "note": "Not retrieved this session; search budget exhausted before a price quote could be fetched."
+    "asOf": "2026-11-06",
+    "source": "aggregator quote (fool.com-style), timestamped 2026-11-06 17:39 EST"
   },
   "catalysts": [
     {
@@ -156,11 +161,22 @@
     }
   ],
   "conflicts": [
-    "Date of the BLA-acceptance/Priority-Review announcement: multiple outlets (neurologylive.com, biopharminternational.com) date it 2026-11-02, while the prior on-file catalyst recorded it as 2026-11-04. Same underlying event; exact announcement date not fully reconciled."
+    "Market cap: one late-October source lists $1.7B; a back-of-envelope estimate from the $22 price and 69.3M shares gives ~$1.5B. Not reconciled — no market cap field set."
   ],
   "pendingFilings": [],
-  "notes": "The PDUFA target action date (2026-05-01) is the key new, confirmable fact established this session, directly answering the task's ask. No other QURE-specific news since Nov 2/4, 2026 was found before the session's WebSearch budget was exhausted. Market cap, shares outstanding, cash position and EPS were not retrieved this session — a follow-up message could continue this research.",
+  "notes": "Price is 6 days stale (last confirmed 2026-11-06); no quote for 2026-11-12 found.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -409,21 +425,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.092Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.080Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -143,8 +143,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No Cipher Digital-specific news dated after the Nov 2, 2026 Q3 earnings report was found. On bitcoin-sector context: search results referencing 'crypto sector weakness' on or near Nov 11, 2026 could not be pinned to a single reliable, dated BTC price for today -- different dated snippets from across 2026 showed BTC at widely different levels ($59K-$93K+) reflecting a volatile year, and none could be confidently confirmed as the Nov 11, 2026 price with the tools available (WebFetch was blocked for coingecko/coinglass/price-tracker domains, and the WebSearch quota was exhausted). This should be treated as an open item rather than a confirmed figure. Price, market cap, shares outstanding, float, short interest, cash, and debt for CIFR itself were likewise not established from reachable sources.",
+  "notes": "Quiet daily recheck 2026-11-12: WebSearch turned up no CIFR news after the 2026-11-02 earnings print and 2026-10-13 convertible-notes offering already on file. Current price still unestablished in this session's reachable sources (most recent hits were from July 2026).",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -313,18 +321,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

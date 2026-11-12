@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.083Z",
+  "lastResearched": "2026-11-12T21:17:16.081Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -59,9 +59,9 @@
       "note": "From data on file: Q1 FY2027 results (2026-08-27) showed revenue of $478.1M, +15% YoY. No actual EPS figure for that quarter was located in this session."
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2026-11-26",
       "confirmed": false,
-      "note": "Three conflicting third-party estimates found; no official Elastic press release confirming the Q2 FY2027 report date was located (see conflicts). 52-week pattern: prior-year Q2 FY2026 was reported 2025-11-20, announced via press release on 2025-11-06."
+      "note": "Third-party estimate (EarningsWhispers), after market close, consensus EPS $0.14. Still not an official Elastic press release; prior pass found other conflicting third-party estimates — treat as unconfirmed."
     }
   },
   "price": {
@@ -130,8 +130,18 @@
     "Q2 FY2027 EPS: company's own guidance is non-GAAP diluted EPS of $0.80-$0.82 (on revenue guidance of $486M-$487M), but Benzinga's consensus estimate is listed at $0.68 EPS on $486.7M revenue — the consensus EPS sits notably below the company's own guidance range, which is unusual and unreconciled in available sources."
   ],
   "pendingFilings": [],
-  "notes": "Could not confirm Elastic's official Q2 FY2027 (quarter ended Oct 31, 2026) earnings announcement date from ir.elastic.co directly — WebFetch to that and other sites failed with DNS resolution errors in this sandbox — so the date remains unresolved among three competing third-party estimates (Nov 16 / Nov 19 / Nov 26, 2026). No ESTC news beyond an October 9, 2026 Stifel price-target increase and a product update (two AI tools, 'nightshift AI SRE' and 'AlertZero,' added to the Observability/Security platform, undated) was found since the August 27 Q1 FY2027 report; the product update is omitted from catalysts for lack of a date. Market cap, P/E, and a confirmed current price could not be established before the WebSearch budget for this task was exhausted.",
+  "notes": "Quiet recheck 2026-11-12: no new dated catalyst found since the 2026-10-09 Stifel note on file. Current price remains unresolved (sources found were undated or conflicting) — left as-is rather than guessing.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -377,17 +387,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

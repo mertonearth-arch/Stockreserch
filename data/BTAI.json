@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.081Z",
+  "lastResearched": "2026-11-12T21:17:16.068Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -182,8 +182,16 @@
     "Shares outstanding/market cap figures appear stale or mutually inconsistent (21.87M shares at $1.83 = $40.02M market cap on an undated ChartExchange page) versus sub-$0.10 prices reported in September 2026; likely reflects a snapshot taken before the steepest decline, a reverse split adjustment, or further dilution in bankruptcy."
   ],
   "pendingFilings": [],
-  "notes": "BioXcel filed Chapter 11 on 2026-08-27 and sold substantially all assets to Teva via a Section 363 bankruptcy sale; the court's Sale Order was entered 2026-10-21, with one unconfirmed secondary report placing the closing on 2026-10-26. Per that reporting, Teva acquired rights to IGALMI and BXCL501 (the asset underlying the sNDA with the 2026-11-14 PDUFA date for at-home use), while BioXcel retained BXCL701/BXCL702. This means responsibility for, and economics of, the pending IGALMI at-home sNDA decision likely passed to Teva as part of the asset sale; I found no primary-source confirmation of the FDA's actual Nov 14 decision or of a formal NDA-transfer filing, and no SEC filing from November 2026 was retrievable before the research budget was exhausted. Secondary reporting (panabee.com, unverified against a primary filing) says sale proceeds repaid the DIP facility, remaining funds are being used for estate wind-down, and the company plans to rename itself BX Liquidation, Inc. Given this, the lastCatalyst note on file ('shell entity post Teva asset sale') is confirmed as directionally correct. Could not verify current share price, market cap, or EPS history with confidence; WebFetch to most candidate sources (SEC EDGAR, panabee, finviz, stocktitan, Yahoo Finance) failed with DNS/host-resolution errors in this sandbox, and the WebSearch tool's per-turn budget was exhausted before further confirmation could be obtained.",
+  "notes": "Checked ahead of the 2026-11-14 PDUFA target action date for the IGALMI at-home sNDA (BXCL501): as expected two days out, no FDA decision has been announced yet (biospace.com, barchart.com, rallies.ai, company IR -- all describe the pending PDUFA date with no outcome). No new catalyst to add; genuinely quiet since the 2026-11-11 pass. Current price, market cap, shares outstanding, cash and debt remain unestablished for the same reasons as the prior pass (WebFetch to primary sources unavailable this session).",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -442,18 +450,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

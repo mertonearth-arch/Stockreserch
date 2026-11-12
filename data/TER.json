@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.105Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.090Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -136,8 +136,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No news found dated after Oct 27, 2026 (second consecutive quiet verification pass) — searches for 'Teradyne news November 2026' and related queries returned nothing newer than the Q3 earnings cycle and its associated earnings-call commentary on AI demand and 2027 growth plans (Zacks, Oct 2026). No new dividend declaration, CFO change, or M&A news was found for November 2026 (Teradyne's dividend is typically declared mid-November, so a new declaration may still be pending). Market cap, P/E multiples, shares outstanding, float, short interest, cash and debt were not established this pass (quote/data-provider sites unreachable via WebFetch; WebSearch budget exhausted before dedicated fundamentals queries).",
+  "notes": "Quiet recheck 2026-11-12: no news found dated after the Oct 27 Q3 2026 report already on file. Teradyne's dividend is typically declared mid-November but no 2026 declaration found yet this pass.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -345,18 +353,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

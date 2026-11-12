@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.075Z",
+  "lastResearched": "2026-11-12T21:17:16.064Z",
   "fundamentals": {
     "revenue": [
       {
@@ -24,29 +24,35 @@
       "note": "Full-year FY2026 revenue $14.53B vs prior year, driven largely by the ZT Systems acquisition; Q4 FY2026 revenue (~$3.86-3.9B) grew ~84% YoY on the same driver."
     },
     "marketCap": {
-      "value": null,
-      "note": "Not established this session; WebFetch to Yahoo Finance, StockTitan and SEC EDGAR (www.sec.gov) all returned ENOTFOUND in this sandbox, and the WebSearch tool's per-turn budget was exhausted before a dedicated market-cap/shares/short-interest query could be run."
+      "value": 8330000000,
+      "asOf": "2026-11-11",
+      "source": "stockevents.app (close $155.43)"
     },
     "float": {
       "value": null
     },
     "sharesOutstanding": {
-      "value": null
+      "value": 53600000,
+      "source": "chartrow.com / equibles.com",
+      "note": "Undated but consistent across multiple sources and arithmetically consistent with the $155/share, $8.3B market-cap readings."
     },
     "shortInterest": {
       "value": null
     },
     "cash": {
-      "value": null
+      "value": 1680000000,
+      "asOf": "2026-10-03",
+      "source": "company FY2026 year-end results coverage (finviz.com)",
+      "note": "FY2026 (ended 2026-10-03) cash and cash equivalents; total available liquidity (incl. credit facilities) cited at $3.83B. Debt figure not found this session."
     },
     "debt": {
       "value": null
     },
     "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "Price not retrieved this session, so no multiple could be computed; FY2026 GAAP diluted EPS was positive ($6.85), so this is not a negative-earnings case.",
-      "asOf": null
+      "trailing": 22.69,
+      "forward": 9.4,
+      "note": "Trailing computed from $155.43 close / $6.85 FY2026 GAAP diluted EPS. Using non-GAAP FY2026 EPS ($13.28) instead gives 11.71 — both bases are legitimate reads and not reconciled to a single 'trailing P/E' here. Forward is $155.43 / $16.50 (midpoint of FY2027 non-GAAP EPS guidance $15.50-$17.50) — a company-guidance-based estimate, not a consensus analyst figure.",
+      "asOf": "2026-11-11"
     },
     "eps": [
       {
@@ -73,14 +79,13 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Fiscal Q1 FY2027 guidance was issued (revenue $3.8-4.1B) alongside the Q4 FY2026 report, but no specific Q1 FY2027 earnings call date was found. Historically Sanmina reports fiscal Q1 results in late January; not confirmed this session."
+      "note": "Not found. Sanmina's fiscal Q1 ends late December; last year's fiscal Q1 2026 call was Jan 26, 2026, so fiscal Q1 2027 would likely fall late Jan 2027 — inference only, not a confirmed date."
     }
   },
   "price": {
-    "last": null,
-    "changePct": 18.8,
+    "last": 155.43,
     "asOf": "2026-11-11",
-    "source": "Benzinga premarket movers roundup"
+    "source": "stockevents.app"
   },
   "catalysts": [
     {
@@ -99,11 +104,25 @@
     }
   ],
   "conflicts": [
-    "A MarketBeat-sourced figure cites a Q4 FY2026 EPS of $3.31, which does not match either the $4.43 non-GAAP or $2.14 GAAP diluted EPS figures reported in the SEC 8-K exhibit and secondary coverage (panabee); could not determine what measure the $3.31 figure refers to.",
-    "The file's 2026-11-10 +18.8% stock-move figure could not be independently reconfirmed this session; searches surfaced qualitative confirmation of a large AI-infrastructure-driven rally around the Q4 release but no source stating the exact 18.8% figure or its date explicitly as 2026-11-10 (the earnings release itself is dated 2026-11-09 per the SEC exhibit)."
+    "Market cap readings disagree by source/date: $8.33B at $155.43 (Nov 11, stockevents.app) vs. $8.87B at $165.57 (debelegger.nl, dated late Oct, now stale) vs. $8.35B (fool.com, undated). The Nov 11 reading is used as the most recent."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -139,23 +158,17 @@
       "from": "daily"
     }
   ],
-  "notes": "Q4 FY2026 ended 2026-10-03. Market cap, shares outstanding, float, short interest, current share price, and a confirmed next-earnings date were not established this session: WebFetch failed with ENOTFOUND on www.sec.gov, finance.yahoo.com, www.stocktitan.net, and www.panabee.com in this sandbox, and the WebSearch tool's shared per-turn budget was exhausted before these specific queries could be completed.",
+  "notes": "No new catalyst found this session beyond the Q4 FY2026 earnings beat already on file; this pass fills in previously-missing market cap, shares outstanding, cash, and a derived P/E. Debt and short interest remain unestablished.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

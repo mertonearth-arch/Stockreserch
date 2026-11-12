@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.083Z",
+  "lastResearched": "2026-11-12T21:17:16.080Z",
   "fundamentals": {
     "marketCap": {
       "value": 5910000000,
@@ -173,12 +173,21 @@
     }
   ],
   "conflicts": [
-    "Market cap/shares outstanding/price vary enormously across sources and appear to reflect different snapshot dates over 2026 rather than a single disputed fact: $5.91B cap / 132.74M shares / $43.52 (Fool, 2026-07-31); $6.25B cap / 132.74M shares (TipRanks, same period); $4.548B cap / $34.26 price (DeFiLlama, undated); $2.6B cap / 111.6M shares, 52-week range $15.05-$24.59 (americancompanies.com, undated); $2.57B cap / 104.04M shares (roic.ai, undated); $1.75B cap / 99.70M shares (SimplyWall St, undated); $1.89B cap at $18.96 (FXEmpire, dated only 'March', year unspecified). The spread likely reflects a rapidly rising share price and/or large share-count growth (dilutive financings) over 2026, but cannot be reconciled into a single current figure from available sources.",
-    "IPO date conflict: americancompanies.com states 2020-03-03; roic.ai states 2016-11-15. These are irreconcilable from available data."
+    "Price (unresolved, pre-earnings, do not treat as current): Benzinga $35.17 as of 2026-10-26 10:01 AM EDT vs. prior on-file figures ($43.52 close 2026-07-31 per Motley Fool; other unconfirmed figures already flagged)."
   ],
   "pendingFilings": [],
-  "notes": "Q3 2026 results were confirmed reported on 2026-11-09 as scheduled (data-on-file date), so the earnings event is NOT still pending — but I could not locate the company's actual press release or an SEC 8-K/10-Q directly (WebFetch to ir.definiumtx.com, biopharmawatch.com, panabee.com and SEC EDGAR all failed with DNS resolution errors in this sandbox), so figures above are drawn from secondary aggregator summaries of that release, not the primary source, and the exact revenue (likely $0, pre-commercial — no explicit confirmation found) and exact Q3 EPS figure remain unconfirmed. Pipeline highlights mentioned in coverage: DT120 ODT (fast-dissolving lysergide tablet) Phase 3 data in anxiety (Voyage and Panorama studies, both met primary endpoints at Week 12, beating placebo by 5.4 and 5.1 points) with an FDA filing targeted for H1 2027 per CEO Rob Barrow; these trial results were mentioned without a clear date and are therefore not listed as dated catalysts. Research budget (WebSearch calls) was exhausted before these gaps could be closed.",
+  "notes": "Quiet daily recheck 2026-11-12: no DFTX news found dated after the 2026-11-09 Q3 2026 earnings print already on file. Found a Benzinga quote of $35.17 as of 2026-10-26 10:01 AM EDT, but that predates the Nov 9 earnings and conflicts with the range of other stale/undated figures already flagged on file, so not recorded as current price.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -365,19 +374,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.077Z",
+  "lastResearched": "2026-11-12T21:17:16.066Z",
   "fundamentals": {
     "marketCap": {
       "value": null
@@ -69,6 +69,13 @@
       "date": "2026-11-04",
       "type": "legal",
       "headline": "Bradley Heppner's criminal sentencing hearing (SDNY) has reportedly been rescheduled to January 11, 2027. This is a single-source report (Panabee); no second independent outlet or court-docket confirmation was found this session, and it supersedes the prior 'adjourned, no new date set' status on file (as of 2026-10-22).",
+      "impact": null,
+      "source": "https://www.panabee.com/news/beneficient-advances-strategy-to-eliminate-130-million-in-debt-and-recover-211-million"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "legal",
+      "headline": "Beneficient corporate update confirms Bradley Heppner's criminal sentencing has been rescheduled to January 11, 2027 (previously adjourned without a date after his original Oct 7, 2026 date fell through); company reiterated it is still pursuing its strategy to eliminate ~$130M in disputed HCLP Nominees debt and separately is seeking to recover ~$211M previously paid on HCLP-related obligations",
       "impact": null,
       "source": "https://www.panabee.com/news/beneficient-advances-strategy-to-eliminate-130-million-in-debt-and-recover-211-million"
     },
@@ -155,12 +162,21 @@
       "source": "search aggregation (iTiger/TipRanks)"
     }
   ],
-  "conflicts": [
-    "Heppner's original sentencing date is reported as 2026-10-07 before Judge Jed S. Rakoff (SDNY) by several outlets, but a Beneficient company filing separately gave 2026-10-21 as the scheduled sentencing date. An undated follow-up report states the sentencing was 'adjourned without a new date' and that Heppner retained new defense counsel (Alexandra Shapiro and Jonathan Bach); this is consistent with the file's 2026-11-04 'rescheduled' catalyst, but no new fixed hearing date was found this session."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Separately, Beneficient has proposed a settlement to eliminate roughly $130 million of disputed debt (and an associated ~$850 million equity stake claim) tied to Heppner, per finviz/briefglance coverage, but no definitive signed agreement was found and the coverage was undated, so it is not listed as a dated catalyst. Market cap, shares outstanding, float, short interest, cash, debt, and EPS were not established this session; the WebSearch budget for the turn was exhausted before further queries could be run.",
+  "notes": "The Jan 11, 2027 sentencing date is now corroborated by a second reference (Beneficient's own Oct 28 corporate update, as summarized by multiple aggregators), clearing the prior file conflict over which date was operative. Market-cap/shares-outstanding sources found this session (Google Finance July 2026 $49.65M/14.49M shares; ChartExchange May 2026 $49.55M/14.36M shares; base.report undated $101.01M/13.84M shares; TipRanks stale $5.05M/9.46M shares) are all dated well before the stock's collapse to ~$0.69 (on file, 2026-11-06) and are not comparable to current price — omitted rather than reported as current to avoid a misleading figure. No BENF-specific operating fundamentals (cash, debt, EPS) established this session.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -373,22 +389,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

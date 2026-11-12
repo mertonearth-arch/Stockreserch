@@ -8,12 +8,12 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "lastResearched": "2026-11-12T21:17:16.058Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 appears to have just reported (sources disagree on exact date, Nov 9 or Nov 11); next report not established."
+      "note": "Q3 2026 now reported (per Earnings Whispers schedule, 2026-11-11 4:15pm ET); next report date not yet found."
     }
   },
   "price": {
@@ -31,11 +31,22 @@
     }
   ],
   "conflicts": [
-    "Premarket move magnitude for FOSL reported inconsistently: Stockmarketwatch +25.7%, MarketBeat ~+23%, Investing.com +20.2% (labeled after-hours rather than premarket) — not reconciled this session.",
-    "Report date for the underlying Q3 2026 print is unclear: one EarningsWhispers listing says Nov 9, 2026 after close; another says Nov 11, 2026 4:15pm ET."
+    "Could not confirm the actual Q3 2026 print from a primary source this session. Earnings Whispers scheduled the report for 2026-11-11 4:15pm ET with consensus of $0.03 EPS / ~$247.2M revenue (vs $270.2M prior-year, a -8.5% estimate). A Panabee write-up labeled 'Q3 2026' instead shows revenue DOWN 4.9% to $209.7M and a WIDER net loss of $10.6M (vs $2.3M prior year) with 62.4% gross margin -- which contradicts the 'earnings beat, raised FY2026 outlook' framing already on file from the AM pass and may actually describe Q2 2026 (a Nov 3 preview separately attributes the 62.4% margin to 'last quarter'). The two accounts of this earnings print are irreconcilable from the sources available this session.",
+    "Premarket/after-hours move magnitude for the 2026-11-11/12 reaction remains inconsistently reported across aggregators (+25.7% Stockmarketwatch, ~+23% MarketBeat, +20.2% Investing.com) -- already flagged in the prior pass's conflicts, unresolved this session too."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "am",
@@ -50,15 +61,13 @@
       "from": "daily"
     }
   ],
-  "notes": "AM-pass stub only; fundamentals not researched. PM pass should confirm the actual Q3 2026 print, exact date, and current price.",
+  "notes": "Could not independently verify FOSL's actual Q3 2026 revenue/EPS or confirm the raised outlook figures beyond what the AM pass already recorded (FY2026 revenue outlook ~$990M, up from ~$954-974M). Primary IR/newswire sources did not resolve in WebSearch. Flagging the Panabee-vs-AM-pass contradiction above rather than silently picking one account.",
   "lastPass": {
     "date": "2026-11-12",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
       "nextEarnings updated",
-      "move 25.7%",
       "conflicts updated"
     ],
     "tradingDay": true

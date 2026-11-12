@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.093Z",
+  "lastResearched": "2026-11-12T21:17:16.070Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -53,15 +53,17 @@
       "note": "pre-revenue biotech; ~$16M net cash used in operating activities in Q1 2026 (most recent disclosed burn figure found). Cash plus short-term investments including March 2026 private-placement proceeds (~$18.6M net) guided to fund operations into H2 2027."
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2026-11-11",
       "confirmed": false,
-      "note": "no next earnings/data date found"
+      "note": "One secondary source (earnings-calendar aggregator) lists Q3 2026 results expected 2026-11-11 after market close; no company press release or actual reported Q3 2026 figures were located this session to confirm the report occurred or to pull its numbers. Q3 2025 results were reported 2025-11-12 for comparison."
     }
   },
   "price": {
     "last": 1.235,
     "changePct": 24.57,
-    "asOf": "unconfirmed - reported by RTTNews as an intraday move on an unspecified recent 'Wednesday'; could not confirm this was today's (2026-11-11) close or an earlier date"
+    "asOf": "2026-11-06",
+    "source": "RTTNews (headline dated 'Wednesday', confirmed via follow-up search to be 2026-11-06)",
+    "note": "Resolves the prior pass's 'unconfirmed Wednesday' date -- the +24.57% move to $1.235 was on 2026-11-06, not 2026-11-11/12. No price move specific to 2026-11-11 or 2026-11-12 was found."
   },
   "catalysts": [
     {
@@ -124,8 +126,19 @@
     "Stock price move: RTTNews reports CNTB up 24.57% to $1.2350, which is inconsistent with the ~$2.20 and ~$56M-market-cap readings found elsewhere, suggesting the sources are not all from the same date or that a corporate action (e.g., the March 2026 private placement) changed the share count materially between readings."
   ],
   "pendingFilings": [],
-  "notes": "This name was already quiet for 2 passes per the brief (lastCatalyst 2026-10-01 COPD topline). All news found in this pass (RTTNews, biopharmawatch, researchpool, panabee coverage of the same 81%/85% COPD figures) appears to be recirculated/aggregator coverage of the SAME October 1, 2026 Seabreeze STAT COPD topline event already on file - no distinct new dated press release was confirmed since Oct 1. One source (Panabee) also references a Seabreeze STAT ASTHMA readout that reportedly 'missed its primary endpoint on treatment failure over 28 days' with lung-function improvement noted as a secondary finding - this could be a separate, potentially new and material catalyst, but no publication date could be confirmed for it in this pass, so it is flagged here rather than added as a dated catalyst. Recommend explicit follow-up next pass: check company IR/GlobeNewswire directly for (1) an exact date on the COPD release and (2) any dated Seabreeze STAT asthma topline release, given the trial was guided for 'mid-2026' and may already have occurred without being captured here.",
+  "notes": "No new dated catalyst beyond what was already on file (Oct 1 COPD topline). Market cap remains unreconcilable between the $138.52M and $56M figures already flagged in conflicts; no new data found to resolve it this session.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "move 24.57%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -295,20 +308,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "move 24.57%",
-      "conflicts updated"
+      "move 24.57%"
     ],
     "tradingDay": true
   }

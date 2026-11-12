@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.099Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.085Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -69,10 +69,10 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": null,
-    "note": "No current figure confirmed. A prior-pass figure of $212.63 (source/date unclear) could not be reverified; a new market-cap/shares-outstanding snapshot (Fintel, 2026-09-30) implies a share price of roughly $178, a large gap from $212.63 that could not be reconciled -- see conflicts."
+    "last": 190.71,
+    "asOf": "2026-11-05",
+    "source": "Trefis",
+    "note": "Most recent dated figure found; post-S&P-500-inclusion (effective 2026-11-04). AAII separately showed $208.24 as of 2026-10-30 (pre-inclusion), consistent with a decline into the inclusion date."
   },
   "catalysts": [
     {
@@ -188,8 +188,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No further Okta-specific news found dated after Nov 4, 2026 in accessible sources. Other search hits were stale (ranging roughly July–September 2026, e.g. the Permiso acquisition and AI-agent-security commentary) and not usable as recent catalysts. Fundamentals (EPS, revenue growth, market cap, share counts) could not be reliably confirmed via accessible sources in this research pass — Yahoo Finance, Finviz, and similar aggregators all failed DNS resolution in this sandbox, and WebSearch snippets on Okta's financials used inconsistent fiscal-period labels. Next earnings date (2026-12-01, confirmed) carried forward unchanged from the existing record; no contradicting information found.",
+  "notes": "No new dated catalysts found since the Nov 4, 2026 S&P 500 inclusion already on file. Next-earnings date (Dec 1, 2026, confirmed) corroborated independently by a Nov 2, 2026 Business Wire release — no change needed. One earnings-calendar aggregator listed Nov 25, 2026 instead, but the company's own confirmed date is treated as authoritative. Otherwise quiet.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -437,18 +445,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

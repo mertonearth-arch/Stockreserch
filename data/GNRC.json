@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.096Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.082Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -150,8 +150,16 @@
     "Sources differ on whether the ~$4.5B Q3 2026 data-center backlog figure includes the Amazon contract or is presented as a separate/additive figure; could not be reconciled in this pass."
   ],
   "pendingFilings": [],
-  "notes": "No news found specifically dated after 2026-10-28 (the on-file lastCatalyst), so this pass found nothing more recent - the Sept. 17, 2026 Amazon agreement and Oct. 28, 2026 Q3 earnings/backlog update are both already-known or prior-dated context rather than new developments. Risks flagged in analyst coverage of the Amazon deal include contract cancellation rights/delivery obligations and execution risk on engine sourcing and plant ramp-up. Could not confirm market cap, P/E, EPS history, shares outstanding, float, short interest, or an exact next-earnings date in this pass; recommend Generac IR or SEC EDGAR directly once reachable.",
+  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-10-28 Q3 2026 earnings/backlog update already on file. Current price sources remain too inconsistent (undated/conflicting) to record a new quote.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -372,18 +380,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

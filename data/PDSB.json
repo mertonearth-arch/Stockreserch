@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.089Z",
+  "lastResearched": "2026-11-12T21:17:16.075Z",
   "fundamentals": {
     "marketCap": {
       "value": 80450000,
@@ -210,8 +210,16 @@
     "Market cap/price: massive.com showed ~$1.04/share, ~$80.45M market cap, 105.01M shares outstanding as of Oct 26, 2026; fool.com showed ~$1.11/share, ~$116.56M market cap, 105.00M shares as of Oct 23, 2026; Yahoo Finance (ca.finance.yahoo.com) showed market cap ~$42.4M as of Sept 15, 2026 with 52-week range $0.195-$1.55; tickertape.in showed a $0.29 price around Sept 12, 2026. These readings are not internally consistent and could not be reconciled with the tools available in this session."
   ],
   "pendingFilings": [],
-  "notes": "Could not independently verify from a primary source (company IR site or SEC EDGAR) because WebFetch returned DNS/egress failures for sec.gov, stocktitan.net, finviz.com, marketwatch.com, benzinga.com, yahoo finance, panabee.com, globenewswire.com, prnewswire.com and reuters.com in this sandbox, and the WebSearch tool's per-turn quota was exhausted partway through this ticker's research. No additional board/governance news beyond the Oct 18 shake-up was found. Cash, debt, float, and short interest were not established from available search snippets.",
+  "notes": "Q3 2026 earnings were expected today (2026-11-12, before market open per Earnings Whispers consensus of -$0.11/share) but no release had been indexed by any reachable source as of this WebSearch pass -- treating the print as not yet confirmed rather than guessing figures. nextEarnings kept as 2026-11-12/unconfirmed pending the actual release; a follow-up pass should pick up the reported numbers. No other new PDSB-specific news found beyond the Oct 18 board restructuring already on file.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -446,19 +454,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

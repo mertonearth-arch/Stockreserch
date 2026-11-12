@@ -8,12 +8,12 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.073Z",
+  "lastResearched": "2026-11-12T21:17:16.058Z",
   "fundamentals": {
     "marketCap": {
-      "value": 481390000,
-      "asOf": "2026-08-20",
-      "source": "equibles.com (pre-crash figure; not valid post Nov 10 price collapse)"
+      "value": 95970000,
+      "asOf": "2026-11-10",
+      "source": "calculated: $0.62 last price (2026-11-10, prior session) x 154.79M shares outstanding (equibles.com, 2026-08-20) -- not an independently published market-cap figure"
     },
     "float": {
       "value": null,
@@ -110,13 +110,22 @@
     }
   ],
   "conflicts": [
-    "The magnitude of the post-earnings decline is reported very inconsistently: ~35-37% after-hours on Nov 9 per one summary, vs. an intraday move described as 'down 66%' to ~$0.60-$0.61 on Nov 10 per a CNBC/finwire snapshot (52-week-low date listed as 11/10/26). The task's stated figure of '~29% premarket' does not closely match either of these; it may reflect only the initial premarket print before the stock continued falling intraday and the next day.",
-    "Q3 2026 EPS reported as -$0.06 (RBR/Benzinga-sourced commentary) vs. a MarketBeat aggregator figure of -$0.54 against a -$0.28 estimate dated to a URL labeled 2026-08-10 (likely a different/mislabeled quarter) -- not reconciled.",
-    "Full-year 2026 EBITDA guidance: multiple prior-quarter previews said management had reaffirmed ~$800M full-year Adjusted EBITDA and $200M free cash flow targets through Q2 2026 calls; the Q3 2026 release is reported by one source as cutting that full-year target to $550M-$600M, while another secondary summary suggests only the quarter missed plan without explicitly confirming a formal full-year guidance cut. Treat the guidance-cut framing as sourced from secondary commentary, not a directly read primary release.",
-    "Market cap/shares outstanding/short interest figures above are from an Aug 20, 2026 snapshot (pre-crash); given the stock's subsequent ~90%+ decline from 2026 highs into the $0.60s, current market cap is materially lower than the $481M figure shown, but a current recalculation was not available from a dated source."
+    "Post-crash market cap could not be found as a directly published figure; the $95.97M value above is a calculation from separately-dated price and share-count inputs, not a single source. A pre-crash Fox Business snapshot (2026-11-06, price $1.87, down 5.35% that day) implies a market cap of ~$289M just before the Nov 9 earnings collapse, consistent in direction with the subsequent ~66% drop already on file, but is itself six days stale relative to today.",
+    "No IHRT-specific news dated 2026-11-12 was found; today's due-list appearance reflects yesterday's catalysts still being fresh, not a new same-day development."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -151,24 +160,13 @@
       "from": "daily"
     }
   ],
-  "notes": "SEC.gov, stocktitan.net, and benzinga.com full-article fetches failed in this session (network restrictions); figures are drawn from WebSearch summaries of those and other secondary outlets (RBR, finwire, barchart, panabee), not direct primary-document reads.",
+  "notes": "No new catalyst found today. The 2026-11-06 pre-crash price ($1.87) is broadly consistent with the already-recorded ~66% post-earnings decline to ~$0.62, which corroborates rather than contradicts the existing record.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -66.2%",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.090Z",
+  "lastResearched": "2026-11-12T21:17:16.076Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -146,13 +146,20 @@
       "source": "https://www.businesswire.com/news/home/20260112655330/en"
     }
   ],
-  "conflicts": [
-    "Market cap: investing.com (undated) showed ~$14.27B, implying a price near $17.84; ChartRow showed ~$10.6B at a $13.32 price (date unclear); ChartExchange showed ~$21.29B, implying a price near $28, which looks stale relative to the $15.97-$16.33 prices seen around Oct 30-Nov 6, 2026.",
-    "Shares outstanding: ChartRow lists ~797.7M shares; ChartExchange lists 742,665,924 shares. Neither could be confirmed against a primary source in this session."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "The urgent task item is resolved: Q3 2026 earnings were in fact reported on Nov 4, 2026 (prior data gap was due to stale calendar listings -- ChartRow and The Right Trader both incorrectly still show Oct 19, 2026 as the 'next' report date; Earnings Whispers' older snapshot showed Oct 14; TipRanks showed Aug 12, which was actually the Q2 date). The Nov 14, 2026 PDUFA date remains pending as of this research with no FDA action announced yet. Primary company/SEC sources (IR site PDF on q4cdn.com, SEC EDGAR, businesswire.com, globenewswire.com) were unreachable via WebFetch in this sandbox; figures rely on WebSearch snippet aggregation from quartr.com and biopharmawatch.com.",
+  "notes": "Routine PM recheck 2026-11-12: no FDA decision on the ivonescimab BLA has been announced yet; PDUFA goal date remains 2026-11-14 (2 days out). FierceBio reports Summit has eliminated additional commercial/marketing leadership roles ahead of the decision, and describes approval as highly uncertain given HARMONi's OS miss. No new dated catalyst beyond what's already on file; genuinely quiet pass on this name pending Friday's decision.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -321,19 +328,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

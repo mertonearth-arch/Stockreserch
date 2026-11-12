@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.098Z",
+  "lastResearched": "2026-11-12T21:17:16.084Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -70,9 +70,9 @@
       "note": "Data center revenue hit a record $2.74B, growth accelerating to ~46% YoY, driven by AI demand. (No total-company revenue YoY figure located; data-center is the disclosed headline growth metric in coverage.)"
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false,
-      "note": "Conflicting/unconfirmed estimates: Nov 26, 2026 after market close (TipRanks — marked 'confirmed' only on Marvell's Swiss/UK secondary listing pages, reliability unclear); Dec 1, 2026 and Dec 2, 2026 (other tracker estimates per prior record). For reference, the prior-year Q3 FY2026 report was issued Dec 2, 2025, suggesting a late-Nov/early-Dec 2026 date is plausible for Q3 FY2027, but no primary-source (Marvell IR/press release) confirmation was found in accessible sources."
+      "date": "2026-12-01",
+      "confirmed": true,
+      "note": "Confirmed by Marvell's own Nov 6, 2026 press release announcing a conference call for Q3 FY2027 results on Tuesday, Dec 1, 2026 at 1:30pm. Resolves the prior pass's earnings-date conflict — the Nov 26, 2026 TipRanks estimate was outdated (its own footnote said it was based on prior-year reporting pending confirmation)."
     }
   },
   "price": {
@@ -83,6 +83,13 @@
     "note": "Stale vs. 2026-10-23; the 2026-10-06 Investor Day catalyst was reported to have moved the stock +5.81% intraday that session, so the price has likely moved since, but no later confirmed quote was found this session."
   },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "M&A",
+      "headline": "Marvell agreed to acquire Lumentum (LITE) in an all-stock deal valuing Lumentum at roughly $115B enterprise value (~$102.5B equity value per Reuters-derived reporting); exchange ratio of 4.500 Marvell shares per Lumentum share; Marvell shareholders to own ~67% of the combined company on a fully diluted basis, Lumentum holders ~33%; Lumentum CEO Michael Hurlston and two other Lumentum directors to join Marvell's board, Matt Murphy remains Chairman/CEO; combined company expects >$1B in annual run-rate cost synergies from the AI-driven shift from copper to optical connectivity; deal expected to close H1 2028 pending stockholder and regulatory approvals.",
+      "impact": "Reported by Bloomberg as the largest M&A deal of 2026 by equity value and the largest-ever in global tech excluding the SpaceX/xAI merger",
+      "source": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum ; https://pulse2.com/marvell-to-acquire-lumentum-115-billion/"
+    },
     {
       "date": "2026-10-16",
       "type": "price action",
@@ -187,19 +194,22 @@
       "source": "StockTitan summary of SEC 424B7 filing"
     }
   ],
-  "conflicts": [
-    {
-      "field": "Q3 FY2027 earnings date",
-      "readings": [
-        "November 26, 2026, after market close (TipRanks, confirmed status applies only to Swiss/UK listing pages)",
-        "December 1, 2026 (prior tracker estimate, per existing record)",
-        "December 2, 2026 (prior tracker estimate, per existing record; matches prior-year Q3 FY2026 report date of Dec 2, 2025)"
-      ]
-    }
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new market-moving news found since the Oct 16, 2026 post-Investor-Day decline. Other coverage found (25% FY2027 data-center growth target, Celestial AI acquisition progress, FQ3 guidance of ~$3.15B revenue ±5% and ~$1.10 non-GAAP EPS ±$0.05) all trace back to the Oct 6 Investor Day / Q2 FY2027 earnings call, not new events. Earnings-date conflict could not be resolved from accessible sources — recommend checking Marvell's investor relations site directly closer to the date.",
+  "notes": "Earnings-date conflict from the prior pass resolved (company confirmed Dec 1, 2026). Major new development: Marvell announced the acquisition of Lumentum (see M&A catalyst above).",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -435,17 +445,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

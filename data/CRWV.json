@@ -8,18 +8,65 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "lastResearched": "2026-11-12T21:17:16.056Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 report appears to have just been released; prior preview coverage expected it around Nov 10, 2026. Actual figures not independently confirmed this session."
+      "note": "Q3 2026 now confirmed reported 2026-11-10. Next (Q4 2026) date not yet scheduled/found."
+    },
+    "marketCap": {
+      "value": null,
+      "note": "Sources disagree sharply and span pre- and post-earnings dates; see conflicts. Not reconciled to a single current figure."
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "Sources disagree (447.6M-551.5M depending on share-class treatment and date); see conflicts."
+    },
+    "cash": {
+      "value": null,
+      "note": "Sources disagree ($2.3B-$7.87B across Yahoo/TipRanks/OpenCapital/StockAnalysis, different quarters); see conflicts."
+    },
+    "debt": {
+      "value": null,
+      "note": "Sources disagree ($17.8B-$73.3B); the Q3 2026 earnings coverage itself cites total debt approaching $47B as of the print. See conflicts."
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "GAAP net loss $709M for Q3 2026 (negative earnings)",
+      "asOf": "2026-11-10"
+    },
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": -1.27,
+        "basis": "adjusted (non-GAAP)",
+        "note": "Reported as beating a -$1.55 estimate per one secondary summary; could not be verified directly against the company's own release this session."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 1365000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 3661000000,
+        "yoy": 168
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 168
     }
   },
   "price": {
-    "changePct": 13.7,
-    "asOf": "2026-11-12",
-    "note": "Premarket move reported as +13.7% (Investing.com) to ~+14% (MarketBeat). No confirmed last price located this session."
+    "last": 47.56,
+    "changePct": -2.4,
+    "asOf": "2026-11-10",
+    "note": "Post-earnings after-hours price $47.56 (-2.4%) on 2026-11-10 per 247wallst/aiweekly coverage of the Q3 print; this supersedes the AM-pass premarket +13.7% figure, which was based on initial reaction before the stock gave back gains. No confirmed regular-session close for 2026-11-11 or 2026-11-12 located this session."
   },
   "catalysts": [
     {
@@ -28,11 +75,44 @@
       "headline": "CoreWeave reported Q3 2026 results described as topping estimates; specific revenue/EPS figures not independently located this session",
       "impact": "+13.7% to ~+14% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "CoreWeave Q3 2026 results: revenue $3.661B (+168% YoY from $1.365B), beating the ~$3.54-3.55B analyst estimate; GAAP net loss $709M (vs $110M prior-year quarter) on operating income of $207M; revenue backlog ~$132.5B; raised FY2026 revenue guidance to $13.0B-$13.3B (from prior guidance on file); still expects >1.85GW of active power capacity by year-end; total debt reported approaching $47B",
+      "impact": "Shares fell to $47.56 after-hours (-2.4%) despite the beat/guidance raise, as coverage flagged the ~$14.5B quarterly capex against only ~$9B of customer prepayments",
+      "source": "https://247wallst.com/cards/coreweave-q3-2026-earnings-crwv-01m73msrkgrgan75a5t7tb9fmz ; https://aiweekly.co/alerts/coreweave-q3-revenue-jumps-168-yoy-to-366b-as-backlog-climbs-to-1325b-and-debt"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "CRWV market cap reported from $29.9B (fool.com, publicly-traded shares only) to ~$32.7B (DefiLlama) to $61.6B (Simply Wall St) to CAD68.3B (StockAnalysis TSX listing) -- different share-count conventions and dates, not reconciled.",
+    "CRWV shares outstanding reported from 447.6M (TipRanks) to 525.7M (Simply Wall St) to 532M (Roic.ai) to 551.5M (fool.com/GuruFocus) -- not reconciled.",
+    "CRWV cash reported from $2.3B (Yahoo/Roic.ai) to $3.0B (TipRanks) to $3.3B (OpenCapital, Q1 2026) to $6.4B (fool.com) to $7.87B (StockAnalysis) -- spans different fiscal quarters, not reconciled.",
+    "CRWV total debt reported from $17.8B (TipRanks, appears stale) to $35B (Roic.ai/OpenCapital, Q1 2026) to ~$47B (contemporaneous Q3 2026 earnings coverage) to $51.6B (fool.com) to $73.3B (StockAnalysis) -- not reconciled; the ~$47B figure is the only one dated to the Q3 2026 print itself.",
+    "Adjusted EPS of -$1.27 for Q3 2026 appears in only one secondary summary and was not cross-checked against CoreWeave's own release or 8-K this session."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "am",
@@ -46,15 +126,23 @@
       "from": "daily"
     }
   ],
-  "notes": "AM-pass stub only; fundamentals not researched. PM pass should pull the actual Q3 2026 print (revenue, EPS, guidance, interest expense) from a primary source.",
+  "notes": "PM-pass full research. AM-stub premarket +13.7% move was superseded intraday/after-hours by a -2.4% after-hours reaction once the capex/debt concerns were digested -- record both in history via price.note rather than overwriting silently.",
   "lastPass": {
     "date": "2026-11-12",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
-      "move 13.7%"
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

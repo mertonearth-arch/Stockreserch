@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.085Z",
+  "lastResearched": "2026-11-12T21:17:16.083Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -67,18 +67,25 @@
       "note": "Most recent CONFIRMED quarter found in sources; Q3 2026 figures not located this session."
     },
     "nextEarnings": {
-      "date": "2026-11-09",
+      "date": "2026-11-05",
       "confirmed": false,
-      "note": "Per system state. No confirmed Q3 2026 results release could be located in available sources as of this research session (2026-11-11), despite this date having passed. Could mean the report has not yet been released/was delayed, or coverage is not yet indexed by the sources accessible here. Status should be treated as STILL PENDING / UNCONFIRMED, not as 'no report occurred.'"
+      "note": "Yahoo Finance lists an earnings date of 2026-11-05, but no Q3 2026 results were found in accessible sources as of 2026-11-12 — conflicts with the prior pass's 2026-11-09 estimate; see conflicts."
     }
   },
   "price": {
-    "last": null,
+    "last": 0.9,
     "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "Not established from available sources this session."
+    "asOf": "2026-11-06",
+    "source": "Motley Fool quote page"
   },
   "catalysts": [
+    {
+      "date": "2026-11-03",
+      "type": "product",
+      "headline": "GoPro showcased its new MISSION 1 Series cameras and accessories at the DEMA Show 2026 in New Orleans",
+      "impact": null,
+      "source": "GoPro press release (via WebSearch aggregation)"
+    },
     {
       "date": "2026-10-27",
       "type": "offering/dilution",
@@ -178,11 +185,23 @@
     }
   ],
   "conflicts": [
-    "Several search hits for 'GoPro Q3 EPS' (e.g. TipRanks/StreetInsider items citing a 9c or 2c EPS beat) could not be reliably dated to 2026 and appear to reference earlier fiscal years (likely 2023-2024); they were excluded from this record to avoid misattribution."
+    "Next earnings date: prior system note says 2026-11-09 (unconfirmed, per system state); Yahoo Finance (2026-11-12 search) shows 2026-11-05. Neither a Q3 2026 earnings release nor results were located as of 2026-11-12 under either date."
   ],
   "pendingFilings": [],
   "notes": "Q3 2026 earnings status is the key open item: nextEarnings on file is 2026-11-09 (unconfirmed) and that date has passed, but no actual Q3 2026 print (revenue/EPS) was found via WebSearch in this session. Treat as PENDING CONFIRMATION, not as a miss or non-event. Market-cap/shares/float/short-interest/cash/debt fields are null because the WebSearch budget for this session was exhausted before those lookups could be completed — they are not confirmed zero or absent, simply unresearched this pass.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -479,21 +498,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
+      "1 new catalyst(s)",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

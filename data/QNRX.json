@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.101Z",
+  "lastResearched": "2026-11-12T21:17:16.086Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -172,12 +172,21 @@
     }
   ],
   "conflicts": [
-    "Reported size of the August 2026 private placement differs by source: one headline cites 'up to $50.0 million' with healthcare-focused institutional investors, while another summary describes net proceeds of about $28 million plus an $11 million ATM facility available for future financing. Could not confirm an exact closing date for this raise, so it is not listed as a separately dated catalyst.",
-    "Cash runway guidance differs by source: one analysis says the Q3 2026 update extended the runway into 2028 (from a prior target of 'into 2027'); another describes runway into 'late 2027.' The company's own precise wording was not retrieved."
+    "All market-cap/share-count data found this pass (MarketBeat $9.58M market cap at $4.81 on 2026-05-22; TipRanks/StockAnalysis ~588,000 shares outstanding from 2025) is 6+ months stale and predates both the August 2026 private placement and the Q3 2026 report (2026-11-05) already on file, which disclosed cash of $33.2M from that raise. Not used to update any field — would materially understate current share count. A 1:35 reverse split (April 2025) is also on record from these sources, consistent with the low pre-raise share count."
   ],
   "pendingFilings": [],
-  "notes": "FDA clearance for an additional Netherton Syndrome study (expanded body-surface-area application) was also reported, but no reliable date was found for that announcement, so it is omitted from the dated catalysts list. Market cap, shares outstanding and current share price were not retrieved before this session's WebSearch budget was exhausted — a follow-up message could continue.",
+  "notes": "No current (November 2026) price, market cap, or share count could be established this pass; existing fields left unchanged (null/as on file).",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -447,21 +456,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

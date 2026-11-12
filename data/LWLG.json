@@ -8,12 +8,29 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T05:32:57.135Z",
+  "lastResearched": "2026-11-12T21:17:16.059Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
       "note": "Not established this session."
+    },
+    "marketCap": {
+      "value": 682960000,
+      "asOf": "2026-10-23",
+      "source": "foxbusiness.com (close $4.13)",
+      "note": "Stalest figure found this session; no Nov 2026 snapshot located. Treat as approximate."
+    },
+    "sharesOutstanding": {
+      "value": 154170000,
+      "asOf": "2026-10-23",
+      "source": "foxbusiness.com"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "Negative trailing EPS (-$0.16 per foxbusiness.com, Oct 23 2026); pre-commercial, no forward estimate found.",
+      "asOf": "2026-10-23"
     }
   },
   "price": {
@@ -30,9 +47,24 @@
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding conflict: Fox Business and Google Finance both show ~154.1-154.2M (Oct 23 2026), but TipRanks shows 129.44M on an undated/stale page and Macrotrends shows 148M as of 2026-03-31 rising from 129M at 2025-12-31 — the 154M figure is the most recent dated reading and is used here."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "am",
@@ -46,15 +78,16 @@
       "from": "daily"
     }
   ],
-  "notes": "AM-pass stub only; fundamentals not researched. Note the company has had at least one earlier, similarly-themed foundry-delay selloff (~-10% in June 2026) — PM pass should confirm this is a distinct Nov 2026 event and not a stale re-surfaced story.",
+  "notes": "Could not independently confirm the 2026-11-12 foundry-delay catalyst beyond the AM-pass source (Investing.com roundup); no company press release or 8-K located this session. Could not confirm whether this is a distinct event from the ~June 2026 -10% foundry-delay selloff already noted in the record — treat the AM-pass catalyst as provisional pending a primary source.",
   "lastPass": {
     "date": "2026-11-12",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated",
-      "move -13%"
+      "pe updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.074Z",
+  "lastResearched": "2026-11-12T21:17:16.063Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -118,6 +118,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-11",
       "run": "pm",
       "quiet": false,
@@ -151,26 +159,12 @@
       "from": "daily"
     }
   ],
-  "notes": "The task's framing names the catalyst as the 'PGN-EDO51, Duchenne muscular dystrophy program,' but the dated news located in this session points instead to PGN-EDODM1 / myotonic dystrophy type 1 (DM1) FREEDOM2-DM1 trial data as the actual driver of the Nov 10-11, 2026 stock move. This discrepancy should be verified against PepGen's own investor-relations site or SEC 8-K before publishing, since it affects which drug program and indication the catalyst should be attributed to.",
+  "notes": "No Nov 2026 PepGen news located this session beyond what is already on file; the PGN-EDO51 (DMD) vs. PGN-EDODM1/FREEDOM2-DM1 (DM1) attribution conflict already recorded could not be resolved — no primary company release or 8-K for Nov 2026 was found via WebSearch. One tangential, non-matching result describes a September 2025 FREEDOM-DM1 Phase 1 rally (+121.8%, with a concurrent $100M/31.25M-share offering at $3.20) which is a distinct, older event and is not used here. Treat the existing record's Nov 10-11, 2026 catalysts and conflict note as still the best available information.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 20.7%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

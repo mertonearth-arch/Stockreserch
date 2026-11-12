@@ -8,18 +8,20 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.074Z",
+  "lastResearched": "2026-11-12T21:17:16.061Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "No dated Nov 11, 2026 market cap found; snapshots found for other 2026 dates ranged $5.08T-$5.48T and were not current (see conflicts)."
+      "note": "No market-cap snapshot dated to Nov 2026 was found; most recent reference point is ~$5.3T on 2026-10-21 (Trefis) against a $220.39 price, now well above the ~$176-179 range seen Nov 9-11 — not recomputed here to avoid presenting a stale-price-implied figure as current."
     },
     "float": {
       "value": null
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not re-confirmed this session; widely known to be roughly 24.3-24.4 billion shares per FY2026 10-K but not independently re-sourced here."
+      "value": 24300000000,
+      "asOf": "2026-02-20",
+      "source": "NVIDIA FY2026 10-K",
+      "note": "Most recent primary-source share count found; a separate filing-based source shows 24.1B as of 2026-08-21."
     },
     "shortInterest": {
       "value": null,
@@ -79,12 +81,20 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": -5.48,
-    "asOf": "2026-11-11",
-    "note": "Task's stated premarket figure (-5.48% to $176.41) is used as the most specific data point for today; no independently confirmed regular-session close for Nov 11, 2026 was found. Nearby dated reference points found: Nov 6, 2026 close ~$186.64 (+2.78%); Nov 9, 2026 intraday ~$178.95 (-4.2% from prior close); stock described as down ~23.5% from Oct 7 to Nov 5, 2026 vs. S&P 500 -5.7% over the same span, and as having its 'worst 5 days since 2022' as of Nov 11, 2026."
+    "last": 178.67,
+    "changePct": -4.27,
+    "asOf": "2026-11-09",
+    "source": "heygotrade.com",
+    "note": "Most recent confirmed close found this session is Nov 9, 2026 ($178.67, -4.27%/-$7.97). No Nov 10, 11 or 12 close was located (stockanalysis.com, cnbc.com, google.com egress-blocked); the existing -5.48%-to-$176.41 Nov 11 premarket figure on file is retained as the latest data point for that date."
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "executive change",
+      "headline": "NVIDIA announced Jensen Huang resigned as President, CEO and board member, effective immediately, following reports of personal relationships -- including one with a woman US intelligence agencies reportedly suspect of spying for China. CFO Colette Kress was named interim CEO; Harvey C. Jones was named the company's first-ever board chair. Kress is to lead a search for a permanent CEO considering internal and external candidates. A person familiar with the matter told CNBC the board decided to oust Huang the previous night.",
+      "impact": "Shares fell sharply but sources disagree sharply on magnitude -- see conflicts",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition ; https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html ; https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/"
+    },
     {
       "date": "2026-11-11",
       "type": "price move",
@@ -98,6 +108,13 @@
       "headline": "NVDA fell ~5.48% premarket to $176.41, flagged among the day's weakest S&P 500 premarket names, continuing the AI/chip-stock weakness that produced the 2026-11-05 selloff already on file.",
       "impact": "-5.48% premarket",
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "price move",
+      "headline": "NVDA closed at $178.67, down 4.27% ($7.97) in the US session, as the board's independent investigation into CEO Jensen Huang (disclosed Nov 8) continued to weigh on shares",
+      "impact": "-4.27%",
+      "source": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-10-2026/"
     },
     {
       "date": "2026-11-08",
@@ -185,13 +202,25 @@
     }
   ],
   "conflicts": [
-    "Next-earnings-date conflict RESOLVED this session in favor of Nov 17, 2026, per NVIDIA's own Oct 28, 2026 investor-relations press release (investor.nvidia.com), which is the authoritative primary source. Other trackers showing Nov 18 or Nov 25 should be treated as stale/incorrect.",
-    "Premarket/intraday price readings for the surrounding days conflict across sources and were not fully reconciled: a Nov 6, 2026 close of $186.64 vs. $186.71 (two sources); a Nov 9, 2026 intraday level of $178.95 (-4.2%) vs. other unreconciled readings; one earlier WebSearch pass surfaced a '5.4% to $176.61' figure essentially matching the task's '$176.41, -5.48%' figure but attributed to 'a Monday session' without a clear date stamp, alongside separate stated last-close figures of $168.89 in two other sources for 'Tuesday.' Given the task explicitly supplies the $176.41/-5.48% figure for Nov 11, 2026, that figure is used as the primary price data point above, with the surrounding noisy/conflicting secondary reads not used.",
-    "Market cap and trailing P/E snapshots found this session (ranging $5.08T-$5.48T market cap; trailing P/E 26.3-46.0) were all dated to other points in 2026 (April, September, August 10-Q) and not to Nov 11, 2026, so none is reported as a current figure."
+    "Carried forward: market cap and trailing P/E snapshots found this session ($5.08T-$5.3T; shares 24.1B-24.3B) are all dated to Aug-Oct 2026, none to the current ~$176-179 price range, so no current market cap/P/E is reported.",
+    "NVDA Nov 12 2026 price reaction to the Huang resignation is reported inconsistently: Yahoo Finance says shares fell as much as 13% intraday before paring losses; Washington Post reports down 9% in early trading, narrowing to down 4% by late morning; a separate Benzinga premarket report (ahead of the open, based on the overnight WSJ report of an impending ouster) put the move at -8.56% to 58.92. No single reconciled close for Nov 12 was found this session."
   ],
   "pendingFilings": [],
-  "notes": "Primary driver of the Nov 2026 NVDA weakness is the Nvidia board's espionage-related investigation into CEO Jensen Huang (disclosed ~Nov 8, 2026), not a company-specific earnings or operational event. Next earnings (fiscal Q3 2027) is confirmed for Nov 17, 2026 directly from investor.nvidia.com, resolving the prior date conflict.",
+  "notes": "No confirmed close found for Nov 10, 11 or 12, 2026 this session — stockanalysis.com, cnbc.com and google.com are egress-blocked in this sandbox, and WebSearch did not surface a dated figure for those sessions. Next earnings (Q3 FY2027) remains confirmed for 2026-11-17 per the existing record. MAJOR UPDATE 2026-11-12: Jensen Huang resigned as CEO today (see new catalyst above) -- this is the resolution of the board investigation disclosed Nov 8 that was already on file. Next earnings (Q3 FY2027) remains scheduled for 2026-11-17 per multiple sources, now notably with no permanent CEO in place.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -444,21 +473,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
+      "2 new catalyst(s)",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

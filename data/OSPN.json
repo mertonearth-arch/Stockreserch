@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.100Z",
+  "lastResearched": "2026-11-12T21:17:16.086Z",
   "fundamentals": {
     "revenue": [
       {
@@ -45,7 +45,11 @@
       "asOf": "2026-10-23",
       "source": "foxbusiness.com"
     },
-    "shortInterest": null,
+    "shortInterest": {
+      "value": null,
+      "note": "Sources disagree and are both pre-earnings/stale: see conflicts.",
+      "asOf": null
+    },
     "cash": null,
     "debt": null,
     "pe": {
@@ -95,12 +99,21 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 36.85M (Fox Business, 2026-10-23) vs 37.07M (Google Finance, 2026-08-04).",
-    "Market cap: $695.40M (Fox Business, 2026-10-23) vs $620.96M (Equibles, 2026-09-11) vs ~$602M (Google Finance, 2026-08-04) vs $902M (Fullratio, undated, paired with an apparently stale $24.45 share price).",
-    "Trailing P/E: 10.59 (Fox Business) vs 9.5 (Equibles) vs 9.02 (Google Finance) vs 13.29 (Fullratio, likely stale)."
+    "Short interest: stockanalysis.com (asOf 2026-09-11) 3.7M shares short, ~10.1% of float, ~10.3 days to cover vs equibles.com (asOf 2026-08-20) 3.0M shares short, ~8.1% of float — both pre-Q3-earnings (2026-10-29) and not refreshed this pass; no post-earnings short-interest figure found."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -211,23 +224,13 @@
       "from": "daily"
     }
   ],
-  "notes": "No news found specific to OneSpan since the Oct 29, 2026 Q3 report (which is the same event already on file as the Oct 29 outlook raise). One analyst-style commentary flagged that part of Q3's revenue strength came from a $2.3M one-time boost tied to customers shifting to multi-year contracts, and that operating costs (+17%) grew faster than revenue — included for context, not as a new dated catalyst. Could not retrieve a current (post-earnings) price, market cap or share count before the session's search budget was exhausted.",
+  "notes": "No new post-earnings (after 2026-10-29) price, market cap, or next-earnings-date confirmation found this pass despite search. Existing on-file catalysts/fundamentals left unchanged.",
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
       "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

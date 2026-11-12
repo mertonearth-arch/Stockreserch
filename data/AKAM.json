@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-11T21:19:14.091Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-12T21:17:16.078Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -199,8 +199,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "New finding beyond the prior on-file catalyst: alongside the Nov 5, 2026 Q3 earnings release, Akamai also announced a large ($11.6B, 7-year) cloud/AI agreement with Anthropic, including a warrant for ~5% of shares outstanding -- this was not previously captured in the lastCatalyst record and is material. No further news was found after Nov 5, 2026, consistent with the expected quiet period (quietRuns=1). Price, market cap, shares outstanding, float, short interest, cash and debt were not established: Akamai's own newsroom, finviz.com, marketwatch.com, benzinga.com, stocktitan.net and Yahoo Finance were all unreachable via WebFetch in this sandbox, and the WebSearch quota was exhausted before a targeted quote search could be completed.",
+  "notes": "Routine PM recheck 2026-11-12: no AKAM-specific news dated Nov 12 found via WebSearch beyond what's already on file from the Nov 5 Q3 2026 print and Anthropic infrastructure deal. Genuinely quiet pass.",
   "history": [
+    {
+      "date": "2026-11-12",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-11",
       "run": "pm",
@@ -432,18 +440,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
