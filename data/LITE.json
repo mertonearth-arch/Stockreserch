@@ -1,36 +1,35 @@
 {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
-  "sector": "Technology Hardware — Optical Components / Networking",
+  "sector": "Technology (optical/photonics components)",
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.084Z",
+  "lastResearched": "2026-11-13T21:33:08.077Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
+      "note": "Conflicting figures found: $76.15B (Fool, Oct 30) vs $65.68B (May 29) vs $61.36B (April) — not recomputed post-deal-announcement due to the shares-outstanding conflict below."
     },
     "float": {
       "value": null,
       "note": "not found in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": 77800000,
-      "note": "Most sources agree; one outlier (2026-08-21) shows 89.70M — see conflicts."
+      "value": null,
+      "note": "90.58M (Fool) vs 71.4M (ChartExchange/Value Research/TipRanks) — roughly 27% apart; could not determine which is current."
     },
     "shortInterest": {
       "value": null,
       "note": "Sources found this session disagree and are stale/undated: equibles.com settlement date 2026-03-13 shows ~11.49M shares short (~1.8 days to cover); a Trefis page (undated) puts short interest at ~12% of basic shares outstanding; a MarketBeat figure of 15.17% of float is explicitly labeled 'last updated October 2025' and is stale. None reconciled to a current, clearly-dated %-of-float figure."
     },
     "cash": {
-      "value": 2700000000,
-      "asOf": "2026-06-27",
-      "source": "Q4 & FY2026 earnings release, 2026-08-11",
-      "note": "total cash, cash equivalents and short-term investments at fiscal year end; up $1.9B from FY2025 year-end"
+      "value": 1121800000,
+      "asOf": "2025-09-27 (fiscal Q1 2026, reported Nov 4, 2025)",
+      "note": "This is the most recent dated cash figure found (cash and short-term investments); it is over a year old relative to this report."
     },
     "debt": {
       "value": null,
@@ -39,53 +38,43 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established in accessible sources",
-      "asOf": "2026-11-11"
+      "note": "Not established this pass; most recent confirmed GAAP net income figure found ($4.2M, fiscal Q1 2026) is now well over a year stale."
     },
     "eps": [
       {
-        "period": "Q4 FY2026",
-        "value": 3.23,
-        "basis": "non-GAAP",
-        "note": "reported Aug 11, 2026; beat consensus estimate of $2.97 by $0.26"
+        "period": "Fiscal Q1 2026 (ended 2025-09-27)",
+        "value": 0.05,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Fiscal Q1 2026 (ended 2025-09-27)",
+        "value": 1.1,
+        "basis": "Non-GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "FY2025",
-        "value": 1645000000
-      },
-      {
-        "period": "FY2026 (sum of quarters)",
-        "value": 2490000000,
-        "yoy": 51,
-        "note": "Sum of $480.7M + $533.8M + $665.5M + $808.4M across FY2026 quarters per one source; +~51% YoY vs FY2025's $1.645B. A separate source states Q4 FY2026 revenue was $1.01B/$987.70M instead of the implied $808.4M — materially different, not reconciled."
-      },
-      {
-        "period": "Q1 FY2027 (ended 2026-09-26)",
-        "value": 1260000000,
-        "yoy": null,
-        "note": "Company-reported net revenue of $1.26B for fiscal Q1 2027. YoY base is disputed between sources: one secondary read implies a prior-year comparator of $533.8M (+136%), while this record's own FY2026 quarterly breakdown lists Q1 FY2026 at $480.7M (+162%) — not reconciled, left as null rather than guessed."
+        "period": "Fiscal Q1 2026 (ended 2025-09-27)",
+        "value": 533800000,
+        "yoy": 58
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027",
-      "pct": null,
-      "note": "Fiscal Q1 FY2027 net revenue reported at $1.26B on Nov 5, 2026 (per existing record); prior-year comparable quarter revenue needed to compute YoY% was not located in accessible sources."
+      "period": "Fiscal Q1 2026",
+      "pct": 58,
+      "note": "This is the most recent confirmed revenue figure found; it is from a report issued Nov 4, 2025, over a year before this pass's as-of date."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q1 FY2027 just reported Nov 5, 2026; Q2 FY2027 report date not announced in accessible sources."
+      "note": "Not located this pass; overshadowed by the pending Marvell acquisition."
     }
   },
   "price": {
-    "last": 585.57,
-    "changePct": -1.78,
-    "asOf": "2026-11-11",
-    "source": "stockevents.app",
-    "note": "Sources disagree sharply on price since the Nov 2 M&A announcement; see conflicts."
+    "last": 613,
+    "asOf": "2026-11-05",
+    "note": "Trefis market price, post-deal-announcement. Pre-announcement (Oct 30, 2026) Motley Fool showed $840.70; the gap reflects the ~18.6% single-day drop on Nov 2, 2026."
   },
   "catalysts": [
     {
@@ -105,9 +94,23 @@
     {
       "date": "2026-11-02",
       "type": "M&A",
+      "headline": "Marvell agrees to acquire Lumentum in an all-stock deal valued at ~$115B implied enterprise value for Lumentum",
+      "impact": "Lumentum holders to receive a fixed 4.500 Marvell shares per Lumentum share (~$1,132/share implied, ~23.9% premium to the Oct 28, 2026 unaffected price). Lumentum shareholders will own ~33% of the combined company; deal expected to close H1 2028. Lumentum stock fell ~18.6% on the announcement day.",
+      "source": "Marvell/Lumentum joint press releases; SEC Form 425; Light Reading; SiliconANGLE; Trefis"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "M&A",
       "headline": "Marvell Technology agreed to acquire Lumentum in an all-stock deal valuing Lumentum at roughly $115B enterprise value (Reuters-derived reporting instead gives Lumentum an equity value of ~$102.5B); exchange ratio of 4.500 Marvell shares per Lumentum share (~$1,132/share implied), a ~23.9% premium to the Oct 28, 2026 unaffected close; both boards approved unanimously; Lumentum CEO Michael Hurlston and two other Lumentum directors will join Marvell's board, Matt Murphy remains Chairman/CEO of the combined company; combined company expects >$1B in annual run-rate cost synergies from the AI-driven shift from copper to optical connectivity; deal expected to close H1 2028 pending stockholder and regulatory approvals; Lumentum reciprocal termination fee ~$2.9B.",
       "impact": "Lumentum shares fell sharply after the announcement; sources disagree on the exact magnitude — see conflicts",
       "source": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum ; https://pulse2.com/marvell-to-acquire-lumentum-115-billion/"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "M&A",
+      "headline": "Lumentum shares fell 13.2% on reports Marvell was closing in on a buyout",
+      "impact": "Pre-announcement speculation drop, ahead of the Nov 2 official announcement.",
+      "source": "Trefis"
     },
     {
       "date": "2026-10-29",
@@ -146,13 +149,36 @@
     }
   ],
   "conflicts": [
-    "Post-announcement LITE price: MarketBeat reports an 18.6% drop to an $684.40 close on 2026-11-02 (prior close $840.70); Trefis instead reports a 14.9% drop on 2026-11-02, tied to a decline in Marvell's own shares; Fox Business showed a $509.70 close (+5.67%) as of 2026-11-06; Benzinga listed $698.14 as of 2026-11-03; stockevents.app lists $585.57 as of 2026-11-11 (-1.78%). Not reconciled.",
-    "Deal valuation: some outlets cite ~$115B as Lumentum's implied enterprise value; Reuters-derived reporting gives Lumentum an equity value of ~$102.5B. Not reconciled.",
-    "A MarketBeat item appears to describe the Nov 2, 2026 M&A announcement as an 'earnings' release, and Earnings Whispers separately lists Nov 10, 2026 after close as an earnings date — neither matches this record's existing Nov 5, 2026 Q1 FY2027 earnings catalyst already on file. Not reconciled; nextEarnings left unchanged."
+    "Shares outstanding: 90.58M vs 71.4M depending on source.",
+    "Market cap: $76.15B vs $65.68B vs $61.36B at different 2026 dates, inconsistent with the share-count conflict above.",
+    "Deal value per share: company materials cite ~$1,132/share (~23.9% premium); one source cited ~$824/share, and another ~$883.80/share — these do not match the official deal terms and may reflect mark-to-market value using Marvell's falling stock price."
   ],
-  "pendingFilings": [],
-  "notes": "Major development since the last pass: Marvell Technology announced it will acquire Lumentum in an all-stock transaction (see M&A catalyst above) — this is a material, cadence-resetting event, not a quiet pass.",
+  "pendingFilings": [
+    "SEC Form 425 (2026-11-02, merger communication)",
+    "Form 10-Q — fiscal period ended 2026-09-26 (filed; detailed contents not reviewed this pass)"
+  ],
+  "notes": "LITE's near-term price action is now dominated by the pending Marvell all-stock acquisition (expected close H1 2028) rather than by standalone fundamentals; its value effectively tracks 4.5x Marvell's share price. Most recent standalone operating results located (fiscal Q1 2026, reported Nov 2025) are now well over a year old.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -398,11 +424,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

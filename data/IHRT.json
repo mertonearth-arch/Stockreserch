@@ -1,83 +1,86 @@
 {
   "ticker": "IHRT",
   "name": "iHeartMedia, Inc.",
-  "sector": "Media & Broadcasting",
+  "sector": "Communication Services / Media",
   "theme": "Media & Broadcasting",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.058Z",
+  "lastResearched": "2026-11-13T21:33:08.058Z",
   "fundamentals": {
     "marketCap": {
-      "value": 95970000,
-      "asOf": "2026-11-10",
-      "source": "calculated: $0.62 last price (2026-11-10, prior session) x 154.79M shares outstanding (equibles.com, 2026-08-20) -- not an independently published market-cap figure"
+      "value": 317320000,
+      "asOf": "2026-11-06",
+      "source": "Fox Business",
+      "note": "Predates the Nov 9 earnings/guidance cut and subsequent price decline; current market cap would be materially lower"
     },
     "float": {
-      "value": null,
-      "note": "Not established."
+      "value": 119910000,
+      "asOf": "2026-11-06",
+      "source": "Fox Business"
     },
     "sharesOutstanding": {
       "value": 154790000,
-      "asOf": "2026-08-20",
-      "source": "equibles.com"
+      "asOf": "2026-11-06",
+      "source": "Fox Business / Equibles"
     },
     "shortInterest": {
-      "value": 4,
-      "asOf": "2026-08-20",
-      "source": "equibles.com (6.2M shares short, 4.0% of float, 10.3 days to cover, described as rising)"
+      "value": 6400000,
+      "asOf": "2026-10-05 settlement",
+      "source": "Equibles",
+      "note": "~4.1% of float; 13.4 days to cover"
     },
     "cash": {
-      "value": 139700000,
-      "asOf": "2026-09-30",
-      "source": "secondary analysis of Q3 2026 10-Q (cash fell from $174.4M in June 2026)"
+      "value": 140000000,
+      "asOf": "2026-09-30 (Q3 2026)",
+      "source": "Company Q3 2026 earnings release"
     },
     "debt": {
-      "value": null,
-      "note": "Not established from available sources, though iHeartMedia carries a large legacy debt load referenced qualitatively by multiple sources."
+      "value": 5024300000,
+      "asOf": "2026-11-10",
+      "source": "Kalkine (gross total debt)",
+      "note": "Company-reported net debt figure elsewhere is ~$4.7B — not the same metric; both retained for reference"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (GAAP net losses in FY2024, FY2025, and Q3 2026)",
-      "asOf": "2026-11-11"
+      "note": "Q3 2026 loss of $0.06/share vs a consensus of breakeven; trailing P/E not meaningful",
+      "asOf": "2026-11-09"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -6.68,
-        "basis": "GAAP basic/diluted"
-      },
-      {
-        "period": "FY2025",
-        "value": -3.06,
-        "basis": "GAAP basic/diluted"
-      },
-      {
         "period": "Q3 2026",
         "value": -0.06,
-        "basis": "GAAP",
-        "note": "Reported loss of $0.06/share, wider than the analyst estimate of a $0.02 loss, per RBR/Benzinga coverage; a separate secondary aggregator figure of -$0.54 for 'Q3' conflicts and is likely mislabeled/misdated (see conflicts)."
+        "basis": "GAAP (vs consensus breakeven)"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 3.3
+      "pct": 3.3,
+      "note": "Ex-political revenue growth was ~0.9%; missed ~$1.05B consensus. Podcast revenue +24% to $174M; Digital Audio Group +14% to $389M; Multiplatform (broadcast radio) -5% to $562M with segment adjusted EBITDA -43%"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established."
-    }
+      "note": "Not located"
+    },
+    "revenue": [
+      {
+        "period": "Q3 2026",
+        "value": 1030000000,
+        "yoy": 3.3
+      }
+    ]
   },
   "price": {
-    "last": 0.62,
-    "changePct": -66.2,
+    "last": 0.68,
+    "changePct": -61.58,
+    "rvol": null,
     "asOf": "2026-11-10",
-    "note": "No separately confirmed Nov 11, 2026 close was found; most recent dated figure is the post-earnings Nov 10, 2026 session (new 52-week low). Stock closed at $0.62 (CNBC snapshot showed $0.598-$0.6095 intraday, -66.2%) on volume of 38.88M shares; this is the day after the Nov 9 earnings release and may be the move the task's 'fell ~29% premarket' note is referencing (see conflicts)."
+    "note": "Per Kalkine; two other sources describe the same post-earnings move with very different magnitudes (-36.9% per StockStory; ~-15% 'after the close' per Quiver Quant) — see conflicts. A pre-earnings quote of $1.87 (market cap $317.32M) was dated 2026-11-06."
   },
   "catalysts": [
     {
@@ -96,6 +99,13 @@
     },
     {
       "date": "2026-11-10",
+      "type": "price move",
+      "headline": "IHRT shares fell sharply following the Q3 report and guidance cut; magnitude varies by source (see conflicts)",
+      "impact": "Large post-earnings decline",
+      "source": "https://kalkine.ca/news/consumer/why-did-iheartmedia-nasdaqihrt-crater-6158-on-the-market-movers-list-on-november-10-2026"
+    },
+    {
+      "date": "2026-11-10",
       "type": "CEO commentary / advertiser weakness",
       "headline": "iHeartMedia CEO warned major advertisers are delaying spending as economic uncertainty bites, cited as driver of continued share weakness the day after earnings",
       "impact": "part of the -66% two-day move",
@@ -104,17 +114,59 @@
     {
       "date": "2026-11-09",
       "type": "earnings",
+      "headline": "iHeartMedia reported Q3 2026 results: revenue ~$1.03B (+3.3% YoY, missing ~$1.05B consensus); adjusted EBITDA of $170M (below guided $180-220M range); GAAP loss of $0.06/share vs breakeven consensus; cut FY2026 adjusted EBITDA guidance to $550-600M (from ~$800M) and FCF guidance to ~$50M (from ~$200M); took a $209M impairment on station license valuations",
+      "impact": "Major guidance cut cited to weak broadcast-radio ad demand and faster shift to programmatic buying; shares fell sharply",
+      "source": "https://www.morningstar.com/news/business-wire/20261109740280/iheartmedia-inc-reports-results-for-2026-third-quarter"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
       "headline": "iHeartMedia Q3 2026 results: revenue $1.03B (+3.3% YoY, +1% ex-political); Adjusted EBITDA $170.5M, down 16.7% YoY and below the company's own $180-220M plan; GAAP EPS loss of $0.06 (vs -$0.02 est.); Multiplatform Group (broadcast) segment adjusted EBITDA fell 42.9%; Digital Audio Group revenue +13.8% but segment EBITDA -2.3%; podcast revenue +24.4% to $173.7M; free cash flow -$10.4M for the quarter; cash fell to $139.7M from $174.4M at June 2026; company cut full-year 2026 Adjusted EBITDA guidance to $550M-$600M from the prior ~$800M target cited on prior calls, largely on weaker-than-expected political advertising, advertiser spending delays amid macro uncertainty, and a shift to programmatic audio buying",
       "impact": "Shares fell sharply; reported after-hours decline of approximately 35-37%, with the stock later touching a new 52-week low intraday around -66% to $0.598-$0.6095 before settling near $0.62",
       "source": "https://rbr.com/investors-dump-ihrt-shares-on-weak-q3-political-revenue/"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "debt restructuring",
+      "headline": "iHeartMedia entered a Transaction Support Agreement with holders representing 80% of existing debt to extend debt maturities by three years and strengthen its balance sheet",
+      "impact": "Pre-earnings balance-sheet action",
+      "source": "https://www.stockopedia.com/share-prices/i-heart-media-NSQ:IHRT/news/brief-i-heart-media-enters-into-transaction-support-agreement-to-strengthen-balance-sheet-019e6db8-c43e-7278-8d36-e38a5110235a/"
     }
   ],
   "conflicts": [
-    "Post-crash market cap could not be found as a directly published figure; the $95.97M value above is a calculation from separately-dated price and share-count inputs, not a single source. A pre-crash Fox Business snapshot (2026-11-06, price $1.87, down 5.35% that day) implies a market cap of ~$289M just before the Nov 9 earnings collapse, consistent in direction with the subsequent ~66% drop already on file, but is itself six days stale relative to today.",
-    "No IHRT-specific news dated 2026-11-12 was found; today's due-list appearance reflects yesterday's catalysts still being fresh, not a new same-day development."
+    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports shares fell ~15% 'after the close' on Nov 9 — all three describe the same underlying event (Q3 2026 earnings/guidance cut) but give materially different percentages.",
+    "Q3 2026 revenue: $1.03B (company release, via Morningstar/Benzinga) vs $997M (Quiver Quant).",
+    "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150,640,000 (MarketBeat) vs 129,552,146 (a separate Equibles short-interest page).",
+    "Debt: gross total debt of ~$5,024.3M (Kalkine) is a different measure than the company-cited net debt of ~$4.7B; not to be conflated."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "8-K ~2026-11-09 (Q3 2026 results, not independently confirmed in EDGAR search)"
+  ],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -61.58%",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -160,13 +212,26 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalyst found today. The 2026-11-06 pre-crash price ($1.87) is broadly consistent with the already-recorded ~66% post-earnings decline to ~$0.62, which corroborates rather than contradicts the existing record.",
+  "notes": "Extremely volatile week: debt-restructuring news (Nov 7), Q3 earnings and a major guidance cut (Nov 9), and a sharp but inconsistently-reported price decline (Nov 10). Recommend confirming the exact post-earnings closing price from a live/primary quote source before publishing a specific changePct for 2026-11-13.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -61.58%",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

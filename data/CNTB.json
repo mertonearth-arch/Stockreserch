@@ -1,71 +1,78 @@
 {
   "ticker": "CNTB",
   "name": "Connect Biopharma Holdings Limited",
-  "sector": "Healthcare (Biotechnology, clinical-stage)",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.070Z",
+  "lastResearched": "2026-11-13T21:33:08.056Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "sources disagree sharply ($138.52M vs $56M) and are undated/stale; recorded in conflicts instead of a single value"
+      "value": 48270000,
+      "asOf": "2026-10-26",
+      "source": "Massive.com quote aggregator"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not disclosed in any source found"
+      "note": "Not disclosed separately from shares outstanding in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 55800000,
-      "asOf": "2025-09-30",
-      "note": "stale figure (~55.7-55.9M as of Q3 2025, per aggregator); a March 2026 private placement likely increased the count but a current figure was not found"
+      "value": 62970000,
+      "asOf": "2026-10-26",
+      "source": "Massive.com"
     },
     "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "Not found"
+      "value": 5.6,
+      "asOf": "2026-10-02 settlement (reported 2026-10-27)",
+      "source": "Equibles (FINRA data aggregator)",
+      "note": "Percent of float; days-to-cover cited as 5.2"
     },
     "cash": {
-      "value": 46000000,
-      "asOf": "2026-03-31",
-      "source": "company Q1 2026 release (via biospace/gcs-web coverage)"
+      "value": null,
+      "note": "Q3 2026 cash balance not located in sources reviewed"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not disclosed; clinical-stage biotech, likely minimal/no debt but unconfirmed"
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "clinical-stage biotech with no earnings; no analyst EPS estimates found"
+      "note": "Pre-revenue clinical-stage biotech; earnings not confirmed as positive or a specific negative figure in sources reviewed",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "operating cash burn",
-      "period": "Q1 2026",
+      "metric": "revenue YoY",
+      "period": null,
       "pct": null,
-      "note": "pre-revenue biotech; ~$16M net cash used in operating activities in Q1 2026 (most recent disclosed burn figure found). Cash plus short-term investments including March 2026 private-placement proceeds (~$18.6M net) guided to fund operations into H2 2027."
+      "note": "Pre-revenue clinical-stage company (lead asset rademikibart/CBP-201); no meaningful product revenue reported"
     },
     "nextEarnings": {
-      "date": "2026-11-11",
+      "date": null,
       "confirmed": false,
-      "note": "One secondary source (earnings-calendar aggregator) lists Q3 2026 results expected 2026-11-11 after market close; no company press release or actual reported Q3 2026 figures were located this session to confirm the report occurred or to pull its numbers. Q3 2025 results were reported 2025-11-12 for comparison."
+      "note": "Not located; prior-year Q3 report was issued 2025-11-12"
     }
   },
   "price": {
     "last": 1.235,
     "changePct": 24.57,
+    "rvol": 145.6,
     "asOf": "2026-11-06",
-    "source": "RTTNews (headline dated 'Wednesday', confirmed via follow-up search to be 2026-11-06)",
-    "note": "Resolves the prior pass's 'unconfirmed Wednesday' date -- the +24.57% move to $1.235 was on 2026-11-06, not 2026-11-11/12. No price move specific to 2026-11-11 or 2026-11-12 was found."
+    "note": "Source (RTTNews) date-stamped 2026-11-06 but text refers to 'Wednesday' (Nov 6, 2026 is a Friday) — see conflicts. No reliable quote for 2026-11-13 was located."
   },
   "catalysts": [
+    {
+      "date": "2026-11-06",
+      "type": "clinical trial",
+      "headline": "Connect Biopharma shares rose ~24.6% to $1.235 after announcing positive Phase 2 COPD trial results for rademikibart",
+      "impact": "Large single-day stock move (volume ~150M shares vs ~1.03M average) on positive topline Phase 2 COPD data",
+      "source": "https://www.rttnews.com/3695437/connect-biopharma-stock-rises-25-after-positive-phase-2-copd-trial-results.aspx"
+    },
     {
       "date": "2026-10-01",
       "type": "clinical trial data",
@@ -122,12 +129,36 @@
     }
   ],
   "conflicts": [
-    "Market cap: one aggregator (roic.ai-style data) shows ~$138.52M at a $2.20 share price; a separate undated analysis cites ~$56M as of May 2026. The two could not be reconciled and the share-count basis for each is unclear.",
-    "Stock price move: RTTNews reports CNTB up 24.57% to $1.2350, which is inconsistent with the ~$2.20 and ~$56M-market-cap readings found elsewhere, suggesting the sources are not all from the same date or that a corporate action (e.g., the March 2026 private placement) changed the share count materially between readings."
+    "Market cap: Massive $48.27M (price $0.8489, 2026-10-26) vs Equibles $53.06M (price $0.87) vs Motley Fool $46.08M — figures from different dates/methodologies.",
+    "Price/date mismatch: RTTNews reports the +24.57% move to $1.235 as happening on 'Wednesday' but date-stamps the article 2026-11-06, which is a Friday; other aggregators (Massive, Equibles) show the stock trading around $0.85-$0.87 as late as 2026-10-26-27, implying a large, unconfirmed jump if the Nov 6 date is accurate.",
+    "Shares outstanding: ~63M (Massive/Equibles, Oct 2026) vs 56.52M (StockAnalysis, undated/likely stale).",
+    "Short interest: 5.6% of float / 5.2 days to cover (Equibles, Oct settlement) vs a separate Equibles page showing 6.1% / 1.7 days to cover and 3.9M shares short (+358K MoM) vs a Massive figure of 3.5M shares / 1.0 days to cover as of a Sept 30 settlement."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond what was already on file (Oct 1 COPD topline). Market cap remains unreconcilable between the $138.52M and $56M figures already flagged in conflicts; no new data found to resolve it this session.",
+  "notes": "Pre-revenue clinical-stage biotech (rademikibart program, asthma/COPD/atopic dermatitis). EPS, revenue, and current cash position for Q3 2026 were not established from the sources reviewed; recommend pulling the Q3 2026 press release/10-Q directly from SEC EDGAR or the company's IR site to confirm figures and resolve the Nov 6 price-move date discrepancy.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 24.57%",
+        "RVOL 145.6x",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -308,12 +339,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
       "nextEarnings updated",
-      "move 24.57%"
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 24.57%",
+      "RVOL 145.6x",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

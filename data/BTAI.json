@@ -1,72 +1,74 @@
 {
   "ticker": "BTAI",
   "name": "BioXcel Therapeutics, Inc.",
-  "sector": "Biopharmaceuticals",
+  "sector": "Healthcare",
   "theme": "Distressed / Restructuring",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.068Z",
+  "lastResearched": "2026-11-13T21:33:08.065Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": "2026-11-11",
-      "source": null,
-      "note": "Cannot reconcile shares-outstanding figure with current penny-stock price range; no reliable current market cap found"
+      "note": "Not found in available sources this pass"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "not found; carried forward"
+      "note": "Not found"
     },
     "sharesOutstanding": {
-      "value": 21869491,
-      "source": "chartexchange.com",
-      "note": "Undated page; may predate further dilution/decline and is inconsistent with sub-$0.10 prices seen in September 2026"
+      "value": null,
+      "note": "Not found; only older 2025 items referencing authorization of >91 million shares for future sale and registration of 5.1 million shares for resale were found, which do not establish a current count"
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "not found; carried forward"
+      "note": "Not found"
     },
     "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "not found; carried forward"
+      "value": 13800000,
+      "asOf": "2026-06-30",
+      "source": "Company Q2 2026 business update (via QuantisNow)"
     },
     "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "not found; carried forward"
+      "value": 107000000,
+      "asOf": "~2026-06-30",
+      "note": "From a secondary aggregator (Panabee); not verified against the company's own 10-Q",
+      "source": "Panabee"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company is in Chapter 11 wind-down with core commercial assets sold; no meaningful earnings/EPS basis",
-      "asOf": "2026-11-11"
+      "note": "Company has a stockholders' deficit and going-concern doubt; no positive earnings reported"
     },
     "eps": [],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
+      "period": null,
       "pct": null,
-      "note": "Core commercial asset (IGALMI) and BXCL501 rights sold to Teva in the Chapter 11 process; company is winding down and no current revenue figures were found"
+      "note": "No commercial revenue figures were found for IGALMI in the sources retrieved"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "None scheduled; shell/wind-down entity post Teva asset sale, consistent with data on file"
+      "note": "Not found; company is pursuing strategic alternatives (sale/merger/financing), which may affect normal reporting cadence"
     }
   },
   "price": {
     "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No confirmed live quote located for 2026-11-11. Most recent dated prices found were both for 2026-09-04 and disagree sharply: $0.07 (marketchameleon.com) vs $0.0422, -42.90% (massive.com). A separate, undated ChartExchange page showed $1.83 with 21,869,491 shares outstanding ($40.02M market cap), which is inconsistent with the September penny-stock quotes and is likely stale/pre-decline. Massive also notes a 1-for-16 reverse split effective 2025-02-10."
+    "note": "No reliably dated current price found; see conflicts for the figures retrieved"
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "FDA decision (PDUFA)",
+      "headline": "FDA target action (PDUFA) date for IGALMI label-expansion sNDA (at-home setting)",
+      "impact": "Potential label expansion for IGALMI into at-home use, pending FDA action",
+      "source": "https://www.panabee.com/news/bioxcel-therapeutics-earnings-q2-2026-report",
+      "note": "This date came from a secondary aggregator summary, not a primary FDA/company source; flagged for independent verification"
+    },
     {
       "date": "2026-11-14",
       "type": "FDA (pending decision)",
@@ -142,6 +144,13 @@
       "impact": "high"
     },
     {
+      "date": "2026-08-31",
+      "type": "debt deadline",
+      "headline": "Deferred ~$9 million debt payment (principal + interest, originally due 2026-06-30) due",
+      "impact": "Amendment also lowered the minimum liquidity covenant from $7.5M to $6.25M",
+      "source": "https://www.panabee.com/news/bioxcel-therapeutics-defers-9-million-debt-payment-until-august-31"
+    },
+    {
       "date": "2026-08-27",
       "type": "bankruptcy filing",
       "headline": "BioXcel filed for Chapter 11 (Case No. 26-11360 (TMH), Delaware); Teva named stalking-horse bidder ($57.5M upfront cash plus up to $67.5M in contingent/milestone payments); Samir Saleem named Chief Restructuring Officer",
@@ -173,17 +182,45 @@
       "headline": "FDA accepted BioXcel's sNDA to expand IGALMI label to at-home/outpatient use (Phase 3 SERENITY At-Home trial); PDUFA target action date Nov 14, 2026",
       "impact": "medium-high, now overtaken by bankruptcy",
       "source": "https://www.barchart.com/story/news/1086279/bioxcel-therapeutics-announces-food-drug-administration-acceptance-of-supplemental-new-drug-application-for-use-of-igalmi-in-the-at-home-setting"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "regulatory filing",
+      "headline": "BioXcel Therapeutics submits supplemental New Drug Application to FDA for IGALMI label expansion in the at-home setting",
+      "impact": "Started the review clock that the above PDUFA date is based on",
+      "source": "BioXcel Therapeutics company announcement (per QuantisNow aggregation)"
     }
   ],
   "conflicts": [
-    "Price for 2026-09-04: marketchameleon.com reports $0.07 vs massive.com reports $0.0422 (-42.90%) for the same date.",
-    "Total Teva deal value reported inconsistently across outlets: ~$125M (biospace.com, americanpharmaceuticalreview.com: $57.5M upfront + up to $67.5M contingent) vs ~$145M (hartfordbusiness.com). Not reconciled.",
-    "Closing date of the Teva transaction: only a single source (dealroom.co) reports a 2026-10-26 close; no independent corroboration found despite the court's Sale Order being entered 2026-10-21 per the company's 8-K.",
-    "Shares outstanding/market cap figures appear stale or mutually inconsistent (21.87M shares at $1.83 = $40.02M market cap on an undated ChartExchange page) versus sub-$0.10 prices reported in September 2026; likely reflects a snapshot taken before the steepest decline, a reverse split adjustment, or further dilution in bankruptcy."
+    "Price: an undated Quantisnow snapshot shows $0.89 (+8.58%) vs the company's own IR site showing $1.49 as of 2026-02-03 — not reconcilable without a common date",
+    "1-for-16 reverse stock split occurred in February 2025 — flag per reverse-split rule; price history before that date is not comparable"
   ],
-  "pendingFilings": [],
-  "notes": "Checked ahead of the 2026-11-14 PDUFA target action date for the IGALMI at-home sNDA (BXCL501): as expected two days out, no FDA decision has been announced yet (biospace.com, barchart.com, rallies.ai, company IR -- all describe the pending PDUFA date with no outcome). No new catalyst to add; genuinely quiet since the 2026-11-11 pass. Current price, market cap, shares outstanding, cash and debt remain unestablished for the same reasons as the prior pass (WebFetch to primary sources unavailable this session).",
+  "pendingFilings": [
+    "8-K re: debt deferral / covenant amendment, ~2026-08 (exact filing date not confirmed)"
+  ],
+  "notes": "As of its last confirmed disclosure (2026-06-30 10-Q), cash was stated as insufficient to fund operations beyond August 2026, and the company disclosed substantial doubt about its ability to continue as a going concern, with negative working capital of $108.4M and a stockholders' deficit of $115.5M. It is actively pursuing a sale, merger, or additional financing. This liquidity situation was not re-confirmed with any post-August-2026 update in the sources found, so its current status (resolved, worsened, or unchanged) is unknown from this search pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -450,10 +487,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

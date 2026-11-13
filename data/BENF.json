@@ -1,62 +1,68 @@
 {
   "ticker": "BENF",
   "name": "Beneficient",
-  "sector": "Financial Services (Alternative Asset Management / Distressed)",
+  "sector": "Financials",
   "theme": "Distressed / Restructuring",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.066Z",
+  "lastResearched": "2026-11-13T21:33:08.064Z",
   "fundamentals": {
     "marketCap": {
-      "value": null
+      "value": 12420000,
+      "asOf": "2026-10-26",
+      "source": "massive.com"
     },
     "float": {
-      "value": null
+      "value": null,
+      "note": "Not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": null
+      "value": 18960000,
+      "asOf": "2026-10-26",
+      "source": "massive.com"
     },
     "shortInterest": {
-      "value": null
+      "value": 1.5,
+      "asOf": "2026-03-31",
+      "note": "~1.5% of shares outstanding (196,071 shares short) per MarketBeat (2026-04-15 report); a later, differently-dated figure of 950,380 shares short / 1.0 days-to-cover as of 2026-09-30 could not be converted to a percentage from available data",
+      "source": "MarketBeat"
     },
     "cash": {
-      "value": null
+      "value": null,
+      "note": "Not established; an EV figure of $157.79M vs market cap $57.01M on StockAnalysis implies net debt but is a stale (~late-2025) snapshot and was not used"
     },
     "debt": {
-      "value": null
+      "value": null,
+      "note": "Not established from available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this session"
+      "note": "Negative/distressed earnings; no reliable EPS figure found",
+      "asOf": "2026-10-26"
     },
     "eps": [],
-    "revenue": [
-      {
-        "period": "Q1 FY2027 (quarter ended 2026-06-30)",
-        "value": 12.2,
-        "yoy": null
-      }
-    ],
+    "revenue": [],
     "growth": {
-      "metric": null,
+      "metric": "revenue YoY",
+      "period": null,
       "pct": null,
-      "note": "No operating financial metrics were established this session; BENF's recent news flow is dominated by founder Bradley Heppner's criminal case and related debt/equity disputes rather than routine operating results."
+      "note": "Revenue/financial statement detail not found in available search results for this distressed/restructuring entity"
     },
     "nextEarnings": {
-      "date": "2026-11-13",
+      "date": null,
       "confirmed": false,
-      "note": "Carried over from file; not independently verified this session."
+      "note": "Not found; fiscal year has historically ended March 31"
     }
   },
   "price": {
-    "last": 0.6945,
-    "asOf": "2026-11-06",
-    "source": "Benzinga (4:45PM EST)",
-    "note": "Roughly corroborated by an undated RedChip figure of $0.6932. Steep further decline from the on-file $1.24 (2026-10-07)."
+    "last": 0.8,
+    "changePct": -6.6,
+    "asOf": "2026-10-23",
+    "source": "Benzinga/daytraders.com aggregation"
   },
   "catalysts": [
     {
@@ -156,16 +162,52 @@
       "source": "https://www.globenewswire.com/news-release/2026/09/23/3367391/0/en/beneficient-announces-strategy-to-eliminate-hclp-debt-and-heppner-equity-interests.html"
     },
     {
+      "date": "2026-01-05",
+      "type": "regulatory",
+      "headline": "Beneficient regained compliance with Nasdaq's minimum bid price / listing requirements",
+      "impact": "Removed near-term delisting risk following the Dec 2025 reverse split",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/BENF/forecast/chart/chart/news/news/news"
+    },
+    {
       "date": "2026-01-02",
       "type": "regulatory",
       "headline": "Nasdaq confirmed Beneficient regained compliance with the bid-price rule and another listing requirement",
       "source": "search aggregation (iTiger/TipRanks)"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "The Jan 11, 2027 sentencing date is now corroborated by a second reference (Beneficient's own Oct 28 corporate update, as summarized by multiple aggregators), clearing the prior file conflict over which date was operative. Market-cap/shares-outstanding sources found this session (Google Finance July 2026 $49.65M/14.49M shares; ChartExchange May 2026 $49.55M/14.36M shares; base.report undated $101.01M/13.84M shares; TipRanks stale $5.05M/9.46M shares) are all dated well before the stock's collapse to ~$0.69 (on file, 2026-11-06) and are not comparable to current price — omitted rather than reported as current to avoid a misleading figure. No BENF-specific operating fundamentals (cash, debt, EPS) established this session.",
+  "conflicts": [
+    "Shares outstanding: massive.com 18,960,000 (asOf 2026-10-26) vs Equibles 15,460,000 (referencing an Aug 14 2026 10-Q) vs ChartExchange 14,363,634 (likely stale, pre-reverse-split)",
+    "Market cap: massive.com ~$12.42M (2026-10-26) vs Equibles ~$12.29M vs Motley Fool ~$14.72M vs ChartExchange ~$49.55M (likely stale)",
+    "Price history is not comparable across the 2025-12-15 1-for-8 reverse split; pre-split prices should not be read against post-split prices"
+  ],
+  "pendingFilings": [
+    "10-Q filed 2026-08-14 (per Equibles reference), containing going-concern language",
+    "8-K 'Material Modification to Rights' — exact filing date not confirmed from snippet (QuantisNow)"
+  ],
+  "notes": "1-for-8 reverse stock split effective 2025-12-15. A TipRanks headline referenced an indictment of former CEO Heppner and another QuantisNow item referenced a Nasdaq listing extension being granted — both undated in the snippets retrieved (relative timestamps only), so excluded as catalysts per the dating rule; flagged here instead. Going-concern doubt is referenced in connection with the company's most recent 10-Q. Could not reach stockanalysis.com (blocked) or most other aggregators (DNS blocked in this sandbox) to verify; all figures are from WebSearch snippets only.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -389,12 +431,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "conflict resolved"
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

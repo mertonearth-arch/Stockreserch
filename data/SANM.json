@@ -1,40 +1,44 @@
 {
   "ticker": "SANM",
   "name": "Sanmina Corporation",
-  "sector": "Electronics Manufacturing Services",
+  "sector": "Technology / Electronics Manufacturing Services",
   "theme": "Electronics Manufacturing & AI Infrastructure",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.064Z",
+  "lastResearched": "2026-11-13T21:33:08.082Z",
   "fundamentals": {
     "revenue": [
       {
-        "period": "Q4 FY2026 (ended 2026-10-03)",
+        "period": "Q4 FY2026",
         "value": 3860000000,
-        "yoy": null
+        "yoy": null,
+        "note": "vs $3.48B consensus"
+      },
+      {
+        "period": "FY2026 (full year)",
+        "value": 14530000000,
+        "yoy": 79
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "FY2026",
       "pct": 79,
-      "note": "Full-year FY2026 revenue $14.53B vs prior year, driven largely by the ZT Systems acquisition; Q4 FY2026 revenue (~$3.86-3.9B) grew ~84% YoY on the same driver."
+      "note": "Growth driven by ZT Systems acquisition; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4 FY2026"
     },
     "marketCap": {
-      "value": 8330000000,
-      "asOf": "2026-11-11",
-      "source": "stockevents.app (close $155.43)"
+      "value": null,
+      "note": "Not found in available sources this pass"
     },
     "float": {
       "value": null
     },
     "sharesOutstanding": {
-      "value": 53600000,
-      "source": "chartrow.com / equibles.com",
-      "note": "Undated but consistent across multiple sources and arithmetically consistent with the $155/share, $8.3B market-cap readings."
+      "value": null,
+      "note": "Not found; FY2026 buyback reduced count by ~2.4M shares"
     },
     "shortInterest": {
       "value": null
@@ -49,43 +53,49 @@
       "value": null
     },
     "pe": {
-      "trailing": 22.69,
-      "forward": 9.4,
-      "note": "Trailing computed from $155.43 close / $6.85 FY2026 GAAP diluted EPS. Using non-GAAP FY2026 EPS ($13.28) instead gives 11.71 — both bases are legitimate reads and not reconciled to a single 'trailing P/E' here. Forward is $155.43 / $16.50 (midpoint of FY2027 non-GAAP EPS guidance $15.50-$17.50) — a company-guidance-based estimate, not a consensus analyst figure.",
-      "asOf": "2026-11-11"
+      "trailing": null,
+      "forward": null,
+      "note": "Not found this pass",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
-        "period": "FY2026",
-        "value": 6.85,
-        "basis": "GAAP"
-      },
-      {
-        "period": "FY2026",
-        "value": 13.28,
-        "basis": "non-GAAP"
+        "period": "Q4 FY2026",
+        "value": 4.43,
+        "basis": "non-GAAP",
+        "note": "vs $3.27 consensus"
       },
       {
         "period": "Q4 FY2026",
         "value": 2.14,
-        "basis": "GAAP"
+        "basis": "GAAP",
+        "note": "from a separate source; period attribution not fully cross-verified"
       },
       {
-        "period": "Q4 FY2026",
-        "value": 4.43,
-        "basis": "non-GAAP"
+        "period": "FY2026 (full year)",
+        "value": 6.85,
+        "basis": "GAAP",
+        "note": "from a separate source; period attribution not fully cross-verified"
+      },
+      {
+        "period": "FY2026 (full year)",
+        "value": 13.28,
+        "basis": "non-GAAP",
+        "note": "from a separate source; period attribution not fully cross-verified"
       }
     ],
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found. Sanmina's fiscal Q1 ends late December; last year's fiscal Q1 2026 call was Jan 26, 2026, so fiscal Q1 2027 would likely fall late Jan 2027 — inference only, not a confirmed date."
+      "note": "Q1 FY2027 guidance issued 2026-11-09 (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85); specific report date not found"
     }
   },
   "price": {
-    "last": 155.43,
-    "asOf": "2026-11-11",
-    "source": "stockevents.app"
+    "last": null,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "note": "No current (2026-11-13) price confirmed from reachable sources; see conflicts for dated snapshots found."
   },
   "catalysts": [
     {
@@ -98,16 +108,45 @@
     {
       "date": "2026-11-09",
       "type": "earnings",
+      "headline": "Sanmina reports Q4 and fiscal 2026 results: non-GAAP EPS $4.43 (vs $3.27 est.), revenue $3.86B (vs $3.48B est.); FY2026 revenue $14.53B (+79% YoY) driven by ZT Systems acquisition; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4",
+      "impact": "Beat estimates; issued FY2027 guidance of $17.5-19.5B revenue and non-GAAP EPS $15.50-17.50; FY2026 buybacks totaled $393M (~2.4M shares)",
+      "source": "https://247wallst.com/cards/sanmina-q4-2026-earnings-sanm-01m712449ecew2p24ks2wcrgzg ; https://www.panabee.com/news/sanmina-earnings-q4-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
       "headline": "Sanmina reports Q4 and full-year FY2026 results: Q4 revenue ~$3.86-3.9B (+84% YoY) on the ZT Systems acquisition, non-GAAP diluted EPS $4.43, GAAP diluted EPS $2.14; FY2026 revenue a record $14.53B (+79% YoY), GAAP diluted EPS $6.85, non-GAAP EPS $13.28, full-year GAAP operating margin 4.7%; issues FY2027 guidance of $17.5-19.5B revenue and $15.50-17.50 non-GAAP EPS, with Q1 FY2027 revenue guided to $3.8-4.1B",
       "impact": "Stock reported +18.8% per file for 2026-11-10; this session could not independently reconfirm the exact percentage (SEC EDGAR and most stock-data sites were unreachable via WebFetch), but secondary coverage (Webull, rallies.ai) independently describes a sharp rally tied to the Q4 beat and confident FY2027 AI/cloud-infrastructure guidance, consistent in direction.",
       "source": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
     }
   ],
   "conflicts": [
-    "Market cap readings disagree by source/date: $8.33B at $155.43 (Nov 11, stockevents.app) vs. $8.87B at $165.57 (debelegger.nl, dated late Oct, now stale) vs. $8.35B (fool.com, undated). The Nov 11 reading is used as the most recent."
+    "Stock price: MarketBeat reported an 8.2% intraday drop to a low of $197.88 / last $198.39 on 2026-09-14, vs. an undated MarketBeat snapshot showing $246.44. Neither is dated 2026-11-13, so current price is not established.",
+    "EPS figures across sources mix GAAP/non-GAAP and Q4-only/full-year periods inconsistently — not independently reconciled against the primary press release."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "8-K with Q4/FY2026 earnings exhibit filed on/around 2026-11-09 (SEC EDGAR, per search result)"
+  ],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -158,17 +197,21 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalyst found this session beyond the Q4 FY2026 earnings beat already on file; this pass fills in previously-missing market cap, shares outstanding, cash, and a derived P/E. Debt and short interest remain unestablished.",
+  "notes": "Primary new catalyst since last known dates is the 2026-11-09 Q4/FY2026 earnings beat and FY2027 guide, driven by ZT Systems-related AI infrastructure demand. Market cap, shares outstanding, float, short interest, cash, debt, and a confirmed 2026-11-13 price could not be established this pass.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
       "sharesOutstanding updated",
-      "cash updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

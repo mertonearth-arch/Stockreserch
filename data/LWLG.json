@@ -1,42 +1,90 @@
 {
   "ticker": "LWLG",
   "name": "Lightwave Logic, Inc.",
-  "sector": "Advanced Materials (Polymer Photonics)",
+  "sector": "Technology / Advanced Materials",
   "theme": "Advanced Materials",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.059Z",
+  "lastResearched": "2026-11-13T21:33:08.060Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established this session."
+      "note": "Q3 2026 results/business update call was scheduled for 2026-11-10, but the actual reported figures were not located in sources reviewed as of this report's date (2026-11-13)"
     },
     "marketCap": {
-      "value": 682960000,
-      "asOf": "2026-10-23",
-      "source": "foxbusiness.com (close $4.13)",
-      "note": "Stalest figure found this session; no Nov 2026 snapshot located. Treat as approximate."
+      "value": null,
+      "note": "Not established in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 154170000,
-      "asOf": "2026-10-23",
-      "source": "foxbusiness.com"
+      "value": null,
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative trailing EPS (-$0.16 per foxbusiness.com, Oct 23 2026); pre-commercial, no forward estimate found.",
-      "asOf": "2026-10-23"
+      "note": "Development-stage/pre-commercial company with recurring net losses; no meaningful trailing P/E",
+      "asOf": "2026-11-13"
+    },
+    "float": {
+      "value": null,
+      "note": "Not established"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "Not established in sources reviewed"
+    },
+    "cash": {
+      "value": 95900000,
+      "asOf": "2026-06-30 (Q2 2026)",
+      "source": "Panabee analysis of company Q2 2026 disclosures",
+      "note": "Comprised of $47.2M cash and $48.7M marketable securities; Q3 2026 (2026-09-30) figure not located despite the earnings call having occurred 2026-11-10"
+    },
+    "debt": {
+      "value": null,
+      "note": "No debt identified; company uses an at-the-market equity sales agreement (~$51.4M) as a funding/dilution source, not debt"
+    },
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -0.04,
+        "basis": "GAAP/Non-GAAP as reported"
+      },
+      {
+        "period": "Q3 2026 (consensus estimate only)",
+        "value": -0.05,
+        "basis": "Non-GAAP analyst estimate",
+        "note": "Actual Q3 2026 result not confirmed in sources reviewed"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "H1 2025",
+        "value": 49000,
+        "yoy": null
+      },
+      {
+        "period": "H1 2026",
+        "value": 62000,
+        "yoy": null
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "H1 2026",
+      "pct": null,
+      "note": "Company is pre-commercial; revenue is limited to material supply, NRE, and prototype activity. Management has stated it does not expect significant production revenue until 2027."
     }
   },
   "price": {
-    "changePct": -13,
-    "asOf": "2026-11-12",
-    "note": "Premarket move per Investing.com/Stockmarketwatch roundup. No confirmed last price located this session; this appears to be a separate, more recent delay disclosure than a similar June 2026 selloff (-10% on foundry timeline extension) already reported elsewhere."
+    "last": 4.9383,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-09",
+    "note": "A separate source shows $4.65 as of 2026-11-04. Both figures are far below a $18.22 close reported for 2026-05-13 (+14.38% that day) — see conflicts."
   },
   "catalysts": [
     {
@@ -45,13 +93,44 @@
       "headline": "Lightwave Logic fell on reports that foundry integration delays pushed expected volume production back to 2028",
       "impact": "-13% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "event announcement",
+      "headline": "Lightwave Logic announced the timing of its Q3 2026 financial results and business update call, scheduled for 2026-11-10 at 4:30pm ET",
+      "impact": "Scheduling announcement ahead of the Q3 2026 print",
+      "source": "https://www.newswire.com/news/lightwave-logic-inc-announces-timing-of-third-quarter-2026-financial-results"
     }
   ],
   "conflicts": [
-    "Shares outstanding conflict: Fox Business and Google Finance both show ~154.1-154.2M (Oct 23 2026), but TipRanks shows 129.44M on an undated/stale page and Macrotrends shows 148M as of 2026-03-31 rising from 129M at 2025-12-31 — the 154M figure is the most recent dated reading and is used here."
+    "Share price: ~$4.65-$4.94 (early Nov 2026) vs a reported $18.22 close on 2026-05-13 (+14.38% that day) — implies a roughly 73% decline over six months. This is large but was not independently corroborated with an intermediate data point in this search, so it is flagged for review rather than assumed to reflect a reverse split or data error.",
+    "Cash position timing: a Panabee analysis cites $95.9M total liquid assets as of Q2 2026 (2026-06-30); a separate, older piece describes the company having 'ended the quarter with $75 million... rising to $100 million as of 2026-05-11,' which appears to describe Q1 2026 — these are different quarters and should not be conflated as the same balance.",
+    "Q3 2026 actual results could not be located despite the earnings call having been held on 2026-11-10 (three days before this report's date); only a pre-report consensus estimate (-$0.05 EPS) was found."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -78,15 +157,24 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not independently confirm the 2026-11-12 foundry-delay catalyst beyond the AM-pass source (Investing.com roundup); no company press release or 8-K located this session. Could not confirm whether this is a distinct event from the ~June 2026 -10% foundry-delay selloff already noted in the record — treat the AM-pass catalyst as provisional pending a primary source.",
+  "notes": "LWLG is a pre-revenue/development-stage photonics/polymer-materials company; losses are expected to continue until commercial production ramps, which management has indicated is not expected before 2027. The Q3 2026 earnings call occurred on 2026-11-10, but the actual reported results were not found in the sources checked for this pass — recommend pulling the primary press release/8-K from SEC EDGAR.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

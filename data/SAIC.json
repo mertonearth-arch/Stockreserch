@@ -1,28 +1,26 @@
 {
   "ticker": "SAIC",
   "name": "Science Applications International Corporation",
-  "sector": "Information Technology",
+  "sector": "Industrials",
   "theme": "Government IT & Defense Services",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.089Z",
+  "lastResearched": "2026-11-13T21:33:08.081Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established this pass"
+      "value": 6350000000,
+      "asOf": "2026-11-06"
     },
     "float": {
       "value": null,
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 42276819,
-      "asOf": "2026-05-22",
-      "source": "SAIC Q1 FY2027 10-Q cover page (SEC EDGAR)",
-      "note": "Primary-source figure, resolving most of the prior session's conflicting Equibles readings (42.28M vs 43.42M). A separate undated Equibles page still shows 43,419,313 -- possibly a later, undated snapshot after further buyback activity; not reconciled."
+      "value": null,
+      "note": "conflicting: ~41.90M (undated snapshot) vs FY2026 weighted-average diluted shares of 46.5M; the company bought back $524M of stock in FY2026, consistent with a declining count but not resolving which figure is current"
     },
     "shortInterest": {
       "value": 5.6,
@@ -44,34 +42,51 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Not established this pass"
+      "forward": 13.7,
+      "note": "derived by dividing the $147.03 price (2026-11-06) by the $10.70 midpoint of FY2027 adjusted EPS guidance ($10.65-$10.75) — a calculation from two sourced figures. Trailing P/E omitted because a TTM EPS figure wasn't located.",
+      "asOf": "2026-11-06"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q2 FY2026",
+        "value": 2.71,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 2.38,
+        "basis": "GAAP"
+      }
+    ],
     "revenue": [
+      {
+        "period": "Q2 FY2026",
+        "value": 1769000000,
+        "yoy": null
+      },
       {
         "period": "Q2 FY2027",
         "value": 1880000000,
-        "yoy": 6
+        "yoy": 6.3
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Not established this pass; a Feb 15, 2026 MarketBeat item (outside this pass's lookback window) referenced SAIC cutting its FY2027 revenue outlook after two contract recompete losses and Q4 softness, but no current-quarter growth figure was retrieved."
+      "period": "Q2 FY2027",
+      "pct": 6.3
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2026-12-02",
       "confirmed": false,
-      "note": "Fiscal Q3 2027 earnings date unconfirmed as of 2026-11-11; see conflicts. Last year's comparable report (fiscal Q3 2026) was announced via press release on Nov 20, 2025 for a Dec 4, 2025 report date — SAIC's official Q3 FY2027 scheduling announcement was not found this pass, likely because it had not yet been issued or was not indexed."
+      "note": "third-party estimate (FXEmpire); another source gives Dec 3, 2026 and explicitly flags it as a projected, not company-confirmed, date"
     }
   },
   "price": {
-    "last": null,
+    "last": 147.03,
     "changePct": null,
-    "asOf": null,
-    "note": "Not established this pass"
+    "rvol": null,
+    "asOf": "2026-11-06",
+    "note": "a separate 2026-11-08 snapshot shows $146.30"
   },
   "catalysts": [
     {
@@ -98,6 +113,13 @@
       "type": "analyst action",
       "headline": "Stifel raised PT to $154 (Buy); Jefferies raised PT to $140 (Hold)",
       "impact": "mixed/minor"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "earnings",
+      "headline": "SAIC Q2 FY2027: revenue $1.880B (+6.3% YoY) but net income fell to $102M ($2.38/share) from $127M ($2.71/share) a year earlier, mainly on an income-tax swing; raises FY2027 adjusted EPS guidance to $10.65-$10.75 from $9.90-$10.10",
+      "impact": "Shares rose >8% in premarket trading on the guidance raise, moving above the then 52-week high of $130.98",
+      "source": "https://www.rttnews.com/story.aspx?Id=3686991"
     },
     {
       "date": "2026-08-31",
@@ -149,20 +171,30 @@
     }
   ],
   "conflicts": [
-    {
-      "field": "nextEarnings.date",
-      "values": [
-        "2026-12-01 (from original on-file estimate set)",
-        "2026-12-02 (Bullstory.io verified-earnings calendar: 'Science Applications International is scheduled to report Q3 2027 earnings on December 2, 2026')",
-        "2026-12-03 (TheRightTrader.com: 'Next earnings report Thursday, December 3, 2026 — projected from past report dates, not confirmed by the company')",
-        "2026-12-07 (EarningsWhispers: 'expected to report earnings on December 7, 2026, before the market open', consensus EPS estimate $2.31)"
-      ],
-      "note": "No source carried an official SAIC/GlobeNewswire press release confirming the fiscal Q3 2027 date. Historical pattern (fiscal Q3 2026 reported Thursday Dec 4, 2025, announced ~2 weeks ahead on Nov 20, 2025) suggests an early-December, Thursday report is most likely (Dec 3, 2026 is a Thursday), but this is an inference, not a confirmation, and the conflict is unresolved."
-    }
+    "Shares outstanding: ~41.90M (undated snapshot) vs FY2026 weighted-average diluted share count of 46.5M (company filing) — likely different points in an active buyback program, not reconciled",
+    "Price: $147.03 (2026-11-06) vs $146.30 (2026-11-08) — minor, likely normal day-to-day movement"
   ],
   "pendingFilings": [],
-  "notes": "Checked a reported '$980M Battlefield Systems Army contract' hit from this search — verified it is a stale 2017 recompete resurfacing in search results, not a 2026 event; correctly excluded. Oct 13 leadership changes (EVP/incoming CFO) found but not recorded as a catalyst (not one of the listed catalyst types and no material/financial impact stated).",
+  "notes": "Routine refresh; last reported results are Q2 FY2027 (released Aug 31, 2026; SAIC's fiscal year ends ~Jan 31). Next report (fiscal Q3 FY2027) is estimated for Dec 2-3, 2026 but not company-confirmed. Dividend: quarterly $0.37/share ($1.48/share annualized); an Oct 9, 2026 ex-dividend date was found but the next declaration date was not confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -411,11 +443,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

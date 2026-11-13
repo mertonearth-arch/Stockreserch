@@ -1,56 +1,75 @@
 {
   "ticker": "NLST",
   "name": "Netlist, Inc.",
-  "sector": "Memory Technology & IP Licensing",
+  "sector": "Technology",
   "theme": "Memory Technology & IP Licensing",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.060Z",
+  "lastResearched": "2026-11-13T21:33:08.078Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 1770000000,
+      "asOf": "2026-08-21",
+      "source": "equibles.com",
+      "note": "most recent figure found this pass; likely stale given subsequent settlements and a chip-sector selloff"
     },
     "float": {
       "value": null,
-      "note": "Not established this session."
+      "note": "not separately disclosed in sources found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 349580000,
+      "asOf": "2026-08-21",
+      "source": "equibles.com"
     },
     "shortInterest": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 36400000,
+      "asOf": "2026-08-21",
+      "source": "equibles.com",
+      "note": "21.1 days to cover; a 2026-08-03 reading instead gave 11.50% of float, a different denominator"
     },
     "cash": {
       "value": null,
-      "note": "Not established this session."
+      "note": "not disclosed in sources reviewed this pass"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "not disclosed in sources reviewed this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this session",
-      "asOf": "2026-11-11"
+      "note": "Q3 2026 net income was positive ($85.4M) but driven by one-time license revenue; no reliable trailing/forward P/E found",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
+        "period": "Q3 2024",
+        "value": 0.07,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2025",
+        "value": 0.04,
+        "basis": "GAAP"
+      },
+      {
         "period": "Q3 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Conflicting figures found and not reconciled: Panabee reports net income of $85M / $0.22 per diluted share, driven largely by a one-time $44M tax benefit from recognizing an $89M deferred tax asset; a separate TipRanks/TheFly headline reports Q3 EPS of $0.04 vs $0.07 in the prior-year quarter. Could not locate the company's own press release or 8-K this session to reconcile."
+        "value": 0.22,
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
       {
-        "period": "Q3 2026 (ended 2026-09-26)",
+        "period": "Q3 2025",
+        "value": 42200000,
+        "yoy": null
+      },
+      {
+        "period": "Q3 2026",
         "value": 105100000,
         "yoy": 149
       }
@@ -58,22 +77,28 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 149,
-      "note": "Net sales $105.1M vs $42.2M in Q3 2025, per Panabee; attributed to the Samsung settlement (license revenue) plus growing data-center memory product demand. Not independently corroborated by a primary source this session."
+      "pct": 149
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 (quarter ended 2026-09-26) results were released 2026-11-10, resolving the prior pending report. No Q4 2026 earnings date found yet."
+      "note": "Q3 2026 already reported Nov 10, 2026; Q4/FY2026 date not yet announced"
     }
   },
   "price": {
     "last": null,
     "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "Not established this session."
+    "rvol": null,
+    "asOf": "2026-11-13"
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Netlist Q3 2026: net sales $105.1M (+149% YoY) — license fee revenue $44.9M, product sales $60.2M (+43% YoY); net income $85.4M ($0.22/diluted share)",
+      "impact": "Large one-time license revenue swung the company to a GAAP profit",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001282631/000110465926125199/tm2628618d1_ex99-1.htm"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -192,16 +217,48 @@
       "type": "litigation",
       "headline": "Markman hearing held in Netlist's ITC investigation against Samsung (DDR5 memory modules / HBM patents); company was awaiting the Markman order afterward",
       "source": ""
+    },
+    {
+      "date": "2026-02-23",
+      "type": "legal",
+      "headline": "Federal Circuit affirms PTAB ruling upholding validity of Netlist's '314 patent",
+      "impact": "Favorable outcome for Netlist's IP litigation position",
+      "source": "https://stocks.observer-reporter.com/observerreporter/article/accwirecq-2026-2-23-the-federal-circuit-affirms-ptab-ruling-upholding-validity-of-netlist-314-patent"
     }
   ],
   "conflicts": [
-    "Q3 2026 EPS conflict: Panabee's $0.22/diluted-share GAAP figure (boosted by a one-time $44M deferred-tax-asset benefit) vs. a TipRanks/TheFly headline citing $0.04 vs $0.07 last year. Both are recorded; neither is treated as authoritative pending the primary earnings release.",
-    "Panabee also cites Q3 2026 operating cash flow of $245M, which looks implausibly high against $105.1M of revenue — flagged as unverified, not used as a recorded figure.",
-    "Carried forward, unresolved: one aggregator previously listed a Nov 5 earnings date / $308.6M revenue estimate that conflicts with the company's own Nov 10 schedule and the $105.1M actual now reported; the $308.6M figure appears to have been a bad estimate."
+    "Shares outstanding: 333.89M (2026-08-03) vs 349.58M (2026-08-21); neither reconciles with the ~388M diluted shares implied by Q3 2026 EPS math ($85.4M net income / $0.22 diluted EPS)",
+    "Market cap/price: $777.96M at $2.33 (2026-08-03) vs $1.77B at $5.07 (2026-08-21) vs $826.63M at $2.48 (2026-07-23) — all stale relative to 2026-11-13; no current price found",
+    "Short interest reported on inconsistent bases (shares/days-to-cover vs % of float) across dates, not directly comparable"
   ],
-  "pendingFilings": [],
-  "notes": "Q3 2026 figures above rest on a single secondary aggregator (Panabee); the official Netlist press release/8-K was not located via WebSearch this session (stockanalysis.com, cnbc.com, google.com are egress-blocked; SEC EDGAR full text was not found in results). Market cap, float, shares outstanding, short interest, cash and debt remain unestablished — not re-attempted this session, see prior record.",
+  "pendingFilings": [
+    "8-K 2026-11-10 (Q3 2026 financial results exhibit)"
+  ],
+  "notes": "Routine refresh with real news: Q3 2026 earnings (Nov 10) plus reported (but not date-confirmed) Micron settlement and Samsung settlement, and an ITC hearing vs. Samsung reportedly set for late November 2026 with no outcome yet. These three items lack confirmable dates/sources, so they're noted here rather than in catalysts.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -470,15 +527,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "2 new catalyst(s)",
+      "pe updated",
       "eps updated",
       "revenue updated",
       "growth updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

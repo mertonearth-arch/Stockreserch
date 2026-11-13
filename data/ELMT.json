@@ -1,82 +1,79 @@
 {
   "ticker": "ELMT",
   "name": "The Elmet Group Co.",
-  "sector": "Advanced Materials / Aerospace & Defense Components",
+  "sector": "Industrials",
   "theme": "Advanced Materials",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.057Z",
+  "lastResearched": "2026-11-13T21:33:08.073Z",
   "fundamentals": {
     "marketCap": {
-      "value": 674070000,
-      "asOf": "2026-11-03",
-      "source": "fool.com quote page"
+      "value": null,
+      "note": "conflicting figures across different dates, rising with the stock's post-IPO appreciation — see conflicts"
     },
     "float": {
       "value": null,
-      "note": "Not established; third-party free-float estimates ranged ~8M-9.85M shares but were undated/unreconciled, so omitted."
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 30460000,
-      "asOf": "2026-08-20",
-      "source": "equibles.com"
+      "value": 29800000,
+      "asOf": "2026 (approx, post-IPO)",
+      "source": "roic.ai / stockanalysis.com aggregator pages (29.7M-29.98M range)"
     },
     "shortInterest": {
       "value": null,
-      "note": "Sources conflict heavily (3.0%-17.4% of float depending on denominator/date); see conflicts."
+      "note": "not retrieved this pass"
     },
     "cash": {
       "value": null,
-      "note": "Not established from available sources."
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "note": "Not established from available sources."
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Reported Q3 2026 EPS not confirmed by a primary source; trailing P/E not computable without it.",
-      "asOf": "2026-11-11"
+      "note": "not established this pass",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 0.35,
-        "basis": "GAAP (per secondary source)",
-        "note": "24/7 Wall St (2026-11-09) reports Q3 2026 EPS of $0.35 vs a $0.14 estimate ('159% EPS beat'). This conflicts with the prior session's excluded ~$0.25 derived estimate (now superseded) and has not been cross-checked against a primary filing -- sec.gov and the company's own IR page remain unreachable from this sandbox."
+        "basis": "adjusted (non-GAAP)",
+        "note": "beat $0.14 estimate by a wide margin, per a single secondary source (247wallst.com); company's own press release not independently confirmed"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2026",
-        "value": 66400000
-      },
-      {
-        "period": "TTM",
-        "value": 228500000,
-        "yoy": 8.2
+        "period": "Q3 2026",
+        "value": 80000000,
+        "yoy": null,
+        "note": "beat $65M estimate; prior-year comparable not found (company only listed April 2026, limiting YoY comparability)"
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "revenue vs. estimate",
       "period": "Q3 2026",
-      "pct": 55.6
+      "pct": null,
+      "note": "revenue of $80M beat the $65M estimate by ~23%; true YoY growth not computable since the company only IPO'd in April 2026"
     },
     "nextEarnings": {
-      "date": "2026-11-10",
-      "confirmed": true,
-      "note": "Per the task's state-on-file this date already passed as the Q3 2026 call; next earnings date (Q4 2026/FY2026) not yet found."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 2026 already reported (~Nov 9-10, 2026); next report date not found, with unreconciled conflicting estimates found for the just-passed report itself"
     }
   },
   "price": {
-    "last": 22.06,
+    "last": 19.25,
     "changePct": null,
-    "asOf": "2026-11-03",
-    "note": "Most recent dated quote found is Nov 3, 2026 close ($22.06, Motley Fool); no Nov 11, 2026 close located via available sources."
+    "rvol": null,
+    "asOf": "2026-11-10"
   },
   "catalysts": [
     {
@@ -91,6 +88,13 @@
       "type": "earnings",
       "headline": "Q3 2026 earnings call held today (8:00am ET) for fiscal quarter ended 2026-10-02; figures not yet indexed by search at research time",
       "source": "https://pluang.com/en/news-feed/the-elmet-group-jadwalkan-panggilan-laba-q3-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Elmet Group reported Q3 2026 adjusted EPS of $0.35 (vs. $0.14 est., a 159% beat) and revenue of $80M (vs. $65M est.), citing a $347M backlog",
+      "impact": "Large earnings beat for a recently-IPO'd company",
+      "source": "https://247wallst.com/cards/elmet-group-q3-2026-earnings-elmt-01m7153veeavcev15ar7h8eevg"
     },
     {
       "date": "2026-11-03",
@@ -109,6 +113,13 @@
     },
     {
       "date": "2026-09-24",
+      "type": "M&A / stake purchase",
+      "headline": "Elmet acquired a 4.99% equity stake in MSR (UPCoM: MSR) for $124.75M",
+      "impact": "Strategic supply-chain investment",
+      "source": "GlobeNewswire/BusinessWire, via WebSearch summary (specific article URL not captured)"
+    },
+    {
+      "date": "2026-09-24",
       "type": "M&A/investment",
       "headline": "Agreed to acquire a 4.99% equity stake in Masan High-Tech Materials (Vietnam-based tungsten producer) from a Masan Group subsidiary for $124.75 million, implying a $2.5B equity valuation for Masan High-Tech Materials; paired with an 8+ year tungsten supply agreement targeting the U.S. market; Masan Group retains ~87.46% control",
       "impact": null,
@@ -121,6 +132,13 @@
       "headline": "Secured a long-term tungsten offtake agreement to take more than 1,000 metric tonnes per year of tungsten concentrate (WO3 equivalent) from the Hemerdon mine (Devon, England), operated by Tungsten West",
       "impact": null,
       "source": "https://www.generation-nt.com/communiques-presse/the-elmet-group-secures-long-term-tungsten-offtake-agreement-with-2081616"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "contract/investment",
+      "headline": "Pentagon agreed to invest $450M in Elmet Group to expand domestic tungsten production (date approximate — reported as a 'Monday' in mid-September 2026)",
+      "impact": "Stock jumped above a technical buy point per the secondary source",
+      "source": "Investor's Business Daily, via WebSearch summary (specific article URL not captured)"
     },
     {
       "date": "2026-09-14",
@@ -173,6 +191,13 @@
     {
       "date": "2026-04-23",
       "type": "IPO",
+      "headline": "Elmet Group IPO priced at $14.00/share (top of upsized range), issuing ~8.57-8.6M shares",
+      "impact": "Initial market cap ~$411.6M at pricing",
+      "source": "https://www.iposcoop.com/?p=38218"
+    },
+    {
+      "date": "2026-04-23",
+      "type": "IPO",
       "headline": "Elmet Group IPO priced at $14.00/share (top of upsized range), ~9.9M shares sold including overallotment, net proceeds ~$125.5M; began trading on Nasdaq Capital Market as ELMT",
       "impact": "n/a",
       "source": "https://www.renaissancecapital.com/IPO-Center/News/118288/high-power-microwave-systems-manufacturer-the-elmet-group-sets-terms"
@@ -186,13 +211,36 @@
     }
   ],
   "conflicts": [
-    "Additional Q3 2026 EPS conflict: 247wallst reports $0.35 actual vs $0.14 estimate (2026-11-09); no primary-source (8-K/10-Q) figure has been located to confirm this.",
-    "Additional market-cap readings found this pass: StockAnalysis ~$490M (28.85M shares), TipRanks ~$583M (29.98M shares) -- both undated, adding to the existing unreconciled range ($507M-$694M) already on file.",
-    "No ELMT-specific news dated 2026-11-12 was found this session; the ticker's presence on today's due list appears driven by the earnings-date proximity flag rather than a new same-day catalyst."
+    "IPO gross proceeds: ~$111M (one source) vs $120.4M (pulse.bot headline) — not reconciled.",
+    "Q3 2026 earnings date: Nov 9, 2026 (24/7 Wall St) vs Nov 10, 2026 'confirmed' (MarketChameleon) vs Nov 12/25/16, 2026 (other, apparently stale, sources) — actual report appears to have already occurred around Nov 9-10.",
+    "Market cap: $411.56M (at 2026-04-23 IPO pricing) vs $451.9M (2026-05-26) vs $514.8M (2026-06-07) vs $674.07M (undated) — rising trend consistent with share-price appreciation but not reconciled.",
+    "Price: $19.25 (2026-11-10, FinancialContent) vs a separately reported close of $19.62 '+13.8%' attributed to 'November 6, 2026' by MarketChameleon — internally inconsistent on date."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found for 2026-11-11/12. Treating this as a largely quiet pass apart from the new (unverified) EPS data point and additional conflicting market-cap snapshots.",
+  "notes": "Recently-IPO'd company (April 2026); multiple new, dated catalysts since baseline: the Pentagon tungsten-production investment and MSR stake purchase (both September 2026), and a large Q3 2026 earnings beat (reported ~Nov 9-10, 2026).",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -432,11 +480,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
       "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

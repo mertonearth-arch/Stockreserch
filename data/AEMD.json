@@ -1,65 +1,78 @@
 {
   "ticker": "AEMD",
   "name": "Aethlon Medical, Inc.",
-  "sector": "Biotechnology / Medical Devices",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.066Z",
+  "lastResearched": "2026-11-13T21:33:08.071Z",
   "fundamentals": {
     "marketCap": {
-      "value": null
+      "value": null,
+      "note": "no reliable market cap figure found; shares outstanding not established with confidence this pass"
     },
     "float": {
-      "value": null
+      "value": null,
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": null
+      "value": null,
+      "note": "not established; undated secondary source mentions a pre-funded/common warrant overhang of ~2.2M shares, unconfirmed"
     },
     "shortInterest": {
-      "value": null
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
-      "value": 7000000,
-      "asOf": "2025-12-31",
-      "source": "company fiscal Q3 2026 results, reported via SeekingAlpha PR / Benzinga, 2026-02-12",
-      "note": "This is the most recent cash figure found this session; it predates the file's current catalyst window (Oct-Nov 2026) and is included only as the last confirmed data point."
+      "value": 5000000,
+      "asOf": "2026-03-31",
+      "source": "Aethlon Medical press release (aethlonmedical.com), FY2026 year-end results"
     },
     "debt": {
-      "value": null
+      "value": null,
+      "note": "not disclosed in sources reviewed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings"
+      "note": "negative earnings (pre-revenue clinical-stage biotech)",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
-        "period": "Q3 FY2026 (qtr ended 2025-12-31)",
-        "value": -2.45,
-        "basis": "GAAP"
+        "period": "FY2026 (ended 2026-03-31)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "loss confirmed but per-share figure not retrieved"
+      },
+      {
+        "period": "Q2 FY2027 (ended 2026-09-30)",
+        "value": null,
+        "basis": "GAAP",
+        "note": "report not confirmed as released as of 2026-11-13"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "revenue YoY",
-      "pct": null,
-      "note": "Pre-revenue; fiscal Q3 2026 revenue was reported at $0.00. Nine-month operating expenses fell 26.9% YoY to about $5.36M; quarterly opex rose 13.6% YoY to about $2.06M on higher payroll."
+      "metric": "operating expense (cash burn)",
+      "period": "Q1 FY2027 (ended 2026-06-30)",
+      "pct": -11.9,
+      "note": "pre-revenue; opex down 11.9% YoY was the only disclosed growth-adjacent metric found"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No 8-K or press release for the fiscal quarter ended 2026-09-30 located this session. Earnings-calendar aggregators disagree: Nov 10, Nov 11, and Nov 12 2026 have each been cited; none is a company-confirmed date."
+      "note": "Q2 FY2027 (quarter ended 2026-09-30) 10-Q due ~November 2026; exact date/whether already released not confirmed"
     }
   },
   "price": {
-    "last": 5.75,
-    "changePct": -0.9,
-    "asOf": "2026-11-04",
-    "source": "MarketChameleon"
+    "last": 5.55,
+    "changePct": 1.1,
+    "rvol": 0.3,
+    "asOf": "2026-11-10"
   },
   "catalysts": [
     {
@@ -164,6 +177,13 @@
       "sourceName": "Certificate of Change filed in Nevada 2026-07-30"
     },
     {
+      "date": "2026-07",
+      "type": "corporate action",
+      "headline": "Approximate-month: company completed a 1-for-5 reverse stock split",
+      "impact": "Linked by a secondary analysis to maintaining Nasdaq listing compliance; exact split date not pinned down",
+      "source": "WebSearch aggregator summary; original source URL not captured — verify via SEC EDGAR"
+    },
+    {
       "date": "2026-06-10",
       "type": "regulatory/risk disclosure",
       "headline": "FY2026 10-K (fiscal year ended 2026-03-31) flags substantial doubt about Aethlon's ability to continue as a going concern",
@@ -179,11 +199,37 @@
     }
   ],
   "conflicts": [
-    "AEMD's next-earnings date is unresolved: aggregators variously cite Nov 10, Nov 11 (after close), and Nov 12 2026 (4:15pm ET) for the fiscal quarter ended 2026-09-30; no company press release or 8-K confirming any of these, or reporting results, was found this session."
+    "Reverse split: one analysis cites a 1-for-5 reverse split in July 2026; exact date and ratio source not independently verified.",
+    "Cash: $5.0M as of 2026-03-31 (company press release, FY2026 year-end) vs $4.9M cited in an undated secondary analysis (panabee.com) that may refer to a different quarter.",
+    "Expected Nov 11, 2026 earnings consensus EPS of -$4.05 (one source) looks inconsistent with recent quarterly loss magnitudes; unconfirmed and possibly erroneous."
   ],
-  "pendingFilings": [],
-  "notes": "No new catalysts found since the 2026-10-07 authorized-shares amendment already on file. Market cap, shares outstanding, float, short interest, debt and FY2024/FY2025 annual EPS remain unestablished.",
+  "pendingFilings": [
+    "10-Q for fiscal Q2 2027 (quarter ended 2026-09-30) — due/expected November 2026, release not confirmed as of 2026-11-13"
+  ],
+  "notes": "No confirmed new catalyst dated in November 2026 was found beyond the pending Q2 FY2027 10-Q, whose release date/results could not be confirmed as of this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -471,11 +517,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

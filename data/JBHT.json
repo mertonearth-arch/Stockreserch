@@ -1,28 +1,27 @@
 {
   "ticker": "JBHT",
   "name": "J.B. Hunt Transport Services, Inc.",
-  "sector": "Trucking & Logistics",
+  "sector": "Industrials (transportation & logistics)",
   "theme": "Transportation & Logistics",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.083Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.076Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established — price/fundamentals aggregators (Yahoo Finance, Finviz) failed DNS resolution in this sandbox."
+      "value": 21000000000,
+      "asOf": "2026-11-11",
+      "note": "Approximate; sources range $20.91B to $21.53B depending on exact price/share-count snapshot used."
     },
     "float": {
       "value": null,
       "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
-      "value": 94299203,
-      "asOf": "2026-07-06",
-      "source": "equibles.com",
-      "note": "Unchanged from prior pass; stale"
+      "value": 94000000,
+      "note": "~93.91M (StockAnalysis) to ~94.6M (Barchart, older snapshot); treated as ~94M."
     },
     "shortInterest": {
       "value": 2700000,
@@ -45,62 +44,74 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established in accessible sources",
-      "asOf": "2026-11-11"
+      "note": "Not established in sources retrieved this pass."
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 1.82,
-        "basis": "GAAP diluted"
+        "basis": "GAAP",
+        "note": "Beat the Zacks consensus estimate of $1.81 by 0.6%."
       }
     ],
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 3050000000,
-        "yoy": null
-      },
-      {
         "period": "Q3 2026",
-        "value": 3680000000,
-        "yoy": 20
-      },
-      {
-        "period": "9M 2025",
-        "value": 8900000000,
-        "yoy": null
-      },
-      {
-        "period": "9M 2026",
-        "value": 10230000000,
-        "yoy": 14.9
+        "value": null,
+        "yoy": 20,
+        "note": "Total revenue reported up ~20% YoY; intermodal segment revenue specifically rose ~20% YoY to $1.83B."
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 21,
-      "note": "Talk Business & Politics reported total company revenue up 21% YoY to $3.68B for Q3 2026. A separate Zacks piece cited intermodal segment revenue (not total company revenue) up ~20% YoY to $1.83B — a different metric, not a direct conflict, but flagged for context since a 21% total-company jump is larger than JBHT's recent historical quarterly growth rate and was not corroborated by a primary-source press release in accessible search results."
+      "pct": 20
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-01-21",
       "confirmed": false,
-      "note": "Q4 2026 date not found in accessible sources."
+      "note": "Unconfirmed aggregator estimate for Q4/FY2026 results; not a company-confirmed date."
     }
   },
   "price": {
-    "last": 218.54,
-    "changePct": -0.45,
-    "asOf": "2026-11-06",
-    "source": "quote aggregation (Fox Business/Morningstar) via WebSearch, Nov 6 2026 close"
+    "last": 227.66,
+    "asOf": "2026-11-11",
+    "note": "Motley Fool close. Fox Business shows $218.54 (2026-11-06, -0.45% that day) and an undated Stockevents snapshot shows $220.86."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "other",
+      "headline": "Scheduled participation in a second investor conference",
+      "impact": "Upcoming routine IR event (after this report's as-of date).",
+      "source": "Businesswire"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "other",
+      "headline": "Participation in investor conference",
+      "impact": "Routine IR event; no new financial disclosure confirmed from this pass.",
+      "source": "Businesswire"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "insider",
+      "headline": "CFO Brad Delco reports a derivative security exercise",
+      "impact": "Filed as exempt under Rule 16b-3 with no cash value disclosed; routine compensation-related transaction, not clearly directional.",
+      "source": "SEC Form 4 via Quantisnow"
+    },
     {
       "date": "2026-10-29",
       "type": "corporate",
       "headline": "J.B. Hunt announced participation in upcoming investor conferences, including Baird's 2026 Global Industrial Conference in Chicago on Nov 10",
       "source": "https://www.businesswire.com/news/home/20251029590042/en/J.B.-Hunt-Transport-Services-Inc.-Announces-Participation-in-Upcoming-Investor-Conferences/"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "headline": "J.B. Hunt reports Q3 2026 results: EPS $1.82 (beat), intermodal revenue +20% YoY to $1.83B; stock rose on earnings beat, buyback boost, and new credit line",
+      "impact": "Earnings beat plus capital-return/financing actions drove a reported ~5.6% share-price gain.",
+      "source": "Zacks; FreightWaves; Talk Business & Politics; Simply Wall St"
     },
     {
       "date": "2026-10-15",
@@ -145,10 +156,30 @@
       "source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-16-133949098.html"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Price: $227.66 (Fool, Nov 11) vs $218.54 (Fox Business, Nov 6) vs $220.86 (Stockevents, undated) — roughly a $9 spread across sources dated within a week of each other."
+  ],
   "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-10-15 Q3 2026 earnings and 2026-10-29 investor-conference announcement already on file. One source now cites investor-conference dates of both Nov 10 and Nov 17, 2026 without distinguishing which conference each is -- not treated as a new catalyst, just noted.",
+  "notes": "52-week trading range cited as $157.82-$299.76. No major new company-specific news found between the Oct 15 earnings beat and Nov 13 beyond routine investor-conference participation and an insider Form 4 filing.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -323,10 +354,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

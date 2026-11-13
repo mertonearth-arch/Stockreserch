@@ -1,18 +1,18 @@
 {
   "ticker": "SOLS",
-  "name": "Solstice Advanced Materials, Inc.",
-  "sector": "Materials",
+  "name": "Solidion Technology, Inc.",
+  "sector": "Materials / Battery Technology",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.089Z",
+  "lastResearched": "2026-11-13T21:33:08.082Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this pass"
+      "note": "Conflicting dated snapshots found; none confirmed for 2026-11-13"
     },
     "float": {
       "value": null,
@@ -20,8 +20,8 @@
       "note": "not separately disclosed in sources found this session"
     },
     "sharesOutstanding": {
-      "value": 158850000,
-      "note": "No precise date beyond 'recent' per source."
+      "value": null,
+      "note": "Conflicting figures across filings/aggregators; no single figure confirmed"
     },
     "shortInterest": {
       "value": null,
@@ -41,40 +41,30 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established this pass"
+      "note": "Not found; likely negative/pre-scale earnings",
+      "asOf": "2026-11-13"
     },
     "eps": [],
-    "revenue": [
-      {
-        "period": "Q3 2026",
-        "value": 1046000000,
-        "yoy": 8
-      },
-      {
-        "period": "FY2025 (full year)",
-        "value": 3890000000,
-        "yoy": null
-      }
-    ],
+    "revenue": [],
     "growth": {
-      "metric": "net sales YoY",
-      "period": "Q3 2026",
-      "pct": 8,
-      "note": "Q3 2026 net sales $1,046M, +8% YoY (carried from prior pass; corroborated this pass by a Nov 6, 2026 report that SOLS beat Q3 sales guidance and raised its full-year 2026 outlook)"
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "Revenue/growth figures not found this pass"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 results not yet announced; company has a calendar fiscal year so a report is expected in mid-February 2027 based on typical specialty-chemicals reporting cadence, but this is unconfirmed."
+      "note": "Not found"
     },
     "CRITICAL_IDENTITY_NOTE": "Ticker SOLS on Nasdaq is Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — NOT Solidion Technology, which trades under ticker STI. The 'Advanced Materials' theme fits Solstice, not Solidion (a much smaller battery-materials company). This appears to be a company-identity question worth the PM owner's direct attention; this pass researched the ticker as given (SOLS = Solstice) and did not research Solidion/STI separately."
   },
   "price": {
-    "last": 58,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "Benzinga quote (as cited in search results)",
-    "note": "A separate Fox Business quote dated 2026-10-23 showed ~$59.80, implying the stock was roughly flat to slightly lower over that ~2-week span; not a single-day change figure."
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "note": "Not confirmed; see conflicts"
   },
   "catalysts": [
     {
@@ -166,12 +156,47 @@
       "headline": "Solstice Advanced Materials completed its spin-off from Honeywell and began regular-way trading on Nasdaq under ticker SOLS; Honeywell shareholders received 1 SOLS share per 4 HON shares held (total distribution of 158,727,456 shares)",
       "impact": "Company became an independent public company",
       "source": "Honeywell/Nasdaq press releases (honeywell.com, nasdaq.com)"
+    },
+    {
+      "date": "2025-09-08",
+      "type": "regulatory",
+      "headline": "Company notified Nasdaq of non-compliance with Rule 5605(c)(2)(A) (audit committee composition)",
+      "source": "SEC 8-K (via search aggregation)"
+    },
+    {
+      "date": "2025-05-12",
+      "type": "corporate action",
+      "headline": "Solidion completed a 1-for-50 reverse stock split",
+      "impact": "Move to regain Nasdaq bid-price compliance (per 10-Q disclosure)",
+      "source": "SEC 10-Q (via search aggregation)"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "TICKER MISMATCH: every source located (SEC EDGAR, stockanalysis.com, tipranks.com, stocktitan.net) refers to this company by ticker STI on Nasdaq, not SOLS. Could not confirm whether SOLS is a current/alternate ticker for Solidion Technology or a different issuer — unresolved.",
+    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M, 7.47M, and 7,745,683 from separate data aggregators — not reconciled.",
+    "Market cap: $48.27M (price $5.78 x 8.51M shares, ~2026-10-08) vs $79.51M vs $91.24M (7,745,683 shares) from different aggregators — not reconciled.",
+    "Beneficial ownership by G3: one 8-K states ~51.4% of outstanding shares; a separate filing states 'in excess of 20%' — may reflect different dates but not reconciled here."
+  ],
   "pendingFilings": [],
-  "notes": "Otherwise quiet since the Nov 3-4 dividend/earnings catalysts already on file. CRITICAL_IDENTITY_NOTE on file (SOLS = Solstice, not Solidion/STI) still stands and needs no further action this pass.",
+  "notes": "No November 2026-dated news located for this name in this pass (most recent dated items are from September 2025). An undated article described a large rally tied to a 'new extreme-climate space battery' announcement and NASA Artemis/SpaceX positioning, but with no date it cannot be used as a dated catalyst. Given the ticker mismatch above (sources point to STI, not SOLS), treat all figures here with caution until the ticker is confirmed.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -474,11 +499,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

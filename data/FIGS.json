@@ -1,92 +1,88 @@
 {
   "ticker": "FIGS",
   "name": "FIGS, Inc.",
-  "sector": "Consumer Discretionary (Apparel/Direct-to-Consumer Retail)",
+  "sector": "Consumer Discretionary",
   "theme": "Consumer Apparel & Retail",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.070Z",
+  "lastResearched": "2026-11-13T21:33:08.066Z",
   "fundamentals": {
     "marketCap": {
-      "value": 3620000000,
-      "asOf": "2026-11-09",
-      "source": "businessquant.com"
+      "value": 2230000000,
+      "asOf": "2026-09-25",
+      "source": "PitchBook"
     },
     "float": {
-      "value": 115205000,
-      "asOf": "2025",
-      "source": "MarketBeat",
-      "note": "Stale (2025); no 2026 float figure found."
+      "value": null,
+      "note": "Not disclosed separately"
     },
     "sharesOutstanding": {
-      "value": 167050000,
-      "asOf": "~2026-06",
-      "source": "Equibles",
-      "note": "See conflicts for disagreeing share-count readings."
+      "value": 166380000,
+      "asOf": "2026-05-06",
+      "source": "MarketBeat"
     },
     "shortInterest": {
-      "value": 14000000,
-      "asOf": "~2026-06",
-      "source": "Equibles (14.0M shares, ~5.5 days to cover)",
-      "note": "Predates the Aug 2026 earnings jump; see conflicts for an earlier, lower reading."
+      "value": null,
+      "note": "Not found for a recent date; an older item was dated January 2025 and excluded as stale"
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; FIGS' balance sheet was not reached (SEC EDGAR blocked; WebFetch non-functional)."
+      "note": "Not found in available sources this pass"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; same constraint as cash above."
+      "note": "Not found in available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "insufficient TTM EPS data found to compute a reliable multiple"
+      "note": "Pre-earnings (early November) commentary cited the stock trading above 60x forward earnings after a 93% YTD run, per TIKR; not re-verified post-Q3-earnings, so not used as a current figure",
+      "asOf": "~2026-11-03"
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": 0.05,
-        "basis": "GAAP diluted"
-      },
-      {
         "period": "Q3 2026",
         "value": 0.1,
-        "basis": "GAAP diluted"
+        "basis": "GAAP",
+        "note": "Beat consensus estimate of $0.07 by $0.03"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2026",
-        "value": 196600000,
-        "yoy": 28.8
+        "period": "Q3 2026",
+        "value": 190700000,
+        "yoy": 26
       }
     ],
     "growth": {
-      "metric": "EPS YoY",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 100,
-      "note": "EPS doubled to $0.10 from $0.05; a specific Q3 2026 revenue figure/YoY% was not confirmed in available sources (only described qualitatively as a 'beat and raise' quarter with 'strong sales'), so EPS growth is used as the headline metric instead of revenue YoY"
+      "pct": 26
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "no confirmed date found; Q4 2026 results would typically be expected ~Feb 2027 based on prior cadence"
+      "note": "Q4 2026 / full-year 2027 outlook report expected 'around late February' 2027 per Motley Fool commentary; no specific date announced"
     }
   },
   "price": {
-    "last": 21.74,
-    "changePct": 9.69,
-    "asOf": "2026-11-09",
-    "source": "businessquant.com",
-    "note": "most recent dated price found; could not confirm a price specifically as of 2026-11-11 (today)"
+    "last": 13.42,
+    "changePct": null,
+    "asOf": "2026-09-25",
+    "source": "PitchBook",
+    "note": "This predates the 2026-11-05 Q3 earnings report and the subsequent price moves described in catalysts; no reliably dated November price was found this pass"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "FIGS reports Q3 2026 results: revenue ~$190.7M (+26% YoY, beat ~$182.8M consensus); EPS $0.10 (beat $0.07 est.); GAAP net income $19.3M, 10.1% net margin vs 5.8% a year ago",
+      "impact": "Fourth consecutive beat-and-raise quarter, but stock initially fell 2% on weak Q4 guidance (~15% sales growth) before rebounding to ~5% above pre-earnings levels by 2026-11-09",
+      "source": "https://stockstory.org/us/stocks/nyse/figs/news/earnings/figss-nysefigs-q3-2026-strong-sales-provides-optimistic-revenue-guidance-for-next-quarter"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -149,17 +145,51 @@
       "source": "https://www.sahmcapital.com/news/content/figs-figs-joins-two-russell-2000-defensive-indexes-and-investors-may-notice-2026-07-02"
     },
     {
+      "date": "2026-06",
+      "type": "supply chain / regulatory",
+      "headline": "Withhold Release Order issued against a Jordanian manufacturing partner",
+      "impact": "Caused stock-outs late in Q3 2026; impact expected to peak in Q4 2026 and linger into H1 2027",
+      "source": "https://www.panabee.com/news/figs-earnings-q3-2026",
+      "note": "Exact day within June 2026 not confirmed from the snippet"
+    },
+    {
       "date": "2026-05-07",
       "type": "earnings",
       "headline": "Q1 FY2026 results: revenue $159.90M (+28.0% YoY, beat $153.15M est.); adjusted EPS $0.03 vs $0.01 est.; initial FY2026 guidance set at 14-16% revenue growth (later raised in August)"
     }
   ],
   "conflicts": [
-    "An Earnings Whispers page shows a FIGS price of $14.42, which is far below the ~$21-22 range from other, more recently dated sources; recorded as likely stale/outdated rather than silently discarded."
+    "Price/market cap: PitchBook $13.42 / $2.23B (2026-09-25) vs MarketBeat $14.51 / $2.41B (2026-05-06) vs an undated Investing.com page showing $13.52 price but a $3.29B market cap (internally inconsistent with ~166M shares) vs an undated Robinhood snapshot of $16.20 / $2.73B",
+    "Characterization of the Jordan supply issue differs: Earnings Whispers frames it as a 'Jordan import restriction,' while Panabee specifically identifies it as a June 2026 Withhold Release Order against a manufacturing partner"
   ],
-  "pendingFilings": [],
-  "notes": "No dated news found since the 2026-11-05 Q3 2026 print and the 11-09 52-week-high note already on file. Sources this session disagreed sharply on current price/market cap (one undated snapshot ~$11.28/$1.98B, another ~$2.23B) and none was dated to this week, so no price/marketCap update was made rather than guess between them.",
+  "pendingFilings": [
+    "8-K 2026-11-05 (Q3 2026 earnings)"
+  ],
+  "notes": "Company guided to approximately 23.5% full-year 2026 revenue growth per Motley Fool's reporting on the Q3 call. No current (November) price/market-cap snapshot could be confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -355,10 +385,25 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

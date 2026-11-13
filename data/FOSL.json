@@ -1,41 +1,149 @@
 {
   "ticker": "FOSL",
   "name": "Fossil Group, Inc.",
-  "sector": "Consumer Discretionary (Watches & Accessories)",
+  "sector": "Consumer Discretionary",
   "theme": "Consumer Apparel & Retail",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.058Z",
+  "lastResearched": "2026-11-13T21:33:08.058Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 now reported (per Earnings Whispers schedule, 2026-11-11 4:15pm ET); next report date not yet found."
+      "note": "Not located; Q3 2026 was reported 2026-11-10"
+    },
+    "marketCap": {
+      "value": null,
+      "note": "Not established in sources reviewed"
+    },
+    "float": {
+      "value": null,
+      "note": "Not established"
+    },
+    "sharesOutstanding": {
+      "value": null,
+      "note": "Not established"
+    },
+    "shortInterest": {
+      "value": null,
+      "note": "Not established"
+    },
+    "cash": {
+      "value": null,
+      "note": "Not established"
+    },
+    "debt": {
+      "value": null,
+      "note": "Not established"
+    },
+    "pe": {
+      "trailing": null,
+      "forward": null,
+      "note": "Company has a history of net losses (Q3 2025 net loss $39.9M / -$0.76 per diluted share); trailing P/E not meaningful. Q3 2026 result unconfirmed — see conflicts.",
+      "asOf": "2026-11-13"
+    },
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": -0.76,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Only unverified third-party figures located (~$10.6M net loss); per-share figure not confirmed against a primary source"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 270200000,
+        "yoy": null
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "yoy": null,
+        "note": "Third-party aggregator (Panabee) cites ~$209.7M, down ~4.9% YoY, but this figure is unverified — see conflicts"
+      }
+    ],
+    "growth": {
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": null,
+      "note": "Unverified; see conflicts"
     }
   },
   "price": {
-    "changePct": 25.7,
-    "asOf": "2026-11-12",
-    "note": "Premarket move reported inconsistently across aggregators (Stockmarketwatch +25.7%, MarketBeat ~+23%, Investing.com +20.2% described as after-hours) — see conflicts. No confirmed last price located this session."
+    "last": 8.06,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-09",
+    "note": "This is the pre-earnings 1-year-high close cited by Benzinga; no reliable post-earnings (Nov 11+) quote was located."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "conference",
+      "headline": "Fossil Group management scheduled to present at the Craig-Hallum Alpha Select Conference",
+      "impact": "Upcoming investor event",
+      "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
+    },
     {
       "date": "2026-11-12",
       "type": "earnings",
       "headline": "Fossil Group reported Q3 2026 results described as an earnings beat and raised its full-year 2026 revenue outlook to approximately $990M (up from a prior ~$954-974M range)",
       "impact": "Premarket move reported between +20.2% and +25.7% across aggregators",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Fossil Group reported Q3 2026 results after market close; a third-party aggregator (unverified) cites revenue of ~$209.7M (down ~4.9% YoY), gross margin of 62.4% (+490bps), and a net loss of ~$10.6M",
+      "impact": "Low-confidence — the primary press release was not located, and this aggregator's stated year-ago comparison does not match Fossil's own official Q3 2025 release",
+      "source": "https://www.panabee.com/news/fossil-earnings-q3-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "price move",
+      "headline": "FOSL closed at a 1-year high of $8.06 the session before its Q3 2026 earnings release",
+      "impact": "Stock had rallied into the print; pre-earnings consensus called for a swing to a $0.03 EPS profit on ~$247.2M revenue",
+      "source": "https://www.benzinga.com/quote/FOSL/charts"
     }
   ],
   "conflicts": [
-    "Could not confirm the actual Q3 2026 print from a primary source this session. Earnings Whispers scheduled the report for 2026-11-11 4:15pm ET with consensus of $0.03 EPS / ~$247.2M revenue (vs $270.2M prior-year, a -8.5% estimate). A Panabee write-up labeled 'Q3 2026' instead shows revenue DOWN 4.9% to $209.7M and a WIDER net loss of $10.6M (vs $2.3M prior year) with 62.4% gross margin -- which contradicts the 'earnings beat, raised FY2026 outlook' framing already on file from the AM pass and may actually describe Q2 2026 (a Nov 3 preview separately attributes the 62.4% margin to 'last quarter'). The two accounts of this earnings print are irreconcilable from the sources available this session.",
-    "Premarket/after-hours move magnitude for the 2026-11-11/12 reaction remains inconsistently reported across aggregators (+25.7% Stockmarketwatch, ~+23% MarketBeat, +20.2% Investing.com) -- already flagged in the prior pass's conflicts, unresolved this session too."
+    "Earnings date given differently across sources: company's own Oct 20 announcement and Benzinga say after-close on 2026-11-10; EarningsWhispers lists 2026-11-09; Yahoo Finance's estimate shows 2026-11-12.",
+    "Q3 2026 financial results are not corroborated by a primary source in this research pass: the only figures found (Panabee, a third-party aggregator) state a prior-year (Q3 2025) net loss of $2.3M, which directly conflicts with Fossil's own official Q3 2025 release (net loss $39.9M / -$0.76 per diluted share on $270.2M revenue). Because of this internal inconsistency, the Q3 2026 figures from that same source (~$209.7M revenue, ~$10.6M net loss) are flagged as unverified and are not reported as established fact.",
+    "Pre-earnings consensus (profit of ~$0.03/share on ~$247.2M revenue) versus the unverified post-print figures above would represent a large miss, but this cannot be confirmed without the primary release."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -61,13 +169,24 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not independently verify FOSL's actual Q3 2026 revenue/EPS or confirm the raised outlook figures beyond what the AM pass already recorded (FY2026 revenue outlook ~$990M, up from ~$954-974M). Primary IR/newswire sources did not resolve in WebSearch. Flagging the Panabee-vs-AM-pass contradiction above rather than silently picking one account.",
+  "notes": "Could not locate Fossil Group's official Q3 2026 press release or 8-K in this research pass; strongly recommend pulling it directly from fossilgroup.com/investor-relations or SEC EDGAR before reporting specific Q3 2026 revenue/EPS/price-reaction figures.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

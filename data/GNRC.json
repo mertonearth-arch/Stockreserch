@@ -1,28 +1,28 @@
 {
   "ticker": "GNRC",
   "name": "Generac Holdings Inc.",
-  "sector": "Industrials (Electrical Equipment)",
+  "sector": "Industrials (power generation equipment)",
   "theme": "Backup Power & Energy Equipment",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.082Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.075Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not found in accessible sources"
+      "value": 10810000000,
+      "asOf": "2026-11-10",
+      "source": "aggregator snapshot"
     },
     "float": {
       "value": null,
       "note": "not disclosed separately from shares outstanding in sources found"
     },
     "sharesOutstanding": {
-      "value": 58868681,
-      "asOf": "2026-05-01",
-      "source": "SEC Form 10-Q (Q1 2026 cover page), cross-checked against the 2026-03-31 balance sheet (74,218,726 shares issued less 15,464,527 treasury shares = ~58.75M outstanding)",
-      "note": "Most authoritative figure found; a more current Q3 2026 10-Q cover-page figure was not located this pass."
+      "value": 59000000,
+      "asOf": "2026-10-26",
+      "note": "Consistently ~59M across several sources"
     },
     "shortInterest": {
       "value": null,
@@ -41,43 +41,50 @@
       "note": "Conflicts with FN2's Q1 2026 figure of $1,236.4M and StockAnalysis's TTM-through-June-2026 figure of $1,410M -- see conflicts."
     },
     "pe": {
-      "trailing": null,
+      "trailing": 35.87,
       "forward": null,
-      "note": "not found in accessible sources"
+      "asOf": "2026-11-10"
     },
-    "eps": [],
-    "revenue": [
+    "eps": [
       {
-        "period": "Q2 2026",
-        "value": 1170000000,
-        "yoy": 10.6
-      },
+        "period": "Q3 2026",
+        "value": 2.54,
+        "basis": "Adjusted (non-GAAP)",
+        "note": "Beat estimates; consensus cited as $2.38 (Zacks) vs $2.43 (another source)"
+      }
+    ],
+    "revenue": [
       {
         "period": "Q3 2026",
         "value": 1290000000,
         "yoy": 16,
-        "note": "record quarterly net sales"
+        "note": "Missed the ~$1.32B consensus despite the YoY increase."
       }
     ],
     "growth": {
-      "metric": "revenue",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "record quarterly revenue of $1.29B reported for Q3 2026, driven by the data-center backlog; a prior-year Q3 comparison figure needed to compute YoY% was not found in available sources"
+      "pct": 16
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "no confirmed next earnings date found; Generac has historically reported Q4/full-year results in mid-February"
+      "note": "Q4/FY2026 date not yet announced in sources found"
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": null,
-    "note": "current quote not found in accessible sources"
+    "last": 181.82,
+    "changePct": -3.67,
+    "asOf": "2026-11-10"
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "guidance",
+      "headline": "Management reaffirms data-center backlog strength, says 2027 data-center revenue should well exceed $2 billion",
+      "impact": "Reinforces the data-center growth narrative that has been driving the stock's 2026 re-rating.",
+      "source": "Webull (\"Is Generac Holdings (GNRC) Fairly Valued Following Strong Earnings And Reaffirmed Guidance\")"
+    },
     {
       "date": "2026-10-28",
       "type": "earnings / backlog update",
@@ -147,11 +154,31 @@
     }
   ],
   "conflicts": [
-    "Sources differ on whether the ~$4.5B Q3 2026 data-center backlog figure includes the Amazon contract or is presented as a separate/additive figure; could not be reconciled in this pass."
+    "Q3 2026 earnings date itself could not be confirmed in this pass; figures below are dated by the earnings commentary found, not a confirmed release date.",
+    "Market cap/share count across sources: $11.04B / 59.06M shares (2026-10-26) vs $11.72B / 59.01M shares vs $12.65B / 58.87M shares (July 2026 snapshot) vs a clearly stale figure of $16.51B at a $279.45 price.",
+    "Q3 2026 EPS consensus cited as $2.38 (Zacks) in one source and $2.43 in another for the same quarter."
   ],
   "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-10-28 Q3 2026 earnings/backlog update already on file. Current price sources remain too inconsistent (undated/conflicting) to record a new quote.",
+  "notes": "Data-center backlog reported at ~$4.5B including a $2.4B supply agreement with Amazon for 2027-2028 deliveries (date of that agreement not independently pinned down this pass).",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -380,10 +407,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

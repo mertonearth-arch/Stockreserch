@@ -1,18 +1,18 @@
 {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
-  "sector": "Semiconductors",
+  "sector": "Technology (semiconductors)",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.084Z",
+  "lastResearched": "2026-11-13T21:33:08.078Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
+      "note": "Not established in sources retrieved this pass."
     },
     "float": {
       "value": null,
@@ -20,10 +20,8 @@
       "note": "Not found"
     },
     "sharesOutstanding": {
-      "value": 876900000,
-      "asOf": "2026-09-08",
-      "source": "Google Finance snapshot (via search synthesis)",
-      "note": "Approximate; unchanged from prior pass"
+      "value": null,
+      "note": "Not established in sources retrieved this pass."
     },
     "shortInterest": {
       "value": null,
@@ -45,50 +43,55 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established in accessible sources",
-      "asOf": "2026-11-11"
+      "note": "Q3 FY2027 results not yet reported (call scheduled Dec 1, 2026); not established."
     },
-    "eps": [
-      {
-        "period": "Q2 FY2027",
-        "value": 0.94,
-        "basis": "non-GAAP",
-        "note": "reported Aug 27, 2026; beat consensus estimate of $0.87 by ~8.05%"
-      }
-    ],
-    "revenue": [
-      {
-        "period": "Q2 FY2027 (ended 2026-08-01)",
-        "value": 2739000000,
-        "yoy": 37
-      }
-    ],
+    "eps": [],
+    "revenue": [],
     "growth": {
-      "metric": "data center segment revenue YoY",
-      "period": "Q2 FY2027",
-      "pct": 46,
-      "note": "Data center revenue hit a record $2.74B, growth accelerating to ~46% YoY, driven by AI demand. (No total-company revenue YoY figure located; data-center is the disclosed headline growth metric in coverage.)"
+      "metric": "revenue (guided range)",
+      "period": "Q3 FY2027 (quarter ended ~2026-10-31)",
+      "pct": null,
+      "note": "Company narrowed its Q3 FY2027 revenue guidance band from ±5% to ±2% around a prior midpoint of ~$3.15B (non-GAAP EPS guided at $1.10 +/- $0.05) in a preliminary update issued alongside the Lumentum deal announcement; full results not yet reported."
     },
     "nextEarnings": {
       "date": "2026-12-01",
       "confirmed": true,
-      "note": "Confirmed by Marvell's own Nov 6, 2026 press release announcing a conference call for Q3 FY2027 results on Tuesday, Dec 1, 2026 at 1:30pm. Resolves the prior pass's earnings-date conflict — the Nov 26, 2026 TipRanks estimate was outdated (its own footnote said it was based on prior-year reporting pending confirmation)."
+      "note": "Company has announced a conference call to review Q3 FY2027 results for this date."
     }
   },
   "price": {
-    "last": 240.76,
-    "changePct": null,
-    "asOf": "2026-09-17",
-    "source": "The Motley Fool (fool.com/quote/nasdaq/MRVL)",
-    "note": "Stale vs. 2026-10-23; the 2026-10-06 Investor Day catalyst was reported to have moved the stock +5.81% intraday that session, so the price has likely moved since, but no later confirmed quote was found this session."
+    "last": 155,
+    "asOf": "2026-11-10",
+    "note": "Benzinga intraday quote (11:07 AM ET). Trefis shows $142.0 as of 2026-11-09. No verified Nov 11-13 price found."
   },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "M&A",
+      "headline": "Marvell announces agreement to acquire Lumentum (LITE) for ~$115B implied enterprise value in an all-stock deal (4.500 Marvell shares per Lumentum share)",
+      "impact": "Marvell shareholders to own ~67% of the combined company post-close; combined company targets >$1B in annual run-rate cost synergies; deal expected to close H1 2028. Marvell's own stock fell ~12.7% on the announcement day (Nov 2, 2026).",
+      "source": "Marvell/Lumentum joint press releases; Light Reading; SiliconANGLE; TechTarget"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "guidance",
+      "headline": "Marvell issues a preliminary Q3 FY2027 update alongside the Lumentum deal, narrowing its revenue guidance range from ±5% to ±2%",
+      "impact": "Signals confidence in hitting the prior ~$3.15B revenue midpoint guided with Q2 results; full results due with the Dec 1, 2026 earnings call.",
+      "source": "trade press (cross-referenced with Marvell's own conference-call announcement)"
+    },
     {
       "date": "2026-11-02",
       "type": "M&A",
       "headline": "Marvell agreed to acquire Lumentum (LITE) in an all-stock deal valuing Lumentum at roughly $115B enterprise value (~$102.5B equity value per Reuters-derived reporting); exchange ratio of 4.500 Marvell shares per Lumentum share; Marvell shareholders to own ~67% of the combined company on a fully diluted basis, Lumentum holders ~33%; Lumentum CEO Michael Hurlston and two other Lumentum directors to join Marvell's board, Matt Murphy remains Chairman/CEO; combined company expects >$1B in annual run-rate cost synergies from the AI-driven shift from copper to optical connectivity; deal expected to close H1 2028 pending stockholder and regulatory approvals.",
       "impact": "Reported by Bloomberg as the largest M&A deal of 2026 by equity value and the largest-ever in global tech excluding the SpaceX/xAI merger",
       "source": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum ; https://pulse2.com/marvell-to-acquire-lumentum-115-billion/"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "M&A",
+      "headline": "Marvell shares fell 13.2% on reports it was closing in on a Lumentum buyout, ahead of the official announcement",
+      "impact": "Pre-announcement speculative selloff.",
+      "source": "Trefis"
     },
     {
       "date": "2026-10-16",
@@ -194,10 +197,34 @@
       "source": "StockTitan summary of SEC 424B7 filing"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "Earnings-date conflict from the prior pass resolved (company confirmed Dec 1, 2026). Major new development: Marvell announced the acquisition of Lumentum (see M&A catalyst above).",
+  "conflicts": [
+    "Price: Benzinga $155 (2026-11-10, intraday) vs Trefis $142.0 (2026-11-09) — roughly a 9% spread between adjacent days/sources.",
+    "Size of the Nov 2, 2026 announcement-day decline: reported variously as -12.7% (close), -6.39% (intraday), and -9.5% (midday) — these likely reflect different points in the trading day."
+  ],
+  "pendingFilings": [
+    "SEC Form 425 (2026-11-02, merger communication, joint with Lumentum)"
+  ],
+  "notes": "Full Q3 FY2027 (quarter ended ~Oct 31, 2026) results are not yet out; the Dec 1, 2026 call is the next confirmed data point. Stock has been highly volatile since the Lumentum deal was announced amid broader AI/data-center-capex sentiment swings.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -445,13 +472,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
-      "conflict resolved"
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -1,19 +1,19 @@
 {
   "ticker": "TURB",
   "name": "Turbo Energy, S.A.",
-  "sector": "Energy Equipment",
+  "sector": "Industrials / Energy Equipment",
   "theme": "Backup Power & Energy Equipment",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.091Z",
+  "lastResearched": "2026-11-13T21:33:08.083Z",
   "fundamentals": {
     "marketCap": {
-      "value": 14540000,
-      "asOf": "2026-09-11",
-      "source": "equibles.com"
+      "value": 8950000,
+      "asOf": "2026-11-06",
+      "source": "web data aggregator (via search snapshot; exact site unclear)"
     },
     "float": {
       "value": 1290000,
@@ -21,9 +21,9 @@
       "note": "float figures conflict sharply across sources; see conflicts"
     },
     "sharesOutstanding": {
-      "value": 12017140,
-      "asOf": "2026-04",
-      "source": "chartexchange.com"
+      "value": 11017140,
+      "asOf": "unknown",
+      "note": "This is the ADS count (American Depositary Shares), NOT the 55,085,700 ordinary share count reported in the company's own 20-F/6-K filings. A 5-ordinary-shares-per-ADS ratio is inferred arithmetically but was not explicitly confirmed in any source read in this pass — treat the ratio as unverified."
     },
     "shortInterest": {
       "value": 744955,
@@ -35,8 +35,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "No reliable EPS/earnings figures found for TURB (foreign private issuer reporting via irregular 6-K); P/E not established",
-      "asOf": "2026-11-11"
+      "note": "Not found; likely negative/small-cap earnings not established",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [],
@@ -44,20 +44,20 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "No revenue figures located in accessible sources (6-K filings reviewed did not surface a revenue line in search results); company is revenue-generating (battery storage installer), not pre-revenue, but figure not established here"
+      "note": "Not found this pass"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Reports via Form 6-K irregularly; no scheduled date found"
+      "note": "Foreign private issuer; files 20-F annually and 6-K periodically, not a fixed quarterly cadence; no specific next date found"
     }
   },
   "price": {
-    "last": 0.87,
-    "changePct": null,
-    "asOf": "2026-11-05",
-    "source": "tickertape.in (quote dated Nov 5, 2026)",
-    "note": "No reliable quote for 2026-11-11 found in accessible sources (stockanalysis.com, Google, CNBC are blocked in this environment). Most recent dated figure is from Nov 5."
+    "last": 0.81,
+    "changePct": 1.4,
+    "rvol": null,
+    "asOf": "2026-11-06",
+    "note": "Most recent confirmed dated snapshot found (Nasdaq ADS close); not necessarily the 2026-11-13 close"
   },
   "catalysts": [
     {
@@ -100,6 +100,12 @@
     },
     {
       "date": "2026-06-05",
+      "type": "regulatory/compliance",
+      "headline": "Turbo Energy regains Nasdaq compliance after a $5 million capital raise",
+      "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/TURB"
+    },
+    {
+      "date": "2026-06-05",
       "type": "listing compliance",
       "headline": "Turbo Energy regained Nasdaq listing compliance after a $5 million capital raise",
       "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/TURB"
@@ -130,14 +136,27 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~11.0-12.0M per most sources (StockAnalysis 11.02M; ChartExchange 12.02M) vs. 55.1M per one Equibles summary page — likely a different share class or data error, not reconciled.",
-    "Float: 1.29M (stockanalysis.com) vs 13.5M (wealthyhood.com) vs 5.00M (base.report) — no consensus found.",
-    "Short interest as % of float: ~1.8% (equibles) vs 4.37% (stockanalysis, noted as possibly stale) vs raw count 744,955 shares (fintel) vs 592,064 shares as of 2026-03-13 (equibles history) — not reconciled.",
-    "Price: $0.87 (tickertape, Nov 5 2026) vs $1.00 (Robinhood, Dec 8 2025) vs $1.94 (chartmill, undated) vs $3.59 (chartmill, March 2026, -12.65% that day) vs $0.806 (trade-ideas, undated) — wide dispersion, no single current price could be confirmed; given the microcap/illiquid profile, this looks like data staleness/provider lag rather than a confirmed reverse split, but could not be fully resolved."
+    "Market cap snapshots vary significantly by date due to price swings: $11.45M (2026-10-23, Yahoo Finance) vs $8.95M (2026-11-06) vs $14.22M (2026-05-12) — consistent with price volatility rather than a data conflict, but flagged since the basis (ADS vs ordinary shares) is not fully confirmed."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-12: added the Nov 10 Pamesa Phase II expansion catalyst. A Feb 9, 2026 bank-debt restructuring (EUR4.87M converted to long-term financing with Bankinter/CaixaBank/BBVA) was found but falls outside the ~6-month catalyst window, so not added. No reliable current price found this pass (stockanalysis.com/cnbc.com/google.com blocked); price field left as on file.",
+  "notes": "No reverse split found for TURB (its only split on record is a 20-for-1 FORWARD split in Feb 2023); current price does not look anomalous against recent history. A HiThium strategic-partnership project announcement and a February 2026 bank-financing restructuring were mentioned in search results but without confirmable dates, so they are omitted from catalysts. No November 2026-specific company news was confirmed before the search budget for this pass was exhausted.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -309,11 +328,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

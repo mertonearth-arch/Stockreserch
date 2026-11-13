@@ -1,18 +1,18 @@
 {
   "ticker": "TPST",
   "name": "Tempest Therapeutics, Inc.",
-  "sector": "Health Care",
+  "sector": "Healthcare / Biotechnology (clinical-stage)",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.090Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.083Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this pass"
+      "note": "Not found"
     },
     "float": {
       "value": null,
@@ -21,8 +21,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "asOf": null,
-      "note": "Could not reconcile conflicting figures: TipRanks 4,440,161 (likely stale, possibly pre-dating or otherwise inconsistent with the 2025-04-08 1-for-13 reverse split); Equibles 14,806,997; Google Finance 15.98M; and an implied ~19.7M backed out of the Trade-Ideas market cap/price snapshot (2026-10-16). None could be confirmed against the 10-Q cover page because WebFetch to SEC.gov failed with DNS errors in this sandbox."
+      "note": "Not found this pass"
     },
     "shortInterest": {
       "value": 341334,
@@ -30,10 +29,9 @@
       "note": "2.3% of shares outstanding, 3.6 days to cover — down from 401,128 shares the prior settlement period. May be stale relative to today given how much the share count has apparently moved since."
     },
     "cash": {
-      "value": 779000,
+      "value": 800000,
       "asOf": "2026-06-30",
-      "source": "SEC Form 8-K (Item 2.02), Q2 2026 results, Exhibit 99.1",
-      "note": "Down sharply from $7,707K at December 31, 2025 — implies a very short cash runway, consistent with the March 2026 $2.16/share private placement and the September 2026 ~$2.5M warrant-based raise already on file. An undated aggregator figure of $14.28M cash with no debt and only 4.44M shares conflicts sharply with this SEC-sourced figure and is almost certainly stale/pre-dilution — kept as a conflict, not treated as current."
+      "source": "Panabee aggregator summary of Q2 2026 report (approximate date; not independently cross-checked against the company's own filing)"
     },
     "debt": {
       "value": 7600,
@@ -44,34 +42,29 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Clinical-stage, pre-revenue biotech with net losses; no earnings-based multiple applies."
+      "note": "Pre-revenue clinical-stage biotech; no positive earnings",
+      "asOf": "2026-11-13"
     },
-    "eps": [
-      {
-        "period": "Q2 2026",
-        "value": -0.34,
-        "basis": "GAAP",
-        "note": "Net loss $5.2M for the quarter ended June 30, 2026"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "cash position change (vs. prior fiscal year-end)",
-      "period": "Q2 2026 (as of 2026-06-30)",
-      "pct": -89.6,
-      "note": "Pre-revenue clinical-stage company. Cash and cash equivalents fell to $0.8M as of June 30, 2026 from $7.7M as of Dec 31, 2025 — a steep burn that predates the Sept 16, 2026 CD7 asset licensing-option announcement. Revenue not applicable."
+      "metric": "cash position",
+      "period": "2025-12-31 to 2026-06-30",
+      "pct": null,
+      "note": "Pre-revenue clinical-stage biotech. Cash declined from $7.7M (2025-12-31) to $1.8M (2026-03-31) to ~$0.8M (~2026-06-30) per multiple aggregator sources; company 'requires substantial, likely dilutive, capital to extend its runway.' Not independently verified against the company's own 10-Q filings in this pass."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "URGENT FINDING: As of 2026-11-11, no Q3 2026 earnings press release, business update, or 10-Q filing was found for Tempest Therapeutics despite a dedicated search. The Nov 4 and Nov 9, 2026 estimated dates have both passed with nothing confirmed. The remaining Nov 13, 2026 estimate is still 2 days in the future and is roughly consistent with the ~45-day post-quarter-end SEC 10-Q deadline for non-accelerated filers (quarter ended Sept 30, 2026 => deadline around Nov 14, 2026). Q3 2026 earnings should be treated as still pending, not yet reported, as of this pass."
+      "note": "Q3 2026 report not located in available sources this pass despite searching; last confirmed update is Q2 2026"
     }
   },
   "price": {
     "last": null,
     "changePct": null,
-    "asOf": null,
-    "note": "An EarningsWhispers snippet referenced a price of approximately $0.79 but gave no as-of date, so it was not used; see conflicts."
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "note": "An undated $0.79 figure was found but could not be dated, so not used"
   },
   "catalysts": [
     {
@@ -100,29 +93,39 @@
       "headline": "Tempest Q2 2026 results disclose a Q2 2026 warrant inducement raising approx. $1.7M (one secondary source states $2M), on top of a March 2026 private placement of common stock and warrants that raised net proceeds of $1.7M",
       "impact": "Small dilutive financings; cash position remained thin through Q3 2026 (approx. $779K by 2026-10-16 per Trade-Ideas)",
       "source": "SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0001544227/000119312526349374/tpst-ex99_1.htm"
-    }
-  ],
-  "conflicts": [
-    {
-      "field": "price",
-      "values": [
-        "EarningsWhispers snippet: ~$0.79, no as-of date given"
-      ],
-      "note": "Single unverified, undated data point; not used as the recorded price."
     },
     {
-      "field": "nextEarnings.date",
-      "values": [
-        "2026-11-04 (estimate, from original on-file conflict set — now past-due with no confirmed report found)",
-        "2026-11-09 (estimate, from original on-file conflict set — now past-due with no confirmed report found)",
-        "2026-11-13 (estimate, from original on-file conflict set — still pending as of 2026-11-11)"
-      ],
-      "note": "No Q3 2026 earnings release located this pass; see nextEarnings note."
+      "date": "2026-02-25",
+      "type": "clinical data",
+      "headline": "Tempest announces interim results from ongoing REDEEM-1 trial of TPST-2003 (CD19/BCMA dual-targeting CAR-T); preparing for potential U.S. registrational study",
+      "source": "ir.tempesttx.com / quantisnow.com (via search aggregation)"
     }
   ],
-  "pendingFilings": [],
-  "notes": "PM pass 2026-11-12: no Q3 2026 earnings/business-update release found yet (the on-file Nov 13 estimate is still 1 day out). Quiet pass — nothing new.",
+  "conflicts": [],
+  "pendingFilings": [
+    "Q3 2026 10-Q / earnings release not located in available sources this pass"
+  ],
+  "notes": "No Q3 2026 earnings release could be located despite searching. Most recent confirmed update is Q2 2026: cash ~$0.8M (severe liquidity constraint, dilution risk flagged by at least one aggregator), and a pipeline update on TPST-4003 (in vivo CAR-T) with a China investigator-initiated trial (~10 patients, myasthenia gravis/MS) expected to begin dosing in Q4 2026. Other pipeline assets: TPST-1120 (amezalpat, oral PPARα antagonist) cleared for a pivotal first-line liver cancer trial in China; TPST-1495 has FDA Orphan Drug designation and 'Study May Proceed' clearance for a Phase 2 FAP trial. Current share price/market cap not confirmed as of 2026-11-13.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -356,10 +359,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "new filing(s)",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

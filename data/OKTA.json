@@ -1,67 +1,68 @@
 {
   "ticker": "OKTA",
   "name": "Okta, Inc.",
-  "sector": "Software — Infrastructure / Cybersecurity",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.085Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.079Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
+      "value": 34120000000,
+      "asOf": "2026-09-30",
+      "source": "equibles.com"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not separately disclosed"
+      "note": "not separately disclosed in sources found"
     },
     "sharesOutstanding": {
       "value": 174820000,
       "asOf": "2026-09-30",
-      "source": "Fintel.io",
-      "note": "A separate, undated Equibles snapshot shows 169,200,461 -- minor variance, not reconciled"
+      "source": "equibles.com"
     },
     "shortInterest": {
-      "value": 6450000,
-      "asOf": "2026-08-14",
-      "source": "Altindex.com (settlement date) -- 3.86% of shares outstanding, 2.70 days to cover",
-      "note": "A separate, undated Fintel figure shows 8.45M shares / 5.06% short float on a different (float) basis; not reconciled"
+      "value": 8200000,
+      "asOf": "2026-09-30",
+      "source": "equibles.com",
+      "note": "4.7% of float; 2.2 days to cover"
     },
     "cash": {
-      "value": 2299000000,
-      "asOf": "2026-07-31",
-      "source": "Quartr summary of Q2 FY2027 earnings -- cash, cash equivalents, and short-term investments",
-      "note": "A narrower cash-and-equivalents-only figure of $769.0M (OpenCapital) reflects a different subtotal of the same balance sheet, not necessarily a contradiction"
+      "value": null,
+      "note": "not located this pass"
     },
     "debt": {
-      "value": 53000000,
-      "asOf": "2026-07-31",
-      "source": "OpenCapital (balance-sheet aggregation)",
-      "note": "Consistent with the 2026-08-27 settlement of the remaining $350M of 2026 Convertible Notes in cash (already on file), which left no convertible debt outstanding"
+      "value": null,
+      "note": "not located this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established in accessible sources",
-      "asOf": "2026-11-11"
+      "note": "not established from a reliable source this pass",
+      "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q1 FY2027",
+        "value": 0.91,
+        "basis": "non-GAAP"
+      }
+    ],
     "revenue": [
       {
-        "period": "Q2 FY2027 (ended 2026-07-31)",
-        "value": 805000000,
-        "yoy": 10.6
+        "period": "Q1 FY2027",
+        "value": 765000000,
+        "yoy": 11
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Search snippets referenced quarterly revenue figures (e.g. ~$728M beating a ~$711M forecast; a separate fiscal-Q3 print with revenue up ~12% YoY and GAAP net income of $43M) but fiscal-quarter/fiscal-year labeling across sources was ambiguous/inconsistent, so no figure is reported here rather than risk mislabeling."
+      "period": "Q1 FY2027",
+      "pct": 11,
+      "note": "most recent quarter found this pass; Q2 FY2027 results were not located"
     },
     "nextEarnings": {
       "date": "2026-12-01",
@@ -69,10 +70,10 @@
     }
   },
   "price": {
-    "last": 190.71,
-    "asOf": "2026-11-05",
-    "source": "Trefis",
-    "note": "Most recent dated figure found; post-S&P-500-inclusion (effective 2026-11-04). AAII separately showed $208.24 as of 2026-10-30 (pre-inclusion), consistent with a decline into the inclusion date."
+    "last": 209.11,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-09-30"
   },
   "catalysts": [
     {
@@ -80,6 +81,13 @@
       "type": "index",
       "headline": "Okta's addition to the S&P 500 became effective before the market open, replacing Kenvue Inc. (KVUE); Okta moved up from the S&P MidCap 400",
       "source": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "scheduling",
+      "headline": "Okta confirms it will report Q3 FY2027 results on Dec 1, 2026 (2pm PT webcast)",
+      "impact": "Sets the date for the next major catalyst",
+      "source": "https://finviz.com/news/413169/okta-to-announce-third-quarter-fiscal-year-2027-financial-results-on-december-1-2026"
     },
     {
       "date": "2026-10-30",
@@ -178,6 +186,13 @@
       "sourceName": "WebSearch aggregated result (TIKR/Barchart-sourced coverage); exact primary-source URL not isolated this session before the search budget was exhausted"
     },
     {
+      "date": "2026-05-28",
+      "type": "earnings",
+      "headline": "Okta Q1 FY2027: revenue $765M (+11% YoY), adjusted EPS $0.91 vs $0.85 est; shares rose ~8% after-hours",
+      "impact": "Beat-and-raise quarter; guided Q2 FY2027 EPS to $0.95-$0.97 and announced a $1B buyback",
+      "source": "https://www.morningstar.com/news/marketwatch/20260528475/okta-shares-rise-on-earnings-beat-and-ai-agent-opportunity"
+    },
+    {
       "date": "2026-05",
       "type": "recognition",
       "headline": "Named a Leader in The Forrester Wave: Workforce Identity Security Platforms, 2026",
@@ -186,10 +201,34 @@
       "note": "Exact May 2026 date not pinned down precisely."
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Next-earnings date: company-confirmed Dec 1, 2026 vs a third-party (Earnings Whispers) estimate of Nov 25, 2026",
+    "Market cap: $34.12B on 174.82M shares at $209.11 (2026-09-30) vs $24.54B on 173.81M shares (2026-08-20) — large one-month swing, not reconciled"
+  ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the Nov 4, 2026 S&P 500 inclusion already on file. Next-earnings date (Dec 1, 2026, confirmed) corroborated independently by a Nov 2, 2026 Business Wire release — no change needed. One earnings-calendar aggregator listed Nov 25, 2026 instead, but the company's own confirmed date is treated as authoritative. Otherwise quiet.",
+  "notes": "Routine refresh; no OKTA-specific news found for November 2026 beyond the Dec 1 earnings-date confirmation. Q2 FY2027 results were not located in this pass, so growth figures above reflect Q1 FY2027.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -445,10 +484,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

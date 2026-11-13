@@ -1,85 +1,85 @@
 {
   "ticker": "IOVA",
   "name": "Iovance Biotherapeutics, Inc.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.073Z",
+  "lastResearched": "2026-11-13T21:33:08.067Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "float": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not disclosed/found"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "cash": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-11-11"
+      "note": "Net loss narrowed but still negative GAAP earnings in Q3 2026 (-$0.05/sh); trailing/forward multiples not meaningful/not found",
+      "asOf": "2026-11-05"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": -0.05,
-        "basis": "GAAP",
-        "note": "Beat consensus estimate of -$0.09 by $0.04 per MarketBeat/Quiver Quant aggregation."
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2026",
-        "value": 99300000,
-        "yoy": 66,
-        "note": "Amtagvi $90.7M + Proleukin $8.6M"
-      },
-      {
         "period": "Q3 2026",
         "value": 122000000,
-        "yoy": 80,
-        "note": "Total revenue ~$122M, +80% YoY; Amtagvi product revenue specifically +77% YoY; gross margin improved to ~60% (from 56% in Q2 2026)."
+        "yoy": 80.1
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 80
+      "pct": 80.1
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "None scheduled; Q3 2026 already reported 2026-11-05."
+      "note": "Q4 2026 report date not yet announced in sources found"
     }
   },
   "price": {
     "last": null,
-    "changePct": -8.41,
-    "asOf": "2026-11-11",
-    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "note": "No single verified closing price or % change for 2026-11-13 could be established; reachable aggregator sources disagreed sharply and were often undated (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Q3 2026 revenue of ~$122M (+80.1% YoY), beat ~$117.7M consensus; net loss narrowed to $22.3M (-$0.05/sh) from $91.3M (-prior yr); R&D expense fell to $49.3M from $75.2M YoY; FY2026 product revenue guidance of $410M-$420M reaffirmed",
+      "impact": "Despite the beat, shares reportedly fell ~11% intraday on the report day, which Zacks attributed partly to broad market weakness following the U.S. midterm elections",
+      "source": "https://finviz.com/news/416728/iovance-biotherapeutics-reports-record-third-quarter-2026-revenue-of-122m-business-achievements-and-corporate-updates"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -165,12 +165,34 @@
     }
   ],
   "conflicts": [
-    "Some search results describing a large (~28%) post-earnings rally for IOVA explicitly refer to the Q3 2025 report (November 2025), not Q3 2026 — these were excluded from this record. The actual one-day market reaction to the 2026-11-05 Q3 2026 print (initial pop vs. later pullback) could not be precisely pinned down this session.",
-    "A Seeking Alpha piece (undated in search results, likely dated on/around the Nov 5, 2026 earnings) maintains a bearish ('Sell') view citing ongoing dilution risk, sub-consensus revenue versus some analyst models, and only modest margin improvement — included here as context, not as the specific cause of today's -8.41% move, which was not independently confirmed."
+    "Stock reaction to Nov 5 Q3 earnings is reported inconsistently: one set of sources says shares fell ~11% on report day despite the beat, while a differently-dated headline describes the stock as 'up 48.3%' after narrowing losses and reaffirming guidance — could not reconcile which date/period each refers to.",
+    "No confirmed closing price for 2026-11-13; undated/differently-dated aggregator snapshots ranged from about $2.45 (Jan 2026) to $11.00 (undated) to $5 (Jul 20, 2026), too inconsistent to use."
   ],
   "pendingFilings": [],
-  "notes": "Could not find a dated, same-day source confirming the cause of the -8.41% move already on file for 2026-11-11 (searches surfaced only an unrelated, earlier -25% to -35% move on 2026-11-02 tied to lung-cancer TIL data, and the 2026-11-05 Q3 earnings beat). No change made; cause remains unconfirmed rather than guessed.",
+  "notes": "Interim CEO is Frederick Vogt. Market cap and shares outstanding could not be independently confirmed from reachable sources this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -442,10 +464,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,52 +1,51 @@
 {
   "ticker": "TLF",
   "name": "Tandy Leather Factory, Inc.",
-  "sector": "Consumer Discretionary (Specialty Leather Retail)",
+  "sector": "Consumer Discretionary",
   "theme": "Consumer Apparel & Retail",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.065Z",
+  "lastResearched": "2026-11-13T21:33:08.062Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established; Q3 2026 appears to have just reported."
+      "note": "Q3 2026 already reported in early/mid-November 2026 (exact date unconfirmed — see conflicts); next report date not located"
     },
     "marketCap": {
-      "value": 19090000,
-      "asOf": "2026-10-23",
-      "source": "FoxBusiness",
-      "note": "Pre-earnings-print figure; not yet refreshed for the Nov 10 report or the Nov 12 continued move."
+      "value": 21300000,
+      "asOf": "2026-08-26",
+      "source": "MarketChameleon"
     },
     "sharesOutstanding": {
-      "value": 8190000,
-      "asOf": "2026-10-23",
-      "source": "FoxBusiness / Equibles"
+      "value": 8067502,
+      "asOf": "~2026-02",
+      "source": "ChartExchange"
     },
     "shortInterest": {
-      "value": 0.02,
-      "asOf": "2026-10-15",
-      "source": "FINRA via Equibles",
-      "note": "1,644 shares short; days to cover 1.00"
+      "value": null,
+      "note": "Not established in sources reviewed"
     },
     "cash": {
       "value": 5700000,
-      "asOf": "2026-09-30",
-      "source": "company Q3 2026 8-K"
+      "asOf": "2026-09-30 (Q3 2026)",
+      "source": "Panabee/aggregator coverage of company Q3 2026 results"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "TTM EPS not established; only the single Q3 2026 EPS figure ($0.06) is on hand"
+      "note": "Q3 2026 quarterly EPS was positive ($0.06), but trailing-twelve-month EPS/P-E is not established given losses in some trailing quarters (e.g., a Q3 2025 net loss)",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
         "period": "Q3 2025",
-        "value": -0.17,
-        "basis": "GAAP"
+        "value": null,
+        "basis": "GAAP",
+        "note": "Reported net loss of ~$1.4M; per-share figure not independently confirmed"
       },
       {
         "period": "Q3 2026",
@@ -70,12 +69,22 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 7.3
+    },
+    "float": {
+      "value": null,
+      "note": "Not established"
+    },
+    "debt": {
+      "value": null,
+      "note": "Not established"
     }
   },
   "price": {
-    "changePct": 10.7,
-    "asOf": "2026-11-12",
-    "note": "Premarket move per Stockmarketwatch. No confirmed last price located this session; Q3 2025 (year-ago) close was ~$2.95-2.96."
+    "last": 2.6,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-08-26",
+    "note": "No reliable quote for 2026-11-13 (or any date in the requested Nov 11-14 window) was located; this is the most recent dated figure found."
   },
   "catalysts": [
     {
@@ -95,14 +104,46 @@
     {
       "date": "2026-11-10",
       "type": "earnings",
+      "headline": "Tandy Leather Factory reported Q3 2026 results (exact date unconfirmed — see conflicts): revenue of $18.5M (+7.3% YoY), net income of $0.5M ($0.06/share) versus a $1.4M net loss a year earlier; gross margin rose to 62.4% from 58.9%; cash was $5.7M as of 2026-09-30",
+      "impact": "Swing to profitability and margin improvement",
+      "source": "https://www.panabee.com/news/tandy-leather-factory-earnings-q3-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
       "headline": "Q3 2026 results (quarter ended 2026-09-30): revenue $18.5M (+7.3% YoY from $17.3M); net income $0.5M vs net loss $1.4M a year earlier; EPS $0.06 vs $(0.17); operating income $0.6M; adjusted EBITDA $0.9M; gross margin 62.4% (up from 58.9%); cash fell to $5.7M from $16.1M at 12/31/25, mainly reflecting a $6.0M dividend paid in Q1 2026 plus inventory/store investment",
       "impact": "Swing to profitability after a year-ago loss",
       "source": "https://www.sec.gov/Archives/edgar/data/0000909724/000114036126043052/ef20085096_ex99-1.htm"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Exact Q3 2026 earnings date is unconfirmed: one estimate puts it at 2026-11-10 after market close; another estimate puts it around 2026-11-16. The primary press release/8-K was not located in sources reviewed, so the Q3 2026 figures reported here come only from third-party aggregator coverage (Panabee/Quiver Quant), not a confirmed primary source.",
+    "Cash commentary: one aggregator's analysis states cash fell 65% year-to-date (from $16.1M at 2025 year-end to $5.7M at 2026-09-30), attributing this mainly to a Q1 2026 special dividend and crediting a one-time tariff refund for part of the margin gain — this is the aggregator's own interpretation, not confirmed company language.",
+    "No reliable share price/market cap quote newer than 2026-08-26 ($2.60 / $21.3M market cap, MarketChameleon) was found; other undated sources show a $25.41M market cap and prices ranging roughly $2.20-$4.20 across unclear dates.",
+    "Dividend history: one source cites a $0.75 special dividend paid around 2026-02-24; another source states flatly that the company does not pay a dividend — these directly conflict."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -134,21 +175,23 @@
       "from": "daily"
     }
   ],
-  "notes": "One third-party analyst (Panabee) argues a non-recurring tariff refund drove ~270bps of the gross-margin improvement, implying underlying operating-margin expansion is more modest than the headline suggests — flagged as outside commentary, not company disclosure.",
+  "notes": "Could not confirm a current (2026-11-13) stock quote in this research pass; recommend checking a live source (e.g., Nasdaq) directly before publishing a price.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
+      "1 new catalyst(s)",
       "pe updated",
       "eps updated",
-      "revenue updated",
-      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
       "shortInterest updated",
-      "cash updated"
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

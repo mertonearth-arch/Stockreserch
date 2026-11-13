@@ -8,60 +8,85 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.087Z",
+  "lastResearched": "2026-11-13T21:33:08.080Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session."
+      "value": 2410000000,
+      "asOf": "2026-10-01",
+      "source": "equibles.com",
+      "note": "a 2026-09-11 reading showed $2.81B at $44.51/share; the Oct 1 reading at $23.45/share implies a ~47% decline in three weeks not explained by sources reviewed this pass"
     },
     "float": null,
     "sharesOutstanding": {
-      "value": 69300000,
-      "asOf": "2026-11-06",
-      "source": "aggregator quote, approximate",
-      "note": "Two aggregator sources agree on ~69.3M; could not confirm against uniQure's own SEC filing or exact as-of date. Older snapshots (62.5-63.1M) likely predate a since-completed offering."
+      "value": 63070000,
+      "asOf": "2026-09-11",
+      "source": "equibles.com"
     },
-    "shortInterest": null,
-    "cash": null,
+    "shortInterest": {
+      "value": 9900000,
+      "asOf": "2026-09-30",
+      "source": "equibles.com",
+      "note": "≈15.7% of float; ~8.1 days to cover"
+    },
+    "cash": {
+      "value": 768400000,
+      "asOf": "2026-09-30",
+      "source": "company Q3 2026 earnings release (via finviz)",
+      "note": "company states this funds operations into 2030"
+    },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not retrieved this session.",
-      "asOf": null
+      "note": "negative earnings (Q3 2026 loss of $0.88/share)",
+      "asOf": "2026-11-13"
     },
-    "eps": [],
-    "revenue": [
+    "eps": [
       {
-        "period": "Q2 2026",
-        "value": 5800000
-      },
+        "period": "Q3 2026",
+        "value": -0.88,
+        "basis": "not specified in source"
+      }
+    ],
+    "revenue": [
       {
         "period": "Q3 2026",
         "value": 5200000,
-        "yoy": 40.5,
-        "note": "Up from $3.7M in Q3 2025, per the company's Q3 2026 release. A separate Investing.com item frames this as a miss vs. a $6.21M revenue forecast."
+        "yoy": null,
+        "note": "missed the ~$7.15M consensus estimate by ~27.3%; prior-year Q3 2025 comparable not located this pass"
       }
     ],
     "growth": {
-      "metric": null,
+      "metric": "revenue YoY",
       "pct": null,
-      "note": "Not retrieved this session."
+      "note": "prior-year comparable not located this pass"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "No next earnings date found; consistent with prior state."
+      "confirmed": false
     }
   },
   "price": {
-    "last": 22,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "aggregator quote (fool.com-style), timestamped 2026-11-06 17:39 EST"
+    "rvol": null,
+    "asOf": "2026-11-13"
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "uniQure Q3 2026: loss of $0.88/share vs -$0.84 consensus; revenue $5.2M, missing the ~$7.15M estimate; SG&A rose to $23.9M from $19.4M on AMT-130 launch prep; cash of $768.4M funds operations into 2030",
+      "impact": "Wider-than-expected loss driven by launch-readiness spending ahead of a potential AMT-130 approval",
+      "source": "https://finviz.com/news/415282/uniqure-announces-third-quarter-2026-financial-results-and-provides-company-update"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "regulatory",
+      "headline": "FDA has accepted the BLA for AMT-130 (Huntington's disease gene therapy) under Priority Review, with a PDUFA target action date of May 1, 2027",
+      "impact": "Confirmed regulatory timeline; the UK regulator has separately validated the marketing application",
+      "source": "https://finviz.com/news/415675/uniqure-misses-on-both-lines-but-q3-turns-on-amt-130s-priority-review-bla-and-an-advisory-committee-overhang"
+    },
     {
       "date": "2026-11-04",
       "type": "regulatory",
@@ -161,11 +186,32 @@
     }
   ],
   "conflicts": [
-    "Market cap: one late-October source lists $1.7B; a back-of-envelope estimate from the $22 price and 69.3M shares gives ~$1.5B. Not reconciled — no market cap field set."
+    "Market cap/price: $2.81B at $44.51 (2026-09-11) vs $2.41B at $23.45 (2026-10-01) — ~47% price decline in under a month with no fully explaining news found",
+    "Revenue 'miss' comparison basis varies by source: one cites a $7.15M consensus, another a $5.4M estimate, against the same $5.2M actual"
   ],
   "pendingFilings": [],
-  "notes": "Price is 6 days stale (last confirmed 2026-11-06); no quote for 2026-11-12 found.",
+  "notes": "Company itself flags the FDA may still conclude Phase I/II data are insufficient for approval despite Priority Review status. Investor conferences noted: Guggenheim (Nov 10), Stifel (Nov 11), UBS (Nov 16, 2026) — informational only.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -425,11 +471,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

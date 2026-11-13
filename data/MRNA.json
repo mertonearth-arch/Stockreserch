@@ -1,18 +1,18 @@
 {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare (biotechnology)",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.084Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.077Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established — Yahoo Finance and Finviz both failed DNS resolution in this sandbox."
+      "note": "Sources found are based on share prices far below the current ~$254, so neither is usable as a current figure."
     },
     "float": {
       "value": null,
@@ -28,10 +28,9 @@
       "note": "sources disagree materially and are not clearly dated to the same settlement — see conflicts"
     },
     "cash": {
-      "value": 6900000000,
-      "asOf": "2026-06-30",
-      "source": "Moderna Q2 2026 earnings release (8-K)",
-      "note": "cash, cash equivalents and investments; down from $7.5B at 2026-03-31. Correction vs. the prior PM-pass record, which listed this same $6.9B figure 'asOf 2026-09-14' — the primary source ties it to the June 30, 2026 quarter-end balance, not September 14."
+      "value": 4950000000,
+      "asOf": "FY2026 guidance (midpoint of $4.7-5.2B)",
+      "note": "Company's updated year-end-2026 cash & investments guidance, improved from a prior $5.5-6.0B outlook. Actual cash as of 2026-06-30 was $6.9B (vs $7.5B at 2026-03-31); a $950M litigation-settlement payment was made in July 2026."
     },
     "debt": {
       "value": 591000000,
@@ -41,57 +40,61 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established in accessible sources",
-      "asOf": "2026-11-11"
+      "note": "Company posted a positive GAAP EPS in Q3 2026 ($0.38) after a prior-year quarterly loss, but full trailing-twelve-month GAAP profitability was not established this pass."
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -1.97,
-        "basis": "GAAP"
-      },
-      {
         "period": "Q3 2026",
         "value": 0.38,
-        "basis": "GAAP diluted",
-        "note": "Labeling conflict across sources — see conflicts array."
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 2025",
+        "value": -0.51,
+        "basis": "GAAP diluted"
       }
     ],
     "revenue": [
       {
-        "period": "Q1 2026",
-        "value": 389000000
-      },
-      {
-        "period": "Q2 2026",
-        "value": 145000000
-      },
-      {
         "period": "Q3 2026",
-        "value": 1310000000,
-        "yoy": 29,
-        "note": "U.S. $780M + international $533M, per the company's Q3 2026 release. Large sequential jump vs. Q2 is consistent with Moderna's seasonal (fall) flu/COVID vaccine shipping pattern."
+        "value": 1300000000,
+        "yoy": null,
+        "note": "Prior-year Q3 revenue figure not retrieved, so YoY % not computed."
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": 29,
-      "note": "Revenue rose to $1.31B; company raised its full-year revenue growth forecast on the print."
+      "metric": "revenue growth (company guidance)",
+      "period": "FY2026",
+      "pct": 10,
+      "note": "Company guided to 'up to 10% revenue growth' for FY2026; this is guidance, not a reported actual."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 report date not found in accessible sources. An Analyst Day is scheduled for Nov 12, 2026 (upcoming, i.e. after this research's as-of date) — not an earnings date."
+      "note": "Q4/FY2026 report not yet scheduled per sources found."
     }
   },
   "price": {
-    "last": 154.04,
+    "last": 254.19,
     "changePct": null,
-    "asOf": "2026-09-19",
-    "note": "Most recent dated figure found this session (InvestSMART); no October 2026 quote could be established. A separate $189.86 figure appearing in one aggregator looks like an error (inconsistent with the stock's 52-week range context from other sources) and was not used."
+    "asOf": "2026-11-08",
+    "note": "Consistent across Investing.com (Nov 8) and Trefis (close, Nov 6); 52-week closing high of $258.38 was set Nov 4, 2026. No verified price found between Nov 9 and Nov 13."
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "other",
+      "headline": "Moderna Analyst Day",
+      "impact": "Event occurred the day before this report; specific content/outcome of the Analyst Day could not be confirmed in this pass.",
+      "source": "unconfirmed; mentioned in passing by Mitrade coverage"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "earnings",
+      "headline": "Moderna reports Q3 2026 results: revenue $1.3B, GAAP net income $0.2B, GAAP diluted EPS $0.38 (vs -$0.51 a year earlier)",
+      "impact": "Shares rose ~10% on the report; management also said on the call it cut expected 2026 research expenses by $200M.",
+      "source": "company press release (Morningstar/Finviz); Stockstory"
+    },
     {
       "date": "2026-11-06",
       "type": "earnings",
@@ -123,6 +126,13 @@
       "headline": "Merck and Moderna presented full Phase 3 INTerpath-001 data (intismeran autogene + Keytruda vs. Keytruda alone, in resected Stage IIB-IV melanoma) at the ESMO 2026 Presidential Symposium in Madrid, following the Oct 22 data leak. At a median follow-up of 24.6 months: recurrence-free survival was improved, reducing the risk of recurrence or death by 42% (HR 0.58, 95% CI 0.45-0.75, two-sided p<0.001); distant metastasis-free survival was improved, reducing risk by 38% (HR 0.62, 95% CI 0.45-0.85, p=0.002). Overall survival remains immature and not yet statistically significant, though investigators reported a favorable trend. No new safety signals vs. prior studies. The companies said the data have been accepted for publication in the New England Journal of Medicine.",
       "impact": null,
       "source": "https://www.cancernetwork.com/view/interpath-001-data-detail-survival-subgroup-and-safety-findings-in-melanoma ; https://www.targetedonc.com/view/esmo-2026-presidential-symposium-i-late-breaking-recap ; https://www.healio.com/news/hematology-oncology/20261023/personalized-mrna-vaccine-reduced-melanoma-recurrence-risk-42-after-surgery"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "clinical",
+      "headline": "Shares fell 17.6% to $202.63 on unusually heavy volume after partial melanoma-vaccine data were released early",
+      "impact": "Described as a 'sell-the-news' reaction to incomplete Phase 3 data on the Merck-partnered cancer vaccine program.",
+      "source": "aggregator coverage (via search snippet, exact outlet unclear)"
     },
     {
       "date": "2026-10-22",
@@ -204,17 +214,29 @@
     }
   ],
   "conflicts": [
-    {
-      "field": "Q3 2026 EPS basis/characterization",
-      "readings": [
-        "\"Reports third quarter revenue of $1.3 billion, GAAP net income of $0.2 billion and GAAP diluted EPS of $0.38\" — valuethemarkets.com headline of the company release",
-        "\"non-GAAP profit of $0.38 per share, significantly above analysts' consensus estimates\" — stockstory.org summary of the same quarter"
-      ]
-    }
+    "Market cap figures found ($20.5B and $18.9B) are both computed off stock prices far below the current ~$254 level and are stale/inconsistent with the current quote."
   ],
   "pendingFilings": [],
-  "notes": "Moderna's previously-scheduled Analyst Day occurred today (2026-11-12, 9:00am ET) per the company's own 2026 investor-event calendar, but no coverage of what was actually presented was found in accessible sources as of this research — too soon after the event. Not recorded as a catalyst since no actual content/outcome could be confirmed (a bare 'a meeting happened' is not informative). Otherwise quiet: no new dated catalysts found since the Nov 6, 2026 Q3 earnings print.",
+  "notes": "Background (not new this pass): in August 2026 shares spiked ~177% then fell ~20% on Merck-partnered Phase 3 cancer-vaccine data; that is prior-period context, not a new catalyst. The Nov 12, 2026 Analyst Day's actual content is an open item for a follow-up research pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -466,10 +488,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

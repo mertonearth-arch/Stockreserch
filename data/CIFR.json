@@ -1,83 +1,93 @@
 {
   "ticker": "CIFR",
-  "name": "Cipher Digital Inc. (formerly Cipher Mining)",
-  "sector": "Digital Infrastructure / Bitcoin Mining (transitioning toward AI data centers)",
+  "name": "Cipher Mining Inc. (also referred to in recent coverage as \"Cipher Digital\")",
+  "sector": "Technology",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.080Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.072Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established."
+      "note": "wide, conflicting figures across dates — see conflicts"
     },
     "float": {
-      "value": 335200000,
-      "asOf": "2026-05-15",
-      "note": "derived from Benzinga's short-interest report 'float base'; may be stale relative to later share issuance"
+      "value": null,
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 405112315,
-      "asOf": "2026-08-01",
-      "source": "companiesmarketcap.com"
+      "value": null,
+      "note": "conflicting figures (371M-415M) across sources; not reconciled, see conflicts"
     },
     "shortInterest": {
-      "value": 21.7,
-      "asOf": "2026-10-19",
-      "note": "Per Tapeboard's most-shorted-stocks list (2026-10-19), CIFR ranked #1 most-shorted at 21.7% of float; supersedes the on-file 16.35% (2026-05-15, pre-dates the Oct convertible-notes deal) but the two use different methodologies/dates and are not directly reconciled."
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
-      "value": 724000000,
-      "asOf": "2026-09-30",
-      "source": "SEC 8-K Q3 2026 business update / earnings coverage (pro forma unrestricted cash)",
-      "note": "Supersedes the on-file $715.2M figure (asOf 2026-03-31)."
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "debt": {
-      "value": 6700000000,
-      "asOf": "2026-09-30",
-      "note": "Reflects the $850M zero-coupon convertible notes priced 2026-10-14; up from the on-file ~$6.0B as of 2026-06-30."
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-11-11"
+      "note": "negative trailing earnings (net loss reported)",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": -0.22,
-        "basis": "unspecified (per Earnings Whispers aggregator; reported as beating consensus)"
+        "basis": "GAAP",
+        "note": "beat consensus of -$0.31"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
         "value": 26700000,
-        "yoy": -62.8,
-        "note": "Vs. ~$71.7M in Q3 2025; missed a ~$39.3M FactSet consensus. Includes the company's first HPC lease revenue, recognized from the Black Pearl campus."
+        "yoy": -62.76,
+        "note": "missed consensus of ~$39.8M"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -62.8,
-      "note": "Consistent with prior record: revenue $26.7M (also reported as $26.70M), down ~62.8% YoY, for the quarter ended Sept 30, 2026."
+      "pct": -62.76
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 already reported Nov 2, 2026; next (Q4/full-year 2026) report date not yet announced in sources found."
+      "note": "not retrieved this pass"
     }
   },
   "price": {
-    "last": null,
-    "note": "No price data point for CIFR was retrievable via the sources reachable in this session before the WebSearch quota was exhausted."
+    "last": 7.86,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-10-30"
   },
   "catalysts": [
+    {
+      "date": "2026-11-03",
+      "type": "price action",
+      "headline": "CIFR shares rose 18.4%, rebounding after having lost 47.5% over the prior month into Nov 3, outpacing a 0.4% gain for the S&P 500",
+      "impact": "Partial recovery following the earnings-day selloff",
+      "source": "https://www.trefis.com/stock/cifr/articles/622641/what-is-behind-the-move-in-cipher-digital-stock/2026-11-04"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "earnings",
+      "headline": "Cipher reported Q3 2026 revenue of $26.7M (missed ~$39.8M est., -62.76% YoY); GAAP loss of $0.22/share beat the -$0.31 consensus; CEO said the company is 'not a neocloud'",
+      "impact": "Shares fell 5.9% on the report day, extending a steep prior-month decline",
+      "source": "https://stocktwits.com/news-articles/markets/equity/cifr-stock-drops-after-q3-revenue-miss-ceo-says-company-is-not-a-neocloud/cNGabH1R9PX"
+    },
     {
       "date": "2026-11-02",
       "type": "earnings",
@@ -141,10 +151,35 @@
       "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/CIFRW"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding: 371.1M (TipRanks) vs 415.0M (Value Research, 2026-09-10) vs 395.1M (SimplyWall St, undated) — not reconciled.",
+    "Market cap/price: snapshots from 2026-07 to 2026-10 range widely; treating $7.86 (2026-10-30) as the best available anchor; no confirmed 2026-11-13 price."
+  ],
   "pendingFilings": [],
-  "notes": "Quiet daily recheck 2026-11-12: WebSearch turned up no CIFR news after the 2026-11-02 earnings print and 2026-10-13 convertible-notes offering already on file. Current price still unestablished in this session's reachable sources (most recent hits were from July 2026).",
+  "notes": "Business detail (unconfirmed date, omitted from catalysts): the company reportedly doubled the base lease term at its Barber Lake site from 10 to 20 years, lifting contracted revenue at that site to ~$9.1B and total contracted revenue across three campuses to ~$16.6B. A headline referencing a $5.5B AWS deal also appeared without a confirmable date.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -321,10 +356,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,82 +1,65 @@
 {
   "ticker": "INO",
   "name": "Inovio Pharmaceuticals, Inc.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare (biotechnology)",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.072Z",
+  "lastResearched": "2026-11-13T21:33:08.076Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
       "note": "Not established — Yahoo Finance, Finviz and stockanalysis.com all failed DNS resolution in this sandbox; no reliable market-cap figure found via WebSearch snippets."
     },
     "sharesOutstanding": {
-      "value": 82270000,
-      "asOf": "2026-07-30",
-      "source": "Google Finance / Value Research mid-2026 snapshots",
-      "note": "Predates this week's rally; a current count was not found. This is shares outstanding, not float -- float not established."
+      "value": null,
+      "note": "Conflicting figures (82.27M, 81.59M, 103.40M, and a pre-offering 69.44M) make a current count unreliable; the Nov 5-9, 2026 offering further changed the count and no post-closing total was found."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings / clinical-stage company; no consensus forward estimate located",
-      "asOf": "2026-11-11"
+      "note": "Clinical-stage biotech with negative earnings."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 results were scheduled for release after market close on Nov 10, 2026 (per company IR PDF); actual reported figures and the following (Q4/FY2026) date were not found in accessible sources as of this research."
+      "note": "Q3 2026 results already released Nov 10, 2026; next (Q4/FY2026) date not found."
     },
     "cash": {
       "value": 48400000,
       "asOf": "2026-09-30",
-      "source": "INOVIO Q3 2026 earnings release",
-      "note": "Cash, cash equivalents and short-term investments at quarter-end; excludes ~$80.5M net proceeds from a November 2026 public offering that closed after quarter-end."
+      "note": "As disclosed in Q3 2026 results; excludes ~$80.5M of net proceeds from the Nov 2026 offering."
     },
-    "eps": [
-      {
-        "period": "Q2 2025",
-        "value": -0.61,
-        "basis": "GAAP",
-        "note": "quarterly, not fiscal-year"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -0.07,
-        "basis": "GAAP",
-        "note": "improvement driven mainly by a $13.9M non-cash fair-value gain on warrant liabilities, not operating performance"
-      },
-      {
-        "period": "Q3 2025",
-        "value": -0.87,
-        "basis": "GAAP",
-        "note": "net loss $45.5M"
-      },
-      {
-        "period": "Q3 2026",
-        "value": -0.5,
-        "basis": "GAAP",
-        "note": "net loss $49.2M; operating expenses fell to $19.8M from $21.2M YoY"
-      }
-    ],
+    "eps": [],
     "growth": {
-      "metric": "guided quarterly operating net cash burn",
-      "period": "Q3 2026",
+      "metric": "cash runway / net proceeds raised",
+      "period": "Nov 2026 offering",
       "pct": null,
-      "note": "Company guided ~$18M net operating cash burn for Q3 2026 on its Aug 12, 2026 call; clinical-stage/pre-commercial company with no meaningful product revenue yet. Actual Q3 2026 financial results (scheduled for release Nov 10, 2026) were not found in accessible sources."
-    }
+      "note": "Pre-revenue clinical-stage company; raised ~$75M gross (~$80.5M net) via a Nov 2026 public offering."
+    },
+    "shortInterest": {
+      "value": 21300000,
+      "asOf": "2026-10-15",
+      "note": "FINRA settlement-date figure; reported separately as 22.2%, 18.6%, and 19.3% of float across sources. Days to cover reported as 6.94 by FINRA data and 4.4 by another source."
+    },
+    "revenue": []
   },
   "price": {
-    "last": 1.62,
-    "asOf": "2026-11-04",
-    "source": "Benzinga quote, 2026-11-04 4:29pm EST",
-    "note": "No 2026-11-06 close could be confirmed this pass; most recent dated figure found was from 2026-11-04. See conflicts for the wide disagreement across sources this week."
+    "last": 1.45,
+    "asOf": "2026-11-05",
+    "note": "Last reported sale price ahead of the Nov 5 offering pricing. A Benzinga quote shows $1.6085 (2026-11-04) and an AAII figure of $0.602 (2026-10-30) conflicts sharply and could not be reconciled."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "INOVIO reports Q3 2026 financial results",
+      "impact": "Reported $48.4M cash as of Sept 30, 2026 (pre-offering-close); this is the company's third equity offering of 2026.",
+      "source": "company press release"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -89,6 +72,20 @@
       "type": "earnings",
       "headline": "INOVIO scheduled to report Q3 2026 financial results after market close (actual figures not independently confirmed in accessible sources)",
       "source": "https://s21.q4cdn.com/283306112/files/doc_news/INOVIO-to-Report-Third-Quarter-2026-Financial-Results-on-November-10-2026-2026.pdf"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "financing",
+      "headline": "Public offering expected to close",
+      "impact": "Adds ~$80.5M net proceeds to the balance sheet once closed.",
+      "source": "company press release via finviz"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "financing",
+      "headline": "INOVIO announces pricing of ~$75M public offering: 58,747,235 shares at $1.05/share plus pre-funded warrants for 12,681,337 shares",
+      "impact": "Priced below the prior $1.45 reported sale price — dilutive financing; underwriters also received a 30-day option for up to 10,714,285 additional shares.",
+      "source": "finviz / streetinsider (Form 424B5) / biopharmawatch.com"
     },
     {
       "date": "2026-11-05",
@@ -106,6 +103,13 @@
     {
       "date": "2026-10-30",
       "type": "regulatory",
+      "headline": "INOVIO's VOCERYQ granted accelerated approval by the FDA",
+      "impact": "Major regulatory milestone (first approval referenced for the company in sources found); full approved indication could not be confirmed.",
+      "source": "biopharmawatch.com / s21.q4cdn.com (company release excerpt)"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "regulatory",
       "headline": "FDA granted accelerated approval of VOCERYQ (INO-3107), an immunotherapy to reduce frequency of surgery in adults with recurrent respiratory papillomatosis (RRP) — first U.S. FDA-approved DNA medicine",
       "source": "https://finviz.com/news/412878/inovio-announces-fda-accelerated-approval-of-voceryq-an-immunotherapy-to-reduce-the-frequency-of-surgery-in-adults-with-recurrent-respiratory-papillomatosis-rrp"
     },
@@ -117,9 +121,35 @@
       "source": "https://www.sec.gov/Archives/edgar/data/0001055726/000119312526442648/d150457d8k.htm"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
+  "conflicts": [
+    "Price: AAII $0.602 (2026-10-30, reported as down 21.95% that day) vs Benzinga $1.6085 (2026-11-04) vs last reported sale of $1.45 cited in the Nov 5 offering release — these do not reconcile into one consistent price history.",
+    "Short interest as % of float: 22.2% vs 18.6% vs 19.3%, all nominally for the same Oct 15, 2026 FINRA settlement period.",
+    "Shares outstanding: 82,273,237 vs 81.59M vs 103.40M vs a pre-offering 69.44M — a roughly 20-30% spread with no clear way to tell which is current."
+  ],
+  "pendingFilings": [
+    "Form 424B5 (Nov 2026 offering prospectus supplement)"
+  ],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -181,15 +211,23 @@
       "from": "daily"
     }
   ],
-  "notes": "Confirms the actual Q3 2026 print for the earnings event already flagged on file as scheduled for 2026-11-10. Next earnings date, current market cap and share price still not located in accessible sources.",
+  "notes": "This is the company's third dilutive equity offering of 2026, following earlier rounds. The FDA accelerated approval of VOCERYQ (Oct 30, 2026) appears to be a genuinely new, significant catalyst, but could not be fully detailed (indication, label specifics) within this search pass.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "4 new catalyst(s)",
+      "pe updated",
       "eps updated",
-      "cash updated"
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

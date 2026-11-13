@@ -1,51 +1,52 @@
 {
   "ticker": "VKTX",
   "name": "Viking Therapeutics, Inc.",
-  "sector": "Healthcare (Clinical-Stage Biotechnology)",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.077Z",
+  "lastResearched": "2026-11-13T21:33:08.070Z",
   "fundamentals": {
     "marketCap": {
-      "value": 3290000000,
-      "asOf": "2026-11-05",
-      "source": "MarketBeat"
+      "value": 4157000000,
+      "asOf": "2026-09-30",
+      "source": "roic.ai capital-structure table (quarter-end figure, not a live quote)"
     },
-    "float": null,
+    "float": {
+      "value": null,
+      "note": "Not found"
+    },
     "sharesOutstanding": {
-      "value": 116650000,
-      "source": "stockanalysis.com (via web search snippet)"
+      "value": 127500000,
+      "asOf": "2026-09-30",
+      "source": "RTTNews/Webull coverage of Q3 2026 results (reported up 9.3% quarter-over-quarter); roic.ai's own table shows a rounded 128,000,000"
     },
     "shortInterest": {
-      "value": 19.32,
-      "source": "stockanalysis.com (via web search snippet)",
-      "note": "22.54M shares short / 19.32% of shares outstanding; a separate Sept 10 2026 tracker showed 22.2M shares / 19.0% of float / 12.4 days to cover"
+      "value": null,
+      "note": "Not found"
     },
     "cash": {
       "value": 960000000,
       "asOf": "2026-09-30",
-      "source": "Q3 2026 earnings coverage (Zacks/RTTNews/Securities.io), includes ~$550M net proceeds from a September 2026 financing"
+      "source": "Viking Therapeutics Q3 2026 earnings release (via RTTNews/Webull)"
     },
-    "debt": null,
+    "debt": {
+      "value": 250700000,
+      "asOf": "2026-09-30",
+      "source": "Viking Therapeutics Q3 2026 earnings release (convertible notes)"
+    },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; clinical-stage biotech with no approved commercial product and no meaningful forward-earnings estimate found",
-      "asOf": "2026-11-11"
+      "note": "Negative GAAP earnings; pre-revenue clinical-stage company"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -1.01,
-        "basis": "GAAP"
-      },
-      {
-        "period": "FY2025",
-        "value": -3.19,
+        "period": "Q3 2025",
+        "value": -0.81,
         "basis": "GAAP"
       },
       {
@@ -56,25 +57,31 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "R&D expense YoY",
-      "period": "Q3 2026",
-      "pct": 85.3,
-      "note": "Pre-revenue clinical-stage biotech (no material commercial revenue); R&D expense was $166.8M in Q3 2026 vs $90.0M in Q3 2025, reflecting Phase 3 VANQUISH trial spend and the new oral SUNRISE program. Net loss also widened to $183.2M (-$1.55/share) from $0.81/share a year earlier."
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "Pre-revenue clinical-stage company; no approved product. Net loss widened YoY on higher Phase 3 trial spending for VK2735."
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "No Q4 2026/FY2026 report date found; Q3 2026 was reported 2026-10-28"
+      "confirmed": false
     }
   },
   "price": {
-    "last": 26.18,
-    "changePct": -1.79,
-    "asOf": "2026-11-06",
-    "source": "aggregator cited in web search results (exact publisher unclear)",
-    "note": "No quote dated 2026-11-11 found; closest dated figure used."
+    "last": 28.2,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-12",
+    "note": "Volume that day reported as 996,236 shares (MarketChameleon). No confirmed price for 2026-11-13 found."
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "conference/data",
+      "headline": "VK2735 (obesity) data/poster presentations scheduled at ObesityWeek 2026 in Washington, D.C. (running 2026-11-14 through 2026-11-17); Viking management also scheduled a fireside chat at the UBS Global Biopharma Conference on 2026-11-17",
+      "impact": "Visibility/investor-conference event for the VK2735 obesity franchise; pivotal Phase 3 data are not expected until 2027",
+      "source": "https://www.biopharmawatch.com/news/VKTX/viking-therapeutics-obesityweek-2026-presentations"
+    },
     {
       "date": "2026-11-14",
       "type": "conference/data",
@@ -86,6 +93,13 @@
       "type": "investor conference",
       "headline": "Viking announced participation in November/December healthcare investor conferences, including a UBS fireside chat (London, Nov 17) and a Jefferies fireside chat (New York, Dec 2)",
       "source": null
+    },
+    {
+      "date": "2026-10-28",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net loss widened to $183.2M (-$1.55/sh) from $90.8M (-$0.81/sh) a year earlier, driven by higher VK2735 Phase 3 trial and manufacturing spending; cash and short-term investments rose to $960M (from $502M at 2026-06-30) following a September 2026 capital raise; company guided cash runway through at least 2027-12-31",
+      "impact": "Confirms near-term funding for the ongoing Phase 3 SUNRISE (oral VK2735) and injectable VK2735 programs in obesity",
+      "source": "https://www.rttnews.com/3704901/viking-therapeutics-reports-wider-q3-loss-as-vk2735-phase-3-programs-advance.aspx"
     },
     {
       "date": "2026-10-28",
@@ -155,10 +169,35 @@
       "source": "https://www.prnewswire.com/news-releases/viking-therapeutics-reports-second-quarter-2026-financial-results-and-provides-corporate-update-302838212.html"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding: ~127.5M (RTTNews/Webull commentary on Q3 2026 release, +9.3% QoQ) vs a rounded 128M (roic.ai capital-structure table, 2026-09-30).",
+    "Market cap: roic.ai's own table shows ~$4.157B at the 2026-09-30 quarter-end, a stale figure rather than a live quote; no current market cap as of 2026-11-13 could be confirmed.",
+    "Stock price: $28.20 close 2026-11-12 (MarketChameleon) vs an unrelated, undated $25.36/$24.68 pair and a separate undated $26.65/$26.18 pair cited elsewhere — none of the latter could be placed on this timeline."
+  ],
   "pendingFilings": [],
-  "notes": "Routine PM recheck 2026-11-12: no name-specific news dated Nov 12 found. Most recent dated price point located is 2026-11-05 close $25.79 (-7.8%), MarketBeat, alongside the existing file's 2026-11-06 $26.18 (-1.79%) -- consistent sequence (not treated as a conflict). No new catalyst beyond the already-recorded Nov 14 ObesityWeek VK2735 poster presentations.",
+  "notes": "One external (non-company) analysis speculated that Viking's cash could last into early 2029 at the current burn rate; this is a third-party estimate, not company guidance — the company's own stated runway is 'at least through December 31, 2027.' Pivotal Phase 3 obesity-drug data (oral SUNRISE and injectable VK2735 programs) are not expected until 2027.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -413,12 +452,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
-      "conflict resolved"
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

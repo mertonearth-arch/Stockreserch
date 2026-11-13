@@ -1,19 +1,19 @@
 {
   "ticker": "MVST",
   "name": "Microvast Holdings, Inc.",
-  "sector": "EV Battery & Energy Storage",
+  "sector": "Industrials (battery manufacturing / energy storage)",
   "theme": "EV Battery & Energy Storage",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.085Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.078Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
       "asOf": "2026-11-04",
-      "source": "equibles.com (pre-earnings, at $0.66/share)"
+      "note": "Based on the $0.66 price and ~384.53M shares outstanding; likely stale post-earnings (Nov 9)."
     },
     "float": {
       "value": null,
@@ -21,13 +21,12 @@
     },
     "sharesOutstanding": {
       "value": 384530000,
-      "asOf": "2026-11-04",
-      "source": "equibles.com"
+      "asOf": "2026-11-04"
     },
     "shortInterest": {
       "value": 5.16,
       "asOf": "2026-11-04",
-      "source": "equibles.com (19.8M shares short, 5.16% of shares outstanding, ~6.3 days to cover, described as down from the prior month)"
+      "note": "~19.8M shares short, ~5.16% of shares outstanding, ~6.3 days to cover, per one source; a second source (Ortex, 2026-10-20) reports short interest at 8.35% of free float — a different base, not directly comparable."
     },
     "cash": {
       "value": 124400000,
@@ -36,52 +35,57 @@
     },
     "debt": {
       "value": 196000000,
-      "asOf": "2026-11",
-      "source": "secondary summary (panabee.com) of Q3 2026 release, citing debt obligations maturing within 12 months, including $41.7M of convertible bonds due Jan 31, 2027"
+      "asOf": "Q3 2026",
+      "note": "Debt due within the next 12 months, per Q3 2026 earnings coverage — a notable near-term liquidity item."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (Q3 2026 adjusted net loss of $76.0M; GAAP results also a loss)",
-      "asOf": "2026-11-11"
+      "note": "Company reported a large GAAP net loss in Q3 2026; trailing P/E not meaningful."
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": -0.61,
-        "basis": "GAAP, per company FY2025 release comparative figure"
-      },
-      {
-        "period": "FY2025",
-        "value": -0.09,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "No reported per-share figure found; non-GAAP adjusted net loss was $76.0M (vs. adjusted profit of $11.9M in Q3 2025) but was not divided into a disclosed EPS by any source retrieved."
-      }
-    ],
+    "eps": [],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -62.8,
-      "note": "Revenue fell to $45.8M from $123.3M in Q3 2025 (-62.8%); volume fell ~62% to 190 MWh."
+      "pct": -62.8
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established."
-    }
+      "note": "Q4/FY2026 date not yet found."
+    },
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 87300000,
+        "yoy": -4.46
+      },
+      {
+        "period": "Q3 2026",
+        "value": 45800000,
+        "yoy": -62.8
+      },
+      {
+        "period": "Q3 2025",
+        "value": 123300000,
+        "yoy": null
+      }
+    ]
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No confirmed Nov 10/11, 2026 close found. Most recent dated price found: $0.66 close on Nov 4, 2026 (equibles.com), i.e. pre-earnings."
+    "last": 0.66,
+    "changePct": 10.03,
+    "asOf": "2026-11-04",
+    "note": "Last reliably dated price found, from before the Nov 9, 2026 Q3 earnings release. Post-earnings price could not be confirmed before this pass's search budget ran out."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Microvast reports Q3 2026 results: revenue $45.8M (-62.8% YoY), net loss $76.8M (vs -$1.5M a year earlier), including a $35.7M non-cash impairment charge; non-GAAP adjusted EBITDA -$60.8M (vs +$21.9M a year earlier)",
+      "impact": "Sharp deterioration from a 62.2% YoY drop in sales volume (189.6 MWh vs 501.7 MWh); management said it has 'limited visibility' into revenue for the next several quarters and has stopped reporting its order backlog.",
+      "source": "Panabee; Nasdaq/Zacks (prior-quarter context); Greenstocknews"
+    },
     {
       "date": "2026-11-09",
       "type": "earnings",
@@ -98,12 +102,36 @@
     }
   ],
   "conflicts": [
-    "Revenue decline cited as both '63%' (panabee headline) and '62.8%'/'62%' precise calculations in secondary sources; treated as consistent rounding, not a true conflict.",
-    "Net loss figure cited as both '$76.0 million' (non-GAAP adjusted net loss, most commonly cited) and '$76.8 million' in one WebSearch AI summary -- not reconciled against a primary-document read, since SEC.gov did not resolve via WebFetch in this session.",
-    "Market cap/shares outstanding/short-interest figures are from a pre-earnings Nov 4, 2026 snapshot; given the ~48.5% post-earnings move cited in the task, current (post-Nov 9) market cap would be materially different, but no post-earnings dated snapshot was found in available sources."
+    "Short interest basis differs: 5.16% of shares outstanding (Nov 4 snapshot) vs 8.35% of free float (Ortex, Oct 20) — not directly comparable.",
+    "Shares outstanding/market cap: 384.53M shares / $232.37M cap (Nov 4) vs a clearly stale figure of $449.90M at $0.50/share vs an older figure of 326.50M shares / ~$757M cap tied to an outdated earnings-date listing.",
+    "Price: $0.66 (Nov 4, dated) vs undated $0.6373 and $0.92 figures found elsewhere that could not be placed in time."
   ],
-  "pendingFilings": [],
+  "pendingFilings": [
+    "8-K 2026-11-09 (Q3 2026 earnings release)"
+  ],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "debt updated",
+        "move 10.03%",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -145,12 +173,26 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalysts or fundamentals found since the Nov 9, 2026 earnings print on file. Could not confirm a post-earnings (Nov 10/11) closing price — only conflicting/undated snapshots were found (search results for 'Nov 11' iTiger articles describing a 7.23% drop and a separate 9.24% after-hours gain do not state a year, so could not be confirmed as 2026). Genuinely quiet beyond what's already recorded.",
+  "notes": "This is a significant negative change versus the company's prior narrative of 'record revenue growth' in late 2025/earlier 2026 — Q3 2026 marks a sharp reversal (revenue -62.8% YoY, large net loss, stopped backlog disclosure, $196M of debt due within 12 months). Post-earnings (post Nov 9) share price could not be confirmed in this pass.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "debt updated",
+      "move 10.03%",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

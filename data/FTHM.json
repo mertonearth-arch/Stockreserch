@@ -1,30 +1,33 @@
 {
   "ticker": "FTHM",
   "name": "Fathom Holdings Inc.",
-  "sector": "Real Estate Services",
+  "sector": "Real Estate (brokerage/technology platform)",
   "theme": "Distressed / Restructuring",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.071Z",
+  "lastResearched": "2026-11-13T21:33:08.075Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not located"
+      "value": 19940000,
+      "asOf": "2026-10-05",
+      "source": "aggregator snapshot (price $0.22 x ~34.21M shares outstanding; now stale given the Oct 30 price of $0.179)"
     },
     "float": {
-      "value": null,
-      "note": "carried forward"
+      "value": 20610000,
+      "asOf": "2026-10-05",
+      "source": "Fox Business / Stockmarketwatch (float ~20.6-20.7M, ~63% of shares outstanding)"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not located"
+      "value": 34210000,
+      "asOf": "2026-10-05"
     },
     "shortInterest": {
-      "value": 178300,
-      "note": "carried forward; 1.58% of float, 2.7 days to cover (date ambiguous)"
+      "value": 1.5,
+      "asOf": "2026-10-05",
+      "note": "Reported as 1.5% of float with 5.8 days to cover by one source; a second source gives 2.03% of float and 1.5 days to cover"
     },
     "cash": {
       "value": 4500000,
@@ -38,40 +41,33 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company has a history of net losses (e.g., Q3 2025 GAAP net loss $4.4M, -$0.15/share); current-period figure not located"
+      "note": "Company has recurring GAAP losses; trailing P/E not meaningful."
     },
     "eps": [
       {
         "period": "Q3 2025",
-        "value": -0.15,
+        "value": -0.13,
         "basis": "GAAP",
-        "note": "Most recent reliably-sourced EPS found; this is a year-old quarter, not FY2024/FY2025 full-year or Q3 2026 figures, which were not located"
+        "note": "vs Zacks consensus estimate of -$0.10"
       }
     ],
-    "revenue": [
-      {
-        "period": "Q2 2026",
-        "value": 114600000,
-        "yoy": -6,
-        "note": "carried forward: revenue $114.6M, down 6% YoY"
-      }
-    ],
+    "revenue": [],
     "growth": {
       "metric": "revenue YoY",
+      "period": "Q3 2026",
       "pct": null,
-      "note": "Q3 2026 results were not located in any source searched as of 2026-11-11; the most recent confirmed figure is Q3 2025 revenue of $115.3M, +37.7% YoY (reported 2025-11-11) — now stale by a full year and not usable as a current figure"
+      "note": "Q3 2026 results not yet confirmed in this research pass"
     },
     "nextEarnings": {
-      "date": "2026-11-10",
-      "confirmed": false,
-      "note": "Conflicts with a 2026-11-12 estimate per data on file. As of today (2026-11-11), I found no Q3 2026 earnings release, press release, or 8-K in any source searched — only recurring coverage of the (now year-old) Q3 2025 report, which was itself released on 2025-11-11. This strongly suggests either the Q3 2026 report has not yet been published, or it was published very recently (Nov 10/11) and is not yet indexed by the search sources available. Could not confirm either way."
+      "date": "2026-11-12",
+      "confirmed": true,
+      "note": "Company was expected to report Q3 2026 results after market close Nov 12, 2026 (one day before this research pass); actual results could not be confirmed before the search budget for this pass ran out."
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No current price, market cap, or shares-outstanding figure could be located in this session before the research budget was exhausted."
+    "last": 0.179,
+    "asOf": "2026-10-30",
+    "note": "Described by one source as down 58.88% month-to-date as of this print. More recent undated quotes conflict and could not be dated or trusted; no verified Nov 12-13 close found."
   },
   "catalysts": [
     {
@@ -147,12 +143,54 @@
       "headline": "Reported Q4 and full-year 2025 results: FY2025 revenue $420.5M (+25% YoY), FY2025 EPS -$0.72 (improved from -$1.07 in FY2024); Q4 2025 EPS -$0.21 (missed -$0.11 estimate), Q4 2025 revenue $90.6M (missed $97.55M estimate); total 2025 transactions up ~15% YoY",
       "impact": "mixed (strong revenue growth, Q4 miss)",
       "source": "https://www.gurufocus.com/news/8757361/fathom-holdings-reports-fourth-quarter-and-full-year-2025-results"
+    },
+    {
+      "date": "2026-03-05",
+      "type": "corporate",
+      "headline": "Homestead Realty Professionals (50+ agents) joins Fathom Realty's agent-first platform",
+      "impact": "Incremental agent-count growth for the brokerage segment.",
+      "source": "company press release via quantisnow/EXIT coverage"
+    },
+    {
+      "date": "2025-12-01",
+      "type": "divestiture",
+      "headline": "Fathom sells LiveBy assets to Move Concierge for $3.0M cash",
+      "impact": "Non-core asset sale generating cash; part of ongoing restructuring.",
+      "source": "company press release"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "Q3 2026 results still not found in any source searched as of 2026-11-12 (every result surfaced is the year-old Q3 2025 report, released 2025-11-11). Open question from the prior pass is unresolved: either the Q3 2026 report has not yet been published or it is not yet indexed. No update made.",
+  "conflicts": [
+    "Short interest base/metric differs by source: 1.5% of float with 5.8 days to cover vs 2.03% of float / 420.1K shares short with 1.5 days to cover for what appears to be a similar period.",
+    "Shares outstanding: 34.21M (Oct 5, 2026) vs 33.79M (YCharts, Jun 30 2026) vs ~32.8M (Equibles/ChartExchange) vs a stale 21.01M (StockAnalysis).",
+    "Price snapshots of $0.73 and $0.9387 (undated) are far above the dated $0.179 (Oct 30, 2026) figure and could not be reconciled."
+  ],
+  "pendingFilings": [
+    "8-K expected ~2026-11-12/13 (Q3 2026 results, not yet located)",
+    "Prior 8-K: leadership update / inducement RSU grant ($150,000) — Feb 2026"
+  ],
+  "notes": "Nasdaq notified Fathom in April 2025 that its bid price had been below the $1 minimum for 30 consecutive business days — this is an ongoing listing-compliance risk. Q3 2026 earnings were due Nov 12, 2026 (one day before this report); results were not confirmed before the search budget for this pass was exhausted.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -394,10 +432,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

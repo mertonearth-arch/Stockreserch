@@ -1,20 +1,18 @@
 {
   "ticker": "SANG",
   "name": "Sangoma Technologies Corporation",
-  "sector": "Enterprise Software & Security",
+  "sector": "Technology / Enterprise Software (Unified Communications)",
   "theme": "Enterprise Software & Security",
   "themeLabel": "nano-cap",
-  "tier": "weekly",
+  "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-06T21:22:03.996Z",
+  "lastResearched": "2026-11-13T21:33:08.084Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": null,
-      "source": null,
-      "note": "Conflicting undated/mismatched snapshots found ($136.44M @ $4.13; $124.13M @ $3.70; stale FXEmpire figure of $207.94M @ $5.95 implying ~34.9M shares used, inconsistent with ~33.2M shares elsewhere). Could not establish a single reliable current market cap in sandbox; deal implies ~US$204M enterprise value (C$289M) per the 2026-09-28 definitive agreement."
+      "note": "Not found; deal enterprise value is disclosed instead (see catalysts/conflicts)"
     },
     "float": {
       "value": 24020000,
@@ -23,9 +21,8 @@
       "note": "AAII separately shows float ~25.6M; both undated. Treat as approximate."
     },
     "sharesOutstanding": {
-      "value": 33280000,
-      "asOf": null,
-      "source": "Morningstar (33.28M); equibles.com shows 33,262,910 (consistent)"
+      "value": null,
+      "note": "Not found this pass"
     },
     "shortInterest": {
       "value": null,
@@ -46,50 +43,37 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing: negative earnings (FY2025 net loss $5.0M). Forward: pending-acquisition stock; no meaningful forward estimate found, and market now largely pricing deal terms rather than standalone earnings."
+      "note": "Not found this pass",
+      "asOf": "2026-11-13"
     },
-    "eps": [
-      {
-        "period": "FY2024",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Only net loss total found ($8.7M); exact per-share figure not located in sandbox search."
-      },
-      {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Only net loss total found ($5.0M, fiscal year ended 2025-06-30); exact per-share figure not located in sandbox search."
-      },
-      {
-        "period": "Q1 FY2026 (ended 2025-09-30)",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Reported 2025-11-10; figures not located in sandbox search."
-      }
-    ],
-    "revenue": [
-      {
-        "period": "FY2025 (ended 2025-06-30)",
-        "value": 236700000,
-        "yoy": null,
-        "note": "Within guided range of $235-238M; prior-year (FY2024) revenue not located to compute YoY."
-      }
-    ],
+    "eps": [],
+    "revenue": [],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2025",
+      "period": null,
       "pct": null,
-      "note": "FY2025 revenue $236.7M (within guidance); FY2024 comparison figure not located in sandbox search so YoY% could not be computed. Net loss narrowed from $8.7M (FY2024) to $5.0M (FY2025); Adjusted EBITDA $41.0M (17% of revenue)."
+      "note": "A headline referencing 'Sangoma announces first quarter fiscal 2027 results' was located but its content could not be retrieved before this task's search budget was exhausted"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Fiscal Q1 2027 (quarter ending ~2025-09-30... correction: ending 2026-09-30) results estimated by Digrin for ~2026-11-09, but no company confirmation found. Note: with the BRC acquisition pending, future quarterly reporting cadence may also be affected by deal timeline."
+      "note": "A Q1 FY2027 results headline exists (via Finviz/Earnings Whispers) but was not verified for date or content this pass"
     }
   },
-  "price": null,
+  "price": {
+    "last": 4.88,
+    "changePct": 35.94,
+    "rvol": null,
+    "asOf": "2026-09-28",
+    "note": "This is the price move reported on the acquisition announcement date, not a 2026-11-13 price — no more recent confirmed price was found this pass"
+  },
   "catalysts": [
+    {
+      "date": "2026-09-29",
+      "type": "analyst action",
+      "headline": "TD Securities changed its rating on Sangoma from Buy to Sell following the acquisition announcement",
+      "source": "panabee.com (aggregated reporting)"
+    },
     {
       "date": "2026-09-29",
       "type": "merger",
@@ -99,15 +83,47 @@
     {
       "date": "2026-09-28",
       "type": "M&A",
+      "headline": "Sangoma Technologies enters into a definitive agreement to be acquired by BRC Group Holdings, Inc.; deal valued at approximately US$204 million enterprise value",
+      "impact": "Stock rose ~35.94% to $4.88/share on the announcement",
+      "source": "https://capital.com/en-int/news/brc-group-to-buy-sangoma-in-deal-valued-at-about ; https://www.rttnews.com/3694546/brc-group-to-acquire-sangoma-technologies-in-204-mln-deal.aspx"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "M&A",
       "headline": "Sangoma enters definitive arrangement agreement to be acquired by BRC Group Holdings, Inc. for US$4.925 cash plus 0.04767 of a BRC common share per Sangoma share",
       "impact": "Implied value of US$5.225 (C$7.40)/share based on BRC's 20-day VWAP — approx. 47% premium to prior closing price, approx. 51% to 10-day VWAP; transaction enterprise value approx. US$204M (C$289M); aggregate cash consideration approx. US$170M. Unanimously approved by Sangoma board on recommendation of a special committee; directors/officers holding ~27% of shares signed voting support agreements. Deal requires approval by 2/3 of votes cast at a special meeting plus a simple majority excluding MI 61-101 interested shares, plus court, Investment Canada Act, US HSR, FCC and state telecom regulatory approvals. Closing expected early 2027 (one source cites outside date of 2027-01-22).",
       "source": "https://www.placera.se/pressmeddelanden/sangoma-technologies-brc-group-holdings-inc-agrees-to-acquire-sangoma-technologies-corporation-to-scale-communications-portfolio-20260928 ; https://www.lexpert.ca/big-deals/brc-group-holdings-to-acquire-sangoma-technologies-in-289-million-deal/394642 ; SEC 6-K: https://www.sec.gov/Archives/edgar/data/0001753368/000110465926113106/tm2626898d1_6k.htm"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "PM 2026-11-06: checked specifically for BRC Group deal progress per standing instruction -- still no shareholder-vote result, no closing announcement, and no definitive proxy circular with a confirmed meeting date found. Deal remains pending with unchanged terms (US$4.925 cash + 0.04767 BRC share per Sangoma share, ~US$204M enterprise value, unanimous board approval, ~27% insider voting support already secured); special meeting still only loosely targeted on/before 2026-12-11 per a single aggregator (Panabee) not independently corroborated, closing still targeted January 2027 (outside date 2027-01-22). No other new dated catalyst found. Standalone market cap/price still not reliably establishable. Quiet pass -- deal status unchanged from last pass.",
+  "conflicts": [
+    "Deal value: most sources (businesswire, capital.com, rttnews) cite ~US$204 million enterprise value; one source (Lexpert) headlines a $289 million figure. Not reconciled."
+  ],
+  "pendingFilings": [
+    "Management information circular for the special meeting of shareholders (filing date not confirmed)",
+    "Possible Q1 FY2027 earnings release (headline found; not yet verified)"
+  ],
+  "notes": "DEAL UPDATE: the pending acquisition by BRC Group Holdings is progressing toward a shareholder vote. A special meeting of Sangoma shareholders is expected on or before 2026-12-11 / described more loosely as 'December 2026'. Approval requires at least two-thirds of votes cast at the meeting plus a simple majority of votes cast excluding shares required to be excluded under MI 61-101; directors/officers holding ~27% of shares have signed voting support agreements. Closing is anticipated in January 2027, with an outside date of 2027-01-22. The deal is also subject to court and regulatory approvals and is not subject to a financing condition. No deal termination, delay, or material update beyond the above was found. A headline for Q1 FY2027 results exists and should be checked in a follow-up pass since it was not retrievable within this turn's search budget.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "move 35.94%",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "weekly"
+    },
     {
       "date": "2026-11-06",
       "run": "pm",
@@ -230,10 +246,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-06",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "move 35.94%",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

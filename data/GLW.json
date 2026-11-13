@@ -1,78 +1,79 @@
 {
   "ticker": "GLW",
   "name": "Corning Incorporated",
-  "sector": "Specialty Materials / Technology Hardware",
+  "sector": "Industrials",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.071Z",
+  "lastResearched": "2026-11-13T21:33:08.066Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not located in available sources this session"
+      "value": 91420000000,
+      "asOf": "2026-11-06",
+      "source": "Marketchameleon"
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately from shares outstanding in sources found"
+      "note": "Not disclosed separately"
     },
     "sharesOutstanding": {
-      "value": 861000000,
-      "asOf": "2026-10",
-      "source": "TipRanks (860,637,800) vs Motley Fool (857.95M), both undated-but-recent; averaged-range not computed, using TipRanks figure"
+      "value": 861400000,
+      "asOf": "~2026-11",
+      "source": "StockAnalysis / massive.com (two independent sources agree on ~861M)"
     },
     "shortInterest": {
-      "value": 16840000,
-      "asOf": null,
-      "source": "WebSearch aggregation",
-      "note": "~16.84M shares short, average volume 7.75M, ~2.2 days to cover; described only as 'late September 2026', exact date not given. Supersedes the on-file 2026-08-19 reading (18.0M shares / 2.1% of float / 1.1 days to cover) as a later data point, not a live conflict -- the two are within normal settlement-to-settlement drift."
+      "value": null,
+      "note": "Not found in available sources this pass"
     },
     "cash": {
       "value": null,
-      "note": "not located in sources reachable this session (WebFetch to SEC EDGAR and IR sites failed in this sandbox)"
+      "note": "Not found in available sources this pass"
     },
     "debt": {
       "value": null,
-      "note": "not located in sources reachable this session"
+      "note": "Not found in available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not located in available sources this session (Corning is profitable, so this is a gap in research, not a 'negative earnings' case)"
+      "note": "Not established from available sources; Q3 2026 core (non-GAAP) EPS was approximately $0.91, but no trailing-twelve-month or explicit forward multiple was found"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": 0.91,
+        "basis": "non-GAAP (core)",
+        "note": "Beat estimates of $0.89 (Zacks) or $0.88 (StockTwits)"
+      }
+    ],
     "revenue": [
       {
         "period": "Q3 2026",
-        "value": 4860000000,
-        "yoy": null,
-        "note": "GAAP sales, reported 2026-10-27"
-      },
-      {
-        "period": "Q3 2026 (core)",
-        "value": 5080000000,
-        "yoy": 19,
-        "note": "core sales, beat the $4.9-5.0B guided range"
+        "value": 4855000000,
+        "yoy": 13.6,
+        "note": "GAAP net sales, per Business Wire/Webull, against an analyst consensus of ~$5.05B (a miss on this GAAP basis)"
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "pct": null,
-      "note": "Could not confirm Corning's Q3 2026 earnings print (revenue/EPS) in available sources, despite analyst price-target activity in late October 2026 that appears to follow an earnings release"
+      "metric": "revenue YoY (GAAP net sales)",
+      "period": "Q3 2026",
+      "pct": 13.6,
+      "note": "A separate non-GAAP 'core sales' figure of $5.08B was also reported as beating an adjusted estimate of $5.03B"
     },
     "nextEarnings": {
-      "date": "2027-01-28",
+      "date": null,
       "confirmed": false,
-      "note": "Matches data on file and Corning's established pattern of reporting full-year/Q4 results on January 28 (it reported FY2025 results on 2026-01-28)"
+      "note": "Not found; Corning has historically reported Q4/full-year results in late January"
     }
   },
   "price": {
-    "last": null,
+    "last": 106.13,
     "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No confirmed quote for 2026-11-11. Dated figures found nearby: $115.95, reportedly +9.25% in the trailing 24 hours, on a page dated 2026-11-09; $106.13 close on 2026-11-06 (marketchameleon.com); $126.30 on 2026-10-28 (coinglass.com). Taken together these suggest a sharp decline from late October into early November followed by a rebound, but none is confirmed as today's close."
+    "asOf": "2026-11-06",
+    "source": "Marketchameleon"
   },
   "catalysts": [
     {
@@ -87,6 +88,13 @@
       "type": "analyst action",
       "headline": "Multiple analysts revised price targets, apparently following a Q3 2026 earnings report: UBS lowered target to $192 from $201 (kept Buy); Morgan Stanley lowered target to $155 from $165 (Equal-weight); Truist lowered target to $175 from $182 (kept Buy); Barclays raised target to $132 from $129 (Equal-weight)",
       "source": null
+    },
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "headline": "Corning reports Q3 2026 results: GAAP net sales $4.855B (+13.6% YoY, below ~$5.05B consensus on a GAAP basis) but core (non-GAAP) sales of $5.08B beat an adjusted estimate of $5.03B; core EPS ~$0.91 beat; Optical Communications segment sales $2.38B (+44% YoY) on AI/fiber demand; four new long-term multibillion-dollar customer agreements including Verizon and AT&T",
+      "impact": "Q4 2026 guidance: core sales $5.2B-$5.3B, core EPS $0.96-$1.00; shares reported up 4%+ in the session after results, and some analysts (e.g., JPMorgan) raised price targets",
+      "source": "https://247wallst.com/cards/corning-q3-2026-earnings-glw-01m5ygjxkpmss5xt8bhdwb8b4d"
     },
     {
       "date": "2026-10-27",
@@ -136,10 +144,39 @@
       "source": "https://www.marketbeat.com/instant-alerts/corning-nyseglw-announces-quarterly-earnings-results-2026-07-28/"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "The unexplained MarketBeat 'key catalyst' flag for Nov 11, 2026 remains unresolved; no second source found it. One new fact located: GLW's ex-dividend date is 2026-11-13 (payable 2026-12-11) — routine, not recorded as a catalyst. Price sources still disagree ($106.13 marketchameleon vs $103.44 Fox Business for Nov 6); left unchanged pending a reliable same-week quote.",
+  "conflicts": [
+    "Revenue framing: Webull/Barchart report a GAAP revenue MISS ($4.86B vs $5.05B consensus) while Zacks/StockTwits report a non-GAAP 'core sales' BEAT ($5.08B vs $5.03B adjusted estimate) — both can be true simultaneously, but headline framing across sources directly conflicts on whether Q3 2026 was a 'miss' or a 'beat'",
+    "Price: Marketchameleon shows $106.13 (market cap $91.42B) as of 2026-11-06, while massive.com shows a HIGHER price of $125.04 (market cap $106.8B) as of 2026-10-23 — i.e., sources imply the stock fell roughly 15% between Oct 23 and Nov 6, which is hard to reconcile with other reporting that shares rose 4%+ in the session immediately after the Oct 27 earnings beat",
+    "Several MarketBeat/AAII pages date the Q3 2026 earnings release to 2026-07-28, which matches Q2 timing and appears to be a date error; the 2026-10-27 date was used instead"
+  ],
+  "pendingFilings": [
+    "8-K 2026-10-27 (Q3 2026 earnings)"
+  ],
+  "notes": "Year-to-date share performance was reported as up more than 60% as of early November 2026 per StockTwits, consistent with the AI-driven Optical Communications growth narrative, though this could not be cross-verified against the conflicting price points above.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -364,10 +401,25 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

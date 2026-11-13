@@ -1,80 +1,87 @@
 {
   "ticker": "AFRM",
   "name": "Affirm Holdings, Inc.",
-  "sector": "Financial Technology",
+  "sector": "Financial Services",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.078Z",
+  "lastResearched": "2026-11-13T21:33:08.071Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established from available sources."
+      "note": "conflicting figures found, see conflicts; no single figure confirmed"
     },
     "float": {
       "value": null,
-      "note": "carried forward; stale MarketBeat figure only"
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "carried forward; conflicting sources, unresolved"
+      "note": "not retrieved this pass"
     },
     "shortInterest": {
-      "value": 14500000,
-      "asOf": "2026-08-14 (FINRA settlement date)",
-      "note": "carried forward; ~5.4 days to cover"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
       "value": null,
-      "note": "carried forward; not retrieved"
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "note": "carried forward; not retrieved"
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Insufficient data to compute a reliable P/E from sources found; Q1 FY2027 EPS was positive ($0.47) but a trailing-twelve-month EPS figure was not established.",
-      "asOf": "2026-11-11"
+      "note": "not established this pass; company has reported positive non-GAAP EPS but GAAP profitability/trailing PE not confirmed",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
-        "period": "Q1 FY2027",
+        "period": "fiscal Q1 2027 (quarter ended ~2026-09-30)",
         "value": 0.47,
-        "basis": "unspecified (beat the $0.35 non-GAAP consensus estimate per Earnings Whispers; exact GAAP vs non-GAAP basis for the $0.47 actual was not clearly stated in sources found)"
+        "basis": "non-GAAP",
+        "note": "beat consensus of $0.35; GAAP EPS not found"
       }
     ],
     "revenue": [
       {
-        "period": "Q1 FY2027 (qtr ended 2026-09-30)",
-        "value": 1260000000,
-        "yoy": 35,
-        "note": "Beat consensus, cited variously as $1.21B (Benzinga/GuruFocus), $1.22B (EarningsWhispers), and $1.233B (Chartmill) -- not reconciled. GMV grew 34% YoY to $14.4B, the 12th consecutive quarter of GMV growth above 30%. Direct-to-consumer GMV +55% to $5.1B, driven by Affirm Card GMV +117% to $3.3B. Active consumers +19% YoY to 28.7M; active merchants +48% YoY to 621K."
+        "period": "fiscal Q1 2027",
+        "value": 1262000000,
+        "yoy": null,
+        "note": "beat consensus of $1.22B; prior-year comparable revenue not found"
       }
     ],
     "growth": {
       "metric": "GMV YoY",
-      "period": "Q1 FY2027",
+      "period": "fiscal Q1 2027",
       "pct": 34,
-      "note": "Revenue was $1.262B (previously recorded as $1.26B); a YoY revenue growth percentage specifically was not located in sources found, so GMV growth (the figure management and coverage emphasized) is used instead."
+      "note": "CEO Max Levchin described 30%+ GMV growth as a floor; take rate was 4.3%."
     },
     "nextEarnings": {
       "date": "2027-02-04",
       "confirmed": false,
-      "note": "TIKR estimate for fiscal Q2 FY2027; see conflicts for a sharply different Earnings Whispers listing."
+      "note": "TIKR estimate, consistent with fiscal Q2 reporting cadence (fiscal year ends June 30); one other source cited Nov 26, 2026 but that looks inconsistent with Affirm's historical schedule"
     }
   },
   "price": {
-    "last": 68,
+    "last": 68.11,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "note": "Reported as down ~7% over the week following Nov 5 earnings (weekly move, not a single-day change figure); no Nov 11 2026 quote retrievable in this sandbox."
+    "rvol": null,
+    "asOf": "2026-11-06"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Affirm reported fiscal Q1 2027 results: non-GAAP EPS $0.47 (beat $0.35 est.), revenue $1.262B (beat $1.22B est.), GMV +34% YoY, take rate 4.3%",
+      "impact": "Shares fell roughly 1.9% in premarket trading despite the beat, on investor concern over the credit-allowance outlook and cautious guidance; shares were down about 7% over the following week and ~16% over the following month",
+      "source": "https://www.tikr.com/blog/affirms-levchin-calls-30-plus-growth-the-floor-gmv-just-grew-34 ; https://finviz.com/news/418183/affirm-beats-on-34-gmv-growth-and-a-43-take-rate-but-credit-upticks-and-a-light-gaap-margin-guide-muddy-the-story"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -181,10 +188,36 @@
       "sourceName": "Investrade market review"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: ~$22.4B (stockevents.app) vs ~$23.2B (TipRanks) vs ~$23.6B (another aggregator) — dates not clearly aligned; none confirmed for 2026-11-13.",
+    "Current price: $70.44 (Investing.com, dated 2026-09-18, stale) vs $68.32 premarket / $68.11 close (2026-11-06, Fox Business) — using the more recent figure.",
+    "Next earnings date: Feb 4, 2027 (TIKR) vs Nov 26, 2026 (Earnings Whispers) — the latter is inconsistent with the fiscal-quarter cadence."
+  ],
   "pendingFilings": [],
-  "notes": "Routine PM recheck 2026-11-12: no AFRM-specific news dated Nov 12 found via WebSearch beyond what's already on file from the Nov 5 fiscal Q1 FY2027 print. Genuinely quiet pass.",
+  "notes": "New, dated catalyst: fiscal Q1 2027 earnings beat (Nov 5) followed by a stock decline on credit/guidance concerns, and several analyst price-target cuts despite an average Buy rating.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -511,11 +544,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflict resolved"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

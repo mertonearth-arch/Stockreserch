@@ -1,63 +1,82 @@
 {
   "ticker": "BKYI",
   "name": "BIO-key International, Inc.",
-  "sector": "Enterprise Software & Security",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.067Z",
+  "lastResearched": "2026-11-13T21:33:08.064Z",
   "fundamentals": {
     "marketCap": {
-      "value": null
+      "value": null,
+      "note": "Conflicting figures found; see conflicts"
     },
     "float": {
-      "value": null
+      "value": null,
+      "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
-      "value": null
+      "value": 1085360,
+      "asOf": "2026-06-19",
+      "source": "Q1 2026 10-Q cover page (via Last10K)",
+      "note": "Predates an August 2026 warrant inducement that added 618,334 shares; current count is likely higher but not confirmed"
     },
     "shortInterest": {
-      "value": null
+      "value": null,
+      "note": "Not found in available sources this pass"
     },
     "cash": {
-      "value": null
+      "value": null,
+      "note": "Not established; only transaction-level cash inflows found (e.g., $2.5M warrant inducement in Aug 2026, $1.5M prepaid 2-year subscription order in 2026), not a balance-sheet cash figure"
     },
     "debt": {
-      "value": null
+      "value": null,
+      "note": "Not established from available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this session"
+      "note": "Negative trailing earnings (Q2 2026 loss of $0.56/share)",
+      "asOf": "2026-10-23"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q2 2026",
+        "value": -0.56,
+        "basis": "GAAP"
+      }
+    ],
     "revenue": [
       {
         "period": "Q1 2026",
         "value": 2150000,
-        "note": "per company Q1 2026 release"
+        "yoy": 33
+      },
+      {
+        "period": "Q2 2026",
+        "value": 1920000,
+        "yoy": null
       }
     ],
     "growth": {
-      "metric": null,
-      "pct": null,
-      "note": "not established this session"
+      "metric": "revenue YoY",
+      "period": "H1 2026",
+      "pct": 23
     },
     "nextEarnings": {
-      "date": "2026-11-13",
-      "confirmed": true,
-      "note": "Company-confirmed via GlobeNewswire release dated 2026-11-06: Q3 2026 results before market open Friday Nov 13, 2026, investor call 10am ET."
+      "date": null,
+      "confirmed": false,
+      "note": "Not found"
     }
   },
   "price": {
-    "last": 2.41,
+    "last": 3.27,
     "changePct": null,
-    "asOf": "2026-11-08",
-    "source": "Upstox",
-    "note": "Supersedes on-file 2026-10-27 $2.70 figure."
+    "asOf": "2026-10-23",
+    "source": "Benzinga"
   },
   "catalysts": [
     {
@@ -141,6 +160,13 @@
     },
     {
       "date": "2026-04-30",
+      "type": "corporate action",
+      "headline": "1-for-10 reverse stock split effective",
+      "impact": "Per-share and share-count figures before this date are not comparable to after",
+      "source": "https://www.minichart.com.sg/2026/06/23/bio-key-international-q1-2026-financial-results-lower-revenues-continued-net-loss-after-reverse-stock-split/"
+    },
+    {
+      "date": "2026-04-30",
       "type": "capital structure",
       "headline": "1-for-10 reverse stock split effective, reducing shares outstanding from ~10.9M to ~1.1M, aimed at regaining Nasdaq minimum bid price compliance",
       "impact": "No change to company fundamentals; share count/EPS basis changed",
@@ -154,10 +180,40 @@
       "source": "https://www.panabee.com/news/bio-key-stockholders-approve-reverse-split-authorization"
     }
   ],
-  "conflicts": [],
-  "pendingFilings": [],
-  "notes": "Resolves the prior file conflict over a Nov 12 / Nov 13 / Nov 16 earnings-date discrepancy — Nov 13 before market open is now the company-confirmed date. No other new catalysts found this session; market cap, shares outstanding, float, short interest, cash, debt, and EPS remain unestablished.",
+  "conflicts": [
+    "Market cap: ROIC.AI ~$5.18M (at $4.77 price, undated) vs Trefis ~$2.0M (at $3.06 price, asOf 2026-05-14) — different dates/prices, not reconcilable",
+    "Price: Benzinga $3.27 (2026-10-23) vs ROIC.AI $4.77 (undated) vs Weiss Ratings $4.55 (undated) vs StockAnalysis $4.546 close (2026-07-24)",
+    "Listing venue: one May 2026 press release describes the company as OTC Markets-listed while another, days earlier, describes it as Nasdaq-listed — listing status unclear from snippets"
+  ],
+  "pendingFilings": [
+    "10-Q (Q1 2026) filed 2026-06-22, Accession No. 0001437749-26-021335",
+    "Q2 2026 10-Q filing date not confirmed from search results"
+  ],
+  "notes": "1-for-10 reverse stock split effective 2026-04-30 — flag per reverse-split rule; pre-split price/share figures not comparable. A Benzinga item describing a >130% premarket spike tied to a Middle East government security contract was undated in the snippet retrieved and so excluded as a catalyst; mentioned here instead. CNN Money referenced an earlier 1-for-18 reverse split 'in December' with no year shown — likely a different, older corporate action; not used.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -374,13 +430,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
-      "conflict resolved"
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

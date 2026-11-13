@@ -1,86 +1,93 @@
 {
   "ticker": "PEPG",
   "name": "PepGen Inc.",
-  "sector": "Biotech Catalyst / Oligonucleotide Therapeutics (Duchenne Muscular Dystrophy & Myotonic Dystrophy)",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.063Z",
+  "lastResearched": "2026-11-13T21:33:08.061Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Conflicting undated figures found (~$75M per a mid-2026 cash-runway summary; ~$160.68M and ~$170.38M per two other undated aggregator pages); none dated to Nov 11, 2026, so omitted as a confirmed figure."
+      "value": 188390000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business",
+      "note": "Predates the Nov 10-11 catalyst-driven rally to $5.26; current market cap would be higher"
     },
     "float": {
-      "value": null,
-      "note": "Not established."
+      "value": 61800000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "sharesOutstanding": {
-      "value": 69170000,
-      "asOf": "2026-03-31",
-      "source": "alphaquery.com (common shares outstanding, quarter ended 2026-03-31)"
+      "value": 69260000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "shortInterest": {
-      "value": null,
-      "note": "Not established."
+      "value": 3900000,
+      "asOf": "2026-10-02 settlement",
+      "source": "Equibles",
+      "note": "~5.6% of float, 5.2 days to cover"
     },
     "cash": {
-      "value": 117000000,
-      "asOf": "2026-06-30",
-      "source": "panabee.com summary of Q2 2026 earnings release; company said this extends its capital runway into Q4 2027"
+      "value": 104800000,
+      "asOf": "2026-09-30 (Q3 2026)",
+      "source": "Company Q3 2026 financial results release",
+      "note": "Expected to fund operations into 2028"
     },
     "debt": {
       "value": null,
-      "note": "Not established; typical for a clinical-stage biotech to carry little/no conventional debt, but not confirmed."
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "pre-revenue clinical-stage biotech; negative earnings",
-      "asOf": "2026-11-11"
+      "note": "Clinical-stage biotech with a net loss of $19.4M (-$0.28/share) in Q3 2026; trailing P/E not applicable",
+      "asOf": "2026-11-10"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -2.85,
-        "basis": "GAAP basic/diluted",
-        "note": "Net loss of $90.0 million for FY2024, per the company's FY2025 earnings release comparative figure."
+        "period": "Q3 2025",
+        "value": -0.52,
+        "basis": "GAAP"
       },
       {
-        "period": "FY2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Full-year 2025 net loss was approximately $89.7M (derived by summing four quarterly losses of $18.34M, $18.03M, $23.09M and $30.20M per Weiss Ratings), but weighted average shares rose sharply during the year (~32.7M to ~68.8M), making a simple derived per-share figure unreliable; one third-party site cites -$2.12 but this was not corroborated against the 10-K. Not reported as a confirmed EPS."
-      },
-      {
-        "period": "Q1 2026",
-        "value": -0.26,
-        "basis": "GAAP",
-        "note": "Net loss of $17,763,000 for the quarter ended ~March 31, 2026."
+        "period": "Q3 2026",
+        "value": -0.28,
+        "basis": "GAAP"
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "n/a",
+      "metric": "cash runway / clinical progress",
+      "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech; no product revenue to report growth against."
+      "note": "Pre-revenue clinical-stage company (Q2 2026 revenue reported as $0.00M); growth is better tracked via cash runway (extended into 2028 as of the Q3 2026 update) and clinical data (FREEDOM2 splicing-correction results) than via revenue"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not established; PepGen's quarterly earnings releases have historically landed in early March, May, August and November."
-    }
+      "note": "Q3 2026 was reported 2026-11-10; next (Q4/FY2026) date not located"
+    },
+    "revenue": []
   },
   "price": {
-    "last": 5.56,
-    "changePct": 20.7,
+    "last": 5.26,
+    "changePct": 14.1,
+    "rvol": 3.2,
     "asOf": "2026-11-11",
-    "note": "MarketBeat-sourced figure for Wednesday Nov 11, 2026 (+20.7% that day, following a prior-day close of $4.61 on Nov 10). A separate Yahoo Finance-derived reading showed PEPG +16.95% on the same day. The task's stated '+122.9% today' figure does NOT match either of these; the large (~93%-127%) single-day move more closely matches Nov 10, 2026 price action per multiple sources (see conflicts)."
+    "note": "Volume of ~14,484,661 shares vs a 30-day average of ~4,520,173 (rvol approximate)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "price move",
+      "headline": "PEPG closed at $5.26, up 14.1%, on volume of ~14.5M shares versus a ~4.5M 30-day average",
+      "impact": "Stock rallied in the session(s) following the Phase 2 data/earnings release",
+      "source": "Marketchameleon/Earnings Whispers aggregator data"
+    },
     {
       "date": "2026-11-11",
       "type": "price move (continuation)",
@@ -94,6 +101,20 @@
       "headline": "PepGen's lead candidate (PGN-EDO51, Duchenne muscular dystrophy program) reported to have achieved the highest splicing correction yet seen in its mid-stage trial, per aggregator coverage; underlying primary source (company release / trial data) not independently located this session.",
       "impact": "+122.9% premarket on ~29M shares",
       "source": "https://benzinga.com/trading-ideas/movers/26/11/63080101/why-sanmina-shares-are-trading-higher-by-around-19-here-are-20-stocks-moving-premarket"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "clinical trial",
+      "headline": "PepGen announced positive Phase 2 FREEDOM2-DM1 10 mg/kg cohort results for PGN-EDODM1 in myotonic dystrophy type 1, reporting the highest reported splicing correction (mean 46.5%) and improvements across multiple functional measures",
+      "impact": "Positive clinical readout for the company's lead program",
+      "source": "https://finviz.com/news/419875/pepgen-announces-positive-phase-2-freedom2-dm1-10-mgkg-results-demonstrating-highest-reported-splicing-correction-and-improvements-across-multiple-functional-measures"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "PepGen reported Q3 2026 financial results: net loss of $19.4M (-$0.28/share) vs an $18.0M loss (-$0.52/share) a year earlier; cash and marketable securities of $104.8M as of 2026-09-30, extending the runway into 2028",
+      "impact": "Earnings released alongside positive clinical data",
+      "source": "https://finviz.com/news/419895/pepgen-reports-third-quarter-2026-financial-results-and-recent-corporate-highlights"
     },
     {
       "date": "2026-11-10",
@@ -111,12 +132,36 @@
     }
   ],
   "conflicts": [
-    "MAJOR UNRESOLVED CONFLICT: the task states PEPG was 'up +122.9% today' on 2026-11-11, attributed to the PGN-EDO51 Duchenne muscular dystrophy (DMD) program. However, every dated source found in this session attributes the large single-day move (ranging from ~92.9% to as much as ~126.6%-146% depending on the exact snapshot) to Nov 10, 2026, and to Phase 2 FREEDOM2-DM1 topline data for PGN-EDODM1 in myotonic dystrophy (DM1) -- a different drug candidate and a different disease indication than DMD/PGN-EDO51. Nov 11, 2026 readings found (MarketBeat: +20.7% to $5.56; Yahoo-derived: +16.95%) are much smaller than +122.9% and are described as a continuation/options-flow story, not a fresh catalyst. This may reflect either (a) a one-day lag between when the news broke and when the task's data snapshot was taken, or (b) the task's note conflating the DM1 readout with the DMD program; it was not possible to reconcile definitively from available sources, so both the task's figure and the sourced figures are preserved here rather than silently picking one.",
-    "Market cap figures found (~$75M, ~$160.68M, ~$170.38M) are mutually inconsistent and undated relative to the Nov 10-11 price spike, so none is reported as a current fundamentals figure.",
-    "FY2025 EPS could not be reconciled: a derived sum-of-quarters net loss of ~$89.7M conflicts with one third-party site's -$2.12 EPS figure once combined with a weighted-average share count that itself more than doubled intra-year; no figure is reported as confirmed."
+    "Partial clinical hold status: one source describes the FREEDOM2 trial as under a partial U.S. clinical hold limiting enrollment at U.S. sites; this was not mentioned in the Q3 2026 earnings coverage reviewed here, so its current (as of 2026-11-13) status is unconfirmed.",
+    "Cash-runway framing: one older source cites a '$117 million runway' figure (apparently from an earlier quarter) versus the Q3 2026 release's $104.8M cash/marketable-securities figure as of 2026-09-30 — likely different points in time rather than a true contradiction, but the two should not be used interchangeably.",
+    "Market cap figure ($188.39M) is dated 2026-10-23, before the stock's rally to $5.26 on 2026-11-11, so it understates the company's market cap relative to the current share price."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 14.1%",
+        "RVOL 3.2x",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -159,12 +204,28 @@
       "from": "daily"
     }
   ],
-  "notes": "No Nov 2026 PepGen news located this session beyond what is already on file; the PGN-EDO51 (DMD) vs. PGN-EDODM1/FREEDOM2-DM1 (DM1) attribution conflict already recorded could not be resolved — no primary company release or 8-K for Nov 2026 was found via WebSearch. One tangential, non-matching result describes a September 2025 FREEDOM-DM1 Phase 1 rally (+121.8%, with a concurrent $100M/31.25M-share offering at $3.20) which is a distinct, older event and is not used here. Treat the existing record's Nov 10-11, 2026 catalysts and conflict note as still the best available information.",
+  "notes": "Single-asset biotech (PGN-EDODM1) — near-term value is highly dependent on the FREEDOM2 DM1 readouts; the next data point (12.5 mg/kg cohort) is expected in 1H 2027.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 14.1%",
+      "RVOL 3.2x",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

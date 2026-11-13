@@ -1,91 +1,66 @@
 {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
-  "sector": "AI Semiconductors",
+  "sector": "Technology",
   "theme": "AI Semiconductors",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.061Z",
+  "lastResearched": "2026-11-13T21:33:08.061Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "No market-cap snapshot dated to Nov 2026 was found; most recent reference point is ~$5.3T on 2026-10-21 (Trefis) against a $220.39 price, now well above the ~$176-179 range seen Nov 9-11 — not recomputed here to avoid presenting a stale-price-implied figure as current."
+      "value": 4400000000000,
+      "asOf": "2026-11-10",
+      "source": "Trefis (price $180.4)"
     },
     "float": {
-      "value": null
+      "value": null,
+      "note": "Not established"
     },
     "sharesOutstanding": {
-      "value": 24300000000,
-      "asOf": "2026-02-20",
-      "source": "NVIDIA FY2026 10-K",
-      "note": "Most recent primary-source share count found; a separate filing-based source shows 24.1B as of 2026-08-21."
+      "value": 24100000000,
+      "asOf": "2026-11-04",
+      "source": "Arincen"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established; short interest is typically minimal/not a major factor for NVDA and was not researched in depth given time constraints."
+      "note": "Not established / not typically material for a mega-cap name of this size"
     },
     "cash": {
       "value": null,
-      "note": "Not established this session; see FY2026 10-K/annual report for balance-sheet detail."
+      "note": "Not established in this research pass"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not established in this research pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing P/E snapshots conflict heavily across sources and dates (28.4, 26.3, 46.0) and none is dated to Nov 11, 2026; not reported here to avoid presenting a stale/unreconciled figure.",
-      "asOf": "2026-11-11"
+      "note": "Not established from search results in this pass; would require a confirmed EPS figure paired with a single-date price, neither of which was reliably sourced here",
+      "asOf": "2026-11-13"
     },
-    "eps": [
-      {
-        "period": "FY2025",
-        "value": 2.94,
-        "basis": "GAAP diluted",
-        "note": "Fiscal year ended ~January 2025."
-      },
-      {
-        "period": "FY2026",
-        "value": 4.9,
-        "basis": "GAAP diluted",
-        "note": "Fiscal year ended January 25, 2026; non-GAAP diluted EPS was $4.77."
-      },
-      {
-        "period": "Q3 FY2027",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Not yet reported; scheduled for release Nov 17, 2026 per company's own investor-relations announcement."
-      }
-    ],
-    "revenue": [
-      {
-        "period": "Q2 FY2027 (ended 2026-07-26)",
-        "value": 96200000000,
-        "yoy": 106
-      }
-    ],
+    "eps": [],
+    "revenue": [],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2026 (fiscal year ended Jan 25, 2026)",
-      "pct": 73,
-      "note": "Full-year FY2026 revenue was $215.9B; Q4 FY2026 revenue of $68.1B was up 73% YoY and 20% QoQ. Q3 FY2027 (the quarter about to be reported Nov 17, 2026) growth figure not yet available."
+      "period": null,
+      "pct": null,
+      "note": "Not established in this research pass"
     },
     "nextEarnings": {
       "date": "2026-11-17",
-      "confirmed": true,
-      "note": "RESOLVED: NVIDIA's own investor-relations release (Oct 28, 2026, investor.nvidia.com) confirms the fiscal Q3 FY2027 earnings call for Tuesday, November 17, 2026 at 2:00pm PT / 5:00pm ET, with CFO commentary posted to investor.nvidia.com at approximately 1:20pm PT right after results are announced. This is the authoritative primary-source date; third-party calendar entries showing Nov 18 or Nov 25 predate or disregard the company's own release and should be treated as superseded."
+      "confirmed": true
     }
   },
   "price": {
-    "last": 178.67,
-    "changePct": -4.27,
-    "asOf": "2026-11-09",
-    "source": "heygotrade.com",
-    "note": "Most recent confirmed close found this session is Nov 9, 2026 ($178.67, -4.27%/-$7.97). No Nov 10, 11 or 12 close was located (stockanalysis.com, cnbc.com, google.com egress-blocked); the existing -5.48%-to-$176.41 Nov 11 premarket figure on file is retained as the latest data point for that date."
+    "last": 186.64,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-08",
+    "note": "No reliable quote specifically for 2026-11-12 or 2026-11-13 (the requested PM research window) was located. The most recent dated figure found was $186.64 on 2026-11-08, down from an intraday low of $211.26 on 2026-10-22."
   },
   "catalysts": [
     {
@@ -129,6 +104,20 @@
       "headline": "NVDA fell 9.26% to close at $181.60 (from $200.13 on 2026-11-04), its largest single-session decline in the trailing 365 days, as a broad AI/chip-stock selloff hit the sector amid post-midterm-election concern over political risk to AI data-center buildout; the Nasdaq Composite fell 5.5% (to 24,315.00) and the S&P 500 fell 4.4% (to 7,353.73) the same session, erasing roughly $3 trillion in market value market-wide.",
       "impact": "-9.26% confirmed close",
       "source": "https://kalkine.ca/news/technology/is-nvidia-nasdaqnvda-below-its-year-end-level-after-a-926-slide-to-usd-18160 ; https://www.trefis.com/stock/nvda/articles/623357/what-sent-nvidia-stock-lower/2026-11-06"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "event announcement",
+      "headline": "NVIDIA confirmed it will report fiscal Q3 2027 results (quarter ended 2026-10-25) via a conference call on 2026-11-17 at 2:00pm PT / 5:00pm ET",
+      "impact": "Confirms the upcoming earnings date, which falls after this report's date (2026-11-13)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "price move",
+      "headline": "NVDA traded as low as $211.26 intraday, down from a prior close of $221.97, around the time of GTC Berlin announcements",
+      "impact": "Notable pullback; GTC Berlin reinforced NVIDIA's expansion beyond GPUs",
+      "source": "MarketBeat instant alert, 2026-10-22"
     },
     {
       "date": "2026-10-13",
@@ -202,12 +191,35 @@
     }
   ],
   "conflicts": [
-    "Carried forward: market cap and trailing P/E snapshots found this session ($5.08T-$5.3T; shares 24.1B-24.3B) are all dated to Aug-Oct 2026, none to the current ~$176-179 price range, so no current market cap/P/E is reported.",
-    "NVDA Nov 12 2026 price reaction to the Huang resignation is reported inconsistently: Yahoo Finance says shares fell as much as 13% intraday before paring losses; Washington Post reports down 9% in early trading, narrowing to down 4% by late morning; a separate Benzinga premarket report (ahead of the open, based on the overnight WSJ report of an impending ouster) put the move at -8.56% to 58.92. No single reconciled close for Nov 12 was found this session."
+    "Market cap figures span a wide range depending on source/date: ~$4.4T at $180.4 (Trefis, 2026-11-10) vs $4.85T at $200.13 (ROIC.ai, undated) vs $5.08T (Equibles, undated) vs $5.57T (OpenCapital, undated). Only the Trefis figure carries a clear date.",
+    "No price data specific to 2026-11-12 or 2026-11-13 was located; the most recent dated quote found was $186.64 on 2026-11-08.",
+    "Shares outstanding: 24.1B (Arincen, 2026-11-04) vs 24.29B in the same source's own quarterly table for the period ending 2026-07-26 — a minor variance, plausibly reflecting buybacks."
   ],
   "pendingFilings": [],
-  "notes": "No confirmed close found for Nov 10, 11 or 12, 2026 this session — stockanalysis.com, cnbc.com and google.com are egress-blocked in this sandbox, and WebSearch did not surface a dated figure for those sessions. Next earnings (Q3 FY2027) remains confirmed for 2026-11-17 per the existing record. MAJOR UPDATE 2026-11-12: Jensen Huang resigned as CEO today (see new catalyst above) -- this is the resolution of the board investigation disclosed Nov 8 that was already on file. Next earnings (Q3 FY2027) remains scheduled for 2026-11-17 per multiple sources, now notably with no permanent CEO in place.",
+  "notes": "Could not establish a current (2026-11-13) price, market cap, trailing/forward P/E, or EPS/revenue history with confidence in this research pass. NVIDIA's next earnings (fiscal Q3 FY2027) is confirmed for 2026-11-17 — after this report's as-of date. NVIDIA's second GTC event of 2026 (Washington, D.C., Nov 30-Dec 3, with a Jensen Huang keynote Dec 1) is also upcoming. Recommend a dedicated follow-up pass closer to/after the Nov 17 print for reliable fundamentals.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -473,13 +485,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
       "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

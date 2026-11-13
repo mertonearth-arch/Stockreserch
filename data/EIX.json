@@ -1,48 +1,44 @@
 {
   "ticker": "EIX",
   "name": "Edison International",
-  "sector": "Utilities (Electric)",
+  "sector": "Utilities",
   "theme": "Utilities & Wildfire Liability",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.080Z",
+  "lastResearched": "2026-11-13T21:33:08.073Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not found in accessible sources"
+      "note": "no figure confirmed this pass; only share price snapshots found"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not found from a usable (non-stockanalysis) source this session."
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 384810000,
-      "asOf": "2026-10-05",
-      "source": "Google Finance (via web search snapshot)"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
-      "note": "Figures found (2.78% of shares outstanding, down from a prior 13.78M shares) were attributed to stockanalysis.com and excluded per task instructions; no alternate source found."
+      "note": "not retrieved this pass"
     },
     "cash": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; EIX's 10-Q balance sheet was not reachable (SEC EDGAR blocked)."
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session; same constraint as cash above. Note EIX, as a regulated utility, normally carries substantial long-term debt — figure simply not verified here."
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not found in accessible sources"
+      "note": "not established this pass (company is profitable)",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
@@ -53,7 +49,14 @@
       {
         "period": "Q3 2026",
         "value": 1.92,
-        "basis": "core (non-GAAP)"
+        "basis": "core (non-GAAP)",
+        "note": "beat Zacks consensus of $1.83; net income of $724M"
+      },
+      {
+        "period": "Q3 2025",
+        "value": 2.16,
+        "basis": "core (non-GAAP)",
+        "note": "prior-year comparable quarter; net income of $832M"
       }
     ],
     "revenue": [
@@ -61,38 +64,61 @@
         "period": "Q3 2026",
         "value": 4890000000,
         "yoy": null,
-        "note": "Missed ~$5.34B consensus; prior-year Q3 2025 revenue not found this session so YoY not computed."
-      },
-      {
-        "period": "Q2 2026",
-        "value": 4360000000,
-        "yoy": null
+        "note": "missed analyst estimates by 11.7%; prior-year comparable revenue not found"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -15,
-      "note": "revenue ~$4.89B vs. ~$5.75B in Q3 2025; prior-year quarter included a one-time rate-case true-up that inflated the comparison base"
+      "pct": null,
+      "note": "not computable from sources found; core EPS instead declined ~11% YoY ($1.92 vs $2.16)"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 2026 results typically expected late Feb 2027 based on prior-year cadence; no confirmed date found"
+      "note": "Q3 2026 already reported; Q4/FY2026 date not found"
     }
   },
   "price": {
-    "last": 61.48,
+    "last": 58.79,
     "changePct": null,
-    "asOf": "2026-11-05",
-    "source": "Trefis"
+    "rvol": null,
+    "asOf": "2026-10-30"
   },
   "catalysts": [
+    {
+      "date": "2026-11-30",
+      "type": "program deadline (upcoming)",
+      "headline": "Deadline for the Wildfire Recovery Compensation Program, which had issued over 3,200 offers totaling ~$1.1B as of October 2026 (its strongest month to date)",
+      "impact": "Ongoing wildfire-liability resolution milestone",
+      "source": "https://www.webull.com/news/15721344756229120"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "regulatory deadline (upcoming)",
+      "headline": "Deadline for a possible special California legislative session on wildfire reform, after the regular session ended without durable reform; CEO Pedro Pizarro voiced disappointment",
+      "impact": "Outcome not yet known as of 2026-11-13; a near-term watch item",
+      "source": "https://www.panabee.com/news/edison-earnings-q3-2026"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "analyst action",
+      "headline": "Mizuho lowered its EIX price target further to $63.00, citing continued wildfire-reform uncertainty",
+      "impact": "Negative revision",
+      "source": "https://www.aaii.com/investingideas/article/537737-why-edison-international8217s-eix-stock-is-down-2315"
+    },
     {
       "date": "2026-11-02",
       "type": "analyst action",
       "headline": "Mizuho cut its price target on Edison International to $63, citing ongoing California wildfire-liability-reform uncertainty.",
       "source": "https://www.trefis.com/data/companies/EIX?from=section_ticker"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Edison International reported Q3 2026 results: core EPS $1.92 (beat $1.83 est.) vs $2.16 in the prior-year quarter; GAAP EPS $1.88; revenue $4.89B missed estimates by 11.7%; reaffirmed FY2026 core EPS guidance of $5.90-$6.20 and its 5-7% annual EPS growth target through 2030",
+      "impact": "EPS beat was overshadowed by the revenue miss and ongoing wildfire-reform uncertainty",
+      "source": "https://www.zacks.com/stock/news/3019735/edison-international-q3-earnings-outpace-estimates,-revenues-miss"
     },
     {
       "date": "2026-10-29",
@@ -224,6 +250,13 @@
     },
     {
       "date": "2026-08-31",
+      "type": "regulatory/legislative",
+      "headline": "Stock fell sharply after a California legislative proposal to shield utilities from insurer-subrogation lawsuits failed; Mizuho downgraded EIX to Neutral and cut its price target to $70",
+      "impact": "Negative — increases perceived wildfire liability exposure",
+      "source": "https://www.fool.com/investing/2026/08/31/why-edison-international-stock-just-crashed/"
+    },
+    {
+      "date": "2026-08-31",
       "type": "regulatory",
       "headline": "California State Assembly revised SB 492, stripping out utility wildfire-liability shields and omitting Gov. Newsom's provision barring insurer subrogation suits against utilities; Mizuho cut EIX to Neutral from Outperform, Argus cut to Hold from Buy",
       "impact": "premarket -19.00%",
@@ -251,11 +284,33 @@
     }
   ],
   "conflicts": [
-    "Price: Trefis $61.48 (as of 2026-11-05) vs. Earnings Whispers $59.38 (undated) vs. StreetInsider $56.77 (undated) vs. Yahoo Finance $68.32 (undated) — no single November 2026 quote confirmed across sources; using Trefis's dated figure as the best-dated reading."
+    "Current price: $55.30 (Webull, undated) vs $57.35 (Benzinga, 2026-10-23) vs $58.79 (AAII, 2026-10-30) vs $59.71 (Investing.com, undated) vs $61.42 (stockevents.app, undated) — using the most clearly dated figure ($58.79, 2026-10-30); no confirmed 2026-11-13 close found. 52-week low of $51.10 was set 2026-09-29."
   ],
   "pendingFilings": [],
-  "notes": "Coverage also references a possible California legislative special session around a November 15, 2026 deadline on wildfire-liability reform, but this is a forward-looking item, not yet a dated event — not recorded as a catalyst.",
+  "notes": "Two new, dated developments since the baseline: Q3 2026 earnings (Oct 29) and a fresh Mizuho price-target cut (Nov 2), plus two live upcoming watch-item deadlines (Nov 15 special-session question, Nov 30 compensation-program deadline) that had not yet resolved as of this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -573,11 +628,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

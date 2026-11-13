@@ -1,81 +1,95 @@
 {
   "ticker": "VEEA",
   "name": "Veea Inc.",
-  "sector": "Technology (Edge Computing / IoT)",
+  "sector": "Technology (edge computing / connectivity)",
   "theme": "Government IT & Defense Services",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.065Z",
+  "lastResearched": "2026-11-13T21:33:08.062Z",
   "fundamentals": {
     "marketCap": {
-      "value": 13400000,
-      "asOf": "2026-11-02",
-      "source": "derived from $4.30 price and ~3.11M shares outstanding (marketchameleon.com)"
+      "value": 13970000,
+      "asOf": "2026-11-05",
+      "source": "Motley Fool (publicly-traded-shares basis)"
     },
-    "float": null,
+    "float": {
+      "value": null,
+      "note": "Not established"
+    },
     "sharesOutstanding": {
       "value": 3110000,
-      "source": "marketchameleon.com",
-      "note": "post 1-for-20 reverse split (effective late August 2026)"
+      "asOf": "~2026-10/11 2026 (post reverse split)",
+      "source": "Motley Fool / Equibles",
+      "note": "Pre-split (pre-2026-08-28) figures of ~50.4M shares are stale and not comparable — see notes"
     },
     "shortInterest": {
-      "value": 0.8,
-      "asOf": "2026-07-02",
-      "source": "equibles.com",
-      "note": "~408K shares short, ~1.0 days to cover; described as rising. A separate stockanalysis.com snippet showed 337,378 shares / 2.71% of float on an undated, possibly pre-split basis — see conflicts."
+      "value": null,
+      "note": "Not established"
     },
     "cash": {
-      "value": 886970,
-      "asOf": "2026-06-30",
-      "source": "fool.com (Motley Fool), Q2 2026 balance sheet"
+      "value": 1594473,
+      "asOf": "2026-03-31 (Q1 2026 10-Q)",
+      "source": "SEC EDGAR 10-Q",
+      "note": "Stale (over 7 months old); Q3 2026 10-Q was not located in this research pass"
     },
     "debt": {
-      "value": 13440000,
-      "asOf": "2026-06-30",
-      "source": "fool.com (Motley Fool), Q2 2026 balance sheet"
+      "value": 10550000,
+      "asOf": "2026-06-30 (Q2 2026, per secondary aggregator reference)",
+      "source": "Secondary aggregator citing a 10-Q filed 2026-08-12",
+      "note": "Long-term debt including current maturities; not independently verified against the primary filing"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; TTM net income approximately -$12.25M per fool.com",
-      "asOf": "2026-11-11"
+      "note": "Early-commercial-stage company with net losses; no meaningful trailing P/E",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [
       {
-        "period": "H1 2025",
-        "value": 100000,
-        "yoy": null
-      },
-      {
-        "period": "H1 2026",
-        "value": 400000,
-        "yoy": 300
+        "period": "Q3 2025",
+        "value": 140000,
+        "yoy": null,
+        "note": "Third-party aggregator figure, not independently confirmed against the company's filing"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "TTM revenue reported as ~$491K (fool.com, date unclear); a year-over-year comparison figure was not found"
+      "note": "Q3 2026 revenue was not located in sources reviewed; the most recent confirmed-ish figure is a third-party estimate of ~$0.14M for Q3 2025"
     },
     "nextEarnings": {
-      "date": "2026-11-17",
+      "date": null,
       "confirmed": false,
-      "note": "listed by one data provider; not independently confirmed by company IR"
+      "note": "StockAnalysis listings disagree, showing either 2026-11-13 or 2026-11-17"
     }
   },
   "price": {
-    "last": 4.3,
-    "changePct": -10.8,
-    "asOf": "2026-11-02",
-    "source": "ryanoconnellfinance.com",
-    "note": "No quote found dated 2026-11-11; this is the most recent dated figure located."
+    "last": 4.49,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-05",
+    "note": "A separate source shows a close of $4.30 on 2026-11-02, down 10.8% that day. No quote specifically for 2026-11-11 through 2026-11-14 was located."
   },
   "catalysts": [
+    {
+      "date": "2026-11-02",
+      "type": "price move",
+      "headline": "VEEA closed at $4.30, down 10.8% from the previous close",
+      "impact": "Notable single-day decline",
+      "source": "MarketChameleon"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "regulatory",
+      "headline": "Nasdaq notified Veea that its remaining listing-compliance matter (governance/minimum-bid-price deficiencies) had been resolved and closed",
+      "impact": "Removes a delisting-risk overhang",
+      "source": "https://www.taiwannews.com.tw/news/6454999"
+    },
     {
       "date": "2026-10-09",
       "type": "governance/listing",
@@ -132,20 +146,59 @@
       "source": "Nasdaq.com press release / company 8-K, per WebSearch summary"
     },
     {
+      "date": "2026-08-28",
+      "type": "corporate action",
+      "headline": "Veea's 1-for-20 reverse stock split became effective (company's own filing); post-split trading began 2026-08-31 per a separate Nasdaq trader alert",
+      "impact": "Share count reduced ~20x; pre- and post-split figures are not comparable",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001840317/000121390026093996/ea0303433-8k_veea.htm"
+    },
+    {
       "date": "2026-08-26",
       "type": "corporate action",
       "headline": "Announced the reverse stock split (board approved ratio 2026-08-10; stockholders had approved a split range at the 2025-12-30 annual meeting)",
       "source": "Nasdaq.com press release"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "corporate action",
+      "headline": "Veea's board approved a 1-for-20 reverse stock split, within the range approved by stockholders at the 2025-12-30 annual meeting",
+      "impact": "Reverse split executed primarily for Nasdaq minimum-bid-price compliance",
+      "source": "https://www.nasdaq.com/press-release/veea-inc-announces-reverse-stock-split-2026-08-26"
     }
   ],
   "conflicts": [
-    "Short interest as % of float: ~0.8% / 408K shares (equibles, as of 2026-07-02, post-split) vs 337,378 shares / 2.71% of float (stockanalysis.com snippet, undated) — percentages are not reconcilable without knowing each source's float base and whether it is pre- or post- the 1-for-20 reverse split.",
-    "Price history shows a large jump from roughly $0.12 (pre-split, pre-August 2026) to the $4-5 range after the 1-for-20 reverse split — this is a confirmed reverse split (not a data error), per taiwannews.com reporting on the Nasdaq compliance timeline.",
-    "Market cap estimates range from ~$9.8M (Yahoo, Sept 23 2026) to ~$13.4M (derived Nov 2 2026) to ~$12.38M (roic.ai, undated) — all roughly consistent given the stock's volatility, but not from a single date."
+    "Market cap/share-count consistency: Motley Fool shows a $13.97M market cap at $4.49 (2026-11-05) implying ~3.11M shares; Equibles shows a $9.58M market cap at $4.87 (2026-10-06), also citing ~3.11M shares — 3.11M x $4.87 would imply ~$15.1M, not $9.58M, so the two sources' market-cap and share-count figures are not internally consistent with each other.",
+    "Older sources (Google Finance, Equibles) show ~50.4M shares outstanding and a price near $0.34 — these predate the 2026-08-28 1-for-20 reverse split and are not comparable to current figures (flagged per the reverse-split guidance rather than treated as a live conflict).",
+    "Assigned theme fit: 'Government IT & Defense Services' was not corroborated in this research pass. Available sources describe Veea as a secure edge-computing/connectivity/AI company serving enterprise, telecom, and public-sector customers generally (e.g., a Telarus technology-services distribution agreement, a TROLLEE retail-store deployment), but no specific defense or government contract award was located for the Nov 2026 window or the prior ~6 months.",
+    "Next earnings date: 2026-11-13 vs 2026-11-17 given by different StockAnalysis listings — unresolved."
   ],
-  "pendingFilings": [],
-  "notes": "Checked for news this session (2026-11-12); found nothing dated beyond what's already on file as of 2026-11-11 (last confirmed price/market-cap snapshot remains 2026-11-02; TROLLEE, NovaGen and Telarus items on file remain the most recent substantive catalysts). No new earnings-date confirmation found for the 2026-11-17 estimate.",
+  "pendingFilings": [
+    "10-Q filed ~2026-08-12 (Q2 2026, per secondary reference); Q3 2026 10-Q not located as of this report"
+  ],
+  "notes": "VEEA completed a 1-for-20 reverse stock split effective 2026-08-28 — pre-split price/share-count history is not comparable to current figures (flagged per reverse-split rule). The most recent 10-Q located dates to Q1 2026 (period ended 2026-03-31); Q3 2026 financials were not found in sources reviewed, so the cash/debt figures above are stale or unverified. The business description found in this pass does not clearly support a 'Government IT & Defense Services' categorization — it reads as a commercial/public-sector edge-computing company; flagging for theme review by the desk.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -317,10 +370,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

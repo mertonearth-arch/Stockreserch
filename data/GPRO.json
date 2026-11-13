@@ -1,18 +1,18 @@
 {
   "ticker": "GPRO",
   "name": "GoPro, Inc.",
-  "sector": "Consumer Hardware",
+  "sector": "Consumer Discretionary (hardware)",
   "theme": "Consumer Hardware",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.083Z",
+  "lastResearched": "2026-11-13T21:33:08.076Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established — not retrieved from a live source before WebSearch budget for this session was exhausted."
+      "note": "Reported as ~$227M in September 2026 Starman-merger coverage, but that predates the current ~$0.69 price and is stale."
     },
     "float": {
       "value": null,
@@ -20,65 +20,81 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Conflicting figures found (144.72M undated Equibles vs 157.55M StockAnalysis, the latter dated to a May 2025 period)."
     },
     "shortInterest": {
       "value": null,
       "note": "Not established this session."
     },
     "cash": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 27300000,
+      "asOf": "Q2 2026 10-Q period",
+      "note": "Exited the quarter with $27.3M cash against $72.7M of short-term debt — a liquidity concern flagged by coverage."
     },
     "debt": {
-      "value": null,
-      "note": "Not established this session."
+      "value": 72700000,
+      "asOf": "Q2 2026",
+      "note": "Short-term debt only; total debt not established."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings in recent quarters (GAAP net loss); multiple not established",
-      "asOf": "2026-11-11"
+      "note": "Company has negative GAAP earnings."
     },
     "eps": [
       {
+        "period": "Q2 2026",
+        "value": null,
+        "basis": "Non-GAAP",
+        "note": "Missed Q2 EPS estimate by 23 cents per one source; absolute figure not stated."
+      },
+      {
         "period": "Q3 2025",
-        "value": -0.13,
-        "basis": "GAAP"
+        "value": -0.09,
+        "basis": "Non-GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 2025",
-        "value": null,
+        "period": "Q1 2026",
+        "value": 99100000,
         "yoy": null
       },
       {
         "period": "Q2 2026",
         "value": 104900000,
-        "yoy": -31,
-        "note": "hardware revenue $76.0M (down ~40%, largely on a 51.7% drop in camera units shipped); subscription & services revenue $29.0M"
+        "yoy": -31
+      },
+      {
+        "period": "Q3 2025",
+        "value": 163000000,
+        "yoy": -37
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q2 2026",
-      "pct": -31,
-      "note": "Most recent CONFIRMED quarter found in sources; Q3 2026 figures not located this session."
+      "pct": -31
     },
     "nextEarnings": {
       "date": "2026-11-05",
-      "confirmed": false,
-      "note": "Yahoo Finance lists an earnings date of 2026-11-05, but no Q3 2026 results were found in accessible sources as of 2026-11-12 — conflicts with the prior pass's 2026-11-09 estimate; see conflicts."
+      "confirmed": true,
+      "note": "Yahoo listed this as the Q3 2026 earnings date, which has already passed as of this report (Nov 13), but the actual Q3 2026 results release/figures could not be located before this pass's search budget ran out."
     }
   },
   "price": {
-    "last": 0.9,
-    "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "Motley Fool quote page"
+    "last": 0.6882,
+    "asOf": "2026-11-12",
+    "note": "From a UK-localized Investing.com page date-stamped '12/11/2026' (DD/MM format = Nov 12, 2026); treat with some caution."
   },
   "catalysts": [
+    {
+      "date": "2026-11-03",
+      "type": "product",
+      "headline": "GoPro to showcase new MISSION 1 series cameras at DEMA Show 2026",
+      "impact": "Product-marketing event for the recently unveiled Mission 1 Pro camera line (originally unveiled late August 2026).",
+      "source": "company press release"
+    },
     {
       "date": "2026-11-03",
       "type": "product",
@@ -120,6 +136,13 @@
       "headline": "GPRO up 11% to $1.57 intraday; commentary frames this as possibly speculative/meme-driven rather than merger-arbitrage, since it traded above the pending deal's $1.14 cash value",
       "impact": "positive, unexplained by company news",
       "source": "https://247wallst.com/investing/2026/09/10/gopro-spikes-11-as-lumentum-eases-and-coherent-holds-flat-is-this-a-merger-trade-or-a-meme-trade/"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "M&A",
+      "headline": "GoPro announces $285M cash merger/recapitalization with Starman Optical, a privately held photonics company",
+      "impact": "Would add a U.S. onshore optical-transceiver business; GoPro would remain listed on Nasdaq.",
+      "source": "company announcement coverage (TipRanks)"
     },
     {
       "date": "2026-09-01",
@@ -185,11 +208,37 @@
     }
   ],
   "conflicts": [
-    "Next earnings date: prior system note says 2026-11-09 (unconfirmed, per system state); Yahoo Finance (2026-11-12 search) shows 2026-11-05. Neither a Q3 2026 earnings release nor results were located as of 2026-11-12 under either date."
+    "Price: Fool $0.90 close (2026-11-06) vs Investing.com UK $0.6882 (2026-11-12) vs Debelegger $0.93 (2026-10-30) — a roughly 30% swing across sources in under a week.",
+    "Shares outstanding: 144.72M (undated, Equibles) vs 157.55M (StockAnalysis, dated to ~May 2025) — likely reflects dilution from the 424B3 share issuances between those dates.",
+    "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float."
   ],
-  "pendingFilings": [],
-  "notes": "Q3 2026 earnings status is the key open item: nextEarnings on file is 2026-11-09 (unconfirmed) and that date has passed, but no actual Q3 2026 print (revenue/EPS) was found via WebSearch in this session. Treat as PENDING CONFIRMATION, not as a miss or non-event. Market-cap/shares/float/short-interest/cash/debt fields are null because the WebSearch budget for this session was exhausted before those lookups could be completed — they are not confirmed zero or absent, simply unresearched this pass.",
+  "pendingFilings": [
+    "Form 424B3 (x2) — FY2026 prospectus supplements related to share issuances (Mateo/Yorkville)",
+    "Q3 2026 earnings release — date passed (Nov 5) but not located in this pass"
+  ],
+  "notes": "Markiplier (YouTuber) reportedly became GoPro's single largest shareholder around the Starman-merger news, cited as a driver of a sharp share-price pop, but no dated source pinned down exactly when. Company announced a 23% workforce reduction plan in April 2026. Balance sheet (cash $27.3M vs $72.7M short-term debt) is a notable liquidity flag.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -498,12 +547,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

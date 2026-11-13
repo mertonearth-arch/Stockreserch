@@ -8,75 +8,50 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.086Z",
+  "lastResearched": "2026-11-13T21:33:08.079Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session."
+      "asOf": "2026-11-05",
+      "note": "sources disagree sharply and don't reconcile with shares × price"
     },
     "float": null,
-    "sharesOutstanding": null,
+    "sharesOutstanding": {
+      "value": 2202224600,
+      "asOf": "~2026-11-05",
+      "source": "TipRanks / Trefis"
+    },
     "shortInterest": null,
-    "cash": null,
+    "cash": {
+      "value": null,
+      "note": "Q3 2026 release cited $5.8B of 'liquidity', not a specific cash balance"
+    },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not retrieved this session."
+      "note": "not located this pass",
+      "asOf": "2026-11-13"
     },
-    "eps": [
-      {
-        "period": "Q3 2025",
-        "value": 0.37,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "Q3 2026",
-        "value": 0.34,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "Q3 2026",
-        "value": 0.41,
-        "basis": "core/non-GAAP",
-        "note": "down from $0.50 a year earlier; missed Zacks consensus of $0.42 by 2.4%"
-      },
-      {
-        "period": "9M 2026",
-        "value": 1.06,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "9M 2025",
-        "value": 0.89,
-        "basis": "GAAP diluted"
-      }
-    ],
-    "revenue": [
-      {
-        "period": "Q3 2026",
-        "value": 6188000000,
-        "yoy": -0.99
-      }
-    ],
+    "eps": [],
+    "revenue": [],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "Wildfire Fund expense YoY",
       "period": "Q3 2026",
-      "pct": -1,
-      "note": "Total revenues $6.19B vs $6.25B in Q3 2025."
+      "pct": 64,
+      "note": "a cost line, not revenue — rose on accelerated amortization of the Wildfire Fund asset following SCE's Eaton fire disclosures; a Q3 2026 revenue figure was not located this pass"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "No next earnings date found; consistent with prior state."
+      "confirmed": false
     }
   },
   "price": {
-    "last": 13.28,
+    "last": 13.39,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-05",
-    "source": "tickertape.in quote aggregator"
+    "source": "trefis.com"
   },
   "catalysts": [
     {
@@ -108,6 +83,13 @@
       "note": "Date reflects the 10-Q's reporting period (2026-09-30); exact SEC filing date not independently confirmed this session. This is additional detail from the same Q3 2026 filing already partly on file (which only captured the Q3 earnings print itself)."
     },
     {
+      "date": "2026-09-18",
+      "type": "dividend",
+      "headline": "PG&E declares Q3 2026 common dividend of $0.05/share, payable Oct 15, 2026 (record date Sept 30)",
+      "impact": "Dividend held at prior level",
+      "source": "https://www.alphaspread.com/security/f/pcg/dividends"
+    },
+    {
       "date": "2026-09-08",
       "type": "analyst_action",
       "headline": "BofA downgraded PG&E to Neutral",
@@ -120,6 +102,13 @@
       "headline": "BofA Securities downgrades PCG to Neutral from Buy, cuts price target $24 -> $13; shares closed $13.27 that Monday",
       "impact": "negative / confirms depressed price level",
       "source": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/09/61554114"
+    },
+    {
+      "date": "2026-09-02",
+      "type": "corporate action",
+      "headline": "PG&E launches a strategic review and cuts its 2027 capital plan by $2 billion",
+      "impact": "Response to the failed legislative reform and rising borrowing costs",
+      "source": "https://www.fool.com/investing/2026/09/02/why-pge-stock-keeps-going-down/"
     },
     {
       "date": "2026-09-02",
@@ -140,6 +129,13 @@
       "headline": "California Assembly declines to vote on SB 492; bill dies without passing for the session",
       "impact": "mixed -- avoided the specific bad version, but no durable wildfire-liability fix enacted",
       "source": "https://www.insurancejournal.com/news/west/2026/09/02/883615.htm"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "legislative",
+      "headline": "California's 2026 legislative session ends without the wildfire liability reform PG&E sought",
+      "impact": "Reform effort fails for the year",
+      "source": "https://www.fool.com/investing/2026/08/31/why-pge-stock-just-crashed/"
     },
     {
       "date": "2026-08-31",
@@ -169,6 +165,13 @@
       "sourceName": "Investing.com"
     },
     {
+      "date": "2026-08-28",
+      "type": "legislative",
+      "headline": "PCG shares fall 7.52% after California lawmakers block wildfire-liability reform that would have shielded utilities from insurer subrogation claims",
+      "impact": "Removes a key potential catalyst for reducing PG&E's wildfire liability exposure",
+      "source": "https://www.fool.com/investing/2026/08/31/why-pge-stock-just-crashed/"
+    },
+    {
       "date": "2026-07-30",
       "type": "earnings",
       "headline": "Q2 2026: core EPS $0.40 (vs $0.31 Y/Y), GAAP EPS $0.33, revenue $5.90B (~flat Y/Y); reaffirmed FY2026 core EPS guidance $1.64-$1.66; completed $2.2B Utility bond issuance in June, $4.4B total debt financings YTD",
@@ -190,13 +193,31 @@
     }
   ],
   "conflicts": [
-    "Price: tickertape.in shows $13.28 as of 2026-11-05; foxbusiness.com-style snapshot shows $13.29 close on 2026-11-03; a later unsourced/undated aggregator figure shows $13.14. Figures are close but not identical; using the 2026-11-05 reading as most recently dated.",
-    "Market cap: sources disagree sharply — one gives $29.27B, another $39.9B (asOf 2026-11-05), a third $28.94B. The spread tracks a shares-outstanding disagreement (2.20B vs 2.68B); not reconciled, recorded verbatim rather than averaged.",
-    "Shares outstanding: 2.20B (majority of sources) vs 2.68B (one source) — not confirmed against PG&E's own SEC filings this pass."
+    "Market cap: Trefis ~$40.2B (using $13.39 price, 2026-11-05) vs Fox Business $29.51B vs TipRanks $37.04B — none reconcile cleanly with 2.2B shares × $13.39 (~$29.5B)",
+    "Dividend: Fox Business lists $0.05/share (ex-div 2026-09-30) while TipRanks lists an annual dividend of $0.025, which looks stale"
   ],
   "pendingFilings": [],
-  "notes": "marketCap and sharesOutstanding left null given the unresolved conflicts above rather than picking one reading.",
+  "notes": "Fitch reportedly moved PG&E's outlook to Negative from Stable (rating affirmed at BBB-) citing wildfire liability risk, but the exact action date wasn't found, so it's omitted from the dated catalyst list. Q3 2026 earnings exist (source of the Wildfire Fund/liquidity figures above) but the exact release date wasn't confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -447,10 +468,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

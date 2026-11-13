@@ -1,28 +1,30 @@
 {
   "ticker": "RBLX",
   "name": "Roblox Corporation",
-  "sector": "Communication Services",
+  "sector": "Technology",
   "theme": "Consumer Internet & Gaming Platforms",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.088Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.081Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "One stale/undated source (Stockopedia) showed ~$25.43bn but with no as-of date; not used to avoid misdating. See conflicts."
+      "value": 35290000000,
+      "asOf": "~2026-11",
+      "source": "foxbusiness.com",
+      "note": "ROIC.ai shows a close but not identical $31.01B on a similar ~716M share count; other figures found are clearly stale or erroneous and excluded"
     },
     "float": {
-      "value": null,
-      "note": "Not disclosed separately in sources reviewed."
+      "value": 634930000,
+      "asOf": "~2026-11",
+      "source": "foxbusiness.com"
     },
     "sharesOutstanding": {
-      "value": 715696000,
-      "asOf": "2026-09-30",
-      "source": "SEC Form 10-Q, Roblox Corp FY2026 Q3 (accession 0001628280-26-068253), stockholders' equity statement",
-      "note": "Narrows prior conflict: close to Equibles' ~714.38M (2026-08-13) but disagrees with Massive.com/Google Finance's 669.99M (cited as of 2026-10-26). SEC filing treated as authoritative."
+      "value": 715710000,
+      "asOf": "~2026-11",
+      "source": "foxbusiness.com"
     },
     "shortInterest": {
       "value": 24100000,
@@ -30,54 +32,46 @@
       "note": "Equibles summary: ~24.1M shares short, ~3.4% of float, 1.8 days to cover. A separate, earlier FINRA settlement (2026-04-30) showed ~20.7M shares short, ~2.2 days to cover — treated as the prior data point, not a live conflict, since it's simply an earlier settlement date."
     },
     "cash": {
-      "value": 1093000000,
-      "asOf": "2026-09-30",
-      "source": "SEC Form 8-K, Q3 2026 earnings release exhibit",
-      "note": "Cash and cash equivalents only. Also disclosed: short-term investments $2.103B, long-term investments $3.042B (both up from 2025-12-31). Total stockholders' equity reported as a deficit of -$27M as of 2026-09-30."
+      "value": 6100000000,
+      "asOf": "2026-06-30",
+      "source": "Q2 2026 earnings coverage",
+      "note": "Q3 2026 balance-sheet cash figure not located this pass"
     },
     "debt": {
-      "value": null,
-      "note": "Not established this session — SEC EDGAR direct fetch failed in this sandbox; search-snippet excerpts of the 10-Q/8-K did not surface a debt line."
+      "value": 1009000000,
+      "asOf": "2026-06-30",
+      "note": "long-term debt as of Q2 2026"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Roblox reported a net loss in Q3 2026 ($230M) and on a trailing basis; negative earnings. Forward P/E not established this pass."
+      "note": "negative GAAP earnings (Q3 2026 net loss)",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [
       {
-        "period": "Q2 2026",
-        "value": 1469000000,
-        "yoy": 36,
-        "source": "SEC 8-K Q2 2026 earnings exhibit",
-        "note": "Resolves prior dispute in favor of the Shacknews figure (~$1.47B); Benzinga's $1.56B is not corroborated by the primary filing."
-      },
-      {
         "period": "Q3 2026",
-        "value": 1570000000,
-        "yoy": 16,
-        "source": "Q3 2026 earnings release (on-file catalyst, formalized into the revenue array)"
+        "value": 1572000000,
+        "yoy": 16
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 16,
-      "note": "Q3 2026 revenue $1.57B vs prior-year quarter, net loss narrowed 11% YoY to $230M"
+      "note": "bookings — the metric Roblox emphasizes — instead fell 12% YoY to $1.697B"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "Q4/FY2026 results not yet scheduled as of 2026-11-11; company said it will issue 2026-cycle guidance context on the Q4 call. Historically reported in early-to-mid February."
+      "confirmed": false
     }
   },
   "price": {
-    "last": 47.65,
+    "last": null,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "Fox Business quote page",
-    "note": "No price data dated after Nov 6, 2026 was retrievable this pass (search budget exhausted, most quote-site domains unreachable from this sandbox). Day-over-day change not computable from available data."
+    "rvol": null,
+    "asOf": "2026-11-13"
   },
   "catalysts": [
     {
@@ -92,6 +86,13 @@
       "headline": "RBLX traded higher intraday alongside a broad tech/chip-stock rebound following the prior day's AI-sector selloff; Finviz showed $48.88 (+2.57% vs. the $47.65 Nov 5 close) as of ~2:50pm ET -- not a confirmed close.",
       "impact": "unconfirmed, approx. +2.6% intraday",
       "source": "Finviz intraday quote, 2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "insider transaction",
+      "headline": "Director Gregory Baszucki sold Roblox shares at prices of roughly $44-46",
+      "impact": "Disclosed insider sale; one data point on the post-earnings share-price range",
+      "source": "https://www.foxbusiness.com/quote?stockTicker=RBLX"
     },
     {
       "date": "2026-11-05",
@@ -119,6 +120,20 @@
       "type": "guidance/price reaction",
       "headline": "Shares gapped down from $52.46 (Oct 28 close) to as low as $43.31 premarket (-17.4%) after Roblox guided Q4 2026 bookings to decline 10-15% YoY and gave cautious initial 2026-cycle commentary",
       "source": "https://www.marketbeat.com/instant-alerts/price-roblox-nyse-rblx-shares-gap-down-time-to-sell-2026-10-30/"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Roblox Q3 2026: revenue $1.572B (+16% YoY), net loss narrowed to ~$227-230M; bookings fell 12% YoY to $1.697B (above high end of guidance); DAUs down 9% YoY to 138M, hours engaged down 15%",
+      "impact": "Revenue beat alongside declining engagement metrics; management points to AI creation tools (>80% of top 100 experiences now use them)",
+      "source": "https://massivelyop.com/2026/10/30/roblox-marks-a-rise-in-revenue-more-gen-ai-games-and-a-chase-for-over-18-users-in-third-quarter-earnings-report/"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "guidance",
+      "headline": "Roblox guides Q4 2026 bookings to $1.890B-$2.000B, down 10-15% YoY",
+      "impact": "Guidance implies continued YoY bookings decline into year-end",
+      "source": "https://cryptobriefing.com/roblox-shares-drop-weak-q4-guidance/"
     },
     {
       "date": "2026-10-29",
@@ -162,19 +177,33 @@
     }
   ],
   "conflicts": [
-    {
-      "field": "price/marketCap",
-      "values": [
-        "Fox Business: $47.65 close, as of 2026-11-06",
-        "Undated source (Stockopedia-style aggregator): ~$56.70 with 52-week range $40.15-$150.59 (no as-of date, 52-week high looks inconsistent with recent $43-53 trading range reported by MarketBeat around the Oct 29 earnings date)",
-        "Stockopedia snippet: market cap '~$25.43bn' with no as-of date"
-      ],
-      "note": "Could not confirm which reading is current; not resolved this pass due to blocked fetch access to live quote pages."
-    }
+    "Stock reaction to Q3 earnings reported inconsistently: one source says shares fell as much as 17% after hours on weak guidance/engagement, another says shares merely 'dipped'.",
+    "Net loss figure given as both $227M and $230M for Q3 2026 across sources",
+    "Market cap/share-count sources disagree widely: usable figures cluster around $31-35B / ~716M shares, but other pages show $25.43B, $56.87B, and an apparently erroneous $622.29B"
   ],
   "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no news found dated after the Nov 6 close already on file. Q3 2026 earnings cycle remains the latest material event.",
+  "notes": "New since last pass: Q3 2026 earnings (Oct 29) — a bookings decline (-12% YoY) against a revenue beat (+16% YoY), a divergence the market read as a negative engagement signal despite the headline beat.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -421,10 +450,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

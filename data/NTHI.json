@@ -1,44 +1,43 @@
 {
   "ticker": "NTHI",
   "name": "NeOnc Technologies Holdings, Inc.",
-  "sector": "Biotechnology (Clinical-Stage, Neuro-Oncology)",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "nano-cap",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.074Z",
+  "lastResearched": "2026-11-13T21:33:08.068Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Sources disagree by more than 2x; see conflicts"
     },
     "float": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not disclosed/found"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Sources disagree significantly (range ~19.5M-28.8M); see conflicts"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "cash": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Sources disagree by orders of magnitude (range ~$58.7K-$6.17M); see conflicts"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Reported near $310K-$346K in some sources but not independently confirmed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "pre-revenue / no earnings (clinical-stage biotech)",
-      "asOf": "2026-11-11"
+      "note": "Pre-revenue clinical-stage company; negative earnings"
     },
     "eps": [],
     "revenue": [],
@@ -46,21 +45,28 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech; no revenue to measure YoY growth against."
+      "note": "Pre-revenue clinical-stage biotech"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "Not established this session; company does not appear to have a widely tracked earnings calendar entry in sources reviewed."
+      "confirmed": false
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "Not established this session."
+    "last": 3.07,
+    "changePct": 0,
+    "rvol": null,
+    "asOf": "2026-11-03",
+    "note": "Most recent dated figure found (flat on the day). No confirmed price for 2026-11-13; see conflicts for the wide spread of other undated/differently-dated figures."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "regulatory",
+      "headline": "FDA End-of-Phase 1 Type B meeting (in-person, FDA White Oak campus) for lead candidate NEO212 to discuss proposed patient population, trial design, endpoints, dose selection, and the evidence that could support a future marketing application",
+      "impact": "Company explicitly states the meeting's scheduling does not itself establish FDA agreement on trial design, an accelerated approval pathway, or eventual approval",
+      "source": "https://www.biospace.com/press-releases/powerful-neonc-brain-cancer-pipeline-advances"
+    },
     {
       "date": "2026-11-17",
       "type": "regulatory",
@@ -196,10 +202,35 @@
       "note": "Background context cited in coverage of the Sept 17 redemption; exact June date not pinned down."
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding: ~28.81M (Morningstar/Motley Fool) vs ~24.13M (roic.ai) vs ~19.47M (Simply Wall St) vs 19M-23M (Trefis, 2025-2026) — no consistent figure found.",
+    "Market cap: ~$90.7M (Morningstar, at $3.26) vs ~$92.2M (Motley Fool) vs ~$193.8M (Simply Wall St, appears based on a different/stale price).",
+    "Cash & equivalents: ~$6.17M with ~$310K debt (Motley Fool) vs ~$138.6K cash with ~$346K debt (roic.ai) vs ~$58.7K (TipRanks) — figures differ by orders of magnitude.",
+    "Stock price: $3.07 (2026-11-03) vs $3.00 (Weiss Ratings, referencing an Aug 10, 2026 10-Q) vs $4.80 (Trefis, 2026-06-22) vs $2.73 (Upstox, 2026-10-10) vs $2.65 (ryanoconnellfinance, 2026-10-14) — stock may simply be volatile, but no source confirms a 2026-11-13 close."
+  ],
   "pendingFilings": [],
-  "notes": "Checked 2026-11-12: confirmed the Society for Neuro-Oncology (SNO) 31st Annual Meeting runs Nov 12-15 in Philadelphia with NeOnc's NEO100/NEO212 posters on Nov 13, consistent with the catalyst already on file -- no new date or outcome. FDA End-of-Phase 1 Type B meeting for NEO212 remains scheduled 2026-11-17 at FDA White Oak, no outcome yet. Much of the sourcing (biopharmawatch, 24/7 Market News) discloses it is paid by NTHI for coverage -- treated as promotional, not independently added as a new catalyst this pass. Market cap/shares/float/short-interest/cash/debt still not established via reachable sources.",
+  "notes": "Ticker NTHI corresponds to NeOnc Technologies Holdings, Inc. (not 'Neuro-Hitech' or 'NeuroOne,' which do not trade under this ticker). Company selected a recommended Phase 2 dose of 610 mg for NEO212 following dose escalation to a protocol-defined maximum tolerated dose of 810 mg (exact date of this disclosure not confirmed). Fundamental figures vary enormously across aggregator sources — recommend verifying against NTHI's most recent 10-Q (apparently filed on/around 2026-08-10 for Q2 2026) on SEC EDGAR directly.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -437,10 +468,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

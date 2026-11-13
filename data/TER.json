@@ -1,18 +1,19 @@
 {
   "ticker": "TER",
   "name": "Teradyne, Inc.",
-  "sector": "Information Technology",
+  "sector": "Technology / Semiconductor Capital Equipment",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.090Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.082Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not established this pass"
+      "value": 62300000000,
+      "asOf": "2026-10-08",
+      "source": "Google Finance (via search snapshot)"
     },
     "float": {
       "value": null,
@@ -20,9 +21,9 @@
       "note": "Not located in sandbox search."
     },
     "sharesOutstanding": {
-      "value": 156500000,
-      "asOf": "2026-08-19",
-      "source": "Equibles"
+      "value": 156300000,
+      "asOf": "2026-10-08",
+      "source": "Google Finance / Motley Fool (via search snapshot, ~156.3-156.34M consistent across two sources)"
     },
     "shortInterest": {
       "value": 5.1,
@@ -42,54 +43,59 @@
       "note": "Described as short-term debt only; the aggregator shows no long-term debt line for this period. Unverified against the primary filing; prior-quarter (2026-03-29) 10-Q had shown short-term debt of $0 and no outstanding revolver balance, so this reading was not simply carried over."
     },
     "pe": {
-      "trailing": null,
+      "trailing": 54.7,
       "forward": null,
-      "note": "Not established this pass; Teradyne has positive earnings, but no multiple could be sourced this pass."
+      "note": "As of ~2026-10-08 snapshot (a second source showed 55.4 at a slightly different price/date)",
+      "asOf": "2026-10-08"
     },
     "eps": [
       {
         "period": "Q3 2026",
-        "value": 2.17,
-        "basis": "GAAP",
-        "note": "GAAP net income $342.4M / diluted share"
+        "value": 2.29,
+        "basis": "non-GAAP",
+        "note": "+169.4% YoY, vs $2.04 consensus"
       },
       {
-        "period": "Q3 2026",
-        "value": 2.29,
-        "basis": "non-GAAP"
+        "period": "trailing 12mo",
+        "value": 7.29,
+        "basis": "GAAP",
+        "note": "per Google Finance snapshot ~2026-10-08"
       }
     ],
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 769000000,
-        "yoy": null
-      },
-      {
         "period": "Q3 2026",
         "value": 1306000000,
-        "yoy": 69.8
+        "yoy": 69.8,
+        "note": "beat consensus by 2.77%; Semiconductor Test segment was $1.072B (82.1% of total)"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "9M 2026",
-      "pct": 86,
-      "note": "Nine-month 2026 revenue reached $3.9B, +86% YoY, driven by AI-related compute/memory semiconductor test demand. A specific Q3-only YoY % was not disclosed in sources reviewed."
+      "period": "Q3 2026",
+      "pct": 69.8
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 results not yet scheduled as of 2026-11-11. For comparison, Q4/FY2025 results were announced via a Jan 13, 2026 press release ('Teradyne to Announce Fourth Quarter and Full Year 2025 Results'), implying a similar mid-to-late January 2027 announcement/report pattern for FY2026, but unconfirmed."
+      "note": "Q4 2026 report typically expected late Jan 2027; exact date not found this pass. Q4 2026 guidance: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25 (implies a 4th consecutive sequential EPS decline at midpoint per Earnings Whispers)"
     }
   },
   "price": {
     "last": null,
     "changePct": null,
-    "asOf": null,
-    "note": "Not established this pass"
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "note": "Not confirmed for 2026-11-13; see conflicts for dated snapshots found"
   },
   "catalysts": [
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "headline": "Teradyne Q3 2026 results: non-GAAP EPS $2.29 (+169.4% YoY, beat $2.04 est.), revenue $1.306B (+69.8% YoY, beat consensus by 2.77%)",
+      "impact": "AI-related revenue exceeded 60% of total sales per Q3 earnings call; management flagged margin pressure/spending mix as a headwind in Q4 guide",
+      "source": "https://www.zacks.com/stock/news/3017640 ; https://www.webull.com/news/15845907572417536"
+    },
     {
       "date": "2026-10-27",
       "type": "earnings",
@@ -134,10 +140,30 @@
       "source": "https://finviz.com/news/373906/teradyne-shares-rise-after-record-quarterly-results-and-strong-q3-outlook ; SEC 8-K exhibit: https://www.sec.gov/Archives/edgar/data/0000097210/000119312526321933/ter-ex99_1.htm"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Post-Q3-earnings stock reaction is reported inconsistently: one source says the stock fell 7.4% to ~$274 the day of the report; Earnings Whispers instead cites $323.68; a pre-earnings Google Finance snapshot (~2026-10-08) showed $398.72. These do not reconcile to a single confirmed price, and no 2026-11-13 price was found."
+  ],
   "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no news found dated after the Oct 27 Q3 2026 report already on file. Teradyne's dividend is typically declared mid-November but no 2026 declaration found yet this pass.",
+  "notes": "Estimated Q3 2026 earnings date (2026-10-27) found via one source is used as the catalyst date; treat as approximate if not independently re-verified. Market cap/shares outstanding/PE above are from a pre-earnings (~2026-10-08) snapshot and are likely stale relative to 2026-11-13.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -353,10 +379,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,75 +1,91 @@
 {
   "ticker": "IONQ",
   "name": "IonQ, Inc.",
-  "sector": "Quantum Computing",
+  "sector": "Technology",
   "theme": "AI Semiconductors",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.059Z",
+  "lastResearched": "2026-11-13T21:33:08.059Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12680000000,
+      "value": 12700000000,
       "asOf": "2026-11-05",
-      "source": "ORTEX (close $29.54 on 2026-11-05); roughly cross-checks against Fox Business's $13.86B/429.41M-shares snapshot"
+      "source": "Ortex (price $29.54)"
     },
     "float": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not established"
     },
     "sharesOutstanding": {
       "value": 429410000,
-      "asOf": "2026-11-05",
-      "source": "Fox Business; implied share count from ORTEX's market cap / price ($12.68B / $29.54 = ~429.2M) is consistent with this"
+      "asOf": "2026-10/11 2026",
+      "source": "Ortex / Fox Business"
     },
     "shortInterest": {
-      "value": 11.11,
-      "asOf": "2026-11-03",
-      "source": "ORTEX (% of free float, 2.1 days to cover, ~1% average borrow cost)"
+      "value": null,
+      "note": "Not established in sources reviewed"
     },
     "cash": {
-      "value": 2120000000,
-      "asOf": "2026-09-30",
-      "source": "equibles.com, described as 'net cash' (i.e. net of debt), not gross cash"
+      "value": 3700000000,
+      "asOf": "2026-11-06 (Q3 2026, pro forma for October equity offering)",
+      "source": "Company Q3 2026 earnings release (investors.ionq.com)"
     },
     "debt": {
       "value": null,
-      "note": "No standalone gross-debt figure found; only the net-cash figure above (which nets out any debt) was located. IonQ is not known to carry meaningful conventional debt."
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (pre-profitability quantum computing company)",
-      "asOf": "2026-11-11"
+      "note": "Q3 2026 GAAP net income of ~$564M was driven almost entirely by a non-cash ~$896M gain on warrant liabilities, not operating profitability; non-GAAP adjusted EPS was -$0.29. A meaningful trailing P/E is not available.",
+      "asOf": "2026-11-06"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": 1.42,
+        "basis": "GAAP basic (includes ~$896M non-cash warrant valuation gain)"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.29,
+        "basis": "Non-GAAP adjusted"
+      }
+    ],
     "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 39800000,
+        "yoy": null,
+        "note": "Implied by stated +336% YoY growth; not independently confirmed as a standalone figure"
+      },
       {
         "period": "Q3 2026",
         "value": 173800000,
-        "yoy": 336,
-        "note": "Recognized revenue, far above the conflicting $67M-$144.46M pre-report consensus estimates already on file."
+        "yoy": 336
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "Q3 2026 results were confirmed reported 2026-11-05 per system state, but the specific revenue figure/YoY growth rate was not retrieved from an available source before the WebSearch budget for this session was exhausted."
+      "pct": 336,
+      "note": "IonQ Platform revenue $90.3M (+127%) driven by Tempo deployments; SkyWater Foundry Services added $83.5M following the SkyWater acquisition"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "None scheduled; Q3 2026 already reported 2026-11-05 per system state."
+      "note": "Not located"
     }
   },
   "price": {
-    "last": null,
-    "changePct": 9.33,
-    "asOf": "2026-11-11",
-    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
+    "last": 32.26,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-07",
+    "note": "StockStory-cited price; a separate source cites a pre-earnings close of $29.54 on 2026-11-04 and a +23.42% move on 2026-11-06 — the exact day-over-day change is inconsistent across sources (see conflicts)."
   },
   "catalysts": [
     {
@@ -78,6 +94,34 @@
       "headline": "Stock reported up roughly 12% intraday amid a broader quantum-computing sector rally tied to a reported U.S. government plan to invest about $2 billion in quantum computing; IonQ itself was not named as a direct beneficiary of that plan (D-Wave Quantum and Rigetti Computing were named), but shares rose alongside peers. The same report also references a shareholder vote approving IonQ's pending acquisition of SkyWater Technology, and cites a share price of $58.84.",
       "impact": "+9.33% (per system state, today's session)",
       "source": "https://www.barchart.com/story/news/2067341/why-ionq-ionq-stock-is-up-today"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "price move",
+      "headline": "IONQ shares rose sharply (one source cites +23.42%) the trading day after Q3 earnings",
+      "impact": "Positive market reaction to beat-and-raise quarter",
+      "source": "https://fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "IonQ reported record Q3 2026 revenue of $173.8M (+336% YoY), beating ~$141.2M consensus; raised FY2026 revenue guidance to $505-515M (from $450-460M); Remaining Performance Obligations more than doubled to $1.2B",
+      "impact": "Large beat-and-raise quarter",
+      "source": "https://quantumcomputingreport.com/ionq-announces-record-q3-2026-revenues-of-173-8m-and-raises-fy-2026-guidance-to-over-505m-as-backlog-reaches-1-2b/amp/"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "M&A",
+      "headline": "IonQ announced the acquisition of Elisity for $1.15 billion in stock plus an earnout of up to $150 million",
+      "impact": "Expands into adjacent security/networking business; stock-funded deal is a dilution consideration",
+      "source": "https://finviz.com/news/418066/ionq-beats-and-raises-again-but-skywater-fueled-scale-arrives-with-deeper-operating-losses"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "program milestone",
+      "headline": "IonQ advanced to the final stage of DARPA's Quantum Benchmarking Initiative, the only trapped-ion company selected",
+      "impact": "Non-financial technology validation milestone",
+      "source": "https://fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today"
     },
     {
       "date": "2026-11-05",
@@ -165,13 +209,39 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding also reported as 405.14M (Yahoo Finance) and 373M (StockAnalysis, noting +44.82% YoY dilution) -- both lower than the 429.41M (Fox Business) / ~429.2M (implied by ORTEX) figures used above; not reconciled, likely reflects different as-of dates given IonQ's heavy 2026 share issuance (including the Oct 16 $2.0B offering).",
-    "Short interest also reported as ~10.5% of shares outstanding (Yahoo, 2026-08-14, ~42.4M shares short) and ~22% of shares outstanding in an earlier StockAnalysis snapshot -- both predate the 2026-10-16 $2.0B offering that diluted the share base, so the 11.11% ORTEX figure (2026-11-03) is used as the most current.",
-    "Q3 2026 GAAP diluted EPS of $1.42 (already on file) was driven entirely by a non-cash mark-to-market gain on warrants, not operating profitability (the company posted an adjusted EBITDA loss of $133.6M the same quarter); pe.trailing is kept null rather than computing a misleading multiple from the one-off gain."
+    "Market cap: $12.7B (Ortex, 2026-11-05, price $29.54) vs $14.1B (Fund Library, 2026-11-06, price $32.62) vs $13.86B (Fox Business, 2026-10-23) — different dates/prices.",
+    "Shares outstanding: ~429.4M (Ortex/Fox Business) vs 432,462,651 (Fund Library) vs stale figures of 373.17M (ROIC.ai) and 381.00M (Equibles).",
+    "Price trajectory after earnings: one source cites a pre-earnings close of $29.54 on 11/4 rising +23.42% on 11/6; a separate source (StockStory) cites a pre-earnings price of $26.63 rising to $32.26 by 11/7 — the two sources use different baseline prices for describing the same event, and a one-day drop of ~10% was also reported by one account the day results came out.",
+    "Q3 2026 net income: $563.96M (company-sourced) vs $563.11M (a secondary aggregator) — minor rounding/translation difference."
   ],
-  "pendingFilings": [],
-  "notes": "Market cap/shares/short interest/cash established this pass (were null on file). Debt remains unestablished as a standalone figure. Today's (2026-11-11 dated) catalyst already on file (quantum-sector rally / SkyWater vote) stands; no newer same-day item found.",
+  "pendingFilings": [
+    "8-K (Q3 2026 earnings release exhibit, filed on or around 2026-11-05/06, SEC EDGAR CIK 0001824920)"
+  ],
+  "notes": "GAAP net income was driven by a large non-cash warrant-revaluation gain, not operating profitability; adjusted losses widened YoY even as revenue grew sharply. Gross margins reportedly compressed due to the lower-margin SkyWater foundry-services revenue mix.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -453,15 +523,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
       "shortInterest updated",
       "cash updated",
       "debt updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

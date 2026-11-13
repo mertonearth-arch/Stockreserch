@@ -1,73 +1,72 @@
 {
   "ticker": "IREN",
-  "name": "IREN Ltd",
-  "sector": "Bitcoin Mining / AI Data Centers",
+  "name": "IREN Limited (formerly Iris Energy Limited)",
+  "sector": "Technology",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.074Z",
+  "lastResearched": "2026-11-13T21:33:08.067Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found in reachable sources this pass"
     },
     "float": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "cash": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "debt": {
       "value": null,
-      "note": "Not established this session."
+      "note": "Not found"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this session",
-      "asOf": "2026-11-11"
+      "note": "Not established; business model is transitioning from bitcoin mining to AI/GPU cloud hosting and earnings have been volatile"
     },
     "eps": [],
-    "revenue": [
-      {
-        "period": "Q1 FY2027 (ended 2026-09-30)",
-        "value": 228000000,
-        "yoy": null,
-        "note": "Total company revenue: AI Cloud $200M + bitcoin mining $28M (down from $67M in Q4 FY2026), per an SEC 8-K breakdown surfaced via WebSearch this session. A second reading ($240.3M, vs. a cited $241.97M consensus, per TipRanks/TheFly) of the same earnings release remains unreconciled -- both kept, see conflicts, never averaged."
-      }
-    ],
+    "revenue": [],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027",
+      "period": "Q1 FY2027 (qtr ended 2026-09-30)",
       "pct": null,
-      "note": "Q1 FY2027 was reported 2026-11-05 per system state; specific revenue figures not retrieved from an available source before the WebSearch budget for this session was exhausted."
+      "note": "Fiscal Q1 FY2027 results reported 2026-11-05 drove a ~20% share rally, but exact revenue/production figures were not captured in available sources this pass"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "None scheduled; Q1 FY2027 already reported 2026-11-05."
+      "confirmed": false
     }
   },
   "price": {
-    "last": null,
-    "changePct": -11.24,
-    "asOf": "2026-11-11",
-    "note": "changePct per system state (today's session move); exact closing price not independently confirmed this session."
+    "last": 21.41,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-09",
+    "note": "Most recent confirmed dated price found was the 2026-11-09 close; no 2026-11-12 or 2026-11-13 close could be confirmed via reachable sources. On 2026-11-06 the stock closed at $21.64, +20.02%, after fiscal Q1 FY2027 results released 2026-11-05."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Fiscal Q1 FY2027 results reported (quarter ended 2026-09-30); shares rose 20.02% to close at $21.64 on 2026-11-06",
+      "impact": "Positive market reaction tied to the company's pivot from bitcoin mining toward AI data-center/GPU cloud hosting",
+      "source": "https://www.heygotrade.com/en/news/iren-iren-stock-news-november-9-2026/"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -237,11 +236,32 @@
     }
   ],
   "conflicts": [
-    "A search snapshot (undated within the result, inferred ~2026-11-09) put IREN at $21.41 (-1.06% in 24h) with ~75.7M shares traded, while other undated snapshots from aggregator sites showed materially different levels (e.g. ~$23.95 and ~$34.77). These are likely stale/cached pages from different dates rather than a reverse-split signal, but the discrepancy could not be resolved this session and is flagged rather than averaged."
+    "No confirmed closing price for 2026-11-13; most recent two confirmed data points are $21.64 (2026-11-06, +20.02%) and $21.41 (2026-11-09)."
   ],
   "pendingFilings": [],
-  "notes": "Checked 2026-11-12 PM pass: WebSearch found no Nov 11/12-dated, IREN-specific news beyond what was already on file (the Nov 9 ~$21.41 quote remains the most recent dated price point found; a MarketBeat item from 2026-03-06 and older items turned up but are stale/out of window). No new catalyst, no fundamentals change established this pass -- recorded as an honest quiet check, not padded with filler.",
+  "notes": "During 2026 IREN disclosed several large AI-infrastructure deals that materially re-rated the stock (an ~$3.4B Nvidia AI cloud contract with an equity option for Nvidia to invest $2.1B at $70/share near a $56.85 reference price; a reported ~$9.7B, 150,000-GPU, five-year Microsoft hosting deal near a $67.75 reference price; and a multi-year AI cloud deal with Anthropic referenced near a $35 share price on/around 2026-10-09). Exact announcement dates for these deals could not be confirmed in reachable sources this pass. IREN is a Bitcoin miner pivoting toward AI/GPU cloud infrastructure, which should be considered when interpreting the 'Crypto Treasury & Miners' theme label.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -581,10 +601,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

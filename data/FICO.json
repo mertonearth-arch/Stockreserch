@@ -1,27 +1,26 @@
 {
   "ticker": "FICO",
   "name": "Fair Isaac Corporation",
-  "sector": "Financial Services / Analytics Software",
+  "sector": "Technology / Analytics Software",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.082Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.074Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not found in accessible sources"
+      "note": "Not reliably established; conflicting undated snapshots made computing this unsafe."
     },
     "float": {
       "value": null,
       "note": "carried forward; not disclosed"
     },
     "sharesOutstanding": {
-      "value": 23700000,
-      "asOf": null,
-      "source": "carried forward (equibles.com, approximate/undated)"
+      "value": null,
+      "note": "Not established in sources retrieved this pass."
     },
     "shortInterest": {
       "value": null,
@@ -40,14 +39,10 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not found in accessible sources; company withheld FY2027 guidance so forward estimates are in flux"
+      "note": "Not established in sources retrieved; GAAP vs non-GAAP EPS reporting conflicts.",
+      "asOf": "2026-11-13"
     },
     "eps": [
-      {
-        "period": "Q4 FY2025",
-        "value": 7.74,
-        "basis": "non-GAAP"
-      },
       {
         "period": "Q4 FY2026",
         "value": 8.12,
@@ -56,33 +51,30 @@
       {
         "period": "Q4 FY2026",
         "value": 11.1,
-        "basis": "non-GAAP"
+        "basis": "Non-GAAP (company-reported)"
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 9.61,
+        "basis": "Non-GAAP (Zacks-adjusted)"
       }
     ],
     "revenue": [
       {
-        "period": "FY2025 Q4",
-        "value": 515800000,
-        "yoy": 14,
-        "note": "carried forward"
-      },
-      {
         "period": "Q4 FY2026",
-        "value": 657000000,
-        "yoy": 27.3,
-        "note": "vs $516M prior-year quarter per the company's own Q4 FY2026 earnings release (8-K exhibit 99.1, filed 2026-11-04). Operating cash flow was $294.2M vs $223.7M a year earlier."
+        "value": 657050000,
+        "yoy": 27.3
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q4 FY2026",
-      "pct": 27.4,
-      "note": "revenue $657.05M vs. ~$516M a year earlier; Scores segment revenue +33% to $413.8M, Software segment revenue +19% to $243.2M"
+      "pct": 27.3
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "FY2027 guidance was explicitly withheld pending mortgage-pricing negotiations; no next earnings date found"
+      "note": "Fiscal Q1 2027 report not yet scheduled per sources found; FY ends Sept 30."
     },
     "guidanceFY2026": {
       "epsNonGAAP": 38.17,
@@ -91,12 +83,18 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": null,
-    "note": "current quote not found in accessible sources"
+    "last": 704.55,
+    "asOf": "2026-11-06",
+    "note": "Most recent dated quote found (MarketChameleon). Other aggregator snapshots conflict heavily and no verified Nov 13 print was found."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "FICO reports fiscal Q4 2026 results: GAAP EPS $8.12, revenue $657.1M (+27% YoY); withholds FY2027 guidance",
+      "impact": "Beat on top and bottom line by most measures cited, but management declined to give FY2027 guidance, citing a transition to bespoke mortgage pricing and a weak origination market; stock has continued to slide post-print per MarketChameleon.",
+      "source": "Morningstar/Business Wire; Capital.com; Finanzen.net (Zacks)"
+    },
     {
       "date": "2026-11-04",
       "type": "earnings / litigation accrual",
@@ -213,12 +211,33 @@
     }
   ],
   "conflicts": [
-    "Q4 FY2026 EPS: Zacks reports EPS of $9.61 vs. a $9.20 consensus, which matches neither the company's reported GAAP ($8.12) nor non-GAAP ($11.10) figures; recorded verbatim as a conflicting reading, not reconciled.",
-    "FICO stock decline tied to the September 2026 FHFA/VantageScore mortgage-pricing-grid news: one source cites a ~27% drop, another cites ~17%; could not determine if these refer to the same trading session or different ones."
+    "Price: MarketChameleon $704.55 (2026-11-06) vs Eulerpool $1,285.84 (2026-07-27, stale) vs undated Ryan O'Connell dashboard $719.63 vs MarketBeat $652.20 (2026-10-01) vs MarketBeat $931.63 (2026-09-04) — these do not form a clean trend line and may reflect aggregator caching issues.",
+    "Q4 FY2026 EPS: $8.12 GAAP (company) vs $11.10 non-GAAP (company, beat $10.89 consensus) vs $9.61 (Zacks-adjusted, beat $9.20 consensus) — three different EPS bases reported as 'the' beat figure."
   ],
-  "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no new dated catalyst beyond the 2026-11-04 Q4 FY2026 earnings already on file. Post-earnings stock-move reporting is still inconsistent across sources (-6.46% vs. a ~17% drop to ~$1,140) — this corroborates, not resolves, the existing uncertainty; current price left unresolved.",
+  "pendingFilings": [
+    "8-K 2026-11-04 (Q4 FY2026 earnings release)"
+  ],
+  "notes": "Stock is down sharply off its 2026 highs; background driver was an April 2026 Senator Hawley inquiry into FICO's pricing practices (regulatory overhang), not a new catalyst this pass. Company repurchased ~$3.05B of stock in FY2026 via an accelerated share repurchase funded partly by a term loan; long-term debt rose to $4.92B from $2.66B, leverage ~3.29x net debt/EBITDA, and buybacks are now paused to repay that loan.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -469,10 +488,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -1,75 +1,100 @@
 {
   "ticker": "AKAM",
   "name": "Akamai Technologies, Inc.",
-  "sector": "Internet Infrastructure & Cybersecurity",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.078Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.071Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established."
+      "note": "wide, undated conflicts — see conflicts"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not separately disclosed/found distinct from shares outstanding in sources located this session"
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 145385451,
-      "note": "Equibles, undated snapshot"
+      "value": 145400000,
+      "asOf": "2026-07/08 (approx)",
+      "source": "Google Finance / Barchart (~145.0M-145.4M, close agreement across both)"
     },
     "shortInterest": {
-      "value": 13.8,
-      "asOf": "2026-08-19",
-      "note": "~19.8M shares short, ~6.1 days to cover (one aggregator). A June 2026 snapshot showed 12.8% (~18.2M shares, 5.16 days to cover) — see conflicts"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
-      "value": 4616,
-      "asOf": "2026-06-30",
-      "note": "In $millions — cash and marketable securities, per Q2 2026 earnings release (Akamai's own reported figure)"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not confirmed in available sources this session; Akamai has historically carried convertible notes, but a current total-debt figure was not independently verified (SEC EDGAR access blocked in this sandbox)."
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established from sources found; company is profitable (GAAP net income $117M in Q3 2026) but a per-share EPS figure and trailing P/E were not located.",
-      "asOf": "2026-11-11"
+      "note": "not established this pass",
+      "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": 1.77,
+        "basis": "non-GAAP",
+        "note": "beat $1.71 consensus"
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "GAAP EPS reported down 21% YoY; absolute figure not found"
+      }
+    ],
     "revenue": [
       {
-        "period": "Q2 2026",
+        "period": "Q3 2026",
         "value": 1100000000,
-        "yoy": 5,
-        "note": "approx $1.1B; security +10% YoY, cloud infrastructure +39% YoY, delivery/other cloud apps -6% YoY"
+        "yoy": 6,
+        "note": "revenue missed consensus by ~$18M despite the YoY growth"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 6,
-      "note": "Consistent with prior record: revenue $1.122B, +6% YoY. Segment detail: cloud infrastructure revenue $109M (+34% YoY); security revenue $622M (+9% YoY). GAAP net income was $117M, down 16% YoY."
+      "pct": 6
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-02-16",
       "confirmed": false,
-      "note": "Q3 2026 already reported Nov 5, 2026; next (Q4/full-year 2026) report date not yet announced in sources found."
+      "note": "single unverified source (stockevents.app) for the Q4/FY2026 report"
     }
   },
   "price": {
-    "last": null,
-    "note": "No price data point for AKAM was retrievable via the sources reachable in this session before the WebSearch quota was exhausted."
+    "last": 83.9,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-05"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Akamai reported Q3 2026 revenue of $1.1B (+6% YoY), non-GAAP EPS $1.77 (beat $1.71 est.) but revenue missed estimates by ~$18M; GAAP EPS fell 21% YoY; no share buybacks in the quarter",
+      "impact": "Mixed/volatile reaction given the beat-miss split",
+      "source": "https://www.quiverquant.com/news/AKAMAI+TECHNOLOGIES+%28%24AKAM%29+Releases+Q3+2026+Earnings"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "contract",
+      "headline": "Akamai signed a 7-year, $11.6B multi-year cloud/compute agreement with Anthropic; Anthropic received a warrant on ~7.7M AKAM shares at a $111.33 strike",
+      "impact": "Framed by coverage as validating Akamai's edge-AI pivot; exact announcement date approximate, reported alongside Q3 earnings",
+      "source": "https://www.rttnews.com/3693810/akamai-anthropic-enter-11-6-bln-multi-year-cloud-agreement.aspx ; https://www.marketbeat.com/articles/akamais-anthropic-deal-puts-55-billion-behind-its-edge-ai-pivot/"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -197,10 +222,35 @@
       "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-akamai-q1-2026-sees-strong-growth-stock-surges-21-93CH-4675571"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: $16.75B (Google Finance, late Jul 2026) vs $15.62B (MarketBeat, early Aug 2026) vs $11.54B (stockevents.app, stale) — none confirmed for 2026-11-13.",
+    "Price: $83.90 (Trefis, 2026-11-05) vs $110.72 (MarketBeat, undated) vs $77.84 (Earnings Whispers, undated) vs $100.86 (Upstox, 2026-10-09) — very wide dispersion; using the Trefis figure as the most clearly dated anchor near the earnings date."
+  ],
   "pendingFilings": [],
-  "notes": "Routine PM recheck 2026-11-12: no AKAM-specific news dated Nov 12 found via WebSearch beyond what's already on file from the Nov 5 Q3 2026 print and Anthropic infrastructure deal. Genuinely quiet pass.",
+  "notes": "New catalysts since baseline, both dated in the current window: Q3 2026 earnings (Nov 5) and the large Anthropic multi-year cloud agreement with an associated share warrant.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -440,10 +490,24 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

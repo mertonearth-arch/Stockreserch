@@ -1,85 +1,64 @@
 {
   "ticker": "DFTX",
-  "name": "Definium Therapeutics, Inc.",
-  "sector": "Biopharmaceuticals",
+  "name": "Definium Therapeutics, Inc. (formerly Mind Medicine (MindMed), Inc.)",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.080Z",
+  "lastResearched": "2026-11-13T21:33:08.073Z",
   "fundamentals": {
     "marketCap": {
-      "value": 5910000000,
-      "asOf": "2026-07-31",
-      "source": "fool.com",
-      "note": "Derived from ~132.74M shares at $43.52; stale by over three months and likely does not reflect price/share-count changes since"
+      "value": null,
+      "note": "extremely wide, unreconciled conflicts ($1.48B-$5.9B across aggregators) — see conflicts"
     },
     "float": {
-      "value": 128540000,
-      "asOf": "2026-08-17",
-      "source": "Finviz (via Merlin Trader summary)",
-      "note": "~95.9% of shares outstanding per the same source; a second figure from the same source cites 128.88M"
+      "value": null,
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 132743260,
-      "asOf": "2026-07-31",
-      "source": "tipranks.com"
+      "value": null,
+      "note": "conflicting figures (~98.5M vs ~109M) — not reconciled, see conflicts"
     },
     "shortInterest": {
-      "value": 10700000,
-      "asOf": "2026-08-21",
-      "source": "Equibles aggregator -- 8.0% of float, 6.6 days to cover",
-      "note": "A separate aggregator (Finviz, 2026-08-17) cites 8.36% of float, broadly consistent. Down from ~15.4% of shares (15,008,738 shares) as of 2026-03-13 per MarketBeat."
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
-      "value": 1050000000,
-      "asOf": "2026-09-30",
-      "source": "search synthesis citing company Q3 2026 release (via panabee.com summary)",
-      "note": "Down ~$37M from prior quarter"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "note": "Not located"
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Pre-commercial biopharma with negative earnings"
+      "note": "pre-revenue clinical-stage biopharma, negative earnings expected",
+      "asOf": "2026-11-13"
     },
-    "eps": [
-      {
-        "period": "Q1 2026",
-        "value": -0.71,
-        "basis": "GAAP",
-        "note": "From Weiss Ratings aggregator; MarketBeat's 2026-05-08 item independently corroborates a loss of $0.71/share vs a $0.48 estimate"
-      },
-      {
-        "period": "Q2 2026",
-        "value": -1.44,
-        "basis": "GAAP",
-        "note": "From Benzinga aggregator; actual Q3 2026 EPS could not be confirmed despite the report being released on 2026-11-09 (only a consensus estimate of roughly -$0.55 was found)"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "operating expenses YoY",
-      "period": "Q3 2026",
-      "pct": 58,
-      "note": "Company is pre-revenue (clinical-stage); revenue YoY is not applicable. Total operating expenses were $72.3M in Q3 2026, up 58% YoY, driven by hiring and launch preparation."
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "pre-revenue clinical-stage biopharma; no product revenue disclosed"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 already reported 2026-11-09; next (Q4/FY2026) date not yet announced in sources reviewed"
+      "note": "not retrieved this pass"
     }
   },
   "price": {
-    "last": null,
+    "last": 38.1,
     "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No current quote located. Most recent dated figure found: $43.52 close on 2026-07-31 (Motley Fool), more than three months stale. See conflicts for the wide range of other figures found at various unconfirmed dates."
+    "rvol": null,
+    "asOf": "2026-10-29"
   },
   "catalysts": [
     {
@@ -145,6 +124,13 @@
     {
       "date": "2026-06-22",
       "type": "clinical trial",
+      "headline": "Positive Phase 3 EMERGE topline data reported for lead candidate DT120 ODT in major depressive disorder",
+      "impact": "Key late-stage pipeline readout for the lead asset; DT120 ODT separately holds FDA Breakthrough Therapy Designation for generalized anxiety disorder",
+      "source": "https://www.boardroomalpha.com/sec/dftx-8-k-2026-06-24-0001104659-26-077354 ; https://www.boardroomalpha.com/sec/dftx-8-k-2026-06-22-0001104659-26-076091"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "clinical trial",
       "headline": "Positive Phase 3 Emerge topline for DT120 ODT in major depressive disorder: placebo-adjusted MADRS improvement of 8.1 points at Week 6 (p<0.0001; LS mean change -13.3 vs -5.2 placebo) and -7.3 points at Week 12 (p<0.0001); no SAEs, no suicidality signal",
       "impact": null,
       "source": "https://secure.businesswire.com/news/home/20260622572802/en/Definium-Therapeutics-Announces-Positive-Topline-Results-from-Phase-3-Emerge-Study-of-DT120-Orally-Disintegrating-Tablet-ODT-in-Major-Depressive-Disorder",
@@ -170,14 +156,44 @@
       "headline": "~$805.0 million equity offering completed, generating ~$757.9 million net proceeds (reflected in the Q2 2026 10-Q cash build)",
       "source": null,
       "note": "Exact date within Q2 2026 (on or before 2026-06-30) could not be pinned down more precisely in this sandbox; this is dilutive financing and should be flagged as such."
+    },
+    {
+      "date": "2026-01-15",
+      "type": "corporate action",
+      "headline": "Common shares began trading under the new ticker DFTX, as the company rebranded from Mind Medicine (MindMed), Inc. to Definium Therapeutics, Inc.",
+      "impact": "Name/ticker change only; no operational impact disclosed",
+      "source": "https://www.businesswire.com/news/home/20260113531574/en/ ; https://ir.definiumtx.com/about/faq"
     }
   ],
   "conflicts": [
-    "Price (unresolved, pre-earnings, do not treat as current): Benzinga $35.17 as of 2026-10-26 10:01 AM EDT vs. prior on-file figures ($43.52 close 2026-07-31 per Motley Fool; other unconfirmed figures already flagged)."
+    "Market cap: figures ranging from ~$1.48B to ~$2.70B to ~$5.1B to ~$5.9B found across aggregators, dates not aligned — not reconciled.",
+    "Shares outstanding: ~98.5M (one source) vs ~109M (another) — not reconciled.",
+    "Price: $38.10 (2026-10-29) vs $37.97 (2026-10-28, up 2.39%) vs undated figures of $42.65, $32.10 and $20.48 — wide dispersion; no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "Quiet daily recheck 2026-11-12: no DFTX news found dated after the 2026-11-09 Q3 2026 earnings print already on file. Found a Benzinga quote of $35.17 as of 2026-10-26 10:01 AM EDT, but that predates the Nov 9 earnings and conflicts with the range of other stale/undated figures already flagged on file, so not recorded as current price.",
+  "notes": "No confirmed new catalyst dated in November 2026 was found for DFTX in available sources this pass; the most recent confirmed pipeline news (Phase 3 EMERGE topline for DT120 ODT in MDD) dates to June 2026. This appears to be a routine refresh with nothing new to report.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -374,10 +390,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

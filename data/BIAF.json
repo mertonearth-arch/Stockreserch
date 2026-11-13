@@ -1,73 +1,78 @@
 {
   "ticker": "BIAF",
   "name": "bioAffinity Technologies, Inc.",
-  "sector": "Biotechnology / Diagnostics",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.079Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.074Z",
   "fundamentals": {
     "marketCap": {
-      "value": null
+      "value": null,
+      "note": "a figure of $5.9M was found in one source but looks inconsistent with any plausible share count at a ~$3 share price; treated as unreliable and excluded"
     },
     "float": {
-      "value": null
+      "value": null,
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": null
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "shortInterest": {
-      "value": null
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "cash": {
-      "value": null
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "debt": {
-      "value": null
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (net loss reported each period found)"
+      "note": "negative earnings; company is pre-profitability with ongoing losses",
+      "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": -4.74,
+        "basis": "GAAP",
+        "note": "prior-year comparable quarter only; Q3 2026 per-share loss not found in sources reviewed"
+      }
+    ],
     "revenue": [
       {
-        "period": "Q2 2026",
-        "value": 1.510579,
-        "yoy": 19
-      },
-      {
-        "period": "H1 2026",
-        "value": 2.862106,
-        "yoy": -8.4
-      },
-      {
-        "period": "FY2025",
-        "value": 6.2,
-        "yoy": null
+        "period": "Q3 2025",
+        "value": 1450000,
+        "yoy": null,
+        "note": "prior-year comparable quarter only; Q3 2026 revenue figure not found, though unit-volume growth was disclosed"
       }
     ],
     "growth": {
-      "metric": "CyPath Lung tests delivered YoY",
-      "period": "Q3 2026",
+      "metric": "CyPath Lung test volume YoY (nine-month)",
+      "period": "9M 2026 vs 9M 2025",
       "pct": 109,
-      "note": "1,620 tests delivered through Q3 2026 vs 775 in the same period of 2025 (per third-party summary of the company's SEC 8-K exhibit); company's own release describes CyPath Lung sales as more than doubling and physician-office adoption up nearly 90% YoY. Per-share EPS and exact Q3 2026 dollar revenue were not found this session."
+      "note": "1,620 tests performed in the first nine months of 2026 vs 775 in the same period of 2025"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "File listed 2026-11-13 as an unconfirmed estimate. This session found multiple SEC 8-K exhibits (CIK 0001712762) indicating Q3 2026 (quarter ended 2026-09-30) results have already been filed, which suggests the file's Nov-13 estimate may already have occurred or be about to; the exact filing/report date could not be pinned down because www.sec.gov was unreachable via WebFetch in this sandbox and the WebSearch budget ran out before a follow-up query could find the dated press release."
+      "note": "three conflicting dates found for the Q3 2026 report itself (Nov 6, Nov 13, Nov 18, 2026), yet a Q3 2026 results press release already appears in search results"
     }
   },
   "price": {
-    "last": 3.35,
+    "last": 3.04,
     "changePct": null,
-    "asOf": "2026-11-04",
-    "note": "Investing.com snapshot (prior close $3.32). Supersedes the on-file 2026-10-09 $4.725 figure."
+    "rvol": null,
+    "asOf": "2026-10-29"
   },
   "catalysts": [
     {
@@ -222,11 +227,34 @@
     }
   ],
   "conflicts": [
-    "File's nextEarnings estimate (2026-11-13, unconfirmed) may be stale: SEC 8-K exhibits found this session (ex99-1.htm filings) indicate Q3 2026 results reporting a net loss of approximately $5.3 million (vs ~$5.1 million in Q3 2025) and operating expenses of about $4.6 million (vs ~$3.7 million) have already been filed, but no exact calendar date could be confirmed this session, so it is not listed as a dated catalyst per the no-undated-catalyst rule."
+    "Q3 2026 report date: conflicting estimates of Nov 6, 2026, Nov 13, 2026, and Nov 18, 2026 were found, yet a 'bioAffinity Technologies Reports Third Quarter 2026 Results' press release already appears in search results — suggesting the report has likely already been released, with the exact date unconfirmed.",
+    "Price: $3.04 (Benzinga, 2026-10-29) vs $3.17 (Motley Fool, 2026-10-22) vs $3.35 (Investing.com, undated) vs $6.15 (AllInvestView, undated) vs $15.27 (another source, undated, likely stale/erroneous) — wide, unreconciled dispersion.",
+    "A trading halt was referenced for 2026-10-08 in one source without further detail; not independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Quiet daily recheck 2026-11-12: WebSearch turned up no BIAF news dated after the 2026-10-29/10-15 catalysts already on file. Nothing new found.",
+  "notes": "Heavy data-quality issues for BIAF across aggregators (conflicting prices, an apparently erroneous market-cap figure, and conflicting earnings dates) — all figures above should be treated as low-confidence. Confirmed facts: CyPath Lung test volumes rose 109% over the first nine months of 2026 vs. 2025, and a roughly $4.0M financing (a registered direct offering plus a concurrent private placement) closed subsequent to the Sept 30, 2026 quarter-end, though its exact closing date was not found. No catalysts array entries are included because none of the above items could be tied to a specific, confirmed date.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -493,10 +521,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

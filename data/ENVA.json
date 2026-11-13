@@ -1,86 +1,79 @@
 {
   "ticker": "ENVA",
   "name": "Enova International, Inc.",
-  "sector": "Financials (Consumer & Small Business Finance)",
+  "sector": "Financial Services",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.081Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.074Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "not found in accessible sources"
+      "note": "not established; an implied-share-count calculation is not a sourced number and is excluded"
     },
     "float": {
       "value": null,
-      "note": "carried forward; not found"
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "carried forward; not found"
+      "note": "not retrieved this pass"
     },
     "shortInterest": {
       "value": null,
-      "note": "carried forward; not found"
+      "note": "not retrieved this pass"
     },
     "cash": {
       "value": null,
-      "note": "carried forward; not found"
+      "note": "not retrieved this pass"
     },
     "debt": {
       "value": null,
-      "note": "carried forward; not found"
+      "note": "not retrieved this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not found in accessible sources"
+      "note": "company is profitable (positive adjusted EPS reported) but a trailing PE was not computed/sourced this pass",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": 3.36,
-        "basis": "adjusted (non-GAAP)"
-      },
-      {
-        "period": "Q3 2026",
-        "value": 4.06,
-        "basis": "GAAP diluted"
-      },
-      {
         "period": "Q3 2026",
         "value": 4.48,
-        "basis": "adjusted (non-GAAP)"
+        "basis": "adjusted (non-GAAP)",
+        "note": "edged past the $4.46 consensus but missed an unofficial Earnings Whispers number of $4.60 by 2.6%"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
-        "value": null,
-        "yoy": 26,
-        "note": "carried forward; revenue topped $1B for the first time in company history, +26% YoY"
+        "value": 1009000000,
+        "yoy": null,
+        "note": "described as the company's first $1 billion revenue quarter in its history; exact YoY % not found"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 26,
-      "note": "total revenue surpassed $1B for the first time in Q3 2026"
+      "pct": null,
+      "note": "exact YoY % not found; qualitatively described as a record ('first $1B quarter')"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "no confirmed date found; Q4 2026 results would typically be expected ~Jan/Feb 2027 based on prior cadence"
+      "note": "not retrieved this pass"
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": null,
-    "note": "current quote not found in accessible sources"
+    "last": 169.15,
+    "changePct": -25,
+    "rvol": null,
+    "asOf": "2026-09-15",
+    "note": "this is the post-crash close from the Grasshopper-deal withdrawal, over a month stale; no newer confirmed price was found despite a Q3 2026 earnings report on 2026-10-26"
   },
   "catalysts": [
     {
@@ -88,6 +81,13 @@
       "type": "debt offering",
       "headline": "Enova announces private offering of $600 million of senior notes due 2031 (subject to market conditions); proceeds intended to redeem all outstanding 11.25% senior notes due 2028 on Dec. 15, 2026, with any remainder applied to revolving credit facility, conditioned on the offering closing",
       "source": "https://finviz.com/news/415601/enova-announces-private-offering-of-600-million-of-senior-notes-due-2031"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "earnings",
+      "headline": "Enova reported Q3 2026 adjusted EPS of $4.48 (narrowly beat $4.46 consensus, missed a $4.60 whisper number by 2.6%) on record revenue of $1.009B, its first $1B quarter",
+      "impact": "Modest EPS beat; coverage flagged rising delinquencies and above-plan marketing spend as ongoing concerns",
+      "source": "https://zacks.com/stock/news/3013347/enova-international-enva-beats-q3-earnings-and-revenue-estimates"
     },
     {
       "date": "2026-10-22",
@@ -108,6 +108,20 @@
       "headline": "Q3 2026 results: diluted EPS $4.06 (+34% YoY), adjusted (non-GAAP) EPS $4.48 (+33% YoY), total revenue +26% YoY, originations +31% YoY, consolidated net charge-off ratio improved to 8.1% from 8.5%; repurchased $46 million of stock during the quarter",
       "source": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526428941/enva-ex99_1.htm",
       "note": "A separate third-party aggregator figure of adjusted EPS $4.37 (vs $4.34 est., revenue $1.004B) appeared in search results but does not match the company's own 8-K figures ($4.48 adjusted EPS) -- the 8-K/press-release figures are treated as authoritative; see conflicts."
+    },
+    {
+      "date": "2026-10-16",
+      "type": "regulatory filing",
+      "headline": "8-K filing confirmed the mutual termination of the Grasshopper Bancorp merger agreement",
+      "impact": "Formalized the September withdrawal; company reported pivoting toward share repurchases instead",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001529864/000119312526424282/enva-20261016.htm"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "M&A",
+      "headline": "Enova withdrew its OCC and Federal Reserve applications for the ~$369M cash-and-stock acquisition of Grasshopper Bancorp, which would have given it its first national bank charter",
+      "impact": "Shares collapsed 25% the next trading day, from $226.72 to $169.15, erasing roughly $1.33B of market value; management cited unclear rules and political pressure",
+      "source": "https://www.crowdfundinsider.com/2026/09/310588-enova-withdraws-grasshopper-bank-bid-citing-unclear-rules-and-political-pressure/"
     },
     {
       "date": "2026-09-14",
@@ -142,13 +156,39 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 consumer originations: one source (statementdog) cites a record $807M (+37%); another (Webull/Motley Fool transcript) cites $870M.",
-    "Q3 2026 combined portfolio size: one source (Finviz PR copy) gives $5.9B in combined loans and finance receivables; another (Panabee) gives $6.6B at fair value.",
-    "Grasshopper Bancorp acquisition status: one source (StockAnalysis transcript reference) describes the deal as pending, expected to close in H2 2026; another (Panabee) refers to its termination. Status could not be reconciled in this pass."
+    "Current price: no figure confirmed after the Sept 15, 2026 crash to ~$169-173; later aggregator snapshots found predate the crash and are not usable as current context. No reliable price was found for any date after the earnings report on Oct 26, 2026.",
+    "A TipRanks headline citing 'Q3 adjusted EPS $1.50, consensus $1.99' appears to refer to a different/stale reporting period and is inconsistent with the $4.48/$4.46 Q3 2026 figures from Zacks; excluded as unreliable."
   ],
-  "pendingFilings": [],
-  "notes": "Quiet daily recheck 2026-11-12: no ENVA news found dated after the 2026-11-04 senior-notes offering already on file. Most recent price data located (MarketBeat, ~$217-231 range) is from July 2026 and too stale to use; current price remains unestablished in this session's reachable sources.",
+  "pendingFilings": [
+    "10-Q for Q3 2026 (period ended 2026-09-30) — SEC EDGAR: enva-20260930.htm",
+    "8-K dated 2026-10-16 confirming Grasshopper Bancorp merger termination — SEC EDGAR: enva-20261016.htm"
+  ],
+  "notes": "Major new catalyst since the baseline: termination of the Grasshopper Bank acquisition (Sept-Oct 2026) drove a sharp ~25% one-day decline, followed by a Q3 2026 earnings report (Oct 26) with a narrow EPS beat on record revenue. A confirmed current (Nov 13) share price could not be located in available sources.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -25%",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -326,10 +366,26 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -25%",
+      "new filing(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

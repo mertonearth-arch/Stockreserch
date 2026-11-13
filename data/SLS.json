@@ -1,79 +1,88 @@
 {
   "ticker": "SLS",
   "name": "SELLAS Life Sciences Group, Inc.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.076Z",
+  "lastResearched": "2026-11-13T21:33:08.069Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2050000000,
-      "asOf": "2026-10-30",
-      "source": "stockanalysis.com snapshot via search aggregation (undated on the page itself)"
+      "value": null,
+      "note": "No verified market cap found; a ~$2.2B figure circulating online is an unsourced calculation and is not used here"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not found as a separately published figure distinct from shares outstanding."
+      "note": "Not found"
     },
     "sharesOutstanding": {
-      "value": 201950000,
-      "source": "stockanalysis.com snapshot via search aggregation (undated)"
+      "value": 196600000,
+      "asOf": "2026-06-02",
+      "source": "SEC filing (reported via Stocktwits)"
     },
     "shortInterest": {
-      "value": 27.9,
-      "asOf": "2026-08-14",
-      "source": "FINRA short-interest settlement data via aggregator: 56.4M shares short at the 2026-08-14 settlement date, ~10.4 days to cover; computed against the 201,945,709 shares-outstanding figure already on file",
-      "note": "Consistent with the ~27-28% cluster already on file, but now tied to a specific settlement date. A separate Koyfin-sourced figure cited ~30.7% of float (2026-05-11) and ~33% of float (2026-06-15) - different date/denominator, not reconciled. An even earlier FINRA read showed 63.3M shares short at the 2026-06-30 settlement (~4.75 days to cover)."
+      "value": null,
+      "note": "Reported in a range of ~27%-33% of float across 2026 snapshots with no single reconciled current figure; see conflicts"
     },
     "cash": {
-      "value": 71800000,
-      "asOf": "2025-12-31",
-      "source": "company FY2025 results press release (via search aggregation)"
+      "value": 138300000,
+      "asOf": "2026-06-30",
+      "source": "SELLAS Q2 2026 earnings release (via marketchameleon.com summary)"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not disclosed in sandbox search results; typically minimal/none for a clinical-stage biotech but not confirmed."
+      "note": "Not disclosed in sources reviewed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (clinical-stage biotech)",
-      "asOf": "2026-11-11"
+      "note": "Clinical-stage biotech with ongoing net losses"
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "net loss YoY",
-      "period": "Q3 2025",
-      "pct": -4.2,
-      "note": "Net loss narrowed to $6.8M in Q3 2025 from $7.1M in Q3 2024 (~4.2% narrower); Q3 2026 actuals not yet reported as of this research. Company is pre-revenue (clinical-stage)."
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "Pre-revenue clinical-stage biotech"
     },
     "nextEarnings": {
       "date": "2026-11-18",
       "confirmed": false,
-      "note": "Company has not published a confirmed Q3 2026 report date in sources found; estimate is consistent with prior-year pattern (Q3 2025 results were reported Nov 12, 2025)."
+      "note": "Per one aggregator page; not independently confirmed"
     }
   },
   "price": {
-    "last": 9.14,
-    "changePct": 3,
-    "asOf": "2026-11-11",
-    "note": "Shares rose ~3% to $9.14 on Wednesday 2026-11-11 per Stocktwits/Webull coverage; still down ~6% for the week. changePct is the cited day-over-day move, not independently recomputed from a prior close.",
-    "source": "stocktwits.com / webull.ca"
+    "last": 7.995,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-05",
+    "note": "Last update timestamp 7:57pm ET per Benzinga. No confirmed closing price for 2026-11-13; see conflicts for the week's other reported prices."
   },
   "catalysts": [
+    {
+      "date": "2026-12-14",
+      "type": "conference/data",
+      "headline": "SELLAS to present SLS009 (tambiciclib) data at the American Society of Hematology (ASH) annual meeting",
+      "impact": "Key data readout venue for SLS009 in relapsed/refractory and newly diagnosed AML",
+      "source": "https://stocktwits.com/news-articles/markets/equity/sellas-to-present-sls-009-data-at-american-society-of-hematology/cNGL0poR93s"
+    },
     {
       "date": "2026-11-08",
       "type": "medical conference",
       "headline": "SELLAS announced it will present positive Phase 2 data for SLS009 (tambiciclib) combination therapy in high-risk AML at ASH 2026 (New Orleans, Dec 12-15; one outlet cites a Dec 14 presentation date): among evaluable patients at the selected dose, a 54% response rate with 5.8-month median survival in monocytic AML, and a 57% response rate with 8.8-month median survival in TP53-mutated AML, versus a cited historical benchmark of ~2.5 months for each subgroup. Analysts note the absence of a concurrent comparator arm means these figures do not establish a survival benefit on their own.",
       "impact": null,
       "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-to-Present-Positive-Phase-2-Data-Demonstrating-Encouraging-Response-and-Survival-Outcomes-with-SLS009-Combination-in-High-Risk-AML-at-ASH-2026/default.aspx"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "clinical data",
+      "headline": "Presented Phase 2 results for SLS009 (tambiciclib) in relapsed/refractory AML: across doses, 34% of 59 evaluable patients responded; independent observers noted the single-arm data do not by themselves demonstrate a survival benefit",
+      "impact": "Shares rose 3% to $9.14 on the news day but were still down nearly 6% for the week",
+      "source": "https://www.rttnews.com/3705395/sellas-phase-3-regal-aml-trial-of-galinpepimut-s-reaches-final-analysis-trigger.aspx"
     },
     {
       "date": "2026-11-04",
@@ -148,12 +157,36 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: one stockanalysis.com snapshot lists 201.95M shares outstanding (implying ~$1.95B market cap at the $9.68 Oct 30 close against the stated $2.05B market cap figure, a ~5% internal mismatch); a separate source lists 170,282,026 shares outstanding, which appears to be an older count. Could not reconcile which is current.",
-    "Price range: SLS traded near $15.46 (Aug 21, 2026 close, ~$3.12B market cap) versus $9.68 (Oct 30, 2026 close) -- a large decline over ~2 months; this looks like ordinary post-catalyst volatility rather than a split, but could not independently confirm the cause with available tools."
+    "Share price: $9.68 close 2026-10-30 (-4.72%) vs $9.14 on 2026-11-04 (+3%) vs $7.995 as of 2026-11-05 7:57pm ET vs $11.57 (undated, +10.3%) — no reconciled figure for 2026-11-13.",
+    "Shares outstanding: ~196.6M (SEC filing via Stocktwits, as of 2026-06-02) vs ~202M (one report) vs ~179.6M (another report) — figures differ by source.",
+    "Short interest: reported between ~27.2% and ~33% of float across different 2026 snapshots with inconsistent month-over-month trend direction reported across vendors — no single current reading established."
   ],
-  "pendingFilings": [],
-  "notes": "Q3 2026 financial results (net loss / cash) were not found this session -- the $6.8M net-loss figure that appears in search snippets is the Q3 2025 (year-ago) comparison, not a new Q3 2026 print; kept off the record rather than risk misdating it, pending a confirmed primary release. Citigroup reportedly cut its SLS stake ~64% in a Q3 13F disclosure (undated precisely in sources found) -- not added as a catalyst per the 'every catalyst needs a date' rule. Next earnings date kept as the existing 2026-11-18 estimate (unconfirmed).",
+  "pendingFilings": [
+    "SC 13G/A (institutional ownership change) filed per quantisnow.com live-feed listing, exact date/filer not confirmed in sources reviewed"
+  ],
+  "notes": "Citigroup reportedly cut its SLS stake by ~64% in Q3 2026 while Creative Planning increased its stake, per filings cited by Stocktwits/RTTNews (exact filing dates not fully confirmed). Phase 3 REGAL trial of galinpepimut-S reportedly reached its 80th-event final-analysis trigger, with preliminary survival results expected 'this quarter' per an undated RTTNews report — exact announcement date not confirmed, so not listed as a dated catalyst. Stock reportedly up ~142% year-to-date per a 2026-11-04 report.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -339,11 +372,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

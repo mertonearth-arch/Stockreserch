@@ -8,9 +8,14 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.086Z",
+  "lastResearched": "2026-11-13T21:33:08.079Z",
   "fundamentals": {
     "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 57100000,
+        "yoy": null
+      },
       {
         "period": "Q3 2026",
         "value": 63900000,
@@ -21,12 +26,12 @@
       {
         "period": "Q3 2025",
         "value": 0.17,
-        "basis": "GAAP"
+        "basis": "GAAP diluted"
       },
       {
         "period": "Q3 2026",
         "value": 0.2,
-        "basis": "GAAP"
+        "basis": "GAAP diluted"
       },
       {
         "period": "Q3 2026",
@@ -37,47 +42,55 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 12,
-      "note": "Total revenue $63.9M, up 12% YoY; subscription revenue (within total) grew 16% YoY to $51.5M."
+      "pct": 12
     },
     "sharesOutstanding": {
-      "value": 36850000,
-      "asOf": "2026-10-23",
-      "source": "foxbusiness.com"
+      "value": null,
+      "note": "not located this pass"
     },
     "shortInterest": {
       "value": null,
       "note": "Sources disagree and are both pre-earnings/stale: see conflicts.",
       "asOf": null
     },
-    "cash": null,
+    "cash": {
+      "value": 51000000,
+      "asOf": "2026-09-30",
+      "source": "third-party coverage of OneSpan Q3 2026 results",
+      "note": "down from $71M at start of FY2026; not independently confirmed against the 10-Q"
+    },
     "debt": null,
     "pe": {
-      "trailing": 10.59,
+      "trailing": null,
       "forward": null,
-      "note": "Pre-earnings (Oct 23, 2026) trailing P/E per Fox Business; see conflicts for other readings",
-      "asOf": "2026-10-23"
+      "note": "not located this pass",
+      "asOf": "2026-11-13"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No next earnings date found. Pattern suggests Q4/FY2026 results around Feb 2026-ish; not confirmed by any source."
+      "note": "not announced; FY2026 results would typically follow around Feb 2027"
     },
     "marketCap": {
-      "value": 695400000,
-      "asOf": "2026-10-23",
-      "source": "foxbusiness.com",
-      "note": "Pre-earnings (before Oct 29 Q3 report); no post-earnings figure retrieved."
+      "value": null,
+      "note": "not located this pass"
     },
     "float": null
   },
   "price": {
     "last": null,
     "changePct": null,
-    "asOf": null,
-    "note": "No post-earnings (after 2026-10-29) dated quote retrieved before search budget was exhausted. Most recent dated pre-earnings figure: Fox Business listed OSPN around its Oct 23, 2026 snapshot implying a price near $18-19 (back-calculated from market cap/shares); not confirmed directly as a quoted price."
+    "rvol": null,
+    "asOf": "2026-11-13"
   },
   "catalysts": [
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "OneSpan Q3 2026: revenue $63.9M (+12% YoY), non-GAAP EPS $0.35 vs $0.22 consensus; raises FY2026 guidance for a second consecutive quarter",
+      "impact": "FY2026 revenue guidance raised to $254-258M (from $248-252M); adjusted EBITDA guidance raised to $72-76M (from $64-68M)",
+      "source": "https://www.financialcontent.com/article/bizwire-2026-10-29-onespan-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -99,10 +112,29 @@
     }
   ],
   "conflicts": [
-    "Short interest: stockanalysis.com (asOf 2026-09-11) 3.7M shares short, ~10.1% of float, ~10.3 days to cover vs equibles.com (asOf 2026-08-20) 3.0M shares short, ~8.1% of float — both pre-Q3-earnings (2026-10-29) and not refreshed this pass; no post-earnings short-interest figure found."
+    "Price quotes found ($12.61 as of 2025-12-18 vs $17.70, undated) are from non-current, unreconciled dates"
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -224,13 +256,21 @@
       "from": "daily"
     }
   ],
-  "notes": "No new post-earnings (after 2026-10-29) price, market cap, or next-earnings-date confirmation found this pass despite search. Existing on-file catalysts/fundamentals left unchanged.",
+  "notes": "Operating company for ticker OSPN is OneSpan Inc. (NASDAQ: OSPN, formerly VASCO Data Security), a digital-identity/authentication security vendor. New since last pass: Q3 2026 beat-and-raise (Oct 29). Management flagged that some Q4-expected hardware (Digipass token) revenue was pulled forward into Q3 at customer request, a possible headwind to the Q4 compare.",
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "shortInterest updated",
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

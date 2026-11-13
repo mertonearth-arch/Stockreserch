@@ -1,82 +1,77 @@
 {
   "ticker": "SMMT",
   "name": "Summit Therapeutics Inc.",
-  "sector": "Biotechnology",
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.076Z",
+  "lastResearched": "2026-11-13T21:33:08.070Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Sources conflict sharply and could not be reconciled (see conflicts)."
+      "value": 11556000000,
+      "asOf": "2026-06-30",
+      "source": "roic.ai quarterly capital-structure table (Q2 2026 quarter-end figure, not a live quote)",
+      "note": "Conflicts with roic.ai's own live-quote page figure of ~$10.67B and with other sources; see conflicts"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not located; only shares-outstanding figures found."
+      "note": "Not found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Sources conflict (see conflicts)."
+      "value": 793000000,
+      "asOf": "2026-06-30",
+      "source": "roic.ai"
     },
     "shortInterest": {
       "value": null,
-      "asOf": "2026-07-15",
-      "source": "FINRA data via Curved Trading",
-      "note": "Raw share counts found rather than a percent: 39.9M shares short at the 2026-06-30 settlement date, 37.3M shares short at the 2026-07-15 settlement date, ~6.7 days to cover. Percent-of-shares-outstanding not independently computed here given the unresolved share count conflict above."
+      "note": "Not found"
     },
     "cash": {
-      "value": 629800000,
-      "asOf": "2026-09-30",
-      "source": "Summit Therapeutics Q3 2026 results release (via quartr.com / biopharmawatch.com aggregation)"
+      "value": 691000000,
+      "asOf": "2026-06-30",
+      "source": "roic.ai (cash, cash equivalents and short-term investments)"
     },
     "debt": {
       "value": null,
-      "asOf": "2026-06-30",
-      "note": "A secondary aggregator (Digrin) showed debt of $16.8M plus capital/finance lease of $27.0M, but this could not be verified against the primary 10-Q in this sandbox (WebFetch to SEC.gov failed)."
+      "note": "Not disclosed in sources reviewed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (clinical-stage/pre-commercial in the US)",
-      "asOf": "2026-11-11"
+      "note": "Negative earnings; ivonescimab (Summit's lead asset) is not yet approved in any of Summit's licensed territories (US, EU, Japan, etc.) as of 2026-11-13"
     },
-    "eps": [
-      {
-        "period": "Q3 2026",
-        "value": -0.26,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2026",
-        "value": -0.2,
-        "basis": "non-GAAP"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "R&D expense YoY",
-      "period": "Q3 2026",
-      "pct": 29,
-      "note": "R&D expense rose to $169.1M in Q3 2026 from $131.1M in Q3 2025 (+29.0%); company is pre-commercial in the US (ivonescimab not yet approved), so no US product revenue figure was found. Total GAAP operating expenses were $214.6M vs $234.2M YoY (-8.4%), as G&A fell to $45.5M from $103.1M."
+      "metric": "revenue YoY",
+      "period": null,
+      "pct": null,
+      "note": "Pre-commercial in Summit's licensed territories; ivonescimab has been approved for marketing in China since May 2024 by partner Akeso, but Summit does not recognize China sales"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "RESOLVED: Q3 2026 results were already reported on Nov 4, 2026 (GAAP net loss $208.4M / -$0.26 per share; non-GAAP net loss $160.7M / -$0.20 per share), resolving the prior data gap. Next scheduled report (full-year 2026) date not yet announced in sources found."
+      "note": "One aggregator referenced a November 11, 2026 report date but this was not independently confirmed"
     }
   },
   "price": {
     "last": 16.33,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-06",
-    "note": "Most recent dated price found; no Nov 11 2026 quote retrievable (see notes)."
+    "note": "Volume that day reported as 5,503,273 shares. No closer-to-2026-11-13 figure could be confirmed from reachable sources (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-14",
+      "type": "regulatory",
+      "headline": "FDA PDUFA goal date for the ivonescimab BLA (EGFRm NSCLC, post-TKI indication)",
+      "impact": "Binary regulatory catalyst due one day after this research pass's date (2026-11-13); no FDA decision had been reported in sources reviewed as of this pass",
+      "source": "https://rallies.ai/news/summit-therapeutics-gains-as-ivonescimab-bla-clock-ticks-toward-nov-14-2026-pdufa"
+    },
     {
       "date": "2026-11-14",
       "type": "regulatory",
@@ -135,6 +130,13 @@
     {
       "date": "2026-01-29",
       "type": "regulatory",
+      "headline": "FDA accepted the Biologics License Application (BLA) for ivonescimab in combination with chemotherapy for EGFR-mutated, non-squamous NSCLC after prior third-generation EGFR TKI therapy; FDA set a PDUFA goal action date of 2026-11-14",
+      "impact": "Sets up a binary FDA-decision catalyst; filing is backed by Phase 3 HARMONi data, which met its progression-free survival (PFS) endpoint while overall survival (OS) missed statistical significance but trended favorably",
+      "source": "https://businesswire.com/news/home/20260129109846/en/Summit-Therapeutics-Announces-U.S.-FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy"
+    },
+    {
+      "date": "2026-01-29",
+      "type": "regulatory",
       "headline": "FDA accepted the ivonescimab BLA for EGFR-mutated NSCLC, setting the Nov 14, 2026 PDUFA goal date (foundational event for the pending decision above; outside the strict 6-month window but included for context)",
       "impact": null,
       "source": "https://businesswire.com/news/home/20260129109846/en/Summit-Therapeutics-Announces-U.S.-FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy"
@@ -146,10 +148,36 @@
       "source": "https://www.businesswire.com/news/home/20260112655330/en"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: ranges from ~$8.7B to ~$12B depending on source/date in 2026; roic.ai's own quarterly series shows $13.56B / $14.71B / $11.56B for three successive quarters, inconsistent with its own live-quote figure of $10.67B.",
+    "Shares outstanding: ~793M (roic.ai, 2026-06-30) vs ~797.75M (Equibles, August 2026 snapshot) vs a weighted-average of 778.2M for the quarter ended 2026-06-30.",
+    "Cash & short-term investments: ~$691M at 2026-06-30 vs $713M at 2025-12-31 (both roic.ai) vs a conflicting $454.05M figure attributed to Q1 2026 on Fool.com.",
+    "Share price: $16.33 close 2026-11-06 vs $17.54 (undated) vs $14.01 close 2026-06-12 — no confirmed figure for 2026-11-13."
+  ],
   "pendingFilings": [],
-  "notes": "Routine PM recheck 2026-11-12: no FDA decision on the ivonescimab BLA has been announced yet; PDUFA goal date remains 2026-11-14 (2 days out). FierceBio reports Summit has eliminated additional commercial/marketing leadership roles ahead of the decision, and describes approval as highly uncertain given HARMONi's OS miss. No new dated catalyst beyond what's already on file; genuinely quiet pass on this name pending Friday's decision.",
+  "notes": "Ivonescimab (a PD-1/VEGF bispecific developed by China-based Akeso, which Summit licenses for the US, EU, Japan and other territories) has been approved for marketing in China since May 2024 via Akeso, but remains unapproved in all of Summit's own licensed territories as of 2026-11-13; the FDA PDUFA action date of 2026-11-14 is the single most important near-term catalyst for this name.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -328,11 +356,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflict resolved"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

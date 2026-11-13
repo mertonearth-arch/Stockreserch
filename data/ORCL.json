@@ -8,62 +8,74 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.075Z",
+  "lastResearched": "2026-11-13T21:33:08.068Z",
   "fundamentals": {
     "marketCap": {
-      "value": 371400000000,
-      "asOf": "2026-11-10",
-      "source": "Trefis (price $119.12)"
+      "value": 388000000000,
+      "asOf": "2026-11-11",
+      "source": "Motley Fool (fool.com), counting only publicly traded shares"
     },
-    "float": null,
+    "float": {
+      "value": null,
+      "note": "Not found"
+    },
     "sharesOutstanding": {
-      "value": 3023740000,
-      "asOf": "2026-11-05",
-      "source": "Arincen"
+      "value": null,
+      "note": "Not found"
     },
-    "shortInterest": null,
-    "cash": null,
-    "debt": null,
+    "shortInterest": {
+      "value": null,
+      "note": "Not found / not meaningfully tracked for a large-cap like ORCL in sources reviewed"
+    },
+    "cash": {
+      "value": null,
+      "note": "Not found in reachable sources this pass"
+    },
+    "debt": {
+      "value": null,
+      "note": "Not found in reachable sources this pass"
+    },
     "pe": {
-      "trailing": 24.43,
-      "forward": 17.64,
-      "note": "Yahoo Finance figures, exact as-of date not stated by source; see conflicts for competing readings",
-      "asOf": "2026-11-06"
+      "trailing": null,
+      "forward": null,
+      "note": "Oracle is GAAP-profitable but a verified trailing/forward P/E was not obtained from reachable sources this pass"
     },
-    "eps": [
-      {
-        "period": "Q2 FY2026",
-        "value": 2.26,
-        "basis": "non-GAAP",
-        "note": "reported 2025-12-10; full fiscal-year FY2025/FY2026 EPS not retrieved this session"
-      },
-      {
-        "period": "TTM",
-        "value": 5.83,
-        "basis": "GAAP diluted",
-        "note": "trailing-twelve-month figure per Yahoo Finance, not a discrete fiscal-year label"
-      }
-    ],
+    "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "Oracle Cloud Infrastructure (OCI) revenue YoY",
-      "period": "Q1 FY2027 (reported 2026-09-10)",
+      "metric": "revenue YoY",
+      "period": null,
       "pct": null,
-      "note": "Press release headline described \"triple-digit growth\" in OCI revenue; exact percentage not retrieved before search budget was exhausted. Total company revenue YoY % also not retrieved."
+      "note": "Not established this pass"
     },
     "nextEarnings": {
       "date": "2026-12-14",
       "confirmed": false,
-      "note": "No official Oracle 'Sets the Date' press release found for Q2 FY2027. Third-party earnings calendars estimate Dec 14, 2026 (most common), with alternates of Dec 10 and Dec 9 also circulating; see conflicts. Q2 FY2027 covers the quarter ending 2026-11-30."
+      "note": "Reported after market close per one aggregator; not independently confirmed via Oracle IR"
     }
   },
   "price": {
-    "last": 116.1,
+    "last": 128.38,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "note": "Most recent dated close found was Nov 6, 2026 (MarketChameleon). Could not confirm today's (2026-11-11) close before WebSearch budget for this session was exhausted."
+    "rvol": null,
+    "asOf": "2026-11-11",
+    "note": "Most recent reasonably-sourced closing price found (Motley Fool), reported as down ~33.25% YTD 2026 (from $192.34 at 2025 year-end). No confirmed closing price or daily % change for 2026-11-13 found; 52-week range cited as $109.21-$250.25."
   },
   "catalysts": [
+    {
+      "date": "2026-12-14",
+      "type": "earnings",
+      "headline": "Next quarterly earnings report expected (date unconfirmed)",
+      "impact": "Will be the next scheduled read on cloud/AI infrastructure demand and capex/debt trajectory following the stock's sharp 2026 decline",
+      "source": "Aggregator search result (unconfirmed); verify via Oracle investor relations"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "corporate governance",
+      "headline": "Oracle's 2026 Annual Meeting of Stockholders, held virtually at 9:00am CT (record date 2026-09-21); ballot includes election of 13 directors, an advisory say-on-pay vote, ratification of Ernst & Young LLP as auditor, and a stockholder proposal on preserving shareholder-proposal access rights (board recommends voting for all management items and against the stockholder proposal)",
+      "impact": "Routine annual-meeting governance event; no standalone operational catalyst expected, though say-on-pay and director votes are data points on governance sentiment",
+      "source": "https://www.morningstar.com/news/pr-newswire/20261106sf87974/oracles-annual-meeting-of-stockholders-to-be-held-november-18-2026"
+    },
     {
       "date": "2026-11-18",
       "type": "corporate event",
@@ -174,14 +186,36 @@
     }
   ],
   "conflicts": [
-    "Market cap: $361.97B (Yahoo Finance/marketchameleon, Nov 6 close $116.10) vs $371.4B (Trefis, Nov 10 price $119.12) vs $374.13B (Fox Business, undated) vs $380.6B (Value Research Online, late Oct) vs $381.17B (Motley Fool, publicly-traded-shares-only basis, undated) vs $475.01B (Motley Fool elsewhere, appears stale, paired with an inconsistent $157.07 share price). Not reconciled.",
-    "Shares outstanding: ~3.02B (Arincen, Fox Business, Motley Fool, as of ~Nov 5 2026) vs ~2.87-2.88B (Simply Wall St, TipRanks, roic.ai) -- the lower figures look stale relative to the higher, more recently dated ones but could not be independently confirmed this session.",
-    "Trailing P/E: 24.43 (Yahoo Finance) vs 20.2 (Value Research, late Oct 2026) vs 28.35 (Motley Fool, likely stale) vs 50.61 (roic.ai, paired with an EPS of $4.39 inconsistent with the ~$5.8 EPS reported elsewhere -- treated as an outlier).",
-    "Next earnings date: Dec 14, 2026 (most common third-party estimate) vs Dec 10, 2026 (days.to) vs Dec 9, 2026 (investorsignals.com) -- still no official Oracle 'Sets the Date' press release found as of 2026-11-12."
+    "Market cap: ~$388B at $128.38 (Motley Fool, 2026-11-11) vs ~$522.03B at $181.51 (a stale May 19, 2026 snapshot) — consistent with the stock being down roughly a third year-to-date per the more recent figure.",
+    "Share price: $116.10 (MarketChameleon, 2026-11-06) vs $128.38 (Motley Fool/StockEvents, ~2026-11-11/12) vs $184.66 (June 2026) — no single verified closing price for 2026-11-13 found."
   ],
-  "pendingFilings": [],
-  "notes": "No confirmed Nov 11 or Nov 12 closing price found via WebSearch this pass (most recent dated price: Trefis $119.12 on Nov 10). Annual Meeting of Stockholders still scheduled 2026-11-18; no new pre-meeting news found. $20B securities registration (common stock + senior notes, tied to AI data-center funding) remains the most recent Oracle-specific catalyst on file (date not more precisely pinned down this pass either).",
+  "pendingFilings": [
+    "Proxy Statement 2026, dated 2026-09-25 (filed ahead of the 2026-11-18 annual meeting)"
+  ],
+  "notes": "Oracle shares fell sharply during 2026 (reported -33.25% YTD as of the 2026-11-11 close) amid AI-capex/debt-financing concerns in market commentary; could not confirm an exact 2026-11-13 closing price or daily percentage change from reachable sources. Annual meeting date of 2026-11-18 is well-confirmed via Oracle's own investor-relations press release and the PR Newswire/Morningstar republication.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -369,12 +403,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

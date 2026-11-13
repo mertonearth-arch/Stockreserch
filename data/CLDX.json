@@ -1,98 +1,81 @@
 {
   "ticker": "CLDX",
   "name": "Celldex Therapeutics, Inc.",
-  "sector": null,
+  "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.091Z",
+  "lastResearched": "2026-11-13T21:33:08.072Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2300000000,
-      "asOf": "2026-10-22",
-      "note": "computed as ~78.53M shares x ~$29.77/share; see conflicts for a lower, inconsistent $1.98B figure found in one source"
+      "value": null,
+      "note": "conflicting/undated figures — see conflicts"
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "not disclosed/found"
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 78529532,
-      "asOf": "2026-07-29",
-      "source": "Celldex Q2 2026 10-Q cover page (SEC EDGAR filing index, per search result), 'as of July 29, 2026, 78,529,532 shares of common stock...were outstanding'"
+      "value": null,
+      "note": "not retrieved this pass"
     },
     "shortInterest": {
       "value": null,
-      "asOf": "2026-09-30",
-      "note": "FINRA-sourced data via Curved Trading shows 11.0M shares short settling 2026-09-30 (up from 9.0M mid-September), ~3.8 days to cover; percent-of-float figures conflict across sources (13.5% per Benzinga, described as rising, vs. 9.71% per Equibles, described as falling) so no single % value is recorded — see conflicts"
+      "note": "not retrieved this pass"
     },
     "cash": {
       "value": 650300000,
       "asOf": "2026-09-30",
-      "note": "Cash, cash equivalents and marketable securities; down from $717.6M at 2026-06-30 on continued R&D spend; company says this funds planned operations through 2028.",
-      "source": "Celldex Q3 2026 press release, via biospace.com"
+      "source": "Celldex Q3 2026 results (biospace.com/capital.com); figure is cash, cash equivalents and marketable securities combined, guided to fund planned operations through 2028"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "no material debt figure found; clinical-stage biotechs typically carry little/no debt but this was not explicitly confirmed"
+      "note": "not disclosed in sources reviewed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-10-22"
+      "note": "negative earnings (pre-commercial clinical-stage biotech)",
+      "asOf": "2026-11-13"
     },
     "eps": [
       {
-        "period": "FY2024",
-        "value": -2.45,
-        "basis": "GAAP",
-        "source": "Celldex FY2025 earnings release (Feb 25, 2026), prior-year comparison; full-year net loss ~$157.9M"
-      },
-      {
-        "period": "FY2025",
-        "value": -3.9,
-        "basis": "GAAP",
-        "source": "Celldex FY2025 earnings release (Feb 25, 2026); full-year net loss ~$258.8M"
-      },
-      {
         "period": "Q3 2026",
-        "value": -0.96,
-        "basis": "GAAP diluted",
-        "note": "Net loss $75.6M, beat consensus estimate of -$1.02/share ($81.01M). R&D expense $67.4M (+7% YoY), G&A $14.84M (+39% YoY).",
-        "source": "https://www.biospace.com/press-releases/celldex-reports-third-quarter-financial-results-and-provides-corporate-update"
+        "value": null,
+        "basis": "GAAP",
+        "note": "only aggregate net loss figures found, not per-share; net loss widened 13% YoY to $75.56M per one source (conflicts with a $67M figure from another source)"
       }
     ],
-    "revenue": [
-      {
-        "period": "Q2 2026",
-        "value": 22000,
-        "note": "down ~97% YoY; Celldex is a clinical-stage biotech with only incidental/collaboration revenue"
-      }
-    ],
+    "revenue": [],
     "growth": {
-      "metric": "cash position change (not revenue, which is incidental to this clinical-stage biotech)",
-      "period": "Q2 2026 to Q3 2026",
-      "pct": -9.38,
-      "note": "Cash & marketable securities fell from $717.6M (2026-06-30) to $650.3M (2026-09-30), -9.4%, as R&D spend on barzolvolimab continued."
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": null,
+      "note": "pre-revenue clinical-stage biotech; no product revenue disclosed"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 was reported 2026-11-05 (now resolved — this clears the prior conflicting Nov 5/9/10 estimates). Next report is Q4/FY2026, expected around late Feb 2027 based on prior-year timing (FY2025 was released 2026-02-25), not yet confirmed."
+      "note": "no confirmed Q4/FY2026 report date found"
     }
   },
   "price": {
-    "last": 28.25,
-    "asOf": "2026-10",
-    "note": "Digrin monthly series shows $28.25 for October 2026 (exact day not specified), down from $32.41 in September and $39.63 in August -- roughly consistent with the ~$29.77 figure already used for the on-file market-cap estimate. Other undated sources ($35.65, $38.78, $39.11) look stale/unreliable and were not used."
+    "last": 30.15,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-10-27"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Celldex reported Q3 2026 results: net loss widened ~13% YoY to $75.56M (one source) vs $67M widened (another source, unreconciled); R&D expense +7% YoY to $67.41M; G&A +39% YoY to $14.84M; cash/marketable securities of $650.3M guided to fund operations through 2028",
+      "impact": "Company also reported 'best-in-disease' Phase 3 EMBARQ-CSU topline results for barzolvolimab in chronic spontaneous urticaria, discontinued its Phase 2 prurigo nodularis study, and anticipates a BLA submission for barzolvolimab in CSU in 2027",
+      "source": "https://www.biospace.com/press-releases/celldex-reports-third-quarter-financial-results-and-provides-corporate-update ; https://capital.com/en-ae/news/celldex-q3-net-loss-widens-13-year-over-year-to"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -158,12 +141,35 @@
     }
   ],
   "conflicts": [
-    "Market cap: computed ~$2.3B (78.53M shares x ~$29.77 quoted price, Oct 2026) vs. a separately cited $1.98B figure at the same per-share price — not reconciled; no current price was found this pass to refresh this.",
-    "Short interest: FINRA/Curved Trading reports 11.0M shares short (2026-09-30, rising from 9.0M mid-September) but percent-of-float figures diverge sharply — Benzinga shows 13.5% and rising, Equibles shows 9.71% and falling — not reconciled this pass."
+    "Q3 2026 report date: November 5, 2026 (biospace.com/finviz.com) vs November 10, 2026 (GuruFocus) — not reconciled.",
+    "Q3 2026 net loss: $75.56M, +13% YoY (capital.com) vs $67M widened (itiger.com) — not reconciled.",
+    "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs $35.61 (undated) vs $28.25 with a $2.2B market cap (undated) — no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-12: Q3 2026 earnings (reported Nov 5) added as the main new catalyst — this resolves the prior pass's conflicting next-earnings-date estimates (now known: Nov 5, 2026). Cash declined from $717.6M to $650.3M; added FY2024 ($-2.45) and FY2025 ($-3.90) full-year EPS, which were previously unretrieved. Market cap and short-interest % conflicts remain unresolved — no current price found this pass (stockanalysis.com/cnbc.com/google.com blocked).",
+  "notes": "New, dated catalyst since baseline: Q3 2026 earnings plus the Phase 3 EMBARQ-CSU 'best-in-disease' topline data for barzolvolimab.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -289,15 +295,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "pe updated",
       "eps updated",
+      "revenue updated",
       "growth updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
       "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

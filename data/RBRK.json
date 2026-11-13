@@ -1,28 +1,27 @@
 {
   "ticker": "RBRK",
   "name": "Rubrik, Inc.",
-  "sector": "Information Technology",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-12T21:17:16.088Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-13T21:33:08.081Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established this pass"
+      "asOf": "2026-10-31",
+      "note": "sources give a range of $25.7B-$28.0B around this date; no single figure confirmed"
     },
     "float": {
       "value": null,
       "note": "Not disclosed separately in sources reviewed."
     },
     "sharesOutstanding": {
-      "value": 207304433,
-      "asOf": "2026-08-24",
-      "source": "Rubrik 10-Q (Q2 FY2027) cover page, SEC EDGAR filing rbrk-20260731.htm -- 167,367,143 Class A + 39,937,290 Class B shares",
-      "note": "Primary-source (SEC cover page) combined share count. Supersedes prior on-file 205.83M (2026-08-19, Equibles) figure. Third-party aggregators variously show 167.37M (Class A only) or 157.4M (unsourced) -- see conflicts."
+      "value": null,
+      "note": "sources show 189.8M and 202.3M shares from unclear/older dates"
     },
     "shortInterest": {
       "value": 13100000,
@@ -45,12 +44,18 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established this pass"
+      "note": "GAAP earnings negative; FY2027 non-GAAP diluted EPS guidance is $0.47-$0.53, but no formal forward P/E was found",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [
       {
-        "period": "Q2 FY2027 (ended 2026-07-31)",
+        "period": "Q2 FY2026",
+        "value": 309900000,
+        "yoy": null
+      },
+      {
+        "period": "Q2 FY2027",
         "value": 427300000,
         "yoy": 38
       }
@@ -58,22 +63,37 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q2 FY2027",
-      "pct": 38,
-      "note": "Q2 FY2027 (quarter ended July 31, 2026) revenue $427.3M, +38% YoY (figure carried from prior research pass, not contradicted this pass)"
+      "pct": 38
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No official IR announcement of the Q3 FY2027 report date was found this pass. Company guided Q3 FY2027 (quarter ended Oct 31, 2026) revenue of $429M-$431M and non-GAAP EPS of $0.07-$0.09 in its Aug 27, 2026 release (guidance, not actuals)."
+      "note": "fiscal Q3 FY2027 report not yet scheduled per sources found; last year's fiscal Q3 FY2026 call was held 2025-12-05, suggesting an early-December 2026 report is likely but unconfirmed"
     }
   },
   "price": {
-    "last": null,
+    "last": 116.51,
     "changePct": null,
-    "asOf": null,
-    "note": "Not established this pass; data-provider sites were unreachable and WebSearch budget ran out before a dedicated quote query could be run."
+    "rvol": null,
+    "asOf": "2026-11-03",
+    "source": "aaii.com",
+    "note": "source article is internally inconsistent on the day's % change (headline: -5.68%; body: +1.6% from a $114.67 prior close) — changePct left null rather than guessed"
   },
   "catalysts": [
+    {
+      "date": "2026-10-31",
+      "type": "price action",
+      "headline": "RBRK shares fall 7.09% to $124.15",
+      "impact": "Continues a multi-week decline from an Oct 30 close of $133.65",
+      "source": "https://www.benzinga.com/stock/RBRK"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Rubrik Q2 FY2027: revenue $427.3M (+38% YoY); raises FY2027 revenue guidance to $1.685B-$1.693B and issues Q3 FY2027 revenue guidance of $429M-$431M",
+      "impact": "Guidance raise despite shares falling >8% in the following premarket session",
+      "source": "https://www.storagenewsletter.com/2026/08/28/rubrik-fiscal-2q27-financial-results/"
+    },
     {
       "date": "2026-08-27",
       "type": "earnings",
@@ -103,20 +123,29 @@
     }
   ],
   "conflicts": [
-    {
-      "field": "nextEarnings.date",
-      "values": [
-        "2026-12-01 (estimate, source unspecified, carried from prior pass)",
-        "2026-12-03 (estimate, carried from prior pass)",
-        "2026-12-04 (estimate, carried from prior pass)",
-        "2026-12-07 (estimate, carried from prior pass)"
-      ],
-      "note": "No confirmed IR press release ('Rubrik to Report Third Quarter Fiscal 2027 Financial Results') was found this pass. Historical pattern: FY2026 Q3 (quarter ended Oct 31, 2025) was reported Thursday Dec 4, 2025, announced via press release on Nov 10, 2025; FY2027 Q1 was reported June 4, 2026; FY2027 Q2 was reported Aug 27, 2026 (quarter ended July 31, 2026, so FY2027 Q3 quarter end is Oct 31, 2026). This supports an early-December 2026 date (Thursday Dec 3, 2026 would match the prior year's Thursday pattern) but none of the four estimates could be confirmed or eliminated."
-    }
+    "A Nov 3, 2026 article is internally inconsistent: headline states the stock is down 5.68% while the body says it's up 1.6% from the prior close",
+    "Shares outstanding figures (189.8M and 202.3M) come from undated/older snapshots and were not reconciled"
   ],
   "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no news found dated after the Aug 27 Q2 FY2027 report already on file. Q3 FY2027 report date remains unconfirmed (conflict unresolved: Dec 1/3/4/7 2026 estimates, no IR press release found).",
+  "notes": "Price trended down from $133.65 (Oct 30) to $124.15 (Oct 31) to $116.51 (Nov 3), roughly 13% over four trading days; no single news catalyst for that specific slide was identified beyond the broader post-Q2-earnings premarket drop on Aug 28. No Q3 FY2027 earnings-date announcement found this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -354,10 +383,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

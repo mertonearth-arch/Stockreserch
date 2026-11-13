@@ -8,64 +8,65 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.087Z",
+  "lastResearched": "2026-11-13T21:33:08.080Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session."
+      "value": 1660000000,
+      "asOf": "2026-11-03",
+      "source": "equibles.com",
+      "note": "other sources show materially different figures from other dates"
     },
     "float": null,
     "sharesOutstanding": {
-      "value": 98600000,
-      "asOf": "2026-11-01",
-      "source": "chartrow.com / equibles.com (two independent aggregators agree: 98.6M / 98.59M)"
+      "value": 98590000,
+      "asOf": "2026-11-03",
+      "source": "equibles.com"
     },
     "shortInterest": null,
     "cash": {
       "value": 401000000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 press release (via finviz.com)"
+      "source": "SEC 10-Q / Q3 2026 earnings release",
+      "note": "down from $737M at 2025-12-31; net cash used in operations was $43M for the quarter"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings",
-      "asOf": "2026-11-03"
+      "note": "negative earnings (Q3 2026 loss of $1.16/share)",
+      "asOf": "2026-11-13"
     },
-    "eps": [],
-    "revenue": [
+    "eps": [
       {
-        "period": "Q2 2026",
-        "value": 214000000,
-        "yoy": 28,
-        "note": "Record quarterly revenue at the time."
-      },
+        "period": "Q3 2026",
+        "value": -1.16,
+        "basis": "not specified in source"
+      }
+    ],
+    "revenue": [
       {
         "period": "Q3 2026",
         "value": 173000000,
         "yoy": null,
-        "note": "Below analyst consensus of roughly $183.5M-$185M (a miss). FY2026 total revenue guidance reaffirmed at $730M-$760M. Q3 2025 comparable revenue not independently confirmed this session, so YoY left null rather than estimated."
+        "note": "missed the $184.25M consensus estimate by ~6.1%; prior-year Q3 2025 comparable not located this pass"
       }
     ],
     "growth": {
-      "metric": "revenue vs. consensus",
-      "period": "Q3 2026",
-      "pct": -6.1,
-      "note": "Revenue of $173.0M missed the $184.25M consensus estimate by 6.1%. Year-over-year revenue growth could not be computed — a comparable Q3 2025 revenue figure was not retrieved this session."
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "prior-year comparable not located this pass"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "No next earnings date found; consistent with prior state."
+      "confirmed": false
     }
   },
   "price": {
-    "last": 16.3,
+    "last": 16.63,
     "changePct": null,
-    "asOf": "2026-11-02",
-    "note": "This is the pre-Q3-earnings close (report came Nov 3); current/post-earnings price not retrieved before the search budget was exhausted. 52-week range: low $12.73 (2026-09-16), high $28.50 (2026-08-20)."
+    "rvol": null,
+    "asOf": "2026-11-03",
+    "source": "equibles.com"
   },
   "catalysts": [
     {
@@ -73,6 +74,27 @@
       "type": "restructuring",
       "headline": "Ultragenyx announced a 20% workforce reduction alongside Q3 2026 results, part of a push toward reaffirmed 2027 profitability",
       "source": "https://globalgenes.org/raredaily/ultragenyx-to-cut-20-percent-of-workforce/"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "earnings",
+      "headline": "Ultragenyx Q3 2026: loss of $1.16/share vs $1.15 est; revenue $173.0M, missing the $184.25M estimate by 6.1%; reaffirms 2026 revenue guidance and 2027 profitability target",
+      "impact": "Revenue miss alongside a reaffirmed path to 2027 profitability",
+      "source": "https://finviz.com/news/414661/ultragenyx-reports-third-quarter-2026-financial-results-announces-substantial-expense-reductions-and-reaffirms-profitability-in-2027"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "restructuring",
+      "headline": "Ultragenyx to cut ~20% of its workforce, discontinue its Wilson disease gene therapy program, and wind down all ongoing GTX-102 studies for Angelman syndrome",
+      "impact": "Substantial expense reduction tied to pipeline prioritization after an Angelman trial failure",
+      "source": "https://globalgenes.org/raredaily/ultragenyx-to-cut-20-percent-of-workforce/"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "pipeline",
+      "headline": "UX701 dose-finding study results did not meet the criteria needed to advance the gene therapy into pivotal Phase 3",
+      "impact": "Narrows the late-stage pipeline",
+      "source": "https://finviz.com/news/415052/ultragenyx-misses-on-revenue-but-gene-therapy-approvals-350-million-in-voucher-proceeds-and-deep-cuts-push-it-toward-profitability"
     },
     {
       "date": "2026-11-03",
@@ -238,12 +260,34 @@
     }
   ],
   "conflicts": [
-    "Market cap: $1.59B (asOf ~2026-11-01, at a pre-earnings $16.10 close) vs $1.43B (equibles, asOf 2026-09-30) vs stale $2.65B readings from July/August 2026. No figure found that is confirmed post-Q3-earnings (report was 2026-11-03, workforce cut announced same day) — none used to update marketCap.",
-    "One aggregator (chartrow.com) lists 'next earnings Nov 3, 2026' as if upcoming, but Q3 2026 results were already reported on that date per the catalyst already on file — that source's earnings-date field is stale/wrong, not used."
+    "Market cap: $1.66B at $16.63 (2026-11-03, equibles.com) vs $2.61B (Yahoo Finance, 2026-08-14) vs $2.21B (ROIC.ai) vs a clearly erroneous $46.19B figure on TipRanks (excluded as a data error)",
+    "Stock price around the earnings date given as both $16.30 (close, Nov 2) and $16.63 (Nov 3) by different sources — minor, likely consecutive-day closes"
   ],
-  "pendingFilings": [],
-  "notes": "No confirmed post-earnings (after 2026-11-03) price found this pass; existing price.last=16.30 (asOf 2026-11-02, pre-earnings) left unchanged rather than overwritten with unconfirmed figures.",
+  "pendingFilings": [
+    "10-Q for the quarter ended 2026-09-30 (SEC EDGAR)"
+  ],
+  "notes": "Substantive quarter, not routine: trial-failure-driven restructuring. BofA downgraded RARE to Neutral from Buy (target cut to $20 from $48) after the Phase 3 ASPIRE apazunersen Angelman-syndrome trial failure; UBS initiated at Neutral with a $16 target. The $210M Genglycos priority-review-voucher sale closed in late October 2026; a $203M Fayuvi voucher sale was expected to close later in November 2026 (not yet confirmed closed).",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -519,11 +563,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
       "sharesOutstanding updated",
+      "cash updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

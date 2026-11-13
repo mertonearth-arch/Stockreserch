@@ -8,62 +8,71 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.086Z",
+  "lastResearched": "2026-11-13T21:33:08.080Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": null,
-      "note": "Not retrieved this session."
+      "value": 19360000,
+      "asOf": "~2026-10",
+      "source": "stockanalysis.com (via search snippet)",
+      "note": "paired in that snippet with a 4.80M shares-outstanding figure that conflicts sharply with another source"
     },
     "float": null,
-    "sharesOutstanding": null,
+    "sharesOutstanding": {
+      "value": null,
+      "note": "Conflicting: ~4.80M (stockanalysis.com) vs shares said to have risen from 52M to 168M by end of Q3 2026 (third-party earnings review) — a ~35x gap not resolved this pass"
+    },
     "shortInterest": null,
     "cash": {
       "value": 33200000,
       "asOf": "2026-09-30",
-      "source": "company press release (via finviz.com/biopharmawatch.com)"
+      "source": "company Q3 2026 corporate update (via finviz/panabee)"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings / net-loss clinical-stage biotech",
-      "asOf": "2026-11-05"
+      "note": "pre-revenue; negative earnings",
+      "asOf": "2026-11-13"
     },
     "eps": [
-      {
-        "period": "Q3 2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Net loss figure available (~$3.9M) but per-share EPS not disclosed in sources reviewed."
-      },
       {
         "period": "Q3 2026",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss ~$4.9M for the quarter ended 2026-09-30; per-share EPS not disclosed in sources reviewed."
+        "note": "net loss ~$4.9M reported; per-share figure not located in a primary source this pass"
+      },
+      {
+        "period": "Q3 2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "net loss ~$3.9M reported; per-share figure not located"
       }
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash & marketable securities (QoQ)",
-      "period": "Q3 2026 vs Q2 2026",
-      "pct": 207.4,
-      "note": "Pre-revenue clinical-stage biotech; no product revenue. Cash grew from ~$10.8M at 2026-06-30 to ~$33.2M at 2026-09-30, driven by an August 2026 private placement, not operations."
+      "metric": "revenue YoY",
+      "pct": null,
+      "note": "pre-revenue clinical-stage company — no product sales"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "No next earnings date found; consistent with prior state."
+      "confirmed": false
     }
   },
   "price": {
     "last": null,
     "changePct": null,
-    "asOf": null,
-    "note": "Not retrieved this session; search budget exhausted before a price quote could be fetched."
+    "rvol": null,
+    "asOf": "2026-11-13"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Quoin Q3 2026: cash of $33.2M as of Sept 30, 2026; net loss ~$4.9M vs ~$3.9M a year earlier; company says cash now funds operations into 2028 (extended from 2027)",
+      "impact": "Runway extension per company statement, though a third-party burn-rate estimate implies a shorter runway into late 2027",
+      "source": "https://finviz.com/news/416995/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -172,11 +181,34 @@
     }
   ],
   "conflicts": [
-    "All market-cap/share-count data found this pass (MarketBeat $9.58M market cap at $4.81 on 2026-05-22; TipRanks/StockAnalysis ~588,000 shares outstanding from 2025) is 6+ months stale and predates both the August 2026 private placement and the Q3 2026 report (2026-11-05) already on file, which disclosed cash of $33.2M from that raise. Not used to update any field — would materially understate current share count. A 1:35 reverse split (April 2025) is also on record from these sources, consistent with the low pre-raise share count."
+    "Shares outstanding: ~4.80M (stockanalysis.com) vs 52M→168M over 2026 (third-party earnings review) — roughly 35x apart, unresolved; flagging rather than guessing a split ratio",
+    "Cash runway: company states into 2028; a third-party burn-rate estimate ($1.5M/month) instead implies into late 2027",
+    "Report-date confusion: company's own announcement named Nov 5, 2026 for Q3 results; a separate Earnings Whispers listing instead showed Nov 13, 2026 (today)"
   ],
-  "pendingFilings": [],
-  "notes": "No current (November 2026) price, market cap, or share count could be established this pass; existing fields left unchanged (null/as on file).",
+  "pendingFilings": [
+    "Private placement of up to $50.0 million announced (exact filing date not confirmed this pass)"
+  ],
+  "notes": "Routine refresh. New since last pass: Q3 2026 results/corporate update (Nov 5) and a private placement of up to $50M. Lead candidate remains QRX003 (topical lotion, Phase 2, Netherton syndrome); no new clinical readout found this pass.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -456,10 +488,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

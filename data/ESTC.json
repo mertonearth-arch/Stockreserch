@@ -1,81 +1,91 @@
 {
   "ticker": "ESTC",
   "name": "Elastic N.V.",
-  "sector": "Enterprise Software",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-12T21:17:16.081Z",
+  "lastResearched": "2026-11-13T21:33:08.066Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not located in available sources"
+      "value": 9080000000,
+      "asOf": "2026-11-06",
+      "source": "Marketchameleon"
     },
     "float": {
-      "value": 95990000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business"
+      "value": null,
+      "note": "Not disclosed separately"
     },
     "sharesOutstanding": {
-      "value": 105980000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business"
+      "value": null,
+      "note": "Not directly sourced; arithmetic inference excluded per no-invented-numbers rule"
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
       "note": "Not found"
     },
     "cash": {
-      "value": 1461000000,
-      "asOf": "2026-07-31",
-      "source": "Elastic Q1 FY2027 earnings release / 10-Q -- cash, cash equivalents, and marketable securities"
+      "value": null,
+      "note": "Not found in available sources this pass"
     },
     "debt": {
       "value": null,
-      "asOf": null,
-      "note": "Not confirmed for a current period"
+      "note": "Not found in available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not located in available sources this session"
+      "note": "Not established with confidence; company guided non-GAAP diluted EPS of $3.29-$3.37 for the fiscal year",
+      "asOf": "2026-08-27"
     },
     "eps": [],
     "revenue": [
       {
-        "period": "Q1 FY2027 (ended 2026-07-31)",
-        "value": 478100000,
+        "period": "Q1 FY2027",
+        "value": 478000000,
         "yoy": 15
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q1 FY2027",
-      "pct": 15,
-      "note": "From data on file: Q1 FY2027 results (2026-08-27) showed revenue of $478.1M, +15% YoY. No actual EPS figure for that quarter was located in this session."
+      "pct": 15
     },
     "nextEarnings": {
-      "date": "2026-11-26",
+      "date": "2026-11-19",
       "confirmed": false,
-      "note": "Third-party estimate (EarningsWhispers), after market close, consensus EPS $0.14. Still not an official Elastic press release; prior pass found other conflicting third-party estimates — treat as unconfirmed."
+      "note": "Conflicting dates found across sources: Earnings Whispers cites 2026-11-26, Tickzen cites 2026-11-16, and another source cites 2026-11-19 'after market close' while explicitly noting it is not yet company-confirmed"
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "asOf": "2026-11-11",
-    "note": "No confirmed quote for 2026-11-11. Most recent dated figure found: $106.27 on 2026-10-26 (massive.com), up ~20.57% over the trailing month per that source; also $98.18 close on 2026-10-23 (Fox Business) and ~$93.94 close on 2026-10-02 (Yahoo Finance)."
+    "last": 86.44,
+    "changePct": 2.23,
+    "asOf": "2026-11-06",
+    "source": "Marketchameleon (price) / secondary aggregator (change %, reported as $86.08 +$1.88)"
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "earnings (upcoming, unconfirmed date)",
+      "headline": "Next earnings report (Q2 FY2027) expected, after market close",
+      "impact": "Date not company-confirmed; see conflicts",
+      "source": "aggregator summary (exact outlet unclear in snippet)"
+    },
     {
       "date": "2026-10-09",
       "type": "analyst action",
       "headline": "Stifel maintained a Buy rating and raised its price target from $107 to $120",
       "source": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "headline": "Elastic reports Q1 FY2027 results: revenue $478M, up 15% YoY",
+      "impact": "Guided non-GAAP diluted EPS of $3.29-$3.37 for the fiscal year; stock reportedly fell after the report per one source, though the size of the move was not confirmed",
+      "source": "https://www.marketbeat.com/instant-alerts/transcript-elastic-q1-earnings-call-highlights-2026-08-27/"
     },
     {
       "date": "2026-08-27",
@@ -126,12 +136,37 @@
     }
   ],
   "conflicts": [
-    "Next earnings date is a three-way conflict among non-company sources: Tickzen projects November 16, 2026; MarketBeat and The Right Trader project November 19, 2026 (after market close), both explicitly noting Elastic has not confirmed the date; Earnings Whispers lists November 26, 2026 at 4:05 PM ET with no cited source. This is consistent with the conflict already on file (Nov 19 vs Nov 26) but adds a third candidate date (Nov 16) not previously noted.",
-    "Q2 FY2027 EPS: company's own guidance is non-GAAP diluted EPS of $0.80-$0.82 (on revenue guidance of $486M-$487M), but Benzinga's consensus estimate is listed at $0.68 EPS on $486.7M revenue — the consensus EPS sits notably below the company's own guidance range, which is unusual and unreconciled in available sources."
+    "Next earnings date: 2026-11-19 (one source, flagged as unconfirmed) vs 2026-11-26 (Earnings Whispers) vs 2026-11-16 (Tickzen) — not reconciled",
+    "Revenue/EPS consensus estimates for the upcoming quarter also conflict across sources: EPS estimates of $0.14 vs $0.83 for the same quarter, and revenue estimates of $486.7M vs $483.02M",
+    "Market cap: Marketchameleon $9.08B (2026-11-06) vs other undated figures of $8.84B and $9.17B"
   ],
-  "pendingFilings": [],
-  "notes": "Quiet recheck 2026-11-12: no new dated catalyst found since the 2026-10-09 Stifel note on file. Current price remains unresolved (sources found were undated or conflicting) — left as-is rather than guessing.",
+  "pendingFilings": [
+    "8-K 2026-08-27 (Q1 FY2027 earnings)"
+  ],
+  "notes": "An undated ChartExchange snapshot showing a $49.94 price and ~103.5M shares is far below all other 2026 figures and is almost certainly stale; not used for current fundamentals.",
   "history": [
+    {
+      "date": "2026-11-13",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-12",
       "run": "pm",
@@ -387,11 +422,23 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "2 new catalyst(s)",
+      "pe updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "new filing(s)",
+      "conflicts updated"
     ],
     "tradingDay": true
   }
