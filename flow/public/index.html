@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Money Flow 3D</title>
+<style>
+/* Layout: full-bleed 3D floor; instrument panels float at the edges, transport bar along the bottom. */
+:root {
+  color-scheme: dark;
+  --bg: #070b12;
+  --panel: rgba(12, 19, 30, 0.82);
+  --line: #1e2c40;
+  --fg: #dbe6f3;
+  --dim: #7f93ab;
+  --in: #2fd3a0;
+  --out: #ff6b57;
+  --flat: #5d6f86;
+  --warn: #f3b63f;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, Menlo, monospace;
+  --sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; background: var(--bg); color: var(--fg); font: 13px/1.4 var(--sans); overflow: hidden; }
+#scene { position: fixed; inset: 0; display: block; width: 100%; height: 100%; }
+.panel { position: fixed; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; backdrop-filter: blur(6px); }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.in { color: var(--in); } .out { color: var(--out); } .dim { color: var(--dim); }
+
+#head { top: 12px; left: 12px; padding: 10px 14px; max-width: min(360px, calc(100vw - 24px)); }
+#head h1 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: 0.02em; }
+#state { display: inline-block; margin-top: 6px; padding: 2px 8px; border-radius: 3px; font: 600 11px var(--mono); letter-spacing: 0.08em; border: 1px solid currentColor; }
+#state.live { color: var(--in); } #state.closed { color: var(--dim); } #state.sim, #state.stale { color: var(--warn); } #state.err { color: var(--out); }
+#sub { margin-top: 6px; color: var(--dim); font-size: 12px; }
+#mkt { margin-top: 6px; font-size: 12px; }
+details { margin-top: 8px; font-size: 12px; color: var(--dim); }
+summary { cursor: pointer; color: var(--fg); }
+details p { margin: 6px 0 0; }
+
+#sectors { top: 12px; right: 12px; width: 300px; padding: 8px 0; max-height: calc(100% - 110px); overflow: auto; }
+#sectors h2 { margin: 0 12px 6px; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); }
+.row { display: grid; grid-template-columns: 1fr 78px; gap: 2px 8px; padding: 5px 12px; width: 100%; background: none; border: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.row:hover, .row:focus-visible { background: rgba(255,255,255,0.05); outline: none; }
+.row .v { text-align: right; }
+.row .track { grid-column: 1 / -1; height: 4px; background: #131d2b; position: relative; }
+.row .track::after { content: ""; position: absolute; left: 50%; top: -1px; bottom: -1px; width: 1px; background: var(--line); }
+.row .fill { position: absolute; top: 0; bottom: 0; }
+
+#bar { left: 12px; right: 12px; bottom: 12px; padding: 8px 12px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+#bar button { background: #132033; color: var(--fg); border: 1px solid var(--line); border-radius: 3px; padding: 5px 12px; font: inherit; cursor: pointer; }
+#bar button:hover { border-color: var(--dim); }
+#bar button:focus-visible, #cursor:focus-visible { outline: 2px solid var(--in); outline-offset: 2px; }
+#cursor { flex: 1 1 160px; min-width: 0; accent-color: var(--in); }
+#clock { min-width: 92px; }
+.key { display: flex; gap: 12px; font-size: 12px; color: var(--dim); }
+.key i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
+
+#tip { position: fixed; pointer-events: none; padding: 8px 10px; font-size: 12px; z-index: 5; min-width: 170px; }
+#tip b { font-size: 13px; }
+#tip table { border-collapse: collapse; margin-top: 4px; width: 100%; }
+#tip td { padding: 1px 0; } #tip td:last-child { text-align: right; padding-left: 14px; }
+#msg { top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 18px 22px; max-width: min(460px, calc(100vw - 32px)); text-align: center; }
+[hidden] { display: none !important; }
+@media (max-width: 760px) {
+  #sectors { top: auto; bottom: 74px; right: 12px; left: 12px; width: auto; max-height: 30%; }
+  .key { display: none; }
+}
+</style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<div id="head" class="panel">
+  <h1>US Equity Money Flow</h1>
+  <span id="state" class="closed">CONNECTING</span>
+  <div id="sub"></div>
+  <div id="mkt" class="num"></div>
+  <details>
+    <summary>How to read this</summary>
+    <p>Each platform is a sector, sampled by six of its largest stocks. Tower height is dollar volume traded so far in the session. Tower colour is net flow as a share of that volume.</p>
+    <p>Net flow is a proxy: a 5-minute bar's dollar volume counts as inflow if the typical price rose from the prior bar and outflow if it fell. Every trade has a buyer and a seller, so this shows which side was moving price, not cash entering or leaving the market.</p>
+    <p>Particles show the last 30 minutes: toward a sector for net inflow, back to the core for net outflow. Density follows the size of the flow.</p>
+  </details>
+</div>
+
+<div id="sectors" class="panel">
+  <h2>Net flow by sector, session to cursor</h2>
+  <div id="rows"></div>
+</div>
+
+<div id="bar" class="panel">
+  <button id="play" type="button">Replay</button>
+  <input id="cursor" type="range" min="0" max="0" value="0" aria-label="Time in session">
+  <span id="clock" class="num">--:-- ET</span>
+  <button id="latest" type="button">Latest</button>
+  <span class="key"><span><i style="background:var(--in)"></i>net inflow</span><span><i style="background:var(--out)"></i>net outflow</span></span>
+</div>
+
+<div id="tip" class="panel" hidden></div>
+<div id="msg" class="panel" hidden></div>
+
+<script src="vendor/three.min.js"></script>
+<script src="vendor/OrbitControls.js"></script>
+<script>
+(function () {
+'use strict';
+var $ = function (id) { return document.getElementById(id); };
+var C_IN = new THREE.Color('#2fd3a0'), C_OUT = new THREE.Color('#ff6b57'), C_FLAT = new THREE.Color('#5d6f86');
+var RING = 19, PAD = 4.6, MAXH = 7, NPART = 3600;
+
+// ------------------------------------------------------------ formatting
+function money(v, signed) {
+  var a = Math.abs(v), s = v < 0 ? '−' : (signed && v > 0 ? '+' : '');
+  if (a >= 1e9) return s + '$' + (a / 1e9).toFixed(2) + 'B';
+  if (a >= 1e6) return s + '$' + (a / 1e6).toFixed(1) + 'M';
+  return s + '$' + Math.round(a / 1e3) + 'K';
+}
+function pct(v) { return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(2) + '%'; }
+var etClock = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hourCycle: 'h23', hour: '2-digit', minute: '2-digit' });
+function clock(t) { return etClock.format(new Date(t * 1000)) + ' ET'; }
+function cls(v) { return v > 0 ? 'in' : v < 0 ? 'out' : 'dim'; }
+function flowColor(ratio, out) { // ratio = net flow / dollar volume, saturates at +-35%
+  var k = Math.max(-1, Math.min(1, ratio / 0.35));
+  return out.copy(C_FLAT).lerp(k >= 0 ? C_IN : C_OUT, Math.abs(k));
+}
+
+// ------------------------------------------------------------ scene
+var canvas = $('scene');
+var renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+var scene = new THREE.Scene();
+scene.background = new THREE.Color('#070b12');
+scene.fog = new THREE.Fog('#070b12', 55, 120);
+var camera = new THREE.PerspectiveCamera(46, 1, 0.1, 400);
+camera.position.set(0, 34, 54);
+var controls = new THREE.OrbitControls(camera, canvas);
+controls.target.set(0, 3, 0);
+controls.enableDamping = true;
+controls.maxPolarAngle = Math.PI * 0.49;
+controls.minDistance = 12; controls.maxDistance = 110;
+controls.autoRotate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+controls.autoRotateSpeed = 0.35;
+canvas.addEventListener('pointerdown', function () { controls.autoRotate = false; });
+
+scene.add(new THREE.HemisphereLight('#b9d2ff', '#0a0f18', 0.9));
+var sun = new THREE.DirectionalLight('#ffffff', 0.8); sun.position.set(20, 40, 15); scene.add(sun);
+var grid = new THREE.GridHelper(120, 60, '#1b2a3f', '#111b29'); grid.position.y = -0.02; scene.add(grid);
+
+var core = new THREE.Mesh(new THREE.IcosahedronGeometry(1.7, 1),
+  new THREE.MeshStandardMaterial({ color: '#8fb4e8', emissive: '#274a7d', flatShading: true, roughness: 0.4 }));
+core.position.y = 3; scene.add(core);
+var coreLabel = makeLabel(256, 64); coreLabel.sprite.position.set(0, 6.2, 0); coreLabel.sprite.scale.set(7, 1.75, 1); scene.add(coreLabel.sprite);
+
+function makeLabel(w, h) {
+  var c = document.createElement('canvas'); c.width = w; c.height = h;
+  var tex = new THREE.CanvasTexture(c);
+  var sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, depthWrite: false, depthTest: false }));
+  return { ctx: c.getContext('2d'), tex: tex, sprite: sprite, w: w, h: h };
+}
+function drawLabel(L, lines) { // lines: [{text, color, font}]
+  L.ctx.clearRect(0, 0, L.w, L.h);
+  L.ctx.textAlign = 'center'; L.ctx.textBaseline = 'middle';
+  var step = L.h / lines.length;
+  lines.forEach(function (ln, i) {
+    L.ctx.font = ln.font; L.ctx.fillStyle = ln.color;
+    L.ctx.fillText(ln.text, L.w / 2, step * (i + 0.5));
+  });
+  L.tex.needsUpdate = true;
+}
+
+// ------------------------------------------------------------ model
+var data = null, model = null, cur = 0, follow = true, playing = false, playAcc = 0;
+var towers = [];          // meshes, for picking
+var world = new THREE.Group(); scene.add(world);
+
+function prefix(a) { var o = new Float64Array(a.length), s = 0; for (var i = 0; i < a.length; i++) { s += a[i]; o[i] = s; } return o; }
+function win(p, k, n) { return p[k] - (k - n >= 0 ? p[k - n] : 0); }
+
+function rebuild(d) {
+  // Topology (which sectors/stocks exist) decides whether meshes are recreated.
+  var sig = d.sectors.map(function (s) { return s.id + ':' + s.stocks.map(function (x) { return x.symbol; }).join(','); }).join('|');
+  var n = d.times.length;
+  var m = { sig: sig, sectors: [], maxDV: 1, maxAct: 1, n: n };
+  d.sectors.forEach(function (s) {
+    var S = { id: s.id, name: s.name, stocks: [], dv: new Float64Array(n), mf: new Float64Array(n) };
+    s.stocks.forEach(function (x) {
+      var st = { symbol: x.symbol, prev: x.prev, px: x.px, cdv: prefix(x.dv), cmf: prefix(x.mf) };
+      S.stocks.push(st);
+      for (var i = 0; i < n; i++) { S.dv[i] += x.dv[i]; S.mf[i] += x.mf[i]; }
+      m.maxDV = Math.max(m.maxDV, st.cdv[n - 1]);
+    });
+    S.cdv = prefix(S.dv); S.cmf = prefix(S.mf);
+    m.sectors.push(S);
+  });
+  for (var k = 0; k < n; k++) { // peak 30-minute activity, to scale particle density
+    var a = 0; m.sectors.forEach(function (S) { a += Math.abs(win(S.cmf, k, 6)); });
+    m.maxAct = Math.max(m.maxAct, a);
+  }
+  if (!model || model.sig !== sig) buildMeshes(m); else carryMeshes(model, m);
+  model = m;
+}
+function carryMeshes(a, b) {
+  b.sectors.forEach(function (S, i) {
+    var o = a.sectors[i]; S.pos = o.pos; S.ring = o.ring; S.label = o.label;
+    S.stocks.forEach(function (st, j) { st.mesh = o.stocks[j].mesh; st.tag = o.stocks[j].tag; st.mesh.userData = { s: S, st: st }; });
+  });
+}
+function buildMeshes(m) {
+  while (world.children.length) world.remove(world.children[0]);
+  towers = [];
+  var box = new THREE.BoxGeometry(1, 1, 1); box.translate(0, 0.5, 0);
+  m.sectors.forEach(function (S, i) {
+    var ang = (i / m.sectors.length) * Math.PI * 2 - Math.PI / 2;
+    S.pos = new THREE.Vector3(Math.cos(ang) * RING, 0, Math.sin(ang) * RING);
+    var g = new THREE.Group(); g.position.copy(S.pos); world.add(g);
+    var pad = new THREE.Mesh(new THREE.CylinderGeometry(PAD, PAD, 0.18, 48), new THREE.MeshStandardMaterial({ color: '#0f1826', roughness: 0.9 }));
+    pad.position.y = 0.09; g.add(pad);
+    S.ring = new THREE.Mesh(new THREE.TorusGeometry(PAD, 0.07, 8, 64), new THREE.MeshBasicMaterial({ color: C_FLAT.clone() }));
+    S.ring.rotation.x = Math.PI / 2; S.ring.position.y = 0.2; g.add(S.ring);
+    S.label = makeLabel(512, 128); S.label.sprite.scale.set(9, 2.25, 1);
+    S.label.sprite.position.set(Math.cos(ang) * (PAD + 2.4), 1.4, Math.sin(ang) * (PAD + 2.4)); g.add(S.label.sprite);
+    S.stocks.forEach(function (st, j) {
+      var a2 = (j / S.stocks.length) * Math.PI * 2 + ang, r = S.stocks.length > 1 ? PAD * 0.58 : 0;
+      st.mesh = new THREE.Mesh(box, new THREE.MeshStandardMaterial({ color: C_FLAT.clone(), roughness: 0.55, metalness: 0.1 }));
+      st.mesh.position.set(Math.cos(a2) * r, 0.18, Math.sin(a2) * r);
+      st.mesh.scale.set(1.25, 0.1, 1.25);
+      st.mesh.userData = { s: S, st: st };
+      g.add(st.mesh); towers.push(st.mesh);
+      st.tag = makeLabel(128, 48); st.tag.sprite.scale.set(2.4, 0.9, 1);
+      drawLabel(st.tag, [{ text: st.symbol, color: '#dbe6f3', font: '600 26px ui-monospace, Consolas, monospace' }]);
+      st.tag.sprite.position.copy(st.mesh.position); g.add(st.tag.sprite);
+    });
+  });
+}
+
+// ------------------------------------------------------------ particles
+var pGeo = new THREE.BufferGeometry();
+var pPos = new Float32Array(NPART * 3), pCol = new Float32Array(NPART * 3);
+var pT = new Float32Array(NPART), pSpd = new Float32Array(NPART), pOff = new Float32Array(NPART * 2);
+var pSec = new Int16Array(NPART).fill(-1), pDir = new Int8Array(NPART);
+for (var i = 0; i < NPART; i++) { pT[i] = Math.random(); pSpd[i] = 0.16 + Math.random() * 0.2; pOff[i * 2] = Math.random() * 2 - 1; pOff[i * 2 + 1] = Math.random() * 2 - 1; pPos[i * 3 + 1] = -999; }
+pGeo.setAttribute('position', new THREE.BufferAttribute(pPos, 3));
+pGeo.setAttribute('color', new THREE.BufferAttribute(pCol, 3));
+var points = new THREE.Points(pGeo, new THREE.PointsMaterial({ size: 0.28, vertexColors: true, transparent: true, opacity: 0.9, depthWrite: false, blending: THREE.AdditiveBlending }));
+points.frustumCulled = false; scene.add(points);
+
+function allocate() {
+  var flows = model.sectors.map(function (S) { return win(S.cmf, cur, 6); });
+  var tot = flows.reduce(function (a, v) { return a + Math.abs(v); }, 0);
+  var active = tot > 0 ? Math.round(NPART * (0.15 + 0.85 * Math.min(1, tot / model.maxAct))) : 0;
+  var i = 0;
+  flows.forEach(function (f, s) {
+    var n = tot > 0 ? Math.round(active * Math.abs(f) / tot) : 0;
+    var c = f >= 0 ? C_IN : C_OUT;
+    for (var e = Math.min(NPART, i + n); i < e; i++) {
+      pSec[i] = s; pDir[i] = f >= 0 ? 1 : -1;
+      pCol[i * 3] = c.r; pCol[i * 3 + 1] = c.g; pCol[i * 3 + 2] = c.b;
+    }
+  });
+  for (; i < NPART; i++) { pSec[i] = -1; pPos[i * 3 + 1] = -999; }
+  pGeo.attributes.color.needsUpdate = true;
+}
+function stepParticles(dt) {
+  if (!model) return;
+  for (var i = 0; i < NPART; i++) {
+    var s = pSec[i]; if (s < 0) continue;
+    var t = pT[i] + dt * pSpd[i]; if (t > 1) t -= 1; pT[i] = t;
+    var u = pDir[i] > 0 ? t : 1 - t, P = model.sectors[s].pos, v = 1 - u;
+    var spread = Math.sin(u * Math.PI) * 1.1 + 0.25;
+    // quadratic arc: core (0,3,0) -> apex above midpoint -> sector pad
+    pPos[i * 3] = 2 * v * u * P.x * 0.5 + u * u * P.x + pOff[i * 2] * spread;
+    pPos[i * 3 + 1] = v * v * 3 + 2 * v * u * 10 + u * u * 0.6 + pOff[i * 2 + 1] * spread * 0.6;
+    pPos[i * 3 + 2] = 2 * v * u * P.z * 0.5 + u * u * P.z + pOff[i * 2] * spread * 0.5;
+  }
+  pGeo.attributes.position.needsUpdate = true;
+}
+
+// ------------------------------------------------------------ apply cursor
+var tmpC = new THREE.Color();
+function apply() {
+  if (!model) return;
+  var k = cur;
+  model.sectors.forEach(function (S) {
+    S.stocks.forEach(function (st) {
+      var dv = st.cdv[k], h = 0.1 + MAXH * Math.sqrt(dv / model.maxDV);
+      st.mesh.scale.y = h;
+      flowColor(dv > 0 ? st.cmf[k] / dv : 0, st.mesh.material.color);
+      st.mesh.material.emissive.copy(st.mesh.material.color).multiplyScalar(0.25);
+      st.tag.sprite.position.y = 0.18 + h + 0.6;
+    });
+    var net = S.cmf[k], ratio = S.cdv[k] > 0 ? net / S.cdv[k] : 0;
+    flowColor(ratio, S.ring.material.color);
+    drawLabel(S.label, [
+      { text: S.name, color: '#dbe6f3', font: '600 38px "Segoe UI", system-ui, sans-serif' },
+      { text: money(net, true) + ' net', color: '#' + flowColor(ratio * 3, tmpC).getHexString(), font: '600 40px ui-monospace, Consolas, monospace' },
+    ]);
+  });
+  allocate();
+  renderRows();
+  $('cursor').value = k;
+  $('clock').textContent = clock(data.times[k] + data.barSeconds);
+  var ix = data.index;
+  if (ix && ix.px[k] != null && ix.prev) {
+    var ch = ix.px[k] / ix.prev - 1;
+    $('mkt').innerHTML = ix.symbol + ' ' + ix.px[k].toFixed(2) + ' <span class="' + cls(ch) + '">' + pct(ch) + '</span>';
+    drawLabel(coreLabel, [{ text: ix.symbol + '  ' + pct(ch), color: '#dbe6f3', font: '600 34px ui-monospace, Consolas, monospace' }]);
+  } else { $('mkt').textContent = ''; drawLabel(coreLabel, [{ text: 'US tape', color: '#dbe6f3', font: '600 34px ui-monospace, Consolas, monospace' }]); }
+}
+
+function renderRows() {
+  var k = cur, list = model.sectors.map(function (S) { return { S: S, net: S.cmf[k], dv: S.cdv[k] }; });
+  list.sort(function (a, b) { return b.net - a.net; });
+  var max = list.reduce(function (a, r) { return Math.max(a, Math.abs(r.net)); }, 1);
+  var box = $('rows'); box.textContent = '';
+  list.forEach(function (r) {
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'row';
+    var n = document.createElement('span'); n.textContent = r.S.name;
+    var v = document.createElement('span'); v.className = 'v num ' + cls(r.net); v.textContent = money(r.net, true);
+    var t = document.createElement('span'); t.className = 'track';
+    var f = document.createElement('span'); f.className = 'fill';
+    var w = Math.abs(r.net) / max * 50;
+    f.style.width = w + '%'; f.style.left = (r.net >= 0 ? 50 : 50 - w) + '%';
+    f.style.background = r.net >= 0 ? 'var(--in)' : 'var(--out)';
+    t.appendChild(f); b.appendChild(n); b.appendChild(v); b.appendChild(t);
+    b.title = 'Dollar volume ' + money(r.dv) + '. Click to look at this sector.';
+    b.addEventListener('click', function () { focus(r.S); });
+    box.appendChild(b);
+  });
+}
+var camGoal = null;
+function focus(S) {
+  controls.autoRotate = false;
+  camGoal = { target: new THREE.Vector3(S.pos.x, 3, S.pos.z), pos: new THREE.Vector3(S.pos.x * 1.9, 13, S.pos.z * 1.9) };
+}
+
+// ------------------------------------------------------------ hover
+var ray = new THREE.Raycaster(), mouse = new THREE.Vector2(), tip = $('tip');
+canvas.addEventListener('pointermove', function (e) {
+  if (!model) return;
+  var r = canvas.getBoundingClientRect();
+  mouse.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  var hit = ray.intersectObjects(towers, false)[0];
+  if (!hit) { tip.hidden = true; return; }
+  var st = hit.object.userData.st, S = hit.object.userData.s, k = cur;
+  var px = st.px[k], ch = px != null && st.prev ? px / st.prev - 1 : null;
+  var net = st.cmf[k], last = win(st.cmf, k, 6);
+  tip.innerHTML = '<b></b> <span class="dim"></span><table>' +
+    '<tr><td class="dim">Price</td><td class="num">' + (px != null ? px.toFixed(2) : 'n/a') + (ch != null ? ' <span class="' + cls(ch) + '">' + pct(ch) + '</span>' : '') + '</td></tr>' +
+    '<tr><td class="dim">Dollar volume</td><td class="num">' + money(st.cdv[k]) + '</td></tr>' +
+    '<tr><td class="dim">Net flow</td><td class="num ' + cls(net) + '">' + money(net, true) + '</td></tr>' +
+    '<tr><td class="dim">Last 30 min</td><td class="num ' + cls(last) + '">' + money(last, true) + '</td></tr></table>';
+  tip.querySelector('b').textContent = st.symbol; tip.querySelector('span').textContent = S.name;
+  tip.hidden = false;
+  tip.style.left = Math.min(e.clientX + 14, window.innerWidth - tip.offsetWidth - 8) + 'px';
+  tip.style.top = Math.min(e.clientY + 14, window.innerHeight - tip.offsetHeight - 8) + 'px';
+});
+canvas.addEventListener('pointerleave', function () { tip.hidden = true; });
+
+// ------------------------------------------------------------ transport
+$('cursor').addEventListener('input', function (e) { cur = +e.target.value; follow = cur === model.n - 1; playing = false; sync(); apply(); });
+$('latest').addEventListener('click', function () { if (!model) return; cur = model.n - 1; follow = true; playing = false; sync(); apply(); });
+$('play').addEventListener('click', function () {
+  if (!model) return;
+  playing = !playing;
+  if (playing) { follow = false; if (cur >= model.n - 1) cur = 0; }
+  sync(); apply();
+});
+function sync() { $('play').textContent = playing ? 'Pause' : 'Replay'; }
+
+// ------------------------------------------------------------ data
+function setState(kind, text) { var s = $('state'); s.className = kind; s.textContent = text; }
+var SOURCES = {
+  yahoo: 'Yahoo Finance chart feed (unofficial, no key)',
+  alpaca: 'Alpaca IEX feed, a small share of total US volume',
+  demo: 'Generated numbers, not market data',
+};
+function load() {
+  fetch('api/flow', { cache: 'no-store' }).then(function (r) {
+    return r.json().then(function (j) { if (!r.ok) throw Object.assign(new Error(j.error || 'HTTP ' + r.status), { body: j }); return j; });
+  }).then(function (d) {
+    $('msg').hidden = true;
+    var wasEnd = !model || follow;
+    data = d; rebuild(d);
+    $('cursor').max = model.n - 1;
+    if (wasEnd && !playing) cur = model.n - 1; else cur = Math.min(cur, model.n - 1);
+    var age = d.lastSuccess ? d.serverTime - d.lastSuccess : null;
+    if (d.simulated) setState('sim', 'SIMULATED DATA');
+    else if (age != null && age > 300) setState('stale', 'STALE ' + Math.round(age / 60) + ' MIN');
+    else if (d.live) setState('live', 'LIVE');
+    else setState('closed', 'MARKET CLOSED');
+    var bits = [SOURCES[d.provider] || d.provider, 'Session ' + d.sessionDate, '5-minute bars'];
+    if (!d.live && !d.simulated) bits.push('showing the last completed session');
+    if (d.missing && d.missing.length) bits.push('no data for ' + d.missing.join(', '));
+    if (d.errors && d.errors.length) bits.push('last refresh: ' + d.errors.length + ' error(s), ' + d.errors[0].message);
+    $('sub').textContent = bits.join(' · ');
+    apply();
+  }).catch(function (e) {
+    var detail = e.body && e.body.errors && e.body.errors[0] ? ' Provider said: ' + e.body.errors[0].message + '.' : '';
+    if (!model) {
+      setState('err', 'NO DATA');
+      $('msg').hidden = false;
+      $('msg').textContent = 'No market data yet.' + detail + ' The server keeps retrying; this page checks again every 15 seconds. To see the scene with generated numbers, restart with: node flow/server.js --demo';
+    } else { setState('stale', 'CONNECTION LOST'); }
+  });
+}
+load(); setInterval(load, 15000);
+
+// ------------------------------------------------------------ loop
+function resize() {
+  var w = window.innerWidth, h = window.innerHeight;
+  renderer.setSize(w, h, false); camera.aspect = w / h;
+  camera.fov = w < h ? 62 : 46; camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', resize); resize();
+var last = performance.now();
+function frame(now) {
+  var dt = Math.min(0.05, (now - last) / 1000); last = now;
+  if (playing && model) {
+    playAcc += dt;
+    if (playAcc > 0.22) { playAcc = 0; if (cur < model.n - 1) { cur++; } else { playing = false; follow = true; sync(); } apply(); }
+  }
+  if (camGoal) {
+    controls.target.lerp(camGoal.target, 0.08); camera.position.lerp(camGoal.pos, 0.08);
+    if (camera.position.distanceTo(camGoal.pos) < 0.2) camGoal = null;
+  }
+  core.rotation.y += dt * 0.4;
+  stepParticles(dt);
+  controls.update();
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+window.__flow = { get model() { return model; }, get cur() { return cur; } };
+})();
+</script>
+</body>
+</html>
