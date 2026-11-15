@@ -17,7 +17,9 @@ Talking 3D assistant with key-point popups. Separate artifact from Cadence Desk.
 
     https://claude.ai/artifact/PRpASpqwpoxxeMQSGGRB9M
 
-Publish call: Artifact tool with `file_path: jarvis.html` AND `url:` set to the link above.
-Capabilities: `sample`, `dictation`, `tts` (omit `capabilities` on a redeploy to keep them).
+Publish call: Artifact tool with `file_path: jarvis.html`, `url:` set to the link above, and
+`files: {"jarvis-data.json": "jarvis-data.json"}` (run `node bin/jarvis-data.js` first).
+Capabilities: `sample`, `dictation`, `tts`, `mcp` with `host:claude_browser`
+(omit `capabilities` on a redeploy to keep them).
 
 First published 2026-11-14.
