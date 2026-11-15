@@ -1,0 +1,442 @@
+<title>Riskkarta 3D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a plotting instrument. The 3D plot is the page; a narrow ledger of scenarios sits beside it and stacks under it on a phone. */
+:root {
+  --bg: #eceff3;
+  --surface: #f8f9fb;
+  --ink: #16202e;
+  --muted: #5a6779;
+  --line: #c9d0da;
+  --grid: #b3bcc9;
+  --accent: #3a4fd6;
+  --pos: #0b7a8c;
+  --neg: #b8450f;
+  --even: #7c6fb0;
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111722; --surface: #19212f; --ink: #e6ebf3; --muted: #94a1b5; --line: #2e394b;
+    --grid: #3c495e; --accent: #8a9bff; --pos: #4cc3d6; --neg: #f08a4b; --even: #a99be0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111722; --surface: #19212f; --ink: #e6ebf3; --muted: #94a1b5; --line: #2e394b;
+  --grid: #3c495e; --accent: #8a9bff; --pos: #4cc3d6; --neg: #f08a4b; --even: #a99be0;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+}
+.wrap { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+header { display: flex; flex-direction: column; gap: 6px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.7rem; line-height: 1.15; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; margin: 0; }
+.lede { color: var(--muted); max-width: 65ch; margin: 0; }
+.cols { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+.plot { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.stage { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; position: relative; }
+canvas { display: block; width: 100%; height: min(62vh, 560px); min-height: 340px; touch-action: pan-y; cursor: grab; border-radius: 6px; }
+canvas:active { cursor: grabbing; }
+canvas:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button {
+  font: 500 13px var(--font-body); color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 4px; padding: 6px 10px; cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+button.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+button.ghost { border-color: transparent; background: none; color: var(--muted); padding: 4px 6px; }
+button.ghost:hover { color: var(--neg); }
+.check { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 11px; height: 11px; display: inline-block; }
+.sw.pos { background: var(--pos); border-radius: 50%; }
+.sw.neg { background: var(--neg); transform: rotate(45deg); }
+.sw.even { height: 0; width: 16px; border-top: 2px solid var(--even); }
+.side { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.panel { display: flex; flex-direction: column; gap: 10px; }
+.detail { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.detail .name { font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; overflow-wrap: anywhere; }
+.kv { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kv div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.k { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.v { font-family: var(--font-data); font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.v.pos { color: var(--pos); } .v.neg { color: var(--neg); }
+.verdict { font-size: 14px; margin: 0; }
+.facts { border-top: 1px solid var(--line); padding-top: 10px; font-size: 13px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; overflow-wrap: anywhere; }
+.facts b { color: var(--ink); font-weight: 600; }
+.rows { display: flex; flex-direction: column; }
+.row {
+  display: grid; grid-template-columns: minmax(0, 1fr) repeat(3, 62px) 58px 26px; gap: 6px; align-items: center;
+  padding: 7px 6px; border-bottom: 1px solid var(--line); border-left: 3px solid transparent;
+}
+.row.head { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-block: 4px; }
+.row.sel { border-left-color: var(--accent); background: var(--surface); }
+.row .lbl { background: none; border: none; padding: 0; text-align: left; font: 500 14px var(--font-body); color: var(--ink); overflow-wrap: anywhere; min-width: 0; }
+.chip { font-size: 10px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 6px; }
+input[type="number"], input[type="text"] {
+  width: 100%; min-width: 0; font: 400 13px var(--font-data); color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 4px; padding: 5px 6px; font-variant-numeric: tabular-nums;
+}
+.ev { font-family: var(--font-data); font-size: 13px; text-align: right; font-variant-numeric: tabular-nums; }
+.ev.pos { color: var(--pos); } .ev.neg { color: var(--neg); }
+.add { display: grid; grid-template-columns: minmax(0, 1fr) repeat(3, 62px) auto; gap: 6px; align-items: end; }
+.add label { display: flex; flex-direction: column; gap: 3px; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); min-width: 0; }
+@media (max-width: 460px) {
+  .row { grid-template-columns: minmax(0, 1fr) repeat(3, 52px) 26px; }
+  .row input { padding-inline: 4px; font-size: 12px; }
+  .row .ev, .row.head .evh { display: none; }
+  .add { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .add label.wide { grid-column: 1 / -1; }
+  .add button { grid-column: 1 / -1; }
+}
+.note { font-size: 12.5px; color: var(--muted); margin: 0; max-width: 65ch; }
+.empty { color: var(--muted); font-size: 14px; padding: 12px 6px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Riskkarta 3D</h1>
+    <p class="lede">Tre frågor per idé: hur mycket kan du förlora, hur mycket kan du vinna, och hur troligt är det att du får rätt. Siffrorna är dina egna uppskattningar. Kartan räknar bara ut vad de innebär tillsammans.</p>
+  </header>
+
+  <div class="cols">
+    <section class="plot" aria-label="3D-karta">
+      <div class="stage">
+        <canvas id="cv" tabindex="0" role="img" aria-label="3D-diagram med risk, reward och chans. Dra för att vrida, piltangenter fungerar också."></canvas>
+      </div>
+      <div class="bar">
+        <button id="v3d" type="button" aria-pressed="true">3D</button>
+        <button id="vrr" type="button" aria-pressed="false">Risk × Reward</button>
+        <button id="vcr" type="button" aria-pressed="false">Chans × Reward</button>
+        <button id="vrc" type="button" aria-pressed="false">Risk × Chans</button>
+        <label class="check"><input type="checkbox" id="showEven" checked> Visa nollytan</label>
+      </div>
+      <div class="legend">
+        <span><i class="sw pos"></i> Positivt väntevärde</span>
+        <span><i class="sw neg"></i> Negativt väntevärde</span>
+        <span><i class="sw even"></i> Nollytan: väntevärde = 0</span>
+      </div>
+      <p class="note">Väntevärde = chans × uppsida − (1 − chans) × nedsida. Punkter ovanför nollytan lönar sig i snitt om dina siffror stämmer, punkter under gör det inte. Modellen har bara två utfall: full uppsida eller full nedsida.</p>
+    </section>
+
+    <aside class="side">
+      <div class="detail" id="detail"></div>
+
+      <div class="panel">
+        <h2>Dina scenarier</h2>
+        <div class="rows" id="rows"></div>
+        <form class="add" id="addForm" autocomplete="off">
+          <label class="wide">Namn eller ticker
+            <input type="text" id="fName" list="tickers" maxlength="40" placeholder="t.ex. NVDA" required>
+          </label>
+          <label>Risk %
+            <input type="number" id="fRisk" min="0" max="100" step="1" placeholder="40" required>
+          </label>
+          <label>Reward %
+            <input type="number" id="fReward" min="0" max="1000" step="1" placeholder="80" required>
+          </label>
+          <label>Chans %
+            <input type="number" id="fChance" min="0" max="100" step="1" placeholder="35" required>
+          </label>
+          <button class="primary" type="submit">Lägg till</button>
+        </form>
+        <datalist id="tickers"></datalist>
+        <div class="bar">
+          <button type="button" id="clearEx" hidden>Ta bort exemplen</button>
+          <span class="note" id="saveState"></span>
+        </div>
+        <p class="note">Risk = hur många procent du räknar med att förlora om det går fel. Reward = hur många procent upp om det går rätt. Chans = din egen bedömning av sannolikheten att det går rätt.</p>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<script>
+const WATCH = /*__DATA__*/{};
+const ASOF = "/*__ASOF__*/";
+
+const EXAMPLES = [
+  { id: "ex1", label: "Binärt utfall", risk: 60, reward: 150, chance: 30, ex: true },
+  { id: "ex2", label: "Liten uppsida, hög chans", risk: 15, reward: 10, chance: 75, ex: true },
+  { id: "ex3", label: "Lottsedel", risk: 90, reward: 250, chance: 15, ex: true },
+];
+let points = EXAMPLES.map(p => ({ ...p }));
+let selected = points[0].id;
+let yaw = -0.62, pitch = 0.42, showEven = true;
+let store = null, saveTimer = null, saving = false, dirty = false;
+
+const $ = id => document.getElementById(id);
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const ev = p => (p.chance / 100) * p.reward - (1 - p.chance / 100) * p.risk;
+const breakEven = p => (p.risk + p.reward) > 0 ? 100 * p.risk / (p.risk + p.reward) : null;
+const fmt = (n, d = 1) => (n > 0 ? "+" : n < 0 ? "−" : "") + Math.abs(n).toFixed(d).replace(".", ",");
+const maxReward = () => Math.max(100, Math.ceil(Math.max(0, ...points.map(p => p.reward)) / 50) * 50);
+
+/* ---------- persistence ---------- */
+function readLocal() { try { const s = JSON.parse(localStorage.getItem("riskmap") || "null"); return s && Array.isArray(s.points) ? s : null; } catch (e) { return null; } }
+function writeLocal() { try { localStorage.setItem("riskmap", JSON.stringify({ points })); } catch (e) {} }
+function clean(list) {
+  return list.filter(p => p && typeof p.label === "string").slice(0, 200).map(p => ({
+    id: String(p.id || Math.random().toString(36).slice(2)), label: p.label.slice(0, 40),
+    risk: clamp(+p.risk || 0, 0, 100), reward: clamp(+p.reward || 0, 0, 1000), chance: clamp(+p.chance || 0, 0, 100), ex: !!p.ex,
+  }));
+}
+function setSaveState(t) { $("saveState").textContent = t; }
+function queueSave() {
+  writeLocal();
+  if (!store) { setSaveState("Sparas i den här webbläsaren."); return; }
+  dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(flush, 800);
+}
+async function flush() {
+  if (saving || !dirty || !store) return;
+  saving = true; dirty = false;
+  try { await store.set({ points }); setSaveState("Sparat på ditt konto."); }
+  catch (e) { setSaveState("Kunde inte spara på kontot. Finns kvar i den här webbläsaren."); }
+  saving = false; if (dirty) flush();
+}
+async function connect() {
+  try {
+    const [db, user] = await Promise.all([window.claude?.use?.("db"), window.claude?.use?.("user")]);
+    const id = user ? await user.id() : null;
+    if (!db || !id) { setSaveState("Sparas i den här webbläsaren."); return; }
+    const ref = db.collection("data/users/" + id).doc("riskmap");
+    const snap = await ref.get();
+    store = ref;
+    const d = snap.exists ? snap.data() : null;
+    if (d && Array.isArray(d.points)) { points = clean(d.points); selected = points[0] ? points[0].id : null; renderAll(); setSaveState("Sparat på ditt konto."); }
+    else if (readLocal()) { dirty = true; flush(); }
+    else setSaveState("Ändringar sparas på ditt konto.");
+  } catch (e) { setSaveState("Sparas i den här webbläsaren."); }
+}
+
+/* ---------- 3D plot ---------- */
+const cv = $("cv"), ctx = cv.getContext("2d");
+let W = 0, H = 0, proj = [];
+function css(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function resize() {
+  const r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  W = r.width; H = r.height; cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0); draw();
+}
+function P(x, y, z) {
+  const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+  const x1 = x * cy + z * sy, z1 = -x * sy + z * cy;
+  const y2 = y * cp - z1 * sp, z2 = y * sp + z1 * cp;
+  const f = 7 / (7 - z2), s = Math.min(W, H * 1.15) * 0.25;
+  return [W / 2 + x1 * s * f, H / 2 - y2 * s * f + 6, z2];
+}
+/* data space: risk 0-100 on x, reward 0-max on y (up), chance 0-100 on z */
+function D(risk, reward, chance, M) { return P(risk / 50 - 1, 2 * reward / M - 1, chance / 50 - 1); }
+function line(a, b) { ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke(); }
+function poly(pts) { if (pts.length < 2) return; ctx.beginPath(); pts.forEach((p, i) => i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])); ctx.stroke(); }
+function text(t, p, dx, dy, align) {
+  align = align || "center"; ctx.textAlign = align;
+  const w = ctx.measureText(t).width, lo = align === "left" ? 4 : align === "right" ? w + 4 : w / 2 + 4, hi = align === "left" ? W - w - 4 : align === "right" ? W - 4 : W - w / 2 - 4;
+  ctx.fillText(t, clamp(p[0] + (dx || 0), lo, Math.max(lo, hi)), p[1] + (dy || 0));
+}
+
+function draw() {
+  if (!W) return;
+  const c = { ink: css("--ink"), muted: css("--muted"), grid: css("--grid"), line: css("--line"), pos: css("--pos"), neg: css("--neg"), even: css("--even"), accent: css("--accent"), surface: css("--surface") };
+  const M = maxReward();
+  ctx.clearRect(0, 0, W, H);
+  ctx.lineWidth = 1; ctx.lineCap = "round";
+
+  /* floor grid */
+  ctx.strokeStyle = c.line;
+  for (let i = 0; i <= 100; i += 25) { line(D(i, 0, 0, M), D(i, 0, 100, M)); line(D(0, 0, i, M), D(100, 0, i, M)); }
+  /* box */
+  ctx.strokeStyle = c.grid;
+  [[0, 0], [100, 0], [0, 100], [100, 100]].forEach(([r, ch]) => line(D(r, 0, ch, M), D(r, M, ch, M)));
+  [[0, 0], [0, 100]].forEach(([a, b]) => { line(D(a, M, 0, M), D(a === 0 ? 100 : 0, M, 0, M)); });
+  line(D(0, M, 0, M), D(0, M, 100, M)); line(D(100, M, 0, M), D(100, M, 100, M)); line(D(0, M, 100, M), D(100, M, 100, M)); line(D(0, M, 0, M), D(100, M, 0, M));
+
+  /* break-even surface: reward = (1-p)/p * risk */
+  if (showEven) {
+    ctx.strokeStyle = c.even; ctx.globalAlpha = 0.55;
+    for (let ch = 10; ch <= 90; ch += 10) {
+      const k = (100 - ch) / ch, rEnd = Math.min(100, M / k);
+      poly([D(0, 0, ch, M), D(rEnd, rEnd * k, ch, M)]);
+    }
+    for (let r = 20; r <= 100; r += 20) {
+      const pts = [], chMin = 100 * r / (r + M);
+      for (let i = 0; i <= 40; i++) { const ch = chMin + (100 - chMin) * i / 40; pts.push(D(r, r * (100 - ch) / ch, ch, M)); }
+      poly(pts);
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  /* axes labels */
+  ctx.font = "500 11px " + css("--font-data"); ctx.fillStyle = c.muted; ctx.textBaseline = "middle";
+  const zEdge = Math.cos(yaw) >= 0 ? 100 : 0, xEdge = Math.sin(yaw) <= 0 ? 100 : 0;
+  for (let i = 0; i <= 100; i += 50) {
+    text(i + "", D(i, 0, zEdge, M), 0, 14);
+    text(i + "", D(xEdge, 0, i, M), 0, 14);
+  }
+  for (let i = 0; i <= M; i += M / 2) text(Math.round(i) + "", D(xEdge === 0 ? 100 : 0, i, zEdge, M), xEdge === 0 ? 8 : -8, 0, xEdge === 0 ? "left" : "right");
+  ctx.font = "600 12px " + css("--font-body"); ctx.fillStyle = c.ink;
+  text("Risk: nedsida %", D(50, 0, zEdge, M), 0, 32);
+  text("Chans %", D(xEdge, 0, 50, M), 0, 32);
+  text("Reward: uppsida %", D(xEdge === 0 ? 100 : 0, M, zEdge, M), 0, -14);
+
+  /* points, far to near */
+  proj = points.map(p => ({ p, s: D(p.risk, Math.min(p.reward, M), p.chance, M), f: D(p.risk, 0, p.chance, M) }));
+  proj.sort((a, b) => a.s[2] - b.s[2]);
+  for (const q of proj) {
+    const e = ev(q.p), col = e >= 0 ? c.pos : c.neg, sel = q.p.id === selected;
+    ctx.strokeStyle = col; ctx.globalAlpha = sel ? 0.9 : 0.45; ctx.lineWidth = sel ? 1.5 : 1;
+    line(q.f, q.s);
+    ctx.fillStyle = col; ctx.beginPath(); ctx.arc(q.f[0], q.f[1], 2, 0, 7); ctx.fill();
+    if (sel) {
+      ctx.setLineDash([3, 4]); ctx.strokeStyle = c.muted;
+      line(q.f, D(q.p.risk, 0, zEdge, M)); line(q.f, D(xEdge, 0, q.p.chance, M));
+      ctx.setLineDash([]);
+    }
+    ctx.globalAlpha = 1; ctx.lineWidth = 1;
+    const r = sel ? 8 : 6;
+    ctx.fillStyle = col; ctx.beginPath();
+    if (e >= 0) ctx.arc(q.s[0], q.s[1], r, 0, 7);
+    else { ctx.moveTo(q.s[0], q.s[1] - r - 1); ctx.lineTo(q.s[0] + r + 1, q.s[1]); ctx.lineTo(q.s[0], q.s[1] + r + 1); ctx.lineTo(q.s[0] - r - 1, q.s[1]); ctx.closePath(); }
+    ctx.fill();
+    ctx.strokeStyle = sel ? c.ink : c.surface; ctx.lineWidth = sel ? 2 : 1.5; ctx.stroke(); ctx.lineWidth = 1;
+    ctx.font = (sel ? "600 " : "500 ") + "12px " + css("--font-body"); ctx.fillStyle = c.ink;
+    const right = q.s[0] < W - 130;
+    text(q.p.label, q.s, right ? 13 : -13, -1, right ? "left" : "right");
+  }
+}
+
+/* ---------- interaction ---------- */
+let drag = null;
+function hit(x, y) { let best = null, bd = 18; for (const q of proj) { const d = Math.hypot(q.s[0] - x, q.s[1] - y); if (d < bd) { bd = d; best = q.p; } } return best; }
+cv.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, moved: 0 }; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener("pointermove", e => {
+  if (!drag) return;
+  const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+  drag.moved += Math.abs(dx) + Math.abs(dy); drag.x = e.clientX; drag.y = e.clientY;
+  yaw += dx * 0.008; pitch = clamp(pitch + dy * 0.008, -0.05, 1.5708);
+  setView(null); draw();
+});
+cv.addEventListener("pointerup", e => {
+  if (drag && drag.moved < 5) { const r = cv.getBoundingClientRect(), p = hit(e.clientX - r.left, e.clientY - r.top); if (p) { selected = p.id; renderAll(); } }
+  drag = null;
+});
+cv.addEventListener("pointercancel", () => { drag = null; });
+cv.addEventListener("keydown", e => {
+  const k = { ArrowLeft: [-0.1, 0], ArrowRight: [0.1, 0], ArrowUp: [0, 0.1], ArrowDown: [0, -0.1] }[e.key];
+  if (!k) return; e.preventDefault(); yaw += k[0]; pitch = clamp(pitch + k[1], -0.05, 1.5708); setView(null); draw();
+});
+const VIEWS = { v3d: [-0.62, 0.42], vrr: [0, 0], vcr: [-Math.PI / 2, 0], vrc: [0, 1.5708] };
+function setView(id) {
+  for (const k in VIEWS) $(k).setAttribute("aria-pressed", k === id ? "true" : "false");
+  if (id) { yaw = VIEWS[id][0]; pitch = VIEWS[id][1]; draw(); }
+}
+for (const k in VIEWS) $(k).addEventListener("click", () => setView(k));
+$("showEven").addEventListener("change", e => { showEven = e.target.checked; draw(); });
+
+/* ---------- side panel ---------- */
+function el(tag, cls, txt) { const n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
+function kv(k, v, cls) { const d = el("div"); d.append(el("span", "k", k), el("span", "v" + (cls ? " " + cls : ""), v)); return d; }
+
+function renderDetail() {
+  const box = $("detail"); box.textContent = "";
+  const p = points.find(q => q.id === selected);
+  if (!p) { box.append(el("p", "empty", "Lägg till ett scenario eller välj en punkt i kartan.")); return; }
+  const e = ev(p), be = breakEven(p), ratio = p.risk > 0 ? p.reward / p.risk : null;
+  box.append(el("div", "name", p.label));
+  const g = el("div", "kv");
+  g.append(
+    kv("Väntevärde", fmt(e) + " %", e >= 0 ? "pos" : "neg"),
+    kv("Reward / risk", ratio == null ? "–" : ratio.toFixed(2).replace(".", ",") + " : 1"),
+    kv("Chans som krävs", be == null ? "–" : be.toFixed(0) + " %"),
+  );
+  box.append(g);
+  let msg;
+  if (be == null) msg = "Varken risk eller reward är angiven.";
+  else if (Math.abs(p.chance - be) < 0.5) msg = "Din chans ligger precis på gränsen. Väntevärdet är ungefär noll.";
+  else if (p.chance > be) msg = "Du tror på " + p.chance.toFixed(0) + " % chans och det räcker med " + be.toFixed(0) + " %. Marginalen är " + (p.chance - be).toFixed(0) + (Math.round(p.chance - be) === 1 ? " procentenhet" : " procentenheter") + ". Har du överskattat chansen med mer än så är väntevärdet negativt.";
+  else msg = "Du tror på " + p.chance.toFixed(0) + " % chans men det krävs " + be.toFixed(0) + " % för att gå jämnt upp. Med de här siffrorna förlorar du i snitt.";
+  box.append(el("p", "verdict", msg));
+
+  const w = WATCH[p.label.trim().toUpperCase()];
+  if (w) {
+    const f = el("div", "facts");
+    const l1 = el("div"); l1.append(el("b", null, w.n || p.label), document.createTextNode(" · " + (w.th || "inget tema") + " · bevakas " + ({ daily: "dagligen", weekly: "veckovis", monthly: "månadsvis", archived: "inte (arkiverad)" }[w.t] || w.t)));
+    f.append(l1);
+    if (w.p != null) f.append(el("div", null, "Senaste kurs i bevakningen: " + w.p + " USD" + (w.pd ? " (" + w.pd + ")" : "")));
+    if (w.c) f.append(el("div", null, "Senaste katalysator " + w.cd + ": " + w.c));
+    f.append(el("div", null, "Fakta från bevakningslistan per " + ASOF + ". De säger inget om risk, reward eller chans. De siffrorna är dina."));
+    box.append(f);
+  }
+}
+
+function renderRows() {
+  const box = $("rows"); box.textContent = "";
+  if (!points.length) { box.append(el("p", "empty", "Inga scenarier än. Fyll i raden nedan för att lägga till det första.")); }
+  else {
+    const h = el("div", "row head");
+    h.append(el("span", null, "Namn"), el("span", null, "Risk"), el("span", null, "Reward"), el("span", null, "Chans"), el("span", "ev evh", "Väntev."), el("span"));
+    box.append(h);
+  }
+  for (const p of points) {
+    const row = el("div", "row" + (p.id === selected ? " sel" : ""));
+    const b = el("button", "lbl", p.label); b.type = "button";
+    if (p.ex) b.append(el("span", "chip", "Exempel"));
+    b.addEventListener("click", () => { selected = p.id; renderAll(); });
+    row.append(b);
+    [["risk", 100], ["reward", 1000], ["chance", 100]].forEach(([key, max]) => {
+      const i = el("input"); i.type = "number"; i.min = 0; i.max = max; i.step = 1; i.value = p[key]; i.id = "in-" + p.id + "-" + key;
+      i.setAttribute("aria-label", ({ risk: "Risk %", reward: "Reward %", chance: "Chans %" })[key] + " för " + p.label);
+      i.addEventListener("input", () => {
+        p[key] = clamp(parseFloat(i.value) || 0, 0, max); selected = p.id;
+        const e = ev(p); evc.textContent = fmt(e); evc.className = "ev " + (e >= 0 ? "pos" : "neg");
+        box.querySelectorAll(".row.sel").forEach(r => r.classList.remove("sel")); row.classList.add("sel");
+        renderDetail(); draw(); queueSave();
+      });
+      row.append(i);
+    });
+    const e = ev(p), evc = el("span", "ev " + (e >= 0 ? "pos" : "neg"), fmt(e));
+    const del = el("button", "ghost", "✕"); del.type = "button"; del.setAttribute("aria-label", "Ta bort " + p.label);
+    del.addEventListener("click", () => { points = points.filter(q => q !== p); if (selected === p.id) selected = points[0] ? points[0].id : null; renderAll(); queueSave(); });
+    row.append(evc, del);
+    box.append(row);
+  }
+  $("clearEx").hidden = !points.some(p => p.ex);
+}
+function renderAll() { renderRows(); renderDetail(); draw(); }
+
+$("addForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const label = $("fName").value.trim(); if (!label) return;
+  const p = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), label: label.slice(0, 40),
+    risk: clamp(parseFloat($("fRisk").value) || 0, 0, 100), reward: clamp(parseFloat($("fReward").value) || 0, 0, 1000), chance: clamp(parseFloat($("fChance").value) || 0, 0, 100), ex: false };
+  points.push(p); selected = p.id; e.target.reset(); renderAll(); queueSave();
+});
+$("clearEx").addEventListener("click", () => { points = points.filter(p => !p.ex); if (!points.some(p => p.id === selected)) selected = points[0] ? points[0].id : null; renderAll(); queueSave(); });
+
+const dl = $("tickers");
+Object.keys(WATCH).sort().forEach(t => { const o = el("option"); o.value = t; o.label = WATCH[t].n || t; dl.append(o); });
+
+const local = readLocal();
+if (local) { points = clean(local.points); selected = points[0] ? points[0].id : null; }
+new ResizeObserver(resize).observe(cv);
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw);
+renderAll();
+connect();
+</script>
