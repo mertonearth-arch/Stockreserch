@@ -4,14 +4,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: reglage till vänster, kapitalytan (år × avkastning × kapital) som huvudscen till höger.
+/* Layout: reglage till vänster, kontoytan (trades × risk per trade × konto, log-skala) som huvudscen till höger.
    Tokens delas med Cadence Desk. */
 :root{
   --ground:#EEF0F4; --surface:#FFFFFF; --surface-2:#F6F7F9; --line:#D8DCE4; --line-soft:#E6E9EF;
   --ink:#161B24; --ink-2:#4A5364; --ink-3:#7C8698; --ink-4:#A3ABB9;
   --accent:#9A6612; --accent-soft:#F0E2C6; --accent-line:#C99A3A;
   --down:#A5342C;
-  --ramp-0:#DCE1E9; --ramp-1:#D3A548; --ramp-2:#7E4F08;
+  --ramp-0:#DCE1E9; --ramp-1:#D3A548; --ramp-2:#7E4F08; --ramp-neg:#B0463C;
   --radius:3px; --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
   --sans:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
   --cond:'IBM Plex Sans Condensed','IBM Plex Sans',system-ui,sans-serif;
@@ -21,7 +21,7 @@
   --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
   --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
   --down:#E4776B;
-  --ramp-0:#252D3A; --ramp-1:#9A7428; --ramp-2:#F4C968;
+  --ramp-0:#2A3340; --ramp-1:#9A7428; --ramp-2:#F4C968; --ramp-neg:#C9584D;
   color-scheme:dark;
 }}
 :root[data-theme="dark"]{
@@ -29,7 +29,7 @@
   --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
   --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
   --down:#E4776B;
-  --ramp-0:#252D3A; --ramp-1:#9A7428; --ramp-2:#F4C968;
+  --ramp-0:#2A3340; --ramp-1:#9A7428; --ramp-2:#F4C968; --ramp-neg:#C9584D;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -44,7 +44,7 @@ h1,h2{font-family:var(--cond);margin:0;text-wrap:balance}
 
 .mast{padding-bottom:16px;border-bottom:2px solid var(--ink)}
 .mast h1{font-size:34px;font-weight:700;line-height:1;letter-spacing:-.015em}
-.mast p{margin:8px 0 0;color:var(--ink-2);font-size:13px;max-width:64ch}
+.mast p{margin:8px 0 0;color:var(--ink-2);font-size:13px;max-width:68ch}
 
 .layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:20px;align-items:start;
   grid-template-areas:"controls tiles" "controls stage" "controls notes"}
@@ -65,6 +65,7 @@ h1,h2{font-family:var(--cond);margin:0;text-wrap:balance}
 .ctl-head output{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap}
 .ctl input[type=range]{width:100%;margin:0;accent-color:var(--accent);height:24px;cursor:pointer}
 .ctl small{color:var(--ink-3);font-size:11.5px;line-height:1.4}
+.ctl small.warn{color:var(--down);font-weight:500}
 .ctl-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;
   padding-top:14px;border-top:1px solid var(--line-soft)}
 .check{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2);cursor:pointer}
@@ -74,14 +75,14 @@ button{font:500 12px var(--mono);color:var(--ink);background:var(--surface-2);
 button:hover{border-color:var(--ink-3)}
 
 /* nyckeltal */
-.tiles{display:grid;grid-template-columns:1.35fr 1fr 1fr 1fr;border:1px solid var(--line);
+.tiles{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;border:1px solid var(--line);
   border-radius:var(--radius);background:var(--surface)}
 .tile{padding:14px 16px;border-left:1px solid var(--line-soft);min-width:0;display:flex;flex-direction:column;gap:4px}
 .tile:first-child{border-left:0}
 .tile b{font-family:var(--cond);font-weight:600;font-size:22px;line-height:1.15;overflow-wrap:anywhere}
 .tile.main b{font-size:30px;font-weight:700;color:var(--accent)}
 .tile small{color:var(--ink-3);font-size:11.5px}
-.neg{color:var(--down)}
+.tile b.neg,.tile.main b.neg{color:var(--down)}
 
 /* 3D-scen */
 .stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
@@ -91,22 +92,20 @@ button:hover{border-color:var(--ink-3)}
 .stage-head span:last-child{font-size:11.5px;color:var(--ink-3)}
 canvas{display:block;width:100%;height:540px;cursor:grab;touch-action:pan-y}
 canvas.drag{cursor:grabbing}
-.split{padding:0 16px 16px;display:flex;flex-direction:column;gap:6px}
-.bar{display:flex;height:10px;border-radius:2px;overflow:hidden;background:var(--line-soft)}
-.bar i{display:block;height:100%}
-.bar .dep{background:var(--ink-3)}
-.bar .gain{background:var(--accent)}
-.split-legend{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--ink-2)}
-.split-legend span::before{content:"";display:inline-block;width:8px;height:8px;border-radius:1px;margin-right:6px;background:var(--ink-3)}
-.split-legend span:last-child::before{background:var(--accent)}
+.legend{display:flex;gap:6px 18px;flex-wrap:wrap;padding:0 16px 14px;font-size:12px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{display:inline-block;width:16px;height:0;border-top:3px solid var(--ink)}
+.legend i.kelly{border-top:2px solid var(--ink-3)}
+.legend i.up{border-top:8px solid var(--ramp-1)}
+.legend i.dn{border-top:8px solid var(--ramp-neg)}
 
-.notes{color:var(--ink-3);font-size:12px;max-width:72ch;margin:0}
+.notes{color:var(--ink-3);font-size:12px;max-width:76ch;margin:0}
 
 @media (max-width:860px){
   .layout{grid-template-columns:minmax(0,1fr);grid-template-areas:"stage" "tiles" "controls" "notes"}
   .stage{position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
   canvas{height:300px}
-  .split{display:none}
+  .legend{display:none}
   .tiles{grid-template-columns:1fr 1fr}
   .tile{border-left:0;border-top:1px solid var(--line-soft)}
   .tile:nth-child(-n+2){border-top:0}
@@ -119,7 +118,7 @@ canvas.drag{cursor:grabbing}
 <div class="wrap">
   <header class="mast">
     <h1>Ränta på ränta 3D</h1>
-    <p>Ytan visar vad kapitalet blir för varje kombination av tid och årlig avkastning. Den markerade linjen är din valda avkastning. Dra i reglagen så formar ytan om sig.</p>
+    <p>Ytan visar vad tradingkontot typiskt blir för varje kombination av antal trades och risk per trade. Åsen är risknivån som ger snabbast tillväxt. Bortom den äter förlusterna upp kontot, hur bra systemet än är.</p>
   </header>
 
   <div class="layout">
@@ -127,30 +126,33 @@ canvas.drag{cursor:grabbing}
       <h2>Kriterier</h2>
 
       <div class="ctl">
-        <div class="ctl-head"><label for="k0">Startkapital</label><output id="o-k0" for="k0"></output></div>
-        <input type="range" id="k0" min="0" max="2000000" step="10000" value="100000">
+        <div class="ctl-head"><label for="k0">Startkonto</label><output id="o-k0" for="k0"></output></div>
+        <input type="range" id="k0" min="10000" max="2000000" step="10000" value="100000">
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="m">Månadssparande</label><output id="o-m" for="m"></output></div>
-        <input type="range" id="m" min="0" max="30000" step="250" value="3000">
+        <div class="ctl-head"><label for="win">Träffsäkerhet</label><output id="o-win" for="win"></output></div>
+        <input type="range" id="win" min="20" max="80" step="1" value="45">
+        <small>Andel trades som går med vinst.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="r">Avkastning per år</label><output id="o-r" for="r"></output></div>
-        <input type="range" id="r" min="0" max="15" step="0.25" value="7">
-        <small>Före avgift och inflation. Flyttar linjen över ytan.</small>
+        <div class="ctl-head"><label for="rr">Snittvinst / snittförlust</label><output id="o-rr" for="rr"></output></div>
+        <input type="range" id="rr" min="0.5" max="5" step="0.1" value="2">
+        <small>Hur många R en vinst ger. En förlust är 1 R.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="n">Tidshorisont</label><output id="o-n" for="n"></output></div>
-        <input type="range" id="n" min="1" max="50" step="1" value="30">
+        <div class="ctl-head"><label for="risk">Risk per trade</label><output id="o-risk" for="risk"></output></div>
+        <input type="range" id="risk" min="0.25" max="25" step="0.25" value="1">
+        <small id="h-risk"></small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="fee">Avgift per år</label><output id="o-fee" for="fee"></output></div>
-        <input type="range" id="fee" min="0" max="3" step="0.05" value="0.4">
+        <div class="ctl-head"><label for="n">Antal trades</label><output id="o-n" for="n"></output></div>
+        <input type="range" id="n" min="20" max="1000" step="10" value="250">
+        <small>5 trades i veckan är ungefär 250 på ett år.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="infl">Inflation per år</label><output id="o-infl" for="infl"></output></div>
-        <input type="range" id="infl" min="0" max="6" step="0.1" value="2">
-        <small>Över 0 % visas alla belopp i dagens penningvärde.</small>
+        <div class="ctl-head"><label for="cost">Kostnad per trade</label><output id="o-cost" for="cost"></output></div>
+        <input type="range" id="cost" min="0" max="30" step="1" value="5">
+        <small>Courtage och slippage, i procent av riskerat belopp.</small>
       </div>
 
       <div class="ctl-foot">
@@ -160,50 +162,60 @@ canvas.drag{cursor:grabbing}
     </section>
 
     <section class="tiles" aria-live="polite">
-      <div class="tile main"><span class="label" id="t-end-l">Slutvärde</span><b id="t-end"></b><small id="t-end-s"></small></div>
-      <div class="tile"><span class="label">Insatt</span><b id="t-dep"></b><small>start + sparande</small></div>
-      <div class="tile"><span class="label">Tillväxt</span><b id="t-gain"></b><small id="t-gain-s"></small></div>
-      <div class="tile"><span class="label">Avgiften kostar</span><b id="t-fee"></b><small id="t-fee-s"></small></div>
+      <div class="tile main"><span class="label" id="t-end-l">Typiskt utfall</span><b id="t-end"></b><small id="t-end-s"></small></div>
+      <div class="tile"><span class="label">Förväntan per trade</span><b id="t-exp"></b><small id="t-exp-s"></small></div>
+      <div class="tile"><span class="label">Dåligt utfall (1 av 20)</span><b id="t-lo"></b><small id="t-lo-s"></small></div>
+      <div class="tile"><span class="label">Väntad förlustsvit</span><b id="t-streak"></b><small id="t-streak-s"></small></div>
     </section>
 
     <section class="stage">
       <div class="stage-head">
-        <span class="label">Kapital × år × avkastning</span>
+        <span class="label">Konto × trades × risk · log-skala</span>
         <span>Dra i bilden för att vrida</span>
       </div>
-      <canvas id="cv" role="img" aria-label="3D-yta över kapital som funktion av år och årlig avkastning"></canvas>
-      <div class="split">
-        <div class="bar"><i class="dep" id="b-dep"></i><i class="gain" id="b-gain"></i></div>
-        <div class="split-legend"><span id="l-dep"></span><span id="l-gain"></span></div>
+      <canvas id="cv" role="img" aria-label="3D-yta över kontots storlek som funktion av antal trades och risk per trade"></canvas>
+      <div class="legend">
+        <span><i></i>Din risk</span>
+        <span><i class="kelly"></i>Kelly, snabbast tillväxt</span>
+        <span><i class="up"></i>Kontot växer</span>
+        <span><i class="dn"></i>Kontot krymper</span>
       </div>
     </section>
 
-    <p class="notes">Modellen räknar med jämn avkastning varje månad och insättning i slutet av månaden. Verkliga marknader svänger, och ordningen på bra och dåliga år påverkar utfallet. Skatt ingår inte. Avgiften dras som en årlig procentsats på hela kapitalet.</p>
+    <p class="notes">Modellen antar att varje trade är oberoende, har samma odds och riskerar samma andel av det aktuella kontot. Ingen riktig strategi beter sig så: träffsäkerheten varierar, förluster kommer i kluster och en edge kan försvinna. Ytan visar medianen, alltså utfallet som hälften av alla tänkbara förlopp hamnar under. Träffsäkerhet och vinstkvot är dina egna siffror, och små mätfel i dem ger enorma skillnader efter några hundra trades. Skatt ingår inte.</p>
   </div>
 </div>
 
 <script>
 (function(){
 const $ = id => document.getElementById(id);
-const KEYS = ['k0','m','r','n','fee','infl'];
-const DEFAULTS = {k0:100000,m:3000,r:7,n:30,fee:0.4,infl:2};
-const RMAX = 0.15, NX = 36, NY = 24, YM = 0.8, ZH = 1.05;
+const KEYS = ['k0','win','rr','risk','n','cost'];
+const DEFAULTS = {k0:100000,win:45,rr:2,risk:1,n:250,cost:5};
+const FMAX = 0.25, NX = 36, NY = 25, YM = 0.8, ZH = 1.05, FLOOR = -2, LN10 = Math.LN10;
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* ---------- modell ---------- */
-// Värde efter t år vid bruttoavkastning r (decimal). Realt om inflation > 0.
-function value(p, r, t){
-  const net = (1 + r) * (1 - p.fee / 100) - 1;
-  const i = Math.pow(1 + net, 1 / 12) - 1, n = 12 * t;
-  const g = Math.pow(1 + i, n);
-  const nominal = p.k0 * g + p.m * (Math.abs(i) < 1e-10 ? n : (g - 1) / i);
-  return nominal / Math.pow(1 + p.infl / 100, t);
+// Fast andel f av kontot riskeras per trade. Vinst ger +f·W, förlust −f·L (kostnad inräknad).
+function odds(p){
+  const c = p.cost / 100;
+  return {p: p.win / 100, q: 1 - p.win / 100, W: p.rr - c, L: 1 + c};
 }
-function deposited(p, t){
-  const n = 12 * t;
-  if (p.infl <= 0) return p.k0 + p.m * n;
-  const d = Math.pow(1 + p.infl / 100, -1 / 12);
-  return p.k0 + p.m * d * (1 - Math.pow(d, n)) / (1 - d);
+// log10 av kontots medianmultipel efter t trades
+function logMult(o, f, t){
+  const a = 1 + f * o.W, b = 1 - f * o.L;
+  if (a <= 0 || b <= 0) return FLOOR;
+  return Math.max(FLOOR, t * (o.p * Math.log(a) + o.q * Math.log(b)) / LN10);
+}
+function kelly(o){ return o.W > 0 ? o.p / o.L - o.q / o.W : -1; }
+// Antal vinster vid en given percentil (binomialfördelning)
+function winsAt(n, p, level){
+  const q = 1 - p; let lp = n * Math.log(q), cum = 0;
+  for (let k = 0; k <= n; k++){
+    cum += Math.exp(lp);
+    if (cum >= level) return k;
+    lp += Math.log((n - k) / (k + 1)) + Math.log(p / q);
+  }
+  return n;
 }
 
 /* ---------- format ---------- */
@@ -212,6 +224,7 @@ const nf1 = new Intl.NumberFormat('sv-SE', {minimumFractionDigits: 1, maximumFra
 const nf2 = new Intl.NumberFormat('sv-SE', {maximumFractionDigits: 2});
 function kr(v){
   const a = Math.abs(v);
+  if (a >= 1e12) return nf1.format(v / 1e9) + ' mdkr';
   const r = a >= 1e6 ? Math.round(v / 1000) * 1000 : a >= 1e4 ? Math.round(v / 100) * 100 : Math.round(v);
   return nf.format(r) + ' kr';
 }
@@ -222,12 +235,11 @@ function short(v){
   if (a >= 1e3) return nf.format(v / 1e3) + ' tkr';
   return nf.format(v) + ' kr';
 }
-function tick(v){
-  const a = Math.abs(v);
-  if (a >= 1e9) return nf2.format(v / 1e9) + ' md';
-  if (a >= 1e6) return nf2.format(v / 1e6) + ' mn';
-  if (a >= 1e3) return nf.format(v / 1e3) + ' t';
-  return nf.format(v);
+function mult(m){
+  if (m >= 1e9) return nf2.format(m / 1e9) + ' md×';
+  if (m >= 1e6) return nf2.format(m / 1e6) + ' mn×';
+  if (m >= 10) return nf.format(m) + '×';
+  return nf2.format(m) + '×';
 }
 function niceStep(max, count){
   const raw = max / count, p = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / p;
@@ -240,34 +252,42 @@ function readInputs(){ KEYS.forEach(k => target[k] = parseFloat($(k).value)); }
 readInputs(); Object.assign(cur, target);
 
 function updateText(){
-  const p = target, r = p.r / 100;
+  const p = target, o = odds(p), f = p.risk / 100, n = p.n;
   $('o-k0').textContent = kr(p.k0);
-  $('o-m').textContent = kr(p.m) + '/mån';
-  $('o-r').textContent = nf2.format(p.r) + ' %';
-  $('o-n').textContent = p.n + ' år';
-  $('o-fee').textContent = nf2.format(p.fee) + ' %';
-  $('o-infl').textContent = nf2.format(p.infl) + ' %';
+  $('o-win').textContent = p.win + ' %';
+  $('o-rr').textContent = nf1.format(p.rr) + ' R';
+  $('o-risk').textContent = nf2.format(p.risk) + ' %';
+  $('o-n').textContent = n + ' st';
+  $('o-cost').textContent = p.cost + ' % av R';
 
-  const end = value(p, r, p.n), dep = deposited(p, p.n), gain = end - dep;
-  const noFee = value(Object.assign({}, p, {fee: 0}), r, p.n);
-  const real = p.infl > 0;
-  $('t-end-l').textContent = 'Slutvärde efter ' + p.n + ' år';
-  $('t-end').textContent = kr(end);
-  $('t-end-s').textContent = real ? 'i dagens penningvärde' : 'nominellt';
-  $('t-dep').textContent = kr(dep);
-  const tg = $('t-gain');
-  tg.textContent = kr(gain); tg.classList.toggle('neg', gain < 0);
-  $('t-gain-s').textContent = dep > 0 ? (gain >= 0
-    ? nf1.format(end / dep) + ' × insatt kapital'
-    : 'köpkraften krymper') : '';
-  $('t-fee').textContent = kr(noFee - end);
-  $('t-fee-s').textContent = noFee > 0 ? nf.format((noFee - end) / noFee * 100) + ' % av slutvärdet utan avgift' : '';
+  const exp = o.p * o.W - o.q * o.L, fk = kelly(o);
+  const hr = $('h-risk');
+  if (exp <= 0){ hr.textContent = 'Negativ förväntan. Ingen risknivå får kontot att växa.'; hr.className = 'warn'; }
+  else if (f > 2 * fk){ hr.textContent = 'Över dubbla Kelly (' + nf1.format(fk * 100) + ' %). Kontot krymper trots positiv förväntan.'; hr.className = 'warn'; }
+  else if (f > fk){ hr.textContent = 'Över Kelly (' + nf1.format(fk * 100) + ' %). Mer risk ger nu lägre tillväxt.'; hr.className = 'warn'; }
+  else { hr.textContent = 'Kelly-taket är ' + nf1.format(fk * 100) + ' %. Du ligger på ' + nf.format(f / fk * 100) + ' % av det.'; hr.className = ''; }
 
-  const share = end > 0 ? Math.max(0, Math.min(1, dep / end)) : 1;
-  $('b-dep').style.width = (share * 100) + '%';
-  $('b-gain').style.width = ((1 - share) * 100) + '%';
-  $('l-dep').textContent = 'Insatt ' + nf.format(share * 100) + ' %';
-  $('l-gain').textContent = 'Tillväxt ' + nf.format((1 - share) * 100) + ' %';
+  const med = Math.pow(10, logMult(o, f, n));
+  const te = $('t-end');
+  $('t-end-l').textContent = 'Typiskt utfall efter ' + n + ' trades';
+  te.textContent = kr(p.k0 * med); te.classList.toggle('neg', med < 1);
+  $('t-end-s').textContent = mult(med) + ' kontot (median)';
+
+  const tx = $('t-exp');
+  tx.textContent = (exp > 0 ? '+' : '') + nf2.format(exp) + ' R'; tx.classList.toggle('neg', exp <= 0);
+  $('t-exp-s').textContent = exp > 0 ? 'efter kostnader' : 'systemet förlorar pengar';
+
+  const a = 1 + f * o.W, b = 1 - f * o.L;
+  const at = k => (a <= 0 || b <= 0) ? 0 : p.k0 * Math.exp(k * Math.log(a) + (n - k) * Math.log(b));
+  const lo = at(winsAt(n, o.p, 0.05)), hi = at(winsAt(n, o.p, 0.95));
+  const tl = $('t-lo');
+  tl.textContent = kr(lo); tl.classList.toggle('neg', lo < p.k0);
+  $('t-lo-s').textContent = 'bra utfall (1 av 20): ' + short(hi);
+
+  const streak = Math.max(1, Math.round(Math.log(Math.max(n * o.p, 1.0001)) / Math.log(1 / o.q)));
+  const dd = b > 0 ? 1 - Math.pow(b, streak) : 1;
+  $('t-streak').textContent = streak + ' i rad';
+  $('t-streak-s').textContent = 'drar ner kontot ' + nf.format(dd * 100) + ' %';
 }
 
 /* ---------- färger från tokens ---------- */
@@ -277,12 +297,12 @@ function hex(h){ h = h.trim().replace('#',''); if (h.length === 3) h = h.replace
 function readTokens(){
   const s = getComputedStyle(document.documentElement), g = n => s.getPropertyValue(n).trim();
   C = {ink:g('--ink'), ink2:g('--ink-2'), ink3:g('--ink-3'), line:g('--line'), surface:g('--surface'),
-       accent:g('--accent'), ramp:[hex(g('--ramp-0')), hex(g('--ramp-1')), hex(g('--ramp-2'))],
-       mono:g('--mono')};
+       up:[hex(g('--ramp-0')), hex(g('--ramp-1')), hex(g('--ramp-2'))],
+       dn:[hex(g('--ramp-0')), hex(g('--ramp-neg'))], mono:g('--mono')};
 }
-function ramp(f, shade){
-  f = Math.max(0, Math.min(1, f)) * 2;
-  const a = C.ramp[f < 1 ? 0 : 1], b = C.ramp[f < 1 ? 1 : 2], t = f < 1 ? f : f - 1;
+function ramp(stops, f, shade){
+  f = Math.max(0, Math.min(1, f)) * (stops.length - 1);
+  const i = Math.min(stops.length - 2, Math.floor(f)), t = f - i, a = stops[i], b = stops[i + 1];
   const ch = k => Math.max(0, Math.min(255, Math.round((a[k] + (b[k] - a[k]) * t) * shade)));
   return 'rgb(' + ch(0) + ',' + ch(1) + ',' + ch(2) + ')';
 }
@@ -314,51 +334,71 @@ function seg(a, b){ ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[
 function draw(){
   setCam();
   ctx.clearRect(0, 0, W, H);
-  const p = cur, N = p.n;
-  const zmax = Math.max(value(p, RMAX, N), 1);
+  const p = cur, o = odds(p), N = p.n;
   const small = W < 520;
   ctx.font = (small ? 10 : 11) + 'px ' + C.mono;
   ctx.lineJoin = 'round'; ctx.lineCap = 'round';
 
-  /* golv, bakväggar, skalor */
-  const zs = niceStep(zmax, 4), zt = [];
-  for (let v = 0; v <= zmax * 1.001; v += zs) zt.push(v);
-  const ys = N <= 12 ? 2 : N <= 25 ? 5 : 10, yt = [];
-  for (let v = 0; v <= N + 1e-9; v += ys) yt.push(v);
-  const rt = [0, 0.05, 0.10, 0.15];
-  const xOf = t => -1 + 2 * t / N, yOf = r => -YM + 2 * YM * r / RMAX, zOf = v => v / zmax * ZH;
+  /* höjdvärden (log10 av multipel) och skalans spann */
+  const V = [];
+  let lo = 0, hi = 0.3;
+  for (let j = 0; j <= NY; j++) for (let i = 0; i <= NX; i++){
+    const v = logMult(o, FMAX * j / NY, N * i / NX);
+    V.push(v); if (v < lo) lo = v; if (v > hi) hi = v;
+  }
+  const span = hi - lo;
+  const xOf = t => -1 + 2 * t / N, yOf = f => -YM + 2 * YM * f / FMAX, zOf = v => (v - lo) / span * ZH;
 
+  /* skalsteg */
+  const zt = [];
+  if (span <= 1.3){
+    for (let d = Math.floor(lo); d <= Math.ceil(hi); d++) [1, 2, 5].forEach(m => { const v = d + Math.log10(m); if (v >= lo - 1e-9 && v <= hi + 1e-9) zt.push(v); });
+  } else {
+    const st = span <= 7 ? 1 : span <= 14 ? 2 : Math.ceil(span / 6);
+    for (let d = Math.ceil(lo / st) * st; d <= hi + 1e-9; d += st) zt.push(d);
+    if (!zt.includes(0)) zt.push(0);
+  }
+  const xs = niceStep(N, 5), xt = [];
+  for (let v = 0; v <= N + 1e-9; v += xs) xt.push(v);
+  const ft = [0, 0.05, 0.10, 0.15, 0.20, 0.25];
+
+  /* golv och bakväggar */
   ctx.strokeStyle = C.line; ctx.lineWidth = 1;
-  yt.forEach(t => seg(proj(xOf(t), -YM, 0), proj(xOf(t), YM, 0)));
-  rt.forEach(r => seg(proj(-1, yOf(r), 0), proj(1, yOf(r), 0)));
+  xt.forEach(t => seg(proj(xOf(t), -YM, 0), proj(xOf(t), YM, 0)));
+  ft.forEach(f => seg(proj(-1, yOf(f), 0), proj(1, yOf(f), 0)));
   seg(proj(1, -YM, 0), proj(1, YM, 0));
   const backX = proj(1, 0, 0)[2] > 0 ? 1 : -1, backY = proj(0, YM, 0)[2] > 0 ? YM : -YM;
   zt.forEach(v => {
+    const start = Math.abs(v) < 1e-9;   // 1× = startkontot, betonas
+    ctx.strokeStyle = start ? C.ink3 : C.line; ctx.lineWidth = start ? 1.5 : 1;
     seg(proj(backX, -YM, zOf(v)), proj(backX, YM, zOf(v)));
     seg(proj(-1, backY, zOf(v)), proj(1, backY, zOf(v)));
   });
+  ctx.strokeStyle = C.line; ctx.lineWidth = 1;
   [[backX, -YM], [backX, YM], [-backX, backY]].forEach(c => seg(proj(c[0], c[1], 0), proj(c[0], c[1], ZH)));
 
   /* ytan */
   const M = [], S = [];
   for (let j = 0; j <= NY; j++) for (let i = 0; i <= NX; i++){
-    const x = -1 + 2 * i / NX, y = -YM + 2 * YM * j / NY;
-    const z = zOf(value(p, RMAX * j / NY, N * i / NX));
+    const x = -1 + 2 * i / NX, y = -YM + 2 * YM * j / NY, z = zOf(V[j * (NX + 1) + i]);
     M.push([x, y, z]); S.push(proj(x, y, z));
   }
   const at = (i, j) => j * (NX + 1) + i;
   const quads = [];
   for (let j = 0; j < NY; j++) for (let i = 0; i < NX; i++){
     const a = at(i, j), b = at(i + 1, j), c = at(i + 1, j + 1), d = at(i, j + 1);
-    quads.push({i, j, a, b, c, d, depth: (S[a][2] + S[b][2] + S[c][2] + S[d][2]) / 4});
+    quads.push({i, j, a, b, c, d, depth: (S[a][2] + S[b][2] + S[c][2] + S[d][2]) / 4,
+                v: (V[a] + V[b] + V[c] + V[d]) / 4});
   }
   quads.sort((q1, q2) => q2.depth - q1.depth);
 
-  /* vald avkastning: linje som ligger på ytan */
-  const rSel = Math.max(0, Math.min(RMAX, p.r / 100));
-  const jSel = Math.min(NY - 1, Math.floor(rSel / RMAX * NY));
-  const L = [];
-  for (let i = 0; i <= NX; i++) L.push(proj(-1 + 2 * i / NX, yOf(rSel), zOf(value(p, rSel, N * i / NX)) + 0.006));
+  /* linjer på ytan: din risk och Kelly */
+  const lineAt = f => { const out = [];
+    for (let i = 0; i <= NX; i++) out.push(proj(-1 + 2 * i / NX, yOf(f), zOf(logMult(o, f, N * i / NX)) + 0.006));
+    return out; };
+  const rowOf = f => Math.min(NY - 1, Math.floor(f / FMAX * NY));
+  const fSel = Math.max(0, Math.min(FMAX, p.risk / 100)), jSel = rowOf(fSel), L = lineAt(fSel);
+  const fk = kelly(o), showK = fk > 0.002 && fk < FMAX, jK = showK ? rowOf(fk) : -1, K = showK ? lineAt(fk) : null;
 
   const LX = -0.35, LY = -0.45, LZ = 0.82;
   for (const q of quads){
@@ -367,44 +407,52 @@ function draw(){
     const vx = D[0] - B[0], vy = D[1] - B[1], vz = D[2] - B[2];
     const nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx;
     const lit = Math.abs(nx * LX + ny * LY + nz * LZ) / (Math.hypot(nx, ny, nz) || 1);
-    const f = Math.sqrt((A[2] + B[2] + Cc[2] + D[2]) / 4 / ZH);
-    const col = ramp(f, 0.74 + 0.34 * lit);
+    const shade = 0.74 + 0.34 * lit;
+    const col = q.v >= 0 ? ramp(C.up, Math.sqrt(q.v / hi), shade)
+                         : ramp(C.dn, Math.sqrt(q.v / Math.min(lo, -0.3)), shade);
     ctx.beginPath();
     ctx.moveTo(S[q.a][0], S[q.a][1]); ctx.lineTo(S[q.b][0], S[q.b][1]);
     ctx.lineTo(S[q.c][0], S[q.c][1]); ctx.lineTo(S[q.d][0], S[q.d][1]); ctx.closePath();
     ctx.fillStyle = col; ctx.fill();
     ctx.strokeStyle = col; ctx.lineWidth = 0.6; ctx.stroke();
-    if (q.j === jSel){
-      ctx.strokeStyle = C.ink; ctx.lineWidth = 2.5;
-      seg(L[q.i], L[q.i + 1]);
-    }
+    if (q.j === jK){ ctx.strokeStyle = C.ink3; ctx.lineWidth = 1.5; seg(K[q.i], K[q.i + 1]); }
+    if (q.j === jSel){ ctx.strokeStyle = C.ink; ctx.lineWidth = 2.5; seg(L[q.i], L[q.i + 1]); }
   }
 
   /* skaltext */
   ctx.fillStyle = C.ink3; ctx.textBaseline = 'middle';
   const nearY = -backY, nearX = -backX, off = small ? 0.17 : 0.12;
   ctx.textAlign = 'center';
-  yt.forEach(t => { const s = proj(xOf(t), nearY + Math.sign(nearY) * off, 0); ctx.fillText(nf.format(t), s[0], s[1]); });
-  rt.forEach(r => { const s = proj(nearX + nearX * off * 1.1, yOf(r), 0); ctx.fillText(nf.format(r * 100) + ' %', s[0], s[1]); });
+  xt.forEach(t => { const s = proj(xOf(t), nearY + Math.sign(nearY) * off, 0); ctx.fillText(nf.format(t), s[0], s[1]); });
+  ft.forEach((f, k) => { if (small && k % 2) return; const s = proj(nearX + nearX * off * 1.1, yOf(f), 0); ctx.fillText(nf.format(f * 100) + ' %', s[0], s[1]); });
   ctx.fillStyle = C.ink2;
-  let s = proj(0, nearY + Math.sign(nearY) * off * 2.4, 0); ctx.fillText('År', s[0], s[1]);
-  s = proj(nearX + nearX * off * 2.9, 0, 0); ctx.fillText(small ? 'Avk./år' : 'Avkastning per år', s[0], s[1]);
+  let s = proj(0, nearY + Math.sign(nearY) * off * 2.4, 0); ctx.fillText('Trades', s[0], s[1]);
+  s = proj(nearX + nearX * off * 2.9, 0, 0); ctx.fillText(small ? 'Risk' : 'Risk per trade', s[0], s[1]);
 
-  // kapitalskalan står i det vänstraste hörnet
+  // kontoskalan står i det vänstraste hörnet
   let zc = null;
   [[-1, -YM], [1, -YM], [1, YM], [-1, YM]].forEach(c => { const q = proj(c[0], c[1], 0); if (!zc || q[0] < zc.s) zc = {x: c[0], y: c[1], s: q[0]}; });
-  ctx.fillStyle = C.ink3; ctx.textAlign = 'right';
-  zt.forEach(v => { if (v === 0) return; const q = proj(zc.x, zc.y, zOf(v)); ctx.fillText(tick(v), q[0] - 7, q[1]); });
+  ctx.textAlign = 'right';
+  zt.forEach(v => { const q = proj(zc.x, zc.y, zOf(v)); const start = Math.abs(v) < 1e-9;
+    ctx.fillStyle = start ? C.ink : C.ink3;
+    ctx.fillText(start ? 'start' : mult(Math.pow(10, v)), q[0] - 7, q[1]); });
+
+  /* Kelly-etikett */
+  if (showK){ const k = K[NX], kw = ctx.measureText('Kelly').width + 10;
+    const kx = Math.max(4, Math.min(W - kw - 4, k[0] - kw / 2)), ky = Math.max(4, k[1] - 26);
+    ctx.fillStyle = C.surface; ctx.strokeStyle = C.ink3; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.rect(kx, ky, kw, 18); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = C.ink; ctx.textAlign = 'center'; ctx.fillText('Kelly', kx + kw / 2, ky + 9.5); }
 
   /* slutpunkt med belopp */
-  const endV = value(p, rSel, N), e = L[NX], base = proj(1, yOf(rSel), 0);
+  const endV = p.k0 * Math.pow(10, logMult(o, fSel, N)), e = L[NX], base = proj(1, yOf(fSel), 0);
   ctx.strokeStyle = C.ink; ctx.lineWidth = 1; ctx.setLineDash([3, 3]); seg(base, e); ctx.setLineDash([]);
   ctx.beginPath(); ctx.arc(e[0], e[1], 5, 0, 6.2832); ctx.fillStyle = C.ink; ctx.fill();
   ctx.lineWidth = 2; ctx.strokeStyle = C.surface; ctx.stroke();
   const txt = short(endV);
   ctx.font = '600 ' + (small ? 12 : 13) + 'px ' + C.mono;
   const tw = ctx.measureText(txt).width + 14, th = 22;
-  let bx = Math.max(4, Math.min(W - tw - 4, e[0] - tw / 2)), by = Math.max(4, e[1] - th - 12);
+  const bx = Math.max(4, Math.min(W - tw - 4, e[0] - tw / 2)), by = Math.max(4, e[1] - th - 12);
   ctx.fillStyle = C.ink; ctx.beginPath();
   if (ctx.roundRect) ctx.roundRect(bx, by, tw, th, 3); else ctx.rect(bx, by, tw, th);
   ctx.fill();
@@ -412,7 +460,7 @@ function draw(){
 }
 
 /* ---------- loop ---------- */
-let last = 0;
+let last = 0, dragging = false;
 function frame(now){
   const dt = Math.min(50, now - last || 16); last = now;
   let moving = false;
@@ -435,7 +483,7 @@ $('reset').addEventListener('click', () => {
   yaw = -0.6; pitch = 0.5; dirty = true;
 });
 $('sway').addEventListener('change', () => { dirty = true; });
-let dragging = false, px = 0, py = 0;
+let px = 0, py = 0;
 cv.addEventListener('pointerdown', e => { dragging = true; px = e.clientX; py = e.clientY;
   try { cv.setPointerCapture(e.pointerId); } catch (_) {} cv.classList.add('drag'); });
 cv.addEventListener('pointermove', e => {
