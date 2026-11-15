@@ -8,18 +8,3 @@ Publish call: Artifact tool with `file_path: dashboard.html` AND `url:` set to t
 above. Title stays "Cadence Desk", favicon stays the same.
 
 First published 2026-08-30.
-
----
-
-# Jarvis
-
-Talking 3D assistant with key-point popups. Separate artifact from Cadence Desk.
-
-    https://claude.ai/artifact/PRpASpqwpoxxeMQSGGRB9M
-
-Publish call: Artifact tool with `file_path: jarvis.html`, `url:` set to the link above, and
-`files: {"jarvis-data.json": "jarvis-data.json"}` (run `node bin/jarvis-data.js` first).
-Capabilities: `sample`, `dictation`, `tts`, `mcp` with `host:claude_browser`
-(omit `capabilities` on a redeploy to keep them).
-
-First published 2026-11-14.

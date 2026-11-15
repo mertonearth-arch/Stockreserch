@@ -254,17 +254,6 @@ in `ARTIFACT.md`.
 - Title stays `Cadence Desk`. Favicon stays the same.
 - If `ARTIFACT.md` has no URL, publish fresh and write the returned URL into it.
 
-### Jarvis (second artifact)
-
-Jarvis (`jarvis.html`) answers spoken questions from a compact copy of `data/`. Refresh it
-after every pass, right after the dashboard publish, or it answers from stale research:
-
-- `node bin/jarvis-data.js` writes `jarvis-data.json`.
-- Publish with the Artifact tool: `file_path: jarvis.html`, the Jarvis `url` from
-  `ARTIFACT.md`, and `files: {"jarvis-data.json": "jarvis-data.json"}`. Omit `capabilities`
-  so the stored ones are kept. The same read-before-publish rule applies from a cloud run.
-- Do not edit `jarvis.html` during a pass; only the data file changes.
-
 ---
 
 ## Cadence rules (enforced in code, not in the prompt)
