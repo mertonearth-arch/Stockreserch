@@ -188,9 +188,16 @@ function cmdBuild() {
   console.log('wrote ' + S.P.dashboard + ' (' + (out.length / 1024).toFixed(1) + ' KB)');
 }
 
-const commands = { due: cmdDue, add: cmdAdd, record: cmdRecord, status: cmdStatus, build: cmdBuild };
+// --- build3d ----------------------------------------------------------------
+// The per-ticker 3D model (model3d.html). Also refreshes price-history.json.
+function cmdBuild3d() {
+  const r = require('../lib/model3d').build();
+  console.log('wrote ' + r.file + ' (' + (r.bytes / 1024).toFixed(1) + ' KB, ' + r.tickers + ' tickers)');
+}
+
+const commands = { due: cmdDue, add: cmdAdd, record: cmdRecord, status: cmdStatus, build: cmdBuild, build3d: cmdBuild3d };
 if (!commands[cmd]) {
-  console.error('usage: research.js <due|add|record|build|status> [options]');
+  console.error('usage: research.js <due|add|record|build|build3d|status> [options]');
   process.exit(1);
 }
 commands[cmd]();

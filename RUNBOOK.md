@@ -256,6 +256,27 @@ in `ARTIFACT.md`.
 
 ---
 
+## The 3D model (optional, not part of a pass)
+
+`node bin/research.js build3d` writes `model3d.html`: one interactive 3D scene per ticker.
+Time runs along the width, news category along the depth, and the height of each item is the
+share-price move its own text states. It is built purely from `data/` — no extra research.
+
+- **Heights are parsed, not researched.** `lib/move-parse.js` reads a percentage out of the
+  catalyst's `impact` text only when the text ties it to this stock's own session move. Peer
+  moves, revenue/stake/premium percentages and multi-week moves are skipped; a stated range
+  stays a range. Anything else is drawn flat. To get more items a height, write the session
+  move plainly at the start of `impact` (`"-8.2% on the close"`), which is what rule 5 of the
+  batch format already shows.
+- **The price line is sparse.** `price` is overwritten every pass, so earlier quotes only exist
+  in git history. `build3d` harvests them into `price-history.json` — commit that file, because
+  cloud checkouts are shallow and old commits age out. It is a handful of snapshots per name,
+  not a daily series.
+- Publishing: same rules as the dashboard, but to the second URL in `ARTIFACT.md`.
+- Test: `node lib/move-parse.test.js`.
+
+---
+
 ## Cadence rules (enforced in code, not in the prompt)
 
 | Tier | Researched | Drops a tier after |
@@ -299,6 +320,10 @@ dashboard.html      generated; never hand-edit
 ARTIFACT.md         the published URL to redeploy to
 lib/cadence.js          tier logic
 lib/market-calendar.js  NYSE trading calendar (holiday guard)
+lib/model3d.js          builds model3d.html (+ lib/model3d.template.html, the page)
+lib/move-parse.js       stated share-price move out of a catalyst's impact text
+model3d.html            generated; never hand-edit
+price-history.json      price snapshots harvested from git history; keep committed
 ```
 
 Tests — run both after any change to the engine:

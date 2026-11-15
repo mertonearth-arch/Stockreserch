@@ -1,0 +1,763 @@
+<title>Cadence Desk 3D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one working surface. The 3D stage owns the left two thirds; the facts on file
+   (fundamentals, selected news item) sit in a rail to its right; the full news log runs below.
+   Tokens are the Cadence Desk dashboard's own, so the two pages read as one system. */
+:root{
+  --ground:#EEF0F4; --surface:#FFFFFF; --surface-2:#F6F7F9; --line:#D8DCE4; --line-soft:#E6E9EF;
+  --ink:#161B24; --ink-2:#4A5364; --ink-3:#7C8698; --ink-4:#A3ABB9;
+  --accent:#9A6612; --accent-soft:#F0E2C6; --accent-line:#C99A3A;
+  --up:#1C6B52; --up-soft:#D6EBE2; --down:#A5342C; --down-soft:#F3DAD7;
+  --flat:#8B94A5; --stage:#F9FAFB;
+  --radius:3px; --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --cond:'IBM Plex Sans Condensed','IBM Plex Sans',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --ground:#0E1218; --surface:#151A22; --surface-2:#1B212B; --line:#2A323E; --line-soft:#222932;
+  --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
+  --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
+  --up:#4FB68C; --up-soft:#16332A; --down:#E4776B; --down-soft:#3A1F1D;
+  --flat:#6C7687; --stage:#11161D; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --ground:#0E1218; --surface:#151A22; --surface-2:#1B212B; --line:#2A323E; --line-soft:#222932;
+  --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
+  --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
+  --up:#4FB68C; --up-soft:#16332A; --down:#E4776B; --down-soft:#3A1F1D;
+  --flat:#6C7687; --stage:#11161D; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;
+  padding-block:18px 40px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+h1,h2,h3{font-family:var(--cond);margin:0;text-wrap:balance;letter-spacing:.01em}
+.wrap{max-width:1360px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+a{color:var(--accent)}
+button,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 22px;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.mast h1{font-size:26px;font-weight:700;line-height:1.1}
+.mast .sub{color:var(--ink-2);font-size:13px;max-width:62ch}
+.mast .stamp{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--ink-3);text-align:right;line-height:1.7}
+
+/* controls */
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.pick{display:flex;align-items:center;gap:6px;min-width:0;max-width:100%}
+.pick select{flex:1 1 auto;min-width:0;width:340px}
+.pick label,.seg-label{font-family:var(--cond);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+select{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:6px 8px;font-family:var(--mono);font-size:13px;max-width:100%}
+.btn{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:6px 10px;font-size:13px;cursor:pointer}
+.btn:hover{border-color:var(--ink-3)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.seg button{background:var(--surface);border:0;padding:6px 10px;font-size:13px;cursor:pointer}
+.seg button + button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.bar .spacer{flex:1 1 auto}
+
+/* identity line */
+.ident{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.ident .tk{font-family:var(--mono);font-weight:600;font-size:22px}
+.ident .nm{font-family:var(--cond);font-size:18px;font-weight:600}
+.ident .th{color:var(--ink-2);font-size:13px}
+.ident .px{font-family:var(--mono);font-size:14px;margin-left:auto}
+.ident .px small{color:var(--ink-3);font-size:11px}
+
+/* main grid */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:14px;align-items:start}
+.grid > *{min-width:0}
+@media (max-width:980px){ .grid{grid-template-columns:minmax(0,1fr)} }
+
+.stage{position:relative;background:var(--stage);border:1px solid var(--line);border-radius:var(--radius);
+  height:min(64vh,600px);min-height:380px;overflow:hidden;touch-action:none}
+.stage canvas{display:block;width:100%;height:100%}
+.labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.lb{position:absolute;left:0;top:0;white-space:nowrap;font-family:var(--mono);font-size:10.5px;color:var(--ink-3);will-change:transform}
+.lb.lane{font-family:var(--cond);font-size:12px;font-weight:600;color:var(--ink-2);letter-spacing:.02em}
+.lb.tick{color:var(--ink-3)}
+.lb.bg{background:var(--stage);padding:0 2px}
+@media (max-width:720px){ .lb.lane{font-size:10px;font-weight:500} }
+.lb.pxl{color:var(--accent)}
+.lb.cap{font-family:var(--cond);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.lb.val{color:var(--ink);font-weight:500}
+.lb.mv{font-weight:600;font-size:11.5px;padding:0 3px;border-radius:2px;background:var(--stage)}
+.lb.mv.up{color:var(--up)} .lb.mv.dn{color:var(--down)}
+.lb.sel{color:var(--ink);font-weight:600;font-size:11.5px;background:var(--accent-soft);border:1px solid var(--accent-line);padding:1px 5px;border-radius:2px}
+.lb.evt{color:var(--accent);font-weight:600}
+.tip{position:absolute;left:0;top:0;max-width:260px;pointer-events:none;background:var(--ink);color:var(--ground);
+  font-size:12px;line-height:1.35;padding:6px 8px;border-radius:var(--radius);z-index:3}
+.hint{position:absolute;right:8px;bottom:8px;font-size:11px;color:var(--ink-3);background:var(--stage);padding:2px 6px;border-radius:2px;pointer-events:none}
+.nogl{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:24px;text-align:center;color:var(--ink-2)}
+
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12px;color:var(--ink-2);margin-top:8px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:11px;height:11px;display:inline-block;border-radius:1px}
+.sw.up{background:var(--up)} .sw.dn{background:var(--down)} .sw.fl{background:var(--flat);height:4px;border-radius:2px}
+.sw.rg{background:var(--up);opacity:.35} .sw.px{background:none;border-top:2px dashed var(--accent);height:0;width:16px}
+.sw.fb{background:var(--ink-3)}
+
+/* rail */
+.rail{display:flex;flex-direction:column;gap:14px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.panel > h2{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);
+  padding:9px 12px;border-bottom:1px solid var(--line-soft)}
+.kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0}
+.kv dt,.kv dd{margin:0;padding:6px 12px;border-bottom:1px solid var(--line-soft);font-size:13px}
+.kv dt{color:var(--ink-2);white-space:nowrap}
+.kv dd{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.kv dt:nth-last-of-type(1),.kv dd:last-child{border-bottom:0}
+.kv small{display:block;color:var(--ink-3);font-size:10.5px;font-family:var(--sans)}
+.nd{color:var(--ink-4);font-family:var(--sans);font-style:italic}
+.pos{color:var(--up)} .neg{color:var(--down)}
+.conf{border-top:1px solid var(--line-soft);padding:8px 12px;font-size:12.5px}
+.conf summary{cursor:pointer;color:var(--accent);font-weight:500}
+.conf ul{margin:8px 0 0;padding-left:18px;color:var(--ink-2);display:flex;flex-direction:column;gap:6px}
+
+.detail{padding:12px;display:flex;flex-direction:column;gap:8px}
+.detail .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-family:var(--mono);font-size:11.5px;color:var(--ink-3)}
+.detail h3{font-family:var(--sans);font-size:14.5px;font-weight:600;line-height:1.35;letter-spacing:0}
+.detail p{margin:0;font-size:13px;color:var(--ink-2);overflow-wrap:anywhere}
+.detail .lab{font-family:var(--cond);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);margin-bottom:2px}
+.chip{display:inline-block;font-family:var(--mono);font-size:11.5px;font-weight:600;padding:1px 6px;border-radius:2px;background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
+.chip.up{background:var(--up-soft);color:var(--up)} .chip.dn{background:var(--down-soft);color:var(--down)}
+.chip.ty{font-weight:500}
+
+/* news log */
+.log h2{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.log h2 span{font-family:var(--sans);text-transform:none;letter-spacing:0;font-weight:400;color:var(--ink-3)}
+.rows{list-style:none;margin:0;padding:0}
+.rows li + li{border-top:1px solid var(--line-soft)}
+.row{display:grid;grid-template-columns:92px 170px minmax(0,1fr) auto;gap:4px 12px;align-items:baseline;width:100%;
+  text-align:left;background:none;border:0;padding:8px 12px;cursor:pointer;font-size:13px}
+.row:hover{background:var(--surface-2)}
+.row[aria-current="true"]{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
+.row .d{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.row .l{font-family:var(--cond);font-size:12.5px;color:var(--ink-3)}
+.row .h{min-width:0;overflow-wrap:anywhere}
+.row .m{justify-self:end}
+@media (max-width:720px){
+  .row{grid-template-columns:auto minmax(0,1fr) auto}
+  .row .h{grid-column:1 / -1}
+  .mast .stamp{margin-left:0;text-align:left}
+  .ident .px{margin-left:0}
+}
+.foot{font-size:12px;color:var(--ink-3);max-width:80ch}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>Cadence Desk 3D</h1>
+      <div class="sub">Varje daterad nyhet står på sin dag och i sin kategori. Höjden är den kursrörelse som nyhetstexten själv anger.</div>
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </header>
+
+  <div class="bar">
+    <div class="pick">
+      <label for="ticker">Ticker</label>
+      <button class="btn" id="prev" type="button" aria-label="Föregående ticker">‹</button>
+      <select id="ticker"></select>
+      <button class="btn" id="next" type="button" aria-label="Nästa ticker">›</button>
+    </div>
+    <div class="pick">
+      <span class="seg-label" id="scale-label">Höjdskala</span>
+      <div class="seg" role="group" aria-labelledby="scale-label">
+        <button type="button" id="scale-lin" aria-pressed="true">Linjär</button>
+        <button type="button" id="scale-sqrt" aria-pressed="false">Kvadratrot</button>
+      </div>
+    </div>
+    <span class="spacer"></span>
+    <button class="btn" id="reset" type="button">Återställ vy</button>
+  </div>
+
+  <div class="ident" id="ident"></div>
+
+  <div class="grid">
+    <div>
+      <div class="stage" id="stage">
+        <canvas id="gl" aria-label="3D-modell: tid längs bredden, nyhetskategori på djupet, angiven kursrörelse på höjden. Samma nyheter finns som lista under modellen."></canvas>
+        <div class="labels" id="labels"></div>
+        <div class="tip" id="tip" hidden></div>
+        <div class="hint" id="hint">Dra för att rotera · scrolla/nyp för zoom · klicka på en stapel</div>
+      </div>
+      <div class="legend" aria-label="Teckenförklaring">
+        <span><i class="sw up"></i>angiven uppgång</span>
+        <span><i class="sw dn"></i>angiven nedgång</span>
+        <span><i class="sw rg"></i>spann när källor går isär</span>
+        <span><i class="sw fl"></i>nyhet utan angiven kursrörelse</span>
+        <span><i class="sw px"></i>kurspunkter från researchpassen (glesa, inte dagliga)</span>
+        <span><i class="sw fb"></i>fundamenta på fil</span>
+      </div>
+    </div>
+
+    <aside class="rail">
+      <section class="panel" aria-labelledby="sel-h">
+        <h2 id="sel-h">Vald nyhet</h2>
+        <div class="detail" id="detail"></div>
+      </section>
+      <section class="panel" aria-labelledby="fund-h">
+        <h2 id="fund-h">Finansstatistik på fil</h2>
+        <dl class="kv" id="fund"></dl>
+        <div id="conf"></div>
+      </section>
+    </aside>
+  </div>
+
+  <section class="panel log" aria-labelledby="log-h">
+    <h2 id="log-h">Nyheter <span id="log-n"></span></h2>
+    <ul class="rows" id="rows"></ul>
+  </section>
+
+  <p class="foot">Höjderna är tolkade ur fritexten i varje nyhets noterade effekt, och bara när texten knyter procenttalet till just den här aktiens rörelse. Originaltexten visas alltid under Vald nyhet. Nyheter utan sådant tal ligger platt. Kurslinjen binder ihop de enstaka kurser som researchpassen sparat och säger inget om dagarna däremellan. Inga betyg, inga riktkurser.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(function () {
+  'use strict';
+  var DATA = /*{{DATA}}*/null;
+  var TK = DATA.tickers, LANES = DATA.lanes;
+  var $ = function (id) { return document.getElementById(id); };
+  var state = { i: 0, sel: -1, scale: 'lin' };
+
+  // ---- formatting ----------------------------------------------------------
+  var MON = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+  function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function trim(n, dp) { return Number(n.toFixed(dp)).toString(); }
+  function pct(v) { return (v > 0 ? '+' : v < 0 ? '−' : '') + trim(Math.abs(v), 2) + '%'; }
+  function mvText(mv) { return mv.range ? pct(mv.lo) + ' till ' + pct(mv.hi) : pct(mv.lo); }
+  function money(v) {
+    var a = Math.abs(v), s = v < 0 ? '−$' : '$';
+    if (a >= 1e12) return s + (a / 1e12).toFixed(2) + 'T';
+    if (a >= 1e9) return s + (a / 1e9).toFixed(2) + 'B';
+    if (a >= 1e6) return s + (a / 1e6).toFixed(1) + 'M';
+    if (a >= 1e3) return s + (a / 1e3).toFixed(1) + 'K';
+    return s + trim(a, 2);
+  }
+  function count(v) {
+    var a = Math.abs(v);
+    if (a >= 1e9) return (v / 1e9).toFixed(2) + 'B';
+    if (a >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+    return String(v);
+  }
+  function usd(v) { return '$' + (Math.abs(v) < 1 ? trim(v, 4) : trim(v, 2)); }
+  function day(iso) { return Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10)) / 864e5; }
+  function dShort(iso) { return +iso.slice(8, 10) + ' ' + MON[+iso.slice(5, 7) - 1]; }
+  function dLong(c) { return c.d ? (c.approx ? MON[+c.d.slice(5, 7) - 1] + ' ' + c.d.slice(0, 4) + ' (dag ej angiven)' : dShort(c.d) + ' ' + c.d.slice(0, 4)) : 'odaterad'; }
+  function chip(mv) { return mv ? '<span class="chip ' + (mv.lo > 0 ? 'up' : 'dn') + '">' + mvText(mv) + '</span>' : ''; }
+
+  // ---- side panels ---------------------------------------------------------
+  function nd(note) { return '<span class="nd"' + (note ? ' title="' + esc(note) + '"' : '') + '>ej fastställt</span>'; }
+  function cell(x, fmt) { return x && x.v != null ? fmt(x.v) + (x.asOf ? '<small>per ' + esc(x.asOf) + '</small>' : '') : nd(x && x.note); }
+  function signed(v, txt) { return '<span class="' + (v > 0 ? 'pos' : v < 0 ? 'neg' : '') + '">' + txt + '</span>'; }
+
+  function renderIdent(t) {
+    var p = t.price, px = '';
+    if (p && p.last != null) {
+      px = usd(p.last) + (p.chg != null ? ' ' + signed(p.chg, pct(p.chg)) : '') + ' <small>' + (p.asOf ? 'kurs per ' + esc(p.asOf) : '') + '</small>';
+    } else px = '<span class="nd">ingen kurs fastställd</span>';
+    $('ident').innerHTML = '<span class="tk">' + esc(t.t) + '</span><span class="nm">' + esc(t.name) + '</span>' +
+      '<span class="th">' + esc(t.theme) + (t.sector ? ' · ' + esc(t.sector) : '') + '</span><span class="px">' + px + '</span>';
+  }
+
+  function renderFund(t) {
+    var f = t.f, rows = [];
+    function row(k, v) { rows.push('<dt>' + k + '</dt><dd>' + v + '</dd>'); }
+    row('Börsvärde', cell(f.mcap, money));
+    row('Utestående aktier', cell(f.shares, count));
+    row('Float', cell(f.float, count));
+    row('Blankning', cell(f.si, function (v) { return trim(v, 1) + '%'; }));
+    row('Kassa', cell(f.cash, money));
+    row('Skuld', cell(f.debt, money));
+    if (f.pe && (f.pe.trailing != null || f.pe.forward != null)) {
+      row('P/E', (f.pe.trailing != null ? trim(f.pe.trailing, 1) + ' löpande' : '') + (f.pe.trailing != null && f.pe.forward != null ? ' · ' : '') + (f.pe.forward != null ? trim(f.pe.forward, 1) + ' framåt' : ''));
+    } else row('P/E', nd(f.pe && f.pe.note));
+    if (f.growth && f.growth.pct != null) row(esc(f.growth.metric || 'Tillväxt'), signed(f.growth.pct, pct(f.growth.pct)) + (f.growth.period ? '<small>' + esc(f.growth.period) + '</small>' : ''));
+    else row('Tillväxt', nd(f.growth && f.growth.note));
+    f.rev.forEach(function (r) { row('Omsättning ' + esc(r.p), money(r.v) + (r.yoy != null ? '<small>' + pct(r.yoy) + ' mot året innan</small>' : '')); });
+    f.eps.forEach(function (e) { row('EPS ' + esc(e.p), signed(e.v, (e.v < 0 ? '−$' : '$') + trim(Math.abs(e.v), 2)) + (e.basis ? '<small>' + esc(e.basis) + '</small>' : '')); });
+    row('Nästa rapport', f.next ? esc(f.next.d) + '<small>' + (f.next.confirmed ? 'bekräftad' : 'uppskattad') + '</small>' : nd());
+    $('fund').innerHTML = rows.join('');
+    $('conf').innerHTML = t.conflicts.length
+      ? '<details class="conf"><summary>' + t.conflicts.length + ' ställen där källorna går isär</summary><ul>' +
+        t.conflicts.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul></details>'
+      : '';
+  }
+
+  function srcHtml(src) {
+    if (!src) return '';
+    return String(src).split(/\s*;\s*|\s+(?=https?:\/\/)/).filter(Boolean).map(function (s) {
+      if (/^https?:\/\/\S+$/.test(s)) {
+        var host = s.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+        return '<a href="' + esc(s) + '" target="_blank" rel="noopener noreferrer">' + esc(host) + '</a>';
+      }
+      return esc(s);
+    }).join(' · ');
+  }
+
+  function renderDetail(t) {
+    var c = t.c[state.sel];
+    if (!c) { $('detail').innerHTML = '<p>Inga nyheter på fil för ' + esc(t.t) + '.</p>'; return; }
+    var h = '<div class="meta"><span>' + esc(dLong(c)) + '</span><span class="chip ty">' + esc(LANES[c.lane]) + '</span>' +
+      (c.type ? '<span>' + esc(c.type) + '</span>' : '') + '</div><h3>' + esc(c.h) + '</h3>';
+    h += '<div><div class="lab">Angiven kursrörelse</div><p>' + (c.mv
+      ? chip(c.mv) + ' <span style="font-size:12px">tolkat ur ' + (c.from === 'headline' ? 'rubriken' : 'texten nedan') + '</span>'
+      : 'Ingen procentsiffra för aktien i texten. Ritas platt.') + '</p></div>';
+    if (c.imp) h += '<div><div class="lab">Noterad effekt, ordagrant</div><p>' + esc(c.imp) + '</p></div>';
+    if (c.src) h += '<div><div class="lab">Källa</div><p>' + srcHtml(c.src) + '</p></div>';
+    if (!c.d) h += '<p class="nd">Datumet på fil (' + esc(c.raw) + ') är inte en dag, så nyheten står inte i modellen.</p>';
+    $('detail').innerHTML = h;
+  }
+
+  function renderRows(t) {
+    var withMv = t.c.filter(function (c) { return c.mv; }).length;
+    $('log-n').textContent = t.c.length + ' på fil · ' + withMv + ' med angiven kursrörelse';
+    $('rows').innerHTML = t.c.map(function (c, i) {
+      return '<li><button type="button" class="row" data-i="' + i + '"' + (i === state.sel ? ' aria-current="true"' : '') + '>' +
+        '<span class="d">' + esc(c.d ? (c.approx ? c.d.slice(0, 7) : c.d) : 'odaterad') + '</span><span class="l">' + esc(LANES[c.lane]) + '</span>' +
+        '<span class="m">' + chip(c.mv) + '</span><span class="h">' + esc(c.h) + '</span></button></li>';
+    }).join('');
+  }
+
+  // ---- 3D ------------------------------------------------------------------
+  var W = 100, LANE = 10, H = 26, FB = 18;
+  var D = LANES.length * LANE;
+  var gl = null, scene, camera, controls, group, labels = [], pick = [], home = null, need = false;
+  var stage = $('stage'), layer = $('labels');
+  var v3 = null;
+
+  function tok(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+  function init3d() {
+    if (!window.THREE) return false;
+    try {
+      gl = new THREE.WebGLRenderer({ canvas: $('gl'), antialias: true, alpha: true });
+    } catch (e) { gl = null; return false; }
+    gl.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(32, 1, 1, 2000);
+    scene.add(new THREE.AmbientLight(0xffffff, 0.72));
+    var sun = new THREE.DirectionalLight(0xffffff, 0.55);
+    sun.position.set(-40, 120, 90);
+    scene.add(sun);
+    v3 = new THREE.Vector3();
+    if (THREE.OrbitControls) {
+      controls = new THREE.OrbitControls(camera, gl.domElement);
+      controls.enableDamping = false;
+      controls.maxPolarAngle = Math.PI * 0.93;
+      controls.addEventListener('change', function () { $('hint').hidden = true; queue(); });
+    }
+    return true;
+  }
+
+  function queue() { if (!need) { need = true; requestAnimationFrame(draw); } }
+  function draw() {
+    need = false;
+    if (!gl) return;
+    gl.render(scene, camera);
+    var w = stage.clientWidth, h = stage.clientHeight;
+    for (var i = 0; i < labels.length; i++) {
+      var l = labels[i];
+      v3.copy(l.pos).project(camera);
+      if (v3.z > 1 || v3.z < -1) { l.el.style.visibility = 'hidden'; continue; }
+      l.el.style.visibility = '';
+      l.el.style.transform = 'translate(' + ((v3.x * 0.5 + 0.5) * w).toFixed(1) + 'px,' + ((-v3.y * 0.5 + 0.5) * h).toFixed(1) + 'px) translate(' + l.ax + ',' + l.ay + ')';
+    }
+  }
+
+  function resize() {
+    if (!gl) return;
+    var w = stage.clientWidth, h = stage.clientHeight;
+    if (!w || !h) return;
+    gl.setSize(w, h, false);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    queue();
+  }
+
+  // anchor: 'c' centre, 'l' text starts at point, 'r' text ends at point, 't' sits above, 'b' below
+  function label(text, x, y, z, cls, anchor) {
+    var el = document.createElement('div');
+    el.className = 'lb ' + (cls || '');
+    el.textContent = text;
+    layer.appendChild(el);
+    var a = anchor || 'c';
+    labels.push({ el: el, pos: new THREE.Vector3(x, y, z),
+      ax: a.indexOf('l') >= 0 ? '6px' : a.indexOf('r') >= 0 ? 'calc(-100% - 6px)' : '-50%',
+      ay: a.indexOf('t') >= 0 ? 'calc(-100% - 4px)' : a.indexOf('b') >= 0 ? '4px' : '-50%' });
+    return el;
+  }
+  function line(pts, color, opacity, dashed) {
+    var g = new THREE.BufferGeometry().setFromPoints(pts.map(function (p) { return new THREE.Vector3(p[0], p[1], p[2]); }));
+    var m = dashed ? new THREE.LineDashedMaterial({ color: color, dashSize: 1.4, gapSize: 1, transparent: true, opacity: opacity })
+      : new THREE.LineBasicMaterial({ color: color, transparent: true, opacity: opacity });
+    var l = new THREE.Line(g, m);
+    if (dashed) l.computeLineDistances();
+    group.add(l);
+    return l;
+  }
+  function box(w, h, d, x, y, z, color, opacity) {
+    var m = new THREE.MeshLambertMaterial({ color: color, transparent: opacity < 1, opacity: opacity, depthWrite: opacity >= 1 });
+    var b = new THREE.Mesh(new THREE.BoxGeometry(w, Math.max(Math.abs(h), 0.01), d), m);
+    b.position.set(x, y + h / 2, z);
+    group.add(b);
+    return b;
+  }
+  function niceStep(max, n) {
+    var raw = max / n, p = Math.pow(10, Math.floor(Math.log10(raw))), r = raw / p;
+    return (r <= 1 ? 1 : r <= 2 ? 2 : r <= 5 ? 5 : 10) * p;
+  }
+  function clearGroup() {
+    if (group) {
+      group.traverse(function (o) { if (o.geometry) o.geometry.dispose(); if (o.material) o.material.dispose(); });
+      scene.remove(group);
+    }
+    group = new THREE.Group();
+    scene.add(group);
+    layer.textContent = '';
+    labels = []; pick = []; marker = null; markerLabel = null;
+  }
+
+  var geo = null; // per-ticker scales, reused by the selection marker
+
+  function build3d() {
+    if (!gl) return;
+    var t = TK[state.i];
+    clearGroup();
+    var C = { ink: tok('--ink'), ink3: tok('--ink-3'), line: tok('--line'), up: tok('--up'), down: tok('--down'), flat: tok('--flat'), accent: tok('--accent') };
+    var dated = [];
+    t.c.forEach(function (c, i) { if (c.d) dated.push({ c: c, i: i, day: day(c.d) }); });
+
+    // time axis: first dated item .. data date (or a later scheduled item / next report)
+    var days = dated.map(function (e) { return e.day; });
+    var asOf = t.asOf ? day(t.asOf) : (DATA.asOf ? day(DATA.asOf) : null);
+    t.px.forEach(function (p) { days.push(day(p.d)); });
+    if (asOf != null) days.push(asOf);
+    var nextDay = t.f.next ? day(t.f.next.d) : null;
+    if (nextDay != null && asOf != null && nextDay >= asOf && nextDay - asOf <= 120) days.push(nextDay);
+    if (!days.length) days = [day(DATA.asOf || '2026-01-01')];
+    var t0 = Math.min.apply(null, days), t1 = Math.max.apply(null, days);
+    if (t1 - t0 < 30) t0 = t1 - 30;
+    var pad = (t1 - t0) * 0.03; t0 -= pad; t1 += pad;
+    var X = function (d) { return (d - t0) / (t1 - t0) * W; };
+    var laneZ = function (k) { return (k + 0.5) * LANE; };
+
+    // height scale for stated moves
+    var up = 0, dn = 0;
+    dated.forEach(function (e) { if (e.c.mv) { if (e.c.mv.hi > 0) up = Math.max(up, e.c.mv.hi); else dn = Math.max(dn, -e.c.mv.hi); } });
+    var maxAbs = Math.max(up, dn, 5);
+    var Y = function (v) {
+      var r = Math.abs(v) / maxAbs;
+      return (v < 0 ? -1 : 1) * (state.scale === 'sqrt' ? Math.sqrt(r) : r) * H;
+    };
+    var yTop = up ? Y(up) : 0, yBot = dn ? Y(-dn) : 0;
+    geo = { X: X, Y: Y, laneZ: laneZ };
+
+    // floor, lanes, month ticks
+    var floor = new THREE.Mesh(new THREE.PlaneGeometry(W, D), new THREE.MeshBasicMaterial({ color: C.ink3, transparent: true, opacity: 0.07, side: THREE.DoubleSide, depthWrite: false }));
+    floor.rotation.x = -Math.PI / 2; floor.position.set(W / 2, 0, D / 2);
+    group.add(floor);
+    for (var k = 0; k <= LANES.length; k++) line([[0, 0, k * LANE], [W, 0, k * LANE]], C.ink3, k === 0 || k === LANES.length ? 0.7 : 0.28);
+    line([[0, 0, 0], [0, 0, D]], C.ink3, 0.7); line([[W, 0, 0], [W, 0, D]], C.ink3, 0.7);
+    LANES.forEach(function (name, k2) { label(name, 0, 0, laneZ(k2), 'lane', 'r'); });
+    var d0 = new Date(t0 * 864e5), m = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1));
+    var months = (t1 - t0) / 30.4, every = months > 14 ? 3 : months > 8 ? 2 : 1, n = 0;
+    while (m.getTime() / 864e5 < t1) {
+      var md = m.getTime() / 864e5, mx = X(md);
+      line([[mx, 0, 0], [mx, 0, D]], C.ink3, 0.16);
+      if (n % every === 0) label(MON[m.getUTCMonth()] + (m.getUTCMonth() === 0 || n === 0 ? ' ' + m.getUTCFullYear() : ''), mx, 0, D + 1.5, 'tick', 'b');
+      m = new Date(Date.UTC(m.getUTCFullYear(), m.getUTCMonth() + 1, 1)); n++;
+    }
+    if (asOf != null) {
+      line([[X(asOf), 0, 0], [X(asOf), 0, D]], C.accent, 0.8);
+      label('data per ' + dShort(t.asOf || DATA.asOf), X(asOf), 0, D + 5.5, 'evt', 'b');
+    }
+    if (nextDay != null && nextDay >= t0 && nextDay <= t1 && (asOf == null || nextDay >= asOf)) {
+      line([[X(nextDay), 0, laneZ(0)], [X(nextDay), H * 0.55, laneZ(0)]], C.accent, 0.9, true);
+      label('rapport ' + dShort(t.f.next.d) + (t.f.next.confirmed ? '' : ' (uppskattad)'), X(nextDay), H * 0.55, laneZ(0), 'evt', 't');
+    }
+
+    // left wall: the move scale
+    if (up || dn) {
+      var step = niceStep(maxAbs, 4), tv;
+      for (tv = -Math.floor(dn / step) * step; tv <= up + 1e-9; tv += step) {
+        var ty = Y(tv);
+        line([[0, ty, 0], [0, ty, D]], C.ink3, tv === 0 ? 0 : 0.3);
+        if (Math.abs(tv) > 1e-9) label(pct(tv), 0, ty, 0, 'tick bg', 'l');
+      }
+      line([[0, yBot, 0], [0, yTop, 0]], C.ink3, 0.5); line([[0, yBot, D], [0, yTop, D]], C.ink3, 0.5);
+    }
+
+    // back wall: recorded price snapshots, own scale
+    if (t.px.length) {
+      var ps = t.px.map(function (p) { return p.last; });
+      var pmin = Math.min.apply(null, ps), pmax = Math.max.apply(null, ps);
+      if (pmax === pmin) { pmin *= 0.9; pmax = pmax * 1.1 || 1; }
+      var PY = function (p) { return 4 + (p - pmin) / (pmax - pmin) * (H - 6); };
+      var pts = t.px.map(function (p) { return [X(day(p.d)), PY(p.last), 0]; });
+      if (pts.length > 1) line(pts, C.accent, 0.95, true);
+      t.px.forEach(function (p, i2) {
+        var s = new THREE.Mesh(new THREE.SphereGeometry(0.75, 14, 10), new THREE.MeshBasicMaterial({ color: C.accent }));
+        s.position.set(pts[i2][0], pts[i2][1], 0);
+        s.userData.tip = usd(p.last) + ' · ' + p.d + (p.changePct != null ? ' · ' + pct(p.changePct) + ' den dagen' : '');
+        group.add(s); pick.push(s);
+        line([[pts[i2][0], 0, 0], pts[i2]], C.accent, 0.22);
+      });
+      var hiI = ps.indexOf(Math.max.apply(null, ps)), loI = ps.indexOf(Math.min.apply(null, ps)), lastI = ps.length - 1, seen = {};
+      [hiI, loI, lastI].forEach(function (i3) {
+        if (seen[i3]) return; seen[i3] = 1;
+        label(usd(ps[i3]), pts[i3][0], pts[i3][1], 0, 'pxl', i3 === loI && i3 !== hiI ? 'b' : 't');
+      });
+      label('Kurs, sparade punkter', 0, H + 1.5, 0, 'cap', 'l');
+    }
+
+    // catalysts
+    var slots = {};
+    dated.forEach(function (e) { var key = e.c.d + '|' + e.c.lane; (slots[key] = slots[key] || []).push(e); });
+    var tops = [];
+    dated.forEach(function (e) {
+      var c = e.c, sib = slots[c.d + '|' + c.lane], j = sib.indexOf(e);
+      var x = X(e.day), z = laneZ(c.lane) + (j - (sib.length - 1) / 2) * Math.min(2.2, (LANE - 2) / sib.length);
+      var mesh;
+      if (c.mv) {
+        var col = c.mv.lo > 0 ? C.up : C.down, y1 = Y(c.mv.lo);
+        mesh = box(1.35, y1, 1.35, x, 0, z, col, 1);
+        if (c.mv.range) {
+          var cap = box(1.35, Y(c.mv.hi) - y1, 1.35, x, y1, z, col, 0.32);
+          cap.userData.i = e.i; pick.push(cap);
+        }
+        tops.push({ e: e, x: x, y: Y(c.mv.hi), z: z });
+      } else {
+        mesh = new THREE.Mesh(new THREE.CylinderGeometry(0.8, 0.8, 0.3, 18), new THREE.MeshLambertMaterial({ color: C.flat }));
+        mesh.position.set(x, 0.15, z);
+        group.add(mesh);
+      }
+      mesh.userData.i = e.i; pick.push(mesh);
+      e.x = x; e.z = z;
+    });
+    geo.dated = dated;
+    // name the largest stated moves on the model itself
+    var named = {};
+    tops.sort(function (a, b) { return Math.abs(b.e.c.mv.hi) - Math.abs(a.e.c.mv.hi); }).filter(function (o) {
+      if (named[o.e.c.d]) return false; named[o.e.c.d] = 1; return true;
+    }).slice(0, 4).forEach(function (o) {
+      var el = label(mvText(o.e.c.mv), o.x, o.y, o.z, 'mv ' + (o.y > 0 ? 'up' : 'dn'), o.y > 0 ? 't' : 'b');
+      el.setAttribute('data-d', o.e.c.d);
+    });
+
+    // fundamentals block
+    var fx = W + 30, groups = [];
+    if (t.f.rev.length) groups.push({ cap: 'Omsättning', bars: t.f.rev.map(function (r) { return { v: r.v, top: money(r.v), base: r.p, col: C.ink3 }; }) });
+    if (t.f.eps.length) groups.push({ cap: 'EPS', bars: t.f.eps.map(function (e) { return { v: e.v, top: (e.v < 0 ? '−$' : '$') + trim(Math.abs(e.v), 2), base: e.p, col: e.v < 0 ? C.down : C.up }; }) });
+    var bal = [];
+    if (t.f.cash.v != null) bal.push({ v: t.f.cash.v, top: money(t.f.cash.v), base: 'Kassa', col: C.ink3 });
+    if (t.f.debt.v != null) bal.push({ v: t.f.debt.v, top: money(t.f.debt.v), base: 'Skuld', col: C.ink });
+    if (bal.length) groups.push({ cap: 'Balans', bars: bal });
+    // one row per group, rows stepped back in depth so their labels do not collide
+    var xMax = W;
+    groups.forEach(function (g, gi) {
+      var gm = Math.max.apply(null, g.bars.map(function (b) { return Math.abs(b.v); })) || 1;
+      var zc = D * (groups.length === 1 ? 0.5 : 0.12 + 0.76 * gi / (groups.length - 1)), gx = fx;
+      g.bars.forEach(function (b) {
+        var hgt = b.v / gm * FB;
+        var bar = box(3.6, hgt, 3.6, gx + 1.8, 0, zc, b.col, 1);
+        bar.userData.tip = g.cap + ' ' + b.base + ': ' + b.top;
+        pick.push(bar);
+        label(b.top, gx + 1.8, hgt, zc, 'val', hgt < 0 ? 'b' : 't');
+        label(b.base, gx + 1.8, 0, zc + 2.4, 'tick', hgt < 0 ? 't' : 'b');
+        gx += 10;
+      });
+      line([[fx - 2, 0, zc - 3.2], [gx - 4, 0, zc - 3.2], [gx - 4, 0, zc + 3.2], [fx - 2, 0, zc + 3.2], [fx - 2, 0, zc - 3.2]], C.ink3, 0.45);
+      label(g.cap, fx - 2, 0, zc, 'cap', 'r');
+      xMax = Math.max(xMax, gx - 4);
+    });
+    var yHigh = Math.max(yTop, t.px.length ? H + 3 : 0, groups.length ? FB + 3 : 0, 6), yLow = Math.min(yBot, groups.length && t.f.eps.some(function (e) { return e.v < 0; }) ? -FB - 2 : 0, -2);
+
+    // camera home: back off along a fixed viewing direction until the whole model fits the stage
+    var aspect = stage.clientWidth / Math.max(stage.clientHeight, 1), narrow = aspect < 1;
+    if (narrow) xMax = W; // phone: frame the timeline; the fundamentals block is a pan away
+    var xMin = narrow ? -36 : -24, zMax = D + 8;
+    var target = new THREE.Vector3((xMin + xMax) / 2, (yHigh + yLow) / 2, D / 2);
+    var dir = new THREE.Vector3(-0.22, 0.62, 1).normalize(), dist = 200, it, cx2, cy2;
+    var corners = [];
+    [xMin, xMax].forEach(function (x) { [yLow, yHigh].forEach(function (y) { [0, zMax].forEach(function (z) { corners.push(new THREE.Vector3(x, y, z)); }); }); });
+    for (it = 0; it < 6; it++) {
+      camera.position.copy(target).addScaledVector(dir, dist);
+      camera.lookAt(target); camera.updateMatrixWorld(); camera.updateProjectionMatrix();
+      var mx2 = 0, my2 = 0, lo = [9, 9], hi = [-9, -9];
+      corners.forEach(function (c) {
+        v3.copy(c).project(camera);
+        lo[0] = Math.min(lo[0], v3.x); hi[0] = Math.max(hi[0], v3.x); lo[1] = Math.min(lo[1], v3.y); hi[1] = Math.max(hi[1], v3.y);
+      });
+      mx2 = (hi[0] - lo[0]) / 2; my2 = (hi[1] - lo[1]) / 2; cx2 = (hi[0] + lo[0]) / 2; cy2 = (hi[1] + lo[1]) / 2;
+      // slide the target so the projected box is centred, then scale the distance to fill the stage
+      var right = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 0), upv = new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld, 1);
+      var halfH = Math.tan(camera.fov * Math.PI / 360) * dist, halfW = halfH * aspect;
+      target.addScaledVector(right, cx2 * halfW).addScaledVector(upv, cy2 * halfH);
+      dist *= Math.max(mx2, my2) / 0.96;
+    }
+    home = { target: target.clone(), pos: target.clone().addScaledVector(dir, dist) };
+    goHome();
+    mark();
+  }
+
+  function goHome() {
+    if (!home) return;
+    camera.position.copy(home.pos);
+    if (controls) { controls.target.copy(home.target); controls.update(); } else camera.lookAt(home.target);
+    queue();
+  }
+
+  // selection marker: an outlined box around the chosen item, with its date
+  var marker = null, markerLabel = null;
+  function mark() {
+    if (!gl || !geo) return;
+    if (marker) { group.remove(marker); marker.geometry.dispose(); marker.material.dispose(); marker = null; }
+    if (markerLabel) { labels.splice(labels.indexOf(markerLabel), 1); markerLabel.el.remove(); markerLabel = null; }
+    var hit = null;
+    (geo.dated || []).forEach(function (e) { if (e.i === state.sel) hit = e; });
+    if (hit) {
+      var c = hit.c, y = c.mv ? geo.Y(c.mv.hi) : 0.3;
+      var hgt = Math.max(Math.abs(y), 0.3) + 0.5;
+      marker = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(2.3, hgt, 2.3)), new THREE.LineBasicMaterial({ color: tok('--accent') }));
+      marker.position.set(hit.x, (y < 0 ? -1 : 1) * hgt / 2 + (y < 0 ? 0.25 : -0.25), hit.z);
+      group.add(marker);
+      label(dShort(c.d) + (c.mv ? ' · ' + mvText(c.mv) : ''), hit.x, y < 0 ? y - 0.6 : y + 0.6, hit.z, 'sel', y < 0 ? 'b' : 't');
+      markerLabel = labels[labels.length - 1];
+    }
+    labels.forEach(function (l) { if (l.el.hasAttribute('data-d')) l.el.hidden = !!hit && l.el.getAttribute('data-d') === hit.c.d; });
+    queue();
+  }
+
+  // ---- picking -------------------------------------------------------------
+  var ray = null, ndc = null, down = null;
+  function hitAt(ev) {
+    if (!gl) return null;
+    if (!ray) { ray = new THREE.Raycaster(); ndc = new THREE.Vector2(); }
+    var r = stage.getBoundingClientRect();
+    ndc.set((ev.clientX - r.left) / r.width * 2 - 1, -((ev.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(ndc, camera);
+    var hits = ray.intersectObjects(pick, false);
+    return hits.length ? { o: hits[0].object, x: ev.clientX - r.left, y: ev.clientY - r.top, w: r.width } : null;
+  }
+  function tipFor(o) {
+    if (o.userData.tip) return o.userData.tip;
+    var c = TK[state.i].c[o.userData.i];
+    return c ? dShort(c.d) + (c.mv ? ' · ' + mvText(c.mv) : '') + ' · ' + (c.h.length > 110 ? c.h.slice(0, 108) + '…' : c.h) : '';
+  }
+  stage.addEventListener('pointerdown', function (ev) { down = { x: ev.clientX, y: ev.clientY }; $('tip').hidden = true; });
+  stage.addEventListener('pointerup', function (ev) {
+    if (!down || Math.abs(ev.clientX - down.x) + Math.abs(ev.clientY - down.y) > 8) { down = null; return; }
+    down = null;
+    var h = hitAt(ev);
+    if (h && h.o.userData.i != null) select(h.o.userData.i, true);
+  });
+  stage.addEventListener('pointermove', function (ev) {
+    if (ev.pointerType !== 'mouse' || ev.buttons) return;
+    var h = hitAt(ev), tip = $('tip');
+    stage.style.cursor = h && h.o.userData.i != null ? 'pointer' : '';
+    if (!h) { tip.hidden = true; return; }
+    tip.textContent = tipFor(h.o);
+    tip.hidden = false;
+    tip.style.transform = 'translate(' + Math.min(h.x + 14, h.w - 270) + 'px,' + (h.y + 16) + 'px)';
+  });
+  stage.addEventListener('pointerleave', function () { $('tip').hidden = true; });
+
+  // ---- state ---------------------------------------------------------------
+  function select(i, fromScene) {
+    state.sel = i;
+    var t = TK[state.i];
+    renderDetail(t);
+    var rows = $('rows').querySelectorAll('.row');
+    for (var k = 0; k < rows.length; k++) {
+      if (k === i) rows[k].setAttribute('aria-current', 'true'); else rows[k].removeAttribute('aria-current');
+    }
+    if (fromScene && rows[i] && rows[i].scrollIntoView && window.innerWidth > 980) rows[i].scrollIntoView({ block: 'nearest' });
+    mark();
+  }
+
+  function show(i, keepHash) {
+    state.i = (i + TK.length) % TK.length;
+    var t = TK[state.i];
+    // open on the largest stated move; failing that, the newest dated item
+    var best = -1, bestAbs = -1, firstDated = -1;
+    t.c.forEach(function (c, k) {
+      if (c.d && firstDated < 0) firstDated = k;
+      if (c.d && c.mv && Math.abs(c.mv.hi) > bestAbs) { bestAbs = Math.abs(c.mv.hi); best = k; }
+    });
+    state.sel = best >= 0 ? best : firstDated >= 0 ? firstDated : (t.c.length ? 0 : -1);
+    $('ticker').value = t.t;
+    renderIdent(t); renderFund(t); renderDetail(t); renderRows(t);
+    build3d();
+    if (!keepHash) { try { history.replaceState(null, '', '#' + t.t); } catch (e) { location.hash = t.t; } }
+  }
+
+  function fromHash() {
+    var h = (location.hash || '').replace('#', '').toUpperCase();
+    for (var i = 0; i < TK.length; i++) if (TK[i].t === h) return i;
+    return -1;
+  }
+
+  // ---- boot ----------------------------------------------------------------
+  var themes = {};
+  TK.forEach(function (t) { (themes[t.theme] = themes[t.theme] || []).push(t); });
+  $('ticker').innerHTML = Object.keys(themes).sort().map(function (th) {
+    return '<optgroup label="' + esc(th) + '">' + themes[th].map(function (t) {
+      return '<option value="' + esc(t.t) + '">' + esc(t.t) + ' · ' + esc(t.name) + '</option>';
+    }).join('') + '</optgroup>';
+  }).join('');
+  var nCat = 0, nMv = 0;
+  TK.forEach(function (t) { t.c.forEach(function (c) { nCat++; if (c.mv) nMv++; }); });
+  $('stamp').innerHTML = TK.length + ' bolag · ' + nCat + ' nyheter · ' + nMv + ' med angiven kursrörelse<br>data per ' + esc(DATA.asOf || '?');
+
+  $('ticker').addEventListener('change', function () { for (var i = 0; i < TK.length; i++) if (TK[i].t === this.value) show(i); });
+  $('prev').addEventListener('click', function () { show(state.i - 1); });
+  $('next').addEventListener('click', function () { show(state.i + 1); });
+  $('reset').addEventListener('click', goHome);
+  function setScale(s) {
+    state.scale = s;
+    $('scale-lin').setAttribute('aria-pressed', String(s === 'lin'));
+    $('scale-sqrt').setAttribute('aria-pressed', String(s === 'sqrt'));
+    var keep = state.sel; build3d(); state.sel = keep; mark();
+  }
+  $('scale-lin').addEventListener('click', function () { setScale('lin'); });
+  $('scale-sqrt').addEventListener('click', function () { setScale('sqrt'); });
+  $('rows').addEventListener('click', function (ev) {
+    var b = ev.target.closest ? ev.target.closest('.row') : null;
+    if (b) select(+b.getAttribute('data-i'), false);
+  });
+  window.addEventListener('hashchange', function () { var i = fromHash(); if (i >= 0 && i !== state.i) show(i, true); });
+
+  if (!init3d()) {
+    var msg = document.createElement('div');
+    msg.className = 'nogl';
+    msg.textContent = '3D-vyn kunde inte startas i den här webbläsaren (WebGL saknas). Siffrorna och nyhetslistan nedan är kompletta ändå.';
+    stage.appendChild(msg);
+    $('hint').hidden = true;
+  } else {
+    if (window.ResizeObserver) new ResizeObserver(resize).observe(stage); else window.addEventListener('resize', resize);
+    resize();
+    var recolor = function () { var keep = state.sel, pos = camera.position.clone(), tg = controls ? controls.target.clone() : null; build3d(); state.sel = keep;
+      camera.position.copy(pos); if (controls && tg) { controls.target.copy(tg); controls.update(); } mark(); };
+    if (window.matchMedia) {
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      if (mq.addEventListener) mq.addEventListener('change', recolor);
+    }
+    if (window.MutationObserver) new MutationObserver(recolor).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
+
+  var start = fromHash();
+  if (start < 0) {
+    // open on the name with the most stated moves on file, so the first frame has something to read
+    var bestN = -1;
+    TK.forEach(function (t, i) { var n2 = t.c.filter(function (c) { return c.mv && c.d; }).length; if (n2 > bestN) { bestN = n2; start = i; } });
+  }
+  show(start, true);
+})();
+</script>
