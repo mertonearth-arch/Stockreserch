@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T21:33:08.091Z",
+  "updated": "2026-11-16T05:33:18.689Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -155,7 +155,7 @@
       "tier": "daily",
       "theme": "Consumer Hardware",
       "quietRuns": 0,
-      "lastResearched": "2026-11-13T21:33:08.076Z"
+      "lastResearched": "2026-11-16T05:33:18.675Z"
     },
     "IHRT": {
       "tier": "daily",
@@ -347,7 +347,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-13T21:33:08.082Z"
+      "lastResearched": "2026-11-16T05:33:18.676Z"
     },
     "TLF": {
       "tier": "daily",
@@ -393,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-13",
-    "run": "pm"
+    "date": "2026-11-16",
+    "run": "am"
   }
 }

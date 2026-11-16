@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.076Z",
+  "lastResearched": "2026-11-16T05:33:18.675Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -88,6 +88,13 @@
     "note": "From a UK-localized Investing.com page date-stamped '12/11/2026' (DD/MM format = Nov 12, 2026); treat with some caution."
   },
   "catalysts": [
+    {
+      "date": "2026-11-10",
+      "type": "filing",
+      "headline": "GoPro delayed its Q3 2026 10-Q, citing an incomplete financial close and incomplete valuation of its financing arrangements; posted preliminary unaudited Q3 figures instead (revenue ~$96M vs $163M a year earlier; gross margin ~12.7% vs 35.1% YoY; opex ~$60M vs $73M YoY) and disclosed substantial doubt about its ability to continue as a going concern over the next 12 months while seeking lender waivers",
+      "impact": "If lender waivers are not obtained, noncompliance could allow termination of the pending Starman Optical merger agreement (announced 2026-09-01)",
+      "source": "https://bicycleretailer.com/industry-news/2026/11/10/gopros-q3-earnings-report-delayed"
+    },
     {
       "date": "2026-11-03",
       "type": "product",
@@ -210,14 +217,27 @@
   "conflicts": [
     "Price: Fool $0.90 close (2026-11-06) vs Investing.com UK $0.6882 (2026-11-12) vs Debelegger $0.93 (2026-10-30) — a roughly 30% swing across sources in under a week.",
     "Shares outstanding: 144.72M (undated, Equibles) vs 157.55M (StockAnalysis, dated to ~May 2025) — likely reflects dilution from the 424B3 share issuances between those dates.",
-    "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float."
+    "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float.",
+    "Overnight reaction to the Nov 10 earnings-delay/going-concern filing is reported inconsistently: Stocktwits cites a ~7% overnight drop while Börse Global cites ~14% same-day — not reconciled."
   ],
   "pendingFilings": [
     "Form 424B3 (x2) — FY2026 prospectus supplements related to share issuances (Mateo/Yorkville)",
-    "Q3 2026 earnings release — date passed (Nov 5) but not located in this pass"
+    "8-K ~2026-11-10 — Q3 2026 earnings-delay notice + unaudited preliminary results with going-concern disclosure; replaces the previously unlocated Q3 2026 earnings filing"
   ],
   "notes": "Markiplier (YouTuber) reportedly became GoPro's single largest shareholder around the Starman-merger news, cited as a driver of a sharp share-price pop, but no dated source pinned down exactly when. Company announced a 23% workforce reduction plan in April 2026. Balance sheet (cash $27.3M vs $72.7M short-term debt) is a notable liquidity flag.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -547,20 +567,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
-    "run": "pm",
+    "date": "2026-11-16",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "debt updated",
+      "1 new catalyst(s)",
       "new filing(s)",
       "conflicts updated"
     ],

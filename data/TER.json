@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.082Z",
+  "lastResearched": "2026-11-16T05:33:18.676Z",
   "fundamentals": {
     "marketCap": {
       "value": 62300000000,
@@ -90,6 +90,18 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-09",
+      "type": "product",
+      "headline": "Teradyne introduced Omnyx Edge, an inline board-test platform for compute/sensing/motion boards used in physical and edge AI",
+      "source": "https://www.marketbeat.com/instant-alerts/price-teradyne-nasdaq-ter-shares-climb-127-still-a-buy-2026-11-09/"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "dividend",
+      "headline": "Declared a quarterly cash dividend of $0.13/share, payable 2026-12-16 to shareholders of record 2026-11-23",
+      "source": "https://www.marketbeat.com/instant-alerts/price-teradyne-nasdaq-ter-shares-climb-127-still-a-buy-2026-11-09/"
+    },
+    {
       "date": "2026-10-27",
       "type": "earnings",
       "headline": "Teradyne Q3 2026 results: non-GAAP EPS $2.29 (+169.4% YoY, beat $2.04 est.), revenue $1.306B (+69.8% YoY, beat consensus by 2.77%)",
@@ -141,11 +153,23 @@
     }
   ],
   "conflicts": [
-    "Post-Q3-earnings stock reaction is reported inconsistently: one source says the stock fell 7.4% to ~$274 the day of the report; Earnings Whispers instead cites $323.68; a pre-earnings Google Finance snapshot (~2026-10-08) showed $398.72. These do not reconcile to a single confirmed price, and no 2026-11-13 price was found."
+    "Post-Q3-earnings stock reaction is reported inconsistently: one source says the stock fell 7.4% to ~$274 the day of the report; Earnings Whispers instead cites $323.68; a pre-earnings Google Finance snapshot (~2026-10-08) showed $398.72. These do not reconcile to a single confirmed price, and no 2026-11-13 price was found.",
+    "Nov 9, 2026 price/move is also reported inconsistently across sources: MarketBeat cites $246.00 (+12.7%); Benzinga cites $246.00 (-3.2%); Fox Business cites $218.22 (+9.52%, intraday) — not reconciled to a single confirmed figure."
   ],
   "pendingFilings": [],
   "notes": "Estimated Q3 2026 earnings date (2026-10-27) found via one source is used as the catalyst date; treat as approximate if not independently re-verified. Market cap/shares outstanding/PE above are from a pre-earnings (~2026-10-08) snapshot and are likely stale relative to 2026-11-13.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -379,18 +403,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
-    "run": "pm",
+    "date": "2026-11-16",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
+      "2 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true
