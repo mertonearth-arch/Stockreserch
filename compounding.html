@@ -62,7 +62,14 @@ h1,h2{font-family:var(--cond);margin:0;text-wrap:balance}
 .ctl{display:flex;flex-direction:column;gap:4px}
 .ctl-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
 .ctl-head label{font-size:13px;font-weight:500}
-.ctl-head output{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap}
+.num{display:flex;align-items:baseline;gap:5px;font-family:var(--mono);font-size:12px;color:var(--ink-3);white-space:nowrap}
+.num input{width:10ch;font:600 13px var(--mono);color:var(--accent);text-align:right;
+  background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:3px 6px;
+  -moz-appearance:textfield;appearance:textfield}
+.num input::-webkit-outer-spin-button,.num input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.num input:hover{border-color:var(--ink-3)}
+.num input.bad{border-color:var(--down);color:var(--down)}
+.controls .hint{margin:-10px 0 0;color:var(--ink-3);font-size:11.5px;line-height:1.4}
 .ctl input[type=range]{width:100%;margin:0;accent-color:var(--accent);height:24px;cursor:pointer}
 .ctl small{color:var(--ink-3);font-size:11.5px;line-height:1.4}
 .ctl small.warn{color:var(--down);font-weight:500}
@@ -112,6 +119,7 @@ canvas.drag{cursor:grabbing}
   .tile:nth-child(even){border-left:1px solid var(--line-soft)}
   .tile b,.tile.main b{font-size:20px}
   .mast h1{font-size:28px}
+  .num input{font-size:16px}
 }
 </style>
 
@@ -124,33 +132,34 @@ canvas.drag{cursor:grabbing}
   <div class="layout">
     <section class="controls" aria-label="Kriterier">
       <h2>Kriterier</h2>
+      <p class="hint">Dra i reglaget eller skriv ett eget värde i rutan. Rutan tar även värden utanför reglagets intervall.</p>
 
       <div class="ctl">
-        <div class="ctl-head"><label for="k0">Startkonto</label><output id="o-k0" for="k0"></output></div>
+        <div class="ctl-head"><label for="k0">Startkonto</label><span class="num"><input type="number" id="v-k0" inputmode="decimal" step="10000" value="100000" aria-label="Startkonto i kronor"><span>kr</span></span></div>
         <input type="range" id="k0" min="10000" max="2000000" step="10000" value="100000">
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="win">Träffsäkerhet</label><output id="o-win" for="win"></output></div>
+        <div class="ctl-head"><label for="win">Träffsäkerhet</label><span class="num"><input type="number" id="v-win" inputmode="decimal" step="1" value="45" aria-label="Träffsäkerhet i procent"><span>%</span></span></div>
         <input type="range" id="win" min="20" max="80" step="1" value="45">
         <small>Andel trades som går med vinst.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="rr">Snittvinst / snittförlust</label><output id="o-rr" for="rr"></output></div>
+        <div class="ctl-head"><label for="rr">Snittvinst / snittförlust</label><span class="num"><input type="number" id="v-rr" inputmode="decimal" step="0.1" value="2" aria-label="Snittvinst i R"><span>R</span></span></div>
         <input type="range" id="rr" min="0.5" max="5" step="0.1" value="2">
         <small>Hur många R en vinst ger. En förlust är 1 R.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="risk">Risk per trade</label><output id="o-risk" for="risk"></output></div>
+        <div class="ctl-head"><label for="risk">Risk per trade</label><span class="num"><input type="number" id="v-risk" inputmode="decimal" step="0.05" value="1" aria-label="Risk per trade i procent"><span>%</span></span></div>
         <input type="range" id="risk" min="0.25" max="25" step="0.25" value="1">
         <small id="h-risk"></small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="n">Antal trades</label><output id="o-n" for="n"></output></div>
+        <div class="ctl-head"><label for="n">Antal trades</label><span class="num"><input type="number" id="v-n" inputmode="decimal" step="1" value="250" aria-label="Antal trades"><span>st</span></span></div>
         <input type="range" id="n" min="20" max="1000" step="10" value="250">
         <small>5 trades i veckan är ungefär 250 på ett år.</small>
       </div>
       <div class="ctl">
-        <div class="ctl-head"><label for="cost">Kostnad per trade</label><output id="o-cost" for="cost"></output></div>
+        <div class="ctl-head"><label for="cost">Kostnad per trade</label><span class="num"><input type="number" id="v-cost" inputmode="decimal" step="1" value="5" aria-label="Kostnad i procent av R"><span>% av R</span></span></div>
         <input type="range" id="cost" min="0" max="30" step="1" value="5">
         <small>Courtage och slippage, i procent av riskerat belopp.</small>
       </div>
@@ -236,6 +245,7 @@ function short(v){
   return nf.format(v) + ' kr';
 }
 function mult(m){
+  if (m >= 1e12) return '10^' + Math.round(Math.log10(m)) + '×';
   if (m >= 1e9) return nf2.format(m / 1e9) + ' md×';
   if (m >= 1e6) return nf2.format(m / 1e6) + ' mn×';
   if (m >= 10) return nf.format(m) + '×';
@@ -248,17 +258,20 @@ function niceStep(max, count){
 
 /* ---------- tillstånd ---------- */
 const target = {}, cur = {};
-function readInputs(){ KEYS.forEach(k => target[k] = parseFloat($(k).value)); }
+// Tillåtna värden när man skriver själv (bredare än reglagen)
+const LIM = {k0:[1000,1e9], win:[1,99], rr:[0.1,20], risk:[0.01,25], n:[5,5000], cost:[0,100]};
+function parse(k){
+  const v = parseFloat($('v-' + k).value);
+  if (!isFinite(v)) return null;
+  const c = Math.max(LIM[k][0], Math.min(LIM[k][1], v));
+  return k === 'n' ? Math.round(c) : c;
+}
+function readInputs(){ KEYS.forEach(k => { const v = parse(k); if (v !== null) target[k] = v;
+  $('v-' + k).classList.toggle('bad', v === null || v !== parseFloat($('v-' + k).value)); }); }
 readInputs(); Object.assign(cur, target);
 
 function updateText(){
   const p = target, o = odds(p), f = p.risk / 100, n = p.n;
-  $('o-k0').textContent = kr(p.k0);
-  $('o-win').textContent = p.win + ' %';
-  $('o-rr').textContent = nf1.format(p.rr) + ' R';
-  $('o-risk').textContent = nf2.format(p.risk) + ' %';
-  $('o-n').textContent = n + ' st';
-  $('o-cost').textContent = p.cost + ' % av R';
 
   const exp = o.p * o.W - o.q * o.L, fk = kelly(o);
   const hr = $('h-risk');
@@ -477,9 +490,15 @@ function frame(now){
 }
 
 /* ---------- händelser ---------- */
-KEYS.forEach(k => $(k).addEventListener('input', () => { readInputs(); updateText(); }));
+KEYS.forEach(k => {
+  const sl = $(k), box = $('v-' + k);
+  sl.addEventListener('input', () => { box.value = sl.value; readInputs(); updateText(); });
+  box.addEventListener('input', () => { readInputs(); sl.value = target[k]; updateText(); });
+  // när man lämnar rutan skrivs det värde som faktiskt används
+  box.addEventListener('change', () => { box.value = target[k]; box.classList.remove('bad'); });
+});
 $('reset').addEventListener('click', () => {
-  KEYS.forEach(k => $(k).value = DEFAULTS[k]); readInputs(); updateText();
+  KEYS.forEach(k => { $(k).value = DEFAULTS[k]; $('v-' + k).value = DEFAULTS[k]; }); readInputs(); updateText();
   yaw = -0.6; pitch = 0.5; dirty = true;
 });
 $('sway').addEventListener('change', () => { dirty = true; });
