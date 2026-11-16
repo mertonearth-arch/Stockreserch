@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.060Z",
+  "lastResearched": "2026-11-16T21:16:26.789Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -38,10 +38,10 @@
       "note": "Not established in sources reviewed"
     },
     "cash": {
-      "value": 95900000,
-      "asOf": "2026-06-30 (Q2 2026)",
-      "source": "Panabee analysis of company Q2 2026 disclosures",
-      "note": "Comprised of $47.2M cash and $48.7M marketable securities; Q3 2026 (2026-09-30) figure not located despite the earnings call having occurred 2026-11-10"
+      "value": 87800000,
+      "asOf": "2026-09-30",
+      "source": "Capital.com (syndicated Q3 2026 report summary)",
+      "note": "Cash, cash equivalents and marketable securities; up 27% from Dec 31, 2025"
     },
     "debt": {
       "value": null,
@@ -49,34 +49,24 @@
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -0.04,
-        "basis": "GAAP/Non-GAAP as reported"
-      },
-      {
-        "period": "Q3 2026 (consensus estimate only)",
-        "value": -0.05,
-        "basis": "Non-GAAP analyst estimate",
-        "note": "Actual Q3 2026 result not confirmed in sources reviewed"
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Net loss widened 41% YoY to $7.2M; EPS not given in the source reviewed, so left null rather than computed from an unconfirmed share count"
       }
     ],
     "revenue": [
       {
-        "period": "H1 2025",
-        "value": 49000,
-        "yoy": null
-      },
-      {
-        "period": "H1 2026",
-        "value": 62000,
-        "yoy": null
+        "period": "Q3 2026",
+        "value": 38000,
+        "yoy": 29
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "H1 2026",
-      "pct": null,
-      "note": "Company is pre-commercial; revenue is limited to material supply, NRE, and prototype activity. Management has stated it does not expect significant production revenue until 2027."
+      "period": "Q3 2026",
+      "pct": 29,
+      "note": "Pre-commercial company; revenue is limited to material supply/NRE/prototype activity"
     }
   },
   "price": {
@@ -95,6 +85,12 @@
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
     },
     {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net loss widened 41% YoY to $7.2M; revenue $38K (+29% YoY); R&D spend $4.3M (+49% YoY); cash + marketable securities $87.8M (+27% vs 2025-12-31)",
+      "source": "https://capital.com/en-au/news/lightwave-logic-q3-2026-net-loss-widens-41-to-7-2"
+    },
+    {
       "date": "2026-10-26",
       "type": "event announcement",
       "headline": "Lightwave Logic announced the timing of its Q3 2026 financial results and business update call, scheduled for 2026-11-10 at 4:30pm ET",
@@ -102,13 +98,24 @@
       "source": "https://www.newswire.com/news/lightwave-logic-inc-announces-timing-of-third-quarter-2026-financial-results"
     }
   ],
-  "conflicts": [
-    "Share price: ~$4.65-$4.94 (early Nov 2026) vs a reported $18.22 close on 2026-05-13 (+14.38% that day) — implies a roughly 73% decline over six months. This is large but was not independently corroborated with an intermediate data point in this search, so it is flagged for review rather than assumed to reflect a reverse split or data error.",
-    "Cash position timing: a Panabee analysis cites $95.9M total liquid assets as of Q2 2026 (2026-06-30); a separate, older piece describes the company having 'ended the quarter with $75 million... rising to $100 million as of 2026-05-11,' which appears to describe Q1 2026 — these are different quarters and should not be conflated as the same balance.",
-    "Q3 2026 actual results could not be located despite the earnings call having been held on 2026-11-10 (three days before this report's date); only a pre-report consensus estimate (-$0.05 EPS) was found."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "cash updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -157,25 +164,18 @@
       "from": "daily"
     }
   ],
-  "notes": "LWLG is a pre-revenue/development-stage photonics/polymer-materials company; losses are expected to continue until commercial production ramps, which management has indicated is not expected before 2027. The Q3 2026 earnings call occurred on 2026-11-10, but the actual reported results were not found in the sources checked for this pass — recommend pulling the primary press release/8-K from SEC EDGAR.",
+  "notes": "Prior pass had only a consensus EPS estimate on file (-$0.05); actual results are now in. Company's own press release / 10-Q not located this pass -- figures rest on one secondary summary (Capital.com, syndicated).",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
       "eps updated",
       "revenue updated",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

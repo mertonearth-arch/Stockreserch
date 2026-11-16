@@ -8,19 +8,22 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.067Z",
+  "lastResearched": "2026-11-16T21:16:26.787Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not found in reachable sources this pass"
+      "value": 6600000000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business quote snapshot",
+      "note": "Motley Fool's same-share-count snapshot computes $6.38B instead of Fox Business's $6.62B off the same ~452.97M share count -- likely different intraday prices; both from Oct 23, 2026, roughly a week before this pass"
     },
     "float": {
       "value": null,
       "note": "Not disclosed/found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not found in reachable sources this pass"
+      "value": 452970000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business / Motley Fool quote snapshots"
     },
     "shortInterest": {
       "value": null,
@@ -165,12 +168,23 @@
     }
   ],
   "conflicts": [
-    "Stock reaction to Nov 5 Q3 earnings is reported inconsistently: one set of sources says shares fell ~11% on report day despite the beat, while a differently-dated headline describes the stock as 'up 48.3%' after narrowing losses and reaffirming guidance — could not reconcile which date/period each refers to.",
-    "No confirmed closing price for 2026-11-13; undated/differently-dated aggregator snapshots ranged from about $2.45 (Jan 2026) to $11.00 (undated) to $5 (Jul 20, 2026), too inconsistent to use."
+    "Market cap Oct 23, 2026: Fox Business $6.62B vs Motley Fool $6.38B off the same 452.97M share count"
   ],
   "pendingFilings": [],
-  "notes": "Interim CEO is Frederick Vogt. Market cap and shares outstanding could not be independently confirmed from reachable sources this pass.",
+  "notes": "No new dated catalyst since the Nov 5 Q3 2026 earnings print already on file. Current (Nov 16) closing price not found in reachable sources this pass; left unchanged rather than guessed.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -464,22 +478,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

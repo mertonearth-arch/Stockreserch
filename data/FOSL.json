@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.058Z",
+  "lastResearched": "2026-11-16T21:16:26.767Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -79,11 +79,9 @@
     }
   },
   "price": {
-    "last": 8.06,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-09",
-    "note": "This is the pre-earnings 1-year-high close cited by Benzinga; no reliable post-earnings (Nov 11+) quote was located."
+    "last": 9.97,
+    "asOf": "2026-11-12",
+    "source": "investing.com"
   },
   "catalysts": [
     {
@@ -122,6 +120,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -169,26 +175,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not locate Fossil Group's official Q3 2026 press release or 8-K in this research pass; strongly recommend pulling it directly from fossilgroup.com/investor-relations or SEC EDGAR before reporting specific Q3 2026 revenue/EPS/price-reaction figures.",
+  "notes": "Updated price point (Nov 12, post-Q3-earnings) replaces the stale pre-earnings Nov 9 snapshot. No new catalyst found for Nov 14-16; the Nov 17 Craig-Hallum conference appearance already on file has not yet occurred.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.061Z",
+  "lastResearched": "2026-11-16T21:16:26.762Z",
   "fundamentals": {
     "marketCap": {
       "value": 188390000,
@@ -139,6 +139,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-13",
       "run": "pm",
       "quiet": false,
@@ -204,28 +212,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Single-asset biotech (PGN-EDODM1) — near-term value is highly dependent on the FREEDOM2 DM1 readouts; the next data point (12.5 mg/kg cohort) is expected in 1H 2027.",
+  "notes": "No new catalyst found since the 11/13 pass; most recent dated coverage remains the Nov 10-11 FREEDOM2-DM1 data / Q3 earnings cluster already on file.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 14.1%",
-      "RVOL 3.2x",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

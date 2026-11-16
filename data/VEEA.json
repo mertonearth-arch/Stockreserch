@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.062Z",
+  "lastResearched": "2026-11-16T21:16:26.798Z",
   "fundamentals": {
     "marketCap": {
       "value": 13970000,
@@ -47,20 +47,42 @@
       "note": "Early-commercial-stage company with net losses; no meaningful trailing P/E",
       "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q1 2026",
+        "value": -0.09,
+        "basis": "GAAP",
+        "source": "roic.ai (via WebSearch snippet)",
+        "note": "Not independently confirmed against the primary 10-Q"
+      }
+    ],
     "revenue": [
       {
         "period": "Q3 2025",
         "value": 140000,
         "yoy": null,
         "note": "Third-party aggregator figure, not independently confirmed against the company's filing"
+      },
+      {
+        "period": "FY2025",
+        "value": 222018,
+        "yoy": 56.62,
+        "source": "roic.ai (via WebSearch snippet)",
+        "note": "Full-year 2025 revenue vs FY2024's $141,760; third-party aggregator figure, not independently confirmed against the company's 10-K"
+      },
+      {
+        "period": "Q1 2026",
+        "value": 180420,
+        "yoy": null,
+        "source": "roic.ai (via WebSearch snippet)",
+        "note": "Already-known quarter (10-Q period ended 2026-03-31); revenue figure newly established this pass"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Q3 2026 revenue was not located in sources reviewed; the most recent confirmed-ish figure is a third-party estimate of ~$0.14M for Q3 2025"
+      "period": "FY2025",
+      "pct": 56.62,
+      "note": "Most recent period with a confirmable YoY growth figure; Q3 2026 revenue/growth still not located"
     },
     "nextEarnings": {
       "date": null,
@@ -170,13 +192,25 @@
     "Market cap/share-count consistency: Motley Fool shows a $13.97M market cap at $4.49 (2026-11-05) implying ~3.11M shares; Equibles shows a $9.58M market cap at $4.87 (2026-10-06), also citing ~3.11M shares — 3.11M x $4.87 would imply ~$15.1M, not $9.58M, so the two sources' market-cap and share-count figures are not internally consistent with each other.",
     "Older sources (Google Finance, Equibles) show ~50.4M shares outstanding and a price near $0.34 — these predate the 2026-08-28 1-for-20 reverse split and are not comparable to current figures (flagged per the reverse-split guidance rather than treated as a live conflict).",
     "Assigned theme fit: 'Government IT & Defense Services' was not corroborated in this research pass. Available sources describe Veea as a secure edge-computing/connectivity/AI company serving enterprise, telecom, and public-sector customers generally (e.g., a Telarus technology-services distribution agreement, a TROLLEE retail-store deployment), but no specific defense or government contract award was located for the Nov 2026 window or the prior ~6 months.",
-    "Next earnings date: 2026-11-13 vs 2026-11-17 given by different StockAnalysis listings — unresolved."
+    "Next earnings date: 2026-11-13 vs 2026-11-17 given by different StockAnalysis listings — still unresolved this pass.",
+    "A separate Marketchameleon snapshot found this pass gives a $13.38M market cap (vs the $13.97M on file at the same 2026-11-05 asOf date) — a minor variant, not reconciled."
   ],
-  "pendingFilings": [
-    "10-Q filed ~2026-08-12 (Q2 2026, per secondary reference); Q3 2026 10-Q not located as of this report"
-  ],
-  "notes": "VEEA completed a 1-for-20 reverse stock split effective 2026-08-28 — pre-split price/share-count history is not comparable to current figures (flagged per reverse-split rule). The most recent 10-Q located dates to Q1 2026 (period ended 2026-03-31); Q3 2026 financials were not found in sources reviewed, so the cash/debt figures above are stale or unverified. The business description found in this pass does not clearly support a 'Government IT & Defense Services' categorization — it reads as a commercial/public-sector edge-computing company; flagging for theme review by the desk.",
+  "pendingFilings": [],
+  "notes": "No Q3 2026 earnings release located again this pass; the nextEarnings-date conflict (Nov 13 vs Nov 17) and the 'Government IT & Defense Services' theme-fit question (flagged in the prior pass) both remain open. New this pass: FY2025 full-year revenue ($222,018, +56.62% YoY) and a Q1 2026 EPS figure (-$0.09), both third-party aggregator figures (roic.ai), added to fill out the EPS/revenue history requested by the runbook.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -370,22 +404,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
+      "eps updated",
       "revenue updated",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

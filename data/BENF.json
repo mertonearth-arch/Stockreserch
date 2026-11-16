@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.064Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.763Z",
   "fundamentals": {
     "marketCap": {
       "value": 12420000,
@@ -180,12 +180,17 @@
     "Market cap: massive.com ~$12.42M (2026-10-26) vs Equibles ~$12.29M vs Motley Fool ~$14.72M vs ChartExchange ~$49.55M (likely stale)",
     "Price history is not comparable across the 2025-12-15 1-for-8 reverse split; pre-split prices should not be read against post-split prices"
   ],
-  "pendingFilings": [
-    "10-Q filed 2026-08-14 (per Equibles reference), containing going-concern language",
-    "8-K 'Material Modification to Rights' — exact filing date not confirmed from snippet (QuantisNow)"
-  ],
-  "notes": "1-for-8 reverse stock split effective 2025-12-15. A TipRanks headline referenced an indictment of former CEO Heppner and another QuantisNow item referenced a Nasdaq listing extension being granted — both undated in the snippets retrieved (relative timestamps only), so excluded as catalysts per the dating rule; flagged here instead. Going-concern doubt is referenced in connection with the company's most recent 10-Q. Could not reach stockanalysis.com (blocked) or most other aggregators (DNS blocked in this sandbox) to verify; all figures are from WebSearch snippets only.",
+  "pendingFilings": [],
+  "notes": "No new catalyst found since the 11/13 pass. Heppner sentencing status unchanged: still shows as adjourned without a new date per the primary SDNY-spokesperson source (2026-10-22); the single-source Panabee report of a Jan 11, 2027 reschedule (already on file, unconfirmed by a second outlet) was not corroborated or contradicted this session.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -431,24 +436,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.070Z",
+  "lastResearched": "2026-11-16T21:16:26.778Z",
   "fundamentals": {
     "marketCap": {
       "value": 11556000000,
@@ -58,13 +58,19 @@
     }
   },
   "price": {
-    "last": 16.33,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-06",
-    "note": "Volume that day reported as 5,503,273 shares. No closer-to-2026-11-13 figure could be confirmed from reachable sources (see conflicts)."
+    "changePct": -15,
+    "asOf": "2026-11-16",
+    "note": "Approx. move per BioPharma Dive/STAT News coverage of the FDA rejection ('plunged another 15% Monday'), preceded by a ~6% decline on Friday 2026-11-13 ahead of the decision; exact closing price/level not independently confirmed this pass",
+    "source": "biopharmadive.com, statnews.com"
   },
   "catalysts": [
+    {
+      "date": "2026-11-15",
+      "type": "regulatory",
+      "headline": "FDA issued a Complete Response Letter rejecting the ivonescimab + platinum chemotherapy BLA for previously-treated, EGFR-mutated non-squamous NSCLC, citing lack of a statistically significant overall-survival benefit despite a progression-free-survival benefit shown in the Phase III HARMONi trial",
+      "impact": "Shares fell ~6% Fri 11/13 ahead of the decision, then plunged a further ~15% Mon 11/16; company says the CRL does not address ivonescimab's other ongoing trials and points to the upcoming Harmoni-3 first-line NSCLC readout as the next catalyst",
+      "source": "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/ ; https://www.fiercepharma.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc ; https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/"
+    },
     {
       "date": "2026-11-14",
       "type": "regulatory",
@@ -148,15 +154,22 @@
       "source": "https://www.businesswire.com/news/home/20260112655330/en"
     }
   ],
-  "conflicts": [
-    "Market cap: ranges from ~$8.7B to ~$12B depending on source/date in 2026; roic.ai's own quarterly series shows $13.56B / $14.71B / $11.56B for three successive quarters, inconsistent with its own live-quote figure of $10.67B.",
-    "Shares outstanding: ~793M (roic.ai, 2026-06-30) vs ~797.75M (Equibles, August 2026 snapshot) vs a weighted-average of 778.2M for the quarter ended 2026-06-30.",
-    "Cash & short-term investments: ~$691M at 2026-06-30 vs $713M at 2025-12-31 (both roic.ai) vs a conflicting $454.05M figure attributed to Q1 2026 on Fool.com.",
-    "Share price: $16.33 close 2026-11-06 vs $17.54 (undated) vs $14.01 close 2026-06-12 — no confirmed figure for 2026-11-13."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Ivonescimab (a PD-1/VEGF bispecific developed by China-based Akeso, which Summit licenses for the US, EU, Japan and other territories) has been approved for marketing in China since May 2024 via Akeso, but remains unapproved in all of Summit's own licensed territories as of 2026-11-13; the FDA PDUFA action date of 2026-11-14 is the single most important near-term catalyst for this name.",
+  "notes": "This supersedes the previously-pending 2026-11-14 PDUFA catalyst already on file -- the decision has now been made (rejection, not approval). Harmoni-3 (first-line NSCLC) trial readout is the next identified catalyst but is undated in sources reviewed.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -15%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -356,22 +369,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "move -15%",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.073Z",
+  "lastResearched": "2026-11-16T21:16:26.765Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -287,8 +287,16 @@
     "Current price: $55.30 (Webull, undated) vs $57.35 (Benzinga, 2026-10-23) vs $58.79 (AAII, 2026-10-30) vs $59.71 (Investing.com, undated) vs $61.42 (stockevents.app, undated) — using the most clearly dated figure ($58.79, 2026-10-30); no confirmed 2026-11-13 close found. 52-week low of $51.10 was set 2026-09-29."
   ],
   "pendingFilings": [],
-  "notes": "Two new, dated developments since the baseline: Q3 2026 earnings (Oct 29) and a fresh Mizuho price-target cut (Nov 2), plus two live upcoming watch-item deadlines (Nov 15 special-session question, Nov 30 compensation-program deadline) that had not yet resolved as of this pass.",
+  "notes": "Checked for developments since the 2026-11-13 pass: no confirmed outcome found on the Nov 15 special-legislative-session question, and no new dated catalyst beyond the already-recorded Nov 30 Wildfire Recovery Compensation Program deadline. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -628,24 +636,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "5 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

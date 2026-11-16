@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.082Z",
+  "lastResearched": "2026-11-16T21:16:26.775Z",
   "fundamentals": {
     "revenue": [
       {
@@ -30,15 +30,17 @@
       "note": "Growth driven by ZT Systems acquisition; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4 FY2026"
     },
     "marketCap": {
-      "value": null,
-      "note": "Not found in available sources this pass"
+      "value": 8480000000,
+      "asOf": "2026-11-13",
+      "source": "Equibles"
     },
     "float": {
       "value": null
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not found; FY2026 buyback reduced count by ~2.4M shares"
+      "value": 53600000,
+      "asOf": "2026-11-13",
+      "source": "Equibles"
     },
     "shortInterest": {
       "value": null
@@ -53,9 +55,9 @@
       "value": null
     },
     "pe": {
-      "trailing": null,
+      "trailing": 28.3,
       "forward": null,
-      "note": "Not found this pass",
+      "note": "Equibles TTM P/E as of 2026-11-13; Motley Fool separately shows 29.63 (EPS TTM $5.59), broadly consistent",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -91,11 +93,11 @@
     }
   },
   "price": {
-    "last": null,
+    "last": 158.31,
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-13",
-    "note": "No current (2026-11-13) price confirmed from reachable sources; see conflicts for dated snapshots found."
+    "source": "Equibles"
   },
   "catalysts": [
     {
@@ -121,13 +123,23 @@
     }
   ],
   "conflicts": [
-    "Stock price: MarketBeat reported an 8.2% intraday drop to a low of $197.88 / last $198.39 on 2026-09-14, vs. an undated MarketBeat snapshot showing $246.44. Neither is dated 2026-11-13, so current price is not established.",
-    "EPS figures across sources mix GAAP/non-GAAP and Q4-only/full-year periods inconsistently — not independently reconciled against the primary press release."
+    "Market cap: Equibles $8.48B at $158.31 (2026-11-13) vs Motley Fool $8.87B at $159.18 (2026-11-02, older) vs Tickertape $8.81B at a materially lower $129.81 price dated 2026-11-06 -- the Tickertape price does not fit the ~$158-159 range other sources show for nearby dates and looks unreliable/possibly stale."
   ],
-  "pendingFilings": [
-    "8-K with Q4/FY2026 earnings exhibit filed on/around 2026-11-09 (SEC EDGAR, per search result)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -197,21 +209,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Primary new catalyst since last known dates is the 2026-11-09 Q4/FY2026 earnings beat and FY2027 guide, driven by ZT Systems-related AI infrastructure demand. Market cap, shares outstanding, float, short interest, cash, debt, and a confirmed 2026-11-13 price could not be established this pass.",
+  "notes": "Quiet pass -- no new dated catalyst found beyond valuation refresh. Q1 FY2027 report date still not confirmed from sources reviewed.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
       "sharesOutstanding updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

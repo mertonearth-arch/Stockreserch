@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.071Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.782Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -227,8 +227,16 @@
     "Price: $83.90 (Trefis, 2026-11-05) vs $110.72 (MarketBeat, undated) vs $77.84 (Earnings Whispers, undated) vs $100.86 (Upstox, 2026-10-09) — very wide dispersion; using the Trefis figure as the most clearly dated anchor near the earnings date."
   ],
   "pendingFilings": [],
-  "notes": "New catalysts since baseline, both dated in the current window: Q3 2026 earnings (Nov 5) and the large Anthropic multi-year cloud agreement with an associated share warrant.",
+  "notes": "No new catalysts since 2026-11-13; Q3 2026 earnings and the $11.6B Anthropic cloud agreement (both Nov 5) remain the latest dated events on file. No new price or market-cap figure confirmed this pass given the wide existing conflicts.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -490,24 +498,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

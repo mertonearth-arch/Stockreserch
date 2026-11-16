@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.062Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.797Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -125,6 +125,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-13",
       "run": "pm",
       "quiet": false,
@@ -175,24 +183,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not confirm a current (2026-11-13) stock quote in this research pass; recommend checking a live source (e.g., Nasdaq) directly before publishing a price.",
+  "notes": "No genuinely new facts located this pass: Q3 2026 earnings-date ambiguity (2026-11-10 vs an estimate near 2026-11-16) remains unresolved, and no reliable dated current quote was found beyond the existing stale snapshot. GuruFocus ($2.28), TipRanks ($2.58 last close) and Yahoo (~$2.385, mid-Oct YTD context) all surfaced but none carries a usable as-of date, so none was used to overwrite the existing 2026-08-26 price note. Honest quiet pass.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

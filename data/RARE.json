@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.080Z",
+  "lastResearched": "2026-11-16T21:16:26.794Z",
   "fundamentals": {
     "marketCap": {
       "value": 1660000000,
@@ -57,8 +57,9 @@
       "note": "prior-year comparable not located this pass"
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false
+      "date": "2027-02-11",
+      "confirmed": false,
+      "note": "third-party estimate found this pass (earnings-calendar aggregator); not company-confirmed"
     }
   },
   "price": {
@@ -263,11 +264,19 @@
     "Market cap: $1.66B at $16.63 (2026-11-03, equibles.com) vs $2.61B (Yahoo Finance, 2026-08-14) vs $2.21B (ROIC.ai) vs a clearly erroneous $46.19B figure on TipRanks (excluded as a data error)",
     "Stock price around the earnings date given as both $16.30 (close, Nov 2) and $16.63 (Nov 3) by different sources — minor, likely consecutive-day closes"
   ],
-  "pendingFilings": [
-    "10-Q for the quarter ended 2026-09-30 (SEC EDGAR)"
-  ],
+  "pendingFilings": [],
   "notes": "Substantive quarter, not routine: trial-failure-driven restructuring. BofA downgraded RARE to Neutral from Buy (target cut to $20 from $48) after the Phase 3 ASPIRE apazunersen Angelman-syndrome trial failure; UBS initiated at Neutral with a $16 target. The $210M Genglycos priority-review-voucher sale closed in late October 2026; a $203M Fayuvi voucher sale was expected to close later in November 2026 (not yet confirmed closed).",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -563,21 +572,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "new filing(s)",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

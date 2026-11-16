@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.069Z",
+  "lastResearched": "2026-11-16T21:16:26.757Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -52,7 +52,7 @@
     "nextEarnings": {
       "date": "2026-11-18",
       "confirmed": false,
-      "note": "Per one aggregator page; not independently confirmed"
+      "note": "Still not company-confirmed. New conflicting reads found this pass: Benzinga cites 2026-11-24 (EPS est -$0.05); Earnings Whispers cites 2026-11-10 (already passed as of this search with no report found); The Right Trader cites 2026-11-11 (also passed, unconfirmed). See conflicts."
     }
   },
   "price": {
@@ -159,13 +159,23 @@
   "conflicts": [
     "Share price: $9.68 close 2026-10-30 (-4.72%) vs $9.14 on 2026-11-04 (+3%) vs $7.995 as of 2026-11-05 7:57pm ET vs $11.57 (undated, +10.3%) — no reconciled figure for 2026-11-13.",
     "Shares outstanding: ~196.6M (SEC filing via Stocktwits, as of 2026-06-02) vs ~202M (one report) vs ~179.6M (another report) — figures differ by source.",
-    "Short interest: reported between ~27.2% and ~33% of float across different 2026 snapshots with inconsistent month-over-month trend direction reported across vendors — no single current reading established."
+    "Short interest: reported between ~27.2% and ~33% of float across different 2026 snapshots with inconsistent month-over-month trend direction reported across vendors — no single current reading established.",
+    "Next earnings date: 2026-11-18 (on file, unconfirmed) vs 2026-11-24 (Benzinga) vs 2026-11-10 (Earnings Whispers) vs 2026-11-11 (The Right Trader) — not reconciled this pass; none confirmed by the company."
   ],
-  "pendingFilings": [
-    "SC 13G/A (institutional ownership change) filed per quantisnow.com live-feed listing, exact date/filer not confirmed in sources reviewed"
-  ],
-  "notes": "Citigroup reportedly cut its SLS stake by ~64% in Q3 2026 while Creative Planning increased its stake, per filings cited by Stocktwits/RTTNews (exact filing dates not fully confirmed). Phase 3 REGAL trial of galinpepimut-S reportedly reached its 80th-event final-analysis trigger, with preliminary survival results expected 'this quarter' per an undated RTTNews report — exact announcement date not confirmed, so not listed as a dated catalyst. Stock reportedly up ~142% year-to-date per a 2026-11-04 report.",
+  "pendingFilings": [],
+  "notes": "Additional unverified chatter this pass (Stocktwits): Citi reportedly cut its SLS stake ~64% and the REGAL Phase 3 galinpepimut-S trial reportedly reached its pre-specified 80th event triggering final analysis, with topline expected Q4 2026 — no dated primary source found for either, so neither is recorded as a catalyst per the dated-catalyst rule. ASH presentation (Dec 14) and Dec 14 SLS009 data catalyst already on file.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -372,21 +382,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

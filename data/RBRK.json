@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.081Z",
+  "lastResearched": "2026-11-16T21:16:26.795Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -81,6 +81,18 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-10",
+      "type": "product",
+      "headline": "Rubrik introduces DevOps Protection with Cyber Recovery for Microsoft Azure DevOps and GitHub",
+      "source": "https://finviz.com/news/420194/rubrik-introduces-devops-protection-with-cyber-recovery-for-microsoft-azure-devops-and-github"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "product",
+      "headline": "Rubrik extends protection to Google BigQuery and Google Cloud Storage",
+      "source": "https://finviz.com/news/420193/rubrik-extends-protection-to-google-bigquery-and-google-cloud-storage"
+    },
+    {
       "date": "2026-10-31",
       "type": "price action",
       "headline": "RBRK shares fall 7.09% to $124.15",
@@ -129,6 +141,16 @@
   "pendingFilings": [],
   "notes": "Price trended down from $133.65 (Oct 30) to $124.15 (Oct 31) to $116.51 (Nov 3), roughly 13% over four trading days; no single news catalyst for that specific slide was identified beyond the broader post-Q2-earnings premarket drop on Aug 28. No Q3 FY2027 earnings-date announcement found this pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -383,18 +405,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
+      "2 new catalyst(s)"
     ],
     "tradingDay": true
   }

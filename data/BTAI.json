@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.065Z",
+  "lastResearched": "2026-11-16T21:16:26.758Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -195,11 +195,17 @@
     "Price: an undated Quantisnow snapshot shows $0.89 (+8.58%) vs the company's own IR site showing $1.49 as of 2026-02-03 — not reconcilable without a common date",
     "1-for-16 reverse stock split occurred in February 2025 — flag per reverse-split rule; price history before that date is not comparable"
   ],
-  "pendingFilings": [
-    "8-K re: debt deferral / covenant amendment, ~2026-08 (exact filing date not confirmed)"
-  ],
-  "notes": "As of its last confirmed disclosure (2026-06-30 10-Q), cash was stated as insufficient to fund operations beyond August 2026, and the company disclosed substantial doubt about its ability to continue as a going concern, with negative working capital of $108.4M and a stockholders' deficit of $115.5M. It is actively pursuing a sale, merger, or additional financing. This liquidity situation was not re-confirmed with any post-August-2026 update in the sources found, so its current status (resolved, worsened, or unchanged) is unknown from this search pass.",
+  "pendingFilings": [],
+  "notes": "FDA PDUFA target action date for the IGALMI at-home sNDA was 2026-11-14 (two days before this pass) but no decision (approval, CRL, or delay) has been reported anywhere found in this search — checked specifically for post-11-14 news. Outcome remains unknown; leaving the existing catalyst and conflicts as-is rather than guessing. No other new developments found.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -487,23 +493,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

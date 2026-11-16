@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.072Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.785Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -146,8 +146,16 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs $35.61 (undated) vs $28.25 with a $2.2B market cap (undated) — no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "New, dated catalyst since baseline: Q3 2026 earnings plus the Phase 3 EMBARQ-CSU 'best-in-disease' topline data for barzolvolimab.",
+  "notes": "Routine 3-day refresh: no new dated catalyst since the 2026-11-05 Q3 2026 earnings / EMBARQ-CSU data already on file. Nothing from Nov 13-16 found.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -295,24 +303,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

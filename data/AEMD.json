@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.071Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.780Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -203,11 +203,17 @@
     "Cash: $5.0M as of 2026-03-31 (company press release, FY2026 year-end) vs $4.9M cited in an undated secondary analysis (panabee.com) that may refer to a different quarter.",
     "Expected Nov 11, 2026 earnings consensus EPS of -$4.05 (one source) looks inconsistent with recent quarterly loss magnitudes; unconfirmed and possibly erroneous."
   ],
-  "pendingFilings": [
-    "10-Q for fiscal Q2 2027 (quarter ended 2026-09-30) — due/expected November 2026, release not confirmed as of 2026-11-13"
-  ],
-  "notes": "No confirmed new catalyst dated in November 2026 was found beyond the pending Q2 FY2027 10-Q, whose release date/results could not be confirmed as of this pass.",
+  "pendingFilings": [],
+  "notes": "No new catalysts found since 2026-11-13. The North Immunology merger (announced 2026-09-17, targeting Q1 2027 close) and the pending Q2 FY2027 10-Q remain the only items on file; no S-4/proxy filing or merger-vote news located this pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -517,24 +523,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

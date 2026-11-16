@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.082Z",
+  "lastResearched": "2026-11-16T21:16:26.797Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -60,11 +60,12 @@
     "CRITICAL_IDENTITY_NOTE": "Ticker SOLS on Nasdaq is Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — NOT Solidion Technology, which trades under ticker STI. The 'Advanced Materials' theme fits Solstice, not Solidion (a much smaller battery-materials company). This appears to be a company-identity question worth the PM owner's direct attention; this pass researched the ticker as given (SOLS = Solstice) and did not research Solidion/STI separately."
   },
   "price": {
-    "last": null,
+    "last": 58,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "note": "Not confirmed; see conflicts"
+    "asOf": "2026-11-06",
+    "source": "benzinga.com",
+    "note": "other sources show $62.91 (stockevents, undated) and $81.02 (MarketBeat, likely stale) for around the same period"
   },
   "catalysts": [
     {
@@ -110,6 +111,13 @@
       "type": "IR announcement",
       "headline": "Solstice announces Q3 2026 earnings date of November 4, 2026",
       "impact": "informational"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "legal",
+      "headline": "Solstice and plaintiffs (individuals, putative class members, City of Metropolis, Massac County) announced an agreement in principle to settle longstanding litigation over the Metropolis Works uranium conversion plant; subject to a definitive signed agreement, court approval (U.S. District Court, S.D. Illinois) and other governmental/stakeholder approvals; company denies wrongdoing and does not expect a material impact on its business or financial performance",
+      "impact": null,
+      "source": "https://finviz.com/news/396736/solstice-advanced-materials-plaintiffs-announce-agreement-in-principle-to-settle-longstanding-litigation-related-to-metropolis-works-operations"
     },
     {
       "date": "2026-08-28",
@@ -172,14 +180,25 @@
     }
   ],
   "conflicts": [
-    "TICKER MISMATCH: every source located (SEC EDGAR, stockanalysis.com, tipranks.com, stocktitan.net) refers to this company by ticker STI on Nasdaq, not SOLS. Could not confirm whether SOLS is a current/alternate ticker for Solidion Technology or a different issuer — unresolved.",
-    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M, 7.47M, and 7,745,683 from separate data aggregators — not reconciled.",
-    "Market cap: $48.27M (price $5.78 x 8.51M shares, ~2026-10-08) vs $79.51M vs $91.24M (7,745,683 shares) from different aggregators — not reconciled.",
-    "Beneficial ownership by G3: one 8-K states ~51.4% of outstanding shares; a separate filing states 'in excess of 20%' — may reflect different dates but not reconciled here."
+    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M, 7.47M, and 7,745,683 from separate data aggregators — not reconciled",
+    "Market cap: $48.27M (price $5.78 x 8.51M shares, ~2026-10-08) vs $79.51M vs $91.24M (7,745,683 shares) from different aggregators — not reconciled",
+    "Beneficial ownership by G3: one 8-K states ~51.4% of outstanding shares; a separate filing states 'in excess of 20%' — may reflect different dates but not reconciled here",
+    "Price ~2026-11-06: $58.00 (benzinga.com) vs $62.91 (stockevents.app, undated) vs $81.02 (MarketBeat, likely stale) — not reconciled this pass"
   ],
   "pendingFilings": [],
-  "notes": "No November 2026-dated news located for this name in this pass (most recent dated items are from September 2025). An undated article described a large rally tied to a 'new extreme-climate space battery' announcement and NASA Artemis/SpaceX positioning, but with no date it cannot be used as a dated catalyst. Given the ticker mismatch above (sources point to STI, not SOLS), treat all figures here with caution until the ticker is confirmed.",
+  "notes": "Ticker identity question from the prior pass is resolved: current primary/aggregator sources (SEC EDGAR filer CIK 0002064953, finviz, stockanalysis.com/stocks/SOLS, benzinga.com/quote/SOLS, equibles.com/stocks/sols, roic.ai/quote/SOLS) consistently use ticker SOLS for Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — the prior pass's suspected mismatch with Solidion Technology (ticker STI) does not hold up against sources checked this pass. Separately, the Metropolis Works uranium-plant litigation (first captured this pass, announced 2026-09-29) reached an agreement in principle subject to court and other approvals; company denies wrongdoing and does not expect a material financial impact.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -499,17 +518,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
+      "1 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

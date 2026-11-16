@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.068Z",
+  "lastResearched": "2026-11-16T21:16:26.773Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -209,8 +209,16 @@
     "Stock price: $3.07 (2026-11-03) vs $3.00 (Weiss Ratings, referencing an Aug 10, 2026 10-Q) vs $4.80 (Trefis, 2026-06-22) vs $2.73 (Upstox, 2026-10-10) vs $2.65 (ryanoconnellfinance, 2026-10-14) — stock may simply be volatile, but no source confirms a 2026-11-13 close."
   ],
   "pendingFilings": [],
-  "notes": "Ticker NTHI corresponds to NeOnc Technologies Holdings, Inc. (not 'Neuro-Hitech' or 'NeuroOne,' which do not trade under this ticker). Company selected a recommended Phase 2 dose of 610 mg for NEO212 following dose escalation to a protocol-defined maximum tolerated dose of 810 mg (exact date of this disclosure not confirmed). Fundamental figures vary enormously across aggregator sources — recommend verifying against NTHI's most recent 10-Q (apparently filed on/around 2026-08-10 for Q2 2026) on SEC EDGAR directly.",
+  "notes": "No new dated catalysts or fundamentals confirmed this pass. An insider-purchase figure (~$629K, undated, RTTNews) does not clearly match the existing on-file $300K insider-purchase catalyst, and lacking a date it was not recorded as a separate event. Analyst ratings/price targets were intentionally excluded per standing rules (no ratings/opinions in this system).",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -468,22 +476,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

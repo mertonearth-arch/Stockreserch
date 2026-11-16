@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.073Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.786Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -171,8 +171,16 @@
     "Price: $38.10 (2026-10-29) vs $37.97 (2026-10-28, up 2.39%) vs undated figures of $42.65, $32.10 and $20.48 — wide dispersion; no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "No confirmed new catalyst dated in November 2026 was found for DFTX in available sources this pass; the most recent confirmed pipeline news (Phase 3 EMERGE topline for DT120 ODT in MDD) dates to June 2026. This appears to be a routine refresh with nothing new to report.",
+  "notes": "Routine 3-day refresh: no new dated catalyst since the 2026-11-09 Q3 2026 earnings print already on file. Nothing from Nov 13-16 found.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -390,23 +398,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

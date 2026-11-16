@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.083Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.798Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -102,11 +102,17 @@
     }
   ],
   "conflicts": [],
-  "pendingFilings": [
-    "Q3 2026 10-Q / earnings release not located in available sources this pass"
-  ],
-  "notes": "No Q3 2026 earnings release could be located despite searching. Most recent confirmed update is Q2 2026: cash ~$0.8M (severe liquidity constraint, dilution risk flagged by at least one aggregator), and a pipeline update on TPST-4003 (in vivo CAR-T) with a China investigator-initiated trial (~10 patients, myasthenia gravis/MS) expected to begin dosing in Q4 2026. Other pipeline assets: TPST-1120 (amezalpat, oral PPARα antagonist) cleared for a pivotal first-line liver cancer trial in China; TPST-1495 has FDA Orphan Drug designation and 'Study May Proceed' clearance for a Phase 2 FAP trial. Current share price/market cap not confirmed as of 2026-11-13.",
+  "pendingFilings": [],
+  "notes": "Q3 2026 earnings release still not located in any source searched this pass (same gap noted in the prior pass). No new catalysts or fundamentals established. Honest quiet pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -359,21 +365,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "new filing(s)",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

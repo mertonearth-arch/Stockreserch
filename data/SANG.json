@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.084Z",
+  "lastResearched": "2026-11-16T21:16:26.774Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -35,10 +35,10 @@
       "source": "Sangoma FY2025 Q4/annual results (6-K, filed ~Sept 2025, SEC EDGAR)"
     },
     "debt": {
-      "value": 47900000,
-      "asOf": "2025-06-30",
-      "source": "Sangoma FY2025 Q4/annual results (6-K)",
-      "note": "Down from $77.8M a year earlier after $29.9M of term-loan/revolver repayment in FY2025."
+      "value": 22200000,
+      "asOf": "2026-09-30",
+      "source": "Sangoma Q1 FY2027 results (6-K)",
+      "note": "Down from $42.8M a year earlier"
     },
     "pe": {
       "trailing": null,
@@ -46,18 +46,36 @@
       "note": "Not found this pass",
       "asOf": "2026-11-13"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q1 FY2026",
+        "value": -0.08,
+        "basis": "GAAP diluted",
+        "note": "prior-year comparator"
+      },
+      {
+        "period": "Q1 FY2027",
+        "value": -0.09,
+        "basis": "GAAP diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q1 FY2027",
+        "value": 50100000,
+        "yoy": -1,
+        "note": "vs $50.3M in Q1 FY2026"
+      }
+    ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "A headline referencing 'Sangoma announces first quarter fiscal 2027 results' was located but its content could not be retrieved before this task's search budget was exhausted"
+      "period": "Q1 FY2027",
+      "pct": -1
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "A Q1 FY2027 results headline exists (via Finviz/Earnings Whispers) but was not verified for date or content this pass"
+      "note": "Company is suspending fiscal 2027 guidance and earnings calls while the BRC Group Holdings acquisition is pending"
     }
   },
   "price": {
@@ -68,6 +86,13 @@
     "note": "This is the price move reported on the acquisition announcement date, not a 2026-11-13 price — no more recent confirmed price was found this pass"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Sangoma reported Q1 FY2027 results (quarter ended 2026-09-30): revenue $50.1M (-1% YoY), GAAP net loss $0.09/share (vs -$0.08/share prior-year quarter), adjusted EBITDA $7.3M (15% margin), free cash flow $6.9M (+115% YoY); total debt down to $22.2M from $42.8M a year earlier; company suspended FY2027 guidance and earnings calls pending the pending BRC Group Holdings acquisition",
+      "impact": "Routine results overshadowed by pending take-private deal",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001753368/000175336826000014/mdaf27q1.htm"
+    },
     {
       "date": "2026-09-29",
       "type": "analyst action",
@@ -96,14 +121,27 @@
     }
   ],
   "conflicts": [
-    "Deal value: most sources (businesswire, capital.com, rttnews) cite ~US$204 million enterprise value; one source (Lexpert) headlines a $289 million figure. Not reconciled."
+    "Current share price: EarningsWhispers shows an undated $4.59 snapshot vs the deal's implied value of ~$5.225/share (US$4.925 cash + 0.04767 BRC shares, set at announcement on 2026-09-28); no reliably dated current quote located this pass."
   ],
-  "pendingFilings": [
-    "Management information circular for the special meeting of shareholders (filing date not confirmed)",
-    "Possible Q1 FY2027 earnings release (headline found; not yet verified)"
-  ],
-  "notes": "DEAL UPDATE: the pending acquisition by BRC Group Holdings is progressing toward a shareholder vote. A special meeting of Sangoma shareholders is expected on or before 2026-12-11 / described more loosely as 'December 2026'. Approval requires at least two-thirds of votes cast at the meeting plus a simple majority of votes cast excluding shares required to be excluded under MI 61-101; directors/officers holding ~27% of shares have signed voting support agreements. Closing is anticipated in January 2027, with an outside date of 2027-01-22. The deal is also subject to court and regulatory approvals and is not subject to a financing condition. No deal termination, delay, or material update beyond the above was found. A headline for Q1 FY2027 results exists and should be checked in a follow-up pass since it was not retrievable within this turn's search budget.",
+  "pendingFilings": [],
+  "notes": "BRC Group Holdings acquisition (announced 2026-09-28, ~$204M enterprise value) now expected to close ~January 2027 per the Q1 release, narrowed from the earlier 'early 2027' language. Shares to delist from TSX and Nasdaq on close.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -246,20 +284,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
+      "1 new catalyst(s)",
       "eps updated",
       "revenue updated",
       "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "move 35.94%",
-      "new filing(s)",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

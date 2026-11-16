@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.078Z",
+  "lastResearched": "2026-11-16T21:16:26.790Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -60,11 +60,25 @@
     }
   },
   "price": {
-    "last": 155,
-    "asOf": "2026-11-10",
-    "note": "Benzinga intraday quote (11:07 AM ET). Trefis shows $142.0 as of 2026-11-09. No verified Nov 11-13 price found."
+    "last": 154.6,
+    "asOf": "2026-11-09",
+    "source": "MarketChameleon/Benzinga quote snapshot via WebSearch",
+    "note": "No price for 2026-11-16 itself could be confirmed. An undated 24/7 Wall St snapshot describes an intraday level near $140 (-12% on the session), plausibly consistent with today's broad chip-sector selloff (Nasdaq led lower by chip names per market-wide coverage), but it carries no date and is not used as today's recorded price."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "price move",
+      "headline": "Shares rose roughly 11.9% in a partial rebound from the post-Lumentum-deal selloff",
+      "source": "TradingKey market movers (via WebSearch)"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "price move",
+      "headline": "Shares fell 16.4% (vs S&P 500 -4.4% that session), closing at $133.55, less than half the 52-week closing high of $316.43 set 2026-06-04",
+      "impact": "Continued post-Lumentum-deal de-rating; Cantor Fitzgerald cut its price target to $225 from $350 (Neutral) around this period",
+      "source": "Trefis (via WebSearch)"
+    },
     {
       "date": "2026-11-02",
       "type": "M&A",
@@ -198,14 +212,22 @@
     }
   ],
   "conflicts": [
-    "Price: Benzinga $155 (2026-11-10, intraday) vs Trefis $142.0 (2026-11-09) — roughly a 9% spread between adjacent days/sources.",
-    "Size of the Nov 2, 2026 announcement-day decline: reported variously as -12.7% (close), -6.39% (intraday), and -9.5% (midday) — these likely reflect different points in the trading day."
+    "Nov 5, 2026 session move reported as S&P 500 -4.4% in the same Trefis item describing MRVL -16.4% -- an unusually large broad-market move for that date; flagging the S&P figure as unreconciled rather than treating it as confirmed market context."
   ],
-  "pendingFilings": [
-    "SEC Form 425 (2026-11-02, merger communication, joint with Lumentum)"
-  ],
-  "notes": "Full Q3 FY2027 (quarter ended ~Oct 31, 2026) results are not yet out; the Dec 1, 2026 call is the next confirmed data point. Stock has been highly volatile since the Lumentum deal was announced amid broader AI/data-center-capex sentiment swings.",
+  "pendingFilings": [],
+  "notes": "Lumentum acquisition (announced 2026-11-02, already on file) remains the dominant driver; stock continues to be highly volatile. Next earnings call (Q3 FY2027) confirmed for 2026-12-01, unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -472,19 +494,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "new filing(s)",
+      "2 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

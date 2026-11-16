@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.073Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.786Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,8 +217,16 @@
     "Price: $19.25 (2026-11-10, FinancialContent) vs a separately reported close of $19.62 '+13.8%' attributed to 'November 6, 2026' by MarketChameleon — internally inconsistent on date."
   ],
   "pendingFilings": [],
-  "notes": "Recently-IPO'd company (April 2026); multiple new, dated catalysts since baseline: the Pentagon tungsten-production investment and MSR stake purchase (both September 2026), and a large Q3 2026 earnings beat (reported ~Nov 9-10, 2026).",
+  "notes": "Routine 3-day refresh: no new dated catalyst since the Q3 2026 earnings beat (~Nov 9-10) already on file. Nothing from Nov 13-16 found.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -480,24 +488,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.058Z",
+  "lastResearched": "2026-11-16T21:16:26.761Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -139,10 +139,16 @@
     "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150,640,000 (MarketBeat) vs 129,552,146 (a separate Equibles short-interest page).",
     "Debt: gross total debt of ~$5,024.3M (Kalkine) is a different measure than the company-cited net debt of ~$4.7B; not to be conflated."
   ],
-  "pendingFilings": [
-    "8-K ~2026-11-09 (Q3 2026 results, not independently confirmed in EDGAR search)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -212,28 +218,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Extremely volatile week: debt-restructuring news (Nov 7), Q3 earnings and a major guidance cut (Nov 9), and a sharp but inconsistently-reported price decline (Nov 10). Recommend confirming the exact post-earnings closing price from a live/primary quote source before publishing a specific changePct for 2026-11-13.",
+  "notes": "No new catalyst or price found since the 11/13 pass. Search results returned only stale (May 2026) or internally-inconsistent price snapshots (one outlier source showed $3.86, wildly inconsistent with the $0.68 Nov 10 close and every other source — disregarded as unreliable rather than recorded as a conflict, since it could not be tied to any date or corroborated).",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -61.58%",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

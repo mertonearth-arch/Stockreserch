@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.066Z",
+  "lastResearched": "2026-11-16T21:16:26.755Z",
   "fundamentals": {
     "marketCap": {
       "value": 9080000000,
@@ -140,11 +140,17 @@
     "Revenue/EPS consensus estimates for the upcoming quarter also conflict across sources: EPS estimates of $0.14 vs $0.83 for the same quarter, and revenue estimates of $486.7M vs $483.02M",
     "Market cap: Marketchameleon $9.08B (2026-11-06) vs other undated figures of $8.84B and $9.17B"
   ],
-  "pendingFilings": [
-    "8-K 2026-08-27 (Q1 FY2027 earnings)"
-  ],
-  "notes": "An undated ChartExchange snapshot showing a $49.94 price and ~103.5M shares is far below all other 2026 figures and is almost certainly stale; not used for current fundamentals.",
+  "pendingFilings": [],
+  "notes": "Quiet pass. No developments since 2026-11-13. Next-earnings date remains unconfirmed and still conflicting across sources (Nov 19 vs Nov 26 Earnings Whispers vs Nov 16 Tickzen); checked ir.elastic.co indirectly via search, no company announcement located yet. No change to conflicts.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -422,24 +428,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

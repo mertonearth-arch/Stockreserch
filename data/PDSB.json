@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.069Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.792Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,8 +217,16 @@
     "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026)."
   ],
   "pendingFilings": [],
-  "notes": "Could not locate PDS Biotechnology's actual Q3 2026 earnings release (expected 2026-11-12) in reachable sources during this pass. Given the going-concern warning and severe cash depletion disclosed for Q2 2026, near-term financing/dilution risk appears elevated.",
+  "notes": "Q3 2026 financial results, expected before market open 2026-11-12 per the prior pass's Earnings Whispers estimate, still could not be located in any reachable source as of this pass (2026-11-16) -- four days after the expected date. Several search hits that initially looked like a Q3 release turned out to be last year's Q3 2025 report (net loss $9.0M / -$0.19 EPS, quarter ended 2025-09-30), which is NOT a new figure for this ticker and is not recorded as such. No genuinely new catalyst or fundamentals change established this pass; prior conflicts (price/market-cap/short-interest discrepancies) remain unresolved.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -483,24 +491,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

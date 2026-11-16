@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.064Z",
+  "lastResearched": "2026-11-16T21:16:26.784Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -43,9 +43,9 @@
     "revenue": [],
     "growth": {
       "metric": "Ethereum (ETH) treasury holdings",
-      "period": "as of 2026-11-08",
+      "period": "as of 2026-11-15",
       "pct": null,
-      "note": "Company reported ~6.07 million ETH held and total crypto + cash + marketable securities (including 'moonshot' investments) of approximately $14.3 billion as of 2026-11-08. A separate, undated StreetInsider snapshot cited $13.7B / 3.4M ETH from an earlier, unconfirmed date, so a clean YoY/period-over-period percentage could not be computed without inventing a timeline."
+      "note": "6.08 million ETH held (~4.97% of ~122.2M-token ETH supply), ~5.23M ETH staked; total crypto + cash + marketable securities holdings $11.8B at an ETH price of $1,823/token. The dollar total has fallen sharply from $14.3B (Nov 8, ETH at $2,234) and $14.5B (Nov 1) despite a rising token count, tracking a falling ETH spot price rather than any change in holdings strategy."
     },
     "nextEarnings": {
       "date": null,
@@ -60,6 +60,13 @@
     "source": "aggregator snippet (exact publisher unclear; most recent dated figure found)"
   },
   "catalysts": [
+    {
+      "date": "2026-11-15",
+      "type": "treasury update",
+      "headline": "BitMine Immersion Technologies announces ETH holdings reach 6.08 million tokens (~4.97% of ETH supply) and total crypto and cash & marketable securities holdings of $11.8 billion, with ETH priced at $1,823/token",
+      "impact": "Total dollar holdings down from $14.3B (Nov 8) despite more ETH tokens held, reflecting a falling ETH price; chairman Tom Lee linked the broader ETH selloff to Nvidia-related margin selling and the pending Anthropic IPO",
+      "source": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-08-million-tokens-and-total-crypto-and-total-cash--marketable-securities-holdings-of-11-8-billion-302940035.html"
+    },
     {
       "date": "2026-11-08",
       "type": "treasury update",
@@ -155,14 +162,22 @@
       "source": "https://www.panabee.com/news/11-2-billion-treasury-bitmine-immersion-owns-3-of-eth-supply-targets-5"
     }
   ],
-  "conflicts": [
-    "Market cap/shares outstanding: one source shows market cap $13.27B with 425,841,924 shares outstanding (undated); other sources imply $14.2B-$15.7B at prices of $24-$26, which would require a different, unconfirmed share count",
-    "Price range across undated snapshots spans roughly $18-$25+; 52-week range cited variously as $12.80-$55 or higher depending on source",
-    "Two finviz headlines (~same period) cite '607 million tokens' and '606 million tokens' respectively where context elsewhere ('6.07 million ETH') suggests these are likely formatting/typo errors for 6.07M / 6.06M ETH, not 600+ million tokens — flagged rather than silently corrected"
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Operating company (a Bitcoin-miner-turned-Ethereum-treasury vehicle), not an ETF/warrant/unit, so the given theme applies as-is. Fundamentals here largely reflect crypto-holdings disclosures rather than conventional GAAP financials, which were not found in the sources retrieved this pass.",
+  "notes": "ETH spot-price decline (roughly $2,234 on Nov 8 to $1,823 on Nov 15, about -18%) is driving the falling dollar total despite continued token accumulation -- a market-price effect, not a data conflict.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "growth updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -429,21 +444,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
+      "1 new catalyst(s)",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.068Z",
+  "lastResearched": "2026-11-16T21:16:26.774Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
@@ -36,11 +36,23 @@
       "note": "Not found in reachable sources this pass"
     },
     "pe": {
-      "trailing": null,
+      "trailing": 19.76,
       "forward": null,
-      "note": "Oracle is GAAP-profitable but a verified trailing/forward P/E was not obtained from reachable sources this pass"
+      "note": "Motley Fool TTM EPS $6.38 at price $125.88; other sources (Yahoo 24.43/40.54, Invezz 25.49) disagree and are undated/unreconciled, see conflicts",
+      "asOf": "2026-11-11"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "FY2025",
+        "value": 4.34,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 5.83,
+        "basis": "GAAP diluted"
+      }
+    ],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
@@ -119,6 +131,13 @@
       "source": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-oracle-falls-on-canceled-7-billion-tencent-chip-leasing-deal/"
     },
     {
+      "date": "2026-11-02",
+      "type": "offering/debt",
+      "headline": "Oracle priced ~86.2M shares at $116.00 alongside a $10B, five-tranche senior notes offering (including 2046 notes at 8.650%); Moody's affirmed Baa2 on the new notes with outlook remaining negative, citing AI-capex-driven debt load",
+      "impact": "Continues the debt-funded AI buildout narrative behind Oracle's 2026 credit-rating pressure and stock decline",
+      "source": "https://www.newsquawk.com/headlines/moodys-ratings-affirms-oracles-orcl-baa2-rating-on-new-note-offering-outlook-remains-negative ; https://fourweekmba.com/ai-oracle-prices-10b-of-bonds-at-spreads-up-to-175bp-over-feb/"
+    },
+    {
       "date": "2026-10-28",
       "type": "investor day",
       "headline": "Oracle held its Investor Day at AI World (Las Vegas): set an FY2030 revenue target of $225B+, a target of positive free cash flow in 2H FY2028, an FY2029 target of $30B+, and capped planned new capital-markets funding at $20B",
@@ -186,14 +205,28 @@
     }
   ],
   "conflicts": [
-    "Market cap: ~$388B at $128.38 (Motley Fool, 2026-11-11) vs ~$522.03B at $181.51 (a stale May 19, 2026 snapshot) — consistent with the stock being down roughly a third year-to-date per the more recent figure.",
-    "Share price: $116.10 (MarketChameleon, 2026-11-06) vs $128.38 (Motley Fool/StockEvents, ~2026-11-11/12) vs $184.66 (June 2026) — no single verified closing price for 2026-11-13 found."
+    "Trailing P/E: Motley Fool 19.76 (TTM EPS $6.38, price $125.88) vs Yahoo Finance readings of both 24.43 and 40.54 vs Invezz 25.49 -- sources disagree and are not all dated.",
+    "S&P rating on the Nov 2026 term sheet is reported as BBB-/stable by one source (fourweekmba), which conflicts with the BBB-/negative outlook (one notch above junk) established from the July 2026 downgrade reported elsewhere; not independently reconciled."
   ],
   "pendingFilings": [
-    "Proxy Statement 2026, dated 2026-09-25 (filed ahead of the 2026-11-18 annual meeting)"
+    "424B2 / term sheet re: Nov 2026 $10B notes + ~86.2M share offering"
   ],
-  "notes": "Oracle shares fell sharply during 2026 (reported -33.25% YTD as of the 2026-11-11 close) amid AI-capex/debt-financing concerns in market commentary; could not confirm an exact 2026-11-13 closing price or daily percentage change from reachable sources. Annual meeting date of 2026-11-18 is well-confirmed via Oracle's own investor-relations press release and the PR Newswire/Morningstar republication.",
+  "notes": "Annual meeting of stockholders is 2026-11-18 (already on file); no new news on that beyond the scheduled date.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "new filing(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -403,21 +436,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
+      "1 new catalyst(s)",
       "pe updated",
       "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "new filing(s)",
       "conflicts updated"
     ],

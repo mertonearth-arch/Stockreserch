@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.057Z",
+  "lastResearched": "2026-11-16T21:16:26.757Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -144,10 +144,16 @@
     "Market cap: $224.58M (Equibles, 2026-10-05) vs $244.32M (Equibles, 2026-08-21) — different dates.",
     "Short interest: 1,211,016 shares / ~2.8% of shares outstanding (FINRA settlement 2026-09-15) vs 945,000 shares / 2.2% (2026-08-21 settlement)."
   ],
-  "pendingFilings": [
-    "8-K ~2026-11-09 (Q3 2026 results of operations, per SEC EDGAR full-text search listing)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -215,28 +221,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Flagging the Nov 10 price print as needing verification against a live/primary quote source before being treated as fact.",
+  "notes": "Quiet pass. No developments since 2026-11-13. Q3 2026 results (revenue $104.7M, net loss $8.4M) and the $0.01 Q4 dividend (record date 2026-12-04) are already on file. The Kalkine vs financialcontent price-move conflict ($2.84/-43.98% vs $3.12/-38.46%) remains unresolved; no reconciling source found this pass.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -43.98%",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

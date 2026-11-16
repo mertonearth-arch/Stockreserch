@@ -8,7 +8,7 @@
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.076Z",
+  "lastResearched": "2026-11-16T21:16:26.769Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -81,6 +81,12 @@
       "source": "company press release via finviz"
     },
     {
+      "date": "2026-11-06",
+      "type": "offering",
+      "headline": "Priced underwritten public offering under Form 424B5 prospectus supplement: up to 58,747,235 shares of common stock and pre-funded warrants for up to 12,681,337 shares in lieu of stock; last reported sale price referenced was $1.45/share on 2026-11-05",
+      "source": "https://www.streetinsider.com/SEC+Filings/Form+424B5+INOVIO+PHARMACEUTICALS%2C/27308258.html"
+    },
+    {
       "date": "2026-11-05",
       "type": "financing",
       "headline": "INOVIO announces pricing of ~$75M public offering: 58,747,235 shares at $1.05/share plus pre-funded warrants for 12,681,337 shares",
@@ -126,10 +132,18 @@
     "Short interest as % of float: 22.2% vs 18.6% vs 19.3%, all nominally for the same Oct 15, 2026 FINRA settlement period.",
     "Shares outstanding: 82,273,237 vs 81.59M vs 103.40M vs a pre-offering 69.44M — a roughly 20-30% spread with no clear way to tell which is current."
   ],
-  "pendingFilings": [
-    "Form 424B5 (Nov 2026 offering prospectus supplement)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -211,23 +225,13 @@
       "from": "daily"
     }
   ],
-  "notes": "This is the company's third dilutive equity offering of 2026, following earlier rounds. The FDA accelerated approval of VOCERYQ (Oct 30, 2026) appears to be a genuinely new, significant catalyst, but could not be fully detailed (indication, label specifics) within this search pass.",
+  "notes": "This appears to be the pricing detail for the same November offering already on file (previously recorded only as 'expected to close' ~2026-11-09 with ~$75M gross / ~$80.5M net proceeds); share counts above are new detail, not a separate raise. Current shares outstanding still not reliably established post-offering (a third-party figure of 68,996,647 as of 2025-12-31 predates both the April and November 2026 offerings and is stale).",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "new filing(s)",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

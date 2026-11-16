@@ -8,19 +8,22 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.077Z",
+  "lastResearched": "2026-11-16T21:16:26.788Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Conflicting figures found: $76.15B (Fool, Oct 30) vs $65.68B (May 29) vs $61.36B (April) — not recomputed post-deal-announcement due to the shares-outstanding conflict below."
+      "value": 76150000000,
+      "asOf": "2026-10-30",
+      "source": "Motley Fool quote snapshot (publicly traded shares basis)",
+      "note": "Roic.ai gives $73.26B / 88.60M shares for a similar period -- see conflicts"
     },
     "float": {
       "value": null,
       "note": "not found in sources reachable this session"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "90.58M (Fool) vs 71.4M (ChartExchange/Value Research/TipRanks) — roughly 27% apart; could not determine which is current."
+      "value": 90580000,
+      "asOf": "2026-10-30",
+      "source": "Motley Fool quote snapshot"
     },
     "shortInterest": {
       "value": null,
@@ -149,16 +152,23 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 90.58M vs 71.4M depending on source.",
-    "Market cap: $76.15B vs $65.68B vs $61.36B at different 2026 dates, inconsistent with the share-count conflict above.",
-    "Deal value per share: company materials cite ~$1,132/share (~23.9% premium); one source cited ~$824/share, and another ~$883.80/share — these do not match the official deal terms and may reflect mark-to-market value using Marvell's falling stock price."
+    "Shares outstanding ~Oct 30, 2026: Motley Fool 90.58M vs Roic.ai 88.60M (market cap $76.15B vs $73.26B accordingly)"
   ],
-  "pendingFilings": [
-    "SEC Form 425 (2026-11-02, merger communication)",
-    "Form 10-Q — fiscal period ended 2026-09-26 (filed; detailed contents not reviewed this pass)"
-  ],
-  "notes": "LITE's near-term price action is now dominated by the pending Marvell all-stock acquisition (expected close H1 2028) rather than by standalone fundamentals; its value effectively tracks 4.5x Marvell's share price. Most recent standalone operating results located (fiscal Q1 2026, reported Nov 2025) are now well over a year old.",
+  "pendingFilings": [],
+  "notes": "No new dated catalyst found this pass beyond the already-on-file MKSI/convertible-note conversion history. Current cash/debt position and next earnings date not re-established; left unchanged rather than guessed.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -424,20 +434,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
       "sharesOutstanding updated",
-      "cash updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

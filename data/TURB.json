@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.083Z",
+  "lastResearched": "2026-11-16T21:16:26.798Z",
   "fundamentals": {
     "marketCap": {
-      "value": 8950000,
-      "asOf": "2026-11-06",
-      "source": "web data aggregator (via search snapshot; exact site unclear)"
+      "value": 10752000,
+      "asOf": "2026-11-13",
+      "source": "Yahoo Finance (via WebSearch snippet)"
     },
     "float": {
       "value": 1290000,
@@ -53,11 +53,11 @@
     }
   },
   "price": {
-    "last": 0.81,
-    "changePct": 1.4,
+    "last": 0.855,
+    "changePct": 1.8,
     "rvol": null,
-    "asOf": "2026-11-06",
-    "note": "Most recent confirmed dated snapshot found (Nasdaq ADS close); not necessarily the 2026-11-13 close"
+    "asOf": "2026-11-13",
+    "source": "Yahoo Finance (via WebSearch snippet)"
   },
   "catalysts": [
     {
@@ -136,11 +136,23 @@
     }
   ],
   "conflicts": [
-    "Market cap snapshots vary significantly by date due to price swings: $11.45M (2026-10-23, Yahoo Finance) vs $8.95M (2026-11-06) vs $14.22M (2026-05-12) — consistent with price volatility rather than a data conflict, but flagged since the basis (ADS vs ordinary shares) is not fully confirmed."
+    "Market cap snapshots vary significantly by date due to price swings: $11.45M (2026-10-23, Yahoo Finance) vs $8.95M (2026-11-06) vs $14.22M (2026-05-12) — consistent with price volatility rather than a data conflict, but flagged since the basis (ADS vs ordinary shares) is not fully confirmed.",
+    "Market cap 2026-11-13 (Yahoo Finance via WebSearch): $10.752M at a $0.855 close (+1.80%) implies roughly 12.58M shares outstanding, which does not match the 11,017,140 ADS count used elsewhere in this file (itself inferred, not confirmed, from a 5-ordinary-shares-per-ADS ratio) — the ADS-vs-ordinary-share basis for this company's share count remains unresolved."
   ],
   "pendingFilings": [],
-  "notes": "No reverse split found for TURB (its only split on record is a 20-for-1 FORWARD split in Feb 2023); current price does not look anomalous against recent history. A HiThium strategic-partnership project announcement and a February 2026 bank-financing restructuring were mentioned in search results but without confirmable dates, so they are omitted from catalysts. No November 2026-specific company news was confirmed before the search budget for this pass was exhausted.",
+  "notes": "No November news found beyond the Nov 10 Pamesa Phase II expansion already on file. A few undated secondary-source mentions (a ~$100M mixed shelf, a 1,000,000-ADS sale agreement, an RTTNews claim of a 61% one-session pop with a 52-week high of $13.47 that conflicts with Yahoo's $6.50 52-week high) were found but could not be dated or corroborated, so they were left out per the dated-catalyst rule.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -328,16 +340,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "sharesOutstanding updated",
       "conflicts updated"
     ],
     "tradingDay": true

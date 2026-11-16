@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.078Z",
+  "lastResearched": "2026-11-16T21:16:26.773Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -227,15 +227,21 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 333.89M (2026-08-03) vs 349.58M (2026-08-21); neither reconciles with the ~388M diluted shares implied by Q3 2026 EPS math ($85.4M net income / $0.22 diluted EPS)",
-    "Market cap/price: $777.96M at $2.33 (2026-08-03) vs $1.77B at $5.07 (2026-08-21) vs $826.63M at $2.48 (2026-07-23) — all stale relative to 2026-11-13; no current price found",
-    "Short interest reported on inconsistent bases (shares/days-to-cover vs % of float) across dates, not directly comparable"
+    "NLST market cap: on-file figure is $1.77B as of 2026-08-21 (equibles.com, flagged stale); this pass found two further undated, unreconciled readings — AlphaSpread ~$482.4M at $1.57/share, and Simply Wall St ~$2.4B — neither carries a clear as-of date, so none of the three is being adopted as current."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-10 (Q3 2026 financial results exhibit)"
-  ],
-  "notes": "Routine refresh with real news: Q3 2026 earnings (Nov 10) plus reported (but not date-confirmed) Micron settlement and Samsung settlement, and an ITC hearing vs. Samsung reportedly set for late November 2026 with no outcome yet. These three items lack confirmable dates/sources, so they're noted here rather than in catalysts.",
+  "pendingFilings": [],
+  "notes": "Stocktwits reported the CEO 'hinted' at a possible SK Hynix licensing deal following the Q3 print — unconfirmed rumor, not a dated catalyst, not recorded as one. A reported ~8.4% single-day decline tied to a chip-sector selloff after Intel's outlook could not be pinned to a specific date and was not recorded.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -527,23 +533,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

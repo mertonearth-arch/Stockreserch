@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.066Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.768Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -149,11 +149,17 @@
     "Price: Marketchameleon shows $106.13 (market cap $91.42B) as of 2026-11-06, while massive.com shows a HIGHER price of $125.04 (market cap $106.8B) as of 2026-10-23 — i.e., sources imply the stock fell roughly 15% between Oct 23 and Nov 6, which is hard to reconcile with other reporting that shares rose 4%+ in the session immediately after the Oct 27 earnings beat",
     "Several MarketBeat/AAII pages date the Q3 2026 earnings release to 2026-07-28, which matches Q2 timing and appears to be a date error; the 2026-10-27 date was used instead"
   ],
-  "pendingFilings": [
-    "8-K 2026-10-27 (Q3 2026 earnings)"
-  ],
-  "notes": "Year-to-date share performance was reported as up more than 60% as of early November 2026 per StockTwits, consistent with the AI-driven Optical Communications growth narrative, though this could not be cross-verified against the conflicting price points above.",
+  "pendingFilings": [],
+  "notes": "Checked for developments since the 2026-11-13 pass: no new dated news, filing, or price print found for Nov 14-16. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -401,25 +407,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

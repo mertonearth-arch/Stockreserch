@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T05:33:18.675Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.768Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -220,12 +220,17 @@
     "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float.",
     "Overnight reaction to the Nov 10 earnings-delay/going-concern filing is reported inconsistently: Stocktwits cites a ~7% overnight drop while Börse Global cites ~14% same-day — not reconciled."
   ],
-  "pendingFilings": [
-    "Form 424B3 (x2) — FY2026 prospectus supplements related to share issuances (Mateo/Yorkville)",
-    "8-K ~2026-11-10 — Q3 2026 earnings-delay notice + unaudited preliminary results with going-concern disclosure; replaces the previously unlocated Q3 2026 earnings filing"
-  ],
-  "notes": "Markiplier (YouTuber) reportedly became GoPro's single largest shareholder around the Starman-merger news, cited as a driver of a sharp share-price pop, but no dated source pinned down exactly when. Company announced a 23% workforce reduction plan in April 2026. Balance sheet (cash $27.3M vs $72.7M short-term debt) is a notable liquidity flag.",
+  "pendingFilings": [],
+  "notes": "PM pass found no new verifiable catalysts, filings, or fundamentals beyond what the AM pass already recorded today (going-concern/10-Q delay). An undated Barchart figure (~$227M market cap) and an undated CEO-stock-purchase headline turned up but could not be dated to November 2026, so they were not recorded. Nothing new to add this pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "am",
@@ -568,13 +573,9 @@
   },
   "lastPass": {
     "date": "2026-11-16",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

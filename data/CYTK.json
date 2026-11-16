@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.065Z",
+  "lastResearched": "2026-11-16T21:16:26.760Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,13 +217,22 @@
   "conflicts": [
     "Price: one source shows a close of $78.39 (down 1.34% in an unspecified session) vs another showing $62.33, vs a third showing $73.10 (down 6.2%) tied to an ESC-conference data presentation — none could be reconciled to a single confirmed date",
     "Timeline conflict: ACACIA-HCM topline results were reported as announced 2026-10-21, but a separate source ties a 6.2% stock drop on the same data to an 'ESC 2026' presentation referenced via a URL dated 2026-08-28 — ESC Congress is typically held in late August, which predates the stated October topline announcement; the two events could not be reconciled and may refer to different disclosures",
-    "52-week range cited as $32.89 to $88.31, which is inconsistent with some of the specific price points above"
+    "52-week range cited as $32.89 to $88.31, which is inconsistent with some of the specific price points above",
+    "The on-file 2026-11-14 PDUFA date for the MAPLE-HCM (first-line obstructive HCM) sNDA traces, in this pass's search, to a single calendar-aggregator page (dansfera.com) that also contains clearly unreliable elements (a stray '118% one-day move' stat and an internally inconsistent countdown) — the date could not be corroborated against a primary FDA or company source. No decision outcome (approval/CRL/delay) for this sNDA was found as of 2026-11-16, two days after the cited target date."
   ],
-  "pendingFilings": [
-    "8-K / earnings release 2026-11-04 (Q3 2026 results)"
-  ],
-  "notes": "Separate from the November 14, 2026 PDUFA, aficamten (brand name Myqorzo) already holds FDA approval for symptomatic obstructive HCM; the November 14, 2026 date concerns a distinct, broader first-line-use supplemental application.",
+  "pendingFilings": [],
+  "notes": "No other new developments found. The original oHCM approval (branded Myqorzo, approved Dec 2025) is unrelated background and already superseded on file; this pass's search was specifically for the MAPLE-HCM first-line decision, which remains unresolved.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -572,23 +581,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

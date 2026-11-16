@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.078Z",
+  "lastResearched": "2026-11-16T21:16:26.762Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -106,10 +106,16 @@
     "Shares outstanding/market cap: 384.53M shares / $232.37M cap (Nov 4) vs a clearly stale figure of $449.90M at $0.50/share vs an older figure of 326.50M shares / ~$757M cap tied to an outdated earnings-date listing.",
     "Price: $0.66 (Nov 4, dated) vs undated $0.6373 and $0.92 figures found elsewhere that could not be placed in time."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-09 (Q3 2026 earnings release)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -173,26 +179,12 @@
       "from": "daily"
     }
   ],
-  "notes": "This is a significant negative change versus the company's prior narrative of 'record revenue growth' in late 2025/earlier 2026 — Q3 2026 marks a sharp reversal (revenue -62.8% YoY, large net loss, stopped backlog disclosure, $196M of debt due within 12 months). Post-earnings (post Nov 9) share price could not be confirmed in this pass.",
+  "notes": "No new catalyst found since the 11/13 pass; all analyst-reaction coverage located was dated Nov 2025 (Q3 2025 results), not Q3 2026, and was excluded. Post-11/9-earnings confirmed price still not located.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "debt updated",
-      "move 10.03%",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

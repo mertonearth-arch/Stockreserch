@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.081Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.796Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -177,6 +177,14 @@
   "pendingFilings": [],
   "notes": "Routine refresh; last reported results are Q2 FY2027 (released Aug 31, 2026; SAIC's fiscal year ends ~Jan 31). Next report (fiscal Q3 FY2027) is estimated for Dec 2-3, 2026 but not company-confirmed. Dividend: quarterly $0.37/share ($1.48/share annualized); an Oct 9, 2026 ex-dividend date was found but the next declaration date was not confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -443,20 +451,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

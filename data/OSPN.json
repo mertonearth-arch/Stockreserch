@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.079Z",
+  "lastResearched": "2026-11-16T21:16:26.791Z",
   "fundamentals": {
     "revenue": [
       {
@@ -69,7 +69,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "not announced; FY2026 results would typically follow around Feb 2027"
+      "note": "FY2026 results would typically follow around Feb 2027; still not announced (unchanged from prior pass)."
     },
     "marketCap": {
       "value": null,
@@ -78,12 +78,24 @@
     "float": null
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-13"
+    "last": 21.88,
+    "asOf": "2026-11-11",
+    "source": "MarketScreener (via WebSearch)",
+    "note": "Up ~70% YTD per same source; down ~7% in the week prior to Nov 11."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "dividend",
+      "headline": "Declared a dividend payable 2026-12-04 to shareholders of record as of the close of business 2026-11-13",
+      "source": "MarketScreener (via WebSearch)"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "analyst action",
+      "headline": "B. Riley raised its price target on OneSpan to $32 from $22, kept Buy rating",
+      "source": "MarketBeat headline (via WebSearch)"
+    },
     {
       "date": "2026-10-29",
       "type": "earnings",
@@ -109,6 +121,12 @@
       "headline": "OneSpan reported Q3 2026 results after market close: revenue $63.9M (+12% YoY), subscription revenue +16% YoY, EPS $0.21 vs $0.19 consensus (beat), ARR $195.5M (+9% YoY). Shares rose approximately 22.9% premarket on 2026-10-30; the regular-session closing move was not independently confirmed this pass.",
       "impact": "+22.9% premarket",
       "source": "SEC 8-K (ex99-1); TipRanks"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "product",
+      "headline": "OneSpan announced TSUBASA Alliance participating banks selected its FIDO authentication technology; also outlined a DigipassONE Authenticate free trial planned for November 2026",
+      "source": "Webull / company announcement (via WebSearch)"
     }
   ],
   "conflicts": [
@@ -116,6 +134,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -256,22 +285,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Operating company for ticker OSPN is OneSpan Inc. (NASDAQ: OSPN, formerly VASCO Data Security), a digital-identity/authentication security vendor. New since last pass: Q3 2026 beat-and-raise (Oct 29). Management flagged that some Q4-expected hardware (Digipass token) revenue was pulled forward into Q3 at customer request, a possible headwind to the Q4 compare.",
+  "notes": "Routine refresh; Q3 2026 beat-and-raise (Oct 29, already on file) remains the core story. No new earnings this pass.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "conflicts updated"
+      "3 new catalyst(s)",
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

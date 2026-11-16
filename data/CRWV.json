@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.065Z",
+  "lastResearched": "2026-11-16T21:16:26.764Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -98,13 +98,20 @@
     }
   ],
   "conflicts": [
-    "Stock reaction after Q3 2026 earnings is reported inconsistently: one Stocktwits headline describes shares climbing toward $53 after-hours on an $132.5B backlog, while other MarketBeat/Stocktwits headlines reference a 'guidance cut' and stock 'sliding' — it's unclear from the snippets whether those cautionary headlines refer to the November 2026 report or are stale leftovers from the November 2025 Q3 report (which had different figures: ~$1.36B revenue, 1.36B)",
-    "Shares outstanding/market cap: one aggregator implies ~550M shares at a ~$25.57B market cap and $46.43 price; another implies ~550M shares at a ~$58.59B market cap and $107.35 price — the $107.35 price point looks stale/inconsistent with all other November 2026 price data found and should not be used as current"
+    "Post-Q3-earnings (11/10) share price trajectory this week is reported wildly inconsistently: one source (Stocktwits/Citi note) describes shares nearing $61 on their biggest one-day gain since August with Citi seeing 200%+ upside after the Q3 beat; another (itiger) says CRWV is 'down over 13%, on pace for largest percent decrease since August 2025'; a third (finanzen.net) claims a 25.4% weekly collapse 'as of 4pm ET Friday, Nov 14' — but Nov 14, 2026 is a Saturday, so that date is internally impossible and the figure is unreliable. No single corroborated current price could be established this pass."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-10 (Q3 2026 earnings release)"
-  ],
+  "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -160,24 +167,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Backlog was reported at $132.5 billion as of Q3 2026. Year-to-date share performance was reported as down ~32% in one source despite the large revenue beat, reflecting investor focus on cash burn/financing risk rather than top-line growth.",
+  "notes": "Highly volatile, contradictory coverage this week; could not establish a reliable current price or a single dated post-earnings catalyst beyond what's already on file from 11/10-11/12.",
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "new filing(s)",
       "conflicts updated"
     ],
     "tradingDay": true

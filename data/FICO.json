@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-13T21:33:08.074Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-16T21:16:26.766Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -214,11 +214,17 @@
     "Price: MarketChameleon $704.55 (2026-11-06) vs Eulerpool $1,285.84 (2026-07-27, stale) vs undated Ryan O'Connell dashboard $719.63 vs MarketBeat $652.20 (2026-10-01) vs MarketBeat $931.63 (2026-09-04) — these do not form a clean trend line and may reflect aggregator caching issues.",
     "Q4 FY2026 EPS: $8.12 GAAP (company) vs $11.10 non-GAAP (company, beat $10.89 consensus) vs $9.61 (Zacks-adjusted, beat $9.20 consensus) — three different EPS bases reported as 'the' beat figure."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-04 (Q4 FY2026 earnings release)"
-  ],
-  "notes": "Stock is down sharply off its 2026 highs; background driver was an April 2026 Senator Hawley inquiry into FICO's pricing practices (regulatory overhang), not a new catalyst this pass. Company repurchased ~$3.05B of stock in FY2026 via an accelerated share repurchase funded partly by a term loan; long-term debt rose to $4.92B from $2.66B, leverage ~3.29x net debt/EBITDA, and buybacks are now paused to repay that loan.",
+  "pendingFilings": [],
+  "notes": "Checked for developments since the 2026-11-13 pass: no new dated news, filing, or price print found for Nov 14-16. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-16",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-13",
       "run": "pm",
@@ -488,21 +494,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-13",
+    "date": "2026-11-16",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "new filing(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
