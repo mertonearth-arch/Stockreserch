@@ -385,12 +385,14 @@ function load() {
     $('cursor').max = model.n - 1;
     if (wasEnd && !playing) cur = model.n - 1; else cur = Math.min(cur, model.n - 1);
     var age = d.lastSuccess ? d.serverTime - d.lastSuccess : null;
-    if (d.simulated) setState('sim', 'SIMULATED DATA');
+    if (d.snapshot) setState('closed', 'SNAPSHOT');
+    else if (d.simulated) setState('sim', 'SIMULATED DATA');
     else if (age != null && age > 300) setState('stale', 'STALE ' + Math.round(age / 60) + ' MIN');
     else if (d.live) setState('live', 'LIVE');
     else setState('closed', 'MARKET CLOSED');
     var bits = [SOURCES[d.provider] || d.provider, 'Session ' + d.sessionDate, '5-minute bars'];
-    if (!d.live && !d.simulated) bits.push('showing the last completed session');
+    if (d.snapshot) bits.push('captured ' + clock(d.serverTime) + ', does not update');
+    else if (!d.live && !d.simulated) bits.push('showing the last completed session');
     if (d.missing && d.missing.length) bits.push('no data for ' + d.missing.join(', '));
     if (d.errors && d.errors.length) bits.push('last refresh: ' + d.errors.length + ' error(s), ' + d.errors[0].message);
     $('sub').textContent = bits.join(' · ');

@@ -95,7 +95,8 @@ async function pool(items, n, fn) {
 // Yahoo Finance chart endpoint. Unofficial and unsupported: no key, no SLA,
 // may rate-limit (429) or change shape without notice.
 async function refreshYahoo() {
-  const res = await pool(ALL, 4, async (sym) => {
+  const res = await pool(ALL, 2, async (sym) => {
+    await new Promise((r) => setTimeout(r, 150));
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}` +
       `?range=1d&interval=5m&includePrePost=false`;
     const j = await getJson(url, { 'User-Agent': UA, Accept: 'application/json' });
