@@ -76,14 +76,25 @@ button{cursor:pointer}
 .icon[aria-pressed="true"]{color:var(--k)}
 .card h3{margin:0;font-family:var(--display);font-weight:600;font-size:15px;line-height:1.2;text-wrap:balance;overflow-wrap:anywhere}
 .card p{margin:0;font-size:13px;color:var(--ink-2);overflow-wrap:anywhere}
+.card p.more{font-size:12.5px;color:var(--ink-3);border-top:1px solid var(--line-soft);padding-top:6px}
+.card.open{z-index:5;border-color:var(--k)}
+.card .meta{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.readout{position:absolute;left:0;right:0;bottom:2px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap;pointer-events:none;
+  font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.readout b{font-weight:500;color:var(--ink-2)}
+.log li.turn{border-left-color:var(--line)}
+.log li.turn.j{border-left-color:var(--core)}
+.log li .when{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.log li .body{font-size:13.5px;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+.log li .det{font-size:12.5px;color:var(--ink-3)}
 .card.demo{border-style:dashed;border-top-style:solid;opacity:.7}
 .k-beslut{--k:var(--k-beslut)}.k-fakta{--k:var(--k-fakta)}.k-uppgift{--k:var(--k-uppgift)}.k-fraga{--k:var(--k-fraga)}.k-ide{--k:var(--k-ide)}
 
 /* spoken lines */
-.caption{display:flex;flex-direction:column;gap:4px;align-items:center;text-align:center;min-height:74px;max-height:30vh;overflow-y:auto}
+.caption{display:flex;flex-direction:column;gap:4px;align-items:center;text-align:center;min-height:74px;max-height:30vh;overflow-y:auto;flex:none}
 .you{font-family:var(--mono);font-size:12px;color:var(--ink-3);max-width:70ch;overflow-wrap:anywhere}
 .you.live{color:var(--ink-2)}
-.say{font-size:17px;max-width:62ch;text-wrap:balance;overflow-wrap:anywhere}
+.say{font-size:16px;max-width:74ch;text-wrap:balance;overflow-wrap:anywhere}
 .say.err{color:var(--danger);font-size:14px}
 
 /* dock */
@@ -121,6 +132,7 @@ button{cursor:pointer}
   .say{font-size:15px}
   .caption{min-height:60px;max-height:22vh}
   .hint{display:none}
+  .readout{display:none}
 }
 @media (prefers-reduced-motion:reduce){
   .card{animation:none}
@@ -138,6 +150,7 @@ button{cursor:pointer}
       <button class="tool" id="voiceBtn" type="button" aria-pressed="true">Röst på</button>
       <button class="tool" id="distillBtn" type="button" title="Gå igenom hela konversationen och plocka ut de viktigaste punkterna">Destillera</button>
       <button class="tool" id="logBtn" type="button">Punkter <b id="logCount">0</b></button>
+      <button class="tool" id="talkBtn" type="button">Samtal <b id="talkCount">0</b></button>
       <button class="tool" id="resetBtn" type="button">Ny konvo</button>
     </div>
   </header>
@@ -145,6 +158,7 @@ button{cursor:pointer}
   <main class="stage" id="stage">
     <div class="orbwrap" id="orbwrap">
       <div class="orb-fallback" id="orbFallback"></div>
+      <div class="readout" aria-hidden="true"><span>Tid <b id="roClock">--:--:--</b></span><span>Repliker <b id="roTurns">0</b></span><span>Punkter <b id="roPoints">0</b></span><span>Senaste svar <b id="roLatency">–</b></span></div>
       <canvas id="core" aria-label="Jarvis 3D-kärna"></canvas>
     </div>
     <svg id="leads" aria-hidden="true"></svg>
@@ -167,6 +181,11 @@ button{cursor:pointer}
     </form>
     <p class="hint" id="hint">&nbsp;</p>
   </footer>
+
+  <aside class="log" id="talk" hidden>
+    <header><h2>Samtalet</h2><button class="tool" id="talkClose" type="button">Stäng</button></header>
+    <ul id="talkList"></ul>
+  </aside>
 
   <aside class="log" id="log" hidden>
     <header><h2>Viktigaste punkterna</h2><button class="tool" id="logClose" type="button">Stäng</button></header>
@@ -231,16 +250,21 @@ function placePoint(p){
   }
   p.slot = slot; p.visible = true;
 }
+const KCOL = { beslut:0xFFB454, fakta:0x6FD8FF, uppgift:0x7CE0A6, fraga:0xB79CFF, ide:0xFF8FC0 };
+const nextNo = () => points.reduce((m, q) => Math.max(m, q.n || 0), 0) + 1;
+const pad2 = n => String(n).padStart(2, "0");
+const hhmm = t => { if (!t) return ""; const d = new Date(t); return pad2(d.getHours()) + ":" + pad2(d.getMinutes()); };
 function addPoints(list){
   let added = 0;
   for (const raw of list){
     if (!raw || typeof raw !== "object") continue;
     const title = String(raw.rubrik || raw.title || "").trim().slice(0, 80);
     const text  = String(raw.text || "").trim().slice(0, 240);
+    const detail = String(raw.detalj || raw.detail || "").trim().slice(0, 600);
     if (!title) continue;
     if (points.some(q => q.title.toLowerCase() === title.toLowerCase())) continue;
     const kind = KINDS[raw.typ] ? raw.typ : KINDS[raw.kind] ? raw.kind : "fakta";
-    const p = { id:uid(), kind, title, text, pinned:false, visible:true, slot:0 };
+    const p = { id:uid(), kind, title, text, detail, n:nextNo(), at:Date.now(), open:false, pinned:false, visible:true, slot:0 };
     points.push(p); placePoint(p); added++;
   }
   if (added){ core.pulse(); save(); renderCards(); }
@@ -256,7 +280,9 @@ function renderCards(){
     if (!c){
       c = el("article"); c.dataset.id = p.id;
       const head = el("div", "card-head");
-      head.append(el("span", "kind", p.demo ? "Exempel · " + KINDS[p.kind] : KINDS[p.kind]), el("span", "sp"));
+      head.append(el("span", "kind", p.demo ? "Exempel · " + KINDS[p.kind] : (p.n ? "#" + pad2(p.n) + " · " : "") + KINDS[p.kind]), el("span", "sp"));
+      if (p.at) head.append(el("span", "meta", hhmm(p.at)));
+      if (p.detail){ const m = el("button", "icon", "mer"); m.type = "button"; m.dataset.act = "more"; head.append(m); }
       if (!p.demo){
         const pin = el("button", "icon", "fäst"); pin.type = "button"; pin.dataset.act = "pin";
         const x = el("button", "icon", "✕"); x.type = "button"; x.dataset.act = "hide"; x.setAttribute("aria-label", "Dölj punkten");
@@ -264,20 +290,29 @@ function renderCards(){
       }
       c.append(head, el("h3", "", p.title));
       if (p.text) c.append(el("p", "", p.text));
+      if (p.detail) c.append(el("p", "more", p.detail));
       cardsEl.append(c);
     }
     c.className = "card k-" + p.kind + " " + SLOTS[p.slot % SLOTS.length] + (p.demo ? " demo" : "");
+    if (p.open) c.classList.add("open");
+    const more = c.querySelector("p.more"), mb = c.querySelector('[data-act="more"]');
+    if (more) more.hidden = !p.open;
+    if (mb){ mb.textContent = p.open ? "mindre" : "mer"; mb.setAttribute("aria-expanded", String(!!p.open)); }
     const pin = c.querySelector('[data-act="pin"]');
     if (pin){ pin.setAttribute("aria-pressed", String(!!p.pinned)); pin.textContent = p.pinned ? "fäst ●" : "fäst"; }
   }
   $("logCount").textContent = String(points.length);
+  $("roPoints").textContent = String(points.length);
+  core.setNodes(points.slice(-24).map(q => KCOL[q.kind] || KCOL.fakta));
   renderLog();
   requestAnimationFrame(drawLeads);
 }
 cardsEl.addEventListener("click", e => {
   const b = e.target.closest("[data-act]"); if (!b) return;
   const p = points.find(q => q.id === b.closest(".card").dataset.id); if (!p) return;
-  if (b.dataset.act === "pin") p.pinned = !p.pinned; else p.visible = false;
+  if (b.dataset.act === "pin") p.pinned = !p.pinned;
+  else if (b.dataset.act === "more") p.open = !p.open;
+  else p.visible = false;
   save(); renderCards();
 });
 
@@ -315,7 +350,9 @@ function renderLog(){
     const show = el("button", "icon", p.visible ? "dölj" : "visa"); show.type = "button"; show.dataset.act = "toggle";
     const del = el("button", "icon", "radera"); del.type = "button"; del.dataset.act = "del";
     row.append(show, del); row.querySelector(".sp").style.flex = "1";
+    row.prepend(el("span", "when", (p.n ? "#" + pad2(p.n) + " " : "") + hhmm(p.at) + " "));
     li.append(row, el("strong", "", p.title)); if (p.text) li.append(el("span", "", p.text));
+    if (p.detail) li.append(el("span", "det", p.detail));
     ul.append(li);
   }
 }
@@ -326,7 +363,24 @@ $("logList").addEventListener("click", e => {
   else if (p.visible) p.visible = false; else placePoint(p);
   save(); renderCards();
 });
-$("logBtn").onclick = () => { $("log").hidden = !$("log").hidden; };
+$("logBtn").onclick = () => { $("talk").hidden = true; $("log").hidden = !$("log").hidden; };
+
+/* conversation drawer: every line that was said, with its time */
+function renderTalk(){
+  $("talkCount").textContent = String(turns.length);
+  $("roTurns").textContent = String(turns.length);
+  const ul = $("talkList"); ul.replaceChildren();
+  if (!turns.length){ ul.append(el("li", "empty", "Inget sagt än. Hela samtalet hamnar här, replik för replik.")); return; }
+  for (const t of turns){
+    const li = el("li", "turn" + (t.role === "jarvis" ? " j" : ""));
+    li.append(el("span", "when", (t.role === "jarvis" ? "Jarvis" : "Du") + (t.at ? " · " + hhmm(t.at) : "")), el("span", "body", t.text));
+    ul.append(li);
+  }
+  ul.scrollTop = ul.scrollHeight;
+}
+$("talkBtn").onclick = () => { $("log").hidden = true; $("talk").hidden = !$("talk").hidden; if (!$("talk").hidden) renderTalk(); };
+$("talkClose").onclick = () => { $("talk").hidden = true; };
+setInterval(() => { const d = new Date(); $("roClock").textContent = pad2(d.getHours()) + ":" + pad2(d.getMinutes()) + ":" + pad2(d.getSeconds()); }, 1000);
 $("logClose").onclick = () => { $("log").hidden = true; };
 
 /* ---------- the brain ---------- */
@@ -336,14 +390,15 @@ function buildPrompt(userText){
   const known = points.length ? points.map(p => "- [" + p.kind + "] " + p.title + ": " + p.text).join("\n") : "(inga än)";
   const hist = turns.slice(-16).map(t => (t.role === "user" ? "Användaren: " : "Jarvis: ") + t.text).join("\n");
   return [
-    "Du är Jarvis, en allmän AI-assistent som man pratar med. Du hjälper till med vad som helst: frågor, förklaringar, idéer, planering, text, kod, beslut. Ditt svar läses upp högt, så skriv talspråk utan markdown, listor eller emojis. Håll dig normalt till 1 till 4 meningar; svara längre bara när användaren ber om en genomgång eller frågan kräver det.",
+    "Du är Jarvis, en allmän AI-assistent som man pratar med. Du hjälper till med vad som helst: frågor, förklaringar, idéer, planering, text, kod, beslut. Ditt svar läses upp högt, så skriv talspråk utan markdown, listor eller emojis.",
+    "Var detaljerad och konkret: ge siffror, namn, steg, exempel och skälen bakom, inte allmänna fraser. Normalt 3 till 6 meningar; kortare bara för småprat och ja- eller nej-frågor, längre när användaren ber om en genomgång. Börja med själva svaret och bygg sedan på med detaljerna.",
     "Svara på " + langName + ". Var rak och ärlig, även när det är obekvämt.",
     "Dagens datum: " + new Date().toISOString().slice(0, 10) + ".",
     "",
     sourcesBlock(),
     "",
-    "Efter svaret skriver du på en egen rad exakt " + MARK + " och därefter en JSON-array med 0 till 2 NYA nyckelpunkter från det senaste utbytet som är värda att minnas: beslut, fakta eller siffror, uppgifter, öppna frågor, idéer. Småprat och hälsningar ger en tom array []. Upprepa aldrig en punkt som redan finns. Skriv punkterna på " + langName + ".",
-    'Format: [{"typ":"beslut|fakta|uppgift|fraga|ide","rubrik":"högst 6 ord","text":"en kort mening"}]',
+    "Efter svaret skriver du på en egen rad exakt " + MARK + " och därefter en JSON-array med 0 till 3 NYA nyckelpunkter från det senaste utbytet som är värda att minnas: beslut, fakta eller siffror, uppgifter, öppna frågor, idéer. Småprat och hälsningar ger en tom array []. Upprepa aldrig en punkt som redan finns. Skriv punkterna på " + langName + ".",
+    'Format: [{"typ":"beslut|fakta|uppgift|fraga|ide","rubrik":"högst 6 ord","text":"en kort mening med det viktigaste","detalj":"2 till 3 meningar: de exakta siffrorna, namnen eller stegen, varför det spelar roll och vad som återstår"}]',
     "Använd aldrig tecknen @@ någon annanstans.",
     "",
     "Punkter som redan finns:", known,
@@ -438,7 +493,8 @@ async function ask(userText){
   sayEl.classList.remove("err"); sayEl.textContent = "…";
   busy = true; syncPhase();
   const prompt = buildPrompt(userText);   // built before the turn is stored, so the message is not sent twice
-  turns.push({ role:"user", text:userText }); save();
+  turns.push({ role:"user", text:userText, at:Date.now() }); save(); renderTalk();
+  const t0 = performance.now();
   if (firstReal) renderCards();           // clears the example cards
   abortCtl = new AbortController();
   let full = "";
@@ -453,13 +509,14 @@ async function ask(userText){
     full = res.text || full;
   }catch(e){
     busy = false; syncPhase();
-    turns.pop(); save();
+    turns.pop(); save(); renderTalk();
     fail(explain(e)); return;
   }
   const cut = full.indexOf("@@");
   const reply = clean(cut < 0 ? full : full.slice(0, cut)) || "…";
   sayEl.textContent = reply;
-  turns.push({ role:"jarvis", text:reply }); save();
+  turns.push({ role:"jarvis", text:reply, at:Date.now() }); save(); renderTalk();
+  $("roLatency").textContent = ((performance.now() - t0) / 1000).toFixed(1) + " s";
   busy = false; syncPhase();
   if (cut >= 0) addPoints(parsePoints(full.slice(cut)));
   renderCards();
@@ -475,12 +532,12 @@ async function distill(){
   const pinned = points.filter(p => p.pinned).map(p => "- " + p.title).join("\n") || "(inga)";
   try{
     const out = await sample.json(
-      "Läs samtalet nedan och plocka ut de högst 5 viktigaste punkterna: beslut, fakta eller siffror, uppgifter, öppna frågor, idéer. Ta bara med sådant som faktiskt sades. Viktigast först. Skriv på " + langName + ".\n" +
+      "Läs samtalet nedan och plocka ut de högst 6 viktigaste punkterna: beslut, fakta eller siffror, uppgifter, öppna frågor, idéer. Ta bara med sådant som faktiskt sades. Viktigast först. Skriv på " + langName + ".\n" +
       "Dessa punkter är redan fästa, upprepa dem inte:\n" + pinned + "\n\n" +
-      'Svara med enbart en JSON-array: [{"typ":"beslut|fakta|uppgift|fraga|ide","rubrik":"högst 6 ord","text":"en kort mening"}]\n\nSamtalet:\n' + hist,
+      'Svara med enbart en JSON-array: [{"typ":"beslut|fakta|uppgift|fraga|ide","rubrik":"högst 6 ord","text":"en kort mening med det viktigaste","detalj":"2 till 3 meningar: de exakta siffrorna, namnen eller stegen, varför det spelar roll och vad som återstår"}]\n\nSamtalet:\n' + hist,
       { cache:false });
     points = points.filter(p => p.pinned);
-    const n = addPoints(Array.isArray(out) ? out.slice(0, 5).reverse() : []);
+    const n = addPoints(Array.isArray(out) ? out.slice(0, 6).reverse() : []);
     save(); renderCards();
     sayEl.textContent = n ? "Jag har destillerat samtalet till " + n + (n === 1 ? " punkt." : " punkter.") : "Jag hittade inget i samtalet som är värt att fästa.";
   }catch(e){ fail(explain(e)); }
@@ -574,14 +631,14 @@ $("resetBtn").onclick = () => {
   clearTimeout(resetArmed); resetArmed = null; b.textContent = "Ny konvo"; b.classList.remove("warn");
   if (abortCtl) abortCtl.abort();
   if (tts) tts.stop().catch(() => {});
-  turns = []; points = []; save();
+  turns = []; points = []; save(); renderTalk();
   youEl.textContent = ""; sayEl.classList.remove("err"); sayEl.textContent = "Rent bord. Vad vill du prata om?";
   renderCards();
 };
 
 /* ---------- the 3D core ---------- */
 const core = (function(){
-  const api = { setPhase(){}, pulse(){}, kick(){} };
+  const api = { setPhase(){}, pulse(){}, kick(){}, setNodes(){} };
   const canvas = $("core");
   if (!window.THREE){ canvas.hidden = true; return api; }
   let renderer;
@@ -597,7 +654,7 @@ const core = (function(){
   const add = THREE.AdditiveBlending;
 
   // particle shell
-  const N = 1700, base = new Float32Array(N * 3), pos = new Float32Array(N * 3);
+  const N = 2600, base = new Float32Array(N * 3), pos = new Float32Array(N * 3);
   for (let i = 0; i < N; i++){
     const y = 1 - 2 * (i + .5) / N, r = Math.sqrt(1 - y * y), th = i * 2.399963;
     base[i*3] = Math.cos(th) * r; base[i*3+1] = y; base[i*3+2] = Math.sin(th) * r;
@@ -622,11 +679,61 @@ const core = (function(){
   // gimbal rings: broken arcs at three tilts
   const rm = new THREE.MeshBasicMaterial({ color:col, transparent:true, opacity:.5, blending:add, depthWrite:false });
   const rings = [];
-  [[1.34, 5.2, [1.25, .2, 0], .5], [1.48, 4.1, [.5, .9, .3], -.36], [1.62, 2.6, [-.7, .3, .9], .24]].forEach(([r, arc, rot, sp]) => {
+  [[1.22, 1.3, [.2, 1.3, .4], .9], [1.34, 5.2, [1.25, .2, 0], .5], [1.48, 4.1, [.5, .9, .3], -.36], [1.62, 2.6, [-.7, .3, .9], .24], [1.76, 1.7, [1.5, 0, .6], -.18]].forEach(([r, arc, rot, sp]) => {
     const pivot = new THREE.Group(); pivot.rotation.set(rot[0], rot[1], rot[2]);
-    const m = new THREE.Mesh(new THREE.TorusGeometry(r, .007, 6, 180, arc), rm);
+    const m = new THREE.Mesh(new THREE.TorusGeometry(r, .006, 6, 200, arc), rm);
+    // a bead rides the leading end of every arc
+    const bead = new THREE.Mesh(new THREE.SphereGeometry(.026, 10, 10), rm); bead.position.set(r, 0, 0); m.add(bead);
     pivot.add(m); root.add(pivot); rings.push({ m, sp });
   });
+
+  // graticule: faint latitude and longitude lines around the shell
+  const gratM = new THREE.LineBasicMaterial({ color:col, transparent:true, opacity:.07, blending:add, depthWrite:false });
+  const grat = new THREE.LineSegments(new THREE.WireframeGeometry(new THREE.SphereGeometry(1.15, 24, 14)), gratM); root.add(grat);
+
+  // nucleus
+  const nucM = new THREE.MeshBasicMaterial({ color:0xFFFFFF, transparent:true, opacity:.95 });
+  const nuc = new THREE.Mesh(new THREE.IcosahedronGeometry(.085, 2), nucM); root.add(nuc);
+
+  // instrument dial: 120 ticks, every fifth longer, every tenth longest
+  const tp = [];
+  for (let i = 0; i < 120; i++){
+    const a = i / 120 * Math.PI * 2, r1 = 1.9, r2 = i % 10 === 0 ? 2.03 : i % 5 === 0 ? 1.97 : 1.935;
+    tp.push(Math.cos(a) * r1, Math.sin(a) * r1, 0, Math.cos(a) * r2, Math.sin(a) * r2, 0);
+  }
+  const tg = new THREE.BufferGeometry(); tg.setAttribute("position", new THREE.Float32BufferAttribute(tp, 3));
+  const dialM = new THREE.LineBasicMaterial({ color:col, transparent:true, opacity:.4, blending:add, depthWrite:false });
+  const dial = new THREE.LineSegments(tg, dialM); dial.rotation.x = -1.18; root.add(dial);
+  const dial2 = new THREE.LineSegments(tg, dialM); dial2.rotation.x = -1.18; dial2.scale.setScalar(.62); dial2.position.y = -.5; root.add(dial2);
+
+  // far dust
+  const DN = 700, dp = new Float32Array(DN * 3);
+  for (let i = 0; i < DN; i++){
+    const u = Math.random() * 2 - 1, th = Math.random() * Math.PI * 2, r = 2.3 + Math.random() * 2.2, q = Math.sqrt(1 - u * u);
+    dp[i*3] = Math.cos(th) * q * r; dp[i*3+1] = u * r * .7; dp[i*3+2] = Math.sin(th) * q * r;
+  }
+  const dg = new THREE.BufferGeometry(); dg.setAttribute("position", new THREE.BufferAttribute(dp, 3));
+  const dustM = new THREE.PointsMaterial({ size:.013, color:col, transparent:true, opacity:.45, blending:add, depthWrite:false });
+  const dust = new THREE.Points(dg, dustM); scene.add(dust);
+
+  // one satellite per captured key point, in the colour of its kind
+  const sats = new THREE.Group(); root.add(sats);
+  const satGeo = new THREE.SphereGeometry(.034, 12, 12);
+  let satKey = "";
+  function setNodes(colors){
+    const key = colors.join(","); if (key === satKey) return; satKey = key;
+    while (sats.children.length){ const c = sats.children.pop(); c.children[0].material.dispose(); }
+    colors.forEach((hex, i) => {
+      const pivot = new THREE.Group();
+      pivot.rotation.set(i * 1.31, i * .77, i * 2.1);
+      pivot.userData.sp = (.22 + (i % 5) * .05) * (i % 2 ? -1 : 1);
+      pivot.rotation.z += i * 2.4;
+      const m = new THREE.Mesh(satGeo, new THREE.MeshBasicMaterial({ color:hex }));
+      m.position.set(1.27 + (i % 3) * .06, 0, 0);
+      pivot.add(m); sats.add(pivot);
+    });
+  }
+  const tinted = [pm, wm, gm, rm, gratM, dialM, dustM];
 
   // pulse sent out when a key point is captured
   const pulses = [];
@@ -659,6 +766,7 @@ const core = (function(){
     amp += (T.amp + speech + kickV * .1 - amp) * k * 2.2;
     spin += (T.spin - spin) * k; scale += (T.scale + speech * .35 - scale) * k * 1.6;
     col.lerp(C[ph], k);
+    for (const m of tinted) m.color.copy(col);   // three copies a colour passed to a material, so push it each frame
     const sp = reduceMotion ? spin * .25 : spin;
     rot += dt * sp;
     const t = time * (reduceMotion ? .3 : 1);
@@ -673,6 +781,10 @@ const core = (function(){
     heart.scale.setScalar(1 + amp * 1.4);
     for (const r of rings) r.m.rotation.z += dt * r.sp * (sp / .14) * .6;
     glow.material.opacity = .4 + amp * 2.2;
+    grat.rotation.y = -rot * .25; dial.rotation.z = rot * .3; dial2.rotation.z = -rot * .5;
+    dust.rotation.y = time * .012;
+    nuc.scale.setScalar(1 + Math.sin(t * 2.2) * .12 + amp * 2.5);
+    for (const sv of sats.children) sv.rotateZ(dt * sv.userData.sp * (reduceMotion ? .3 : 1));
     root.scale.setScalar(scale);
     root.rotation.y += ((mx * .5) - root.rotation.y) * k; root.rotation.x += ((my * .35) - root.rotation.x) * k;
     for (let i = pulses.length - 1; i >= 0; i--){
@@ -685,13 +797,14 @@ const core = (function(){
   }
   requestAnimationFrame(frame);
   api.setPhase = p => { ph = P[p] ? p : "idle"; };
+  api.setNodes = setNodes;
   api.pulse = pulse;
   api.kick = () => { kickV = 1; };
   return api;
 })();
 
 /* ---------- boot ---------- */
-syncLang(); syncVoiceBtn(); renderCards(); syncPhase();
+syncLang(); syncVoiceBtn(); renderCards(); renderTalk(); syncPhase();
 const last = [...turns].reverse();
 const lastJ = last.find(t => t.role === "jarvis"), lastU = last.find(t => t.role === "user");
 if (lastJ){ sayEl.textContent = lastJ.text; if (lastU) youEl.textContent = lastU.text; }

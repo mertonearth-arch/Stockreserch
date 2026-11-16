@@ -14,6 +14,9 @@ of its data.
 - **Key-point popups**: decisions, facts, tasks, open questions and ideas from the
   conversation are pinned as cards around the core. "Destillera" re-reads the whole
   conversation and keeps the five most important.
+- **Detail on every point**: each card has a number, a time and a longer explanation behind
+  "mer"; every captured point also orbits the core as a satellite in the colour of its kind.
+- **Conversation log** ("Samtal"): every line said, with its time.
 - **Web**: inside the Claude desktop app it can search and read pages through the app's
   built-in browser.
 
