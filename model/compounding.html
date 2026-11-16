@@ -1,0 +1,602 @@
+<title>Compoundingmodellen</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a trading-desk worksheet. Assumptions rail on the left, results on the right; stacks on phones. */
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #131820;
+  --ink-2: #4c5766;
+  --ink-3: #7a8494;
+  --line: #dce1e8;
+  --grid: #e8ecf1;
+  --today: #eb6834;   /* series: du idag */
+  --rules: #2a78d6;   /* series: med reglerna */
+  --k-all: #6250d6;   /* kelly: tar alla setups */
+  --k-hot: #1baf7a;   /* kelly: bara varm regim */
+  --hot-band: rgba(235, 161, 0, 0.16);
+  --focus: #2a78d6;
+  --font: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1116; --surface: #161a21; --ink: #e9ecf1; --ink-2: #b1bac7; --ink-3: #7f8a99;
+    --line: #2a313c; --grid: #222832; --today: #d95926; --rules: #3987e5; --k-all: #9085e9;
+    --k-hot: #199e70; --hot-band: rgba(201, 133, 0, 0.20); --focus: #3987e5; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1116; --surface: #161a21; --ink: #e9ecf1; --ink-2: #b1bac7; --ink-3: #7f8a99;
+  --line: #2a313c; --grid: #222832; --today: #d95926; --rules: #3987e5; --k-all: #9085e9;
+  --k-hot: #199e70; --hot-band: rgba(201, 133, 0, 0.20); --focus: #3987e5; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 15px; line-height: 1.5; }
+.page {
+  max-width: 1240px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 24px;
+}
+header { display: flex; flex-direction: column; gap: 8px; max-width: 70ch; }
+h1 { font-size: 30px; line-height: 1.15; font-weight: 700; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 600; margin: 0; text-wrap: balance; }
+h3 { font-size: 12px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); margin: 0; }
+p { margin: 0; }
+.lede { color: var(--ink-2); font-size: 16px; }
+.cols { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+
+/* controls */
+.rail { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px; display: flex; flex-direction: column; gap: 18px; }
+@media (min-width: 861px) { .rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); max-height: calc(100vh - 32px); overflow-y: auto; } }
+.group { display: flex; flex-direction: column; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.field label { font-size: 13.5px; color: var(--ink-2); }
+.field output { font-family: var(--mono); font-size: 13.5px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+input[type="range"] { width: 100%; margin: 0; accent-color: var(--ink-2); }
+#riskToday { accent-color: var(--today); }
+#riskRule { accent-color: var(--rules); }
+.check { display: flex; gap: 10px; align-items: flex-start; font-size: 13.5px; }
+.check input { margin-top: 3px; accent-color: var(--rules); width: 16px; height: 16px; flex: none; }
+.check span { display: flex; flex-direction: column; }
+.check small { color: var(--ink-3); font-size: 12.5px; }
+.seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 5px; overflow: hidden; }
+.seg button { border: 0; background: transparent; color: var(--ink-2); font: inherit; font-size: 13.5px; padding: 7px 8px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); font-weight: 600; }
+.btn { border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: 13.5px; font-weight: 500; padding: 7px 12px; border-radius: 5px; cursor: pointer; }
+.btn:hover { border-color: var(--ink-3); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+details summary { cursor: pointer; font-size: 12px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
+details .group { margin-top: 12px; }
+.exp { font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); }
+.sub { font-size: 12.5px; color: var(--ink-3); }
+
+/* results */
+.results { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+.verdict { font-size: 17px; line-height: 1.45; max-width: 68ch; }
+.verdict b { font-weight: 600; }
+.tablewrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; }
+th, td { padding: 12px 14px; text-align: right; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 12px; font-weight: 600; color: var(--ink-3); letter-spacing: 0.04em; text-transform: uppercase; }
+th:first-child, td:first-child { text-align: left; }
+td.who { font-weight: 600; white-space: nowrap; }
+td .num { font-family: var(--mono); font-size: 21px; font-weight: 600; font-variant-numeric: tabular-nums; display: block; }
+td .rng { font-family: var(--mono); font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.key { display: inline-block; width: 16px; height: 0; border-top: 3px solid; border-radius: 2px; vertical-align: middle; margin-right: 8px; }
+.key.today { border-color: var(--today); } .key.rules { border-color: var(--rules); }
+.key.kall { border-color: var(--k-all); } .key.khot { border-color: var(--k-hot); }
+.key.band { border: 0; height: 10px; background: var(--hot-band); border-radius: 2px; }
+.key.fan { border: 0; height: 10px; background: var(--ink-3); opacity: 0.35; border-radius: 2px; }
+
+.fig { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.fig-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 16px; }
+.fig p.cap { color: var(--ink-2); font-size: 14px; max-width: 72ch; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 13px; color: var(--ink-2); }
+.plot { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+.plot svg { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.plot text { font-family: var(--mono); font-size: 11.5px; fill: var(--ink-3); }
+.plot text.lbl { font-family: var(--font); font-size: 12.5px; font-weight: 600; fill: var(--ink); }
+.plot .grid { stroke: var(--grid); stroke-width: 1; }
+.plot .base { stroke: var(--ink-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.plot .ln { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.plot .today { stroke: var(--today); } .plot .rules { stroke: var(--rules); }
+.plot .kall { stroke: var(--k-all); } .plot .khot { stroke: var(--k-hot); }
+.plot .fill-today { fill: var(--today); opacity: 0.14; } .plot .fill-rules { fill: var(--rules); opacity: 0.16; }
+.plot .hot { fill: var(--hot-band); }
+.plot .dot-today { fill: var(--today); stroke: var(--surface); stroke-width: 2; }
+.plot .dot-rules { fill: var(--rules); stroke: var(--surface); stroke-width: 2; }
+.plot .cross { stroke: var(--ink-3); stroke-width: 1; }
+.plot .mark { stroke-width: 1.5; stroke-dasharray: 4 3; }
+.tip { position: absolute; top: 8px; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 5px; padding: 8px 10px; font-size: 12.5px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12); min-width: 150px; z-index: 2; }
+.tip .t { color: var(--ink-3); font-size: 11.5px; margin-bottom: 4px; }
+.tip .r { display: flex; justify-content: space-between; gap: 14px; align-items: baseline; white-space: nowrap; }
+.tip .r b { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.tip .r span { color: var(--ink-2); }
+
+.rules-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0 28px; border-top: 1px solid var(--line); }
+.rule { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 4px; }
+.rule b { font-weight: 600; }
+.rule span { color: var(--ink-2); font-size: 14px; }
+.note { color: var(--ink-2); font-size: 14px; max-width: 72ch; display: flex; flex-direction: column; gap: 8px; }
+</style>
+
+<div class="page">
+  <header>
+    <h1>Compoundingmodellen</h1>
+    <p class="lede">Två traders handlar exakt samma setups på samma marknad. Den ena sizar som du gör idag. Den andra följer reglerna. Dra i reglagen och se vad som faktiskt skiljer dem åt.</p>
+  </header>
+
+  <div class="cols">
+    <aside class="rail" aria-label="Antaganden">
+      <div class="group">
+        <h3>Scenario</h3>
+        <div class="seg" role="group" aria-label="Scenario">
+          <button type="button" id="presetEdge" aria-pressed="true">Edge i varm regim</button>
+          <button type="button" id="presetNone" aria-pressed="false">Ingen edge alls</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3>Risk per trade</h3>
+        <div class="field">
+          <div class="field-top"><label for="riskToday">Du idag</label><output id="riskTodayOut" for="riskToday"></output></div>
+          <input type="range" id="riskToday" min="1" max="15" step="0.5" value="5">
+        </div>
+        <div class="field">
+          <div class="field-top"><label for="riskRule">Med reglerna</label><output id="riskRuleOut" for="riskRule"></output></div>
+          <input type="range" id="riskRule" min="0.25" max="3" step="0.25" value="1">
+        </div>
+        <p class="sub">Andel av kontot du förlorar när stoppen tas (1R).</p>
+      </div>
+
+      <div class="group">
+        <h3>Regler som är på</h3>
+        <label class="check"><input type="checkbox" id="useFilter" checked><span>Regimfilter<small>Kvarts size när de 10 senaste setupsen är netto minus</small></span></label>
+        <label class="check"><input type="checkbox" id="useBrakes" checked><span>Drawdown-bromsar<small>−5 % halv size, −10 % kvarts, −15 % paus 5 dagar</small></span></label>
+        <label class="check"><input type="checkbox" id="useSweep" checked><span>Vinstspärr<small>Vid +25 % flyttas halva vinsten till indexfond</small></span></label>
+      </div>
+
+      <details id="adv">
+        <summary>Antaganden om marknaden</summary>
+        <div class="group">
+          <div class="field">
+            <div class="field-top"><label for="tpd">Setups per dag</label><output id="tpdOut" for="tpd"></output></div>
+            <input type="range" id="tpd" min="1" max="3" step="1" value="1">
+          </div>
+          <div class="field">
+            <div class="field-top"><label for="hotDays">Varm regim, snittlängd</label><output id="hotDaysOut" for="hotDays"></output></div>
+            <input type="range" id="hotDays" min="5" max="30" step="1" value="12">
+          </div>
+          <div class="field">
+            <div class="field-top"><label for="hotWin">Varm: träffprocent</label><output id="hotWinOut" for="hotWin"></output></div>
+            <input type="range" id="hotWin" min="30" max="65" step="1" value="50">
+          </div>
+          <div class="field">
+            <div class="field-top"><label for="hotAvg">Varm: snittvinst</label><output id="hotAvgOut" for="hotAvg"></output></div>
+            <input type="range" id="hotAvg" min="1" max="4" step="0.05" value="2.2">
+          </div>
+          <p class="exp" id="hotExp"></p>
+          <div class="field">
+            <div class="field-top"><label for="coldDays">Kall regim, snittlängd</label><output id="coldDaysOut" for="coldDays"></output></div>
+            <input type="range" id="coldDays" min="15" max="90" step="1" value="45">
+          </div>
+          <div class="field">
+            <div class="field-top"><label for="coldWin">Kall: träffprocent</label><output id="coldWinOut" for="coldWin"></output></div>
+            <input type="range" id="coldWin" min="25" max="55" step="1" value="41">
+          </div>
+          <div class="field">
+            <div class="field-top"><label for="coldAvg">Kall: snittvinst</label><output id="coldAvgOut" for="coldAvg"></output></div>
+            <input type="range" id="coldAvg" min="0.8" max="2.5" step="0.05" value="1.35">
+          </div>
+          <p class="exp" id="coldExp"></p>
+          <p class="sub">Förlorare kostar 1R. Var tionde förlorare gappar förbi stoppen och kostar 2R.</p>
+        </div>
+      </details>
+    </aside>
+
+    <main class="results">
+      <p class="verdict" id="verdict"></p>
+
+      <section class="fig" aria-labelledby="tblH">
+        <h2 id="tblH">Utfall efter två år, 500 simulerade marknader</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th></th><th>Slutvärde, median</th><th>Slutar under start</th><th>Största nedgång, median</th><th>Bästa 3 veckor, median</th></tr></thead>
+            <tbody id="statBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="fig" aria-labelledby="pathH">
+        <div class="fig-head">
+          <h2 id="pathH">En möjlig tvåårsperiod</h2>
+          <button type="button" class="btn" id="reseed">Ny slumpad marknad</button>
+        </div>
+        <p class="cap">Samma setups, samma utfall i R, olika size. Skalan är logaritmisk: varje steg uppåt är en dubbling av startkapitalet.</p>
+        <div class="legend"><span><i class="key today"></i>Du idag</span><span><i class="key rules"></i>Med reglerna</span><span><i class="key band"></i>Varm regim</span></div>
+        <div class="plot" id="pathPlot"></div>
+      </section>
+
+      <section class="fig" aria-labelledby="fanH">
+        <h2 id="fanH">Spridningen över 500 marknader</h2>
+        <p class="cap">Linjen är medianen. Bandet täcker utfallen mellan den 10:e och 90:e percentilen. Ett brett band betyder att slutresultatet styrs av tur.</p>
+        <div class="legend"><span><i class="key today"></i>Du idag</span><span><i class="key rules"></i>Med reglerna</span><span><i class="key fan"></i>10–90 percentilen</span></div>
+        <div class="plot" id="fanPlot"></div>
+      </section>
+
+      <section class="fig" aria-labelledby="kellyH">
+        <h2 id="kellyH">Var size slutar hjälpa</h2>
+        <p class="cap">Förväntad tillväxt per 100 setups vid olika risk per trade. Kurvan vänder nedåt när size blir större än edgen tål. Den gröna kurvan förutsätter att du vet exakt när regimen är varm, så se den som ett tak.</p>
+        <div class="legend"><span><i class="key kall"></i>Tar alla setups</span><span><i class="key khot"></i>Tar bara setups i varm regim</span></div>
+        <div class="plot" id="kellyPlot"></div>
+      </section>
+
+      <section class="fig" aria-labelledby="rulesH">
+        <h2 id="rulesH">Reglerna, exakt som modellen kör dem</h2>
+        <div class="rules-list">
+          <div class="rule"><b>Fast risk per trade</b><span>Positionen sizas så att en tagen stopp kostar den valda andelen av kontot. Aldrig mer.</span></div>
+          <div class="rule"><b>Regimfilter</b><span>Bokför utfallet i R för de 10 senaste setupsen, även de du bara följde på papper. Summa noll eller lägre: kvarts size tills summan är positiv igen.</span></div>
+          <div class="rule"><b>Drawdown-bromsar</b><span>Mätt från kontots topp: −5 % ger halv size, −10 % kvarts size, −15 % fem handelsdagars paus. Efter pausen räknas toppen om från nuvarande nivå.</span></div>
+          <div class="rule"><b>Vinstspärr</b><span>När kontot är 25 % över sin bas flyttas halva vinsten till en indexfond (7 % per år i modellen). Pengarna kommer aldrig tillbaka till tradingkontot.</span></div>
+        </div>
+      </section>
+
+      <div class="note">
+        <p><b>Det här är en modell av ett beteende, ingen prognos.</b> Träffprocent och snittvinst är antaganden, kalibrerade så att "du idag" ger ungefär det mönster du beskrivit. Dina riktiga siffror finns i din tradehistorik och ersätter reglagen när de finns.</p>
+        <p>Modellen bortser från courtage, spread, slippage och skatt. Alla fyra gör verkligheten sämre än grafen, och mest för den som handlar ofta och stort.</p>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script src="sim.js"></script>
+<script>
+(function () {
+  'use strict';
+  const S = window.Sim;
+  const DAYS = 504, PATHS = 500, MC_SEED = 20261116;
+  const $ = id => document.getElementById(id);
+  const NS = 'http://www.w3.org/2000/svg';
+  let seed = 7;
+  let last = null;
+
+  const nf = (v, d) => v.toLocaleString('sv-SE', { minimumFractionDigits: d, maximumFractionDigits: d });
+  const pct = (x, d) => (x < 0 ? '−' : '') + nf(Math.abs(x) * 100, d || 0) + ' %';
+  const signedPct = x => (x >= 0 ? '+' : '−') + nf(Math.abs(x) * 100, 0) + ' %';
+  const mult = v => (v >= 10 ? nf(v, 0) : v >= 1 ? nf(v, 2) : v >= 0.1 ? nf(v, 2) : nf(v, 3)) + '×';
+  const change = v => signedPct(v - 1);
+
+  function el(tag, attrs, parent, text) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (text != null) n.textContent = text;
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  function read() {
+    const v = id => parseFloat($(id).value);
+    return {
+      m: {
+        tradesPerDay: v('tpd'), hotDays: v('hotDays'), coldDays: v('coldDays'),
+        hotWin: v('hotWin') / 100, hotAvgWin: v('hotAvg'),
+        coldWin: v('coldWin') / 100, coldAvgWin: v('coldAvg')
+      },
+      today: { risk: v('riskToday') / 100 },
+      rules: { risk: v('riskRule') / 100, filter: $('useFilter').checked, brakes: $('useBrakes').checked, sweep: $('useSweep').checked }
+    };
+  }
+
+  function outputs(c) {
+    $('riskTodayOut').textContent = nf(c.today.risk * 100, 1) + ' %';
+    $('riskRuleOut').textContent = nf(c.rules.risk * 100, 2) + ' %';
+    $('tpdOut').textContent = c.m.tradesPerDay;
+    $('hotDaysOut').textContent = c.m.hotDays + ' dagar';
+    $('coldDaysOut').textContent = c.m.coldDays + ' dagar';
+    $('hotWinOut').textContent = nf(c.m.hotWin * 100, 0) + ' %';
+    $('coldWinOut').textContent = nf(c.m.coldWin * 100, 0) + ' %';
+    $('hotAvgOut').textContent = nf(c.m.hotAvgWin, 2) + ' R';
+    $('coldAvgOut').textContent = nf(c.m.coldAvgWin, 2) + ' R';
+    const eh = S.expectancy(c.m.hotWin, c.m.hotAvgWin), ec = S.expectancy(c.m.coldWin, c.m.coldAvgWin);
+    const fmtR = e => (e >= 0 ? '+' : '−') + nf(Math.abs(e), 2) + ' R';
+    $('hotExp').textContent = 'Förväntan varm: ' + fmtR(eh) + ' per trade';
+    $('coldExp').textContent = 'Förväntan kall: ' + fmtR(ec) + ' per trade';
+    return { eh, ec };
+  }
+
+  // ---------- chart scaffolding ----------
+  const LOG_TICKS = [0.001, 0.01, 0.05, 0.1, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024];
+
+  function frame(host, H, margin) {
+    host.querySelectorAll('svg').forEach(n => n.remove());
+    const W = Math.max(300, Math.round(host.clientWidth));
+    const svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H, width: W, height: H, role: 'img' });
+    host.insertBefore(svg, host.firstChild);
+    const m = margin(W);
+    return { svg, W, H, m, x0: m.l, x1: W - m.r, y0: m.t, y1: H - m.b };
+  }
+
+  function logScale(lo, hi, y0, y1) {
+    const a = Math.log(lo), b = Math.log(hi);
+    return v => y1 - ((Math.log(Math.max(v, lo * 0.5)) - a) / (b - a)) * (y1 - y0);
+  }
+
+  function logDomain(values) {
+    let lo = Infinity, hi = 0;
+    values.forEach(arr => { for (let i = 0; i < arr.length; i++) { if (arr[i] < lo) lo = arr[i]; if (arr[i] > hi) hi = arr[i]; } });
+    lo = Math.max(lo, 0.01); hi = Math.max(hi, 1.2); lo = Math.min(lo, 0.85);
+    return [lo / 1.12, hi * 1.12];
+  }
+
+  function timeAxes(f, dom, ys, days) {
+    const xs = d => f.x0 + (d / days) * (f.x1 - f.x0);
+    let ticks = LOG_TICKS.filter(t => t >= dom[0] && t <= dom[1]);
+    while (ticks.length > 7) ticks = ticks.filter((t, i) => t === 1 || i % 2 === 0);
+    ticks.forEach(t => {
+      const y = ys(t);
+      el('line', { x1: f.x0, x2: f.x1, y1: y, y2: y, class: t === 1 ? 'base' : 'grid' }, f.svg);
+      el('text', { x: f.x0 - 8, y: y + 4, 'text-anchor': 'end' }, f.svg, t === 1 ? 'start' : (t < 1 ? nf(t, t < 0.1 ? (t < 0.01 ? 3 : 2) : 2) : nf(t, 0)) + '×');
+    });
+    const stepM = f.W < 520 ? 6 : 3;
+    for (let mo = 0; mo <= 24; mo += stepM) {
+      const x = xs(mo * 21);
+      el('text', { x: x, y: f.y1 + 18, 'text-anchor': mo === 0 ? 'start' : mo === 24 ? 'end' : 'middle' }, f.svg, mo === 0 ? 'dag 0' : mo + ' mån');
+    }
+    return xs;
+  }
+
+  function path(xs, ys, arr, step) {
+    let d = '';
+    for (let i = 0; i < arr.length; i++) d += (i ? 'L' : 'M') + xs(i * step).toFixed(1) + ' ' + ys(arr[i]).toFixed(1);
+    return d;
+  }
+
+  function endLabels(f, items) {
+    // items: [{y, text}] — keep two end labels from colliding
+    if (f.m.r < 80) return;
+    items.sort((a, b) => a.y - b.y);
+    if (items.length === 2 && items[1].y - items[0].y < 16) {
+      const mid = (items[0].y + items[1].y) / 2;
+      items[0].y = mid - 8; items[1].y = mid + 8;
+    }
+    items.forEach(it => el('text', { x: f.x1 + 10, y: Math.min(Math.max(it.y, f.y0 + 6), f.y1 - 2) + 4, class: 'lbl' }, f.svg, it.text));
+  }
+
+  function hover(host, f, days, render) {
+    let tip = host.querySelector('.tip');
+    if (!tip) { tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; host.appendChild(tip); }
+    tip.hidden = true;
+    const g = el('g', { visibility: 'hidden' }, f.svg);
+    const line = el('line', { y1: f.y0, y2: f.y1, class: 'cross' }, g);
+    const hit = el('rect', { x: f.x0, y: f.y0, width: f.x1 - f.x0, height: f.y1 - f.y0, fill: 'transparent' }, f.svg);
+    function move(ev) {
+      const r = f.svg.getBoundingClientRect();
+      const px = (ev.clientX - r.left) * (f.W / r.width);
+      const t = Math.min(1, Math.max(0, (px - f.x0) / (f.x1 - f.x0)));
+      const snapped = render(t, tip, g);
+      const x = f.x0 + snapped * (f.x1 - f.x0);
+      line.setAttribute('x1', x); line.setAttribute('x2', x);
+      g.setAttribute('visibility', 'visible');
+      tip.hidden = false;
+      const sx = x * (r.width / f.W);
+      const tw = tip.offsetWidth;
+      tip.style.left = Math.max(4, Math.min(r.width - tw - 4, sx > r.width / 2 ? sx - tw - 12 : sx + 12)) + 'px';
+    }
+    function leave() { g.setAttribute('visibility', 'hidden'); tip.hidden = true; }
+    hit.addEventListener('pointermove', move);
+    hit.addEventListener('pointerdown', move);
+    hit.addEventListener('pointerleave', leave);
+    return g;
+  }
+
+  function tipRows(tip, title, rows) {
+    tip.textContent = '';
+    const t = document.createElement('div'); t.className = 't'; t.textContent = title; tip.appendChild(t);
+    rows.forEach(r => {
+      const d = document.createElement('div'); d.className = 'r';
+      const s = document.createElement('span');
+      if (r.key) { const k = document.createElement('i'); k.className = 'key ' + r.key; s.appendChild(k); }
+      s.appendChild(document.createTextNode(r.label));
+      const b = document.createElement('b'); b.textContent = r.value;
+      d.appendChild(s); d.appendChild(b); tip.appendChild(d);
+    });
+  }
+
+  const dayLabel = d => 'Dag ' + d + ' · månad ' + nf(d / 21, 1);
+  const tMargin = W => ({ t: 14, r: W >= 600 ? 118 : 14, b: 30, l: 50 });
+
+  // ---------- chart 1: one path ----------
+  function drawPath(c) {
+    const world = S.genWorld(c.m, DAYS, S.mulberry32(seed * 104729 + 13));
+    const a = S.runTrader(world, c.today).wealth, b = S.runTrader(world, c.rules).wealth;
+    const f = frame($('pathPlot'), 340, tMargin);
+    const dom = logDomain([a, b]);
+    const ys = logScale(dom[0], dom[1], f.y0, f.y1);
+    const xsBand = d => f.x0 + (d / DAYS) * (f.x1 - f.x0);
+    let start = -1;
+    for (let d = 0; d <= DAYS; d++) {
+      const h = d < DAYS && world.hot[d];
+      if (h && start < 0) start = d;
+      if (!h && start >= 0) { el('rect', { x: xsBand(start), y: f.y0, width: Math.max(1, xsBand(d) - xsBand(start)), height: f.y1 - f.y0, class: 'hot' }, f.svg); start = -1; }
+    }
+    const xs = timeAxes(f, dom, ys, DAYS);
+    el('path', { d: path(xs, ys, a, 1), class: 'ln today' }, f.svg);
+    el('path', { d: path(xs, ys, b, 1), class: 'ln rules' }, f.svg);
+    el('circle', { cx: xs(DAYS), cy: ys(a[DAYS]), r: 4, class: 'dot-today' }, f.svg);
+    el('circle', { cx: xs(DAYS), cy: ys(b[DAYS]), r: 4, class: 'dot-rules' }, f.svg);
+    endLabels(f, [{ y: ys(a[DAYS]), text: 'Idag ' + change(a[DAYS]) }, { y: ys(b[DAYS]), text: 'Regler ' + change(b[DAYS]) }]);
+    f.svg.setAttribute('aria-label', 'En simulerad tvåårsperiod. Du idag slutar på ' + change(a[DAYS]) + ', med reglerna ' + change(b[DAYS]) + '.');
+    let da, db;
+    const g = hover($('pathPlot'), f, DAYS, (t, tip, grp) => {
+      const d = Math.round(t * DAYS);
+      if (!da) { da = el('circle', { r: 4, class: 'dot-today' }, grp); db = el('circle', { r: 4, class: 'dot-rules' }, grp); }
+      da.setAttribute('cx', xs(d)); da.setAttribute('cy', ys(a[d]));
+      db.setAttribute('cx', xs(d)); db.setAttribute('cy', ys(b[d]));
+      tipRows(tip, dayLabel(d) + (d < DAYS && world.hot[d] ? ' · varm' : ' · kall'), [
+        { key: 'today', label: 'Du idag', value: mult(a[d]) },
+        { key: 'rules', label: 'Med reglerna', value: mult(b[d]) }
+      ]);
+      return d / DAYS;
+    });
+  }
+
+  // ---------- chart 2: fan ----------
+  function drawFan(mc) {
+    const f = frame($('fanPlot'), 340, tMargin);
+    const A = mc[0].band, B = mc[1].band, step = mc[0].step, n = A.p50.length;
+    const dom = logDomain([A.p10, A.p90, B.p10, B.p90]);
+    const ys = logScale(dom[0], dom[1], f.y0, f.y1);
+    const xs = timeAxes(f, dom, ys, DAYS);
+    const area = band => {
+      let d = '';
+      for (let i = 0; i < n; i++) d += (i ? 'L' : 'M') + xs(i * step).toFixed(1) + ' ' + ys(band.p90[i]).toFixed(1);
+      for (let i = n - 1; i >= 0; i--) d += 'L' + xs(i * step).toFixed(1) + ' ' + ys(band.p10[i]).toFixed(1);
+      return d + 'Z';
+    };
+    el('path', { d: area(A), class: 'fill-today' }, f.svg);
+    el('path', { d: area(B), class: 'fill-rules' }, f.svg);
+    el('path', { d: path(xs, ys, A.p50, step), class: 'ln today' }, f.svg);
+    el('path', { d: path(xs, ys, B.p50, step), class: 'ln rules' }, f.svg);
+    el('circle', { cx: xs(DAYS), cy: ys(A.p50[n - 1]), r: 4, class: 'dot-today' }, f.svg);
+    el('circle', { cx: xs(DAYS), cy: ys(B.p50[n - 1]), r: 4, class: 'dot-rules' }, f.svg);
+    endLabels(f, [{ y: ys(A.p50[n - 1]), text: 'Idag ' + change(A.p50[n - 1]) }, { y: ys(B.p50[n - 1]), text: 'Regler ' + change(B.p50[n - 1]) }]);
+    f.svg.setAttribute('aria-label', 'Median och 10–90 percentil över 500 simuleringar.');
+    hover($('fanPlot'), f, DAYS, (t, tip) => {
+      const i = Math.round(t * (n - 1));
+      tipRows(tip, dayLabel(i * step), [
+        { key: 'today', label: 'Idag, median', value: mult(A.p50[i]) },
+        { label: '10–90', value: mult(A.p10[i]) + ' – ' + mult(A.p90[i]) },
+        { key: 'rules', label: 'Regler, median', value: mult(B.p50[i]) },
+        { label: '10–90', value: mult(B.p10[i]) + ' – ' + mult(B.p90[i]) }
+      ]);
+      return i / (n - 1);
+    });
+  }
+
+  // ---------- chart 3: Kelly ----------
+  function drawKelly(c) {
+    const FMAX = 0.16, N = 96;
+    const pts = S.kellyCurves(c.m, FMAX, N);
+    const g100 = g => Math.exp(100 * g) - 1;
+    const all = pts.map(p => g100(p.always)), hot = pts.map(p => g100(p.hotOnly));
+    const f = frame($('kellyPlot'), 320, W => ({ t: 44, r: 16, b: 46, l: 54 }));
+    let lo = Math.min(-0.1, Math.min.apply(null, all), Math.min.apply(null, hot));
+    let hi = Math.max(0.1, Math.max.apply(null, all), Math.max.apply(null, hot));
+    lo = Math.max(lo, -1); hi = Math.min(hi, 6);
+    const pad = (hi - lo) * 0.06; lo -= pad; hi += pad;
+    const ys = v => f.y1 - ((Math.min(Math.max(v, lo), hi) - lo) / (hi - lo)) * (f.y1 - f.y0);
+    const xs = fr => f.x0 + (fr / FMAX) * (f.x1 - f.x0);
+    const span = hi - lo, stepY = span > 3 ? 1 : span > 1.4 ? 0.5 : 0.25;
+    for (let t = Math.ceil(lo / stepY) * stepY; t <= hi + 1e-9; t += stepY) {
+      const y = ys(t), zero = Math.abs(t) < 1e-9;
+      el('line', { x1: f.x0, x2: f.x1, y1: y, y2: y, class: zero ? 'base' : 'grid' }, f.svg);
+      el('text', { x: f.x0 - 8, y: y + 4, 'text-anchor': 'end' }, f.svg, zero ? '0 %' : signedPct(t));
+    }
+    for (let p = 0; p <= 16; p += (f.W < 520 ? 4 : 2)) {
+      el('text', { x: xs(p / 100), y: f.y1 + 18, 'text-anchor': p === 0 ? 'start' : p === 16 ? 'end' : 'middle' }, f.svg, p + ' %');
+    }
+    el('text', { x: (f.x0 + f.x1) / 2, y: f.y1 + 36, 'text-anchor': 'middle' }, f.svg, 'risk per trade');
+    const line = arr => arr.map((v, i) => (i ? 'L' : 'M') + xs(pts[i].f).toFixed(1) + ' ' + ys(v).toFixed(1)).join('');
+    el('path', { d: line(all), class: 'ln kall' }, f.svg);
+    el('path', { d: line(hot), class: 'ln khot' }, f.svg);
+    // where each trader sits
+    [[c.today.risk, 'today', 'Du idag ' + nf(c.today.risk * 100, 1) + ' %', 14], [c.rules.risk, 'rules', 'Reglerna ' + nf(c.rules.risk * 100, 2) + ' %', 30]].forEach(a => {
+      if (a[0] > FMAX) return;
+      const x = xs(a[0]);
+      el('line', { x1: x, x2: x, y1: a[3] + 5, y2: f.y1, class: 'mark ' + a[1] }, f.svg);
+      const right = x > f.W * 0.62;
+      el('text', { x: right ? x - 6 : x + 6, y: a[3] + 4, 'text-anchor': right ? 'end' : 'start', class: 'lbl' }, f.svg, a[2]);
+    });
+    f.svg.setAttribute('aria-label', 'Förväntad tillväxt per 100 setups som funktion av risk per trade.');
+    hover($('kellyPlot'), f, 1, (t, tip) => {
+      const i = Math.round(t * N);
+      tipRows(tip, 'Risk ' + nf(pts[i].f * 100, 2) + ' % per trade', [
+        { key: 'kall', label: 'Alla setups', value: signedPct(all[i]) },
+        { key: 'khot', label: 'Bara varm regim', value: signedPct(hot[i]) }
+      ]);
+      return i / N;
+    });
+  }
+
+  // ---------- summary ----------
+  function drawStats(mc, e) {
+    const body = $('statBody');
+    body.textContent = '';
+    [['Du idag', 'today', mc[0]], ['Med reglerna', 'rules', mc[1]]].forEach(row => {
+      const r = row[2], tr = document.createElement('tr');
+      const who = document.createElement('td'); who.className = 'who';
+      const k = document.createElement('i'); k.className = 'key ' + row[1]; who.appendChild(k); who.appendChild(document.createTextNode(row[0]));
+      tr.appendChild(who);
+      const n = r.band.p50.length - 1;
+      [[change(r.medFinal), change(r.band.p10[n]) + ' till ' + change(r.band.p90[n])], [pct(r.pBelow), 'av 500 marknader'],
+       ['−' + nf(r.medMaxDD * 100, 0) + ' %', pct(r.pHalved) + ' halverar kontot'], [signedPct(r.medBest15), 'bästa 15 handelsdagarna']].forEach(c => {
+        const td = document.createElement('td');
+        const a = document.createElement('span'); a.className = 'num'; a.textContent = c[0];
+        const b = document.createElement('span'); b.className = 'rng'; b.textContent = c[1];
+        td.appendChild(a); td.appendChild(b); tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+    const A = mc[0], B = mc[1], v = $('verdict');
+    v.textContent = '';
+    const add = (t, bold) => { const n = bold ? document.createElement('b') : document.createTextNode(t); if (bold) n.textContent = t; v.appendChild(n); };
+    add('Med dagens size ger den bästa treveckorsperioden typiskt ');
+    add(signedPct(A.medBest15), true);
+    add(', och ändå slutar mediankontot på ');
+    add(change(A.medFinal), true);
+    add(' efter två år. Med reglerna blir den bästa perioden bara ' + signedPct(B.medBest15) + ', största nedgången −' + nf(B.medMaxDD * 100, 0) + ' % i stället för −' + nf(A.medMaxDD * 100, 0) + ' %, och medianen landar på ');
+    add(change(B.medFinal), true);
+    add('. ');
+    if (e.eh <= 0.02) add('Utan edge i varm regim tjänar ingen av dem pengar. Reglerna gör bara att du förlorar långsammare, och då är det setupsen som måste bytas, inte sizingen.');
+    else if (B.medFinal < 1.03) add('Reglerna stoppar blödningen men skapar ingen avkastning av sig själva. Den måste komma från bättre urval av setups.');
+    else add('Avkastningen kommer från de varma perioderna. Reglerna ser till att den finns kvar när de är över.');
+  }
+
+  // ---------- wiring ----------
+  function recompute(full) {
+    const c = read();
+    const e = outputs(c);
+    if (full) {
+      last = S.monteCarlo(c.m, [c.today, c.rules], DAYS, PATHS, MC_SEED, 4);
+      last.e = e;
+    }
+    drawStats(last, last.e);
+    drawPath(c);
+    drawFan(last);
+    drawKelly(c);
+  }
+
+  let raf = 0;
+  const schedule = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => recompute(true)); };
+  const PRESETS = {
+    presetEdge: { hotWin: 50, hotAvg: 2.2, coldWin: 41, coldAvg: 1.35 },
+    presetNone: { hotWin: 40, hotAvg: 1.65, coldWin: 40, coldAvg: 1.5 }
+  };
+  function setPreset(id) {
+    Object.keys(PRESETS).forEach(k => $(k).setAttribute('aria-pressed', String(k === id)));
+    if (id) { const p = PRESETS[id]; Object.keys(p).forEach(k => { $(k).value = p[k]; }); }
+  }
+  document.querySelectorAll('.rail input').forEach(inp => inp.addEventListener('input', () => {
+    if (['hotWin', 'hotAvg', 'coldWin', 'coldAvg'].indexOf(inp.id) >= 0) setPreset(null);
+    schedule();
+  }));
+  $('presetEdge').addEventListener('click', () => { setPreset('presetEdge'); schedule(); });
+  $('presetNone').addEventListener('click', () => { setPreset('presetNone'); $('adv').open = true; schedule(); });
+  $('reseed').addEventListener('click', () => { seed++; recompute(false); });
+  let lastW = 0;
+  new ResizeObserver(() => {
+    const w = $('pathPlot').clientWidth;
+    if (last && Math.abs(w - lastW) > 2) { lastW = w; recompute(false); }
+  }).observe($('pathPlot'));
+
+  recompute(true);
+  lastW = $('pathPlot').clientWidth;
+})();
+</script>
