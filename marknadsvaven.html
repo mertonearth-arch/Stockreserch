@@ -1,0 +1,564 @@
+<title>Marknadsväven</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: masthead, scenario strip, then a 3D stage beside a reading panel; stacks to one column on phones.
+   Tokens are shared with Cadence Desk so the two pages read as one desk. */
+:root{
+  --ground:#EEF0F4; --surface:#FFFFFF; --surface-2:#F6F7F9; --line:#D8DCE4; --line-soft:#E6E9EF;
+  --ink:#161B24; --ink-2:#4A5364; --ink-3:#7C8698; --ink-4:#A3ABB9;
+  --accent:#9A6612; --accent-soft:#F0E2C6; --accent-line:#C99A3A;
+  --up:#1C6B52; --up-soft:#D6EBE2; --down:#A5342C; --down-soft:#F3DAD7;
+  --node:#8A93A3; --stage:#F3F4F7;
+  --radius:3px; --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --cond:'IBM Plex Sans Condensed','IBM Plex Sans',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0E1218; --surface:#151A22; --surface-2:#1B212B; --line:#2A323E; --line-soft:#222932;
+  --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
+  --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
+  --up:#4FB68C; --up-soft:#16332A; --down:#E4776B; --down-soft:#3A1F1D;
+  --node:#6C7686; --stage:#10151C; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --ground:#0E1218; --surface:#151A22; --surface-2:#1B212B; --line:#2A323E; --line-soft:#222932;
+  --ink:#E4E8EF; --ink-2:#A8B2C1; --ink-3:#7A8494; --ink-4:#5A6474;
+  --accent:#DFA943; --accent-soft:#3A2E17; --accent-line:#8A6A28;
+  --up:#4FB68C; --up-soft:#16332A; --down:#E4776B; --down-soft:#3A1F1D;
+  --node:#6C7686; --stage:#10151C; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
+.wrap{max-width:1440px;margin:0 auto;padding-block:24px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:16px}
+h1,h2,h3{font-family:var(--cond);margin:0;text-wrap:balance;letter-spacing:.01em}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent-line);outline-offset:2px}
+
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px 32px;padding-bottom:14px;border-bottom:2px solid var(--ink)}
+.mast h1{font-size:34px;font-weight:700;line-height:1;letter-spacing:-.015em}
+.mast p{margin:0;color:var(--ink-2);font-size:13px;max-width:62ch}
+
+.strip{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.strip .lab{font-size:11.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-3);font-weight:600;margin-right:6px}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:5px 10px;
+  font-size:12.5px;cursor:pointer;white-space:nowrap}
+.chip:hover{border-color:var(--accent-line)}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent-line);color:var(--ink)}
+.chip i{font-style:normal;font-family:var(--mono);font-size:11px;margin-right:4px}
+.chip i.u{color:var(--up)} .chip i.d{color:var(--down)}
+
+.main{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:16px;align-items:start}
+.stage{position:relative;background:var(--stage);border:1px solid var(--line);border-radius:var(--radius);
+  height:clamp(460px,74vh,820px);overflow:hidden;min-width:0}
+.stage canvas{display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+.stage canvas:active{cursor:grabbing}
+.labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.nl{position:absolute;left:0;top:0;pointer-events:auto;background:none;border:0;padding:1px 4px;cursor:pointer;
+  font-family:var(--cond);font-weight:600;font-size:12.5px;line-height:1.2;color:var(--ink);white-space:nowrap;
+  text-shadow:0 0 3px var(--stage),0 0 3px var(--stage),0 0 6px var(--stage);will-change:transform}
+.nl b{font-family:var(--mono);font-size:10px;margin-left:3px;font-weight:600}
+.nl.up b{color:var(--up)} .nl.down b{color:var(--down)}
+.nl.sel{color:var(--accent)}
+.nl.dim{color:var(--ink-3);font-weight:500}
+.layers{position:absolute;left:12px;top:10px;margin:0;padding:0;list-style:none;font-family:var(--mono);font-size:10.5px;
+  color:var(--ink-3);line-height:1.75;pointer-events:none}
+.layers li::before{content:"";display:inline-block;width:14px;border-top:1px solid var(--ink-4);vertical-align:middle;margin-right:6px}
+.layers li:first-child::before{display:none}
+.layers li:first-child{text-transform:uppercase;letter-spacing:.09em;font-family:var(--sans);font-weight:600;font-size:10.5px}
+.key{position:absolute;left:12px;bottom:10px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:11.5px;color:var(--ink-2);pointer-events:none;
+  max-width:calc(100% - 24px)}
+.key span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.key .sw{width:9px;height:9px;border-radius:50%}
+.hint{position:absolute;right:12px;top:10px;font-size:11.5px;color:var(--ink-3);pointer-events:none;text-align:right}
+.nogl{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;color:var(--ink-2)}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 20px;min-width:0;
+  display:flex;flex-direction:column;gap:14px}
+.panel .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-3);font-weight:600}
+.panel h2{font-size:22px;font-weight:600;line-height:1.15}
+.panel p{margin:0;color:var(--ink-2);font-size:13px}
+.ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.btn{border:1px solid var(--line);background:var(--surface-2);border-radius:var(--radius);padding:6px 11px;cursor:pointer;font-size:13px;font-weight:500}
+.btn:hover{border-color:var(--ink-3)}
+.btn.up[aria-pressed="true"]{background:var(--up-soft);border-color:var(--up);color:var(--up)}
+.btn.down[aria-pressed="true"]{background:var(--down-soft);border-color:var(--down);color:var(--down)}
+.steps{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ink-3)}
+.steps .seg{display:inline-flex}
+.steps button{border:1px solid var(--line);background:var(--surface);padding:3px 8px;font-family:var(--mono);font-size:11.5px;cursor:pointer;margin-left:-1px}
+.steps button[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.sub{font-size:11.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-3);font-weight:600;margin:4px 0 0}
+.fx,.links{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.fx li{border-top:1px solid var(--line-soft);padding:7px 0}
+.fx button{display:grid;grid-template-columns:minmax(0,1fr) 70px 22px;gap:8px;align-items:center;width:100%;background:none;border:0;padding:0;
+  text-align:left;cursor:pointer}
+.fx .nm{font-weight:600;font-size:13px;min-width:0}
+.fx .bar{height:6px;background:var(--line-soft);border-radius:1px;position:relative}
+.fx .bar i{position:absolute;top:0;bottom:0;border-radius:1px}
+.fx .bar i.u{left:50%;background:var(--up)} .fx .bar i.d{right:50%;background:var(--down)}
+.fx .bar::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;border-left:1px solid var(--ink-4)}
+.fx .ar{font-family:var(--mono);font-size:11px;text-align:right}
+.fx .ar.u{color:var(--up)} .fx .ar.d{color:var(--down)}
+.fx .path{font-size:11.5px;color:var(--ink-3);margin-top:2px;overflow-wrap:anywhere}
+.fx .mix{color:var(--accent);font-weight:500}
+.links li{border-top:1px solid var(--line-soft);padding:7px 0;font-size:12.5px;color:var(--ink-2)}
+.links li b{color:var(--ink);font-weight:600}
+.links .sg{font-family:var(--mono);font-size:11px;margin-right:5px}
+.links .sg.u{color:var(--up)} .links .sg.d{color:var(--down)}
+.links button{background:none;border:0;padding:0;cursor:pointer;font-weight:600;color:var(--ink);text-decoration:underline;
+  text-decoration-color:var(--line);text-underline-offset:3px}
+.note{font-size:12.5px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-left:2px solid var(--accent);
+  border-radius:0 var(--radius) var(--radius) 0;padding:10px 14px;max-width:110ch}
+.note b{color:var(--ink)}
+
+@media (max-width:980px){
+  .main{grid-template-columns:minmax(0,1fr)}
+  .stage{height:clamp(380px,58vh,560px)}
+  .mast h1{font-size:28px}
+  .hint{display:none}
+  .nl{font-size:11px}
+}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <h1>Marknadsväven</h1>
+    <p>Hur räntor, valutor, råvaror, kredit och aktier hänger ihop. Välj en nod, låt den stiga eller falla, och följ hur stöten sprider sig led för led.</p>
+  </header>
+
+  <div class="strip" id="scenarios"><span class="lab">Scenarier</span></div>
+
+  <div class="main">
+    <div class="stage" id="stage">
+      <canvas id="gl" aria-label="3D-karta över finansiella samband"></canvas>
+      <div class="labels" id="labels"></div>
+      <ul class="layers">
+        <li>Nivåer, uppifrån</li>
+        <li>Policy &amp; makro</li>
+        <li>Pengar &amp; kredit</li>
+        <li>Marknader</li>
+        <li>Realekonomi</li>
+      </ul>
+      <div class="hint">Dra för att rotera · scrolla för att zooma</div>
+      <div class="key">
+        <span><i class="sw" style="background:var(--up)"></i>stiger ▲</span>
+        <span><i class="sw" style="background:var(--down)"></i>faller ▼</span>
+        <span><i class="sw" style="background:var(--accent)"></i>vald nod</span>
+        <span>pilen pekar på den som påverkas</span>
+      </div>
+    </div>
+
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <p class="note"><b>Läs detta som en lärobokskarta, inte som en prognos.</b> Riktning och styrka i varje samband är tumregler, inte skattade ur data. Verkliga samband byter tecken med regimen: aktier och obligationer föll till exempel tillsammans 2022, och dollarn stiger ibland på goda nyheter och ibland på dåliga. Modellen säger inget om hur stor en rörelse blir eller när den kommer.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(function(){
+'use strict';
+
+/* ---------- Model ---------- */
+const LAYERS = ['Policy & makro','Pengar & kredit','Marknader','Realekonomi'];
+const NODES = [
+  ['rate','Styrränta',0,'Centralbankens ränta. Priset på pengar över natten och startpunkten för nästan alla andra räntor.'],
+  ['infl','Inflation',0,'Takten som priserna stiger i. Det centralbanken styr mot, och det som urholkar fasta kassaflöden.'],
+  ['gdp','BNP-tillväxt',0,'Hur fort ekonomin växer. Bestämmer bolagens försäljning och hur många som går i konkurs.'],
+  ['jobs','Arbetsmarknad',0,'Sysselsättning och löner. Hushållens viktigaste inkomstkälla.'],
+  ['fiscal','Statens underskott',0,'Hur mycket staten spenderar utöver sina intäkter. Måste finansieras med nya obligationer.'],
+  ['geo','Geopolitisk oro',0,'Krig, sanktioner och handelskonflikter. Slår mot energi, handel och riskvilja.'],
+
+  ['y10','Långa räntor (10 år)',1,'Avkastningen på tioåriga statsobligationer. Diskonteringsräntan som alla andra tillgångar värderas mot.'],
+  ['liq','Likviditet (QE/QT)',1,'Mängden pengar i systemet. Stiger när centralbanker köper obligationer, faller när de krymper balansräkningen.'],
+  ['spread','Kreditspreadar',1,'Extra ränta som bolag betalar jämfört med staten. Marknadens pris på konkursrisk.'],
+  ['banks','Bankernas utlåning',1,'Hur villigt bankerna lånar ut. Kranen som förser hushåll och företag med kredit.'],
+  ['usd','Dollarn',1,'Världens reservvaluta. Råvaror prissätts i den och mycket av världens skuld är utställd i den.'],
+  ['vix','Volatilitet (VIX)',1,'Förväntad svängning på börsen, utläst ur optionspriser. Ett mått på rädsla.'],
+
+  ['spx','Aktier brett (S&P 500)',2,'Det breda amerikanska aktieindexet. Sätter tonen för börser världen över.'],
+  ['tech','Tillväxt & tech',2,'Bolag vars vinster ligger långt fram i tiden. Särskilt känsliga för räntan.'],
+  ['cyc','Cykliska & värde',2,'Verkstad, bank, råvaror. Följer konjunkturen tätt.'],
+  ['small','Småbolag',2,'Mindre bolag med svagare balansräkningar och mer rörlig skuld.'],
+  ['omx','Stockholmsbörsen',2,'Exporttung börs med mycket verkstad, bank och fastigheter. Följer Wall Street och konjunkturen.'],
+  ['em','Tillväxtmarknader',2,'Aktier och valutor i länder som ofta lånar i dollar och säljer råvaror.'],
+  ['hy','Högränteobligationer',2,'Obligationer från bolag med lågt kreditbetyg. Beter sig mer som aktier än som statspapper.'],
+  ['re','Fastigheter',2,'Högt belånad tillgång. Värdet styrs av räntan och tillgången på banklån.'],
+  ['gold','Guld',2,'Ger ingen ränta, men behåller sitt värde. Köps vid oro och när realräntan faller.'],
+  ['oil','Olja',2,'Världens viktigaste insatsvara. Prissätts i dollar och rör sig med konjunktur och konflikter.'],
+  ['copper','Koppar',2,'Används i byggen, elnät och fabriker. Priset läses ofta som en konjunkturmätare.'],
+  ['btc','Krypto',2,'Beter sig som en hävstång på riskvilja och likviditet.'],
+  ['sek','Kronan (SEK)',2,'Liten, konjunkturkänslig valuta. Säljs när marknaden blir rädd.'],
+
+  ['eps','Företagsvinster',3,'Det aktieägare i slutänden betalar för. Följer försäljning, marginaler och räntekostnader.'],
+  ['cons','Konsumtion',3,'Hushållens utgifter. Den största delen av BNP i de flesta länder.'],
+  ['wealth','Hushållens förmögenhet',3,'Värdet på bostäder, aktier och sparande. Styr hur rika hushållen känner sig.'],
+  ['capex','Investeringar',3,'Företagens satsningar på fabriker, maskiner och teknik.']
+].map(([id,name,layer,desc],i)=>({id,name,layer,desc,i}));
+const BY = Object.fromEntries(NODES.map(n=>[n.id,n]));
+
+// [från, till, tecken, styrka, mekanism]. Texten beskriver vad som händer när "från" stiger.
+const EDGES = [
+  ['rate','y10',1,.6,'Högre styrränta lyfter hela räntekurvan.'],
+  ['rate','usd',1,.6,'Högre ränta drar kapital till valutan.'],
+  ['rate','banks',-1,.5,'Dyrare pengar bromsar efterfrågan på lån.'],
+  ['rate','infl',-1,.4,'Åtstramning dämpar efterfrågan och priser, med ett till två års fördröjning.'],
+  ['rate','gdp',-1,.4,'Högre räntekostnader bromsar tillväxten.'],
+  ['rate','re',-1,.7,'Fastigheter är belånade, så räntan slår direkt mot kalkyler och värderingar.'],
+  ['rate','tech',-1,.6,'Vinster långt fram i tiden diskonteras hårdare.'],
+  ['rate','small',-1,.5,'Småbolag har mer rörlig skuld och kortare löptider.'],
+  ['rate','cons',-1,.4,'Bolån och krediter tar en större del av hushållens inkomst.'],
+  ['infl','rate',1,.8,'Centralbanken höjer när inflationen ligger över målet.'],
+  ['infl','y10',1,.6,'Investerare kräver kompensation för urholkad köpkraft.'],
+  ['infl','gold',1,.4,'Guld köps som skydd när pengar tappar värde.'],
+  ['infl','cons',-1,.4,'Reallönerna krymper.'],
+  ['infl','eps',-1,.3,'Kostnaderna stiger ofta snabbare än bolagen hinner höja priserna.'],
+  ['gdp','eps',1,.8,'Mer försäljning ger högre vinster.'],
+  ['gdp','jobs',1,.6,'Företag anställer när efterfrågan växer.'],
+  ['gdp','oil',1,.5,'Mer produktion och transporter kräver mer energi.'],
+  ['gdp','copper',1,.6,'Byggen och fabriker drar metall.'],
+  ['gdp','cyc',1,.6,'Cykliska bolag tjänar mest när konjunkturen är stark.'],
+  ['gdp','spread',-1,.5,'Färre konkurser väntas, så kreditrisken prissätts lägre.'],
+  ['gdp','infl',1,.4,'En het ekonomi pressar upp priser och löner.'],
+  ['jobs','cons',1,.7,'Fler i arbete och högre löner ger mer att spendera.'],
+  ['jobs','infl',1,.4,'Brist på arbetskraft driver löner och därmed priser.'],
+  ['jobs','rate',1,.3,'En stark arbetsmarknad ger centralbanken utrymme att strama åt.'],
+  ['fiscal','y10',1,.5,'Fler obligationer ska säljas, och köparna kräver högre ränta.'],
+  ['fiscal','gdp',1,.4,'Offentliga utgifter och skattesänkningar ökar efterfrågan.'],
+  ['fiscal','infl',1,.3,'Stimulans i en ekonomi utan ledig kapacitet höjer priserna.'],
+  ['geo','oil',1,.6,'Hot mot produktion och transportleder höjer riskpåslaget.'],
+  ['geo','vix',1,.6,'Osäkerhet gör optioner dyrare.'],
+  ['geo','gold',1,.6,'Kapital söker sig till säkra tillgångar.'],
+  ['geo','usd',1,.4,'Dollarn fungerar som tillflyktsvaluta.'],
+  ['geo','em',-1,.4,'Kapital lämnar de marknader som uppfattas som mest riskfyllda.'],
+  ['y10','spx',-1,.5,'Högre riskfri ränta sänker nuvärdet av framtida vinster och konkurrerar med aktier om kapitalet.'],
+  ['y10','tech',-1,.7,'Bolag med vinsterna långt fram har längst duration och tappar mest.'],
+  ['y10','re',-1,.7,'Avkastningskraven på fastigheter följer långräntan uppåt.'],
+  ['y10','gold',-1,.5,'Guld ger ingen ränta, så alternativkostnaden stiger.'],
+  ['y10','usd',1,.4,'Högre amerikansk ränta lockar utländskt kapital.'],
+  ['y10','hy',-1,.4,'Obligationspriser faller när räntan stiger.'],
+  ['y10','fiscal',1,.3,'Räntekostnaden på statsskulden växer.'],
+  ['liq','spx',1,.6,'Mer pengar jagar samma tillgångar.'],
+  ['liq','btc',1,.7,'Krypto är den tillgång som reagerar starkast på överskottslikviditet.'],
+  ['liq','tech',1,.5,'Billigt kapital söker sig till tillväxt.'],
+  ['liq','spread',-1,.5,'Gott om pengar gör det lätt att refinansiera, så kreditrisken sjunker.'],
+  ['liq','y10',-1,.4,'Centralbankens obligationsköp pressar räntan.'],
+  ['spread','hy',-1,.9,'Bredare spread betyder per definition lägre obligationspris.'],
+  ['spread','banks',-1,.6,'Bankerna stramar åt när kreditförlusterna väntas öka.'],
+  ['spread','small',-1,.6,'Småbolag är mest beroende av att kunna låna.'],
+  ['spread','spx',-1,.5,'Kreditmarknaden varnar ofta före aktiemarknaden.'],
+  ['spread','capex',-1,.5,'Dyrare finansiering gör färre projekt lönsamma.'],
+  ['spread','vix',1,.4,'Kreditstress smittar till aktieoptioner.'],
+  ['banks','capex',1,.6,'Företag investerar när de får låna.'],
+  ['banks','cons',1,.4,'Kredit till hushållen blir köpkraft.'],
+  ['banks','re',1,.6,'Fastighetsköp finansieras till största delen med banklån.'],
+  ['banks','gdp',1,.4,'Kredit är bränsle för tillväxt.'],
+  ['usd','em',-1,.7,'Dollarskulder blir tyngre att betala och kapital flödar hem till USA.'],
+  ['usd','gold',-1,.5,'Guld prissätts i dollar och blir dyrare för alla andra.'],
+  ['usd','oil',-1,.4,'Olja prissätts i dollar, så en dyrare dollar dämpar efterfrågan.'],
+  ['usd','copper',-1,.4,'Samma mekanism som för olja.'],
+  ['usd','sek',-1,.7,'Kronan försvagas nästan mekaniskt när dollarn stärks brett.'],
+  ['usd','eps',-1,.3,'Amerikanska bolags utlandsvinster blir mindre värda i dollar.'],
+  ['usd','btc',-1,.3,'En stark dollar går ofta hand i hand med stramare global likviditet.'],
+  ['vix','spx',-1,.7,'Fonder som styr på risk säljer aktier när svängningarna ökar.'],
+  ['vix','spread',1,.5,'Rädsla på börsen smittar till kreditmarknaden.'],
+  ['vix','small',-1,.5,'Mindre och mer illikvida aktier säljs först.'],
+  ['vix','btc',-1,.5,'Spekulativa positioner stängs.'],
+  ['vix','usd',1,.3,'Flykt till säkerhet.'],
+  ['vix','em',-1,.5,'Riskkapital dras hem.'],
+  ['vix','sek',-1,.5,'Små valutor säljs när marknaden blir rädd.'],
+  ['spx','wealth',1,.7,'Aktier och fonder är en stor del av hushållens sparande.'],
+  ['spx','omx',1,.8,'Stockholm följer Wall Street nästan dag för dag.'],
+  ['spx','vix',-1,.6,'Volatiliteten faller när börsen stiger och rusar när den faller.'],
+  ['spx','em',1,.4,'Global riskvilja spiller över.'],
+  ['spx','small',1,.6,'Småbolag följer det breda indexet, med större utslag.'],
+  ['spx','btc',1,.4,'Samma riskaptit driver båda.'],
+  ['spx','capex',1,.3,'Höga värderingar gör det billigt att ta in eget kapital.'],
+  ['tech','spx',1,.7,'Teknikbolagen väger tyngst i index.'],
+  ['cyc','spx',1,.4,'Cykliska sektorer är en stor del av index.'],
+  ['cyc','omx',1,.5,'Verkstad och bank dominerar Stockholmsbörsen.'],
+  ['oil','infl',1,.6,'Energi går in i priset på nästan allt.'],
+  ['oil','cons',-1,.4,'Dyrare bensin och el lämnar mindre över till annat.'],
+  ['copper','em',1,.3,'Många tillväxtländer lever på råvaruexport.'],
+  ['re','wealth',1,.6,'Bostaden är de flesta hushålls största tillgång.'],
+  ['re','banks',1,.4,'Stigande värden på säkerheterna gör bankerna mer villiga att låna ut.'],
+  ['sek','omx',-1,.4,'En starkare krona krymper exportbolagens vinster räknat i kronor.'],
+  ['eps','spx',1,.9,'Aktiekurser följer vinsterna på sikt.'],
+  ['eps','capex',1,.6,'Vinster finansierar nya investeringar.'],
+  ['eps','jobs',1,.5,'Lönsamma företag anställer.'],
+  ['eps','spread',-1,.5,'Starkare kassaflöden gör skulderna säkrare.'],
+  ['eps','small',1,.5,'Småbolagens kurser är mest vinstkänsliga.'],
+  ['cons','eps',1,.7,'Hushållens utgifter är företagens intäkter.'],
+  ['cons','gdp',1,.8,'Konsumtionen är den största delen av BNP.'],
+  ['cons','infl',1,.3,'Stark efterfrågan låter företag höja priser.'],
+  ['wealth','cons',1,.5,'Hushåll som känner sig rikare spenderar mer.'],
+  ['capex','gdp',1,.6,'Investeringar räknas direkt in i BNP.'],
+  ['capex','copper',1,.4,'Fabriker, elnät och datacenter kräver metall.'],
+  ['capex','jobs',1,.4,'Nya anläggningar behöver bemannas.']
+].map(([a,b,s,w,t],k)=>({a:BY[a].i,b:BY[b].i,s,w,t,k}));
+
+const SCENARIOS = [
+  ['Räntehöjning','rate',1],['Räntesänkning','rate',-1],['Oljeprischock','oil',1],['Geopolitisk kris','geo',1],
+  ['Dollarn stärks','usd',1],['Kreditoro','spread',1],['Likviditetsflod','liq',1],['Vinstras','eps',-1]
+];
+
+/* ---------- Propagation ---------- */
+const N = NODES.length;
+function propagate(src, dir, K){
+  const deltas=[new Float32Array(N)]; deltas[0][src]=dir;
+  const pred=new Int16Array(N).fill(-1), arrive=new Int8Array(N).fill(-1); arrive[src]=0;
+  const pos=new Float32Array(N), neg=new Float32Array(N);
+  const act=[null];
+  for(let k=1;k<=K;k++){
+    const prev=deltas[k-1], d=new Float32Array(N), best=new Float32Array(N), on=new Uint8Array(EDGES.length);
+    for(const e of EDGES){
+      if(e.b===src) continue;
+      const c=prev[e.a]*e.s*e.w;
+      if(Math.abs(c)<0.03) continue;
+      on[e.k]=1; d[e.b]+=c;
+      if(c>0) pos[e.b]+=c; else neg[e.b]-=c;
+      if(arrive[e.b]<0||arrive[e.b]===k){ if(Math.abs(c)>best[e.b]){best[e.b]=Math.abs(c); if(arrive[e.b]<0||arrive[e.b]===k) pred[e.b]=e.a;} }
+    }
+    for(let j=0;j<N;j++) if(arrive[j]<0&&best[j]>0) arrive[j]=k;
+    deltas.push(d); act.push(on);
+  }
+  const total=new Float32Array(N);
+  for(const d of deltas) for(let j=0;j<N;j++) total[j]+=d[j];
+  return {src,dir,K,deltas,act,total,pred,arrive,pos,neg};
+}
+const squash=v=>Math.tanh(1.4*v);
+
+/* ---------- State ---------- */
+let selected=null, shock=null, K=3, shockT=0;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Panel ---------- */
+const panel=document.getElementById('panel');
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const arrow=v=>v>0?'▲':'▼';
+function pathText(r,j){
+  const chain=[]; let c=j, guard=0;
+  while(c>=0&&guard++<8){ chain.unshift(c); if(c===r.src) break; c=r.pred[c]; }
+  return chain.map(i=>esc(NODES[i].name)+' '+arrow(i===r.src?r.dir:r.total[i])).join(' → ');
+}
+function renderPanel(){
+  if(selected==null){
+    panel.innerHTML='<span class="eyebrow">Så fungerar det</span><h2>Välj en nod eller ett scenario</h2>'+
+      '<p>Kartan har fyra nivåer. Överst det som sätter spelreglerna: centralbanker, inflation, tillväxt. Därunder pengar och kredit, sedan marknaderna och längst ned realekonomin, som i sin tur matar tillbaka uppåt.</p>'+
+      '<p>Klicka på en nod för att se vad den påverkar och vad som påverkar den. Tryck sedan <b>Stiger</b> eller <b>Faller</b> för att skicka en stöt genom nätet.</p>'+
+      '<p class="sub">'+NODES.length+' noder · '+EDGES.length+' samband</p>';
+    return;
+  }
+  const n=NODES[selected]; let h='';
+  h+='<span class="eyebrow">'+esc(LAYERS[n.layer])+'</span><h2>'+esc(n.name)+'</h2><p>'+esc(n.desc)+'</p>';
+  h+='<div class="ctl"><button class="btn up" id="bUp" aria-pressed="'+(shock&&shock.dir>0)+'">▲ Stiger</button>'+
+     '<button class="btn down" id="bDn" aria-pressed="'+(shock&&shock.dir<0)+'">▼ Faller</button>'+
+     (shock?'<button class="btn" id="bClr">Nollställ</button>':'')+
+     '<span class="steps">Led<span class="seg">'+[1,2,3,4].map(k=>'<button data-k="'+k+'" aria-pressed="'+(k===K)+'">'+k+'</button>').join('')+'</span></span></div>';
+  if(shock){
+    const r=shock, rows=[];
+    for(let j=0;j<N;j++){ if(j===r.src) continue; const v=squash(r.total[j]); if(Math.abs(v)>=0.06) rows.push([j,v]); }
+    rows.sort((x,y)=>Math.abs(y[1])-Math.abs(x[1]));
+    h+='<p class="sub">Kedjereaktion · '+rows.length+' noder berörs inom '+K+' led</p><ul class="fx">';
+    for(const [j,v] of rows){
+      const mixed=Math.min(r.pos[j],r.neg[j])>0.12, w=Math.round(Math.abs(v)*50);
+      h+='<li><button data-n="'+j+'"><span class="nm">'+esc(NODES[j].name)+'</span>'+
+         '<span class="bar"><i class="'+(v>0?'u':'d')+'" style="width:'+w+'%"></i></span>'+
+         '<span class="ar '+(v>0?'u':'d')+'">'+arrow(v)+'</span></button>'+
+         '<div class="path">Led '+r.arrive[j]+': '+pathText(r,j)+(mixed?' <span class="mix">· motstridiga krafter, nettot är osäkert</span>':'')+'</div></li>';
+    }
+    h+='</ul>';
+  }
+  const out=EDGES.filter(e=>e.a===selected), inc=EDGES.filter(e=>e.b===selected);
+  const li=(e,other)=>'<li><span class="sg '+(e.s>0?'u':'d')+'">'+(e.s>0?'+':'−')+'</span><button data-n="'+other+'">'+esc(NODES[other].name)+'</button> '+
+    (e.s>0?'rör sig åt samma håll':'rör sig åt motsatt håll')+'. '+esc(e.t)+'</li>';
+  h+='<p class="sub">När '+esc(n.name.toLowerCase())+' stiger påverkas</p><ul class="links">'+(out.map(e=>li(e,e.b)).join('')||'<li>Inga utgående samband i modellen. Noden tar emot men skickar inte vidare.</li>')+'</ul>';
+  h+='<p class="sub">Påverkas av</p><ul class="links">'+inc.map(e=>li(e,e.a)).join('')+'</ul>';
+  panel.innerHTML=h;
+}
+panel.addEventListener('click',ev=>{
+  const b=ev.target.closest('button'); if(!b) return;
+  if(b.id==='bUp') setShock(selected,1);
+  else if(b.id==='bDn') setShock(selected,-1);
+  else if(b.id==='bClr'){ shock=null; syncChips(); renderPanel(); }
+  else if(b.dataset.k){ K=+b.dataset.k; if(shock) setShock(shock.src,shock.dir); else renderPanel(); }
+  else if(b.dataset.n!=null) select(+b.dataset.n);
+});
+
+const strip=document.getElementById('scenarios');
+SCENARIOS.forEach(([label,id,dir],i)=>{
+  const b=document.createElement('button'); b.className='chip'; b.id='sc'+i; b.setAttribute('aria-pressed','false');
+  b.innerHTML='<i class="'+(dir>0?'u':'d')+'">'+arrow(dir)+'</i>'+label;
+  b.onclick=()=>{ selected=BY[id].i; setShock(selected,dir); };
+  strip.appendChild(b);
+});
+function syncChips(){
+  SCENARIOS.forEach(([,id,dir],i)=>document.getElementById('sc'+i).setAttribute('aria-pressed', !!(shock&&shock.src===BY[id].i&&shock.dir===dir)));
+}
+function select(i){ if(selected===i) return; selected=i; shock=null; syncChips(); renderPanel(); }
+function setShock(i,dir){ selected=i; shock=propagate(i,dir,K); shockT=reduce?K+1:0; syncChips(); renderPanel(); }
+
+renderPanel();
+
+/* ---------- 3D ---------- */
+const stage=document.getElementById('stage'), canvas=document.getElementById('gl'), labelBox=document.getElementById('labels');
+let renderer;
+try{ if(!window.THREE) throw 0; renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true}); }
+catch(e){
+  canvas.hidden=true; const d=document.createElement('div'); d.className='nogl';
+  d.textContent='3D-vyn kunde inte starta i den här webbläsaren. Scenarierna och panelen fungerar ändå.'; stage.appendChild(d);
+  // Without the scene, give keyboard/mouse access to every node through the panel links.
+  if(selected==null){ selected=BY.rate.i; renderPanel(); }
+  return;
+}
+renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(42,1,0.1,400);
+const controls=new THREE.OrbitControls(camera,canvas);
+controls.enableDamping=true; controls.dampingFactor=.08; controls.enablePan=false;
+controls.minDistance=18; controls.maxDistance=110; controls.autoRotate=!reduce; controls.autoRotateSpeed=.55;
+canvas.addEventListener('pointerdown',()=>{controls.autoRotate=false;},{once:true});
+scene.add(new THREE.AmbientLight(0xffffff,.78));
+const sun=new THREE.DirectionalLight(0xffffff,.6); sun.position.set(12,30,20); scene.add(sun);
+
+const LY=[10.5,3.5,-3.5,-10.5], LR=[9,11.5,16,6.5], LOFF=[0.3,0.9,0.15,0.6];
+const perLayer=[0,1,2,3].map(l=>NODES.filter(n=>n.layer===l));
+const deg=new Array(N).fill(0); EDGES.forEach(e=>{deg[e.a]++;deg[e.b]++;});
+NODES.forEach(n=>{
+  const g=perLayer[n.layer], idx=g.indexOf(n), a=LOFF[n.layer]+idx/g.length*Math.PI*2;
+  n.pos=new THREE.Vector3(Math.cos(a)*LR[n.layer],LY[n.layer],Math.sin(a)*LR[n.layer]);
+  n.r=.5+Math.min(deg[n.i],14)*.035;
+});
+
+const C={}; // theme colours, refreshed from CSS tokens
+function readTheme(){
+  const cs=getComputedStyle(document.documentElement);
+  for(const k of ['up','down','accent','node','ink-3','ink-4','line']) C[k]=new THREE.Color(cs.getPropertyValue('--'+k).trim());
+  rings.forEach(r=>r.material.color.copy(C['line']));
+}
+const rings=LY.map((y,l)=>{
+  const pts=[]; for(let i=0;i<=96;i++){const a=i/96*Math.PI*2; pts.push(new THREE.Vector3(Math.cos(a)*LR[l],y,Math.sin(a)*LR[l]));}
+  const ln=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({transparent:true,opacity:.9}));
+  scene.add(ln); return ln;
+});
+
+const sphereGeo=new THREE.SphereGeometry(1,28,18);
+const meshes=NODES.map(n=>{
+  const m=new THREE.Mesh(sphereGeo,new THREE.MeshStandardMaterial({roughness:.55,metalness:.05}));
+  m.position.copy(n.pos); m.scale.setScalar(n.r); m.userData.i=n.i; scene.add(m); return m;
+});
+const halo=new THREE.Mesh(sphereGeo,new THREE.MeshBasicMaterial({transparent:true,opacity:.2,depthWrite:false})); halo.visible=false; scene.add(halo);
+
+const coneGeo=new THREE.ConeGeometry(.2,.62,10), pulseGeo=new THREE.SphereGeometry(.2,10,8), UPV=new THREE.Vector3(0,1,0);
+const edgeObjs=EDGES.map(e=>{
+  const A=NODES[e.a].pos, B=NODES[e.b].pos, dir=B.clone().sub(A).normalize();
+  const mat=new THREE.LineBasicMaterial({transparent:true,depthWrite:false});
+  const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints([A,B]),mat);
+  const cmat=new THREE.MeshBasicMaterial({transparent:true,depthWrite:false});
+  const cone=new THREE.Mesh(coneGeo,cmat);
+  cone.position.copy(B).addScaledVector(dir,-(NODES[e.b].r+.45)); cone.quaternion.setFromUnitVectors(UPV,dir);
+  const pulse=new THREE.Mesh(pulseGeo,new THREE.MeshBasicMaterial()); pulse.visible=false;
+  scene.add(line,cone,pulse); return {line,mat,cone,cmat,pulse};
+});
+readTheme();
+new MutationObserver(readTheme).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',readTheme);
+
+const labels=NODES.map(n=>{
+  const b=document.createElement('button'); b.className='nl'; b.id='nl-'+n.id; b.type='button';
+  b.innerHTML=esc(n.name)+'<b></b>'; b.onclick=()=>select(n.i); labelBox.appendChild(b);
+  return {el:b,mark:b.lastChild,state:''};
+});
+
+function fit(){
+  const w=stage.clientWidth,h=stage.clientHeight; if(!w||!h) return;
+  renderer.setSize(w,h,false); camera.aspect=w/h; camera.updateProjectionMatrix();
+}
+function frameCamera(){
+  const a=stage.clientWidth/stage.clientHeight, d=Math.max(46, 46/Math.min(a,1.25));
+  camera.position.set(0,d*.5,d).setLength(d); controls.target.set(0,-.5,0); controls.update();
+}
+fit(); frameCamera();
+new ResizeObserver(fit).observe(stage);
+
+// click-vs-drag picking
+const ray=new THREE.Raycaster(), ptr=new THREE.Vector2(); let down=null;
+canvas.addEventListener('pointerdown',e=>{down=[e.clientX,e.clientY];});
+canvas.addEventListener('pointerup',e=>{
+  if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6) return;
+  const r=canvas.getBoundingClientRect();
+  ptr.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);
+  ray.setFromCamera(ptr,camera); const hit=ray.intersectObjects(meshes)[0];
+  if(hit) select(hit.object.userData.i);
+});
+
+const sm=(a,b,x)=>{const t=Math.min(1,Math.max(0,(x-a)/(b-a)));return t*t*(3-2*t);};
+const tmp=new THREE.Vector3(), col=new THREE.Color(), val=new Float32Array(N);
+let last=performance.now();
+function tick(now){
+  requestAnimationFrame(tick);
+  const dt=Math.min(.05,(now-last)/1000); last=now;
+  if(shock&&shockT<shock.K+1) shockT=Math.min(shock.K+1,shockT+dt/1.05);
+  controls.update();
+
+  // node values at this moment of the animation
+  val.fill(0);
+  if(shock) for(let k=0;k<=shock.K;k++){ const g=k===0?1:sm(k-.12,k+.18,shockT); if(g>0){const d=shock.deltas[k]; for(let j=0;j<N;j++) val[j]+=d[j]*g;} }
+
+  const W=stage.clientWidth,H=stage.clientHeight, camDist=camera.position.distanceTo(controls.target);
+  for(const n of NODES){
+    const m=meshes[n.i], v=squash(val[n.i]), isSel=n.i===selected, mag=Math.abs(v);
+    let st='';
+    if(isSel&&!shock) col.copy(C.accent);
+    else if(mag>.05){ col.copy(C.node).lerp(v>0?C.up:C.down,Math.min(1,.35+mag*.9)); st=v>0?'up':'down'; }
+    else col.copy(C.node);
+    m.material.color.copy(col);
+    m.scale.setScalar(n.r*(1+mag*.55+(isSel?.15:0)));
+    // label
+    tmp.copy(n.pos).project(camera);
+    const L=labels[n.i], x=(tmp.x*.5+.5)*W, y=(-tmp.y*.5+.5)*H, depth=camera.position.distanceTo(n.pos)-camDist;
+    const related=selected==null||isSel||(shock?mag>.05:linked[n.i]);
+    L.el.style.transform='translate('+(x+ n.r*W/camDist*.9+4).toFixed(1)+'px,'+(y-9).toFixed(1)+'px)';
+    L.el.style.opacity=(related?1:.5)*(depth>6?.6:1);
+    L.el.style.zIndex=1000-Math.round(depth*10);
+    const cls=(isSel?'sel ':'')+(related?'':'dim ')+st;
+    if(cls!==L.state){ L.state=cls; L.el.className='nl '+cls; L.mark.textContent=st?(st==='up'?'▲':'▼'):''; }
+  }
+  if(selected!=null){ halo.visible=true; halo.position.copy(NODES[selected].pos); halo.scale.setScalar(meshes[selected].scale.x*1.9); halo.material.color.copy(C.accent); }
+  else halo.visible=false;
+
+  const step=shock?Math.floor(shockT)+1:0, frac=shockT-Math.floor(shockT);
+  for(const e of EDGES){
+    const o=edgeObjs[e.k]; let op=.3, c=C['ink-4'], pulse=false;
+    if(shock){
+      let fired=0; for(let k=1;k<=shock.K&&k<=shockT+1;k++) if(shock.act[k][e.k]){ fired=k; break; }
+      if(fired){
+        const sign=Math.sign(shock.deltas[fired-1][e.a]*e.s);
+        c=sign>0?C.up:C.down; op=fired<=shockT?.7:.4;
+        if(step<=shock.K&&shock.act[step][e.k]){ pulse=true; op=.95;
+          o.pulse.position.lerpVectors(NODES[e.a].pos,NODES[e.b].pos,frac); o.pulse.material.color.copy(Math.sign(shock.deltas[step-1][e.a]*e.s)>0?C.up:C.down); }
+      } else op=.05;
+    } else if(selected!=null){
+      if(e.a===selected){ c=e.s>0?C.up:C.down; op=.95; }
+      else if(e.b===selected){ c=C['ink-3']; op=.55; }
+      else op=.05;
+    }
+    o.mat.color.copy(c); o.mat.opacity=op; o.cmat.color.copy(c); o.cmat.opacity=Math.min(1,op*1.3); o.cone.visible=op>.12;
+    o.pulse.visible=pulse;
+  }
+  renderer.render(scene,camera);
+}
+// which nodes touch the selection (for label dimming)
+let linked=new Uint8Array(N), linkedFor=null;
+function refreshLinked(){ if(linkedFor===selected) return; linkedFor=selected; linked=new Uint8Array(N);
+  if(selected!=null) for(const e of EDGES){ if(e.a===selected) linked[e.b]=1; if(e.b===selected) linked[e.a]=1; } }
+setInterval(refreshLinked,60);
+requestAnimationFrame(tick);
+})();
+</script>
