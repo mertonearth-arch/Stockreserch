@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.663Z",
+  "lastResearched": "2026-11-17T21:25:06.650Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -69,11 +69,11 @@
     }
   },
   "price": {
-    "last": 169.15,
-    "changePct": -25,
+    "last": 165.07,
+    "changePct": -6.62,
     "rvol": null,
-    "asOf": "2026-09-15",
-    "note": "this is the post-crash close from the Grasshopper-deal withdrawal, over a month stale; no newer confirmed price was found despite a Q3 2026 earnings report on 2026-10-26"
+    "asOf": "2026-10-23",
+    "note": "First confirmed post-Q3-earnings close located (replaces the stale 2026-09-15 Grasshopper-withdrawal crash price on file): closed $165.07, down $11.71 (-6.62%), the session after the Oct 22 Q3 2026 report."
   },
   "catalysts": [
     {
@@ -162,12 +162,22 @@
     }
   ],
   "conflicts": [
-    "Current price: no figure confirmed after the Sept 15, 2026 crash to ~$169-173; later aggregator snapshots found predate the crash and are not usable as current context. No reliable price was found for any date after the earnings report on Oct 26, 2026.",
-    "A TipRanks headline citing 'Q3 adjusted EPS $1.50, consensus $1.99' appears to refer to a different/stale reporting period and is inconsistent with the $4.48/$4.46 Q3 2026 figures from Zacks; excluded as unreliable."
+    "Post-earnings price move framing conflicts: one aggregator (Chartmill) describes the Oct 23 move as an 'after-hours rally' while reporting the same -6.62% decline figure in the same snippet — not reconciled.",
+    "A TipRanks headline citing 'Q3 adjusted EPS $1.50, consensus $1.99' appears to reference a different/stale reporting period and is inconsistent with the $4.48/$4.46 Q3 2026 figures from Zacks already on file; excluded as unreliable."
   ],
   "pendingFilings": [],
-  "notes": "Could not independently confirm a current share price (search sources inconsistent/stale); price field left as-is pending a reliable quote. No new dated catalyst beyond the 11/10 buyback authorization and 11/4 notes offering already on file. Quiet pass.",
+  "notes": "New post-earnings closing price located ($165.07, -6.62%, 2026-10-23), resolving the prior 'no confirmed post-earnings price' gap. No other new developments since the buyback-authorization catalyst already on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -390,8 +400,10 @@
   "lastPass": {
     "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

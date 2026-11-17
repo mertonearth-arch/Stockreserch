@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.680Z",
+  "lastResearched": "2026-11-17T21:25:06.649Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -29,9 +29,10 @@
       "note": "Conflicting figures ranging ~3.3% to ~11.4% of float/shares across sources; see conflicts"
     },
     "cash": {
-      "value": 5600000,
-      "asOf": "2026-06-30",
-      "source": "PDS Biotech Q2 2026 financial results (via panabee.com / rallies.ai summaries)"
+      "value": 15200000,
+      "asOf": "2026-09-30",
+      "source": "company Q3 2026 release via finviz/biopharmawatch/quiverquant",
+      "note": "Up from $5.6M at 2026-06-30, reflecting the Nant Capital PIPE closing in September 2026."
     },
     "debt": {
       "value": null,
@@ -40,9 +41,21 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Going-concern warning issued after Q2 2026; negative earnings / pre-revenue"
+      "note": "negative earnings; pre-revenue clinical-stage company",
+      "asOf": "2026-11-17"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": -0.19,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.11,
+        "basis": "GAAP"
+      }
+    ],
     "revenue": [],
     "growth": {
       "metric": "cash position (quarter-over-quarter change)",
@@ -51,9 +64,9 @@
       "note": "Pre-revenue clinical-stage company; cash fell from $27M at 2025 year-end to $5.6M at 2026-06-30, triggering a going-concern warning."
     },
     "nextEarnings": {
-      "date": "2026-11-12",
+      "date": null,
       "confirmed": false,
-      "note": "Expected pre-market per Earnings Whispers consensus (loss of $0.11/share estimated); actual Q3 2026 release not located in reachable sources this pass"
+      "note": "Q3 2026 already reported 2026-11-13; FY2026/Q4 date not yet announced"
     }
   },
   "price": {
@@ -64,6 +77,13 @@
     "note": "Most recent figure that appeared well-sourced (MarketChameleon). Other sources gave radically different, much lower prices (~$0.22-$0.24) for undated snapshots; could not reconcile or confirm a 2026-11-13 close (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "earnings",
+      "headline": "PDS Biotechnology reported Q3 2026 results: net loss $7.6M (-$0.11/share, GAAP) vs -$9.0M (-$0.19/share) a year earlier; cash and equivalents $15.2M at quarter-end (up from $5.6M at 2026-06-30 after the Nant Capital PIPE closing); operating expenses fell to $5.9M from $8.1M YoY (R&D down to $2.1M from $4.6M; G&A up to $3.8M from $3.6M); net interest expense $1.7M vs $0.9M",
+      "impact": null,
+      "source": "https://finviz.com/news/422532/pds-biotech-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-11-13",
       "type": "earnings",
@@ -219,13 +239,27 @@
     }
   ],
   "conflicts": [
-    "Share price: $1.23 (MarketChameleon, 2026-11-06, +5.1%) vs $1.44 (Merlin Trader, 2026-10-30) vs $0.23 (Earnings Whispers, undated) vs $0.22 (Stock Taper, undated, implied market cap ~$12M) vs $0.24 (RTTNews, undated) — roughly 5-6x discrepancy between sources that could not be reconciled; flagged as a possible reverse-split/stale-cache discrepancy, though no split could be confirmed or ratio determined.",
-    "Market cap: ~$89.1M (MarketChameleon at $1.23) vs ~$12M (Stock Taper at $0.22).",
+    "Share price: $1.23 (MarketChameleon, 2026-11-06, +5.1%) vs $1.44 (Merlin Trader, 2026-10-30) vs $0.23 (Earnings Whispers, undated) vs $0.22 (Stock Taper, undated) vs $0.24 (RTTNews, undated) — roughly 5-6x discrepancy between sources that could not be reconciled; flagged as a possible reverse-split/stale-cache discrepancy, though no split could be confirmed or ratio determined.",
     "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026)."
   ],
   "pendingFilings": [],
-  "notes": "Resolves the previously-pending 'Q3 2026 results expected' entry on file with actual figures.",
+  "notes": "Q3 2026 results (expected Nov 12, reported Nov 13) now confirmed and recorded, resolving the open item from prior passes. Cash position materially improved on the PIPE financing. Price/market-cap conflicts remain unresolved.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -512,7 +546,12 @@
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "cash updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

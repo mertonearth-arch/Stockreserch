@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.668Z",
+  "lastResearched": "2026-11-17T21:25:06.651Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -20,8 +20,9 @@
       "note": "Not found"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not established in sources retrieved this pass."
+      "value": 876900000,
+      "asOf": "2026-11-11",
+      "source": "Fox Business / Equibles"
     },
     "shortInterest": {
       "value": null,
@@ -212,11 +213,22 @@
     }
   ],
   "conflicts": [
-    "Nov 5, 2026 session move reported as S&P 500 -4.4% in the same Trefis item describing MRVL -16.4% -- an unusually large broad-market move for that date; flagging the S&P figure as unreconciled rather than treating it as confirmed market context."
+    "Market cap: Fox Business $123.82B at $154.39 close (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — the Fox Business figure does not reconcile with its own 876.9M share count at that price (~$135.4B implied); not resolved this pass."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the 11/11 pass; broader chip-sector weakness around NVDA's earnings today is context, not a dated Marvell-specific catalyst. Quiet pass.",
+  "notes": "Shares outstanding figure located; market cap sources remain unreconciled across vendors.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -504,8 +516,11 @@
   "lastPass": {
     "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

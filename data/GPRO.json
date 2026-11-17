@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.677Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:25:06.652Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -220,9 +220,21 @@
     "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float.",
     "Overnight reaction to the Nov 10 earnings-delay/going-concern filing is reported inconsistently: Stocktwits cites a ~7% overnight drop while Börse Global cites ~14% same-day — not reconciled."
   ],
-  "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 10 10-Q delay / going-concern disclosure already on file (full detail, including the Starman Optical merger-termination risk, matches what's recorded). Quiet pass.",
+  "pendingFilings": [
+    "Form 10-Q FY2026 (period 2026-09-30) now appears indexed on SEC EDGAR — the previously-delayed Q3 10-Q appears to have since been filed. Filing date and content (incl. whether lender waivers were obtained and the Starman Optical merger status) could not be verified — sec.gov unreachable from this sandbox; no secondary source with filing date/content found. Flagging for next pass to confirm and pull detail (waiver status itself conflicting across sources: one 10-Q excerpt cites an Oct 16, 2026 covenant waiver; a third-party summary instead cites a Jul 9, 2026 waiver)."
+  ],
+  "notes": "Likely-material update (10-Q filing status) found but not confirmable in detail this session. No other new catalyst beyond the Nov 10 going-concern/delayed-10-Q disclosure already on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -582,8 +594,10 @@
   "lastPass": {
     "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "new filing(s)"
+    ],
     "tradingDay": true
   }
 }

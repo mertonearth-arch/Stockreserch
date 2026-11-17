@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.665Z",
+  "lastResearched": "2026-11-17T21:25:06.651Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -85,6 +85,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-12-16",
+      "type": "conference",
+      "headline": "Fossil Group management scheduled to present at a Northland Capital Markets investor conference",
+      "impact": null,
+      "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
+    },
+    {
       "date": "2026-11-17",
       "type": "conference",
       "headline": "Fossil Group management scheduled to present at the Craig-Hallum Alpha Select Conference",
@@ -120,6 +127,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -183,12 +200,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst beyond the already-filed Nov 17 Craig-Hallum conference appearance and the Nov 10-12 Q3 beat-and-raise cluster. Quiet pass.",
+  "notes": "Added a second, later investor-conference appearance (Dec 16, Northland Capital Markets) alongside the Nov 17 Craig-Hallum event already on file.",
   "lastPass": {
     "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

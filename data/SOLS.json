@@ -1,7 +1,7 @@
 {
   "ticker": "SOLS",
-  "name": "Solidion Technology, Inc.",
-  "sector": "Materials / Battery Technology",
+  "name": "Solstice Advanced Materials, Inc.",
+  "sector": "Diversified Advanced Materials",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
@@ -56,8 +56,7 @@
       "date": null,
       "confirmed": false,
       "note": "Not found"
-    },
-    "CRITICAL_IDENTITY_NOTE": "Ticker SOLS on Nasdaq is Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — NOT Solidion Technology, which trades under ticker STI. The 'Advanced Materials' theme fits Solstice, not Solidion (a much smaller battery-materials company). This appears to be a company-identity question worth the PM owner's direct attention; this pass researched the ticker as given (SOLS = Solstice) and did not research Solidion/STI separately."
+    }
   },
   "price": {
     "last": 58,
@@ -186,7 +185,7 @@
     "Price ~2026-11-06: $58.00 (benzinga.com) vs $62.91 (stockevents.app, undated) vs $81.02 (MarketBeat, likely stale) — not reconciled this pass"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 4 Q3 earnings and Nov 9 foam-blowing-agent milestone already on file. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 4 Q3 earnings and Nov 9 foam-blowing-agent milestone already on file. Quiet pass. Corrected a stale record error this pass: name/sector had been carried over from an earlier misidentification as Solidion Technology (ticker STI); SOLS on Nasdaq is actually Solstice Advanced Materials, Inc. (ex-Honeywell Advanced Materials, spun off 2025-10-30), consistent with every catalyst already on file (Q3 2026 net sales $1,046M, $14.5B Element Solutions deal, etc.). Name/sector fields corrected directly; theme (Advanced Materials) was already correct.",
   "history": [
     {
       "date": "2026-11-17",
