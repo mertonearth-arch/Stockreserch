@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.774Z",
+  "lastResearched": "2026-11-17T21:21:17.669Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -196,8 +196,16 @@
     "Trailing P/E: Value Research Online shows 23.6 (asOf 2026-11-13) vs Google Finance ~30.17 and Finspry 35.76, both undated snapshots that don't reconcile with the dated figure."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass otherwise beyond price/valuation refresh -- no new dated catalyst beyond the already-recorded 2026-11-12 Jensen Huang CEO transition. Earnings tomorrow (2026-11-17) is the clear near-term catalyst already on file.",
+  "notes": "Q3 FY2027 earnings call scheduled today 2026-11-17 5:00pm ET; as of this research pass no actual reported figures (revenue/EPS) had been published — consensus remains ~$2.47 EPS on ~$108.8B revenue vs. company guidance of $108.0B±2%, per the nextEarnings note already on file. Not recording placeholder figures per the never-invent-a-number rule. Quiet pass; re-check next pass for the actual print.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -498,15 +506,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

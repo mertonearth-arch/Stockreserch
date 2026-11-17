@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.779Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.684Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -146,8 +146,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Could not confirm a post-earnings (post 2026-11-13) stock price this pass -- aggregators returned stale 2025 reaction data and conflicting earnings-date listings. Price/market cap on file (asOf 2026-11-06) left unchanged rather than guessed.",
+  "notes": "No new dated catalyst beyond the Nov 13 FY2026 results / FY2027 guidance already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -363,15 +371,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "revenue updated",
-      "nextEarnings updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

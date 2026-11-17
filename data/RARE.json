@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.794Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.681Z",
   "fundamentals": {
     "marketCap": {
       "value": 1660000000,
@@ -265,8 +265,16 @@
     "Stock price around the earnings date given as both $16.30 (close, Nov 2) and $16.63 (Nov 3) by different sources — minor, likely consecutive-day closes"
   ],
   "pendingFilings": [],
-  "notes": "Substantive quarter, not routine: trial-failure-driven restructuring. BofA downgraded RARE to Neutral from Buy (target cut to $20 from $48) after the Phase 3 ASPIRE apazunersen Angelman-syndrome trial failure; UBS initiated at Neutral with a $16 target. The $210M Genglycos priority-review-voucher sale closed in late October 2026; a $203M Fayuvi voucher sale was expected to close later in November 2026 (not yet confirmed closed).",
+  "notes": "No new dated catalyst beyond the Nov 3-4 Q3 earnings / restructuring / voucher-sale cluster already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -572,12 +580,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

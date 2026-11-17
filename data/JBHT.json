@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.770Z",
+  "lastResearched": "2026-11-17T21:21:17.667Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
@@ -160,8 +160,16 @@
     "Price: $227.66 (Fool, Nov 11) vs $218.54 (Fox Business, Nov 6) vs $220.86 (Stockevents, undated) — roughly a $9 spread across sources dated within a week of each other."
   ],
   "pendingFilings": [],
-  "notes": "No new verified catalysts, fundamentals, or filings found beyond what is already on file. The Nov 17 investor-conference appearance (already recorded) could not be independently re-confirmed this pass; a next-earnings date remains unconfirmed.",
+  "notes": "No new dated catalyst beyond the Nov 17 investor-conference appearance already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -362,7 +370,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

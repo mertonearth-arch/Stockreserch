@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.781Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.671Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -194,8 +194,16 @@
     "Next earnings date: Feb 4, 2027 (TIKR) vs Nov 26, 2026 (Earnings Whispers) — the latter is inconsistent with the fiscal-quarter cadence."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts since 2026-11-13; fiscal Q1 2027 earnings (Nov 5) and the Sam's Club BNPL deal (Oct 22) remain the latest dated events. No confirmation found this pass of the next-earnings-date conflict already on file (Feb 4, 2027 vs Nov 26, 2026).",
+  "notes": "No new dated catalyst found this pass; search results stale/pre-dated. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -552,7 +560,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

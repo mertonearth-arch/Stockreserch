@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.796Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.682Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -175,8 +175,16 @@
     "Price: $147.03 (2026-11-06) vs $146.30 (2026-11-08) — minor, likely normal day-to-day movement"
   ],
   "pendingFilings": [],
-  "notes": "Routine refresh; last reported results are Q2 FY2027 (released Aug 31, 2026; SAIC's fiscal year ends ~Jan 31). Next report (fiscal Q3 FY2027) is estimated for Dec 2-3, 2026 but not company-confirmed. Dividend: quarterly $0.37/share ($1.48/share annualized); an Oct 9, 2026 ex-dividend date was found but the next declaration date was not confirmed this pass.",
+  "notes": "No new dated catalyst; the $500M upsized senior notes offering (priced, closing ~Nov 13) already fully on file. Next earnings (Nov 30, consensus ~$2.31 EPS) reconfirmed. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -451,7 +459,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

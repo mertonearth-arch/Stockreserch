@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.789Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.679Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -102,6 +102,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-16",
       "run": "pm",
       "quiet": false,
@@ -164,19 +172,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Prior pass had only a consensus EPS estimate on file (-$0.05); actual results are now in. Company's own press release / 10-Q not located this pass -- figures rest on one secondary summary (Capital.com, syndicated).",
+  "notes": "No new dated catalyst beyond the Nov 10 Q3 results and Nov 12 foundry-delay selloff already on file. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "cash updated",
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

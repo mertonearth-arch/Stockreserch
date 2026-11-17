@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.785Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.673Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -69,6 +69,13 @@
     "asOf": "2026-10-27"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "clinical trial",
+      "headline": "Alongside Q3 2026 results, Celldex reported both Phase 3 barzolvolimab studies in chronic spontaneous urticaria (CSU) met their primary and key secondary endpoints; a BLA submission is anticipated in 2027; a Phase 3 study in cold urticaria/symptomatic dermographism is actively enrolling",
+      "impact": null,
+      "source": "https://finviz.com/news/417589/celldex-reports-third-quarter-financial-results-and-provides-corporate-update"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -146,8 +153,18 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs $35.61 (undated) vs $28.25 with a $2.2B market cap (undated) — no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "Routine 3-day refresh: no new dated catalyst since the 2026-11-05 Q3 2026 earnings / EMBARQ-CSU data already on file. Nothing from Nov 13-16 found.",
+  "notes": "Adds the positive Phase 3 CSU data point that was not previously captured alongside the Nov 5 earnings entry already on file. CFO Sam Martin to retire 2027 (transitioning through March 2027) — minor item, not recorded as a standalone catalyst.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -303,10 +320,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

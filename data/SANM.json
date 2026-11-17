@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.775Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.683Z",
   "fundamentals": {
     "revenue": [
       {
@@ -128,6 +128,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-16",
       "run": "pm",
       "quiet": false,
@@ -209,17 +217,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Quiet pass -- no new dated catalyst found beyond valuation refresh. Q1 FY2027 report date still not confirmed from sources reviewed.",
+  "notes": "No new dated catalyst beyond the Nov 9 Q4 FY2026 earnings beat (record revenue, raised outlook) already on file. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

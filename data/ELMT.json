@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.786Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.675Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,8 +217,16 @@
     "Price: $19.25 (2026-11-10, FinancialContent) vs a separately reported close of $19.62 '+13.8%' attributed to 'November 6, 2026' by MarketChameleon — internally inconsistent on date."
   ],
   "pendingFilings": [],
-  "notes": "Routine 3-day refresh: no new dated catalyst since the Q3 2026 earnings beat (~Nov 9-10) already on file. Nothing from Nov 13-16 found.",
+  "notes": "No new dated catalyst independently confirmed this pass beyond what's on file; could not reconcile conflicting current-price snapshots ($15-$20 range across sources). Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -488,7 +496,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

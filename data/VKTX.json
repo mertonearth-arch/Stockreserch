@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.780Z",
+  "lastResearched": "2026-11-17T21:21:17.685Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -75,6 +75,20 @@
     "note": "equibles.com close"
   },
   "catalysts": [
+    {
+      "date": "2026-11-15",
+      "type": "clinical data",
+      "headline": "At ObesityWeek 2026, Viking presented VENTURE Phase 2 analysis: 74% of participants on weekly subcutaneous VK2735 improved by at least one BMI category after 13 weeks, vs. 15% on placebo; none of the VK2735-treated participants increased their BMI category",
+      "impact": null,
+      "source": "https://www.placera.se/pressmeddelanden/viking-therapeutics-viking-therapeutics-highlights-clinical-data-from-vk2735-obesity-program-at-obesityweek-2026-20261115"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "clinical data",
+      "headline": "At ObesityWeek 2026, Viking presented Phase 3 VANQUISH-2 baseline characteristics (adults with overweight/obesity and type 2 diabetes), describing the randomized population as representative of the broader US adult population with BMI ≥27 and T2D",
+      "impact": null,
+      "source": "https://www.biopharmawatch.com/news/VKTX/viking-therapeutics-obesityweek-2026-presentations"
+    },
     {
       "date": "2026-11-14",
       "type": "conference/data",
@@ -175,8 +189,18 @@
     "Stock price: $28.20 close 2026-11-12 (MarketChameleon) vs an unrelated, undated $25.36/$24.68 pair and a separate undated $26.65/$26.18 pair cited elsewhere — none of the latter could be placed on this timeline."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts since 2026-11-13; ObesityWeek 2026 (Washington DC, Nov 14-17) VK2735 poster presentations already on file are the only near-term event and no readout data from the posters was found this pass. Price updated to the most recently confirmed close (2026-11-13, +5.95%).",
+  "notes": "Fills in the actual data behind the previously-scheduled-only ObesityWeek entries on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -460,10 +484,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.797Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.683Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -186,8 +186,16 @@
     "Price ~2026-11-06: $58.00 (benzinga.com) vs $62.91 (stockevents.app, undated) vs $81.02 (MarketBeat, likely stale) — not reconciled this pass"
   ],
   "pendingFilings": [],
-  "notes": "Ticker identity question from the prior pass is resolved: current primary/aggregator sources (SEC EDGAR filer CIK 0002064953, finviz, stockanalysis.com/stocks/SOLS, benzinga.com/quote/SOLS, equibles.com/stocks/sols, roic.ai/quote/SOLS) consistently use ticker SOLS for Solstice Advanced Materials, Inc. (the former Honeywell Advanced Materials division, spun off 2025-10-30) — the prior pass's suspected mismatch with Solidion Technology (ticker STI) does not hold up against sources checked this pass. Separately, the Metropolis Works uranium-plant litigation (first captured this pass, announced 2026-09-29) reached an agreement in principle subject to court and other approvals; company denies wrongdoing and does not expect a material financial impact.",
+  "notes": "No new dated catalyst beyond the Nov 4 Q3 earnings and Nov 9 foam-blowing-agent milestone already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -518,13 +526,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

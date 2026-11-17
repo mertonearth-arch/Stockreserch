@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.767Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.676Z",
   "fundamentals": {
     "marketCap": {
       "value": 19940000,
@@ -184,8 +184,16 @@
     "Price snapshots of $0.73 and $0.9387 (undated) are far above the dated $0.179 (Oct 30, 2026) figure and could not be reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Material update: Q3 2026 earnings (previously only 'expected, not yet located') are now confirmed with a sharply weaker print -- revenue down, loss up, agent count down more than half. Going-concern language from the Q2 2026 filing was not re-confirmed or contradicted this session; worth re-checking on the next pass given the deteriorating trend.",
+  "notes": "No new dated catalyst found beyond the Nov 13 Q3 2026 results already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -462,16 +470,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.757Z",
+  "lastResearched": "2026-11-17T21:21:17.659Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -163,8 +163,16 @@
     "Next earnings date: 2026-11-18 (on file, unconfirmed) vs 2026-11-24 (Benzinga) vs 2026-11-10 (Earnings Whispers) vs 2026-11-11 (The Right Trader) — not reconciled this pass; none confirmed by the company."
   ],
   "pendingFilings": [],
-  "notes": "Additional unverified chatter this pass (Stocktwits): Citi reportedly cut its SLS stake ~64% and the REGAL Phase 3 galinpepimut-S trial reportedly reached its pre-specified 80th event triggering final analysis, with topline expected Q4 2026 — no dated primary source found for either, so neither is recorded as a catalyst per the dated-catalyst rule. ASH presentation (Dec 14) and Dec 14 SLS009 data catalyst already on file.",
+  "notes": "No new dated catalyst found since 11/16 pass. Next-earnings date remains unreconciled across sources (2026-11-18 on file vs 11-24/11-10/11-11 per other aggregators) — company has not confirmed; left as-is pending the report itself. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -382,13 +390,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

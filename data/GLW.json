@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.768Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.676Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -92,6 +92,13 @@
     {
       "date": "2026-10-27",
       "type": "earnings",
+      "headline": "Corning reported Q3 2026 results: EPS $0.91 and revenue $5.08B, both beating estimates (~$0.88 / ~$5.03B); Q4 2026 guidance implies EPS ~$0.97 on revenue ~$5.3B",
+      "impact": null,
+      "source": "https://www.zacks.com/stock/news/3018357/buy-corning-on-solid-q3-earnings,-guidance-and-ai-photonics-space-rally"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
       "headline": "Corning reports Q3 2026 results: GAAP net sales $4.855B (+13.6% YoY, below ~$5.05B consensus on a GAAP basis) but core (non-GAAP) sales of $5.08B beat an adjusted estimate of $5.03B; core EPS ~$0.91 beat; Optical Communications segment sales $2.38B (+44% YoY) on AI/fiber demand; four new long-term multibillion-dollar customer agreements including Verizon and AT&T",
       "impact": "Q4 2026 guidance: core sales $5.2B-$5.3B, core EPS $0.96-$1.00; shares reported up 4%+ in the session after results, and some analysts (e.g., JPMorgan) raised price targets",
       "source": "https://247wallst.com/cards/corning-q3-2026-earnings-glw-01m5ygjxkpmss5xt8bhdwb8b4d"
@@ -150,8 +157,18 @@
     "Several MarketBeat/AAII pages date the Q3 2026 earnings release to 2026-07-28, which matches Q2 timing and appears to be a date error; the 2026-10-27 date was used instead"
   ],
   "pendingFilings": [],
-  "notes": "Checked for developments since the 2026-11-13 pass: no new dated news, filing, or price print found for Nov 14-16. Quiet pass.",
+  "notes": "Fills in the actual Q3 2026 print behind the vague 'unspecified key catalyst' placeholder on file; quarterly dividend payable 2026-12-11 to holders of record 2026-11-13 (routine, not recorded as a standalone catalyst).",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -407,10 +424,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

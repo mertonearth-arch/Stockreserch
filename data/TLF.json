@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.797Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.684Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -104,6 +104,13 @@
     {
       "date": "2026-11-10",
       "type": "earnings",
+      "headline": "Tandy Leather Factory reported Q3 2026 results: revenue rose 7.3% YoY to ~$18.5M, net income of ~$0.5M (swing to profit from a $1.4M net loss in Q3 2025), gross margin up ~350bps to 62.4%",
+      "impact": "Shares rose 14.9% on the print (Nov 11) and continued higher into the following session",
+      "source": "https://www.panabee.com/news/tandy-leather-factory-earnings-q3-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
       "headline": "Tandy Leather Factory reported Q3 2026 results (exact date unconfirmed — see conflicts): revenue of $18.5M (+7.3% YoY), net income of $0.5M ($0.06/share) versus a $1.4M net loss a year earlier; gross margin rose to 62.4% from 58.9%; cash was $5.7M as of 2026-09-30",
       "impact": "Swing to profitability and margin improvement",
       "source": "https://www.panabee.com/news/tandy-leather-factory-earnings-q3-2026"
@@ -124,6 +131,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -183,12 +200,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No genuinely new facts located this pass: Q3 2026 earnings-date ambiguity (2026-11-10 vs an estimate near 2026-11-16) remains unresolved, and no reliable dated current quote was found beyond the existing stale snapshot. GuruFocus ($2.28), TipRanks ($2.58 last close) and Yahoo (~$2.385, mid-Oct YTD context) all surfaced but none carries a usable as-of date, so none was used to overwrite the existing 2026-08-26 price note. Honest quiet pass.",
+  "notes": "Supplies the actual Q3 figures behind the 'specific figures not independently located' placeholder already on file for the same event.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

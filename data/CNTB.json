@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.759Z",
+  "lastResearched": "2026-11-17T21:21:17.662Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -135,8 +135,16 @@
     "Short interest: 5.6% of float / 5.2 days to cover (Equibles, Oct settlement) vs a separate Equibles page showing 6.1% / 1.7 days to cover and 3.9M shares short (+358K MoM) vs a Massive figure of 3.5M shares / 1.0 days to cover as of a Sept 30 settlement."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass. No developments found since the 2026-11-06 Phase 2 COPD readout already on file (RTTNews date/weekday conflict already recorded). No new filings, price data, or catalysts located for the period 2026-11-06 through 2026-11-16.",
+  "notes": "No new dated catalyst found since 11/6 pass; still flagged as due today on the strength of the 11/6 move/RVOL figures already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -347,7 +355,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.788Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.678Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
@@ -263,8 +263,16 @@
     "A next-earnings date of Nov 26, 2026 appears on Earnings Whispers, but this conflicts with the company's own fiscal calendar (Q1 FY2027 was just reported Nov 5, 2026) and may be a stale/mis-dated listing -- not used as nextEarnings this pass"
   ],
   "pendingFilings": [],
-  "notes": "During 2026 IREN disclosed several large AI-infrastructure deals that materially re-rated the stock (an ~$3.4B Nvidia AI cloud contract with an equity option for Nvidia to invest $2.1B at $70/share near a $56.85 reference price; a reported ~$9.7B, 150,000-GPU, five-year Microsoft hosting deal near a $67.75 reference price; and a multi-year AI cloud deal with Anthropic referenced near a $35 share price on/around 2026-10-09). Exact announcement dates for these deals could not be confirmed in reachable sources this pass. IREN is a Bitcoin miner pivoting toward AI/GPU cloud infrastructure, which should be considered when interpreting the 'Crypto Treasury & Miners' theme label.",
+  "notes": "No new dated catalyst beyond the Nov 5 Q1 FY2027 earnings cluster already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -640,17 +648,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

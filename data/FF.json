@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.757Z",
+  "lastResearched": "2026-11-17T21:21:17.664Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -113,6 +113,13 @@
     {
       "date": "2026-11-09",
       "type": "earnings",
+      "headline": "FutureFuel reported Q3 2026 results: revenue $104.7M (+361.3% YoY from $22.7M), GAAP net loss $8.4M (-$0.19/share) vs a $9.2M loss a year earlier; Biofuels revenue rose to $87.8M from $7.1M but posted a $9.8M gross loss on record-high soybean-oil/fat feedstock costs plus $8.7M of net derivative losses; Chemicals revenue rose to $16.9M from $15.6M despite a 27% volume decline from customer turnarounds; company guides to positive adjusted EBITDA in Q4 and for full-year 2026",
+      "impact": "One source reports shares fell 38.5% after earnings (unverified by a second source); this supersedes the vaguer 'no further detail' note on file for the same report",
+      "source": "https://finviz.com/news/419570/futurefuel-announces-third-quarter-2026-results"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
       "headline": "FutureFuel reported Q3 2026 results: revenue of $104.7M (+361% YoY) driven by the biofuels segment, but a GAAP net loss of $8.4M (-$0.19/share) due to high soybean oil costs and $8.7M of hedging losses; management guided to positive adjusted EBITDA in Q4 2026 and full-year 2026",
       "impact": "Large revenue beat/jump alongside a continued net loss and a ~$5M adjusted EBITDA loss for the quarter",
       "source": "https://www.quiverquant.com/news/FutureFuel+Q3+Revenue+Reaches+%24104.7+Million+as+Net+Loss+Narrows"
@@ -146,6 +153,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -221,12 +238,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Quiet pass. No developments since 2026-11-13. Q3 2026 results (revenue $104.7M, net loss $8.4M) and the $0.01 Q4 dividend (record date 2026-12-04) are already on file. The Kalkine vs financialcontent price-move conflict ($2.84/-43.98% vs $3.12/-38.46%) remains unresolved; no reconciling source found this pass.",
+  "notes": "Q3 2026 earnings figures now established (see catalyst) — supersedes the low-confidence placeholder entry on file for the same 2026-11-09 report.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

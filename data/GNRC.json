@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.787Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.677Z",
   "fundamentals": {
     "marketCap": {
       "value": 10810000000,
@@ -158,8 +158,16 @@
     "Nov 11, 2026 close: Fox Business $181.69 (+6.8%) vs undated pandaforecast $203.36 vs undated MarketScreener $215.73 -- the latter two give no date and are not reconcilable to a specific session"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found beyond what is already on file (Q3 earnings beat, Amazon data-center generator supply deal, analyst target raises) -- those were already captured in a prior pass. Short interest and Q3 2026 (9/30) cash/debt balance still not located this pass; left unchanged.",
+  "notes": "No new dated catalyst beyond the Oct 28/Nov 4 Q3 earnings and data-center backlog guidance already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -417,13 +425,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

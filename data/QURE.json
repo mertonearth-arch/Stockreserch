@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.794Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.681Z",
   "fundamentals": {
     "marketCap": {
       "value": 2410000000,
@@ -190,8 +190,16 @@
     "Revenue 'miss' comparison basis varies by source: one cites a $7.15M consensus, another a $5.4M estimate, against the same $5.2M actual"
   ],
   "pendingFilings": [],
-  "notes": "Company itself flags the FDA may still conclude Phase I/II data are insufficient for approval despite Priority Review status. Investor conferences noted: Guggenheim (Nov 10), Stifel (Nov 11), UBS (Nov 16, 2026) — informational only.",
+  "notes": "No new dated catalyst beyond the Nov 4 Q3 2026 earnings cluster already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -479,7 +487,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

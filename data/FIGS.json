@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.766Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.676Z",
   "fundamentals": {
     "marketCap": {
       "value": 3660000000,
@@ -162,8 +162,16 @@
     "Characterization of the Jordan supply issue differs: Earnings Whispers frames it as a 'Jordan import restriction,' while Panabee specifically identifies it as a June 2026 Withhold Release Order against a manufacturing partner"
   ],
   "pendingFilings": [],
-  "notes": "Price/market cap materially higher than the stale Sept 25 snapshot previously on file ($13.42/$2.23B) -- company's post-Q3-earnings rally. No new catalyst found for Nov 14-16; otherwise a quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 5 Q3 beat-and-raise already on file; supply-constraint commentary (Jordan-brand supplier ban capping near-term upside) is context on the same print, not a separate dated event. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -392,12 +400,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

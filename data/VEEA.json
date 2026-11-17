@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.798Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.684Z",
   "fundamentals": {
     "marketCap": {
       "value": 13970000,
@@ -196,8 +196,16 @@
     "A separate Marketchameleon snapshot found this pass gives a $13.38M market cap (vs the $13.97M on file at the same 2026-11-05 asOf date) — a minor variant, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No Q3 2026 earnings release located again this pass; the nextEarnings-date conflict (Nov 13 vs Nov 17) and the 'Government IT & Defense Services' theme-fit question (flagged in the prior pass) both remain open. New this pass: FY2025 full-year revenue ($222,018, +56.62% YoY) and a Q1 2026 EPS figure (-$0.09), both third-party aggregator figures (roic.ai), added to fill out the EPS/revenue history requested by the runbook.",
+  "notes": "No new dated catalyst beyond the Nov 2 price move and Oct 9 Nasdaq compliance resolution already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -404,15 +412,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

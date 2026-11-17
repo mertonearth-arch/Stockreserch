@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.795Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.682Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -139,8 +139,16 @@
     "Shares outstanding figures (189.8M and 202.3M) come from undated/older snapshots and were not reconciled"
   ],
   "pendingFilings": [],
-  "notes": "Price trended down from $133.65 (Oct 30) to $124.15 (Oct 31) to $116.51 (Nov 3), roughly 13% over four trading days; no single news catalyst for that specific slide was identified beyond the broader post-Q2-earnings premarket drop on Aug 28. No Q3 FY2027 earnings-date announcement found this pass.",
+  "notes": "No new dated catalyst beyond the Nov 10 DevOps Protection product announcement already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -405,12 +413,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

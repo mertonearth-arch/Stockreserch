@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.766Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.675Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -44,26 +44,17 @@
     },
     "eps": [
       {
-        "period": "Q4 FY2026",
+        "period": "FY2026 Q4",
         "value": 8.12,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q4 FY2026",
-        "value": 11.1,
-        "basis": "Non-GAAP (company-reported)"
-      },
-      {
-        "period": "Q4 FY2026",
-        "value": 9.61,
-        "basis": "Non-GAAP (Zacks-adjusted)"
+        "basis": "GAAP",
+        "note": "+26% YoY"
       }
     ],
     "revenue": [
       {
-        "period": "Q4 FY2026",
-        "value": 657050000,
-        "yoy": 27.3
+        "period": "FY2026 Q4",
+        "value": 657000000,
+        "yoy": 27
       }
     ],
     "growth": {
@@ -74,7 +65,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Fiscal Q1 2027 report not yet scheduled per sources found; FY ends Sept 30."
+      "note": "Company is not providing FY2027 guidance at this time, citing unfinished mortgage-pricing agreements and mortgage-market uncertainty; no next-earnings date located"
     },
     "guidanceFY2026": {
       "epsNonGAAP": 38.17,
@@ -83,9 +74,10 @@
     }
   },
   "price": {
-    "last": 704.55,
-    "asOf": "2026-11-06",
-    "note": "Most recent dated quote found (MarketChameleon). Other aggregator snapshots conflict heavily and no verified Nov 13 print was found."
+    "last": 717.76,
+    "changePct": null,
+    "asOf": "2026-11-13",
+    "source": "Fox Business"
   },
   "catalysts": [
     {
@@ -215,8 +207,20 @@
     "Q4 FY2026 EPS: $8.12 GAAP (company) vs $11.10 non-GAAP (company, beat $10.89 consensus) vs $9.61 (Zacks-adjusted, beat $9.20 consensus) — three different EPS bases reported as 'the' beat figure."
   ],
   "pendingFilings": [],
-  "notes": "Checked for developments since the 2026-11-13 pass: no new dated news, filing, or price print found for Nov 14-16. Quiet pass.",
+  "notes": "Fills in the full Nov 4 Q4 FY2026 print (revenue +27% to $657M, GAAP EPS $8.12 +26%) that was only partially captured on file. Share buybacks paused to repay a term loan tied to the accelerated share repurchase. FHA will begin accepting FICO Score 10T from 2027-01-01.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -494,10 +498,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "revenue updated",
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

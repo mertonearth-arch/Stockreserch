@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.792Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.680Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -203,8 +203,16 @@
     "Dividend: Fox Business lists $0.05/share (ex-div 2026-09-30) while TipRanks lists an annual dividend of $0.025, which looks stale"
   ],
   "pendingFilings": [],
-  "notes": "Routine refresh. A CPUC decision on Kincade/Dixie fire cost recovery is reportedly expected sometime in November 2026 per analyst commentary, but no decision date or outcome has been confirmed -- not recorded as a catalyst pending an actual dated event.",
+  "notes": "No new dated catalyst beyond the Oct 22 Q3 earnings and Nov 9 undergrounding-milestone entries already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -484,12 +492,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

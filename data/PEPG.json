@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.762Z",
+  "lastResearched": "2026-11-17T21:21:17.658Z",
   "fundamentals": {
     "marketCap": {
       "value": 188390000,
@@ -139,6 +139,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-16",
       "run": "pm",
       "quiet": true,
@@ -212,9 +220,9 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalyst found since the 11/13 pass; most recent dated coverage remains the Nov 10-11 FREEDOM2-DM1 data / Q3 earnings cluster already on file.",
+  "notes": "No new dated catalyst found since 11/16 pass. FREEDOM2 partial clinical-hold status still unresolved in sources checked (most recent reporting on the hold itself dates to March 2026); still flagged as unconfirmed in conflicts. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.790Z",
+  "lastResearched": "2026-11-17T21:21:17.679Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -82,6 +82,13 @@
     "source": "equibles.com"
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "other",
+      "headline": "Moderna Analyst Day: management raised FY2026 sales-growth guidance to 15%-25% (from 10%), outlined an oncology-led growth strategy centered on intismeran (adjuvant melanoma, positive Phase 3) progressing toward potential commercial launch, detailed plans for a broader mFLUSIVA flu-vaccine launch in the 2027-2028 respiratory season following US/Canada approvals, and guided annual cash costs of ~$4B-$4.5B for 2027-2030; formal 2027 guidance deferred to the Q4 2026 call",
+      "impact": "Shares fell more than 6% intraday before recovering to close down ~2%, with coverage noting the event gave limited visibility into 2027 specifically",
+      "source": "https://www.pharmexec.com/view/moderna-oncology-driven-growth-plan-2026-analyst-day"
+    },
     {
       "date": "2026-11-12",
       "type": "other",
@@ -218,8 +225,18 @@
     "Market cap: sources this pass range from ~$22.1B to ~$32.5B (Simply Wall St, different editions) and one TipRanks figure of $375B is clearly a data error -- no reliable current market cap established, left unchanged (null)"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the already-on-file Nov 6 Q3 earnings beat. A Merck/Moderna melanoma Phase 3 (INTerpath-001) readout and a 'Science Day' stock pop were reported in secondary sources this pass but without a confirmable date, so per the dated-catalyst rule they are left out rather than recorded.",
+  "notes": "Fills in the previously-unconfirmed content/outcome of the Nov 12 Analyst Day entry already on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -500,12 +517,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "sharesOutstanding updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

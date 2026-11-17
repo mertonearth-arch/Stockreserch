@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.795Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.682Z",
   "fundamentals": {
     "marketCap": {
       "value": 35290000000,
@@ -182,8 +182,16 @@
     "Market cap/share-count sources disagree widely: usable figures cluster around $31-35B / ~716M shares, but other pages show $25.43B, $56.87B, and an apparently erroneous $622.29B"
   ],
   "pendingFilings": [],
-  "notes": "New since last pass: Q3 2026 earnings (Oct 29) — a bookings decline (-12% YoY) against a revenue beat (+16% YoY), a divergence the market read as a negative engagement signal despite the headline beat.",
+  "notes": "No new dated catalyst beyond the Oct 29-30 Q3 earnings selloff already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -458,7 +466,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.791Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.680Z",
   "fundamentals": {
     "revenue": [
       {
@@ -134,6 +134,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -285,15 +293,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Routine refresh; Q3 2026 beat-and-raise (Oct 29, already on file) remains the core story. No new earnings this pass.",
+  "notes": "No new dated catalyst beyond the Oct 29 Q3 earnings, Oct 30 analyst action, and Nov 13 dividend declaration already on file. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.763Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.672Z",
   "fundamentals": {
     "marketCap": {
       "value": 12420000,
@@ -181,8 +181,16 @@
     "Price history is not comparable across the 2025-12-15 1-for-8 reverse split; pre-split prices should not be read against post-split prices"
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found since the 11/13 pass. Heppner sentencing status unchanged: still shows as adjourned without a new date per the primary SDNY-spokesperson source (2026-10-22); the single-source Panabee report of a Jan 11, 2027 reschedule (already on file, unconfirmed by a second outlet) was not corroborated or contradicted this session.",
+  "notes": "Jan 11, 2027 Heppner sentencing date (on file) reconfirmed via a second source (company's own Oct 28 release, per secondary summaries); still only single-sourced at the court-docket level. Company continues seeking a deal to eliminate ~$130M of disputed HCLP debt tied to Heppner; no definitive agreement signed yet. Quiet pass — no new dated catalyst beyond what's on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -436,7 +444,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.761Z",
+  "lastResearched": "2026-11-17T21:21:17.663Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -165,11 +165,17 @@
     "Current price: no figure confirmed after the Sept 15, 2026 crash to ~$169-173; later aggregator snapshots found predate the crash and are not usable as current context. No reliable price was found for any date after the earnings report on Oct 26, 2026.",
     "A TipRanks headline citing 'Q3 adjusted EPS $1.50, consensus $1.99' appears to refer to a different/stale reporting period and is inconsistent with the $4.48/$4.46 Q3 2026 figures from Zacks; excluded as unreliable."
   ],
-  "pendingFilings": [
-    "8-K 2026-11-10 (board authorizes $500M share repurchase program, replaces $400M program)"
-  ],
-  "notes": "No confirmed post-10/26-earnings share price was located again this pass; the Sept 15 crash price ($169.15) remains the last on file. Buyback authorization is the only genuinely new item found since the 11/13 pass.",
+  "pendingFilings": [],
+  "notes": "Could not independently confirm a current share price (search sources inconsistent/stale); price field left as-is pending a reliable quote. No new dated catalyst beyond the 11/10 buyback authorization and 11/4 notes offering already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -382,13 +388,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "new filing(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

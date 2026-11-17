@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.782Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.671Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -227,8 +227,16 @@
     "Price: $83.90 (Trefis, 2026-11-05) vs $110.72 (MarketBeat, undated) vs $77.84 (Earnings Whispers, undated) vs $100.86 (Upstox, 2026-10-09) — very wide dispersion; using the Trefis figure as the most clearly dated anchor near the earnings date."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts since 2026-11-13; Q3 2026 earnings and the $11.6B Anthropic cloud agreement (both Nov 5) remain the latest dated events on file. No new price or market-cap figure confirmed this pass given the wide existing conflicts.",
+  "notes": "No new dated catalyst beyond the Nov 5 Q3 earnings and Anthropic $11.6B cloud-agreement cluster already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -498,7 +506,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

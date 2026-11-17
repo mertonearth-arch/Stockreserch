@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.793Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.681Z",
   "fundamentals": {
     "marketCap": {
       "value": 19360000,
@@ -186,8 +186,16 @@
     "Report-date confusion: company's own announcement named Nov 5, 2026 for Q3 results; a separate Earnings Whispers listing instead showed Nov 13, 2026 (today)"
   ],
   "pendingFilings": [],
-  "notes": "Routine refresh. No QNRX-specific news dated after the Nov 5, 2026 Q3 results (already on file) was found this pass. Nothing new established.",
+  "notes": "No new dated catalyst found this pass; search results stale/pre-dated. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -494,7 +502,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

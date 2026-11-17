@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.782Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.672Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -75,6 +75,21 @@
     "asOf": "2026-10-29"
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "bioAffinity Technologies reported Q3 2026 results, highlighting continued CyPath Lung test commercial growth (109% volume growth cited, driven by repeat adoption per secondary coverage); shares reportedly fell ~10% on the report despite rising test demand, attributed to lower lab volumes/reimbursement rates",
+      "impact": "-10% (per secondary aggregator; not independently reconfirmed)",
+      "source": "https://www.panabee.com/news/bioaffinity-earnings-q4-2026"
+    },
+    {
+      "date": "2026-11",
+      "type": "operational",
+      "headline": "bioAffinity Technologies reported record monthly CyPath Lung testing volume for October 2026",
+      "impact": null,
+      "source": "https://www.biospace.com/press-releases/bioaffinity-technologies-reports-record-monthly-testing-volume-in-october-for-its-noninvasive-cypath-lung-test",
+      "note": "Exact release date not confirmed; likely early November 2026"
+    },
     {
       "date": "2026-10-29",
       "type": "corporate",
@@ -232,8 +247,18 @@
     "A trading halt was referenced for 2026-10-08 in one source without further detail; not independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Confirmed via a BioSpace press release headline that bioAffinity has released Q3 2026 results ('bioAffinity Technologies Reports Third Quarter 2026 Results and Continued Momentum in CyPath Lung Commercialization'), but the release itself could not be fetched this pass (biospace.com unreachable from this sandbox) so no new EPS/revenue/cash figures could be confirmed beyond the 109% YoY CyPath Lung test-volume growth figure already on file. Exact press-release date still not pinned down.",
+  "notes": "Ticker is bioAffinity Technologies (BIAF), not BioAtla (BCAB) — confirmed correct company this pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -529,10 +554,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

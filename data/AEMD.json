@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.780Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.670Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -75,6 +75,13 @@
     "asOf": "2026-11-10"
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "Aethlon Medical reported Q2 FY2027 results (quarter ended 2026-09-30): consolidated operating expenses rose 77% YoY to $2.7M, including $1.3M of merger-related professional fees; cash and cash equivalents of ~$6.5M as of 2026-09-30; workforce reductions made near quarter-end tied to the pending North Immunology merger (signed 2026-09-17), now expected to close in calendar Q1 2027; shareholders expected to receive a CVR tied to the legacy Hemopurifier business at closing",
+      "impact": null,
+      "source": "https://finviz.com/news/422258/aethlon-medical-reports-second-quarter-fiscal-2027-results-and-provides-corporate-update"
+    },
     {
       "date": "2026-10-07",
       "type": "corporate",
@@ -204,8 +211,18 @@
     "Expected Nov 11, 2026 earnings consensus EPS of -$4.05 (one source) looks inconsistent with recent quarterly loss magnitudes; unconfirmed and possibly erroneous."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts found since 2026-11-13. The North Immunology merger (announced 2026-09-17, targeting Q1 2027 close) and the pending Q2 FY2027 10-Q remain the only items on file; no S-4/proxy filing or merger-vote news located this pass.",
+  "notes": "Fills in the Q2 FY2027 earnings event referenced only as upcoming before this pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -523,10 +540,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

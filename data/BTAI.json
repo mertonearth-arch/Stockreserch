@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.758Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-17T21:21:17.673Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -196,8 +196,16 @@
     "1-for-16 reverse stock split occurred in February 2025 — flag per reverse-split rule; price history before that date is not comparable"
   ],
   "pendingFilings": [],
-  "notes": "FDA PDUFA target action date for the IGALMI at-home sNDA was 2026-11-14 (two days before this pass) but no decision (approval, CRL, or delay) has been reported anywhere found in this search — checked specifically for post-11-14 news. Outcome remains unknown; leaving the existing catalyst and conflicts as-is rather than guessing. No other new developments found.",
+  "notes": "FDA PDUFA target action date for IGALMI at-home sNDA was 2026-11-14; no decision has been reported in sources checked as of this pass (search coverage runs only through a Nov 13 pre-decision timeline piece). Still pending — re-check next pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -493,7 +501,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

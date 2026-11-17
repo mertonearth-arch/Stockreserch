@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.767Z",
+  "lastResearched": "2026-11-17T21:21:17.665Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -121,6 +121,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-16",
       "run": "pm",
       "quiet": true,
@@ -175,9 +183,9 @@
       "from": "daily"
     }
   ],
-  "notes": "Updated price point (Nov 12, post-Q3-earnings) replaces the stale pre-earnings Nov 9 snapshot. No new catalyst found for Nov 14-16; the Nov 17 Craig-Hallum conference appearance already on file has not yet occurred.",
+  "notes": "No new dated catalyst beyond the already-filed Nov 17 Craig-Hallum conference appearance and the Nov 10-12 Q3 beat-and-raise cluster. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

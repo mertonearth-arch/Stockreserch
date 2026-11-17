@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.786Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.675Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -171,8 +171,16 @@
     "Price: $38.10 (2026-10-29) vs $37.97 (2026-10-28, up 2.39%) vs undated figures of $42.65, $32.10 and $20.48 — wide dispersion; no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "Routine 3-day refresh: no new dated catalyst since the 2026-11-09 Q3 2026 earnings print already on file. Nothing from Nov 13-16 found.",
+  "notes": "No new dated catalyst beyond the Nov 9 Q3 2026 results (incl. early Phase 2a DT402 autism signal) already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -398,7 +406,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

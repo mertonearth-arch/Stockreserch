@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.768Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-17T21:21:17.677Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -221,8 +221,16 @@
     "Overnight reaction to the Nov 10 earnings-delay/going-concern filing is reported inconsistently: Stocktwits cites a ~7% overnight drop while Börse Global cites ~14% same-day — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass found no new verifiable catalysts, filings, or fundamentals beyond what the AM pass already recorded today (going-concern/10-Q delay). An undated Barchart figure (~$227M market cap) and an undated CEO-stock-purchase headline turned up but could not be dated to November 2026, so they were not recorded. Nothing new to add this pass.",
+  "notes": "No new dated catalyst beyond the Nov 10 10-Q delay / going-concern disclosure already on file (full detail, including the Starman Optical merger-termination risk, matches what's recorded). Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -572,7 +580,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
     "quiet": true,
     "changes": [],

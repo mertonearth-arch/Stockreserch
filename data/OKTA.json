@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-16T21:16:26.791Z",
+  "lastResearched": "2026-11-17T21:21:17.669Z",
   "fundamentals": {
     "marketCap": {
       "value": 34120000000,
@@ -211,8 +211,16 @@
     "Current share price not independently confirmed this pass: $208.24 appears mid-window per Trefis narrative (exact date of that print unclear) vs the $209.11 (2026-09-30) already on file, which is now well stale. Not overwriting the price field given the ambiguity."
   ],
   "pendingFilings": [],
-  "notes": "Routine refresh. No new company-specific news beyond the already-filed S&P 500 addition and Dec 1, 2026 confirmed earnings date; stock has sold off sharply since late October per the above, a sector/sentiment move rather than an Okta-specific catalyst.",
+  "notes": "No new dated catalyst found since the Nov 10 pass (S&P 500 inclusion Nov 4, post-selloff total-return figure Nov 10 already on file). Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -500,13 +508,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

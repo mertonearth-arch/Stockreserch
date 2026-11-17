@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.798Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.685Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -68,6 +68,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-11",
+      "type": "licensing",
+      "headline": "Tempest Therapeutics exercised its option (granted 2026-09-16) and took an exclusive worldwide license (excluding China) to Hebei Senlang Biotechnology's CD7-targeted lentiviral in-vivo CAR-T platform, plus access to additional candidate programs for blood cancers, solid tumors and autoimmune conditions; CEO cited differentiating clinical observations from the lead program as the reason for exercising",
+      "impact": "Converts the Sept 16 option into a definitive exclusive license — material step-up from the prior option-stage catalyst on file",
+      "source": "https://www.biopharmawatch.com/news/TPST/tempest-exclusive-option-license-cd7-targeted-car-t"
+    },
+    {
       "date": "2026-09-16",
       "type": "licensing",
       "headline": "Exclusive option to license Hebei Senlang Biotechnology's CD7-targeting asset (carried from prior research pass)",
@@ -103,8 +110,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Q3 2026 earnings release still not located in any source searched this pass (same gap noted in the prior pass). No new catalysts or fundamentals established. Honest quiet pass.",
+  "notes": "This is a material update on a name that had gone quiet since Sept 16 — the option has now been exercised into a full license.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -365,10 +382,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

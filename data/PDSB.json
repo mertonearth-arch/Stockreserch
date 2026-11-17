@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.792Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.680Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -64,6 +64,13 @@
     "note": "Most recent figure that appeared well-sourced (MarketChameleon). Other sources gave radically different, much lower prices (~$0.22-$0.24) for undated snapshots; could not reconcile or confirm a 2026-11-13 close (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "earnings",
+      "headline": "PDS Biotech reported Q3 2026 results: cash and equivalents of $15.2M at quarter-end; R&D expense fell to $2.1M from $4.6M YoY; G&A rose to $3.8M from $3.6M; total opex $5.9M (down from $8.1M); net interest expense rose to $1.7M from $0.9M; company continues to prioritize PDS0301 (tumor-targeted IL-12 immunocytokine) as its lead program; also disclosed a PIPE financing of up to $22.3M",
+      "impact": null,
+      "source": "https://finviz.com/news/422532/pds-biotech-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-11-12",
       "type": "earnings",
@@ -217,8 +224,18 @@
     "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026)."
   ],
   "pendingFilings": [],
-  "notes": "Q3 2026 financial results, expected before market open 2026-11-12 per the prior pass's Earnings Whispers estimate, still could not be located in any reachable source as of this pass (2026-11-16) -- four days after the expected date. Several search hits that initially looked like a Q3 release turned out to be last year's Q3 2025 report (net loss $9.0M / -$0.19 EPS, quarter ended 2025-09-30), which is NOT a new figure for this ticker and is not recorded as such. No genuinely new catalyst or fundamentals change established this pass; prior conflicts (price/market-cap/short-interest discrepancies) remain unresolved.",
+  "notes": "Resolves the previously-pending 'Q3 2026 results expected' entry on file with actual figures.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -491,10 +508,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

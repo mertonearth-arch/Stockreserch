@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-16T21:16:26.784Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-17T21:21:17.673Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -80,6 +80,13 @@
       "headline": "CIFR shares rose 18.4%, rebounding after having lost 47.5% over the prior month into Nov 3, outpacing a 0.4% gain for the S&P 500",
       "impact": "Partial recovery following the earnings-day selloff",
       "source": "https://www.trefis.com/stock/cifr/articles/622641/what-is-behind-the-move-in-cipher-digital-stock/2026-11-04"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "earnings",
+      "headline": "Cipher Mining (now rebranding to 'Cipher Digital' to reflect its HPC/data-center pivot) reported Q3 2026 results: revenue $26.7M, net loss $0.22/share; coverage is split on whether this was a beat or miss vs. consensus; CEO said the company is not a 'neocloud'; shares fell on the print",
+      "impact": "Reported decline on revenue miss per some coverage; magnitude not independently confirmed",
+      "source": "https://stocktwits.com/news-articles/markets/equity/cifr-stock-drops-after-q3-revenue-miss-ceo-says-company-is-not-a-neocloud/cNGabH1R9PX"
     },
     {
       "date": "2026-11-02",
@@ -156,8 +163,18 @@
     "Market cap/price: snapshots from 2026-07 to 2026-10 range widely; treating $7.86 (2026-10-30) as the best available anchor; no confirmed 2026-11-13 price."
   ],
   "pendingFilings": [],
-  "notes": "Routine 3-day refresh: no new dated catalyst, filing, or fundamentals change found since the 2026-11-13 pass. Search results for mid-November CIFR coverage returned only older (pre-Nov) material.",
+  "notes": "Adds the Nov 2 Q3 earnings event, which predates and is separate from the Nov 3 rebound catalyst already on file.",
   "history": [
+    {
+      "date": "2026-11-17",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-16",
       "run": "pm",
@@ -364,10 +381,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }
