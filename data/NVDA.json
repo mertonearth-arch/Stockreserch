@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.669Z",
+  "lastResearched": "2026-11-18T05:31:17.607Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -65,6 +65,13 @@
     "note": "Broader market context 2026-11-16: Nasdaq fell ~2-2.5% in a tech/chip-led selloff with NVDA cited as a leader of the decline ahead of its 2026-11-17 earnings, per Yahoo Finance; no independently confirmed closing price/% for 2026-11-16 located this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "earnings",
+      "headline": "NVIDIA reported Q3 FY2027 results (quarter ended 2026-10-25): revenue $115.8B (+103% YoY), beating consensus of ~$108.7-108.8B; GAAP diluted EPS $2.70, non-GAAP $2.68, both ahead of ~$2.47-2.50 consensus; data center revenue $107.6B (vs ~$101.9B Street estimate); guided Q4 FY2027 revenue to $130.0B +/-3% (note: that quarter includes an extra week); board added $150B to its share buyback authorization",
+      "impact": "Beat and raise on both lines, first full quarterly print since Jensen Huang's 2026-11-12 resignation / interim-CEO transition",
+      "source": "https://www.gurufocus.com/news/9205938/nvidia-corp-reports-q3-fiscal-2027-earnings-eps-of-270-and-revenue-of-1158-billion-exceed-estimates ; https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html ; https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html"
+    },
     {
       "date": "2026-11-12",
       "type": "executive change",
@@ -196,8 +203,18 @@
     "Trailing P/E: Value Research Online shows 23.6 (asOf 2026-11-13) vs Google Finance ~30.17 and Finspry 35.76, both undated snapshots that don't reconcile with the dated figure."
   ],
   "pendingFilings": [],
-  "notes": "Q3 FY2027 earnings call scheduled today 2026-11-17 5:00pm ET; as of this research pass no actual reported figures (revenue/EPS) had been published — consensus remains ~$2.47 EPS on ~$108.8B revenue vs. company guidance of $108.0B±2%, per the nextEarnings note already on file. Not recording placeholder figures per the never-invent-a-number rule. Quiet pass; re-check next pass for the actual print.",
+  "notes": "Actual Q3 FY2027 print now available; replaces the prior pass's placeholder (figures had not yet been published as of the 2026-11-17 PM pass). Full fundamentals refresh (updated P/E, EPS table, revenue YoY, growth metric, next earnings date) deferred to the next PM pass per AM-pass scope.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -506,10 +523,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-18",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

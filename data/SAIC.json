@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.682Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T05:31:17.608Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -89,6 +89,13 @@
     "note": "a separate 2026-11-08 snapshot shows $146.30"
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "offering",
+      "headline": "SAIC's $500M offering of 6.75% senior notes due 2034 (priced 2026-11-02) closed; net proceeds approximately $493M, to be used together with cash on hand to redeem SAIC's outstanding 4.875% senior notes due 2028",
+      "impact": "Confirms completion of the debt refinancing already on file; not dilutive to equity",
+      "source": "https://kalkine.com/news/announcements/saic-closes-500m-6750-senior-notes-due-2034"
+    },
     {
       "date": "2026-11-02",
       "type": "offering",
@@ -177,6 +184,16 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst; the $500M upsized senior notes offering (priced, closing ~Nov 13) already fully on file. Next earnings (Nov 30, consensus ~$2.31 EPS) reconfirmed. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -459,10 +476,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
-    "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "date": "2026-11-18",
+    "run": "am",
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

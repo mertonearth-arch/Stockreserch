@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:25:06.666Z",
+  "updated": "2026-11-18T05:31:17.619Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -131,7 +131,7 @@
       "tier": "daily",
       "theme": "Consumer Apparel & Retail",
       "quietRuns": 0,
-      "lastResearched": "2026-11-17T21:25:06.651Z"
+      "lastResearched": "2026-11-18T05:31:17.609Z"
     },
     "FTHM": {
       "tier": "daily",
@@ -173,7 +173,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-17T21:21:17.666Z"
+      "lastResearched": "2026-11-18T05:31:17.609Z"
     },
     "IOVA": {
       "tier": "daily",
@@ -239,7 +239,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-17T21:21:17.669Z"
+      "lastResearched": "2026-11-18T05:31:17.607Z"
     },
     "OKTA": {
       "tier": "daily",
@@ -310,8 +310,8 @@
     "SAIC": {
       "tier": "daily",
       "theme": "Government IT & Defense Services",
-      "quietRuns": 2,
-      "lastResearched": "2026-11-17T21:21:17.682Z"
+      "quietRuns": 0,
+      "lastResearched": "2026-11-18T05:31:17.608Z"
     },
     "SANG": {
       "tier": "daily",
@@ -393,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-17",
-    "run": "pm"
+    "date": "2026-11-18",
+    "run": "am"
   }
 }
