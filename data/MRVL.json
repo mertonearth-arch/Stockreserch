@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:25:06.651Z",
+  "lastResearched": "2026-11-18T21:17:39.641Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -216,8 +216,16 @@
     "Market cap: Fox Business $123.82B at $154.39 close (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — the Fox Business figure does not reconcile with its own 876.9M share count at that price (~$135.4B implied); not resolved this pass."
   ],
   "pendingFilings": [],
-  "notes": "Shares outstanding figure located; market cap sources remain unreconciled across vendors.",
+  "notes": "No new dated catalyst found. Market-cap conflict across vendors remains unreconciled (figures range $123.8B-$211B depending on snapshot date/share-count basis used); shares outstanding figure (~876M) reconfirmed. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -514,13 +522,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

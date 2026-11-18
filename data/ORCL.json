@@ -3,12 +3,12 @@
   "name": "Oracle Corporation",
   "sector": "Technology",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.665Z",
+  "lastResearched": "2026-11-18T21:17:39.644Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
@@ -21,7 +21,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not found"
+      "note": "Sources disagree sharply post-offering: one aggregator reports 3,023,740,000 shares as of 2026-11-05; the company's own 10-K reports 2,880,471,000 shares as of 2026-06-12 (pre-offering). The post-offering count should be higher than the 10-K figure given the Nov 4 share issuance below, making ~3.02B plausible, but it is not confirmed against a primary filing this pass."
     },
     "shortInterest": {
       "value": null,
@@ -125,6 +125,13 @@
     },
     {
       "date": "2026-11-04",
+      "type": "offering/dilution",
+      "headline": "Oracle closed a combined ~$20 billion stock-and-senior-notes offering, pricing 86,206,897 new common shares at $116.00/share as part of the package",
+      "impact": "Dilutive primary equity issuance alongside new debt",
+      "source": "https://www.webull.com/news/15857641162564608 ; https://finviz.com/news/413887/oracle-announces-pricing-of-20-billion-of-common-stock-and-senior-notes"
+    },
+    {
+      "date": "2026-11-04",
       "type": "offering/financing",
       "headline": "Oracle priced $20B combined offering: $10B common stock (86,206,897 shares at $116/share, ~$9.9B net proceeds, offering closed 2026-11-04) plus $10B senior notes across five tranches (7.000% 2029, 7.450% 2031, 7.850% 2033, 8.000% 2037, 8.650% 2046, ~$10.0B net proceeds); the stock and notes offerings are independent of one another; proceeds for general corporate purposes including capex, debt repayment, investments/acquisitions and dividends/buybacks; Oracle has said it will seek no more than $20B in additional AI financing through fiscal 2030",
       "impact": "Reported discount to prior close ranges 2.7%-11.2% depending on source — not reconciled, see conflicts",
@@ -136,6 +143,13 @@
       "headline": "A Fool.com headline ('Stock Market Today, Nov. 4: Oracle Falls on Canceled $7 Billion Tencent Chip-Leasing Deal') attributes a same-day Oracle decline to cancellation of a reported $7B Tencent AI-chip leasing deal. This could not be corroborated: every other source located (Goldesel, TIKR, Boerse-Global, TrendForce, w.media, aiweekly.co) describes the Tencent deal only as FT-reported/signed around 2026-10-01 and still unconfirmed by either company, with no cancellation reported anywhere else found. See conflicts.",
       "impact": "Cited as contributing to a two-day decline into 2026-11-05",
       "source": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-oracle-falls-on-canceled-7-billion-tencent-chip-leasing-deal/"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "filing",
+      "headline": "Oracle filed a shelf registration covering common stock, preferred stock, and debt securities, with specific terms to be set via future prospectus supplements",
+      "impact": null,
+      "source": "equibles.com/stocks/orcl/summary"
     },
     {
       "date": "2026-11-02",
@@ -212,11 +226,24 @@
     }
   ],
   "conflicts": [
-    "Oracle Nov 4 stock-offering discount to prior close: one source cites 2.7%, another cites 11.2% vs. the prior Friday's close — not reconciled this pass."
+    "Post-Nov-4-offering share price: $115.00 close (Fox Business, Nov 6) vs $119.12 (Trefis, Nov 10) vs $125.35 (one unverified source, Nov 13) vs $128.38 already on file (Motley Fool, Nov 11) — not reconciled; none treated as more authoritative than another this pass.",
+    "Shares outstanding post-offering: ~3,023,740,000 (one aggregator, Nov 5) vs 2,880,471,000 per the company's 10-K (as of 2026-06-12, pre-offering) — see fundamentals note."
   ],
   "pendingFilings": [],
-  "notes": "Fills in the previously-vague '424B2 $10B notes + ~86.2M share offering' due-reason with full deal terms from the 8-K/press coverage.",
+  "notes": "Added the Nov 2-4 equity/debt offering as new dated catalysts; shares-outstanding and price both remain unreconciled across vendors post-offering.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -451,11 +478,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
+      "2 new catalyst(s)",
+      "sharesOutstanding updated",
       "conflicts updated"
     ],
     "tradingDay": true

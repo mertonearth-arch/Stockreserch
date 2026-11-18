@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T05:31:17.608Z",
+  "lastResearched": "2026-11-18T21:17:39.644Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -182,8 +182,16 @@
     "Price: $147.03 (2026-11-06) vs $146.30 (2026-11-08) — minor, likely normal day-to-day movement"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst; the $500M upsized senior notes offering (priced, closing ~Nov 13) already fully on file. Next earnings (Nov 30, consensus ~$2.31 EPS) reconfirmed. Quiet pass.",
+  "notes": "No new dated catalyst found since the AM pass (which recorded the $500M notes offering close). Next earnings reconfirmed ~Dec 2-3 2026 (unconfirmed, third-party estimate). Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "am",
@@ -477,11 +485,9 @@
   },
   "lastPass": {
     "date": "2026-11-18",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

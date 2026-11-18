@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.659Z",
+  "lastResearched": "2026-11-18T21:17:39.637Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -28,9 +28,9 @@
       "note": "Reported in a range of ~27%-33% of float across 2026 snapshots with no single reconciled current figure; see conflicts"
     },
     "cash": {
-      "value": 138300000,
-      "asOf": "2026-06-30",
-      "source": "SELLAS Q2 2026 earnings release (via marketchameleon.com summary)"
+      "value": 134700000,
+      "asOf": "2026-09-30",
+      "source": "SELLAS Q3 2026 earnings release (via IR site / finviz / itiger coverage)"
     },
     "debt": {
       "value": null,
@@ -41,7 +41,13 @@
       "forward": null,
       "note": "Clinical-stage biotech with ongoing net losses"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": -0.05,
+        "basis": "GAAP"
+      }
+    ],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
@@ -50,9 +56,9 @@
       "note": "Pre-revenue clinical-stage biotech"
     },
     "nextEarnings": {
-      "date": "2026-11-18",
+      "date": null,
       "confirmed": false,
-      "note": "Still not company-confirmed. New conflicting reads found this pass: Benzinga cites 2026-11-24 (EPS est -$0.05); Earnings Whispers cites 2026-11-10 (already passed as of this search with no report found); The Right Trader cites 2026-11-11 (also passed, unconfirmed). See conflicts."
+      "note": "Q3 2026 has now been reported (2026-11-12) — resolves the batch of conflicting unconfirmed Q3 date estimates on file (Benzinga 11-24, Earnings Whispers 11-10, The Right Trader 11-11). No Q4/FY2026 date located yet."
     }
   },
   "price": {
@@ -69,6 +75,13 @@
       "headline": "SELLAS to present SLS009 (tambiciclib) data at the American Society of Hematology (ASH) annual meeting",
       "impact": "Key data readout venue for SLS009 in relapsed/refractory and newly diagnosed AML",
       "source": "https://stocktwits.com/news-articles/markets/equity/sellas-to-present-sls-009-data-at-american-society-of-hematology/cNGL0poR93s"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "SELLAS reported Q3 2026 results: net loss of $10.1M (-$0.05/share) vs a $6.8M net loss in Q3 2025; R&D expense rose to $7.0M from $4.2M, G&A rose to $4.3M from $2.9M; cash and equivalents of $134.7M as of 2026-09-30; nine-month net loss $28.1M; reiterated that the Phase 2 SLS009 (tambiciclib) first-line AML data (40 of 80 patients enrolled) is expected in Q4 2026 and that REGAL Phase 3 (galinpepimut-S in AML) reached its pre-specified 80th survival event on 2026-10-28, triggering the final overall-survival analysis, with topline results expected in November 2026",
+      "impact": "Resolves prior uncertainty over the Q3 report date; REGAL topline (a major binary catalyst) still pending as of this pass",
+      "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Corporate-Update/default.aspx"
     },
     {
       "date": "2026-11-08",
@@ -157,14 +170,26 @@
     }
   ],
   "conflicts": [
-    "Share price: $9.68 close 2026-10-30 (-4.72%) vs $9.14 on 2026-11-04 (+3%) vs $7.995 as of 2026-11-05 7:57pm ET vs $11.57 (undated, +10.3%) — no reconciled figure for 2026-11-13.",
-    "Shares outstanding: ~196.6M (SEC filing via Stocktwits, as of 2026-06-02) vs ~202M (one report) vs ~179.6M (another report) — figures differ by source.",
-    "Short interest: reported between ~27.2% and ~33% of float across different 2026 snapshots with inconsistent month-over-month trend direction reported across vendors — no single current reading established.",
-    "Next earnings date: 2026-11-18 (on file, unconfirmed) vs 2026-11-24 (Benzinga) vs 2026-11-10 (Earnings Whispers) vs 2026-11-11 (The Right Trader) — not reconciled this pass; none confirmed by the company."
+    "Previously-recorded next-earnings estimates (Benzinga 2026-11-24, Earnings Whispers 2026-11-10, The Right Trader 2026-11-11) were all superseded by the actual Q3 2026 report on 2026-11-12 — none of the three estimated dates matched.",
+    "Market cap: no verified figure found this pass either; a ~$2.2B figure circulating online remains an unsourced calculation and is still not used."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since 11/16 pass. Next-earnings date remains unreconciled across sources (2026-11-18 on file vs 11-24/11-10/11-11 per other aggregators) — company has not confirmed; left as-is pending the report itself. Quiet pass.",
+  "notes": "REGAL Phase 3 topline (overall survival, galinpepimut-S in AML) is the key pending binary catalyst — company guided to November 2026 but no results located as of this pass; next PM pass should check specifically for this readout.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "nextEarnings updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -390,10 +415,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "eps updated",
+      "nextEarnings updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

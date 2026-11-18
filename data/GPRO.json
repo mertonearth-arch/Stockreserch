@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:25:06.652Z",
+  "lastResearched": "2026-11-18T21:17:39.663Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -39,42 +39,27 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company has negative GAAP earnings."
+      "note": "negative earnings"
     },
     "eps": [
       {
-        "period": "Q2 2026",
+        "period": "Q3 2026",
         "value": null,
-        "basis": "Non-GAAP",
-        "note": "Missed Q2 EPS estimate by 23 cents per one source; absolute figure not stated."
-      },
-      {
-        "period": "Q3 2025",
-        "value": -0.09,
-        "basis": "Non-GAAP"
+        "basis": "GAAP",
+        "note": "GAAP net loss $85.8M vs $27.4M in Q3 2025; per-share GAAP figure not stated in reachable sources. A secondary source cites a non-GAAP loss of -$0.24/share, unconfirmed against the primary release."
       }
     ],
     "revenue": [
       {
-        "period": "Q1 2026",
-        "value": 99100000,
-        "yoy": null
-      },
-      {
-        "period": "Q2 2026",
-        "value": 104900000,
-        "yoy": -31
-      },
-      {
-        "period": "Q3 2025",
-        "value": 163000000,
-        "yoy": -37
+        "period": "Q3 2026",
+        "value": 96200000,
+        "yoy": -41
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q2 2026",
-      "pct": -31
+      "period": "Q3 2026",
+      "pct": -41
     },
     "nextEarnings": {
       "date": "2026-11-05",
@@ -89,11 +74,25 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-16",
+      "type": "earnings",
+      "headline": "GoPro reported actual Q3 2026 results (delayed from the originally scheduled Nov 10 date): revenue $96.2M (-41% YoY from $163M a year earlier), GAAP gross margin 12.7% (vs 35.1% YoY), GAAP net loss $85.8M (vs $27.4M YoY), non-GAAP net loss $46.1M. Going-concern doubt reiterated. CEO Nicholas Woodman said the Starman Optical merger remains on track and the preliminary proxy statement has been filed.",
+      "impact": null,
+      "source": "https://www.placera.se/pressmeddelanden/gopro-gopro-announces-third-quarter-results-20261116"
+    },
+    {
       "date": "2026-11-10",
       "type": "filing",
       "headline": "GoPro delayed its Q3 2026 10-Q, citing an incomplete financial close and incomplete valuation of its financing arrangements; posted preliminary unaudited Q3 figures instead (revenue ~$96M vs $163M a year earlier; gross margin ~12.7% vs 35.1% YoY; opex ~$60M vs $73M YoY) and disclosed substantial doubt about its ability to continue as a going concern over the next 12 months while seeking lender waivers",
       "impact": "If lender waivers are not obtained, noncompliance could allow termination of the pending Starman Optical merger agreement (announced 2026-09-01)",
       "source": "https://bicycleretailer.com/industry-news/2026/11/10/gopros-q3-earnings-report-delayed"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "M&A amendment",
+      "headline": "GoPro and Starman Optical reportedly amended the merger agreement to push the outside closing deadline back three months, from December 31, 2026 to March 31, 2027",
+      "impact": null,
+      "source": "secondary aggregator coverage; not independently verified against the amendment filing itself"
     },
     {
       "date": "2026-11-03",
@@ -215,16 +214,27 @@
     }
   ],
   "conflicts": [
-    "Price: Fool $0.90 close (2026-11-06) vs Investing.com UK $0.6882 (2026-11-12) vs Debelegger $0.93 (2026-10-30) — a roughly 30% swing across sources in under a week.",
-    "Shares outstanding: 144.72M (undated, Equibles) vs 157.55M (StockAnalysis, dated to ~May 2025) — likely reflects dilution from the 424B3 share issuances between those dates.",
-    "Short interest: 12.45% of float with 3.1 days to cover (Jul 8 2026, Equibles) vs an undated 17.5% figure that mixes bases vs a stale Aug 2025 MarketBeat figure of 13.70% of float.",
-    "Overnight reaction to the Nov 10 earnings-delay/going-concern filing is reported inconsistently: Stocktwits cites a ~7% overnight drop while Börse Global cites ~14% same-day — not reconciled."
+    "GAAP diluted EPS for Q3 2026 not confirmed: a GAAP net loss of $85.8M implies a meaningfully larger per-share loss than the -$0.24 non-GAAP figure some secondary sources cite, but no source stated the GAAP per-share figure directly.",
+    "Price, shares-outstanding and short-interest conflicts from prior passes remain unresolved (see history)."
   ],
-  "pendingFilings": [
-    "Form 10-Q FY2026 (period 2026-09-30) now appears indexed on SEC EDGAR — the previously-delayed Q3 10-Q appears to have since been filed. Filing date and content (incl. whether lender waivers were obtained and the Starman Optical merger status) could not be verified — sec.gov unreachable from this sandbox; no secondary source with filing date/content found. Flagging for next pass to confirm and pull detail (waiver status itself conflicting across sources: one 10-Q excerpt cites an Oct 16, 2026 covenant waiver; a third-party summary instead cites a Jul 9, 2026 waiver)."
-  ],
-  "notes": "Likely-material update (10-Q filing status) found but not confirmable in detail this session. No other new catalyst beyond the Nov 10 going-concern/delayed-10-Q disclosure already on file.",
+  "pendingFilings": [],
+  "notes": "Actual Q3 2026 results (delayed from Nov 10) now confirmed via a PR Newswire/Placera release. Merger closing-deadline extension to March 31, 2027 is a new catalyst, sourced only secondarily.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -592,11 +602,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "new filing(s)"
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -7,19 +7,20 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.681Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.668Z",
   "fundamentals": {
     "marketCap": {
-      "value": 19360000,
-      "asOf": "~2026-10",
-      "source": "stockanalysis.com (via search snippet)",
-      "note": "paired in that snippet with a 4.80M shares-outstanding figure that conflicts sharply with another source"
+      "value": null,
+      "asOf": "2026-11-18",
+      "note": "Previous $19.36M figure was paired with the incorrect ~4.8M share count; not recomputed this pass since no current share price was established for QNRX."
     },
     "float": null,
     "sharesOutstanding": {
-      "value": null,
-      "note": "Conflicting: ~4.80M (stockanalysis.com) vs shares said to have risen from 52M to 168M by end of Q3 2026 (third-party earnings review) — a ~35x gap not resolved this pass"
+      "value": 70294615,
+      "asOf": "2026-08-12",
+      "source": "Quoin Pharmaceuticals Form 10-Q cover page (SEC EDGAR)",
+      "note": "Ordinary shares outstanding. Company also had 2,008,417 ADSs outstanding at that date; each ADS represents 35 ordinary shares (ratio effective since 2025-04-09, a 1-for-35 reverse ADS split — ordinary shares themselves were not affected). Resolves the prior-pass conflict: the ~4.80M stockanalysis.com figure and the ~168M third-party figure were both apparently confused readings of the ADS count / ordinary-share count; neither is used."
     },
     "shortInterest": null,
     "cash": {
@@ -36,16 +37,16 @@
     },
     "eps": [
       {
-        "period": "Q3 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "net loss ~$4.9M reported; per-share figure not located in a primary source this pass"
-      },
-      {
         "period": "Q3 2025",
         "value": null,
         "basis": "GAAP",
-        "note": "net loss ~$3.9M reported; per-share figure not located"
+        "note": "Net loss ~$3.9M reported; per-share figure still not located in a primary source"
+      },
+      {
+        "period": "Q3 2026",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Net loss ~$4.9M reported; a pre-earnings consensus estimate of -$1.88/share was found, but no actual per-share figure was located in a primary source this pass"
       }
     ],
     "revenue": [],
@@ -181,13 +182,25 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~4.80M (stockanalysis.com) vs 52M→168M over 2026 (third-party earnings review) — roughly 35x apart, unresolved; flagging rather than guessing a split ratio",
     "Cash runway: company states into 2028; a third-party burn-rate estimate ($1.5M/month) instead implies into late 2027",
-    "Report-date confusion: company's own announcement named Nov 5, 2026 for Q3 results; a separate Earnings Whispers listing instead showed Nov 13, 2026 (today)"
+    "Report-date confusion: company's own announcement named Nov 5, 2026 for Q3 results; a separate Earnings Whispers listing instead showed Nov 13, 2026"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass; search results stale/pre-dated. Quiet pass.",
+  "notes": "No new dated catalyst found this pass. Resolved the shares-outstanding conflict via Quoin's own SEC 10-Q cover page (70,294,615 ordinary shares; 1 ADS = 35 ordinary shares). Market cap is now null pending a current price, rather than carry forward a figure based on the wrong share count.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -502,10 +515,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

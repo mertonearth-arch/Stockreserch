@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.672Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.649Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -247,8 +247,16 @@
     "A trading halt was referenced for 2026-10-08 in one source without further detail; not independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Ticker is bioAffinity Technologies (BIAF), not BioAtla (BCAB) — confirmed correct company this pass.",
+  "notes": "No new dated catalysts or fundamentals located beyond the 2026-11-17 pass; genuinely quiet.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -554,12 +562,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

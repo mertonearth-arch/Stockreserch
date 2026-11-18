@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.685Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.671Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -110,8 +110,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "This is a material update on a name that had gone quiet since Sept 16 — the option has now been exercised into a full license.",
+  "notes": "No news dated 2026-11-17/18 found. Existing catalyst (option exercise) and Q2 2026 financials already on file remain the most recent. Nothing new this pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -382,12 +390,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

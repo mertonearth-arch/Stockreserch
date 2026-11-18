@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.664Z",
+  "lastResearched": "2026-11-18T21:17:39.633Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -31,12 +31,15 @@
       "note": "~2.8% of shares outstanding; 3.50 days to cover"
     },
     "cash": {
-      "value": null,
-      "note": "Not established in sources reviewed"
+      "value": 21300000,
+      "asOf": "2026-09-30",
+      "source": "Earnings Whispers / Q3 2026 results coverage",
+      "note": "Down from $34.3M at mid-year and $51.3M at the start of 2026; management targets rebuilding to $50M over the next year. $35M revolving credit line reported untouched (no debt drawn)."
     },
     "debt": {
-      "value": null,
-      "note": "Not established in sources reviewed"
+      "value": 0,
+      "asOf": "2026-09-30",
+      "note": "No term debt identified; $35M revolving credit facility reported undrawn"
     },
     "pe": {
       "trailing": null,
@@ -66,7 +69,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located"
+      "note": "Q4/FY2026 date not located"
     },
     "revenue": [
       {
@@ -154,6 +157,18 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-17",
       "run": "pm",
       "quiet": false,
@@ -238,13 +253,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Q3 2026 earnings figures now established (see catalyst) — supersedes the low-confidence placeholder entry on file for the same 2026-11-09 report.",
+  "notes": "No new catalyst since the 2026-11-17 full pass on this name, which already captured the Q3 2026 print in detail. This pass only adds the cash/debt figures that were still null.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "nextEarnings updated",
+      "cash updated",
+      "debt updated"
     ],
     "tradingDay": true
   }

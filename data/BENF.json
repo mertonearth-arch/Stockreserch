@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.672Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.648Z",
   "fundamentals": {
     "marketCap": {
       "value": 12420000,
@@ -31,12 +31,15 @@
       "source": "MarketBeat"
     },
     "cash": {
-      "value": null,
-      "note": "Not established; an EV figure of $157.79M vs market cap $57.01M on StockAnalysis implies net debt but is a stale (~late-2025) snapshot and was not used"
+      "value": 7500000,
+      "asOf": "2026-09-30",
+      "source": "Fiscal Q2 2027 8-K earnings release, per WebSearch summary (direct SEC.gov fetch blocked in this sandbox)"
     },
     "debt": {
-      "value": null,
-      "note": "Not established from available sources this pass"
+      "value": 98100000,
+      "asOf": "2026-09-30",
+      "source": "Fiscal Q2 2027 8-K earnings release, per WebSearch summary (direct SEC.gov fetch blocked in this sandbox)",
+      "note": "Up from $96.8M at 2026-06-30, after two promissory notes totaling $4.0M issued after that quarter-end."
     },
     "pe": {
       "trailing": null,
@@ -77,6 +80,13 @@
       "headline": "Bradley Heppner's criminal sentencing hearing (SDNY) has reportedly been rescheduled to January 11, 2027. This is a single-source report (Panabee); no second independent outlet or court-docket confirmation was found this session, and it supersedes the prior 'adjourned, no new date set' status on file (as of 2026-10-22).",
       "impact": null,
       "source": "https://www.panabee.com/news/beneficient-advances-strategy-to-eliminate-130-million-in-debt-and-recover-211-million"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "corporate/governance",
+      "headline": "Shareholders approved the issuance of Class A common stock to Yorkville II PN, Ltd. at a special meeting; former controlling entity BHI had alleged irregularities in the issuance, which management rejected in full",
+      "impact": "Clears a financing-related governance dispute; does not resolve the broader ~$130M HCLP Nominees debt dispute already on file",
+      "source": "https://www.panabee.com/news/beneficient-shareholders-approve-yorkville-financing-amidst-dispute-with-former-ceo-cont"
     },
     {
       "date": "2026-10-28",
@@ -181,8 +191,20 @@
     "Price history is not comparable across the 2025-12-15 1-for-8 reverse split; pre-split prices should not be read against post-split prices"
   ],
   "pendingFilings": [],
-  "notes": "Jan 11, 2027 Heppner sentencing date (on file) reconfirmed via a second source (company's own Oct 28 release, per secondary summaries); still only single-sourced at the court-docket level. Company continues seeking a deal to eliminate ~$130M of disputed HCLP debt tied to Heppner; no definitive agreement signed yet. Quiet pass — no new dated catalyst beyond what's on file.",
+  "notes": "New Oct 29 shareholder-vote catalyst found (Yorkville financing approved amid BHI dispute). Filled previously-null cash/debt from the fiscal Q2 2027 (quarter ended 2026-09-30) earnings release. Heppner Jan 11, 2027 sentencing date unchanged.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -444,10 +466,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

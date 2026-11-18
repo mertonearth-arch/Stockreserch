@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.666Z",
+  "lastResearched": "2026-11-18T21:17:39.639Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -142,6 +142,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-17",
       "run": "pm",
       "quiet": true,
@@ -226,9 +234,9 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not confirm a reliable current share price (search results stale/conflicting, none dated to this week). No new dated catalyst beyond the Nov 10-11 earnings-collapse cluster and shareholder-investigation notice already on file. Quiet pass.",
+  "notes": "No new dated catalyst or confirmed current price found this pass (search returned only stale/undated quotes, none newer than the Nov 10-11 earnings-collapse cluster already on file). Quiet pass.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

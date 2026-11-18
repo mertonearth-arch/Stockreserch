@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.678Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.664Z",
   "fundamentals": {
     "marketCap": {
       "value": 6600000000,
@@ -171,8 +171,16 @@
     "Market cap Oct 23, 2026: Fox Business $6.62B vs Motley Fool $6.38B off the same 452.97M share count"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass; search results stale. Quiet pass.",
+  "notes": "No new dated catalyst found this pass. A Nov 16, 2026 fireside chat at the Jefferies Global Healthcare Conference is scheduled but carries no new figures, so it is not recorded as a catalyst. The Oct 23 2026 market-cap conflict remains unresolved. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -486,7 +494,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

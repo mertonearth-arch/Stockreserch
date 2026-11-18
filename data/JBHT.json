@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.667Z",
+  "lastResearched": "2026-11-18T21:17:39.640Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
@@ -94,6 +94,13 @@
       "source": "Businesswire"
     },
     {
+      "date": "2026-11-06",
+      "type": "dividend",
+      "headline": "J.B. Hunt declared a regular quarterly dividend of $0.45/share, payable 2026-11-20 to shareholders of record as of 2026-11-06",
+      "impact": null,
+      "source": "https://finviz.com/news/405753/jb-hunt-transport-services-inc-announces-quarterly-dividend"
+    },
+    {
       "date": "2026-11-03",
       "type": "insider",
       "headline": "CFO Brad Delco reports a derivative security exercise",
@@ -160,8 +167,18 @@
     "Price: $227.66 (Fool, Nov 11) vs $218.54 (Fox Business, Nov 6) vs $220.86 (Stockevents, undated) — roughly a $9 spread across sources dated within a week of each other."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 17 investor-conference appearance already on file. Quiet pass.",
+  "notes": "Added the Q4 dividend declaration (record date Nov 6, pay date Nov 20); no other new catalyst found beyond the Nov 17 investor-conference item already on file.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -370,10 +387,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

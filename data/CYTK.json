@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.674Z",
+  "lastResearched": "2026-11-18T21:17:39.652Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -85,6 +85,13 @@
     "note": "Could not establish a single reliable current price; three conflicting, inconsistently-dated figures were found — see conflicts"
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "regulatory/label update",
+      "headline": "FDA updated the Myqorzo (aficamten) label to add MAPLE-HCM head-to-head comparative data vs. metoprolol monotherapy in symptomatic obstructive HCM (aficamten improved peak oxygen uptake by a mean 1.1 mL/kg/min at 24 weeks vs. a 1.2 mL/kg/min decline on metoprolol); the FDA action does NOT change the approved indication — it adds comparative data to the existing label rather than granting a new first-line indication",
+      "impact": "Resolves the pending 2026-11-14 PDUFA date for the MAPLE-HCM sNDA: outcome was a label data addition, not an indication expansion to first-line therapy as some pre-decision coverage speculated",
+      "source": "https://www.hcplive.com/view/fda-updates-aficamten-label-with-maple-hcm-data-in-obstructive-hcm"
+    },
     {
       "date": "2026-11-14",
       "type": "FDA decision (PDUFA)",
@@ -218,8 +225,18 @@
     "Search sources describing an FDA approval of aficamten (Myqorzo) for obstructive HCM cite a PDUFA/approval timeline (REMS-driven extension to Dec 26, with approval 'ahead of' that date) that does not match the 2026-11-14 PDUFA date already on file for this watchlist; these may refer to a different review cycle. No outcome specific to the 2026-11-14 date was confirmed this pass — not recording an approval on this unreconciled basis."
   ],
   "pendingFilings": [],
-  "notes": "FDA PDUFA target action date (2026-11-14, on file) could not be confirmed as decided this pass; conflicting/older-seeming approval coverage found but not reconciled to this specific date — see conflicts. Re-check next pass rather than recording an unverified approval.",
+  "notes": "The 2026-11-14 PDUFA date referenced in prior catalysts on file was for this MAPLE-HCM label update, now resolved 2026-11-16 as described above — not a new standalone drug approval.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -588,11 +605,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

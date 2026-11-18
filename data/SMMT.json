@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.660Z",
+  "lastResearched": "2026-11-18T21:17:39.645Z",
   "fundamentals": {
     "marketCap": {
       "value": 11556000000,
@@ -156,8 +156,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found beyond the 11/15 FDA CRL already on file. Could not independently confirm today's share price or the exact magnitude of continued price reaction; current price field left as-is. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 15 FDA CRL already on file. Harmoni-3 non-squamous-cohort enrollment-completion date still inconsistently reported across sources but not independently confirmed enough to log as a resolved conflict. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -377,7 +385,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

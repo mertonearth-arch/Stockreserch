@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.672Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.649Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -80,10 +80,10 @@
     }
   },
   "price": {
-    "last": 3.27,
-    "changePct": null,
-    "asOf": "2026-10-23",
-    "source": "Benzinga"
+    "last": 2.12,
+    "changePct": -17.83,
+    "asOf": "2026-11-13",
+    "source": "Equibles"
   },
   "catalysts": [
     {
@@ -194,10 +194,23 @@
       "source": "https://www.panabee.com/news/bio-key-stockholders-approve-reverse-split-authorization"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — both retained verbatim; magnitude of decline not independently reconciled this pass"
+  ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 13 Q3 results already on file. Quiet pass.",
+  "notes": "Shares-outstanding and market-cap figures continue to disagree sharply across aggregators (roughly 1.09M-2.04M shares, $3M-$7.8M cap); not re-resolved this pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -17.83%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -461,10 +474,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -17.83%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

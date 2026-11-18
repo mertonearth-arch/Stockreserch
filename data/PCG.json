@@ -7,13 +7,14 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.680Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.667Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": "2026-11-05",
-      "note": "sources disagree sharply and don't reconcile with shares × price"
+      "value": 28560000000,
+      "asOf": "2026-11-12",
+      "source": "MarketChameleon",
+      "note": "Internally consistent with the confirmed 2,202,224,600 share count at $12.97/share (≈$28.56B); Trefis ~$40.2B, TipRanks $37.04B and AlphaQuery $37.22B do not reconcile with that share count at any plausible 2026 price and are not used."
     },
     "float": null,
     "sharesOutstanding": {
@@ -47,11 +48,9 @@
     }
   },
   "price": {
-    "last": 13.13,
-    "changePct": 0.9,
-    "asOf": "2026-11-10",
-    "source": "Fox Business quote page (via WebSearch)",
-    "note": "52-week range $11.77-$19.15 per same source."
+    "last": 12.97,
+    "asOf": "2026-11-12",
+    "source": "MarketChameleon (via WebSearch)"
   },
   "catalysts": [
     {
@@ -199,12 +198,23 @@
     }
   ],
   "conflicts": [
-    "Market cap: Trefis ~$40.2B (using $13.39 price, 2026-11-05) vs Fox Business $29.51B vs TipRanks $37.04B — none reconcile cleanly with 2.2B shares × $13.39 (~$29.5B)",
+    "Market cap: Trefis ~$40.2B, TipRanks $37.04B and AlphaQuery $37.22B do not reconcile with the confirmed 2,202,224,600 share count at any 2026 price; MarketChameleon's $28.56B (2026-11-12, $12.97/share) is internally consistent with the share count and is used as the current value this pass.",
     "Dividend: Fox Business lists $0.05/share (ex-div 2026-09-30) while TipRanks lists an annual dividend of $0.025, which looks stale"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Oct 22 Q3 earnings and Nov 9 undergrounding-milestone entries already on file. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 9 undergrounding-milestone entry already on file. Market cap conflict partially reconciled via share-count arithmetic; price refreshed to the Nov 12 reading.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -492,10 +502,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

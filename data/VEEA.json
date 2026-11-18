@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.684Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.672Z",
   "fundamentals": {
     "marketCap": {
       "value": 13970000,
@@ -196,8 +196,16 @@
     "A separate Marketchameleon snapshot found this pass gives a $13.38M market cap (vs the $13.97M on file at the same 2026-11-05 asOf date) — a minor variant, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 2 price move and Oct 9 Nasdaq compliance resolution already on file. Quiet pass.",
+  "notes": "No news dated 2026-11-17/18 found. Checked capital structure: Veea is an operating company (edge-computing hardware/connectivity vendor), not a leveraged ETF or warrant/unit issue, so standing rule 6 does not apply. Existing items (Nasdaq compliance restored, $750M connected-health combination proposal, TROLLEE deployment deal) already on file remain most recent; nothing new confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -412,7 +420,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.684Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.671Z",
   "fundamentals": {
     "marketCap": {
       "value": 10752000,
@@ -140,8 +140,16 @@
     "Market cap 2026-11-13 (Yahoo Finance via WebSearch): $10.752M at a $0.855 close (+1.80%) implies roughly 12.58M shares outstanding, which does not match the 11,017,140 ADS count used elsewhere in this file (itself inferred, not confirmed, from a 5-ordinary-shares-per-ADS ratio) — the ADS-vs-ordinary-share basis for this company's share count remains unresolved."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 10 Pamesa Net Zero Phase II expansion already on file. Quiet pass.",
+  "notes": "No news dated 2026-11-17/18 found; most recent dated items located are from June 2026 (Nasdaq compliance) and April 2026 (defense/energy security expansion), both predating existing file data. Nothing new this pass. Existing float/short-interest conflicts (ADS vs ordinary-share basis) not re-resolved.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -348,7 +356,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

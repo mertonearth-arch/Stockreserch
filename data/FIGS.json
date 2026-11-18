@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.676Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.660Z",
   "fundamentals": {
     "marketCap": {
       "value": 3660000000,
@@ -162,8 +162,16 @@
     "Characterization of the Jordan supply issue differs: Earnings Whispers frames it as a 'Jordan import restriction,' while Panabee specifically identifies it as a June 2026 Withhold Release Order against a manufacturing partner"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 5 Q3 beat-and-raise already on file; supply-constraint commentary (Jordan-brand supplier ban capping near-term upside) is context on the same print, not a separate dated event. Quiet pass.",
+  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Nov 5 Q3 2026 earnings already on file. Price snapshots this pass (Benzinga $21.95 as of Nov 13; Investing.com $19.82 undated) are close to or below the $22.05 already on file and not clearly fresher — not used to overwrite. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -400,7 +408,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

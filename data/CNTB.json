@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.662Z",
+  "lastResearched": "2026-11-18T21:17:39.632Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
       "asOf": "2026-10-26",
-      "source": "Massive.com quote aggregator"
+      "source": "Massive.com quote aggregator",
+      "note": "A second aggregator (Fox Business, 2026-10-23) shows $50.38M on 62.97M shares at $0.76 — close enough to be the same underlying data at a slightly different date, not treated as a true conflict"
     },
     "float": {
       "value": null,
@@ -32,7 +33,7 @@
     },
     "cash": {
       "value": null,
-      "note": "Q3 2026 cash balance not located in sources reviewed"
+      "note": "Most recent confirmed figure is $46.03M as of 2026-03-31 (10-Q); no Q3 2026 cash balance located this pass, so leaving null rather than citing a stale quarter as current"
     },
     "debt": {
       "value": null,
@@ -55,7 +56,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located; prior-year Q3 report was issued 2025-11-12"
+      "note": "Not located this pass either; prior-year Q3 report was issued 2025-11-12"
     }
   },
   "price": {
@@ -135,8 +136,20 @@
     "Short interest: 5.6% of float / 5.2 days to cover (Equibles, Oct settlement) vs a separate Equibles page showing 6.1% / 1.7 days to cover and 3.9M shares short (+358K MoM) vs a Massive figure of 3.5M shares / 1.0 days to cover as of a Sept 30 settlement."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since 11/6 pass; still flagged as due today on the strength of the 11/6 move/RVOL figures already on file. Quiet pass.",
+  "notes": "No new catalyst since the 2026-11-17 pass; cash and next-earnings date remain unestablished despite a further search. Honest quiet pass on the fundamentals side.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -355,10 +368,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated"
+    ],
     "tradingDay": true
   }
 }

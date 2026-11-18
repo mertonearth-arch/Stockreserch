@@ -8,31 +8,36 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.661Z",
+  "lastResearched": "2026-11-18T21:17:39.637Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "no figure confirmed this pass; only share price snapshots found"
+      "note": "Sources disagree ($23.43B Motley Fool vs $23.08B Equibles vs $21.97B TipRanks, the last apparently stale) — see conflicts; not picking one"
     },
     "float": {
       "value": null,
       "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 384790000,
+      "asOf": "2026-11",
+      "source": "Motley Fool / Equibles (both agree)"
     },
     "shortInterest": {
       "value": null,
       "note": "not retrieved this pass"
     },
     "cash": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 168000000,
+      "asOf": "2026-Q1 (stale)",
+      "source": "Motley Fool",
+      "note": "No 2026-09-30 cash figure located; this is the most recent found and predates the Q3 2026 report"
     },
     "debt": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 40806000000,
+      "asOf": "2026-09-30",
+      "source": "Equibles, citing the 10-Q filed 2026-10-29",
+      "note": "Long-term debt including current maturities; plus $1.804B current portion and $190M line-of-credit borrowings separately listed. See conflicts for an older, differently-defined figure."
     },
     "pe": {
       "trailing": null,
@@ -61,17 +66,21 @@
     ],
     "revenue": [
       {
+        "period": "Q3 2025",
+        "value": 5750000000,
+        "yoy": null
+      },
+      {
         "period": "Q3 2026",
-        "value": 4890000000,
-        "yoy": null,
-        "note": "missed analyst estimates by 11.7%; prior-year comparable revenue not found"
+        "value": 4886000000,
+        "yoy": -15
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "not computable from sources found; core EPS instead declined ~11% YoY ($1.92 vs $2.16)"
+      "pct": -15,
+      "note": "Operating revenue fell from $5.750B to $4.886B; management attributes the decline mainly to a 2025 one-time item (retroactive rate-case recognition), not an operating deterioration. Core EPS fell to $1.92 from $2.34 (one source) — see conflicts for a second prior-year EPS reading already on file."
     },
     "nextEarnings": {
       "date": null,
@@ -284,11 +293,29 @@
     }
   ],
   "conflicts": [
-    "Current price: $55.30 (Webull, undated) vs $57.35 (Benzinga, 2026-10-23) vs $58.79 (AAII, 2026-10-30) vs $59.71 (Investing.com, undated) vs $61.42 (stockevents.app, undated) — using the most clearly dated figure ($58.79, 2026-10-30); no confirmed 2026-11-13 close found. 52-week low of $51.10 was set 2026-09-29."
+    "Market cap: $23.43B (Motley Fool) vs $23.08B (Equibles) vs $21.97B (TipRanks, appears stale) — not reconciled.",
+    "Debt: Motley Fool shows total debt of $42.70B for 'most recent quarter' (unclear if Q1 or Q3 2026) vs Equibles' $40.806B long-term debt (+ $1.804B current + $0.19B LOC = ~$42.8B) explicitly dated 2026-09-30. Close but not confirmed identical.",
+    "Q3 2025 core EPS: one source (247wallst/Zacks coverage, this pass) states core EPS fell to $1.92 from $2.34 YoY; the figure already on file from a prior pass states $2.16 for Q3 2025. These two readings of the same prior-year quarter disagree and are both recorded verbatim rather than picked."
   ],
   "pendingFilings": [],
-  "notes": "No confirmed outcome found on the Nov 15 special-legislative-session question (still pending per sources checked), and no new dated catalyst beyond the Nov 30 Wildfire Recovery Compensation Program deadline already on file. Quiet pass.",
+  "notes": "Revenue YoY now established as -15.0%, driven mainly by a 2025 one-time rate-case item rather than an operating decline, per management commentary.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -644,10 +671,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

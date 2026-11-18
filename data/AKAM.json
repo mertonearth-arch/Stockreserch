@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.648Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -223,12 +223,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: $16.75B (Google Finance, late Jul 2026) vs $15.62B (MarketBeat, early Aug 2026) vs $11.54B (stockevents.app, stale) — none confirmed for 2026-11-13.",
-    "Price: $83.90 (Trefis, 2026-11-05) vs $110.72 (MarketBeat, undated) vs $77.84 (Earnings Whispers, undated) vs $100.86 (Upstox, 2026-10-09) — very wide dispersion; using the Trefis figure as the most clearly dated anchor near the earnings date."
+    "Market cap: third-party aggregators range from ~$10.6B (TipRanks) to ~$16.6B (OpenCapital, Q1 2026 period-end price) with no consistent November 2026 figure found. Cash: OpenCapital/FN2 show ~$626.9M-$953.5M across different periods. Debt: OpenCapital $1.8B vs FN2 long-term debt $4.1B vs TipRanks total debt $5.27B vs Motley Fool $9.45B — sources appear to define 'debt' inconsistently (e.g. whether leases/convertibles are included). None resolved to a single reliable figure this pass."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 5 Q3 earnings and Anthropic $11.6B cloud-agreement cluster already on file. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 5 Q3 earnings and Anthropic $11.6B cloud-agreement cluster already on file. Attempted to fill marketCap/cash/debt; found only mutually inconsistent third-party snapshots, logged as a conflict rather than picking one. Quiet pass otherwise.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -506,10 +515,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

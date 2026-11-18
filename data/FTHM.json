@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.676Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.660Z",
   "fundamentals": {
     "marketCap": {
       "value": 19940000,
@@ -184,8 +184,16 @@
     "Price snapshots of $0.73 and $0.9387 (undated) are far above the dated $0.179 (Oct 30, 2026) figure and could not be reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found beyond the Nov 13 Q3 2026 results already on file. Quiet pass.",
+  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Nov 13 Q3 2026 earnings already on file. A $0.18 price snapshot (Oct 29-30) surfaced but is older than the $0.179 (2026-10-30) already on file and does not update it. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -470,7 +478,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

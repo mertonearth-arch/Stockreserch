@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.670Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.646Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -211,8 +211,16 @@
     "Expected Nov 11, 2026 earnings consensus EPS of -$4.05 (one source) looks inconsistent with recent quarterly loss magnitudes; unconfirmed and possibly erroneous."
   ],
   "pendingFilings": [],
-  "notes": "Fills in the Q2 FY2027 earnings event referenced only as upcoming before this pass.",
+  "notes": "No news found later than the Nov 12 Q2 FY2027 results already on file. North Immunology reverse-merger (announced 2026-09-17, to trade as NRTX) status unchanged in sources reviewed — no closing date or shareholder-vote news found this pass. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -540,12 +548,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

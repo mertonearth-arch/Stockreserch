@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.681Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.669Z",
   "fundamentals": {
     "marketCap": {
       "value": 1660000000,
@@ -137,6 +137,12 @@
       "note": "Exact close date approximated as 'late October 2026' per source wording; the Fayuvi voucher sale closing (expected later in Nov 2026) had not been confirmed as completed as of this research."
     },
     {
+      "date": "2026-10-30",
+      "type": "corporate action",
+      "headline": "Completed sale of the GENGLYCOS Rare Pediatric Disease Priority Review Voucher for $210M (agreement announced Oct 7); 20% of gross proceeds owed to the NIH under a patent license agreement, implying ~$164M net to Ultragenyx after the NIH payment and related fees",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526445342/rare-20261030.htm"
+    },
+    {
       "date": "2026-10-19",
       "type": "legal",
       "headline": "Ultragenyx and Baylor Research Institute settled patent litigation with Navinta LLC over patents covering DOJOLVI oral liquid.",
@@ -149,6 +155,13 @@
       "headline": "UBS initiated coverage of Ultragenyx at Neutral with a $16 price target",
       "impact": null,
       "source": "aggregated via merlintrader.com / AAII coverage"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "corporate action",
+      "headline": "Agreed to sell a second Priority Review Voucher (tied to the FAYUVI approval) for $203M, its second PRV sale within one week; owes a third-party licensor $16M from this sale (implying ~$185M net); closing expected by year-end 2026 subject to customary conditions including HSR waiting-period expiration",
+      "source": "https://www.fiercepharma.com/pharma/ultragenyx-makes-swift-413m-return-fda-review-vouchers-after-summer-gene-therapy-nods",
+      "note": "Date approximated as ~one week after the Oct 6-7 GENGLYCOS announcement per source wording; not independently pinned to an exact agreement date this pass."
     },
     {
       "date": "2026-10-14",
@@ -173,6 +186,12 @@
     },
     {
       "date": "2026-10-07",
+      "type": "corporate action",
+      "headline": "Announced agreement to sell its GENGLYCOS Rare Pediatric Disease Priority Review Voucher for $210M",
+      "source": "https://www.pharmexec.com/view/ultragenyx-sell-rare-pediatric-disease-priority-review-voucher-210-million"
+    },
+    {
+      "date": "2026-10-07",
       "type": "financing/non-dilutive",
       "headline": "Agreed to sell a rare pediatric disease Priority Review Voucher (PRV) for $210 million.",
       "impact": null,
@@ -191,6 +210,12 @@
       "headline": "Ultragenyx agreed to sell a second Priority Review Voucher for $210 million, with proceeds earmarked for the rare-disease pipeline; this voucher followed FDA approval of GENGLYCOS for glycogen storage disease type Ia",
       "impact": "Additional non-dilutive cash inflow of $210M",
       "source": "Search-aggregator summary; not independently traced to a primary company press release this session"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "regulatory",
+      "headline": "EMA validated the Marketing Authorisation Application for rebisufligene etisparvovec (UX111), Ultragenyx's investigational gene therapy for MPS IIIA (Sanfilippo syndrome Type A); validation confirms the filing is complete enough for formal review to begin, not an approval. UX111 was FDA-approved 2026-09-17.",
+      "source": "https://www.rttnews.com/3696114/ultragenyx-s-mps-iiia-gene-therapy-application-validated-by-ema.aspx"
     },
     {
       "date": "2026-10-02",
@@ -265,8 +290,18 @@
     "Stock price around the earnings date given as both $16.30 (close, Nov 2) and $16.63 (Nov 3) by different sources — minor, likely consecutive-day closes"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 3-4 Q3 earnings / restructuring / voucher-sale cluster already on file. Quiet pass.",
+  "notes": "Added four October PRV-sale and EMA-validation catalysts found this pass (not previously on file); otherwise no catalyst dated Nov 17-18 found. Fundamentals/conflicts otherwise unchanged.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -580,10 +615,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

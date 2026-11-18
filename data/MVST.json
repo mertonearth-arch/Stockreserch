@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.668Z",
+  "lastResearched": "2026-11-18T21:17:39.642Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -109,6 +109,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-17",
       "run": "pm",
       "quiet": true,
@@ -187,9 +195,9 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not confirm a post-Q3-earnings share price (most recent reliably dated quote is 2026-11-06, pre-date of nothing new; last confirmed trade found is $0.625 as of 2026-11-06). No new dated catalyst beyond the Nov 9 Q3 earnings/going-concern disclosure already on file. Quiet pass.",
+  "notes": "Could not find a dated post-Q3-earnings price or any new catalyst; search returned only stale pre-2026-11 snapshots. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

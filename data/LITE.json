@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.678Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.665Z",
   "fundamentals": {
     "marketCap": {
       "value": 76150000000,
@@ -155,8 +155,16 @@
     "Shares outstanding ~Oct 30, 2026: Motley Fool 90.58M vs Roic.ai 88.60M (market cap $76.15B vs $73.26B accordingly)"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst; both the Nov 5 earnings and the Nov 2 Marvell-acquisition catalyst are already on file. Quiet pass.",
+  "notes": "No new dated catalyst since the Nov 2 Marvell acquisition announcement and the Nov 5 fiscal Q1 FY2027 earnings, both already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -442,7 +450,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

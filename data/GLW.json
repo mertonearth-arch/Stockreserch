@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.676Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.660Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -157,8 +157,16 @@
     "Several MarketBeat/AAII pages date the Q3 2026 earnings release to 2026-07-28, which matches Q2 timing and appears to be a date error; the 2026-10-27 date was used instead"
   ],
   "pendingFilings": [],
-  "notes": "Fills in the actual Q3 2026 print behind the vague 'unspecified key catalyst' placeholder on file; quarterly dividend payable 2026-12-11 to holders of record 2026-11-13 (routine, not recorded as a standalone catalyst).",
+  "notes": "PM pass 2026-11-18: no new dated catalyst found; the Nov 11 'unspecified key catalyst' flagged last pass as unconfirmed by a single aggregator remains uncorroborated — still not promoted to a real catalyst. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -424,12 +432,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.679Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.665Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -225,8 +225,16 @@
     "Market cap: sources this pass range from ~$22.1B to ~$32.5B (Simply Wall St, different editions) and one TipRanks figure of $375B is clearly a data error -- no reliable current market cap established, left unchanged (null)"
   ],
   "pendingFilings": [],
-  "notes": "Fills in the previously-unconfirmed content/outcome of the Nov 12 Analyst Day entry already on file.",
+  "notes": "No new dated catalyst beyond the Nov 12 Analyst Day entry already on file. Additional sourcing confirms: FY2026 revenue growth guidance raised to 15%-25% (from 'up to 10%'); formal FY2027 guidance deferred to the Q4/FY2026 earnings call, reported as the reason shares fell as much as ~6% intraday before paring to a ~2% loss on the day. Market cap remains unestablished. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -517,12 +525,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

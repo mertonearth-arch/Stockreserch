@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.673Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-18T21:17:39.652Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -153,8 +153,16 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs $35.61 (undated) vs $28.25 with a $2.2B market cap (undated) — no confirmed 2026-11-13 close found."
   ],
   "pendingFilings": [],
-  "notes": "Adds the positive Phase 3 CSU data point that was not previously captured alongside the Nov 5 earnings entry already on file. CFO Sam Martin to retire 2027 (transitioning through March 2027) — minor item, not recorded as a standalone catalyst.",
+  "notes": "No new dated catalysts found past 2026-11-05 earnings; genuinely quiet.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -320,12 +328,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

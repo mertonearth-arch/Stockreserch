@@ -4,11 +4,11 @@
   "sector": "Industrials",
   "theme": "Advanced Materials",
   "themeLabel": "story stock",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.675Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.654Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -217,8 +217,16 @@
     "Price: $19.25 (2026-11-10, FinancialContent) vs a separately reported close of $19.62 '+13.8%' attributed to 'November 6, 2026' by MarketChameleon — internally inconsistent on date."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst independently confirmed this pass beyond what's on file; could not reconcile conflicting current-price snapshots ($15-$20 range across sources). Quiet pass.",
+  "notes": "PM pass 2026-11-18: no new dated catalyst found beyond the Nov 9-10 Q3 2026 earnings already on file. Market cap and next-earnings-date conflicts from prior pass remain unresolved; not re-verified this pass. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -496,7 +504,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

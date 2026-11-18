@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.680Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.666Z",
   "fundamentals": {
     "revenue": [
       {
@@ -45,8 +45,9 @@
       "pct": 12
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not located this pass"
+      "value": 36850000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "shortInterest": {
       "value": null,
@@ -63,8 +64,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not located this pass",
-      "asOf": "2026-11-13"
+      "note": "Conflicting trailing P/E found (see conflicts); no reliable current forward P/E located",
+      "asOf": "2026-11-18"
     },
     "nextEarnings": {
       "date": null,
@@ -73,7 +74,8 @@
     },
     "marketCap": {
       "value": null,
-      "note": "not located this pass"
+      "asOf": "2026-11-18",
+      "note": "Conflicting figures found this pass; see conflicts"
     },
     "float": null
   },
@@ -130,10 +132,25 @@
     }
   ],
   "conflicts": [
-    "Price quotes found ($12.61 as of 2025-12-18 vs $17.70, undated) are from non-current, unreconciled dates"
+    "Price quotes found ($12.61 as of 2025-12-18 vs $17.70, undated) are from non-current, unreconciled dates",
+    "Market cap: Fox Business $695.40M (2026-10-23, 36.85M shares) vs YCharts $821.80M (2026-11-13) — not reconciled",
+    "Trailing P/E: Fox Business 10.59 (2026-10-23) vs YCharts 12.31 (2026-11-13) — not reconciled"
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -293,12 +310,17 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst beyond the Oct 29 Q3 earnings, Oct 30 analyst action, and Nov 13 dividend declaration already on file. Quiet pass.",
+  "notes": "No new dated catalyst found this pass beyond the Nov 13 dividend declaration already on file. Filled previously-null marketCap/sharesOutstanding/P-E fields; marketCap and trailing P/E remain unresolved due to source conflicts.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

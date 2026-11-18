@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.684Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.672Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -72,7 +72,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q1 FY2027 guided ($130-132M revenue) but report date not found this pass; aggregators disagree (Nov 13 vs Nov 20) and don't match the actual FY2026 report already on file"
+      "note": "Company has not announced a specific Q1 FY2027 report date. Based on FY2026 Q1 call timing (2026-02-02) and standard cadence, report likely early February 2027 — inference only, not a company announcement."
     }
   },
   "price": {
@@ -146,8 +146,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 13 FY2026 results / FY2027 guidance already on file. Quiet pass.",
+  "notes": "No news dated 2026-11-17/18 found beyond the already-filed Q4 FY2026 results (EPS -$0.32, revenue $126.64M +27.9% YoY, Q1 FY27 guide $130-132M). Clarified next-earnings timing is an estimate, not newly confirmed.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -371,10 +381,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

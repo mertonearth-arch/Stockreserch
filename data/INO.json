@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.678Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.663Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -135,6 +135,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-17",
       "run": "pm",
       "quiet": true,
@@ -233,9 +241,9 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst beyond the Nov 10 Q3 2026 earnings entry already on file, which already captures the Oct 30 VOCERYQ accelerated approval and the Nov offering. Quiet pass.",
+  "notes": "No new dated catalyst found this pass beyond what is already on file (Nov 10 Q3 earnings, Oct 30 VOCERYQ accelerated approval, Nov offering). Market cap and shares-outstanding remain conflicting across sources and were not resolved this pass. Quiet pass.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

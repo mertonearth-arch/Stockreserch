@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.682Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.669Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -66,9 +66,9 @@
       "pct": 38
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false,
-      "note": "fiscal Q3 FY2027 report not yet scheduled per sources found; last year's fiscal Q3 FY2026 call was held 2025-12-05, suggesting an early-December 2026 report is likely but unconfirmed"
+      "date": "2026-11-30",
+      "confirmed": true,
+      "note": "Company-confirmed via its own announcement: Q3 FY2027 (quarter ended 2026-10-31) results after market close Monday 2026-11-30; call at 5:00 PM ET. Chartmill's Dec 7 estimate and other aggregator estimates are superseded by this company date."
     }
   },
   "price": {
@@ -139,8 +139,18 @@
     "Shares outstanding figures (189.8M and 202.3M) come from undated/older snapshots and were not reconciled"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 10 DevOps Protection product announcement already on file. Quiet pass.",
+  "notes": "Resolved next-earnings date to a company-confirmed 2026-11-30. No new dated catalyst beyond the Nov 10 product announcements already on file (an undated Citi price-target raise to $130 was found but excluded for lack of a date, per the no-undated-catalyst rule).",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -413,10 +423,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

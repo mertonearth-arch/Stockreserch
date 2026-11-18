@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.674Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.652Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -103,6 +103,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-17",
       "run": "pm",
       "quiet": true,
@@ -175,9 +183,9 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst found since the Nov 12 Q3 results already on file; could not confirm a current share price (sources conflict between ~$46 and ~$89, spanning several months). Quiet pass.",
+  "notes": "No confirmed new dated catalysts found past the 2026-11-10/11-12 earnings coverage already on file. Conflicting undated price snapshots ($46-$89 range across sources) persist but could not be reconciled to specific dates this pass.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

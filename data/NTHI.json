@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.668Z",
+  "lastResearched": "2026-11-18T21:17:39.642Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -209,8 +209,16 @@
     "Stock price: $3.07 (2026-11-03) vs $3.00 (Weiss Ratings, referencing an Aug 10, 2026 10-Q) vs $4.80 (Trefis, 2026-06-22) vs $2.73 (Upstox, 2026-10-10) vs $2.65 (ryanoconnellfinance, 2026-10-14) — stock may simply be volatile, but no source confirms a 2026-11-13 close."
   ],
   "pendingFilings": [],
-  "notes": "FDA End-of-Phase 1 Type B meeting for NEO212 was scheduled for today (2026-11-17); no outcome/readout has been reported yet in sources checked. Quiet pass pending that readout.",
+  "notes": "The Nov 17 FDA End-of-Phase 1 Type B meeting for NEO212 (already on file as scheduled) has occurred, but no outcome/readout has been published yet in any source found this pass. No new dated catalyst. Quiet pass pending that readout.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -484,7 +492,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

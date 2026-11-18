@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.678Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.664Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
@@ -64,8 +64,9 @@
       "note": "Total revenue +66% sequentially ($137M to $228M); YoY was roughly flat/down ~5% per one source, so QoQ named as the more meaningful headline growth figure this pass"
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false
+      "date": "2026-02-03",
+      "confirmed": false,
+      "note": "Estimated Q2 FY2027 (quarter ending Dec 2026) report date; sources split between Feb 3, 2027 (Chartmill) and Feb 4, 2027 (Days.to, Earnings Whispers), neither company-confirmed. An earlier on-file Nov 26, 2026 estimate from Earnings Whispers appears to have been stale/wrong and is superseded by this search."
     }
   },
   "price": {
@@ -263,8 +264,18 @@
     "A next-earnings date of Nov 26, 2026 appears on Earnings Whispers, but this conflicts with the company's own fiscal calendar (Q1 FY2027 was just reported Nov 5, 2026) and may be a stale/mis-dated listing -- not used as nextEarnings this pass"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 5 Q1 FY2027 earnings cluster already on file. Quiet pass.",
+  "notes": "No new dated catalyst since the Nov 5 fiscal Q1 FY2027 earnings beat already on file. Resolved next-earnings date to an estimated early-Feb 2027 report (previously null).",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -648,10 +659,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:25:06.649Z",
+  "lastResearched": "2026-11-18T21:17:39.667Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -240,11 +240,22 @@
   ],
   "conflicts": [
     "Share price: $1.23 (MarketChameleon, 2026-11-06, +5.1%) vs $1.44 (Merlin Trader, 2026-10-30) vs $0.23 (Earnings Whispers, undated) vs $0.22 (Stock Taper, undated) vs $0.24 (RTTNews, undated) — roughly 5-6x discrepancy between sources that could not be reconciled; flagged as a possible reverse-split/stale-cache discrepancy, though no split could be confirmed or ratio determined.",
-    "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026)."
+    "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026).",
+    "Market cap: Massive.com $80.45M (2026-10-26, implying 105.01M shares) vs Equibles $44.61M (early Oct 2026, 55.97M shares) vs StockAnalysis $66.14M (undated) — share counts differ by nearly 2x across sources and none independently confirmed this pass"
   ],
   "pendingFilings": [],
-  "notes": "Q3 2026 results (expected Nov 12, reported Nov 13) now confirmed and recorded, resolving the open item from prior passes. Cash position materially improved on the PIPE financing. Price/market-cap conflicts remain unresolved.",
+  "notes": "No new dated catalyst found this pass beyond the Nov 13 Q3 2026 earnings already on file. Price/market-cap/short-interest conflicts remain unresolved; a new, additional conflicting market-cap reading was found and added.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -542,15 +553,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
-      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

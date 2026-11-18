@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.646Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -189,13 +189,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: ~$22.4B (stockevents.app) vs ~$23.2B (TipRanks) vs ~$23.6B (another aggregator) — dates not clearly aligned; none confirmed for 2026-11-13.",
-    "Current price: $70.44 (Investing.com, dated 2026-09-18, stale) vs $68.32 premarket / $68.11 close (2026-11-06, Fox Business) — using the more recent figure.",
-    "Next earnings date: Feb 4, 2027 (TIKR) vs Nov 26, 2026 (Earnings Whispers) — the latter is inconsistent with the fiscal-quarter cadence."
+    "Market cap / shares outstanding: sources disagree and are inconsistently dated — Simply Wall St (updated 2026-07-29): $24.247B mkt cap, 334.90M shares; Equibles (undated, 'Oct 20'): $25.21B mkt cap, 337.42M shares; DeFiLlama (undated): $24.954B at $74.01/share. No single figure could be confirmed as current for this pass; marketCap and sharesOutstanding left null rather than picking one."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass; search results stale/pre-dated. Quiet pass.",
+  "notes": "No new dated catalyst found since the Nov 5 fiscal Q1 2027 earnings cluster already on file. Attempted to resolve the standing market-cap/shares-outstanding gap this pass; found only conflicting, variously-dated third-party snapshots — logged as a conflict rather than guessed. Quiet pass otherwise.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -560,10 +568,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T05:31:17.609Z",
+  "lastResearched": "2026-11-18T21:17:39.640Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -231,8 +231,16 @@
     "IonQ market cap: $12.49B at $28.88 (Nov 13 close) vs $12.68B at $29.54 (Ortex, Nov 5) vs $15.20B (MarketBeat, Nov 9) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the 11/11 pass. Quiet pass.",
+  "notes": "No new dated catalyst found beyond the CFO appointment already recorded by today's AM pass and the Nov 13 leadership-change release. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "am",
@@ -569,11 +577,9 @@
   },
   "lastPass": {
     "date": "2026-11-18",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

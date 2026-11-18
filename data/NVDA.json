@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T05:31:17.607Z",
+  "lastResearched": "2026-11-18T21:17:39.634Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -30,11 +30,11 @@
     },
     "cash": {
       "value": null,
-      "note": "Not established in this research pass"
+      "note": "Could not obtain a reliable Q3 FY2027 (as of 2026-10-25) balance this pass; two secondary sources for the prior quarter disagree by ~$43B and neither is clearly dated to the correct quarter, so left null rather than guess"
     },
     "debt": {
       "value": null,
-      "note": "Not established in this research pass"
+      "note": "Same sourcing problem as cash — secondary aggregators disagree by billions and neither cleanly cites Q3 FY2027; left null"
     },
     "pe": {
       "trailing": 23.6,
@@ -42,18 +42,34 @@
       "note": "Trailing P/E per Value Research Online as of 2026-11-13; other aggregators (Google Finance, Finspry) show trailing P/E 30-46 but carry no clear date and conflict with each other, see conflicts",
       "asOf": "2026-11-13"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "Q3 FY2027",
+        "value": 2.7,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 FY2027",
+        "value": 2.68,
+        "basis": "non-GAAP diluted"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 FY2027",
+        "value": 115800000000,
+        "yoy": 103
+      }
+    ],
     "growth": {
       "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Not established in this research pass"
+      "period": "Q3 FY2027",
+      "pct": 103
     },
     "nextEarnings": {
-      "date": "2026-11-17",
-      "confirmed": true,
-      "note": "NVIDIA confirmed Q3 FY2027 conference call for 2026-11-17, 5:00pm ET / 2:00pm PT (investor.nvidia.com); consensus ~$2.47 EPS on ~$108.8B revenue vs company guidance of $108.0B +/-2%"
+      "date": null,
+      "confirmed": false,
+      "note": "Q4 FY2027 (quarter ending ~late Jan 2027) estimated around 2026-02-23/24 by secondary trackers; no company confirmation located"
     }
   },
   "price": {
@@ -203,8 +219,23 @@
     "Trailing P/E: Value Research Online shows 23.6 (asOf 2026-11-13) vs Google Finance ~30.17 and Finspry 35.76, both undated snapshots that don't reconcile with the dated figure."
   ],
   "pendingFilings": [],
-  "notes": "Actual Q3 FY2027 print now available; replaces the prior pass's placeholder (figures had not yet been published as of the 2026-11-17 PM pass). Full fundamentals refresh (updated P/E, EPS table, revenue YoY, growth metric, next earnings date) deferred to the next PM pass per AM-pass scope.",
+  "notes": "Q3 FY2027 print (reported 2026-11-17) now fully reflected in EPS/revenue/growth; cash, debt and the next earnings date remain unestablished after a further search this pass due to conflicting/undated secondary sources (sec.gov and nvidianews.nvidia.com are not reachable from this sandbox).",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "am",
@@ -524,10 +555,15 @@
   },
   "lastPass": {
     "date": "2026-11-18",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "cash updated",
+      "debt updated"
     ],
     "tradingDay": true
   }

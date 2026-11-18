@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.683Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.670Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -185,8 +185,16 @@
     "Price ~2026-11-06: $58.00 (benzinga.com) vs $62.91 (stockevents.app, undated) vs $81.02 (MarketBeat, likely stale) — not reconciled this pass"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 4 Q3 earnings and Nov 9 foam-blowing-agent milestone already on file. Quiet pass. Corrected a stale record error this pass: name/sector had been carried over from an earlier misidentification as Solidion Technology (ticker STI); SOLS on Nasdaq is actually Solstice Advanced Materials, Inc. (ex-Honeywell Advanced Materials, spun off 2025-10-30), consistent with every catalyst already on file (Q3 2026 net sales $1,046M, $14.5B Element Solutions deal, etc.). Name/sector fields corrected directly; theme (Advanced Materials) was already correct.",
+  "notes": "No news dated 2026-11-17/18 found. Most recent corporate news (Element Solutions merger termination + buyback authorization, Barclays initiation) already on file from prior passes. Price/share-count conflicts noted previously remain unresolved this pass (sources still disagree, e.g. $56.65 vs $81.02 vs $49.71 across undated snapshots) — not re-confirmed, left as-is rather than guessing.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -525,7 +533,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

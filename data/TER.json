@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.683Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.671Z",
   "fundamentals": {
     "marketCap": {
       "value": 62300000000,
@@ -157,8 +157,16 @@
     "Nov 9, 2026 price/move is also reported inconsistently across sources: MarketBeat cites $246.00 (+12.7%); Benzinga cites $246.00 (-3.2%); Fox Business cites $218.22 (+9.52%, intraday) — not reconciled to a single confirmed figure."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 9 Q3 earnings / Omnyx Edge product launch already on file. Quiet pass.",
+  "notes": "No news dated 2026-11-17/18 found. A MarketBeat headline referencing a +12.7% move on 2026-11-09 was already superseded by the Omnyx Edge catalyst already on file. Existing price conflict between ~$218 (2026-11-06 source) and ~$435-444 (October MarketBeat source) not resolved this pass — flagging again rather than guessing which is current.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -411,7 +419,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

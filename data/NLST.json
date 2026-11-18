@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-17T21:21:17.679Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-18T21:17:39.666Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -230,8 +230,16 @@
     "NLST market cap: on-file figure is $1.77B as of 2026-08-21 (equibles.com, flagged stale); this pass found two further undated, unreconciled readings — AlphaSpread ~$482.4M at $1.57/share, and Simply Wall St ~$2.4B — neither carries a clear as-of date, so none of the three is being adopted as current."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 10 Q3 2026 results already on file (SK Hynix licensing commentary from the earnings call is forward-looking chatter, not a dated event). Quiet pass.",
+  "notes": "No new dated catalyst since the Nov 10 Q3 2026 earnings (Samsung license revenue) already on file; the Oct 2026 Micron $600M license settlement is also already captured. CEO has hinted at a possible SK Hynix licensing deal but nothing has been announced. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -541,7 +549,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
     "quiet": true,
     "changes": [],

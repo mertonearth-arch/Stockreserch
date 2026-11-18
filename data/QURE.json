@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-17T21:21:17.681Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-18T21:17:39.668Z",
   "fundamentals": {
     "marketCap": {
       "value": 2410000000,
@@ -187,11 +187,22 @@
   ],
   "conflicts": [
     "Market cap/price: $2.81B at $44.51 (2026-09-11) vs $2.41B at $23.45 (2026-10-01) — ~47% price decline in under a month with no fully explaining news found",
-    "Revenue 'miss' comparison basis varies by source: one cites a $7.15M consensus, another a $5.4M estimate, against the same $5.2M actual"
+    "Revenue 'miss' comparison basis varies by source: one cites a $7.15M consensus, another a $5.4M estimate, against the same $5.2M actual",
+    "Additional late-Oct 2026 readings found this pass (Upstox $24.96/share, $1.44B market cap, 2026-10-29; Chartrow ~$24.28/share, $1.7B, undated; Finspry $24.60/share, $1.41B, undated) imply share counts of roughly 58-70M depending on source — not reconciled against each other or the Sept/Oct figures above"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 4 Q3 2026 earnings cluster already on file. Quiet pass.",
+  "notes": "No new dated catalyst found this pass beyond the Nov 4 earnings/FDA BLA acceptance already on file. Quiet pass on catalysts; added newly-found but still-unreconciled market cap readings to conflicts.",
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -487,10 +498,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

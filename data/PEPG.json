@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-17T21:21:17.658Z",
+  "lastResearched": "2026-11-18T21:17:39.635Z",
   "fundamentals": {
     "marketCap": {
       "value": 188390000,
@@ -40,7 +40,7 @@
     },
     "debt": {
       "value": null,
-      "note": "Not established"
+      "note": "Not established; no balance-sheet source located this pass"
     },
     "pe": {
       "trailing": null,
@@ -69,7 +69,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 was reported 2026-11-10; next (Q4/FY2026) date not located"
+      "note": "Q3 2026 was reported 2026-11-10 (-$0.28 EPS, missed -$0.27 consensus by $0.01, per MarketBeat); no Q4 2026 date located."
     },
     "revenue": []
   },
@@ -138,6 +138,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-17",
       "run": "pm",
@@ -220,12 +231,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst found since 11/16 pass. FREEDOM2 partial clinical-hold status still unresolved in sources checked (most recent reporting on the hold itself dates to March 2026); still flagged as unconfirmed in conflicts. Quiet pass.",
+  "notes": "No new catalyst since the 2026-11-17 pass; this pass only confirms the Q3 2026 EPS-vs-consensus read and leaves debt/next-earnings as genuinely unestablished.",
   "lastPass": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

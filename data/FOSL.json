@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T05:31:17.609Z",
+  "lastResearched": "2026-11-18T21:17:39.638Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -16,20 +16,25 @@
       "note": "Not located; Q3 2026 was reported 2026-11-10"
     },
     "marketCap": {
-      "value": null,
-      "note": "Not established in sources reviewed"
+      "value": 390310000,
+      "asOf": "2026-10-26",
+      "source": "Massive.com",
+      "note": "Based on a $6.53 price pre-dating the Nov 10 earnings-driven move to $9.97 already on file; market cap is understated versus the current price"
     },
     "float": {
       "value": null,
       "note": "Not established"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not established"
+      "value": 59140000,
+      "asOf": "2026-10-26",
+      "source": "Massive.com"
     },
     "shortInterest": {
-      "value": null,
-      "note": "Not established"
+      "value": 5660000,
+      "asOf": "2026-09-30 settlement",
+      "source": "Massive.com",
+      "note": "7.0 days to cover"
     },
     "cash": {
       "value": null,
@@ -42,8 +47,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company has a history of net losses (Q3 2025 net loss $39.9M / -$0.76 per diluted share); trailing P/E not meaningful. Q3 2026 result unconfirmed — see conflicts.",
-      "asOf": "2026-11-13"
+      "note": "Company returned to a single quarter of GAAP profit (Q3 2026) after a history of losses; trailing twelve-month earnings still likely net-loss territory, so trailing P/E is not meaningful without a verified TTM EPS figure, which was not located this pass"
     },
     "eps": [
       {
@@ -53,9 +57,13 @@
       },
       {
         "period": "Q3 2026",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Only unverified third-party figures located (~$10.6M net loss); per-share figure not confirmed against a primary source"
+        "value": 0.19,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 0.23,
+        "basis": "adjusted diluted"
       }
     ],
     "revenue": [
@@ -66,16 +74,15 @@
       },
       {
         "period": "Q3 2026",
-        "value": null,
-        "yoy": null,
-        "note": "Third-party aggregator (Panabee) cites ~$209.7M, down ~4.9% YoY, but this figure is unverified — see conflicts"
+        "value": 271200000,
+        "yoy": 0.4
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "Unverified; see conflicts"
+      "pct": 0.4,
+      "note": "Revenue roughly flat YoY ($271.2M vs $270.2M); the real story is the swing to GAAP profitability ($11.7M net income vs a $39.9M net loss a year earlier). Company disclosed ~$10M of wholesale shipments pulled forward from Q4 into Q3, flattering the beat."
     }
   },
   "price": {
@@ -114,6 +121,13 @@
     },
     {
       "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Fossil Group reported Q3 2026 results: net income of $11.7M ($0.19/diluted share, adjusted $0.23) vs a net loss of $39.9M (-$0.76/share) a year earlier; revenue ~$271.2M, beating a ~$247.2M consensus (one other aggregator cites ~$276M — see conflicts); raised full-year 2026 guidance to $980M-$990M in sales and 5.5%-6.5% adjusted operating margin",
+      "impact": "Return to GAAP profitability after a string of losses; ~$10M of wholesale shipments were pulled forward from Q4 into Q3, which flatters the quarter somewhat",
+      "source": "https://fashionunited.com/news/business/fossil-group-returns-to-profitability-in-q3-as-turnaround-strategy-gains-traction/2026111175675"
+    },
+    {
+      "date": "2026-11-10",
       "type": "partnership",
       "headline": "Fossil Group and Diesel extended their global watch-licensing agreement (reported as a five-year extension running through 2032, continuing a partnership of 25+ years); exact announcement date approximate -- trade coverage dated 2026-11-10 to 2026-11-12",
       "impact": "Licensing renewal alongside the Q3 2026 earnings beat already on file",
@@ -136,12 +150,30 @@
     }
   ],
   "conflicts": [
-    "Earnings date given differently across sources: company's own Oct 20 announcement and Benzinga say after-close on 2026-11-10; EarningsWhispers lists 2026-11-09; Yahoo Finance's estimate shows 2026-11-12.",
-    "Q3 2026 financial results are not corroborated by a primary source in this research pass: the only figures found (Panabee, a third-party aggregator) state a prior-year (Q3 2025) net loss of $2.3M, which directly conflicts with Fossil's own official Q3 2025 release (net loss $39.9M / -$0.76 per diluted share on $270.2M revenue). Because of this internal inconsistency, the Q3 2026 figures from that same source (~$209.7M revenue, ~$10.6M net loss) are flagged as unverified and are not reported as established fact.",
-    "Pre-earnings consensus (profit of ~$0.03/share on ~$247.2M revenue) versus the unverified post-print figures above would represent a large miss, but this cannot be confirmed without the primary release."
+    "Q3 2026 revenue: ~$271.2M (fashionunited/consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, which conflicts outright with the company-reported $11.7M net income and is treated as likely erroneous but recorded here rather than silently discarded.",
+    "Short interest: Massive.com shows 5.66M shares short as of 2026-09-30 (7.0 days to cover) vs Equibles showing 7.4M shares / 12.5% of float / 10.9 days to cover as of 2026-10-01 — different settlement dates, not reconciled.",
+    "Market cap/shares outstanding snapshot ($390.31M / 59.14M shares, 2026-10-26) predates the Nov 10 earnings pop to $9.97 already on file as the current price; treat the market cap figure as stale."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-18",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "am",
@@ -225,13 +257,21 @@
       "from": "daily"
     }
   ],
-  "notes": "Added a second, later investor-conference appearance (Dec 16, Northland Capital Markets) alongside the Nov 17 Craig-Hallum event already on file.",
+  "notes": "Q3 2026 actual results now confirmed from a primary-adjacent source (company turnaround coverage), resolving the prior pass's 'unverified third-party figures' placeholder.",
   "lastPass": {
     "date": "2026-11-18",
-    "run": "am",
+    "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)"
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }
