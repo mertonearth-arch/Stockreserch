@@ -8,19 +8,19 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.642Z",
+  "lastResearched": "2026-11-19T21:31:29.127Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree by more than 2x; see conflicts"
+      "note": "Sources disagree by more than 2x"
     },
     "float": {
       "value": null,
-      "note": "Not disclosed/found"
+      "note": "Not disclosed"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Sources disagree significantly (range ~19.5M-28.8M); see conflicts"
+      "note": "Sources disagree significantly (~19.5M-28.8M)"
     },
     "shortInterest": {
       "value": null,
@@ -28,11 +28,11 @@
     },
     "cash": {
       "value": null,
-      "note": "Sources disagree by orders of magnitude (range ~$58.7K-$6.17M); see conflicts"
+      "note": "Sources disagree by orders of magnitude"
     },
     "debt": {
       "value": null,
-      "note": "Reported near $310K-$346K in some sources but not independently confirmed"
+      "note": "Reported near $310K-$346K, not independently confirmed"
     },
     "pe": {
       "trailing": null,
@@ -57,9 +57,16 @@
     "changePct": 0,
     "rvol": null,
     "asOf": "2026-11-03",
-    "note": "Most recent dated figure found (flat on the day). No confirmed price for 2026-11-13; see conflicts for the wide spread of other undated/differently-dated figures."
+    "note": "Most recent dated figure found; no confirmed price for Nov 13-19 — sources disagree widely (see conflicts)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "clinical data",
+      "headline": "NeOnc reported an additional partial response in its Phase 2a study of intranasal NEO100 (recurrent IDH1-mutant high-grade glioma): objective response rate rose to 12.5% (3 of 24 patients) under RANO 2.0, up from 8.3% (2 of 24) in the Aug 12, 2026 topline readout; 13 patients stable disease (54.2%), 8 progressive disease (33.3%); disease control rate 66.7%; 5 patients still on treatment at interim database lock; company cautions interim results may change at final analysis (single-arm, open-label, not powered as confirmatory)",
+      "impact": null,
+      "source": "https://stocktwits.com/news-articles/business/others/ne-onc-reports-additional-partial-response-in-phase-2a-study-of-intranasal-neo-100/cNbax1zR9Wo"
+    },
     {
       "date": "2026-11-17",
       "type": "regulatory",
@@ -203,14 +210,30 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~28.81M (Morningstar/Motley Fool) vs ~24.13M (roic.ai) vs ~19.47M (Simply Wall St) vs 19M-23M (Trefis, 2025-2026) — no consistent figure found.",
-    "Market cap: ~$90.7M (Morningstar, at $3.26) vs ~$92.2M (Motley Fool) vs ~$193.8M (Simply Wall St, appears based on a different/stale price).",
-    "Cash & equivalents: ~$6.17M with ~$310K debt (Motley Fool) vs ~$138.6K cash with ~$346K debt (roic.ai) vs ~$58.7K (TipRanks) — figures differ by orders of magnitude.",
-    "Stock price: $3.07 (2026-11-03) vs $3.00 (Weiss Ratings, referencing an Aug 10, 2026 10-Q) vs $4.80 (Trefis, 2026-06-22) vs $2.73 (Upstox, 2026-10-10) vs $2.65 (ryanoconnellfinance, 2026-10-14) — stock may simply be volatile, but no source confirms a 2026-11-13 close."
+    "Shares outstanding: ~28.81M (Morningstar/Fool) vs ~24.13M (roic.ai) vs ~19.47M (Simply Wall St) vs 19M-23M (Trefis).",
+    "Market cap: ~$90.7M (Morningstar) vs ~$92.2M (Fool) vs ~$193.8M (Simply Wall St, likely stale price).",
+    "Cash & equivalents: ~$6.17M (Fool) vs ~$138.6K (roic.ai) vs ~$58.7K (TipRanks) — orders-of-magnitude apart.",
+    "Stock price: $3.07 (Nov 3) vs $3.00 (Weiss, referencing Aug 10 10-Q) vs $4.80 (Trefis, Jun 22) vs $2.73 (Upstox, Oct 10) vs $2.65 (ryanoconnellfinance, Oct 14) — no confirmed recent close."
   ],
   "pendingFilings": [],
-  "notes": "The Nov 17 FDA End-of-Phase 1 Type B meeting for NEO212 (already on file as scheduled) has occurred, but no outcome/readout has been published yet in any source found this pass. No new dated catalyst. Quiet pass pending that readout.",
+  "notes": "The Nov 17 FDA End-of-Phase 1 Type B meeting for NEO212 (already on file as scheduled) has occurred, but no outcome/readout has been published in any source found this pass. New clinical data (above) on the separate NEO100 program was released the same day.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -492,10 +515,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

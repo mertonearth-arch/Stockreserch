@@ -8,15 +8,15 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.637Z",
+  "lastResearched": "2026-11-19T21:31:29.123Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree ($23.43B Motley Fool vs $23.08B Equibles vs $21.97B TipRanks, the last apparently stale) — see conflicts; not picking one"
+      "note": "Sources disagree ($23.43B Motley Fool vs $23.08B Equibles vs $21.97B TipRanks, the last apparently stale) — not reconciled"
     },
     "float": {
       "value": null,
-      "note": "not disclosed in sources reviewed"
+      "note": "Not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
       "value": 384790000,
@@ -25,25 +25,24 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "not retrieved this pass"
+      "note": "Not retrieved this pass"
     },
     "cash": {
       "value": 168000000,
       "asOf": "2026-Q1 (stale)",
       "source": "Motley Fool",
-      "note": "No 2026-09-30 cash figure located; this is the most recent found and predates the Q3 2026 report"
+      "note": "No 2026-09-30 cash figure located"
     },
     "debt": {
       "value": 40806000000,
       "asOf": "2026-09-30",
       "source": "Equibles, citing the 10-Q filed 2026-10-29",
-      "note": "Long-term debt including current maturities; plus $1.804B current portion and $190M line-of-credit borrowings separately listed. See conflicts for an older, differently-defined figure."
+      "note": "Long-term debt including current maturities; plus $1.804B current portion and $190M line-of-credit separately listed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this pass (company is profitable)",
-      "asOf": "2026-11-13"
+      "note": "not established this pass (company is profitable, but a reconciled EPS/TTM basis was not located)"
     },
     "eps": [
       {
@@ -80,7 +79,7 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": -15,
-      "note": "Operating revenue fell from $5.750B to $4.886B; management attributes the decline mainly to a 2025 one-time item (retroactive rate-case recognition), not an operating deterioration. Core EPS fell to $1.92 from $2.34 (one source) — see conflicts for a second prior-year EPS reading already on file."
+      "note": "Operating revenue fell from $5.750B to $4.886B, mainly due to a 2025 one-time rate-case item, not an operating deterioration"
     },
     "nextEarnings": {
       "date": null,
@@ -89,10 +88,11 @@
     }
   },
   "price": {
-    "last": 58.79,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-10-30"
+    "last": 60.17,
+    "changePct": 0.3,
+    "asOf": "2026-11-13",
+    "source": "AAII",
+    "note": "Supersedes the 2026-10-30 $58.79 figure already on file (also newer: $59.99 close on 2026-11-12 per Marketchameleon). No quote found newer than 2026-11-13."
   },
   "catalysts": [
     {
@@ -294,12 +294,29 @@
   ],
   "conflicts": [
     "Market cap: $23.43B (Motley Fool) vs $23.08B (Equibles) vs $21.97B (TipRanks, appears stale) — not reconciled.",
-    "Debt: Motley Fool shows total debt of $42.70B for 'most recent quarter' (unclear if Q1 or Q3 2026) vs Equibles' $40.806B long-term debt (+ $1.804B current + $0.19B LOC = ~$42.8B) explicitly dated 2026-09-30. Close but not confirmed identical.",
-    "Q3 2025 core EPS: one source (247wallst/Zacks coverage, this pass) states core EPS fell to $1.92 from $2.34 YoY; the figure already on file from a prior pass states $2.16 for Q3 2025. These two readings of the same prior-year quarter disagree and are both recorded verbatim rather than picked."
+    "Debt: Motley Fool shows total debt of $42.70B vs Equibles' $40.806B long-term debt (+$1.804B current +$0.19B LOC = ~$42.8B) explicitly dated 2026-09-30. Close but not confirmed identical.",
+    "Q3 2025 core EPS: one source states core EPS fell to $1.92 from $2.34 YoY; the figure already on file from a prior pass states $2.16 for Q3 2025. Both readings retained verbatim."
   ],
   "pendingFilings": [],
-  "notes": "Revenue YoY now established as -15.0%, driven mainly by a 2025 one-time rate-case item rather than an operating decline, per management commentary.",
+  "notes": "The Nov 15, 2026 deadline (on file as an upcoming catalyst) for a possible special California legislative session on wildfire reform has now passed; this pass could not confirm from search results whether a special session was actually called or what the outcome was — flag for confirmation on the next pass. The Nov 30, 2026 Wildfire Recovery Compensation Program deadline (already on file) remains upcoming.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -671,14 +688,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "revenue updated",
+      "pe updated",
       "growth updated",
       "marketCap updated",
-      "sharesOutstanding updated",
+      "float updated",
+      "shortInterest updated",
       "cash updated",
       "debt updated",
       "conflicts updated"

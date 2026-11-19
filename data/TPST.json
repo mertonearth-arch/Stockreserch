@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.149Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -16,8 +16,7 @@
     },
     "float": {
       "value": null,
-      "asOf": null,
-      "note": "Not located in sandbox search."
+      "note": "Not located"
     },
     "sharesOutstanding": {
       "value": null,
@@ -26,24 +25,23 @@
     "shortInterest": {
       "value": 341334,
       "asOf": "2026-05-29 (FINRA settlement date)",
-      "note": "2.3% of shares outstanding, 3.6 days to cover — down from 401,128 shares the prior settlement period. May be stale relative to today given how much the share count has apparently moved since."
+      "note": "2.3% of shares outstanding, 3.6 days to cover; likely stale"
     },
     "cash": {
       "value": 800000,
       "asOf": "2026-06-30",
-      "source": "Panabee aggregator summary of Q2 2026 report (approximate date; not independently cross-checked against the company's own filing)"
+      "source": "Panabee aggregator summary of Q2 2026 report"
     },
     "debt": {
       "value": 7600,
       "asOf": "2026-10-16",
-      "source": "Trade-Ideas",
-      "note": "Effectively negligible debt."
+      "source": "Trade-Ideas"
     },
     "pe": {
       "trailing": null,
       "forward": null,
       "note": "Pre-revenue clinical-stage biotech; no positive earnings",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
     "eps": [],
     "revenue": [],
@@ -51,20 +49,21 @@
       "metric": "cash position",
       "period": "2025-12-31 to 2026-06-30",
       "pct": null,
-      "note": "Pre-revenue clinical-stage biotech. Cash declined from $7.7M (2025-12-31) to $1.8M (2026-03-31) to ~$0.8M (~2026-06-30) per multiple aggregator sources; company 'requires substantial, likely dilutive, capital to extend its runway.' Not independently verified against the company's own 10-Q filings in this pass."
+      "note": "Pre-revenue clinical-stage biotech; cash declined from $7.7M to ~$0.8M over H1 2026 per aggregator sources"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 report not located in available sources this pass despite searching; last confirmed update is Q2 2026"
+      "note": "Q3 2026 report not located despite searching"
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
+    "last": 0.38,
+    "changePct": -0.3,
     "rvol": null,
     "asOf": "2026-11-13",
-    "note": "An undated $0.79 figure was found but could not be dated, so not used"
+    "source": "MarketChameleon",
+    "note": "First confirmed dated price established this pass (file previously had price.last = null). 52-week range $0.34-$9.75 per same source."
   },
   "catalysts": [
     {
@@ -108,10 +107,29 @@
       "source": "ir.tempesttx.com / quantisnow.com (via search aggregation)"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Secondary source (Tickeron) describes a share-price decline from ~$0.64 (mid-October) to ~$0.38 (mid-November 2026) attributed to a Nasdaq minimum-bid-price deficiency notice issued 'in early November 2026' -- no exact date found for that notice, so it is not recorded as a dated catalyst."
+  ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found. Existing catalyst (option exercise) and Q2 2026 financials already on file remain the most recent. Nothing new this pass.",
+  "notes": "No new catalysts dated since the existing file's last entry (2026-11-11 option exercise). Newly established a confirmed price ($0.38, 2026-11-13).",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -390,10 +408,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

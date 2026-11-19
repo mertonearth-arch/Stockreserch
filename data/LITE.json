@@ -1,24 +1,24 @@
 {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
-  "sector": "Technology (optical/photonics components)",
+  "sector": "Technology",
   "theme": "AI Semiconductors",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.665Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.142Z",
   "fundamentals": {
     "marketCap": {
       "value": 76150000000,
       "asOf": "2026-10-30",
-      "source": "Motley Fool quote snapshot (publicly traded shares basis)",
-      "note": "Roic.ai gives $73.26B / 88.60M shares for a similar period -- see conflicts"
+      "source": "Motley Fool quote snapshot",
+      "note": "Roic.ai gives $73.26B/88.60M shares for a similar period"
     },
     "float": {
       "value": null,
-      "note": "not found in sources reachable this session"
+      "note": "Not found"
     },
     "sharesOutstanding": {
       "value": 90580000,
@@ -27,21 +27,21 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "Sources found this session disagree and are stale/undated: equibles.com settlement date 2026-03-13 shows ~11.49M shares short (~1.8 days to cover); a Trefis page (undated) puts short interest at ~12% of basic shares outstanding; a MarketBeat figure of 15.17% of float is explicitly labeled 'last updated October 2025' and is stale. None reconciled to a current, clearly-dated %-of-float figure."
+      "note": "Stale/undated across sources found; not re-established this pass"
     },
     "cash": {
       "value": 1121800000,
-      "asOf": "2025-09-27 (fiscal Q1 2026, reported Nov 4, 2025)",
-      "note": "This is the most recent dated cash figure found (cash and short-term investments); it is over a year old relative to this report."
+      "asOf": "2025-09-27",
+      "note": "Fiscal Q1 2026 cash + short-term investments; over a year stale relative to this report"
     },
     "debt": {
       "value": null,
-      "note": "a third-party aggregator (OpenCapital) reports total debt of ~$1.7B as of FY2026 year-end, with debt/equity of ~0.4x, but this is unverified against the 10-K; a large portion of Lumentum's convertible notes were converted to equity during Q4 FY2026 (see the $7.8B debt-extinguishment loss below), so the post-conversion debt balance may be materially lower than pre-conversion figures — not independently confirmed this session"
+      "note": "Convertible notes largely converted to equity in Q4 FY2026 per on-file record; post-conversion balance not confirmed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established this pass; most recent confirmed GAAP net income figure found ($4.2M, fiscal Q1 2026) is now well over a year stale."
+      "note": "Not established; most recent confirmed GAAP net income figure is over a year stale"
     },
     "eps": [
       {
@@ -66,18 +66,20 @@
       "metric": "revenue YoY",
       "period": "Fiscal Q1 2026",
       "pct": 58,
-      "note": "This is the most recent confirmed revenue figure found; it is from a report issued Nov 4, 2025, over a year before this pass's as-of date."
+      "note": "Most recent confirmed revenue figure found; over a year stale"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located this pass; overshadowed by the pending Marvell acquisition."
+      "note": "Not located; overshadowed by pending Marvell acquisition"
     }
   },
   "price": {
-    "last": 613,
-    "asOf": "2026-11-05",
-    "note": "Trefis market price, post-deal-announcement. Pre-announcement (Oct 30, 2026) Motley Fool showed $840.70; the gap reflects the ~18.6% single-day drop on Nov 2, 2026."
+    "last": 596.62,
+    "changePct": -4.49,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "source": "financialcontent.com"
   },
   "catalysts": [
     {
@@ -93,6 +95,13 @@
       "impact": null,
       "source": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx",
       "note": "Company's own 2026-10-05 announcement scheduled this report for Nov 5, 2026 after market close; a secondary aggregator (ithome.com) carried the same figures under a Nov 2, 2026 dateline — not reconciled, see conflicts."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "M&A",
+      "headline": "Marvell and Lumentum announced an all-stock combination: Lumentum holders receive a fixed exchange ratio of 4.500 Marvell shares per Lumentum share, implying ~$1,132/share and ~$115B total deal value; Marvell holders would own ~67% of the combined company, Lumentum holders ~33%. Deal expected to close H1 calendar 2028, subject to shareholder and regulatory approval. Marvell expects >$1B annual run-rate cost synergies.",
+      "impact": "part of the Nov 2-5 price moves already on file",
+      "source": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-i"
     },
     {
       "date": "2026-11-02",
@@ -152,11 +161,30 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding ~Oct 30, 2026: Motley Fool 90.58M vs Roic.ai 88.60M (market cap $76.15B vs $73.26B accordingly)"
+    "Price: financialcontent $596.62 (-4.49%) on 2026-11-13 vs. Benzinga $638 (2026-11-11) vs. on-file Trefis $613 (2026-11-05, post-deal-announcement) — no 2026-11-17/18/19 close confirmed via reachable sources."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst since the Nov 2 Marvell acquisition announcement and the Nov 5 fiscal Q1 FY2027 earnings, both already on file. Quiet pass.",
+  "notes": "No new earnings catalyst this pass; the Marvell/Lumentum deal terms (exchange ratio, implied per-share value, H1 2028 target close, synergy target) were confirmed/enriched beyond what was previously on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -450,10 +478,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

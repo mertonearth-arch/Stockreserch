@@ -1,20 +1,20 @@
 {
   "ticker": "IHRT",
   "name": "iHeartMedia, Inc.",
-  "sector": "Communication Services / Media",
+  "sector": "Communication Services",
   "theme": "Media & Broadcasting",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.639Z",
+  "lastResearched": "2026-11-19T21:31:29.124Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
       "asOf": "2026-11-06",
       "source": "Fox Business",
-      "note": "Predates the Nov 9 earnings/guidance cut and subsequent price decline; current market cap would be materially lower"
+      "note": "Predates the Nov 9 earnings/guidance cut; stale relative to current price"
     },
     "float": {
       "value": 119910000,
@@ -41,7 +41,7 @@
       "value": 5024300000,
       "asOf": "2026-11-10",
       "source": "Kalkine (gross total debt)",
-      "note": "Company-reported net debt figure elsewhere is ~$4.7B — not the same metric; both retained for reference"
+      "note": "Company-reported net debt figure elsewhere is ~$4.7B — not the same metric"
     },
     "pe": {
       "trailing": null,
@@ -60,7 +60,7 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 3.3,
-      "note": "Ex-political revenue growth was ~0.9%; missed ~$1.05B consensus. Podcast revenue +24% to $174M; Digital Audio Group +14% to $389M; Multiplatform (broadcast radio) -5% to $562M with segment adjusted EBITDA -43%"
+      "note": "Ex-political revenue growth was ~0.9%; missed ~$1.05B consensus"
     },
     "nextEarnings": {
       "date": null,
@@ -78,9 +78,9 @@
   "price": {
     "last": 0.68,
     "changePct": -61.58,
-    "rvol": null,
     "asOf": "2026-11-10",
-    "note": "Per Kalkine; two other sources describe the same post-earnings move with very different magnitudes (-36.9% per StockStory; ~-15% 'after the close' per Quiver Quant) — see conflicts. A pre-earnings quote of $1.87 (market cap $317.32M) was dated 2026-11-06."
+    "source": "Kalkine",
+    "note": "No reliable quote newer than 2026-11-10 found this pass; see existing conflicts on the magnitude of this move."
   },
   "catalysts": [
     {
@@ -134,13 +134,27 @@
     }
   ],
   "conflicts": [
-    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports shares fell ~15% 'after the close' on Nov 9 — all three describe the same underlying event (Q3 2026 earnings/guidance cut) but give materially different percentages.",
-    "Q3 2026 revenue: $1.03B (company release, via Morningstar/Benzinga) vs $997M (Quiver Quant).",
+    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports shares fell ~15% 'after the close' on Nov 9 — all describe the same event but disagree materially.",
+    "Q3 2026 revenue: $1.03B (company release) vs $997M (Quiver Quant).",
     "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150,640,000 (MarketBeat) vs 129,552,146 (a separate Equibles short-interest page).",
-    "Debt: gross total debt of ~$5,024.3M (Kalkine) is a different measure than the company-cited net debt of ~$4.7B; not to be conflated."
+    "Debt: gross total debt of ~$5,024.3M (Kalkine) is a different measure than the company-cited net debt of ~$4.7B."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "growth updated",
+        "marketCap updated",
+        "debt updated",
+        "move -61.58%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -234,12 +248,18 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst or confirmed current price found this pass (search returned only stale/undated quotes, none newer than the Nov 10-11 earnings-collapse cluster already on file). Quiet pass.",
+  "notes": "Quiet pass on new dated catalysts. Note: a 'transaction support agreement to strengthen balance sheet' headline surfaced in this pass's search results, but on inspection it corresponds to iHeartMedia's November 2024 debt-exchange TSA (re-surfacing in search indexing), not a new 2026 event — not reported as a new catalyst since it could not be confirmed as dated in 2026. A separate 'Levi & Korsinsky' shareholder-investigation notice (distinct from the on-file 'SueWallSt' notice) was found but is undated in available sources, so it is omitted per the dated-catalyst requirement.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "growth updated",
+      "marketCap updated",
+      "debt updated",
+      "move -61.58%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

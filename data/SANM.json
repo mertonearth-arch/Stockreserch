@@ -1,14 +1,14 @@
 {
   "ticker": "SANM",
   "name": "Sanmina Corporation",
-  "sector": "Technology / Electronics Manufacturing Services",
+  "sector": "Technology",
   "theme": "Electronics Manufacturing & AI Infrastructure",
   "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.670Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.147Z",
   "fundamentals": {
     "revenue": [
       {
@@ -27,37 +27,31 @@
       "metric": "revenue YoY",
       "period": "FY2026",
       "pct": 79,
-      "note": "Growth driven by ZT Systems acquisition; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4 FY2026"
+      "note": "Growth driven by ZT Systems acquisition; cloud/AI infra revenue +179% YoY to $2.37B in Q4"
     },
     "marketCap": {
       "value": 8480000000,
       "asOf": "2026-11-13",
       "source": "Equibles"
     },
-    "float": {
-      "value": null
-    },
+    "float": null,
     "sharesOutstanding": {
       "value": 53600000,
       "asOf": "2026-11-13",
       "source": "Equibles"
     },
-    "shortInterest": {
-      "value": null
-    },
+    "shortInterest": null,
     "cash": {
       "value": 1680000000,
       "asOf": "2026-10-03",
-      "source": "company FY2026 year-end results coverage (finviz.com)",
-      "note": "FY2026 (ended 2026-10-03) cash and cash equivalents; total available liquidity (incl. credit facilities) cited at $3.83B. Debt figure not found this session."
+      "source": "company FY2026 year-end results coverage",
+      "note": "Total available liquidity incl. credit facilities ~$3.83B"
     },
-    "debt": {
-      "value": null
-    },
+    "debt": null,
     "pe": {
       "trailing": 28.3,
       "forward": null,
-      "note": "Equibles TTM P/E as of 2026-11-13; Motley Fool separately shows 29.63 (EPS TTM $5.59), broadly consistent",
+      "note": "Equibles TTM P/E; Motley Fool separately shows 29.63",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -68,36 +62,27 @@
         "note": "vs $3.27 consensus"
       },
       {
-        "period": "Q4 FY2026",
-        "value": 2.14,
-        "basis": "GAAP",
-        "note": "from a separate source; period attribution not fully cross-verified"
-      },
-      {
         "period": "FY2026 (full year)",
         "value": 6.85,
-        "basis": "GAAP",
-        "note": "from a separate source; period attribution not fully cross-verified"
+        "basis": "GAAP"
       },
       {
         "period": "FY2026 (full year)",
         "value": 13.28,
-        "basis": "non-GAAP",
-        "note": "from a separate source; period attribution not fully cross-verified"
+        "basis": "non-GAAP"
       }
     ],
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q1 FY2027 guidance issued 2026-11-09 (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85); specific report date not found"
+      "note": "Q1 FY2027 guidance issued 2026-11-09 (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85); report date not found"
     }
   },
   "price": {
     "last": 158.31,
-    "changePct": null,
-    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "Equibles"
+    "source": "Equibles",
+    "note": "Confirmed unchanged from existing file; see conflicts for an inconsistent intraday Nov 12 reading."
   },
   "catalysts": [
     {
@@ -123,10 +108,29 @@
     }
   ],
   "conflicts": [
-    "Market cap: Equibles $8.48B at $158.31 (2026-11-13) vs Motley Fool $8.87B at $159.18 (2026-11-02, older) vs Tickertape $8.81B at a materially lower $129.81 price dated 2026-11-06 -- the Tickertape price does not fit the ~$158-159 range other sources show for nearby dates and looks unreliable/possibly stale."
+    "Market cap: Equibles $8.48B at $158.31 (2026-11-13) vs Motley Fool $8.87B at $159.18 (2026-11-02) vs Tickertape $8.81B at $129.81 (2026-11-06, looks stale/unreliable).",
+    "Price around Nov 12: MarketBeat reported an intraday high of $167.28 and a last trade of $172.05 that day (+8%), which is notably higher than the Nov 13 $158.31 close — implies a pullback the next session, not independently confirmed."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -225,12 +229,22 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated news found for 2026-11-17/18 beyond the Q4 FY2026 report already on file. Pass found nothing new.",
+  "notes": "No new dated news found beyond the Q4/FY2026 earnings report already on file.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

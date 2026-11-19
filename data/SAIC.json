@@ -1,18 +1,19 @@
 {
   "ticker": "SAIC",
   "name": "Science Applications International Corporation",
-  "sector": "Industrials",
+  "sector": "Technology",
   "theme": "Government IT & Defense Services",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.644Z",
+  "lastResearched": "2026-11-19T21:31:29.129Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
-      "asOf": "2026-11-06"
+      "asOf": "2026-11-06",
+      "note": "Unchanged this pass; not re-derived from the unconfirmed Nov 16 intraday price."
     },
     "float": {
       "value": null,
@@ -20,30 +21,27 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "conflicting: ~41.90M (undated snapshot) vs FY2026 weighted-average diluted shares of 46.5M; the company bought back $524M of stock in FY2026, consistent with a declining count but not resolving which figure is current"
+      "note": "Unchanged conflict: ~41.90M (undated) vs FY2026 weighted-avg diluted 46.5M."
     },
     "shortInterest": {
       "value": 5.6,
       "asOf": null,
-      "source": "Equibles (~2.4M shares short, ~5.6 days to cover, believed Aug 2026)",
-      "note": "MarketBeat pages (older/undated) separately show 3.33% and 4.90% of float — inconsistent with the Equibles reading and with each other."
+      "note": "Unchanged this pass; see prior conflicts."
     },
     "cash": {
       "value": 109000000,
-      "asOf": "2026-05-31 (approx., Q1 FY2027)",
-      "source": "Third-party aggregator (VCPScanner / TipRanks), NOT independently confirmed against the primary 10-Q this session",
-      "note": "This is the most recent balance-sheet figure found; the more recent Q2 FY2027 (quarter ended ~2026-07-31, reported 2026-08-31) balance sheet could not be fetched this session (WebFetch to investors.saic.com failed with a DNS error)."
+      "asOf": "2026-05-31 (approx.)",
+      "note": "Unchanged this pass; Q2 FY2027 balance sheet still not independently confirmed."
     },
     "debt": {
       "value": 2675000000,
-      "asOf": "2026-05-31 (approx., Q1 FY2027)",
-      "source": "Same third-party aggregator as cash, above; same caveat applies",
-      "note": "Long-term debt component of this total is ~$2.46B. Separately, SAIC amended its Master Accounts Receivable Purchase Agreement (MARPA) on 2026-08-14, raising the facility limit from $300M to $400M (a liquidity/capacity catalyst, not a drawn-debt figure)."
+      "asOf": "2026-05-31 (approx.)",
+      "note": "Unchanged this pass."
     },
     "pe": {
       "trailing": null,
       "forward": 13.7,
-      "note": "derived by dividing the $147.03 price (2026-11-06) by the $10.70 midpoint of FY2027 adjusted EPS guidance ($10.65-$10.75) — a calculation from two sourced figures. Trailing P/E omitted because a TTM EPS figure wasn't located.",
+      "note": "Unchanged this pass; derived from $147.03 price / $10.70 FY2027 adj. EPS guidance midpoint.",
       "asOf": "2026-11-06"
     },
     "eps": [
@@ -78,7 +76,7 @@
     "nextEarnings": {
       "date": "2026-12-02",
       "confirmed": false,
-      "note": "third-party estimate (FXEmpire); another source gives Dec 3, 2026 and explicitly flags it as a projected, not company-confirmed, date"
+      "note": "A new source this pass instead estimates Dec 3, 2026; neither is company-confirmed."
     }
   },
   "price": {
@@ -86,7 +84,8 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-06",
-    "note": "a separate 2026-11-08 snapshot shows $146.30"
+    "source": "equibles.com / aggregators",
+    "note": "No clean confirmed close found for Nov 16-18; an intraday snapshot (not a close) showed $149.35 at 12:31pm ET on 2026-11-16."
   },
   "catalysts": [
     {
@@ -178,12 +177,29 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~41.90M (undated snapshot) vs FY2026 weighted-average diluted share count of 46.5M (company filing) — likely different points in an active buyback program, not reconciled",
-    "Price: $147.03 (2026-11-06) vs $146.30 (2026-11-08) — minor, likely normal day-to-day movement"
+    "Price: $147.03 close (2026-11-06, on file) vs an unconfirmed intraday $149.35 snapshot at 2026-11-16 12:31pm ET — not a closing price, not used as 'last'.",
+    "Next earnings estimate: Dec 2, 2026 (on file) vs a newly found Dec 3, 2026 third-party estimate; neither confirmed by the company."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the AM pass (which recorded the $500M notes offering close). Next earnings reconfirmed ~Dec 2-3 2026 (unconfirmed, third-party estimate). Quiet pass.",
+  "notes": "No new dated catalysts found since the 2026-11-18 pass. $500M senior notes offering (closed 2026-11-13) and analyst PT actions remain the most recent catalysts on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -484,10 +500,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

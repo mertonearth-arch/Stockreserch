@@ -7,24 +7,28 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.655Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.137Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "not established; an implied-share-count calculation is not a sourced number and is excluded"
+      "value": 4430000000,
+      "asOf": "2026-10-30",
+      "source": "aggregator snapshot"
     },
     "float": {
-      "value": null,
-      "note": "not disclosed in sources reviewed"
+      "value": 23190000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 24900000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 1810000,
+      "asOf": "2026-10-15",
+      "note": "~7-9% of float, 5.3 days to cover"
     },
     "cash": {
       "value": null,
@@ -35,17 +39,18 @@
       "note": "not retrieved this pass"
     },
     "pe": {
-      "trailing": null,
-      "forward": null,
-      "note": "company is profitable (positive adjusted EPS reported) but a trailing PE was not computed/sourced this pass",
-      "asOf": "2026-11-13"
+      "trailing": 12.74,
+      "forward": 9.33,
+      "asOf": "~2026-10-30",
+      "source": "Stockanalysis.com",
+      "note": "Page's own 'last earnings date' field was stale, so treat with some caution"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 4.48,
         "basis": "adjusted (non-GAAP)",
-        "note": "edged past the $4.46 consensus but missed an unofficial Earnings Whispers number of $4.60 by 2.6%"
+        "note": "edged past $4.46 consensus but missed an unofficial Earnings Whispers figure of $4.60"
       }
     ],
     "revenue": [
@@ -60,20 +65,21 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": null,
-      "note": "exact YoY % not found; qualitatively described as a record ('first $1B quarter')"
+      "note": "exact YoY % not found; described qualitatively as a record first-$1B revenue quarter (+26% YoY per file)"
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-02-04",
       "confirmed": false,
-      "note": "not retrieved this pass"
+      "note": "single-source (Halo Technologies) estimate"
     }
   },
   "price": {
-    "last": 165.07,
-    "changePct": -6.62,
+    "last": 182.18,
+    "changePct": 1.27,
     "rvol": null,
-    "asOf": "2026-10-23",
-    "note": "First confirmed post-Q3-earnings close located (replaces the stale 2026-09-15 Grasshopper-withdrawal crash price on file): closed $165.07, down $11.71 (-6.62%), the session after the Oct 22 Q3 2026 report."
+    "asOf": "2026-10-29",
+    "source": "Upstox",
+    "note": "No Nov 19 quote found; this is the most recent dated figure located, showing recovery from the file's Oct 23 post-earnings-drop price of $165.07."
   },
   "catalysts": [
     {
@@ -162,12 +168,30 @@
     }
   ],
   "conflicts": [
-    "Post-earnings price move framing conflicts: one aggregator (Chartmill) describes the Oct 23 move as an 'after-hours rally' while reporting the same -6.62% decline figure in the same snippet — not reconciled.",
-    "A TipRanks headline citing 'Q3 adjusted EPS $1.50, consensus $1.99' appears to reference a different/stale reporting period and is inconsistent with the $4.48/$4.46 Q3 2026 figures from Zacks already on file; excluded as unreliable."
+    "Market cap: $3.63B vs $4.43B (2026-10-30) vs $4.29B vs $6.5B (undated, likely stale/wrong) — wide spread across aggregators with mismatched dates.",
+    "PE: Stockanalysis trailing 12.74/forward 9.33 is the only concrete figure found this pass; not independently cross-checked."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst found beyond the Nov 10 $500M buyback authorization and Nov 4 senior-notes offering already on file. Market cap, float, shares outstanding, short interest, cash, debt remain unestablished — not retrieved this pass. Quiet pass.",
+  "notes": "No catalysts new since the 2026-11-10 buyback authorization and 2026-11-04 notes offering already on file were found.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -406,10 +430,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

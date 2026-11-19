@@ -3,18 +3,18 @@
   "name": "IREN Limited (formerly Iris Energy Limited)",
   "sector": "Technology",
   "theme": "Crypto Treasury & Miners",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.664Z",
+  "lastResearched": "2026-11-19T21:31:29.142Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
       "asOf": "2026-10-30",
       "source": "Motley Fool quote snapshot",
-      "note": "Predates the Nov 5 earnings pop; current market cap not independently recomputed this pass"
+      "note": "Predates the Nov 5 earnings print; not recomputed this pass"
     },
     "float": {
       "value": null,
@@ -39,14 +39,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established; business model is transitioning from bitcoin mining to AI/GPU cloud hosting and earnings have been volatile"
+      "note": "Not established; business transitioning from bitcoin mining to AI/GPU cloud hosting"
     },
     "eps": [
       {
         "period": "Q1 FY2027",
         "value": -0.62,
         "basis": "GAAP diluted",
-        "note": "Earnings Whispers figure; StockHub reports -$0.66 GAAP diluted for the same quarter -- see conflicts"
+        "note": "Earnings Whispers figure; StockHub reports -$0.66 for same quarter"
       }
     ],
     "revenue": [
@@ -61,20 +61,21 @@
       "metric": "revenue QoQ",
       "period": "Q1 FY2027",
       "pct": 66,
-      "note": "Total revenue +66% sequentially ($137M to $228M); YoY was roughly flat/down ~5% per one source, so QoQ named as the more meaningful headline growth figure this pass"
+      "note": "Total revenue +66% sequentially ($137M to $228M); AI Cloud revenue alone rose ~182% sequentially to ~$200M of the $228M total, with bitcoin mining down 58% QoQ to $28M."
     },
     "nextEarnings": {
       "date": "2026-02-03",
       "confirmed": false,
-      "note": "Estimated Q2 FY2027 (quarter ending Dec 2026) report date; sources split between Feb 3, 2027 (Chartmill) and Feb 4, 2027 (Days.to, Earnings Whispers), neither company-confirmed. An earlier on-file Nov 26, 2026 estimate from Earnings Whispers appears to have been stale/wrong and is superseded by this search."
+      "note": "Estimated Q2 FY2027 date; sources split between Feb 3 (Chartmill) and Feb 4, 2027 (Days.to, Earnings Whispers)"
     }
   },
   "price": {
-    "last": 21.41,
+    "last": 19.48,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-09",
-    "note": "Most recent confirmed dated price found was the 2026-11-09 close; no 2026-11-12 or 2026-11-13 close could be confirmed via reachable sources. On 2026-11-06 the stock closed at $21.64, +20.02%, after fiscal Q1 FY2027 results released 2026-11-05."
+    "asOf": "2026-11-12",
+    "source": "financialcontent.com (last trade, not confirmed as official close)",
+    "note": "No 2026-11-17/18/19 close could be confirmed via reachable sources this pass."
   },
   "catalysts": [
     {
@@ -260,12 +261,26 @@
     }
   ],
   "conflicts": [
-    "Q1 FY2027 GAAP diluted EPS: Earnings Whispers -$0.62 vs StockHub -$0.66",
-    "A next-earnings date of Nov 26, 2026 appears on Earnings Whispers, but this conflicts with the company's own fiscal calendar (Q1 FY2027 was just reported Nov 5, 2026) and may be a stale/mis-dated listing -- not used as nextEarnings this pass"
+    "Post-earnings price action is inconsistently reported: on-file record shows Nov 6 close $21.64 (+20.02%) following the Nov 5 after-hours Q1 FY2027 print; a separate source states shares fell 17% on Nov 5 to close at $18.03. A third source shows a Nov 12 last trade of ~$19.48, and a fourth shows $21.41 confirmed for Nov 9. Not fully reconcilable from reachable sources this pass."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst since the Nov 5 fiscal Q1 FY2027 earnings beat already on file. Resolved next-earnings date to an estimated early-Feb 2027 report (previously null).",
+  "notes": "Business mix has shifted sharply toward AI Cloud: $200M of $228M (~88%) of Q1 FY2027 revenue was AI Cloud/leasing (vs. $28M bitcoin mining, down 58% QoQ); company aims to substantially complete the bitcoin-mining exit by Dec 31, 2026. Theme classification as 'Crypto Treasury & Miners' may warrant reconsideration toward 'AI Cloud Infrastructure' in a future pass; left unchanged here.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -659,11 +674,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

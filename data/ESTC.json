@@ -3,12 +3,12 @@
   "name": "Elastic N.V.",
   "sector": "Technology",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.633Z",
+  "lastResearched": "2026-11-19T21:31:29.121Z",
   "fundamentals": {
     "marketCap": {
       "value": 9080000000,
@@ -17,15 +17,15 @@
     },
     "float": {
       "value": null,
-      "note": "Not disclosed separately from shares outstanding in sources reviewed"
+      "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not directly sourced; arithmetic inference excluded per no-invented-numbers rule"
+      "note": "Not directly sourced"
     },
     "shortInterest": {
       "value": null,
-      "note": "Sources disagree sharply — see conflicts; no single figure used"
+      "note": "Sources disagree sharply — see conflicts"
     },
     "cash": {
       "value": null,
@@ -33,13 +33,12 @@
     },
     "debt": {
       "value": 596430000,
-      "asOf": "most recent quarter per stockanalysis-derived aggregator (not independently verified against the 10-Q)",
-      "note": "Yahoo shows a close $595.77M figure for the same period"
+      "asOf": "most recent quarter per aggregator (not independently verified against the 10-Q)"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established with confidence; company guided non-GAAP diluted EPS of $3.29-$3.37 for the fiscal year",
+      "note": "Not established with confidence; company guided non-GAAP diluted EPS of $3.29-$3.37 for FY2027",
       "asOf": "2026-08-27"
     },
     "eps": [
@@ -68,15 +67,15 @@
     },
     "nextEarnings": {
       "date": "2026-11-19",
-      "confirmed": false,
-      "note": "Still no primary-source confirmation located; Earnings Whispers calls it confirmed, MarketBeat/The Right Trader call it an estimate"
+      "confirmed": true,
+      "note": "Elastic's own guidance named this date/time (after US market close, 2:00pm PT call) for Q2 FY2027 (period ended 2026-10-31) results. As of this PM pass (market closed ~1 hour, results due after-close today), the actual press release/figures were not yet indexed in search — could not confirm reported revenue/EPS this pass. Next pass should pick up the print."
     }
   },
   "price": {
     "last": 86.44,
     "changePct": 2.23,
     "asOf": "2026-11-06",
-    "source": "Marketchameleon (price) / secondary aggregator (change %, reported as $86.08 +$1.88)"
+    "source": "Marketchameleon (price) / secondary aggregator (change %)"
   },
   "catalysts": [
     {
@@ -148,12 +147,28 @@
     }
   ],
   "conflicts": [
-    "Short interest: one aggregator ~3.9M shares / 3.7% of float / 1.1 days to cover (post Aug 27 earnings); a second aggregator 3.80M shares, 3.77% of shares out, 4.53% of float; Yahoo (dated 2026-08-14) shows 6.34M shares short, 6.97% of float, 3.29 short ratio; MarketBeat mid-May 2026 showed 5.51M shares, 6.09% of float. No reconciled current figure.",
-    "Cash: stockanalysis-derived aggregator shows $1.02B cash vs $596.43M debt (net cash $421.37M); Yahoo shows $1.46B total cash vs $595.77M debt; Equibles shows two different net-cash figures on different pages ($889.85M and $197.8M). Not reconciled this pass."
+    "Short interest: one aggregator ~3.9M shares/3.7% of float/1.1 days to cover (post Aug 27 earnings); a second aggregator 3.80M shares, 3.77% of shares out; Yahoo (dated 2026-08-14) shows 6.34M shares short, 6.97% of float; MarketBeat mid-May 2026 showed 5.51M shares, 6.09% of float. Not reconciled.",
+    "Cash: one aggregator shows $1.02B cash vs $596.43M debt (net cash $421.37M); Yahoo shows $1.46B total cash vs $595.77M debt; Equibles shows two different net-cash figures on different pages ($889.85M and $197.8M). Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Reports Q2 FY2027 tomorrow (2026-11-19, after close per most trackers) — still not primary-source confirmed.",
+  "notes": "Q2 FY2027 earnings were scheduled for today (2026-11-19) after market close, per Elastic's own guidance (the date is now confirmed rather than estimated, since it is today and company-stated). The actual print was not yet available in search results as of this PM pass; flag for pickup on the next research pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -465,15 +480,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
+      "pe updated",
       "nextEarnings updated",
       "float updated",
+      "sharesOutstanding updated",
       "shortInterest updated",
-      "cash updated",
       "debt updated",
       "conflicts updated"
     ],

@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.667Z",
+  "lastResearched": "2026-11-19T21:31:29.145Z",
   "fundamentals": {
     "marketCap": {
       "value": 28560000000,
       "asOf": "2026-11-12",
       "source": "MarketChameleon",
-      "note": "Internally consistent with the confirmed 2,202,224,600 share count at $12.97/share (≈$28.56B); Trefis ~$40.2B, TipRanks $37.04B and AlphaQuery $37.22B do not reconcile with that share count at any plausible 2026 price and are not used."
+      "note": "Internally consistent with 2,202,224,600 shares at $12.97."
     },
     "float": null,
     "sharesOutstanding": {
@@ -25,7 +25,7 @@
     "shortInterest": null,
     "cash": {
       "value": null,
-      "note": "Q3 2026 release cited $5.8B of 'liquidity', not a specific cash balance"
+      "note": "Q3 2026 release cited $5.8B 'liquidity', not a specific cash balance"
     },
     "debt": null,
     "pe": {
@@ -34,13 +34,29 @@
       "note": "not located this pass",
       "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": 0.37,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 0.34,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026 (core)",
+        "value": 0.41,
+        "basis": "non-GAAP"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": "Wildfire Fund expense YoY",
+      "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 64,
-      "note": "a cost line, not revenue — rose on accelerated amortization of the Wildfire Fund asset following SCE's Eaton fire disclosures; a Q3 2026 revenue figure was not located this pass"
+      "pct": -1,
+      "note": "Q3 2026 revenue $6.19B vs $6.25B YoY"
     },
     "nextEarnings": {
       "date": null,
@@ -50,7 +66,8 @@
   "price": {
     "last": 12.97,
     "asOf": "2026-11-12",
-    "source": "MarketChameleon (via WebSearch)"
+    "source": "MarketChameleon",
+    "note": "No more recent dated PCG price located this pass; multiple undated/stale quotes ($17-18 range) found and excluded as likely stale."
   },
   "catalysts": [
     {
@@ -198,12 +215,26 @@
     }
   ],
   "conflicts": [
-    "Market cap: Trefis ~$40.2B, TipRanks $37.04B and AlphaQuery $37.22B do not reconcile with the confirmed 2,202,224,600 share count at any 2026 price; MarketChameleon's $28.56B (2026-11-12, $12.97/share) is internally consistent with the share count and is used as the current value this pass.",
-    "Dividend: Fox Business lists $0.05/share (ex-div 2026-09-30) while TipRanks lists an annual dividend of $0.025, which looks stale"
+    "Market cap: Trefis ~$40.2B, TipRanks $37.04B, AlphaQuery $37.22B don't reconcile with the confirmed 2.2024B share count; MarketChameleon's $28.56B is used.",
+    "Dividend: Fox Business lists $0.05/share while TipRanks lists an annual dividend of $0.025 (likely stale)."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 9 undergrounding-milestone entry already on file. Market cap conflict partially reconciled via share-count arithmetic; price refreshed to the Nov 12 reading.",
+  "notes": "No new dated catalyst found this pass; facts unchanged from existing file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "growth updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -502,11 +533,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "eps updated",
+      "growth updated",
       "marketCap updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

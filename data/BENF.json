@@ -3,49 +3,48 @@
   "name": "Beneficient",
   "sector": "Financials",
   "theme": "Distressed / Restructuring",
-  "themeLabel": "nano-cap",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.648Z",
+  "lastResearched": "2026-11-19T21:31:29.133Z",
   "fundamentals": {
     "marketCap": {
-      "value": 12420000,
-      "asOf": "2026-10-26",
-      "source": "massive.com"
+      "value": 9090000,
+      "asOf": "2026-11-19",
+      "source": "Morningstar"
     },
     "float": {
       "value": null,
-      "note": "Not disclosed separately from shares outstanding in sources found"
+      "note": "not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
-      "value": 18960000,
-      "asOf": "2026-10-26",
-      "source": "massive.com"
+      "value": 19180000,
+      "asOf": "2026-11-19",
+      "source": "Morningstar"
     },
     "shortInterest": {
       "value": 1.5,
       "asOf": "2026-03-31",
-      "note": "~1.5% of shares outstanding (196,071 shares short) per MarketBeat (2026-04-15 report); a later, differently-dated figure of 950,380 shares short / 1.0 days-to-cover as of 2026-09-30 could not be converted to a percentage from available data",
+      "note": "unchanged from last pass; ~1.5% of shares outstanding per MarketBeat; a later 950,380-shares/1.0-days-to-cover figure as of 2026-09-30 could not be converted to a percentage",
       "source": "MarketBeat"
     },
     "cash": {
       "value": 7500000,
       "asOf": "2026-09-30",
-      "source": "Fiscal Q2 2027 8-K earnings release, per WebSearch summary (direct SEC.gov fetch blocked in this sandbox)"
+      "source": "Fiscal Q2 2027 8-K earnings release"
     },
     "debt": {
       "value": 98100000,
       "asOf": "2026-09-30",
-      "source": "Fiscal Q2 2027 8-K earnings release, per WebSearch summary (direct SEC.gov fetch blocked in this sandbox)",
-      "note": "Up from $96.8M at 2026-06-30, after two promissory notes totaling $4.0M issued after that quarter-end."
+      "source": "Fiscal Q2 2027 8-K earnings release"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative/distressed earnings; no reliable EPS figure found",
-      "asOf": "2026-10-26"
+      "note": "negative/distressed earnings; no reliable EPS figure found",
+      "asOf": "2026-11-19"
     },
     "eps": [],
     "revenue": [],
@@ -53,21 +52,28 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Revenue/financial statement detail not found in available search results for this distressed/restructuring entity"
+      "note": "revenue/financial statement detail not found in available sources"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found; fiscal year has historically ended March 31"
+      "note": "not found; fiscal year has historically ended March 31"
     }
   },
   "price": {
-    "last": 0.8,
-    "changePct": -6.6,
-    "asOf": "2026-10-23",
-    "source": "Benzinga/daytraders.com aggregation"
+    "last": 0.49,
+    "changePct": -6.15,
+    "rvol": null,
+    "asOf": "2026-11-19",
+    "source": "Morningstar (delayed quote)"
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "regulatory/listing",
+      "headline": "Nasdaq notified Beneficient that the market value of its listed securities has been below the $35 million minimum required for continued listing for 30 consecutive business days",
+      "source": "massive.com"
+    },
     {
       "date": "2026-11-04",
       "type": "legal",
@@ -186,13 +192,33 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: massive.com 18,960,000 (asOf 2026-10-26) vs Equibles 15,460,000 (referencing an Aug 14 2026 10-Q) vs ChartExchange 14,363,634 (likely stale, pre-reverse-split)",
-    "Market cap: massive.com ~$12.42M (2026-10-26) vs Equibles ~$12.29M vs Motley Fool ~$14.72M vs ChartExchange ~$49.55M (likely stale)",
-    "Price history is not comparable across the 2025-12-15 1-for-8 reverse split; pre-split prices should not be read against post-split prices"
+    "Price (both delayed quotes dated 2026-11-19): Morningstar $0.49 (-6.15%) vs Massive $0.538 (-4.15%, as of 6:23am EST).",
+    "Shares outstanding: Morningstar 19,180,000 (2026-11-19) vs massive.com 18,960,000 (2026-10-26) vs Equibles 15,460,000 vs ChartExchange 14,363,634 (likely stale, pre-reverse-split).",
+    "Price history is not comparable across the 2025-12-15 1-for-8 reverse split."
   ],
   "pendingFilings": [],
-  "notes": "New Oct 29 shareholder-vote catalyst found (Yorkville financing approved amid BHI dispute). Filled previously-null cash/debt from the fiscal Q2 2027 (quarter ended 2026-09-30) earnings release. Heppner Jan 11, 2027 sentencing date unchanged.",
+  "notes": "Heppner criminal sentencing remains scheduled for 2026-01-11 per the 2026-10-28 corporate update already on file; no newer confirmation found this pass. New Nasdaq $35M listing-deficiency notice (2026-11-12) is the only new dated catalyst found.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -466,13 +492,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
       "cash updated",
-      "debt updated"
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

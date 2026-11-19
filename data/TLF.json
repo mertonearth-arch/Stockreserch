@@ -7,18 +7,19 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.149Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 already reported in early/mid-November 2026 (exact date unconfirmed — see conflicts); next report date not located"
+      "note": "No Q4 2026/FY2026 report date located."
     },
     "marketCap": {
       "value": 21300000,
       "asOf": "2026-08-26",
-      "source": "MarketChameleon"
+      "source": "MarketChameleon",
+      "note": "Stale; no newer market cap located. At the $2.08 close (2026-11-10) and ~8.07M shares outstanding on file, implied market cap would be closer to ~$16.8M, but this is not a published figure."
     },
     "sharesOutstanding": {
       "value": 8067502,
@@ -37,15 +38,15 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 quarterly EPS was positive ($0.06), but trailing-twelve-month EPS/P-E is not established given losses in some trailing quarters (e.g., a Q3 2025 net loss)",
-      "asOf": "2026-11-13"
+      "note": "Q3 2026 quarterly EPS was positive ($0.06), but trailing-twelve-month EPS/P-E not established given losses in trailing quarters",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q3 2025",
         "value": null,
         "basis": "GAAP",
-        "note": "Reported net loss of ~$1.4M; per-share figure not independently confirmed"
+        "note": "Reported net loss of ~$1.4M; per-share not independently confirmed"
       },
       {
         "period": "Q3 2026",
@@ -80,11 +81,12 @@
     }
   },
   "price": {
-    "last": 2.6,
-    "changePct": null,
+    "last": 2.08,
+    "changePct": -1.89,
     "rvol": null,
-    "asOf": "2026-08-26",
-    "note": "No reliable quote for 2026-11-13 (or any date in the requested Nov 11-14 window) was located; this is the most recent dated figure found."
+    "asOf": "2026-11-10",
+    "source": "Quiver Quant",
+    "note": "Most recent dated close located; no reliable quote for 2026-11-17/18/19 found despite multiple searches. Prior file value ($2.60, 2026-08-26) was stale and is superseded by this more recent figure."
   },
   "catalysts": [
     {
@@ -124,13 +126,25 @@
     }
   ],
   "conflicts": [
-    "Exact Q3 2026 earnings date is unconfirmed: one estimate puts it at 2026-11-10 after market close; another estimate puts it around 2026-11-16. The primary press release/8-K was not located in sources reviewed, so the Q3 2026 figures reported here come only from third-party aggregator coverage (Panabee/Quiver Quant), not a confirmed primary source.",
-    "Cash commentary: one aggregator's analysis states cash fell 65% year-to-date (from $16.1M at 2025 year-end to $5.7M at 2026-09-30), attributing this mainly to a Q1 2026 special dividend and crediting a one-time tariff refund for part of the margin gain — this is the aggregator's own interpretation, not confirmed company language.",
-    "No reliable share price/market cap quote newer than 2026-08-26 ($2.60 / $21.3M market cap, MarketChameleon) was found; other undated sources show a $25.41M market cap and prices ranging roughly $2.20-$4.20 across unclear dates.",
-    "Dividend history: one source cites a $0.75 special dividend paid around 2026-02-24; another source states flatly that the company does not pay a dividend — these directly conflict."
+    "No reliable quote newer than 2026-11-10 ($2.08, Quiver Quant) was located despite searching multiple sources for 2026-11-17/18/19.",
+    "Market cap on file ($21.3M, 2026-08-26) is stale and inconsistent with the more recent $2.08 price and ~8.07M shares outstanding (would imply ~$16.8M); not reconciled this pass."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -208,12 +222,18 @@
       "from": "daily"
     }
   ],
-  "notes": "No news dated 2026-11-17/18 found. Q3 2026 earnings (reported ~2026-11-10, shares +14.9-15% after) already on file. Nothing new this pass.",
+  "notes": "No new catalysts dated since the existing file's last entry (2026-11-17). Q3 2026 earnings turnaround (reported ~2026-11-10) remains the most recent material event.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

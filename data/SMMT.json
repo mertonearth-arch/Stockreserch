@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.645Z",
+  "lastResearched": "2026-11-19T21:31:29.130Z",
   "fundamentals": {
     "marketCap": {
-      "value": 11556000000,
-      "asOf": "2026-06-30",
-      "source": "roic.ai quarterly capital-structure table (Q2 2026 quarter-end figure, not a live quote)",
-      "note": "Conflicts with roic.ai's own live-quote page figure of ~$10.67B and with other sources; see conflicts"
+      "value": null,
+      "asOf": "2026-11-16",
+      "note": "No new confirmed figure this pass; prior $11.556B (Q2 2026 quarter-end, roic.ai) figure on file is now well stale given the ~16% post-CRL price drop and conflicts with roic.ai's own live-quote figure."
     },
     "float": {
       "value": null,
@@ -23,16 +22,16 @@
     "sharesOutstanding": {
       "value": 793000000,
       "asOf": "2026-06-30",
-      "source": "roic.ai"
+      "source": "roic.ai (unchanged)"
     },
     "shortInterest": {
       "value": null,
       "note": "Not found"
     },
     "cash": {
-      "value": 691000000,
-      "asOf": "2026-06-30",
-      "source": "roic.ai (cash, cash equivalents and short-term investments)"
+      "value": 629800000,
+      "asOf": "2026-09-30",
+      "source": "Summit Q3 2026 earnings release (pre-dates AstraZeneca $2B investment, closed 2026-10-05)"
     },
     "debt": {
       "value": null,
@@ -41,7 +40,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings; ivonescimab (Summit's lead asset) is not yet approved in any of Summit's licensed territories (US, EU, Japan, etc.) as of 2026-11-13"
+      "note": "Negative earnings; ivonescimab not yet approved in Summit's licensed territories"
     },
     "eps": [],
     "revenue": [],
@@ -49,21 +48,29 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Pre-commercial in Summit's licensed territories; ivonescimab has been approved for marketing in China since May 2024 by partner Akeso, but Summit does not recognize China sales"
+      "note": "Pre-commercial in Summit's licensed territories"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "One aggregator referenced a November 11, 2026 report date but this was not independently confirmed"
+      "note": "Unchanged; no confirmed date located"
     }
   },
   "price": {
-    "changePct": -15,
+    "last": 11.82,
+    "changePct": -16.47,
+    "rvol": null,
     "asOf": "2026-11-16",
-    "note": "Approx. move per BioPharma Dive/STAT News coverage of the FDA rejection ('plunged another 15% Monday'), preceded by a ~6% decline on Friday 2026-11-13 ahead of the decision; exact closing price/level not independently confirmed this pass",
-    "source": "biopharmadive.com, statnews.com"
+    "source": "equibles.com, corroborated by Trefis's independently-reported ~16.5% move",
+    "note": "Lowest close since 2026-08-10, per AskTraders, following the FDA Complete Response Letter."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "analyst action / price reaction",
+      "headline": "Shares closed at $11.82 (-16.47%), lowest close since 2026-08-10, in the session following the FDA's 2026-11-15 Complete Response Letter on the ivonescimab+chemo NSCLC BLA. Barclays cut its price target to $18 (from $20, Equal Weight); Citi trimmed its target to $42 (from $43). Jefferies kept a Buy rating and $30 target, characterizing the CRL as largely anticipated.",
+      "source": "equibles.com; Trefis; AskTraders; Stocktwits (analyst-action roundup)"
+    },
     {
       "date": "2026-11-15",
       "type": "regulatory",
@@ -156,8 +163,25 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 15 FDA CRL already on file. Harmoni-3 non-squamous-cohort enrollment-completion date still inconsistently reported across sources but not independently confirmed enough to log as a resolved conflict. Quiet pass.",
+  "notes": "FDA CRL itself (2026-11-15) was already on file; this pass adds the confirmed Nov 16 closing price/move and the specific analyst price-target changes that followed it.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "move -16.47%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -385,10 +409,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "move -16.47%"
+    ],
     "tradingDay": true
   }
 }

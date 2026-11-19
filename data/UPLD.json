@@ -1,47 +1,49 @@
 {
   "ticker": "UPLD",
   "name": "Upland Software, Inc.",
-  "sector": "Technology / Enterprise Software",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "nano-cap",
+  "themeLabel": "distressed",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.645Z",
+  "lastResearched": "2026-11-19T21:31:29.131Z",
   "fundamentals": {
     "marketCap": {
+      "value": 8740000,
+      "asOf": "2026-11-12",
+      "source": "Yahoo Finance (via search aggregator snippet)",
+      "note": "New this pass — not previously on file."
+    },
+    "float": {
       "value": null,
       "note": "Not found this pass"
     },
-    "float": null,
     "sharesOutstanding": {
       "value": 2957191,
       "asOf": "2026-08-10",
-      "source": "Company 10-Q cover page (period ended 2026-06-30), per SEC EDGAR search result"
+      "source": "Company 10-Q cover page (unchanged)"
     },
     "shortInterest": {
       "value": 3.48,
       "asOf": "2026-09-11",
-      "source": "equibles.com",
-      "note": "102.9K shares short, 3.48% of float, ~3.5 days to cover"
+      "source": "equibles.com (unchanged)"
     },
     "cash": {
       "value": 28900000,
       "asOf": "2026-09-30",
-      "source": "Q3 2026 earnings release (SEC 8-K exhibit, via WebSearch)"
+      "source": "Q3 2026 earnings release (unchanged)"
     },
     "debt": {
       "value": 225400000,
       "asOf": "2026-09-30",
-      "source": "Q3 2026 earnings release: term loan balance, down from $238.5M at 2025-12-31",
-      "note": "Supersedes the prior undated stockanalysis-sourced $201.8M figure; $30.0M revolving credit facility remains undrawn and is excluded from this debt figure."
+      "source": "Q3 2026 earnings release (unchanged)"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not found; company has a history of net losses",
-      "asOf": "2026-11-13"
+      "note": "Not found; company has a history of net losses"
     },
     "eps": [],
     "revenue": [
@@ -64,16 +66,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found; most recent confirmed filing is a 10-Q for the quarter ended 2026-09-30"
+      "note": "Not found; most recent confirmed filing is the Q3 2026 10-Q"
     },
     "REVERSE_SPLIT_NOTE": "Upland executed a 1-for-10 reverse stock split, effective 2026-06-17 (charter amendment filed 2026-06-03), to regain Nasdaq minimum-bid-price compliance. Pre-split share count was ~29.4M; post-split ~2.9M. All post-6/17/2026 share counts below are POST-split; pre-split figures seen on some aggregator pages are stale/non-comparable."
   },
   "price": {
     "last": 3.03,
-    "changePct": null,
+    "changePct": -1.62,
     "rvol": null,
     "asOf": "2026-11-12",
-    "source": "Yahoo Finance"
+    "source": "Yahoo Finance (unchanged this pass; no newer dated quote found)"
   },
   "catalysts": [
     {
@@ -161,8 +163,25 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Filled in post-split term-loan debt and cash from the Q3 2026 release itself (replacing an undated third-party figure). No new dated catalyst found since the Nov 9 preferred-dividend waiver already on file.",
+  "notes": "No new dated catalysts found since last pass; a one-for-ten reverse split effective 2026-06-17 was confirmed this pass, explaining the low nominal post-split share count and price. Nasdaq $15M minimum-market-value compliance deadline (2027-01-27) remains the key overhang already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -427,12 +446,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "revenue updated",
-      "growth updated",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
       "cash updated",
       "debt updated"
     ],

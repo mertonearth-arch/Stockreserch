@@ -3,42 +3,42 @@
   "name": "CoreWeave, Inc.",
   "sector": "Technology",
   "theme": "AI Cloud Infrastructure",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.652Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.136Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 earnings date not yet announced in sources found"
+      "note": "Q4/FY2026 earnings date not yet announced; one stale aggregator page lists Nov 12, 2026 as 'next earnings', which has already passed"
     },
     "marketCap": {
       "value": null,
-      "note": "Varies with the conflicting price points found; shares outstanding (~550M) is more consistent across sources than market cap. See conflicts."
+      "note": "conflicting figures found this pass ($34.27B-$56.24B across different dates); not reconciled, see conflicts"
     },
     "sharesOutstanding": {
-      "value": 550000000,
-      "asOf": "~2026-11",
-      "note": "Approximate; derived consistently from two independent mkt-cap/price pairs (≈$25.57B/$46.43 and ≈$58.59B/$107.35, both ≈550M shares) rather than from a single stated share count",
-      "source": "Robinhood snapshot (undated) cross-checked against another aggregator"
+      "value": 527000000,
+      "asOf": "2026-08",
+      "note": "CompaniesMarketCap figure; conflicts with TipRanks (~447.6M) and Motley Fool (~551.5M, likely stale) and SimplyWall St (~525.69M, broadly consistent)",
+      "source": "CompaniesMarketCap"
     },
     "cash": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "not found in available sources this pass"
     },
     "debt": {
       "value": 47000000000,
       "asOf": "2026-09-30",
-      "note": "Approximate figure from a secondary aggregator summarizing the Q3 2026 earnings; not independently verified against the 10-Q",
+      "note": "approximate figure from a secondary aggregator summarizing Q3 2026 earnings; not independently verified against the 10-Q (unchanged from last pass)",
       "source": "aiweekly.co"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings; Q3 2026 net loss was $709 million"
+      "note": "negative earnings; Q3 2026 net loss was $709 million"
     },
     "eps": [],
     "revenue": [
@@ -60,19 +60,19 @@
     },
     "float": {
       "value": null,
-      "note": "Not disclosed separately"
+      "note": "not disclosed separately"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "not found in available sources this pass"
     }
   },
   "price": {
-    "last": 48.73,
-    "changePct": null,
-    "asOf": "2026-11-10",
-    "source": "Stocktwits",
-    "note": "Regular-session close the day Q3 2026 earnings were released; shares were reported climbing toward $53 in after-hours trading on the same day"
+    "last": 49.88,
+    "changePct": -6.12,
+    "rvol": null,
+    "asOf": "2026-11-16",
+    "source": "AAII (citing that day's 4:00pm close vs $53.13 prior close)"
   },
   "catalysts": [
     {
@@ -95,13 +95,40 @@
       "headline": "CoreWeave Q3 2026 results: revenue $3.661B (+168% YoY from $1.365B), beating the ~$3.54-3.55B analyst estimate; GAAP net loss $709M (vs $110M prior-year quarter) on operating income of $207M; revenue backlog ~$132.5B; raised FY2026 revenue guidance to $13.0B-$13.3B (from prior guidance on file); still expects >1.85GW of active power capacity by year-end; total debt reported approaching $47B",
       "impact": "Shares fell to $47.56 after-hours (-2.4%) despite the beat/guidance raise, as coverage flagged the ~$14.5B quarterly capex against only ~$9B of customer prepayments",
       "source": "https://247wallst.com/cards/coreweave-q3-2026-earnings-crwv-01m73msrkgrgan75a5t7tb9fmz ; https://aiweekly.co/alerts/coreweave-q3-revenue-jumps-168-yoy-to-366b-as-backlog-climbs-to-1325b-and-debt"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "contract",
+      "headline": "CoreWeave signed a multi-year agreement to power Wayve's AI Driver training using NVIDIA Blackwell GPUs (training, evaluation and simulation for Wayve's autonomous-driving foundation models); no contract value, GPU count or duration disclosed; shares fell ~3% in pre-market trading on the news",
+      "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Power-Wayves-AI-Driver-Training-in-Multi-Year-Agreement/default.aspx"
     }
   ],
   "conflicts": [
-    "Post-Q3-earnings (11/10) share price trajectory this week is reported wildly inconsistently: one source (Stocktwits/Citi note) describes shares nearing $61 on their biggest one-day gain since August with Citi seeing 200%+ upside after the Q3 beat; another (itiger) says CRWV is 'down over 13%, on pace for largest percent decrease since August 2025'; a third (finanzen.net) claims a 25.4% weekly collapse 'as of 4pm ET Friday, Nov 14' — but Nov 14, 2026 is a Saturday, so that date is internally impossible and the figure is unreliable. No single corroborated current price could be established this pass."
+    "Price trajectory since the Nov 10 Q3 print is reported very inconsistently across sources; this pass's best-anchored figure is $49.88 close on 2026-11-16 (down from $53.13 prior close, AAII), with Trefis separately noting a 52-week closing low of $43.66 on 2026-11-05 and a 6.9% drop on 2026-11-12.",
+    "Shares outstanding: 527.0M (CompaniesMarketCap, Aug 2026) vs 447.6M (TipRanks) vs 551.5M (Motley Fool, likely stale) vs 525.69M (SimplyWall St) — not reconciled.",
+    "Market cap: Equibles $34.27B (2026-10-20) vs Motley Fool $30.26B (undated) vs Ticker League $56.24B (mid-June 2026, stale) — spans different dates/share counts, not reconciled."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -183,12 +210,23 @@
       "from": "daily"
     }
   ],
-  "notes": "No confirmed new dated catalysts found past the 2026-11-10/11-12 earnings coverage already on file. Conflicting undated price snapshots ($46-$89 range across sources) persist but could not be reconciled to specific dates this pass.",
+  "notes": "New dated catalyst found: the Wayve multi-year AI-infrastructure deal announced 2026-11-09 (one day before Q3 earnings), not previously on file.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

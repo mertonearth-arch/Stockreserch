@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.668Z",
+  "lastResearched": "2026-11-19T21:31:29.146Z",
   "fundamentals": {
     "marketCap": {
-      "value": 2410000000,
-      "asOf": "2026-10-01",
-      "source": "equibles.com",
-      "note": "a 2026-09-11 reading showed $2.81B at $44.51/share; the Oct 1 reading at $23.45/share implies a ~47% decline in three weeks not explained by sources reviewed this pass"
+      "value": 1388000000,
+      "asOf": "2026-11-06",
+      "source": "derived: 63.07M shares (equibles, 2026-09-11) x $22.00",
+      "note": "Materially lower than the file's prior $2.41B (at $23.45, 2026-10-01) and $2.81B (at $44.51, 2026-09-11) readings — consistent with a declining share price if share count is stable, but not independently confirmed against a primary source this pass."
     },
     "float": null,
     "sharesOutstanding": {
@@ -26,12 +26,12 @@
       "value": 9900000,
       "asOf": "2026-09-30",
       "source": "equibles.com",
-      "note": "≈15.7% of float; ~8.1 days to cover"
+      "note": "~15.7% of float; ~8.1 days to cover"
     },
     "cash": {
       "value": 768400000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 earnings release (via finviz)",
+      "source": "company Q3 2026 earnings release",
       "note": "company states this funds operations into 2030"
     },
     "debt": null,
@@ -39,7 +39,7 @@
       "trailing": null,
       "forward": null,
       "note": "negative earnings (Q3 2026 loss of $0.88/share)",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
@@ -58,8 +58,9 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "pct": null,
-      "note": "prior-year comparable not located this pass"
+      "period": "Q3 2026",
+      "pct": 40.5,
+      "note": "Q3 2026 revenue $5.2M vs $3.7M Q3 2025 per one source; another source frames the $5.2M as a miss vs. consensus (consensus cited as either $7.15M or $6.21M depending on source)."
     },
     "nextEarnings": {
       "date": null,
@@ -67,10 +68,10 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-13"
+    "last": 22,
+    "asOf": "2026-11-06",
+    "source": "Benzinga (via search)",
+    "note": "Wedbush showed $22.97 close on 2026-11-02; stockevents.app shows an undated $21.70. No later-November dated reading located."
   },
   "catalysts": [
     {
@@ -186,13 +187,27 @@
     }
   ],
   "conflicts": [
-    "Market cap/price: $2.81B at $44.51 (2026-09-11) vs $2.41B at $23.45 (2026-10-01) — ~47% price decline in under a month with no fully explaining news found",
-    "Revenue 'miss' comparison basis varies by source: one cites a $7.15M consensus, another a $5.4M estimate, against the same $5.2M actual",
-    "Additional late-Oct 2026 readings found this pass (Upstox $24.96/share, $1.44B market cap, 2026-10-29; Chartrow ~$24.28/share, $1.7B, undated; Finspry $24.60/share, $1.41B, undated) imply share counts of roughly 58-70M depending on source — not reconciled against each other or the Sept/Oct figures above"
+    "Market cap/price: $2.81B at $44.51 (2026-09-11) vs $2.41B at $23.45 (2026-10-01) vs ~$1.39B at $22.00 (2026-11-06, this pass's derived figure) — a roughly 50%+ price decline over ~2 months with no single news item found that fully explains it.",
+    "Revenue 'miss' comparison basis varies: consensus cited as $7.15M by one source, $6.21M by another, against the same $5.2M actual Q3 2026 revenue."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass beyond the Nov 4 earnings/FDA BLA acceptance already on file. Quiet pass on catalysts; added newly-found but still-unreconciled market cap readings to conflicts.",
+  "notes": "No new dated catalyst since the Nov 4 earnings/FDA BLA Priority Review acceptance (PDUFA target 2027-05-01) already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -498,10 +513,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "growth updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -7,13 +7,13 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.660Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.139Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
       "asOf": "2026-11-06",
-      "source": "Marketchameleon"
+      "source": "Marketchameleon (carried forward)"
     },
     "float": {
       "value": null,
@@ -22,31 +22,32 @@
     "sharesOutstanding": {
       "value": 861400000,
       "asOf": "~2026-11",
-      "source": "StockAnalysis / massive.com (two independent sources agree on ~861M)"
+      "source": "StockAnalysis / massive.com (carried forward)"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "cash": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "debt": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established from available sources; Q3 2026 core (non-GAAP) EPS was approximately $0.91, but no trailing-twelve-month or explicit forward multiple was found"
+      "note": "No reliable current multiple established; forward-PE estimates found this pass ranged 38x-50x across undated sources",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 0.91,
         "basis": "non-GAAP (core)",
-        "note": "Beat estimates of $0.89 (Zacks) or $0.88 (StockTwits)"
+        "note": "Beat estimates of $0.89/$0.88"
       }
     ],
     "revenue": [
@@ -60,20 +61,20 @@
     "growth": {
       "metric": "revenue YoY (GAAP net sales)",
       "period": "Q3 2026",
-      "pct": 13.6,
-      "note": "A separate non-GAAP 'core sales' figure of $5.08B was also reported as beating an adjusted estimate of $5.03B"
+      "pct": 13.6
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-01-26",
       "confirmed": false,
-      "note": "Not found; Corning has historically reported Q4/full-year results in late January"
+      "note": "Estimate (Walnut Invest), based on historical reporting cadence; a conflicting source (Chartmill) shows an Apr 26, 2027 date that appears mislabeled/for a different quarter"
     }
   },
   "price": {
     "last": 106.13,
     "changePct": null,
     "asOf": "2026-11-06",
-    "source": "Marketchameleon"
+    "source": "Marketchameleon",
+    "note": "No more-recent dated quote found; unchanged from prior pass."
   },
   "catalysts": [
     {
@@ -152,13 +153,31 @@
     }
   ],
   "conflicts": [
-    "Revenue framing: Webull/Barchart report a GAAP revenue MISS ($4.86B vs $5.05B consensus) while Zacks/StockTwits report a non-GAAP 'core sales' BEAT ($5.08B vs $5.03B adjusted estimate) — both can be true simultaneously, but headline framing across sources directly conflicts on whether Q3 2026 was a 'miss' or a 'beat'",
-    "Price: Marketchameleon shows $106.13 (market cap $91.42B) as of 2026-11-06, while massive.com shows a HIGHER price of $125.04 (market cap $106.8B) as of 2026-10-23 — i.e., sources imply the stock fell roughly 15% between Oct 23 and Nov 6, which is hard to reconcile with other reporting that shares rose 4%+ in the session immediately after the Oct 27 earnings beat",
-    "Several MarketBeat/AAII pages date the Q3 2026 earnings release to 2026-07-28, which matches Q2 timing and appears to be a date error; the 2026-10-27 date was used instead"
+    "Forward PE: Snowball Analytics ~38 vs Benzinga ~50 (both undated)",
+    "Next earnings date: Walnut Invest 2027-01-26 (estimate) vs Chartmill 2027-04-26 (likely a mislabeled quarter, not a genuine same-period conflict)"
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst found; the Nov 11 'unspecified key catalyst' flagged last pass as unconfirmed by a single aggregator remains uncorroborated — still not promoted to a real catalyst. Quiet pass.",
+  "notes": "Corning guided Q4 2026 core sales of $5.2B-$5.3B per its Q3 2026 release (already reflected in file); no new dated catalysts found this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -432,10 +451,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

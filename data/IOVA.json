@@ -1,20 +1,20 @@
 {
   "ticker": "IOVA",
   "name": "Iovance Biotherapeutics, Inc.",
-  "sector": "Healthcare",
+  "sector": "Healthcare (biotechnology)",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.664Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.141Z",
   "fundamentals": {
     "marketCap": {
-      "value": 6600000000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business quote snapshot",
-      "note": "Motley Fool's same-share-count snapshot computes $6.38B instead of Fox Business's $6.62B off the same ~452.97M share count -- likely different intraday prices; both from Oct 23, 2026, roughly a week before this pass"
+      "value": 3530000000,
+      "asOf": "2026-11-13",
+      "source": "massive.com",
+      "note": "Roughly consistent with ~453M shares outstanding (on file) at $7.76/share"
     },
     "float": {
       "value": null,
@@ -23,7 +23,7 @@
     "sharesOutstanding": {
       "value": 452970000,
       "asOf": "2026-10-23",
-      "source": "Fox Business / Motley Fool quote snapshots"
+      "source": "Fox Business / Motley Fool (carried from prior pass)"
     },
     "shortInterest": {
       "value": null,
@@ -40,7 +40,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Net loss narrowed but still negative GAAP earnings in Q3 2026 (-$0.05/sh); trailing/forward multiples not meaningful/not found",
+      "note": "Net loss narrowed but still negative GAAP earnings in Q3 2026 (-$0.05/sh)",
       "asOf": "2026-11-05"
     },
     "eps": [
@@ -69,11 +69,11 @@
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
+    "last": 7.76,
+    "changePct": 1.7,
     "rvol": null,
     "asOf": "2026-11-13",
-    "note": "No single verified closing price or % change for 2026-11-13 could be established; reachable aggregator sources disagreed sharply and were often undated (see conflicts)."
+    "source": "massive.com"
   },
   "catalysts": [
     {
@@ -168,11 +168,24 @@
     }
   ],
   "conflicts": [
-    "Market cap Oct 23, 2026: Fox Business $6.62B vs Motley Fool $6.38B off the same 452.97M share count"
+    "Price: massive.com shows $7.76 close +1.70% on 2026-11-13; this is a very large decline (~45-50%) from ~$13.62-$14.62 readings dated mid-to-late October 2026 — decline appears driven by the ~Oct 29-Nov 5 selloff referenced in Trefis coverage (-35.4% Oct 29, -11.3% Oct 30), not confirmed as a reverse split."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass. A Nov 16, 2026 fireside chat at the Jefferies Global Healthcare Conference is scheduled but carries no new figures, so it is not recorded as a catalyst. The Oct 23 2026 market-cap conflict remains unresolved. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Q3 2026 earnings (Nov 5) and conference presentations (Oct 24-26) already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -494,10 +507,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

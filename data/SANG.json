@@ -1,57 +1,54 @@
 {
   "ticker": "SANG",
   "name": "Sangoma Technologies Corporation",
-  "sector": "Technology / Enterprise Software (Unified Communications)",
+  "sector": "Technology",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "nano-cap",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.645Z",
+  "lastResearched": "2026-11-19T21:31:29.130Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not found; deal enterprise value is disclosed instead (see catalysts/conflicts)"
+      "note": "Not found; deal enterprise value (~$204M) remains the disclosed reference figure."
     },
     "float": {
       "value": 24020000,
       "asOf": null,
-      "source": "Webull (undated snapshot, free float 24.02M)",
-      "note": "AAII separately shows float ~25.6M; both undated. Treat as approximate."
+      "note": "Unchanged this pass."
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not found this pass"
+      "note": "Not found this pass."
     },
     "shortInterest": {
       "value": null,
       "asOf": null,
-      "note": "Not located in sandbox search."
+      "note": "Not located."
     },
     "cash": {
       "value": 13500000,
       "asOf": "2025-06-30",
-      "source": "Sangoma FY2025 Q4/annual results (6-K, filed ~Sept 2025, SEC EDGAR)"
+      "source": "Sangoma FY2025 annual results"
     },
     "debt": {
       "value": 22200000,
       "asOf": "2026-09-30",
-      "source": "Sangoma Q1 FY2027 results (6-K)",
-      "note": "Down from $42.8M a year earlier"
+      "source": "Sangoma Q1 FY2027 results (6-K)"
     },
     "pe": {
       "trailing": null,
       "forward": null,
       "note": "Not found this pass",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q1 FY2026",
         "value": -0.08,
-        "basis": "GAAP diluted",
-        "note": "prior-year comparator"
+        "basis": "GAAP diluted"
       },
       {
         "period": "Q1 FY2027",
@@ -75,7 +72,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Company is suspending fiscal 2027 guidance and earnings calls while the BRC Group Holdings acquisition is pending"
+      "note": "Unchanged: guidance/earnings calls suspended pending the BRC Group Holdings acquisition."
     }
   },
   "price": {
@@ -83,7 +80,7 @@
     "changePct": 35.94,
     "rvol": null,
     "asOf": "2026-09-28",
-    "note": "This is the price move reported on the acquisition announcement date, not a 2026-11-13 price — no more recent confirmed price was found this pass"
+    "note": "Unchanged from file; this pass found undated sightings of ~$4.77 (quote page, undated) and a possible $4.95 figure tied to Nov 7 that may actually be an analyst/target figure, not a trade price. No reliably dated current quote established."
   },
   "catalysts": [
     {
@@ -135,11 +132,31 @@
     }
   ],
   "conflicts": [
-    "Current share price: EarningsWhispers shows an undated $4.59 snapshot vs the deal's implied value of ~$5.225/share (US$4.925 cash + 0.04767 BRC shares, set at announcement on 2026-09-28); no reliably dated current quote located this pass."
+    "Current share price still unconfirmed with a reliable date: ~$4.77-$4.95 (various undated sightings this pass) vs the deal's implied ~$5.225/share value set at the 2026-09-28 announcement."
   ],
   "pendingFilings": [],
-  "notes": "Found one new dated catalyst (Oct 27 retail win) not previously on file. BRC acquisition still pending close (early 2027); no change to deal terms found this pass.",
+  "notes": "No new dated catalysts found since last pass; the BRC acquisition (announced 2026-09-29, expected close early 2027) remains the dominant storyline and is already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 35.94%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -318,11 +335,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 35.94%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

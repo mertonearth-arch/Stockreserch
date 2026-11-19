@@ -3,16 +3,16 @@
   "name": "BIO-key International, Inc.",
   "sector": "Technology",
   "theme": "Enterprise Software & Security",
-  "themeLabel": "nano-cap",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.649Z",
+  "lastResearched": "2026-11-19T21:31:29.122Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Conflicting figures found; see conflicts"
+      "note": "Conflicting figures found across aggregators (roughly $3M-$7.8M depending on shares-outstanding count used); not reconciled"
     },
     "float": {
       "value": null,
@@ -21,8 +21,7 @@
     "sharesOutstanding": {
       "value": 1342766,
       "asOf": "Q3 2026",
-      "source": "Q3 2026 8-K exhibit (weighted avg basic/diluted shares outstanding)",
-      "note": "Supersedes the 2026-06-19 pre-warrant-inducement count of 1,085,360"
+      "source": "Q3 2026 8-K exhibit (weighted avg basic/diluted shares outstanding)"
     },
     "shortInterest": {
       "value": null,
@@ -30,11 +29,11 @@
     },
     "cash": {
       "value": null,
-      "note": "Not established; only transaction-level cash inflows found (e.g., $2.5M warrant inducement in Aug 2026, $1.5M prepaid 2-year subscription order in 2026), not a balance-sheet cash figure"
+      "note": "Not established; only transaction-level cash inflows found (e.g., $2.5M warrant inducement Aug 2026), not a balance-sheet figure"
     },
     "debt": {
       "value": null,
-      "note": "Not established from available sources this pass"
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
@@ -52,7 +51,7 @@
         "period": "Q3 2026",
         "value": -0.66,
         "basis": "GAAP",
-        "note": "Computed from reported net loss of $(886,083) and weighted avg shares outstanding of 1,342,766 per the Q3 2026 8-K exhibit; company's own per-share figure was not located this pass — treat as an estimate, not an official number"
+        "note": "Computed from reported net loss of $(886,083) and weighted avg shares outstanding of 1,342,766 per the Q3 2026 8-K exhibit; company's own per-share figure not independently located — treat as an estimate"
       }
     ],
     "revenue": [
@@ -83,7 +82,8 @@
     "last": 2.12,
     "changePct": -17.83,
     "asOf": "2026-11-13",
-    "source": "Equibles"
+    "source": "Equibles",
+    "note": "No quote newer than 2026-11-13 found this pass; other aggregators found (Schwab $2.74 asOf 2026-10-27, Benzinga $3.27 asOf 2026-10-23) are all older."
   },
   "catalysts": [
     {
@@ -195,11 +195,28 @@
     }
   ],
   "conflicts": [
-    "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — both retained verbatim; magnitude of decline not independently reconciled this pass"
+    "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — magnitude of decline not independently reconciled.",
+    "Shares outstanding/market cap continue to disagree sharply across aggregators (roughly 1.09M-2.04M shares, $3M-$7.8M cap)."
   ],
   "pendingFilings": [],
-  "notes": "Shares-outstanding and market-cap figures continue to disagree sharply across aggregators (roughly 1.09M-2.04M shares, $3M-$7.8M cap); not re-resolved this pass.",
+  "notes": "Quiet pass — no new dated catalyst found since the Q3 2026 print (2026-11-13) already on file. Fundamentals unchanged.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "move -17.83%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -474,10 +491,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "eps updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
       "move -17.83%",
       "conflicts updated"
     ],

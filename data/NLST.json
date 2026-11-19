@@ -3,22 +3,22 @@
   "name": "Netlist, Inc.",
   "sector": "Technology",
   "theme": "Memory Technology & IP Licensing",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.666Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.144Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
       "asOf": "2026-08-21",
       "source": "equibles.com",
-      "note": "most recent figure found this pass; likely stale given subsequent settlements and a chip-sector selloff"
+      "note": "Likely stale given subsequent settlements and chip-sector selloff; no newer figure found this pass"
     },
     "float": {
       "value": null,
-      "note": "not separately disclosed in sources found"
+      "note": "Not separately disclosed"
     },
     "sharesOutstanding": {
       "value": 349580000,
@@ -29,20 +29,20 @@
       "value": 36400000,
       "asOf": "2026-08-21",
       "source": "equibles.com",
-      "note": "21.1 days to cover; a 2026-08-03 reading instead gave 11.50% of float, a different denominator"
+      "note": "21.1 days to cover; a 2026-08-03 reading gave 11.50% of float instead"
     },
     "cash": {
       "value": null,
-      "note": "not disclosed in sources reviewed this pass"
+      "note": "Not disclosed in sources reviewed"
     },
     "debt": {
       "value": null,
-      "note": "not disclosed in sources reviewed this pass"
+      "note": "Not disclosed in sources reviewed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 net income was positive ($85.4M) but driven by one-time license revenue; no reliable trailing/forward P/E found",
+      "note": "Q3 2026 net income positive ($85.4M) but driven by one-time license revenue; no reliable multiple found",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -89,9 +89,24 @@
     "last": null,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-13"
+    "asOf": "2026-11-16",
+    "note": "Sources disagree sharply and could not be reconciled — see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "event",
+      "headline": "Netlist highlighted three proof-of-concept designs from its CXL NVvault memory family at Supercomputing 2026 (SC26), Nov 17-19, Chicago.",
+      "impact": null,
+      "source": null
+    },
+    {
+      "date": "2026-11-10",
+      "type": "corporate development",
+      "headline": "On the Q3 2026 earnings call, CEO C.K. Hong hinted at ongoing licensing discussions with SK hynix, framing it as the logical next licensee after settlements with Samsung and Micron; no signed agreement announced.",
+      "impact": "retail bullishness noted by Stocktwits coverage (published Nov 11)",
+      "source": "https://stocktwits.com/news-articles/markets/equity/netlist-ceo-hints-licensing-deal-with-sk-hynix-is-in-works-after-q3-sales-rise-150-retail-turns-bullish/cNGDiZ6R9JC"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -227,11 +242,28 @@
     }
   ],
   "conflicts": [
-    "NLST market cap: on-file figure is $1.77B as of 2026-08-21 (equibles.com, flagged stale); this pass found two further undated, unreconciled readings — AlphaSpread ~$482.4M at $1.57/share, and Simply Wall St ~$2.4B — neither carries a clear as-of date, so none of the three is being adopted as current."
+    "Price: Global Banking & Finance shows a close of $6.26 (+9.82%) on 2026-11-09, while Investing.com shows $5.70 (previous close $5.70) for the same date. By 2026-11-16, two more sources show $4.62 and $4.51 respectively — a ~25-30% further decline that could not be corroborated with a specific dated catalyst this pass."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst since the Nov 10 Q3 2026 earnings (Samsung license revenue) already on file; the Oct 2026 Micron $600M license settlement is also already captured. CEO has hinted at a possible SK Hynix licensing deal but nothing has been announced. Quiet pass.",
+  "notes": "Micron settlement details (carried forward for context): Micron pays Netlist $30M/quarter from Q4 2026 through Q3 2031 (~$600M total) for a 5-year worldwide non-exclusive patent license; Micron also purchased $1M of Netlist common stock. No new dated catalyst materially changes the thesis beyond the SK hynix hint and the SC26 conference presence noted above.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -549,10 +581,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "marketCap updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

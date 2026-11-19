@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.672Z",
+  "lastResearched": "2026-11-19T21:31:29.150Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -38,7 +38,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative GAAP earnings (net losses), though company has targeted adjusted EBITDA breakeven for fiscal Q4 2026"
+      "note": "Negative GAAP earnings"
     },
     "eps": [
       {
@@ -72,15 +72,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Company has not announced a specific Q1 FY2027 report date. Based on FY2026 Q1 call timing (2026-02-02) and standard cadence, report likely early February 2027 — inference only, not a company announcement."
+      "note": "No company-announced Q1 FY2027 date found; by analogy to last year's Feb 2, 2026 Q1 FY2026 report, Q1 FY2027 likely lands early February 2027 -- inference only"
     }
   },
   "price": {
-    "last": 120.79,
+    "last": 122.59,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-06",
-    "note": "MarketChameleon-sourced figure; page also noted the stock had underperformed the broader market by -13.7% over the prior two weeks. A separate, differently-dated Nov 4 preview cited $140.30, a ~16% discrepancy that could not be reconciled (see conflicts). No confirmed 2026-11-13 price found."
+    "asOf": "2026-11-11",
+    "source": "FinancialContent (NASDAQ delayed quote)",
+    "note": "Most recent reliably-dated figure found. Undated snippets this pass show the stock around $110-120, consistent with a post-earnings pullback, but could not be pinned to a specific date; see conflicts."
   },
   "catalysts": [
     {
@@ -144,10 +145,24 @@
       "source": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug ; https://www.rttnews.com/3682164/twist-bioscience-twst-q3-revenue-jumps-23-as-fy2026-guidance-raised.aspx"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Post fiscal Q4/FY2026 earnings (reported 2026-11-12/13) price action could not be precisely dated: snapshots this pass show figures from ~$110 to ~$135 without consistent dates, versus the $122.59 (2026-11-11, pre-earnings) figure used as 'last' here."
+  ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found beyond the already-filed Q4 FY2026 results (EPS -$0.32, revenue $126.64M +27.9% YoY, Q1 FY27 guide $130-132M). Clarified next-earnings timing is an estimate, not newly confirmed.",
+  "notes": "No new catalysts dated since the existing file's last entry (fiscal Q4/FY2026 results and FY2027 guidance, already on file through 2026-11-13).",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -381,11 +396,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "pe updated",
+      "nextEarnings updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

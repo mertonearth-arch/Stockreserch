@@ -3,12 +3,12 @@
   "name": "Fossil Group, Inc.",
   "sector": "Consumer Discretionary",
   "theme": "Consumer Apparel & Retail",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.638Z",
+  "lastResearched": "2026-11-19T21:31:29.124Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -19,7 +19,7 @@
       "value": 390310000,
       "asOf": "2026-10-26",
       "source": "Massive.com",
-      "note": "Based on a $6.53 price pre-dating the Nov 10 earnings-driven move to $9.97 already on file; market cap is understated versus the current price"
+      "note": "Based on a $6.53 pre-earnings price; stale versus the current ~$9.97 price"
     },
     "float": {
       "value": null,
@@ -47,7 +47,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company returned to a single quarter of GAAP profit (Q3 2026) after a history of losses; trailing twelve-month earnings still likely net-loss territory, so trailing P/E is not meaningful without a verified TTM EPS figure, which was not located this pass"
+      "note": "Returned to a single quarter of GAAP profit (Q3 2026) after a history of losses; TTM EPS not verified, so trailing P/E not meaningful"
     },
     "eps": [
       {
@@ -82,13 +82,14 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 0.4,
-      "note": "Revenue roughly flat YoY ($271.2M vs $270.2M); the real story is the swing to GAAP profitability ($11.7M net income vs a $39.9M net loss a year earlier). Company disclosed ~$10M of wholesale shipments pulled forward from Q4 into Q3, flattering the beat."
+      "note": "Revenue roughly flat YoY ($271.2M vs $270.2M); the real story is the swing to GAAP profitability"
     }
   },
   "price": {
     "last": 9.97,
     "asOf": "2026-11-12",
-    "source": "investing.com"
+    "source": "investing.com",
+    "note": "Confirmed again this pass via a separate investing.com snapshot at the same $9.97 level on 2026-11-12."
   },
   "catalysts": [
     {
@@ -121,6 +122,13 @@
     },
     {
       "date": "2026-11-10",
+      "type": "partnership",
+      "headline": "Fossil Group announced a five-year extension of its global licensing agreement with Diesel, running through 2032, continuing a partnership of more than 25 years",
+      "impact": "",
+      "source": "https://fashionunited.com/news/fashion/fossil-group-and-diesel-renew-global-licensing-agreement-until-2032/2026111075668"
+    },
+    {
+      "date": "2026-11-10",
       "type": "earnings",
       "headline": "Fossil Group reported Q3 2026 results: net income of $11.7M ($0.19/diluted share, adjusted $0.23) vs a net loss of $39.9M (-$0.76/share) a year earlier; revenue ~$271.2M, beating a ~$247.2M consensus (one other aggregator cites ~$276M — see conflicts); raised full-year 2026 guidance to $980M-$990M in sales and 5.5%-6.5% adjusted operating margin",
       "impact": "Return to GAAP profitability after a string of losses; ~$10M of wholesale shipments were pulled forward from Q4 into Q3, which flatters the quarter somewhat",
@@ -150,12 +158,26 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 revenue: ~$271.2M (fashionunited/consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, which conflicts outright with the company-reported $11.7M net income and is treated as likely erroneous but recorded here rather than silently discarded.",
-    "Short interest: Massive.com shows 5.66M shares short as of 2026-09-30 (7.0 days to cover) vs Equibles showing 7.4M shares / 12.5% of float / 10.9 days to cover as of 2026-10-01 — different settlement dates, not reconciled.",
-    "Market cap/shares outstanding snapshot ($390.31M / 59.14M shares, 2026-10-26) predates the Nov 10 earnings pop to $9.97 already on file as the current price; treat the market cap figure as stale."
+    "Q3 2026 revenue: ~$271.2M (consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, which conflicts outright with the company-reported $11.7M net income.",
+    "Short interest: Massive.com shows 5.66M shares short as of 2026-09-30 (7.0 days to cover) vs Equibles showing 7.4M shares/12.5% of float/10.9 days to cover as of 2026-10-01.",
+    "Market cap/shares outstanding snapshot ($390.31M/59.14M shares, 2026-10-26) predates the Nov 10 earnings pop to $9.97; treat as stale."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -257,20 +279,16 @@
       "from": "daily"
     }
   ],
-  "notes": "Q3 2026 actual results now confirmed from a primary-adjacent source (company turnaround coverage), resolving the prior pass's 'unverified third-party figures' placeholder.",
+  "notes": "New since last pass: confirmed a five-year Diesel global licensing extension (through 2032) announced alongside the Nov 10 Q3 2026 earnings beat. No new price data found beyond the Nov 12 level already on file.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "revenue updated",
       "growth updated",
       "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "conflicts updated"
     ],
     "tradingDay": true

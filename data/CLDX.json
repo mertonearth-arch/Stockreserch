@@ -3,24 +3,25 @@
   "name": "Celldex Therapeutics, Inc.",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.652Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.136Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "conflicting/undated figures — see conflicts"
+      "note": "conflicting figures found this pass: Yahoo $2.796B (intraday) vs Motley Fool $3.00B (undated, publicly-traded shares only) — not reconciled, see conflicts"
     },
     "float": {
       "value": null,
       "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 78492070,
+      "asOf": "undated (recent)",
+      "source": "TipRanks"
     },
     "shortInterest": {
       "value": null,
@@ -29,7 +30,7 @@
     "cash": {
       "value": 650300000,
       "asOf": "2026-09-30",
-      "source": "Celldex Q3 2026 results (biospace.com/capital.com); figure is cash, cash equivalents and marketable securities combined, guided to fund planned operations through 2028"
+      "source": "Celldex Q3 2026 results (biospace.com/capital.com); funds operations through 2028"
     },
     "debt": {
       "value": null,
@@ -44,9 +45,9 @@
     "eps": [
       {
         "period": "Q3 2026",
-        "value": null,
+        "value": -0.96,
         "basis": "GAAP",
-        "note": "only aggregate net loss figures found, not per-share; net loss widened 13% YoY to $75.56M per one source (conflicts with a $67M figure from another source)"
+        "note": "diluted; beat the -$1.02 consensus estimate"
       }
     ],
     "revenue": [],
@@ -59,14 +60,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "no confirmed Q4/FY2026 report date found"
+      "note": "no confirmed Q4/FY2026 report date found; stale aggregator pages variously list Aug 6, 2026 or Nov 9, 2026, both already passed"
     }
   },
   "price": {
     "last": 30.15,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-10-27"
+    "asOf": "2026-10-27",
+    "source": "Benzinga (unchanged from last pass)",
+    "note": "two undated snapshots ($27.87 and $28.57) were found this pass but could not be dated, so the prior Oct 27 anchor is retained"
   },
   "catalysts": [
     {
@@ -148,13 +151,29 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 report date: November 5, 2026 (biospace.com/finviz.com) vs November 10, 2026 (GuruFocus) — not reconciled.",
-    "Q3 2026 net loss: $75.56M, +13% YoY (capital.com) vs $67M widened (itiger.com) — not reconciled.",
-    "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs $35.61 (undated) vs $28.25 with a $2.2B market cap (undated) — no confirmed 2026-11-13 close found."
+    "Market cap: Yahoo $2.796B (intraday, undated) vs Motley Fool $3.00B (undated) — not reconciled.",
+    "Q3 2026 report date: November 5, 2026 (biospace.com/finviz.com) vs November 10, 2026 (GuruFocus) — carried forward, not reconciled.",
+    "Q3 2026 net loss: $75.56M, +13% YoY (capital.com) vs $67M widened (itiger.com) — carried forward, not reconciled.",
+    "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs two new undated snapshots ($27.87, $28.57) vs $35.61 (undated) — no confirmed November 2026 close found."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found past 2026-11-05 earnings; genuinely quiet.",
+  "notes": "No new dated catalysts found past the 2026-11-05 earnings/barzolvolimab CSU Phase 3 results already on file; genuinely quiet. Filled previously-null sharesOutstanding (78.49M) and EPS (-$0.96 GAAP diluted, Q3 2026) this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -328,10 +347,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

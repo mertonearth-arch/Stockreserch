@@ -1,23 +1,24 @@
 {
   "ticker": "LWLG",
   "name": "Lightwave Logic, Inc.",
-  "sector": "Technology / Advanced Materials",
+  "sector": "Materials / Technology",
   "theme": "Advanced Materials",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.665Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.143Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 results/business update call was scheduled for 2026-11-10, but the actual reported figures were not located in sources reviewed as of this report's date (2026-11-13)"
+      "note": "Q3 2026 results already released; Q4/FY2026 date not found"
     },
     "marketCap": {
-      "value": null,
-      "note": "Not established in sources reviewed"
+      "value": 463270000,
+      "asOf": "2026-11-16",
+      "source": "CoinGlass"
     },
     "sharesOutstanding": {
       "value": null,
@@ -26,8 +27,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Development-stage/pre-commercial company with recurring net losses; no meaningful trailing P/E",
-      "asOf": "2026-11-13"
+      "note": "Development-stage/pre-commercial company with recurring net losses"
     },
     "float": {
       "value": null,
@@ -45,14 +45,14 @@
     },
     "debt": {
       "value": null,
-      "note": "No debt identified; company uses an at-the-market equity sales agreement (~$51.4M) as a funding/dilution source, not debt"
+      "note": "No debt identified; company uses an ATM equity program (~$51.4M) rather than debt"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss widened 41% YoY to $7.2M; EPS not given in the source reviewed, so left null rather than computed from an unconfirmed share count"
+        "note": "Net loss widened 41% YoY to $7.2M; EPS not given in sources reviewed"
       }
     ],
     "revenue": [
@@ -66,15 +66,16 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 29,
-      "note": "Pre-commercial company; revenue is limited to material supply/NRE/prototype activity"
+      "note": "Pre-commercial company; revenue limited to material supply/NRE/prototype activity"
     }
   },
   "price": {
-    "last": 4.9383,
-    "changePct": null,
+    "last": 3,
+    "changePct": -6.39,
     "rvol": null,
-    "asOf": "2026-11-09",
-    "note": "A separate source shows $4.65 as of 2026-11-04. Both figures are far below a $18.22 close reported for 2026-05-13 (+14.38% that day) — see conflicts."
+    "asOf": "2026-11-16",
+    "source": "CoinGlass",
+    "note": "Previous close $3.21; intraday range $2.88-$3.07"
   },
   "catalysts": [
     {
@@ -83,6 +84,13 @@
       "headline": "Lightwave Logic fell on reports that foundry integration delays pushed expected volume production back to 2028",
       "impact": "-13% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "guidance",
+      "headline": "On the Q3 2026 earnings call, management indicated it does not expect significant high-volume production revenue until 2028 at the earliest, a further slip from prior 2027 guidance; nine-month revenue reported at $99,418.",
+      "impact": "contributed to subsequent share-price decline into mid-November",
+      "source": "https://www.panabee.com/news/lightwave-logic-earnings-q3-2026"
     },
     {
       "date": "2026-11-10",
@@ -98,9 +106,28 @@
       "source": "https://www.newswire.com/news/lightwave-logic-inc-announces-timing-of-third-quarter-2026-financial-results"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Price fell from $4.9383 (2026-11-09, on file) to $3.00 (2026-11-16) — a ~39% decline over the week, consistent with the foundry-integration-delay catalyst already on file dated 2026-11-12."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -180,12 +207,21 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst since the Nov 12 foundry-delay report and the Nov 10 Q3 2026 results, both already on file. Quiet pass.",
+  "notes": "High-volume production timeline guidance has slipped further (now 2028 vs. prior 2027 commentary), compounding the Nov 12 foundry-delay news already on file.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

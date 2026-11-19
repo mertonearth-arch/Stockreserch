@@ -7,13 +7,13 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.660Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.138Z",
   "fundamentals": {
     "marketCap": {
       "value": 3660000000,
       "asOf": "2026-11-13",
-      "source": "quantisnow.com"
+      "source": "quantisnow.com (carried forward)"
     },
     "float": {
       "value": null,
@@ -26,28 +26,28 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found for a recent date; an older item was dated January 2025 and excluded as stale"
+      "note": "Not found for a recent date"
     },
     "cash": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "debt": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Pre-earnings (early November) commentary cited the stock trading above 60x forward earnings after a 93% YTD run, per TIKR; not re-verified post-Q3-earnings, so not used as a current figure",
-      "asOf": "~2026-11-03"
+      "note": "No reliable current multiple found; only stale 2024-2025 forward-PE figures (70x-141x) and a pre-earnings 'above 60x forward' commentary located, none current.",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 0.1,
         "basis": "GAAP",
-        "note": "Beat consensus estimate of $0.07 by $0.03"
+        "note": "Beat consensus $0.07"
       }
     ],
     "revenue": [
@@ -65,14 +65,15 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 2026 / full-year 2027 outlook report expected 'around late February' 2027 per Motley Fool commentary; no specific date announced"
+      "note": "Q4 2026/FY2027 outlook report expected 'around late February' 2027 per commentary; no specific confirmed date"
     }
   },
   "price": {
-    "last": 22.05,
-    "changePct": -2.78,
+    "last": 21.95,
+    "changePct": null,
     "asOf": "2026-11-13",
-    "source": "quantisnow.com (At close, Nov 13)"
+    "source": "Benzinga (7:47pm EST)",
+    "note": "No Nov 19 quote found."
   },
   "catalysts": [
     {
@@ -158,12 +159,28 @@
     }
   ],
   "conflicts": [
-    "Price/market cap: PitchBook $13.42 / $2.23B (2026-09-25) vs MarketBeat $14.51 / $2.41B (2026-05-06) vs an undated Investing.com page showing $13.52 price but a $3.29B market cap (internally inconsistent with ~166M shares) vs an undated Robinhood snapshot of $16.20 / $2.73B",
-    "Characterization of the Jordan supply issue differs: Earnings Whispers frames it as a 'Jordan import restriction,' while Panabee specifically identifies it as a June 2026 Withhold Release Order against a manufacturing partner"
+    "Price (same date, 2026-11-13): quantisnow.com $22.05 vs Benzinga $21.95"
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Nov 5 Q3 2026 earnings already on file. Price snapshots this pass (Benzinga $21.95 as of Nov 13; Investing.com $19.82 undated) are close to or below the $22.05 already on file and not clearly fresher — not used to overwrite. Quiet pass.",
+  "notes": "No new catalysts found since the Nov 5 Q3 2026 earnings beat-and-raise already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -408,10 +425,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

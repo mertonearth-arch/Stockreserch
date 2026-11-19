@@ -8,52 +8,51 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.668Z",
+  "lastResearched": "2026-11-19T21:31:29.146Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": "2026-11-18",
-      "note": "Previous $19.36M figure was paired with the incorrect ~4.8M share count; not recomputed this pass since no current share price was established for QNRX."
+      "note": "Not recomputed — no confirmed current price to pair with the 70,294,615-share count."
     },
     "float": null,
     "sharesOutstanding": {
       "value": 70294615,
       "asOf": "2026-08-12",
-      "source": "Quoin Pharmaceuticals Form 10-Q cover page (SEC EDGAR)",
-      "note": "Ordinary shares outstanding. Company also had 2,008,417 ADSs outstanding at that date; each ADS represents 35 ordinary shares (ratio effective since 2025-04-09, a 1-for-35 reverse ADS split — ordinary shares themselves were not affected). Resolves the prior-pass conflict: the ~4.80M stockanalysis.com figure and the ~168M third-party figure were both apparently confused readings of the ADS count / ordinary-share count; neither is used."
+      "source": "Quoin 10-Q cover page (SEC EDGAR)",
+      "note": "Ordinary shares; 1 ADS = 35 ordinary shares since the 2025-04-09 1-for-35 reverse ADS split."
     },
     "shortInterest": null,
     "cash": {
       "value": 33200000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 corporate update (via finviz/panabee)"
+      "source": "company Q3 2026 corporate update"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
       "note": "pre-revenue; negative earnings",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q3 2025",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss ~$3.9M reported; per-share figure still not located in a primary source"
+        "note": "Net loss ~$3.9M; per-share figure not located"
       },
       {
         "period": "Q3 2026",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss ~$4.9M reported; a pre-earnings consensus estimate of -$1.88/share was found, but no actual per-share figure was located in a primary source this pass"
+        "note": "Net loss ~$4.9M; per-share figure not located"
       }
     ],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
       "pct": null,
-      "note": "pre-revenue clinical-stage company — no product sales"
+      "note": "pre-revenue clinical-stage company"
     },
     "nextEarnings": {
       "date": null,
@@ -62,9 +61,8 @@
   },
   "price": {
     "last": null,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-13"
+    "asOf": "2026-11-19",
+    "note": "No reliable current-dated price located. Digrin shows an October 2026 MONTHLY average of $3.99 (down from Sept's $4.56); Snowball shows an undated $4.29. Neither is a confirmed single-day close for mid/late November."
   },
   "catalysts": [
     {
@@ -182,12 +180,28 @@
     }
   ],
   "conflicts": [
-    "Cash runway: company states into 2028; a third-party burn-rate estimate ($1.5M/month) instead implies into late 2027",
-    "Report-date confusion: company's own announcement named Nov 5, 2026 for Q3 results; a separate Earnings Whispers listing instead showed Nov 13, 2026"
+    "Cash runway: company states into 2028; a third-party burn-rate estimate implies into late 2027.",
+    "Price/market cap still unresolved: Digrin Oct-2026 monthly avg $3.99 vs Snowball undated $4.29 vs Yahoo market cap $18.50M (as of 2026-11-04) which doesn't reconcile with either price against the 70.29M share count."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass. Resolved the shares-outstanding conflict via Quoin's own SEC 10-Q cover page (70,294,615 ordinary shares; 1 ADS = 35 ordinary shares). Market cap is now null pending a current price, rather than carry forward a figure based on the wrong share count.",
+  "notes": "No new dated catalyst found this pass. Price remains unresolved; carried forward as null rather than guess.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -515,13 +529,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
       "eps updated",
+      "growth updated",
       "marketCap updated",
       "sharesOutstanding updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,40 +8,36 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.667Z",
+  "lastResearched": "2026-11-19T21:31:29.145Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Conflicting figures (~$89.1M vs ~$12M depending on source/price basis used); see conflicts"
+      "note": "Conflicting figures across sources ($44.6M-$89.1M depending on share-count/price basis); not resolved this pass."
     },
     "float": {
       "value": 54400000,
       "asOf": "2026 (undated)",
-      "source": "stockanalysis.com (via search snippet)"
+      "source": "stockanalysis.com"
     },
     "sharesOutstanding": {
       "value": 55815653,
       "asOf": "2026 (undated)",
-      "source": "stockanalysis.com / equibles.com (via search snippets)"
+      "source": "stockanalysis.com / equibles.com"
     },
     "shortInterest": {
       "value": null,
-      "note": "Conflicting figures ranging ~3.3% to ~11.4% of float/shares across sources; see conflicts"
+      "note": "Conflicting figures ~3.3%-11.4% of float/shares across sources"
     },
     "cash": {
       "value": 15200000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 release via finviz/biopharmawatch/quiverquant",
-      "note": "Up from $5.6M at 2026-06-30, reflecting the Nant Capital PIPE closing in September 2026."
+      "source": "company Q3 2026 release"
     },
-    "debt": {
-      "value": null,
-      "note": "Not disclosed in sources reviewed"
-    },
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; pre-revenue clinical-stage company",
+      "note": "pre-revenue clinical-stage company; negative earnings",
       "asOf": "2026-11-17"
     },
     "eps": [
@@ -58,23 +54,22 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash position (quarter-over-quarter change)",
-      "period": "2025 YE to 2026-06-30",
+      "metric": "cash position change",
+      "period": "2025 YE to 2026-09-30",
       "pct": null,
-      "note": "Pre-revenue clinical-stage company; cash fell from $27M at 2025 year-end to $5.6M at 2026-06-30, triggering a going-concern warning."
+      "note": "Pre-revenue; cash rose to $15.2M at Q3 2026-end from $5.6M at 2026-06-30 after the Nant Capital PIPE."
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "Q3 2026 already reported 2026-11-13; FY2026/Q4 date not yet announced"
+      "confirmed": false
     }
   },
   "price": {
-    "last": 1.23,
-    "changePct": 5.1,
-    "rvol": null,
-    "asOf": "2026-11-06",
-    "note": "Most recent figure that appeared well-sourced (MarketChameleon). Other sources gave radically different, much lower prices (~$0.22-$0.24) for undated snapshots; could not reconcile or confirm a 2026-11-13 close (see conflicts)."
+    "last": 0.96,
+    "changePct": 4.15,
+    "asOf": "2026-11-17",
+    "source": "Wedbush delayed quote (via search)",
+    "note": "Newer dated reading than the prior $1.23 (MarketChameleon, 2026-11-06); businessquant showed $1.02 on 2026-11-11 — price has been declining through the month."
   },
   "catalysts": [
     {
@@ -239,13 +234,31 @@
     }
   ],
   "conflicts": [
-    "Share price: $1.23 (MarketChameleon, 2026-11-06, +5.1%) vs $1.44 (Merlin Trader, 2026-10-30) vs $0.23 (Earnings Whispers, undated) vs $0.22 (Stock Taper, undated) vs $0.24 (RTTNews, undated) — roughly 5-6x discrepancy between sources that could not be reconciled; flagged as a possible reverse-split/stale-cache discrepancy, though no split could be confirmed or ratio determined.",
-    "Short interest: ~3.31% of shares outstanding (stockanalysis.com) vs ~11.4% of float / 6.4M shares (equibles.com) vs ~1.6-1.9M shares / ~4.3% of float (Benzinga, Curved Trading, mid-2026).",
-    "Market cap: Massive.com $80.45M (2026-10-26, implying 105.01M shares) vs Equibles $44.61M (early Oct 2026, 55.97M shares) vs StockAnalysis $66.14M (undated) — share counts differ by nearly 2x across sources and none independently confirmed this pass"
+    "Share price: $0.96 (Wedbush, 2026-11-17, +4.15%) vs $1.02 (businessquant, 2026-11-11) vs $1.23 (MarketChameleon, 2026-11-06) vs much lower undated quotes ($0.22-$0.24) seen in earlier passes — a declining-price trend this pass, not reconciled to a single number.",
+    "Market cap: businessquant implies ~$57.6M at $1.02/share (2026-11-11) vs other aggregator figures $44.6M-$89.1M — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass beyond the Nov 13 Q3 2026 earnings already on file. Price/market-cap/short-interest conflicts remain unresolved; a new, additional conflicting market-cap reading was found and added.",
+  "notes": "No new dated catalyst found. Price trend continues downward through Nov; still unresolved against conflicting aggregator snapshots.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -553,10 +566,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

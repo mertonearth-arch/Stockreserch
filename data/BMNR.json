@@ -3,41 +3,41 @@
   "name": "Bitmine Immersion Technologies, Inc.",
   "sector": "Financials",
   "theme": "Crypto Treasury & Miners",
-  "themeLabel": "hype sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.650Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.134Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Could not reconcile conflicting figures; see conflicts"
+      "note": "could not reconcile conflicting figures"
     },
     "float": {
       "value": null,
-      "note": "Not disclosed"
+      "note": "not disclosed"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Conflicting figures found (see conflicts); not established with confidence"
+      "note": "conflicting figures; not established with confidence"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "not found in available sources this pass"
     },
     "cash": {
       "value": null,
-      "note": "Company does not report a simple 'cash' line comparable to an operating company; see notes for its combined treasury figure instead, to avoid conflating it with GAAP cash"
+      "note": "company does not report a simple GAAP 'cash' line comparable to an operating company; see its combined treasury figure in growth/notes instead"
     },
     "debt": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "not found in available sources this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not a meaningful metric for this crypto-treasury vehicle; value tracks ETH holdings/NAV rather than operating earnings"
+      "note": "not a meaningful metric for this crypto-treasury vehicle; value tracks ETH holdings/NAV rather than operating earnings"
     },
     "eps": [],
     "revenue": [],
@@ -45,19 +45,20 @@
       "metric": "Ethereum (ETH) treasury holdings",
       "period": "as of 2026-11-15",
       "pct": null,
-      "note": "6.08 million ETH held (~4.97% of ~122.2M-token ETH supply), ~5.23M ETH staked; total crypto + cash + marketable securities holdings $11.8B at an ETH price of $1,823/token. The dollar total has fallen sharply from $14.3B (Nov 8, ETH at $2,234) and $14.5B (Nov 1) despite a rising token count, tracking a falling ETH spot price rather than any change in holdings strategy."
+      "note": "unchanged from last pass: 6.08 million ETH held (~4.97% of ETH supply); total crypto+cash+marketable securities holdings $11.8B at ETH ~$1,823/token, down sharply from $14.3B (Nov 8) and $14.5B (Nov 1) on falling ETH spot price"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Company issues frequent standalone ETH-holdings press releases (e.g., 2026-11-08) rather than a clearly identified quarterly earnings date in the sources found"
+      "note": "company issues frequent standalone ETH-holdings press releases rather than a clearly identified quarterly earnings date"
     }
   },
   "price": {
     "last": 19.24,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-11",
-    "source": "aggregator snippet (exact publisher unclear; most recent dated figure found)"
+    "source": "unchanged from last pass; no reliably dated figure newer than 2026-11-11 found this pass (Investing.com $21.57 as of 2026-10-19 is older, not newer)"
   },
   "catalysts": [
     {
@@ -164,8 +165,26 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new ETH-holdings disclosure found past the 2026-11-15 update already on file; genuinely quiet.",
+  "notes": "No new ETH-holdings disclosure or price point found past the 2026-11-15/2026-11-11 figures already on file; genuinely quiet this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -460,10 +479,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated"
+    ],
     "tradingDay": true
   }
 }

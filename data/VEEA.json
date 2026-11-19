@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.672Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.151Z",
   "fundamentals": {
     "marketCap": {
       "value": 13970000,
@@ -22,37 +22,36 @@
     "sharesOutstanding": {
       "value": 3110000,
       "asOf": "~2026-10/11 2026 (post reverse split)",
-      "source": "Motley Fool / Equibles",
-      "note": "Pre-split (pre-2026-08-28) figures of ~50.4M shares are stale and not comparable — see notes"
+      "source": "Motley Fool / Equibles"
     },
     "shortInterest": {
       "value": null,
       "note": "Not established"
     },
     "cash": {
-      "value": 1594473,
-      "asOf": "2026-03-31 (Q1 2026 10-Q)",
-      "source": "SEC EDGAR 10-Q",
-      "note": "Stale (over 7 months old); Q3 2026 10-Q was not located in this research pass"
+      "value": 1600000,
+      "asOf": "~2026-11 (secondary aggregator commentary on Q3 2026 10-Q)",
+      "source": "Panabee/aggregator",
+      "note": "Supersedes the stale $1,594,473 (2026-03-31) figure previously on file"
     },
     "debt": {
-      "value": 10550000,
-      "asOf": "2026-06-30 (Q2 2026, per secondary aggregator reference)",
-      "source": "Secondary aggregator citing a 10-Q filed 2026-08-12",
-      "note": "Long-term debt including current maturities; not independently verified against the primary filing"
+      "value": 17100000,
+      "asOf": "~2026-11 (secondary aggregator commentary on Q3 2026 10-Q)",
+      "source": "Panabee/aggregator",
+      "note": "Conflicts with the $10.55M figure previously on file (asOf 2026-06-30); see conflicts"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Early-commercial-stage company with net losses; no meaningful trailing P/E",
-      "asOf": "2026-11-13"
+      "note": "Early-commercial-stage company with net losses",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
         "period": "Q1 2026",
         "value": -0.09,
         "basis": "GAAP",
-        "source": "roic.ai (via WebSearch snippet)",
+        "source": "roic.ai",
         "note": "Not independently confirmed against the primary 10-Q"
       }
     ],
@@ -80,24 +79,31 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "FY2025",
-      "pct": 56.62,
-      "note": "Most recent period with a confirmable YoY growth figure; Q3 2026 revenue/growth still not located"
+      "period": "Q3 2026",
+      "pct": -50.2,
+      "note": "Quarterly revenue fell YoY ($72,135 vs $144,926) even as nine-month revenue rose to $428,773 from $232,094"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "StockAnalysis listings disagree, showing either 2026-11-13 or 2026-11-17"
+      "note": "Q3 2026 10-Q already filed 2026-11-12; next report (Q4/FY2026) date not located"
     }
   },
   "price": {
-    "last": 4.49,
-    "changePct": null,
+    "last": 4.3,
+    "changePct": -10.8,
     "rvol": null,
-    "asOf": "2026-11-05",
-    "note": "A separate source shows a close of $4.30 on 2026-11-02, down 10.8% that day. No quote specifically for 2026-11-11 through 2026-11-14 was located."
+    "asOf": "2026-11-02",
+    "note": "No quote newer than 2026-11-02 located despite searching."
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "Filed Q3 2026 10-Q (quarter ended 2026-09-30): net loss widened to $3,659,587 vs net income of $1,375,294 in Q3 2025; quarterly revenue fell to $72,135 from $144,926 YoY; nine-month revenue rose to $428,773 from $232,094; stockholders' equity reported at $5,847,894 vs a deficit at 2025-12-31",
+      "impact": null,
+      "source": "https://www.panabee.com/news/veea-earnings-q3-2026 ; https://kalkine.com/news/announcements/veea-inc-reports-q3-2026-net-loss-of-366m"
+    },
     {
       "date": "2026-11-02",
       "type": "price move",
@@ -189,15 +195,31 @@
     }
   ],
   "conflicts": [
-    "Market cap/share-count consistency: Motley Fool shows a $13.97M market cap at $4.49 (2026-11-05) implying ~3.11M shares; Equibles shows a $9.58M market cap at $4.87 (2026-10-06), also citing ~3.11M shares — 3.11M x $4.87 would imply ~$15.1M, not $9.58M, so the two sources' market-cap and share-count figures are not internally consistent with each other.",
-    "Older sources (Google Finance, Equibles) show ~50.4M shares outstanding and a price near $0.34 — these predate the 2026-08-28 1-for-20 reverse split and are not comparable to current figures (flagged per the reverse-split guidance rather than treated as a live conflict).",
-    "Assigned theme fit: 'Government IT & Defense Services' was not corroborated in this research pass. Available sources describe Veea as a secure edge-computing/connectivity/AI company serving enterprise, telecom, and public-sector customers generally (e.g., a Telarus technology-services distribution agreement, a TROLLEE retail-store deployment), but no specific defense or government contract award was located for the Nov 2026 window or the prior ~6 months.",
-    "Next earnings date: 2026-11-13 vs 2026-11-17 given by different StockAnalysis listings — still unresolved this pass.",
-    "A separate Marketchameleon snapshot found this pass gives a $13.38M market cap (vs the $13.97M on file at the same 2026-11-05 asOf date) — a minor variant, not reconciled."
+    "Debt: $17.1M (secondary aggregator, ~Nov 2026) vs $10,550,000 previously on file (asOf 2026-06-30) -- not reconciled.",
+    "Carried from prior pass: assigned theme 'Government IT & Defense Services' is not corroborated by sources reviewed, which describe Veea as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers generally, not a defense-specific contractor."
   ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found. Checked capital structure: Veea is an operating company (edge-computing hardware/connectivity vendor), not a leveraged ETF or warrant/unit issue, so standing rule 6 does not apply. Existing items (Nasdaq compliance restored, $750M connected-health combination proposal, TROLLEE deployment deal) already on file remain most recent; nothing new confirmed this pass.",
+  "notes": "New catalyst this pass: Q3 2026 10-Q (filed 2026-11-12) showing a widened net loss and a YoY revenue decline despite nine-month revenue growth.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "move -10.8%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -420,10 +442,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
+      "move -10.8%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

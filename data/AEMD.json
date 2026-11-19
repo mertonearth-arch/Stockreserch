@@ -3,12 +3,12 @@
   "name": "Aethlon Medical, Inc.",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "distressed",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.646Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.132Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -20,7 +20,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "not established; undated secondary source mentions a pre-funded/common warrant overhang of ~2.2M shares, unconfirmed"
+      "note": "Still not established with confidence. This pass found a company 8-K estimate of only ~649,914 shares outstanding immediately after the Aug 2026 1-for-5 reverse split, but that figure is now stale given subsequent dilution/merger-related issuances and is not used as current."
     },
     "shortInterest": {
       "value": null,
@@ -29,7 +29,7 @@
     "cash": {
       "value": 5000000,
       "asOf": "2026-03-31",
-      "source": "Aethlon Medical press release (aethlonmedical.com), FY2026 year-end results"
+      "source": "Aethlon Medical FY2026 year-end press release (unchanged)"
     },
     "debt": {
       "value": null,
@@ -38,8 +38,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (pre-revenue clinical-stage biotech)",
-      "asOf": "2026-11-13"
+      "note": "negative earnings (pre-revenue clinical-stage biotech)"
     },
     "eps": [
       {
@@ -52,7 +51,7 @@
         "period": "Q2 FY2027 (ended 2026-09-30)",
         "value": null,
         "basis": "GAAP",
-        "note": "report not confirmed as released as of 2026-11-13"
+        "note": "reported 2026-11-12 per catalysts on file; per-share figure still not retrieved"
       }
     ],
     "revenue": [],
@@ -60,19 +59,20 @@
       "metric": "operating expense (cash burn)",
       "period": "Q1 FY2027 (ended 2026-06-30)",
       "pct": -11.9,
-      "note": "pre-revenue; opex down 11.9% YoY was the only disclosed growth-adjacent metric found"
+      "note": "unchanged; pre-revenue"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q2 FY2027 (quarter ended 2026-09-30) 10-Q due ~November 2026; exact date/whether already released not confirmed"
+      "note": "Q2 FY2027 (quarter ended 2026-09-30) was already reported 2026-11-12 per catalysts on file; next would be Q3 FY2027, ~Feb 2027, not yet dated."
     }
   },
   "price": {
     "last": 5.55,
     "changePct": 1.1,
     "rvol": 0.3,
-    "asOf": "2026-11-10"
+    "asOf": "2026-11-10",
+    "source": "marketchameleon.com (corroborates figure already on file)"
   },
   "catalysts": [
     {
@@ -206,13 +206,28 @@
     }
   ],
   "conflicts": [
-    "Reverse split: one analysis cites a 1-for-5 reverse split in July 2026; exact date and ratio source not independently verified.",
-    "Cash: $5.0M as of 2026-03-31 (company press release, FY2026 year-end) vs $4.9M cited in an undated secondary analysis (panabee.com) that may refer to a different quarter.",
-    "Expected Nov 11, 2026 earnings consensus EPS of -$4.05 (one source) looks inconsistent with recent quarterly loss magnitudes; unconfirmed and possibly erroneous."
+    "Reverse split confirmed this pass as 1-for-5, but the effective date is still disputed between sources: company characterization cites 2026-07-31 vs a Nasdaq Trader notice stating 2026-08-04. This is the third reverse split in roughly 14 months (1-for-8 June 2025; 1-for-10 October 2025; 1-for-5 Aug 2026), consistent with the historically volatile/declining price pattern already flagged on file.",
+    "A post-split 8-K estimate of ~649,914 shares outstanding (effective date of the Aug 2026 split) conflicts with the scale implied by the pending North Immunology merger/PIPE share issuance; not used as a current figure."
   ],
   "pendingFilings": [],
-  "notes": "No news found later than the Nov 12 Q2 FY2027 results already on file. North Immunology reverse-merger (announced 2026-09-17, to trade as NRTX) status unchanged in sources reviewed — no closing date or shareholder-vote news found this pass. Quiet pass.",
+  "notes": "No new dated catalysts since the 2026-11-12 Q2 FY2027 report (already on file). This pass mainly resolved more detail on the reverse-split history without pinning a definitive current share count.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -548,10 +563,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

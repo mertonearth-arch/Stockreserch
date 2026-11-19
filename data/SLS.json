@@ -3,16 +3,16 @@
   "name": "SELLAS Life Sciences Group, Inc.",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "hot sector",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.637Z",
+  "lastResearched": "2026-11-19T21:31:29.130Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "No verified market cap found; a ~$2.2B figure circulating online is an unsourced calculation and is not used here"
+      "note": "Still no verified market cap; at the new price (~$19.84) and the ~196.6M share count on file, an implied figure would be roughly $3.9B, but this is a calculation from unconfirmed inputs (share count is from June 2026, pre-offering) and is NOT used as a reported figure."
     },
     "float": {
       "value": null,
@@ -21,16 +21,17 @@
     "sharesOutstanding": {
       "value": 196600000,
       "asOf": "2026-06-02",
-      "source": "SEC filing (reported via Stocktwits)"
+      "source": "SEC filing (via Stocktwits)",
+      "note": "Pre-dates the newly announced $150M stock offering (2026-11-17), which will increase the share count once priced/closed."
     },
     "shortInterest": {
       "value": null,
-      "note": "Reported in a range of ~27%-33% of float across 2026 snapshots with no single reconciled current figure; see conflicts"
+      "note": "Unchanged conflict: reported in a ~27%-33% of float range across 2026 snapshots, not reconciled."
     },
     "cash": {
       "value": 134700000,
       "asOf": "2026-09-30",
-      "source": "SELLAS Q3 2026 earnings release (via IR site / finviz / itiger coverage)"
+      "source": "SELLAS Q3 2026 earnings release"
     },
     "debt": {
       "value": null,
@@ -58,15 +59,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 has now been reported (2026-11-12) — resolves the batch of conflicting unconfirmed Q3 date estimates on file (Benzinga 11-24, Earnings Whispers 11-10, The Right Trader 11-11). No Q4/FY2026 date located yet."
+      "note": "Q3 2026 already reported (2026-11-12); no Q4/FY2026 date located yet."
     }
   },
   "price": {
-    "last": 7.995,
-    "changePct": null,
+    "last": 19.84,
+    "changePct": 165.6,
     "rvol": null,
-    "asOf": "2026-11-05",
-    "note": "Last update timestamp 7:57pm ET per Benzinga. No confirmed closing price for 2026-11-13; see conflicts for the week's other reported prices."
+    "asOf": "2026-11-17",
+    "source": "gurufocus.com / seekingalpha.com (aggregators reporting the session's move)",
+    "note": "Prior close $7.47. Premarket moves reported even larger (200%+). No single primary-exchange closing print independently confirmed, but two independent aggregators concur on the ~166% figure and the $19.84 level."
   },
   "catalysts": [
     {
@@ -75,6 +77,18 @@
       "headline": "SELLAS to present SLS009 (tambiciclib) data at the American Society of Hematology (ASH) annual meeting",
       "impact": "Key data readout venue for SLS009 in relapsed/refractory and newly diagnosed AML",
       "source": "https://stocktwits.com/news-articles/markets/equity/sellas-to-present-sls-009-data-at-american-society-of-hematology/cNGL0poR93s"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "clinical data / regulatory",
+      "headline": "Phase 3 REGAL trial (galinpepimut-S/GPS in AML) met its primary overall-survival endpoint: median OS 24.0 months vs 14.7 months for best available treatment (HR 0.59, p=0.035), a reported 41% reduction in risk of death. SELLAS plans to meet the FDA on an accelerated filing strategy and target a BLA submission in H1 2027. Shares surged intraday from a $7.47 prior close to $19.84 (+165.6%), with premarket prints reported above +200%.",
+      "source": "ir.sellaslifesciences.com; gurufocus.com; seekingalpha.com"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "offering/dilution",
+      "headline": "Announced a proposed underwritten public offering of $150.0M of common stock (plus a 30-day underwriter option for an additional $22.5M), under the company's March 2026 Form S-3 shelf; J.P. Morgan and TD Cowen as joint book-running managers. Pricing/final terms not yet located.",
+      "source": "ir.sellaslifesciences.com"
     },
     {
       "date": "2026-11-12",
@@ -169,13 +183,33 @@
       "source": "https://ir.sellaslifesciences.com/news/News-Details/2026/SELLAS-Life-Sciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Update/default.aspx ; SEC 8-K: https://www.sec.gov/Archives/edgar/data/0001390478/000139047826000013/sls-202608118xkexhibit991.htm"
     }
   ],
-  "conflicts": [
-    "Previously-recorded next-earnings estimates (Benzinga 2026-11-24, Earnings Whispers 2026-11-10, The Right Trader 2026-11-11) were all superseded by the actual Q3 2026 report on 2026-11-12 — none of the three estimated dates matched.",
-    "Market cap: no verified figure found this pass either; a ~$2.2B figure circulating online remains an unsourced calculation and is still not used."
+  "conflicts": [],
+  "pendingFilings": [
+    {
+      "type": "424B5 / pricing of $150M offering",
+      "note": "Offering announced 2026-11-17; pricing terms not yet found as of this pass."
+    }
   ],
-  "pendingFilings": [],
-  "notes": "REGAL Phase 3 topline (overall survival, galinpepimut-S in AML) is the key pending binary catalyst — company guided to November 2026 but no results located as of this pass; next PM pass should check specifically for this readout.",
+  "notes": "Major positive catalyst this pass: REGAL Phase 3 hit statistical significance on OS, resolving the 'topline expected Nov 2026' item on file, followed immediately by a $150M capital raise. ASH 2026 SLS009 presentation (~Dec 12-15) remains upcoming and already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "move 165.6%",
+        "new filing(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -415,15 +449,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
+      "2 new catalyst(s)",
       "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
       "cash updated",
-      "conflicts updated"
+      "move 165.6%",
+      "new filing(s)",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

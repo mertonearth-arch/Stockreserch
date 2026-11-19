@@ -1,51 +1,48 @@
 {
   "ticker": "TER",
   "name": "Teradyne, Inc.",
-  "sector": "Technology / Semiconductor Capital Equipment",
+  "sector": "Technology",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.148Z",
   "fundamentals": {
     "marketCap": {
-      "value": 62300000000,
-      "asOf": "2026-10-08",
-      "source": "Google Finance (via search snapshot)"
+      "value": 36600000000,
+      "asOf": "2026-11-17",
+      "source": "derived: 156.3M shares (Google Finance/Motley Fool, 2026-10-08) x $234.18",
+      "note": "Down sharply from the file's prior $62.3B (at $398.72, 2026-10-08)."
     },
-    "float": {
-      "value": null,
-      "asOf": null,
-      "note": "Not located in sandbox search."
-    },
+    "float": null,
     "sharesOutstanding": {
       "value": 156300000,
       "asOf": "2026-10-08",
-      "source": "Google Finance / Motley Fool (via search snapshot, ~156.3-156.34M consistent across two sources)"
+      "source": "Google Finance / Motley Fool"
     },
     "shortInterest": {
       "value": 5.1,
       "asOf": "2026-08-19",
-      "source": "Equibles (% of float, ~8.0M shares, 1.9 days to cover)"
+      "source": "Equibles (% of float)"
     },
     "cash": {
       "value": 460740000,
       "asOf": "2026-09-27",
-      "source": "CSIMarket aggregator reading of the Q3 2026 10-Q (period ended 2026-09-27)",
-      "note": "Cash and cash equivalents only; the same aggregator shows cash plus short-term investments combined at $665.0M. Not independently verified against the primary 10-Q text — SEC EDGAR was unreachable from this sandbox this session."
+      "source": "CSIMarket aggregator reading of Q3 2026 10-Q",
+      "note": "unverified against primary filing"
     },
     "debt": {
       "value": 10000000,
       "asOf": "2026-09-27",
-      "source": "CSIMarket aggregator, same source as cash figure above",
-      "note": "Described as short-term debt only; the aggregator shows no long-term debt line for this period. Unverified against the primary filing; prior-quarter (2026-03-29) 10-Q had shown short-term debt of $0 and no outstanding revolver balance, so this reading was not simply carried over."
+      "source": "CSIMarket aggregator",
+      "note": "short-term debt only; unverified"
     },
     "pe": {
       "trailing": 54.7,
       "forward": null,
-      "note": "As of ~2026-10-08 snapshot (a second source showed 55.4 at a slightly different price/date)",
+      "note": "As of ~2026-10-08 snapshot at the much higher prior price; likely stale given the price decline since",
       "asOf": "2026-10-08"
     },
     "eps": [
@@ -58,8 +55,7 @@
       {
         "period": "trailing 12mo",
         "value": 7.29,
-        "basis": "GAAP",
-        "note": "per Google Finance snapshot ~2026-10-08"
+        "basis": "GAAP"
       }
     ],
     "revenue": [
@@ -76,17 +72,17 @@
       "pct": 69.8
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-02-01",
       "confirmed": false,
-      "note": "Q4 2026 report typically expected late Jan 2027; exact date not found this pass. Q4 2026 guidance: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25 (implies a 4th consecutive sequential EPS decline at midpoint per Earnings Whispers)"
+      "note": "per AAII aggregator this pass; previously only estimated as 'late Jan 2027'. Q4 2026 guidance: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25."
     }
   },
   "price": {
-    "last": null,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-13",
-    "note": "Not confirmed for 2026-11-13; see conflicts for dated snapshots found"
+    "last": 234.18,
+    "changePct": 0.98,
+    "asOf": "2026-11-17",
+    "source": "AAII (via search)",
+    "note": "Prior close cited as $231.90. Highly inconsistent readings found across the month; November range cited as high $278.01 / low $211.63, down ~14.65% MTD as of mid-Nov."
   },
   "catalysts": [
     {
@@ -153,12 +149,30 @@
     }
   ],
   "conflicts": [
-    "Post-Q3-earnings stock reaction is reported inconsistently: one source says the stock fell 7.4% to ~$274 the day of the report; Earnings Whispers instead cites $323.68; a pre-earnings Google Finance snapshot (~2026-10-08) showed $398.72. These do not reconcile to a single confirmed price, and no 2026-11-13 price was found.",
-    "Nov 9, 2026 price/move is also reported inconsistently across sources: MarketBeat cites $246.00 (+12.7%); Benzinga cites $246.00 (-3.2%); Fox Business cites $218.22 (+9.52%, intraday) — not reconciled to a single confirmed figure."
+    "Post-Q3-earnings and subsequent price readings remain unreconciled across sources (Nov 9: $246.00 vs $218.22; Nov 11: $265.78; Nov 17: $234.18) — a wide spread that may reflect real volatility rather than a data error, but no single confirmed figure exists for any recent date."
   ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found. A MarketBeat headline referencing a +12.7% move on 2026-11-09 was already superseded by the Omnyx Edge catalyst already on file. Existing price conflict between ~$218 (2026-11-06 source) and ~$435-444 (October MarketBeat source) not resolved this pass — flagging again rather than guessing which is current.",
+  "notes": "No new dated catalyst since the Nov 9 Omnyx Edge launch and Oct 27 Q3 2026 earnings, both already on file. nextEarnings date refined to 2027-02-01 (still unconfirmed).",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -419,10 +433,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

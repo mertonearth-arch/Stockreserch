@@ -1,14 +1,14 @@
 {
   "ticker": "CIFR",
-  "name": "Cipher Mining Inc. (also referred to in recent coverage as \"Cipher Digital\")",
+  "name": "Cipher Mining Inc.",
   "sector": "Technology",
   "theme": "Crypto Treasury & Miners",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.651Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.135Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -20,19 +20,23 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "conflicting figures (371M-415M) across sources; not reconciled, see conflicts"
+      "note": "conflicting figures (371M-415M) across sources; stockanalysis.com adds a ~393M estimate; not reconciled"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 65610000,
+      "asOf": "undated (recent)",
+      "note": "~16.68% of shares outstanding per one source; an older Feb 2026 figure of 60.863M shares / 20.38% of float is stale",
+      "source": "aggregator (undated)"
     },
     "cash": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 724000000,
+      "asOf": "2026-09-30",
+      "note": "pro forma unrestricted cash per Q3 2026 earnings release; supersedes conflicting stale Q1 2026 figures ($715.2M as of 2026-03-31) found this pass",
+      "source": "Q3 2026 earnings release (already on file)"
     },
     "debt": {
       "value": null,
-      "note": "not retrieved this pass"
+      "note": "extremely wide conflicting figures found this pass ($8.3M vs $2.7B vs ~$4.38B depending on date/definition) — not reconciled, see conflicts"
     },
     "pe": {
       "trailing": null,
@@ -64,14 +68,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "not retrieved this pass"
+      "note": "Q4/FY2026 results not yet scheduled; last year's Q4/FY2025 report was released 2026-02-24, suggesting a similar ~Feb 2027 timing as an inference only"
     }
   },
   "price": {
     "last": 6.86,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "MarketChameleon (36,621,379 shares traded that session)"
+    "source": "MarketChameleon",
+    "note": "a same-day intraday Webull snapshot ($6.725, -6% from a $7.15 prior close, at 1:46pm CST 2026-11-13) is broadly consistent"
   },
   "catalysts": [
     {
@@ -159,12 +165,28 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 371.1M (TipRanks) vs 415.0M (Value Research, 2026-09-10) vs 395.1M (SimplyWall St, undated) — not reconciled.",
-    "Market cap/price: snapshots from 2026-07 to 2026-10 range widely; treating $7.86 (2026-10-30) as the best available anchor; no confirmed 2026-11-13 price."
+    "Shares outstanding: 371.1M (TipRanks) vs 415.0M (Value Research, 2026-09-10) vs 395.1M (SimplyWall St, undated) vs ~393M (stockanalysis.com, undated) — not reconciled.",
+    "Debt: Digrin $8.3M (2026-03-31) vs $2.7B (2025-12-31) vs another snapshot $4.38B total debt against $714M equity (Q1 2026) — sources appear to define 'debt' inconsistently and/or reflect different dates.",
+    "Market cap/price: snapshots from 2026-07 to 2026-11 range widely; $6.86 (2026-11-13, MarketChameleon) remains the best-anchored recent figure."
   ],
   "pendingFilings": [],
-  "notes": "Price updated from 2026-10-30 ($7.86) to 2026-11-13 ($6.86); MarketChameleon also cites -54.1% 1-year price return. No new dated catalyst found past 2026-11-03.",
+  "notes": "No new dated catalyst found past the 2026-11-02/11-03 Q3 earnings cluster already on file; genuinely quiet. Filled previously-null cash using the Q3 2026 earnings release figure already present in catalysts text.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -389,10 +411,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

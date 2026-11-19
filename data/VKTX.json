@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.672Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.151Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -22,7 +22,7 @@
     "sharesOutstanding": {
       "value": 127500000,
       "asOf": "2026-09-30",
-      "source": "RTTNews/Webull coverage of Q3 2026 results (reported up 9.3% quarter-over-quarter); roic.ai's own table shows a rounded 128,000,000"
+      "source": "RTTNews/Webull coverage of Q3 2026 results"
     },
     "shortInterest": {
       "value": null,
@@ -31,7 +31,7 @@
     "cash": {
       "value": 960000000,
       "asOf": "2026-09-30",
-      "source": "Viking Therapeutics Q3 2026 earnings release (via RTTNews/Webull)"
+      "source": "Viking Therapeutics Q3 2026 earnings release"
     },
     "debt": {
       "value": 250700000,
@@ -60,7 +60,7 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical-stage company; no approved product. Net loss widened YoY on higher Phase 3 trial spending for VK2735."
+      "note": "Pre-revenue clinical-stage company"
     },
     "nextEarnings": {
       "date": null,
@@ -72,9 +72,17 @@
     "changePct": 5.95,
     "rvol": null,
     "asOf": "2026-11-13",
-    "note": "equibles.com close"
+    "source": "equibles.com",
+    "note": "No confirmed close newer than 2026-11-13 located. A separate, likely unreliable RTTNews-sourced snippet implies a close near $41.65 on ~2026-11-14 pulling back to $35.32 on 2026-11-15 -- roughly 40% above the $29.22 figure and not reconciled; see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "speculation (reversal)",
+      "headline": "Stock gave back most of the prior session's takeover-speculation-driven gains as investors refocused on awaited VK2735 Phase 3 (VANQUISH) topline data, expected in 2027; no company confirmation of any acquisition process",
+      "impact": null,
+      "source": "https://stocktwits.com/news-articles/markets/equity/vktx-stock-gives-back-buyout-speculation-spurred-gains-investors-continue-to-await-key-obesity-trial-topline-data/cNb7DUxR9gX"
+    },
     {
       "date": "2026-11-15",
       "type": "clinical data",
@@ -101,6 +109,13 @@
       "type": "conference/data",
       "headline": "Viking Therapeutics scheduled to present two VK2735 posters at ObesityWeek 2026 (Washington, D.C., Nov 14-17, 2026): Phase 3 VANQUISH-2 baseline data and Phase 2 VENTURE results",
       "source": "https://www.biopharmawatch.com/news/VKTX/viking-therapeutics-obesityweek-2026-presentations"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "speculation",
+      "headline": "Shares rallied on renewed, unconfirmed takeover/M&A speculation (reportedly tied to chatter from M&A-focused outlet Betaville); no bidder or deal terms confirmed by the company or any primary source",
+      "impact": "+5.95% to $29.22; some secondary sources (unreconciled) describe a much larger spike to the $35-42 range around this window",
+      "source": "https://www.chartmill.com/news/external/71998/buyout-buzz-around-vktx-is-back-what-s-fueling-the-speculation ; https://stocktwits.com/news-articles/markets/equity/vktx-stock-gives-back-buyout-speculation-spurred-gains-investors-continue-to-await-key-obesity-trial-topline-data/cNb7DUxR9gX"
     },
     {
       "date": "2026-11-03",
@@ -184,13 +199,26 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~127.5M (RTTNews/Webull commentary on Q3 2026 release, +9.3% QoQ) vs a rounded 128M (roic.ai capital-structure table, 2026-09-30).",
-    "Market cap: roic.ai's own table shows ~$4.157B at the 2026-09-30 quarter-end, a stale figure rather than a live quote; no current market cap as of 2026-11-13 could be confirmed.",
-    "Stock price: $28.20 close 2026-11-12 (MarketChameleon) vs an unrelated, undated $25.36/$24.68 pair and a separate undated $26.65/$26.18 pair cited elsewhere — none of the latter could be placed on this timeline."
+    "A secondary source (RTTNews-sourced snippet, dated ~2026-11-15) implies a close near $41.65 pulling back to $35.32, roughly 40% above the $29.22 (2026-11-13, equibles.com) figure used as 'last' here -- not reconciled; could reflect a data error.",
+    "Takeover/M&A speculation (Betaville-sourced chatter) is unconfirmed by any primary source or company statement; recorded as a sentiment-driven catalyst, not a confirmed corporate event."
   ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found. Most recent milestones (VK3019 Phase 1 start, ECO 2026 VENTURE-Oral poster, Q3 2026 financials) already on file. Nothing new this pass.",
+  "notes": "New catalysts this pass relate to unconfirmed takeover/M&A speculation around 2026-11-13 through 2026-11-16, which produced a volatile price swing that could not be fully reconciled across sources.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "growth updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -492,10 +520,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "growth updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

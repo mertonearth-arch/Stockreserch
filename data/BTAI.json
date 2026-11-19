@@ -3,28 +3,28 @@
   "name": "BioXcel Therapeutics, Inc.",
   "sector": "Healthcare",
   "theme": "Distressed / Restructuring",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.651Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.135Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "not found in available sources this pass"
     },
     "float": {
       "value": null,
-      "note": "Not found"
+      "note": "not found"
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Not found; only older 2025 items referencing authorization of >91 million shares for future sale and registration of 5.1 million shares for resale were found, which do not establish a current count"
+      "note": "not found; only older items referencing authorization/registration of share counts that do not establish a current count"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found"
+      "note": "not found"
     },
     "cash": {
       "value": 13800000,
@@ -34,13 +34,13 @@
     "debt": {
       "value": 107000000,
       "asOf": "~2026-06-30",
-      "note": "From a secondary aggregator (Panabee); not verified against the company's own 10-Q",
+      "note": "from a secondary aggregator (Panabee); not verified against the company's own 10-Q",
       "source": "Panabee"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company has a stockholders' deficit and going-concern doubt; no positive earnings reported"
+      "note": "stockholders' deficit and going-concern doubt; no positive earnings reported"
     },
     "eps": [],
     "revenue": [],
@@ -48,17 +48,17 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "No commercial revenue figures were found for IGALMI in the sources retrieved"
+      "note": "no commercial revenue figures found for IGALMI in sources retrieved"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found; company is pursuing strategic alternatives (sale/merger/financing), which may affect normal reporting cadence"
+      "note": "company completed its Chapter 11 asset sale to Teva (closed 2026-10-26); normal reporting cadence likely disrupted"
     }
   },
   "price": {
     "last": null,
-    "note": "No reliably dated current price found; see conflicts for the figures retrieved"
+    "note": "now trades OTC as BTAIQ post-Chapter 11/delisting; quotes found this pass are wildly inconsistent (see conflicts) and could not be reconciled to a reliable current figure"
   },
   "catalysts": [
     {
@@ -192,12 +192,30 @@
     }
   ],
   "conflicts": [
-    "Price: an undated Quantisnow snapshot shows $0.89 (+8.58%) vs the company's own IR site showing $1.49 as of 2026-02-03 — not reconcilable without a common date",
-    "1-for-16 reverse stock split occurred in February 2025 — flag per reverse-split rule; price history before that date is not comparable"
+    "Price: stockanalysis.com shows OTC ticker BTAIQ closing at $0.0075 (-14.77%) on 2026-11-06 vs Debelegger showing $0.05 (-3.2%) updated 2026-11-01 vs Fool showing a (stale, pre-delisting) Nasdaq-feed last close of $0.01 on 2026-11-11 — not reconciled; this is a post-bankruptcy/delisting situation, not a reverse split.",
+    "1-for-16 reverse stock split occurred in February 2025 — price history before that date is not comparable (carried forward from prior pass)."
   ],
   "pendingFilings": [],
-  "notes": "FDA's Nov 14, 2026 PDUFA action date for the IGALMI at-home sNDA has now passed by 4 days with no approval, rejection, or CRL reported in any source found this pass. No company 8-K or press release on the outcome located. Flagging for next pass — outcome still unknown, not confirmed quiet.",
+  "notes": "FDA's Nov 14, 2026 PDUFA action date for the IGALMI at-home sNDA has now passed by 5 days with no approval/rejection/CRL outcome found in any source this pass — still unresolved, not confirmed quiet. Teva's Chapter 11 asset-sale acquisition of IGALMI/BXCL501 (closed 2026-10-26) remains the dominant recent event; BTAI/BXCL701/702 shell now trades OTC as BTAIQ.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -509,10 +527,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

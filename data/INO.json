@@ -7,50 +7,70 @@
   "tier": "daily",
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.663Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.141Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established — Yahoo Finance, Finviz and stockanalysis.com all failed DNS resolution in this sandbox; no reliable market-cap figure found via WebSearch snippets."
+      "note": "Not established — stockanalysis.com/Finviz/Yahoo blocked or returned stale snapshots; no reliable current figure."
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Conflicting figures (82.27M, 81.59M, 103.40M, and a pre-offering 69.44M) make a current count unreliable; the Nov 5-9, 2026 offering further changed the count and no post-closing total was found."
+      "note": "Conflicting figures (82.27M, 81.59M, 103.40M, pre-offering 69.44M); no reconciled post-offering total found."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Clinical-stage biotech with negative earnings."
+      "note": "Clinical-stage biotech, negative earnings"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 results already released Nov 10, 2026; next (Q4/FY2026) date not found."
+      "note": "Q3 2026 already reported Nov 10, 2026; Q4/FY2026 date not announced."
     },
     "cash": {
       "value": 48400000,
       "asOf": "2026-09-30",
-      "note": "As disclosed in Q3 2026 results; excludes ~$80.5M of net proceeds from the Nov 2026 offering."
+      "note": "Excludes ~$80.5M net proceeds from Nov 2026 offering."
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2025",
+        "value": -0.87,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": -0.5,
+        "basis": "GAAP"
+      }
+    ],
     "growth": {
       "metric": "cash runway / net proceeds raised",
       "period": "Nov 2026 offering",
       "pct": null,
-      "note": "Pre-revenue clinical-stage company; raised ~$75M gross (~$80.5M net) via a Nov 2026 public offering."
+      "note": "Pre-revenue clinical-stage company; raised ~$75M gross (~$80.5M net) via Nov 2026 public offering."
     },
     "shortInterest": {
       "value": 21300000,
       "asOf": "2026-10-15",
-      "note": "FINRA settlement-date figure; reported separately as 22.2%, 18.6%, and 19.3% of float across sources. Days to cover reported as 6.94 by FINRA data and 4.4 by another source."
+      "note": "FINRA settlement-date figure; reported variably as 22.2%, 18.6%, 19.3% of float across sources."
     },
-    "revenue": []
+    "revenue": [],
+    "float": {
+      "value": null,
+      "note": "Not disclosed"
+    },
+    "debt": {
+      "value": null
+    }
   },
   "price": {
     "last": 1.45,
-    "asOf": "2026-11-05",
-    "note": "Last reported sale price ahead of the Nov 5 offering pricing. A Benzinga quote shows $1.6085 (2026-11-04) and an AAII figure of $0.602 (2026-10-30) conflicts sharply and could not be reconciled."
+    "changePct": -16.21,
+    "rvol": null,
+    "asOf": "2026-11-06",
+    "source": "Fox Business quote page"
   },
   "catalysts": [
     {
@@ -128,12 +148,31 @@
     }
   ],
   "conflicts": [
-    "Price: AAII $0.602 (2026-10-30, reported as down 21.95% that day) vs Benzinga $1.6085 (2026-11-04) vs last reported sale of $1.45 cited in the Nov 5 offering release — these do not reconcile into one consistent price history.",
-    "Short interest as % of float: 22.2% vs 18.6% vs 19.3%, all nominally for the same Oct 15, 2026 FINRA settlement period.",
-    "Shares outstanding: 82,273,237 vs 81.59M vs 103.40M vs a pre-offering 69.44M — a roughly 20-30% spread with no clear way to tell which is current."
+    "Price (2026-11-06): Fox Business close $1.45 (-16.21%) vs. same-page secondary figure $1.22; vs. Benzinga $1.6085 (2026-11-04); vs. Debelegger $0.60 (2026-10-30, pre-FDA-approval, likely stale/erroneous rather than a split)."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -16.21%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -241,12 +280,25 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst found this pass beyond what is already on file (Nov 10 Q3 earnings, Oct 30 VOCERYQ accelerated approval, Nov offering). Market cap and shares-outstanding remain conflicting across sources and were not resolved this pass. Quiet pass.",
+  "notes": "No material new dated catalyst beyond what is already on file (Nov 10 Q3 results/VOCERYQ accelerated approval commentary, Nov 5-9 offering). VOCERYQ commercial timeline detail found this pass: ordering/shipment expected ~60 days post FDA approval (Oct 30), full field deployment targeted Q1 2027; company says cash runway extends into late Q4 2027.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -16.21%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

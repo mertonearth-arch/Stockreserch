@@ -7,50 +7,49 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.660Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.140Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10810000000,
-      "asOf": "2026-11-10",
-      "source": "aggregator snapshot"
+      "value": 11550000000,
+      "asOf": "2026-11-16",
+      "source": "financialcontent.com"
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately from shares outstanding in sources found"
+      "note": "not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
       "value": 59000000,
       "asOf": "2026-10-26",
-      "note": "Consistently ~59M across several sources"
+      "note": "carried forward, consistent across sources"
     },
     "shortInterest": {
       "value": null,
-      "note": "sources disagree and none give a clean, dated %-of-float figure: Trade-Ideas (Oct 11, 2026) says short interest fell 7% month-over-month with ~4% of investors short; Equibles (undated) shows 2.4M shares short / 3.0 days to cover; MarketBeat (undated) shows a short-interest ratio (days to cover) of 1.86"
+      "note": "carried forward; sources disagree, no clean dated %-of-float figure"
     },
     "cash": {
       "value": 264921000,
       "asOf": "2026-06-30",
-      "source": "SEC Form 8-K exhibit",
-      "note": "Down from $341,413,000 at 2025-12-31. A Q3 2026 (9/30/26) balance sheet was not located this pass."
+      "source": "SEC Form 8-K exhibit (carried forward)"
     },
     "debt": {
       "value": 1400000000,
       "asOf": "2026-03-31",
-      "source": "OpenCapital (total debt vs. $2.7B shareholders' equity, debt/equity 0.52)",
-      "note": "Conflicts with FN2's Q1 2026 figure of $1,236.4M and StockAnalysis's TTM-through-June-2026 figure of $1,410M -- see conflicts."
+      "note": "carried forward; conflicts with other sources (see prior pass's conflicts)"
     },
     "pe": {
       "trailing": 35.87,
       "forward": null,
-      "asOf": "2026-11-10"
+      "asOf": "2026-11-10",
+      "note": "carried forward"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 2.54,
         "basis": "Adjusted (non-GAAP)",
-        "note": "Beat estimates; consensus cited as $2.38 (Zacks) vs $2.43 (another source)"
+        "note": "Beat estimates (consensus cited as $2.38 or $2.43 depending on source)"
       }
     ],
     "revenue": [
@@ -69,14 +68,16 @@
     "nextEarnings": {
       "date": "2027-02-09",
       "confirmed": false,
-      "note": "FXEmpire projection for Q4/FY2026 report (EPS est. $2.59, revenue est. $1.40B); not confirmed by a company IR source"
+      "note": "FXEmpire projection for Q4/FY2026 report, not confirmed by company IR; unchanged from prior pass"
     }
   },
   "price": {
-    "last": 181.69,
-    "changePct": 6.8,
-    "asOf": "2026-11-11",
-    "source": "Fox Business quote snapshot"
+    "last": 185.62,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-16",
+    "source": "financialcontent.com (delayed quote)",
+    "note": "Updates the prior $181.69 (Nov 11) figure; no Nov 19 quote found."
   },
   "catalysts": [
     {
@@ -154,12 +155,29 @@
       "source": "Investing.com ('Jefferies reiterates Buy on Generac stock, keeps $279 target')"
     }
   ],
-  "conflicts": [
-    "Nov 11, 2026 close: Fox Business $181.69 (+6.8%) vs undated pandaforecast $203.36 vs undated MarketScreener $215.73 -- the latter two give no date and are not reconcilable to a specific session"
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Oct 28/Nov 4 Q3 2026 earnings and data-center backlog commentary already on file. Short interest and debt conflicts from prior passes remain unresolved; not re-verified this pass. Quiet pass.",
+  "notes": "No new catalysts found beyond the Nov 4 data-center backlog reaffirmation and Oct 28 Q3 2026 earnings/backlog update already on file. Price and market cap refreshed to a slightly more recent (Nov 16) data point.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -433,10 +451,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

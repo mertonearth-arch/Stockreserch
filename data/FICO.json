@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.659Z",
+  "lastResearched": "2026-11-19T21:31:29.138Z",
   "fundamentals": {
     "marketCap": {
       "value": 15580000000,
       "asOf": "2026-11-13",
-      "source": "Fox Business quote snapshot"
+      "source": "Fox Business quote snapshot (unchanged)"
     },
     "float": {
       "value": null,
@@ -22,7 +22,7 @@
     "sharesOutstanding": {
       "value": 21380000,
       "asOf": "2026-11-13",
-      "source": "Fox Business quote snapshot"
+      "source": "Fox Business"
     },
     "shortInterest": {
       "value": null,
@@ -31,18 +31,18 @@
     "cash": {
       "value": 134100000,
       "asOf": "2025-09-30",
-      "note": "carried forward; FY2026 Q4 balance-sheet cash figure not found this session"
+      "note": "carried forward; FY2026 Q4 balance-sheet figure not found"
     },
     "debt": {
       "value": 3060000000,
       "asOf": "2025-09-30",
-      "note": "carried forward; FY2026 Q4 balance-sheet debt figure not found this session"
+      "note": "carried forward; FY2026 Q4 balance-sheet figure not found"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established in sources retrieved; GAAP vs non-GAAP EPS reporting conflicts.",
-      "asOf": "2026-11-13"
+      "note": "Sources disagree too widely to establish a reliable figure",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
@@ -65,9 +65,9 @@
       "pct": 27.3
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-01-27",
       "confirmed": false,
-      "note": "Company is not providing FY2027 guidance at this time, citing unfinished mortgage-pricing agreements and mortgage-market uncertainty; no next-earnings date located"
+      "note": "YCharts estimate; company has explicitly withheld FY2027 guidance pending resolution of mortgage-pricing-model changes"
     },
     "guidanceFY2026": {
       "epsNonGAAP": 38.17,
@@ -79,7 +79,8 @@
     "last": 717.76,
     "changePct": null,
     "asOf": "2026-11-13",
-    "source": "Fox Business"
+    "source": "Fox Business",
+    "note": "Unchanged from prior pass; no more-recent dated quote found."
   },
   "catalysts": [
     {
@@ -205,11 +206,28 @@
     }
   ],
   "conflicts": [
-    "Market cap/shares outstanding: Fox Business $15.58B / 21.38M shares (2026-11-13) vs Motley Fool $15.32B / 21.60M shares (undated, publicly-traded-shares basis only) — both post-buyback, close but not reconciled. StockAnalysis's much larger $23.97B / 23.72M shares figure is stale (pre-buyback, ~spring 2026) and excluded."
+    "Trailing PE: Stockanalysis 32.07 (stale earnings-date flag) vs Yahoo 59.05 (stale) vs YCharts 26.94 (2026-09-04) vs Wisesheets 17.89 (2026-11-02)",
+    "Forward PE: Stockanalysis 21.44 vs Yahoo 36.76 vs GuruFocus 53.9 (undated) — no reliable single figure"
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Nov 4 FY2026 Q4 earnings print already on file. Filled in market cap/shares outstanding this pass (previously null).",
+  "notes": "The $65M antitrust-settlement accrual already on file (2026-11-04) is the only concrete dated detail found for the ongoing FICO scoring antitrust litigation; no settlement terms or court approval date located.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -511,12 +529,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "nextEarnings updated",
       "marketCap updated",
       "sharesOutstanding updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

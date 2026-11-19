@@ -8,15 +8,14 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.641Z",
+  "lastResearched": "2026-11-19T21:31:29.126Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Not established in sources retrieved this pass."
+      "note": "Sources disagree by tens of billions across snapshot dates; not reconciled"
     },
     "float": {
       "value": null,
-      "asOf": null,
       "note": "Not found"
     },
     "sharesOutstanding": {
@@ -26,47 +25,52 @@
     },
     "shortInterest": {
       "value": null,
-      "asOf": null,
       "note": "Not found"
     },
     "cash": {
       "value": 3900000000,
       "asOf": "2026-08-01",
-      "source": "Third-party aggregator (AI-extracted from company filings per the source's own disclaimer) for the quarter ended 2026-08-01",
-      "note": "Not independently confirmed against the primary 10-Q text; use with caution"
+      "source": "Third-party aggregator (AI-extracted), not independently confirmed"
     },
     "debt": {
       "value": 5000000000,
       "asOf": "2026-08-01",
-      "source": "Same third-party aggregator as cash figure above",
-      "note": "Down slightly from ~$5.3B at Q1 FY2027 (quarter ended ~May 2026) per the same source; not independently confirmed against the primary 10-Q"
+      "source": "Same third-party aggregator"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 FY2027 results not yet reported (call scheduled Dec 1, 2026); not established."
+      "note": "Q3 FY2027 results not yet reported (call scheduled 2026-12-01)"
     },
     "eps": [],
     "revenue": [],
     "growth": {
       "metric": "revenue (guided range)",
-      "period": "Q3 FY2027 (quarter ended ~2026-10-31)",
+      "period": "Q3 FY2027",
       "pct": null,
-      "note": "Company narrowed its Q3 FY2027 revenue guidance band from ±5% to ±2% around a prior midpoint of ~$3.15B (non-GAAP EPS guided at $1.10 +/- $0.05) in a preliminary update issued alongside the Lumentum deal announcement; full results not yet reported."
+      "note": "Narrowed Q3 FY2027 revenue guidance band from ±5% to ±2% around a ~$3.15B midpoint; full results not yet reported"
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": true,
-      "note": "Company has announced a conference call to review Q3 FY2027 results for this date."
+      "confirmed": true
     }
   },
   "price": {
-    "last": 154.6,
-    "asOf": "2026-11-09",
-    "source": "MarketChameleon/Benzinga quote snapshot via WebSearch",
-    "note": "No price for 2026-11-16 itself could be confirmed. An undated 24/7 Wall St snapshot describes an intraday level near $140 (-12% on the session), plausibly consistent with today's broad chip-sector selloff (Nasdaq led lower by chip names per market-wide coverage), but it carries no date and is not used as today's recorded price."
+    "last": 156.76,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "source": "Wedbush quote page",
+    "note": "Subsequently fell ~7.3% on 2026-11-16 per Motley Fool/Trefis (implied close ~$145, not a directly reported print, so not recorded as the last price); no confirmed close for Nov 17-19."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "price move",
+      "headline": "MRVL fell ~7.3% (vs S&P 500 -1.9%) amid continued semiconductor-sector weakness ahead of NVIDIA's Nov 17 earnings and lingering overhang from the Lumentum acquisition",
+      "impact": "-7.3%",
+      "source": "https://www.trefis.com/stock/mrvl/articles/625792/why-did-marvell-stock-fall-over-7/2026-11-17 ; fool.com"
+    },
     {
       "date": "2026-11-11",
       "type": "price move",
@@ -213,11 +217,30 @@
     }
   ],
   "conflicts": [
-    "Market cap: Fox Business $123.82B at $154.39 close (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — the Fox Business figure does not reconcile with its own 876.9M share count at that price (~$135.4B implied); not resolved this pass."
+    "Market cap: Fox Business $123.82B at $154.39 (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — unreconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found. Market-cap conflict across vendors remains unreconciled (figures range $123.8B-$211B depending on snapshot date/share-count basis used); shares outstanding figure (~876M) reconfirmed. Quiet pass.",
+  "notes": "No new fundamental catalyst beyond continued chip-sector/Lumentum-deal pressure; Q3 FY2027 earnings remain the next scheduled catalyst (Dec 1).",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -522,10 +545,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

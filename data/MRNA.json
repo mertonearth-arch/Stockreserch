@@ -3,55 +3,55 @@
   "name": "Moderna, Inc.",
   "sector": "Healthcare (biotechnology)",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.665Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.143Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Sources found are based on share prices far below the current ~$254, so neither is usable as a current figure."
+      "value": 90380000000,
+      "asOf": "2026-11-13",
+      "source": "financialcontent.com"
     },
     "float": {
       "value": null,
-      "note": "not found distinctly from shares outstanding in sources reachable this session"
+      "note": "Not found distinctly from shares outstanding"
     },
     "sharesOutstanding": {
-      "value": 396790000,
-      "asOf": "2026-07-15",
-      "source": "Simply Wall St",
-      "note": "Consistent with the ~397M already on file; no material change"
+      "value": 404620000,
+      "asOf": "2026-11-13",
+      "source": "financialcontent.com"
     },
     "shortInterest": {
       "value": null,
-      "note": "sources disagree materially and are not clearly dated to the same settlement — see conflicts"
+      "note": "Sources disagree materially and are not clearly dated to the same settlement"
     },
     "cash": {
       "value": 4950000000,
       "asOf": "FY2026 guidance (midpoint of $4.7-5.2B)",
-      "note": "Company's updated year-end-2026 cash & investments guidance, improved from a prior $5.5-6.0B outlook. Actual cash as of 2026-06-30 was $6.9B (vs $7.5B at 2026-03-31); a $950M litigation-settlement payment was made in July 2026."
+      "note": "Updated year-end-2026 cash & investments guidance"
     },
     "debt": {
       "value": 591000000,
       "asOf": "2026-09-14",
-      "source": "carried from prior PM pass record; not independently re-verified this session"
+      "note": "carried from prior pass; not independently re-verified"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company posted a positive GAAP EPS in Q3 2026 ($0.38) after a prior-year quarterly loss, but full trailing-twelve-month GAAP profitability was not established this pass."
+      "note": "Positive GAAP EPS in Q3 2026 ($0.38) after a prior-year loss, but trailing-twelve-month GAAP profitability not established"
     },
     "eps": [
       {
-        "period": "Q3 2026",
-        "value": 0.38,
+        "period": "Q3 2025",
+        "value": -0.51,
         "basis": "GAAP diluted"
       },
       {
-        "period": "Q3 2025",
-        "value": -0.51,
+        "period": "Q3 2026",
+        "value": 0.38,
         "basis": "GAAP diluted"
       }
     ],
@@ -66,20 +66,21 @@
     "growth": {
       "metric": "revenue growth (company guidance)",
       "period": "FY2026",
-      "pct": 10,
-      "note": "Company guided to 'up to 10% revenue growth' for FY2026; this is guidance, not a reported actual."
+      "pct": 15,
+      "note": "At Nov 12 Analyst Day, management raised FY2026 sales-growth guidance to 15%-25% from a prior 10% figure; this is guidance, not a reported actual."
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 report not yet scheduled per sources found."
+      "note": "Q4/FY2026 report not yet scheduled; formal 2027 guidance expected on that call"
     }
   },
   "price": {
     "last": 223.37,
     "changePct": -3.45,
+    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "equibles.com"
+    "source": "equibles.com / financialcontent (consistent figure)"
   },
   "catalysts": [
     {
@@ -222,11 +223,31 @@
     }
   ],
   "conflicts": [
-    "Market cap: sources this pass range from ~$22.1B to ~$32.5B (Simply Wall St, different editions) and one TipRanks figure of $375B is clearly a data error -- no reliable current market cap established, left unchanged (null)"
+    "Shares outstanding: 404.62M (2026-11-13, financialcontent) vs. 396.79M (2026-07-15, Simply Wall St, on file) vs. 399.24M (undated equibles snapshot) — minor discrepancies likely reflect different as-of dates."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 12 Analyst Day entry already on file. Additional sourcing confirms: FY2026 revenue growth guidance raised to 15%-25% (from 'up to 10%'); formal FY2027 guidance deferred to the Q4/FY2026 earnings call, reported as the reason shares fell as much as ~6% intraday before paring to a ~2% loss on the day. Market cap remains unestablished. Quiet pass.",
+  "notes": "No new dated catalyst beyond the Nov 12 Analyst Day (oncology-led growth plan centered on intismeran, raised FY2026 revenue-growth guidance to 15-25% from 10%) and Nov 6 Q3 earnings, both already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -525,10 +546,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

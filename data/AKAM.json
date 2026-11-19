@@ -8,24 +8,27 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.648Z",
+  "lastResearched": "2026-11-19T21:31:29.133Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "wide, undated conflicts — see conflicts"
+      "note": "wide, date-inconsistent conflicts — see conflicts; Trefis quoted $12.1B at the $83.90/2026-11-05 price point",
+      "asOf": "2026-11-05"
     },
     "float": {
       "value": null,
       "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 145400000,
-      "asOf": "2026-07/08 (approx)",
-      "source": "Google Finance / Barchart (~145.0M-145.4M, close agreement across both)"
+      "value": 144000000,
+      "asOf": "2026-Q2/Q3 2026",
+      "source": "Equibles (10-Q, ~144M) / Massive (143.72M, 2026-10-30)"
     },
     "shortInterest": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 18740000,
+      "asOf": "2026-10-15",
+      "note": "shares short, not percentage; Massive also cites 3.7 days-to-cover. Equibles separately cited 13.75% of float / 19.8M shares as of August 2026",
+      "source": "Massive"
     },
     "cash": {
       "value": null,
@@ -33,26 +36,26 @@
     },
     "debt": {
       "value": null,
-      "note": "not retrieved this pass"
+      "note": "not retrieved this pass; see conflicts for prior wide range"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this pass",
-      "asOf": "2026-11-13"
+      "note": "TTM EPS not aggregated this pass; Q3 2026 GAAP diluted EPS was $0.77, non-GAAP $1.77",
+      "asOf": "2026-11-05"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 1.77,
         "basis": "non-GAAP",
-        "note": "beat $1.71 consensus"
+        "note": "beat $1.71 consensus, -5% YoY"
       },
       {
         "period": "Q3 2026",
-        "value": null,
+        "value": 0.77,
         "basis": "GAAP",
-        "note": "GAAP EPS reported down 21% YoY; absolute figure not found"
+        "note": "-21% YoY"
       }
     ],
     "revenue": [
@@ -71,14 +74,15 @@
     "nextEarnings": {
       "date": "2027-02-16",
       "confirmed": false,
-      "note": "single unverified source (stockevents.app) for the Q4/FY2026 report"
+      "note": "two independent estimate sources (stockevents.app and MarketScreener) now agree on this date"
     }
   },
   "price": {
     "last": 83.9,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-05"
+    "asOf": "2026-11-05",
+    "source": "Trefis"
   },
   "catalysts": [
     {
@@ -223,11 +227,30 @@
     }
   ],
   "conflicts": [
-    "Market cap: third-party aggregators range from ~$10.6B (TipRanks) to ~$16.6B (OpenCapital, Q1 2026 period-end price) with no consistent November 2026 figure found. Cash: OpenCapital/FN2 show ~$626.9M-$953.5M across different periods. Debt: OpenCapital $1.8B vs FN2 long-term debt $4.1B vs TipRanks total debt $5.27B vs Motley Fool $9.45B — sources appear to define 'debt' inconsistently (e.g. whether leases/convertibles are included). None resolved to a single reliable figure this pass."
+    "Market cap: third-party aggregators range from ~$10.6B (TipRanks) to ~$16.6B (OpenCapital) with no consistent November 2026 figure; Trefis gives $12.1B specifically at the $83.90/2026-11-05 price point.",
+    "Price snapshots conflict across dates: $83.90 (Trefis, 2026-11-05) vs $93.45 (Benzinga, 2026-10-23) vs $92.72-92.75 (Massive, 2026-10-30) vs $100.86 (Upstox, 2026-10-09) — normal date drift, not reconciled to a single current figure.",
+    "Cash/Debt: OpenCapital/FN2 cash ~$626.9M-$953.5M; debt ranges from OpenCapital $1.8B to Motley Fool $9.45B depending on inclusion of leases/convertibles — unresolved."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 5 Q3 earnings and Anthropic $11.6B cloud-agreement cluster already on file. Attempted to fill marketCap/cash/debt; found only mutually inconsistent third-party snapshots, logged as a conflict rather than picking one. Quiet pass otherwise.",
+  "notes": "No new dated catalyst found past the 2026-11-05 Q3 earnings / Anthropic $11.6B cloud-agreement cluster already on file. Genuinely quiet this pass; benzinga.com, finance.yahoo.com and marketwatch.com were unreachable via WebFetch (DNS/host-block) so no live quote could be pulled directly.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -515,10 +538,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

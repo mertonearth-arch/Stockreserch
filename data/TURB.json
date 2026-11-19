@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.671Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.150Z",
   "fundamentals": {
     "marketCap": {
       "value": 10752000,
@@ -23,20 +23,20 @@
     "sharesOutstanding": {
       "value": 11017140,
       "asOf": "unknown",
-      "note": "This is the ADS count (American Depositary Shares), NOT the 55,085,700 ordinary share count reported in the company's own 20-F/6-K filings. A 5-ordinary-shares-per-ADS ratio is inferred arithmetically but was not explicitly confirmed in any source read in this pass — treat the ratio as unverified."
+      "note": "ADS count, not the 55,085,700 ordinary-share count in the company's own 20-F/6-K filings; ratio unverified"
     },
     "shortInterest": {
       "value": 744955,
-      "source": "fintel.io (NASDAQ data, date not shown in source)",
-      "note": "share count, not a percent; percent-of-float figures conflict (1.8% per equibles vs 4.37% per stockanalysis)"
+      "source": "fintel.io (NASDAQ data, date not shown)",
+      "note": "share count, not a percent"
     },
     "cash": null,
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not found; likely negative/small-cap earnings not established",
-      "asOf": "2026-11-13"
+      "note": "Not found",
+      "asOf": "2026-11-19"
     },
     "eps": [],
     "revenue": [],
@@ -49,17 +49,32 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Foreign private issuer; files 20-F annually and 6-K periodically, not a fixed quarterly cadence; no specific next date found"
+      "note": "Foreign private issuer; files 20-F/6-K, no fixed quarterly cadence"
     }
   },
   "price": {
-    "last": 0.855,
-    "changePct": 1.8,
+    "last": 0.81,
+    "changePct": 1.4,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "Yahoo Finance (via WebSearch snippet)"
+    "asOf": "2026-11-06",
+    "source": "ryanoconnellfinance.com (stock dashboard)",
+    "note": "No reliable dated quote newer than 2026-11-06 found."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "M&A (related-party)",
+      "headline": "Proposed an all-share acquisition of IM2 Energía Solar and Greentech Solutions from majority shareholder Umbrella Global Energy, S.A., issuing 39,501,491 new Turbo Energy ordinary shares (stated issue amount EUR9.271M); would lift Umbrella's stake to ~76.48%. Subject to approval at Turbo Energy's Extraordinary General Meeting set for 2026-12-14, plus approval by both target companies' shareholders.",
+      "impact": null,
+      "source": "https://www.panabee.com/news/turbo-energy-proposes-39-5-million-share-acquisition-from-majority-owner ; https://www.sec.gov/Archives/edgar/data/0001963439/000121390026121115/ea031259401ex99-1.htm"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "corporate update",
+      "headline": "Launched a project to tokenize financing for hybrid renewable-energy installations with Taurus and the Stellar Development Foundation",
+      "impact": "Shares reportedly ~19% higher in premarket trading",
+      "source": "MT Newswires (via WebSearch aggregation)"
+    },
     {
       "date": "2026-11-10",
       "type": "contract",
@@ -136,12 +151,26 @@
     }
   ],
   "conflicts": [
-    "Market cap snapshots vary significantly by date due to price swings: $11.45M (2026-10-23, Yahoo Finance) vs $8.95M (2026-11-06) vs $14.22M (2026-05-12) — consistent with price volatility rather than a data conflict, but flagged since the basis (ADS vs ordinary shares) is not fully confirmed.",
-    "Market cap 2026-11-13 (Yahoo Finance via WebSearch): $10.752M at a $0.855 close (+1.80%) implies roughly 12.58M shares outstanding, which does not match the 11,017,140 ADS count used elsewhere in this file (itself inferred, not confirmed, from a 5-ordinary-shares-per-ADS ratio) — the ADS-vs-ordinary-share basis for this company's share count remains unresolved."
+    "No internally-consistent current price could be established: dated figures range from $0.81 (2026-11-06) to undated snapshots of $0.81, $0.92, $1.51 and $3.59 across different aggregators -- treated as stale/unreliable rather than reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found; most recent dated items located are from June 2026 (Nasdaq compliance) and April 2026 (defense/energy security expansion), both predating existing file data. Nothing new this pass. Existing float/short-interest conflicts (ADS vs ordinary-share basis) not re-resolved.",
+  "notes": "Two new catalysts since the existing file's last entry: the Nov 17 related-party acquisition proposal (IM2/Greentech from Umbrella Global Energy) and the Nov 11 tokenization-financing project with Taurus/Stellar Development Foundation.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -356,10 +385,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

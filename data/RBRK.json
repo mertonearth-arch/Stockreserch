@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.669Z",
+  "lastResearched": "2026-11-19T21:31:29.129Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "asOf": "2026-10-31",
-      "note": "sources give a range of $25.7B-$28.0B around this date; no single figure confirmed"
+      "asOf": "2026-11-16",
+      "note": "Still no single confirmed figure. This pass found an even wider scatter of undated/variously-dated snapshots: DefiLlama ~$23.1B (undated, at $112.41), Google Finance $19.0B (Sept snapshot) and $18.5B (Aug 7 snapshot), Simply Wall St $10.047B (Feb 2026, likely stale/pre-growth). None reconciled; marketCap left null."
     },
     "float": {
       "value": null,
@@ -21,31 +21,28 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "sources show 189.8M and 202.3M shares from unclear/older dates"
+      "note": "Conflicting figures persist and widened this pass: 189.8M / 202.3M (on file) plus new sightings of 202.28M, 207.63M (Q1 FY2026 10-Q per aggregator), 160.94M, and 151.89M 'current share class' from stockanalysis/base.report. Not reconciled."
     },
     "shortInterest": {
       "value": 13100000,
       "asOf": "2026-09-30",
-      "source": "Aggregator citing FINRA settlement data, ~4.2 days to cover",
-      "note": "Reported as raw shares short. Prior on-file figure (12.8M shares / 6.2% of float, 2026-08-19) used a % of float; not strictly comparable but directionally consistent (share count up slightly)."
+      "source": "Aggregator citing FINRA settlement data (unchanged this pass)"
     },
     "cash": {
       "value": 1750000000,
       "asOf": "2026-07-31",
-      "source": "Rubrik 10-Q (Q2 FY2027)",
-      "note": "Unchanged this pass -- fiscal Q3 FY2027 (ending 2026-10-31) has not yet been reported. Cash, cash equivalents and short-term investments; excludes $6.0M restricted cash."
+      "source": "Rubrik 10-Q (Q2 FY2027), unchanged this pass"
     },
     "debt": {
       "value": 1150000000,
       "asOf": "2026-07-31",
-      "source": "Rubrik 10-Q (Q2 FY2027)",
-      "note": "Unchanged this pass. $1.15B aggregate principal of Convertible Notes (June 2025 private offering); carrying value somewhat lower net of issuance costs."
+      "source": "Rubrik 10-Q (Q2 FY2027), unchanged this pass"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "GAAP earnings negative; FY2027 non-GAAP diluted EPS guidance is $0.47-$0.53, but no formal forward P/E was found",
-      "asOf": "2026-11-13"
+      "note": "GAAP earnings negative; no formal forward P/E found",
+      "asOf": "2026-11-16"
     },
     "eps": [],
     "revenue": [
@@ -68,18 +65,23 @@
     "nextEarnings": {
       "date": "2026-11-30",
       "confirmed": true,
-      "note": "Company-confirmed via its own announcement: Q3 FY2027 (quarter ended 2026-10-31) results after market close Monday 2026-11-30; call at 5:00 PM ET. Chartmill's Dec 7 estimate and other aggregator estimates are superseded by this company date."
+      "note": "Unchanged: company-confirmed Q3 FY2027 results after close Mon 2026-11-30, call 5:00pm ET."
     }
   },
   "price": {
-    "last": 116.51,
-    "changePct": null,
+    "last": 105.92,
+    "changePct": -3.6,
     "rvol": null,
-    "asOf": "2026-11-03",
-    "source": "aaii.com",
-    "note": "source article is internally inconsistent on the day's % change (headline: -5.68%; body: +1.6% from a $114.67 prior close) — changePct left null rather than guessed"
+    "asOf": "2026-11-16",
+    "source": "aaii.com"
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "price action",
+      "headline": "RBRK shares fell 3.6% to $105.92; no single attributed cause found in sources reviewed (general software/SaaS softness around the date)",
+      "source": "aaii.com"
+    },
     {
       "date": "2026-11-10",
       "type": "product",
@@ -135,12 +137,30 @@
     }
   ],
   "conflicts": [
-    "A Nov 3, 2026 article is internally inconsistent: headline states the stock is down 5.68% while the body says it's up 1.6% from the prior close",
-    "Shares outstanding figures (189.8M and 202.3M) come from undated/older snapshots and were not reconciled"
+    "Market cap snapshots this pass spanned roughly $10B (Feb 2026, stale) to $23.1B (undated) to the prior $25.7-28B range (Oct 31) — no reconciliation possible; left null.",
+    "Shares outstanding sightings this pass (202.28M, 207.63M, 160.94M, 151.89M) add to the existing unresolved 189.8M/202.3M conflict on file."
   ],
   "pendingFilings": [],
-  "notes": "Resolved next-earnings date to a company-confirmed 2026-11-30. No new dated catalyst beyond the Nov 10 product announcements already on file (an undated Citi price-target raise to $130 was found but excluded for lack of a date, per the no-undated-catalyst rule).",
+  "notes": "No material new catalyst since 2026-11-18 lastResearched pass; price continued drifting down into mid-November without earnings. Next earnings (Q3 FY2027) confirmed 2026-11-30.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -423,11 +443,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated"
+      "1 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

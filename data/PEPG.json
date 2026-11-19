@@ -3,50 +3,49 @@
   "name": "PepGen Inc.",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.635Z",
+  "lastResearched": "2026-11-19T21:31:29.121Z",
   "fundamentals": {
     "marketCap": {
-      "value": 188390000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business",
-      "note": "Predates the Nov 10-11 catalyst-driven rally to $5.26; current market cap would be higher"
+      "value": null,
+      "note": "Not established with confidence post-offering; aggregator figures for this window ranged $122.3M-$170.4M on different dates/share counts, so none is used as a single current figure — see conflicts"
     },
     "float": {
       "value": 61800000,
       "asOf": "2026-10-23",
-      "source": "Fox Business"
+      "source": "Fox Business",
+      "note": "Predates the Nov 13 offering close; now stale given ~25M new shares issued"
     },
     "sharesOutstanding": {
       "value": 69260000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business"
+      "asOf": "2026-10-23 (pre-offering)",
+      "source": "Fox Business",
+      "note": "A post-offering count (adding the 25M new shares, or 28.75M if the underwriter option was exercised) was not located from a primary source this pass; not reported here as current per the no-invented-numbers rule."
     },
     "shortInterest": {
       "value": 3900000,
       "asOf": "2026-10-02 settlement",
       "source": "Equibles",
-      "note": "~5.6% of float, 5.2 days to cover"
+      "note": "~5.6% of float, 5.2 days to cover; predates the offering"
     },
     "cash": {
       "value": 104800000,
       "asOf": "2026-09-30 (Q3 2026)",
       "source": "Company Q3 2026 financial results release",
-      "note": "Expected to fund operations into 2028"
+      "note": "Does not yet reflect the ~$125M gross (before fees) raised in the Nov 2026 offering"
     },
     "debt": {
       "value": null,
-      "note": "Not established; no balance-sheet source located this pass"
+      "note": "Not established"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Clinical-stage biotech with a net loss of $19.4M (-$0.28/share) in Q3 2026; trailing P/E not applicable",
-      "asOf": "2026-11-10"
+      "note": "Clinical-stage biotech, net loss $19.4M (-$0.28/share) in Q3 2026"
     },
     "eps": [
       {
@@ -64,23 +63,37 @@
       "metric": "cash runway / clinical progress",
       "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical-stage company (Q2 2026 revenue reported as $0.00M); growth is better tracked via cash runway (extended into 2028 as of the Q3 2026 update) and clinical data (FREEDOM2 splicing-correction results) than via revenue"
+      "note": "Pre-revenue clinical-stage company; runway extended into 2028 as of Q3 2026, and further extended by the Nov 2026 offering"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 was reported 2026-11-10 (-$0.28 EPS, missed -$0.27 consensus by $0.01, per MarketBeat); no Q4 2026 date located."
+      "note": "Q3 2026 was reported 2026-11-10; no Q4 2026 date located"
     },
     "revenue": []
   },
   "price": {
-    "last": 5.26,
-    "changePct": 14.1,
-    "rvol": 3.2,
-    "asOf": "2026-11-11",
-    "note": "Volume of ~14,484,661 shares vs a 30-day average of ~4,520,173 (rvol approximate)."
+    "last": 4.255,
+    "changePct": -2.41,
+    "asOf": "2026-11-16",
+    "source": "AAII",
+    "note": "Supersedes the 2026-11-11 $5.26 figure already on file; stock has pulled back from the post-data/offering-pricing spike."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "offering/dilution",
+      "headline": "PepGen closed its previously announced $125M public offering of 25,000,000 shares at $5.00/share",
+      "impact": "",
+      "source": "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-lifesciences-goodwin-advises-pepgen-public-offering"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "offering/dilution",
+      "headline": "PepGen announced pricing of a $125.0 million underwritten public offering of common stock: 25,000,000 shares at $5.00/share, plus a 30-day underwriter option on up to 3,750,000 additional shares",
+      "impact": "",
+      "source": "https://finviz.com/news/421351/pepgen-announces-pricing-of-125-million-public-offering"
+    },
     {
       "date": "2026-11-11",
       "type": "price move",
@@ -132,12 +145,31 @@
     }
   ],
   "conflicts": [
-    "Partial clinical hold status: one source describes the FREEDOM2 trial as under a partial U.S. clinical hold limiting enrollment at U.S. sites; this was not mentioned in the Q3 2026 earnings coverage reviewed here, so its current (as of 2026-11-13) status is unconfirmed.",
-    "Cash-runway framing: one older source cites a '$117 million runway' figure (apparently from an earlier quarter) versus the Q3 2026 release's $104.8M cash/marketable-securities figure as of 2026-09-30 — likely different points in time rather than a true contradiction, but the two should not be used interchangeably.",
-    "Market cap figure ($188.39M) is dated 2026-10-23, before the stock's rally to $5.26 on 2026-11-11, so it understates the company's market cap relative to the current share price."
+    "Partial clinical hold status: one source describes the FREEDOM2 trial as under a partial U.S. clinical hold limiting enrollment at U.S. sites; not mentioned in Q3 2026 earnings coverage, so current status (as of 2026-11-19) remains unconfirmed.",
+    "Market cap in this window: aggregator readings of ~$122.3M, ~$160.7M, and ~$170.4M were found, based on different dates/share counts; none is reconciled or reported as a single current figure."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -231,14 +263,23 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalyst since the 2026-11-17 pass; this pass only confirms the Q3 2026 EPS-vs-consensus read and leaves debt/next-earnings as genuinely unestablished.",
+  "notes": "New since last pass: PepGen priced and closed a $125M common-stock offering (25M shares at $5.00) on 2026-11-11/11-13, a dilutive event not previously on file. Stock has since pulled back to ~$4.26 (2026-11-16) from the $5.26 post-offering-announcement/data spike. Post-offering share count and market cap not sourced from a primary filing this pass.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "growth updated",
       "nextEarnings updated",
-      "debt updated"
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

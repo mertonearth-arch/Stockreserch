@@ -3,17 +3,18 @@
   "name": "FutureFuel Corp.",
   "sector": "Basic Materials / Industrials (specialty chemicals & biofuels)",
   "theme": "Specialty Chemicals & Biofuels",
-  "themeLabel": "nano-cap",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.633Z",
+  "lastResearched": "2026-11-19T21:31:29.121Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
       "asOf": "2026-10-05",
-      "source": "Equibles (price $5.10, 43.86M shares)"
+      "source": "Equibles (price $5.10, 43.86M shares)",
+      "note": "Predates the Nov 10 earnings-driven selloff; stale relative to current price"
     },
     "float": {
       "value": null,
@@ -33,13 +34,12 @@
     "cash": {
       "value": 21300000,
       "asOf": "2026-09-30",
-      "source": "Earnings Whispers / Q3 2026 results coverage",
-      "note": "Down from $34.3M at mid-year and $51.3M at the start of 2026; management targets rebuilding to $50M over the next year. $35M revolving credit line reported untouched (no debt drawn)."
+      "source": "Q3 2026 results coverage"
     },
     "debt": {
       "value": 0,
       "asOf": "2026-09-30",
-      "note": "No term debt identified; $35M revolving credit facility reported undrawn"
+      "note": "No term debt; $35M revolving credit facility reported undrawn"
     },
     "pe": {
       "trailing": null,
@@ -64,7 +64,7 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 361,
-      "note": "Biofuels segment revenue rose to $87.8M from $7.1M YoY; chemicals segment revenue rose modestly to $16.9M from $15.6M"
+      "note": "Biofuels segment revenue rose to $87.8M from $7.1M YoY"
     },
     "nextEarnings": {
       "date": null,
@@ -85,11 +85,11 @@
     ]
   },
   "price": {
-    "last": 2.84,
-    "changePct": -43.98,
-    "rvol": null,
-    "asOf": "2026-11-10",
-    "note": "Reported by Kalkine market-movers tracker against a 'calculated previous close' of $5.07; see conflicts regarding reliability of this move."
+    "last": 2.91,
+    "changePct": 2.83,
+    "asOf": "2026-11-13",
+    "source": "AAII",
+    "note": "Intraday figure, up from a prior close noted as the basis for the % change. Supersedes the 2026-11-10 $2.84 figure already on file; no quote newer than 2026-11-13 found this pass."
   },
   "catalysts": [
     {
@@ -98,6 +98,13 @@
       "headline": "FutureFuel declared a Q4 2026 cash dividend of $0.01/share, payable to shareholders of record 2026-12-04",
       "impact": "Routine capital-return announcement",
       "source": "https://kalkine.ca/news/industrials/why-did-futurefuel-nyseff-slump-4398-on-the-market-movers-list-on-november-10-2026"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "analyst action",
+      "headline": "Gabelli initiated analyst coverage of FutureFuel",
+      "impact": "",
+      "source": "MarketBeat headline aggregation"
     },
     {
       "date": "2026-11-11",
@@ -150,12 +157,27 @@
     }
   ],
   "conflicts": [
-    "The reported -43.98% single-day move to $2.84 on 2026-11-10 (Kalkine) is measured against a 'calculated previous close' of $5.07 and could not be corroborated by a second source; other (undated) quote aggregators show a price near $3.12 with a 52-week range of $3.09-$6.99. Given that Q3 2026 results showed a large revenue beat and a narrower-than-feared operating picture, this magnitude of decline is flagged as potentially a data/calculation artifact rather than confirmed market fact.",
+    "Nov 10, 2026 session close: Kalkine reports -43.98% to $2.84 against a 'calculated previous close' of $5.07; a separate aggregator (financialcontent) reports the same day's official close as $3.12, down 38.46%. Both describe the same Q3-earnings-reaction session but disagree on both the closing price and the magnitude of decline.",
     "Market cap: $224.58M (Equibles, 2026-10-05) vs $244.32M (Equibles, 2026-08-21) — different dates.",
     "Short interest: 1,211,016 shares / ~2.8% of shares outstanding (FINRA settlement 2026-09-15) vs 945,000 shares / 2.2% (2026-08-21 settlement)."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "growth updated",
+        "marketCap updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -253,15 +275,18 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalyst since the 2026-11-17 full pass on this name, which already captured the Q3 2026 print in detail. This pass only adds the cash/debt figures that were still null.",
+  "notes": "No new earnings/regulatory catalyst since the Q3 2026 print already on file; this pass adds a Gabelli coverage-initiation headline and an updated (and further-conflicting) price read.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
+      "1 new catalyst(s)",
+      "growth updated",
+      "marketCap updated",
       "cash updated",
-      "debt updated"
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

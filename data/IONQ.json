@@ -8,11 +8,11 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.640Z",
+  "lastResearched": "2026-11-19T21:31:29.125Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree: ~$12.49B at $28.88 (Nov 13 close, one aggregator) vs ~$12.68B at $29.54 (Ortex, Nov 5) vs ~$15.20B (MarketBeat, Nov 9 alert) — not reconciled, see conflicts.",
+      "note": "Sources disagree by billions across snapshot dates; not reconciled.",
       "asOf": "2026-11-13"
     },
     "float": {
@@ -21,17 +21,17 @@
     },
     "sharesOutstanding": {
       "value": 429410000,
-      "asOf": "2026-10/11 2026",
+      "asOf": "2026-10/11-2026",
       "source": "Ortex / Fox Business"
     },
     "shortInterest": {
       "value": null,
-      "note": "Reported only as % of float, not share count: 11.11% of free float, 2.1 days to cover (Ortex, 2026-11-03); 11.7% of free float at latest settlement, undated (Equibles). Both well down from a ~24% reading in May 2026 (Benzinga)."
+      "note": "Reported only as % of float: ~11.1%-11.7% of free float (Ortex/Equibles, early Nov), down from ~24% in May 2026"
     },
     "cash": {
       "value": 3700000000,
-      "asOf": "2026-11-06 (Q3 2026, pro forma for October equity offering)",
-      "source": "Company Q3 2026 earnings release (investors.ionq.com)"
+      "asOf": "2026-11-06",
+      "source": "Company Q3 2026 release, pro forma for October equity offering"
     },
     "debt": {
       "value": null,
@@ -40,14 +40,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 GAAP net income of ~$564M was driven almost entirely by a non-cash ~$896M gain on warrant liabilities, not operating profitability; non-GAAP adjusted EPS was -$0.29. A meaningful trailing P/E is not available.",
+      "note": "Q3 2026 GAAP net income driven by a ~$896M non-cash warrant-valuation gain, not operating profit; non-GAAP adjusted EPS was -$0.29. No meaningful P/E.",
       "asOf": "2026-11-06"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 1.42,
-        "basis": "GAAP basic (includes ~$896M non-cash warrant valuation gain)"
+        "basis": "GAAP basic (incl. ~$896M non-cash warrant gain)"
       },
       {
         "period": "Q3 2026",
@@ -72,7 +72,7 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 336,
-      "note": "IonQ Platform revenue $90.3M (+127%) driven by Tempo deployments; SkyWater Foundry Services added $83.5M following the SkyWater acquisition"
+      "note": "Revenue $173.8M vs $39.8M a year earlier; Platform revenue +127%, plus $83.5M from SkyWater Foundry Services"
     },
     "nextEarnings": {
       "date": null,
@@ -81,11 +81,12 @@
     }
   },
   "price": {
-    "last": 32.26,
+    "last": 26.45,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-07",
-    "note": "StockStory-cited price; a separate source cites a pre-earnings close of $29.54 on 2026-11-04 and a +23.42% move on 2026-11-06 — the exact day-over-day change is inconsistent across sources (see conflicts)."
+    "asOf": "2026-11-16",
+    "source": "Trefis (24/7 Wall St independently cites $26.48 same date)",
+    "note": "New 52-week low, undercutting the prior low set 2026-03-30. Part of a 5-session losing streak through 2026-11-17 that cut the stock ~25% (Trefis, 'IonQ Stock Is Down 25%', 2026-11-17). No confirmed close located for 2026-11-17 or 2026-11-18/19 itself."
   },
   "catalysts": [
     {
@@ -93,6 +94,13 @@
       "type": "management",
       "headline": "Gary Merrill named CFO, with start date expected around 2026-12-03 (announcement date not independently established this pass)",
       "source": "https://www.marketbeat.com/instant-alerts/price-ionq-nyse-ionq-shares-climb-85-heres-why-2026-11-09/"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "price move",
+      "headline": "IonQ extended a 5-session losing streak to a cumulative ~25% decline, with the Nov 16 close ($26.45-$26.48) undercutting the stock's prior 52-week low (set 2026-03-30)",
+      "impact": "New 52-week low",
+      "source": "https://www.trefis.com/stock/ionq/articles/625569/5-red-days-in-a-row-ionq-stock-is-down-25/2026-11-17 ; https://247wallst.com/cards/ionq-ionq-enriched-price-move-01m7kc28t57rr2jqjfqng8vtm7"
     },
     {
       "date": "2026-11-13",
@@ -228,11 +236,30 @@
     }
   ],
   "conflicts": [
-    "IonQ market cap: $12.49B at $28.88 (Nov 13 close) vs $12.68B at $29.54 (Ortex, Nov 5) vs $15.20B (MarketBeat, Nov 9) — not reconciled."
+    "IonQ market cap: $12.49B at $28.88 (Nov 13) vs $12.68B at $29.54 (Ortex, Nov 5) vs $15.20B (MarketBeat, Nov 9) — not reconciled.",
+    "Nov 16 close: $26.45 (Trefis) vs $26.48 (24/7 Wall St) — both describe it as a new 52-week low."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found beyond the CFO appointment already recorded by today's AM pass and the Nov 13 leadership-change release. Quiet pass.",
+  "notes": "Steep sector-wide quantum-stock decline continuing since mid-Nov; no new fundamental/earnings catalyst since the Nov 13 CFO-change disclosure already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -576,10 +603,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

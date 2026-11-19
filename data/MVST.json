@@ -8,16 +8,16 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.642Z",
+  "lastResearched": "2026-11-19T21:31:29.127Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
       "asOf": "2026-11-04",
-      "note": "Based on the $0.66 price and ~384.53M shares outstanding; likely stale post-earnings (Nov 9)."
+      "note": "Based on $0.66 price and ~384.53M shares; likely stale post-earnings"
     },
     "float": {
       "value": null,
-      "note": "Not established."
+      "note": "Not established"
     },
     "sharesOutstanding": {
       "value": 384530000,
@@ -26,22 +26,22 @@
     "shortInterest": {
       "value": 5.16,
       "asOf": "2026-11-04",
-      "note": "~19.8M shares short, ~5.16% of shares outstanding, ~6.3 days to cover, per one source; a second source (Ortex, 2026-10-20) reports short interest at 8.35% of free float — a different base, not directly comparable."
+      "note": "~19.8M shares, ~5.16% of shares outstanding; a separate Ortex reading of 8.35% of free float (Oct 20) uses a different base"
     },
     "cash": {
       "value": 124400000,
       "asOf": "2026-09-30",
-      "source": "SEC-filed Q3 2026 earnings press release (cash, cash equivalents and restricted cash)"
+      "source": "SEC-filed Q3 2026 earnings release"
     },
     "debt": {
       "value": 196000000,
       "asOf": "Q3 2026",
-      "note": "Debt due within the next 12 months, per Q3 2026 earnings coverage — a notable near-term liquidity item."
+      "note": "Debt due within 12 months"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company reported a large GAAP net loss in Q3 2026; trailing P/E not meaningful."
+      "note": "Large GAAP net loss in Q3 2026; not meaningful"
     },
     "eps": [],
     "growth": {
@@ -52,7 +52,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 date not yet found."
+      "note": "Q4/FY2026 date not found"
     },
     "revenue": [
       {
@@ -75,10 +75,18 @@
   "price": {
     "last": 0.66,
     "changePct": 10.03,
+    "rvol": null,
     "asOf": "2026-11-04",
-    "note": "Last reliably dated price found, from before the Nov 9, 2026 Q3 earnings release. Post-earnings price could not be confirmed before this pass's search budget ran out."
+    "note": "Last reliably dated price found, from before the Nov 9 Q3 earnings release. No confirmed post-earnings closing price located this pass either."
   },
   "catalysts": [
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "Q3 2026: revenue $45.8M (-62.8% YoY) missing ~$74.2M consensus; gross margin collapsed to 5.2% from 37.6% (incl. a $9.3M inventory write-down); net loss $76.8M incl. $35.7M impairment; cash $124.4M vs $196M of debt due within 12 months (incl. $41.7M convertible bonds due Jan 31, 2027); company disclosed substantial doubt about its ability to continue as a going concern",
+      "impact": "Stock reportedly fell ~48.5% the following session (not independently re-confirmed)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001760689/000162828026072310/mvst2026q3ex991earningspre.htm"
+    },
     {
       "date": "2026-11-09",
       "type": "earnings",
@@ -102,12 +110,31 @@
     }
   ],
   "conflicts": [
-    "Short interest basis differs: 5.16% of shares outstanding (Nov 4 snapshot) vs 8.35% of free float (Ortex, Oct 20) — not directly comparable.",
-    "Shares outstanding/market cap: 384.53M shares / $232.37M cap (Nov 4) vs a clearly stale figure of $449.90M at $0.50/share vs an older figure of 326.50M shares / ~$757M cap tied to an outdated earnings-date listing.",
-    "Price: $0.66 (Nov 4, dated) vs undated $0.6373 and $0.92 figures found elsewhere that could not be placed in time."
+    "Short interest basis differs: 5.16% of shares outstanding (Nov 4) vs 8.35% of free float (Ortex, Oct 20) — not directly comparable.",
+    "Post-earnings liquidity: company's own Q3 filing shows $124.4M cash as of Sept 30, 2026, while a secondary analysis (Panabee) cites $71.3M of 'usable cash' as of Oct 31, 2026 — different bases/dates, not reconciled.",
+    "Price: $0.66 (Nov 4, dated) vs undated $0.6373 and $0.92 figures found elsewhere."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 10.03%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -195,12 +222,23 @@
       "from": "daily"
     }
   ],
-  "notes": "Could not find a dated post-Q3-earnings price or any new catalyst; search returned only stale pre-2026-11 snapshots. Quiet pass.",
+  "notes": "No new dated catalyst or confirmed post-earnings price found this pass; going-concern situation (per Q3 release) remains the dominant live issue.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 10.03%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -3,16 +3,16 @@
   "name": "bioAffinity Technologies, Inc.",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "story stock",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-18T21:17:39.649Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.134Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "a figure of $5.9M was found in one source but looks inconsistent with any plausible share count at a ~$3 share price; treated as unreliable and excluded"
+      "note": "a figure of $5.9M was found in one source but looks inconsistent with any plausible share count at the current share price; treated as unreliable and excluded"
     },
     "float": {
       "value": null,
@@ -37,7 +37,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; company is pre-profitability with ongoing losses",
+      "note": "negative earnings; company is pre-profitability with ongoing losses and going-concern doubt",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -45,7 +45,7 @@
         "period": "Q3 2025",
         "value": -4.74,
         "basis": "GAAP",
-        "note": "prior-year comparable quarter only; Q3 2026 per-share loss not found in sources reviewed"
+        "note": "prior-year comparable quarter; Q3 2026 per-share loss not located, though aggregate net loss of ~$5.3M (vs ~$5.1M in Q3 2025) was reported"
       }
     ],
     "revenue": [
@@ -60,21 +60,28 @@
       "metric": "CyPath Lung test volume YoY (nine-month)",
       "period": "9M 2026 vs 9M 2025",
       "pct": 109,
-      "note": "1,620 tests performed in the first nine months of 2026 vs 775 in the same period of 2025"
+      "note": "unchanged from last pass; one source separately gives Q3 2026 revenue of ~$1.1M, down 25.9% YoY from $1.4M"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "three conflicting dates found for the Q3 2026 report itself (Nov 6, Nov 13, Nov 18, 2026), yet a Q3 2026 results press release already appears in search results"
+      "note": "TradingView lists 2026-11-18 as a 'next earnings' estimate, but Q3 2026 results (revenue, net loss) already appear to have been released/covered around 2026-11-05/11-06 per biospace.com and a BioPharmaWatch summary last-updated 2026-11-06 — the Nov 18 listing is likely a stale scheduling artifact, not a distinct unreported event"
     }
   },
   "price": {
-    "last": 3.04,
+    "last": 2.2,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-10-29"
+    "asOf": "2026-11-13",
+    "source": "Daily Political (referencing that Friday's close); StockInvest/QuiverQuant independently corroborate a $2.26 close on 2026-11-09, confirming the decline from the ~$3.04 level on file as of 2026-10-29"
   },
   "catalysts": [
+    {
+      "date": "2026-11-15",
+      "type": "analyst action",
+      "headline": "Wall Street Zen downgraded bioAffinity Technologies (BIAF) to 'Sell'",
+      "source": "dailypolitical.com"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -242,13 +249,29 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 report date: conflicting estimates of Nov 6, 2026, Nov 13, 2026, and Nov 18, 2026 were found, yet a 'bioAffinity Technologies Reports Third Quarter 2026 Results' press release already appears in search results — suggesting the report has likely already been released, with the exact date unconfirmed.",
-    "Price: $3.04 (Benzinga, 2026-10-29) vs $3.17 (Motley Fool, 2026-10-22) vs $3.35 (Investing.com, undated) vs $6.15 (AllInvestView, undated) vs $15.27 (another source, undated, likely stale/erroneous) — wide, unreconciled dispersion.",
-    "A trading halt was referenced for 2026-10-08 in one source without further detail; not independently confirmed."
+    "Price: $2.20 (~2026-11-13, Daily Political) / $2.26 (2026-11-09, StockInvest & QuiverQuant, two independent sources agree) vs $3.04 (Benzinga, 2026-10-29) vs $3.17 (Motley Fool, 2026-10-22) — stock has declined materially through November.",
+    "Q3 2026 report date: conflicting estimates of Nov 6, Nov 13, and Nov 18, 2026 were found; results appear to have already been released around Nov 5-6 per other sources.",
+    "A separate Investing.com page showed an obviously erroneous price artifact (14,476.00) dated Nov 19 — disregarded as a page/data error, not a genuine source disagreement."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts or fundamentals located beyond the 2026-11-17 pass; genuinely quiet.",
+  "notes": "Price has fallen from ~$3.04 (2026-10-29, prior pass) to ~$2.20-2.26 in November; new Wall Street Zen Sell rating (2026-11-15) is the only new dated catalyst found this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -562,10 +585,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

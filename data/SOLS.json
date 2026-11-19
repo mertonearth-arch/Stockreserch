@@ -1,70 +1,58 @@
 {
   "ticker": "SOLS",
   "name": "Solstice Advanced Materials, Inc.",
-  "sector": "Diversified Advanced Materials",
+  "sector": "Materials",
   "theme": "Advanced Materials",
   "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.670Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.148Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Conflicting dated snapshots found; none confirmed for 2026-11-13"
+      "note": "Conflicting dated snapshots; none confirmed for mid-November."
     },
-    "float": {
-      "value": null,
-      "asOf": null,
-      "note": "not separately disclosed in sources found this session"
-    },
+    "float": null,
     "sharesOutstanding": {
       "value": null,
-      "note": "Conflicting figures across filings/aggregators; no single figure confirmed"
+      "note": "Conflicting figures across filings/aggregators; no single figure confirmed."
     },
-    "shortInterest": {
-      "value": null,
-      "asOf": null,
-      "note": "not found this session"
-    },
-    "cash": {
-      "value": null,
-      "asOf": null,
-      "note": "FY2026 10-Q not retrieved this session (WebFetch failure)"
-    },
-    "debt": {
-      "value": null,
-      "asOf": null,
-      "note": "FY2026 10-Q not retrieved this session (WebFetch failure)"
-    },
+    "shortInterest": null,
+    "cash": null,
+    "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
       "note": "Not found; likely negative/pre-scale earnings",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": 0.5,
+        "basis": "GAAP",
+        "note": "vs -$0.22 in Q3 2025"
+      }
+    ],
     "revenue": [],
     "growth": {
-      "metric": "revenue YoY",
-      "period": null,
-      "pct": null,
-      "note": "Revenue/growth figures not found this pass"
+      "metric": "net sales YoY",
+      "period": "Q3 2026",
+      "pct": 8,
+      "note": "Q3 2026 net sales $1,046M, +8% YoY"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false,
-      "note": "Not found"
+      "confirmed": false
     }
   },
   "price": {
     "last": 58,
-    "changePct": null,
-    "rvol": null,
     "asOf": "2026-11-06",
-    "source": "benzinga.com",
-    "note": "other sources show $62.91 (stockevents, undated) and $81.02 (MarketBeat, likely stale) for around the same period"
+    "source": "Benzinga",
+    "note": "Tickertape shows $58.72 on 2026-11-05, broadly consistent. Other sources show $62.91 (stockevents, undated) and $81.02 (MarketBeat, likely stale)."
   },
   "catalysts": [
     {
@@ -179,14 +167,33 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M, 7.47M, and 7,745,683 from separate data aggregators — not reconciled",
-    "Market cap: $48.27M (price $5.78 x 8.51M shares, ~2026-10-08) vs $79.51M vs $91.24M (7,745,683 shares) from different aggregators — not reconciled",
-    "Beneficial ownership by G3: one 8-K states ~51.4% of outstanding shares; a separate filing states 'in excess of 20%' — may reflect different dates but not reconciled here",
-    "Price ~2026-11-06: $58.00 (benzinga.com) vs $62.91 (stockevents.app, undated) vs $81.02 (MarketBeat, likely stale) — not reconciled this pass"
+    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M / 7.47M / 7,745,683 from aggregators — not reconciled.",
+    "Market cap: $48.27M vs $79.51M vs $91.24M from different aggregators — not reconciled.",
+    "Price ~2026-11-06: $58.00 (Benzinga) vs $62.91 (stockevents, undated) vs $81.02 (MarketBeat, likely stale)."
   ],
   "pendingFilings": [],
-  "notes": "No news dated 2026-11-17/18 found. Most recent corporate news (Element Solutions merger termination + buyback authorization, Barclays initiation) already on file from prior passes. Price/share-count conflicts noted previously remain unresolved this pass (sources still disagree, e.g. $56.65 vs $81.02 vs $49.71 across undated snapshots) — not re-confirmed, left as-is rather than guessing.",
+  "notes": "No new dated catalyst found this pass beyond the Nov 9 foam-blowing-agent milestone, Nov 4 Q3 earnings (raised FY2026 guidance), and Nov 3 dividend declaration, all already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -533,10 +540,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

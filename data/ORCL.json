@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.644Z",
+  "lastResearched": "2026-11-19T21:31:29.128Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
       "asOf": "2026-11-11",
-      "source": "Motley Fool (fool.com), counting only publicly traded shares"
+      "source": "Motley Fool, publicly traded shares only"
     },
     "float": {
       "value": null,
@@ -21,24 +21,24 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "Sources disagree sharply post-offering: one aggregator reports 3,023,740,000 shares as of 2026-11-05; the company's own 10-K reports 2,880,471,000 shares as of 2026-06-12 (pre-offering). The post-offering count should be higher than the 10-K figure given the Nov 4 share issuance below, making ~3.02B plausible, but it is not confirmed against a primary filing this pass."
+      "note": "One aggregator reports ~3.024B shares (Nov 5, post-offering) vs the 10-K's 2.880B (as of 2026-06-12, pre-offering); not confirmed against a primary filing"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found / not meaningfully tracked for a large-cap like ORCL in sources reviewed"
+      "note": "Not found / not meaningfully tracked for a large-cap of this size"
     },
     "cash": {
       "value": null,
-      "note": "Not found in reachable sources this pass"
+      "note": "Not found in reachable sources"
     },
     "debt": {
       "value": null,
-      "note": "Not found in reachable sources this pass"
+      "note": "Not found in reachable sources"
     },
     "pe": {
       "trailing": 19.76,
       "forward": null,
-      "note": "Motley Fool TTM EPS $6.38 at price $125.88; other sources (Yahoo 24.43/40.54, Invezz 25.49) disagree and are undated/unreconciled, see conflicts",
+      "note": "Motley Fool TTM EPS $6.38 at $125.88; other sources (Yahoo 24.43-40.54, Invezz 25.49) disagree and are undated",
       "asOf": "2026-11-11"
     },
     "eps": [
@@ -63,15 +63,16 @@
     "nextEarnings": {
       "date": "2026-12-14",
       "confirmed": false,
-      "note": "Reported after market close per one aggregator; not independently confirmed via Oracle IR"
+      "note": "Unconfirmed via Oracle IR"
     }
   },
   "price": {
     "last": 128.38,
-    "changePct": null,
+    "changePct": 8.82,
     "rvol": null,
     "asOf": "2026-11-11",
-    "note": "Most recent reasonably-sourced closing price found (Motley Fool), reported as down ~33.25% YTD 2026 (from $192.34 at 2025 year-end). No confirmed closing price or daily % change for 2026-11-13 found; 52-week range cited as $109.21-$250.25."
+    "source": "financial content aggregator (via WebSearch)",
+    "note": "Rose from a $117.98 prior close (Nov 10) to $128.38 (Nov 11), +8.82%. Subsequently fell again: a TradingKey item reports ORCL moved down 3.48% on Nov 17, 2026, but gives no dollar close. No confirmed closing price for Nov 17-19 was located."
   },
   "catalysts": [
     {
@@ -80,6 +81,13 @@
       "headline": "Next quarterly earnings report expected (date unconfirmed)",
       "impact": "Will be the next scheduled read on cloud/AI infrastructure demand and capex/debt trajectory following the stock's sharp 2026 decline",
       "source": "Aggregator search result (unconfirmed); verify via Oracle investor relations"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "corporate governance",
+      "headline": "Oracle held its 2026 Annual Meeting of Stockholders (virtual, 9:00am CT); ballot included election of 13 directors, advisory say-on-pay vote, ratification of Ernst & Young as auditor, and a stockholder proposal on shareholder-proposal access rights",
+      "impact": "Routine governance event; vote tallies (normally disclosed via 8-K) not yet located",
+      "source": "https://www.morningstar.com/news/pr-newswire/20261106sf87974/oracles-annual-meeting-of-stockholders-to-be-held-november-18-2026"
     },
     {
       "date": "2026-11-18",
@@ -93,6 +101,20 @@
       "type": "corporate event",
       "headline": "Oracle's 2026 Annual Meeting of Stockholders scheduled",
       "source": "https://investor.oracle.com/investor-news/news-details/2026/ORACLES-ANNUAL-MEETING-OF-STOCKHOLDERS-TO-BE-HELD-NOVEMBER-18-2026/default.aspx"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "price move",
+      "headline": "ORCL shares moved down 3.48% amid continued AI-infrastructure-financing jitters and the broader chip/AI-stock weakness around NVIDIA's earnings",
+      "impact": "-3.48%",
+      "source": "https://www.tradingkey.com/news/market-movers/262309337-market-movers-orcl-20261117"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "price move",
+      "headline": "ORCL rose 8.82% to $128.38 from a $117.98 prior close, as cloud-demand optimism offset lingering AI-financing-risk concerns",
+      "impact": "+8.82%",
+      "source": "https://finchannel.com/oracle-stock-jumps-8-82-as-cloud-demand-meets-funding-risks/141268/american-business-trends/stock-prices/2026/11/"
     },
     {
       "date": "2026-11-06",
@@ -226,12 +248,30 @@
     }
   ],
   "conflicts": [
-    "Post-Nov-4-offering share price: $115.00 close (Fox Business, Nov 6) vs $119.12 (Trefis, Nov 10) vs $125.35 (one unverified source, Nov 13) vs $128.38 already on file (Motley Fool, Nov 11) — not reconciled; none treated as more authoritative than another this pass.",
-    "Shares outstanding post-offering: ~3,023,740,000 (one aggregator, Nov 5) vs 2,880,471,000 per the company's 10-K (as of 2026-06-12, pre-offering) — see fundamentals note."
+    "Shares outstanding post-offering: ~3.024B (one aggregator, Nov 5) vs 2.880B per the 10-K (as of 2026-06-12, pre-offering) — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Added the Nov 2-4 equity/debt offering as new dated catalysts; shares-outstanding and price both remain unreconciled across vendors post-offering.",
+  "notes": "2026 Annual Meeting occurred Nov 18 but vote results (normally an 8-K) not yet found. Price action remains volatile around AI-capex financing concerns; no outcome yet on the annual-meeting vote tallies.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 8.82%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -478,12 +518,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
+      "3 new catalyst(s)",
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 8.82%",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -1,18 +1,18 @@
 {
   "ticker": "AFRM",
   "name": "Affirm Holdings, Inc.",
-  "sector": "Financial Services",
+  "sector": "Financials",
   "theme": "Fintech & Consumer Credit",
-  "themeLabel": "hot sector",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.646Z",
+  "lastResearched": "2026-11-19T21:31:29.132Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "conflicting figures found, see conflicts; no single figure confirmed"
+      "note": "Still no single confirmed figure. New sightings this pass: Motley Fool ~$24.86B with 339.02M shares at $73.32 (2026-10-28); Simply Wall St ~$24.247B with 334.90M shares (2026-07-29, stale). Neither is dated to November 19 or reconciled with the $68.11 price on file."
     },
     "float": {
       "value": null,
@@ -20,7 +20,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "not retrieved this pass"
+      "note": "Conflicting: 339.02M (Motley Fool, 2026-10-28) vs 334.90M (Simply Wall St, 2026-07-29) vs 337.42M (Equibles, undated) vs 337.14M (DefiLlama, Q1 2026). Not reconciled."
     },
     "shortInterest": {
       "value": null,
@@ -37,15 +37,14 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this pass; company has reported positive non-GAAP EPS but GAAP profitability/trailing PE not confirmed",
-      "asOf": "2026-11-13"
+      "note": "not established this pass; GAAP profitability/trailing PE not confirmed"
     },
     "eps": [
       {
         "period": "fiscal Q1 2027 (quarter ended ~2026-09-30)",
         "value": 0.47,
         "basis": "non-GAAP",
-        "note": "beat consensus of $0.35; GAAP EPS not found"
+        "note": "beat consensus of $0.35; GAAP EPS reported elsewhere as $0.47-0.48 per shareholder letter coverage, sources vary"
       }
     ],
     "revenue": [
@@ -59,20 +58,21 @@
     "growth": {
       "metric": "GMV YoY",
       "period": "fiscal Q1 2027",
-      "pct": 34,
-      "note": "CEO Max Levchin described 30%+ GMV growth as a floor; take rate was 4.3%."
+      "pct": 34
     },
     "nextEarnings": {
       "date": "2027-02-04",
       "confirmed": false,
-      "note": "TIKR estimate, consistent with fiscal Q2 reporting cadence (fiscal year ends June 30); one other source cited Nov 26, 2026 but that looks inconsistent with Affirm's historical schedule"
+      "note": "unchanged TIKR estimate"
     }
   },
   "price": {
     "last": 68.11,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-06"
+    "asOf": "2026-11-06",
+    "source": "unchanged from file",
+    "note": "A separate source (Fox Business) shows $69.66 also dated 'Nov 6'; treated as a minor conflict rather than a correction."
   },
   "catalysts": [
     {
@@ -189,11 +189,28 @@
     }
   ],
   "conflicts": [
-    "Market cap / shares outstanding: sources disagree and are inconsistently dated — Simply Wall St (updated 2026-07-29): $24.247B mkt cap, 334.90M shares; Equibles (undated, 'Oct 20'): $25.21B mkt cap, 337.42M shares; DeFiLlama (undated): $24.954B at $74.01/share. No single figure could be confirmed as current for this pass; marketCap and sharesOutstanding left null rather than picking one."
+    "Market cap / shares outstanding: existing conflict (Simply Wall St $24.247B/334.90M vs Equibles $25.21B/337.42M vs DeFiLlama $24.954B) widened this pass with a Motley Fool $24.86B/339.02M (2026-10-28) sighting. No single figure confirmed; left null.",
+    "Price: $68.11 (2026-11-06, on file) vs $69.66 (Fox Business, also labeled Nov 6) — minor, not resolved."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the Nov 5 fiscal Q1 2027 earnings cluster already on file. Attempted to resolve the standing market-cap/shares-outstanding gap this pass; found only conflicting, variously-dated third-party snapshots — logged as a conflict rather than guessed. Quiet pass otherwise.",
+  "notes": "No new dated catalysts since the fiscal Q1 2027 earnings print (2026-11-05, already on file). No reliably dated post-11/06 quote found this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -568,10 +585,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
       "conflicts updated"
     ],
     "tradingDay": true

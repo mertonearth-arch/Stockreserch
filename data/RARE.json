@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.669Z",
+  "lastResearched": "2026-11-19T21:31:29.147Z",
   "fundamentals": {
     "marketCap": {
-      "value": 1660000000,
-      "asOf": "2026-11-03",
-      "source": "equibles.com",
-      "note": "other sources show materially different figures from other dates"
+      "value": 1585000000,
+      "asOf": "2026-11-13",
+      "source": "derived: 98.59M shares (equibles, 2026-11-03) x $16.08",
+      "note": "Other sources show materially different figures from other dates."
     },
     "float": null,
     "sharesOutstanding": {
@@ -27,14 +27,14 @@
       "value": 401000000,
       "asOf": "2026-09-30",
       "source": "SEC 10-Q / Q3 2026 earnings release",
-      "note": "down from $737M at 2025-12-31; net cash used in operations was $43M for the quarter"
+      "note": "down from $737M at 2025-12-31"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
       "note": "negative earnings (Q3 2026 loss of $1.16/share)",
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
@@ -53,21 +53,21 @@
     ],
     "growth": {
       "metric": "revenue YoY",
+      "period": "Q3 2026",
       "pct": null,
-      "note": "prior-year comparable not located this pass"
+      "note": "Q3 2026 revenue $173.0M, missed $184.25M consensus by 6.1%; prior-year comparable not located."
     },
     "nextEarnings": {
       "date": "2027-02-11",
       "confirmed": false,
-      "note": "third-party estimate found this pass (earnings-calendar aggregator); not company-confirmed"
+      "note": "third-party estimate; not company-confirmed"
     }
   },
   "price": {
-    "last": 16.63,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-03",
-    "source": "equibles.com"
+    "last": 16.08,
+    "asOf": "2026-11-13",
+    "source": "Motley Fool (via search)",
+    "note": "Close to the file's prior $16.63 (2026-11-03, equibles.com); treated as a minor refresh, not a conflict."
   },
   "catalysts": [
     {
@@ -286,12 +286,27 @@
     }
   ],
   "conflicts": [
-    "Market cap: $1.66B at $16.63 (2026-11-03, equibles.com) vs $2.61B (Yahoo Finance, 2026-08-14) vs $2.21B (ROIC.ai) vs a clearly erroneous $46.19B figure on TipRanks (excluded as a data error)",
-    "Stock price around the earnings date given as both $16.30 (close, Nov 2) and $16.63 (Nov 3) by different sources — minor, likely consecutive-day closes"
+    "Market cap: $1.66B at $16.63 (2026-11-03) vs $2.61B (Yahoo, 2026-08-14) vs $2.21B (ROIC.ai) vs an erroneous $46.19B on TipRanks (excluded).",
+    "Fayuvi PRV sale (~$203M) was reported as 'expected to close later in November 2026' but no specific closing date was found — not recorded as a dated catalyst for that reason."
   ],
   "pendingFilings": [],
-  "notes": "Added four October PRV-sale and EMA-validation catalysts found this pass (not previously on file); otherwise no catalyst dated Nov 17-18 found. Fundamentals/conflicts otherwise unchanged.",
+  "notes": "No new dated catalyst beyond the Nov 3-4 earnings/restructuring/Wilson-discontinuation already on file.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -615,11 +630,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "4 new catalyst(s)"
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "cash updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

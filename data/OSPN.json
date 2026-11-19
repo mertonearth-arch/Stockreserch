@@ -8,7 +8,7 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.666Z",
+  "lastResearched": "2026-11-19T21:31:29.144Z",
   "fundamentals": {
     "revenue": [
       {
@@ -45,45 +45,52 @@
       "pct": 12
     },
     "sharesOutstanding": {
-      "value": 36850000,
-      "asOf": "2026-10-23",
-      "source": "Fox Business"
+      "value": 36890000,
+      "asOf": "2026-11-13",
+      "source": "massive.com",
+      "note": "Consistent with the 36.85M already on file"
     },
     "shortInterest": {
       "value": null,
-      "note": "Sources disagree and are both pre-earnings/stale: see conflicts.",
-      "asOf": null
+      "asOf": null,
+      "note": "Multiple conflicting dated readings found — see conflicts"
     },
     "cash": {
       "value": 51000000,
       "asOf": "2026-09-30",
       "source": "third-party coverage of OneSpan Q3 2026 results",
-      "note": "down from $71M at start of FY2026; not independently confirmed against the 10-Q"
+      "note": "Down from $71M at start of FY2026; not independently confirmed against the 10-Q"
     },
-    "debt": null,
+    "debt": {
+      "value": null
+    },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Conflicting trailing P/E found (see conflicts); no reliable current forward P/E located",
+      "note": "Conflicting trailing P/E found previously; no reliable current forward P/E located",
       "asOf": "2026-11-18"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "FY2026 results would typically follow around Feb 2027; still not announced (unchanged from prior pass)."
+      "note": "FY2026 results would typically follow around Feb 2027; still not announced"
     },
     "marketCap": {
-      "value": null,
-      "asOf": "2026-11-18",
-      "note": "Conflicting figures found this pass; see conflicts"
+      "value": 823120000,
+      "asOf": "2026-11-13",
+      "source": "massive.com"
     },
-    "float": null
+    "float": {
+      "value": null
+    }
   },
   "price": {
-    "last": 21.88,
-    "asOf": "2026-11-11",
-    "source": "MarketScreener (via WebSearch)",
-    "note": "Up ~70% YTD per same source; down ~7% in the week prior to Nov 11."
+    "last": 22.31,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "source": "Quiver Quant",
+    "note": "Two AAII intraday snapshots for 2026-11-17 (3:31pm CST) show $22.05 and $22.00 (down ~3.2% from previous close), but neither is a confirmed official close."
   },
   "catalysts": [
     {
@@ -132,12 +139,28 @@
     }
   ],
   "conflicts": [
-    "Price quotes found ($12.61 as of 2025-12-18 vs $17.70, undated) are from non-current, unreconciled dates",
-    "Market cap: Fox Business $695.40M (2026-10-23, 36.85M shares) vs YCharts $821.80M (2026-11-13) — not reconciled",
-    "Trailing P/E: Fox Business 10.59 (2026-10-23) vs YCharts 12.31 (2026-11-13) — not reconciled"
+    "Short interest settlement dates/figures disagree: massive.com ~3.5M shares short / 3.3 days to cover as of 2026-10-30; equibles.com reports a September settlement of 3.7M shares / 10.1% of float / 10.3 days; curvedtrading.com (FINRA-based) reports 3.6M shares / 5.2 days for the 2026-09-30 settlement and 4.0M shares / 10.0 days for the 2026-09-15 settlement."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -310,15 +333,20 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst found this pass beyond the Nov 13 dividend declaration already on file. Filled previously-null marketCap/sharesOutstanding/P-E fields; marketCap and trailing P/E remain unresolved due to source conflicts.",
+  "notes": "No new dated catalyst beyond the Nov 13 dividend declaration already on file. Price has drifted down slightly from the $22.31 Nov 13 close to ~$22.00-22.05 intraday on Nov 17; no confirmed Nov 18/19 close found via reachable sources this pass.",
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
       "pe updated",
+      "nextEarnings updated",
       "marketCap updated",
+      "float updated",
       "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

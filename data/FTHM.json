@@ -7,48 +7,50 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-18T21:17:39.660Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-19T21:31:29.139Z",
   "fundamentals": {
     "marketCap": {
       "value": 19940000,
       "asOf": "2026-10-05",
-      "source": "aggregator snapshot (price $0.22 x ~34.21M shares outstanding; now stale given the Oct 30 price of $0.179)"
+      "note": "carried forward; now stale given the $0.18 Oct 30 price"
     },
     "float": {
       "value": 20610000,
       "asOf": "2026-10-05",
-      "source": "Fox Business / Stockmarketwatch (float ~20.6-20.7M, ~63% of shares outstanding)"
+      "source": "Fox Business / Stockmarketwatch (carried forward)"
     },
     "sharesOutstanding": {
       "value": 34210000,
-      "asOf": "2026-10-05"
+      "asOf": "2026-10-05",
+      "note": "carried forward"
     },
     "shortInterest": {
       "value": 1.5,
       "asOf": "2026-10-05",
-      "note": "Reported as 1.5% of float with 5.8 days to cover by one source; a second source gives 2.03% of float and 1.5 days to cover"
+      "note": "carried forward; conflicting readings between sources"
     },
     "cash": {
-      "value": 4500000,
-      "asOf": "2026-06-30",
-      "source": "Q2 FY2026 10-Q (carried forward)"
+      "value": 3600000,
+      "asOf": "2026-09-30",
+      "note": "Cash including restricted cash; updates prior $4.5M (2026-06-30) figure. Against this, $5M of Senior Secured Convertible Notes was due (maturity date has been extended via amendments).",
+      "source": "Panabee summary of 10-Q"
     },
     "debt": {
       "value": null,
-      "note": "carried forward; not located"
+      "note": "Not located as a total figure; the $5M convertible notes balance is the known near-term obligation"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Company has recurring GAAP losses; trailing P/E not meaningful."
+      "note": "recurring GAAP losses"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": null,
         "basis": "GAAP",
-        "note": "Net loss of $21.8M reported; a per-share figure was not found in sources reviewed this session (AP wire snapshot and a third-party aggregator did not state EPS)."
+        "note": "Net loss of $21.76M (includes a $12.09M impairment charge); per-share figure not found in sources reviewed"
       }
     ],
     "revenue": [
@@ -72,13 +74,14 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 now reported; Q4 FY2026 / full-year date not yet scheduled per sources found."
+      "note": "not scheduled per sources found"
     }
   },
   "price": {
-    "last": 0.179,
+    "last": 0.18,
     "asOf": "2026-10-30",
-    "note": "Described by one source as down 58.88% month-to-date as of this print. More recent undated quotes conflict and could not be dated or trusted; no verified Nov 12-13 close found."
+    "source": "aggregator snapshot",
+    "note": "Consistent with the $0.179 figure already on file; no more-recent dated quote found."
   },
   "catalysts": [
     {
@@ -88,6 +91,12 @@
       "impact": "Steep revenue, transaction, and agent-count declines; net loss nearly tripled quarter-over-quarter",
       "source": "https://wtop.com/national/2026/11/fathom-holdings-q3-earnings-snapshot/ ; https://www.panabee.com/news/fathom-earnings-q3-2026",
       "note": "Company's own primary press release/8-K was not located and could not be independently verified this session; figures are from an AP wire snapshot and a third-party aggregator."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "debt restructuring",
+      "headline": "Fathom executed a Third Omnibus Amendment to its Senior Secured Convertible Promissory Notes, including a provision deferring interest; Chairman Scott Flanders participated in the amendment as a noteholder",
+      "source": "panabee.com"
     },
     {
       "date": "2026-10-05",
@@ -178,14 +187,30 @@
       "source": "company press release"
     }
   ],
-  "conflicts": [
-    "Short interest base/metric differs by source: 1.5% of float with 5.8 days to cover vs 2.03% of float / 420.1K shares short with 1.5 days to cover for what appears to be a similar period.",
-    "Shares outstanding: 34.21M (Oct 5, 2026) vs 33.79M (YCharts, Jun 30 2026) vs ~32.8M (Equibles/ChartExchange) vs a stale 21.01M (StockAnalysis).",
-    "Price snapshots of $0.73 and $0.9387 (undated) are far above the dated $0.179 (Oct 30, 2026) figure and could not be reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst beyond the Nov 13 Q3 2026 earnings already on file. A $0.18 price snapshot (Oct 29-30) surfaced but is older than the $0.179 (2026-10-30) already on file and does not update it. Quiet pass.",
+  "notes": "Separately, an Aug 21, 2026 8-K (found this pass) shows a Nasdaq bid-price deficiency notice with a compliance deadline of 2026-02-17, i.e. stock must close >=$1.00 for 10 consecutive sessions before then or face a delisting notice -- distinct from the now-resolved Q1 2026 late-10-Q compliance matter.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -478,10 +503,22 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

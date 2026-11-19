@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T05:29:39.694Z",
+  "lastResearched": "2026-11-19T21:31:29.128Z",
   "fundamentals": {
     "marketCap": {
       "value": 34120000000,
@@ -17,7 +17,7 @@
     },
     "float": {
       "value": null,
-      "note": "not separately disclosed in sources found"
+      "note": "Not separately disclosed"
     },
     "sharesOutstanding": {
       "value": 174820000,
@@ -32,22 +32,21 @@
     },
     "cash": {
       "value": null,
-      "note": "not located this pass"
+      "note": "Not located"
     },
     "debt": {
       "value": null,
-      "note": "not located this pass"
+      "note": "Not located"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established from a reliable source this pass",
-      "asOf": "2026-11-13"
+      "note": "Not established from a reliable source"
     },
     "eps": [
       {
-        "period": "Q1 FY2027",
-        "value": 0.91,
+        "period": "Q2 FY2027",
+        "value": 1.05,
         "basis": "non-GAAP"
       }
     ],
@@ -60,27 +59,41 @@
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027",
-      "pct": 11,
-      "note": "most recent quarter found this pass; Q2 FY2027 results were not located"
+      "period": "Q2 FY2027",
+      "pct": 10.6
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": true
+      "confirmed": true,
+      "note": "A separate source (Earnings Whispers) lists Nov 25, 2026 instead; company-sourced coverage (finviz, citing Okta's own announcement) confirms Dec 1 — treated as more authoritative"
     }
   },
   "price": {
     "last": 178.97,
     "changePct": -2.13,
+    "rvol": null,
     "asOf": "2026-11-16",
-    "source": "aaii.com"
+    "source": "aaii.com (2:01pm CST intraday read, not an official close)",
+    "note": "Prior close $182.87 (Nov 13). No confirmed closing price for Nov 17-19 found."
   },
   "catalysts": [
     {
       "date": "2026-11-10",
       "type": "price move",
+      "headline": "Total return -21.5% over the Oct 12-Nov 10, 2026 window vs S&P 500 -3.6%",
+      "source": "Trefis"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "price move",
       "headline": "Total return -21.5% over the Oct 12 - Nov 10, 2026 window vs S&P 500 -3.6% over the same window; shares fell 6.14% from a prior close of $221.86 to $208.24 in one session in this stretch",
       "source": "Trefis (via WebSearch)"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "index",
+      "headline": "Okta's addition to the S&P 500 became effective, replacing Kenvue Inc.",
+      "source": "https://press.spglobal.com/2026-10-30-Okta-Set-to-Join-S-P-500-Others-to-Join-S-P-MidCap-400-and-S-P-SmallCap-600"
     },
     {
       "date": "2026-11-04",
@@ -208,11 +221,30 @@
     }
   ],
   "conflicts": [
-    "Current share price not independently confirmed this pass: $208.24 appears mid-window per Trefis narrative (exact date of that print unclear) vs the $209.11 (2026-09-30) already on file, which is now well stale. Not overwriting the price field given the ambiguity."
+    "Next earnings date: Dec 1, 2026 (Okta/finviz) vs Nov 25, 2026 (Earnings Whispers) — not reconciled.",
+    "Current price not independently confirmed: $178.97 (Nov 16 intraday) is the most recent reading found; no official close for Nov 17-19."
   ],
   "pendingFilings": [],
-  "notes": "Price refreshed; Dec 1 FY2027 earnings date reconfirmed (already on file). No new catalyst beyond items already on file.",
+  "notes": "No new catalyst found beyond items already on file; Dec 1 FY2027 earnings date remains the next major scheduled event.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "float updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "am",
@@ -525,9 +557,19 @@
   },
   "lastPass": {
     "date": "2026-11-19",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "float updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

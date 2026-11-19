@@ -3,22 +3,21 @@
   "name": "Connect Biopharma Holdings Limited",
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
-  "themeLabel": "nano-cap",
+  "themeLabel": "established",
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.632Z",
+  "lastResearched": "2026-11-19T21:31:29.120Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
       "asOf": "2026-10-26",
-      "source": "Massive.com quote aggregator",
-      "note": "A second aggregator (Fox Business, 2026-10-23) shows $50.38M on 62.97M shares at $0.76 — close enough to be the same underlying data at a slightly different date, not treated as a true conflict"
+      "source": "Massive.com quote aggregator"
     },
     "float": {
       "value": null,
-      "note": "Not disclosed separately from shares outstanding in sources reviewed"
+      "note": "Not disclosed separately from shares outstanding"
     },
     "sharesOutstanding": {
       "value": 62970000,
@@ -28,12 +27,11 @@
     "shortInterest": {
       "value": 5.6,
       "asOf": "2026-10-02 settlement (reported 2026-10-27)",
-      "source": "Equibles (FINRA data aggregator)",
-      "note": "Percent of float; days-to-cover cited as 5.2"
+      "source": "Equibles"
     },
     "cash": {
       "value": null,
-      "note": "Most recent confirmed figure is $46.03M as of 2026-03-31 (10-Q); no Q3 2026 cash balance located this pass, so leaving null rather than citing a stale quarter as current"
+      "note": "No Q3 2026 cash balance located; most recent confirmed figure ($46.03M) is as of 2026-03-31, too stale to use as current"
     },
     "debt": {
       "value": null,
@@ -42,8 +40,7 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Pre-revenue clinical-stage biotech; earnings not confirmed as positive or a specific negative figure in sources reviewed",
-      "asOf": "2026-11-13"
+      "note": "Pre-revenue clinical-stage biotech"
     },
     "eps": [],
     "revenue": [],
@@ -51,12 +48,12 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Pre-revenue clinical-stage company (lead asset rademikibart/CBP-201); no meaningful product revenue reported"
+      "note": "Pre-revenue clinical-stage company (lead asset rademikibart/CBP-201)"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located this pass either; prior-year Q3 report was issued 2025-11-12"
+      "note": "Not located this pass"
     }
   },
   "price": {
@@ -64,7 +61,8 @@
     "changePct": 24.57,
     "rvol": 145.6,
     "asOf": "2026-11-06",
-    "note": "Source (RTTNews) date-stamped 2026-11-06 but text refers to 'Wednesday' (Nov 6, 2026 is a Friday) — see conflicts. No reliable quote for 2026-11-13 was located."
+    "source": "RTTNews (via on-file record)",
+    "note": "No newer reliable quote found this pass; aggregators checked (Upstox $0.83 asOf 2026-10-30, Benzinga $1.10 asOf 2026-09-30, Trade-Ideas ~$0.94 undated) are all older or undated and inconsistent with the $1.235 figure already on file."
   },
   "catalysts": [
     {
@@ -130,14 +128,31 @@
     }
   ],
   "conflicts": [
-    "Market cap: Massive $48.27M (price $0.8489, 2026-10-26) vs Equibles $53.06M (price $0.87) vs Motley Fool $46.08M — figures from different dates/methodologies.",
-    "Price/date mismatch: RTTNews reports the +24.57% move to $1.235 as happening on 'Wednesday' but date-stamps the article 2026-11-06, which is a Friday; other aggregators (Massive, Equibles) show the stock trading around $0.85-$0.87 as late as 2026-10-26-27, implying a large, unconfirmed jump if the Nov 6 date is accurate.",
-    "Shares outstanding: ~63M (Massive/Equibles, Oct 2026) vs 56.52M (StockAnalysis, undated/likely stale).",
-    "Short interest: 5.6% of float / 5.2 days to cover (Equibles, Oct settlement) vs a separate Equibles page showing 6.1% / 1.7 days to cover and 3.9M shares short (+358K MoM) vs a Massive figure of 3.5M shares / 1.0 days to cover as of a Sept 30 settlement."
+    "Market cap: Massive $48.27M (price $0.8489, 2026-10-26) vs Equibles $53.06M (price $0.87) vs Motley Fool $46.08M — different dates/methodologies.",
+    "Shares outstanding: ~63M (Massive/Equibles, Oct 2026) vs 56.52M (StockAnalysis, undated/likely stale)."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst since the 2026-11-17 pass; cash and next-earnings date remain unestablished despite a further search. Honest quiet pass on the fundamentals side.",
+  "notes": "Quiet pass — no new dated catalyst or confirmed current price found since the Nov 10-11 earnings-collapse cluster already on file. Fundamentals unchanged from prior pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "move 24.57%",
+        "RVOL 145.6x",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -368,13 +383,20 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "pe updated",
+      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "cash updated"
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "move 24.57%",
+      "RVOL 145.6x",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

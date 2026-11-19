@@ -8,12 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.634Z",
+  "lastResearched": "2026-11-19T21:31:29.127Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
       "asOf": "2026-11-13",
-      "source": "Value Research Online"
+      "source": "Value Research Online",
+      "note": "Will be materially stale given the subsequent price decline into Nov 16-17"
     },
     "float": {
       "value": null,
@@ -26,20 +27,20 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established / not typically material for a mega-cap name of this size"
+      "note": "Not established / not typically material for a mega-cap of this size"
     },
     "cash": {
       "value": null,
-      "note": "Could not obtain a reliable Q3 FY2027 (as of 2026-10-25) balance this pass; two secondary sources for the prior quarter disagree by ~$43B and neither is clearly dated to the correct quarter, so left null rather than guess"
+      "note": "Could not obtain a reliable Q3 FY2027 balance; secondary aggregators disagree by billions"
     },
     "debt": {
       "value": null,
-      "note": "Same sourcing problem as cash — secondary aggregators disagree by billions and neither cleanly cites Q3 FY2027; left null"
+      "note": "Same sourcing problem as cash"
     },
     "pe": {
       "trailing": 23.6,
       "forward": null,
-      "note": "Trailing P/E per Value Research Online as of 2026-11-13; other aggregators (Google Finance, Finspry) show trailing P/E 30-46 but carry no clear date and conflict with each other, see conflicts",
+      "note": "Per Value Research Online as of 2026-11-13; other aggregators show 30-46, undated and unreconciled",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -69,18 +70,32 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 FY2027 (quarter ending ~late Jan 2027) estimated around 2026-02-23/24 by secondary trackers; no company confirmation located"
+      "note": "Q4 FY2027 estimated ~late Feb 2027 by secondary trackers; no company confirmation located"
     }
   },
   "price": {
-    "last": 160.94,
-    "changePct": -3.16,
+    "last": 156.14,
+    "changePct": -4.12,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "Value Research Online intraday snapshot (12:39 ET)",
-    "note": "Broader market context 2026-11-16: Nasdaq fell ~2-2.5% in a tech/chip-led selloff with NVDA cited as a leader of the decline ahead of its 2026-11-17 earnings, per Yahoo Finance; no independently confirmed closing price/% for 2026-11-16 located this pass."
+    "asOf": "2026-11-16",
+    "source": "fourweekmba / wealthprofessional.ca",
+    "note": "One secondary source (thestreet.com) describes a 2026-11-17 close of ~$155.46 (post-earnings), but this is not independently confirmed as the official close, so not recorded as 'last'. Options had implied an ~8.6% post-earnings move either direction."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "corporate governance",
+      "headline": "NVIDIA board chairman Harvey Jones confirmed that former CEO Jensen Huang will not be reinstated, in commentary surrounding the company's first earnings report without him; shares fell despite the quarter beating estimates (revenue $115.8B vs ~$108.7-109.2B consensus, guided Q4 FY2027 to ~$130.0B)",
+      "impact": "Shares declined further despite the beat-and-raise print; broader market also weak that session (S&P 500 -1.03%, Nasdaq -0.74%)",
+      "source": "https://stocktwits.com/news-articles/markets/equity/nvidia-board-chairman-harvey-jones-confirms-huang-will-not-be-reinstated-nvidia-outlook-beats/cNbO96fR9hW ; https://pro.thestreet.com/stock-market-today/nvidia-clears-the-bar-in-its-first-report-without-huang"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "earnings",
+      "headline": "Reported Q3 FY2027 (quarter ended 2026-10-25): revenue $115.8B (+103% YoY), beating ~$108.7-109.2B consensus; GAAP diluted EPS $2.70, non-GAAP $2.68; data center revenue $107.6B vs ~$101.9B Street estimate; guided Q4 FY2027 revenue to $130.0B ±3%; board added $150B to its buyback authorization",
+      "impact": "First full quarterly print since Jensen Huang's Nov 12 resignation; stock still fell despite the beat",
+      "source": "https://www.gurufocus.com/news/9205938/nvidia-corp-reports-q3-fiscal-2027-earnings-eps-of-270-and-revenue-of-1158-billion-exceed-estimates"
+    },
     {
       "date": "2026-11-17",
       "type": "earnings",
@@ -216,11 +231,29 @@
     }
   ],
   "conflicts": [
-    "Trailing P/E: Value Research Online shows 23.6 (asOf 2026-11-13) vs Google Finance ~30.17 and Finspry 35.76, both undated snapshots that don't reconcile with the dated figure."
+    "Trailing P/E: Value Research Online shows 23.6 (Nov 13) vs Google Finance ~30.17 and Finspry 35.76 (undated) — not reconciled.",
+    "Nov 17 close: ~$155.46 per one secondary source (thestreet.com), not independently confirmed as the official closing print."
   ],
   "pendingFilings": [],
-  "notes": "Q3 FY2027 print (reported 2026-11-17) now fully reflected in EPS/revenue/growth; cash, debt and the next earnings date remain unestablished after a further search this pass due to conflicting/undated secondary sources (sec.gov and nvidianews.nvidia.com are not reachable from this sandbox).",
+  "notes": "Stock continuing to weaken through the earnings print and the CEO-transition overhang; cash, debt, and the next earnings date remain unestablished due to unreachable primary sources (SEC EDGAR, nvidianews.nvidia.com) in this sandbox.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -554,16 +587,18 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
-      "revenue updated",
-      "growth updated",
+      "2 new catalyst(s)",
+      "pe updated",
       "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
       "cash updated",
-      "debt updated"
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

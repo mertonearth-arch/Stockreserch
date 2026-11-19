@@ -8,40 +8,41 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.652Z",
+  "lastResearched": "2026-11-19T21:31:29.137Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not found in available sources this pass"
+      "value": 7410000000,
+      "asOf": "2026-11-16",
+      "source": "Motley Fool"
     },
     "float": {
       "value": null,
-      "note": "Not found"
+      "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not found in available sources this pass"
+      "value": 124432565,
+      "asOf": "2026-05-04",
+      "source": "SEC 10-Q"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found"
+      "note": "not found this pass"
     },
     "cash": {
       "value": 1600000000,
       "asOf": "2026-09-30",
-      "note": "Down from approximately $1.7 billion at 2026-06-30 (one analysis computes the decline as $120.4 million, implying a prior balance closer to $1.72B)",
-      "source": "Cytokinetics Q3 2026 earnings press release"
+      "source": "Cytokinetics Q3 2026 earnings press release (carried forward, unchanged)"
     },
     "debt": {
       "value": 1300000000,
       "asOf": "~2026-09-30",
-      "note": "From a secondary source; not independently confirmed against the company's balance sheet",
-      "source": "secondary aggregator (unconfirmed)"
+      "source": "secondary aggregator (unconfirmed, carried forward)"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative trailing earnings; Q3 2026 GAAP net loss was $1.37/share"
+      "note": "negative earnings",
+      "asOf": "2026-11-19"
     },
     "eps": [
       {
@@ -77,12 +78,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 was reported 2026-11-04; Q4/FY2026 date not yet identified"
+      "note": "Q4/FY2026 date not yet identified"
     }
   },
   "price": {
-    "last": null,
-    "note": "Could not establish a single reliable current price; three conflicting, inconsistently-dated figures were found — see conflicts"
+    "last": 53.17,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-16",
+    "source": "Motley Fool (fool.com quote snapshot)",
+    "note": "Only dated price point found this pass; price has fallen sharply from ~$62.99 (Oct 30, Stockanalysis) and ~$61.23 (Oct 23, Benzinga)."
   },
   "catalysts": [
     {
@@ -222,11 +227,32 @@
     }
   ],
   "conflicts": [
-    "Search sources describing an FDA approval of aficamten (Myqorzo) for obstructive HCM cite a PDUFA/approval timeline (REMS-driven extension to Dec 26, with approval 'ahead of' that date) that does not match the 2026-11-14 PDUFA date already on file for this watchlist; these may refer to a different review cycle. No outcome specific to the 2026-11-14 date was confirmed this pass — not recording an approval on this unreconciled basis."
+    "Price: Stockanalysis $62.99 (2026-10-30) vs Benzinga $61.23 (2026-10-23) vs Motley Fool $53.17 (2026-11-16) — a steep decline across dated points; many other quotes ($66-$82) are undated and excluded.",
+    "Market cap: Motley Fool $7.41B (2026-11-16, implying ~139M shares at $53.17) vs ~$10.5-10.8B in August 2026 at ~$77-78 — reflects price decline, not a same-date disagreement, but share-count math doesn't cleanly reconcile with the 124.4M SEC share count.",
+    "Shares outstanding: SEC 10-Q 124.43M (2026-05-04) vs Simply Wall St 135.77M (undated, looks like an outlier) vs CompaniesMarketCap ~123.27M (Aug 2026)",
+    "Trailing EPS: Motley Fool -$6.04 vs Google Finance -$6.84 (both undated TTM figures)"
   ],
   "pendingFilings": [],
-  "notes": "The 2026-11-14 PDUFA date referenced in prior catalysts on file was for this MAPLE-HCM label update, now resolved 2026-11-16 as described above — not a new standalone drug approval.",
+  "notes": "No new dated catalysts beyond what is already on file (Nov 14 PDUFA for MAPLE-HCM sNDA, Nov 16 label update) were found this pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -605,11 +631,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "pe updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

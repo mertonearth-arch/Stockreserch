@@ -8,50 +8,49 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.640Z",
+  "lastResearched": "2026-11-19T21:31:29.126Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
       "asOf": "2026-11-11",
-      "note": "Approximate; sources range $20.91B to $21.53B depending on exact price/share-count snapshot used."
+      "note": "Approximate; range $20.91B-$21.53B across sources"
     },
     "float": {
       "value": null,
-      "note": "Not disclosed separately from shares outstanding"
+      "note": "Not disclosed separately"
     },
     "sharesOutstanding": {
       "value": 94000000,
-      "note": "~93.91M (StockAnalysis) to ~94.6M (Barchart, older snapshot); treated as ~94M."
+      "note": "~93.91M-94.6M across sources"
     },
     "shortInterest": {
       "value": 2700000,
       "asOf": "2026-08-19",
-      "source": "Equibles aggregator -- 2.9% of float, ~2.3 days to cover",
-      "note": "A MarketBeat reading for 2026-07-15 showed 2,101,776 shares (~2.3% of shares outstanding, down 31.8% from June 30); denominators (float vs. shares outstanding) differ across sources and are not reconciled"
+      "source": "Equibles aggregator",
+      "note": "~2.9% of float, ~2.3 days to cover"
     },
     "cash": {
       "value": 4162000,
       "asOf": "2026-06-30",
-      "source": "Q2 2026 10-Q balance sheet",
-      "note": "Down from $17,284,000 at 2025-12-31"
+      "source": "Q2 2026 10-Q"
     },
     "debt": {
       "value": 750000000,
       "asOf": "2026-06-30",
       "source": "Q2 2026 10-Q",
-      "note": "$750M of 4.90% senior notes due March 2030; the $700M of 3.875% senior notes due March 2026 were paid in full at maturity"
+      "note": "$750M of 4.90% senior notes due March 2030"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established in sources retrieved this pass."
+      "note": "Not established in sources reviewed"
     },
     "eps": [
       {
         "period": "Q3 2026",
         "value": 1.82,
         "basis": "GAAP",
-        "note": "Beat the Zacks consensus estimate of $1.81 by 0.6%."
+        "note": "Beat $1.81 consensus"
       }
     ],
     "revenue": [
@@ -68,17 +67,27 @@
       "pct": 20
     },
     "nextEarnings": {
-      "date": "2027-01-21",
+      "date": "2027-01-15",
       "confirmed": false,
-      "note": "Unconfirmed aggregator estimate for Q4/FY2026 results; not a company-confirmed date."
+      "note": "One aggregator cites Jan 15, 2027; file previously carried an unconfirmed Jan 21, 2027 estimate — not reconciled"
     }
   },
   "price": {
     "last": 227.66,
+    "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-11",
-    "note": "Motley Fool close. Fox Business shows $218.54 (2026-11-06, -0.45% that day) and an undated Stockevents snapshot shows $220.86."
+    "source": "Motley Fool",
+    "note": "No independently confirmed closing price found for Nov 17-19; conflicting undated snapshots on file ($218.54, $220.86)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "other",
+      "headline": "J.B. Hunt participated in a scheduled investor conference",
+      "impact": "Routine IR event; no new financial disclosure found",
+      "source": "Businesswire"
+    },
     {
       "date": "2026-11-17",
       "type": "other",
@@ -92,6 +101,12 @@
       "headline": "Participation in investor conference",
       "impact": "Routine IR event; no new financial disclosure confirmed from this pass.",
       "source": "Businesswire"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "dividend",
+      "headline": "Declared a regular quarterly dividend of $0.45/share, payable 2026-11-20 to shareholders of record as of 2026-11-06",
+      "source": "https://finviz.com/news/405753/jb-hunt-transport-services-inc-announces-quarterly-dividend"
     },
     {
       "date": "2026-11-06",
@@ -112,6 +127,13 @@
       "type": "corporate",
       "headline": "J.B. Hunt announced participation in upcoming investor conferences, including Baird's 2026 Global Industrial Conference in Chicago on Nov 10",
       "source": "https://www.businesswire.com/news/home/20251029590042/en/J.B.-Hunt-Transport-Services-Inc.-Announces-Participation-in-Upcoming-Investor-Conferences/"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "headline": "Q3 2026: net earnings $172.4M ($1.82 diluted EPS) vs $170.8M ($1.76) a year earlier; revenue $3.68B (+20% YoY); operating income $247.1M (+2%), margin narrowed to 6.7%",
+      "impact": "Shares fell intraday despite the beat (reports range -2% to -5%)",
+      "source": "https://finviz.com/news/403321/jb-hunt-transport-services-inc-reports-us-gaap-revenues-net-earnings-and-earnings-per-share-for-the-third-quarter-2026"
     },
     {
       "date": "2026-10-15",
@@ -164,11 +186,32 @@
     }
   ],
   "conflicts": [
-    "Price: $227.66 (Fool, Nov 11) vs $218.54 (Fox Business, Nov 6) vs $220.86 (Stockevents, undated) — roughly a $9 spread across sources dated within a week of each other."
+    "Price: $227.66 (Fool, Nov 11) vs $218.54 (Fox Business, Nov 6) vs $220.86 (Stockevents, undated).",
+    "Next earnings date: Jan 15, 2027 (one source) vs Jan 21, 2027 (another, previously on file) — unconfirmed by the company either way."
   ],
   "pendingFilings": [],
-  "notes": "Added the Q4 dividend declaration (record date Nov 6, pay date Nov 20); no other new catalyst found beyond the Nov 17 investor-conference item already on file.",
+  "notes": "No new dated catalyst found this pass beyond the Nov 17 investor-conference item already on file. Quiet pass.",
   "history": [
+    {
+      "date": "2026-11-19",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -387,11 +430,21 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }
