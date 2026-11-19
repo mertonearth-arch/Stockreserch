@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-19",
+  "run": "am",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "OKTA",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    }
+  ],
+  "created": [],
+  "promoted": [],
+  "demoted": [],
+  "quiet": [
+    "OKTA"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:17:39.680Z",
+  "updated": "2026-11-19T05:29:39.706Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -245,7 +245,7 @@
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-11-18T21:17:39.643Z"
+      "lastResearched": "2026-11-19T05:29:39.694Z"
     },
     "ORCL": {
       "tier": "daily",
@@ -393,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-18",
-    "run": "pm"
+    "date": "2026-11-19",
+    "run": "am"
   }
 }
