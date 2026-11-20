@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.129Z",
+  "lastResearched": "2026-11-20T21:16:52.325Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -74,9 +74,9 @@
       "pct": 6.3
     },
     "nextEarnings": {
-      "date": "2026-12-02",
+      "date": null,
       "confirmed": false,
-      "note": "A new source this pass instead estimates Dec 3, 2026; neither is company-confirmed."
+      "note": "Still not company-confirmed. This pass surfaced three different unconfirmed estimates: Earnings Whispers / Tickzen ~2026-11-30 or 2026-12-02 (pre-market); Unusual Whales / TheRightTrader ~2026-12-03 (explicitly labeled a projection); a separate Earnings Whispers listing ~2026-12-07 (pre-market). A Seeking Alpha page citing 'Dec 4' is dated to the prior year (2025) and was discarded."
     }
   },
   "price": {
@@ -177,12 +177,22 @@
     }
   ],
   "conflicts": [
-    "Price: $147.03 close (2026-11-06, on file) vs an unconfirmed intraday $149.35 snapshot at 2026-11-16 12:31pm ET — not a closing price, not used as 'last'.",
-    "Next earnings estimate: Dec 2, 2026 (on file) vs a newly found Dec 3, 2026 third-party estimate; neither confirmed by the company."
+    "SAIC next earnings date: sources this pass disagree across Nov 30, Dec 2, Dec 3, and Dec 7, 2026, none company-confirmed -- not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-11-18 pass. $500M senior notes offering (closed 2026-11-13) and analyst PT actions remain the most recent catalysts on file.",
+  "notes": "No confirmed closing price newer than the 2026-11-06 figure already on file ($147.03) was found this pass. A financialcontent.com intraday snapshot of $149.35 at 12:31pm ET on 2026-11-16 (already flagged on file) is the most recent data point found; it remains an intraday read, not a close. No new dated catalysts since the Nov 13 notes offering close already on file.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -500,17 +510,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

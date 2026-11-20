@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.146Z",
+  "lastResearched": "2026-11-20T21:16:52.349Z",
   "fundamentals": {
     "marketCap": {
       "value": 1388000000,
@@ -31,15 +31,15 @@
     "cash": {
       "value": 768400000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 earnings release",
-      "note": "company states this funds operations into 2030"
+      "source": "uniQure Q3 2026 results release (2026-11-04)",
+      "note": "Company guided this to fund operations into 2030"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (Q3 2026 loss of $0.88/share)",
-      "asOf": "2026-11-19"
+      "note": "negative earnings",
+      "asOf": "2026-11-20"
     },
     "eps": [
       {
@@ -108,6 +108,13 @@
       "impact": null,
       "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-uniqure-posts-q3-2026-eps-beat-as-fda-review-advances-93CH-4999868",
       "note": "Secondary coverage states the PDUFA target date as May 1, 2027; flagged for independent primary-source confirmation given it is nearly 6 months past the Q3 2026 report date -- plausible given typical priority-review timelines (BLA accepted ~Nov 2026 + ~6 months), but the 8-K excerpt available this session did not itself state the date verbatim."
+    },
+    {
+      "date": "2026-11-02",
+      "type": "regulatory",
+      "headline": "FDA accepted uniQure's BLA for AMT-130 (ifezuntirgene inilparvovec) in Huntington's disease under Priority Review with an accelerated-approval pathway; PDUFA target action date set at 2027-05-01. UK MHRA separately validated the corresponding Marketing Authorization Application",
+      "impact": "FDA indicated it tentatively plans to hold an advisory committee meeting on the application; confirmatory trial patient screening expected to begin in the US by end of 2026",
+      "source": "https://www.neurologylive.com/view/fda-grants-priority-review-to-huntington-disease-gene-therapy-bla"
     },
     {
       "date": "2026-11-02",
@@ -191,8 +198,20 @@
     "Revenue 'miss' comparison basis varies: consensus cited as $7.15M by one source, $6.21M by another, against the same $5.2M actual Q3 2026 revenue."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst since the Nov 4 earnings/FDA BLA Priority Review acceptance (PDUFA target 2027-05-01) already on file.",
+  "notes": "No reliably dated price beyond the existing $22 (2026-11-06, Benzinga) was found this pass; a stockevents.app figure of $21.70 is undated and not used. SG&A rose to $23.9M from $19.4M YoY in Q3 2026 as launch-prep spending increased (already reflected in the on-file Q3 loss figures). Company was scheduled to present at the Guggenheim (Nov 10), Stifel (Nov 11) and UBS (Nov 16) healthcare conferences — informational, not treated as catalysts.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -513,16 +532,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
-      "growth updated",
-      "marketCap updated",
-      "shortInterest updated",
-      "cash updated",
-      "conflicts updated"
+      "cash updated"
     ],
     "tradingDay": true
   }

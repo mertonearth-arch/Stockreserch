@@ -8,11 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.132Z",
+  "lastResearched": "2026-11-20T21:16:52.328Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Still no single confirmed figure. New sightings this pass: Motley Fool ~$24.86B with 339.02M shares at $73.32 (2026-10-28); Simply Wall St ~$24.247B with 334.90M shares (2026-07-29, stale). Neither is dated to November 19 or reconciled with the $68.11 price on file."
+      "value": 23000000000,
+      "asOf": "2026-11-11",
+      "source": "Motley Fool (publicly traded shares only)"
     },
     "float": {
       "value": null,
@@ -67,12 +68,12 @@
     }
   },
   "price": {
-    "last": 68.11,
-    "changePct": null,
+    "last": 59.44,
+    "changePct": -5.2,
     "rvol": null,
-    "asOf": "2026-11-06",
-    "source": "unchanged from file",
-    "note": "A separate source (Fox Business) shows $69.66 also dated 'Nov 6'; treated as a minor conflict rather than a correction."
+    "asOf": "2026-11-17",
+    "source": "Benzinga close; -5.2% day-over-day move corroborated independently by Trefis",
+    "note": "Stock down further since the $68.11 (Nov 6) / $67.84 (Nov 11, Motley Fool) levels on file, amid credit-loss and guidance concerns following the Nov 5 earnings beat. Trefis also reports AFRM down 18.4% over the trailing month vs. -4.5% for the S&P 500 as of Nov 17."
   },
   "catalysts": [
     {
@@ -189,12 +190,22 @@
     }
   ],
   "conflicts": [
-    "Market cap / shares outstanding: existing conflict (Simply Wall St $24.247B/334.90M vs Equibles $25.21B/337.42M vs DeFiLlama $24.954B) widened this pass with a Motley Fool $24.86B/339.02M (2026-10-28) sighting. No single figure confirmed; left null.",
-    "Price: $68.11 (2026-11-06, on file) vs $69.66 (Fox Business, also labeled Nov 6) — minor, not resolved."
+    "Market cap/shares outstanding: Motley Fool ~$23.00B (Nov 11); Pitchbook ~$24.1B on ~337M shares (Sept 25); DefiLlama ~$24.95B on 339.06M shares (undated) -- not reconciled; likely reflect different dates and share-count conventions."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts since the fiscal Q1 2027 earnings print (2026-11-05, already on file). No reliably dated post-11/06 quote found this pass.",
+  "notes": "Fiscal Q1 2027 earnings (Nov 5, already on file) beat on EPS ($0.47 non-GAAP vs $0.35 est.) and revenue; one source puts the revenue figure at $1.26B vs a $1.21B estimate. Despite the beat, investors reacted to credit-loss-allowance concerns and conservative GMV guidance, pressuring the stock through mid-November. nextEarnings unchanged (2027-02-04, unconfirmed TIKR estimate).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -585,16 +596,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
       "marketCap updated",
-      "sharesOutstanding updated",
       "conflicts updated"
     ],
     "tradingDay": true

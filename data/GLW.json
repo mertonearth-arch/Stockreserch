@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.139Z",
+  "lastResearched": "2026-11-20T21:16:52.338Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -64,19 +64,26 @@
       "pct": 13.6
     },
     "nextEarnings": {
-      "date": "2027-01-26",
+      "date": "2027-01-27",
       "confirmed": false,
-      "note": "Estimate (Walnut Invest), based on historical reporting cadence; a conflicting source (Chartmill) shows an Apr 26, 2027 date that appears mislabeled/for a different quarter"
+      "note": "An additional unconfirmed estimate (via Zacks/Stocktwits-linked coverage) points to Jan 27, 2027 for Q4 2026 results, close to the prior Walnut Invest estimate of Jan 26, 2027 already on file. Still not company-confirmed. The Chartmill Apr 26, 2027 figure noted in the prior pass remains unreconciled (likely mislabeled)."
     }
   },
   "price": {
-    "last": 106.13,
+    "last": 108.49,
     "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "Marketchameleon",
-    "note": "No more-recent dated quote found; unchanged from prior pass."
+    "rvol": null,
+    "asOf": "2026-11-17",
+    "source": "Benzinga",
+    "note": "Updates the prior $106.13 (Nov 6) figure; no Nov 18-19 close confirmed. Other sources surfaced conflicting/stale figures this pass (e.g., ~$123.69 and $132.00 dated October, a $113.98 'open' with no clear date) which were discounted as not reliably dated to mid/late November."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "other",
+      "headline": "Corning shareholders of record as of Nov 13, 2026 are set to receive a $0.28/share dividend.",
+      "source": null
+    },
     {
       "date": "2026-11-11",
       "type": "scheduled event (unspecified)",
@@ -153,12 +160,23 @@
     }
   ],
   "conflicts": [
-    "Forward PE: Snowball Analytics ~38 vs Benzinga ~50 (both undated)",
-    "Next earnings date: Walnut Invest 2027-01-26 (estimate) vs Chartmill 2027-04-26 (likely a mislabeled quarter, not a genuine same-period conflict)"
+    "nextEarnings date for Q4 2026: estimates cluster around Jan 26-27, 2027 (Walnut Invest / Zacks-linked coverage) vs. an outlying Apr 26, 2027 figure from Chartmill that appears mislabeled -- unresolved, carried over from the prior pass."
   ],
   "pendingFilings": [],
-  "notes": "Corning guided Q4 2026 core sales of $5.2B-$5.3B per its Q3 2026 release (already reflected in file); no new dated catalysts found this pass.",
+  "notes": "No major new dated catalyst found beyond the routine dividend and continued coverage of the Q3 2026 beat (EPS $0.91 vs. ~$0.88 est., revenue $5.08B vs. ~$5.03B est., reported ~Oct 27, 2026) and AI-datacenter-driven optical-connectivity demand -- consistent with the prior pass's vague MarketBeat 'key catalyst' flag. Analyst actions this pass (not treated as catalysts per standing rules, and not precisely dated): Jefferies initiated coverage at Buy with a $134 price target (early Nov); Bernstein cut its target to $120 from $140 while keeping Market Perform.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -451,19 +469,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
+      "1 new catalyst(s)",
       "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

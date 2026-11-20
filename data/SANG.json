@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.130Z",
+  "lastResearched": "2026-11-20T21:16:52.325Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -76,19 +76,34 @@
     }
   },
   "price": {
-    "last": 4.88,
-    "changePct": 35.94,
+    "last": 4.77,
+    "changePct": null,
     "rvol": null,
-    "asOf": "2026-09-28",
-    "note": "Unchanged from file; this pass found undated sightings of ~$4.77 (quote page, undated) and a possible $4.95 figure tied to Nov 7 that may actually be an analyst/target figure, not a trade price. No reliably dated current quote established."
+    "asOf": "2026-11-13",
+    "source": "Quiver Quantitative (historical price page)",
+    "note": "First reliably dated quote this pass; resolves prior pass's 'undated' $4.77 sighting. Could not confirm a change% for this date."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "legal",
+      "headline": "Sangoma filed its management information circular for the special shareholder meeting to approve the BRC Group Holdings plan of arrangement; shareholders of record as of Nov 3, 2026 are entitled to vote.",
+      "impact": "Procedural step toward closing the pending acquisition; special meeting appears scheduled around Nov 17, 2026, though an exact meeting date/result was not confirmed.",
+      "source": "https://finviz.com/news/420952/sangoma-technologies-corporation-files-management-information-circular-for-its-special-meeting-of-shareholders-to-approve-proposed-plan-of-arrangement-with-brc-group-holdings-inc"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
       "headline": "Sangoma reported Q1 FY2027 results (quarter ended 2026-09-30): revenue $50.1M (-1% YoY), GAAP net loss $0.09/share (vs -$0.08/share prior-year quarter), adjusted EBITDA $7.3M (15% margin), free cash flow $6.9M (+115% YoY); total debt down to $22.2M from $42.8M a year earlier; company suspended FY2027 guidance and earnings calls pending the pending BRC Group Holdings acquisition",
       "impact": "Routine results overshadowed by pending take-private deal",
       "source": "https://www.sec.gov/Archives/edgar/data/0001753368/000175336826000014/mdaf27q1.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "legal",
+      "headline": "Court granted an interim order regarding the BRC Group Holdings plan of arrangement.",
+      "impact": "Clears a procedural requirement ahead of the shareholder vote.",
+      "source": "https://finviz.com/news/420952/sangoma-technologies-corporation-files-management-information-circular-for-its-special-meeting-of-shareholders-to-approve-proposed-plan-of-arrangement-with-brc-group-holdings-inc"
     },
     {
       "date": "2026-10-27",
@@ -135,8 +150,18 @@
     "Current share price still unconfirmed with a reliable date: ~$4.77-$4.95 (various undated sightings this pass) vs the deal's implied ~$5.225/share value set at the 2026-09-28 announcement."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since last pass; the BRC acquisition (announced 2026-09-29, expected close early 2027) remains the dominant storyline and is already on file.",
+  "notes": "No vote result located as of this pass -- shareholder vote outcome still pending/unconfirmed. Deal terms (per prior reporting): Sangoma holders to receive US$4.925 cash plus 0.04767 of a BRC share per Sangoma share; deal expected to close no later than early 2027, after which Sangoma shares would delist from both TSX and Nasdaq. No indication of a revised price or a competing bid.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -335,21 +360,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 35.94%",
-      "conflicts updated"
+      "2 new catalyst(s)"
     ],
     "tradingDay": true
   }

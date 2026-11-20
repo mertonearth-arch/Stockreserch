@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.144Z",
+  "lastResearched": "2026-11-20T21:16:52.343Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -47,27 +47,13 @@
     },
     "eps": [
       {
-        "period": "Q3 2024",
-        "value": 0.07,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2025",
-        "value": 0.04,
-        "basis": "GAAP"
-      },
-      {
         "period": "Q3 2026",
         "value": 0.22,
-        "basis": "GAAP diluted"
+        "basis": "GAAP",
+        "note": "Aided by a roughly $44M tax benefit"
       }
     ],
     "revenue": [
-      {
-        "period": "Q3 2025",
-        "value": 42200000,
-        "yoy": null
-      },
       {
         "period": "Q3 2026",
         "value": 105100000,
@@ -75,14 +61,14 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "net sales YoY",
       "period": "Q3 2026",
       "pct": 149
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 already reported Nov 10, 2026; Q4/FY2026 date not yet announced"
+      "note": "Q3 2026 already reported ~2026-11-10; Q4/FY2026 date not yet announced."
     }
   },
   "price": {
@@ -99,6 +85,13 @@
       "headline": "Netlist highlighted three proof-of-concept designs from its CXL NVvault memory family at Supercomputing 2026 (SC26), Nov 17-19, Chicago.",
       "impact": null,
       "source": null
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net sales +149% YoY to $105.1M (includes initial Samsung license fees); operating income $40.6M; EPS $0.22 (aided by a ~$44M tax benefit). On the call, CEO indicated the company is pursuing memory-technology licensing talks with SK hynix and other suppliers; management guided to ~$73M/quarter combined licensing revenue (Samsung + Micron) starting Q4 2026, with the Micron license reported at $30M/quarter through Q3 2031.",
+      "impact": "Large reported revenue beat driven mainly by licensing fees, not product sales; no signed SK hynix deal yet, only a verbal indication from management",
+      "source": "https://www.panabee.com/news/netlist-earnings-q3-2026"
     },
     {
       "date": "2026-11-10",
@@ -242,11 +235,26 @@
     }
   ],
   "conflicts": [
-    "Price: Global Banking & Finance shows a close of $6.26 (+9.82%) on 2026-11-09, while Investing.com shows $5.70 (previous close $5.70) for the same date. By 2026-11-16, two more sources show $4.62 and $4.51 respectively — a ~25-30% further decline that could not be corroborated with a specific dated catalyst this pass."
+    "Price remains unreconcilable this pass: for the same nominal date (2026-11-09), Investing.com shows $5.70 while Global Banking & Finance shows a $6.26 close (+9.82%); Debelegger.nl separately shows $6.32 as of 2026-10-30. No clean, consistently-sourced current quote was found, so price is left as null per the prior pass."
   ],
   "pendingFilings": [],
-  "notes": "Micron settlement details (carried forward for context): Micron pays Netlist $30M/quarter from Q4 2026 through Q3 2031 (~$600M total) for a 5-year worldwide non-exclusive patent license; Micron also purchased $1M of Netlist common stock. No new dated catalyst materially changes the thesis beyond the SK hynix hint and the SC26 conference presence noted above.",
+  "notes": "SK hynix licensing remains a verbal management 'hint,' not a confirmed agreement — flagged so it isn't mistaken for a signed deal.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -581,17 +589,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "marketCap updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
+      "1 new catalyst(s)",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

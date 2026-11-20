@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.138Z",
+  "lastResearched": "2026-11-20T21:16:52.337Z",
   "fundamentals": {
     "marketCap": {
       "value": 3660000000,
@@ -65,7 +65,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 2026/FY2027 outlook report expected 'around late February' 2027 per commentary; no specific confirmed date"
+      "note": "Still no confirmed Q4/FY2026 date. Precedent found this pass: FIGS' Q4/FY2025 call was held Feb 26, 2026, with the date announced Feb 5, 2026 (about 3 weeks prior). Following that cadence, a Q4/FY2026 date announcement would likely come in early February 2027, with the call itself in late February 2027 -- still an inference, not a confirmed date."
     }
   },
   "price": {
@@ -162,8 +162,18 @@
     "Price (same date, 2026-11-13): quantisnow.com $22.05 vs Benzinga $21.95"
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts found since the Nov 5 Q3 2026 earnings beat-and-raise already on file.",
+  "notes": "No new dated catalyst since the Nov 5, 2026 Q3 2026 beat-and-raise already on file. Additional color from that same release/call: management said demand is 'outstripping supply,' and flagged a Jordan import restriction that caused late-Q3 stock-outs, expected to peak in Q4 2026 and linger into H1 2027. Stock traded near 52-week highs (~$21.74-$21.95) in the days after the report; no reliably dated quote newer than the on-file Nov 13 figure was found this pass.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -425,18 +435,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

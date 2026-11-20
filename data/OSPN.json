@@ -8,14 +8,9 @@
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.144Z",
+  "lastResearched": "2026-11-20T21:16:52.345Z",
   "fundamentals": {
     "revenue": [
-      {
-        "period": "Q3 2025",
-        "value": 57100000,
-        "yoy": null
-      },
       {
         "period": "Q3 2026",
         "value": 63900000,
@@ -24,19 +19,9 @@
     ],
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": 0.17,
-        "basis": "GAAP diluted"
-      },
-      {
         "period": "Q3 2026",
         "value": 0.2,
-        "basis": "GAAP diluted"
-      },
-      {
-        "period": "Q3 2026",
-        "value": 0.35,
-        "basis": "non-GAAP"
+        "basis": "GAAP (diluted)"
       }
     ],
     "growth": {
@@ -56,10 +41,9 @@
       "note": "Multiple conflicting dated readings found — see conflicts"
     },
     "cash": {
-      "value": 51000000,
+      "value": 51400000,
       "asOf": "2026-09-30",
-      "source": "third-party coverage of OneSpan Q3 2026 results",
-      "note": "Down from $71M at start of FY2026; not independently confirmed against the 10-Q"
+      "note": "Down from $70.5M at 2025-12-31"
     },
     "debt": {
       "value": null
@@ -85,12 +69,12 @@
     }
   },
   "price": {
-    "last": 22.31,
-    "changePct": null,
+    "last": 22.05,
+    "changePct": -2.99,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "Quiver Quant",
-    "note": "Two AAII intraday snapshots for 2026-11-17 (3:31pm CST) show $22.05 and $22.00 (down ~3.2% from previous close), but neither is a confirmed official close."
+    "asOf": "2026-11-17",
+    "source": "AAII",
+    "note": "Down from a $22.73 previous close per the same source. This is the same figure the prior pass flagged as an unconfirmed intraday snapshot; it is now the best-sourced figure available and is reported as the current reading, still with the caveat that it is AAII-derived rather than an exchange-confirmed close. AAII also reported the stock down ~14.07% month-to-date and up ~71.73% year-to-date as of this date."
   },
   "catalysts": [
     {
@@ -143,6 +127,18 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -333,21 +329,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst beyond the Nov 13 dividend declaration already on file. Price has drifted down slightly from the $22.31 Nov 13 close to ~$22.00-22.05 intraday on Nov 17; no confirmed Nov 18/19 close found via reachable sources this pass.",
+  "notes": "Q3 2026 results (reported 2026-10-29, before this pass's lookback window) also showed Annual Recurring Revenue of $195.5M (+9% YoY) and net income of $7.8M. No specific cause located for the November month-to-date decline beyond general market/AI-sector weakness. Dividend record date 2026-11-13 / payable 2026-12-04 already on file, unchanged. Next earnings (FY2026 results) still not announced; would typically follow around Feb 2027.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "eps updated",
+      "revenue updated",
+      "cash updated"
     ],
     "tradingDay": true
   }

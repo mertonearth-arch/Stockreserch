@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.133Z",
+  "lastResearched": "2026-11-20T21:16:52.329Z",
   "fundamentals": {
     "marketCap": {
       "value": 9090000,
@@ -73,6 +73,13 @@
       "type": "regulatory/listing",
       "headline": "Nasdaq notified Beneficient that the market value of its listed securities has been below the $35 million minimum required for continued listing for 30 consecutive business days",
       "source": "massive.com"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "regulatory",
+      "headline": "Nasdaq's Listing Qualifications Department notified Beneficient that the market value of its listed securities had been below the $35 million Nasdaq Capital Market minimum for 30 consecutive business days (Sept 24 - Nov 4, 2026); the company also fails Nasdaq's alternative stockholders'-equity and net-income standards.",
+      "impact": "No immediate effect on listing -- BENF/BENFW continue trading as-is. Per the Q3 FY2026 10-Q, the company has until 2027-05-04 to regain compliance; missing that deadline would be expected to trigger a Nasdaq delisting notice, appealable to a Hearings Panel.",
+      "source": "https://ng.investing.com/news/sec-filings/beneficient-receives-nasdaq-notice-for-noncompliance-with-equity-and-filing-rules-93CH-2138864"
     },
     {
       "date": "2026-11-04",
@@ -197,8 +204,18 @@
     "Price history is not comparable across the 2025-12-15 1-for-8 reverse split."
   ],
   "pendingFilings": [],
-  "notes": "Heppner criminal sentencing remains scheduled for 2026-01-11 per the 2026-10-28 corporate update already on file; no newer confirmation found this pass. New Nasdaq $35M listing-deficiency notice (2026-11-12) is the only new dated catalyst found.",
+  "notes": "This clarifies/supersedes the prior pass's Nov 12 dating for the Nasdaq notice: the underlying Nasdaq notice letter is dated Nov 5, 2026 (per SEC Form 8-K, Item 3.01); Nov 12 may reflect when the 8-K itself was filed/indexed. No delisting action has occurred; compliance deadline is 2027-05-04. No newer price than the $0.49 (-6.15%, Nov 19, Morningstar) already on file was found. No confirmed nextEarnings date located (fiscal year has historically ended March 31, per file -- unchanged).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -492,21 +509,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

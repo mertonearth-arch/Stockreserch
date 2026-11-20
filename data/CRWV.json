@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.136Z",
+  "lastResearched": "2026-11-20T21:16:52.334Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -38,19 +38,23 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; Q3 2026 net loss was $709 million"
+      "note": "negative earnings; no forward EPS consensus established this pass",
+      "asOf": "2026-09-30"
     },
-    "eps": [],
-    "revenue": [
-      {
-        "period": "Q3 2025",
-        "value": 1360000000,
-        "yoy": null
-      },
+    "eps": [
       {
         "period": "Q3 2026",
-        "value": 3660000000,
-        "yoy": 168
+        "value": -1.27,
+        "basis": "GAAP",
+        "note": "Net loss widened to $709M from $110M a year earlier."
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q3 2026",
+        "value": 3661000000,
+        "yoy": 168,
+        "note": "$3.661B, +168% YoY, beat consensus estimates of ~$3.54B–$3.55B. (This resolves the revenue figure that was missing on file.)"
       }
     ],
     "growth": {
@@ -85,6 +89,13 @@
     {
       "date": "2026-11-10",
       "type": "earnings",
+      "headline": "CoreWeave reported Q3 2026 revenue of $3.661B (+168% YoY, beating ~$3.54B–$3.55B consensus); GAAP net loss widened to $709M (-$1.27/sh) from $110M a year ago; adjusted (non-GAAP) operating income was $379M (+75% YoY); quarter-end revenue backlog was ~$132.5B; raised FY2026 revenue guidance to $13.0B–$13.3B and capex guidance to $37B–$39B.",
+      "impact": "shares reportedly jumped as much as ~24.7% in the session(s) following the release",
+      "source": "https://pulse2.com/coreweave-record-q3-revenue-reaches-3-66-billion-as-backlog-grows-to-132-5-billion/"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
       "headline": "CoreWeave reports Q3 2026 results: revenue $3.66B (+168% YoY, beat ~$3.54B consensus), net loss widens to $709M from $110M a year earlier; raises FY2026 revenue guidance to $13.0B-$13.3B",
       "impact": "Revenue beat and raised guidance, but widening losses, heavy capex (~$14.5B/quarter vs ~$9B in customer prepayments), ~$47B debt, and customer concentration (top 3 customers = 72% of quarterly revenue) drove a mixed stock reaction",
       "source": "https://247wallst.com/cards/coreweave-q3-2026-earnings-crwv-01m73msrkgrgan75a5t7tb9fmz"
@@ -104,12 +115,24 @@
     }
   ],
   "conflicts": [
-    "Price trajectory since the Nov 10 Q3 print is reported very inconsistently across sources; this pass's best-anchored figure is $49.88 close on 2026-11-16 (down from $53.13 prior close, AAII), with Trefis separately noting a 52-week closing low of $43.66 on 2026-11-05 and a 6.9% drop on 2026-11-12.",
-    "Shares outstanding: 527.0M (CompaniesMarketCap, Aug 2026) vs 447.6M (TipRanks) vs 551.5M (Motley Fool, likely stale) vs 525.69M (SimplyWall St) — not reconciled.",
-    "Market cap: Equibles $34.27B (2026-10-20) vs Motley Fool $30.26B (undated) vs Ticker League $56.24B (mid-June 2026, stale) — spans different dates/share counts, not reconciled."
+    "CoreWeave Q3 2026 earnings release date: this pass's sources (247wallst, pulse2, investinglive, letsdatascience, stocktitan) consistently date the release 2026-11-10; the prior pass's file entry listed 2026-11-12 as the reported date. Not independently reconciled — flagging since multiple sources this pass favor Nov 10."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -210,21 +233,16 @@
       "from": "daily"
     }
   ],
-  "notes": "New dated catalyst found: the Wayve multi-year AI-infrastructure deal announced 2026-11-09 (one day before Q3 earnings), not previously on file.",
+  "notes": "Price unchanged from file this pass — the last reliably dated figure remains the 2026-11-16 close of $49.88 (-6.12%, AAII and others); no newer dated price was found. Context: shares fell further on 2026-11-12 amid broad AI-infrastructure-linked selling reportedly tied to a leadership issue at Nvidia, per search snapshots (specific article not independently confirmed). Next earnings (Q4/FY2026) date still not announced; the stale 'Nov 12' aggregator listing noted on file has passed.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
       "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
+      "eps updated",
+      "revenue updated",
       "conflicts updated"
     ],
     "tradingDay": true

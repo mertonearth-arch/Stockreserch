@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.137Z",
+  "lastResearched": "2026-11-20T21:16:52.335Z",
   "fundamentals": {
     "marketCap": {
       "value": 4430000000,
@@ -49,8 +49,8 @@
       {
         "period": "Q3 2026",
         "value": 4.48,
-        "basis": "adjusted (non-GAAP)",
-        "note": "edged past $4.46 consensus but missed an unofficial Earnings Whispers figure of $4.60"
+        "basis": "adjusted/non-GAAP (per Zacks consensus comparison)",
+        "note": "Beat the Zacks consensus estimate of $4.46; a separate aggregator listing described Q3 results as a miss (dated around 2026-10-22 in search results) — not reconciled, see conflicts."
       }
     ],
     "revenue": [
@@ -68,18 +68,16 @@
       "note": "exact YoY % not found; described qualitatively as a record first-$1B revenue quarter (+26% YoY per file)"
     },
     "nextEarnings": {
-      "date": "2027-02-04",
+      "date": null,
       "confirmed": false,
-      "note": "single-source (Halo Technologies) estimate"
+      "note": "Conflicting unconfirmed estimates found this pass: Benzinga lists 2027-01-26 (EPS est. $4.59, revenue est. ~$1.1B); the file's prior pass cited a Halo Technologies estimate of 2027-02-04. Neither is company-confirmed."
     }
   },
   "price": {
-    "last": 182.18,
-    "changePct": 1.27,
-    "rvol": null,
-    "asOf": "2026-10-29",
-    "source": "Upstox",
-    "note": "No Nov 19 quote found; this is the most recent dated figure located, showing recovery from the file's Oct 23 post-earnings-drop price of $165.07."
+    "last": 168.34,
+    "asOf": "2026-11-09",
+    "source": "Benzinga",
+    "note": "Supersedes the 2026-10-29 $182.18 figure on file. An intermediate close of $174.09 was found for 2026-10-30. See conflicts for a discordant '$119.49 Nov 18 low' figure that could not be reconciled and was not used."
   },
   "catalysts": [
     {
@@ -168,12 +166,25 @@
     }
   ],
   "conflicts": [
-    "Market cap: $3.63B vs $4.43B (2026-10-30) vs $4.29B vs $6.5B (undated, likely stale/wrong) — wide spread across aggregators with mismatched dates.",
-    "PE: Stockanalysis trailing 12.74/forward 9.33 is the only concrete figure found this pass; not independently cross-checked."
+    "ENVA price: one search result attributes a '$119.49' figure to a 2026-11-18 low, but this conflicts sharply with other dated points in the same window (2026-10-30: $174.09; 2026-11-09: $168.34) and appears to match figures elsewhere described as a 52-week-low reference (~$115–$118 cited by other sources) rather than an actual 2026-11-18 trade. Not reconciled; not used as the reported price.",
+    "ENVA next earnings date: Benzinga estimates 2027-01-26 vs. a Halo Technologies estimate (on file from a prior pass) of 2027-02-04 — both are unconfirmed third-party estimates, not reconciled.",
+    "ENVA Q3 2026 EPS: Zacks describes a beat ($4.48 actual vs. $4.46 est.); a separate aggregator listing (dated around 2026-10-22 in search snippet) describes a miss. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No catalysts new since the 2026-11-10 buyback authorization and 2026-11-04 notes offering already on file were found.",
+  "notes": "No new dated catalysts found since the 2026-11-10 $500M buyback authorization already on file. The September 2026 Grasshopper Bancorp bank-charter-application withdrawal and related ~25% share-price drop (plus a related Levi & Korsinsky investor notice) predate the file's lastCat and are included here only as background, not as a new catalyst.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -430,18 +441,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
       "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "conflicts updated"
     ],
     "tradingDay": true

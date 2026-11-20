@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.124Z",
+  "lastResearched": "2026-11-20T21:16:52.320Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -65,7 +65,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located"
+      "note": "Q4/FY2026 date still not located this pass."
     },
     "revenue": [
       {
@@ -83,6 +83,13 @@
     "note": "No reliable quote newer than 2026-11-10 found this pass; see existing conflicts on the magnitude of this move."
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "other",
+      "headline": "BofA downgraded IHRT to Underperform from Neutral and cut its price target to $1 from $5; shares fell ~16.5% intraday that afternoon",
+      "impact": "Second consecutive sharp down day following the Nov 10 post-earnings crash",
+      "source": "https://stockstory.org/us/stocks/nasdaq/ihrt/news/why-up-down/why-iheartmedia-ihrt-stock-is-falling-today"
+    },
     {
       "date": "2026-11-11",
       "type": "legal/shareholder notice",
@@ -110,6 +117,13 @@
       "headline": "iHeartMedia CEO warned major advertisers are delaying spending as economic uncertainty bites, cited as driver of continued share weakness the day after earnings",
       "impact": "part of the -66% two-day move",
       "source": "https://www.benzinga.com/markets/earnings/26/11/63103911/iheartmedia-ceo-warns-major-advertisers-are-delaying-spending-as-economic-uncertainty-bites"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "guidance",
+      "headline": "iHeartMedia cut FY2026 revenue guidance to $550M-$600M after missing Q3 2026 estimates; Q3 revenue rose 3.3% YoY to $1.03B (vs $1.052B est.), podcast revenue +24.4%, Multiplatform/broadcast revenue -4.9%",
+      "impact": "Guidance cut accompanied the Q3 report that triggered the initial price collapse on 2026-11-10",
+      "source": "https://finviz.com/news/419517/iheartmedia-inc-reports-results-for-2026-third-quarter"
     },
     {
       "date": "2026-11-09",
@@ -141,6 +155,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -248,17 +273,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Quiet pass on new dated catalysts. Note: a 'transaction support agreement to strengthen balance sheet' headline surfaced in this pass's search results, but on inspection it corresponds to iHeartMedia's November 2024 debt-exchange TSA (re-surfacing in search indexing), not a new 2026 event — not reported as a new catalyst since it could not be confirmed as dated in 2026. A separate 'Levi & Korsinsky' shareholder-investigation notice (distinct from the on-file 'SueWallSt' notice) was found but is undated in available sources, so it is omitted per the dated-catalyst requirement.",
+  "notes": "No confirmed closing price newer than the 2026-11-10 $0.68 already on file was found this pass; a Fox Business quote-page snapshot of $1.77-$1.87 is stale (last updated ~Nov 6) and should not be used. CEO Bob Pittman said on the Q3 call that several large advertisers delayed spending until after the elections, citing inflation, volatile fuel prices and consumer uncertainty, and said he expects these pressures through year-end 2026 (Webull/Benzinga recap of the Q3 2026 earnings call, exact publish date not pinned down beyond 'within ~6 days' of query date, so not listed as a separately dated catalyst).",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "growth updated",
-      "marketCap updated",
-      "debt updated",
-      "move -61.58%",
-      "conflicts updated"
+      "2 new catalyst(s)",
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

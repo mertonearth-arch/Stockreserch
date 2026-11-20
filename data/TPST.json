@@ -8,19 +8,22 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.149Z",
+  "lastResearched": "2026-11-20T21:16:52.353Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Not found"
+      "value": 8950000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business (via search)",
+      "note": "Tied to a ~$0.51-0.52 price that day, older than the file's 2026-11-13 $0.38 price; not recalculated to that later price this pass."
     },
     "float": {
       "value": null,
       "note": "Not located"
     },
     "sharesOutstanding": {
-      "value": null,
-      "note": "Not found this pass"
+      "value": 16890000,
+      "asOf": "2026-10-23",
+      "source": "Fox Business / Fidelity (via search)"
     },
     "shortInterest": {
       "value": 341334,
@@ -28,9 +31,10 @@
       "note": "2.3% of shares outstanding, 3.6 days to cover; likely stale"
     },
     "cash": {
-      "value": 800000,
-      "asOf": "2026-06-30",
-      "source": "Panabee aggregator summary of Q2 2026 report"
+      "value": 900000,
+      "asOf": "2026-09-30",
+      "source": "Tempest Q3 2026 financial results (released 2026-11-13)",
+      "note": "Down from $7.7M at 2025-12-31. Cash used in operations for 9M 2026 was $12.4M."
     },
     "debt": {
       "value": 7600,
@@ -39,17 +43,15 @@
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Pre-revenue clinical-stage biotech; no positive earnings",
-      "asOf": "2026-11-19"
+      "note": "negative earnings; company also disclosed substantial doubt about its ability to continue as a going concern in the Q3 2026 release",
+      "asOf": "2026-11-13"
     },
     "eps": [],
     "revenue": [],
     "growth": {
-      "metric": "cash position",
-      "period": "2025-12-31 to 2026-06-30",
-      "pct": null,
-      "note": "Pre-revenue clinical-stage biotech; cash declined from $7.7M to ~$0.8M over H1 2026 per aggregator sources"
+      "metric": "cash position (YTD decline)",
+      "period": "9M 2026 vs FY2025 year-end",
+      "pct": -88.3
     },
     "nextEarnings": {
       "date": null,
@@ -66,6 +68,20 @@
     "note": "First confirmed dated price established this pass (file previously had price.last = null). 52-week range $0.34-$9.75 per same source."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "earnings",
+      "headline": "Tempest reported Q3 2026 results: cash fell to $0.9M (from $7.7M at 2025-12-31); company disclosed substantial doubt about its ability to continue as a going concern and said cash is expected to fund operations for less than 12 months; secured a $50M equity line of credit (only ~$0.3M drawn through 2026-09-30). Stock reported down ~10.5% on the news.",
+      "impact": "Severe liquidity constraint; going-concern disclosure.",
+      "source": "https://finviz.com/news/422789/tempest-reports-third-quarter-2026-financial-results-and-provides-business-update"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "contract",
+      "headline": "Tempest exercised its option (granted 2026-09-16) to take an exclusive global license (ex-China) to Senlang's CD7-targeted lentiviral in vivo CAR-T platform and a portfolio of candidates, including lead asset TPST-4903 (targets BCMA/GPRC5D); 13 patients had received TPST-4903 as of the data cutoff in the ongoing DELIVER-1 study.",
+      "impact": "Pipeline expansion into in-vivo CAR-T; adds future license fee obligations.",
+      "source": "https://finviz.com/news/421012/tempest-therapeutics-exercises-option-to-license-senlangs-cd7-targeted-lentiviral-in-vivo-car-t-platform-following-initial-phase-1-results-with-lead-bcmagprc5d-candidate"
+    },
     {
       "date": "2026-11-11",
       "type": "licensing",
@@ -108,11 +124,27 @@
     }
   ],
   "conflicts": [
-    "Secondary source (Tickeron) describes a share-price decline from ~$0.64 (mid-October) to ~$0.38 (mid-November 2026) attributed to a Nasdaq minimum-bid-price deficiency notice issued 'in early November 2026' -- no exact date found for that notice, so it is not recorded as a dated catalyst."
+    "First-year license fee obligations tied to the Senlang/Factor deals reported inconsistently: one source cites $15M total (Senlang + Factor combined), another cites $36M specifically for Senlang fees -- not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts dated since the existing file's last entry (2026-11-11 option exercise). Newly established a confirmed price ($0.38, 2026-11-13).",
+  "notes": "No Q4 2026/FY2026 report date located (consistent with file). Price not updated this pass -- the only newer data point found (~$0.51-0.52, 2026-10-23) actually predates and is higher than the file's existing 2026-11-13 $0.38 figure, so the file's more recent price is kept.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -408,17 +440,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "2 new catalyst(s)",
       "pe updated",
       "growth updated",
-      "nextEarnings updated",
-      "float updated",
-      "shortInterest updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
       "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

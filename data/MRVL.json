@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.126Z",
+  "lastResearched": "2026-11-20T21:16:52.323Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -56,12 +56,12 @@
     }
   },
   "price": {
-    "last": 156.76,
+    "last": 148.74,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "Wedbush quote page",
-    "note": "Subsequently fell ~7.3% on 2026-11-16 per Motley Fool/Trefis (implied close ~$145, not a directly reported print, so not recorded as the last price); no confirmed close for Nov 17-19."
+    "asOf": "2026-11-17",
+    "source": "Schwab (value backed out as the stated 'previous close' on a 2026-11-18 2:18pm ET intraday quote page); not independently corroborated",
+    "note": "Consistent with Trefis/Motley Fool reporting MRVL fell ~7.3% on 2026-11-16 (implying a close near $145 that day, i.e. before a partial rebound to $148.74 on Nov 17). No confirmed close located for Nov 18 or 19."
   },
   "catalysts": [
     {
@@ -220,8 +220,16 @@
     "Market cap: Fox Business $123.82B at $154.39 (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — unreconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new fundamental catalyst beyond continued chip-sector/Lumentum-deal pressure; Q3 FY2027 earnings remain the next scheduled catalyst (Dec 1).",
+  "notes": "Dec 1, 2026 earnings date (on file, confirmed) was not independently re-confirmed this pass; no source found disputing it.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -545,21 +553,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

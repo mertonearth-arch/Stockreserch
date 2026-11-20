@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.134Z",
+  "lastResearched": "2026-11-20T21:16:52.330Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -27,8 +27,9 @@
       "note": "not retrieved this pass"
     },
     "cash": {
-      "value": null,
-      "note": "not retrieved this pass"
+      "value": 2600000,
+      "asOf": "2026-09-30",
+      "source": "company Q3 2026 press release via biospace.com"
     },
     "debt": {
       "value": null,
@@ -37,30 +38,28 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; company is pre-profitability with ongoing losses and going-concern doubt",
-      "asOf": "2026-11-13"
+      "note": "negative earnings",
+      "asOf": "2026-09-30"
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": -4.74,
+        "period": "Q3 2026",
+        "value": null,
         "basis": "GAAP",
-        "note": "prior-year comparable quarter; Q3 2026 per-share loss not located, though aggregate net loss of ~$5.3M (vs ~$5.1M in Q3 2025) was reported"
+        "note": "Net loss ~$5.3M reported (vs ~$5.1M Q3 2025); per-share figure not independently confirmed this pass — see conflicts."
       }
     ],
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 1450000,
-        "yoy": null,
-        "note": "prior-year comparable quarter only; Q3 2026 revenue figure not found, though unit-volume growth was disclosed"
+        "period": "Q3 2026",
+        "value": 1100000,
+        "note": "Company release: ~$1.1M vs ~$1.4M in the prior-year quarter (a separate Q3 2025 press release had reported $1.45M for that quarter — minor unreconciled discrepancy in the YoY comparison base)."
       }
     ],
     "growth": {
-      "metric": "CyPath Lung test volume YoY (nine-month)",
+      "metric": "CyPath Lung test unit sales (9mo)",
       "period": "9M 2026 vs 9M 2025",
-      "pct": 109,
-      "note": "unchanged from last pass; one source separately gives Q3 2026 revenue of ~$1.1M, down 25.9% YoY from $1.4M"
+      "pct": 100
     },
     "nextEarnings": {
       "date": null,
@@ -81,6 +80,13 @@
       "type": "analyst action",
       "headline": "Wall Street Zen downgraded bioAffinity Technologies (BIAF) to 'Sell'",
       "source": "dailypolitical.com"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "bioAffinity reported Q3 2026 results: revenue ~$1.1M (vs ~$1.4M prior year), net loss ~$5.3M (vs ~$5.1M); company disclosed substantial doubt about its ability to continue as a going concern absent further financing or revenue improvement.",
+      "impact": "going-concern disclosure",
+      "source": "https://www.biospace.com/press-releases/bioaffinity-technologies-reports-third-quarter-2026-results-and-continued-momentum-in-cypath-lung-commercialization"
     },
     {
       "date": "2026-11-05",
@@ -249,13 +255,28 @@
     }
   ],
   "conflicts": [
-    "Price: $2.20 (~2026-11-13, Daily Political) / $2.26 (2026-11-09, StockInvest & QuiverQuant, two independent sources agree) vs $3.04 (Benzinga, 2026-10-29) vs $3.17 (Motley Fool, 2026-10-22) — stock has declined materially through November.",
-    "Q3 2026 report date: conflicting estimates of Nov 6, Nov 13, and Nov 18, 2026 were found; results appear to have already been released around Nov 5-6 per other sources.",
-    "A separate Investing.com page showed an obviously erroneous price artifact (14,476.00) dated Nov 19 — disregarded as a page/data error, not a genuine source disagreement."
+    "BIAF Q3 EPS: Zacks reports -$5.89 (Q3 2026) vs -$71.05 (Q3 2025) per-share loss; these magnitudes don't reconcile with the company's own previously reported Q3 2025 GAAP EPS of -$4.74 — likely reflects the 1-for-15 reverse split (effective 2026-08-24) rather than being directly comparable; not reconciled this pass.",
+    "BIAF Q3 2025 revenue comparison base: the 2026 Q3 release cites ~$1.4M for Q3 2025, while the original Q3 2025 press release reported $1.45M — minor, unreconciled."
   ],
   "pendingFilings": [],
-  "notes": "Price has fallen from ~$3.04 (2026-10-29, prior pass) to ~$2.20-2.26 in November; new Wall Street Zen Sell rating (2026-11-15) is the only new dated catalyst found this pass.",
+  "notes": "Company completed a 1-for-15 reverse stock split effective 2026-08-24 and an ~$4.0M gross private placement (August 2026) per secondary sources — flagged per the reverse-split watch rule; no impossible price jump was observed against the $2.20 (2026-11-13) price already on file, so price is left unchanged this pass (no reliably newer dated figure found; sources were undated or conflicting, ranging ~$0.60–$3.35 with no clear date). Could not confirm the exact date of the on-file Wall Street Zen 'Sell' downgrade (aggregator posts describe it only as 'Saturday' or 'Sunday' without stating 2026-11-15 specifically).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -585,16 +606,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
       "pe updated",
       "eps updated",
+      "revenue updated",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.150Z",
+  "lastResearched": "2026-11-20T21:16:52.354Z",
   "fundamentals": {
     "marketCap": {
-      "value": 10752000,
-      "asOf": "2026-11-13",
-      "source": "Yahoo Finance (via WebSearch snippet)"
+      "value": 10560000,
+      "asOf": "2026-11-12",
+      "source": "Yahoo Finance (via search)"
     },
     "float": {
       "value": 1290000,
@@ -53,14 +53,21 @@
     }
   },
   "price": {
-    "last": 0.81,
-    "changePct": 1.4,
+    "last": 0.855,
+    "changePct": 1.8,
     "rvol": null,
-    "asOf": "2026-11-06",
-    "source": "ryanoconnellfinance.com (stock dashboard)",
-    "note": "No reliable dated quote newer than 2026-11-06 found."
+    "asOf": "2026-11-12",
+    "source": "Yahoo Finance (via search)",
+    "note": "Firmed slightly from the file's $0.81 (2026-11-06). No reliable quote found after the 2026-11-17 acquisition announcement despite searching."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "other",
+      "headline": "Turbo Energy proposed an all-share acquisition of IM2 Energia Solar and Greentech Solutions from its majority shareholder, Umbrella Global Energy, for an aggregate issue amount of EUR 9.271 million; no cash changes hands. IM2 handles solar project development/engineering/construction and Greentech handles O&M; both would become wholly owned subsidiaries. This is a related-party transaction since Umbrella controls both targets.",
+      "impact": "Would extend Turbo Energy from storage/energy-management software into project delivery and lifecycle services; deal provides no disclosed revenue, earnings, cash flow, debt, or margin figures for the targets.",
+      "source": "https://www.panabee.com/news/turbo-energy-proposes-39-5-million-share-acquisition-from-majority-owner"
+    },
     {
       "date": "2026-11-17",
       "type": "M&A (related-party)",
@@ -154,8 +161,19 @@
     "No internally-consistent current price could be established: dated figures range from $0.81 (2026-11-06) to undated snapshots of $0.81, $0.92, $1.51 and $3.59 across different aggregators -- treated as stale/unreliable rather than reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Two new catalysts since the existing file's last entry: the Nov 17 related-party acquisition proposal (IM2/Greentech from Umbrella Global Energy) and the Nov 11 tokenization-financing project with Taurus/Stellar Development Foundation.",
+  "notes": "Fuller detail on the already-on-file 2026-11-17 acquisition catalyst (prior entry was truncated). No results found on shareholder vote timing, closing timeline, or stock reaction to the announcement. Foreign private issuer; no fixed quarterly earnings cadence confirmed (unchanged from file).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -385,16 +403,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "marketCap updated"
     ],
     "tradingDay": true
   }

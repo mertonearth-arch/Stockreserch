@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.130Z",
+  "lastResearched": "2026-11-20T21:16:52.326Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -57,12 +57,12 @@
     }
   },
   "price": {
-    "last": 11.82,
-    "changePct": -16.47,
+    "last": 10.67,
+    "changePct": -9.73,
     "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "equibles.com, corroborated by Trefis's independently-reported ~16.5% move",
-    "note": "Lowest close since 2026-08-10, per AskTraders, following the FDA Complete Response Letter."
+    "asOf": "2026-11-17",
+    "source": "massive.com (quote timestamped 7:59:30 PM EST Nov 17, 2026 -- likely an after-hours/extended print rather than the official close)",
+    "note": "Newer than the $11.82 (-16.47%) Nov 16 close on file; implies the stock kept falling. Monthly return cited as -31.47%."
   },
   "catalysts": [
     {
@@ -97,6 +97,13 @@
       "type": "regulatory",
       "headline": "FDA PDUFA goal action date for the ivonescimab BLA in EGFR-mutated NSCLC — decision pending as of 2026-11-10",
       "source": "https://rallies.ai/news/summit-therapeutics-gains-as-ivonescimab-bla-clock-ticks-toward-nov-14-2026-pdufa"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "regulatory",
+      "headline": "FDA Complete Response Letter for ivonescimab + platinum chemotherapy in EGFR-mutated NSCLC: FDA said the application could not be approved as submitted because the overall-survival data lacked statistical significance, flagged that 93% of PFS events occurred in China-enrolled patients, called post-hoc OS analyses 'exploratory only,' and said PFS benefit alone doesn't support a positive benefit-risk profile. FDA asked for a new, adequate, well-controlled global trial to pursue this indication.",
+      "impact": "Regulatory rejection of the lead indication; no resubmission plan or timeline given by Summit as of this pass.",
+      "source": "https://www.fiercepharma.com/pharma/fdas-complete-response-letter-summit-ivonescimab-cites-china-heavy-data-beyond-survival-miss"
     },
     {
       "date": "2026-11-05",
@@ -161,10 +168,25 @@
       "source": "https://www.businesswire.com/news/home/20260112655330/en"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "CRL date: FiercePharma/FierceBiotech cite a letter dated Nov 13, 2026 (newly posted to FDA's website); another report states Summit received the CRL on Nov 15, 2026.",
+    "Price: $11.82 (-16.47%) at the Nov 16 close (file/AskTraders/equibles) vs. $10.67 (-9.73%) quoted for Nov 17 by massive.com -- the Nov 17 figure may be an after-hours print, not a confirmed regular-session close."
+  ],
   "pendingFilings": [],
-  "notes": "FDA CRL itself (2026-11-15) was already on file; this pass adds the confirmed Nov 16 closing price/move and the specific analyst price-target changes that followed it.",
+  "notes": "Akeso's CEO characterized the rejection as an isolated case tied to a relatively small indication. Summit said it would hold an investor call following the FDA decision but, per Fierce, had not done so as of reporting. Next near-term catalyst flagged by coverage: HARMONi-3 squamous-NSCLC PFS data expected around end of 2026 (non-squamous cohort PFS in H1 2027 per earlier company timeline) -- no exact date, so omitted from catalysts per date-required rule. No confirmed nextEarnings date located this pass (unchanged).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move -9.73%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -409,18 +431,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "move -16.47%"
+      "move -9.73%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

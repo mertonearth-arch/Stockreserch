@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.120Z",
+  "lastResearched": "2026-11-20T21:16:52.314Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -53,16 +53,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located this pass"
+      "note": "Conflicting/unclear this pass: Benzinga lists an estimated Q3 2026 report around 2026-11-24 (EPS est. -$0.26, revenue est. $4.7M, unconfirmed); EarningsWhispers separately listed an expected 2026-11-11 after-close date, which has already passed with no confirmed release located; a BiopharmaWatch headline referencing 'Connect Biopharma Reports Third Quarter 2026 Financial Results' was found but is undated and could not be confirmed as already-published. Next pass should re-check for an actual Q3 2026 press release."
     }
   },
   "price": {
-    "last": 1.235,
-    "changePct": 24.57,
-    "rvol": 145.6,
-    "asOf": "2026-11-06",
-    "source": "RTTNews (via on-file record)",
-    "note": "No newer reliable quote found this pass; aggregators checked (Upstox $0.83 asOf 2026-10-30, Benzinga $1.10 asOf 2026-09-30, Trade-Ideas ~$0.94 undated) are all older or undated and inconsistent with the $1.235 figure already on file."
+    "last": 0.6772,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-13",
+    "source": "Quiverquant (CNTB historical prices page)",
+    "note": "Single source found this pass for this date; could not corroborate with a second source. This is a steep decline from the $1.235 level on file (2026-11-06, post Phase-2 pop); no specific dated news was located this pass explaining the drop, so treat with caution and verify next pass. Could not find any price for 2026-11-17 through 2026-11-19."
   },
   "catalysts": [
     {
@@ -128,12 +128,22 @@
     }
   ],
   "conflicts": [
-    "Market cap: Massive $48.27M (price $0.8489, 2026-10-26) vs Equibles $53.06M (price $0.87) vs Motley Fool $46.08M — different dates/methodologies.",
-    "Shares outstanding: ~63M (Massive/Equibles, Oct 2026) vs 56.52M (StockAnalysis, undated/likely stale)."
+    "CNTB next earnings date: Benzinga suggests ~2026-11-24 (estimate) vs EarningsWhispers suggesting 2026-11-11 (already passed, unconfirmed if actually reported) vs an undated BiopharmaWatch headline implying Q3 2026 results may already be out."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass — no new dated catalyst or confirmed current price found since the Nov 10-11 earnings-collapse cluster already on file. Fundamentals unchanged from prior pass.",
+  "notes": "Could not confirm the exact date/source of the 'positive Phase 2' readout already on file for 2026-11-06 beyond what was previously recorded; searches this pass surfaced Seabreeze STAT asthma (Sept 2026, 130mL FEV1 improvement at day 7 vs placebo, primary 28-day endpoint narrative disputed between company and press) and Seabreeze STAT COPD (85% reduction in attacks per FierceBiotech vs 81% reduction in treatment failures per Quartr, secondary endpoint missed) data, but these appear to predate the Nov 6 catalyst already on file and may be the same underlying readouts reported in stages. Analyst price targets seen this pass ranged roughly $4-$10 (Lake Street $9, Oppenheimer cut to $5 from $8, Canaccord $6 from $7, Leerink $4 initiation) but none dated within the current lookback window, so not reported as new catalysts.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -383,19 +393,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "move 24.57%",
-      "RVOL 145.6x",
       "conflicts updated"
     ],
     "tradingDay": true

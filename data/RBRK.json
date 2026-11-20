@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.129Z",
+  "lastResearched": "2026-11-20T21:16:52.324Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -65,15 +65,16 @@
     "nextEarnings": {
       "date": "2026-11-30",
       "confirmed": true,
-      "note": "Unchanged: company-confirmed Q3 FY2027 results after close Mon 2026-11-30, call 5:00pm ET."
+      "note": "Reconfirmed: Rubrik will report Q3 FY2027 results (quarter ended Oct 31, 2026) after market close Mon 2026-11-30, call at 2:00pm PT (= 5:00pm ET, consistent with the time already on file). Pre-earnings estimates per Benzinga: EPS -$0.01, revenue $430.2M."
     }
   },
   "price": {
-    "last": 105.92,
-    "changePct": -3.6,
+    "last": 100.68,
+    "changePct": -4.95,
     "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "aaii.com"
+    "asOf": "2026-11-17",
+    "source": "Benzinga quote page (explicit 'close' label)",
+    "note": "changePct calculated from the $105.92 close already on file for 2026-11-16; not independently sourced as a stated day-over-day percentage. A separate MEXC listing shows a $106.03 close for the same date (2026-11-17) -- see conflicts, not reconciled."
   },
   "catalysts": [
     {
@@ -137,12 +138,23 @@
     }
   ],
   "conflicts": [
-    "Market cap snapshots this pass spanned roughly $10B (Feb 2026, stale) to $23.1B (undated) to the prior $25.7-28B range (Oct 31) — no reconciliation possible; left null.",
-    "Shares outstanding sightings this pass (202.28M, 207.63M, 160.94M, 151.89M) add to the existing unresolved 189.8M/202.3M conflict on file."
+    "RBRK Nov 17 close: Benzinga $100.68 vs. MEXC $106.03 (same date) -- not reconciled.",
+    "RBRK next earnings date: company-sourced finviz PR and Benzinga both say 2026-11-30, but a MEXC quote page separately states the next earnings report is scheduled for 2026-12-03 -- not reconciled; Nov 30 treated as more authoritative given the direct company-sourced announcement."
   ],
   "pendingFilings": [],
-  "notes": "No material new catalyst since 2026-11-18 lastResearched pass; price continued drifting down into mid-November without earnings. Next earnings (Q3 FY2027) confirmed 2026-11-30.",
+  "notes": "Quiver Quantitative noted new Rubrik product launches (AWS cyber-recovery, expanded Google Cloud Storage/BigQuery protection) and insider-sale activity (170 sales, 0 purchases over six months), but no clear calendar date was found for either item, so neither is listed as a dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -443,18 +455,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

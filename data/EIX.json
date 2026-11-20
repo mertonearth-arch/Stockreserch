@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.123Z",
+  "lastResearched": "2026-11-20T21:16:52.319Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -47,20 +47,8 @@
     "eps": [
       {
         "period": "Q3 2026",
-        "value": 1.88,
-        "basis": "GAAP"
-      },
-      {
-        "period": "Q3 2026",
         "value": 1.92,
-        "basis": "core (non-GAAP)",
-        "note": "beat Zacks consensus of $1.83; net income of $724M"
-      },
-      {
-        "period": "Q3 2025",
-        "value": 2.16,
-        "basis": "core (non-GAAP)",
-        "note": "prior-year comparable quarter; net income of $832M"
+        "basis": "core/non-GAAP (beat analyst estimates)"
       }
     ],
     "revenue": [
@@ -76,10 +64,9 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": -15,
-      "note": "Operating revenue fell from $5.750B to $4.886B, mainly due to a 2025 one-time rate-case item, not an operating deterioration"
+      "metric": "FY2026 core EPS guidance (reaffirmed)",
+      "period": "FY2026",
+      "pct": null
     },
     "nextEarnings": {
       "date": null,
@@ -298,8 +285,19 @@
     "Q3 2025 core EPS: one source states core EPS fell to $1.92 from $2.34 YoY; the figure already on file from a prior pass states $2.16 for Q3 2025. Both readings retained verbatim."
   ],
   "pendingFilings": [],
-  "notes": "The Nov 15, 2026 deadline (on file as an upcoming catalyst) for a possible special California legislative session on wildfire reform has now passed; this pass could not confirm from search results whether a special session was actually called or what the outcome was — flag for confirmation on the next pass. The Nov 30, 2026 Wildfire Recovery Compensation Program deadline (already on file) remains upcoming.",
+  "notes": "FY2026 core EPS guidance of $5.90-$6.20 was reaffirmed on the Q3 2026 call despite the EPS beat, because management warned that without durable statewide wildfire-liability reform, Southern California Edison would request less growth capital in its 2029 general rate case. The Q3 call flagged 2026-11-15 as a possible deadline for a special legislative session on wildfire liability reform; this pass could not confirm what happened at/after that deadline (outcome not located). The Wildfire Recovery Compensation Program referenced on file has grown to more than 3,200 offers totaling roughly $1.1 billion (undated snapshot via Trefis, ahead of the 2026-11-30 deadline already on file). Stock set a 52-week low of $51.10 on 2026-09-29 and has recovered roughly 15% since (undated secondary source). No price newer/more reliable than the on-file 2026-11-13 ($60.17) was found this pass -- a Fox Business snapshot showed $60.15 at the 2026-11-10 close, consistent with (not superseding) the on-file figure, so price was left unchanged. An unverified single-source reference to a Mizuho downgrade/$63 target around 2026-11-02 could not be corroborated and may be a confusion with an earlier (2026-03-05) Ladenburg Thalmann $63 target -- NOT reported as fact due to this uncertainty.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -688,18 +686,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "growth updated",
-      "marketCap updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "eps updated",
+      "growth updated"
     ],
     "tradingDay": true
   }

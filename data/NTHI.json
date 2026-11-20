@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.127Z",
+  "lastResearched": "2026-11-20T21:16:52.344Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -53,11 +53,12 @@
     }
   },
   "price": {
-    "last": 3.07,
-    "changePct": 0,
+    "last": 4.85,
+    "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-03",
-    "note": "Most recent dated figure found; no confirmed price for Nov 13-19 — sources disagree widely (see conflicts)."
+    "asOf": "2026-11-13",
+    "source": "TradersUnion",
+    "note": "Single-sourced figure, not cross-verified against a second service. No confirmed close found for Nov 17-20 despite the Nov 17 Phase 2a data update already on file. Given as the most recent dated figure located this pass; treat with caution given the conflicts below."
   },
   "catalysts": [
     {
@@ -210,14 +211,21 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: ~28.81M (Morningstar/Fool) vs ~24.13M (roic.ai) vs ~19.47M (Simply Wall St) vs 19M-23M (Trefis).",
-    "Market cap: ~$90.7M (Morningstar) vs ~$92.2M (Fool) vs ~$193.8M (Simply Wall St, likely stale price).",
-    "Cash & equivalents: ~$6.17M (Fool) vs ~$138.6K (roic.ai) vs ~$58.7K (TipRanks) — orders-of-magnitude apart.",
-    "Stock price: $3.07 (Nov 3) vs $3.00 (Weiss, referencing Aug 10 10-Q) vs $4.80 (Trefis, Jun 22) vs $2.73 (Upstox, Oct 10) vs $2.65 (ryanoconnellfinance, Oct 14) — no confirmed recent close."
+    "Price trail this pass is internally inconsistent, with each figure coming from only one source: Fool.com shows a $3.20 close on 2026-11-05 (intraday high ~$3.37); Global Banking & Finance shows a $3.74 close on 2026-11-09 (+7.16%); TradersUnion shows $4.85 on 2026-11-13. This could reflect a genuine run-up ahead of the Nov 17 Phase 2a update, but none of it was independently cross-checked, so it is reported as a possible trend rather than a reconciled price series."
   ],
   "pendingFilings": [],
-  "notes": "The Nov 17 FDA End-of-Phase 1 Type B meeting for NEO212 (already on file as scheduled) has occurred, but no outcome/readout has been published in any source found this pass. New clinical data (above) on the separate NEO100 program was released the same day.",
+  "notes": "Fuller detail now available on the 2026-11-17 Phase 2a catalyst already on file (not re-logged as a new catalyst): objective response rate rose to 12.5% (3/24 patients, RANO 2.0) from 8.3% (2/24) at the 2026-08-12 topline; disease control rate 66.7% (13/24 stable, 8/24 progressive); median overall survival 26.1 months from NEO100 start at recurrence; company says it will request a Type B FDA meeting to discuss a potential registrational pathway. Separately, an unconfirmed, undated secondary report describes CEO Amir Heshmatpour making open-market purchases of 80,000 shares — omitted as a catalyst for lack of a date per standing rules.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -515,16 +523,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

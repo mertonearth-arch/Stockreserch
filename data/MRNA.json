@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.143Z",
+  "lastResearched": "2026-11-20T21:16:52.342Z",
   "fundamentals": {
     "marketCap": {
       "value": 90380000000,
@@ -45,29 +45,27 @@
     },
     "eps": [
       {
-        "period": "Q3 2025",
-        "value": -0.51,
-        "basis": "GAAP diluted"
-      },
-      {
         "period": "Q3 2026",
         "value": 0.38,
-        "basis": "GAAP diluted"
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2025",
+        "value": -0.51,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
-        "value": 1300000000,
-        "yoy": null,
-        "note": "Prior-year Q3 revenue figure not retrieved, so YoY % not computed."
+        "value": 1310000000,
+        "yoy": 29.2
       }
     ],
     "growth": {
-      "metric": "revenue growth (company guidance)",
-      "period": "FY2026",
-      "pct": 15,
-      "note": "At Nov 12 Analyst Day, management raised FY2026 sales-growth guidance to 15%-25% from a prior 10% figure; this is guidance, not a reported actual."
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": 29.2
     },
     "nextEarnings": {
       "date": null,
@@ -96,6 +94,13 @@
       "headline": "Moderna Analyst Day",
       "impact": "Event occurred the day before this report; specific content/outcome of the Analyst Day could not be confirmed in this pass.",
       "source": "unconfirmed; mentioned in passing by Mitrade coverage"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue $1.31B (+29.2% YoY), GAAP EPS $0.38 vs -$0.51 in Q3 2025; topped revenue expectations.",
+      "impact": "Shares rose on the report",
+      "source": "https://stockstory.org/us/stocks/nasdaq/mrna/news/earnings/moderna-nasdaqmrna-delivers-strong-q3-2026-numbers-stock-soars"
     },
     {
       "date": "2026-11-06",
@@ -226,8 +231,21 @@
     "Shares outstanding: 404.62M (2026-11-13, financialcontent) vs. 396.79M (2026-07-15, Simply Wall St, on file) vs. 399.24M (undated equibles snapshot) — minor discrepancies likely reflect different as-of dates."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst beyond the Nov 12 Analyst Day (oncology-led growth plan centered on intismeran, raised FY2026 revenue-growth guidance to 15-25% from 10%) and Nov 6 Q3 earnings, both already on file.",
+  "notes": "The Nov 12 Analyst Day already on file (guidance raise) reportedly saw shares fall more than 6% intraday before paring to roughly a 2% loss by late morning (Motley Fool) — investors reportedly wanted more detail on 2027 guidance beyond the FY2026 sales-growth raise. No Q4/FY2026 earnings date found yet. No confirmed price beyond the file's 2026-11-13 $223.37 found this pass.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -546,21 +564,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
+      "1 new catalyst(s)",
       "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "revenue updated",
+      "growth updated"
     ],
     "tradingDay": true
   }

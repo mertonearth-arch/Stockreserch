@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.122Z",
+  "lastResearched": "2026-11-20T21:16:52.318Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -29,11 +29,12 @@
     },
     "cash": {
       "value": null,
-      "note": "Not established; only transaction-level cash inflows found (e.g., $2.5M warrant inducement Aug 2026), not a balance-sheet figure"
+      "note": "Not separately disclosed in sources found this pass; working capital reported at $3.1M as of end of Q3 2026, up from $1.4M at year-end 2025."
     },
     "debt": {
-      "value": null,
-      "note": "Not established"
+      "value": 0,
+      "asOf": "2026-Q3",
+      "note": "Company retired its remaining note payable during Q3 2026, per its Q3 2026 report."
     },
     "pe": {
       "trailing": null,
@@ -43,15 +44,9 @@
     },
     "eps": [
       {
-        "period": "Q2 2026",
-        "value": -0.56,
-        "basis": "GAAP"
-      },
-      {
         "period": "Q3 2026",
-        "value": -0.66,
-        "basis": "GAAP",
-        "note": "Computed from reported net loss of $(886,083) and weighted avg shares outstanding of 1,342,766 per the Q3 2026 8-K exhibit; company's own per-share figure not independently located — treat as an estimate"
+        "value": -4.01,
+        "basis": "GAAP (includes a one-time $4.5M non-cash deemed dividend tied to an August 2026 warrant inducement; excluding that item, net loss was $(886,083) vs $(964,849) in Q3 2025)"
       }
     ],
     "revenue": [
@@ -86,6 +81,13 @@
     "note": "No quote newer than 2026-11-13 found this pass; other aggregators found (Schwab $2.74 asOf 2026-10-27, Benzinga $3.27 asOf 2026-10-23) are all older."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "earnings",
+      "headline": "Q3 2026 results: revenue ~$1.48M (-4% YoY); software license fees +39% YoY (86% of total revenue vs 59% a year ago, driven by Middle East/Europe momentum); gross margin improved to 90% from 77%; net loss narrowed to $(886K) excluding a one-time deemed dividend; 9-month revenue +14% to $5.5M",
+      "impact": null,
+      "source": "SEC 8-K / company release (via WebSearch aggregators)"
+    },
     {
       "date": "2026-11-13",
       "type": "earnings",
@@ -199,8 +201,21 @@
     "Shares outstanding/market cap continue to disagree sharply across aggregators (roughly 1.09M-2.04M shares, $3M-$7.8M cap)."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass — no new dated catalyst found since the Q3 2026 print (2026-11-13) already on file. Fundamentals unchanged.",
+  "notes": "Listing status clarified this pass: BKYI's Nasdaq listing was suspended effective 2026-05-13 (bid-price and late 10-K deficiencies) and shares traded on OTC Markets temporarily; a Nasdaq Hearings Panel determined on 2026-06-16 that the company had regained compliance (bid price, after its 1-for-10 reverse split, and SEC filing requirements), and trading resumed on Nasdaq on 2026-07-08. The company remains subject to a Discretionary Panel Monitor under Nasdaq Rule 5815(d)(4)(B) through 2027-07-06. This supersedes any assumption that BKYI is delisted/OTC-only. No price newer than the on-file 2026-11-13 ($2.12) was found this pass; other aggregator snapshots found (Schwab $2.74 as of 2026-10-27, Benzinga $3.27 as of 2026-10-23) are all older, consistent with what was already on file.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "cash updated",
+        "debt updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -491,17 +506,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "eps updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
       "cash updated",
-      "debt updated",
-      "move -17.83%",
-      "conflicts updated"
+      "debt updated"
     ],
     "tradingDay": true
   }

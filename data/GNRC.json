@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.140Z",
+  "lastResearched": "2026-11-20T21:16:52.338Z",
   "fundamentals": {
     "marketCap": {
       "value": 11550000000,
@@ -68,7 +68,7 @@
     "nextEarnings": {
       "date": "2027-02-09",
       "confirmed": false,
-      "note": "FXEmpire projection for Q4/FY2026 report, not confirmed by company IR; unchanged from prior pass"
+      "note": "Conflicting unconfirmed estimates persist: FXEmpire projects Feb 9, 2027 (on file, unchanged); separate aggregator coverage (Fool/Zacks-linked) projects Feb 10, 2027 with consensus EPS ~$2.61 and revenue ~$1.4B. Neither is confirmed by company IR."
     }
   },
   "price": {
@@ -80,6 +80,13 @@
     "note": "Updates the prior $181.69 (Nov 11) figure; no Nov 19 quote found."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "contract",
+      "headline": "Generac disclosed a long-term supply agreement to provide backup power generators for Amazon data centers, alongside Q3 2026 results showing the data-center backlog rising to roughly $4.5B.",
+      "impact": "Names a specific hyperscaler counterparty (Amazon) behind the data-center backlog strength already flagged on file as a general catalyst.",
+      "source": null
+    },
     {
       "date": "2026-11-04",
       "type": "guidance",
@@ -155,10 +162,24 @@
       "source": "Investing.com ('Jefferies reiterates Buy on Generac stock, keeps $279 target')"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "nextEarnings date estimates for Q4/FY2026 differ by a day across aggregators: Feb 9, 2027 (FXEmpire) vs. Feb 10, 2027 (other aggregator coverage)."
+  ],
   "pendingFilings": [],
-  "notes": "No new catalysts found beyond the Nov 4 data-center backlog reaffirmation and Oct 28 Q3 2026 earnings/backlog update already on file. Price and market cap refreshed to a slightly more recent (Nov 16) data point.",
+  "notes": "Q3 2026 results (reported ~Nov 4, 2026, consistent with the on-file lastCat): non-GAAP EPS $2.54 (beat a consensus cited variously as $2.38-$2.43) on revenue of $1.29B (+16.2% YoY), which missed revenue consensus; shares fell on the revenue miss despite the EPS beat. Residential segment revenue +9% YoY. No price newer than the on-file $185.62 (Nov 16, financialcontent.com) was confirmed this pass.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -451,20 +472,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
+      "1 new catalyst(s)",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

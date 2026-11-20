@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.121Z",
+  "lastResearched": "2026-11-20T21:16:52.319Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -63,8 +63,7 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 361,
-      "note": "Biofuels segment revenue rose to $87.8M from $7.1M YoY"
+      "pct": 361.3
     },
     "nextEarnings": {
       "date": null,
@@ -73,14 +72,9 @@
     },
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 22700000,
-        "yoy": null
-      },
-      {
         "period": "Q3 2026",
         "value": 104700000,
-        "yoy": 361
+        "yoy": 361.3
       }
     ]
   },
@@ -123,6 +117,13 @@
     {
       "date": "2026-11-09",
       "type": "earnings",
+      "headline": "FutureFuel reported Q3 2026 (and nine-month) results: revenue $104.7M, up 361.3% YoY from $22.7M; net loss of $8.4M and gross loss of $5.4M for the quarter; company said it had booked orders for over 90% of Q4 2026 biodiesel production capacity, ahead of prior expectations",
+      "impact": null,
+      "source": "https://www.quiverquant.com/news/FutureFuel+Q3+Revenue+Reaches+%24104.7+Million+as+Net+Loss+Narrows"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
       "headline": "FutureFuel reported Q3 2026 results: revenue $104.7M (+361.3% YoY from $22.7M), GAAP net loss $8.4M (-$0.19/share) vs a $9.2M loss a year earlier; Biofuels revenue rose to $87.8M from $7.1M but posted a $9.8M gross loss on record-high soybean-oil/fat feedstock costs plus $8.7M of net derivative losses; Chemicals revenue rose to $16.9M from $15.6M despite a 27% volume decline from customer turnarounds; company guides to positive adjusted EBITDA in Q4 and for full-year 2026",
       "impact": "One source reports shares fell 38.5% after earnings (unverified by a second source); this supersedes the vaguer 'no further detail' note on file for the same report",
       "source": "https://finviz.com/news/419570/futurefuel-announces-third-quarter-2026-results"
@@ -157,12 +158,23 @@
     }
   ],
   "conflicts": [
-    "Nov 10, 2026 session close: Kalkine reports -43.98% to $2.84 against a 'calculated previous close' of $5.07; a separate aggregator (financialcontent) reports the same day's official close as $3.12, down 38.46%. Both describe the same Q3-earnings-reaction session but disagree on both the closing price and the magnitude of decline.",
-    "Market cap: $224.58M (Equibles, 2026-10-05) vs $244.32M (Equibles, 2026-08-21) — different dates.",
-    "Short interest: 1,211,016 shares / ~2.8% of shares outstanding (FINRA settlement 2026-09-15) vs 945,000 shares / 2.2% (2026-08-21 settlement)."
+    "FutureFuel 2026-11-10 close: Kalkine reports $2.84 (down 43.98% from a calculated prior close of $5.07) vs Financialcontent reports $3.120 (down 38.46%, officially timestamped 4:10pm EST) for the SAME date."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -275,17 +287,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new earnings/regulatory catalyst since the Q3 2026 print already on file; this pass adds a Gabelli coverage-initiation headline and an updated (and further-conflicting) price read.",
+  "notes": "The 361.3% revenue YoY jump for Q3 2026 is unusually large relative to FutureFuel's normal biodiesel/chemicals business; sources did not explain the driver (e.g., one-time bulk sale or feedstock pass-through pricing), so it should be treated as reported but not further characterized. The stock's sharp post-earnings decline (first identified as the $2.84/2026-11-10 figure already on file) is now tied to this Q3 earnings miss (net loss, gross loss) as the likely proximate cause. No price newer than the on-file 2026-11-13 ($2.91) was found this pass.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
+      "revenue updated",
       "growth updated",
-      "marketCap updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

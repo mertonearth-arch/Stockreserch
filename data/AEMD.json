@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.132Z",
+  "lastResearched": "2026-11-20T21:16:52.327Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -27,9 +27,9 @@
       "note": "not retrieved this pass"
     },
     "cash": {
-      "value": 5000000,
-      "asOf": "2026-03-31",
-      "source": "Aethlon Medical FY2026 year-end press release (unchanged)"
+      "value": 6487000,
+      "asOf": "2026-09-30",
+      "source": "Aethlon Medical Q2 FY2027 press release (via Barchart/Securities.io), up from $5,026,000 at 2026-03-31"
     },
     "debt": {
       "value": null,
@@ -56,10 +56,9 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "operating expense (cash burn)",
-      "period": "Q1 FY2027 (ended 2026-06-30)",
-      "pct": -11.9,
-      "note": "unchanged; pre-revenue"
+      "metric": "cash balance change since prior fiscal year-end",
+      "period": "2026-03-31 to 2026-09-30",
+      "pct": 29.1
     },
     "nextEarnings": {
       "date": null,
@@ -210,8 +209,19 @@
     "A post-split 8-K estimate of ~649,914 shares outstanding (effective date of the Aug 2026 split) conflicts with the scale implied by the pending North Immunology merger/PIPE share issuance; not used as a current figure."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts since the 2026-11-12 Q2 FY2027 report (already on file). This pass mainly resolved more detail on the reverse-split history without pinning a definitive current share count.",
+  "notes": "Q2 FY2027 (quarter ended 2026-09-30) detail beyond what was already on file: consolidated operating expenses ~$2.7M, up 77.2% YoY from ~$1.51M, driven by merger-related professional fees; net loss widened to $2.618M from $1.487M a year earlier (matches the net-loss-widened figure already on file). Workforce reductions were made near quarter-end, retaining staff needed for regulatory obligations and the Australian oncology trial. North Immunology merger (agreed 2026-09-17) had not closed as of Nov 12, 2026; expected close Q1 2027, subject to conditions -- no assurance given. Shareholders are expected to receive CVRs tied to any proceeds from monetizing the legacy Hemopurifier business. EPS for Q2 FY2027 not located this pass (sources gave dollar net loss only, not per-share).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "growth updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -563,17 +573,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
       "growth updated",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "conflicts updated"
+      "cash updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.135Z",
+  "lastResearched": "2026-11-20T21:16:52.332Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -56,8 +56,7 @@
       {
         "period": "Q3 2026",
         "value": 26700000,
-        "yoy": -62.76,
-        "note": "missed consensus of ~$39.8M"
+        "note": "~$26.7M total revenue, below analyst estimates of ~$37.5M–$39.8M; bitcoin mining contributed $20.8M (~78% of total)."
       }
     ],
     "growth": {
@@ -86,6 +85,20 @@
       "headline": "CIFR shares rose 18.4%, rebounding after having lost 47.5% over the prior month into Nov 3, outpacing a 0.4% gain for the S&P 500",
       "impact": "Partial recovery following the earnings-day selloff",
       "source": "https://www.trefis.com/stock/cifr/articles/622641/what-is-behind-the-move-in-cipher-digital-stock/2026-11-04"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "earnings",
+      "headline": "Cipher (now also referred to as Cipher Digital) reported Q3 2026 revenue of ~$26.7M, missing analyst estimates of ~$37.5M–$39.8M, though per-share loss was smaller than expected; CEO said the company is 'not a neocloud.'",
+      "impact": "shares fell ~5.9% on the release day (2026-11-02), before the +18.4% rebound on 2026-11-03 already noted on file",
+      "source": "https://stocktwits.com/news-articles/markets/equity/cifr-stock-drops-after-q3-revenue-miss-ceo-says-company-is-not-a-neocloud/cNGabH1R9PX"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "contract",
+      "headline": "Alongside Q3 results, Cipher disclosed it doubled the base lease term at its Barber Lake site from 10 to 20 years, raising contracted revenue at that site to ~$9.1B; total contracted revenue across its three campuses is now ~$16.6B, and the company recognized its first HPC lease revenue from its Black Pearl facility.",
+      "impact": "expands AI/HPC hosting backlog",
+      "source": "https://www.webull.com/news/15854452141876224"
     },
     {
       "date": "2026-11-02",
@@ -170,8 +183,19 @@
     "Market cap/price: snapshots from 2026-07 to 2026-11 range widely; $6.86 (2026-11-13, MarketChameleon) remains the best-anchored recent figure."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found past the 2026-11-02/11-03 Q3 earnings cluster already on file; genuinely quiet. Filled previously-null cash using the Q3 2026 earnings release figure already present in catalysts text.",
+  "notes": "Crypto backdrop: bitcoin was around $64,000–$65,000 as of 2026-11-17/11-18 per Fortune's daily price series, a notable decline that pressures mining economics; a handful of search results claiming BTC near $92,000 on 2026-11-20 look stale/mislabeled (likely 2025 content) and were excluded as unreliable. No price point newer than the 2026-11-13 figures already on file (~$6.73–$6.86) was found this pass, so price is left unchanged.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "revenue updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -411,16 +435,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "2 new catalyst(s)",
+      "revenue updated"
     ],
     "tradingDay": true
   }

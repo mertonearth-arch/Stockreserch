@@ -8,24 +8,25 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.148Z",
+  "lastResearched": "2026-11-20T21:16:52.352Z",
   "fundamentals": {
     "marketCap": {
-      "value": 36600000000,
-      "asOf": "2026-11-17",
-      "source": "derived: 156.3M shares (Google Finance/Motley Fool, 2026-10-08) x $234.18",
-      "note": "Down sharply from the file's prior $62.3B (at $398.72, 2026-10-08)."
+      "value": 39980000000,
+      "asOf": "2026-11-13",
+      "source": "financialcontent.com (via search)",
+      "note": "Tied to that day's $249.55 price. Stock pulled back to $234.18 by 2026-11-17 per AAII; market cap not recalculated to that date this pass."
     },
     "float": null,
     "sharesOutstanding": {
-      "value": 156300000,
-      "asOf": "2026-10-08",
-      "source": "Google Finance / Motley Fool"
+      "value": 156340000,
+      "asOf": "2026-Q1/Q3 2026 (mixed snapshots)",
+      "source": "Google Finance / Macrotrends / Equibles (via search)"
     },
     "shortInterest": {
-      "value": 5.1,
-      "asOf": "2026-08-19",
-      "source": "Equibles (% of float)"
+      "value": 8000000,
+      "asOf": "2026-11-13",
+      "source": "Equibles (via search)",
+      "note": "~5.1% of shares outstanding, 2.0 days to cover, per that snapshot; an earlier 2026-09-30 snapshot showed 8.63M shares short (~5.5%, 3.7 days to cover) -- different settlement dates, not a conflict."
     },
     "cash": {
       "value": 460740000,
@@ -49,32 +50,29 @@
       {
         "period": "Q3 2026",
         "value": 2.29,
-        "basis": "non-GAAP",
-        "note": "+169.4% YoY, vs $2.04 consensus"
-      },
-      {
-        "period": "trailing 12mo",
-        "value": 7.29,
-        "basis": "GAAP"
+        "basis": "non-GAAP"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
-        "value": 1306000000,
-        "yoy": 69.8,
-        "note": "beat consensus by 2.77%; Semiconductor Test segment was $1.072B (82.1% of total)"
+        "value": 1306000000
+      },
+      {
+        "period": "9M 2026",
+        "value": 3900000000,
+        "yoy": 86
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": 69.8
+      "period": "9M 2026",
+      "pct": 86
     },
     "nextEarnings": {
-      "date": "2027-02-01",
+      "date": null,
       "confirmed": false,
-      "note": "per AAII aggregator this pass; previously only estimated as 'late Jan 2027'. Q4 2026 guidance: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25."
+      "note": "Earnings Whispers (third-party estimate) lists Jan 26, 2027; official company notice not yet issued as of this pass. Last year's official notice (for the Feb 2, 2026 FY2025 report) was issued Jan 13, 2026, so an official Q4/FY2026 date likely won't post until early-mid Jan 2027. Q4 2026 guidance on file: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25."
     }
   },
   "price": {
@@ -149,11 +147,28 @@
     }
   ],
   "conflicts": [
-    "Post-Q3-earnings and subsequent price readings remain unreconciled across sources (Nov 9: $246.00 vs $218.22; Nov 11: $265.78; Nov 17: $234.18) — a wide spread that may reflect real volatility rather than a data error, but no single confirmed figure exists for any recent date."
+    "Price remains volatile and inconsistently reported across sources this pass: AAII shows $234.18 close on 2026-11-17 (matches prior file value, no update found); Schwab showed an intraday $231.14 at 2:35pm ET on 2026-11-18 (not a close); a Nov 13 snapshot tied to $249.55 implies ~$39.98B market cap, well above the $234.18-implied figure four days later. No closing price newer than 2026-11-17 could be confirmed despite additional searching."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst since the Nov 9 Omnyx Edge launch and Oct 27 Q3 2026 earnings, both already on file. nextEarnings date refined to 2027-02-01 (still unconfirmed).",
+  "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch already on file. CFO transition and Magnum E2 news surfaced in search are stale (2025 and Sept 2026 respectively). Added Q3 2026 non-GAAP EPS, revenue, 9M YoY growth, shares outstanding, and short interest this pass; trailing/forward P/E not established (reliable trailing GAAP EPS not located).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -433,19 +448,17 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
       "eps updated",
+      "revenue updated",
+      "growth updated",
       "nextEarnings updated",
       "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
       "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

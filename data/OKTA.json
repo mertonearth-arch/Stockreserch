@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.128Z",
+  "lastResearched": "2026-11-20T21:16:52.324Z",
   "fundamentals": {
     "marketCap": {
       "value": 34120000000,
@@ -69,14 +69,21 @@
     }
   },
   "price": {
-    "last": 178.97,
-    "changePct": -2.13,
+    "last": 174.54,
+    "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "aaii.com (2:01pm CST intraday read, not an official close)",
-    "note": "Prior close $182.87 (Nov 13). No confirmed closing price for Nov 17-19 found."
+    "asOf": "2026-11-17",
+    "source": "Benzinga quote page (explicit 'close' label)",
+    "note": "Confirmed close, replacing the prior intraday-only 2026-11-16 read of $178.97. On 2026-11-18 shares jumped sharply intraday (Schwab 2:42pm ET snapshot: $194.33, +11.34%, explicitly not a close) -- no confirmed close located for Nov 18 or 19."
   },
   "catalysts": [
+    {
+      "date": "2026-11-18",
+      "type": "other",
+      "headline": "OKTA rose sharply intraday (+11.34% per a 2:42pm ET Schwab snapshot) amid a broad cybersecurity-sector rally tied to strong Palo Alto Networks earnings; peers CrowdStrike and Fortinet moved similarly",
+      "impact": "Sector-wide move, not company-specific; no Okta-specific news identified as the trigger",
+      "source": "https://goldesel.de/aktien/news/okta-aktie-palo-alto-zahlen-befeuern-cybersecurity-rally"
+    },
     {
       "date": "2026-11-10",
       "type": "price move",
@@ -225,8 +232,18 @@
     "Current price not independently confirmed: $178.97 (Nov 16 intraday) is the most recent reading found; no official close for Nov 17-19."
   ],
   "pendingFilings": [],
-  "notes": "No new catalyst found beyond items already on file; Dec 1 FY2027 earnings date remains the next major scheduled event.",
+  "notes": "Dec 1, 2026 earnings date (on file, confirmed via finviz citing Okta's own announcement) was not contradicted by any new source this pass; the competing Earnings Whispers Nov 25 estimate already noted on file persists but is treated as less authoritative, unchanged from the prior pass.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -556,19 +573,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "float updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

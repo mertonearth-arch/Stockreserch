@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.142Z",
+  "lastResearched": "2026-11-20T21:16:52.340Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
@@ -64,9 +64,9 @@
       "note": "Total revenue +66% sequentially ($137M to $228M); AI Cloud revenue alone rose ~182% sequentially to ~$200M of the $228M total, with bitcoin mining down 58% QoQ to $28M."
     },
     "nextEarnings": {
-      "date": "2026-02-03",
+      "date": null,
       "confirmed": false,
-      "note": "Estimated Q2 FY2027 date; sources split between Feb 3 (Chartmill) and Feb 4, 2027 (Days.to, Earnings Whispers)"
+      "note": "Still not company-confirmed. Updated this pass: Earnings Whispers now specifically models Feb 4, 2027 at 4:00pm ET (matching Days.to's Feb 4 estimate), while Chartmill models Feb 3, 2027 with consensus EPS of -$0.70 and revenue of ~$318.4M. Two of three sources now point to Feb 4 vs. one to Feb 3 -- conflict not resolved; both readings kept per standing rules."
     }
   },
   "price": {
@@ -261,11 +261,22 @@
     }
   ],
   "conflicts": [
-    "Post-earnings price action is inconsistently reported: on-file record shows Nov 6 close $21.64 (+20.02%) following the Nov 5 after-hours Q1 FY2027 print; a separate source states shares fell 17% on Nov 5 to close at $18.03. A third source shows a Nov 12 last trade of ~$19.48, and a fourth shows $21.41 confirmed for Nov 9. Not fully reconcilable from reachable sources this pass."
+    "nextEarnings date: Earnings Whispers and Days.to both now estimate Feb 4, 2027 vs. Chartmill's Feb 3, 2027 -- unreconciled, carried over from the prior pass with an added source on the Feb 4 side."
   ],
   "pendingFilings": [],
-  "notes": "Business mix has shifted sharply toward AI Cloud: $200M of $228M (~88%) of Q1 FY2027 revenue was AI Cloud/leasing (vs. $28M bitcoin mining, down 58% QoQ); company aims to substantially complete the bitcoin-mining exit by Dec 31, 2026. Theme classification as 'Crypto Treasury & Miners' may warrant reconsideration toward 'AI Cloud Infrastructure' in a future pass; left unchanged here.",
+  "notes": "No newer reliably-dated price found this pass that beats the on-file $19.48 (Nov 12, 2026, unconfirmed as an official close); a confirmed close of $21.41 on Nov 9, 2026 was found but is an older date than what's already on file, so price is left unchanged. JPMorgan cut its IREN price target to $55 from $65 around Nov 9, 2026 while keeping an Overweight rating (an analyst action, not treated as a dated catalyst per standing rules).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -674,15 +685,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
       "nextEarnings updated",
-      "marketCap updated",
       "conflicts updated"
     ],
     "tradingDay": true

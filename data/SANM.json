@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.147Z",
+  "lastResearched": "2026-11-20T21:16:52.351Z",
   "fundamentals": {
     "revenue": [
       {
@@ -24,10 +24,9 @@
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "FY2026",
-      "pct": 79,
-      "note": "Growth driven by ZT Systems acquisition; cloud/AI infra revenue +179% YoY to $2.37B in Q4"
+      "metric": "FY2027 revenue growth (guidance midpoint)",
+      "period": "FY2027",
+      "pct": 27
     },
     "marketCap": {
       "value": 8480000000,
@@ -56,19 +55,13 @@
     },
     "eps": [
       {
-        "period": "Q4 FY2026",
-        "value": 4.43,
-        "basis": "non-GAAP",
-        "note": "vs $3.27 consensus"
-      },
-      {
-        "period": "FY2026 (full year)",
-        "value": 6.85,
+        "period": "Q4 FY2026 (qtr ended 2026-10-03)",
+        "value": 2.14,
         "basis": "GAAP"
       },
       {
-        "period": "FY2026 (full year)",
-        "value": 13.28,
+        "period": "Q4 FY2026 (qtr ended 2026-10-03)",
+        "value": 4.43,
         "basis": "non-GAAP"
       }
     ],
@@ -94,6 +87,13 @@
     },
     {
       "date": "2026-11-09",
+      "type": "guidance",
+      "headline": "Alongside Q4/FY2026 results (revenue $3.86B, GAAP EPS $2.14, non-GAAP EPS $4.43 — both well above Zacks consensus of $3.48B revenue / $3.27 EPS), Sanmina issued FY2027 guidance for approximately 27% revenue growth and approximately 24% non-GAAP EPS growth at the midpoint",
+      "impact": "Guidance beat consensus expectations heading into the print",
+      "source": "https://finviz.com/news/419390/sanmina-reports-fourth-quarter-and-fiscal-2026-financial-results"
+    },
+    {
+      "date": "2026-11-09",
       "type": "earnings",
       "headline": "Sanmina reports Q4 and fiscal 2026 results: non-GAAP EPS $4.43 (vs $3.27 est.), revenue $3.86B (vs $3.48B est.); FY2026 revenue $14.53B (+79% YoY) driven by ZT Systems acquisition; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4",
       "impact": "Beat estimates; issued FY2027 guidance of $17.5-19.5B revenue and non-GAAP EPS $15.50-17.50; FY2026 buybacks totaled $393M (~2.4M shares)",
@@ -108,11 +108,23 @@
     }
   ],
   "conflicts": [
-    "Market cap: Equibles $8.48B at $158.31 (2026-11-13) vs Motley Fool $8.87B at $159.18 (2026-11-02) vs Tickertape $8.81B at $129.81 (2026-11-06, looks stale/unreliable).",
-    "Price around Nov 12: MarketBeat reported an intraday high of $167.28 and a last trade of $172.05 that day (+8%), which is notably higher than the Nov 13 $158.31 close — implies a pullback the next session, not independently confirmed."
+    "Earnings report date: the file's prior note dates the Q4 FY2026 report to 2026-11-10, but the company's own PR Newswire release and investor conference call are dated 2026-11-09 — likely a wire/timezone reporting discrepancy, not reconciled."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "growth updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -229,20 +241,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated news found beyond the Q4/FY2026 earnings report already on file.",
+  "notes": "Q1 FY2027 guidance (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85, issued 2026-11-09) was already on file. No confirmed Q1 FY2027 report date found; last year's equivalent report (Q1 FY2026) was released 2026-01-26, suggesting a late-January 2027 date, but this is an inference, not a company announcement. Price unchanged from file ($158.31, 2026-11-13, Equibles) — no newer confirmed reading found; one pre-earnings reference (StockStory, 2026-11-08) cited $134.91, consistent with the subsequent earnings-beat rally rather than a conflict.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
+      "1 new catalyst(s)",
       "eps updated",
       "growth updated",
-      "nextEarnings updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

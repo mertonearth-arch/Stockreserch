@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.135Z",
+  "lastResearched": "2026-11-20T21:16:52.331Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -58,7 +58,9 @@
   },
   "price": {
     "last": null,
-    "note": "now trades OTC as BTAIQ post-Chapter 11/delisting; quotes found this pass are wildly inconsistent (see conflicts) and could not be reconciled to a reliable current figure"
+    "asOf": "2026-11-20",
+    "source": "multiple OTC quote aggregators (see conflicts)",
+    "note": "Could not establish a reliable current price. Ticker is BTAIQ, trading OTC Pink after transfer off Nasdaq effective 2026-09-08."
   },
   "catalysts": [
     {
@@ -75,6 +77,13 @@
       "headline": "FDA's PDUFA target action date for the sNDA expanding IGALMI's label to at-home/outpatient use (BXCL501, Phase 3 SERENITY At-Home) falls on 2026-11-14. As of this session's searches, no approval/decision outcome has been reported.",
       "impact": "Directly relevant to Teva's contingent development milestone (up to $67.5M) tied to FDA approval of IGALMI for at-home use, part of the already-on-file closed Teva asset-sale terms (closed 2026-10-26).",
       "source": "https://bioxceltherapeutics.gcs-web.com/news-releases/news-release-details/bioxcel-therapeutics-announces-food-drug-administration"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "legal",
+      "headline": "BioXcel's sale of substantially all assets (including IGALMI and the pending BXCL501 at-home sNDA) to Teva Pharmaceuticals reportedly closed, following Delaware bankruptcy court approval of the sale order on 2026-10-21 (per an October 2026 8-K).",
+      "impact": "asset sale closed; BioXcel retains other pipeline programs (e.g., BXCL701, BXCL702) per secondary reporting",
+      "source": "https://dealroom.co/news/168739-teva-buys-bioxcel-neuroscience-assets-for-57-5m-upfront-in-bankruptcy-sa/"
     },
     {
       "date": "2026-10-26",
@@ -192,12 +201,24 @@
     }
   ],
   "conflicts": [
-    "Price: stockanalysis.com shows OTC ticker BTAIQ closing at $0.0075 (-14.77%) on 2026-11-06 vs Debelegger showing $0.05 (-3.2%) updated 2026-11-01 vs Fool showing a (stale, pre-delisting) Nasdaq-feed last close of $0.01 on 2026-11-11 — not reconciled; this is a post-bankruptcy/delisting situation, not a reverse split.",
-    "1-for-16 reverse stock split occurred in February 2025 — price history before that date is not comparable (carried forward from prior pass)."
+    "BTAIQ price this pass: StockAnalysis shows $0.0075 (-14.77%) at close 2026-11-06; Seeking Alpha shows ~$0.043 (-41.54%) on 2026-09-08; TipRanks shows a trailing 12-month range of $0.01–$2.33 with no date given. These do not reconcile to a single current price — consistent with the prior pass's flag of 'wildly inconsistent' OTC quotes; no confident current price is reported.",
+    "FDA decision on the IGALMI at-home-use sNDA (PDUFA target date 2026-11-14): one low-reliability outlet (pharmanow.live, dated 2026-11-17, citing a secondary Indian source) reports FDA approval; another (2minutemedicine.com, also dated 2026-11-17) reports the application remains under FDA review with no approval yet granted. No company press release or FDA listing confirming either claim was found this pass.",
+    "Teva asset-sale deal terms differ by source: FierceBiotech/FiercePharma cite $57.5M upfront plus up to $67.5M in milestones; Hartford Business cites up to $20M in additional sales-threshold payments. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "FDA's Nov 14, 2026 PDUFA action date for the IGALMI at-home sNDA has now passed by 5 days with no approval/rejection/CRL outcome found in any source this pass — still unresolved, not confirmed quiet. Teva's Chapter 11 asset-sale acquisition of IGALMI/BXCL501 (closed 2026-10-26) remains the dominant recent event; BTAI/BXCL701/702 shell now trades OTC as BTAIQ.",
+  "notes": "The Teva asset-sale transaction (covering the IGALMI/BXCL501 program subject to the Nov 14 PDUFA date) reportedly closed 2026-10-26, before the PDUFA date — so if an approval occurred, Teva (not BTAIQ equity holders) would be the primary beneficiary; sources found this pass do not address what, if anything, this means for BTAIQ shareholders.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -527,18 +548,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "debt updated",
+      "1 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

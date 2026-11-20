@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.151Z",
+  "lastResearched": "2026-11-20T21:16:52.355Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -22,7 +22,8 @@
     "sharesOutstanding": {
       "value": 127500000,
       "asOf": "2026-09-30",
-      "source": "RTTNews/Webull coverage of Q3 2026 results"
+      "source": "third-party Q3 2026 earnings summary (via search)",
+      "note": "Reported as +9.3% in the quarter; not independently confirmed against the 10-Q cover page."
     },
     "shortInterest": {
       "value": null,
@@ -31,24 +32,21 @@
     "cash": {
       "value": 960000000,
       "asOf": "2026-09-30",
-      "source": "Viking Therapeutics Q3 2026 earnings release"
+      "source": "Viking Therapeutics Q3 2026 earnings release (via search aggregators)",
+      "note": "Cash, cash equivalents, and short-term investments combined."
     },
     "debt": {
       "value": 250700000,
       "asOf": "2026-09-30",
-      "source": "Viking Therapeutics Q3 2026 earnings release (convertible notes)"
+      "source": "third-party Q3 2026 earnings summary (via search)",
+      "note": "Convertible notes; not independently confirmed against the 10-Q cover page."
     },
     "pe": {
       "trailing": null,
-      "forward": null,
-      "note": "Negative GAAP earnings; pre-revenue clinical-stage company"
+      "note": "negative earnings",
+      "asOf": "2026-09-30"
     },
     "eps": [
-      {
-        "period": "Q3 2025",
-        "value": -0.81,
-        "basis": "GAAP"
-      },
       {
         "period": "Q3 2026",
         "value": -1.55,
@@ -122,6 +120,13 @@
       "type": "investor conference",
       "headline": "Viking announced participation in November/December healthcare investor conferences, including a UBS fireside chat (London, Nov 17) and a Jefferies fireside chat (New York, Dec 2)",
       "source": null
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Viking Therapeutics reported Q3 2026 results: net loss widened to $183.2M (-$1.55/share, GAAP) on rising trial spending; cash/investments stood at $960M after a capital raise reported as ~$550M net proceeds by one source and ~$575M by another (combined common stock and convertible note offerings); VK2735 Phase 3 obesity programs continuing to advance. Company said available funds should support operations through at least 2027-12-31.",
+      "impact": "Widening losses reflect ramp in late-stage trial costs; runway extended via the Q3 capital raise.",
+      "source": "https://www.mitrade.com/insights/news/live-news/article-0-2207197-20261029"
     },
     {
       "date": "2026-10-28",
@@ -199,12 +204,28 @@
     }
   ],
   "conflicts": [
-    "A secondary source (RTTNews-sourced snippet, dated ~2026-11-15) implies a close near $41.65 pulling back to $35.32, roughly 40% above the $29.22 (2026-11-13, equibles.com) figure used as 'last' here -- not reconciled; could reflect a data error.",
-    "Takeover/M&A speculation (Betaville-sourced chatter) is unconfirmed by any primary source or company statement; recorded as a sentiment-driven catalyst, not a confirmed corporate event."
+    "Price: $29.22 close on 2026-11-13 (YCharts/Trefis, consistent with the file) vs a separate RTTNews-sourced thread implying a close near $41.65 around 2026-11-14 pulling back to $35.32 on 2026-11-15 -- roughly 40% above the $29.22 figure. Additional targeted searches this pass (including for the underlying takeover-speculation news) did not surface a clean, independently-dated quote for Nov 14-19 to resolve this; both readings are kept verbatim per standing instructions. No confirmed close newer than 2026-11-13 was found.",
+    "Q3 2026 capital raise size reported as ~$550M net proceeds by one source vs ~$575M by another -- not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "New catalysts this pass relate to unconfirmed takeover/M&A speculation around 2026-11-13 through 2026-11-16, which produced a volatile price swing that could not be fully reconciled across sources.",
+  "notes": "No takeover/buyout confirmation (only recurring, undated retail/speculative chatter going back to 2025) found this pass -- nothing meeting the 'dated catalyst' bar beyond what's already on file. nextEarnings remains unconfirmed/unset, consistent with file.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -520,14 +541,16 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "growth updated",
+      "1 new catalyst(s)",
+      "pe updated",
+      "eps updated",
       "sharesOutstanding updated",
       "cash updated",
+      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.127Z",
+  "lastResearched": "2026-11-20T21:16:52.345Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -47,12 +47,12 @@
       {
         "period": "Q3 FY2027",
         "value": 2.7,
-        "basis": "GAAP diluted"
+        "basis": "GAAP"
       },
       {
         "period": "Q3 FY2027",
         "value": 2.68,
-        "basis": "non-GAAP diluted"
+        "basis": "non-GAAP"
       }
     ],
     "revenue": [
@@ -70,18 +70,25 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4 FY2027 estimated ~late Feb 2027 by secondary trackers; no company confirmation located"
+      "note": "Q4 FY2027 estimated ~late Feb 2027 by secondary trackers; no company confirmation located."
     }
   },
   "price": {
-    "last": 156.14,
-    "changePct": -4.12,
+    "last": 155.46,
+    "changePct": -0.44,
     "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "fourweekmba / wealthprofessional.ca",
-    "note": "One secondary source (thestreet.com) describes a 2026-11-17 close of ~$155.46 (post-earnings), but this is not independently confirmed as the official close, so not recorded as 'last'. Options had implied an ~8.6% post-earnings move either direction."
+    "asOf": "2026-11-17",
+    "source": "heygotrade.com, corroborated by multiple secondary aggregators",
+    "note": "This is the pre-earnings close (Q3 FY2027 results were released after this close, same day). No confirmed official close located for Nov 18-20. After-hours on Nov 17 the stock reportedly rose as much as 3.6% to ~$161.06; the Nov 18 session reportedly swung from +2.7% to -1.4% intraday before finishing near flat per secondary reports, but no source gave a confirmed final close, so neither figure is recorded as 'last'."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "earnings",
+      "headline": "Q3 FY2027 results, the first report under interim CEO Kress: revenue $115.8B (+103% YoY, beat a ~$109B consensus); Data Center revenue $107.6B; non-GAAP EPS $2.68 (beat a ~$2.48 consensus), GAAP EPS $2.70; GAAP gross margin 74.8%; net income $65.3B. Q4 FY2027 guidance: revenue ~$130.0B ±3% (assumes no China Data Center compute revenue; period includes an extra week), gross margin guided to 71-72%. Board also approved a $150B increase to the share buyback authorization, leaving ~$227.3B available.",
+      "impact": "Beat on revenue and EPS, but the stock reaction was volatile/mixed amid guidance caveats and broader AI-sector jitters",
+      "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+    },
     {
       "date": "2026-11-17",
       "type": "corporate governance",
@@ -102,6 +109,13 @@
       "headline": "NVIDIA reported Q3 FY2027 results (quarter ended 2026-10-25): revenue $115.8B (+103% YoY), beating consensus of ~$108.7-108.8B; GAAP diluted EPS $2.70, non-GAAP $2.68, both ahead of ~$2.47-2.50 consensus; data center revenue $107.6B (vs ~$101.9B Street estimate); guided Q4 FY2027 revenue to $130.0B +/-3% (note: that quarter includes an extra week); board added $150B to its share buyback authorization",
       "impact": "Beat and raise on both lines, first full quarterly print since Jensen Huang's 2026-11-12 resignation / interim-CEO transition",
       "source": "https://www.gurufocus.com/news/9205938/nvidia-corp-reports-q3-fiscal-2027-earnings-eps-of-270-and-revenue-of-1158-billion-exceed-estimates ; https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html ; https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-third-quarter-fiscal-fpx9dw5egxqa.html"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "management",
+      "headline": "NVIDIA's board accepted the resignation of Jensen Huang as President, CEO and board member, effective immediately (the company's own release gives no reason); CFO Colette Kress was named interim CEO while retaining the CFO title, and the board began a search for a permanent CEO considering internal and external candidates. Harvey C. Jones (former CEO/Executive Chairman of Synopsys) was appointed NVIDIA's first-ever independent Board Chair.",
+      "impact": "Major leadership change; shares reportedly fell sharply on the news per secondary press coverage",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
     },
     {
       "date": "2026-11-12",
@@ -231,12 +245,24 @@
     }
   ],
   "conflicts": [
-    "Trailing P/E: Value Research Online shows 23.6 (Nov 13) vs Google Finance ~30.17 and Finspry 35.76 (undated) — not reconciled.",
-    "Nov 17 close: ~$155.46 per one secondary source (thestreet.com), not independently confirmed as the official closing print."
+    "The file's prior note dated the CEO-transition confirmation to 2026-11-17 (tied to the earnings date); NVIDIA's own press release and Form 8-K are dated 2026-11-12 (one secondary source says the board acted 2026-11-11). The CEO transition and the Q3 FY2027 earnings report are two separate, correctly-dated events and should not be conflated as a single 2026-11-17 catalyst."
   ],
   "pendingFilings": [],
-  "notes": "Stock continuing to weaken through the earnings print and the CEO-transition overhang; cash, debt, and the next earnings date remain unestablished due to unreachable primary sources (SEC EDGAR, nvidianews.nvidia.com) in this sandbox.",
+  "notes": "Secondary press ties Huang's exit to WSJ/NYT reporting of alleged personal-conduct issues; NVIDIA's own statements give no reason, and these allegations are unverified in this research — included only as context, not as established fact.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "eps updated",
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -587,17 +613,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "2 new catalyst(s)",
-      "pe updated",
+      "eps updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

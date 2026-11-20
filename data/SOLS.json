@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.148Z",
+  "lastResearched": "2026-11-20T21:16:52.351Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -16,8 +16,9 @@
     },
     "float": null,
     "sharesOutstanding": {
-      "value": null,
-      "note": "Conflicting figures across filings/aggregators; no single figure confirmed."
+      "value": 158890000,
+      "asOf": "undated Google Finance snapshot (2026, recent)",
+      "source": "Google Finance"
     },
     "shortInterest": null,
     "cash": null,
@@ -167,13 +168,22 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 2,774,305 (10-Q cover, 2025-08-13) vs 7,465,283 / 2,633,956 (annual filing) vs 8.51M / 7.47M / 7,745,683 from aggregators — not reconciled.",
-    "Market cap: $48.27M vs $79.51M vs $91.24M from different aggregators — not reconciled.",
-    "Price ~2026-11-06: $58.00 (Benzinga) vs $62.91 (stockevents, undated) vs $81.02 (MarketBeat, likely stale)."
+    "Market cap: ~$9.29B (2026-09-16, at $58.48/share) vs. ~$8.27B (Yahoo Finance Australia, undated) vs. ~$10.127B (Yahoo Finance UK, undated) — different-dated snapshots, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass beyond the Nov 9 foam-blowing-agent milestone, Nov 4 Q3 earnings (raised FY2026 guidance), and Nov 3 dividend declaration, all already on file.",
+  "notes": "No new catalyst found since the 2026-11-09 foam-blowing-agent development milestone already on file; searches this pass surfaced only that same item. No newer confirmed price than the on-file $58 (2026-11-06, Benzinga) — a $61.35 Google Finance reading is dated 2026-10-09 and therefore older, not used. 52-week range per Google Finance: $40.43-$90.80 (undated). Confirmed the company is correctly identified as Solstice Advanced Materials (ticker SOLS), distinct from the unrelated penny-stock battery company Solidion Technology (ticker STI), which some searches surfaced under a similar name.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -540,20 +550,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

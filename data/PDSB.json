@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.145Z",
+  "lastResearched": "2026-11-20T21:16:52.347Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -31,21 +31,16 @@
     "cash": {
       "value": 15200000,
       "asOf": "2026-09-30",
-      "source": "company Q3 2026 release"
+      "source": "PDS Biotech Q3 2026 results release"
     },
     "debt": null,
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "pre-revenue clinical-stage company; negative earnings",
-      "asOf": "2026-11-17"
+      "note": "negative earnings; no analyst consensus located",
+      "asOf": "2026-11-20"
     },
     "eps": [
-      {
-        "period": "Q3 2025",
-        "value": -0.19,
-        "basis": "GAAP"
-      },
       {
         "period": "Q3 2026",
         "value": -0.11,
@@ -54,10 +49,9 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "cash position change",
-      "period": "2025 YE to 2026-09-30",
-      "pct": null,
-      "note": "Pre-revenue; cash rose to $15.2M at Q3 2026-end from $5.6M at 2026-06-30 after the Nant Capital PIPE."
+      "metric": "net loss YoY (narrowed)",
+      "period": "Q3 2026",
+      "pct": -15.6
     },
     "nextEarnings": {
       "date": null,
@@ -92,6 +86,13 @@
       "headline": "Q3 2026 financial results expected before market open; consensus estimate is a loss of $0.11/share",
       "impact": "Will update cash runway disclosure following the going-concern warning issued after Q2 2026",
       "source": "Earnings Whispers (aggregator; actual release not located in reachable sources this pass)"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "offering",
+      "headline": "NantWorks exercised warrants for ~17.7M shares at $0.22/share, generating approximately $3.9M in gross proceeds, stemming from the September 2026 PIPE financing (part of the exercise went into pre-funded warrants due to a 19.9% beneficial-ownership cap)",
+      "impact": "Incremental dilutive financing from existing strategic investor (Dr. Patrick Soon-Shiong/NantWorks)",
+      "source": "https://finviz.com/news/420006/pds-biotech-announces-exercise-of-warrants-by-nantworks-for-approximately-39-million-in-gross-proceeds"
     },
     {
       "date": "2026-10-18",
@@ -238,8 +239,22 @@
     "Market cap: businessquant implies ~$57.6M at $1.02/share (2026-11-11) vs other aggregator figures $44.6M-$89.1M — not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found. Price trend continues downward through Nov; still unresolved against conflicting aggregator snapshots.",
+  "notes": "Q3 2026 net loss narrowed to $7.6M (-$0.11/share GAAP) from $9.0M a year earlier; operating expenses fell to $5.9M from $8.1M. No next-earnings date found. Current shares outstanding/market cap could not be reliably re-established this pass — the most recent dated snapshot found (~55.82M shares, ~$43M market cap) appears to be a mid-2026 vintage and is likely stale given the subsequent PIPE and warrant exercises; omitted rather than guessed. One third-party aggregator cites a ~3-month cash runway estimate (not company-disclosed).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -566,20 +581,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
+      "eps updated",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "cash updated"
     ],
     "tradingDay": true
   }

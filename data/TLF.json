@@ -8,12 +8,12 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.149Z",
+  "lastResearched": "2026-11-20T21:16:52.353Z",
   "fundamentals": {
     "nextEarnings": {
-      "date": null,
+      "date": "2027-03-03",
       "confirmed": false,
-      "note": "No Q4 2026/FY2026 report date located."
+      "note": "Third-party estimate (Stockcircle); no official company date located."
     },
     "marketCap": {
       "value": 21300000,
@@ -32,34 +32,29 @@
     },
     "cash": {
       "value": 5700000,
-      "asOf": "2026-09-30 (Q3 2026)",
-      "source": "Panabee/aggregator coverage of company Q3 2026 results"
+      "asOf": "2026-09-30",
+      "source": "Tandy Leather Factory 8-K / Q3 2026 earnings release (via search)",
+      "note": "Down from $16.1M at 2025-12-31, largely reflecting $6.0M of dividends paid in Q1 2026."
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 quarterly EPS was positive ($0.06), but trailing-twelve-month EPS/P-E not established given losses in trailing quarters",
-      "asOf": "2026-11-19"
+      "note": "Trailing 12-month EPS not established this pass; Q3 2026 alone returned to profit.",
+      "asOf": "2026-11-10"
     },
     "eps": [
-      {
-        "period": "Q3 2025",
-        "value": null,
-        "basis": "GAAP",
-        "note": "Reported net loss of ~$1.4M; per-share not independently confirmed"
-      },
       {
         "period": "Q3 2026",
         "value": 0.06,
         "basis": "GAAP"
+      },
+      {
+        "period": "Q3 2025",
+        "value": -0.17,
+        "basis": "GAAP"
       }
     ],
     "revenue": [
-      {
-        "period": "Q3 2025",
-        "value": 17300000,
-        "yoy": null
-      },
       {
         "period": "Q3 2026",
         "value": 18500000,
@@ -106,6 +101,13 @@
     {
       "date": "2026-11-10",
       "type": "earnings",
+      "headline": "Tandy Leather Factory reported Q3 2026 results: revenue $18.5M (+7.3% yoy), net income swung to ~$0.5M (EPS $0.06) from a $1.4M net loss (-$0.17/share) a year earlier; gross margin 62.4% vs 58.9%; cash fell to $5.7M from $16.1M at year-end 2025. Shares were reported up as much as ~14.9% in the immediate aftermath.",
+      "impact": "Return to profitability; cash balance declined materially during the quarter.",
+      "source": "https://www.panabee.com/news/tandy-leather-factory-earnings-q3-2026"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
       "headline": "Tandy Leather Factory reported Q3 2026 results: revenue rose 7.3% YoY to ~$18.5M, net income of ~$0.5M (swing to profit from a $1.4M net loss in Q3 2025), gross margin up ~350bps to 62.4%",
       "impact": "Shares rose 14.9% on the print (Nov 11) and continued higher into the following session",
       "source": "https://www.panabee.com/news/tandy-leather-factory-earnings-q3-2026"
@@ -131,6 +133,21 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "nextEarnings updated",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -222,17 +239,18 @@
       "from": "daily"
     }
   ],
-  "notes": "No new catalysts dated since the existing file's last entry (2026-11-17). Q3 2026 earnings turnaround (reported ~2026-11-10) remains the most recent material event.",
+  "notes": "Ticker TLF is Tandy Leather Factory (leathercraft retailer), not to be confused with Flexsteel Industries (FLXS), a furniture maker that surfaced in an early ambiguous search -- that data was discarded as not pertaining to this ticker. No price newer than the file's 2026-11-10 $2.08 was confirmed despite the reported post-earnings rally, so price field is left unchanged (omitted) this pass. One headline figure for revenue growth read \"73%\" vs the underlying release's 7.3% -- treated as a likely headline typo, not a genuine conflict.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
       "eps updated",
+      "revenue updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "conflicts updated"
+      "cash updated"
     ],
     "tradingDay": true
   }

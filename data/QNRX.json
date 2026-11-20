@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.146Z",
+  "lastResearched": "2026-11-20T21:16:52.348Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -31,8 +31,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "pre-revenue; negative earnings",
-      "asOf": "2026-11-19"
+      "note": "negative earnings",
+      "asOf": "2026-11-20"
     },
     "eps": [
       {
@@ -65,6 +65,13 @@
     "note": "No reliable current-dated price located. Digrin shows an October 2026 MONTHLY average of $3.99 (down from Sept's $4.56); Snowball shows an undated $4.29. Neither is a confirmed single-day close for mid/late November."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "regulatory",
+      "headline": "Quoin's Q3 2026 corporate update disclosed positive interim Phase 2/3 data for QRX003 in Netherton Syndrome (primary and key secondary endpoints reached statistical significance), a private placement of up to $50.0M, and FDA clearance of the company's first IND (for Peeling Skin Syndrome)",
+      "impact": "Company says it is targeting initiation of a Phase 3 Netherton Syndrome trial by year-end 2026 and a potential NDA filing in 2027",
+      "source": "https://finviz.com/news/416995/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-quarter-2026-financial-results"
+    },
     {
       "date": "2026-11-05",
       "type": "earnings",
@@ -180,12 +187,24 @@
     }
   ],
   "conflicts": [
-    "Cash runway: company states into 2028; a third-party burn-rate estimate implies into late 2027.",
-    "Price/market cap still unresolved: Digrin Oct-2026 monthly avg $3.99 vs Snowball undated $4.29 vs Yahoo market cap $18.50M (as of 2026-11-04) which doesn't reconcile with either price against the 70.29M share count."
+    "Shares outstanding vary enormously across current sources and cannot be reconciled this pass: Fidelity ~4.80M vs. Google Finance ~2.01M (dated ~2026-09-17) vs. Motley Fool ~1.50M vs. StockAnalysis ~0.588M (appears stale, 2025 vintage). The last confirmed ADS ratio change was a 1-for-35 reverse split effective 2026-04-09 (per 10-K) — no evidence of a further 2026 split was found, so the discrepancy is unexplained rather than attributed to a new split.",
+    "Price/market cap similarly scattered across dates: Investing.com $4.02/~$19.3M (2026-10-25) vs. Yahoo intraday cap ~$17.5M at $3.65 (~2026-10-19) vs. a Google Finance snapshot of $7.01/~$14.08M (2026-09-17, lists 2.01M shares) vs. Motley Fool $5.74. None is dated in November and none is treated as current."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found this pass. Price remains unresolved; carried forward as null rather than guess.",
+  "notes": "Company also appointed a new CFO (Sally Lawlor) per an RTTNews/Nasdaq item; exact date not confirmed from search. A minor PR item (new 'Netherton NOW' patient-awareness video, 2026-11-06) was found but omitted as immaterial/non-dated-impact.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -529,16 +548,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "growth updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

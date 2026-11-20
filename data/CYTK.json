@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.137Z",
+  "lastResearched": "2026-11-20T21:16:52.334Z",
   "fundamentals": {
     "marketCap": {
       "value": 7410000000,
@@ -76,18 +76,17 @@
       "pct": 76
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-02-23",
       "confirmed": false,
-      "note": "Q4/FY2026 date not yet identified"
+      "note": "Benzinga earnings-calendar estimate for Q4/FY2026 results; not yet company-confirmed."
     }
   },
   "price": {
-    "last": 53.17,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "Motley Fool (fool.com quote snapshot)",
-    "note": "Only dated price point found this pass; price has fallen sharply from ~$62.99 (Oct 30, Stockanalysis) and ~$61.23 (Oct 23, Benzinga)."
+    "last": 51.65,
+    "changePct": -2.9,
+    "asOf": "2026-11-17",
+    "source": "NASDAQ delayed quote via financial aggregator (debelegger.nl snapshot)",
+    "note": "Supersedes the 2026-11-16 $53.17 figure on file; continues a multi-day decline from ~$56.13 (2026-11-13) and sits near the 52-week-low area (~$52.68 per one source)."
   },
   "catalysts": [
     {
@@ -233,8 +232,18 @@
     "Trailing EPS: Motley Fool -$6.04 vs Google Finance -$6.84 (both undated TTM figures)"
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts beyond what is already on file (Nov 14 PDUFA for MAPLE-HCM sNDA, Nov 16 label update) were found this pass.",
+  "notes": "Management presented/is scheduled to present at several November investor conferences (Stifel 11/10, UBS 11/16, Jefferies 11/17 already passed; Evercore 11/30 upcoming) — routine IR activity, not treated as catalysts. On 2026-11-13 the company granted inducement stock options/RSUs to new hires under Nasdaq Listing Rule 5635(c)(4) at a grant price of $56.13 (that day's closing price) — administrative, not treated as a catalyst. No new clinical, regulatory, or earnings news found since the 2026-11-16 FDA label update already on file.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -631,19 +640,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflicts updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

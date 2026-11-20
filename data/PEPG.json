@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.121Z",
+  "lastResearched": "2026-11-20T21:16:52.348Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -34,9 +34,9 @@
     },
     "cash": {
       "value": 104800000,
-      "asOf": "2026-09-30 (Q3 2026)",
-      "source": "Company Q3 2026 financial results release",
-      "note": "Does not yet reflect the ~$125M gross (before fees) raised in the Nov 2026 offering"
+      "asOf": "2026-09-30",
+      "source": "PepGen Q3 2026 results release (2026-11-10)",
+      "note": "Company guided this (pre-offering) cash position to fund operations into 2028"
     },
     "debt": {
       "value": null,
@@ -45,7 +45,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Clinical-stage biotech, net loss $19.4M (-$0.28/share) in Q3 2026"
+      "note": "negative earnings",
+      "asOf": "2026-11-20"
     },
     "eps": [
       {
@@ -117,6 +118,13 @@
     },
     {
       "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "PepGen reported Q3 2026 results alongside new Phase 2 data for PGN-EDODM1 in myotonic dystrophy type 1, including a 46.5% mean splicing correction across six patients dosed at 10 mg/kg",
+      "impact": "Clinical data readout tied to lead DM1 program; cash of $104.8M disclosed as of 2026-09-30",
+      "source": "https://finviz.com/news/420311/pepgen-reports-phase-2-myotonic-dystrophy-trial-results-and-1048-million-cash-position"
+    },
+    {
+      "date": "2026-11-10",
       "type": "clinical trial",
       "headline": "PepGen announced positive Phase 2 FREEDOM2-DM1 10 mg/kg cohort results for PGN-EDODM1 in myotonic dystrophy type 1, reporting the highest reported splicing correction (mean 46.5%) and improvements across multiple functional measures",
       "impact": "Positive clinical readout for the company's lead program",
@@ -145,11 +153,23 @@
     }
   ],
   "conflicts": [
-    "Partial clinical hold status: one source describes the FREEDOM2 trial as under a partial U.S. clinical hold limiting enrollment at U.S. sites; not mentioned in Q3 2026 earnings coverage, so current status (as of 2026-11-19) remains unconfirmed.",
-    "Market cap in this window: aggregator readings of ~$122.3M, ~$160.7M, and ~$170.4M were found, based on different dates/share counts; none is reconciled or reported as a single current figure."
+    "Market cap: Yahoo Finance shows ~$302M intraday vs. ~$350M as of 2026-11-12 in a different pulled snapshot — likely reflects the price/share-count movement around the Nov 11-13 public offering; not reconciled, neither used as a reported figure this pass."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -263,22 +283,15 @@
       "from": "daily"
     }
   ],
-  "notes": "New since last pass: PepGen priced and closed a $125M common-stock offering (25M shares at $5.00) on 2026-11-11/11-13, a dilutive event not previously on file. Stock has since pulled back to ~$4.26 (2026-11-16) from the $5.26 post-offering-announcement/data spike. Post-offering share count and market cap not sourced from a primary filing this pass.",
+  "notes": "The $125M offering (25,000,000 shares at $5.00) priced 2026-11-11 and closed 2026-11-13 per the final 424B5 prospectus and a Goodwin Law release, confirming the figures already on file for this catalyst; underwriters also hold a 30-day option on up to 3,750,000 additional shares. Post-offering share count/cash not yet separately disclosed as of this pass. No Q4 2026/FY2026 earnings date located; a hold on U.S. trial activity is referenced by one source as still unresolved but undated, so left out as a catalyst.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
+      "1 new catalyst(s)",
       "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
       "cash updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

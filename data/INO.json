@@ -8,7 +8,7 @@
   "addedOn": "2026-11-06",
   "addedReason": "First-ever FDA product approval (VOCERYQ, accelerated approval) sent shares sharply higher this week off a 52-week-low base; surfaced in this pass's closing-movers sweep",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.141Z",
+  "lastResearched": "2026-11-20T21:16:52.321Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -31,7 +31,8 @@
     "cash": {
       "value": 48400000,
       "asOf": "2026-09-30",
-      "note": "Excludes ~$80.5M net proceeds from Nov 2026 offering."
+      "source": "Company Q3 2026 release (via finviz/biopharmawatch)",
+      "note": "Excludes ~$80.5M net proceeds from the Nov 2026 public offering and ~$10.9M from warrant exercises received after quarter-end, both cited as additions to the cash runway."
     },
     "eps": [
       {
@@ -66,13 +67,20 @@
     }
   },
   "price": {
-    "last": 1.45,
-    "changePct": -16.21,
+    "last": 1.67,
+    "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-06",
-    "source": "Fox Business quote page"
+    "asOf": "2026-11-17",
+    "source": "Benzinga quote page (timestamp 7:59pm ET, 2026-11-17)",
+    "note": "Timestamp is after the 4pm ET close, so this may reflect an after-hours print rather than the official close; no independent second source confirms it. Supersedes the stale $1.45 (2026-11-06, Fox Business) previously on file."
   },
   "catalysts": [
+    {
+      "date": "2026-11-11",
+      "type": "other",
+      "headline": "Inovio announced it will participate in upcoming investor conferences",
+      "source": "https://finviz.com/news/420955/inovio-to-participate-in-upcoming-investor-conferences"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -103,8 +111,20 @@
     {
       "date": "2026-11-06",
       "type": "offering",
+      "headline": "Inovio priced a ~75M-unit public offering at $1.05/share (~58.7M common shares plus pre-funded warrants, with an underwriter option on ~10.7M additional shares); offering expected to close on/about 2026-11-09",
+      "source": "https://finviz.com/news/418191/inovio-announces-pricing-of-approximately-75-million-public-offering"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "offering",
       "headline": "Priced underwritten public offering under Form 424B5 prospectus supplement: up to 58,747,235 shares of common stock and pre-funded warrants for up to 12,681,337 shares in lieu of stock; last reported sale price referenced was $1.45/share on 2026-11-05",
       "source": "https://www.streetinsider.com/SEC+Filings/Form+424B5+INOVIO+PHARMACEUTICALS%2C/27308258.html"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "offering",
+      "headline": "Inovio announced a proposed underwritten public offering of common stock",
+      "source": "https://finviz.com/news/417560/inovio-announces-proposed-public-offering-of-its-common-stock"
     },
     {
       "date": "2026-11-05",
@@ -152,6 +172,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -280,24 +311,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No material new dated catalyst beyond what is already on file (Nov 10 Q3 results/VOCERYQ accelerated approval commentary, Nov 5-9 offering). VOCERYQ commercial timeline detail found this pass: ordering/shipment expected ~60 days post FDA approval (Oct 30), full field deployment targeted Q1 2027; company says cash runway extends into late Q4 2027.",
+  "notes": "Q3 2026 results (reported 2026-11-10, already on file as lastCat) remain the most recent earnings event; Q4/FY2026 earnings date still not announced.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "eps updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move -16.21%",
-      "conflicts updated"
+      "3 new catalyst(s)",
+      "cash updated"
     ],
     "tradingDay": true
   }

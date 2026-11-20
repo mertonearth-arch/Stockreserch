@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.134Z",
+  "lastResearched": "2026-11-20T21:16:52.331Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -54,13 +54,20 @@
     }
   },
   "price": {
-    "last": 19.24,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-11",
-    "source": "unchanged from last pass; no reliably dated figure newer than 2026-11-11 found this pass (Investing.com $21.57 as of 2026-10-19 is older, not newer)"
+    "last": 16.58,
+    "changePct": -5,
+    "asOf": "2026-11-16",
+    "source": "edgex.exchange news summary (BitMine Stock Falls 5% Despite 7,653 ETH Purchase as Ethereum Slides Toward $1,800)",
+    "note": "Supersedes the 2026-11-11 $19.24 figure on file. Intermediate points found: ~$17.56 (2026-11-14), ~$18.61 (2026-11-09)."
   },
   "catalysts": [
+    {
+      "date": "2026-11-15",
+      "type": "other",
+      "headline": "BitMine disclosed ETH holdings reached 6.08M tokens (4.97% of total ETH supply) and total crypto + cash/marketable-securities holdings of $11.8B as of 2026-11-15; cash & marketable securities were $448M; Chairman Tom Lee said the company added 7,653 ETH over the prior week.",
+      "impact": "treasury update (elaborates on the figure already on file)",
+      "source": "https://cryptobriefing.com/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-08-million-tokens-and-total-crypto-and-total-cash-marketable-securities-holdings-of-11-8-billion/"
+    },
     {
       "date": "2026-11-15",
       "type": "treasury update",
@@ -165,8 +172,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new ETH-holdings disclosure or price point found past the 2026-11-15/2026-11-11 figures already on file; genuinely quiet this pass.",
+  "notes": "Crypto backdrop: ETH fell from ~$2,055 (2026-11-11) to ~$1,795–$1,828 (2026-11-16 to 11-18, per Fortune/CoinGecko/Coinalyze), roughly a 12% weekly decline; BTC was around $64,000–$65,000 as of 2026-11-17/11-18 per Fortune's daily series, also down sharply from earlier-2026 levels. Several search results claiming BTC near $92,000 on 2026-11-20 appear to be stale or mislabeled (inconsistent with Fortune's contemporaneous ~$64K figure, and one such article's own text implies that level was actually last year's price) and were excluded as unreliable. This weak ETH/BTC price action is a plausible driver of BMNR's decline this week. No confirmed quarterly earnings date found (company continues to issue standalone treasury press releases rather than a identifiable earnings calendar date).",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -479,19 +496,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "pe updated",
-      "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

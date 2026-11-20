@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.143Z",
+  "lastResearched": "2026-11-20T21:16:52.342Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -40,8 +40,7 @@
     "cash": {
       "value": 87800000,
       "asOf": "2026-09-30",
-      "source": "Capital.com (syndicated Q3 2026 report summary)",
-      "note": "Cash, cash equivalents and marketable securities; up 27% from Dec 31, 2025"
+      "note": "Cash, cash equivalents and marketable securities per Q3 2026 release (+27% vs 2025-12-31); company says this funds operations through March 2028."
     },
     "debt": {
       "value": null,
@@ -60,13 +59,17 @@
         "period": "Q3 2026",
         "value": 38000,
         "yoy": 29
+      },
+      {
+        "period": "9M 2026",
+        "value": 99418,
+        "yoy": null
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 29,
-      "note": "Pre-commercial company; revenue limited to material supply/NRE/prototype activity"
+      "pct": 29
     }
   },
   "price": {
@@ -84,6 +87,13 @@
       "headline": "Lightwave Logic fell on reports that foundry integration delays pushed expected volume production back to 2028",
       "impact": "-13% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net loss widened ~41% YoY to $7.2M; revenue ~$38,000 (+29% YoY, below a ~$60K Street estimate); R&D spend up 49% to $4.3M; operating expenses up 54% to $8.0M; company pushed expected start of high-volume commercial sales out to 2028; five customer programs (including Foxconn and Marvell) reached prototype-to-final-product stage.",
+      "impact": "Commercialization timeline pushed back further; revenue remains negligible",
+      "source": "https://www.panabee.com/news/lightwave-logic-earnings-q3-2026"
     },
     {
       "date": "2026-11-10",
@@ -107,10 +117,24 @@
     }
   ],
   "conflicts": [
-    "Price fell from $4.9383 (2026-11-09, on file) to $3.00 (2026-11-16) — a ~39% decline over the week, consistent with the foundry-integration-delay catalyst already on file dated 2026-11-12."
+    "Price sourcing is inconsistent, and the file's source (CoinGlass, primarily a crypto-derivatives data site) is an unusual source for this equity: file shows $3.00 as of 2026-11-16, while Benzinga reported ~$4.94 as of 2026-11-09 and AAII showed $4.137 as of 2026-10-22 — a roughly 40% implied one-week drop that could not be independently confirmed this pass."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "growth updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -207,19 +231,16 @@
       "from": "daily"
     }
   ],
-  "notes": "High-volume production timeline guidance has slipped further (now 2028 vs. prior 2027 commentary), compounding the Nov 12 foundry-delay news already on file.",
+  "notes": "The Q3 results and the pushed-out 2028 commercialization timeline likely explain the 2026-11-12 foundry-delay headline already on file as lastCat — they may be describing the same underlying development. Next earnings (Q4/FY2026) date still not located.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
+      "revenue updated",
       "growth updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "debt updated",
+      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

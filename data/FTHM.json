@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.139Z",
+  "lastResearched": "2026-11-20T21:16:52.337Z",
   "fundamentals": {
     "marketCap": {
-      "value": 19940000,
-      "asOf": "2026-10-05",
-      "note": "carried forward; now stale given the $0.18 Oct 30 price"
+      "value": 4850000,
+      "asOf": "2026-11-06",
+      "source": "AAII"
     },
     "float": {
       "value": 20610000,
@@ -78,12 +78,21 @@
     }
   },
   "price": {
-    "last": 0.18,
-    "asOf": "2026-10-30",
-    "source": "aggregator snapshot",
-    "note": "Consistent with the $0.179 figure already on file; no more-recent dated quote found."
+    "last": 0.15,
+    "changePct": -3.28,
+    "rvol": null,
+    "asOf": "2026-11-06",
+    "source": "AAII",
+    "note": "Updates the prior $0.18 (Oct 30) figure, continuing the decline. Other aggregators showed sharply conflicting, likely-stale figures this pass (e.g., $0.59, $0.94) -- see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "regulatory",
+      "headline": "Nasdaq notified Fathom that its reported stockholders' deficit of $1,776,000 (per its latest Quarterly Report) falls below the $2,500,000 minimum stockholders'-equity requirement for continued Nasdaq Capital Market listing. If Nasdaq accepts a compliance plan, Fathom could have until ~May 16, 2027 to regain compliance. The notice states no immediate effect on listing or trading.",
+      "impact": "Adds an equity-deficiency compliance issue on top of Fathom's existing bid-price deficiency (compliance deadline ~Feb 17, 2027) and a prior late-10-Q notice.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001753162/000143774926037714/fthm20261118_8k.htm"
+    },
     {
       "date": "2026-11-13",
       "type": "earnings",
@@ -94,9 +103,23 @@
     },
     {
       "date": "2026-11-02",
+      "type": "other",
+      "headline": "Fathom executed a third omnibus amendment to its $5M Senior Secured Convertible Promissory Notes (originally due Nov 30, 2026), including a deferral-of-interest provision; company says it does not trigger an Event of Default. Chairman Scott Flanders participated in the amendment as a noteholder.",
+      "impact": "Addresses the looming Nov 30, 2026 note maturity; notable related-party involvement.",
+      "source": "https://www.panabee.com/news/fathom-holdings-executes-third-debt-amendment-in-two-years"
+    },
+    {
+      "date": "2026-11-02",
       "type": "debt restructuring",
       "headline": "Fathom executed a Third Omnibus Amendment to its Senior Secured Convertible Promissory Notes, including a provision deferring interest; Chairman Scott Flanders participated in the amendment as a noteholder",
       "source": "panabee.com"
+    },
+    {
+      "date": "2026-10-05",
+      "type": "legal",
+      "headline": "Per aggregator reporting, Fathom's previously pending merger with NXH ended on October 5, 2026 without a termination fee.",
+      "impact": "Removes a prior strategic/M&A path for the company.",
+      "source": "https://www.panabee.com/news/fathom-holdings-expands-debt-and-secures-waiver-following-filing-default"
     },
     {
       "date": "2026-10-05",
@@ -187,10 +210,24 @@
       "source": "company press release"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Price is reported very inconsistently across sources this pass: AAII ~$0.15 (dated Nov 6, 2026); TradingView ~$0.94 (snapshot date unclear); Seeking Alpha $0.59 (dated Apr 2, 2026 -- stale); Robinhood $0.59 with a cited 52-week range of $0.484-$3.37 (snapshot date unclear). The dated Nov 6 AAII figure is consistent with the on-file Oct 30 figure ($0.18) and a continuing decline; the higher figures look like stale/cached snapshots but this could not be confirmed."
+  ],
   "pendingFilings": [],
-  "notes": "Separately, an Aug 21, 2026 8-K (found this pass) shows a Nasdaq bid-price deficiency notice with a compliance deadline of 2026-02-17, i.e. stock must close >=$1.00 for 10 consecutive sessions before then or face a delisting notice -- distinct from the now-resolved Q1 2026 late-10-Q compliance matter.",
+  "notes": "A $5M secured convertible note ('2024 Notes') matures Nov 30, 2026 -- a near-term date to watch for refinancing, further extension, or default. Fathom's Encompass credit facility was reported out of compliance with earnings covenants at Sept 30, 2026 and had requested a waiver; the lender may terminate the facility absent a waiver (per aggregator reporting, not independently confirmed this pass). No confirmed going-concern opinion found in search results, though the overall picture (equity deficiency, note maturity, covenant breach) is consistent with elevated distress.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -503,21 +540,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "nextEarnings updated",
+      "3 new catalyst(s)",
       "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "conflict resolved"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

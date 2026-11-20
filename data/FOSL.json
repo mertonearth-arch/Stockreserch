@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.124Z",
+  "lastResearched": "2026-11-20T21:16:52.320Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -101,6 +101,13 @@
     },
     {
       "date": "2026-11-17",
+      "type": "other",
+      "headline": "Fossil Group management presented at the Craig-Hallum Alpha Select Conference",
+      "impact": null,
+      "source": null
+    },
+    {
+      "date": "2026-11-17",
       "type": "conference",
       "headline": "Fossil Group management scheduled to present at the Craig-Hallum Alpha Select Conference",
       "impact": "Upcoming investor event",
@@ -119,6 +126,20 @@
       "headline": "Fossil Group reported Q3 2026 results described as an earnings beat and raised its full-year 2026 revenue outlook to approximately $990M (up from a prior ~$954-974M range)",
       "impact": "Premarket move reported between +20.2% and +25.7% across aggregators",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results: adjusted EPS of $0.19 vs. analyst estimate of a $0.10 loss; revenue of $271.2M beat forecasts; net profit of $11.7M; company returned to YoY sales growth for the first time in four years; FY2026 outlook raised (CEO: 'year-to-date results are outpacing our expectations')",
+      "impact": null,
+      "source": "https://finviz.com/news/420511"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "contract",
+      "headline": "Announced a five-year extension of its Diesel brand licensing agreement and an extended partnership with Nick Jonas",
+      "impact": null,
+      "source": "ca.marketscreener.com (Fossil Group news list)"
     },
     {
       "date": "2026-11-10",
@@ -164,6 +185,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -279,17 +310,13 @@
       "from": "daily"
     }
   ],
-  "notes": "New since last pass: confirmed a five-year Diesel global licensing extension (through 2032) announced alongside the Nov 10 Q3 2026 earnings beat. No new price data found beyond the Nov 12 level already on file.",
+  "notes": "Stock jumped ~16.9% in premarket trading on 2026-11-11 following the Q3 beat, reportedly topping its prior 52-week high of $8.25; a later confirmed closing print for that move was not found this pass. No price newer than the on-file 2026-11-12 ($9.97, confirmed again via a separate investing.com snapshot) was located. Next-earnings date still not located; this is a new/additional catalyst (Craig-Hallum conference, 2026-11-17) beyond the Northland conference (2026-12-16) already on file -- both should be retained as separate dated items.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated",
-      "marketCap updated",
-      "conflicts updated"
+      "3 new catalyst(s)"
     ],
     "tradingDay": true
   }

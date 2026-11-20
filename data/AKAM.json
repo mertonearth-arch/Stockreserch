@@ -8,21 +8,21 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.133Z",
+  "lastResearched": "2026-11-20T21:16:52.329Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "wide, date-inconsistent conflicts — see conflicts; Trefis quoted $12.1B at the $83.90/2026-11-05 price point",
-      "asOf": "2026-11-05"
+      "value": 12140000000,
+      "asOf": "2026-11-18",
+      "source": "Fox Business"
     },
     "float": {
       "value": null,
       "note": "not disclosed in sources reviewed"
     },
     "sharesOutstanding": {
-      "value": 144000000,
-      "asOf": "2026-Q2/Q3 2026",
-      "source": "Equibles (10-Q, ~144M) / Massive (143.72M, 2026-10-30)"
+      "value": 144230000,
+      "asOf": "2026-11-18",
+      "source": "Fox Business"
     },
     "shortInterest": {
       "value": 18740000,
@@ -39,10 +39,10 @@
       "note": "not retrieved this pass; see conflicts for prior wide range"
     },
     "pe": {
-      "trailing": null,
+      "trailing": 32.63,
       "forward": null,
-      "note": "TTM EPS not aggregated this pass; Q3 2026 GAAP diluted EPS was $0.77, non-GAAP $1.77",
-      "asOf": "2026-11-05"
+      "note": "TTM EPS $2.68 per Fox Business",
+      "asOf": "2026-11-18"
     },
     "eps": [
       {
@@ -78,11 +78,12 @@
     }
   },
   "price": {
-    "last": 83.9,
-    "changePct": null,
+    "last": 84.64,
+    "changePct": 2.9,
     "rvol": null,
-    "asOf": "2026-11-05",
-    "source": "Trefis"
+    "asOf": "2026-11-18",
+    "source": "Fox Business / Benzinga",
+    "note": "Updated from the $83.90 (Nov 5) figure on file."
   },
   "catalysts": [
     {
@@ -227,13 +228,26 @@
     }
   ],
   "conflicts": [
-    "Market cap: third-party aggregators range from ~$10.6B (TipRanks) to ~$16.6B (OpenCapital) with no consistent November 2026 figure; Trefis gives $12.1B specifically at the $83.90/2026-11-05 price point.",
-    "Price snapshots conflict across dates: $83.90 (Trefis, 2026-11-05) vs $93.45 (Benzinga, 2026-10-23) vs $92.72-92.75 (Massive, 2026-10-30) vs $100.86 (Upstox, 2026-10-09) — normal date drift, not reconciled to a single current figure.",
-    "Cash/Debt: OpenCapital/FN2 cash ~$626.9M-$953.5M; debt ranges from OpenCapital $1.8B to Motley Fool $9.45B depending on inclusion of leases/convertibles — unresolved."
+    "Trailing P/E / TTM EPS: Fox Business shows P/E 32.63 / EPS $2.68 (Nov 18); Motley Fool shows TTM EPS $2.58 (~Nov 13); TipRanks shows P/E ~38.3 (undated, possibly stale) -- not reconciled.",
+    "Market cap: Fox Business $12.14B vs Motley Fool $12.32B, both mid-November 2026.",
+    "nextEarnings date: file lists 2027-02-16 (stockevents.app and MarketScreener agreeing); a Benzinga quote page found this pass instead shows Feb 18, 2027 -- not reconciled; treating file's two-source agreement as more likely but flagging the discrepancy."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found past the 2026-11-05 Q3 earnings / Anthropic $11.6B cloud-agreement cluster already on file. Genuinely quiet this pass; benzinga.com, finance.yahoo.com and marketwatch.com were unreachable via WebFetch (DNS/host-block) so no live quote could be pulled directly.",
+  "notes": "Q3 2026 results (Nov 5, already on file) and the Anthropic cloud-services commitment (~$11.6B over 7 years, disclosed late September) are unchanged context, not new this pass.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -538,17 +552,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
       "pe updated",
-      "eps updated",
-      "nextEarnings updated",
       "marketCap updated",
       "sharesOutstanding updated",
-      "shortInterest updated",
-      "debt updated",
       "conflicts updated"
     ],
     "tradingDay": true

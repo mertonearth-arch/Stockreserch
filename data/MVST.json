@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.127Z",
+  "lastResearched": "2026-11-20T21:16:52.323Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -52,32 +52,23 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 date not found"
+      "note": "Not announced. Prior-year cadence (Q4/FY2025 results announced 2026-03-13, reported 2026-03-16) suggests Q4/FY2026 would land around March 2027, but this is inference, not a stated date."
     },
     "revenue": [
-      {
-        "period": "Q2 2026",
-        "value": 87300000,
-        "yoy": -4.46
-      },
       {
         "period": "Q3 2026",
         "value": 45800000,
         "yoy": -62.8
-      },
-      {
-        "period": "Q3 2025",
-        "value": 123300000,
-        "yoy": null
       }
     ]
   },
   "price": {
-    "last": 0.66,
-    "changePct": 10.03,
+    "last": 0.22,
+    "changePct": -64.3,
     "rvol": null,
-    "asOf": "2026-11-04",
-    "note": "Last reliably dated price found, from before the Nov 9 Q3 earnings release. No confirmed post-earnings closing price located this pass either."
+    "asOf": "2026-11-10",
+    "source": "Benzinga quote-page chart data",
+    "note": "Benzinga identifies 2026-11-10 as the stock's worst day of the year, down 64.3% on 36M shares, low $0.22, following the Nov 9 Q3 2026 release. MEXC separately shows a $0.22 close on 2026-11-14, consistent with no recovery since. Supersedes the stale $0.66 (2026-11-04) previously on file."
   },
   "catalysts": [
     {
@@ -110,12 +101,23 @@
     }
   ],
   "conflicts": [
-    "Short interest basis differs: 5.16% of shares outstanding (Nov 4) vs 8.35% of free float (Ortex, Oct 20) — not directly comparable.",
-    "Post-earnings liquidity: company's own Q3 filing shows $124.4M cash as of Sept 30, 2026, while a secondary analysis (Panabee) cites $71.3M of 'usable cash' as of Oct 31, 2026 — different bases/dates, not reconciled.",
-    "Price: $0.66 (Nov 4, dated) vs undated $0.6373 and $0.92 figures found elsewhere."
+    "MVST price: a Yahoo Finance Canada listing shows a $0.7951 close on 2026-11-13, up ~340% -- this conflicts with Benzinga ($0.22, Nov 10) and MEXC ($0.22, Nov 14) and looks like a data error; not used."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "revenue updated",
+        "nextEarnings updated",
+        "move -64.3%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -222,21 +224,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst or confirmed post-earnings price found this pass; going-concern situation (per Q3 release) remains the dominant live issue.",
+  "notes": "Q3 2026 release (already on file as lastCat) included a going-concern warning alongside the revenue miss (finviz: 'revenue collapses 63% and going concern warning turns the story from growth to survival'); management says it is negotiating with lenders to refinance/extend/restructure near-term debt. Microvast also has until 2026-02-22 to regain Nasdaq minimum-bid-price compliance per an earlier Nasdaq notice (exact notice date not pinned down this pass, so not listed as a dated catalyst). No reverse split found; the large price move is attributable to the earnings reaction, not a split.",
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
+      "revenue updated",
       "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 10.03%",
+      "move -64.3%",
       "conflicts updated"
     ],
     "tradingDay": true

@@ -8,13 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.131Z",
+  "lastResearched": "2026-11-20T21:16:52.326Z",
   "fundamentals": {
     "marketCap": {
       "value": 8740000,
       "asOf": "2026-11-12",
-      "source": "Yahoo Finance (via search aggregator snippet)",
-      "note": "New this pass — not previously on file."
+      "source": "Yahoo Finance"
     },
     "float": {
       "value": null,
@@ -43,25 +42,21 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not found; company has a history of net losses"
+      "note": "negative earnings (TTM net loss)",
+      "asOf": "2026-09-30"
     },
     "eps": [],
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 50500000,
-        "yoy": null
-      },
-      {
-        "period": "Q3 2026",
-        "value": 47500000,
-        "yoy": -6
+        "period": "TTM ended 2026-09-30",
+        "value": 194670000,
+        "yoy": -17.4
       }
     ],
     "growth": {
-      "metric": "revenue YoY",
-      "period": "Q3 2026",
-      "pct": -6
+      "metric": "revenue YoY (TTM)",
+      "period": "TTM ended 2026-09-30",
+      "pct": -17.4
     },
     "nextEarnings": {
       "date": null,
@@ -75,7 +70,8 @@
     "changePct": -1.62,
     "rvol": null,
     "asOf": "2026-11-12",
-    "source": "Yahoo Finance (unchanged this pass; no newer dated quote found)"
+    "source": "Yahoo Finance (ca.finance.yahoo.com) -- unchanged from file; no newer dated quote found this pass",
+    "note": "Same snapshot also shows market cap ~$8.74M and enterprise value ~$335.65M as of Nov 12, 2026."
   },
   "catalysts": [
     {
@@ -83,6 +79,13 @@
       "type": "regulatory deadline",
       "headline": "Deadline for Upland to regain compliance with Nasdaq's $15 million minimum market value of publicly held shares requirement (180-day period)",
       "source": "search aggregation; notice date that started the 180-day clock not independently confirmed"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "other",
+      "headline": "HGGC, holder of Upland's Series A Preferred Stock, agreed to waive accruing preferred dividends for an indefinite period, effective October 1, 2026; the waiver holds the liquidation preference steady and caps common shares issuable on conversion.",
+      "impact": "Reduces near-term cash dividend obligations on the preferred; company framed it as supporting execution of its strategic plan and common-stockholder value.",
+      "source": "https://finviz.com/news/419632/upland-software-announces-waiver-of-series-a-preferred-stock-dividends"
     },
     {
       "date": "2026-11-09",
@@ -163,8 +166,22 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since last pass; a one-for-ten reverse split effective 2026-06-17 was confirmed this pass, explaining the low nominal post-split share count and price. Nasdaq $15M minimum-market-value compliance deadline (2027-01-27) remains the key overhang already on file.",
+  "notes": "TTM revenue $194.67M (down 17.4%) and TTM net loss $35.90M for the period ended 2026-09-30, per Quantisnow. Company scheduled to attend Needham Virtual Tech Week Nov 18-19, 2026. Nasdaq $15M minimum market value compliance deadline (2027-01-27) already on file and unchanged.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -446,18 +463,15 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
+      "1 new catalyst(s)",
       "pe updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "float updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated"
+      "revenue updated",
+      "growth updated",
+      "marketCap updated"
     ],
     "tradingDay": true
   }

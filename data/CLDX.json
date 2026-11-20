@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-19T21:31:29.136Z",
+  "lastResearched": "2026-11-20T21:16:52.333Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -39,8 +39,8 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (pre-commercial clinical-stage biotech)",
-      "asOf": "2026-11-13"
+      "note": "negative earnings",
+      "asOf": "2026-09-30"
     },
     "eps": [
       {
@@ -52,10 +52,9 @@
     ],
     "revenue": [],
     "growth": {
-      "metric": "revenue YoY",
+      "metric": "no material product revenue (clinical-stage)",
       "period": "Q3 2026",
-      "pct": null,
-      "note": "pre-revenue clinical-stage biotech; no product revenue disclosed"
+      "pct": null
     },
     "nextEarnings": {
       "date": null,
@@ -64,14 +63,19 @@
     }
   },
   "price": {
-    "last": 30.15,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-10-27",
-    "source": "Benzinga (unchanged from last pass)",
-    "note": "two undated snapshots ($27.87 and $28.57) were found this pass but could not be dated, so the prior Oct 27 anchor is retained"
+    "last": 28.27,
+    "asOf": "2026-11-06",
+    "source": "Nasdaq delayed quote via a financial-data aggregator (Chronicle Journal)",
+    "note": "Morning intraday quote; the same source cited a trailing weekly range of $28.20–$30.92. Supersedes the 2026-10-27 $30.15 figure on file. An undated $26.24 figure attributed to 'Nov 21' is after today's date and was excluded as unreliable."
   },
   "catalysts": [
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "Celldex reported Q3 2026 results: GAAP net loss widened ~13% YoY to $75.56M; no material revenue was recognized in the quarter.",
+      "impact": "loss widened YoY but was reportedly narrower than analyst expectations per one source",
+      "source": "https://capital.com/en-ae/news/celldex-q3-net-loss-widens-13-year-over-year-to"
+    },
     {
       "date": "2026-11-05",
       "type": "clinical trial",
@@ -157,8 +161,20 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs two new undated snapshots ($27.87, $28.57) vs $35.61 (undated) — no confirmed November 2026 close found."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found past the 2026-11-05 earnings/barzolvolimab CSU Phase 3 results already on file; genuinely quiet. Filled previously-null sharesOutstanding (78.49M) and EPS (-$0.96 GAAP diluted, Q3 2026) this pass.",
+  "notes": "CFO Sam Martin has informed the company of plans to retire in 2027; a CFO search has begun (exact disclosure date not established, so not listed as a dated catalyst). Management is scheduled to present at the Evercore Healthcare Conference on 2026-12-01 (a Guggenheim Healthcare Innovation Conference appearance on 2026-11-09 has already passed). No confirmed Q4/FY2026 earnings date found this pass; the previously-flagged stale aggregator dates (Aug 6, Nov 9) remain unconfirmed and have already passed.",
   "history": [
+    {
+      "date": "2026-11-20",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "pe updated",
+        "growth updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-19",
       "run": "pm",
@@ -347,16 +363,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "pe updated",
+      "growth updated"
     ],
     "tradingDay": true
   }
