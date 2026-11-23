@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T21:16:52.368Z",
+  "updated": "2026-11-23T05:30:17.187Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -173,7 +173,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-20T21:16:52.322Z"
+      "lastResearched": "2026-11-23T05:30:17.173Z"
     },
     "IOVA": {
       "tier": "daily",
@@ -305,7 +305,7 @@
       "tier": "daily",
       "theme": "Enterprise Software & Security",
       "quietRuns": 0,
-      "lastResearched": "2026-11-20T21:16:52.324Z"
+      "lastResearched": "2026-11-23T05:30:17.172Z"
     },
     "SAIC": {
       "tier": "daily",
@@ -393,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-20",
-    "run": "pm"
+    "date": "2026-11-23",
+    "run": "am"
   }
 }

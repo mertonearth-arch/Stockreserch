@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.324Z",
+  "lastResearched": "2026-11-23T05:30:17.172Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -69,14 +69,20 @@
     }
   },
   "price": {
-    "last": 100.68,
-    "changePct": -4.95,
-    "rvol": null,
-    "asOf": "2026-11-17",
-    "source": "Benzinga quote page (explicit 'close' label)",
-    "note": "changePct calculated from the $105.92 close already on file for 2026-11-16; not independently sourced as a stated day-over-day percentage. A separate MEXC listing shows a $106.03 close for the same date (2026-11-17) -- see conflicts, not reconciled."
+    "last": 110,
+    "changePct": 9.3,
+    "asOf": "2026-11-18",
+    "source": "Trefis",
+    "note": "Supersedes the on-file $100.68 (2026-11-17) figure."
   },
   "catalysts": [
+    {
+      "date": "2026-11-18",
+      "type": "product",
+      "headline": "Rubrik shares rose 9.3% to $110.00 after the company said its Cloud Data Protection now covers Microsoft Azure Cosmos DB; momentum also linked to last week's AWS and Google Cloud protection launches and anticipation ahead of the Nov 30 earnings report",
+      "impact": "+9.3%, closed $110.00 vs S&P 500 -0.2% that session",
+      "source": "https://www.trefis.com/stock/rbrk/articles/626903/why-did-rubrik-stock-jump/2026-11-19"
+    },
     {
       "date": "2026-11-16",
       "type": "price action",
@@ -144,6 +150,17 @@
   "pendingFilings": [],
   "notes": "Quiver Quantitative noted new Rubrik product launches (AWS cyber-recovery, expanded Google Cloud Storage/BigQuery protection) and insider-sale activity (170 sales, 0 purchases over six months), but no clear calendar date was found for either item, so neither is listed as a dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move 9.3%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -455,12 +472,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
-    "run": "pm",
+    "date": "2026-11-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
+      "1 new catalyst(s)",
+      "move 9.3%"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.322Z",
+  "lastResearched": "2026-11-23T05:30:17.173Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -81,12 +81,11 @@
     }
   },
   "price": {
-    "last": 24.68,
-    "changePct": -6.69,
-    "rvol": null,
-    "asOf": "2026-11-17",
-    "source": "Tickeron blog post (single source)",
-    "note": "Reported as Tuesday 2026-11-17 close, down from a prior close of $26.45. A Schwab intraday quote for 2026-11-18 (2:32pm ET) showed $23.57, down 5.13%, which backs out an implied prior (Nov 17) close near $24.85 -- close to but not an exact match for the $24.68 figure, and not independently corroborated. No confirmed close located for Nov 18 or 19."
+    "last": 24.07,
+    "changePct": null,
+    "asOf": "2026-11-19",
+    "source": "Trefis",
+    "note": "Supersedes the on-file $24.68 (2026-11-17) figure. Up >10% intraday early, settling to roughly +2.5% by late morning per Motley Fool."
   },
   "catalysts": [
     {
@@ -94,6 +93,13 @@
       "type": "management",
       "headline": "Gary Merrill named CFO, with start date expected around 2026-12-03 (announcement date not independently established this pass)",
       "source": "https://www.marketbeat.com/instant-alerts/price-ionq-nyse-ionq-shares-climb-85-heres-why-2026-11-09/"
+    },
+    {
+      "date": "2026-11-19",
+      "type": "other",
+      "headline": "IonQ shares rose more than 10% early in the session (settling to roughly +2.5% by late morning) tied to promotional coverage of the company at the SC26 Supercomputing Conference",
+      "impact": "intraday pop, faded by midday",
+      "source": "https://fool.com/investing/2026/11/19/why-ionq-stock-popped-today"
     },
     {
       "date": "2026-11-17",
@@ -247,6 +253,16 @@
   "pendingFilings": [],
   "notes": "Incoming CFO Gary Merrill's expected 2026-12-03 start date (already on file as lastCat) is consistent with the Nov 13 departure of outgoing CFO Inder Singh found this pass. Next earnings date still not located.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "am",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -619,12 +635,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
-    "run": "pm",
+    "date": "2026-11-23",
+    "run": "am",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }
