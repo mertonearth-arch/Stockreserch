@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.351Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.687Z",
   "fundamentals": {
     "revenue": [
       {
@@ -112,6 +112,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -241,17 +249,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Q1 FY2027 guidance (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85, issued 2026-11-09) was already on file. No confirmed Q1 FY2027 report date found; last year's equivalent report (Q1 FY2026) was released 2026-01-26, suggesting a late-January 2027 date, but this is an inference, not a company announcement. Price unchanged from file ($158.31, 2026-11-13, Equibles) — no newer confirmed reading found; one pre-earnings reference (StockStory, 2026-11-08) cited $134.91, consistent with the subsequent earnings-beat rally rather than a conflict.",
+  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-10 Q4/FY2026 results already on file. No dated closing price found for mid/late November; still relying on the 2026-11-13 $158.31 figure on file.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "growth updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

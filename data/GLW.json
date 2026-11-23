@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.338Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.674Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -165,6 +165,14 @@
   "pendingFilings": [],
   "notes": "No major new dated catalyst found beyond the routine dividend and continued coverage of the Q3 2026 beat (EPS $0.91 vs. ~$0.88 est., revenue $5.08B vs. ~$5.03B est., reported ~Oct 27, 2026) and AI-datacenter-driven optical-connectivity demand -- consistent with the prior pass's vague MarketBeat 'key catalyst' flag. Analyst actions this pass (not treated as catalysts per standing rules, and not precisely dated): Jefferies initiated coverage at Buy with a $134 price target (early Nov); Bernstein cut its target to $120 from $140 while keeping Market Perform.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -469,14 +477,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

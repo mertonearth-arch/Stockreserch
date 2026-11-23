@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.320Z",
+  "lastResearched": "2026-11-23T21:12:50.654Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -87,9 +87,10 @@
   },
   "price": {
     "last": 9.97,
+    "changePct": null,
     "asOf": "2026-11-12",
     "source": "investing.com",
-    "note": "Confirmed again this pass via a separate investing.com snapshot at the same $9.97 level on 2026-11-12."
+    "note": "No quote newer than 2026-11-12 found this pass; other snapshots found (e.g. ~$7.62-$7.87) are undated/unreliable and not used."
   },
   "catalysts": [
     {
@@ -179,12 +180,22 @@
     }
   ],
   "conflicts": [
-    "Q3 2026 revenue: ~$271.2M (consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, which conflicts outright with the company-reported $11.7M net income.",
+    "Q3 2026 revenue: ~$271.2M (consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, conflicting outright with the company-reported $11.7M net income.",
     "Short interest: Massive.com shows 5.66M shares short as of 2026-09-30 (7.0 days to cover) vs Equibles showing 7.4M shares/12.5% of float/10.9 days to cover as of 2026-10-01.",
-    "Market cap/shares outstanding snapshot ($390.31M/59.14M shares, 2026-10-26) predates the Nov 10 earnings pop to $9.97; treat as stale."
+    "Market cap/shares outstanding snapshot ($390.31M/59.14M shares, 2026-10-26) predates the Nov 10 earnings pop; treat as stale."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -310,13 +321,13 @@
       "from": "daily"
     }
   ],
-  "notes": "Stock jumped ~16.9% in premarket trading on 2026-11-11 following the Q3 beat, reportedly topping its prior 52-week high of $8.25; a later confirmed closing print for that move was not found this pass. No price newer than the on-file 2026-11-12 ($9.97, confirmed again via a separate investing.com snapshot) was located. Next-earnings date still not located; this is a new/additional catalyst (Craig-Hallum conference, 2026-11-17) beyond the Northland conference (2026-12-16) already on file -- both should be retained as separate dated items.",
+  "notes": "Genuinely quiet this pass: nothing dated after 2026-11-17 (Craig-Hallum conference, already on file) found via WebSearch. The Dec 16 Northland conference remains the only confirmed upcoming date.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "3 new catalyst(s)"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.344Z",
+  "lastResearched": "2026-11-23T21:12:50.681Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -62,6 +62,13 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-19",
+      "type": "regulatory",
+      "headline": "FDA rescheduled NeOnc's End-of-Phase 1 Type B meeting for NEO212 from the previously announced 2026-11-17 to Monday 2026-11-23 (today). Supersedes the file's existing 2026-11-17 catalyst entries, which assumed the meeting occurred as originally scheduled -- it did not; outcome of the rescheduled meeting is not yet known as of this pass.",
+      "impact": null,
+      "source": "https://stocktwits.com/news-articles/business/others/ne-onc-technologies-announces-fda-rescheduled-neo-212-end-of-phase-1-type-b-meeting-to-november-23/cNbi1QBR90Y"
+    },
+    {
       "date": "2026-11-17",
       "type": "clinical data",
       "headline": "NeOnc reported an additional partial response in its Phase 2a study of intranasal NEO100 (recurrent IDH1-mutant high-grade glioma): objective response rate rose to 12.5% (3 of 24 patients) under RANO 2.0, up from 8.3% (2 of 24) in the Aug 12, 2026 topline readout; 13 patients stable disease (54.2%), 8 progressive disease (33.3%); disease control rate 66.7%; 5 patients still on treatment at interim database lock; company cautions interim results may change at final analysis (single-arm, open-label, not powered as confirmatory)",
@@ -95,6 +102,14 @@
       "headline": "NeOnc Technologies scheduled to present two posters (NEO100 and NEO212 data) at the Society for Neuro-Oncology (SNO) annual meeting in Philadelphia, poster session 7:30-9:30pm.",
       "impact": null,
       "source": "https://www.biopharmawatch.com/news/NTHI/neonc-technologies-sno-annual-meeting-2026 ; https://finviz.com/news/399355/neoncs-fda-catalyst-run-could-give-nthi-a-serious-jolt (biopharmawatch discloses it is compensated by NTHI for coverage -- treat accordingly)"
+    },
+    {
+      "date": "2026-11-09/2026-11-11",
+      "type": "insider buying",
+      "headline": "CEO Amir Heshmatpour made open-market purchases of approximately 80,000 shares (~$333,100 aggregate) over Nov 9-11, 2026",
+      "impact": null,
+      "source": "RTTNews aggregator coverage (via WebSearch); exact per-transaction dates/prices not independently itemized this pass",
+      "note": "Previously on file as an unconfirmed, undated item omitted per standing rules; now dateable to this 3-day window from secondary sourcing, so logged with that date range."
     },
     {
       "date": "2026-11-05",
@@ -214,8 +229,18 @@
     "Price trail this pass is internally inconsistent, with each figure coming from only one source: Fool.com shows a $3.20 close on 2026-11-05 (intraday high ~$3.37); Global Banking & Finance shows a $3.74 close on 2026-11-09 (+7.16%); TradersUnion shows $4.85 on 2026-11-13. This could reflect a genuine run-up ahead of the Nov 17 Phase 2a update, but none of it was independently cross-checked, so it is reported as a possible trend rather than a reconciled price series."
   ],
   "pendingFilings": [],
-  "notes": "Fuller detail now available on the 2026-11-17 Phase 2a catalyst already on file (not re-logged as a new catalyst): objective response rate rose to 12.5% (3/24 patients, RANO 2.0) from 8.3% (2/24) at the 2026-08-12 topline; disease control rate 66.7% (13/24 stable, 8/24 progressive); median overall survival 26.1 months from NEO100 start at recurrence; company says it will request a Type B FDA meeting to discuss a potential registrational pathway. Separately, an unconfirmed, undated secondary report describes CEO Amir Heshmatpour making open-market purchases of 80,000 shares — omitted as a catalyst for lack of a date per standing rules.",
+  "notes": "The company's own 2026-11-17 FDA meeting was NOT held as previously recorded -- it was rescheduled to 2026-11-23. Existing file catalysts dated 2026-11-17 describing the meeting's agenda remain accurate as to what was planned, but any implication the meeting took place should be disregarded until a post-meeting outcome is reported.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -523,11 +548,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflicts updated"
+      "2 new catalyst(s)"
     ],
     "tradingDay": true
   }

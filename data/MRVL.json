@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.323Z",
+  "lastResearched": "2026-11-23T21:12:50.656Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -58,18 +58,38 @@
   "price": {
     "last": 148.74,
     "changePct": null,
-    "rvol": null,
     "asOf": "2026-11-17",
-    "source": "Schwab (value backed out as the stated 'previous close' on a 2026-11-18 2:18pm ET intraday quote page); not independently corroborated",
-    "note": "Consistent with Trefis/Motley Fool reporting MRVL fell ~7.3% on 2026-11-16 (implying a close near $145 that day, i.e. before a partial rebound to $148.74 on Nov 17). No confirmed close located for Nov 18 or 19."
+    "source": "Schwab (backed out of an intraday 'previous close' figure)",
+    "note": "No confirmed close newer than Nov 17 found this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "partnership",
+      "headline": "Marvell and Penguin Solutions announced a collaboration on AI memory",
+      "impact": null,
+      "source": "https://fool.com/investing/2026/11/16/why-marvell-stock-is-down-today"
+    },
     {
       "date": "2026-11-16",
       "type": "price move",
       "headline": "MRVL fell ~7.3% (vs S&P 500 -1.9%) amid continued semiconductor-sector weakness ahead of NVIDIA's Nov 17 earnings and lingering overhang from the Lumentum acquisition",
       "impact": "-7.3%",
       "source": "https://www.trefis.com/stock/mrvl/articles/625792/why-did-marvell-stock-fall-over-7/2026-11-17 ; fool.com"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "dividend",
+      "headline": "Marvell declared its regular quarterly dividend",
+      "impact": null,
+      "source": "investor.marvell.com IR calendar"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "corporate governance",
+      "headline": "Marvell appointed three new independent directors to its board effective this date: Donna C. Morris, Douglas R. Bettinger, and Sasan K. Goodarzi",
+      "impact": null,
+      "source": "https://finviz.com/news/421811/marvell-appoints-three-new-independent-directors-to-its-board"
     },
     {
       "date": "2026-11-11",
@@ -220,8 +240,18 @@
     "Market cap: Fox Business $123.82B at $154.39 (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — unreconciled."
   ],
   "pendingFilings": [],
-  "notes": "Dec 1, 2026 earnings date (on file, confirmed) was not independently re-confirmed this pass; no source found disputing it.",
+  "notes": "Three new catalysts found this pass (board appointments, dividend declaration, Penguin Solutions AI-memory collaboration) not previously on file. Dec 1, 2026 Q3 FY2027 earnings date remains confirmed and unchanged.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -553,10 +583,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

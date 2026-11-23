@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.315Z",
+  "lastResearched": "2026-11-23T21:12:50.671Z",
   "fundamentals": {
     "marketCap": {
       "value": 9080000000,
@@ -43,46 +43,54 @@
     },
     "eps": [
       {
-        "period": "Q2 FY2026 (ended 2025-10-31)",
-        "value": 0.64,
+        "period": "Q1 FY2027 (ended 2026-07-31)",
+        "value": 0.61,
         "basis": "non-GAAP"
       },
       {
-        "period": "Q1 FY2027 (ended 2026-07-31)",
-        "value": 0.61,
+        "period": "Q2 FY2027 (ended 2026-10-31)",
+        "value": 0.94,
         "basis": "non-GAAP"
       }
     ],
     "revenue": [
       {
-        "period": "Q2 FY2026 (ended 2025-10-31)",
-        "value": 423480000,
-        "yoy": 15.9
-      },
-      {
         "period": "Q1 FY2027 (ended 2026-07-31)",
         "value": 450700000,
         "yoy": 16
+      },
+      {
+        "period": "Q2 FY2027 (ended 2026-10-31)",
+        "value": 496000000,
+        "yoy": 17
       }
     ],
     "growth": {
       "metric": "revenue YoY",
-      "period": "Q1 FY2027",
-      "pct": 16
+      "period": "Q2 FY2027",
+      "pct": 17
     },
     "nextEarnings": {
-      "date": "2026-11-19",
-      "confirmed": true,
-      "note": "Elastic released Q2 FY2027 (quarter ended 2026-10-31) results after market close on 2026-11-19 as scheduled (call at 2:00pm PT / 5:00pm ET). Despite multiple targeted searches this pass (the day after), the actual reported revenue/EPS/guidance figures were NOT found indexed anywhere yet -- search results kept returning either the prior-year Q2 FY2026 release (Nov 2025) or the Q1 FY2027 baseline/guidance. Company's own guidance going into the print (from the Q1 FY2027 call) was Q2 FY2027 revenue of $486-$487M (~15% YoY) and non-GAAP diluted EPS of $0.80-$0.82; full-year FY2027 non-GAAP EPS guidance of $3.29-$3.37 was cited in one source. These are guidance figures, NOT the actual reported results -- next pass should retry search for the actual print."
+      "date": null,
+      "confirmed": false,
+      "note": "Q3 FY2027 date not yet announced. Company guided Q3 FY2027 revenue of $507.5M-$508.5M and non-GAAP EPS of $0.90-$0.92 (both below Street estimates of $517.6M / $0.95); raised full-year FY2027 non-GAAP EPS guidance to $3.35-$3.41 (from $3.29-$3.37)."
     }
   },
   "price": {
     "last": 86.44,
-    "changePct": 2.23,
+    "changePct": null,
     "asOf": "2026-11-06",
-    "source": "Marketchameleon (price) / secondary aggregator (change %)"
+    "source": "Marketchameleon (stale, carried forward)",
+    "note": "No confirmed post-earnings closing price located this pass. SiliconANGLE reported shares fell ~8% in regular trading ahead of the Nov 19 report and another ~8% after-hours following it (on weak Q3 guidance), but no absolute price point was corroborated to update the figure on file."
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "earnings",
+      "headline": "Elastic reported Q2 FY2027 results (quarter ended 2026-10-31): revenue $496M (+17% YoY, beat ~$487M consensus); non-GAAP diluted EPS $0.94 (beat $0.81 consensus); non-GAAP operating income $110M (22.2% margin); board approved a new $500M buyback authorization ($55M repurchased in Q2). Guided Q3 FY2027 revenue to $507.5M-$508.5M and non-GAAP EPS to $0.90-$0.92, both below Street estimates, citing an incremental ~$4.5M FX headwind; raised full-year FY2027 non-GAAP EPS guidance to $3.35-$3.41.",
+      "impact": "Shares fell ~8% in regular trading ahead of the print and another ~8% after-hours on the weak Q3 guide, despite the Q2 beat",
+      "source": "https://www.panabee.com/news/elastic-earnings-q2-2027 ; https://finviz.com/news/425525/elastic-reports-second-quarter-fiscal-2027-financial-results"
+    },
     {
       "date": "2026-11-19",
       "type": "earnings",
@@ -163,8 +171,22 @@
     "Cash: one aggregator shows $1.02B cash vs $596.43M debt (net cash $421.37M); Yahoo shows $1.46B total cash vs $595.77M debt; Equibles shows two different net-cash figures on different pages ($889.85M and $197.8M). Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Priority item per briefing: actual Q2 FY2027 print (revenue, EPS, guidance) could not be confirmed this pass despite extensive searching -- results are either not yet indexed by search engines or not yet surfaced in the sources reachable via WebSearch. Recommend an immediate follow-up search next pass. Price left as on file ($86.44, 2026-11-06) since no newer reliably-dated figure was found; one unreliable/undated quote-page snippet showed a regular-session close near $85.03 with after-hours ~$85.42, but it could not be tied to a confirmed date so it was not used.",
+  "notes": "Resolves the prior pass's open item: the actual Q2 FY2027 print (not just guidance) is now confirmed. Beat-and-raise on the quarter just reported, but weaker-than-expected forward guidance drove the stock reaction.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -506,7 +528,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [

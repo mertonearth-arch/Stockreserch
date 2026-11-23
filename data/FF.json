@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.319Z",
+  "lastResearched": "2026-11-23T21:12:50.653Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -68,7 +68,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 date not located"
+      "note": "No official Q4/FY2026 earnings date found this pass. Prior-year pattern (Q4 2025 results announced mid-Feb, released March 16, 2026) suggests a similar ~mid-March 2027 timing, but this is an inference, not a confirmed company announcement -- not recorded as a date."
     },
     "revenue": [
       {
@@ -79,11 +79,11 @@
     ]
   },
   "price": {
-    "last": 2.91,
-    "changePct": 2.83,
-    "asOf": "2026-11-13",
-    "source": "AAII",
-    "note": "Intraday figure, up from a prior close noted as the basis for the % change. Supersedes the 2026-11-10 $2.84 figure already on file; no quote newer than 2026-11-13 found this pass."
+    "last": 3.04,
+    "changePct": null,
+    "asOf": "2026-11-18",
+    "source": "Benzinga",
+    "note": "Supersedes the on-file 2026-11-13 $2.91 figure. changePct vs. that date not independently computed/confirmed."
   },
   "catalysts": [
     {
@@ -158,10 +158,21 @@
     }
   ],
   "conflicts": [
-    "FutureFuel 2026-11-10 close: Kalkine reports $2.84 (down 43.98% from a calculated prior close of $5.07) vs Financialcontent reports $3.120 (down 38.46%, officially timestamped 4:10pm EST) for the SAME date."
+    "FutureFuel 2026-11-10 close: Kalkine reports $2.84 (down 43.98%) vs Financialcontent reports $3.120 (down 38.46%) for the SAME date."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -287,15 +298,13 @@
       "from": "daily"
     }
   ],
-  "notes": "The 361.3% revenue YoY jump for Q3 2026 is unusually large relative to FutureFuel's normal biodiesel/chemicals business; sources did not explain the driver (e.g., one-time bulk sale or feedstock pass-through pricing), so it should be treated as reported but not further characterized. The stock's sharp post-earnings decline (first identified as the $2.84/2026-11-10 figure already on file) is now tied to this Q3 earnings miss (net loss, gross loss) as the likely proximate cause. No price newer than the on-file 2026-11-13 ($2.91) was found this pass.",
+  "notes": "Only new fact this pass: a newer price snapshot ($3.04, Nov 18, Benzinga). No new catalysts, no confirmed next-earnings date despite a targeted search.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "revenue updated",
-      "growth updated",
+      "nextEarnings updated",
       "conflicts updated"
     ],
     "tradingDay": true

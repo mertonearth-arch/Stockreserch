@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.325Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.687Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -150,8 +150,16 @@
     "Current share price still unconfirmed with a reliable date: ~$4.77-$4.95 (various undated sightings this pass) vs the deal's implied ~$5.225/share value set at the 2026-09-28 announcement."
   ],
   "pendingFilings": [],
-  "notes": "No vote result located as of this pass -- shareholder vote outcome still pending/unconfirmed. Deal terms (per prior reporting): Sangoma holders to receive US$4.925 cash plus 0.04767 of a BRC share per Sangoma share; deal expected to close no later than early 2027, after which Sangoma shares would delist from both TSX and Nasdaq. No indication of a revised price or a competing bid.",
+  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-11 management-information-circular filing already on file. The BRC Group Holdings acquisition (~$204M) already on file is the same deal; no new developments found.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -360,12 +368,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

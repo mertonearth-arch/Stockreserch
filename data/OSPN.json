@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.345Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.683Z",
   "fundamentals": {
     "revenue": [
       {
@@ -127,6 +127,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -329,16 +337,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Q3 2026 results (reported 2026-10-29, before this pass's lookback window) also showed Annual Recurring Revenue of $195.5M (+9% YoY) and net income of $7.8M. No specific cause located for the November month-to-date decline beyond general market/AI-sector weakness. Dividend record date 2026-11-13 / payable 2026-12-04 already on file, unchanged. Next earnings (FY2026 results) still not announced; would typically follow around Feb 2027.",
+  "notes": "No new dated catalyst or price update found beyond the Oct 29 earnings and Nov 13 dividend declaration already on file. WebSearch returned only stale/undated quote pages for November.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "revenue updated",
-      "cash updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

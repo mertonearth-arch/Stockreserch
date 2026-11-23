@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.324Z",
+  "lastResearched": "2026-11-23T21:12:50.658Z",
   "fundamentals": {
     "marketCap": {
       "value": 34120000000,
@@ -69,12 +69,12 @@
     }
   },
   "price": {
-    "last": 174.54,
-    "changePct": null,
+    "last": 207,
+    "changePct": 5.96,
     "rvol": null,
-    "asOf": "2026-11-17",
-    "source": "Benzinga quote page (explicit 'close' label)",
-    "note": "Confirmed close, replacing the prior intraday-only 2026-11-16 read of $178.97. On 2026-11-18 shares jumped sharply intraday (Schwab 2:42pm ET snapshot: $194.33, +11.34%, explicitly not a close) -- no confirmed close located for Nov 18 or 19."
+    "asOf": "2026-11-19",
+    "source": "Trefis (via WebSearch)",
+    "note": "Confirmed close replacing the prior unconfirmed Nov 18 intraday-only reading ($194.33, +11.34%, Schwab 2:42pm snapshot). Up from a $195.61 prior close. No confirmed close found for Nov 20-23."
   },
   "catalysts": [
     {
@@ -232,8 +232,16 @@
     "Current price not independently confirmed: $178.97 (Nov 16 intraday) is the most recent reading found; no official close for Nov 17-19."
   ],
   "pendingFilings": [],
-  "notes": "Dec 1, 2026 earnings date (on file, confirmed via finviz citing Okta's own announcement) was not contradicted by any new source this pass; the competing Earnings Whispers Nov 25 estimate already noted on file persists but is treated as less authoritative, unchanged from the prior pass.",
+  "notes": "Next earnings Dec 1, 2026 (confirmed via Okta's own announcement) unchanged. No company-specific news found for Nov 20-23; price move continues the cybersecurity-sector rally context already on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -573,12 +581,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

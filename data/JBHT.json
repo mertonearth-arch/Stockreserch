@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.341Z",
+  "lastResearched": "2026-11-23T21:12:50.678Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
@@ -67,18 +67,18 @@
       "pct": 20
     },
     "nextEarnings": {
-      "date": null,
-      "confirmed": false,
-      "note": "Still unconfirmed. EarningsWhispers projects 2027-01-14 after close; another aggregator cites 2027-01-15; file previously carried an unconfirmed 2027-01-21 estimate. No company release-date notice found yet for Q4/FY2026 (company typically issues one in early January, as it did 2026-01-05 for the prior Q4)."
+      "date": "2027-01-15",
+      "confirmed": true,
+      "note": "Company has set a quiet period beginning Dec 20, 2026 ahead of Q4/FY2026 results on Jan 15, 2027."
     }
   },
   "price": {
-    "last": 227.66,
+    "last": 217.9,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-11",
-    "source": "Motley Fool",
-    "note": "No independently confirmed closing price found for Nov 17-19; conflicting undated snapshots on file ($218.54, $220.86)."
+    "asOf": "2026-11-20",
+    "source": "Benzinga",
+    "note": "Updates the prior $227.66 (Nov 11, Motley Fool) figure; no Nov 23 quote confirmed."
   },
   "catalysts": [
     {
@@ -193,12 +193,22 @@
     }
   ],
   "conflicts": [
-    "Price: Fox Business shows a $218.54 close as of 2026-11-06 4:00pm EDT, vs. the $227.66 figure already on file (Motley Fool, asOf 2026-11-11) — not reconciled; separate undated Yahoo/Morningstar snapshots in the $226-$235 range add further noise and cannot be dated.",
-    "Next-earnings estimates disagree across aggregators: 2027-01-14 (EarningsWhispers) vs 2027-01-15 (prior aggregator) vs 2027-01-21 (file's earlier estimate) — none is a confirmed company date."
+    "Price: Fox Business shows a $218.54 close as of 2026-11-06 4:00pm EDT, vs. the $227.66 figure previously on file (Motley Fool, asOf 2026-11-11) — not reconciled; separate undated Yahoo/Morningstar snapshots in the $226-$235 range add further noise and cannot be dated."
   ],
   "pendingFilings": [],
-  "notes": "No new confirmed closing price found for the Nov 12-20 window this pass. Company also participated in an investor conference in Chicago on 2026-11-10, separate from the 2026-11-17 event already on file — routine IR activity, not treated as a new catalyst.",
+  "notes": "Next-earnings date conflict resolved this pass: company has confirmed Jan 15, 2027 for Q4/FY2026 results (quiet period starts Dec 20, 2026), superseding the prior unreconciled Jan 14/15/21 estimates.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -449,11 +459,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
       "nextEarnings updated",
       "conflicts updated"
     ],

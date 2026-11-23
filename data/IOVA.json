@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-20T21:16:52.339Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-23T21:12:50.677Z",
   "fundamentals": {
     "marketCap": {
       "value": 3530000000,
@@ -173,6 +173,14 @@
   "pendingFilings": [],
   "notes": "No material new dated catalyst since the Nov 5, 2026 Q3 2026 results already on file. On that call, interim CEO Frederick Vogt reiterated full-year 2026 total revenue guidance of $410-$420M. Iovance presented at the Jefferies Global Healthcare Conference in London on Nov 16, 2026 (fireside chat webcast via ir.iovance.com). Coverage also referenced early lifileucel data in non-squamous metastatic NSCLC (trial IOV-LUN-202: 24.6% objective response rate in 69 patients) and a targeted regulatory submission in 2027, but no specific disclosure date for that data was found this pass, so per standing rules it is noted here rather than listed as a dated catalyst. Next earnings date (Q4/FY2026) still not announced; historical cadence (Q4/FY2025 was reported Feb 24, 2026) suggests a similar Feb 2027 window, but this remains an inference, not a confirmed date.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -515,7 +523,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": true,
     "changes": [],

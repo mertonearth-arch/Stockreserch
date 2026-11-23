@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T05:30:17.173Z",
+  "lastResearched": "2026-11-23T21:12:50.656Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -85,7 +85,7 @@
     "changePct": null,
     "asOf": "2026-11-19",
     "source": "Trefis",
-    "note": "Supersedes the on-file $24.68 (2026-11-17) figure. Up >10% intraday early, settling to roughly +2.5% by late morning per Motley Fool."
+    "note": "No quote newer than 2026-11-19 found this pass (searched specifically for Nov 20-23; nothing dated in that window turned up)."
   },
   "catalysts": [
     {
@@ -251,8 +251,16 @@
     "IONQ Nov 17 close: Tickeron reports $24.68 (-6.69%); a Schwab Nov 18 intraday quote implies a prior close near $24.85 by backing out its stated prior-close figure -- the two are close but not identical and neither is independently confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Incoming CFO Gary Merrill's expected 2026-12-03 start date (already on file as lastCat) is consistent with the Nov 13 departure of outgoing CFO Inder Singh found this pass. Next earnings date still not located.",
+  "notes": "Second look this PM pass beyond today's AM refresh found nothing new dated Nov 20-23. Genuinely quiet beyond the AM update already on file for today.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "am",
@@ -636,11 +644,9 @@
   },
   "lastPass": {
     "date": "2026-11-23",
-    "run": "am",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "run": "pm",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

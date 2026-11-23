@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.354Z",
+  "lastResearched": "2026-11-23T21:12:50.689Z",
   "fundamentals": {
     "marketCap": {
       "value": 10560000,
@@ -157,12 +157,20 @@
       "source": "MarketBeat"
     }
   ],
-  "conflicts": [
-    "No internally-consistent current price could be established: dated figures range from $0.81 (2026-11-06) to undated snapshots of $0.81, $0.92, $1.51 and $3.59 across different aggregators -- treated as stale/unreliable rather than reconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Fuller detail on the already-on-file 2026-11-17 acquisition catalyst (prior entry was truncated). No results found on shareholder vote timing, closing timeline, or stock reaction to the announcement. Foreign private issuer; no fixed quarterly earnings cadence confirmed (unchanged from file).",
+  "notes": "Genuinely quiet pass on the IM2/Greentech acquisition: no shareholder-vote date, outcome, or new filing located despite searching; the EGM is on file for 2026-12-14. No reliable price newer than the file's 2026-11-12 figure found. Record left unchanged.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -403,12 +411,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "marketCap updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

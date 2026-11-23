@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.350Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.686Z",
   "fundamentals": {
     "marketCap": {
       "value": 1585000000,
@@ -288,8 +288,16 @@
     "Fayuvi PRV sale (~$203M) was reported as 'expected to close later in November 2026' but no specific closing date was found — not recorded as a dated catalyst for that reason."
   ],
   "pendingFilings": [],
-  "notes": "No price newer than the on-file $16.08 (2026-11-13, Motley Fool) was located this pass. Ultragenyx reaffirmed FY2026 revenue guidance of $730M-$760M and reiterated its expectation of full-year profitability starting 2027. Additional detail on the previously reported workforce reduction: the 20% headcount cut also includes ending development of the company's Wilson disease gene therapy program, with ~$25M of severance/restructuring charges expected in Q4 2026 and the reduction substantially complete by year-end. Separately, the company sold two priority review vouchers for a combined $413M: the $210M Genglycos PRV sale closed in late October 2026, and a $203M Fayuvi PRV sale was described as expected to close later in November 2026 but not yet confirmed closed as of this pass (no catalyst entry added pending confirmation). A UK MHRA marketing-application acceptance for UX111 (Sanfilippo syndrome Type A) occurred 2026-10-28, just before the prior lastCat date, and is noted here for completeness rather than as a new catalyst.",
+  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-04 workforce-reduction catalyst already on file. Jefferies (Nov 17) and UBS (Nov 16) conference appearances are informational only. The Fayuvi PRV sale (~$203M) is still reported only as 'expected to close later in November' with no specific date, so still not recorded as a dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -640,14 +648,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "revenue updated",
-      "cash updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

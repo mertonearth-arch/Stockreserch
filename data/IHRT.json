@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.320Z",
+  "lastResearched": "2026-11-23T21:12:50.655Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -80,7 +80,7 @@
     "changePct": -61.58,
     "asOf": "2026-11-10",
     "source": "Kalkine",
-    "note": "No reliable quote newer than 2026-11-10 found this pass; see existing conflicts on the magnitude of this move."
+    "note": "No reliable quote newer than 2026-11-10 found this pass."
   },
   "catalysts": [
     {
@@ -148,13 +148,24 @@
     }
   ],
   "conflicts": [
-    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports shares fell ~15% 'after the close' on Nov 9 — all describe the same event but disagree materially.",
+    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports ~15% 'after the close' on Nov 9 — all describe the same event but disagree materially.",
     "Q3 2026 revenue: $1.03B (company release) vs $997M (Quiver Quant).",
-    "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150,640,000 (MarketBeat) vs 129,552,146 (a separate Equibles short-interest page).",
-    "Debt: gross total debt of ~$5,024.3M (Kalkine) is a different measure than the company-cited net debt of ~$4.7B."
+    "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150.64M (MarketBeat) vs 129.55M (separate Equibles short-interest page).",
+    "Debt: gross total debt ~$5,024.3M (Kalkine) is a different measure than company-cited net debt of ~$4.7B."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -61.58%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -273,14 +284,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No confirmed closing price newer than the 2026-11-10 $0.68 already on file was found this pass; a Fox Business quote-page snapshot of $1.77-$1.87 is stale (last updated ~Nov 6) and should not be used. CEO Bob Pittman said on the Q3 call that several large advertisers delayed spending until after the elections, citing inflation, volatile fuel prices and consumer uncertainty, and said he expects these pressures through year-end 2026 (Webull/Benzinga recap of the Q3 2026 earnings call, exact publish date not pinned down beyond 'within ~6 days' of query date, so not listed as a separately dated catalyst).",
+  "notes": "Genuinely quiet this pass: a Levi & Korsinsky shareholder-investigation notice (similar in kind to the SueWallSt notice already on file dated Nov 11) appeared in search results but without an independently confirmed announcement date, so it is not added as a separately dated catalyst. No price or fundamentals update found beyond what's on file.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "nextEarnings updated"
+      "move -61.58%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

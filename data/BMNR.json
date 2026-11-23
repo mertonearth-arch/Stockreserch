@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.331Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.665Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -54,11 +54,12 @@
     }
   },
   "price": {
-    "last": 16.58,
-    "changePct": -5,
-    "asOf": "2026-11-16",
-    "source": "edgex.exchange news summary (BitMine Stock Falls 5% Despite 7,653 ETH Purchase as Ethereum Slides Toward $1,800)",
-    "note": "Supersedes the 2026-11-11 $19.24 figure on file. Intermediate points found: ~$17.56 (2026-11-14), ~$18.61 (2026-11-09)."
+    "last": 13.4,
+    "changePct": null,
+    "rvol": null,
+    "asOf": "2026-11-20",
+    "source": "Robinhood quote page (day range $12.83-$15.17 listed as of 2026-11-20)",
+    "note": "Supersedes the $16.58 (2026-11-16) figure on file -- continued decline, consistent with ETH spot price weakness (ETH down to ~$1,795-$1,828 per the file's existing notes). Not independently cross-confirmed against a second dated source this pass; no Nov 21-23 holdings press release found (latest confirmed holdings update remains the Nov 15 figure already on file: 6.08M ETH, $11.8B total)."
   },
   "catalysts": [
     {
@@ -172,8 +173,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Crypto backdrop: ETH fell from ~$2,055 (2026-11-11) to ~$1,795–$1,828 (2026-11-16 to 11-18, per Fortune/CoinGecko/Coinalyze), roughly a 12% weekly decline; BTC was around $64,000–$65,000 as of 2026-11-17/11-18 per Fortune's daily series, also down sharply from earlier-2026 levels. Several search results claiming BTC near $92,000 on 2026-11-20 appear to be stale or mislabeled (inconsistent with Fortune's contemporaneous ~$64K figure, and one such article's own text implies that level was actually last year's price) and were excluded as unreliable. This weak ETH/BTC price action is a plausible driver of BMNR's decline this week. No confirmed quarterly earnings date found (company continues to issue standalone treasury press releases rather than a identifiable earnings calendar date).",
+  "notes": "No new ETH-holdings press release found past the Nov 15 one already on file. Price updated per above; otherwise quiet.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -496,12 +505,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

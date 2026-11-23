@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.348Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.685Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -191,8 +191,16 @@
     "Price/market cap similarly scattered across dates: Investing.com $4.02/~$19.3M (2026-10-25) vs. Yahoo intraday cap ~$17.5M at $3.65 (~2026-10-19) vs. a Google Finance snapshot of $7.01/~$14.08M (2026-09-17, lists 2.01M shares) vs. Motley Fool $5.74. None is dated in November and none is treated as current."
   ],
   "pendingFilings": [],
-  "notes": "Company also appointed a new CFO (Sally Lawlor) per an RTTNews/Nasdaq item; exact date not confirmed from search. A minor PR item (new 'Netherton NOW' patient-awareness video, 2026-11-06) was found but omitted as immaterial/non-dated-impact.",
+  "notes": "Genuinely quiet this pass — no news found dated after the 2026-11-06 'Netherton Now' awareness video already on file. No new catalyst, filing, or price confirmation located.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -548,14 +556,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

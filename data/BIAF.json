@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.330Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.664Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -259,8 +259,16 @@
     "BIAF Q3 2025 revenue comparison base: the 2026 Q3 release cites ~$1.4M for Q3 2025, while the original Q3 2025 press release reported $1.45M — minor, unreconciled."
   ],
   "pendingFilings": [],
-  "notes": "Company completed a 1-for-15 reverse stock split effective 2026-08-24 and an ~$4.0M gross private placement (August 2026) per secondary sources — flagged per the reverse-split watch rule; no impossible price jump was observed against the $2.20 (2026-11-13) price already on file, so price is left unchanged this pass (no reliably newer dated figure found; sources were undated or conflicting, ranging ~$0.60–$3.35 with no clear date). Could not confirm the exact date of the on-file Wall Street Zen 'Sell' downgrade (aggregator posts describe it only as 'Saturday' or 'Sunday' without stating 2026-11-15 specifically).",
+  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). WebSearch turned up only earlier, already-on-file items (Sept Nasdaq compliance, Aug federal distribution deal, Aug Q2 earnings) with no dates after Nov 15. Treated as quiet.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -606,18 +614,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "cash updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

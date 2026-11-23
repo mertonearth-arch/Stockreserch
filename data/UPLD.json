@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.326Z",
+  "lastResearched": "2026-11-23T21:12:50.661Z",
   "fundamentals": {
     "marketCap": {
       "value": 8740000,
@@ -166,8 +166,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "TTM revenue $194.67M (down 17.4%) and TTM net loss $35.90M for the period ended 2026-09-30, per Quantisnow. Company scheduled to attend Needham Virtual Tech Week Nov 18-19, 2026. Nasdaq $15M minimum market value compliance deadline (2027-01-27) already on file and unchanged.",
+  "notes": "No November 2026 news found beyond what's already on file (Q3 2026 earnings Nov 4, preferred-dividend waiver Nov 9). Price unchanged from the $3.03/Nov 12 reading on file; no newer quote located.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -463,16 +471,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "marketCap updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

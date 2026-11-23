@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.326Z",
+  "lastResearched": "2026-11-23T21:12:50.660Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -65,6 +65,13 @@
     "note": "Newer than the $11.82 (-16.47%) Nov 16 close on file; implies the stock kept falling. Monthly return cited as -31.47%."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "regulatory/analyst",
+      "headline": "Summit Therapeutics provided an update on the ivonescimab Biologics License Application following the FDA's Complete Response Letter: company said its commitment to ivonescimab development remains unchanged, citing five positive Phase III studies across Summit and Akeso; Citi analysts said in a Nov 16 note (after speaking with management) that Summit is weighing a resubmission, though no specific resubmission plan or FDA meeting has been disclosed by the company",
+      "impact": null,
+      "source": "https://www.webull.com/news/15927704531616768 ; https://www.fiercepharma.com/pharma/fdas-complete-response-letter-summit-ivonescimab-cites-china-heavy-data-beyond-survival-miss"
+    },
     {
       "date": "2026-11-16",
       "type": "analyst action / price reaction",
@@ -173,8 +180,18 @@
     "Price: $11.82 (-16.47%) at the Nov 16 close (file/AskTraders/equibles) vs. $10.67 (-9.73%) quoted for Nov 17 by massive.com -- the Nov 17 figure may be an after-hours print, not a confirmed regular-session close."
   ],
   "pendingFilings": [],
-  "notes": "Akeso's CEO characterized the rejection as an isolated case tied to a relatively small indication. Summit said it would hold an investor call following the FDA decision but, per Fierce, had not done so as of reporting. Next near-term catalyst flagged by coverage: HARMONi-3 squamous-NSCLC PFS data expected around end of 2026 (non-squamous cohort PFS in H1 2027 per earlier company timeline) -- no exact date, so omitted from catalysts per date-required rule. No confirmed nextEarnings date located this pass (unchanged).",
+  "notes": "No confirmed resubmission timeline exists yet. Next dated catalyst remains the HARMONi-3 squamous-NSCLC PFS readout, still undated (expected 'later in 2026' per coverage, not specific enough to record). No newer confirmed price found past the Nov 17 $10.67 reading on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -431,13 +448,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "move -9.73%",
-      "conflicts updated"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

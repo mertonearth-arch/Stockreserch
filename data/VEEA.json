@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.327Z",
+  "lastResearched": "2026-11-23T21:12:50.661Z",
   "fundamentals": {
     "marketCap": {
       "value": 13380000,
@@ -199,8 +199,16 @@
     "Carried from prior pass: assigned theme 'Government IT & Defense Services' is not corroborated by sources reviewed, which describe Veea as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers generally, not a defense-specific contractor."
   ],
   "pendingFilings": [],
-  "notes": "No company news dated in November 2026 was found. NovaGen: still only a non-binding term sheet (signed/announced Sept 14, 2026, 8-K filed Sept 16) targeting ~$750M combined valuation and a $10M GeoNova Capital cornerstone investment; no definitive agreement was located as of this pass despite the term sheet's 'coming weeks' timeline. Nasdaq listing compliance was reported resolved (undated article) following the Aug 26, 2026 1-for-20 reverse split and 10 consecutive trading days above $1.00 -- not added as a dated catalyst for lack of a specific resolution date. StockAnalysis references a resale filing for 15.31M common shares (undated) -- noted but not added as a pendingFiling without a date. Price unchanged from file ($4.30, -10.8%, asOf 2026-11-02); no newer quote located.",
+  "notes": "No news dated later than Nov 2, 2026 found this pass despite searching. NovaGen term sheet (Sept 14) still has no definitive agreement reported. Price unchanged from file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -452,12 +460,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

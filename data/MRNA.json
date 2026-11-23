@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.342Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.680Z",
   "fundamentals": {
     "marketCap": {
       "value": 90380000000,
@@ -231,8 +231,16 @@
     "Shares outstanding: 404.62M (2026-11-13, financialcontent) vs. 396.79M (2026-07-15, Simply Wall St, on file) vs. 399.24M (undated equibles snapshot) — minor discrepancies likely reflect different as-of dates."
   ],
   "pendingFilings": [],
-  "notes": "The Nov 12 Analyst Day already on file (guidance raise) reportedly saw shares fall more than 6% intraday before paring to roughly a 2% loss by late morning (Motley Fool) — investors reportedly wanted more detail on 2027 guidance beyond the FY2026 sales-growth raise. No Q4/FY2026 earnings date found yet. No confirmed price beyond the file's 2026-11-13 $223.37 found this pass.",
+  "notes": "No new dated catalyst found since the 2026-11-12 Analyst Day already on file. One source states shares returned 776% over the trailing 12 months with a 52-week-high close of $269 on 2026-11-09 (vs. the file's $223.37 on 2026-11-13) -- not reconciled, not adopted as current price, flagged only as an unresolved secondary data point. No Nov 21-23 coverage surfaced.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -564,15 +572,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

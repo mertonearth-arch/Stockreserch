@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.336Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.672Z",
   "fundamentals": {
     "marketCap": {
       "value": 15580000000,
@@ -211,8 +211,16 @@
     "Analyst price targets diverge widely following the guidance withdrawal: BofA cut to $700 (from $1,400), JPMorgan to $900 (from $1,530), UBS to $942 (from $1,100), Wells Fargo to $735 (from $800); two conflicting BMO figures ($1,150 vs $897) appear across sources."
   ],
   "pendingFilings": [],
-  "notes": "No new dated company catalyst found since the Nov 4, 2026 guidance-withholding disclosure already on file. Context only: FICO held its mortgage-score price flat at $10 (announced Oct 23, 2026) amid rising VantageScore competition after FHFA approved VantageScore for GSE-backed mortgages; management cited this pricing-model transition when declining to give FY2027 guidance. Buybacks reportedly paused to repay a term loan tied to an accelerated share repurchase (per Trefis commentary, not independently confirmed via a company filing this pass). nextEarnings unchanged from prior pass -- no new confirmation of a Q1 FY2027 report date found.",
+  "notes": "Quiet pass — no new dated catalyst found since the Nov 4, 2026 FY2027-guidance-withholding disclosure already on file. Search did not surface any current-week (around Nov 23) company news; most coverage found was late-October analyst-target commentary already reflected on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -540,12 +548,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

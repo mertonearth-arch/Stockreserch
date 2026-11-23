@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.353Z",
+  "lastResearched": "2026-11-23T21:12:50.689Z",
   "fundamentals": {
     "nextEarnings": {
       "date": "2027-03-03",
@@ -19,7 +19,7 @@
       "value": 21300000,
       "asOf": "2026-08-26",
       "source": "MarketChameleon",
-      "note": "Stale; no newer market cap located. At the $2.08 close (2026-11-10) and ~8.07M shares outstanding on file, implied market cap would be closer to ~$16.8M, but this is not a published figure."
+      "note": "Stale. A separate undated Yahoo Finance snapshot found this pass shows $23.23M, consistent with the higher $2.27 price, but is itself undated so not substituted as the dated figure -- see conflicts."
     },
     "sharesOutstanding": {
       "value": 8067502,
@@ -33,13 +33,12 @@
     "cash": {
       "value": 5700000,
       "asOf": "2026-09-30",
-      "source": "Tandy Leather Factory 8-K / Q3 2026 earnings release (via search)",
-      "note": "Down from $16.1M at 2025-12-31, largely reflecting $6.0M of dividends paid in Q1 2026."
+      "source": "Tandy Leather Factory 8-K / Q3 2026 earnings release (via search)"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Trailing 12-month EPS not established this pass; Q3 2026 alone returned to profit.",
+      "note": "Trailing 12-month EPS not established; Q3 2026 alone returned to profit.",
       "asOf": "2026-11-10"
     },
     "eps": [
@@ -76,12 +75,12 @@
     }
   },
   "price": {
-    "last": 2.08,
-    "changePct": -1.89,
+    "last": 2.27,
+    "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-10",
-    "source": "Quiver Quant",
-    "note": "Most recent dated close located; no reliable quote for 2026-11-17/18/19 found despite multiple searches. Prior file value ($2.60, 2026-08-26) was stale and is superseded by this more recent figure."
+    "asOf": "2026-11-12",
+    "source": "Motley Fool / Yahoo Finance (via search)",
+    "note": "Supersedes the file's 2026-11-10 $2.08 figure; consistent with the post-earnings rally already on file. No quote newer than Nov 12 located despite searching."
   },
   "catalysts": [
     {
@@ -128,11 +127,23 @@
     }
   ],
   "conflicts": [
-    "No reliable quote newer than 2026-11-10 ($2.08, Quiver Quant) was located despite searching multiple sources for 2026-11-17/18/19.",
-    "Market cap on file ($21.3M, 2026-08-26) is stale and inconsistent with the more recent $2.08 price and ~8.07M shares outstanding (would imply ~$16.8M); not reconciled this pass."
+    "Market cap on file ($21.3M, 2026-08-26 asOf) vs. an undated Yahoo Finance snapshot found this pass showing $23.23M -- directionally consistent with the higher $2.27 price but not dated, so kept separate rather than substituted."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "marketCap updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -239,18 +250,16 @@
       "from": "daily"
     }
   ],
-  "notes": "Ticker TLF is Tandy Leather Factory (leathercraft retailer), not to be confused with Flexsteel Industries (FLXS), a furniture maker that surfaced in an early ambiguous search -- that data was discarded as not pertaining to this ticker. No price newer than the file's 2026-11-10 $2.08 was confirmed despite the reported post-earnings rally, so price field is left unchanged (omitted) this pass. One headline figure for revenue growth read \"73%\" vs the underlying release's 7.3% -- treated as a likely headline typo, not a genuine conflict.",
+  "notes": "No new dated catalysts found beyond the Q3 2026 earnings/rally sequence already on file. Routine re-check; only the price updated this pass.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
       "pe updated",
-      "eps updated",
-      "revenue updated",
-      "nextEarnings updated",
-      "cash updated"
+      "marketCap updated",
+      "cash updated",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

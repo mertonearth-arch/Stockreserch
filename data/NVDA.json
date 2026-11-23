@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.345Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.682Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -74,12 +74,12 @@
     }
   },
   "price": {
-    "last": 155.46,
-    "changePct": -0.44,
+    "last": 150.96,
+    "changePct": -2.89,
     "rvol": null,
-    "asOf": "2026-11-17",
-    "source": "heygotrade.com, corroborated by multiple secondary aggregators",
-    "note": "This is the pre-earnings close (Q3 FY2027 results were released after this close, same day). No confirmed official close located for Nov 18-20. After-hours on Nov 17 the stock reportedly rose as much as 3.6% to ~$161.06; the Nov 18 session reportedly swung from +2.7% to -1.4% intraday before finishing near flat per secondary reports, but no source gave a confirmed final close, so neither figure is recorded as 'last'."
+    "asOf": "2026-11-18",
+    "source": "heygotrade.com",
+    "note": "Supersedes the file's 2026-11-17 pre-earnings close of $155.46. Coverage ties the decline to ongoing CEO-succession concerns following Jensen Huang's Nov 12 resignation, compounding the post-earnings reaction. No confirmed close for Nov 19-23 located this pass; other secondary sources cite a Nov 12 intraday low near $148.80-$155.46 and a 52-week low around this period, not reconciled to a single figure."
   },
   "catalysts": [
     {
@@ -248,8 +248,16 @@
     "The file's prior note dated the CEO-transition confirmation to 2026-11-17 (tied to the earnings date); NVIDIA's own press release and Form 8-K are dated 2026-11-12 (one secondary source says the board acted 2026-11-11). The CEO transition and the Q3 FY2027 earnings report are two separate, correctly-dated events and should not be conflated as a single 2026-11-17 catalyst."
   ],
   "pendingFilings": [],
-  "notes": "Secondary press ties Huang's exit to WSJ/NYT reporting of alleged personal-conduct issues; NVIDIA's own statements give no reason, and these allegations are unverified in this research — included only as context, not as established fact.",
+  "notes": "PE reportedly fell to a multi-year low alongside the price decline per secondary commentary (Nasdaq/STOCK TITAN-style coverage), but no single reconciled trailing P/E figure was established this pass beyond what's already on file. No new earnings, governance or catalyst items beyond what's already recorded for Nov 12 and Nov 17.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -613,15 +621,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "eps updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

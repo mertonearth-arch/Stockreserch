@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.334Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.669Z",
   "fundamentals": {
     "marketCap": {
       "value": 7410000000,
@@ -232,8 +232,16 @@
     "Trailing EPS: Motley Fool -$6.04 vs Google Finance -$6.84 (both undated TTM figures)"
   ],
   "pendingFilings": [],
-  "notes": "Management presented/is scheduled to present at several November investor conferences (Stifel 11/10, UBS 11/16, Jefferies 11/17 already passed; Evercore 11/30 upcoming) — routine IR activity, not treated as catalysts. On 2026-11-13 the company granted inducement stock options/RSUs to new hires under Nasdaq Listing Rule 5635(c)(4) at a grant price of $56.13 (that day's closing price) — administrative, not treated as a catalyst. No new clinical, regulatory, or earnings news found since the 2026-11-16 FDA label update already on file.",
+  "notes": "Quiet pass — no news found dated after the Nov 16, 2026 FDA label update already on file. Management is scheduled to present at Evercore's conference Nov 30, 2026 (routine IR, not a catalyst). Next earnings still an unconfirmed Benzinga estimate of 2027-02-23.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -640,12 +648,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

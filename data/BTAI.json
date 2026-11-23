@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.331Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.666Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -206,8 +206,16 @@
     "Teva asset-sale deal terms differ by source: FierceBiotech/FiercePharma cite $57.5M upfront plus up to $67.5M in milestones; Hartford Business cites up to $20M in additional sales-threshold payments. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "The Teva asset-sale transaction (covering the IGALMI/BXCL501 program subject to the Nov 14 PDUFA date) reportedly closed 2026-10-26, before the PDUFA date — so if an approval occurred, Teva (not BTAIQ equity holders) would be the primary beneficiary; sources found this pass do not address what, if anything, this means for BTAIQ shareholders.",
+  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). The Nov 14, 2026 PDUFA target action date for IGALMI's at-home-use sNDA has now passed (9 days ago), but no FDA approval/decision outcome could be confirmed this pass either -- WebSearch returned only pre-PDUFA-date background (the Nov 13 psychiatrictimes.com timeline, the original sNDA acceptance). This open question (already flagged in the file's existing conflicts) remains unresolved. Treated as quiet; no fields changed.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -548,13 +556,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

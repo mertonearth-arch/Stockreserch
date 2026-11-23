@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.332Z",
+  "lastResearched": "2026-11-23T21:12:50.666Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -65,9 +65,9 @@
       "pct": -62.76
     },
     "nextEarnings": {
-      "date": null,
+      "date": "2027-02-23",
       "confirmed": false,
-      "note": "Q4/FY2026 results not yet scheduled; last year's Q4/FY2025 report was released 2026-02-24, suggesting a similar ~Feb 2027 timing as an inference only"
+      "note": "Per a Webull/Nasdaq secondary summary found this pass; not independently cross-confirmed against a second source or a company press release. Supersedes the prior 'not yet scheduled' note on file."
     }
   },
   "price": {
@@ -183,8 +183,18 @@
     "Market cap/price: snapshots from 2026-07 to 2026-11 range widely; $6.86 (2026-11-13, MarketChameleon) remains the best-anchored recent figure."
   ],
   "pendingFilings": [],
-  "notes": "Crypto backdrop: bitcoin was around $64,000–$65,000 as of 2026-11-17/11-18 per Fortune's daily price series, a notable decline that pressures mining economics; a handful of search results claiming BTC near $92,000 on 2026-11-20 look stale/mislabeled (likely 2025 content) and were excluded as unreliable. No price point newer than the 2026-11-13 figures already on file (~$6.73–$6.86) was found this pass, so price is left unchanged.",
+  "notes": "No new catalysts found for the Nov 21-23 window. One source referenced a Friday Nov 20 ~10% stock decline, but neither a primary-sourced close price nor a specific cause for that session could be confirmed this pass -- flagging but not recording as a figure. Otherwise quiet; nextEarnings is the only confirmed update.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -435,12 +445,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)",
-      "revenue updated"
+      "nextEarnings updated"
     ],
     "tradingDay": true
   }

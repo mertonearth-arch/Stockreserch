@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.329Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.663Z",
   "fundamentals": {
     "marketCap": {
       "value": 9090000,
@@ -204,8 +204,16 @@
     "Price history is not comparable across the 2025-12-15 1-for-8 reverse split."
   ],
   "pendingFilings": [],
-  "notes": "This clarifies/supersedes the prior pass's Nov 12 dating for the Nasdaq notice: the underlying Nasdaq notice letter is dated Nov 5, 2026 (per SEC Form 8-K, Item 3.01); Nov 12 may reflect when the 8-K itself was filed/indexed. No delisting action has occurred; compliance deadline is 2027-05-04. No newer price than the $0.49 (-6.15%, Nov 19, Morningstar) already on file was found. No confirmed nextEarnings date located (fiscal year has historically ended March 31, per file -- unchanged).",
+  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). Most recent dated item found (Nov 17 close $0.56, -10.2%) is consistent with the decline already reflected on file as of Nov 19 ($0.49). No new Nasdaq/legal filing found for Nov 21-23. Treated as quiet.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -509,12 +517,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

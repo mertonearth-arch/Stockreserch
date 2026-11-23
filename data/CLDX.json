@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.333Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.667Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -161,8 +161,16 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs two new undated snapshots ($27.87, $28.57) vs $35.61 (undated) — no confirmed November 2026 close found."
   ],
   "pendingFilings": [],
-  "notes": "CFO Sam Martin has informed the company of plans to retire in 2027; a CFO search has begun (exact disclosure date not established, so not listed as a dated catalyst). Management is scheduled to present at the Evercore Healthcare Conference on 2026-12-01 (a Guggenheim Healthcare Innovation Conference appearance on 2026-11-09 has already passed). No confirmed Q4/FY2026 earnings date found this pass; the previously-flagged stale aggregator dates (Aug 6, Nov 9) remain unconfirmed and have already passed.",
+  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). WebSearch returned only already-on-file items (Oct 27 price, Aug Q2 earnings, Sept Phase 3 EMBARQ data) with no dates after Nov 5. Treated as quiet.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -363,14 +371,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "growth updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.323Z",
+  "lastResearched": "2026-11-23T21:12:50.657Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -105,6 +105,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -224,17 +232,12 @@
       "from": "daily"
     }
   ],
-  "notes": "Q3 2026 release (already on file as lastCat) included a going-concern warning alongside the revenue miss (finviz: 'revenue collapses 63% and going concern warning turns the story from growth to survival'); management says it is negotiating with lenders to refinance/extend/restructure near-term debt. Microvast also has until 2026-02-22 to regain Nasdaq minimum-bid-price compliance per an earlier Nasdaq notice (exact notice date not pinned down this pass, so not listed as a dated catalyst). No reverse split found; the large price move is attributable to the earnings reaction, not a split.",
+  "notes": "No new dated catalyst or confirmed price found past the Nov 9 Q3 2026 earnings miss and going-concern warning already on file. Searched WebSearch for Nov 21-23 news; none surfaced. Genuinely quiet this pass.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "revenue updated",
-      "nextEarnings updated",
-      "move -64.3%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

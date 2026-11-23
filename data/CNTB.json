@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.314Z",
+  "lastResearched": "2026-11-23T21:12:50.667Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -57,12 +57,10 @@
     }
   },
   "price": {
-    "last": 0.6772,
-    "changePct": null,
-    "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "Quiverquant (CNTB historical prices page)",
-    "note": "Single source found this pass for this date; could not corroborate with a second source. This is a steep decline from the $1.235 level on file (2026-11-06, post Phase-2 pop); no specific dated news was located this pass explaining the drop, so treat with caution and verify next pass. Could not find any price for 2026-11-17 through 2026-11-19."
+    "last": 0.6013,
+    "asOf": "2026-11-20",
+    "source": "Benzinga (2:29pm EST)",
+    "note": "Continues the decline from $0.6772 (Nov 13) already on file. No dated news found this pass explaining the drop; no reverse split found (Trendlyne/Benzinga show no split since the ADR program ended), so this is treated as an ordinary price decline rather than a split artifact."
   },
   "catalysts": [
     {
@@ -127,12 +125,20 @@
       "source": "https://connectbiopharma.gcs-web.com/news-releases/news-release-details/connect-biopharma-announces-completion-enrollment-phase-2"
     }
   ],
-  "conflicts": [
-    "CNTB next earnings date: Benzinga suggests ~2026-11-24 (estimate) vs EarningsWhispers suggesting 2026-11-11 (already passed, unconfirmed if actually reported) vs an undated BiopharmaWatch headline implying Q3 2026 results may already be out."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Could not confirm the exact date/source of the 'positive Phase 2' readout already on file for 2026-11-06 beyond what was previously recorded; searches this pass surfaced Seabreeze STAT asthma (Sept 2026, 130mL FEV1 improvement at day 7 vs placebo, primary 28-day endpoint narrative disputed between company and press) and Seabreeze STAT COPD (85% reduction in attacks per FierceBiotech vs 81% reduction in treatment failures per Quartr, secondary endpoint missed) data, but these appear to predate the Nov 6 catalyst already on file and may be the same underlying readouts reported in stages. Analyst price targets seen this pass ranged roughly $4-$10 (Lake Street $9, Oppenheimer cut to $5 from $8, Canaccord $6 from $7, Leerink $4 initiation) but none dated within the current lookback window, so not reported as new catalysts.",
+  "notes": "Quiet pass. No new dated catalyst found this session; next-earnings date remains unresolved (Benzinga ~2026-11-24 estimate vs. the unconfirmed BiopharmaWatch/EarningsWhispers signals already on file) — still watch for an actual Q3 2026 release.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -393,12 +399,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

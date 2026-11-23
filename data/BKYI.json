@@ -8,11 +8,11 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.318Z",
+  "lastResearched": "2026-11-23T21:12:50.651Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Conflicting figures found across aggregators (roughly $3M-$7.8M depending on shares-outstanding count used); not reconciled"
+      "note": "Conflicting figures across aggregators (~$3M-$7.8M); not reconciled"
     },
     "float": {
       "value": null,
@@ -21,20 +21,20 @@
     "sharesOutstanding": {
       "value": 1342766,
       "asOf": "Q3 2026",
-      "source": "Q3 2026 8-K exhibit (weighted avg basic/diluted shares outstanding)"
+      "source": "Q3 2026 8-K exhibit"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not found in available sources this pass"
+      "note": "Not found"
     },
     "cash": {
       "value": null,
-      "note": "Not separately disclosed in sources found this pass; working capital reported at $3.1M as of end of Q3 2026, up from $1.4M at year-end 2025."
+      "note": "Not separately disclosed; working capital $3.1M as of end of Q3 2026"
     },
     "debt": {
       "value": 0,
       "asOf": "2026-Q3",
-      "note": "Company retired its remaining note payable during Q3 2026, per its Q3 2026 report."
+      "note": "Retired remaining note payable during Q3 2026"
     },
     "pe": {
       "trailing": null,
@@ -58,8 +58,7 @@
       {
         "period": "Q3 2026",
         "value": 1480000,
-        "yoy": -4.5,
-        "note": "Approximate total; license fee revenue $1,275,249 (+39% YoY, 86% of total) and hardware revenue $12,404 (down from $363,642) were the two components confirmed"
+        "yoy": -4.5
       }
     ],
     "growth": {
@@ -78,7 +77,7 @@
     "changePct": -17.83,
     "asOf": "2026-11-13",
     "source": "Equibles",
-    "note": "No quote newer than 2026-11-13 found this pass; other aggregators found (Schwab $2.74 asOf 2026-10-27, Benzinga $3.27 asOf 2026-10-23) are all older."
+    "note": "No quote newer than 2026-11-13 found this pass."
   },
   "catalysts": [
     {
@@ -100,6 +99,13 @@
       "type": "corporate",
       "headline": "BIO-key announced it will report Q3 2026 results before market open on Friday, November 13, 2026, with an investor call at 10am ET led by CEO Mike DePasquale and CFO Cecilia Welch",
       "source": "https://finviz.com/news/418588/identity-and-biometric-authentication-technologies-provider-bio-key-hosts-q3-investor-call-friday-november-13-at-10am-et"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "partnership",
+      "headline": "BIO-key and Cipher (Prosegur's cybersecurity division) announced a technology integration bringing BIO-key's identity/biometric/passwordless authentication into Cipher's managed-cybersecurity portfolio, launching first in Portugal with plans to extend to other Cipher markets (Spain, US, Brazil)",
+      "impact": null,
+      "source": "https://www.globenewswire.com/news-release/2026/11/03/3393943/0/en/index.html"
     },
     {
       "date": "2026-10-30",
@@ -198,11 +204,29 @@
   ],
   "conflicts": [
     "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — magnitude of decline not independently reconciled.",
-    "Shares outstanding/market cap continue to disagree sharply across aggregators (roughly 1.09M-2.04M shares, $3M-$7.8M cap)."
+    "Shares outstanding/market cap continue to disagree sharply across aggregators."
   ],
   "pendingFilings": [],
-  "notes": "Listing status clarified this pass: BKYI's Nasdaq listing was suspended effective 2026-05-13 (bid-price and late 10-K deficiencies) and shares traded on OTC Markets temporarily; a Nasdaq Hearings Panel determined on 2026-06-16 that the company had regained compliance (bid price, after its 1-for-10 reverse split, and SEC filing requirements), and trading resumed on Nasdaq on 2026-07-08. The company remains subject to a Discretionary Panel Monitor under Nasdaq Rule 5815(d)(4)(B) through 2027-07-06. This supersedes any assumption that BKYI is delisted/OTC-only. No price newer than the on-file 2026-11-13 ($2.12) was found this pass; other aggregator snapshots found (Schwab $2.74 as of 2026-10-27, Benzinga $3.27 as of 2026-10-23) are all older, consistent with what was already on file.",
+  "notes": "New Cipher/Prosegur partnership (Nov 3) found this pass was not previously on file as a dated catalyst. No new price, financial, or filing information found beyond that.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "revenue updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -17.83%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -506,14 +530,19 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "eps updated",
+      "revenue updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
       "cash updated",
-      "debt updated"
+      "debt updated",
+      "move -17.83%",
+      "conflicts updated"
     ],
     "tradingDay": true
   }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.348Z",
+  "lastResearched": "2026-11-23T21:12:50.684Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -153,10 +153,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: Yahoo Finance shows ~$302M intraday vs. ~$350M as of 2026-11-12 in a different pulled snapshot — likely reflects the price/share-count movement around the Nov 11-13 public offering; not reconciled, neither used as a reported figure this pass."
+    "Market cap: Yahoo Finance shows ~$302M intraday vs. ~$350M as of 2026-11-12 in a different pulled snapshot — likely reflects the price/share-count movement around the Nov 11-13 public offering; not reconciled, neither used as a reported figure this pass.",
+    "Price Nov 19, 2026: three sources disagree — $3.930 (4:00 PM CST reading), $3.94 (+2.88%), and $4.16 (+8.82%) — none independently confirmed as the actual close; the file's last confirmed dated price remains $4.255 (2026-11-16, AAII)."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -283,15 +294,12 @@
       "from": "daily"
     }
   ],
-  "notes": "The $125M offering (25,000,000 shares at $5.00) priced 2026-11-11 and closed 2026-11-13 per the final 424B5 prospectus and a Goodwin Law release, confirming the figures already on file for this catalyst; underwriters also hold a 30-day option on up to 3,750,000 additional shares. Post-offering share count/cash not yet separately disclosed as of this pass. No Q4 2026/FY2026 earnings date located; a hold on U.S. trial activity is referenced by one source as still unresolved but undated, so left out as a catalyst.",
+  "notes": "No company announcement located explaining the Nov 19 move; one secondary analysis flags the unresolved US clinical hold as a continuing risk, undated so not recorded as a catalyst. Genuinely quiet this pass beyond the unresolved price conflict above — no new catalyst found since the 2026-11-13 offering close already on file.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "cash updated",
       "conflicts updated"
     ],
     "tradingDay": true

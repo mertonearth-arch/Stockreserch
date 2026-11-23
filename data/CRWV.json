@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.334Z",
+  "lastResearched": "2026-11-23T21:12:50.668Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -72,13 +72,19 @@
     }
   },
   "price": {
-    "last": 49.88,
-    "changePct": -6.12,
-    "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "AAII (citing that day's 4:00pm close vs $53.13 prior close)"
+    "last": 51.84,
+    "changePct": 8.37,
+    "asOf": "2026-11-19",
+    "source": "Kalkine (intraday)",
+    "note": "Intraday figure, not a confirmed close; supersedes the 2026-11-16 $49.88 close on file. No company statement found explaining the Nov 19 move. No Nov 20/21 price located this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "price action",
+      "headline": "CRWV traded up ~8.4% intraday to $51.84; no company announcement or news item found explaining the move",
+      "source": "https://kalkine.com.au/news/artificial-intelligence/why-has-coreweave-nasdaqcrwv-climbed-8-despite-a-247-surge-on-november-11"
+    },
     {
       "date": "2026-11-12",
       "type": "earnings",
@@ -119,6 +125,17 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "move 8.37%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -233,17 +250,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Price unchanged from file this pass — the last reliably dated figure remains the 2026-11-16 close of $49.88 (-6.12%, AAII and others); no newer dated price was found. Context: shares fell further on 2026-11-12 amid broad AI-infrastructure-linked selling reportedly tied to a leadership issue at Nvidia, per search snapshots (specific article not independently confirmed). Next earnings (Q4/FY2026) date still not announced; the stale 'Nov 12' aggregator listing noted on file has passed.",
+  "notes": "Q3 2026 earnings date now reasonably well corroborated as 2026-11-10 (multiple sources this pass), resolving some of the Nov-10-vs-Nov-12 ambiguity flagged previously, though the file's existing conflict entry is left in place since it wasn't fully reconciled. No new fundamentals confirmed this pass.",
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
       "1 new catalyst(s)",
-      "pe updated",
-      "eps updated",
-      "revenue updated",
-      "conflicts updated"
+      "move 8.37%"
     ],
     "tradingDay": true
   }

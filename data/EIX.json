@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.319Z",
+  "lastResearched": "2026-11-23T21:12:50.652Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -79,7 +79,7 @@
     "changePct": 0.3,
     "asOf": "2026-11-13",
     "source": "AAII",
-    "note": "Supersedes the 2026-10-30 $58.79 figure already on file (also newer: $59.99 close on 2026-11-12 per Marketchameleon). No quote found newer than 2026-11-13."
+    "note": "No quote newer than 2026-11-13 found this pass."
   },
   "catalysts": [
     {
@@ -281,12 +281,22 @@
   ],
   "conflicts": [
     "Market cap: $23.43B (Motley Fool) vs $23.08B (Equibles) vs $21.97B (TipRanks, appears stale) — not reconciled.",
-    "Debt: Motley Fool shows total debt of $42.70B vs Equibles' $40.806B long-term debt (+$1.804B current +$0.19B LOC = ~$42.8B) explicitly dated 2026-09-30. Close but not confirmed identical.",
-    "Q3 2025 core EPS: one source states core EPS fell to $1.92 from $2.34 YoY; the figure already on file from a prior pass states $2.16 for Q3 2025. Both readings retained verbatim."
+    "Debt: Motley Fool total debt $42.70B vs Equibles $40.806B long-term (+current/LOC ~$42.8B) as of 2026-09-30 — close but not confirmed identical.",
+    "Q3 2025 core EPS: one source says $1.92 fell from $2.34 YoY; on-file figure from a prior pass states $2.16 for Q3 2025. Both retained verbatim."
   ],
   "pendingFilings": [],
-  "notes": "FY2026 core EPS guidance of $5.90-$6.20 was reaffirmed on the Q3 2026 call despite the EPS beat, because management warned that without durable statewide wildfire-liability reform, Southern California Edison would request less growth capital in its 2029 general rate case. The Q3 call flagged 2026-11-15 as a possible deadline for a special legislative session on wildfire liability reform; this pass could not confirm what happened at/after that deadline (outcome not located). The Wildfire Recovery Compensation Program referenced on file has grown to more than 3,200 offers totaling roughly $1.1 billion (undated snapshot via Trefis, ahead of the 2026-11-30 deadline already on file). Stock set a 52-week low of $51.10 on 2026-09-29 and has recovered roughly 15% since (undated secondary source). No price newer/more reliable than the on-file 2026-11-13 ($60.17) was found this pass -- a Fox Business snapshot showed $60.15 at the 2026-11-10 close, consistent with (not superseding) the on-file figure, so price was left unchanged. An unverified single-source reference to a Mizuho downgrade/$63 target around 2026-11-02 could not be corroborated and may be a confusion with an earlier (2026-03-05) Ladenburg Thalmann $63 target -- NOT reported as fact due to this uncertainty.",
+  "notes": "Genuinely quiet this pass: no news dated after 2026-11-13 found via WebSearch (searches for Nov 21-23 returned only October-dated items). The Nov 15 special-legislative-session deadline and Nov 30 Wildfire Recovery Compensation Program deadline remain upcoming/unresolved as already on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -686,12 +696,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
-      "growth updated"
+      "conflicts updated"
     ],
     "tradingDay": true
   }

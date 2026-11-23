@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.335Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.670Z",
   "fundamentals": {
     "marketCap": {
       "value": 4430000000,
@@ -171,8 +171,16 @@
     "ENVA Q3 2026 EPS: Zacks describes a beat ($4.48 actual vs. $4.46 est.); a separate aggregator listing (dated around 2026-10-22 in search snippet) describes a miss. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-11-10 $500M buyback authorization already on file. The September 2026 Grasshopper Bancorp bank-charter-application withdrawal and related ~25% share-price drop (plus a related Levi & Korsinsky investor notice) predate the file's lastCat and are included here only as background, not as a new catalyst.",
+  "notes": "Quiet pass — no news dated after the Nov 10, 2026 $500M buyback authorization already on file. Next earnings date still unconfirmed (Benzinga 2027-01-26 vs. Halo Technologies 2027-02-04 estimate on file).",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -441,14 +449,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "eps updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

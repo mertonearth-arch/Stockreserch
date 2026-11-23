@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.343Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.681Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -238,8 +238,16 @@
     "Price remains unreconcilable this pass: for the same nominal date (2026-11-09), Investing.com shows $5.70 while Global Banking & Finance shows a $6.26 close (+9.82%); Debelegger.nl separately shows $6.32 as of 2026-10-30. No clean, consistently-sourced current quote was found, so price is left as null per the prior pass."
   ],
   "pendingFilings": [],
-  "notes": "SK hynix licensing remains a verbal management 'hint,' not a confirmed agreement — flagged so it isn't mistaken for a signed deal.",
+  "notes": "No new dated catalyst confirmed this pass. A German-language aggregator (trading-treff.de) referenced a new US federal district-court patent suit 'filed November 4' but a docket search (Justia/Law360) could not locate any Netlist filing dated 2026-11-04 -- not corroborated, so not recorded as a catalyst. SC26 (Nov 17-19) presentation already on file. Price remains unresolved per existing conflicts entry; one source gave an undated $4.62 snapshot (around Nov 16) that does not clearly resolve the existing conflict and is not adopted.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -589,17 +597,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "eps updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.339Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.676Z",
   "fundamentals": {
     "marketCap": {
       "value": 148140000,
@@ -263,6 +263,14 @@
   "pendingFilings": [],
   "notes": "Merger update (per task flag): as of the Nov 6, 2026 amendment, the Starman Optical deal remains pending with a new outside date of March 31, 2027; completion still requires stockholder approval of the merger agreement, no prohibiting order, and no Material Adverse Effect. Layered on top of the merger timeline, GoPro's November 2026 going-concern and lender-covenant disclosures (10-Q; waiver dated Nov 15) are a materially new development versus the prior pass, which only covered the delayed Q3 results and no-guidance note. Next (Q4/FY2026) earnings date still not set.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -675,12 +683,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "4 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

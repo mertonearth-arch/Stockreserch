@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.325Z",
+  "lastResearched": "2026-11-23T21:12:50.686Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -88,6 +88,13 @@
     "note": "No clean confirmed close found for Nov 16-18; an intraday snapshot (not a close) showed $149.35 at 12:31pm ET on 2026-11-16."
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "leadership",
+      "headline": "SAIC appointed Jeffrey Little to lead its Army and Navy business (Group President, Army & Navy Group)",
+      "impact": "",
+      "source": "https://www.helpareporter.com/news-releases/saic-appoints-jeffrey-little-to-lead-its-army-and-navy-business"
+    },
     {
       "date": "2026-11-13",
       "type": "offering",
@@ -177,11 +184,22 @@
     }
   ],
   "conflicts": [
-    "SAIC next earnings date: sources this pass disagree across Nov 30, Dec 2, Dec 3, and Dec 7, 2026, none company-confirmed -- not reconciled."
+    "SAIC next earnings date: sources this pass disagree across Nov 30, Dec 2, Dec 3, and Dec 7, 2026, none company-confirmed — not reconciled. (Earnings Whispers this pass again cites Nov 30, pre-market, consensus $2.31/share — consistent with one of the four existing candidates, still not a company confirmation.)"
   ],
   "pendingFilings": [],
-  "notes": "No confirmed closing price newer than the 2026-11-06 figure already on file ($147.03) was found this pass. A financialcontent.com intraday snapshot of $149.35 at 12:31pm ET on 2026-11-16 (already flagged on file) is the most recent data point found; it remains an intraday read, not a close. No new dated catalysts since the Nov 13 notes offering close already on file.",
+  "notes": "No clean confirmed closing price found for the Nov 16 - Nov 23 window this pass either; still relying on the 2026-11-06 $147.03 figure on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -510,11 +528,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "nextEarnings updated",
+      "1 new catalyst(s)",
       "conflicts updated"
     ],
     "tradingDay": true

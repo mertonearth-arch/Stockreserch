@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.316Z",
+  "lastResearched": "2026-11-23T21:12:50.660Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -222,8 +222,16 @@
     "SLS offering priced ($13.00/share) well below both the $19.15 and $19.84 same-day trading levels and below the ~$16.80 after-hours quote -- pricing discount not explained in sources found."
   ],
   "pendingFilings": [],
-  "notes": "The $150M offering priced 2026-11-18 at $13.00/share is dilutive (~11.5M new shares vs ~204M shares outstanding pre-offering, ~5.7%); expected to close 2026-11-20 (today).",
+  "notes": "The $150M offering (priced 2026-11-18 at $13.00/share) was expected to close 2026-11-20; no source found confirming the closing actually occurred (no closing 8-K located via WebSearch). Treated as still-pending/unconfirmed rather than recorded as closed. No new dated catalyst beyond what's on file.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -495,16 +503,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "5 new catalyst(s)",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "cash updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,13 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.352Z",
+  "lastResearched": "2026-11-23T21:12:50.688Z",
   "fundamentals": {
     "marketCap": {
       "value": 39980000000,
       "asOf": "2026-11-13",
       "source": "financialcontent.com (via search)",
-      "note": "Tied to that day's $249.55 price. Stock pulled back to $234.18 by 2026-11-17 per AAII; market cap not recalculated to that date this pass."
+      "note": "Tied to the $249.55 price that day; not recalculated to the new $227.43 figure this pass."
     },
     "float": null,
     "sharesOutstanding": {
@@ -26,7 +26,7 @@
       "value": 8000000,
       "asOf": "2026-11-13",
       "source": "Equibles (via search)",
-      "note": "~5.1% of shares outstanding, 2.0 days to cover, per that snapshot; an earlier 2026-09-30 snapshot showed 8.63M shares short (~5.5%, 3.7 days to cover) -- different settlement dates, not a conflict."
+      "note": "~5.1% of shares outstanding, 2.0 days to cover."
     },
     "cash": {
       "value": 460740000,
@@ -43,7 +43,7 @@
     "pe": {
       "trailing": 54.7,
       "forward": null,
-      "note": "As of ~2026-10-08 snapshot at the much higher prior price; likely stale given the price decline since",
+      "note": "As of ~2026-10-08 snapshot at a much higher prior price; likely stale given the price decline since.",
       "asOf": "2026-10-08"
     },
     "eps": [
@@ -72,15 +72,16 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Earnings Whispers (third-party estimate) lists Jan 26, 2027; official company notice not yet issued as of this pass. Last year's official notice (for the Feb 2, 2026 FY2025 report) was issued Jan 13, 2026, so an official Q4/FY2026 date likely won't post until early-mid Jan 2027. Q4 2026 guidance on file: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25."
+      "note": "Third-party estimate ~Jan 26, 2027; no official company notice yet. Q4 2026 guidance on file: revenue $1.25-1.35B, non-GAAP EPS $1.95-2.25."
     }
   },
   "price": {
-    "last": 234.18,
-    "changePct": 0.98,
-    "asOf": "2026-11-17",
-    "source": "AAII (via search)",
-    "note": "Prior close cited as $231.90. Highly inconsistent readings found across the month; November range cited as high $278.01 / low $211.63, down ~14.65% MTD as of mid-Nov."
+    "last": 227.43,
+    "changePct": -3.31,
+    "rvol": null,
+    "asOf": "2026-11-19",
+    "source": "AAII (via search, Nasdaq-sourced close)",
+    "note": "Session range $226.65-$249.00 per source. Supersedes the file's 2026-11-17 $234.18 figure. A separate Benzinga snippet cites an irreconcilable $155.90 'low' tagged to Nov 20 that is inconsistent with every other source and the stock's own 52-week low (~$151.52 elsewhere, but near $227-249 this week) -- treated as a likely data/scraping error, not used as price, and flagged below rather than reconciled."
   },
   "catalysts": [
     {
@@ -147,11 +148,25 @@
     }
   ],
   "conflicts": [
-    "Price remains volatile and inconsistently reported across sources this pass: AAII shows $234.18 close on 2026-11-17 (matches prior file value, no update found); Schwab showed an intraday $231.14 at 2:35pm ET on 2026-11-18 (not a close); a Nov 13 snapshot tied to $249.55 implies ~$39.98B market cap, well above the $234.18-implied figure four days later. No closing price newer than 2026-11-17 could be confirmed despite additional searching."
+    "Price remains volatile and inconsistently reported across sources: new this pass is an AAII/Nasdaq-sourced close of $227.43 (-3.31%) on 2026-11-19, session range $226.65-$249.00, which supersedes the file's prior $234.18 (2026-11-17). A Benzinga page separately shows an unreconciled '$155.90 low' tagged to Nov 20 that doesn't fit any other source this pass or last -- treated as unreliable, not used."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch already on file. CFO transition and Magnum E2 news surfaced in search are stale (2025 and Sept 2026 respectively). Added Q3 2026 non-GAAP EPS, revenue, 9M YoY growth, shares outstanding, and short interest this pass; trailing/forward P/E not established (reliable trailing GAAP EPS not located).",
+  "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch / dividend declaration already on file. Routine re-check; only the price updated this pass.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "pe updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -448,16 +463,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "eps updated",
-      "revenue updated",
-      "growth updated",
+      "pe updated",
       "nextEarnings updated",
       "marketCap updated",
-      "sharesOutstanding updated",
       "shortInterest updated",
       "conflicts updated"
     ],

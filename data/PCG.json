@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.346Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.683Z",
   "fundamentals": {
     "marketCap": {
       "value": 28560000000,
@@ -235,8 +235,16 @@
     "Market cap: sources disagree sharply by snapshot date — ~$27.46B (early Oct 2026, Robinhood/implied), ~$30.97B intraday (Yahoo, undated), ~$38B (Yahoo, Aug 2026). Not reconciled; treat none as current."
   ],
   "pendingFilings": [],
-  "notes": "A separate, smaller CPIM Year 31 filing (A.26-11-001, ~$0.05/month gas impact) appeared alongside the ERP/GIS notice; could not confirm from search which docket number maps to which filing — check CPUC docket directly. A Nov 2, 2026 quarterly notification to regulators also covered routine Wildfire Mitigation Plan status (not a standalone catalyst).",
+  "notes": "No new dated catalyst found beyond the Nov 18 layoff confirmation already on file. Price and market-cap conflicts already flagged remain unresolved this pass; no newer dated figure located.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -562,15 +570,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "nextEarnings updated",
-      "sharesOutstanding updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

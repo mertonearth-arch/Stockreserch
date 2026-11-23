@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.354Z",
+  "lastResearched": "2026-11-23T21:12:50.690Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -159,12 +159,20 @@
       "source": "https://www.genomeweb.com/business-news/twist-bioscience-fiscal-q3-revenue-grows-23-percent-firm-projects-boost-ai-drug ; https://www.rttnews.com/3682164/twist-bioscience-twst-q3-revenue-jumps-23-as-fy2026-guidance-raised.aspx"
     }
   ],
-  "conflicts": [
-    "Post fiscal Q4/FY2026 earnings (reported 2026-11-12/13) price action could not be precisely dated: snapshots this pass show figures from ~$110 to ~$135 without consistent dates, versus the $122.59 (2026-11-11, pre-earnings) figure used as 'last' here."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Could not confirm a closing price newer than the file's 2026-11-11 $122.59 despite searching; intervening data points found (Nov 2: $129.04; Nov 6: $120.79; Nov 10: $133.26) are all dated before the file's figure, so price is left unchanged (omitted) this pass. Earnings release date is reported as Nov 12 in one source vs the file's prior-pass label of Nov 13 for the same event -- treated as the same event, date not fully reconciled.",
+  "notes": "Genuinely quiet pass: no new dated catalysts since the fiscal Q4/FY2026 earnings and FY2027 guidance already on file. No reliably-dated price newer than the file's 2026-11-11 $122.59 found (a 247wallst/Finviz snippet describes an EPS-miss reaction but carries no confirmable date distinct from the earnings catalyst already recorded). Record left unchanged.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -425,16 +433,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)",
-      "pe updated",
-      "revenue updated",
-      "growth updated",
-      "nextEarnings updated",
-      "cash updated"
+      "conflict resolved"
     ],
     "tradingDay": true
   }

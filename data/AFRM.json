@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.328Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.662Z",
   "fundamentals": {
     "marketCap": {
       "value": 23000000000,
@@ -193,8 +193,16 @@
     "Market cap/shares outstanding: Motley Fool ~$23.00B (Nov 11); Pitchbook ~$24.1B on ~337M shares (Sept 25); DefiLlama ~$24.95B on 339.06M shares (undated) -- not reconciled; likely reflect different dates and share-count conventions."
   ],
   "pendingFilings": [],
-  "notes": "Fiscal Q1 2027 earnings (Nov 5, already on file) beat on EPS ($0.47 non-GAAP vs $0.35 est.) and revenue; one source puts the revenue figure at $1.26B vs a $1.21B estimate. Despite the beat, investors reacted to credit-loss-allowance concerns and conservative GMV guidance, pressuring the stock through mid-November. nextEarnings unchanged (2027-02-04, unconfirmed TIKR estimate).",
+  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). Searches for Nov 21-23 (weekend + Monday) turned up only undated/stale price snapshots and previously-known items (Sam's Club deal, Q1 FY2027 earnings). Treated as quiet.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -596,13 +604,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

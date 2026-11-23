@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-20T21:16:52.337Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-23T21:12:50.673Z",
   "fundamentals": {
     "marketCap": {
       "value": 4850000,
@@ -214,8 +214,16 @@
     "Price is reported very inconsistently across sources this pass: AAII ~$0.15 (dated Nov 6, 2026); TradingView ~$0.94 (snapshot date unclear); Seeking Alpha $0.59 (dated Apr 2, 2026 -- stale); Robinhood $0.59 with a cited 52-week range of $0.484-$3.37 (snapshot date unclear). The dated Nov 6 AAII figure is consistent with the on-file Oct 30 figure ($0.18) and a continuing decline; the higher figures look like stale/cached snapshots but this could not be confirmed."
   ],
   "pendingFilings": [],
-  "notes": "A $5M secured convertible note ('2024 Notes') matures Nov 30, 2026 -- a near-term date to watch for refinancing, further extension, or default. Fathom's Encompass credit facility was reported out of compliance with earnings covenants at Sept 30, 2026 and had requested a waiver; the lender may terminate the facility absent a waiver (per aggregator reporting, not independently confirmed this pass). No confirmed going-concern opinion found in search results, though the overall picture (equity deficiency, note maturity, covenant breach) is consistent with elevated distress.",
+  "notes": "Quiet pass for new disclosures — no company announcement found beyond the Nov 17, 2026 Nasdaq stockholders'-equity deficiency notice already on file. One secondary tracker (Tickeron) reported the stock down 7.51% on Nov 16, 2026 citing the same going-concern/debt-maturity overhang already on file (no new absolute price confirmed; sources remain inconsistent, see existing conflicts entry). The Nov 30, 2026 convertible-note maturity remains the key date to watch.",
   "history": [
+    {
+      "date": "2026-11-23",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-20",
       "run": "pm",
@@ -540,14 +548,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "3 new catalyst(s)",
-      "marketCap updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
