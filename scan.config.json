@@ -1,0 +1,13 @@
+{
+  "_comment": "Small-float scan thresholds (bin/scan.js). Defaults live in lib/scan.js; anything set here overrides them. maxMarketCap is the 'not too much market cap' ceiling; floatRouteMaxMarketCap stops a large company with few shares (NVR, AutoZone, FICO) from counting as low-float.",
+  "maxFloatShares": 50000000,
+  "maxMarketCap": 300000000,
+  "floatRouteMaxMarketCap": 2000000000,
+  "minChangePct": 5,
+  "minPrice": 0.5,
+  "minDollarVolume": 250000,
+  "maxNewPerRun": 8,
+  "minRevenueYoYPct": 25,
+  "minLossNarrowPct": 25,
+  "dilutionLookbackDays": 90
+}

@@ -4,6 +4,8 @@ This file is the whole job. A scheduled session starts cold, reads this, and exe
 Working directory: `C:\Users\merto\code\stock-research`
 
 There are two passes a weekday. **AM is cheap and narrow. PM is the real research.**
+Both open with the **small-float scan** (below), which is the point of this desk: good
+news and good financials on stocks with **float under 50M shares or market cap under $300M**.
 
 ---
 
@@ -31,10 +33,73 @@ There are two passes a weekday. **AM is cheap and narrow. PM is the real researc
 
 ---
 
+## Small-float scan (step 0 of both passes)
+
+```
+node bin/scan.js --run am --record      # or --run pm
+```
+
+A deterministic scanner, no judgement involved. It takes ~1 minute and writes
+`runs/scan-YYYY-MM-DD-<run>.json` (committed: it is the record of what was found and why).
+
+**Who qualifies** (`scan.config.json`): float ≤ 50M shares — or shares outstanding ≤ 50M,
+which bounds float — with market cap ≤ $2B; **or** market cap ≤ $300M. The $2B guard exists
+because NVR, AutoZone and FICO also have < 50M shares and are not low-float names. Nasdaq,
+NYSE and NYSE American common stock only: no OTC, warrants, units, rights or preferreds.
+
+**Where it looks:** names already tracked, Yahoo's screen of listed names under $2B up more
+than 5%, and (when enabled) every 8-K filed in the window. For each qualifying name it reads
+Yahoo's headline feed — which carries GlobeNewswire, Business Wire, PR Newswire and ACCESS
+Newswire releases — keeps only stories whose headline names the company, and labels each
+by keyword: `order / contract`, `regulatory / clinical`, `earnings`, `buyback / dividend`,
+`offering`, `reverse split`, `listing notice`, and so on. Where a name reported, it pulls the
+quarter's revenue / net income / share count and checks for revenue +25% YoY, a turn to
+profit, or a loss narrowed 25%+ — and refuses to use Yahoo's numbers when they still show
+the previous quarter (`stale`).
+
+**A hit** is a qualifying name with a positive-type event from a company release, an SEC
+filing or a news outlet (never commentary such as Motley Fool), or a qualifying earnings
+print. Two outlets describing one print differently ("loss widens" vs "beats estimates") is
+*contested* and does not count on its own. Dilution and negative events on small floats are
+listed beside the hits, never hidden.
+
+**With `--record`** the scan writes into the watchlist as a delta-only `scan` run: new
+names (max 8 per run) get a seeded stub — Yahoo float, shares, cap, price, the dated
+headlines — and tracked names get the new dated events only. A scan never demotes, never
+stamps `lastResearched`, never touches a tracked name's prices or fundamentals. So every
+name it adds is due on the next full pass.
+
+**What the pass does with the report:**
+1. Read `hits` in the report. For each hit, open the primary source (the company release or
+   filing) and confirm the event and its date. The labels come from keywords and are
+   sometimes wrong — e.g. an ATM *termination* is not an offering. Record a correction in
+   that name's `notes`; do not re-send the catalyst with a new type (it dedupes on date +
+   headline and would be ignored).
+2. Skim `otherNews`: real headlines the keyword rules did not label. If one is genuinely a
+   positive-type event on a qualifying name, add it as a dated catalyst in your batch.
+3. Read `sources`. If `yahooSession` failed, there is no float this run (shares outstanding
+   was used); if `sec.enabled` is false, there was no 8-K or dilution-filing check. Say so in
+   the report — do not imply a check ran.
+
+**The standing rules still apply to everything the scan finds.** "Positive-type" is an
+event label, not a rating, not a forecast and not a reason to buy. Low-float names that put
+out good news frequently follow it with an offering — that is why the dilution list and the
+90-day filing check sit next to every hit.
+
+**Sources and access.** Yahoo needs no key. SEC EDGAR requires a declared contact in the
+User-Agent; the scanner sends SEC requests only when `SEC_USER_AGENT` is set (e.g.
+`CadenceDesk research name@example.com`) as an environment variable on the cloud
+environment. It is deliberately not in this repo: the repo is public and the contact is
+personal. GlobeNewswire, ACCESS Newswire and Newsfile block automated clients outright; do
+not try to get around that — their releases arrive through Yahoo's feed anyway.
+
+---
+
 ## AM pass (light, pre-market)
 
 Goal: know what changed overnight. No deep research.
 
+0. Run the small-float scan: `node bin/scan.js --run am --record`, then work its report as above.
 1. `node bin/research.js due --run am --json`
 2. Web-search the day's US pre-market movers / gappers. Collect symbols with the move %
    and, where published, RVOL and the reason given.
@@ -64,6 +129,8 @@ clear a conflict, and only when it has actually resolved it.
 
 Goal: the real research on everything that came due.
 
+0. Run the small-float scan: `node bin/scan.js --run pm --record`, then work its report as
+   above. Names it added are now due and get full research in step 3 like any other.
 1. `node bin/research.js due --run pm --json` — this is the work list. Respect it. Names not
    on it are deliberately not due; researching them anyway wastes the pass and breaks the
    cadence.
@@ -295,16 +362,23 @@ watchlist.json      roll-up index: ticker -> tier, theme, last pass
 sectors.json        per-theme count history, for the week-over-week deltas
 data/TICKER.json    the full record per name (fundamentals, catalysts, pass history)
 runs/YYYY-MM-DD-*.json   what each pass did
+runs/scan-YYYY-MM-DD-am|pm.json   what each small-float scan found, and why
+scan.config.json    small-float thresholds (float, market cap, hit rules)
 dashboard.html      generated; never hand-edit
 ARTIFACT.md         the published URL to redeploy to
+bin/scan.js             the small-float scanner
+lib/scan.js             its rules: qualification, headline labels, financial deltas
+lib/yahoo.js, lib/sec.js, lib/http.js   read-only data access
+lib/record.js           applies a batch (shared by record and the scan)
 lib/cadence.js          tier logic
 lib/market-calendar.js  NYSE trading calendar (holiday guard)
 ```
 
-Tests — run both after any change to the engine:
+Tests — run all three after any change to the engine or the scanner:
 ```
 node lib/cadence.test.js
 node lib/market-calendar.test.js
+node lib/scan.test.js
 ```
 
 Manual controls:
