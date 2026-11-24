@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.660Z",
+  "lastResearched": "2026-11-24T21:19:31.777Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -182,6 +182,14 @@
   "pendingFilings": [],
   "notes": "No confirmed resubmission timeline exists yet. Next dated catalyst remains the HARMONi-3 squamous-NSCLC PFS readout, still undated (expected 'later in 2026' per coverage, not specific enough to record). No newer confirmed price found past the Nov 17 $10.67 reading on file.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -448,12 +456,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

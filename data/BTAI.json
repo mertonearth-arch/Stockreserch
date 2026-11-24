@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.666Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.782Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -208,6 +208,14 @@
   "pendingFilings": [],
   "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). The Nov 14, 2026 PDUFA target action date for IGALMI's at-home-use sNDA has now passed (9 days ago), but no FDA approval/decision outcome could be confirmed this pass either -- WebSearch returned only pre-PDUFA-date background (the Nov 13 psychiatrictimes.com timeline, the original sNDA acceptance). This open question (already flagged in the file's existing conflicts) remains unresolved. Treated as quiet; no fields changed.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -556,7 +564,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

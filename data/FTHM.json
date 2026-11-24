@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.673Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.787Z",
   "fundamentals": {
     "marketCap": {
       "value": 4850000,
@@ -216,6 +216,14 @@
   "pendingFilings": [],
   "notes": "Quiet pass for new disclosures — no company announcement found beyond the Nov 17, 2026 Nasdaq stockholders'-equity deficiency notice already on file. One secondary tracker (Tickeron) reported the stock down 7.51% on Nov 16, 2026 citing the same going-concern/debt-maturity overhang already on file (no new absolute price confirmed; sources remain inconsistent, see existing conflicts entry). The Nov 30, 2026 convertible-note maturity remains the key date to watch.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -548,7 +556,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

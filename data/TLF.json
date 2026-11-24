@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.689Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-24T21:19:31.798Z",
   "fundamentals": {
     "nextEarnings": {
       "date": "2027-03-03",
@@ -132,6 +132,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-23",
       "run": "pm",
       "quiet": false,
@@ -252,15 +260,10 @@
   ],
   "notes": "No new dated catalysts found beyond the Q3 2026 earnings/rally sequence already on file. Routine re-check; only the price updated this pass.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "pe updated",
-      "marketCap updated",
-      "cash updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

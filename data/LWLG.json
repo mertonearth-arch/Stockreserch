@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.679Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.792Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -121,6 +121,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -241,7 +249,7 @@
   ],
   "notes": "No new dated catalyst found this pass. A Benzinga snapshot shows $4.9383 last updated 2026-11-09, attributed to a 'silicon photonics deal and AI infrastructure focus' with no further detail found; this is the same figure already flagged as an unresolved conflict against the file's $3.00 (2026-11-16, CoinGlass) price. Not re-resolved this pass; left as-is rather than guessed.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

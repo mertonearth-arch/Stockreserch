@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T05:31:00.073Z",
+  "lastResearched": "2026-11-24T21:19:31.774Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -241,6 +241,14 @@
   "pendingFilings": [],
   "notes": "Three new catalysts found this pass (board appointments, dividend declaration, Penguin Solutions AI-memory collaboration) not previously on file. Dec 1, 2026 Q3 FY2027 earnings date remains confirmed and unchanged.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "am",
@@ -591,7 +599,7 @@
   },
   "lastPass": {
     "date": "2026-11-24",
-    "run": "am",
+    "run": "pm",
     "quiet": true,
     "changes": [],
     "tradingDay": true

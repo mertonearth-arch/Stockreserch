@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.687Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.798Z",
   "fundamentals": {
     "revenue": [
       {
@@ -112,6 +112,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -251,7 +259,7 @@
   ],
   "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-10 Q4/FY2026 results already on file. No dated closing price found for mid/late November; still relying on the 2026-11-13 $158.31 figure on file.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

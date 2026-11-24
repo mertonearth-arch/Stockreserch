@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.666Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-24T21:19:31.783Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -185,6 +185,14 @@
   "pendingFilings": [],
   "notes": "No new catalysts found for the Nov 21-23 window. One source referenced a Friday Nov 20 ~10% stock decline, but neither a primary-sourced close price nor a specific cause for that session could be confirmed this pass -- flagging but not recording as a figure. Otherwise quiet; nextEarnings is the only confirmed update.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -445,12 +453,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

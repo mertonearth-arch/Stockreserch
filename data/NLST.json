@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.681Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.793Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -240,6 +240,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst confirmed this pass. A German-language aggregator (trading-treff.de) referenced a new US federal district-court patent suit 'filed November 4' but a docket search (Justia/Law360) could not locate any Netlist filing dated 2026-11-04 -- not corroborated, so not recorded as a catalyst. SC26 (Nov 17-19) presentation already on file. Price remains unresolved per existing conflicts entry; one source gave an undated $4.62 snapshot (around Nov 16) that does not clearly resolve the existing conflict and is not adopted.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -597,7 +605,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

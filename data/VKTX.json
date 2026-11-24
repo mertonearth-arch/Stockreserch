@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.690Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-24T21:19:31.799Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -207,6 +207,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet pass: no new dated catalysts beyond the ObesityWeek 2026 presentations / takeover-speculation reversal already on file. Confirmed VANQUISH Phase 3 topline data is not expected until 2027 (consistent with file). An undated RTTNews snippet showing a $25.36 close does not carry a confirmable date distinct from -- and is inconsistent with -- the file's dated $29.22 (2026-11-13), so it was not used. Record left unchanged.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -548,12 +556,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflict resolved"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.674Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.787Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -70,12 +70,12 @@
     }
   },
   "price": {
-    "last": 108.49,
+    "last": 94.38,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-17",
-    "source": "Benzinga",
-    "note": "Updates the prior $106.13 (Nov 6) figure; no Nov 18-19 close confirmed. Other sources surfaced conflicting/stale figures this pass (e.g., ~$123.69 and $132.00 dated October, a $113.98 'open' with no clear date) which were discounted as not reliably dated to mid/late November."
+    "asOf": "2026-11-21",
+    "source": "Investing.com (via search)",
+    "note": "Supersedes the 2026-11-17 $108.49 figure on file -- a sharp further decline (prior close listed as $105.97); cause not identified this pass, no dated company-specific news found to explain it."
   },
   "catalysts": [
     {
@@ -165,6 +165,14 @@
   "pendingFilings": [],
   "notes": "No major new dated catalyst found beyond the routine dividend and continued coverage of the Q3 2026 beat (EPS $0.91 vs. ~$0.88 est., revenue $5.08B vs. ~$5.03B est., reported ~Oct 27, 2026) and AI-datacenter-driven optical-connectivity demand -- consistent with the prior pass's vague MarketBeat 'key catalyst' flag. Analyst actions this pass (not treated as catalysts per standing rules, and not precisely dated): Jefferies initiated coverage at Buy with a $134 price target (early Nov); Bernstein cut its target to $120 from $140 while keeping Market Perform.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -477,7 +485,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

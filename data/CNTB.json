@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.667Z",
+  "lastResearched": "2026-11-24T21:19:31.784Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -30,8 +30,9 @@
       "source": "Equibles"
     },
     "cash": {
-      "value": null,
-      "note": "No Q3 2026 cash balance located; most recent confirmed figure ($46.03M) is as of 2026-03-31, too stale to use as current"
+      "value": 19500000,
+      "asOf": "2026-09-30",
+      "source": "biopharmawatch.com / panabee.com (summarizing Connect Biopharma's Q3 2026 release; primary GlobeNewswire release not located in this sandbox, exact publish date unconfirmed but after 2026-11-13)"
     },
     "debt": {
       "value": null,
@@ -127,8 +128,18 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Quiet pass. No new dated catalyst found this session; next-earnings date remains unresolved (Benzinga ~2026-11-24 estimate vs. the unconfirmed BiopharmaWatch/EarningsWhispers signals already on file) — still watch for an actual Q3 2026 release.",
+  "notes": "Q3 2026 results surfaced this pass (exact release date unconfirmed, likely mid/late Nov 2026): cash $19.5M as of 9/30/26 (down from $46.03M at 3/31/26, already reflecting the heavy cash burn implied by prior passes); company says it will meet FDA in Dec 2026 (asthma) and Q1 2027 (COPD) to discuss potential Phase 3 registrational designs for rademikibart -- these are scheduled discussions, not FDA agreement on a path forward, and have no confirmed calendar date yet so not recorded as dated catalysts. No new price-moving news found beyond the cash update.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "cash updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -399,11 +410,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "conflict resolved"
+      "cash updated"
     ],
     "tradingDay": true
   }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.662Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.778Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -211,6 +211,14 @@
   "pendingFilings": [],
   "notes": "No November 2026 news found beyond the Q2 FY2027 earnings (Nov 12) already on file. North Immunology merger (agreed Sept 17) still targeting Q1 2027 close, no update found. Price unchanged from the $5.55/Nov 10 reading on file.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -581,7 +589,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

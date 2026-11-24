@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.661Z",
+  "lastResearched": "2026-11-24T21:19:31.778Z",
   "fundamentals": {
     "marketCap": {
       "value": 8740000,
@@ -168,6 +168,14 @@
   "pendingFilings": [],
   "notes": "No November 2026 news found beyond what's already on file (Q3 2026 earnings Nov 4, preferred-dividend waiver Nov 9). Price unchanged from the $3.03/Nov 12 reading on file; no newer quote located.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -471,7 +479,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

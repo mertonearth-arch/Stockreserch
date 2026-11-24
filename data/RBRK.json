@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.650Z",
+  "lastResearched": "2026-11-24T21:19:31.768Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -149,6 +149,14 @@
   "pendingFilings": [],
   "notes": "Second look this PM pass beyond today's AM refresh found nothing new: no price newer than 2026-11-18, no reconciled market cap/shares count, no additional catalysts. Genuinely quiet beyond the AM update already on file for today.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -488,19 +496,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "marketCap updated",
-      "sharesOutstanding updated",
-      "shortInterest updated",
-      "cash updated",
-      "debt updated",
-      "move 9.3%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

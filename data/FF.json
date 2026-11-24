@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.653Z",
+  "lastResearched": "2026-11-24T21:19:31.772Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -163,6 +163,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-23",
       "run": "pm",
       "quiet": false,
@@ -300,13 +308,10 @@
   ],
   "notes": "Only new fact this pass: a newer price snapshot ($3.04, Nov 18, Benzinga). No new catalysts, no confirmed next-earnings date despite a targeted search.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

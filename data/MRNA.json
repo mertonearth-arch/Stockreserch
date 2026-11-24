@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.680Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.792Z",
   "fundamentals": {
     "marketCap": {
       "value": 90380000000,
@@ -233,6 +233,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst found since the 2026-11-12 Analyst Day already on file. One source states shares returned 776% over the trailing 12 months with a 52-week-high close of $269 on 2026-11-09 (vs. the file's $223.37 on 2026-11-13) -- not reconciled, not adopted as current price, flagged only as an unresolved secondary data point. No Nov 21-23 coverage surfaced.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -572,7 +580,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

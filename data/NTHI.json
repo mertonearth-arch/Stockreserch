@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.681Z",
+  "lastResearched": "2026-11-24T21:19:31.793Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -102,6 +102,14 @@
       "headline": "NeOnc Technologies scheduled to present two posters (NEO100 and NEO212 data) at the Society for Neuro-Oncology (SNO) annual meeting in Philadelphia, poster session 7:30-9:30pm.",
       "impact": null,
       "source": "https://www.biopharmawatch.com/news/NTHI/neonc-technologies-sno-annual-meeting-2026 ; https://finviz.com/news/399355/neoncs-fda-catalyst-run-could-give-nthi-a-serious-jolt (biopharmawatch discloses it is compensated by NTHI for coverage -- treat accordingly)"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "regulatory",
+      "headline": "FDA granted NeOnc a Type B End-of-Phase meeting for intranasal NEO100 (glioma), scheduled for early January 2027, to discuss whether the completed Phase 2a package (6-month PFS 48.9% vs. 20% historical benchmark; median OS 26.1 months; no treatment-related Grade 3+ AEs) could support a 505(b)(2) filing, and to get feedback on the proposed Phase 3/confirmatory trial NEO100-012 (intranasal NEO100 vs. physician-selected standard chemo, OS primary endpoint) and possible Breakthrough Therapy designation",
+      "impact": null,
+      "source": "https://www.rttnews.com/3713198/neonc-gets-fda-meeting-on-neo100-accelerated-approval-path.aspx",
+      "note": "Scheduling the meeting does not establish FDA agreement on a development plan, accelerated-approval pathway, or eventual approval (company's own caveat). Separate from the already-on-file NEO212 End-of-Phase 1 meeting rescheduled to 2026-11-23; outcome of that Nov 23 NEO212 meeting not yet reported anywhere found this pass."
     },
     {
       "date": "2026-11-09/2026-11-11",
@@ -231,6 +239,16 @@
   "pendingFilings": [],
   "notes": "The company's own 2026-11-17 FDA meeting was NOT held as previously recorded -- it was rescheduled to 2026-11-23. Existing file catalysts dated 2026-11-17 describing the meeting's agenda remain accurate as to what was planned, but any implication the meeting took place should be disregarded until a post-meeting outcome is reported.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -548,11 +566,11 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "2 new catalyst(s)"
+      "1 new catalyst(s)"
     ],
     "tradingDay": true
   }

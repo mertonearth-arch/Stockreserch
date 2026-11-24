@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.678Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.791Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
@@ -266,6 +266,14 @@
   "pendingFilings": [],
   "notes": "No newer reliably-dated price found this pass that beats the on-file $19.48 (Nov 12, 2026, unconfirmed as an official close); a confirmed close of $21.41 on Nov 9, 2026 was found but is an older date than what's already on file, so price is left unchanged. JPMorgan cut its IREN price target to $55 from $65 around Nov 9, 2026 while keeping an Overweight rating (an analyst action, not treated as a dated catalyst per standing rules).",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -693,7 +701,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

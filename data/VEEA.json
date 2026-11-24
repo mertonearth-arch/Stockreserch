@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.661Z",
+  "lastResearched": "2026-11-24T21:19:31.778Z",
   "fundamentals": {
     "marketCap": {
       "value": 13380000,
@@ -201,6 +201,14 @@
   "pendingFilings": [],
   "notes": "No news dated later than Nov 2, 2026 found this pass despite searching. NovaGen term sheet (Sept 14) still has no definitive agreement reported. Price unchanged from file.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -460,7 +468,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

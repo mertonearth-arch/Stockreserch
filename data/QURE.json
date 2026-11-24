@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.685Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.796Z",
   "fundamentals": {
     "marketCap": {
       "value": 1388000000,
@@ -200,6 +200,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet this pass — no uniQure-specific news located dated after the 2026-11-04 Q3 earnings/FDA BLA acceptance catalysts already on file. UBS conference appearance (Nov 16) is informational only, not recorded as a catalyst.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -540,7 +548,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

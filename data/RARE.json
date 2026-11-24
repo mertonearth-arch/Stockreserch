@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.686Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.796Z",
   "fundamentals": {
     "marketCap": {
       "value": 1585000000,
@@ -290,6 +290,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-04 workforce-reduction catalyst already on file. Jefferies (Nov 17) and UBS (Nov 16) conference appearances are informational only. The Fayuvi PRV sale (~$203M) is still reported only as 'expected to close later in November' with no specific date, so still not recorded as a dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -648,7 +656,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

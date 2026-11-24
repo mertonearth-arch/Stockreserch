@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-23T21:12:50.684Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-24T21:19:31.795Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -241,6 +241,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst found beyond the Nov 10 NantWorks warrant exercise already on file. Market-cap/share-price conflicts already flagged remain unresolved; a Yahoo snapshot citing ~$73M market cap and a SoFi snapshot citing ~$31M were both undated/unreconciled and not adopted.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -589,7 +597,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
     "quiet": true,
     "changes": [],

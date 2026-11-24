@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.652Z",
+  "lastResearched": "2026-11-24T21:19:31.771Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -287,6 +287,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet this pass: no news dated after 2026-11-13 found via WebSearch (searches for Nov 21-23 returned only October-dated items). The Nov 15 special-legislative-session deadline and Nov 30 Wildfire Recovery Compensation Program deadline remain upcoming/unresolved as already on file.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -696,12 +704,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

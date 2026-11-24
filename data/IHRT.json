@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.655Z",
+  "lastResearched": "2026-11-24T21:19:31.773Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -156,6 +156,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-23",
       "run": "pm",
       "quiet": false,
@@ -286,13 +294,10 @@
   ],
   "notes": "Genuinely quiet this pass: a Levi & Korsinsky shareholder-investigation notice (similar in kind to the SueWallSt notice already on file dated Nov 11) appeared in search results but without an independently confirmed announcement date, so it is not added as a separately dated catalyst. No price or fundamentals update found beyond what's on file.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -61.58%",
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

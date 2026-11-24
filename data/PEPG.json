@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
-  "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.684Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-24T21:19:31.795Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -159,6 +159,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-23",
       "run": "pm",
       "quiet": false,
@@ -296,12 +304,10 @@
   ],
   "notes": "No company announcement located explaining the Nov 19 move; one secondary analysis flags the unresolved US clinical hold as a continuing risk, undated so not recorded as a catalyst. Genuinely quiet this pass beyond the unresolved price conflict above — no new catalyst found since the 2026-11-13 offering close already on file.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

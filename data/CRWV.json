@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-23T21:12:50.668Z",
+  "lastResearched": "2026-11-24T21:19:31.771Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -125,6 +125,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
@@ -252,13 +260,10 @@
   ],
   "notes": "Q3 2026 earnings date now reasonably well corroborated as 2026-11-10 (multiple sources this pass), resolving some of the Nov-10-vs-Nov-12 ambiguity flagged previously, though the file's existing conflict entry is left in place since it wasn't fully reconciled. No new fundamentals confirmed this pass.",
   "lastPass": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "move 8.37%"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }
