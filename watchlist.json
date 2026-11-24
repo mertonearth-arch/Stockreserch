@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T21:12:50.700Z",
+  "updated": "2026-11-24T05:31:00.089Z",
   "tickers": {
     "AEMD": {
       "tier": "daily",
@@ -215,7 +215,7 @@
       "tier": "daily",
       "theme": "AI Semiconductors",
       "quietRuns": 0,
-      "lastResearched": "2026-11-23T21:12:50.656Z"
+      "lastResearched": "2026-11-24T05:31:00.073Z"
     },
     "MVST": {
       "tier": "daily",
@@ -393,7 +393,7 @@
     }
   },
   "lastRun": {
-    "date": "2026-11-23",
-    "run": "pm"
+    "date": "2026-11-24",
+    "run": "am"
   }
 }
