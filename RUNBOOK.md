@@ -248,23 +248,40 @@ demotes, and the entire daily → weekly → monthly ladder silently stops worki
 cannot push has failed even if the dashboard looks fine — say so in the report rather than
 finishing quietly.
 
-Cron for cloud routines is in **UTC**, unlike the local tasks. Stockholm is UTC+2 in summer
-and UTC+1 in winter, so **the local run times shift by an hour at each DST changeover**
-(next: 2026-10-25). Adjust both routines' cron then, or accept the drift.
+Cron for cloud routines is in **UTC**. Stockholm is UTC+1 in winter and UTC+2 in summer, so
+**the local run times shift by an hour at each DST changeover** (next: 2027-03-28). If the
+routine editor offers a time zone, set Europe/Stockholm and the drift goes away. In winter the
+AM run (06:27 Stockholm) is about 00:27 in New York — before any pre-market news — and the PM
+run (22:07) is just after the close, so after-hours earnings land in the next AM run.
 
 ### The two routines
 
 They live on claude.ai, not on this machine — a Claude reinstall does not touch them, and a
 closed laptop does not delay them. Manage them at https://claude.ai/code/routines
 
-| Routine | ID | Cron (UTC) | Local |
+| Routine | ID | Cron (UTC) | Stockholm |
 |---|---|---|---|
-| Cadence Desk — AM pass | `trig_015b9jYYNhgqDRVLPfRkGCbs` | `27 5 * * 1-5` | 07:27 |
-| Cadence Desk — PM pass | `trig_01MCZjr4wTRe8jZe5TX3N948` | `7 21 * * 1-5` | 23:07 |
+| Cadence Desk — AM pass | `trig_015b9jYYNhgqDRVLPfRkGCbs` | `27 5 * * 1-5` | 06:27 winter / 07:27 summer |
+| Cadence Desk — PM pass | `trig_01MCZjr4wTRe8jZe5TX3N948` | `7 21 * * 1-5` | 22:07 winter / 23:07 summer |
 
 Both run `claude-sonnet-5` against `https://github.com/mertonearth-arch/Stockreserch` with
 `Bash Read Write Edit Glob Grep WebSearch WebFetch Artifact PushNotification` and the
-`Claude_Code_Remote` connector. Each prompt is self-contained — it does not read this table.
+`Claude_Code_Remote` connector. Each prompt is self-contained and defers to this runbook
+("follow its AM/PM pass section exactly"), so procedure changes belong here, not in the prompts
+— that is how the small-float scan reached both passes.
+
+**They must run in the `stockreserch` cloud environment.** Its network allows Yahoo Finance
+(`query1`/`query2`/`fc.yahoo.com`), SEC EDGAR (`www.sec.gov`, `data.sec.gov`) and the
+press-release wires; the Default environment blocks all of them, and there the scan fails and
+the pass falls back to web search alone. `SEC_USER_AGENT` belongs on that environment as a
+variable (see "Small-float scan"). These two routines were created through the API, so an agent
+cannot edit them: environment, schedule and prompt are changed by hand at
+https://claude.ai/code/routines/trig_015b9jYYNhgqDRVLPfRkGCbs and
+https://claude.ai/code/routines/trig_01MCZjr4wTRe8jZe5TX3N948.
+
+A routine created by an agent (create_trigger) is no substitute: its sessions start with no
+repository attached and no `add_repo` tool, so they can clone this public repo but cannot push.
+Tried and removed 2026-11-24.
 
 **Blocker RESOLVED 2026-10-22.** From 2026-08-30 to 2026-10-22, the cloud run could not write
 to GitHub at all — BOTH paths returned 403 (`git push` said `Claude doesn't have GitHub access
