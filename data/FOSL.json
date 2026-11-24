@@ -101,6 +101,33 @@
       "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
     },
     {
+      "date": "2026-11-24",
+      "type": "renewal / extension",
+      "headline": "Fossil Group stock jumps on extended Michael Kors license deal",
+      "impact": null,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-stock-jumps-extended-151926704.html",
+      "publisher": "Investing.com",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "renewal / extension",
+      "headline": "Fossil Extends Michael Kors Watch Partnership Through 2032",
+      "impact": null,
+      "source": "https://finance.yahoo.com/media-advertising/articles/fossil-extends-michael-kors-watch-131333389.html",
+      "publisher": "MT Newswires",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "renewal / extension",
+      "headline": "Fossil Group Announces Extension of Michael Kors Global Watch Partnership Through 2032",
+      "impact": null,
+      "source": "https://finance.yahoo.com/media-advertising/articles/fossil-group-announces-extension-michael-130000543.html",
+      "publisher": "Business Wire",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
       "date": "2026-11-17",
       "type": "other",
       "headline": "Fossil Group management presented at the Craig-Hallum Alpha Select Conference",
@@ -186,6 +213,16 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "scan",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",

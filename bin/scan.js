@@ -73,12 +73,14 @@ function scanWindow(cfg) {
   return { from: new Date(now - cfg.defaultLookbackHours * 3600000).toISOString(), to: new Date(now).toISOString(), basis: 'default ' + cfg.defaultLookbackHours + 'h' };
 }
 
+// The crumb endpoint rate-limits per IP (the sandbox IP is shared) and per
+// host, so alternate query2/query1 and back off — about 2.5 minutes at most.
 async function yahooSession() {
   let last = null;
-  // The crumb endpoint rate-limits per IP and the sandbox IP is shared: be patient.
-  for (const wait of [0, 8000, 20000, 40000, 75000]) {
-    if (wait) await H.sleep(wait);
-    try { return await Y.session(); } catch (e) { last = e; }
+  const plan = [[0, Y.Q2], [2000, Y.Q1], [8000, Y.Q2], [15000, Y.Q1], [30000, Y.Q2], [45000, Y.Q1], [60000, Y.Q2]];
+  for (const step of plan) {
+    if (step[0]) await H.sleep(step[0]);
+    try { return await Y.session(step[1]); } catch (e) { last = e; }
   }
   throw last;
 }

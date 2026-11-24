@@ -1,0 +1,1052 @@
+{
+  "generatedAt": "2026-11-24T15:33:19.549Z",
+  "date": "2026-11-24",
+  "run": "am",
+  "window": {
+    "from": "2026-11-23T21:00:00.000Z",
+    "to": "2026-11-24T15:32:38.706Z",
+    "basis": "--since"
+  },
+  "criteria": {
+    "maxFloatShares": 50000000,
+    "maxMarketCap": 300000000,
+    "floatRouteMaxMarketCap": 2000000000,
+    "rule": "float <= 50M shares (or shares outstanding <= 50M, which bounds float) with market cap <= $2B; OR market cap <= $300M",
+    "hit": "a positive-type event in the window from a company release, SEC filing or news outlet (not commentary), or an earnings report whose numbers show revenue +25% YoY, a turn to profit, or a loss narrowed 25%+",
+    "note": "Event types are keyword-classified from headlines. They are labels for where to look, not ratings."
+  },
+  "sources": {
+    "yahooSession": {
+      "ok": true
+    },
+    "screen": {
+      "ok": true,
+      "kind": "custom",
+      "total": 348,
+      "returned": 348,
+      "query": "Nasdaq/NYSE/NYSE American, market cap < $2B, up > 5%",
+      "passedPrefilter": 129
+    },
+    "watchlist": {
+      "tracked": 65,
+      "checked": 24
+    },
+    "sec": {
+      "enabled": false,
+      "reason": "SEC_USER_AGENT is not set — SEC requires a declared contact, so 8-K and dilution checks were skipped"
+    }
+  },
+  "counts": {
+    "universe": 147,
+    "candidates": 147,
+    "qualified": 120,
+    "hits": 8,
+    "dilutionOrNegative": 3,
+    "weakSignals": 3,
+    "otherNews": 9,
+    "errors": 0
+  },
+  "hits": [
+    {
+      "ticker": "FOSL",
+      "name": "Fossil Group, Inc.",
+      "exchange": "NMS",
+      "industry": "Footwear & Accessories",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": true,
+      "qualifiesBy": [
+        "float 46M <= 50M"
+      ],
+      "metrics": {
+        "floatShares": 45953887,
+        "sharesOutstanding": 59806971,
+        "marketCap": 485632608,
+        "price": 8.12,
+        "changePct": 5.32,
+        "preMarketChangePct": 2.4643327999999998,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 9.67,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 5.317767,
+        "extended": 2.4643327999999998
+      },
+      "why": [
+        "renewal / extension: Fossil Group stock jumps on extended Michael Kors license deal",
+        "renewal / extension: Fossil Extends Michael Kors Watch Partnership Through 2032",
+        "renewal / extension: Fossil Group Announces Extension of Michael Kors Global Watch Partnership Through 2032"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T15:19:26.000Z",
+          "origin": "news",
+          "publisher": "Investing.com",
+          "sourceClass": "media",
+          "headline": "Fossil Group stock jumps on extended Michael Kors license deal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/fossil-group-stock-jumps-extended-151926704.html",
+          "type": "renewal / extension",
+          "tone": "positive",
+          "tags": [
+            "renewal / extension"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:13:33.000Z",
+          "origin": "news",
+          "publisher": "MT Newswires",
+          "sourceClass": "media",
+          "headline": "Fossil Extends Michael Kors Watch Partnership Through 2032",
+          "url": "https://finance.yahoo.com/media-advertising/articles/fossil-extends-michael-kors-watch-131333389.html",
+          "type": "renewal / extension",
+          "tone": "positive",
+          "tags": [
+            "renewal / extension"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:00:00.000Z",
+          "origin": "news",
+          "publisher": "Business Wire",
+          "sourceClass": "company release",
+          "headline": "Fossil Group Announces Extension of Michael Kors Global Watch Partnership Through 2032",
+          "url": "https://finance.yahoo.com/media-advertising/articles/fossil-group-announces-extension-michael-130000543.html",
+          "type": "renewal / extension",
+          "tone": "positive",
+          "tags": [
+            "renewal / extension",
+            "partnership (often non-binding)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "KRRO",
+      "name": "Korro Bio, Inc.",
+      "exchange": "NCM",
+      "industry": "Biotechnology",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 9.7M <= 50M",
+        "market cap $193M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 9734365,
+        "sharesOutstanding": 13725646,
+        "marketCap": 192982592,
+        "price": 14.06,
+        "changePct": 10.53,
+        "preMarketChangePct": null,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 14.399999999999999,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 10.534593000000001,
+        "extended": null
+      },
+      "why": [
+        "regulatory / clinical: Korro Bio Says FDA Orphan Drug Designation Granted to KRRO-121 in Urea Cycle Disorder",
+        "regulatory / clinical: Korro Receives Orphan Drug Designation for KRRO-121 From U.S. FDA for the Treatment of Urea Cycle Disorders"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:39:56.000Z",
+          "origin": "news",
+          "publisher": "MT Newswires",
+          "sourceClass": "media",
+          "headline": "Korro Bio Says FDA Orphan Drug Designation Granted to KRRO-121 in Urea Cycle Disorder",
+          "url": "https://finance.yahoo.com/healthcare/articles/korro-bio-says-fda-orphan-123956203.html",
+          "type": "regulatory / clinical",
+          "tone": "positive",
+          "tags": [
+            "regulatory / clinical"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:00:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "Korro Receives Orphan Drug Designation for KRRO-121 From U.S. FDA for the Treatment of Urea Cycle Disorders",
+          "url": "https://finance.yahoo.com/healthcare/articles/korro-receives-orphan-drug-designation-120000347.html",
+          "type": "regulatory / clinical",
+          "tone": "positive",
+          "tags": [
+            "regulatory / clinical"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "NTHI",
+      "name": "NeOnc Technologies Holdings, Inc.",
+      "exchange": "NGM",
+      "industry": "Biotechnology",
+      "foundVia": [
+        "watchlist"
+      ],
+      "tracked": true,
+      "qualifiesBy": [
+        "float 9.6M <= 50M",
+        "market cap $101.6M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 9644329,
+        "sharesOutstanding": 28850588,
+        "marketCap": 101554072,
+        "price": 3.52,
+        "changePct": 6.67,
+        "preMarketChangePct": 3.9393975999999995,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 6.69,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 6.6666680000000005,
+        "extended": 3.9393975999999995
+      },
+      "why": [
+        "regulatory / clinical: NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212",
+        "regulatory / clinical: NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T14:11:52.000Z",
+          "origin": "news",
+          "publisher": "Stocktwits",
+          "sourceClass": "media",
+          "headline": "NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212",
+          "url": "https://finance.yahoo.com/healthcare/articles/neonc-announces-fda-agreement-single-141152470.html",
+          "type": "regulatory / clinical",
+          "tone": "positive",
+          "tags": [
+            "regulatory / clinical"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:00:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212",
+          "url": "https://finance.yahoo.com/healthcare/articles/neonc-announces-fda-agreement-single-130000374.html",
+          "type": "regulatory / clinical",
+          "tone": "positive",
+          "tags": [
+            "regulatory / clinical"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "GMRS",
+      "name": "GMR Solutions Inc.",
+      "exchange": "NYQ",
+      "industry": "Medical Care Facilities",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 42.1M <= 50M"
+      ],
+      "metrics": {
+        "floatShares": 42052463,
+        "sharesOutstanding": 66698468,
+        "marketCap": 729347776,
+        "price": 10.935,
+        "changePct": 6.06,
+        "preMarketChangePct": 2.9097888999999997,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": null,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 6.0620755,
+        "extended": 2.9097888999999997
+      },
+      "why": [
+        "buyback / dividend: GMR Solutions Authorizes $75 Million Share Buyback",
+        "buyback / dividend: GMR Solutions Inc. Announces $75 Million Share Repurchase Authorization"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:35:16.000Z",
+          "origin": "news",
+          "publisher": "MT Newswires",
+          "sourceClass": "media",
+          "headline": "GMR Solutions Authorizes $75 Million Share Buyback",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gmr-solutions-authorizes-75-million-123516254.html",
+          "type": "buyback / dividend",
+          "tone": "positive",
+          "tags": [
+            "buyback / dividend"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:00:00.000Z",
+          "origin": "news",
+          "publisher": "Business Wire",
+          "sourceClass": "company release",
+          "headline": "GMR Solutions Inc. Announces $75 Million Share Repurchase Authorization",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gmr-solutions-inc-announces-75-120000475.html",
+          "type": "buyback / dividend",
+          "tone": "positive",
+          "tags": [
+            "buyback / dividend"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "QUCY",
+      "name": "Quantum Cyber N.V.",
+      "exchange": "NCM",
+      "industry": "Diagnostics & Research",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 27.5M <= 50M",
+        "market cap $49M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 27517788,
+        "sharesOutstanding": 87241735,
+        "marketCap": 49047304,
+        "price": 0.5622,
+        "changePct": 10.83,
+        "preMarketChangePct": 6.692996,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 0.91,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 10.826044999999999,
+        "extended": 6.692996
+      },
+      "why": [
+        "dilution withdrawn: Quantum Cyber to Terminate $100 Million At-the-Market Facility With No Shares Sold"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:30:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "Quantum Cyber to Terminate $100 Million At-the-Market Facility With No Shares Sold",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-cyber-terminate-100-million-123000187.html",
+          "type": "dilution withdrawn",
+          "tone": "positive",
+          "tags": [
+            "dilution withdrawn"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "GCL",
+      "name": "GCL Global Holdings Ltd",
+      "exchange": "NCM",
+      "industry": "Electronic Gaming & Multimedia",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 38.8M <= 50M",
+        "market cap $205.5M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 38799438,
+        "sharesOutstanding": 128008703,
+        "marketCap": 205466768,
+        "price": 1.6051,
+        "changePct": 5.6,
+        "preMarketChangePct": 1.3157883000000001,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 0.4,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 5.598688,
+        "extended": 1.3157883000000001
+      },
+      "why": [
+        "listing / index: GCL Global Holdings Ltd. Regains Compliance with Nasdaq Minimum Bid Price Requirement"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T10:00:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "GCL Global Holdings Ltd. Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gcl-global-holdings-ltd-regains-100000627.html",
+          "type": "listing / index",
+          "tone": "positive",
+          "tags": [
+            "listing / index"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "JZ",
+      "name": "Jianzhi Education Technology Group Company Limited",
+      "exchange": "NCM",
+      "industry": "Information Technology Services",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 1.4M <= 50M",
+        "market cap $4.4M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 1403950,
+        "sharesOutstanding": 2377874,
+        "marketCap": 4443337,
+        "price": 1.845,
+        "changePct": 28.12,
+        "preMarketChangePct": 4.8819434,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 16.68,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 28.124997,
+        "extended": 4.8819434
+      },
+      "why": [
+        "partnership: Jianzhi Education Signs Non-Binding Comprehensive Cross-Border E-Commerce Cooperation Framework Agreement with DIANDIAN EASY PAY, Exploring New Opportunities in AI-Enabled Cross-Border Commerce"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:30:00.000Z",
+          "origin": "news",
+          "publisher": "PR Newswire",
+          "sourceClass": "company release",
+          "headline": "Jianzhi Education Signs Non-Binding Comprehensive Cross-Border E-Commerce Cooperation Framework Agreement with DIANDIAN EASY PAY, Exploring New Opportunities in AI-Enabled Cross-Border Commerce",
+          "url": "https://finance.yahoo.com/technology/ai/articles/jianzhi-education-signs-non-binding-133000652.html",
+          "type": "partnership",
+          "tone": "positive",
+          "tags": [
+            "partnership (often non-binding)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "FFR",
+      "name": "FF EAI Robotics Ecosystem Inc.",
+      "exchange": "NCM",
+      "industry": "Computer Hardware",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 23.7M <= 50M",
+        "market cap $16.3M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 23657709,
+        "sharesOutstanding": 27674296,
+        "marketCap": 16264184,
+        "price": 0.5877,
+        "changePct": 13.15,
+        "preMarketChangePct": 2.4605878000000003,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 1.7999999999999998,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 13.147642000000001,
+        "extended": 2.4605878000000003
+      },
+      "why": [
+        "partnership: FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S."
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T07:57:00.000Z",
+          "origin": "news",
+          "publisher": "PR Newswire",
+          "sourceClass": "company release",
+          "headline": "FF EAI Robotics Ecosystem (FFR) Announces K-12 Robotics Education Partnerships and Sales Across Top Public School Districts, Advancing a Scalable Physical AI Education Ecosystem in the U.S.",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ff-eai-robotics-ecosystem-ffr-075700847.html",
+          "type": "partnership",
+          "tone": "positive",
+          "tags": [
+            "partnership (often non-binding)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    }
+  ],
+  "dilutionOrNegative": [
+    {
+      "ticker": "ELMT",
+      "name": "The Elmet Group Co.",
+      "exchange": "NCM",
+      "industry": "Aerospace & Defense",
+      "foundVia": [
+        "watchlist"
+      ],
+      "tracked": true,
+      "qualifiesBy": [
+        "float 10.3M <= 50M"
+      ],
+      "metrics": {
+        "floatShares": 10324459,
+        "sharesOutstanding": 30660942,
+        "marketCap": 521849248,
+        "price": 17.02,
+        "changePct": -6.69,
+        "preMarketChangePct": -1.2609623,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 23.68,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": -6.6885926,
+        "extended": -1.2609623
+      },
+      "why": [],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:39:49.000Z",
+          "origin": "news",
+          "publisher": "MT Newswires",
+          "sourceClass": "media",
+          "headline": "Elmet Group Insider Sold Shares Worth $1,100,434, According to a Recent SEC Filing",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/elmet-group-insider-sold-shares-133949891.html",
+          "type": "insider selling",
+          "tone": "negative",
+          "tags": [
+            "insider selling"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "TURB",
+      "name": "Turbo Energy, S.A.",
+      "exchange": "NCM",
+      "industry": "Solar",
+      "foundVia": [
+        "watchlist"
+      ],
+      "tracked": true,
+      "qualifiesBy": [
+        "float 4.2M <= 50M",
+        "market cap $8.9M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 4248480,
+        "sharesOutstanding": 13304443,
+        "marketCap": 8902003,
+        "price": 0.6691,
+        "changePct": 1.33,
+        "preMarketChangePct": -4.588826,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 3.81,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 1.332723,
+        "extended": -4.588826
+      },
+      "why": [],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T13:15:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "TURBO ENERGY RECEIVES NASDAQ NOTIFICATION REGARDING MINIMUM BID PRICE DEFICIENCY",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/turbo-energy-receives-nasdaq-notification-131500004.html",
+          "type": "listing notice",
+          "tone": "negative",
+          "tags": [
+            "listing notice"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "TROX",
+      "name": "Tronox Holdings plc",
+      "exchange": "NYQ",
+      "industry": "Chemicals",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "market cap $280.3M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 118796313,
+        "sharesOutstanding": 159704662,
+        "marketCap": 280281664,
+        "price": 1.755,
+        "changePct": 7.03,
+        "preMarketChangePct": 0.9174303,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 15.379999999999999,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 7.033639999999999,
+        "extended": 0.9174303
+      },
+      "why": [],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T09:09:28.000Z",
+          "origin": "news",
+          "publisher": "Simply Wall St.",
+          "sourceClass": "commentary",
+          "headline": "Tronox Holdings (TROX) Stock Fair Value Moves Lower After Analyst Target Cuts",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tronox-holdings-trox-stock-fair-090928664.html",
+          "type": "analyst action",
+          "tone": "negative",
+          "tags": [
+            "analyst action (third-party opinion)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    }
+  ],
+  "weakSignals": [
+    {
+      "ticker": "YFOR",
+      "name": "YYForce Inc.",
+      "exchange": "NCM",
+      "industry": "Specialty Business Services",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 5K <= 50M",
+        "market cap $6.8M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 4998,
+        "sharesOutstanding": 1508881,
+        "marketCap": 6834324,
+        "price": 1.05,
+        "changePct": 20.79,
+        "preMarketChangePct": 36.868748000000004,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 7.8200005,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 20.786832,
+        "extended": 36.868748000000004
+      },
+      "why": [
+        "launch / milestone: YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
+        "launch / milestone: YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:35:00.000Z",
+          "origin": "news",
+          "publisher": "GlobeNewswire",
+          "sourceClass": "company release",
+          "headline": "YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
+          "url": "https://finance.yahoo.com/technology/ai/articles/yyforce-nasdaq-yfor-launches-trained-123500765.html",
+          "type": "launch / milestone",
+          "tone": "positive",
+          "tags": [
+            "launch / milestone (weak signal)"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:35:00.000Z",
+          "origin": "news",
+          "publisher": "PR Newswire",
+          "sourceClass": "company release",
+          "headline": "YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
+          "url": "https://finance.yahoo.com/technology/ai/articles/yyforce-nasdaq-yfor-launches-trained-123500831.html",
+          "type": "launch / milestone",
+          "tone": "positive",
+          "tags": [
+            "launch / milestone (weak signal)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "JAGX",
+      "name": "Jaguar Health, Inc.",
+      "exchange": "NCM",
+      "industry": "Biotechnology",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "float 575K <= 50M",
+        "market cap $4M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 574997,
+        "sharesOutstanding": 533839,
+        "marketCap": 3977100,
+        "price": 7.45,
+        "changePct": 21.96,
+        "preMarketChangePct": 6.252557,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 8.64,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 21.961269,
+        "extended": 6.252557
+      },
+      "why": [
+        "launch / milestone: Jaguar Health Family Company Napo Pharmaceuticals Successfully Completes Manufacture of Process Validation Batches of Lyophilized Crofelemer Formulation, a Critical Component of its Planned FDA Submission of a New Drug Application (NDA) for MVID in Mid-2027"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T14:00:00.000Z",
+          "origin": "news",
+          "publisher": "ACCESS Newswire",
+          "sourceClass": "company release",
+          "headline": "Jaguar Health Family Company Napo Pharmaceuticals Successfully Completes Manufacture of Process Validation Batches of Lyophilized Crofelemer Formulation, a Critical Component of its Planned FDA Submission of a New Drug Application (NDA) for MVID in Mid-2027",
+          "url": "https://finance.yahoo.com/healthcare/articles/jaguar-health-family-company-napo-140000629.html",
+          "type": "launch / milestone",
+          "tone": "positive",
+          "tags": [
+            "launch / milestone (weak signal)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    },
+    {
+      "ticker": "ACRE",
+      "name": "Ares Commercial Real Estate Corporation",
+      "exchange": "NYQ",
+      "industry": "REIT - Mortgage",
+      "foundVia": [
+        "mover"
+      ],
+      "tracked": false,
+      "qualifiesBy": [
+        "market cap $202.3M <= $300M"
+      ],
+      "metrics": {
+        "floatShares": 54338382,
+        "sharesOutstanding": 55490446,
+        "marketCap": 202262688,
+        "price": 3.645,
+        "changePct": 5.99,
+        "preMarketChangePct": 4.9418557000000005,
+        "postMarketChangePct": null,
+        "shortPercentOfFloat": 4.4699997,
+        "source": "Yahoo Finance key statistics"
+      },
+      "reaction": {
+        "regular": 5.9853986,
+        "extended": 4.9418557000000005
+      },
+      "why": [
+        "analyst action: UBS Upgrades Ares Commercial Real Estate to Buy From Neutral, $4.50 Price Target"
+      ],
+      "events": [
+        {
+          "date": "2026-11-24",
+          "at": "2026-11-24T12:24:21.000Z",
+          "origin": "news",
+          "publisher": "MT Newswires",
+          "sourceClass": "media",
+          "headline": "UBS Upgrades Ares Commercial Real Estate to Buy From Neutral, $4.50 Price Target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-upgrades-ares-commercial-real-122421049.html",
+          "type": "analyst action",
+          "tone": "positive",
+          "tags": [
+            "analyst action (third-party opinion)"
+          ]
+        }
+      ],
+      "noise": 0,
+      "financials": null,
+      "dilution": null
+    }
+  ],
+  "otherNews": [
+    {
+      "ticker": "BENF",
+      "name": "Beneficient",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "GlobeNewswire",
+          "headline": "Beneficient Secures Court Approval to Pursue HCLP Debt Cancellation and $211 Million Recovery",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/beneficient-secures-court-approval-pursue-123000906.html"
+        },
+        {
+          "date": "2026-11-24",
+          "type": "earnings",
+          "tone": "neutral",
+          "publisher": "Zacks Small Cap Research",
+          "headline": "BENF: Beneficient Releases 2nd Fiscal Quarter Results (Period Ending 9/30/26)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/benf-beneficient-releases-2nd-fiscal-090200727.html"
+        }
+      ]
+    },
+    {
+      "ticker": "UPLD",
+      "name": "Upland Software, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "Business Wire",
+          "headline": "Upland and Instant InfoSystems Turn Business Content into Trusted Context for Human and Agentic Work",
+          "url": "https://finance.yahoo.com/technology/ai/articles/upland-instant-infosystems-turn-business-140500857.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ALTG",
+      "name": "Alta Equipment Group Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-23",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "MT Newswires",
+          "headline": "Alta Equipment to Buy Jackson Group Peterbilt",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alta-equipment-buy-jackson-group-220200466.html"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "M&A (acquirer)",
+          "tone": "neutral",
+          "publisher": "GlobeNewswire",
+          "headline": "Alta Equipment Group Agrees to Acquire Jackson Group Peterbilt in Proposed Transformative Deal",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alta-equipment-group-agrees-acquire-211500671.html"
+        }
+      ]
+    },
+    {
+      "ticker": "CMP",
+      "name": "Compass Minerals International, Inc.",
+      "contested": true,
+      "headlines": [
+        {
+          "date": "2026-11-23",
+          "type": "earnings",
+          "tone": "mixed",
+          "publisher": "MT Newswires",
+          "headline": "Compass Minerals Fiscal Q4 Adjusted Loss Widens, Revenue Rises",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compass-minerals-fiscal-q4-adjusted-213738453.html"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "earnings",
+          "tone": "positive",
+          "publisher": "Zacks",
+          "headline": "Compass Minerals (CMP) Reports Q4 Loss, Beats Revenue Estimates",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compass-minerals-cmp-reports-q4-213501311.html"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "earnings",
+          "tone": "neutral",
+          "publisher": "Business Wire",
+          "headline": "Compass Minerals Reports Fiscal Fourth-Quarter and Full-Year 2026 Results",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/compass-minerals-reports-fiscal-fourth-211500758.html"
+        }
+      ]
+    },
+    {
+      "ticker": "MAIA",
+      "name": "MAIA Biotechnology, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "GlobeNewswire",
+          "headline": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal Phase 3 THIO-104 Clinical Trial in Non-Small Cell Lung Cancer",
+          "url": "https://finance.yahoo.com/healthcare/articles/maia-biotechnology-begins-dosing-patients-134500202.html"
+        }
+      ]
+    },
+    {
+      "ticker": "NAGE",
+      "name": "Niagen Bioscience, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "Business Wire",
+          "headline": "Niagen Bioscience Announces First-Ever Peer-Reviewed Pilot Clinical Study on Mitochondrial DNA Disease Demonstrating Safety and Tolerability of High-Dose Niagen with Early Signals in One Mobility Measure and Favorable Trends in Mitochondrial Measures",
+          "url": "https://finance.yahoo.com/healthcare/articles/niagen-bioscience-announces-first-ever-133200006.html"
+        }
+      ]
+    },
+    {
+      "ticker": "MEDS",
+      "name": "DataMEDS AI, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-23",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "ACCESS Newswire",
+          "headline": "Atlas Signal Initiates Coverage of DataMeds AI: A Pharmacy-Led Platform Built Around the GLP-1 Patient",
+          "url": "https://finance.yahoo.com/healthcare/articles/atlas-signal-initiates-coverage-datameds-225500822.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ALCO",
+      "name": "Alico, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "MarketBeat",
+          "headline": "Alico Q4 Earnings Call Highlights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alico-q4-earnings-call-highlights-151454521.html"
+        },
+        {
+          "date": "2026-11-23",
+          "type": "earnings",
+          "tone": "neutral",
+          "publisher": "GlobeNewswire",
+          "headline": "Alico, Inc. Announces Financial Results for the Fourth Quarter and Fiscal Year Ended September 30, 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alico-inc-announces-financial-results-212300782.html"
+        }
+      ]
+    },
+    {
+      "ticker": "ELDN",
+      "name": "Eledon Pharmaceuticals, Inc.",
+      "contested": false,
+      "headlines": [
+        {
+          "date": "2026-11-24",
+          "type": "other",
+          "tone": "neutral",
+          "publisher": "GlobeNewswire",
+          "headline": "Eledon Pharmaceuticals’ Tegoprubart Anchors Immunosuppression Regimen for Massachusetts General Hospital Pig Kidney Recipient Who Reached One Year of Organ Survival, the Longest Reported in a Living Human",
+          "url": "https://finance.yahoo.com/healthcare/articles/eledon-pharmaceuticals-tegoprubart-anchors-immunosuppression-120000257.html"
+        }
+      ]
+    }
+  ],
+  "excludedLargeLowShareCount": [],
+  "recorded": {
+    "created": [
+      "KRRO",
+      "GMRS",
+      "QUCY",
+      "GCL",
+      "JZ",
+      "FFR"
+    ],
+    "updated": [
+      "FOSL",
+      "NTHI",
+      "ELMT",
+      "TURB"
+    ],
+    "skippedCap": [],
+    "promoted": [
+      {
+        "ticker": "ELMT",
+        "from": "weekly",
+        "to": "daily"
+      }
+    ]
+  },
+  "errors": []
+}

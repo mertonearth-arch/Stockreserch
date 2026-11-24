@@ -1,0 +1,80 @@
+{
+  "ticker": "KRRO",
+  "name": "Korro Bio, Inc.",
+  "sector": "Healthcare",
+  "theme": null,
+  "themeLabel": null,
+  "tier": "daily",
+  "addedOn": "2026-11-24",
+  "addedReason": "small-float scan 2026-11-24: regulatory / clinical: Korro Bio Says FDA Orphan Drug Designation Granted to KRRO-121 in Urea Cycle Disorder",
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 192982592,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    },
+    "float": {
+      "value": 9734365,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    },
+    "sharesOutstanding": {
+      "value": 13725646,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    },
+    "shortInterest": {
+      "value": 14.4,
+      "asOf": "2026-10-30",
+      "note": "% of float (Yahoo)"
+    }
+  },
+  "price": {
+    "last": 14.06,
+    "changePct": 10.53,
+    "asOf": "2026-11-24",
+    "source": "Yahoo Finance (scan)"
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-24",
+      "type": "regulatory / clinical",
+      "headline": "Korro Bio Says FDA Orphan Drug Designation Granted to KRRO-121 in Urea Cycle Disorder",
+      "impact": null,
+      "source": "https://finance.yahoo.com/healthcare/articles/korro-bio-says-fda-orphan-123956203.html",
+      "publisher": "MT Newswires",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "regulatory / clinical",
+      "headline": "Korro Receives Orphan Drug Designation for KRRO-121 From U.S. FDA for the Treatment of Urea Cycle Disorders",
+      "impact": null,
+      "source": "https://finance.yahoo.com/healthcare/articles/korro-receives-orphan-drug-designation-120000347.html",
+      "publisher": "GlobeNewswire",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-24",
+      "run": "scan",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "move 10.53%"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Seeded by the small-float scan from Yahoo Finance (industry: Biotechnology). Headlines were keyword-classified; the next full pass verifies them and assigns a theme."
+}

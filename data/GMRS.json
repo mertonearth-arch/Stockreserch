@@ -1,0 +1,74 @@
+{
+  "ticker": "GMRS",
+  "name": "GMR Solutions Inc.",
+  "sector": "Healthcare",
+  "theme": null,
+  "themeLabel": null,
+  "tier": "daily",
+  "addedOn": "2026-11-24",
+  "addedReason": "small-float scan 2026-11-24: buyback / dividend: GMR Solutions Authorizes $75 Million Share Buyback",
+  "quietRuns": 0,
+  "lastResearched": null,
+  "fundamentals": {
+    "marketCap": {
+      "value": 729347776,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    },
+    "float": {
+      "value": 42052463,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    },
+    "sharesOutstanding": {
+      "value": 66698468,
+      "asOf": "2026-11-24",
+      "source": "Yahoo Finance key statistics"
+    }
+  },
+  "price": {
+    "last": 10.935,
+    "changePct": 6.06,
+    "asOf": "2026-11-24",
+    "source": "Yahoo Finance (scan)",
+    "note": "extended-hours move 2.9%"
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-24",
+      "type": "buyback / dividend",
+      "headline": "GMR Solutions Authorizes $75 Million Share Buyback",
+      "impact": null,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/gmr-solutions-authorizes-75-million-123516254.html",
+      "publisher": "MT Newswires",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "buyback / dividend",
+      "headline": "GMR Solutions Inc. Announces $75 Million Share Repurchase Authorization",
+      "impact": null,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/gmr-solutions-inc-announces-75-120000475.html",
+      "publisher": "Business Wire",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    }
+  ],
+  "conflicts": [],
+  "pendingFilings": [],
+  "history": [
+    {
+      "date": "2026-11-24",
+      "run": "scan",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    }
+  ],
+  "notes": "Seeded by the small-float scan from Yahoo Finance (industry: Medical Care Facilities). Headlines were keyword-classified; the next full pass verifies them and assigns a theme."
+}

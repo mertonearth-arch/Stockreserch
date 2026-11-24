@@ -62,6 +62,24 @@
   },
   "catalysts": [
     {
+      "date": "2026-11-24",
+      "type": "regulatory / clinical",
+      "headline": "NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212",
+      "impact": null,
+      "source": "https://finance.yahoo.com/healthcare/articles/neonc-announces-fda-agreement-single-141152470.html",
+      "publisher": "Stocktwits",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "regulatory / clinical",
+      "headline": "NeOnc Announces FDA Agreement on Single Study Design and Accelerated Approval Pathway for NEO212",
+      "impact": null,
+      "source": "https://finance.yahoo.com/healthcare/articles/neonc-announces-fda-agreement-single-130000374.html",
+      "publisher": "GlobeNewswire",
+      "via": "small-float scan (keyword-classified; verify on the next full pass)"
+    },
+    {
       "date": "2026-11-19",
       "type": "regulatory",
       "headline": "FDA rescheduled NeOnc's End-of-Phase 1 Type B meeting for NEO212 from the previously announced 2026-11-17 to Monday 2026-11-23 (today). Supersedes the file's existing 2026-11-17 catalyst entries, which assumed the meeting occurred as originally scheduled -- it did not; outcome of the rescheduled meeting is not yet known as of this pass.",
@@ -231,6 +249,16 @@
   "pendingFilings": [],
   "notes": "The company's own 2026-11-17 FDA meeting was NOT held as previously recorded -- it was rescheduled to 2026-11-23. Existing file catalysts dated 2026-11-17 describing the meeting's agenda remain accurate as to what was planned, but any implication the meeting took place should be disregarded until a post-meeting outcome is reported.",
   "history": [
+    {
+      "date": "2026-11-24",
+      "run": "scan",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-23",
       "run": "pm",
