@@ -4,7 +4,7 @@
   "sector": "Industrials",
   "theme": "Advanced Materials",
   "themeLabel": "story stock",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
@@ -76,15 +76,6 @@
     "asOf": "2026-11-10"
   },
   "catalysts": [
-    {
-      "date": "2026-11-24",
-      "type": "insider selling",
-      "headline": "Elmet Group Insider Sold Shares Worth $1,100,434, According to a Recent SEC Filing",
-      "impact": null,
-      "source": "https://finance.yahoo.com/markets/stocks/articles/elmet-group-insider-sold-shares-133949891.html",
-      "publisher": "MT Newswires",
-      "via": "small-float scan (keyword-classified; verify on the next full pass)"
-    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -228,16 +219,6 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-18: no new dated catalyst found beyond the Nov 9-10 Q3 2026 earnings already on file. Market cap and next-earnings-date conflicts from prior pass remain unresolved; not re-verified this pass. Quiet pass.",
   "history": [
-    {
-      "date": "2026-11-24",
-      "run": "scan",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)"
-      ],
-      "tier": "daily",
-      "from": "weekly"
-    },
     {
       "date": "2026-11-18",
       "run": "pm",

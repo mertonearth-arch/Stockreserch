@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-24T15:33:19.546Z",
+  "updated": "2026-11-24T05:31:00.088Z",
   "themes": {
     "Biotech Catalyst": {
       "history": [
         {
           "date": "2026-11-24",
           "names": 19,
-          "catalysts7": 13,
+          "catalysts7": 11,
           "newNames7": 0
         },
         {
@@ -694,7 +694,7 @@
         {
           "date": "2026-11-24",
           "names": 5,
-          "catalysts7": 1,
+          "catalysts7": 0,
           "newNames7": 0
         },
         {
@@ -1696,7 +1696,7 @@
         {
           "date": "2026-11-24",
           "names": 3,
-          "catalysts7": 5,
+          "catalysts7": 2,
           "newNames7": 0
         },
         {
@@ -1992,7 +1992,7 @@
         {
           "date": "2026-11-24",
           "names": 2,
-          "catalysts7": 4,
+          "catalysts7": 3,
           "newNames7": 0
         },
         {
@@ -2741,36 +2741,6 @@
           "date": "2026-11-12",
           "names": 1,
           "catalysts7": 2,
-          "newNames7": 1
-        }
-      ]
-    },
-    "Healthcare": {
-      "history": [
-        {
-          "date": "2026-11-24",
-          "names": 3,
-          "catalysts7": 5,
-          "newNames7": 3
-        }
-      ]
-    },
-    "Technology": {
-      "history": [
-        {
-          "date": "2026-11-24",
-          "names": 2,
-          "catalysts7": 2,
-          "newNames7": 2
-        }
-      ]
-    },
-    "Communication Services": {
-      "history": [
-        {
-          "date": "2026-11-24",
-          "names": 1,
-          "catalysts7": 1,
           "newNames7": 1
         }
       ]

@@ -89,16 +89,53 @@ function cmdRecord() {
   const file = positional(0);
   if (!file) { console.error('usage: research.js record <batch.json>'); process.exit(1); }
   const batch = JSON.parse(fs.readFileSync(file, 'utf8'));
-  if (!batch.run) batch.run = flag('run', 'pm');
-  const log = require('../lib/record').recordBatch(batch);
-  const run = log.run;
-  const today = log.date;
+  const run = batch.run || flag('run', 'pm');
+  const today = batch.date || C.iso(new Date());
+  const movers = (batch.movers || []).map((s) => String(s).toUpperCase());
+  // The calendar decides by default; a pass that discovers an unscheduled
+  // closure can override it with "tradingDay": false in the batch.
+  const tradingDay = batch.tradingDay === undefined ? CAL.isTradingDay(today) : batch.tradingDay !== false;
+  const closedReason = tradingDay ? null : (CAL.closedReason(today) || 'no session reported');
+
+  const log = { date: today, run: run, movers: movers, tradingDay: tradingDay, closedReason: closedReason,
+    applied: [], created: [], promoted: [], demoted: [], quiet: [] };
+
+  (batch.results || []).forEach((result) => {
+    const ticker = String(result.ticker || '').toUpperCase();
+    if (!ticker) return;
+    let rec = S.loadTicker(ticker);
+    if (!rec) {
+      rec = C.newRecord(ticker, { addedReason: result.addedReason || 'auto-sourced mover', price: result.price });
+      log.created.push(ticker);
+    }
+    const out = C.applyPass(rec, result, { run: run, today: today, moversToday: movers, tradingDay: tradingDay });
+    S.saveTicker(out.record);
+    log.applied.push({ ticker: ticker, tier: out.record.tier, quiet: out.quiet, changes: out.changes });
+    if (out.quiet) log.quiet.push(ticker);
+    if (out.tierChanged) {
+      const move = { ticker: ticker, from: out.from, to: out.to };
+      (C.TIERS.indexOf(out.to) < C.TIERS.indexOf(out.from) ? log.promoted : log.demoted).push(move);
+    }
+  });
+
+  const records = S.allTickers();
+  const store = S.loadSectors();
+  SEC.snapshot(store, records, { today: today });
+  S.saveSectors(store);
+
+  const wl = S.loadWatchlist();
+  wl.tickers = {};
+  records.forEach((r) => {
+    wl.tickers[r.ticker] = { tier: r.tier, theme: r.theme, quietRuns: r.quietRuns, lastResearched: r.lastResearched };
+  });
+  wl.lastRun = { date: today, run: run };
+  S.saveWatchlist(wl);
 
   fs.mkdirSync(S.P.runs, { recursive: true });
   fs.writeFileSync(path.join(S.P.runs, today + '-' + run + '.json'), JSON.stringify(log, null, 2) + '\n');
 
   console.log('recorded ' + log.applied.length + ' ticker(s) for ' + today + ' ' + run.toUpperCase());
-  if (!log.tradingDay) console.log('  no session (' + log.closedReason + ') — quiet counters held, nothing demoted');
+  if (!tradingDay) console.log('  no session (' + closedReason + ') — quiet counters held, nothing demoted');
   if (log.created.length) console.log('  new to watchlist: ' + log.created.join(' '));
   if (log.promoted.length) console.log('  promoted: ' + log.promoted.map((m) => m.ticker + ' ' + m.from + '->' + m.to).join(', '));
   if (log.demoted.length) console.log('  demoted:  ' + log.demoted.map((m) => m.ticker + ' ' + m.from + '->' + m.to).join(', '));
@@ -146,12 +183,6 @@ function cmdBuild() {
       ? fs.readdirSync(S.P.runs).filter((f) => /^\d{4}-\d{2}-\d{2}-\w+\.json$/.test(f)).sort().reverse().slice(0, 10)
           .map((f) => JSON.parse(fs.readFileSync(path.join(S.P.runs, f), 'utf8')))
       : [],
-    // The newest small-float scan report (scan-YYYY-MM-DD-am|pm.json sorts by time).
-    scan: (function () {
-      if (!fs.existsSync(S.P.runs)) return null;
-      const f = fs.readdirSync(S.P.runs).filter((x) => /^scan-\d{4}-\d{2}-\d{2}-(am|pm)\.json$/.test(x)).sort().pop();
-      return f ? JSON.parse(fs.readFileSync(path.join(S.P.runs, f), 'utf8')) : null;
-    })(),
   });
   fs.writeFileSync(S.P.dashboard, out, 'utf8');
   console.log('wrote ' + S.P.dashboard + ' (' + (out.length / 1024).toFixed(1) + ' KB)');

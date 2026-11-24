@@ -62,15 +62,6 @@
   },
   "catalysts": [
     {
-      "date": "2026-11-24",
-      "type": "listing notice",
-      "headline": "TURBO ENERGY RECEIVES NASDAQ NOTIFICATION REGARDING MINIMUM BID PRICE DEFICIENCY",
-      "impact": null,
-      "source": "https://finance.yahoo.com/markets/stocks/articles/turbo-energy-receives-nasdaq-notification-131500004.html",
-      "publisher": "GlobeNewswire",
-      "via": "small-float scan (keyword-classified; verify on the next full pass)"
-    },
-    {
       "date": "2026-11-17",
       "type": "other",
       "headline": "Turbo Energy proposed an all-share acquisition of IM2 Energia Solar and Greentech Solutions from its majority shareholder, Umbrella Global Energy, for an aggregate issue amount of EUR 9.271 million; no cash changes hands. IM2 handles solar project development/engineering/construction and Greentech handles O&M; both would become wholly owned subsidiaries. This is a related-party transaction since Umbrella controls both targets.",
@@ -170,16 +161,6 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet pass on the IM2/Greentech acquisition: no shareholder-vote date, outcome, or new filing located despite searching; the EGM is on file for 2026-12-14. No reliable price newer than the file's 2026-11-12 figure found. Record left unchanged.",
   "history": [
-    {
-      "date": "2026-11-24",
-      "run": "scan",
-      "quiet": false,
-      "changes": [
-        "1 new catalyst(s)"
-      ],
-      "tier": "daily",
-      "from": "daily"
-    },
     {
       "date": "2026-11-23",
       "run": "pm",
