@@ -204,10 +204,11 @@
   ],
   "conflicts": [
     "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — magnitude of decline not independently reconciled.",
-    "Shares outstanding/market cap continue to disagree sharply across aggregators."
+    "Shares outstanding/market cap continue to disagree sharply across aggregators.",
+    "Unverified/undated this pass: a Google Finance snapshot and Investing.com both showed a price near $2.79-2.80 with no confirmed as-of date -- not used to update the on-file price."
   ],
   "pendingFilings": [],
-  "notes": "New Cipher/Prosegur partnership (Nov 3) found this pass was not previously on file as a dated catalyst. No new price, financial, or filing information found beyond that.",
+  "notes": "PM pass 2026-11-24: WebSearch found no news dated after 2026-11-13 (on-file). A Google Finance snapshot and an Investing.com page both show ~$2.79-$2.80, broadly consistent with the on-file 2026-11-13 $2.12 print -- but neither carries a reliable as-of date for this pass, so not recorded as a new price. No new catalyst, filing, or fundamentals change found. Genuinely quiet.",
   "history": [
     {
       "date": "2026-11-24",

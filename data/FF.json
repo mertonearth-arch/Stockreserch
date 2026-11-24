@@ -306,7 +306,7 @@
       "from": "daily"
     }
   ],
-  "notes": "Only new fact this pass: a newer price snapshot ($3.04, Nov 18, Benzinga). No new catalysts, no confirmed next-earnings date despite a targeted search.",
+  "notes": "PM pass 2026-11-24: WebSearch found no FF news dated after 2026-11-18 (on-file $3.04 price). The only additional items found were a March 2026 buyback/dividend-cut release and a July 2026 45Z tax-credit item, both already stale relative to the record. No new earnings-date confirmation found. Genuinely quiet.",
   "lastPass": {
     "date": "2026-11-24",
     "run": "pm",

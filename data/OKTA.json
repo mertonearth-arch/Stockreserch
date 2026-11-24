@@ -11,9 +11,10 @@
   "lastResearched": "2026-11-24T21:19:31.775Z",
   "fundamentals": {
     "marketCap": {
-      "value": 34120000000,
-      "asOf": "2026-09-30",
-      "source": "equibles.com"
+      "value": 31330000000,
+      "asOf": "2026-11-13",
+      "source": "MarketChameleon",
+      "note": "Supersedes stale on-file figure of $34.12B as of 2026-09-30 (equibles.com). Could not find a confirmed market cap for Nov 20-24."
     },
     "float": {
       "value": null,
@@ -232,7 +233,7 @@
     "Current price not independently confirmed: $178.97 (Nov 16 intraday) is the most recent reading found; no official close for Nov 17-19."
   ],
   "pendingFilings": [],
-  "notes": "Next earnings Dec 1, 2026 (confirmed via Okta's own announcement) unchanged. No company-specific news found for Nov 20-23; price move continues the cybersecurity-sector rally context already on file.",
+  "notes": "PM pass 2026-11-24: checked for news/price since the on-file Nov 19 close ($207/+5.96%, Trefis) and Dec 1 confirmed earnings date. No confirmed close or new catalyst found for Nov 20-24 across WebSearch results (conflicting undated snapshots from Yahoo/Stocktwits ignored as unreliable). Only change this pass is the market-cap refresh above.",
   "history": [
     {
       "date": "2026-11-24",

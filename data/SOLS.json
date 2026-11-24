@@ -11,8 +11,10 @@
   "lastResearched": "2026-11-24T21:19:31.777Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "note": "Conflicting dated snapshots; none confirmed for mid-November."
+      "value": 9360000000,
+      "asOf": "2026-11-05",
+      "source": "Tickertape (reflecting Nov 4 US session data)",
+      "note": "No prior value was established on file (previously null due to conflicting snapshots)."
     },
     "float": null,
     "sharesOutstanding": {
@@ -24,10 +26,11 @@
     "cash": null,
     "debt": null,
     "pe": {
-      "trailing": null,
+      "trailing": 44.64,
       "forward": null,
-      "note": "Not found; likely negative/pre-scale earnings",
-      "asOf": "2026-11-19"
+      "asOf": "2026-11-04",
+      "source": "Tickertape",
+      "note": "Supersedes on-file 'not found / likely negative' note -- company is in fact profitable (Q3 2026 GAAP EPS $0.50 vs -$0.22 prior year, already on file)."
     },
     "eps": [
       {
@@ -68,6 +71,12 @@
       "type": "product milestone",
       "headline": "Announced a key development milestone for its next-generation foam blowing agent; plans to begin sampling with selected global customers in early 2027",
       "source": "https://finviz.com/news/419573/solstice-advanced-materials-reaches-key-development-milestone-for-next-generation-foam-blowing-agent"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "buyback",
+      "headline": "Alongside Q3 2026 earnings, disclosed it had completed $100M of its $500M authorized share-repurchase program, buying back 1.7M shares in the quarter",
+      "source": "https://finviz.com/news/415115/solstice-advanced-materials-reports-third-quarter-2026-results"
     },
     {
       "date": "2026-11-04",
@@ -178,7 +187,7 @@
     "Market cap: ~$9.29B (2026-09-16, at $58.48/share) vs. ~$8.27B (Yahoo Finance Australia, undated) vs. ~$10.127B (Yahoo Finance UK, undated) — different-dated snapshots, not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Otherwise genuinely quiet this pass — no news located dated after the 2026-11-09 foam-blowing-agent milestone already on file.",
+  "notes": "PM pass 2026-11-24: confirmed the Nov 3-declared / Dec 10-payable / Nov 25-record-date dividend already on file. New this pass: market cap and trailing P/E established (previously null), plus the buyback detail as a new catalyst dated to the same Nov 4 earnings release already on file (new information, not a duplicate -- different headline). No price newer than the on-file 2026-11-06 $58 found.",
   "history": [
     {
       "date": "2026-11-24",
