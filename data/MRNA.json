@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.792Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.536Z",
   "fundamentals": {
     "marketCap": {
       "value": 90380000000,
@@ -74,11 +74,12 @@
     }
   },
   "price": {
-    "last": 223.37,
-    "changePct": -3.45,
+    "last": 199.33,
+    "changePct": 1.29,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "equibles.com / financialcontent (consistent figure)"
+    "asOf": "2026-11-19",
+    "source": "AAII",
+    "note": "Up from a $196.79 previous close per the same source. Supersedes the file's $223.37 (2026-11-13), implying roughly a 10.8% decline over that window. No single new dated catalyst explaining the move was independently confirmed beyond the already-on-file Nov 12 Analyst Day and subsequent sell-the-news-type commentary. No confirmed close for Nov 20-25 located this pass."
   },
   "catalysts": [
     {
@@ -227,12 +228,20 @@
       "note": "month-level precision only; exact day not found this session"
     }
   ],
-  "conflicts": [
-    "Shares outstanding: 404.62M (2026-11-13, financialcontent) vs. 396.79M (2026-07-15, Simply Wall St, on file) vs. 399.24M (undated equibles snapshot) — minor discrepancies likely reflect different as-of dates."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new dated catalyst found since the 2026-11-12 Analyst Day already on file. One source states shares returned 776% over the trailing 12 months with a 52-week-high close of $269 on 2026-11-09 (vs. the file's $223.37 on 2026-11-13) -- not reconciled, not adopted as current price, flagged only as an unresolved secondary data point. No Nov 21-23 coverage surfaced.",
+  "notes": "No new dated catalyst found since the 2026-11-12 Analyst Day already on file. Price updated to a newer AAII-sourced reading ($199.33, 2026-11-19, +1.29%), superseding the file's $223.37 (2026-11-13). No confirmed close for Nov 20-25 located this pass.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -580,10 +589,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

@@ -4,11 +4,11 @@
   "sector": "Technology",
   "theme": "AI Semiconductors",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.791Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.535Z",
   "fundamentals": {
     "marketCap": {
       "value": 76150000000,
@@ -79,7 +79,8 @@
     "changePct": -4.49,
     "rvol": null,
     "asOf": "2026-11-13",
-    "source": "financialcontent.com"
+    "source": "financialcontent.com",
+    "note": "No fresher dated close located this pass; other same-session search results were a mix of undated/inconsistent snapshots ($509.70 Fox Business dated Nov 6; $701.51 MoneyLion undated) and not used."
   },
   "catalysts": [
     {
@@ -171,8 +172,16 @@
     "Deal signing date: Marvell/Lumentum press release and investor pages are dated 2026-11-02, while related SEC Form 425 filings reference a 2026-11-01 signing date — not fully reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Marvell's supplier letter says both companies continue operating independently until close; no S-4/joint-proxy shareholder-meeting date located yet. No confirmed price beyond the file's 2026-11-13 $596.62 figure found this pass, so price field left unchanged.",
+  "notes": "Quiet pass -- no new dated development on the Marvell acquisition timeline found since the Nov 2, 2026 announcement (deal terms unchanged: fixed exchange ratio of 4.500 Marvell shares per Lumentum share, ~$115B implied enterprise value, expected to close H1 calendar 2028). No S-4 / joint-proxy shareholder-meeting date located yet per sources reviewed this pass.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -512,7 +521,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

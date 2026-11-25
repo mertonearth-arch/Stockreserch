@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.772Z",
+  "lastResearched": "2026-11-25T21:17:33.514Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -68,7 +68,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "No official Q4/FY2026 earnings date found this pass. Prior-year pattern (Q4 2025 results announced mid-Feb, released March 16, 2026) suggests a similar ~mid-March 2027 timing, but this is an inference, not a confirmed company announcement -- not recorded as a date."
+      "note": "One aggregator (Benzinga, via WebSearch synthesis) cites 'Mar 15, 2027' for Q4 2026 earnings, alongside a separate reference to the prior year's Mar 16, 2026 release date; neither is an independently confirmed company announcement, so no date is recorded as confirmed."
     },
     "revenue": [
       {
@@ -82,8 +82,8 @@
     "last": 3.04,
     "changePct": null,
     "asOf": "2026-11-18",
-    "source": "Benzinga",
-    "note": "Supersedes the on-file 2026-11-13 $2.91 figure. changePct vs. that date not independently computed/confirmed."
+    "source": "Benzinga (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found no quote dated after 2026-11-18. On-file price carried forward."
   },
   "catalysts": [
     {
@@ -157,11 +157,20 @@
       "source": "search aggregation citing company disclosure (exact primary URL not retrieved)"
     }
   ],
-  "conflicts": [
-    "FutureFuel 2026-11-10 close: Kalkine reports $2.84 (down 43.98%) vs Financialcontent reports $3.120 (down 38.46%) for the SAME date."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -306,12 +315,15 @@
       "from": "daily"
     }
   ],
-  "notes": "PM pass 2026-11-24: WebSearch found no FF news dated after 2026-11-18 (on-file $3.04 price). The only additional items found were a March 2026 buyback/dividend-cut release and a July 2026 45Z tax-credit item, both already stale relative to the record. No new earnings-date confirmation found. Genuinely quiet.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. No FF news dated after the on-file 2026-11-18 price point was found.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "nextEarnings updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

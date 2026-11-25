@@ -4,11 +4,11 @@
   "sector": "Consumer Discretionary (hardware)",
   "theme": "Consumer Hardware",
   "themeLabel": "story stock",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.789Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.534Z",
   "fundamentals": {
     "marketCap": {
       "value": 148140000,
@@ -82,7 +82,7 @@
     "rvol": null,
     "asOf": "2026-11-13",
     "source": "Fox Business",
-    "note": "Day range $0.64-$0.68, average analyst target $1.30. Updates the prior $0.6882 (Nov 12) figure. No Nov 19-20 quote confirmed. The $1.04 Oct 27 figure noted in the prior pass remains stale/not representative of the current price."
+    "note": "No fresher dated close located this pass."
   },
   "catalysts": [
     {
@@ -261,8 +261,16 @@
     "Shares outstanding/market cap: Fox Business & Motley Fool agree on 214.69M shares (~$148-194M cap depending on price used) vs Stockanalysis ~179.75M shares vs older Equibles ~144.72M (undated) -- wide spread across sources."
   ],
   "pendingFilings": [],
-  "notes": "Merger update (per task flag): as of the Nov 6, 2026 amendment, the Starman Optical deal remains pending with a new outside date of March 31, 2027; completion still requires stockholder approval of the merger agreement, no prohibiting order, and no Material Adverse Effect. Layered on top of the merger timeline, GoPro's November 2026 going-concern and lender-covenant disclosures (10-Q; waiver dated Nov 15) are a materially new development versus the prior pass, which only covered the delayed Q3 results and no-guidance note. Next (Q4/FY2026) earnings date still not set.",
+  "notes": "Quiet pass -- no new dated catalyst found beyond the Nov 15-16 going-concern/lender-waiver and delayed-Q3 disclosures already on file. The Starman Optical merger's special-meeting date and record date remain unset in the preliminary proxy materials per sources reviewed this pass (PRER14A filed ~2026-10-20; DEFA14A supplements in late October); outside closing date remains March 31, 2027 per the Nov 6 amendment already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -691,7 +699,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

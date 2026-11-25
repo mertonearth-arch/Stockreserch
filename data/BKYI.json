@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.770Z",
+  "lastResearched": "2026-11-25T21:17:33.510Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -76,8 +76,8 @@
     "last": 2.12,
     "changePct": -17.83,
     "asOf": "2026-11-13",
-    "source": "Equibles",
-    "note": "No quote newer than 2026-11-13 found this pass."
+    "source": "Equibles (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only stale pre-2026-11-13 snapshots (Benzinga $2.51 as of 2026-11-03; EarningsWhispers ~$2.58 around 2026-11-06), consistent with the on-file decline to $2.12 by Nov 13 but no newer confirmed quote. No price update made."
   },
   "catalysts": [
     {
@@ -202,14 +202,21 @@
       "source": "https://www.panabee.com/news/bio-key-stockholders-approve-reverse-split-authorization"
     }
   ],
-  "conflicts": [
-    "Price: Equibles shows $2.12 on 2026-11-13 (-17.83% that day) vs on-file $3.27 (2026-10-23, Benzinga) — magnitude of decline not independently reconciled.",
-    "Shares outstanding/market cap continue to disagree sharply across aggregators.",
-    "Unverified/undated this pass: a Google Finance snapshot and Investing.com both showed a price near $2.79-2.80 with no confirmed as-of date -- not used to update the on-file price."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-24: WebSearch found no news dated after 2026-11-13 (on-file). A Google Finance snapshot and an Investing.com page both show ~$2.79-$2.80, broadly consistent with the on-file 2026-11-13 $2.12 print -- but neither carries a reliable as-of date for this pass, so not recorded as a new price. No new catalyst, filing, or fundamentals change found. Genuinely quiet.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. No BKYI news dated after the on-file 2026-11-13 Q3 2026 earnings report was found via WebSearch. A finviz article headlined 'BIO-key misses badly as revenue shrinks and profit target slips again despite a 90% gross margin' surfaced this pass but describes the same already-recorded Nov 13 Q3 report, not a new event.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -17.83%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -539,10 +546,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -17.83%",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

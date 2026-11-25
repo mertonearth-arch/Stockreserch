@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.798Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-25T21:17:33.540Z",
   "fundamentals": {
     "marketCap": {
       "value": 39980000000,
@@ -78,10 +78,9 @@
   "price": {
     "last": 227.43,
     "changePct": -3.31,
-    "rvol": null,
     "asOf": "2026-11-19",
-    "source": "AAII (via search, Nasdaq-sourced close)",
-    "note": "Session range $226.65-$249.00 per source. Supersedes the file's 2026-11-17 $234.18 figure. A separate Benzinga snippet cites an irreconcilable $155.90 'low' tagged to Nov 20 that is inconsistent with every other source and the stock's own 52-week low (~$151.52 elsewhere, but near $227-249 this week) -- treated as a likely data/scraping error, not used as price, and flagged below rather than reconciled."
+    "source": "AAII (carried from prior pass)",
+    "note": "No newer confirmed, dated closing price located this pass. Sightings found this pass are all older/conflicting and are not adopted: Benzinga $246.00 (dated 2026-11-09, described as the year's lowest close), Fox Business $218.22 (2026-11-09, apparently intraday), Yahoo $229.71 (undated)."
   },
   "catalysts": [
     {
@@ -151,8 +150,16 @@
     "Price remains volatile and inconsistently reported across sources: new this pass is an AAII/Nasdaq-sourced close of $227.43 (-3.31%) on 2026-11-19, session range $226.65-$249.00, which supersedes the file's prior $234.18 (2026-11-17). A Benzinga page separately shows an unreconciled '$155.90 low' tagged to Nov 20 that doesn't fit any other source this pass or last -- treated as unreliable, not used."
   ],
   "pendingFilings": [],
-  "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch / dividend declaration already on file. Routine re-check; only the price updated this pass.",
+  "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch / dividend declaration already on file. A CFO-transition item surfaced in search (Michelle Turner succeeding Sanjay Mehta) was checked and confirmed to date to 2025, not 2026, so it was not added as a current catalyst.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -471,7 +478,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

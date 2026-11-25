@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.780Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.527Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -72,7 +72,7 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-13",
-    "source": "Daily Political (referencing that Friday's close); StockInvest/QuiverQuant independently corroborate a $2.26 close on 2026-11-09, confirming the decline from the ~$3.04 level on file as of 2026-10-29"
+    "note": "No newer dated quote located this pass; carried forward unchanged. Search budget for this batch was exhausted before a fresh price could be confirmed."
   },
   "catalysts": [
     {
@@ -254,13 +254,20 @@
       "source": null
     }
   ],
-  "conflicts": [
-    "BIAF Q3 EPS: Zacks reports -$5.89 (Q3 2026) vs -$71.05 (Q3 2025) per-share loss; these magnitudes don't reconcile with the company's own previously reported Q3 2025 GAAP EPS of -$4.74 — likely reflects the 1-for-15 reverse split (effective 2026-08-24) rather than being directly comparable; not reconciled this pass.",
-    "BIAF Q3 2025 revenue comparison base: the 2026 Q3 release cites ~$1.4M for Q3 2025, while the original Q3 2025 press release reported $1.45M — minor, unreconciled."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). WebSearch turned up only earlier, already-on-file items (Sept Nasdaq compliance, Aug federal distribution deal, Aug Q2 earnings) with no dates after Nov 15. Treated as quiet.",
+  "notes": "Quiet pass. No dated news found beyond the 2026-11-15 Wall Street Zen downgrade and 2026-11-05 Q3 2026 earnings already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -622,10 +629,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

@@ -1,0 +1,602 @@
+{
+  "date": "2026-11-25",
+  "run": "pm",
+  "movers": [],
+  "tradingDay": true,
+  "closedReason": null,
+  "applied": [
+    {
+      "ticker": "RBRK",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "move 9.3%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "BKYI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -17.83%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "CRWV",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move 8.37%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "EIX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "FF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "nextEarnings updated",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "FOSL",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "IHRT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -61.58%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "IONQ",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -16.4%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "MVST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "cash updated",
+        "move -64.3%"
+      ]
+    },
+    {
+      "ticker": "OKTA",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "ORCL",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "SLS",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "SMMT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -9.73%"
+      ]
+    },
+    {
+      "ticker": "SOLS",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "UPLD",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "VEEA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -10.8%",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "AEMD",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "AFRM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "AKAM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "BENF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "BIAF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "BMNR",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "BTAI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CIFR",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "CLDX",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "CNTB",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "CYTK",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "ENVA",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "ESTC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "FICO",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "FIGS",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "FTHM",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "GLW",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "GNRC",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "GPRO",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "INO",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "IREN",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "JBHT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ]
+    },
+    {
+      "ticker": "LITE",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "LWLG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move 12.74%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "MRNA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "NLST",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "NTHI",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "OSPN",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "PCG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "PDSB",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "PEPG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "QNRX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "QURE",
+      "tier": "weekly",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "RARE",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "SAIC",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "SANG",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ]
+    },
+    {
+      "ticker": "SANM",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "move -8.6%",
+        "conflicts updated"
+      ]
+    },
+    {
+      "ticker": "TER",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TLF",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "TPST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TURB",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "TWST",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "VKTX",
+      "tier": "daily",
+      "quiet": true,
+      "changes": []
+    },
+    {
+      "ticker": "DFTX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "eps updated",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "ELMT",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ]
+    },
+    {
+      "ticker": "RBLX",
+      "tier": "daily",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ]
+    }
+  ],
+  "created": [],
+  "promoted": [
+    {
+      "ticker": "DFTX",
+      "from": "weekly",
+      "to": "daily"
+    },
+    {
+      "ticker": "ELMT",
+      "from": "weekly",
+      "to": "daily"
+    },
+    {
+      "ticker": "RBLX",
+      "from": "weekly",
+      "to": "daily"
+    }
+  ],
+  "demoted": [
+    {
+      "ticker": "BMNR",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "CLDX",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "CYTK",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "ENVA",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "FICO",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "FTHM",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "GLW",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "GPRO",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "INO",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "IREN",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "LITE",
+      "from": "daily",
+      "to": "weekly"
+    },
+    {
+      "ticker": "QURE",
+      "from": "daily",
+      "to": "weekly"
+    }
+  ],
+  "quiet": [
+    "OKTA",
+    "ORCL",
+    "SLS",
+    "SOLS",
+    "UPLD",
+    "BMNR",
+    "CLDX",
+    "CNTB",
+    "CYTK",
+    "ENVA",
+    "FICO",
+    "FTHM",
+    "GLW",
+    "GNRC",
+    "GPRO",
+    "INO",
+    "IREN",
+    "LITE",
+    "QURE",
+    "TER",
+    "TPST",
+    "TURB",
+    "TWST",
+    "VKTX"
+  ]
+}

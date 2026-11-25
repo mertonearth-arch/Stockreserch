@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.797Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.539Z",
   "fundamentals": {
     "marketCap": {
       "value": 6350000000,
@@ -81,11 +81,8 @@
   },
   "price": {
     "last": 147.03,
-    "changePct": null,
-    "rvol": null,
     "asOf": "2026-11-06",
-    "source": "equibles.com / aggregators",
-    "note": "No clean confirmed close found for Nov 16-18; an intraday snapshot (not a close) showed $149.35 at 12:31pm ET on 2026-11-16."
+    "note": "No clean confirmed closing price located for the Nov 16-25, 2026 window this pass either; undated snapshots this pass (Google Finance ~$118.56, TradingView ~$129.90, Investing.com ~$120.37) could not be reconciled or dated, so the file's last confirmed figure is carried forward unchanged."
   },
   "catalysts": [
     {
@@ -184,11 +181,22 @@
     }
   ],
   "conflicts": [
-    "SAIC next earnings date: sources this pass disagree across Nov 30, Dec 2, Dec 3, and Dec 7, 2026, none company-confirmed — not reconciled. (Earnings Whispers this pass again cites Nov 30, pre-market, consensus $2.31/share — consistent with one of the four existing candidates, still not a company confirmation.)"
+    "Next earnings date still unresolved: this pass's searches again surfaced Dec 2, 2026 (FXEmpire/Chartmill, both labeled estimates) as the most frequently repeated candidate among the four unconfirmed dates already on file (Nov 30 / Dec 2 / Dec 3 / Dec 7); no company confirmation located.",
+    "Undated price snapshots this pass (~$118.56, ~$129.90, ~$120.37) disagree with each other and with the file's dated $147.03 (2026-11-06) figure; none adopted."
   ],
   "pendingFilings": [],
-  "notes": "No clean confirmed closing price found for the Nov 16 - Nov 23 window this pass either; still relying on the 2026-11-06 $147.03 figure on file.",
+  "notes": "No new dated catalysts found beyond the 2026-11-19 Jeffrey Little leadership appointment already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -536,10 +544,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

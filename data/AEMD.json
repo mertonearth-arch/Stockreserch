@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.778Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.525Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -71,7 +71,7 @@
     "changePct": 1.1,
     "rvol": 0.3,
     "asOf": "2026-11-10",
-    "source": "marketchameleon.com (corroborates figure already on file)"
+    "note": "No newer dated quote located this pass; carried forward unchanged. Search budget for this batch was exhausted before a fresh price could be confirmed."
   },
   "catalysts": [
     {
@@ -204,13 +204,20 @@
       "source": "https://seekingalpha.com/pr/20398581"
     }
   ],
-  "conflicts": [
-    "Reverse split confirmed this pass as 1-for-5, but the effective date is still disputed between sources: company characterization cites 2026-07-31 vs a Nasdaq Trader notice stating 2026-08-04. This is the third reverse split in roughly 14 months (1-for-8 June 2025; 1-for-10 October 2025; 1-for-5 Aug 2026), consistent with the historically volatile/declining price pattern already flagged on file.",
-    "A post-split 8-K estimate of ~649,914 shares outstanding (effective date of the Aug 2026 split) conflicts with the scale implied by the pending North Immunology merger/PIPE share issuance; not used as a current figure."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No November 2026 news found beyond the Q2 FY2027 earnings (Nov 12) already on file. North Immunology merger (agreed Sept 17) still targeting Q1 2027 close, no update found. Price unchanged from the $5.55/Nov 10 reading on file.",
+  "notes": "Quiet pass. No new dated news found beyond the Q2 FY2027 earnings (2026-11-12) and North Immunology merger (agreed 2026-09-17, targeting Q1 2027 close) already on file; no merger-progress update located.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -589,10 +596,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

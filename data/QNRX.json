@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.796Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.538Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -61,8 +61,8 @@
   },
   "price": {
     "last": null,
-    "asOf": "2026-11-19",
-    "note": "No reliable current-dated price located. Digrin shows an October 2026 MONTHLY average of $3.99 (down from Sept's $4.56); Snowball shows an undated $4.29. Neither is a confirmed single-day close for mid/late November."
+    "asOf": "2026-11-25",
+    "note": "Still no reliable single-day dated close located. New undated sightings this pass: eToro ~$4.02 (described as +0.25% over trailing 24h, no date given), Kraken $4.20 with a stated previous close of $4.21 (undated). Neither resolves to a specific trading date, consistent with the file's standing note that no confirmed current price has been established."
   },
   "catalysts": [
     {
@@ -91,6 +91,13 @@
       "headline": "Quoin Pharmaceuticals reported Q3 2026 results (quarter ended 2026-09-30): net loss ~$4.9M (vs. ~$3.9M in Q3 2025); nine-month 2026 net loss ~$15.2M (vs. ~$11.5M in 9M 2025); cash, cash equivalents and marketable securities ~$33.2M at quarter-end ($10.1M cash + $23.1M investments), reflecting the August private-placement proceeds. Company reiterated it expects topline data from the Netherton syndrome pivotal trial (CL-QRX003-004) in Q2 2027.",
       "impact": null,
       "source": "https://www.globenewswire.com/news-release/2026/11/05/3396437/0/en/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-quarter-2026-financial-results.html ; https://www.stocktitan.net/news/QNRX/quoin-pharmaceuticals-provides-corporate-update-and-reports-third-26928l5wl9f9.html"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "offering/financing",
+      "headline": "Quoin's S-3 shelf registration was declared effective and the company entered into an at-the-market (ATM) sales agreement with Leerink Partners, establishing a facility for potential future share sales (no immediate issuance required)",
+      "impact": "Sets up a standing capital-raising facility; not itself a drawdown",
+      "source": "https://www.panabee.com/news/quoin-pharmaceuticals-establishes-at-the-market-sales-agreement-with-leerink-partners"
     },
     {
       "date": "2026-10-29",
@@ -187,12 +194,22 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding vary enormously across current sources and cannot be reconciled this pass: Fidelity ~4.80M vs. Google Finance ~2.01M (dated ~2026-09-17) vs. Motley Fool ~1.50M vs. StockAnalysis ~0.588M (appears stale, 2025 vintage). The last confirmed ADS ratio change was a 1-for-35 reverse split effective 2026-04-09 (per 10-K) — no evidence of a further 2026 split was found, so the discrepancy is unexplained rather than attributed to a new split.",
-    "Price/market cap similarly scattered across dates: Investing.com $4.02/~$19.3M (2026-10-25) vs. Yahoo intraday cap ~$17.5M at $3.65 (~2026-10-19) vs. a Google Finance snapshot of $7.01/~$14.08M (2026-09-17, lists 2.01M shares) vs. Motley Fool $5.74. None is dated in November and none is treated as current."
+    "Price sightings this pass remain scattered and mostly undated: eToro ~$4.02 vs Kraken $4.20/prior-close $4.21, neither dated to a specific session; consistent with the unresolved share-count/price conflicts already on file."
   ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet this pass — no news found dated after the 2026-11-06 'Netherton Now' awareness video already on file. No new catalyst, filing, or price confirmation located.",
+  "notes": "One previously unrecorded financing item located (Nov 4 ATM facility with Leerink Partners, following the S-3 shelf's effectiveness same day) — added as a catalyst. No other news found dated after the 2026-11-06 'Netherton Now' video already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -564,10 +581,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

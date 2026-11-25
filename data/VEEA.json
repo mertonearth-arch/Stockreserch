@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.778Z",
+  "lastResearched": "2026-11-25T21:17:33.524Z",
   "fundamentals": {
     "marketCap": {
       "value": 13380000,
@@ -94,7 +94,7 @@
     "changePct": -10.8,
     "rvol": null,
     "asOf": "2026-11-02",
-    "note": "No quote newer than 2026-11-02 located despite searching."
+    "note": "No quote newer than 2026-11-02 could be located this pass either (searched again); carried forward unchanged from the existing record."
   },
   "catalysts": [
     {
@@ -194,13 +194,21 @@
       "source": "https://www.nasdaq.com/press-release/veea-inc-announces-reverse-stock-split-2026-08-26"
     }
   ],
-  "conflicts": [
-    "Debt: $17.1M (secondary aggregator, ~Nov 2026) vs $10,550,000 previously on file (asOf 2026-06-30) -- not reconciled.",
-    "Carried from prior pass: assigned theme 'Government IT & Defense Services' is not corroborated by sources reviewed, which describe Veea as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers generally, not a defense-specific contractor."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No news dated later than Nov 2, 2026 found this pass despite searching. NovaGen term sheet (Sept 14) still has no definitive agreement reported. Price unchanged from file.",
+  "notes": "Quiet pass. No dated news found after 2026-11-02 despite repeated searches. NovaGen term sheet (announced 2026-09-14, ~$750M implied combined valuation) still has no definitive agreement reported as of this pass; searches for a November update turned up nothing newer than the original September coverage. Theme fit concern already on file (Veea reads as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers, not a defense-specific contractor) was not re-resolved this pass.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -10.8%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -468,10 +476,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -10.8%",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

@@ -4,11 +4,11 @@
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.783Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.530Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -63,10 +63,11 @@
     }
   },
   "price": {
-    "last": 28.27,
-    "asOf": "2026-11-06",
-    "source": "Nasdaq delayed quote via a financial-data aggregator (Chronicle Journal)",
-    "note": "Morning intraday quote; the same source cited a trailing weekly range of $28.20–$30.92. Supersedes the 2026-10-27 $30.15 figure on file. An undated $26.24 figure attributed to 'Nov 21' is after today's date and was excluded as unreliable."
+    "last": 26.24,
+    "changePct": -0.61,
+    "asOf": "2026-11-21",
+    "source": "NASDAQ delayed quote via debelegger.nl",
+    "note": "Supersedes the 2026-11-06 $28.27 figure on file; continues the post-earnings decline. No Nov 22-25 close confirmed this pass."
   },
   "catalysts": [
     {
@@ -161,8 +162,16 @@
     "Price: $30.15 (2026-10-27, Benzinga) vs $27.53 (2026-10-16) vs two new undated snapshots ($27.87, $28.57) vs $35.61 (undated) — no confirmed November 2026 close found."
   ],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). WebSearch returned only already-on-file items (Oct 27 price, Aug Q2 earnings, Sept Phase 3 EMBARQ data) with no dates after Nov 5. Treated as quiet.",
+  "notes": "Quiet pass -- no new dated catalysts found beyond the Nov 5 Q3 2026 earnings/Phase 3 barzolvolimab update already on file; only the price was refreshed.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -379,7 +388,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

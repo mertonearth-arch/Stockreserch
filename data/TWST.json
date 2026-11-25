@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.799Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-25T21:17:33.541Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -83,12 +83,12 @@
     }
   },
   "price": {
-    "last": 122.59,
-    "changePct": null,
+    "last": 111.6,
+    "changePct": -2.29,
     "rvol": null,
-    "asOf": "2026-11-11",
-    "source": "FinancialContent (NASDAQ delayed quote)",
-    "note": "Most recent reliably-dated figure found. Undated snippets this pass show the stock around $110-120, consistent with a post-earnings pullback, but could not be pinned to a specific date; see conflicts."
+    "asOf": "2026-11-13",
+    "source": "247wallst.com (via search)",
+    "note": "Supersedes the file's 2026-11-11 $122.59 figure. Per 247wallst, shares fell 6.83% on 2026-11-12 (the earnings-reaction session) and a further 2.29% on 2026-11-13, closing at $111.60 -- this pins the previously-undated $110-120 post-earnings pullback range on file to confirmed dates. No quote newer than 2026-11-13 located despite searching."
   },
   "catalysts": [
     {
@@ -161,8 +161,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Genuinely quiet pass: no new dated catalysts since the fiscal Q4/FY2026 earnings and FY2027 guidance already on file. No reliably-dated price newer than the file's 2026-11-11 $122.59 found (a 247wallst/Finviz snippet describes an EPS-miss reaction but carries no confirmable date distinct from the earnings catalyst already recorded). Record left unchanged.",
+  "notes": "Quiet PM full pass on new events, but this pass newly dated the post-earnings pullback (-6.83% Nov 12, -2.29% Nov 13, closing $111.60), resolving the file's prior note about an undated $110-120 range. No new dated catalysts found beyond the fiscal Q4/FY2026 earnings and FY2027 guidance already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -441,7 +449,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

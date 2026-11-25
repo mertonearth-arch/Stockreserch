@@ -4,11 +4,11 @@
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.785Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.530Z",
   "fundamentals": {
     "marketCap": {
       "value": 7410000000,
@@ -85,8 +85,8 @@
     "last": 51.65,
     "changePct": -2.9,
     "asOf": "2026-11-17",
-    "source": "NASDAQ delayed quote via financial aggregator (debelegger.nl snapshot)",
-    "note": "Supersedes the 2026-11-16 $53.17 figure on file; continues a multi-day decline from ~$56.13 (2026-11-13) and sits near the 52-week-low area (~$52.68 per one source)."
+    "source": "NASDAQ delayed quote (carried forward)",
+    "note": "No price dated after Nov 17 located despite repeated searches."
   },
   "catalysts": [
     {
@@ -232,8 +232,16 @@
     "Trailing EPS: Motley Fool -$6.04 vs Google Finance -$6.84 (both undated TTM figures)"
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass — no news found dated after the Nov 16, 2026 FDA label update already on file. Management is scheduled to present at Evercore's conference Nov 30, 2026 (routine IR, not a catalyst). Next earnings still an unconfirmed Benzinga estimate of 2027-02-23.",
+  "notes": "Quiet pass -- no new dated catalysts found beyond the Nov 16 FDA aficamten label update already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -656,7 +664,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

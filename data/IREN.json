@@ -4,11 +4,11 @@
   "sector": "Technology",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.791Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.534Z",
   "fundamentals": {
     "marketCap": {
       "value": 9690000000,
@@ -75,7 +75,7 @@
     "rvol": null,
     "asOf": "2026-11-12",
     "source": "financialcontent.com (last trade, not confirmed as official close)",
-    "note": "No 2026-11-17/18/19 close could be confirmed via reachable sources this pass."
+    "note": "Carried forward unchanged. This session's shared WebSearch budget was exhausted before a dedicated IREN query could be run this pass, so no independent re-check of price or catalysts was possible this round."
   },
   "catalysts": [
     {
@@ -264,8 +264,16 @@
     "nextEarnings date: Earnings Whispers and Days.to both now estimate Feb 4, 2027 vs. Chartmill's Feb 3, 2027 -- unreconciled, carried over from the prior pass with an added source on the Feb 4 side."
   ],
   "pendingFilings": [],
-  "notes": "No newer reliably-dated price found this pass that beats the on-file $19.48 (Nov 12, 2026, unconfirmed as an official close); a confirmed close of $21.41 on Nov 9, 2026 was found but is an older date than what's already on file, so price is left unchanged. JPMorgan cut its IREN price target to $55 from $65 around Nov 9, 2026 while keeping an Overweight rating (an analyst action, not treated as a dated catalyst per standing rules).",
+  "notes": "No new research performed this pass due to WebSearch budget exhaustion (shared across parallel agents in this run) -- all fields carried forward unchanged from the Nov 24 pass. Flagging for the next pass: per fundamentals already on file, AI Cloud revenue ($200M) now dwarfs bitcoin-mining revenue ($28M) in the most recent quarter (Q1 FY2027), i.e. the company's revenue mix has shifted decisively toward AI/GPU cloud hosting rather than crypto mining -- the 'Crypto Treasury & Miners' theme label may be worth revisiting, though it is reused as-given here per instructions.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -701,7 +709,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

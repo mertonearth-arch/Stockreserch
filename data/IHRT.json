@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.773Z",
+  "lastResearched": "2026-11-25T21:17:33.518Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -79,8 +79,8 @@
     "last": 0.68,
     "changePct": -61.58,
     "asOf": "2026-11-10",
-    "source": "Kalkine",
-    "note": "No reliable quote newer than 2026-11-10 found this pass."
+    "source": "Kalkine (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found no IHRT quote dated after 2026-11-12 (BofA downgrade day). On-file price carried forward."
   },
   "catalysts": [
     {
@@ -147,14 +147,20 @@
       "source": "https://www.stockopedia.com/share-prices/i-heart-media-NSQ:IHRT/news/brief-i-heart-media-enters-into-transaction-support-agreement-to-strengthen-balance-sheet-019e6db8-c43e-7278-8d36-e38a5110235a/"
     }
   ],
-  "conflicts": [
-    "Post-earnings share-price move magnitude: Kalkine reports -61.58% to $0.68 close on 2026-11-10; StockStory reports -36.9%; Quiver Quant reports ~15% 'after the close' on Nov 9 — all describe the same event but disagree materially.",
-    "Q3 2026 revenue: $1.03B (company release) vs $997M (Quiver Quant).",
-    "Shares outstanding: 154.79M (Fox Business/Equibles) vs 150.64M (MarketBeat) vs 129.55M (separate Equibles short-interest page).",
-    "Debt: gross total debt ~$5,024.3M (Kalkine) is a different measure than company-cited net debt of ~$4.7B."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -61.58%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -292,12 +298,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet this pass: a Levi & Korsinsky shareholder-investigation notice (similar in kind to the SueWallSt notice already on file dated Nov 11) appeared in search results but without an independently confirmed announcement date, so it is not added as a separately dated catalyst. No price or fundamentals update found beyond what's on file.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. No new dated catalysts found; a TNA Wrestling Radio / iHeartRadio partnership (~Nov 16) and a Big Boi podcast launch (~Nov 11) surfaced via WebSearch but are programming announcements, not price-moving corporate events, and are omitted as immaterial. No new price or fundamentals update.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -61.58%",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

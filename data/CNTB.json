@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.784Z",
+  "quietRuns": 1,
+  "lastResearched": "2026-11-25T21:17:33.530Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -60,8 +60,8 @@
   "price": {
     "last": 0.6013,
     "asOf": "2026-11-20",
-    "source": "Benzinga (2:29pm EST)",
-    "note": "Continues the decline from $0.6772 (Nov 13) already on file. No dated news found this pass explaining the drop; no reverse split found (Trendlyne/Benzinga show no split since the ADR program ended), so this is treated as an ordinary price decline rather than a split artifact."
+    "source": "Benzinga (carried forward; no newer confirmed price located this pass)",
+    "note": "No price dated after Nov 20 located despite repeated searches."
   },
   "catalysts": [
     {
@@ -128,8 +128,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Q3 2026 results surfaced this pass (exact release date unconfirmed, likely mid/late Nov 2026): cash $19.5M as of 9/30/26 (down from $46.03M at 3/31/26, already reflecting the heavy cash burn implied by prior passes); company says it will meet FDA in Dec 2026 (asthma) and Q1 2027 (COPD) to discuss potential Phase 3 registrational designs for rademikibart -- these are scheduled discussions, not FDA agreement on a path forward, and have no confirmed calendar date yet so not recorded as dated catalysts. No new price-moving news found beyond the cash update.",
+  "notes": "Quiet pass -- no new dated catalysts or fundamentals beyond what's already on file. The Q3 2026 cash ($19.5M as of 9/30/26) and Phase 2 COPD (81% treatment-failure reduction) figures already on file resurfaced in search results via a Panabee recap but added nothing new; a Benzinga Q3 2026 report-date estimate of 2026-11-24 could not be corroborated with an actual results release this pass.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -410,12 +418,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": false,
-    "changes": [
-      "cash updated"
-    ],
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

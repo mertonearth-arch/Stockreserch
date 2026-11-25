@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.786Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.532Z",
   "fundamentals": {
     "marketCap": {
       "value": 3660000000,
@@ -69,11 +69,10 @@
     }
   },
   "price": {
-    "last": 21.95,
-    "changePct": null,
-    "asOf": "2026-11-13",
-    "source": "Benzinga (7:47pm EST)",
-    "note": "No Nov 19 quote found."
+    "last": 20.07,
+    "asOf": "2026-11-23",
+    "source": "Investing.com",
+    "note": "Day range $19.45-$20.31; previous close also $20.07; average 12-month analyst target cited as $23.22. Supersedes the 2026-11-13 $21.95 figure on file. No Nov 24-25 close confirmed."
   },
   "catalysts": [
     {
@@ -81,6 +80,12 @@
       "type": "insider transaction",
       "headline": "An insider (reported as Executive Chair Heather Hasson) sold approximately $79.7 million of stock after exercising options",
       "source": "https://www.tikr.com/blog/figs-is-up-12-in-a-month-on-a-raised-outlook-its-ceo-sees-sustainable-top-and-bottom-line-momentum-ahead"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "analyst coverage",
+      "headline": "Barclays and KeyBanc both maintained Overweight ratings on FIGS following the Q3 2026 beat-and-raise print.",
+      "source": "https://www.nasdaq.com/articles/figs-consensus-price-target-increased-1572-2346"
     },
     {
       "date": "2026-11-05",
@@ -168,8 +173,18 @@
     "Price (same date, 2026-11-13): quantisnow.com $22.05 vs Benzinga $21.95"
   ],
   "pendingFilings": [],
-  "notes": "Otherwise quiet — no new operating/earnings catalyst since the Nov 5, 2026 Q3 beat-and-raise already on file. Price (Nov 13 AAII close $22.05, -2.78%) is consistent with the figure already on file; no newer dated quote found.",
+  "notes": "Price refreshed and one new dated analyst-coverage catalyst added; no change to fundamentals already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -459,10 +474,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

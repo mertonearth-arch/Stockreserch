@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.796Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.538Z",
   "fundamentals": {
     "marketCap": {
       "value": 1585000000,
@@ -64,8 +64,7 @@
   "price": {
     "last": 16.08,
     "asOf": "2026-11-13",
-    "source": "Motley Fool (via search)",
-    "note": "Close to the file's prior $16.63 (2026-11-03, equibles.com); treated as a minor refresh, not a conflict."
+    "note": "No newer confirmed, dated closing price located this pass. Undated sightings found this pass (Investing.com ~$26.96, Yahoo ~$14.31) conflict sharply with each other and with the file's $16.08 figure, but none carries a usable date, so none is adopted."
   },
   "catalysts": [
     {
@@ -284,12 +283,21 @@
     }
   ],
   "conflicts": [
-    "Market cap: $1.66B at $16.63 (2026-11-03) vs $2.61B (Yahoo, 2026-08-14) vs $2.21B (ROIC.ai) vs an erroneous $46.19B on TipRanks (excluded).",
-    "Fayuvi PRV sale (~$203M) was reported as 'expected to close later in November 2026' but no specific closing date was found — not recorded as a dated catalyst for that reason."
+    "Additional undated price sightings this pass (~$26.96 vs ~$14.31) could not be reconciled or dated; not adopted as current."
   ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-04 workforce-reduction catalyst already on file. Jefferies (Nov 17) and UBS (Nov 16) conference appearances are informational only. The Fayuvi PRV sale (~$203M) is still reported only as 'expected to close later in November' with no specific date, so still not recorded as a dated catalyst.",
+  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-04 workforce-reduction catalyst already on file. The ~$203M Fayuvi priority-review-voucher sale (announced 2026-10-14) still has no confirmed closing date in sources checked this pass, so it remains unrecorded as a dated closing catalyst.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -656,10 +664,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

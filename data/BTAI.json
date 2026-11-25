@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.782Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.528Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -59,10 +59,16 @@
   "price": {
     "last": null,
     "asOf": "2026-11-20",
-    "source": "multiple OTC quote aggregators (see conflicts)",
-    "note": "Could not establish a reliable current price. Ticker is BTAIQ, trading OTC Pink after transfer off Nasdaq effective 2026-09-08."
+    "note": "Still unable to establish a reliable current OTC (BTAIQ) price; sources continue to disagree by orders of magnitude (see conflicts). Carried forward unchanged."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "FDA decision (PDUFA) - RESOLVED",
+      "headline": "FDA approved IGALMI (dexmedetomidine sublingual film) for at-home use in agitation associated with schizophrenia, schizoaffective disorder, or bipolar I or II disorder in adults -- the first FDA-approved at-home treatment for this indication. Approval based on the Phase 3 SERENITY At-Home trial (1,160 agitation episodes across 102 patients). Announced via a Teva Pharmaceuticals press release (Teva acquired worldwide rights to BXCL501/IGALMI in its October 2026 asset-sale completion with BioXcel); commercialization launch date not yet set.",
+      "impact": "Resolves the prior pass's unconfirmed PDUFA outcome (target date was 2026-11-14). Triggers the up-to-$67.5M development milestone payment to the BioXcel estate under the Teva asset-sale agreement, since approval was obtained ahead of the 2027-02-28 outside date referenced in that agreement.",
+      "source": "https://www.psychiatrictimes.com/view/fda-approves-igalmi-for-agitation-associated-with-schizophrenia-schizoaffective-disorder-or-bipolar-i-or-ii-disorder ; https://www.ajmc.com/view/fda-approves-dexmedetomidine-sublingual-film-as-at-home-agitation-therapy ; https://www.drugtopics.com/view/fda-expands-dexmedetomidine-for-at-home-use"
+    },
     {
       "date": "2026-11-14",
       "type": "FDA decision (PDUFA)",
@@ -201,13 +207,24 @@
     }
   ],
   "conflicts": [
-    "BTAIQ price this pass: StockAnalysis shows $0.0075 (-14.77%) at close 2026-11-06; Seeking Alpha shows ~$0.043 (-41.54%) on 2026-09-08; TipRanks shows a trailing 12-month range of $0.01–$2.33 with no date given. These do not reconcile to a single current price — consistent with the prior pass's flag of 'wildly inconsistent' OTC quotes; no confident current price is reported.",
-    "FDA decision on the IGALMI at-home-use sNDA (PDUFA target date 2026-11-14): one low-reliability outlet (pharmanow.live, dated 2026-11-17, citing a secondary Indian source) reports FDA approval; another (2minutemedicine.com, also dated 2026-11-17) reports the application remains under FDA review with no approval yet granted. No company press release or FDA listing confirming either claim was found this pass.",
-    "Teva asset-sale deal terms differ by source: FierceBiotech/FiercePharma cite $57.5M upfront plus up to $67.5M in milestones; Hartford Business cites up to $20M in additional sales-threshold payments. Not reconciled."
+    "BTAIQ price: sources continue to disagree by orders of magnitude (e.g. StockAnalysis ~$0.0075 on 2026-11-06 vs Seeking Alpha ~$0.043 on 2026-09-08 vs a TipRanks 12-month range of $0.01-$2.33, undated) -- not reconciled; no confident current price reported.",
+    "Teva asset-sale deal terms still differ by source: most cite $57.5M-$58M upfront plus up to $67.5M-$68M in development milestones and up to $20M in commercial milestones; totals cited elsewhere range as high as ~$125M-$145M -- not reconciled.",
+    "One secondary aggregator (panabee.com, undated) reports BioXcel plans to rename itself 'BX Liquidation, Inc.' as part of a corporate wind-down following the Teva sale completion; no primary company filing or second independent source confirming this rename was found this pass, so it is NOT recorded as a dated catalyst -- flagged here for verification only."
   ],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). The Nov 14, 2026 PDUFA target action date for IGALMI's at-home-use sNDA has now passed (9 days ago), but no FDA approval/decision outcome could be confirmed this pass either -- WebSearch returned only pre-PDUFA-date background (the Nov 13 psychiatrictimes.com timeline, the original sNDA acceptance). This open question (already flagged in the file's existing conflicts) remains unresolved. Treated as quiet; no fields changed.",
+  "notes": "The prior pass's open question (FDA decision outcome on the at-home IGALMI sNDA, PDUFA target 2026-11-14) is now resolved: approval was granted 2026-11-16 per Teva's press release, confirmed by multiple independent trade-press outlets (Psychiatric Times, AJMC, Drug Topics, Managed Healthcare Executive). This should trigger the related Teva milestone payment to the BioXcel estate. Separately, an unconfirmed report of a 'BX Liquidation, Inc.' renaming/wind-down needs independent confirmation before being treated as fact.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -564,10 +581,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

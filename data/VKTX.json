@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.799Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-25T21:17:33.541Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -70,8 +70,8 @@
     "changePct": 5.95,
     "rvol": null,
     "asOf": "2026-11-13",
-    "source": "equibles.com",
-    "note": "No confirmed close newer than 2026-11-13 located. A separate, likely unreliable RTTNews-sourced snippet implies a close near $41.65 on ~2026-11-14 pulling back to $35.32 on 2026-11-15 -- roughly 40% above the $29.22 figure and not reconciled; see conflicts."
+    "source": "equibles.com; re-confirmed by Trefis this pass",
+    "note": "Trefis independently corroborated the file's 2026-11-13 figure this pass (close $29.22, +5.9% that Friday vs. S&P 500 -0.4%). No quote newer than 2026-11-13 located despite searching."
   },
   "catalysts": [
     {
@@ -205,8 +205,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Genuinely quiet pass: no new dated catalysts beyond the ObesityWeek 2026 presentations / takeover-speculation reversal already on file. Confirmed VANQUISH Phase 3 topline data is not expected until 2027 (consistent with file). An undated RTTNews snippet showing a $25.36 close does not carry a confirmable date distinct from -- and is inconsistent with -- the file's dated $29.22 (2026-11-13), so it was not used. Record left unchanged.",
+  "notes": "Quiet PM full pass: no new dated catalysts found beyond the ObesityWeek 2026 presentations and takeover-speculation reversal already on file. The Nov 13 buyout-speculation price move was independently re-confirmed via a second source (Trefis), but no catalyst for the move itself (reason) was identified by either source. Record otherwise unchanged.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -556,7 +564,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

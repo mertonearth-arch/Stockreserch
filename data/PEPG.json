@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.795Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.538Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -74,11 +74,11 @@
     "revenue": []
   },
   "price": {
-    "last": 4.255,
-    "changePct": -2.41,
-    "asOf": "2026-11-16",
+    "last": 3.93,
+    "changePct": 2.61,
+    "asOf": "2026-11-19",
     "source": "AAII",
-    "note": "Supersedes the 2026-11-11 $5.26 figure already on file; stock has pulled back from the post-data/offering-pricing spike."
+    "note": "No confirmed closing price for the Nov 20-25, 2026 window was located this pass despite multiple searches (WebFetch to Yahoo/Finviz/MarketWatch/Nasdaq/AAII/Benzinga/StockTitan/SEC was blocked at the network layer this session — all returned DNS/connection failures). This Nov 19 AAII reading remains the most recent confirmed-dated figure. A same-day Kalkine intraday snapshot of $4.16 (+8.82%) is already flagged as an unreconciled conflict in the existing record."
   },
   "catalysts": [
     {
@@ -153,11 +153,20 @@
     }
   ],
   "conflicts": [
-    "Market cap: Yahoo Finance shows ~$302M intraday vs. ~$350M as of 2026-11-12 in a different pulled snapshot — likely reflects the price/share-count movement around the Nov 11-13 public offering; not reconciled, neither used as a reported figure this pass.",
-    "Price Nov 19, 2026: three sources disagree — $3.930 (4:00 PM CST reading), $3.94 (+2.88%), and $4.16 (+8.82%) — none independently confirmed as the actual close; the file's last confirmed dated price remains $4.255 (2026-11-16, AAII)."
+    "No source located this pass with a clean, dated close for Nov 20 through Nov 25, 2026; the $3.93 (2026-11-19, AAII) figure is carried forward as the best-available dated price. Existing Nov 19 three-way conflict ($3.93 vs $3.94 vs $4.16) remains unresolved."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -302,12 +311,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No company announcement located explaining the Nov 19 move; one secondary analysis flags the unresolved US clinical hold as a continuing risk, undated so not recorded as a catalyst. Genuinely quiet this pass beyond the unresolved price conflict above — no new catalyst found since the 2026-11-13 offering close already on file.",
+  "notes": "Genuinely quiet this pass — no catalysts found dated after the 2026-11-13 offering close already on file. No company announcement located explaining any move between Nov 19 and Nov 25.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

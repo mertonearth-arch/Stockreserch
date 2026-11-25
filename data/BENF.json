@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.780Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.526Z",
   "fundamentals": {
     "marketCap": {
       "value": 9090000,
@@ -65,9 +65,17 @@
     "changePct": -6.15,
     "rvol": null,
     "asOf": "2026-11-19",
-    "source": "Morningstar (delayed quote)"
+    "source": "Morningstar (re-confirmed this pass; most recent individual-session figure found was $0.56 on 2026-11-17)",
+    "note": "No quote newer than 2026-11-19 located despite searching."
   },
   "catalysts": [
+    {
+      "date": "2026-11-16",
+      "type": "earnings",
+      "headline": "Beneficient reported fiscal Q2 2027 results (quarter ended 2026-09-30): operating expenses fell ~7% to $14.1M (including a $1.5M goodwill impairment); adjusted operating expenses down ~20% to $10.7M excluding the loss-contingency accrual, related interest, and the impairment; adjusted segment results swung from $4.2M of income to a $20.4M loss (secondary-source estimate), driven by credit losses tied to lower NAVs and asset sales; cash rose to $7.5M from $2.5M at fiscal year-end; closed a $7.4M GP primary-capital transaction and a second collateral-management engagement; reiterated progress (no binding terms yet) toward eliminating the ~$130M disputed HCLP Nominees debt tied to former CEO Bradley Heppner, whose sentencing is now scheduled for 2027-01-11",
+      "impact": null,
+      "source": "https://www.panabee.com/news/beneficient-earnings-q2-2027 ; last10k.com SEC filing aggregation"
+    },
     {
       "date": "2026-11-12",
       "type": "regulatory/listing",
@@ -198,14 +206,21 @@
       "source": "search aggregation (iTiger/TipRanks)"
     }
   ],
-  "conflicts": [
-    "Price (both delayed quotes dated 2026-11-19): Morningstar $0.49 (-6.15%) vs Massive $0.538 (-4.15%, as of 6:23am EST).",
-    "Shares outstanding: Morningstar 19,180,000 (2026-11-19) vs massive.com 18,960,000 (2026-10-26) vs Equibles 15,460,000 vs ChartExchange 14,363,634 (likely stale, pre-reverse-split).",
-    "Price history is not comparable across the 2025-12-15 1-for-8 reverse split."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). Most recent dated item found (Nov 17 close $0.56, -10.2%) is consistent with the decline already reflected on file as of Nov 19 ($0.49). No new Nasdaq/legal filing found for Nov 21-23. Treated as quiet.",
+  "notes": "This earnings report (cash/debt figures) was already reflected in the fundamentals on file but had not previously been logged as a dated catalyst; added this pass. No new Nasdaq-compliance or legal update found beyond the 2026-11-05/11-12 notice and the Heppner sentencing date already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -525,10 +540,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

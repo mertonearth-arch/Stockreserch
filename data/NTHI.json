@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.793Z",
+  "lastResearched": "2026-11-25T21:17:33.536Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -58,9 +58,16 @@
     "rvol": null,
     "asOf": "2026-11-13",
     "source": "TradersUnion",
-    "note": "Single-sourced figure, not cross-verified against a second service. No confirmed close found for Nov 17-20 despite the Nov 17 Phase 2a data update already on file. Given as the most recent dated figure located this pass; treat with caution given the conflicts below."
+    "note": "No newer confirmed price found this pass despite the major Nov 23 FDA news below; carried forward from the prior pass's single-sourced reading."
   },
   "catalysts": [
+    {
+      "date": "2026-11-23",
+      "type": "regulatory",
+      "headline": "NeOnc's rescheduled FDA End-of-Phase 1 Type B meeting for oral NEO212 (recurrent glioblastoma) was held as planned. Per the company's own announcement, the FDA agreed to a single randomized, controlled study design intended to support a future marketing application, and agreed to an accelerated-approval pathway based on a planned interim analysis of tumor response/duration of response, with continued follow-up in the same study to verify clinical benefit.",
+      "impact": "Potentially significant positive regulatory development if confirmed by FDA's official meeting minutes; company explicitly cautions its summary remains subject to those minutes and does not itself guarantee eventual approval.",
+      "source": "https://stocktwits.com/news-articles/business/others/ne-onc-announces-fda-agreement-on-single-study-design-and-accelerated-approval-pathway-for-neo-212/cNbs9oGR9kF ; https://www.tipranks.com/news/the-fly/neonc-reaches-fda-agreement-on-neo212-study-and-accelerated-approval-path-thefly-news"
+    },
     {
       "date": "2026-11-19",
       "type": "regulatory",
@@ -233,12 +240,21 @@
       "note": "Background context cited in coverage of the Sept 17 redemption; exact June date not pinned down."
     }
   ],
-  "conflicts": [
-    "Price trail this pass is internally inconsistent, with each figure coming from only one source: Fool.com shows a $3.20 close on 2026-11-05 (intraday high ~$3.37); Global Banking & Finance shows a $3.74 close on 2026-11-09 (+7.16%); TradersUnion shows $4.85 on 2026-11-13. This could reflect a genuine run-up ahead of the Nov 17 Phase 2a update, but none of it was independently cross-checked, so it is reported as a possible trend rather than a reconciled price series."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "The company's own 2026-11-17 FDA meeting was NOT held as previously recorded -- it was rescheduled to 2026-11-23. Existing file catalysts dated 2026-11-17 describing the meeting's agenda remain accurate as to what was planned, but any implication the meeting took place should be disregarded until a post-meeting outcome is reported.",
+  "notes": "Major update this pass: the FDA meeting rescheduled to 2026-11-23 (flagged as not-yet-occurred in the prior pass) did take place, and per the company's own characterization the FDA agreed to a single pivotal study design and an accelerated-approval pathway for NEO212 -- this is the company's characterization only, not yet independently confirmed via FDA's official minutes. No newer stock price than the existing single-sourced $4.85 (2026-11-13, TradersUnion) was found this pass.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -566,11 +582,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": false,
     "changes": [
-      "1 new catalyst(s)"
+      "1 new catalyst(s)",
+      "conflict resolved"
     ],
     "tradingDay": true
   }

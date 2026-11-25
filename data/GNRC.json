@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.789Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-25T21:17:33.533Z",
   "fundamentals": {
     "marketCap": {
       "value": 11550000000,
@@ -77,7 +77,7 @@
     "rvol": null,
     "asOf": "2026-11-18",
     "source": "Charles Schwab (intraday, 2:45pm ET)",
-    "note": "Updates the prior $185.62 (Nov 16) figure; no official close confirmed, and no Nov 19-23 quote located."
+    "note": "No fresher dated close located this pass despite a dedicated search."
   },
   "catalysts": [
     {
@@ -172,8 +172,16 @@
     "nextEarnings date estimates for Q4/FY2026 differ by a day across aggregators: Feb 9, 2027 (FXEmpire) vs. Feb 10, 2027 (other aggregator coverage)."
   ],
   "pendingFilings": [],
-  "notes": "Q3 2026 results (reported ~Nov 4, 2026, consistent with the on-file lastCat): non-GAAP EPS $2.54 (beat a consensus cited variously as $2.38-$2.43) on revenue of $1.29B (+16.2% YoY), which missed revenue consensus; shares fell on the revenue miss despite the EPS beat. Residential segment revenue +9% YoY. No price newer than the on-file $185.62 (Nov 16, financialcontent.com) was confirmed this pass.",
+  "notes": "Quiet pass -- no new dated catalyst found since the Nov 23 pass. Analyst price-target aggregation this pass (undated, not treated as a catalyst): consensus clusters around $283-293 across Google Finance (14 Buy/5 Hold/0 Sell, avg $293), Fox Business (avg ~$292.88 across 24 ratings), StockAnalysis (avg $283.88, 21 analysts), consistent with the Amazon data-center-backlog growth narrative already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -496,7 +504,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

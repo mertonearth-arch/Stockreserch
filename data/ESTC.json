@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.785Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.531Z",
   "fundamentals": {
     "marketCap": {
       "value": 9080000000,
@@ -77,13 +77,19 @@
     }
   },
   "price": {
-    "last": 86.44,
-    "changePct": null,
-    "asOf": "2026-11-06",
-    "source": "Marketchameleon (stale, carried forward)",
-    "note": "No confirmed post-earnings closing price located this pass. SiliconANGLE reported shares fell ~8% in regular trading ahead of the Nov 19 report and another ~8% after-hours following it (on weak Q3 guidance), but no absolute price point was corroborated to update the figure on file."
+    "last": 74.79,
+    "asOf": "2026-11-22",
+    "source": "Investing.com",
+    "note": "Day range $72.50-$78.48; 52-week range $42.05-$108.00; average 12-month analyst target cited as $103.74. Supersedes the stale 2026-11-06 $86.44 figure on file, reflecting the post-Q2-FY2027-earnings decline on weak Q3 guidance already documented in catalysts. No Nov 23-25 close confirmed."
   },
   "catalysts": [
+    {
+      "date": "2026-11-20",
+      "type": "analyst coverage",
+      "headline": "Following the Q2 FY2027 beat-and-weak-guide print, Stifel and RBC maintained Buy ratings; TD Cowen and Morgan Stanley maintained Hold ratings; Monness, Crespi, Hardt downgraded the stock.",
+      "impact": "Mixed sell-side reaction to the quarter",
+      "source": "https://www.investing.com/equities/elastic"
+    },
     {
       "date": "2026-11-19",
       "type": "earnings",
@@ -171,8 +177,18 @@
     "Cash: one aggregator shows $1.02B cash vs $596.43M debt (net cash $421.37M); Yahoo shows $1.46B total cash vs $595.77M debt; Equibles shows two different net-cash figures on different pages ($889.85M and $197.8M). Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Resolves the prior pass's open item: the actual Q2 FY2027 print (not just guidance) is now confirmed. Beat-and-raise on the quarter just reported, but weaker-than-expected forward guidance drove the stock reaction.",
+  "notes": "Price and one new analyst-reaction catalyst added; no change to fundamentals already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -536,10 +552,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

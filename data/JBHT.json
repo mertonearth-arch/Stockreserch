@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.791Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.535Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
@@ -78,9 +78,16 @@
     "rvol": null,
     "asOf": "2026-11-20",
     "source": "Benzinga",
-    "note": "Updates the prior $227.66 (Nov 11, Motley Fool) figure; no Nov 23 quote confirmed."
+    "note": "No fresher dated close located this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-12-02",
+      "type": "other",
+      "headline": "J.B. Hunt scheduled to participate in a further investor conference on Wednesday, Dec 2, 2026 (per aggregator coverage of the company's conference-participation announcements).",
+      "impact": "Routine, forward-dated IR event; no new financial disclosure expected.",
+      "source": null
+    },
     {
       "date": "2026-11-17",
       "type": "other",
@@ -196,8 +203,18 @@
     "Price: Fox Business shows a $218.54 close as of 2026-11-06 4:00pm EDT, vs. the $227.66 figure previously on file (Motley Fool, asOf 2026-11-11) — not reconciled; separate undated Yahoo/Morningstar snapshots in the $226-$235 range add further noise and cannot be dated."
   ],
   "pendingFilings": [],
-  "notes": "Next-earnings date conflict resolved this pass: company has confirmed Jan 15, 2027 for Q4/FY2026 results (quiet period starts Dec 20, 2026), superseding the prior unreconciled Jan 14/15/21 estimates.",
+  "notes": "Otherwise a quiet pass -- no new dated catalyst beyond the already-on-file Nov 6 dividend declaration and Nov 10/17 investor-conference participations. Next earnings (Q4/FY2026) remains company-confirmed for Jan 15, 2027.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -467,10 +484,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)"
+    ],
     "tradingDay": true
   }
 }

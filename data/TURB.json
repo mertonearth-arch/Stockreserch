@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.799Z",
+  "quietRuns": 2,
+  "lastResearched": "2026-11-25T21:17:33.540Z",
   "fundamentals": {
     "marketCap": {
       "value": 10560000,
@@ -58,7 +58,7 @@
     "rvol": null,
     "asOf": "2026-11-12",
     "source": "Yahoo Finance (via search)",
-    "note": "Firmed slightly from the file's $0.81 (2026-11-06). No reliable quote found after the 2026-11-17 acquisition announcement despite searching."
+    "note": "No confirmed quote newer than 2026-11-12 located this pass. Other dated snapshots found this pass (Tickertape $0.87 as of 2026-11-05; INDmoney/Stockevents $0.81 as of 2026-11-07) all predate the figure already on file, so they were not substituted."
   },
   "catalysts": [
     {
@@ -159,8 +159,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "Genuinely quiet pass on the IM2/Greentech acquisition: no shareholder-vote date, outcome, or new filing located despite searching; the EGM is on file for 2026-12-14. No reliable price newer than the file's 2026-11-12 figure found. Record left unchanged.",
+  "notes": "Quiet PM full pass: the proposed related-party IM2/Greentech acquisition remains pending shareholder approval at the Extraordinary General Meeting confirmed for 2026-12-14 (unchanged from file; a parallel Umbrella Global Energy EGM is also convened for that date, per the same SEC 6-K). No vote outcome, new filing, or price beyond what's already on record was found. Record left unchanged.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -419,7 +427,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

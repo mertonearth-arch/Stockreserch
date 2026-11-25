@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.774Z",
+  "lastResearched": "2026-11-25T21:17:33.520Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -57,9 +57,11 @@
   },
   "price": {
     "last": 138.47,
+    "changePct": -16.4,
+    "rvol": null,
     "asOf": "2026-11-19",
-    "source": "Benzinga quote page",
-    "note": "Confirmed close, newer than the on-file 2026-11-17 $148.74 (Schwab, backed out of an intraday previous-close figure). changePct not computed -- no reliably-dated prior-session close found to diff against. No quote newer than Nov 19 located this pass (pre-market hour, most finance sites unreachable from this sandbox)."
+    "source": "WebSearch aggregation (Fool.com-derived), corroborating the on-file Benzinga close",
+    "note": "No confirmed close found for 2026-11-20 through 2026-11-25 this pass (WebSearch budget was exhausted mid-pass before further confirmation). changePct -16.4% for the on-file Nov 19 $138.47 close is newly confirmed this pass (same session, S&P 500 -4.4%, per the same source). One unconfirmed secondary mention (M1.com, citing a Nov 20 story) cites $122.99 'in afternoon trading' on 2026-11-20 -- not used as a price reading, see conflicts."
   },
   "catalysts": [
     {
@@ -236,11 +238,22 @@
     }
   ],
   "conflicts": [
-    "Market cap: Fox Business $123.82B at $154.39 (Nov 11) vs Equibles $137.46B at $156.76 (Nov 13) vs Trefis $137.2B at $152.50 (Nov 15) — unreconciled."
+    "Unconfirmed secondary report (M1.com) cites MRVL at $122.99 'in afternoon trading' on 2026-11-20, described as down ~49% over the trailing month; single-source and not corroborated by any other reading this pass, so not used."
   ],
   "pendingFilings": [],
-  "notes": "Three new catalysts found this pass (board appointments, dividend declaration, Penguin Solutions AI-memory collaboration) not previously on file. Dec 1, 2026 Q3 FY2027 earnings date remains confirmed and unchanged.",
+  "notes": "PM pass 2026-11-25: No new dated catalyst found beyond what's on file. Dec 1, 2026 Q3 FY2027 earnings remains the next confirmed catalyst (one source cites a consensus estimate of ~$1.04 EPS / ~$3.2B revenue -- analyst consensus, not company guidance). WebSearch's per-turn search budget was exhausted before Nov 20-25 pricing could be independently confirmed.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -16.4%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -598,10 +611,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -16.4%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

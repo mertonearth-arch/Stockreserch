@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.771Z",
+  "lastResearched": "2026-11-25T21:17:33.514Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -78,8 +78,8 @@
     "last": 60.17,
     "changePct": 0.3,
     "asOf": "2026-11-13",
-    "source": "AAII",
-    "note": "No quote newer than 2026-11-13 found this pass."
+    "source": "AAII (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only a stale Trefis snapshot (~$61.48 as of 2026-11-05). No price newer than the on-file 2026-11-13 figure was established."
   },
   "catalysts": [
     {
@@ -279,14 +279,20 @@
       "source": "https://www.businesswire.com/news/home/20260730727743/en/"
     }
   ],
-  "conflicts": [
-    "Market cap: $23.43B (Motley Fool) vs $23.08B (Equibles) vs $21.97B (TipRanks, appears stale) — not reconciled.",
-    "Debt: Motley Fool total debt $42.70B vs Equibles $40.806B long-term (+current/LOC ~$42.8B) as of 2026-09-30 — close but not confirmed identical.",
-    "Q3 2025 core EPS: one source says $1.92 fell from $2.34 YoY; on-file figure from a prior pass states $2.16 for Q3 2025. Both retained verbatim."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-24: WebSearch for EIX/wildfire news turned up only items already on file or older (Aug 2026 Bloomberg Law equipment-cause report, a $6.2B mitigation plan, a 12,000-participant compensation-program update) with no date past 2026-11-13. The Nov 15 special-legislative-session deadline and the Nov 30 Wildfire Recovery Compensation Program deadline remain unresolved/upcoming as already on file. Genuinely quiet.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. No EIX/wildfire news dated 2026-11-24 or 2026-11-25 found. The two on-file upcoming watch items -- the Nov 15 special-legislative-session deadline and the Nov 30 Wildfire Recovery Compensation Program deadline -- were not independently re-confirmed or resolved this pass; the Nov 30 deadline is now five days out.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -704,10 +710,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

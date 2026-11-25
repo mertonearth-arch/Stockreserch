@@ -4,11 +4,11 @@
   "sector": "Financials",
   "theme": "Crypto Treasury & Miners",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.782Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.528Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -58,8 +58,7 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-20",
-    "source": "Robinhood quote page (day range $12.83-$15.17 listed as of 2026-11-20)",
-    "note": "Supersedes the $16.58 (2026-11-16) figure on file -- continued decline, consistent with ETH spot price weakness (ETH down to ~$1,795-$1,828 per the file's existing notes). Not independently cross-confirmed against a second dated source this pass; no Nov 21-23 holdings press release found (latest confirmed holdings update remains the Nov 15 figure already on file: 6.08M ETH, $11.8B total)."
+    "note": "No quote newer than 2026-11-20 could be confirmed this pass; sources found were conflicting and largely undated (consistent with the issue already flagged on file). Carried forward unchanged."
   },
   "catalysts": [
     {
@@ -173,8 +172,16 @@
   ],
   "conflicts": [],
   "pendingFilings": [],
-  "notes": "No new ETH-holdings press release found past the Nov 15 one already on file. Price updated per above; otherwise quiet.",
+  "notes": "Quiet pass. No ETH-holdings press release found past the 2026-11-15 one already on file (6.08M ETH / 6,077,745 tokens, ~4.97% of supply, $11.8B total crypto+cash+securities, $448M cash & marketable securities, ETH ~$1,823/token); this matches the record on file, no update.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -513,7 +520,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

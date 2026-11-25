@@ -4,11 +4,11 @@
   "sector": "Financial Services",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.785Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.531Z",
   "fundamentals": {
     "marketCap": {
       "value": 4430000000,
@@ -74,10 +74,10 @@
     }
   },
   "price": {
-    "last": 168.34,
-    "asOf": "2026-11-09",
-    "source": "Benzinga",
-    "note": "Supersedes the 2026-10-29 $182.18 figure on file. An intermediate close of $174.09 was found for 2026-10-30. See conflicts for a discordant '$119.49 Nov 18 low' figure that could not be reconciled and was not used."
+    "last": 171.16,
+    "asOf": "2026-11-11",
+    "source": "aggregator snapshot (quiverquant.com)",
+    "note": "Supersedes the 2026-11-09 $168.34 figure on file. No price dated after Nov 11 located despite repeated searches; an undated/unreconciled '$119.49' figure found in a prior pass remains excluded."
   },
   "catalysts": [
     {
@@ -171,8 +171,16 @@
     "ENVA Q3 2026 EPS: Zacks describes a beat ($4.48 actual vs. $4.46 est.); a separate aggregator listing (dated around 2026-10-22 in search snippet) describes a miss. Not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass — no news dated after the Nov 10, 2026 $500M buyback authorization already on file. Next earnings date still unconfirmed (Benzinga 2027-01-26 vs. Halo Technologies 2027-02-04 estimate on file).",
+  "notes": "Quiet pass -- no new dated catalysts found beyond the Nov 10 $500M buyback authorization already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -457,7 +465,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.772Z",
+  "lastResearched": "2026-11-25T21:17:33.517Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -89,8 +89,8 @@
     "last": 9.97,
     "changePct": null,
     "asOf": "2026-11-12",
-    "source": "investing.com",
-    "note": "No quote newer than 2026-11-12 found this pass; other snapshots found (e.g. ~$7.62-$7.87) are undated/unreliable and not used."
+    "source": "investing.com (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only stale/conflicting undated snapshots (Yahoo Finance $6.73, -2.75%; Motley Fool $7.81 tied to a Nov 6 close) that predate or conflict with the on-file $9.97 figure and were not used."
   },
   "catalysts": [
     {
@@ -179,13 +179,19 @@
       "source": "https://www.benzinga.com/quote/FOSL/charts"
     }
   ],
-  "conflicts": [
-    "Q3 2026 revenue: ~$271.2M (consensus-beat reporting) vs ~$276M (MarketBeat); a third source (Panabee) reports a ~$11M net loss, conflicting outright with the company-reported $11.7M net income.",
-    "Short interest: Massive.com shows 5.66M shares short as of 2026-09-30 (7.0 days to cover) vs Equibles showing 7.4M shares/12.5% of float/10.9 days to cover as of 2026-10-01.",
-    "Market cap/shares outstanding snapshot ($390.31M/59.14M shares, 2026-10-26) predates the Nov 10 earnings pop; treat as stale."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -329,12 +335,14 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet this pass: nothing dated after 2026-11-17 (Craig-Hallum conference, already on file) found via WebSearch. The Dec 16 Northland conference remains the only confirmed upcoming date.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. Nothing dated after the on-file 2026-11-17 Craig-Hallum conference item was found. The Dec 16, 2026 Northland Capital Markets conference remains the only confirmed upcoming date on file.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

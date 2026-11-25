@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.792Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.535Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -73,12 +73,12 @@
     }
   },
   "price": {
-    "last": 3,
-    "changePct": -6.39,
+    "last": 2.92,
+    "changePct": 12.74,
     "rvol": null,
-    "asOf": "2026-11-16",
-    "source": "CoinGlass",
-    "note": "Previous close $3.21; intraday range $2.88-$3.07"
+    "asOf": "2026-11-23",
+    "source": "StockInvest.us / StockAnalysis.com / Morningstar (consistent)",
+    "note": "Previous close $2.59. Supersedes the file's $3.00 (2026-11-16, CoinGlass). No confirmed close located for Nov 24-25 this pass; the reason for the +12.74% move was not identified in sources reviewed."
   },
   "catalysts": [
     {
@@ -117,10 +117,21 @@
     }
   ],
   "conflicts": [
-    "Price sourcing is inconsistent, and the file's source (CoinGlass, primarily a crypto-derivatives data site) is an unusual source for this equity: file shows $3.00 as of 2026-11-16, while Benzinga reported ~$4.94 as of 2026-11-09 and AAII showed $4.137 as of 2026-10-22 — a roughly 40% implied one-week drop that could not be independently confirmed this pass."
+    "StockAnalysis.com surfaced a conflicting $14.66 figure nominally for the same 2026-11-23 close, alongside its own $2.915 figure (~5x apart) -- not reconciled; likely a stale/mislabeled cached value rather than a reverse-split, not adopted."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move 12.74%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -247,12 +258,15 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst found this pass. A Benzinga snapshot shows $4.9383 last updated 2026-11-09, attributed to a 'silicon photonics deal and AI infrastructure focus' with no further detail found; this is the same figure already flagged as an unresolved conflict against the file's $3.00 (2026-11-16, CoinGlass) price. Not re-resolved this pass; left as-is rather than guessed.",
+  "notes": "No new dated catalyst found this pass. Price updated to a newer, mutually consistent reading (StockInvest.us/StockAnalysis.com/Morningstar) of $2.92 close on 2026-11-23 (+12.74%), superseding the file's 2026-11-16 CoinGlass-sourced $3.00. No confirmed close for Nov 24-25 located. The existing CoinGlass-vs-Benzinga price conflict already on file was not re-resolved this pass.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move 12.74%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.783Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.529Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -71,14 +71,21 @@
     }
   },
   "price": {
-    "last": 6.86,
+    "last": 6.56,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-11-13",
-    "source": "MarketChameleon",
-    "note": "a same-day intraday Webull snapshot ($6.725, -6% from a $7.15 prior close, at 1:46pm CST 2026-11-13) is broadly consistent"
+    "asOf": "2026-11-19",
+    "source": "Upstox",
+    "note": "Most recent reliably dated quote found this pass; no confirmed close for Nov 20-25 located despite repeated searches. Widely conflicting undated snapshots ($15.36-$24) on other aggregators were excluded as stale/unreliable."
   },
   "catalysts": [
+    {
+      "date": "2026-11-04",
+      "type": "political/regulatory risk",
+      "headline": "Shares fell ~19%-21% the day after Democrat Gina Hinojosa won the Texas governor's race on a platform calling for a moratorium on new data-center permitting ('That stops when I'm governor'); all of Cipher's (Cipher Digital's) campuses are in Texas. Stock closed around $6.53-$6.60 on Nov 4, down roughly 20% from its Nov 3 close, extending losses already underway from an earlier Aug/Sept Texas data-center-permit-audit directive from Gov. Abbott.",
+      "impact": "Largest one-day political/regulatory-risk decline found this pass; underscores concentration risk from the company's all-Texas AI/HPC colocation footprint (Hinojosa takes office in January 2027)",
+      "source": "https://www.tikr.com/blog/hinojosa-abbott-started-the-data-center-madness-cipher-digital-lost-21-the-next-day ; https://crypto.news/cipher-digital-shares-fall-texas-governor-election/ ; https://pro.edgex.exchange/en-US/news/article/cipher-mining-stock-falls-after-texas-election-upset ; https://www.coincentral.com/cipher-digital-cifr-stock-falls-20-after-texas-governor-upset/"
+    },
     {
       "date": "2026-11-03",
       "type": "price action",
@@ -178,13 +185,22 @@
     }
   ],
   "conflicts": [
-    "Shares outstanding: 371.1M (TipRanks) vs 415.0M (Value Research, 2026-09-10) vs 395.1M (SimplyWall St, undated) vs ~393M (stockanalysis.com, undated) — not reconciled.",
-    "Debt: Digrin $8.3M (2026-03-31) vs $2.7B (2025-12-31) vs another snapshot $4.38B total debt against $714M equity (Q1 2026) — sources appear to define 'debt' inconsistently and/or reflect different dates.",
-    "Market cap/price: snapshots from 2026-07 to 2026-11 range widely; $6.86 (2026-11-13, MarketChameleon) remains the best-anchored recent figure."
+    "Price: Upstox $6.56 (2026-11-19) vs Google Finance/Coinbase ~$23-$24 (undated) vs Coinglass $15.36 (2026-08-25) -- wide discrepancy across aggregators this pass, likely stale caching on some sites rather than a reverse split (none corroborated). Treating $6.56 as the working price since it is the most recently dated figure and is consistent with the post-Nov-4 selloff trajectory already on file ($6.86 on 2026-11-13)."
   ],
   "pendingFilings": [],
-  "notes": "No new catalysts found for the Nov 21-23 window. One source referenced a Friday Nov 20 ~10% stock decline, but neither a primary-sourced close price nor a specific cause for that session could be confirmed this pass -- flagging but not recording as a figure. Otherwise quiet; nextEarnings is the only confirmed update.",
+  "notes": "New catalyst found this pass: the Nov 3-4 Texas gubernatorial election result (Hinojosa win) triggered a sharp selloff given Cipher's all-Texas AI/HPC campus footprint -- not previously on file. Theme tension: the company continues pivoting toward AI/HPC data-center leasing (rebranded 'Cipher Digital', first HPC lease revenue recognized) which sits increasingly awkwardly with the 'Crypto Treasury & Miners' label, though bitcoin mining remains a current revenue contributor; flagging per instructions rather than changing the theme string.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -453,10 +469,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

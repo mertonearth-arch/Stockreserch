@@ -4,11 +4,11 @@
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "hype sector",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.796Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.538Z",
   "fundamentals": {
     "marketCap": {
       "value": 1388000000,
@@ -70,8 +70,8 @@
   "price": {
     "last": 22,
     "asOf": "2026-11-06",
-    "source": "Benzinga (via search)",
-    "note": "Wedbush showed $22.97 close on 2026-11-02; stockevents.app shows an undated $21.70. No later-November dated reading located."
+    "source": "Benzinga",
+    "note": "No newer confirmed price located this pass; Benzinga's $22.00 figure (last updated 2026-11-06 5:39pm ET) is unchanged from the figure already on file. Other sightings this pass (Investing.com ~$18.03, Stocktwits ~$15.53) are undated/stale snapshots from earlier in 2026 and are not used."
   },
   "catalysts": [
     {
@@ -198,8 +198,16 @@
     "Revenue 'miss' comparison basis varies: consensus cited as $7.15M by one source, $6.21M by another, against the same $5.2M actual Q3 2026 revenue."
   ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet this pass — no uniQure-specific news located dated after the 2026-11-04 Q3 earnings/FDA BLA acceptance catalysts already on file. UBS conference appearance (Nov 16) is informational only, not recorded as a catalyst.",
+  "notes": "Genuinely quiet this pass — no uniQure-specific news located dated after the 2026-11-04 Q3 earnings/FDA BLA Priority Review acceptance already on file. The FDA's tentative plan to hold an advisory committee meeting on AMT-130 is reconfirmed by secondary coverage, but still with no meeting date set, so not recorded as a new dated catalyst.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -548,7 +556,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

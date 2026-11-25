@@ -4,11 +4,11 @@
   "sector": "Industrials",
   "theme": "Advanced Materials",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.787Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.533Z",
   "fundamentals": {
     "marketCap": {
       "value": 91420000000,
@@ -74,8 +74,8 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-21",
-    "source": "Investing.com (via search)",
-    "note": "Supersedes the 2026-11-17 $108.49 figure on file -- a sharp further decline (prior close listed as $105.97); cause not identified this pass, no dated company-specific news found to explain it."
+    "source": "Investing.com",
+    "note": "Independently re-confirmed this pass via a separate WebSearch (same $94.38 last / $105.97 prior-close figures as already on file). No close dated after Nov 21 was located."
   },
   "catalysts": [
     {
@@ -163,8 +163,16 @@
     "nextEarnings date for Q4 2026: estimates cluster around Jan 26-27, 2027 (Walnut Invest / Zacks-linked coverage) vs. an outlying Apr 26, 2027 figure from Chartmill that appears mislabeled -- unresolved, carried over from the prior pass."
   ],
   "pendingFilings": [],
-  "notes": "No major new dated catalyst found beyond the routine dividend and continued coverage of the Q3 2026 beat (EPS $0.91 vs. ~$0.88 est., revenue $5.08B vs. ~$5.03B est., reported ~Oct 27, 2026) and AI-datacenter-driven optical-connectivity demand -- consistent with the prior pass's vague MarketBeat 'key catalyst' flag. Analyst actions this pass (not treated as catalysts per standing rules, and not precisely dated): Jefferies initiated coverage at Buy with a $134 price target (early Nov); Bernstein cut its target to $120 from $140 while keeping Market Perform.",
+  "notes": "Quiet pass -- no new dated catalyst found since the Nov 24 pass. For context only (not a dated catalyst): Investing.com's consensus page shows an average 12-month analyst target of $171.89 (high $220 / low $120, 15 of a larger analyst set rated Buy), well above the current price; this sits alongside the already-on-file Jefferies ($134 target, Buy) and Bernstein ($120 target, Market Perform) actions.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -485,7 +493,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

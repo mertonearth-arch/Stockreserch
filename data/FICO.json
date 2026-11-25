@@ -4,11 +4,11 @@
   "sector": "Technology / Analytics Software",
   "theme": "Fintech & Consumer Credit",
   "themeLabel": "established",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.786Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.531Z",
   "fundamentals": {
     "marketCap": {
       "value": 15580000000,
@@ -76,12 +76,10 @@
     }
   },
   "price": {
-    "last": 677.34,
-    "changePct": 0.12,
-    "rvol": null,
+    "last": 677.75,
     "asOf": "2026-11-18",
-    "source": "Schwab (wallst.com)",
-    "note": "Intraday quote (12:35pm ET), not a confirmed close; continues the decline from $717.76 (Nov 13, on file) amid fallout from FY2027 guidance withholding tied to mortgage-pricing-model changes (Oct 23 pricing hold / Nov 4 guidance withdrawal, both already on file). No Nov 19-20 close found."
+    "source": "wallst.com/Schwab quote (carried forward)",
+    "note": "No price dated after Nov 18 located despite repeated searches."
   },
   "catalysts": [
     {
@@ -211,8 +209,16 @@
     "Analyst price targets diverge widely following the guidance withdrawal: BofA cut to $700 (from $1,400), JPMorgan to $900 (from $1,530), UBS to $942 (from $1,100), Wells Fargo to $735 (from $800); two conflicting BMO figures ($1,150 vs $897) appear across sources."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass — no new dated catalyst found since the Nov 4, 2026 FY2027-guidance-withholding disclosure already on file. Search did not surface any current-week (around Nov 23) company news; most coverage found was late-October analyst-target commentary already reflected on file.",
+  "notes": "Quiet pass -- no new dated catalysts found beyond the Nov 4 FY2026 Q4 earnings/FY2027-guidance-withholding and the Oct 27 analyst-downgrade wave already on file. Older items on Sen. Hawley's mortgage-pricing-practices inquiry (dated March 2026) and a Fair Isaac antitrust suit against the credit bureaus resurfaced in search but carry no new dated development this pass, so not added as catalysts.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -556,7 +562,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

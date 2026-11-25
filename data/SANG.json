@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.797Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.539Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -77,11 +77,8 @@
   },
   "price": {
     "last": 4.77,
-    "changePct": null,
-    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "Quiver Quantitative (historical price page)",
-    "note": "First reliably dated quote this pass; resolves prior pass's 'undated' $4.77 sighting. Could not confirm a change% for this date."
+    "note": "No newer confirmed, dated price located this pass."
   },
   "catalysts": [
     {
@@ -149,9 +146,25 @@
   "conflicts": [
     "Current share price still unconfirmed with a reliable date: ~$4.77-$4.95 (various undated sightings this pass) vs the deal's implied ~$5.225/share value set at the 2026-09-28 announcement."
   ],
-  "pendingFilings": [],
-  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-11 management-information-circular filing already on file. The BRC Group Holdings acquisition (~$204M) already on file is the same deal; no new developments found.",
+  "pendingFilings": [
+    {
+      "date": "2026-12-08",
+      "type": "shareholder vote",
+      "description": "Special meeting of Sangoma shareholders (record date 2026-11-03) to vote on the statutory plan of arrangement with BRC Group Holdings, Inc. Requires 2/3 of votes cast plus a simple majority excluding MI 61-101-interested shares. Date confirmed via the Nov 11, 2026 management information circular, resolving the file's prior approximate ('~Nov 17, 2026') estimate."
+    }
+  ],
+  "notes": "Special-meeting date for the BRC Group Holdings acquisition vote is now confirmed as 2026-12-08, 10:00am, superseding the file's prior unconfirmed ~Nov 17 estimate. No other news located dated after the 2026-11-11 management information circular filing already on file; deal terms and closing timeline (early 2027) are otherwise unchanged.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "new filing(s)"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -376,10 +389,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "new filing(s)"
+    ],
     "tradingDay": true
   }
 }

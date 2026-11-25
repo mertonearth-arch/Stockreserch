@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.775Z",
+  "lastResearched": "2026-11-25T21:17:33.521Z",
   "fundamentals": {
     "marketCap": {
       "value": 31330000000,
@@ -74,8 +74,8 @@
     "changePct": 5.96,
     "rvol": null,
     "asOf": "2026-11-19",
-    "source": "Trefis (via WebSearch)",
-    "note": "Confirmed close replacing the prior unconfirmed Nov 18 intraday-only reading ($194.33, +11.34%, Schwab 2:42pm snapshot). Up from a $195.61 prior close. No confirmed close found for Nov 20-23."
+    "source": "Trefis (unchanged from file)",
+    "note": "No confirmed close found for Nov 20-25, 2026 this pass. One undated, unreliable Gate.com snapshot cites $186.23 (+12.01%, no date given) -- not used."
   },
   "catalysts": [
     {
@@ -233,8 +233,16 @@
     "Current price not independently confirmed: $178.97 (Nov 16 intraday) is the most recent reading found; no official close for Nov 17-19."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-24: checked for news/price since the on-file Nov 19 close ($207/+5.96%, Trefis) and Dec 1 confirmed earnings date. No confirmed close or new catalyst found for Nov 20-24 across WebSearch results (conflicting undated snapshots from Yahoo/Stocktwits ignored as unreliable). Only change this pass is the market-cap refresh above.",
+  "notes": "PM pass 2026-11-25: No new dated catalyst found. The next-earnings-date conflict already on file (Dec 1, 2026 per Okta/finviz vs Nov 25, 2026 per Earnings Whispers) was not resolved this pass; WebSearch found no Okta-sourced confirmation either way before the search budget was exhausted.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -590,7 +598,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.779Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.526Z",
   "fundamentals": {
     "marketCap": {
       "value": 12140000000,
@@ -81,9 +81,9 @@
     "last": 84.64,
     "changePct": 2.9,
     "rvol": null,
-    "asOf": "2026-11-18",
-    "source": "Fox Business / Benzinga",
-    "note": "Updated from the $83.90 (Nov 5) figure on file."
+    "asOf": "2026-11-17",
+    "source": "Yahoo Finance (re-confirmed this pass)",
+    "note": "Same level as already on file (previously dated 2026-11-18); no quote newer than this was located despite searching."
   },
   "catalysts": [
     {
@@ -127,6 +127,13 @@
       "headline": "Q3 2026 earnings were due after market close today per multiple converging aggregators already on file. The actual reported figures could not be independently confirmed this session: WebFetch failed to resolve every news/IR domain tried (ir.akamai.com, sec.gov, rttnews.com, rallies.ai, stocktitan.net, nasdaq.com) and this batch's shared WebSearch budget was exhausted before a clean confirmation could be obtained. Two unverified search-result headlines surfaced -- an RTTNews title stating Akamai 'Q3 profit increases, beats estimates,' and a rallies.ai title citing 'Q3 Cloud Services Up 39% with Expanded Deutsche Telekom Security Partnership' -- but neither article's body was retrievable, and the search tool's own summary flagged the RTTNews EPS/revenue figures it extracted ($0.97 EPS, $1.054B revenue) as more likely matching Q3 2025 than Q3 2026, so they are NOT recorded as this quarter's print.",
       "impact": null,
       "source": "https://www.rttnews.com/3592407/akamai-technologies-inc-q3-profit-increases-beats-estimates.aspx"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "analyst/industry recognition",
+      "headline": "Akamai named a Leader in the 2026 IDC MarketScape for Managed Edge",
+      "impact": null,
+      "source": "Akamai newsroom listing (via WebSearch aggregation)"
     },
     {
       "date": "2026-10-26",
@@ -227,14 +234,21 @@
       "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-akamai-q1-2026-sees-strong-growth-stock-surges-21-93CH-4675571"
     }
   ],
-  "conflicts": [
-    "Trailing P/E / TTM EPS: Fox Business shows P/E 32.63 / EPS $2.68 (Nov 18); Motley Fool shows TTM EPS $2.58 (~Nov 13); TipRanks shows P/E ~38.3 (undated, possibly stale) -- not reconciled.",
-    "Market cap: Fox Business $12.14B vs Motley Fool $12.32B, both mid-November 2026.",
-    "nextEarnings date: file lists 2027-02-16 (stockevents.app and MarketScreener agreeing); a Benzinga quote page found this pass instead shows Feb 18, 2027 -- not reconciled; treating file's two-source agreement as more likely but flagging the discrepancy."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). WebSearch returned only undated price snapshots and already-on-file items (Q3 2026 results, Anthropic cloud deal). Treated as quiet.",
+  "notes": "Otherwise quiet pass. No new earnings or contract news found beyond the 2026-11-05 Q3 2026 print and Anthropic cloud deal already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "1 new catalyst(s)",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -568,10 +582,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "1 new catalyst(s)",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

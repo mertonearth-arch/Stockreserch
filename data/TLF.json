@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a reported Q3 2026 turnaround to profitability",
-  "quietRuns": 1,
-  "lastResearched": "2026-11-24T21:19:31.798Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.540Z",
   "fundamentals": {
     "nextEarnings": {
       "date": "2027-03-03",
@@ -80,7 +80,7 @@
     "rvol": null,
     "asOf": "2026-11-12",
     "source": "Motley Fool / Yahoo Finance (via search)",
-    "note": "Supersedes the file's 2026-11-10 $2.08 figure; consistent with the post-earnings rally already on file. No quote newer than Nov 12 located despite searching."
+    "note": "No confirmed quote newer than 2026-11-12 located this pass despite searching; results returned only undated or stale late-October snapshots. Carried forward unchanged from the existing record."
   },
   "catalysts": [
     {
@@ -126,11 +126,19 @@
       "source": "https://www.sec.gov/Archives/edgar/data/0000909724/000114036126043052/ef20085096_ex99-1.htm"
     }
   ],
-  "conflicts": [
-    "Market cap on file ($21.3M, 2026-08-26 asOf) vs. an undated Yahoo Finance snapshot found this pass showing $23.23M -- directionally consistent with the higher $2.27 price but not dated, so kept separate rather than substituted."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -258,12 +266,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalysts found beyond the Q3 2026 earnings/rally sequence already on file. Routine re-check; only the price updated this pass.",
+  "notes": "Quiet PM full pass: no new dated catalysts found beyond the Nov 10-12 Q3 2026 earnings/rally sequence already on file. No insider buying or selling located in reviewed sources (one undated aggregator snapshot says none in the trailing 90 days). Fundamentals and catalysts left unchanged; only price was re-checked (no newer confirmed figure found).",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

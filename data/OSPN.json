@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-10-30",
   "addedReason": "Q3 2026 earnings beat drove a ~23% premarket move on 2026-10-30 (day after the print); regular-session confirmation not independently verified this pass.",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.794Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.537Z",
   "fundamentals": {
     "revenue": [
       {
@@ -73,8 +73,8 @@
     "changePct": -2.99,
     "rvol": null,
     "asOf": "2026-11-17",
-    "source": "AAII",
-    "note": "Down from a $22.73 previous close per the same source. This is the same figure the prior pass flagged as an unconfirmed intraday snapshot; it is now the best-sourced figure available and is reported as the current reading, still with the caveat that it is AAII-derived rather than an exchange-confirmed close. AAII also reported the stock down ~14.07% month-to-date and up ~71.73% year-to-date as of this date."
+    "source": "AAII (carried forward from prior pass)",
+    "note": "No newer confirmed price found this pass; search returned only an internally inconsistent $20.15 figure (financialcontent, timestamped 10/29/26 but with mismatched bid/ask) and other undated snapshots ($10.69-$17.85 range) not usable as a current reading."
   },
   "catalysts": [
     {
@@ -122,11 +122,19 @@
       "source": "Webull / company announcement (via WebSearch)"
     }
   ],
-  "conflicts": [
-    "Short interest settlement dates/figures disagree: massive.com ~3.5M shares short / 3.3 days to cover as of 2026-10-30; equibles.com reports a September settlement of 3.7M shares / 10.1% of float / 10.3 days; curvedtrading.com (FINRA-based) reports 3.6M shares / 5.2 days for the 2026-09-30 settlement and 4.0M shares / 10.0 days for the 2026-09-15 settlement."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -345,12 +353,14 @@
       "from": "daily"
     }
   ],
-  "notes": "No new dated catalyst or price update found beyond the Oct 29 earnings and Nov 13 dividend declaration already on file. WebSearch returned only stale/undated quote pages for November.",
+  "notes": "No new dated catalyst found beyond the Oct 29 earnings and Nov 13 dividend declaration already on file. No newer confirmed price located this pass.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

@@ -4,11 +4,11 @@
   "sector": "Healthcare",
   "theme": "Biotech Catalyst",
   "themeLabel": "story stock",
-  "tier": "weekly",
+  "tier": "daily",
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-18T21:17:39.653Z",
+  "lastResearched": "2026-11-25T21:17:33.541Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -40,7 +40,14 @@
       "note": "pre-revenue clinical-stage biopharma, negative earnings expected",
       "asOf": "2026-11-13"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": -0.46,
+        "basis": "GAAP",
+        "note": "Beat consensus per secondary-source earnings summary; company remains pre-revenue (DT120 not yet approved/marketed)."
+      }
+    ],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
@@ -55,17 +62,33 @@
     }
   },
   "price": {
-    "last": 38.1,
+    "last": 34.05,
     "changePct": null,
     "rvol": null,
-    "asOf": "2026-10-29"
+    "asOf": "2026-11-09",
+    "source": "Benzinga (via search)",
+    "note": "Supersedes the file's stale 2026-10-29 $38.10 figure. No quote newer than 2026-11-09 located despite searching; one secondary aggregator referenced an inter-earnings low near $30.17 around 2026-11-05 but this could not be independently corroborated or precisely dated, so it was not used."
   },
   "catalysts": [
     {
       "date": "2026-11-09",
       "type": "earnings",
+      "headline": "Reported Q3 2026 results: GAAP loss of $0.46/share, beating consensus; company remains pre-revenue (DT120 not yet approved)",
+      "impact": null,
+      "source": "https://www.biopharmawatch.com/news/DFTX/definium-therapeutics-q3-2026-results"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
       "headline": "Reported Q3 2026 results (quarter ended 2026-09-30): operating expenses $72.3M (+58% YoY); cash & short-term investments $1.05B (runway guided into 2030); also disclosed early Phase 2a DT402 autism data (small, n=5, uncontrolled, but positive) alongside the financial results",
       "source": "https://www.biopharmawatch.com/news/DFTX/definium-therapeutics-q3-2026-results"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "conference/data",
+      "headline": "Presented topline Phase 3 DT120 ODT data in an oral Scientific Exchange session at the 2026 NEI (Neuroscience Education Institute) Fall Congress in Colorado Springs, CO (congress ran Nov 5-8, 2026); company described it as the first comprehensive presentation to date of the combined Panorama (GAD), Emerge (MDD) and Voyage (GAD) Phase 3 program",
+      "impact": null,
+      "source": "https://www.biopharmawatch.com/news/DFTX/definium-therapeutics-dt120-phase-3-data-nei-fall-congress"
     },
     {
       "date": "2026-10-29",
@@ -165,14 +188,22 @@
       "source": "https://www.businesswire.com/news/home/20260113531574/en/ ; https://ir.definiumtx.com/about/faq"
     }
   ],
-  "conflicts": [
-    "Market cap: figures ranging from ~$1.48B to ~$2.70B to ~$5.1B to ~$5.9B found across aggregators, dates not aligned — not reconciled.",
-    "Shares outstanding: ~98.5M (one source) vs ~109M (another) — not reconciled.",
-    "Price: $38.10 (2026-10-29) vs $37.97 (2026-10-28, up 2.39%) vs undated figures of $42.65, $32.10 and $20.48 — wide dispersion; no confirmed 2026-11-13 close found."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-18: no new dated catalyst found since the 2026-11-09 Q3 2026 print already on file. Fundamentals (market cap, shares outstanding, cash, debt) remain unreconciled per prior pass's conflicts — not re-resolved this pass. Quiet pass.",
+  "notes": "Weekly full pass: added the Nov 5-8 NEI Fall Congress DT120 presentation (new since the 2026-11-18 pass) and a Q3 2026 EPS figure (-$0.46, beat consensus) not previously on file. Market cap, shares outstanding, cash and debt remain unreconciled per prior passes' wide-dispersion conflicts; no new data found this pass to resolve them, so they were left as-is rather than re-asserted. Price updated to the most recent confirmed figure located ($34.05, 2026-11-09).",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "eps updated",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "weekly"
+    },
     {
       "date": "2026-11-18",
       "run": "pm",
@@ -414,10 +445,14 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-18",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "eps updated",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

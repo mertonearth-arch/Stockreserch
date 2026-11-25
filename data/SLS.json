@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.776Z",
+  "lastResearched": "2026-11-25T21:17:33.523Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -66,8 +66,8 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-18",
-    "source": "Trefis",
-    "note": "Updates the on-file 2026-11-17 reading. Sequence this pass: stock spiked on the REGAL Phase 3 data on 2026-11-17 (one source: Trefis/ctol.digital cite a close of $19.15, +156.36%; this conflicts with the on-file figure of $19.84/+165.6% sourced from gurufocus/seekingalpha for the SAME date -- see conflicts). After-hours on 2026-11-17, shares fell back to ~$16.80 (5:28pm ET) once the $150M stock offering was announced. By 2026-11-18 close, Trefis puts the stock at $17.11 (market cap ~$3.5B)."
+    "source": "Trefis (unchanged from file)",
+    "note": "No confirmed close found for Nov 19-25, 2026 this pass."
   },
   "catalysts": [
     {
@@ -222,8 +222,16 @@
     "SLS offering priced ($13.00/share) well below both the $19.15 and $19.84 same-day trading levels and below the ~$16.80 after-hours quote -- pricing discount not explained in sources found."
   ],
   "pendingFilings": [],
-  "notes": "The $150M offering (priced 2026-11-18 at $13.00/share) was expected to close 2026-11-20; no source found confirming the closing actually occurred (no closing 8-K located via WebSearch). Treated as still-pending/unconfirmed rather than recorded as closed. No new dated catalyst beyond what's on file.",
+  "notes": "PM pass 2026-11-25: No confirmation located that the $150.0M public offering (priced 2026-11-18 at $13.00/share, expected to close 2026-11-20) actually closed; still treated as pending/unconfirmed, unchanged from the prior pass's assessment. No new dated catalyst found before the WebSearch budget was exhausted. The ASH presentation of SLS009 (tambiciclib) data in December 2026, already on file, remains the next scheduled catalyst.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -511,7 +519,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

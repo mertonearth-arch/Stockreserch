@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.798Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.539Z",
   "fundamentals": {
     "revenue": [
       {
@@ -72,10 +72,11 @@
     }
   },
   "price": {
-    "last": 158.31,
-    "asOf": "2026-11-13",
-    "source": "Equibles",
-    "note": "Confirmed unchanged from existing file; see conflicts for an inconsistent intraday Nov 12 reading."
+    "last": 140.64,
+    "changePct": -8.6,
+    "asOf": "2026-11-24",
+    "source": "Sanmina IR stock-info page (ir.sanmina.com), intraday snapshot timestamped 1:20pm",
+    "note": "This is an intraday reading, not a confirmed close. The same IR page separately displayed a 'Closing Price' of $153.88 without a clear date label, which may be the prior session's close — not reconciled. No news or catalyst was located this pass that would explain an ~8.6% single-day move; flagged as unresolved rather than asserted as an explained price move."
   },
   "catalysts": [
     {
@@ -108,10 +109,21 @@
     }
   ],
   "conflicts": [
-    "Earnings report date: the file's prior note dates the Q4 FY2026 report to 2026-11-10, but the company's own PR Newswire release and investor conference call are dated 2026-11-09 — likely a wire/timezone reporting discrepancy, not reconciled."
+    "Sanmina IR page (2026-11-24, ~1:20pm) showed an intraday $140.64 (-8.60%) alongside an unclearly-dated 'Closing Price' of $153.88; which figure is the confirmed prior close vs. same-day intraday was not reconciled, and no explanatory catalyst was found."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move -8.6%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -257,12 +269,15 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-10 Q4/FY2026 results already on file. No dated closing price found for mid/late November; still relying on the 2026-11-13 $158.31 figure on file.",
+  "notes": "Genuinely quiet on catalysts — no news located dated after the 2026-11-09/11-10 Q4/FY2026 results already on file. However, Sanmina's own investor-relations page showed an unexplained sharp intraday decline on 2026-11-24 (see conflicts); flagged for the next pass to re-check against a confirmed closing price and any delayed news explaining the move.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move -8.6%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

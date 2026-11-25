@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.771Z",
+  "lastResearched": "2026-11-25T21:17:33.513Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -75,8 +75,8 @@
     "last": 51.84,
     "changePct": 8.37,
     "asOf": "2026-11-19",
-    "source": "Kalkine (intraday)",
-    "note": "Intraday figure, not a confirmed close; supersedes the 2026-11-16 $49.88 close on file. No company statement found explaining the Nov 19 move. No Nov 20/21 price located this pass."
+    "source": "Kalkine (intraday, unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch turned up only stale/undated snapshots (MarketChameleon $46.40 as of 2026-11-06; undated Stocktwits $120.30 and 24/7 Wall St $42.49 figures that conflict with each other and are not usable). No reconciled newer price found."
   },
   "catalysts": [
     {
@@ -120,11 +120,20 @@
       "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Power-Wayves-AI-Driver-Training-in-Multi-Year-Agreement/default.aspx"
     }
   ],
-  "conflicts": [
-    "CoreWeave Q3 2026 earnings release date: this pass's sources (247wallst, pulse2, investinglive, letsdatascience, stocktitan) consistently date the release 2026-11-10; the prior pass's file entry listed 2026-11-12 as the reported date. Not independently reconciled — flagging since multiple sources this pass favor Nov 10."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "move 8.37%",
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -258,12 +267,15 @@
       "from": "daily"
     }
   ],
-  "notes": "PM pass 2026-11-24: WebSearch found no news dated after 2026-11-19/20 (on-file). Two undated items surfaced (a Vera Rubin NVL72 validation claim and a CoreWeave bond-yield-above-16% story) but neither carries a confirmed date, so neither was recorded as a catalyst. No reconciled current price or market cap found this pass. Genuinely quiet beyond what was already on file.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. WebSearch surfaced only undated items (a Vera Rubin NVL72 cluster bring-up, an Anthropic multi-year compute agreement, Nasdaq-100 index-inclusion mention, an $8.5B delayed-draw term loan, $2.25B 1.75% convertible notes due 2031) with no confirmable announcement date this pass, so none were added as catalysts per the no-date rule. Nothing dated after the on-file 2026-11-19 entry was found.",
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "move 8.37%",
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

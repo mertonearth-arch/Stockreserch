@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.794Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.536Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -74,14 +74,28 @@
     }
   },
   "price": {
-    "last": 150.96,
-    "changePct": -2.89,
+    "last": 155.38,
+    "changePct": -5.86,
     "rvol": null,
-    "asOf": "2026-11-18",
-    "source": "heygotrade.com",
-    "note": "Supersedes the file's 2026-11-17 pre-earnings close of $155.46. Coverage ties the decline to ongoing CEO-succession concerns following Jensen Huang's Nov 12 resignation, compounding the post-earnings reaction. No confirmed close for Nov 19-23 located this pass; other secondary sources cite a Nov 12 intraday low near $148.80-$155.46 and a 52-week low around this period, not reconciled to a single figure."
+    "asOf": "2026-11-24",
+    "source": "heygotrade.com / Motley Fool / Trefis (consistent)",
+    "note": "Prior close $165.05; session range $150.50-$159.92 per Yahoo-Finance-sourced figures cited via Coinglass/Investing.com; volume reported variously as 379.2M vs. 382.97M (MarketBeat) shares. Supersedes the file's 2026-11-18 figure of $150.96. Comes one session after NVDA's +31.48% single-day gain on Monday 2026-11-23 on the Jensen Huang CEO-reinstatement news (see catalysts). No confirmed close for 2026-11-25 (today) located this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-11-24",
+      "type": "price move",
+      "headline": "NVDA shares fell 5.86% to close at $155.38 as chip stocks broadly slid the day after the Huang-reinstatement rally; coverage noted the decline came despite a Wall Street analyst upgrade implying roughly 29% upside, and that most peer chip stocks fell further than NVDA that session.",
+      "impact": "-5.86%; described by one source as giving back roughly $240B of the prior session's market-value gain",
+      "source": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-25-2026/ ; https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/"
+    },
+    {
+      "date": "2026-11-23",
+      "type": "corporate governance",
+      "headline": "NVIDIA's board reinstated Jensen Huang as President, CEO and a board director, effective immediately -- less than two weeks after his Nov 12 resignation. Multiple outlets report President Trump personally pushed for the reversal. Colette Kress, who had served as interim CEO since Nov 12, continues as CFO. At an all-hands meeting Huang reportedly acknowledged his workplace conduct had 'gone too far.' NVIDIA's independent board investigation into the underlying allegations, plus separate California Attorney General and congressional scrutiny, remain active and unresolved.",
+      "impact": "Shares rose approximately 31.48% the same session (Monday, Nov 23) -- reported as NVIDIA's largest single-day percentage gain in more than two decades and an increase of roughly $1 trillion in market value.",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director ; https://www.cnn.com/2026/11/23/business/live-news/jensen-huang-reinstated-as-ceo-of-nvidia ; https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+    },
     {
       "date": "2026-11-17",
       "type": "earnings",
@@ -245,11 +259,22 @@
     }
   ],
   "conflicts": [
-    "The file's prior note dated the CEO-transition confirmation to 2026-11-17 (tied to the earnings date); NVIDIA's own press release and Form 8-K are dated 2026-11-12 (one secondary source says the board acted 2026-11-11). The CEO transition and the Q3 FY2027 earnings report are two separate, correctly-dated events and should not be conflated as a single 2026-11-17 catalyst."
+    "The file's existing 2026-11-17 catalyst stating NVIDIA's board chairman confirmed Huang 'will not be reinstated' is directly superseded by the board's 2026-11-23 reversal reinstating him as CEO. Both are retained as sequential, correctly-dated events rather than reconciled into one, per standing rules."
   ],
   "pendingFilings": [],
-  "notes": "PE reportedly fell to a multi-year low alongside the price decline per secondary commentary (Nasdaq/STOCK TITAN-style coverage), but no single reconciled trailing P/E figure was established this pass beyond what's already on file. No new earnings, governance or catalyst items beyond what's already recorded for Nov 12 and Nov 17.",
+  "notes": "Major governance reversal this pass: Jensen Huang was reinstated as CEO on 2026-11-23, reversing the post-resignation stance reported as of Nov 17. The stock swung sharply (+31.48% on the reinstatement news, then -5.86% the next session). No confirmed closing price for today (2026-11-25) was located given this pass's search constraints.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -629,10 +654,13 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

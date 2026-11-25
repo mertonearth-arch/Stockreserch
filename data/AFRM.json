@@ -7,8 +7,8 @@
   "tier": "daily",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.779Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.525Z",
   "fundamentals": {
     "marketCap": {
       "value": 23000000000,
@@ -72,8 +72,8 @@
     "changePct": -5.2,
     "rvol": null,
     "asOf": "2026-11-17",
-    "source": "Benzinga close; -5.2% day-over-day move corroborated independently by Trefis",
-    "note": "Stock down further since the $68.11 (Nov 6) / $67.84 (Nov 11, Motley Fool) levels on file, amid credit-loss and guidance concerns following the Nov 5 earnings beat. Trefis also reports AFRM down 18.4% over the trailing month vs. -4.5% for the S&P 500 as of Nov 17."
+    "source": "Trefis / Benzinga (re-confirmed this pass)",
+    "note": "No quote newer than 2026-11-17 could be confirmed despite searching; a Trefis article dated 2026-11-18 ('What Sent Affirm Stock Lower On Tuesday?') exists but its body/figures could not be retrieved this pass."
   },
   "catalysts": [
     {
@@ -189,12 +189,20 @@
       "sourceName": "Investrade market review"
     }
   ],
-  "conflicts": [
-    "Market cap/shares outstanding: Motley Fool ~$23.00B (Nov 11); Pitchbook ~$24.1B on ~337M shares (Sept 25); DefiLlama ~$24.95B on 339.06M shares (undated) -- not reconciled; likely reflect different dates and share-count conventions."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "No genuinely new confirmed dated information found since last pass (2026-11-20). Searches for Nov 21-23 (weekend + Monday) turned up only undated/stale price snapshots and previously-known items (Sam's Club deal, Q1 FY2027 earnings). Treated as quiet.",
+  "notes": "Quiet pass. No genuinely new dated information found since the 2026-11-05 fiscal Q1 2027 earnings and the 2026-11-17 price level already on file.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -612,10 +620,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

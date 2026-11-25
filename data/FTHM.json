@@ -4,11 +4,11 @@
   "sector": "Real Estate (brokerage/technology platform)",
   "theme": "Distressed / Restructuring",
   "themeLabel": "nano-cap",
-  "tier": "daily",
+  "tier": "weekly",
   "addedOn": null,
   "addedReason": null,
-  "quietRuns": 2,
-  "lastResearched": "2026-11-24T21:19:31.787Z",
+  "quietRuns": 0,
+  "lastResearched": "2026-11-25T21:17:33.532Z",
   "fundamentals": {
     "marketCap": {
       "value": 4850000,
@@ -83,7 +83,7 @@
     "rvol": null,
     "asOf": "2026-11-06",
     "source": "AAII",
-    "note": "Updates the prior $0.18 (Oct 30) figure, continuing the decline. Other aggregators showed sharply conflicting, likely-stale figures this pass (e.g., $0.59, $0.94) -- see conflicts."
+    "note": "Carried forward; no fresher confirmed close located this pass. A WebSearch turned up an undated/mislabeled Google Finance snapshot (~$0.85, market cap ~$28M, timestamp 'July 24' with year unclear) that is inconsistent with the Nov 6 AAII figure and the continuing-decline trend already on file -- not used, treated as stale/unreliable like the other conflicting snapshots already flagged in this ticker's existing conflicts array."
   },
   "catalysts": [
     {
@@ -214,8 +214,16 @@
     "Price is reported very inconsistently across sources this pass: AAII ~$0.15 (dated Nov 6, 2026); TradingView ~$0.94 (snapshot date unclear); Seeking Alpha $0.59 (dated Apr 2, 2026 -- stale); Robinhood $0.59 with a cited 52-week range of $0.484-$3.37 (snapshot date unclear). The dated Nov 6 AAII figure is consistent with the on-file Oct 30 figure ($0.18) and a continuing decline; the higher figures look like stale/cached snapshots but this could not be confirmed."
   ],
   "pendingFilings": [],
-  "notes": "Quiet pass for new disclosures — no company announcement found beyond the Nov 17, 2026 Nasdaq stockholders'-equity deficiency notice already on file. One secondary tracker (Tickeron) reported the stock down 7.51% on Nov 16, 2026 citing the same going-concern/debt-maturity overhang already on file (no new absolute price confirmed; sources remain inconsistent, see existing conflicts entry). The Nov 30, 2026 convertible-note maturity remains the key date to watch.",
+  "notes": "Quiet pass -- no new dated company filing or catalyst found beyond what is already on file (most recent: Nov 17 Nasdaq stockholders'-equity deficiency notice; Nov 13 Q3 2026 earnings). The Nov 30, 2026 convertible-note maturity remains the key near-term date to watch. SEC EDGAR search for new Nov 2026 8-Ks returned only pre-2026 filings in this pass's results, i.e. no corroboration either way.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "weekly",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -556,7 +564,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],

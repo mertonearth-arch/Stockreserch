@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.774Z",
+  "lastResearched": "2026-11-25T21:17:33.518Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -84,8 +84,8 @@
     "last": 24.07,
     "changePct": null,
     "asOf": "2026-11-19",
-    "source": "Trefis",
-    "note": "No quote newer than 2026-11-19 found this pass (searched specifically for Nov 20-23; nothing dated in that window turned up)."
+    "source": "Trefis (unchanged from prior pass)",
+    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only a stale quote ($30.04, last trade 2026-10-30) that predates the on-file figure. No newer reconciled price found."
   },
   "catalysts": [
     {
@@ -247,12 +247,20 @@
       "note": "specific press-release URL not captured this session; mentioned in secondary earnings-summary coverage of the Q2 2026 results"
     }
   ],
-  "conflicts": [
-    "IONQ Nov 17 close: Tickeron reports $24.68 (-6.69%); a Schwab Nov 18 intraday quote implies a prior close near $24.85 by backing out its stated prior-close figure -- the two are close but not identical and neither is independently confirmed."
-  ],
+  "conflicts": [],
   "pendingFilings": [],
-  "notes": "Second look this PM pass beyond today's AM refresh found nothing new dated Nov 20-23. Genuinely quiet beyond the AM update already on file for today.",
+  "notes": "Genuinely quiet PM pass for 2026-11-25. No IONQ news dated 2026-11-24 or 2026-11-25 found. A Katie Arrington (CIO) hire and an AFRL $7.5M follow-on funding item surfaced via WebSearch but carry no independently confirmed date this pass, so neither was added as a catalyst. The on-file Dec 3, 2026 Gary Merrill CFO start date remains the nearest confirmed upcoming item.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "conflict resolved"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -651,10 +659,12 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
-    "quiet": true,
-    "changes": [],
+    "quiet": false,
+    "changes": [
+      "conflict resolved"
+    ],
     "tradingDay": true
   }
 }

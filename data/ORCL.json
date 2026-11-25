@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-24T21:19:31.776Z",
+  "lastResearched": "2026-11-25T21:17:33.522Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
@@ -72,8 +72,8 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-17",
-    "source": "Benzinga (kr.benzinga.com/quote/ORCL/charts)",
-    "note": "Supersedes the on-file 2026-11-11 $128.38 peak. Intermediate data point: $125.35 close on 2026-11-13 (via a 'gotrade' aggregator). Decline occurred amid a broader AI-infrastructure-stock selloff: Democratic sweep in the Nov. midterms raised investor concern about tighter political scrutiny of AI data-center buildouts (~2026-11-05); separately, market commentary tied a Nov. 13 slide to Nvidia-related leadership news. Could NOT confirm a closing price for 2026-11-18 or 2026-11-19 this pass -- treat $115.00/11-17 as the most recent reliably-dated figure found, not necessarily still current."
+    "source": "Benzinga (kr.benzinga.com/quote/ORCL/charts) (unchanged from file)",
+    "note": "No confirmed close found for Nov 18-25, 2026 despite searching. Schwab's intraday-only Nov 18 snapshot ($114.90, 2:03pm ET, -0.09%) remains the most recent reading of any kind, and is not a confirmed close."
   },
   "catalysts": [
     {
@@ -260,8 +260,16 @@
     "Next earnings date: Dec 14, 2026 (on file, Marketchameleon-corroborated) vs a Benzinga listing of Dec 9, 2026 for 'Q2 2027 earnings' — not reconciled this pass."
   ],
   "pendingFilings": [],
-  "notes": "No confirmed closing price found for Nov 18-23, 2026 despite searching; $115.00/Nov 17 remains the most recent reliably-dated figure on file. No new dated catalyst found.",
+  "notes": "PM pass 2026-11-25: Oracle's Nov 18, 2026 Annual Meeting of Stockholders (already on file) was confirmed as held, but no vote-tally 8-K or outcome was located this pass. No new dated catalyst found. The next-earnings-date conflict already on file (Dec 14, 2026 vs a Dec 9, 2026 Benzinga listing) remains unreconciled. WebSearch's per-turn search budget was exhausted before further confirmation could be attempted.",
   "history": [
+    {
+      "date": "2026-11-25",
+      "run": "pm",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-24",
       "run": "pm",
@@ -557,7 +565,7 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "run": "pm",
     "quiet": true,
     "changes": [],
