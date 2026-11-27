@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.113Z",
+  "lastResearched": "2026-11-27T21:15:11.665Z",
   "fundamentals": {
     "marketCap": {
-      "value": null,
-      "asOf": "2026-11-16",
-      "note": "No new confirmed figure this pass; prior $11.556B (Q2 2026 quarter-end, roic.ai) figure on file is now well stale given the ~16% post-CRL price drop and conflicts with roic.ai's own live-quote figure."
+      "value": 8400000000,
+      "asOf": "2026-11-19",
+      "source": "investing.com (at $10.50/share)"
     },
     "float": {
       "value": null,
@@ -22,7 +22,8 @@
     "sharesOutstanding": {
       "value": 793000000,
       "asOf": "2026-06-30",
-      "source": "roic.ai (unchanged)"
+      "source": "roic.ai",
+      "note": "Does not yet reflect AstraZeneca's ~108,955 convertible preferred shares (as-converted basis ~108.955M common-equivalent) from the $2B investment that closed 2026-10-05"
     },
     "shortInterest": {
       "value": null,
@@ -31,7 +32,8 @@
     "cash": {
       "value": 629800000,
       "asOf": "2026-09-30",
-      "source": "Summit Q3 2026 earnings release (pre-dates AstraZeneca $2B investment, closed 2026-10-05)"
+      "source": "Summit Q3 2026 earnings release",
+      "note": "Pre-dates the AstraZeneca $2B investment, which closed 2026-10-05"
     },
     "debt": {
       "value": null,
@@ -40,9 +42,22 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Negative earnings; ivonescimab not yet approved in Summit's licensed territories"
+      "note": "negative earnings",
+      "asOf": "2026-11-27"
     },
-    "eps": [],
+    "eps": [
+      {
+        "period": "Q3 2026",
+        "value": -0.26,
+        "basis": "GAAP",
+        "note": "Non-GAAP: -$0.20/share"
+      },
+      {
+        "period": "Q3 2025",
+        "value": -0.31,
+        "basis": "GAAP"
+      }
+    ],
     "revenue": [],
     "growth": {
       "metric": "revenue YoY",
@@ -53,7 +68,7 @@
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Unchanged; no confirmed date located"
+      "note": "No confirmed Q4/FY2026 date located; FY2025 results were reported 2026-02-23, so a late-Feb-2027 FY2026 report is a plausible inference from the prior-year cadence, not a confirmed date"
     }
   },
   "price": {
@@ -61,10 +76,24 @@
     "changePct": -9.73,
     "rvol": null,
     "asOf": "2026-11-17",
-    "source": "massive.com (unchanged from file)",
-    "note": "No confirmed close found for Nov 18-25, 2026 this pass."
+    "source": "massive.com",
+    "note": "The -9.73% figure reconciles exactly to $10.67 (11/17 close) vs $11.82 (11/16 close): (10.67-11.82)/11.82 = -9.73%. No confirmed close found for Nov 18-27, 2026 despite repeated searches."
   },
   "catalysts": [
+    {
+      "date": "2026-11-17",
+      "type": "analyst",
+      "headline": "Shares closed at $10.67, down 9.73% from the $11.82 prior close -- a continuation sell-off the session after the FDA's Complete Response Letter, amid analyst price-target cuts (Barclays to $18 from $20, Equal Weight; Citi to $42 from $43) and no resubmission timeline yet disclosed by the company",
+      "impact": "Second consecutive sharp decline following the Nov 15 CRL; combined two-day decline from $14.95 (pre-CRL) to $10.67 is roughly -29%",
+      "source": "massive.com; equibles.com; Trefis"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "analyst",
+      "headline": "Shares closed at $11.82 (-16.47%), lowest close since 2026-08-10, the session following the Nov 15 CRL. Summit stated its commitment to ivonescimab development remains unchanged, citing five positive Phase III studies across Summit and Akeso; Citi (after speaking with management) said Summit is weighing a resubmission, though no specific plan or FDA meeting has been disclosed",
+      "impact": null,
+      "source": "https://www.webull.com/news/15927704531616768 ; https://www.fiercepharma.com/pharma/fdas-complete-response-letter-summit-ivonescimab-cites-china-heavy-data-beyond-survival-miss"
+    },
     {
       "date": "2026-11-16",
       "type": "regulatory/analyst",
@@ -77,6 +106,13 @@
       "type": "analyst action / price reaction",
       "headline": "Shares closed at $11.82 (-16.47%), lowest close since 2026-08-10, in the session following the FDA's 2026-11-15 Complete Response Letter on the ivonescimab+chemo NSCLC BLA. Barclays cut its price target to $18 (from $20, Equal Weight); Citi trimmed its target to $42 (from $43). Jefferies kept a Buy rating and $30 target, characterizing the CRL as largely anticipated.",
       "source": "equibles.com; Trefis; AskTraders; Stocktwits (analyst-action roundup)"
+    },
+    {
+      "date": "2026-11-15",
+      "type": "regulatory",
+      "headline": "FDA issued a Complete Response Letter rejecting the ivonescimab + platinum chemotherapy BLA for previously-treated, EGFR-mutated non-squamous NSCLC, citing lack of statistically significant overall-survival benefit (93% of PFS events occurred in China-enrolled patients; post-hoc OS analyses called 'exploratory only'); FDA asked for a new, adequate, well-controlled global trial for this indication",
+      "impact": "Shares fell ~6% Fri 11/13 ahead of the decision, then a further ~16.5% on 11/16; company points to the upcoming HARMONi-3 first-line NSCLC readout as the next catalyst",
+      "source": "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/ ; https://www.fiercepharma.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc"
     },
     {
       "date": "2026-11-15",
@@ -115,6 +151,13 @@
     {
       "date": "2026-11-05",
       "type": "earnings",
+      "headline": "Q3 2026 results: GAAP net loss $208.4M (-$0.26/share) vs $231.8M (-$0.31/share) Q3 2025; non-GAAP net loss $160.7M (-$0.20/share); nine-month GAAP net loss $613.5M vs $860.4M prior-year; GAAP opex $214.6M (down from $234.2M YoY); cash $629.8M as of 2026-09-30",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000088/a2026_prx1105xq32026earn.htm"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
       "headline": "Summit Therapeutics reported Q3 2026 results: GAAP net loss $208.4M (-$0.26/share) vs $231.8M (-$0.31/share) in Q3 2025; non-GAAP net loss $160.7M (-$0.20/share); nine-month 2026 GAAP net loss $613.5M vs $860.4M prior-year nine months; GAAP operating expenses $214.6M (down from $234.2M YoY); cash position $629.8M as of 2026-09-30 (pre-dates the AstraZeneca $2B investment, which closed 2026-10-05)",
       "impact": null,
       "source": "https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000088/a2026_prx1105xq32026earn.htm",
@@ -129,6 +172,13 @@
     },
     {
       "date": "2026-10-05",
+      "type": "offering",
+      "headline": "AstraZeneca completed its previously announced $2 billion equity investment in Summit, via ~108,955 shares of convertible preferred stock (each convertible into 1,000 common shares, ~108.955M common-share-equivalent)",
+      "impact": null,
+      "source": "https://s206.q4cdn.com/652410165/files/doc_news/AstraZeneca-Completes-2-Billion-Equity-Investment-in-Summit-Therapeutics-2026.pdf"
+    },
+    {
+      "date": "2026-10-05",
       "type": "financing/strategic investment",
       "headline": "AstraZeneca completes its previously announced $2 billion equity investment in Summit Therapeutics",
       "impact": "AstraZeneca purchased approx. 108,955 shares of convertible preferred stock, each convertible into 1,000 Summit common shares (i.e., an as-converted basis of ~108.955M common shares)",
@@ -140,6 +190,13 @@
       "headline": "AstraZeneca announced a $2B strategic equity investment via convertible preferred shares (~109,000 shares, each convertible into 1,000 common shares; implied ~$18.35/common-share-equivalent, ~10% premium to recent trading) plus a clinical collaboration on ivonescimab and sonesitatug vedotin, and evaluation of ivonescimab alongside additional AstraZeneca ADCs; announced with updated positive Phase III HARMONi/HARMONi-2 overall-survival data",
       "impact": "stock +17% after-hours on 9/28 announcement; +19.38% to +21.12% (sources vary) on 9/29",
       "source": "https://www.sec.gov/Archives/edgar/data/0001599298/000119312526405776/d178892dex991.htm"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "offering",
+      "headline": "AstraZeneca agreed to a $2.0B strategic equity investment via convertible preferred shares (implied common price $18.36/share, ~10% premium), plus a clinical collaboration testing ivonescimab with AstraZeneca's ADC sonesitatug vedotin in several GI cancers; resulting stake reported at roughly 12.0% of outstanding common (10.6% fully diluted)",
+      "impact": "Stock +17% after-hours 9/28, then +19-21% (sources vary) on 9/29",
+      "source": "https://secure.businesswire.com/news/home/20260928506972/en/AstraZeneca-Makes-%242-Billion-Strategic-Equity-Investment-in-Summit-Therapeutics"
     },
     {
       "date": "2026-09-28",
@@ -176,12 +233,31 @@
     }
   ],
   "conflicts": [
-    "CRL date: FiercePharma/FierceBiotech cite a letter dated Nov 13, 2026 (newly posted to FDA's website); another report states Summit received the CRL on Nov 15, 2026.",
-    "Price: $11.82 (-16.47%) at the Nov 16 close (file/AskTraders/equibles) vs. $10.67 (-9.73%) quoted for Nov 17 by massive.com -- the Nov 17 figure may be an after-hours print, not a confirmed regular-session close."
+    "CRL date: FiercePharma/FierceBiotech cite a letter dated Nov 13, 2026 vs another report stating Summit received the CRL on Nov 15, 2026.",
+    "Market cap: investing.com $8.4B (11/19/2026 at $10.50) vs Yahoo Finance $11.76B (undated) vs Motley Fool $19.5B (undated, clearly stale given a cited $25.14 price).",
+    "Q2 2026 EPS: one source cites -$0.28/share, another -$0.37/share for the same quarter -- not reconciled."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-25: No resubmission timeline or FDA meeting date has been disclosed for ivonescimab following the Nov 15, 2026 Complete Response Letter; the company's Nov 16, 2026 statement (already on file, reiterating commitment to development) remains the latest update found. No new dated catalyst found before the WebSearch budget was exhausted this pass.",
+  "notes": "The -9.73% session move specifically identified in this research task reconciles to the Nov 17, 2026 close ($10.67) vs the Nov 16 close ($11.82) -- a second consecutive decline following the Nov 15 FDA Complete Response Letter on the ivonescimab BLA, compounded by analyst price-target cuts and the absence of a disclosed resubmission plan.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "cash updated",
+        "move -9.73%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -475,9 +551,19 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "6 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "cash updated",
+      "move -9.73%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

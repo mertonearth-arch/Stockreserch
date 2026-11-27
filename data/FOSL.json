@@ -8,18 +8,18 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.106Z",
+  "lastResearched": "2026-11-27T21:15:11.658Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not located; Q3 2026 was reported 2026-11-10"
+      "note": "Q4/FY2026 earnings date not located; Q3 2026 was reported 2026-11-10"
     },
     "marketCap": {
       "value": 390310000,
       "asOf": "2026-10-26",
       "source": "Massive.com",
-      "note": "Based on a $6.53 pre-earnings price; stale versus the current ~$9.97 price"
+      "note": "Based on a $6.53 pre-earnings price; stale versus the current ~$9.97 price. No fresher figure located this pass."
     },
     "float": {
       "value": null,
@@ -47,9 +47,16 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Returned to a single quarter of GAAP profit (Q3 2026) after a history of losses; TTM EPS not verified, so trailing P/E not meaningful"
+      "note": "Returned to a single quarter of GAAP profit (Q3 2026) after a history of losses; TTM EPS not verified, so trailing P/E not meaningful",
+      "asOf": "2026-11-10"
     },
     "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
       {
         "period": "Q3 2025",
         "value": -0.76,
@@ -63,7 +70,7 @@
       {
         "period": "Q3 2026",
         "value": 0.23,
-        "basis": "adjusted diluted"
+        "basis": "Adjusted diluted"
       }
     ],
     "revenue": [
@@ -82,21 +89,36 @@
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 0.4,
-      "note": "Revenue roughly flat YoY ($271.2M vs $270.2M); the real story is the swing to GAAP profitability"
+      "note": "Revenue roughly flat YoY ($271.2M vs $270.2M); the headline story is the swing to GAAP profitability ($11.7M net income, $0.19 diluted EPS vs a $39.9M / -$0.76 loss a year earlier), and a raised FY2026 revenue outlook to $980M-$990M"
     }
   },
   "price": {
     "last": 9.97,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-12",
-    "source": "investing.com (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only stale/conflicting undated snapshots (Yahoo Finance $6.73, -2.75%; Motley Fool $7.81 tied to a Nov 6 close) that predate or conflict with the on-file $9.97 figure and were not used."
+    "source": "Investing.com (via WebSearch)",
+    "note": "No quote dated after 2026-11-12 could be located this pass. A Yahoo Finance snapshot showing $6.73 (-2.75%) and a Motley Fool snapshot near $7.81-$7.83 (tied to a Nov 6 close) surfaced but conflict with / predate the higher on-file figure and were not used -- see conflicts."
   },
   "catalysts": [
     {
       "date": "2026-12-16",
+      "type": "other",
+      "headline": "Fossil Group management confirmed to present (virtually) at the Northland Capital Markets Growth Conference",
+      "impact": "Routine, forward-dated IR event; no new financial disclosure expected",
+      "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
+    },
+    {
+      "date": "2026-12-16",
       "type": "conference",
       "headline": "Fossil Group management scheduled to present at a Northland Capital Markets investor conference",
+      "impact": null,
+      "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "other",
+      "headline": "Fossil Group management presented at the Craig-Hallum Alpha Select Conference in New York City (per the company's Oct 20, 2026 conference-participation announcement)",
       "impact": null,
       "source": "https://finviz.com/news/404812/fossil-group-inc-announces-date-for-third-quarter-2026-earnings-release-and-conference-call"
     },
@@ -127,6 +149,20 @@
       "headline": "Fossil Group reported Q3 2026 results described as an earnings beat and raised its full-year 2026 revenue outlook to approximately $990M (up from a prior ~$954-974M range)",
       "impact": "Premarket move reported between +20.2% and +25.7% across aggregators",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net income $11.7M ($0.19/diluted share, $0.23 adjusted) vs a net loss of $39.9M (-$0.76/share) a year earlier; revenue ~$271.2M, beating a ~$247.2M consensus; return to YoY sales growth for the first time in four years; raised full-year 2026 guidance to $980M-$990M in sales and 5.5%-6.5% adjusted operating margin",
+      "impact": "Return to GAAP profitability after a string of losses; premarket move reported between +16.9% and +25.7% across aggregators; ~$10M of wholesale shipments were reportedly pulled forward from Q4 into Q3",
+      "source": "https://fashionunited.com/news/business/fossil-group-returns-to-profitability-in-q3-as-turnaround-strategy-gains-traction/2026111175675"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "contract",
+      "headline": "Announced a five-year extension of its Diesel brand watch-licensing agreement, running through 2032, continuing a partnership of more than 25 years",
+      "impact": null,
+      "source": "https://fashionunited.com/news/fashion/fossil-group-and-diesel-renew-global-licensing-agreement-until-2032/2026111075668"
     },
     {
       "date": "2026-11-10",
@@ -173,15 +209,42 @@
     },
     {
       "date": "2026-11-09",
+      "type": "other",
+      "headline": "FOSL closed at a 1-year high of $8.06 the session before its Q3 2026 earnings release; pre-earnings consensus called for a swing to a $0.03 EPS profit on ~$247.2M revenue",
+      "impact": "Stock had rallied into the print",
+      "source": "https://www.benzinga.com/quote/FOSL/charts"
+    },
+    {
+      "date": "2026-11-09",
       "type": "price move",
       "headline": "FOSL closed at a 1-year high of $8.06 the session before its Q3 2026 earnings release",
       "impact": "Stock had rallied into the print; pre-earnings consensus called for a swing to a $0.03 EPS profit on ~$247.2M revenue",
       "source": "https://www.benzinga.com/quote/FOSL/charts"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Current price: on-file figure is $9.97 (Investing.com, asOf 2026-11-12), but WebSearch this pass also surfaced an undated Yahoo Finance snapshot of $6.73 (-2.75%) and a Motley Fool snapshot of ~$7.81-$7.83 tied to a Nov 6, 2026 close. These are either stale (pre-earnings) or cannot be reliably dated after Nov 12, so the $9.97 figure was retained but not confirmed as current.",
+    "Q3 2026 revenue reported as $271.2M (beating ~$247.2M consensus) by most sources, but one low-confidence aggregator (panabee.com) instead cites ~$209.7M revenue (down ~4.9% YoY) and a net loss of ~$10.6M for the same quarter -- this figure appears inconsistent with Fossil's own official release and was not used as the primary figure.",
+    "Premarket/post-earnings move on 2026-11-10/11 reported variously as +16.9%, +20.2%, and +25.7% across aggregators -- not reconciled."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -343,12 +406,20 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. Nothing dated after the on-file 2026-11-17 Craig-Hallum conference item was found. The Dec 16, 2026 Northland Capital Markets conference remains the only confirmed upcoming date on file.",
+  "notes": "No FOSL price quote reliably dated after 2026-11-12 could be retrieved this pass. The Dec 16, 2026 Northland Capital Markets conference and Nov 17 Craig-Hallum conference are both confirmed via the company's own Oct 20, 2026 conference-participation announcement (as republished by Finviz).",
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

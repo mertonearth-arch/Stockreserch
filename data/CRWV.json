@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.103Z",
+  "lastResearched": "2026-11-27T21:15:11.655Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -17,68 +17,91 @@
     },
     "marketCap": {
       "value": null,
-      "note": "conflicting figures found this pass ($34.27B-$56.24B across different dates); not reconciled, see conflicts"
+      "asOf": null,
+      "source": null,
+      "note": "Conflicting figures across aggregators ($21.69B-$61.6B depending on share-count basis and snapshot date); not reconciled, see conflicts."
     },
     "sharesOutstanding": {
       "value": 527000000,
       "asOf": "2026-08",
-      "note": "CompaniesMarketCap figure; conflicts with TipRanks (~447.6M) and Motley Fool (~551.5M, likely stale) and SimplyWall St (~525.69M, broadly consistent)",
+      "note": "CompaniesMarketCap figure; conflicts with TipRanks (~447.6M), Motley Fool (~548.87M), and SimplyWall St (~525.69M)",
       "source": "CompaniesMarketCap"
     },
     "cash": {
       "value": null,
-      "note": "not found in available sources this pass"
+      "note": "Not found in available sources this pass"
     },
     "debt": {
       "value": 47000000000,
       "asOf": "2026-09-30",
-      "note": "approximate figure from a secondary aggregator summarizing Q3 2026 earnings; not independently verified against the 10-Q (unchanged from last pass)",
+      "note": "Approximate figure from a secondary aggregator summarizing Q3 2026 earnings; not independently verified against the 10-Q",
       "source": "aiweekly.co"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings; no forward EPS consensus established this pass",
+      "note": "Negative earnings; no forward EPS consensus established",
       "asOf": "2026-09-30"
     },
     "eps": [
       {
+        "period": "FY2024",
+        "value": -4.3,
+        "basis": "GAAP",
+        "note": "Comparative figure from CoreWeave's own FY2025 results release"
+      },
+      {
+        "period": "FY2025",
+        "value": -2.81,
+        "basis": "GAAP",
+        "note": "Diluted; basic was -$2.75. Revenue $5.131B, net loss ~$1.17B"
+      },
+      {
         "period": "Q3 2026",
         "value": -1.27,
         "basis": "GAAP",
-        "note": "Net loss widened to $709M from $110M a year earlier."
+        "note": "Net loss widened to $709M from $110M a year earlier"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
         "value": 3661000000,
-        "yoy": 168,
-        "note": "$3.661B, +168% YoY, beat consensus estimates of ~$3.54B–$3.55B. (This resolves the revenue figure that was missing on file.)"
+        "yoy": 168
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 168
+      "pct": 168,
+      "note": "$3.661B, beat consensus of ~$3.54B-$3.55B"
     },
     "float": {
       "value": null,
-      "note": "not disclosed separately"
+      "note": "Not disclosed separately"
     },
     "shortInterest": {
       "value": null,
-      "note": "not found in available sources this pass"
+      "asOf": null,
+      "note": "Not found"
     }
   },
   "price": {
     "last": 51.84,
     "changePct": 8.37,
+    "rvol": null,
     "asOf": "2026-11-19",
-    "source": "Kalkine (intraday, unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch turned up only stale/undated snapshots (MarketChameleon $46.40 as of 2026-11-06; undated Stocktwits $120.30 and 24/7 Wall St $42.49 figures that conflict with each other and are not usable). No reconciled newer price found."
+    "source": "Kalkine (intraday)",
+    "note": "No company announcement or news item found explaining this specific move; see catalysts. RVOL not statable. No reconciled close newer than 2026-11-19 found; see conflicts for inconsistent undated snapshots."
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "price action",
+      "headline": "CRWV traded up ~8.4% intraday to $51.84; no company announcement or news item found explaining the move despite dedicated search this pass. Possibly related to broader AI-infrastructure sentiment carrying over from Nvidia's Nov 17 earnings (a Finviz item describes a separate, smaller 6.5% premarket move on Nov 18 tied to that theme)",
+      "impact": "+8.37%",
+      "source": "https://kalkine.com.au/news/artificial-intelligence/why-has-coreweave-nasdaqcrwv-climbed-8-despite-a-247-surge-on-november-11"
+    },
     {
       "date": "2026-11-19",
       "type": "price action",
@@ -87,10 +110,31 @@
     },
     {
       "date": "2026-11-12",
+      "type": "price action",
+      "headline": "CRWV fell ~6.9% as Nvidia-linked AI stocks broadly sold off, a day after the 24.7% post-earnings surge",
+      "impact": "-6.9%",
+      "source": "https://kalkine.com.au/news/artificial-intelligence/why-has-coreweave-nasdaqcrwv-climbed-8-despite-a-247-surge-on-november-11"
+    },
+    {
+      "date": "2026-11-12",
       "type": "earnings",
       "headline": "CoreWeave reported Q3 2026 results described as topping estimates; specific revenue/EPS figures not independently located this session",
       "impact": "+13.7% to ~+14% premarket",
       "source": "https://investing.com/news/stock-market-news/premarket-movers-coreweave-nvidia-rally-fossil-tandy-leather-jump-5018694"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "price action",
+      "headline": "CoreWeave closed at $60.77, +$12.04 (+24.71%), its best day since June 2025, as the market digested strong Q3 2026 results and management's 'sold out through 2027' commentary",
+      "impact": "+24.71%",
+      "source": "https://www.webull.com/news/15910894375388160"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "CoreWeave Q3 2026 results: revenue $3.661B (+168% YoY), beating ~$3.54B-$3.55B consensus; GAAP net loss widened to $709M (-$1.27/sh) from $110M a year ago; adjusted (non-GAAP) operating income $379M (+75% YoY); quarter-end revenue backlog ~$132.5B (+138% YoY); raised FY2026 revenue guidance to $13.0B-$13.3B and capex guidance to $37B-$39B; total debt approaching $47B",
+      "impact": "Revenue beat and guidance raise, but widening losses, heavy capex (~$14.5B/quarter vs ~$9B customer prepayments), and customer concentration (top 3 = 72% of quarterly revenue) drove a mixed initial after-hours reaction (shares reportedly fell to $47.56 after-hours, -2.4%) before the subsequent multi-session rally",
+      "source": "https://pulse2.com/coreweave-record-q3-revenue-reaches-3-66-billion-as-backlog-grows-to-132-5-billion/"
     },
     {
       "date": "2026-11-10",
@@ -116,13 +160,47 @@
     {
       "date": "2026-11-09",
       "type": "contract",
+      "headline": "CoreWeave signed a multi-year agreement to power Wayve's AI Driver training using NVIDIA Blackwell GPUs; no contract value, GPU count or duration disclosed",
+      "impact": "Shares fell ~3% premarket on the news",
+      "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Power-Wayves-AI-Driver-Training-in-Multi-Year-Agreement/default.aspx"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "contract",
       "headline": "CoreWeave signed a multi-year agreement to power Wayve's AI Driver training using NVIDIA Blackwell GPUs (training, evaluation and simulation for Wayve's autonomous-driving foundation models); no contract value, GPU count or duration disclosed; shares fell ~3% in pre-market trading on the news",
       "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-to-Power-Wayves-AI-Driver-Training-in-Multi-Year-Agreement/default.aspx"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: Motley Fool ~$21.69B (~2026-11-20 basis, publicly traded shares only) vs Trading Economics ~$54.31B (November 2026, undated day, price $53.13) vs stockanalysis.com ~$50.63B vs Simply Wall St ~$61.6B — not reconciled.",
+    "Shares outstanding: CompaniesMarketCap 527M (2026-08) vs TipRanks ~447.6M vs Motley Fool ~548.87M vs Simply Wall St ~525.69M — not reconciled.",
+    "Price: undated/conflicting snapshots found this pass (Robinhood $46.43 as of 2026-11-06; Gate $71.27; CoinGecko $82.95; Investing.com $85.97) span a range too wide to be the same date; none used as the current price.",
+    "Debt figure ($47B as of 2026-09-30) is sourced from a secondary aggregator (aiweekly.co) and has not been independently verified against CoreWeave's 10-Q."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move 8.37%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -275,12 +353,26 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. WebSearch surfaced only undated items (a Vera Rubin NVL72 cluster bring-up, an Anthropic multi-year compute agreement, Nasdaq-100 index-inclusion mention, an $8.5B delayed-draw term loan, $2.25B 1.75% convertible notes due 2031) with no confirmable announcement date this pass, so none were added as catalysts per the no-date rule. Nothing dated after the on-file 2026-11-19 entry was found.",
+  "notes": "No WebFetch access to Yahoo Finance/Google Finance/stockanalysis.com/investing.com-style live quotes in this sandbox. Nasdaq-100 inclusion (effective 2026-06-22) and the Anthropic multi-year cloud deal (~April 2026) both predate the 6-month catalyst window and are not included above.",
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move 8.37%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

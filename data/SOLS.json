@@ -8,29 +8,40 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.114Z",
+  "lastResearched": "2026-11-27T21:15:11.665Z",
   "fundamentals": {
     "marketCap": {
       "value": 9360000000,
       "asOf": "2026-11-05",
-      "source": "Tickertape (reflecting Nov 4 US session data)",
-      "note": "No prior value was established on file (previously null due to conflicting snapshots)."
+      "source": "Tickertape"
     },
-    "float": null,
+    "float": {
+      "value": null,
+      "note": "Not found"
+    },
     "sharesOutstanding": {
       "value": 158890000,
-      "asOf": "undated Google Finance snapshot (2026, recent)",
+      "asOf": "undated 2026 snapshot",
       "source": "Google Finance"
     },
-    "shortInterest": null,
-    "cash": null,
-    "debt": null,
+    "shortInterest": {
+      "value": null,
+      "note": "Not found"
+    },
+    "cash": {
+      "value": null,
+      "note": "Not found"
+    },
+    "debt": {
+      "value": null,
+      "note": "Not found"
+    },
     "pe": {
       "trailing": 44.64,
       "forward": null,
       "asOf": "2026-11-04",
       "source": "Tickertape",
-      "note": "Supersedes on-file 'not found / likely negative' note -- company is in fact profitable (Q3 2026 GAAP EPS $0.50 vs -$0.22 prior year, already on file)."
+      "note": "Profitable company (not negative earnings) -- Q3 2026 GAAP EPS $0.50 vs -$0.22 prior year"
     },
     "eps": [
       {
@@ -38,18 +49,36 @@
         "value": 0.5,
         "basis": "GAAP",
         "note": "vs -$0.22 in Q3 2025"
+      },
+      {
+        "period": "Q2 2026",
+        "value": 0.75,
+        "basis": "GAAP",
+        "note": "adjusted diluted EPS $0.88, beat ~$0.77-0.79 consensus"
       }
     ],
-    "revenue": [],
+    "revenue": [
+      {
+        "period": "Q3 2026",
+        "value": 1046000000,
+        "yoy": 8
+      },
+      {
+        "period": "Q2 2026",
+        "value": 1148000000,
+        "yoy": 11
+      }
+    ],
     "growth": {
       "metric": "net sales YoY",
       "period": "Q3 2026",
       "pct": 8,
-      "note": "Q3 2026 net sales $1,046M, +8% YoY"
+      "note": "Q3 2026 net sales $1,046M, +8% YoY; beat Q3 sales guidance and raised FY2026 outlook"
     },
     "nextEarnings": {
       "date": null,
-      "confirmed": false
+      "confirmed": false,
+      "note": "Not located; based on the Jul30/Nov4 2026 quarterly cadence, a ~early-Feb-2027 Q4/FY2026 report is plausible but unconfirmed"
     }
   },
   "price": {
@@ -57,10 +86,17 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-06",
-    "source": "Benzinga (unchanged from file)",
-    "note": "No confirmed close found for Nov 7-25, 2026 this pass."
+    "source": "Benzinga",
+    "note": "No confirmed close found for Nov 7-27, 2026 this pass; an older Oct 9, 2026 close of $61.35 was found but is not a current price."
   },
   "catalysts": [
+    {
+      "date": "2026-12-10",
+      "type": "guidance",
+      "headline": "Confirmed: board declared a quarterly dividend of $0.075/share (declared 2026-11-03), payable 2026-12-10 to shareholders of record as of 2026-11-25. This is the fourth consecutive quarter at the same $0.075 rate (prior declarations: 2026-02-11, 2026-04-27, 2026-07-17), i.e. a routine, recurring dividend -- not a special/one-off payout. Not unusual for this company: Solstice is a profitable, cash-generating former-Honeywell specialty/advanced-materials industrial spinoff, and regular dividends plus an active buyback are consistent with that profile rather than anomalous.",
+      "impact": null,
+      "source": "https://finviz.com/news/414906/solstice-advanced-materials-declares-dividend-of-0075-per-common-share"
+    },
     {
       "date": "2026-12-10",
       "type": "dividend",
@@ -73,6 +109,13 @@
       "type": "product milestone",
       "headline": "Announced a key development milestone for its next-generation foam blowing agent; plans to begin sampling with selected global customers in early 2027",
       "source": "https://finviz.com/news/419573/solstice-advanced-materials-reaches-key-development-milestone-for-next-generation-foam-blowing-agent"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net sales $1,046M (+8% YoY), GAAP diluted EPS $0.50 (vs -$0.22 Q3 2025); raised FY2026 guidance to net sales $4,195-4,220M, adjusted EBITDA $1,050-1,060M, adjusted diluted EPS $2.90-2.95 (up from $4,125-4,185M / $1,035-1,055M / $2.75-2.95 prior guidance); returned $112M to shareholders in Q3 including $100M of share buybacks (1.7M shares); on track to substantially complete the $500M buyback authorization by end of Q1 2027",
+      "impact": "beat and raise",
+      "source": "https://www.sec.gov/Archives/edgar/data/0002064953/000206495326000098/exhibit991-earningsrelease.htm"
     },
     {
       "date": "2026-11-04",
@@ -120,10 +163,24 @@
     },
     {
       "date": "2026-09-29",
+      "type": "regulatory",
+      "headline": "Solstice and plaintiffs (individuals, putative class members, City of Metropolis, Massac County) announced an agreement in principle to settle longstanding litigation over the Metropolis Works uranium conversion plant; subject to a definitive signed agreement and court approval (U.S. District Court, S.D. Illinois); company denies wrongdoing and does not expect a material financial impact",
+      "impact": null,
+      "source": "https://finviz.com/news/396736/solstice-advanced-materials-plaintiffs-announce-agreement-in-principle-to-settle-longstanding-litigation-related-to-metropolis-works-operations"
+    },
+    {
+      "date": "2026-09-29",
       "type": "legal",
       "headline": "Solstice and plaintiffs (individuals, putative class members, City of Metropolis, Massac County) announced an agreement in principle to settle longstanding litigation over the Metropolis Works uranium conversion plant; subject to a definitive signed agreement, court approval (U.S. District Court, S.D. Illinois) and other governmental/stakeholder approvals; company denies wrongdoing and does not expect a material impact on its business or financial performance",
       "impact": null,
       "source": "https://finviz.com/news/396736/solstice-advanced-materials-plaintiffs-announce-agreement-in-principle-to-settle-longstanding-litigation-related-to-metropolis-works-operations"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "guidance",
+      "headline": "Solstice and Element Solutions (ESI) mutually terminated their previously disclosed $14.5B cash-and-stock merger agreement; neither company paid a termination fee. Alongside the termination, Solstice announced a $500M share-buyback authorization",
+      "impact": "+12.76% on the close (one source cites +16%)",
+      "source": "https://www.placera.se/pressmeddelanden/element-solutions-solstice-advanced-materials-announces-mutual-termination-of-merger-agreement-with-element-solutions-20260827"
     },
     {
       "date": "2026-08-28",
@@ -149,6 +206,13 @@
       "type": "dividend",
       "headline": "Ex-dividend date for $0.08 quarterly dividend",
       "impact": "minor/routine"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "earnings",
+      "headline": "Q2 2026: net sales $1,148M (+11% YoY), GAAP diluted EPS $0.75, adjusted diluted EPS $0.88 (beat ~$0.77-0.79 consensus); raised FY2026 guidance to net sales $4,125-4,185M, adjusted EBITDA $1,035-1,055M, adjusted diluted EPS $2.75-2.95",
+      "impact": "positive, beat and raise",
+      "source": "https://www.sec.gov/Archives/edgar/data/0002064953/000206495326000085/exhibit991-earningsrelease.htm"
     },
     {
       "date": "2026-07-30",
@@ -186,11 +250,34 @@
     }
   ],
   "conflicts": [
-    "Market cap: ~$9.29B (2026-09-16, at $58.48/share) vs. ~$8.27B (Yahoo Finance Australia, undated) vs. ~$10.127B (Yahoo Finance UK, undated) — different-dated snapshots, not reconciled."
+    "Market cap: ~$9.36B (Tickertape, 2026-11-05) vs ~$9.29B (2026-09-16, at $58.48/share) vs ~$8.27B (Yahoo Finance Australia, undated) vs ~$10.127B (Yahoo Finance UK, undated) -- different-dated snapshots, not reconciled.",
+    "IDENTITY/CONTAMINATION FLAG: two catalysts carried on the prior record for this ticker -- a '1-for-50 reverse stock split' dated 2025-05-12 and a Nasdaq Rule 5605(c)(2)(A) audit-committee non-compliance notice dated 2025-09-08 -- could NOT be verified against Solstice Advanced Materials primary sources (IR site, SEC EDGAR) in this pass. Solstice completed its Honeywell spinoff via a 1-for-4 distribution (not a reverse split) and trades as a large-cap industrial spinoff with no reverse-split or audit-committee-compliance issue found in sources reviewed. These two items read as likely misattributed from a different, much smaller 'Sol-' prefixed ticker (e.g., Solidion Technology, which trades as STI, not SOLS) and were excluded from this pass's catalyst list pending verification."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-25: No new dated catalyst found past the Nov 9, 2026 foam-blowing-agent development milestone and the Dec 10, 2026-payable dividend already on file. WebSearch's per-turn search budget was exhausted before further confirmation could be attempted.",
+  "notes": "Ticker/name verification per task instructions: SOLS = Solstice Advanced Materials, Inc. (the Honeywell specialty-materials spinoff that began trading 2025-10-30), NOT Solidion Technology (which trades under ticker STI). The existing on-file record already correctly identifies the company as Solstice Advanced Materials with sector 'Materials' and theme 'Advanced Materials'; this pass confirms that identification and reuses the existing theme string unchanged. The Dec 10, 2026 payment is a routine, recurring quarterly dividend, not a new or unusual one.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -603,9 +690,23 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

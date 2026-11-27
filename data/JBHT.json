@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.109Z",
+  "lastResearched": "2026-11-27T21:15:11.661Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
       "asOf": "2026-11-11",
-      "note": "Approximate; range $20.91B-$21.53B across sources"
+      "note": "Approximate; range $20.91B-$21.53B across sources. No fresher figure located this pass."
     },
     "float": {
       "value": null,
@@ -43,22 +43,35 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Not established in sources reviewed"
+      "note": "Not established in sources reviewed this pass",
+      "asOf": null
     },
     "eps": [
       {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
         "period": "Q3 2026",
         "value": 1.82,
-        "basis": "GAAP",
-        "note": "Beat $1.81 consensus"
+        "basis": "GAAP diluted",
+        "note": "Beat $1.81 consensus; vs $1.76 a year earlier"
       }
     ],
     "revenue": [
       {
         "period": "Q3 2026",
-        "value": null,
+        "value": 3680000000,
         "yoy": 20,
-        "note": "Total revenue reported up ~20% YoY; intermodal segment revenue specifically rose ~20% YoY to $1.83B."
+        "note": "Total revenue +20% YoY (+13% ex-fuel surcharge); intermodal segment revenue specifically rose ~20% YoY to $1.83B"
       }
     ],
     "growth": {
@@ -77,16 +90,37 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-20",
-    "source": "Benzinga",
-    "note": "No fresher dated close located this pass."
+    "source": "Benzinga (via WebSearch)",
+    "note": "No closing price dated after 2026-11-20 could be located this pass."
   },
   "catalysts": [
+    {
+      "date": "2026-12-02",
+      "type": "other",
+      "headline": "J.B. Hunt CFO Brad Delco and Senior Director of Finance Andrew Hall are scheduled to address the Goldman Sachs Industrials and Materials Conference in New York City at 12:30 p.m. CST on Wednesday, Dec 2, 2026",
+      "impact": "Routine, forward-dated IR event; no new financial disclosure expected. Confirms and names the previously unconfirmed 'Dec 2 conference' placeholder on file.",
+      "source": "https://www.businesswire.com/news/home/20261103960335/en/J.B.-Hunt-Transport-Services-Inc.-Announces-Participation-in-Upcoming-Investor-Conferences"
+    },
     {
       "date": "2026-12-02",
       "type": "other",
       "headline": "J.B. Hunt scheduled to participate in a further investor conference on Wednesday, Dec 2, 2026 (per aggregator coverage of the company's conference-participation announcements).",
       "impact": "Routine, forward-dated IR event; no new financial disclosure expected.",
       "source": null
+    },
+    {
+      "date": "2026-11-22",
+      "type": "guidance",
+      "headline": "Coverage (citing recent investor-conference commentary) reported J.B. Hunt targeting margin recovery in 2027 as costs rise and the fleet expands; CEO Shelly Simpson reportedly said margin repair is the company's top priority moving into 2027, with the 2027 bid season targeted for rate increases to offset higher driver, fuel, and medical costs",
+      "impact": "Forward-looking margin commentary, not a formal guidance update",
+      "source": "https://marketbeat.com/instant-alerts/event-jb-hunt-targets-margin-recovery-in-2027-as-costs-rise-and-fleet-expands-2026-11-22/"
+    },
+    {
+      "date": "2026-11-17",
+      "type": "other",
+      "headline": "J.B. Hunt CFO and sales chief presented at the Stephens Investment Conference in Nashville at 9:30 a.m. CST; coverage reported shares fell afterward as executives flagged a freight-volume hit and margin uncertainty",
+      "impact": "Stock reportedly declined following conference remarks, though the magnitude was not independently confirmed this pass",
+      "source": "https://rallies.ai/news/jb-hunt-drops-after-executives-flag-volume-hit-margin-uncertainty-at-investor-conference-62f107399f91089e"
     },
     {
       "date": "2026-11-17",
@@ -105,9 +139,23 @@
     {
       "date": "2026-11-10",
       "type": "other",
+      "headline": "J.B. Hunt President of Intermodal and CFO presented at the Baird 2026 Global Industrial Conference in Chicago at 12:35 p.m. CST",
+      "impact": "Routine IR event",
+      "source": "Businesswire"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "other",
       "headline": "Participation in investor conference",
       "impact": "Routine IR event; no new financial disclosure confirmed from this pass.",
       "source": "Businesswire"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "other",
+      "headline": "Board declared a regular quarterly dividend of $0.45/share, payable 2026-11-20 to shareholders of record as of 2026-11-06",
+      "impact": "Routine capital return, no change to payout rate found",
+      "source": "https://finviz.com/news/405753/jb-hunt-transport-services-inc-announces-quarterly-dividend"
     },
     {
       "date": "2026-11-06",
@@ -131,6 +179,13 @@
     },
     {
       "date": "2026-11-03",
+      "type": "other",
+      "headline": "CFO Brad Delco reported a derivative security exercise via SEC Form 4",
+      "impact": "Filed as exempt under Rule 16b-3 with no cash value disclosed; routine compensation-related transaction, not clearly directional",
+      "source": "SEC Form 4 via Quantisnow"
+    },
+    {
+      "date": "2026-11-03",
       "type": "insider",
       "headline": "CFO Brad Delco reports a derivative security exercise",
       "impact": "Filed as exempt under Rule 16b-3 with no cash value disclosed; routine compensation-related transaction, not clearly directional.",
@@ -141,6 +196,13 @@
       "type": "corporate",
       "headline": "J.B. Hunt announced participation in upcoming investor conferences, including Baird's 2026 Global Industrial Conference in Chicago on Nov 10",
       "source": "https://www.businesswire.com/news/home/20251029590042/en/J.B.-Hunt-Transport-Services-Inc.-Announces-Participation-in-Upcoming-Investor-Conferences/"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "earnings",
+      "headline": "Q3 2026 results: net earnings $172.4M ($1.82 diluted EPS, beat $1.81 consensus) vs $170.8M ($1.76/share) a year earlier; revenue $3.68B (+20% YoY, +13% ex-fuel surcharge); operating income $247.1M (+2%), operating margin narrowed ~1.2pp to 6.7% on higher driver, insurance and group-medical costs; Intermodal and a return to profit in Integrated Capacity Solutions offset declines in Dedicated, Final Mile and Truckload; 9-month diluted EPS $5.21 vs $4.24; FY2026 capex target held at $700M",
+      "impact": "Shares reportedly fell intraday despite the beat (range -2% to -5% across sources), though one later report described a ~5.6% gain tied to the combination of the earnings beat, a buyback boost, and a new credit line -- not reconciled",
+      "source": "https://finviz.com/news/403321/jb-hunt-transport-services-inc-reports-us-gaap-revenues-net-earnings-and-earnings-per-share-for-the-third-quarter-2026"
     },
     {
       "date": "2026-10-15",
@@ -200,11 +262,28 @@
     }
   ],
   "conflicts": [
-    "Price: Fox Business shows a $218.54 close as of 2026-11-06 4:00pm EDT, vs. the $227.66 figure previously on file (Motley Fool, asOf 2026-11-11) — not reconciled; separate undated Yahoo/Morningstar snapshots in the $226-$235 range add further noise and cannot be dated."
+    "Price: Fox Business shows a $218.54 close as of 2026-11-06 4:00pm EDT vs a $227.66 figure separately on file (Motley Fool, asOf 2026-11-11); a Benzinga figure of $217.90 (asOf 2026-11-20) is the most recent located this pass but was not cross-checked against a second source for that date. Undated Yahoo/Morningstar snapshots in the $226-$235 range add further noise and cannot be dated.",
+    "Oct 15, 2026 post-earnings share-price reaction reported inconsistently: -2% to -5% intraday decline (Finviz/general aggregation) vs a reported ~5.6% gain (Zacks/FreightWaves/Talk Business & Politics/Simply Wall St, tied to the beat plus buyback/credit-line news) -- not reconciled.",
+    "Total revenue for Q3 2026 reported as +20% YoY to $3.68B by most sources, but one source (Talk Business) specifically cites +21% YoY for total revenue vs +20% YoY for the intermodal segment (Zacks) -- the two percentages may be being conflated across sources."
   ],
   "pendingFilings": [],
-  "notes": "Otherwise a quiet pass -- no new dated catalyst beyond the already-on-file Nov 6 dividend declaration and Nov 10/17 investor-conference participations. Next earnings (Q4/FY2026) remains company-confirmed for Jan 15, 2027.",
+  "notes": "Otherwise a quiet pass. The Dec 2, 2026 conference is now confirmed by name (Goldman Sachs Industrials and Materials Conference), resolving the prior placeholder. Next earnings (Q4/FY2026) remains company-confirmed for Jan 15, 2027, with a quiet period beginning Dec 20, 2026.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "7 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "marketCap updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -493,9 +572,16 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "7 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "marketCap updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

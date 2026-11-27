@@ -8,12 +8,12 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.111Z",
+  "lastResearched": "2026-11-27T21:15:11.663Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
       "asOf": "2026-11-11",
-      "source": "Motley Fool, publicly traded shares only"
+      "source": "Motley Fool (publicly-traded shares only basis)"
     },
     "float": {
       "value": null,
@@ -21,7 +21,7 @@
     },
     "sharesOutstanding": {
       "value": null,
-      "note": "One aggregator reports ~3.024B shares (Nov 5, post-offering) vs the 10-K's 2.880B (as of 2026-06-12, pre-offering); not confirmed against a primary filing"
+      "note": "Conflicting figures: ~3.024B (aggregator, post-offering, as of Nov 5) vs 2.880B per the FY2026 10-K (as of 2026-06-12, pre-offering) — not reconciled"
     },
     "shortInterest": {
       "value": null,
@@ -34,12 +34,12 @@
     "debt": {
       "value": 125300000000,
       "asOf": "2026-11",
-      "source": "aggregator tracker (via WebSearch), citing Oracle's borrowings"
+      "source": "Aggregator tracker (via WebSearch), citing Oracle's borrowings"
     },
     "pe": {
       "trailing": 19.76,
       "forward": null,
-      "note": "Motley Fool TTM EPS $6.38 at $125.88; other sources (Yahoo 24.43-40.54, Invezz 25.49) disagree and are undated",
+      "note": "Motley Fool TTM EPS $6.38 at $125.88; other sources (Yahoo 24.43-40.54, Invezz 25.49) disagree and are undated — not reconciled",
       "asOf": "2026-11-11"
     },
     "eps": [
@@ -59,12 +59,12 @@
       "metric": "revenue YoY",
       "period": null,
       "pct": null,
-      "note": "Not established this pass"
+      "note": "Not established this pass; Q1 FY2027 coverage referenced only qualitative 'triple-digit growth' in cloud infrastructure (OCI) revenue, not a specific total-revenue YoY percentage"
     },
     "nextEarnings": {
       "date": "2026-12-14",
       "confirmed": false,
-      "note": "Unchanged from prior pass; still unconfirmed via Oracle IR, though a third-party aggregator (Marketchameleon) also lists this same date."
+      "note": "Unconfirmed via Oracle IR. This pass found a third-party source (Investor Signals) listing Dec 14, 2026 after market close, consistent with the file, but other aggregators suggest Dec 8-10, 2026 instead; Oracle's second fiscal quarter ends 2026-11-30, and the company's historical pattern is to announce the exact date about one week ahead of the report, which had not yet occurred as of 2026-11-27 in sources reviewed."
     }
   },
   "price": {
@@ -72,8 +72,8 @@
     "changePct": null,
     "rvol": null,
     "asOf": "2026-11-17",
-    "source": "Benzinga (kr.benzinga.com/quote/ORCL/charts) (unchanged from file)",
-    "note": "No confirmed close found for Nov 18-25, 2026 despite searching. Schwab's intraday-only Nov 18 snapshot ($114.90, 2:03pm ET, -0.09%) remains the most recent reading of any kind, and is not a confirmed close."
+    "source": "Benzinga (kr.benzinga.com/quote/ORCL/charts)",
+    "note": "No confirmed close found for Nov 18-27, 2026 despite additional search this pass. A Schwab intraday-only snapshot ($114.90, 2:03pm ET, -0.09%) on Nov 18 is the most recent same-ballpark reading, not a confirmed close. See conflicts for a separate, inconsistent $130.67 (Oct 30) reading found this pass."
   },
   "catalysts": [
     {
@@ -82,6 +82,13 @@
       "headline": "Next quarterly earnings report expected (date unconfirmed)",
       "impact": "Will be the next scheduled read on cloud/AI infrastructure demand and capex/debt trajectory following the stock's sharp 2026 decline",
       "source": "Aggregator search result (unconfirmed); verify via Oracle investor relations"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "other",
+      "headline": "Oracle held its 2026 Annual Meeting of Stockholders (virtual, 9:00am CT; record date 2026-09-21); ballot included election of 13 directors, an advisory say-on-pay vote, ratification of Ernst & Young LLP as auditor, and a stockholder proposal on shareholder-proposal access rights",
+      "impact": "Routine governance event; vote tallies (normally disclosed via 8-K) not located",
+      "source": "https://www.morningstar.com/news/pr-newswire/20261106sf87974/oracles-annual-meeting-of-stockholders-to-be-held-november-18-2026"
     },
     {
       "date": "2026-11-18",
@@ -105,6 +112,13 @@
     },
     {
       "date": "2026-11-17",
+      "type": "other",
+      "headline": "ORCL shares moved down 3.48% amid continued AI-infrastructure-financing jitters and broader chip/AI-stock weakness around NVIDIA's earnings",
+      "impact": "-3.48%",
+      "source": "https://www.tradingkey.com/news/market-movers/262309337-market-movers-orcl-20261117"
+    },
+    {
+      "date": "2026-11-17",
       "type": "price move",
       "headline": "ORCL shares moved down 3.48% amid continued AI-infrastructure-financing jitters and the broader chip/AI-stock weakness around NVIDIA's earnings",
       "impact": "-3.48%",
@@ -116,6 +130,13 @@
       "headline": "ORCL rose 8.82% to $128.38 from a $117.98 prior close, as cloud-demand optimism offset lingering AI-financing-risk concerns",
       "impact": "+8.82%",
       "source": "https://finchannel.com/oracle-stock-jumps-8-82-as-cloud-demand-meets-funding-risks/141268/american-business-trends/stock-prices/2026/11/"
+    },
+    {
+      "date": "2026-11-06",
+      "type": "offering",
+      "headline": "Oracle shares fell roughly 5.5% intraday, associated with the company's recently filed SEC registration plans to issue $20 billion in new securities ($10B common stock, $10B senior notes) to help fund its AI data-center expansion",
+      "impact": "-5.5% intraday",
+      "source": "https://www.rttnews.com/3705261/oracle-shares-gain-on-long-term-outlook-plans-for-positive-free-cash-flow.aspx"
     },
     {
       "date": "2026-11-06",
@@ -134,6 +155,13 @@
     },
     {
       "date": "2026-11-05",
+      "type": "other",
+      "headline": "ORCL closed at $115.16, down 6.93% from a $123.73 prior close, as part of a broad, market-wide AI-infrastructure selloff (Nasdaq Composite -5.5%, S&P 500 -4.4%, erasing roughly $3 trillion in market value). Coverage attributes the rout to post-midterm-election concern that political opposition could slow AI data-center buildout, compounded by a strong October jobs report reviving Fed rate-path concerns.",
+      "impact": "-6.93% confirmed close",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-6-144816072.html"
+    },
+    {
+      "date": "2026-11-05",
       "type": "price action",
       "headline": "Oracle's intraday decline was confirmed as a full-session close: ORCL finished 2026-11-05 at $115.16, down 6.93% from a $123.73 prior close, as part of a broad, market-wide AI-infrastructure selloff -- the Nasdaq Composite fell 5.5% (to 24,315.00) and the S&P 500 fell 4.4% (to 7,353.73), erasing roughly $3 trillion in market value. Coverage attributes the rout to post-midterm-election concern that political opposition could slow AI data-center buildout, compounded by a strong October jobs report reviving Fed rate-path concerns.",
       "impact": "-6.93% confirmed close",
@@ -145,6 +173,13 @@
       "headline": "ORCL fell sharply intraday (roughly -7% to -8%, trading in the $114-115 area vs. a prior close of ~$123.77) amid a broad AI-infrastructure stock selloff following the U.S. midterm elections, on investor concern that political opposition to data-center development could slow AI buildouts; session range $111.66-$124.24, with $111.66 also the 52-week low.",
       "impact": "-6.9% to -7.6% intraday depending on quote timestamp (not a confirmed close)",
       "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-stock-slides-market-214502640.html"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "offering",
+      "headline": "Oracle closed a combined ~$20 billion stock-and-senior-notes offering: $10B common stock (86,206,897 new shares at $116.00/share, ~$9.9B net proceeds) plus $10B senior notes across five tranches (7.000% 2029 through 8.650% 2046, ~$10.0B net proceeds); Oracle said it will seek no more than $20B in additional AI financing through fiscal 2030",
+      "impact": "Dilutive primary equity issuance alongside new debt",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526447507/d131790d8k.htm"
     },
     {
       "date": "2026-11-04",
@@ -173,6 +208,13 @@
       "headline": "A Fool.com headline ('Stock Market Today, Nov. 4: Oracle Falls on Canceled $7 Billion Tencent Chip-Leasing Deal') attributes a same-day Oracle decline to cancellation of a reported $7B Tencent AI-chip leasing deal. This could not be corroborated: every other source located (Goldesel, TIKR, Boerse-Global, TrendForce, w.media, aiweekly.co) describes the Tencent deal only as FT-reported/signed around 2026-10-01 and still unconfirmed by either company, with no cancellation reported anywhere else found. See conflicts.",
       "impact": "Cited as contributing to a two-day decline into 2026-11-05",
       "source": "https://www.fool.com/coverage/stock-market-today/2026/11/04/stock-market-today-nov-4-oracle-falls-on-canceled-7-billion-tencent-chip-leasing-deal/"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "offering",
+      "headline": "Oracle priced ~86.2M shares at $116.00 alongside a $10B, five-tranche senior notes offering; Moody's affirmed Baa2 on the new notes with outlook remaining negative, citing AI-capex-driven debt load",
+      "impact": "Continues the debt-funded AI buildout narrative behind Oracle's 2026 credit-rating pressure and stock decline",
+      "source": "https://www.newsquawk.com/headlines/moodys-ratings-affirms-oracles-orcl-baa2-rating-on-new-note-offering-outlook-remains-negative"
     },
     {
       "date": "2026-11-02",
@@ -218,6 +260,12 @@
     },
     {
       "date": "2026-09-14",
+      "type": "other",
+      "headline": "Oracle fell ~4.7%-4.85% amid a broad AI-linked stock selloff, triggered by weekend comments from Anthropic and OpenAI leadership urging a slower pace of frontier AI development and confirming OpenAI's IPO would not occur in 2026; compounded by ongoing concern over Oracle's debt-funded AI capex buildout",
+      "impact": "-4.7% to -4.85% on the day per multiple outlets"
+    },
+    {
+      "date": "2026-09-14",
       "type": "sector-selloff",
       "headline": "Oracle fell ~4.7%-4.85% amid a broad AI-linked stock selloff, triggered by weekend comments from Anthropic and OpenAI leadership (including OpenAI CEO Sam Altman, in a 2026-09-11 Fortune interview) urging a slower pace of frontier AI development and confirming OpenAI's IPO will not occur in 2026 (pushed to 2027 or later); compounded by ongoing concern over Oracle's debt-funded AI capex buildout (Q1 FY2027 capex $28.5B vs $8.5B a year earlier; FY2027 capex guidance maintained at $90B-$95B)",
       "impact": "-4.7% to -4.85% on the day per multiple outlets"
@@ -226,6 +274,13 @@
       "date": "2026-09-14",
       "type": "sector-selloff",
       "headline": "Oracle publicly rejected a Bloomberg report claiming certain OpenAI-committed data centers would slip to 2028 (a one-year delay from original schedule), stating 'There have been no delays on the sites required to meet our contractual commitments' and that timelines were jointly validated with OpenAI"
+    },
+    {
+      "date": "2026-09-12",
+      "type": "other",
+      "headline": "Executive Chair/CTO Larry Ellison cancelled his Rule 10b5-1 trading plan (adopted 2026-06-22) that would have allowed sale of up to 50 million Oracle shares (~$7.5B); no shares were sold under the plan prior to cancellation",
+      "impact": "Cited by multiple outlets as a contributing factor in 2026-09-14 trading alongside the broader AI-sector selloff",
+      "source": "https://investor.oracle.com/investor-news/news-details/2026/Larry-Ellison-Cancels-His-Plan-to-Sell-Oracle-Stock/default.aspx"
     },
     {
       "date": "2026-09-12",
@@ -257,11 +312,30 @@
   ],
   "conflicts": [
     "Shares outstanding post-offering: ~3.024B (one aggregator, Nov 5) vs 2.880B per the 10-K (as of 2026-06-12, pre-offering) — not reconciled.",
-    "Next earnings date: Dec 14, 2026 (on file, Marketchameleon-corroborated) vs a Benzinga listing of Dec 9, 2026 for 'Q2 2027 earnings' — not reconciled this pass."
+    "Next earnings date: Dec 14, 2026 (Investor Signals / Marketchameleon) vs a Benzinga listing of Dec 9, 2026 vs other aggregator estimates clustering around Dec 8-10, 2026 — none confirmed via Oracle IR; not reconciled.",
+    "Price: $115 (asOf 2026-11-17, Benzinga, on file) vs a separately found Financialcontent-cached close of $130.67 on 2026-10-30 (-6.37% that day) — different dates and not reconciled; no confirmed ORCL close located for Nov 18-27, 2026.",
+    "A Fool.com headline attributes a 2026-11-04 Oracle decline to cancellation of a reported $7B Tencent AI-chip leasing deal; this could not be corroborated by any other source found (Goldesel, TIKR, Boerse-Global, TrendForce, w.media, aiweekly.co all describe the Tencent deal as still FT-reported/unconfirmed, not cancelled) — not adopted as fact."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-25: Oracle's Nov 18, 2026 Annual Meeting of Stockholders (already on file) was confirmed as held, but no vote-tally 8-K or outcome was located this pass. No new dated catalyst found. The next-earnings-date conflict already on file (Dec 14, 2026 vs a Dec 9, 2026 Benzinga listing) remains unreconciled. WebSearch's per-turn search budget was exhausted before further confirmation could be attempted.",
+  "notes": "No new dated catalyst found past 2026-11-18 despite additional search this pass. Next-earnings-date and recent-price conflicts remain unresolved; Oracle IR was not independently reachable this session to confirm either.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "8 new catalyst(s)",
+        "pe updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -574,9 +648,18 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "8 new catalyst(s)",
+      "pe updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

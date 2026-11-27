@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.104Z",
+  "lastResearched": "2026-11-27T21:15:11.657Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree ($23.43B Motley Fool vs $23.08B Equibles vs $21.97B TipRanks, the last apparently stale) — not reconciled"
+      "asOf": null,
+      "source": null,
+      "note": "Sources disagree ($23.43B Motley Fool vs $23.08B Equibles vs $21.97B TipRanks, the last apparently stale) — not reconciled."
     },
     "float": {
       "value": null,
@@ -25,13 +27,14 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "Not retrieved this pass"
+      "asOf": null,
+      "note": "Not found"
     },
     "cash": {
       "value": 168000000,
-      "asOf": "2026-Q1 (stale)",
+      "asOf": "2026-Q1",
       "source": "Motley Fool",
-      "note": "No 2026-09-30 cash figure located"
+      "note": "Stale; no 2026-09-30 cash figure located"
     },
     "debt": {
       "value": 40806000000,
@@ -42,13 +45,40 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "not established this pass (company is profitable, but a reconciled EPS/TTM basis was not located)"
+      "note": "Company is profitable, but a reconciled trailing-twelve-month EPS basis was not located this pass (only full fiscal-year and single-quarter figures found, not a TTM roll-up); FY2026 core EPS guidance of $5.90-$6.20 was reaffirmed with Q3 2026 results",
+      "asOf": "2026-10-29"
     },
     "eps": [
       {
+        "period": "FY2024",
+        "value": 3.33,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2024",
+        "value": 4.93,
+        "basis": "core/non-GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": 11.58,
+        "basis": "GAAP",
+        "note": "Includes a $0.46 one-time true-up from the Woolsey cost-recovery proceeding, per company disclosure"
+      },
+      {
+        "period": "FY2025",
+        "value": 6.55,
+        "basis": "core/non-GAAP"
+      },
+      {
+        "period": "Q3 2026",
+        "value": 1.88,
+        "basis": "GAAP"
+      },
+      {
         "period": "Q3 2026",
         "value": 1.92,
-        "basis": "core/non-GAAP (beat analyst estimates)"
+        "basis": "core/non-GAAP"
       }
     ],
     "revenue": [
@@ -64,24 +94,33 @@
       }
     ],
     "growth": {
-      "metric": "FY2026 core EPS guidance (reaffirmed)",
-      "period": "FY2026",
-      "pct": null
+      "metric": "revenue YoY",
+      "period": "Q3 2026",
+      "pct": -15,
+      "note": "Revenue missed consensus (estimates ranged $5.34B-$5.53B across sources) even as core EPS beat ($1.92 vs ~$1.81-$1.83 consensus); FY2026 core EPS guidance of $5.90-$6.20 and 5-7% annual core EPS growth target through 2030 were both reaffirmed"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 already reported; Q4/FY2026 date not found"
+      "note": "Q3 2026 already reported (2026-10-29); Q4/FY2026 date not yet announced. Prior-year Q4/FY results were reported in mid-to-late February, suggesting a similar window for FY2026, but this is inference, not a confirmed date."
     }
   },
   "price": {
     "last": 60.17,
     "changePct": 0.3,
+    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "AAII (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only a stale Trefis snapshot (~$61.48 as of 2026-11-05). No price newer than the on-file 2026-11-13 figure was established."
+    "source": "AAII",
+    "note": "No reconciled close newer than 2026-11-13 found; only stale snapshots (e.g., a Sept 4 Coinglass figure) turned up, not usable as current. RVOL not statable."
   },
   "catalysts": [
+    {
+      "date": "2026-11-30",
+      "type": "program deadline (upcoming)",
+      "headline": "Deadline to submit a claim to SCE's Wildfire Recovery Compensation Program (voluntary, Eaton Fire); the deadline is to submit a claim, not to complete the full process — offers and payments continue afterward. Separately, the deadline to file a property claim in the related litigation does not expire until January 2028. More than 15,600 participants had turned to the program as of early October, with October the highest-claims month of the year to date",
+      "impact": "Ongoing wildfire-liability resolution milestone; does not resolve total liability exposure",
+      "source": "https://energized.edison.com/wildfire-recovery-compensation-program ; https://www.webull.com/news/15838641161870336"
+    },
     {
       "date": "2026-11-30",
       "type": "program deadline (upcoming)",
@@ -108,6 +147,13 @@
       "type": "analyst action",
       "headline": "Mizuho cut its price target on Edison International to $63, citing ongoing California wildfire-liability-reform uncertainty.",
       "source": "https://www.trefis.com/data/companies/EIX?from=section_ticker"
+    },
+    {
+      "date": "2026-10-29",
+      "type": "earnings",
+      "headline": "Edison International reported Q3 2026 results: core EPS $1.92 (beat ~$1.81-$1.83 consensus, down from $2.34 a year earlier which included a one-time rate-case true-up); GAAP EPS $1.88; revenue $4.886B (missed consensus, down from ~$5.75B); reaffirmed FY2026 core EPS guidance of $5.90-$6.20 and 5-7% annual EPS growth target through 2030",
+      "impact": "EPS beat overshadowed by the revenue miss and ongoing wildfire-reform uncertainty",
+      "source": "https://www.zacks.com/stock/news/3019735/edison-international-q3-earnings-outpace-estimates,-revenues-miss"
     },
     {
       "date": "2026-10-29",
@@ -141,9 +187,23 @@
     {
       "date": "2026-10-14",
       "type": "operational",
+      "headline": "Bloomberg reported Edison International/Southern California Edison was considering shutting off power for up to roughly 246,000 customers amid wildfire-risk conditions",
+      "impact": "Operational/PSPS-related disclosure amid ongoing Eaton Fire liability scrutiny",
+      "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/EIX"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "operational",
       "headline": "Bloomberg reported Edison International/Southern California Edison is considering shutting off power for up to roughly 246,000 customers amid wildfire-risk conditions",
       "impact": "Operational/PSPS-related disclosure amid ongoing Eaton Fire liability scrutiny",
       "source": "https://www.streetinsider.com/entities/Mark+Zuckerberg/EIX ; https://briefglance.com/companies/edison-international/pulses/83344"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "short-seller report",
+      "headline": "Muddy Waters alleged Southern California Edison showed reckless/willful disregard in the Eaton Fire, citing potential liability of at least $4B in fire-related damages and up to roughly $20B if a court found willful misconduct; Edison denies negligence or wrongdoing",
+      "impact": "Shares fell more than 3% that session",
+      "source": "https://www.insurancejournal.com/news/west/2026/10/13/888798.htm"
     },
     {
       "date": "2026-10-13",
@@ -198,6 +258,13 @@
       "type": "analyst action",
       "headline": "UBS maintains Hold, price target $57",
       "impact": "neutral"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "litigation",
+      "headline": "LA County Superior Court Judge Laura Seigle denied Edison International's motion for summary judgment seeking to be dropped from Eaton Fire litigation; the parent had argued it had no ownership or control over the equipment at issue, but the judge found it had not met its burden of showing it bore no responsibility",
+      "impact": "Keeps Edison International (the parent, not just SCE) exposed as a defendant in Eaton Fire litigation",
+      "source": "https://dailyjournal.com/article/394580-judge-leans-against-dropping-edison-parent-from-eaton-fire-cases"
     },
     {
       "date": "2026-09-22",
@@ -279,10 +346,30 @@
       "source": "https://www.businesswire.com/news/home/20260730727743/en/"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: Motley Fool $23.43B vs Equibles $23.08B vs TipRanks $21.97B (apparently stale) — not reconciled."
+  ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. No EIX/wildfire news dated 2026-11-24 or 2026-11-25 found. The two on-file upcoming watch items -- the Nov 15 special-legislative-session deadline and the Nov 30 Wildfire Recovery Compensation Program deadline -- were not independently re-confirmed or resolved this pass; the Nov 30 deadline is now five days out.",
+  "notes": "No WebFetch access to Yahoo Finance/Google Finance live quotes in this sandbox. No EIX/wildfire news dated 2026-11-24 through 2026-11-27 was found via WebSearch this pass; the Nov 15 special-session and Nov 30 program deadlines remain the key near-term watch items.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "5 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "cash updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -719,9 +806,19 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "5 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "cash updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

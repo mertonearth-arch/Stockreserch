@@ -8,13 +8,13 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.107Z",
+  "lastResearched": "2026-11-27T21:15:11.659Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
       "asOf": "2026-11-06",
       "source": "Fox Business",
-      "note": "Predates the Nov 9 earnings/guidance cut; stale relative to current price"
+      "note": "Predates the Nov 9 earnings/guidance cut and the subsequent price collapse to well under $1; stale. No fresher market-cap figure located this pass."
     },
     "float": {
       "value": 119910000,
@@ -30,7 +30,7 @@
       "value": 6400000,
       "asOf": "2026-10-05 settlement",
       "source": "Equibles",
-      "note": "~4.1% of float; 13.4 days to cover"
+      "note": "~4.1% of float; 13.4 days to cover; predates the Nov crash, no fresher settlement data located"
     },
     "cash": {
       "value": 140000000,
@@ -41,33 +41,52 @@
       "value": 5024300000,
       "asOf": "2026-11-10",
       "source": "Kalkine (gross total debt)",
-      "note": "Company-reported net debt figure elsewhere is ~$4.7B — not the same metric"
+      "note": "Company-reported net debt figure elsewhere is ~$4.7B -- not the same metric"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 loss of $0.06/share vs a consensus of breakeven; trailing P/E not meaningful",
+      "note": "negative earnings -- Q3 2026 GAAP loss of $0.06/share vs a consensus of breakeven; trailing P/E not meaningful",
       "asOf": "2026-11-09"
     },
     "eps": [
       {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
         "period": "Q3 2026",
         "value": -0.06,
-        "basis": "GAAP (vs consensus breakeven)"
+        "basis": "GAAP",
+        "note": "vs consensus breakeven / -$0.02 est. depending on source"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": 3.3,
-      "note": "Ex-political revenue growth was ~0.9%; missed ~$1.05B consensus"
+      "note": "Revenue $1.03B (+3.3% YoY, ~+0.9%-1% ex-political), missing a ~$1.05B consensus; podcast revenue +24.4% to $173.7M; Multiplatform/broadcast revenue -4.9%"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q4/FY2026 date still not located this pass."
+      "note": "Q4/FY2026 earnings date not located this pass"
     },
     "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": null,
+        "yoy": null,
+        "note": "Not independently located as a standalone figure this pass"
+      },
       {
         "period": "Q3 2026",
         "value": 1030000000,
@@ -76,19 +95,41 @@
     ]
   },
   "price": {
-    "last": 0.68,
-    "changePct": -61.58,
-    "asOf": "2026-11-10",
-    "source": "Kalkine (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found no IHRT quote dated after 2026-11-12 (BofA downgrade day). On-file price carried forward."
+    "last": 0.4498,
+    "changePct": -5.62,
+    "rvol": null,
+    "asOf": "2026-11-21",
+    "source": "aggregator snapshot surfaced via WebSearch (exact provider not labeled in result; previous close given as $0.4766)",
+    "note": "Newer than the prior on-file 2026-11-10 price ($0.68, -61.58%). changePct of -5.62% is calculated from the $0.4766 previous-close figure given alongside this snapshot, not independently re-verified against a primary exchange feed. The -61.58% single-session move remains on file as the historical catalyst of record for 2026-11-10 (see catalysts) and is NOT this entry's changePct."
   },
   "catalysts": [
+    {
+      "date": "2026-11-21",
+      "type": "other",
+      "headline": "IHRT shares continued to trade near all-time lows, last seen around $0.45 (down from a $0.4766 prior close), with a cited 52-week range of $0.4364-$6.5599, confirming the decline is an ongoing genuine sell-off rather than a one-day anomaly",
+      "impact": "Continued post-crash weakness; no rebound evident as of this date",
+      "source": "aggregator snapshot surfaced via WebSearch"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "analyst",
+      "headline": "BofA downgraded IHRT to Underperform from Neutral and cut its price target to $1 from $5, citing high debt leverage, secular challenges facing terrestrial radio, and the FY2026 guidance cut; shares fell ~16.5% intraday that afternoon",
+      "impact": "Second consecutive sharp down day following the Nov 10 post-earnings crash",
+      "source": "https://stockstory.org/us/stocks/nasdaq/ihrt/news/why-up-down/why-iheartmedia-ihrt-stock-is-falling-today"
+    },
     {
       "date": "2026-11-12",
       "type": "other",
       "headline": "BofA downgraded IHRT to Underperform from Neutral and cut its price target to $1 from $5; shares fell ~16.5% intraday that afternoon",
       "impact": "Second consecutive sharp down day following the Nov 10 post-earnings crash",
       "source": "https://stockstory.org/us/stocks/nasdaq/ihrt/news/why-up-down/why-iheartmedia-ihrt-stock-is-falling-today"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "regulatory",
+      "headline": "Law firms (SueWallSt; separately Levi & Korsinsky) announced shareholder-investigation notices regarding potential securities-law claims tied to the stock's collapse (solicitation-style releases, not a regulatory enforcement action)",
+      "impact": "n/a",
+      "source": "https://www.prnewswire.com/news-releases/ihrt-shareholder-investigation-suewallst-notifies-investors-of-potential-securities-claims-involving-iheartmedia-inc-302936016.html"
     },
     {
       "date": "2026-11-11",
@@ -106,6 +147,20 @@
     },
     {
       "date": "2026-11-10",
+      "type": "other",
+      "headline": "iHeartMedia CEO warned major advertisers are delaying spending as economic uncertainty bites, cited as a driver of continued share weakness the day after earnings",
+      "impact": "Part of the cumulative ~66% two-day decline",
+      "source": "https://www.benzinga.com/markets/earnings/26/11/63103911/iheartmedia-ceo-warns-major-advertisers-are-delaying-spending-as-economic-uncertainty-bites"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "other",
+      "headline": "IHRT shares fell 61.58% on the session (close $0.68 vs a calculated previous close of $1.77), following the Q3 report and guidance cut; an intraday low near $0.598-$0.6095 and a reported after-hours decline of ~35-37% were also cited by some sources -- this is a confirmed genuine sell-off, NOT a reverse split: no split announcement, filing, or corporate action was found in any source reviewed, and the stock continued trading at sub-$1 levels in a continuous, unbroken price series through at least 2026-11-21 (see fundamentals/price notes)",
+      "impact": "Largest single-day decline on file for this ticker",
+      "source": "https://kalkine.ca/news/consumer/why-did-iheartmedia-nasdaqihrt-crater-6158-on-the-market-movers-list-on-november-10-2026"
+    },
+    {
+      "date": "2026-11-10",
       "type": "price move",
       "headline": "IHRT shares fell sharply following the Q3 report and guidance cut; magnitude varies by source (see conflicts)",
       "impact": "Large post-earnings decline",
@@ -117,6 +172,13 @@
       "headline": "iHeartMedia CEO warned major advertisers are delaying spending as economic uncertainty bites, cited as driver of continued share weakness the day after earnings",
       "impact": "part of the -66% two-day move",
       "source": "https://www.benzinga.com/markets/earnings/26/11/63103911/iheartmedia-ceo-warns-major-advertisers-are-delaying-spending-as-economic-uncertainty-bites"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "iHeartMedia reported Q3 2026 results: revenue ~$1.03B (+3.3% YoY, missing ~$1.05B consensus); Adjusted EBITDA $170M/$170.5M (below a guided $180-220M range, down 16.7% YoY); GAAP EPS loss of $0.06 vs breakeven/-$0.02 consensus; cut FY2026 Adjusted EBITDA guidance to $550-600M (from ~$800M) and FCF guidance to ~$50M (from ~$200M); took a $209M impairment on station license valuations; cash fell to $139.7M from $174.4M at June 2026; Multiplatform Group (broadcast) segment Adjusted EBITDA fell 42.9%; podcast revenue +24.4% to $173.7M",
+      "impact": "Major guidance cut attributed to weak broadcast-radio ad demand, advertiser spending delays amid macro uncertainty, and a faster shift to programmatic buying",
+      "source": "https://www.morningstar.com/news/business-wire/20261109740280/iheartmedia-inc-reports-results-for-2026-third-quarter"
     },
     {
       "date": "2026-11-09",
@@ -147,9 +209,33 @@
       "source": "https://www.stockopedia.com/share-prices/i-heart-media-NSQ:IHRT/news/brief-i-heart-media-enters-into-transaction-support-agreement-to-strengthen-balance-sheet-019e6db8-c43e-7278-8d36-e38a5110235a/"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "No reverse split found for IHRT despite the extreme -61.58% single-session move: multiple sources (Kalkine, StockStory, RBR, Benzinga) independently describe this as a genuine post-earnings/guidance-cut collapse, and a later Nov 21 snapshot shows continued trading in the sub-$0.50 range (52-week range cited as $0.4364-$6.5599), consistent with an unbroken price series rather than a split-driven jump. Flagged here per instructions rather than silently assumed.",
+    "Nov 10, 2026 closing price and move magnitude reported inconsistently: close given as $0.68 (-61.58%, Kalkine) vs an intraday low near $0.598-$0.6095 and a reported after-hours decline of ~35-37% (RBR) -- not reconciled.",
+    "Total debt cited as ~$5.0B (Kalkine, gross) vs a company-reported net debt figure elsewhere of ~$4.7B -- these are different metrics (gross vs net) and are not the same number.",
+    "Market cap estimates for IHRT range widely (~$105M to ~$317M) across sources/dates reflecting very different price and share-count inputs post-crash -- not reconciled; the $317.32M Fox Business figure (asOf 2026-11-06, pre-crash) remains on file as a labeled-stale placeholder."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "debt updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -306,12 +392,23 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. No new dated catalysts found; a TNA Wrestling Radio / iHeartRadio partnership (~Nov 16) and a Big Boi podcast launch (~Nov 11) surfaced via WebSearch but are programming announcements, not price-moving corporate events, and are omitted as immaterial. No new price or fundamentals update.",
+  "notes": "No confirmed Nasdaq minimum-bid-price deficiency notice or delisting action was found for IHRT this pass, despite the stock trading well under $1.00; one source (Kalkine) raised the question but found no notice. No bankruptcy filing was found. An undated rbr.com reference to a 'post-bankruptcy low' near $2.50 could not be dated or corroborated and conflicts with all other sub-$1 price data, so it was treated as unreliable and excluded from catalysts.",
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "6 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "debt updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

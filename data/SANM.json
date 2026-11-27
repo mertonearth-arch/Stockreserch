@@ -8,14 +8,14 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.112Z",
+  "lastResearched": "2026-11-27T21:15:11.663Z",
   "fundamentals": {
     "revenue": [
       {
         "period": "Q4 FY2026",
         "value": 3860000000,
-        "yoy": null,
-        "note": "vs $3.48B consensus"
+        "yoy": 84,
+        "note": "vs $3.48B consensus; the +84% YoY figure is per one source (247wallst/Panabee) and differs from the FY2026 full-year +79% figure — different periods, not reconciled against each other"
       },
       {
         "period": "FY2026 (full year)",
@@ -24,33 +24,46 @@
       }
     ],
     "growth": {
-      "metric": "FY2027 revenue growth (guidance midpoint)",
-      "period": "FY2027",
-      "pct": 27
+      "metric": "revenue YoY",
+      "period": "Q4 FY2026",
+      "pct": 84,
+      "note": "FY2026 full-year revenue grew 79% YoY. Separately, FY2027 guidance implies ~27% revenue growth at the midpoint — a forward-looking figure, not an actual YoY result."
     },
     "marketCap": {
       "value": 8480000000,
       "asOf": "2026-11-13",
-      "source": "Equibles"
+      "source": "Equibles",
+      "note": "Predates the 2026-11-24 price move; not recomputed this pass."
     },
-    "float": null,
+    "float": {
+      "value": null,
+      "note": "Not found"
+    },
     "sharesOutstanding": {
       "value": 53600000,
       "asOf": "2026-11-13",
       "source": "Equibles"
     },
-    "shortInterest": null,
+    "shortInterest": {
+      "value": null,
+      "asOf": null,
+      "note": "Not found"
+    },
     "cash": {
       "value": 1680000000,
       "asOf": "2026-10-03",
-      "source": "company FY2026 year-end results coverage",
-      "note": "Total available liquidity incl. credit facilities ~$3.83B"
+      "source": "Company FY2026 year-end results coverage",
+      "note": "Total available liquidity including credit facilities ~$3.83B"
     },
-    "debt": null,
+    "debt": {
+      "value": null,
+      "asOf": null,
+      "note": "Not found"
+    },
     "pe": {
       "trailing": 28.3,
       "forward": null,
-      "note": "Equibles TTM P/E; Motley Fool separately shows 29.63",
+      "note": "Equibles TTM P/E; Motley Fool separately shows 29.63 — not reconciled",
       "asOf": "2026-11-13"
     },
     "eps": [
@@ -63,22 +76,47 @@
         "period": "Q4 FY2026 (qtr ended 2026-10-03)",
         "value": 4.43,
         "basis": "non-GAAP"
+      },
+      {
+        "period": "FY2026",
+        "value": 6.85,
+        "basis": "GAAP diluted"
+      },
+      {
+        "period": "FY2026",
+        "value": 13.28,
+        "basis": "non-GAAP"
       }
     ],
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q1 FY2027 guidance issued 2026-11-09 (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85); report date not found"
+      "note": "Q1 FY2027 guidance issued 2026-11-09 (revenue $3.8-4.1B, non-GAAP EPS $3.50-3.85); an exact report date was not found. Sanmina's fiscal Q1 has historically reported in late January — inference only, not confirmed."
     }
   },
   "price": {
     "last": 140.64,
     "changePct": -8.6,
+    "rvol": null,
     "asOf": "2026-11-24",
     "source": "Sanmina IR stock-info page (ir.sanmina.com), intraday snapshot timestamped 1:20pm",
-    "note": "This is an intraday reading, not a confirmed close. The same IR page separately displayed a 'Closing Price' of $153.88 without a clear date label, which may be the prior session's close — not reconciled. No news or catalyst was located this pass that would explain an ~8.6% single-day move; flagged as unresolved rather than asserted as an explained price move."
+    "note": "This is an intraday reading, not a confirmed close. The same IR page separately displayed a 'Closing Price' of $153.88 without a clear date label, which may be the prior session's close — not reconciled. No news or catalyst was located, in this pass or prior passes, that would explain an ~8.6% single-day move; flagged as unresolved."
   },
   "catalysts": [
+    {
+      "date": "2026-11-24",
+      "type": "other",
+      "headline": "Sanmina shares showed an intraday decline to $140.64 (-8.6%) on the company's own IR stock-info page; no earnings, guidance, analyst action, or other dated news item was located this pass (or in prior passes) that explains the move",
+      "impact": "-8.6% (reason unconfirmed)",
+      "source": "https://ir.sanmina.com"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "Sanmina reported Q4 FY2026 (quarter ended 2026-10-03) revenue of $3.86B with a 6.0% GAAP operating margin; FY2026 full-year revenue grew 79% and non-GAAP operating profit rose 130%; cloud/AI infrastructure revenue +179% YoY to $2.37B in Q4; issued FY2027 outlook of $17.5-19.5B revenue and non-GAAP EPS $15.50-17.50 (implying ~27% revenue growth and ~24% non-GAAP EPS growth at the midpoint), citing AI/data-center demand; FY2026 buybacks totaled $393M (~2.4M shares)",
+      "impact": "+18.8% premarket",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000897723/000089772326000044/sanmina_exx991xoctober32026.htm"
+    },
     {
       "date": "2026-11-10",
       "type": "earnings",
@@ -109,10 +147,33 @@
     }
   ],
   "conflicts": [
-    "Sanmina IR page (2026-11-24, ~1:20pm) showed an intraday $140.64 (-8.60%) alongside an unclearly-dated 'Closing Price' of $153.88; which figure is the confirmed prior close vs. same-day intraday was not reconciled, and no explanatory catalyst was found."
+    "Sanmina IR page (2026-11-24, ~1:20pm) showed an intraday $140.64 (-8.60%) alongside an unclearly-dated 'Closing Price' of $153.88; which figure is the confirmed prior close vs. same-day intraday was not reconciled, and no explanatory catalyst was found despite a targeted search this pass for analyst actions and AI/data-center news. The nearest analyst actions located were JPMorgan's 2026-07-28 price-target cut ($275→$260, Neutral) and 2026-03-30 Neutral initiation ($145 PT) — both too old to explain a Nov 24 move.",
+    "Q4 FY2026 revenue YoY: one source states +84% YoY for the quarter, which is not directly reconcilable with the FY2026 full-year +79% YoY figure (different periods; both carried as reported, not averaged)."
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "2 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "float updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -8.6%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -277,12 +338,26 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet on catalysts — no news located dated after the 2026-11-09/11-10 Q4/FY2026 results already on file. However, Sanmina's own investor-relations page showed an unexplained sharp intraday decline on 2026-11-24 (see conflicts); flagged for the next pass to re-check against a confirmed closing price and any delayed news explaining the move.",
+  "notes": "The -8.6% move on 2026-11-24 remains unexplained by any dated news located across this and prior research passes; flagged as an open item for the next pass. No next-earnings date has been confirmed.",
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "2 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "float updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -8.6%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

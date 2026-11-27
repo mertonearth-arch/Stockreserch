@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.108Z",
+  "lastResearched": "2026-11-27T21:15:11.659Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -26,7 +26,8 @@
     },
     "shortInterest": {
       "value": null,
-      "note": "Reported only as % of float: ~11.1%-11.7% of free float (Ortex/Equibles, early Nov), down from ~24% in May 2026"
+      "asOf": null,
+      "note": "Reported only as % of float: ~11.1%-11.7% of free float (Ortex/Equibles, early Nov 2026), down from ~24% in May 2026"
     },
     "cash": {
       "value": 3700000000,
@@ -40,10 +41,22 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 GAAP net income driven by a ~$896M non-cash warrant-valuation gain, not operating profit; non-GAAP adjusted EPS was -$0.29. No meaningful P/E.",
+      "note": "negative earnings (operationally) -- Q3 2026 GAAP net income was driven by a ~$896M non-cash warrant-valuation gain, not operating profit; non-GAAP adjusted EPS was -$0.29. No meaningful P/E.",
       "asOf": "2026-11-06"
     },
     "eps": [
+      {
+        "period": "FY2024",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
       {
         "period": "Q3 2026",
         "value": 1.42,
@@ -83,16 +96,31 @@
   "price": {
     "last": 24.07,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-19",
-    "source": "Trefis (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only a stale quote ($30.04, last trade 2026-10-30) that predates the on-file figure. No newer reconciled price found."
+    "source": "Trefis (via WebSearch)",
+    "note": "No quote dated after 2026-11-19 could be located this pass. Sources disagree for this same date -- see conflicts."
   },
   "catalysts": [
+    {
+      "date": "2026-12-03",
+      "type": "other",
+      "headline": "Gary Merrill (previously CFO of Commvault Systems) is widely reported to be starting as IonQ's new CFO around December 3, 2026. IonQ's own 8-K/press release (Nov 13, 2026) states only that the appointment is 'effective early December' without naming an exact day; the Dec 3, 2026 specific date comes from secondary aggregator coverage (QuantiSnow, TokenPost, rallies.ai), not a company-confirmed exact date. Thomas A. Austin was separately appointed to the newly created Chief Accounting Officer role effective immediately (Nov 13, 2026), and Inder M. Singh stepped down from his CFO role effective immediately (reported as Nov 10-13, 2026, with Chairman/CEO Niccolo de Masi serving as interim principal financial/accounting officer in the gap).",
+      "impact": "Executive transition; one source estimated roughly a three-week gap between Singh's exit and Merrill's start",
+      "source": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Executive-Leadership-Evolution/default.aspx"
+    },
     {
       "date": "2026-12-03",
       "type": "management",
       "headline": "Gary Merrill named CFO, with start date expected around 2026-12-03 (announcement date not independently established this pass)",
       "source": "https://www.marketbeat.com/instant-alerts/price-ionq-nyse-ionq-shares-climb-85-heres-why-2026-11-09/"
+    },
+    {
+      "date": "2026-11-19",
+      "type": "other",
+      "headline": "IonQ shares rose more than 10% early in the session (settling to roughly +2.5%-3.3% by the close, with some intraday figures showing a decline) tied to promotional coverage of the company at the SC26 Supercomputing Conference",
+      "impact": "Intraday pop, faded by the close -- see conflicts for same-day price disagreement",
+      "source": "https://fool.com/investing/2026/11/19/why-ionq-stock-popped-today"
     },
     {
       "date": "2026-11-19",
@@ -107,6 +135,13 @@
       "headline": "IonQ extended a 5-session losing streak to a cumulative ~25% decline, with the Nov 16 close ($26.45-$26.48) undercutting the stock's prior 52-week low (set 2026-03-30)",
       "impact": "New 52-week low",
       "source": "https://www.trefis.com/stock/ionq/articles/625569/5-red-days-in-a-row-ionq-stock-is-down-25/2026-11-17 ; https://247wallst.com/cards/ionq-ionq-enriched-price-move-01m7kc28t57rr2jqjfqng8vtm7"
+    },
+    {
+      "date": "2026-11-13",
+      "type": "other",
+      "headline": "IonQ announced an executive leadership evolution (see Dec 3 CFO-start entry above for full detail); CFO Inder Singh's departure alone was associated with a reported ~6.4% share-price decline that day",
+      "impact": "Refines the earlier approximate CFO-change item with an official company announcement",
+      "source": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Executive-Leadership-Evolution/default.aspx"
     },
     {
       "date": "2026-11-13",
@@ -134,6 +169,20 @@
       "headline": "IONQ shares rose sharply (one source cites +23.42%) the trading day after Q3 earnings",
       "impact": "Positive market reaction to beat-and-raise quarter",
       "source": "https://fool.com/investing/2026/11/06/why-ionq-stock-is-soaring-today"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "earnings",
+      "headline": "IonQ reported record Q3 2026 revenue of $173.8M (+336% YoY), beating a $67M-$144.46M range of pre-report consensus estimates; GAAP diluted EPS $1.42 (driven by a non-cash mark-to-market gain on warrants; net income attributable to IonQ $564.0M); adjusted (non-GAAP) EPS -$0.29; adjusted EBITDA loss $133.6M; raised FY2026 revenue guidance to $505M-$515M (from $450-460M / on-file $280M-$290M depending on prior baseline); Remaining Performance Obligations more than doubled to $1.2B",
+      "impact": "Large beat-and-raise quarter; shares rose sharply (one source cites +23.42%) the following trading day",
+      "source": "https://quantumcomputingreport.com/ionq-announces-record-q3-2026-revenues-of-173-8m-and-raises-fy-2026-guidance-to-over-505m-as-backlog-reaches-1-2b/amp/"
+    },
+    {
+      "date": "2026-11-05",
+      "type": "contract",
+      "headline": "IonQ announced the acquisition of Elisity for $1.15 billion in stock plus an earnout of up to $150 million; separately advanced to the final stage of DARPA's Quantum Benchmarking Initiative, the only trapped-ion company selected",
+      "impact": "Expands into adjacent security/networking business; stock-funded deal is a dilution consideration",
+      "source": "https://finviz.com/news/418066/ionq-beats-and-raises-again-but-skywater-fueled-scale-arrives-with-deeper-operating-losses"
     },
     {
       "date": "2026-11-05",
@@ -181,6 +230,13 @@
       "headline": "IonQ press release confirms Q3 2026 earnings date of November 5, 2026, conference call 4:30pm ET",
       "impact": null,
       "source": "investors.ionq.com"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "offering",
+      "headline": "Closed the previously announced $2.0 billion equity offering: 20.5 million common shares plus 29.5 million pre-funded warrants, each priced at $40.00/unit (~15% premium to the Oct 13, 2026 close of $34.78); includes 100 million seven-year Series C warrants exercisable at $69.46/share; J.P. Morgan sole underwriter",
+      "impact": "Confirms the offering closed (priced Oct 14, closed Oct 16)",
+      "source": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/ionq-closes-usd-2-billion-stock-and-warrant-offering"
     },
     {
       "date": "2026-10-16",
@@ -247,10 +303,28 @@
       "note": "specific press-release URL not captured this session; mentioned in secondary earnings-summary coverage of the Q2 2026 results"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Gary Merrill's CFO start date: IonQ's own announcement says only 'effective early December 2026'; secondary aggregators (QuantiSnow, TokenPost, rallies.ai) specify 'December 3, 2026' as the expected start, but this exact day is not independently confirmed from the primary company release or an SEC 8-K cover page (sec.gov was unreachable from this sandbox this pass).",
+    "Nov 19, 2026 closing price: Motley Fool cites $22.71 (-3.28%), AAII cites an intraday $23.29 (~-2.3% vs a $23.48 prior close), and Trefis cites $24.07 -- three different figures for the same date, not reconciled.",
+    "Market cap: not recorded due to multi-billion-dollar disagreement across sources/snapshot dates (see fundamentals.marketCap.note); no two sources could be reconciled to a single figure this pass."
+  ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. No IONQ news dated 2026-11-24 or 2026-11-25 found. A Katie Arrington (CIO) hire and an AFRL $7.5M follow-on funding item surfaced via WebSearch but carry no independently confirmed date this pass, so neither was added as a catalyst. The on-file Dec 3, 2026 Gary Merrill CFO start date remains the nearest confirmed upcoming item.",
+  "notes": "No IONQ price quote newer than 2026-11-19 could be retrieved this pass. A Katie Arrington (CIO) hire and an AFRL $7.5M follow-on funding item surfaced via earlier WebSearch passes but carry no independently confirmed date, so neither is included as a catalyst here.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -668,9 +742,15 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "6 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

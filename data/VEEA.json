@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.115Z",
+  "lastResearched": "2026-11-27T21:15:11.666Z",
   "fundamentals": {
     "marketCap": {
       "value": 13380000,
@@ -17,76 +17,78 @@
     },
     "float": {
       "value": null,
-      "note": "Not established"
+      "note": "Not found"
     },
     "sharesOutstanding": {
       "value": 3110000,
-      "asOf": "~2026-10/11 2026 (post reverse split)",
+      "asOf": "~2026-10/11 (post 1-for-20 reverse split effective 2026-08-31)",
       "source": "Motley Fool / Equibles"
     },
     "shortInterest": {
       "value": null,
-      "note": "Not established"
+      "note": "Not found"
     },
     "cash": {
       "value": 1600000,
-      "asOf": "~2026-11 (secondary aggregator commentary on Q3 2026 10-Q)",
-      "source": "Panabee/aggregator",
-      "note": "Supersedes the stale $1,594,473 (2026-03-31) figure previously on file"
+      "asOf": "~2026-11 (commentary on Q3 2026 10-Q)",
+      "source": "Panabee/aggregator"
     },
     "debt": {
       "value": 17100000,
-      "asOf": "~2026-11 (secondary aggregator commentary on Q3 2026 10-Q)",
-      "source": "Panabee/aggregator",
-      "note": "Conflicts with the $10.55M figure previously on file (asOf 2026-06-30); see conflicts"
+      "asOf": "~2026-11 (commentary on Q3 2026 10-Q)",
+      "source": "Panabee/aggregator"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Early-commercial-stage company with net losses",
-      "asOf": "2026-11-19"
+      "note": "negative earnings",
+      "asOf": "2026-11-27"
     },
     "eps": [
+      {
+        "period": "Q3 2026",
+        "value": -1.16,
+        "basis": "GAAP",
+        "source": "StockTitan",
+        "note": "Net loss $3,659,587 vs net income $1,375,294 in Q3 2025 (10-Q filed 2026-11-12); not independently cross-checked against the primary filing's EPS line"
+      },
       {
         "period": "Q1 2026",
         "value": -0.09,
         "basis": "GAAP",
-        "source": "roic.ai",
-        "note": "Not independently confirmed against the primary 10-Q"
+        "source": "roic.ai"
       }
     ],
     "revenue": [
       {
-        "period": "Q3 2025",
-        "value": 140000,
-        "yoy": null,
-        "note": "Third-party aggregator figure, not independently confirmed against the company's filing"
+        "period": "Q3 2026",
+        "value": 72135,
+        "yoy": -50.2,
+        "note": "down from $144,926 in Q3 2025 (10-Q filed 2026-11-12)"
+      },
+      {
+        "period": "9M 2026",
+        "value": 428773,
+        "yoy": 84.7,
+        "note": "up from $232,094 in the prior-year nine months"
       },
       {
         "period": "FY2025",
         "value": 222018,
         "yoy": 56.62,
-        "source": "roic.ai (via WebSearch snippet)",
-        "note": "Full-year 2025 revenue vs FY2024's $141,760; third-party aggregator figure, not independently confirmed against the company's 10-K"
-      },
-      {
-        "period": "Q1 2026",
-        "value": 180420,
-        "yoy": null,
-        "source": "roic.ai (via WebSearch snippet)",
-        "note": "Already-known quarter (10-Q period ended 2026-03-31); revenue figure newly established this pass"
+        "source": "roic.ai"
       }
     ],
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
       "pct": -50.2,
-      "note": "Quarterly revenue fell YoY ($72,135 vs $144,926) even as nine-month revenue rose to $428,773 from $232,094"
+      "note": "Quarterly revenue fell YoY ($72,135 vs $144,926) even as nine-month revenue rose to $428,773 from $232,094 -- confirmed via the Q3 2026 10-Q filed 2026-11-12"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Q3 2026 10-Q already filed 2026-11-12; next report (Q4/FY2026) date not located"
+      "note": "Q3 2026 10-Q already filed 2026-11-12; next report (Q4/FY2026 10-K) date not located"
     }
   },
   "price": {
@@ -94,9 +96,17 @@
     "changePct": -10.8,
     "rvol": null,
     "asOf": "2026-11-02",
-    "note": "No quote newer than 2026-11-02 could be located this pass either (searched again); carried forward unchanged from the existing record."
+    "source": "marketchameleon.com",
+    "note": "Independently reconfirmed this pass: close $4.30, down 10.8% from previous close, volume 176,950 vs 30-day avg 8,734,676 -- that volume ratio (~0.02x) looks implausibly low for a double-digit-percent move and may reflect a data-quality issue on the source page rather than true RVOL; not used to state an RVOL figure. No price newer than 2026-11-02 located despite repeated searches."
   },
   "catalysts": [
+    {
+      "date": "2026-11-12",
+      "type": "earnings",
+      "headline": "Confirmed: filed Q3 2026 10-Q (quarter ended 2026-09-30): net loss widened to $3,659,587 vs net income of $1,375,294 in Q3 2025; quarterly revenue fell to $72,135 from $144,926 YoY; nine-month revenue rose to $428,773 from $232,094; revolving credit line balance $0 at 2026-09-30 (down from $14.0M at 2025-12-31); accumulated deficit $236,849,099; stockholders' equity $5,847,894 (vs. a deficit at 2025-12-31)",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001840317/000121390026118215/ea0311070-10q_veea.htm ; https://kalkine.com/news/announcements/veea-inc-reports-q3-2026-net-loss-of-366m"
+    },
     {
       "date": "2026-11-12",
       "type": "earnings",
@@ -106,10 +116,24 @@
     },
     {
       "date": "2026-11-02",
+      "type": "guidance",
+      "headline": "VEEA closed at $4.30, down 10.8% from the previous close. The most plausible identified driver (per a Tickeron report describing a near-identical ~11.16% drop to ~$4.30) is a newly effective SEC resale registration statement covering a substantial number of shares, creating a fresh dilution overhang -- the exact percentage and weekday cited by that source do not perfectly match (-11.16% vs. -10.8%; 'Thursday'), so this should be treated as the probable but not fully confirmed cause.",
+      "impact": "Notable single-day decline",
+      "source": "MarketChameleon; https://tickeron.com/blogs/why-is-veea-inc-veea-stock-down-11-16-today-19524/"
+    },
+    {
+      "date": "2026-11-02",
       "type": "price move",
       "headline": "VEEA closed at $4.30, down 10.8% from the previous close",
       "impact": "Notable single-day decline",
       "source": "MarketChameleon"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "regulatory",
+      "headline": "Nasdaq notified Veea that its remaining listing-compliance matter (governance/minimum-bid-price deficiencies) had been resolved and closed; shares rose 47.3% to $5.70",
+      "impact": "Removes a delisting-risk overhang",
+      "source": "https://www.taiwannews.com.tw/news/6454999"
     },
     {
       "date": "2026-10-09",
@@ -139,6 +163,13 @@
     {
       "date": "2026-10-01",
       "type": "contract",
+      "headline": "Signed an agreement with TROLLEE Holdings for phased deployment of the VeeaONE platform across up to 1,000 unattended retail stores, beginning with up to 50 locations, extending a partnership originally dating to 2018",
+      "impact": "One secondary source cites ~48% intraday gain; no primary company press release or 8-K independently located",
+      "source": "https://www.barchart.com/story/news/2601760/veea-inc-and-trollee-holdings-ltd-extend-strategic-partnership-to-deliver-a-highly-advanced-ai-powered-autonomous-retail-ecosystem"
+    },
+    {
+      "date": "2026-10-01",
+      "type": "contract",
       "headline": "TROLLEE agreement signed for phased deployment of the VeeaONE platform to 1,000 unattended retail stores",
       "source": "WebSearch aggregation"
     },
@@ -148,6 +179,13 @@
       "headline": "Signed an agreement with TROLLEE Holdings for phased deployment of the VeeaONE platform across up to 1,000 unattended retail stores, beginning with up to 50 locations, extending a strategic partnership with TROLLEE originally dating to 2018.",
       "impact": "Reported as triggering a sharp single-session gain (one source cites ~48% intraday); single secondary-source report, no primary company press release or 8-K independently located this session",
       "source": "https://tickeron.com/ticker/VEEA ; https://www.barchart.com/story/news/2601760/veea-inc-and-trollee-holdings-ltd-extend-strategic-partnership-to-deliver-a-highly-advanced-ai-powered-autonomous-retail-ecosystem"
+    },
+    {
+      "date": "2026-09-14",
+      "type": "contract",
+      "headline": "Signed a non-binding term sheet for a ~$750M business combination with NovaGen Group B.V. (regenerative medicine/longevity) to form 'NovaGen Health Networks' on VeeaONE; GeoNova Capital signed a term sheet for a proposed $10M cornerstone investment. Parties targeted a definitive agreement 'within the coming weeks' -- STILL NOT EXECUTED as of the most recent information found in this session",
+      "impact": "+82-90% after-hours 2026-09-14, continuing into 2026-09-15 premarket",
+      "source": "SEC 8-K (sec.gov/Archives/edgar/data/0001840317/000121390026100507/ea0305721-8k_veea.htm)"
     },
     {
       "date": "2026-09-14",
@@ -166,6 +204,13 @@
       "type": "m&a",
       "headline": "Signed a non-binding term sheet for a business combination with NovaGen Group B.V. (a regenerative medicine/longevity company) to launch 'NovaGen Health Networks', implying a combined-company valuation of roughly $750M; GeoNova Capital committing $10M as a cornerstone investor",
       "impact": "+82% to +90% after-hours 2026-09-14, continuing into 2026-09-15 premarket"
+    },
+    {
+      "date": "2026-08-31",
+      "type": "guidance",
+      "headline": "1-for-20 reverse stock split took effect; public warrants adjusted to 1/20 share at $230 exercise price per whole share",
+      "impact": "Share count reduced ~20x; pre- and post-split figures are not comparable",
+      "source": "Nasdaq.com press release / company 8-K"
     },
     {
       "date": "2026-08-31",
@@ -194,10 +239,37 @@
       "source": "https://www.nasdaq.com/press-release/veea-inc-announces-reverse-stock-split-2026-08-26"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Shares outstanding: 3.11M (Motley Fool/Equibles, post 1-for-20 split, ~Oct/Nov 2026) vs 4,071,515 (Kalkine, as of 2026-11-10) vs 62,214,156 (Q2 10-Q cover, 2026-08-10, pre-split and not comparable).",
+    "Debt: $17.1M (Panabee, ~Nov 2026, matches this pass) vs $10.55M previously on file (asOf 2026-06-30) -- different dates, trend not reconciled to a single cause.",
+    "Cause of the 2026-11-02 -10.8% move is probable (dilution overhang from a new resale registration) but not fully confirmed -- see price.note.",
+    "RVOL for the 2026-11-02 session looks internally inconsistent on the source page (176,950 shares vs an 8.7M 30-day average implies ~0.02x, which would not typically accompany a 10.8% move); not reported as a usable figure."
+  ],
   "pendingFilings": [],
-  "notes": "Quiet pass. No dated news found after 2026-11-02 despite repeated searches. NovaGen term sheet (announced 2026-09-14, ~$750M implied combined valuation) still has no definitive agreement reported as of this pass; searches for a November update turned up nothing newer than the original September coverage. Theme fit concern already on file (Veea reads as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers, not a defense-specific contractor) was not re-resolved this pass.",
+  "notes": "Q3 2026 10-Q (filed 2026-11-12) confirmed in detail: net loss widened to $3.66M, quarterly revenue nearly halved YoY to $72,135, but nine-month revenue grew to $428,773 from $232,094. The NovaGen ~$750M combination announced 2026-09-14 remains a non-binding term sheet with no definitive agreement found as of this pass. Theme-fit caveat carried over from the prior record: Veea reads as an edge-computing/connectivity vendor serving enterprise/telecom/some public-sector customers rather than a defense-specific contractor; the exact existing theme string 'Government IT & Defense Services' was nonetheless reused unchanged per instructions.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "float updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -10.8%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -485,9 +557,23 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "6 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "float updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -10.8%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

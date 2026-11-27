@@ -8,13 +8,13 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.106Z",
+  "lastResearched": "2026-11-27T21:15:11.658Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
       "asOf": "2026-10-05",
       "source": "Equibles (price $5.10, 43.86M shares)",
-      "note": "Predates the Nov 10 earnings-driven selloff; stale relative to current price"
+      "note": "Predates the Nov 10 earnings-driven selloff; stale relative to current ~$3 price. No fresher market-cap figure located this pass."
     },
     "float": {
       "value": null,
@@ -29,7 +29,7 @@
       "value": 1211016,
       "asOf": "2026-09-15 settlement",
       "source": "Equibles (FINRA data)",
-      "note": "~2.8% of shares outstanding; 3.50 days to cover"
+      "note": "~2.8% of shares outstanding; 3.50 days to cover. No fresher settlement data located this pass."
     },
     "cash": {
       "value": 21300000,
@@ -44,15 +44,21 @@
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 2026 GAAP net loss of $8.4M (-$0.19/share); trailing P/E not meaningful",
+      "note": "negative earnings -- Q3 2026 GAAP net loss of $8.4M (-$0.19/share); trailing P/E not meaningful",
       "asOf": "2026-11-09"
     },
     "eps": [
       {
-        "period": "Q3 2025",
+        "period": "FY2024",
         "value": null,
         "basis": "GAAP",
-        "note": "Prior-year net loss reported as ~$9.2M; per-share figure not independently confirmed"
+        "note": "Full fiscal-year EPS not located in sources reviewed this pass"
+      },
+      {
+        "period": "FY2025",
+        "value": null,
+        "basis": "GAAP",
+        "note": "Full fiscal-year EPS not located; Q3 2025 net loss reported as ~$9.2M but a verified per-share figure was not found"
       },
       {
         "period": "Q3 2026",
@@ -63,14 +69,20 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": 361.3
+      "pct": 361.3,
+      "note": "Revenue $104.7M vs $22.7M a year earlier, driven by the Biofuels segment; company still posted a net loss on record feedstock costs and hedging losses"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "One aggregator (Benzinga, via WebSearch synthesis) cites 'Mar 15, 2027' for Q4 2026 earnings, alongside a separate reference to the prior year's Mar 16, 2026 release date; neither is an independently confirmed company announcement, so no date is recorded as confirmed."
+      "note": "One aggregator cites 'Mar 15, 2027' for Q4/FY2026 earnings, but this is not an independently confirmed company announcement, so no date is recorded as confirmed."
     },
     "revenue": [
+      {
+        "period": "Q3 2025",
+        "value": 22700000,
+        "yoy": null
+      },
       {
         "period": "Q3 2026",
         "value": 104700000,
@@ -81,11 +93,19 @@
   "price": {
     "last": 3.04,
     "changePct": null,
+    "rvol": null,
     "asOf": "2026-11-18",
-    "source": "Benzinga (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found no quote dated after 2026-11-18. On-file price carried forward."
+    "source": "Benzinga/financialcontent.com aggregation (via WebSearch)",
+    "note": "No quote dated after 2026-11-18 could be located this pass (WebFetch to live-quote domains such as finviz.com, sec.gov, yahoo finance, barchart.com, quiverquant.com all returned ENOTFOUND/egress-blocked from this sandbox). Carried forward from prior on-file price."
   },
   "catalysts": [
+    {
+      "date": "2026-12-18",
+      "type": "dividend",
+      "headline": "FutureFuel's Q4 2026 cash dividend of $0.01/share is scheduled for payment on 2026-12-18, to shareholders of record as of 2026-12-04 (ex-dividend date effectively 2026-12-04 under current T+1 settlement). The dividend itself was declared earlier, on 2026-08-31, by the Board of Directors.",
+      "impact": "Routine capital-return action; amount unchanged from the reduced $0.01/share rate in place since Q2 2026",
+      "source": "https://www.quiverquant.com/news/FutureFuel+Corp.+Declares+Fourth+Quarter+2026+Cash+Dividend+of+%240.01+Per+Share"
+    },
     {
       "date": "2026-12-04",
       "type": "dividend",
@@ -109,10 +129,24 @@
     },
     {
       "date": "2026-11-10",
+      "type": "earnings",
+      "headline": "FF shares closed sharply lower the session following the Q3 report; magnitude reported inconsistently across sources, from a ~38% to ~44% single-day decline (close reported variously as $2.84 or $3.12)",
+      "impact": "Sharp single-day decline the session following the Q3 report",
+      "source": "https://kalkine.ca/news/industrials/why-did-futurefuel-nyseff-slump-4398-on-the-market-movers-list-on-november-10-2026"
+    },
+    {
+      "date": "2026-11-10",
       "type": "price move",
       "headline": "FF shares closed at $2.84, reported down 43.98% on the session per Kalkine's market-movers tracker",
       "impact": "Sharp single-day decline the session following the Q3 report",
       "source": "https://kalkine.ca/news/industrials/why-did-futurefuel-nyseff-slump-4398-on-the-market-movers-list-on-november-10-2026"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "earnings",
+      "headline": "FutureFuel reported Q3 2026 results: revenue $104.7M (+361.3% YoY from $22.7M), GAAP net loss $8.4M (-$0.19/share) vs a $9.2M loss a year earlier; Biofuels revenue rose to $87.8M from $7.1M but posted a $9.8M gross loss on record-high soybean-oil/fat feedstock costs plus $8.7M of net derivative losses; Chemicals revenue rose to $16.9M from $15.6M despite a 27% volume decline from customer turnarounds; booked orders for over 90% of Q4 2026 biodiesel production capacity; guided to positive adjusted EBITDA in Q4 2026 and for full-year 2026; management outlined a plan to rebuild cash to $50M over the next year",
+      "impact": "Large revenue beat/jump alongside a continued net loss; stock fell sharply after the print",
+      "source": "https://www.stocktitan.net/news/FF/future-fuel-announces-third-quarter-2026-d8j1np7v5xnb.html"
     },
     {
       "date": "2026-11-09",
@@ -157,9 +191,31 @@
       "source": "search aggregation citing company disclosure (exact primary URL not retrieved)"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "FF's Q4 2026 dividend: the on-file record described '$0.01/share dividend declared 2026-12-04,' but WebSearch of SEC-filing-derived coverage (Quiver Quant, Finviz, GlobeNewswire republication) indicates the dividend was actually DECLARED on 2026-08-31, with 2026-12-04 being the shareholder-of-record date and 2026-12-18 the payment date. Amount ($0.01/share) matches across sources; only the 'declared' label/date was corrected here.",
+    "Nov 10, 2026 closing price reported as $2.84 (Kalkine market-movers tracker) vs $3.12 (Financial Content quote page, 4:10pm EST) -- not reconciled.",
+    "Nov 10 earnings-day stock decline reported inconsistently: -38.46% to -43.98% to as high as -45% depending on source/day-of-comparison -- not reconciled."
+  ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "3 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -323,12 +379,22 @@
       "from": "daily"
     }
   ],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. No FF news dated after the on-file 2026-11-18 price point was found.",
+  "notes": "No FF price quote newer than 2026-11-18 could be retrieved this pass; most live-quote domains (finviz, sec.gov, barchart, quiverquant, yahoo finance, marketwatch) returned ENOTFOUND/egress-blocked from this sandbox. All catalyst/dividend detail above was sourced via WebSearch synthesis rather than direct primary-document fetch.",
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "3 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

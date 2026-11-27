@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.101Z",
+  "lastResearched": "2026-11-27T21:15:11.654Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Conflicting figures across aggregators (~$3M-$7.8M); not reconciled"
+      "asOf": null,
+      "source": null,
+      "note": "Aggregator figures conflict wildly and are mostly stale relative to the current ~1.34M-share post-reverse-split count; see conflicts."
     },
     "float": {
       "value": null,
@@ -25,6 +27,7 @@
     },
     "shortInterest": {
       "value": null,
+      "asOf": null,
       "note": "Not found"
     },
     "cash": {
@@ -34,19 +37,32 @@
     "debt": {
       "value": 0,
       "asOf": "2026-Q3",
-      "note": "Retired remaining note payable during Q3 2026"
+      "note": "Retired remaining note payable during Q3 2026 via debt-for-equity exchange"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "negative earnings (Q3 2026 net loss)",
+      "note": "negative earnings (net loss in both FY2024, FY2025, and Q3 2026)",
       "asOf": "2026-11-13"
     },
     "eps": [
       {
+        "period": "FY2024",
+        "value": -2.09,
+        "basis": "GAAP",
+        "note": "Figure as restated/presented in the company's 2025 full-year results release; the original March 2025 release for FY2024 itself reported -$2.10 on a different pre-restatement share-count basis. See conflicts."
+      },
+      {
+        "period": "FY2025",
+        "value": -0.69,
+        "basis": "GAAP",
+        "note": "Weighted-average diluted shares used: 6,647,702 (FY2025) vs 2,059,884 (FY2024 as restated) — not directly comparable to post-April-2026-reverse-split share counts."
+      },
+      {
         "period": "Q3 2026",
         "value": -4.01,
-        "basis": "GAAP (includes a one-time $4.5M non-cash deemed dividend tied to an August 2026 warrant inducement; excluding that item, net loss was $(886,083) vs $(964,849) in Q3 2025)"
+        "basis": "GAAP",
+        "note": "Includes a one-time $4.5M non-cash deemed dividend tied to an August 2026 warrant inducement; excluding that item, net loss was $(886,083) vs $(964,849) in Q3 2025"
       }
     ],
     "revenue": [
@@ -64,22 +80,31 @@
     "growth": {
       "metric": "revenue YoY",
       "period": "Q3 2026",
-      "pct": -4.5
+      "pct": -4.5,
+      "note": "Software license fees (86% of revenue) grew +39% YoY; overall revenue declined on a drop in hardware revenue"
     },
     "nextEarnings": {
       "date": null,
       "confirmed": false,
-      "note": "Not found"
+      "note": "Not found; Q4/FY2026 full-year results would typically report in Q1 2027 based on prior-year timing (late March), but no specific date has been announced"
     }
   },
   "price": {
     "last": 2.12,
     "changePct": -17.83,
+    "rvol": null,
     "asOf": "2026-11-13",
-    "source": "Equibles (unchanged from prior pass)",
-    "note": "PM pass 2026-11-25: WebFetch to live-quote domains returned ENOTFOUND; WebSearch found only stale pre-2026-11-13 snapshots (Benzinga $2.51 as of 2026-11-03; EarningsWhispers ~$2.58 around 2026-11-06), consistent with the on-file decline to $2.12 by Nov 13 but no newer confirmed quote. No price update made."
+    "source": "Equibles",
+    "note": "This is the already-recorded post-earnings decline (see catalysts); no newer confirmed quote found. RVOL not statable."
   },
   "catalysts": [
+    {
+      "date": "2026-11-13",
+      "type": "earnings",
+      "headline": "BIO-key reported Q3 2026 results: total revenue ~$1.48M (vs ~$1.55M Q3 2025, ~-4.5% YoY); license fee revenue +39% YoY to $1,275,249 (86% of total revenue); hardware revenue fell to $12,404 from $363,642; gross margin improved to 90% from 77%; net loss narrowed to $(886,083) excluding a one-time deemed dividend; management pushed its profitability target back again, to roughly early 2027",
+      "impact": "Shares fell to $2.12, -17.83%, on a weaker-than-expected top line despite margin improvement",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001019034/000143774926036667/ex_1044771.htm"
+    },
     {
       "date": "2026-11-13",
       "type": "earnings",
@@ -103,9 +128,23 @@
     {
       "date": "2026-11-03",
       "type": "partnership",
+      "headline": "BIO-key and Cipher (Prosegur's cybersecurity division) announced a technology integration bringing BIO-key's identity/biometric/passwordless authentication into Cipher's managed-cybersecurity portfolio, launching first in Portugal",
+      "impact": null,
+      "source": "https://www.globenewswire.com/news-release/2026/11/03/3393943/0/en/index.html"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "partnership",
       "headline": "BIO-key and Cipher (Prosegur's cybersecurity division) announced a technology integration bringing BIO-key's identity/biometric/passwordless authentication into Cipher's managed-cybersecurity portfolio, launching first in Portugal with plans to extend to other Cipher markets (Spain, US, Brazil)",
       "impact": null,
       "source": "https://www.globenewswire.com/news-release/2026/11/03/3393943/0/en/index.html"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "corporate governance",
+      "headline": "Reconvened 2026 annual meeting closed its final proposal: stockholders approved authorizing issuance of up to 1,236,668 shares issuable on exercise of warrants from the Aug 10, 2026 warrant inducement transaction",
+      "impact": null,
+      "source": "https://www.sec.gov/Archives/edgar/data/0001019034/000143774926034242/bkyi20261030_8k.htm"
     },
     {
       "date": "2026-10-30",
@@ -151,6 +190,13 @@
       "headline": "Annual meeting (previously adjourned Sept 8, 2026 over a warrant-share proposal) remains open on that vote; company plans to reconvene on 2026-10-30",
       "impact": "Outcome of the warrant-share vote still pending as of this session's research -- a near-term date to watch",
       "sourceName": "TipRanks headline (aggregator; original company filing not independently fetched)"
+    },
+    {
+      "date": "2026-10-02",
+      "type": "offering/dilution",
+      "headline": "Retired the Sept 30, 2025 Streeterville Capital secured note (original principal $1,130,000) via four Exchange Agreements, swapping it for 247,805 new common shares; original note balance reduced to zero",
+      "impact": "Dilutive debt-for-equity exchange; eliminates the Streeterville note from the balance sheet",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001019034/000143774926031903/bkyi20261002_8k.htm"
     },
     {
       "date": "2026-10-02",
@@ -202,10 +248,33 @@
       "source": "https://www.panabee.com/news/bio-key-stockholders-approve-reverse-split-authorization"
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    "Market cap: Yahoo Finance ~$5.44M (2026-07-09/10) vs Motley Fool $317.71M (implausible/stale, likely pre-reverse-split price basis) vs Simply Wall St ~$5.96M (2026-02-19) vs stockanalysis.com ~$6.21M (2026-01-09, using a stale 3.72M share count) — none reconciled to the current 1,342,766-share count.",
+    "EPS: stockanalysis.com lists FY2025 EPS at -$10.77 and FY2024 at -$20.88, which do not match the company's own 2025 results release (-$0.69 FY2025, -$2.09 FY2024 restated); the original March 2025 release for FY2024 itself had reported -$2.10. Differences likely trace to the April 2026 1-for-10 reverse split and other share-count adjustments; not reconciled.",
+    "A price that looks impossible vs. recent history may reflect this reverse-split history (ratios from the split and from the Oct 2026 debt-for-equity exchanges) — not an error, but not independently re-derived this pass."
+  ],
   "pendingFilings": [],
-  "notes": "Genuinely quiet PM pass for 2026-11-25. No BKYI news dated after the on-file 2026-11-13 Q3 2026 earnings report was found via WebSearch. A finviz article headlined 'BIO-key misses badly as revenue shrinks and profit target slips again despite a 90% gross margin' surfaced this pass but describes the same already-recorded Nov 13 Q3 report, not a new event.",
+  "notes": "The large negative session move the task flagged is the already-on-file -17.83% move tied to the 2026-11-13 Q3 2026 earnings miss (revenue -4.5% YoY, below expectations despite margin gains); no separate/newer large move was found in this pass's search. No WebFetch access to live-quote domains in this sandbox.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "4 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "shortInterest updated",
+        "debt updated",
+        "move -17.83%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -555,9 +624,20 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "4 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "shortInterest updated",
+      "debt updated",
+      "move -17.83%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }

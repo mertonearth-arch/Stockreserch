@@ -8,11 +8,13 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-27T05:34:18.098Z",
+  "lastResearched": "2026-11-27T21:15:11.653Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
-      "note": "Sources disagree by tens of billions across snapshot dates; not reconciled"
+      "asOf": null,
+      "source": null,
+      "note": "Sources disagree and are stale relative to the Nov 19 price reading; see conflicts."
     },
     "float": {
       "value": null,
@@ -21,38 +23,78 @@
     "sharesOutstanding": {
       "value": 876900000,
       "asOf": "2026-11-11",
-      "source": "Fox Business / Equibles"
+      "source": "Fox Business"
     },
     "shortInterest": {
       "value": null,
+      "asOf": null,
       "note": "Not found"
     },
     "cash": {
       "value": 3900000000,
       "asOf": "2026-08-01",
-      "source": "Third-party aggregator (AI-extracted), not independently confirmed"
+      "source": "Third-party aggregator (AI-extracted), not independently confirmed against the 10-Q"
     },
     "debt": {
       "value": 5000000000,
       "asOf": "2026-08-01",
-      "source": "Same third-party aggregator"
+      "source": "Same third-party aggregator, not independently confirmed"
     },
     "pe": {
       "trailing": null,
       "forward": null,
-      "note": "Q3 FY2027 results not yet reported (call scheduled 2026-12-01)"
+      "note": "Q3 FY2027 results not yet reported (call scheduled 2026-12-01, confirmed via investor.marvell.com); no independently-confirmed forward EPS consensus located this pass",
+      "asOf": "2026-11-27"
     },
-    "eps": [],
-    "revenue": [],
+    "eps": [
+      {
+        "period": "FY2025",
+        "value": -1.02,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2025",
+        "value": 1.57,
+        "basis": "non-GAAP"
+      },
+      {
+        "period": "FY2026",
+        "value": 3.07,
+        "basis": "GAAP"
+      },
+      {
+        "period": "FY2026",
+        "value": 2.84,
+        "basis": "non-GAAP"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 0.33,
+        "basis": "GAAP"
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 0.94,
+        "basis": "non-GAAP"
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 FY2027",
+        "value": 2739000000,
+        "yoy": 37
+      }
+    ],
     "growth": {
-      "metric": "revenue (guided range)",
-      "period": "Q3 FY2027",
-      "pct": null,
-      "note": "Narrowed Q3 FY2027 revenue guidance band from ±5% to ±2% around a ~$3.15B midpoint; full results not yet reported"
+      "metric": "revenue YoY",
+      "period": "Q2 FY2027",
+      "pct": 37,
+      "note": "Most recent reported quarter; Q3 FY2027 results due 2026-12-01 and not yet reported as of this pass"
     },
     "nextEarnings": {
       "date": "2026-12-01",
-      "confirmed": true
+      "confirmed": true,
+      "note": "Confirmed via investor.marvell.com conference-call announcement, 1:30pm PT; company's own Q3 FY2027 guidance (issued with Q2 results) is revenue $3.15B (+/-5%, later narrowed to +/-2%) and non-GAAP diluted EPS $1.10 (+/-$0.05)"
     }
   },
   "price": {
@@ -60,10 +102,24 @@
     "changePct": -16.4,
     "rvol": null,
     "asOf": "2026-11-19",
-    "source": "WebSearch aggregation (Fool.com-derived), corroborating the on-file Benzinga close",
-    "note": "No confirmed close found for 2026-11-20 through 2026-11-25 this pass (WebSearch budget was exhausted mid-pass before further confirmation). changePct -16.4% for the on-file Nov 19 $138.47 close is newly confirmed this pass (same session, S&P 500 -4.4%, per the same source). One unconfirmed secondary mention (M1.com, citing a Nov 20 story) cites $122.99 'in afternoon trading' on 2026-11-20 -- not used as a price reading, see conflicts."
+    "source": "WebSearch aggregation (Benzinga/Fool.com-derived close); no reconciled close newer than 2026-11-19 could be found this pass",
+    "note": "RVOL not statable from sources reviewed."
   },
   "catalysts": [
+    {
+      "date": "2026-11-19",
+      "type": "price move",
+      "headline": "Confirmed close $138.47, -16.4% vs the same prior reading used in earlier passes (same session S&P 500 -4.4%)",
+      "impact": "-16.4%",
+      "source": "https://www.benzinga.com/quote/MRVL"
+    },
+    {
+      "date": "2026-11-16",
+      "type": "price move",
+      "headline": "MRVL fell ~7.3% (vs S&P 500 -1.9%) amid semiconductor-sector weakness ahead of NVIDIA's Nov 17 earnings and lingering overhang from the Lumentum acquisition",
+      "impact": "-7.3%",
+      "source": "https://www.trefis.com/stock/mrvl/articles/625792/why-did-marvell-stock-fall-over-7/2026-11-17"
+    },
     {
       "date": "2026-11-16",
       "type": "partnership",
@@ -88,6 +144,13 @@
     {
       "date": "2026-11-12",
       "type": "corporate governance",
+      "headline": "Marvell appointed three new independent directors effective this date: Donna C. Morris, Douglas R. Bettinger, and Sasan K. Goodarzi",
+      "impact": null,
+      "source": "https://finviz.com/news/421811/marvell-appoints-three-new-independent-directors-to-its-board"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "corporate governance",
       "headline": "Marvell appointed three new independent directors to its board effective this date: Donna C. Morris, Douglas R. Bettinger, and Sasan K. Goodarzi",
       "impact": null,
       "source": "https://finviz.com/news/421811/marvell-appoints-three-new-independent-directors-to-its-board"
@@ -104,6 +167,20 @@
       "headline": "Shares fell 16.4% (vs S&P 500 -4.4% that session), closing at $133.55, less than half the 52-week closing high of $316.43 set 2026-06-04",
       "impact": "Continued post-Lumentum-deal de-rating; Cantor Fitzgerald cut its price target to $225 from $350 (Neutral) around this period",
       "source": "Trefis (via WebSearch)"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "M&A",
+      "headline": "Marvell agreed to acquire Lumentum (LITE) in an all-stock deal valuing Lumentum at roughly $115B enterprise value; exchange ratio of 4.500 Marvell shares per Lumentum share; Marvell shareholders to own ~67% of the combined company; deal expected to close H1 2028",
+      "impact": "Marvell's own stock fell ~12.7% on the announcement day",
+      "source": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "guidance",
+      "headline": "Marvell issued a preliminary Q3 FY2027 update alongside the Lumentum deal, narrowing its revenue guidance range from +/-5% to +/-2% around the prior ~$3.15B midpoint",
+      "impact": "Full results due 2026-12-01",
+      "source": "trade press (cross-referenced with Marvell's own conference-call announcement)"
     },
     {
       "date": "2026-11-02",
@@ -204,6 +281,13 @@
     {
       "date": "2026-08-19",
       "type": "partnership / dilution",
+      "headline": "Granted Google a warrant for up to 58.97M shares at $206.58 (~$12.2B fully exercised) under an expanded custom AI chip agreement",
+      "impact": "Stock +8-10%; Broadcom fell >5% on competitive concern",
+      "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/19/marvell-gives-google-option-to-buy-us122-billion-stake-in-custom-chip-deal/"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "partnership / dilution",
       "headline": "Granted Google a warrant for up to 58.97M shares at $206.58 (~$12.2B fully exercised) under an expanded custom AI chip agreement covering AI inference accelerators and storage/network/memory controllers tied to Google's TPU ecosystem; full vesting tied to $120B of custom-product revenue milestones",
       "impact": "Stock +8-10%; Broadcom fell >5% on competitive concern",
       "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/19/marvell-gives-google-option-to-buy-us122-billion-stake-in-custom-chip-deal/"
@@ -238,11 +322,35 @@
     }
   ],
   "conflicts": [
-    "Unconfirmed secondary report (M1.com) cites MRVL at $122.99 'in afternoon trading' on 2026-11-20, described as down ~49% over the trailing month; single-source and not corroborated by any other reading this pass, so not used."
+    "Market cap: Fox Business $123.82B (as of 2026-11-11, 876.90M shares) vs Trefis $137.2B (as of 2026-11-15, ~897M shares) — different dates and share counts, neither reconciled to the on-file Nov 19 price.",
+    "Shares outstanding: Fox Business 876.90M (2026-11-11) vs Trefis ~897M (2026-11-15) — not reconciled.",
+    "Unconfirmed secondary report (M1.com) previously cited MRVL at $122.99 'in afternoon trading' on 2026-11-20; single-source, not corroborated, not used."
   ],
   "pendingFilings": [],
-  "notes": "PM pass 2026-11-25: No new dated catalyst found beyond what's on file. Dec 1, 2026 Q3 FY2027 earnings remains the next confirmed catalyst (one source cites a consensus estimate of ~$1.04 EPS / ~$3.2B revenue -- analyst consensus, not company guidance). WebSearch's per-turn search budget was exhausted before Nov 20-25 pricing could be independently confirmed.",
+  "notes": "No WebFetch access to Yahoo Finance, Google Finance, or stockanalysis.com in this sandbox (all ENOTFOUND/EGRESS_BLOCKED); all figures sourced via WebSearch snippet aggregation. No confirmed close newer than 2026-11-19 found despite search. Next earnings (2026-12-01, Q3 FY2027) is the key near-term catalyst.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "pm",
+      "quiet": false,
+      "changes": [
+        "6 new catalyst(s)",
+        "pe updated",
+        "eps updated",
+        "revenue updated",
+        "growth updated",
+        "nextEarnings updated",
+        "marketCap updated",
+        "sharesOutstanding updated",
+        "shortInterest updated",
+        "cash updated",
+        "debt updated",
+        "move -16.4%",
+        "conflicts updated"
+      ],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-27",
       "run": "am",
@@ -620,9 +728,23 @@
   },
   "lastPass": {
     "date": "2026-11-27",
-    "run": "am",
-    "quiet": true,
-    "changes": [],
+    "run": "pm",
+    "quiet": false,
+    "changes": [
+      "6 new catalyst(s)",
+      "pe updated",
+      "eps updated",
+      "revenue updated",
+      "growth updated",
+      "nextEarnings updated",
+      "marketCap updated",
+      "sharesOutstanding updated",
+      "shortInterest updated",
+      "cash updated",
+      "debt updated",
+      "move -16.4%",
+      "conflicts updated"
+    ],
     "tradingDay": true
   }
 }
