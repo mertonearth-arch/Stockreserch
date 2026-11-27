@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~48.5% premarket to $0.32 after a weaker-than-expected Q3 2026 print",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.520Z",
+  "lastResearched": "2026-11-27T05:34:18.110Z",
   "fundamentals": {
     "marketCap": {
       "value": 232370000,
@@ -113,6 +113,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -262,14 +270,10 @@
   ],
   "notes": "PM pass 2026-11-25: Two new items surfaced this pass, both from secondary/translated sources and not independently confirmed against a primary SEC filing -- (1) an Aug 26, 2026 Nasdaq minimum-bid-price deficiency notice (cure deadline reported elsewhere as Feb 22, 2027), and (2) a report of ~$71.3M in 'usable liquid funds' as of Oct 31, 2026, down from the $124.4M Sept 30, 2026 figure on file. The Q3 2026 going-concern warning remains unresolved per this secondary reporting. No newer price found past the Nov 10, 2026 $0.22 close already on file. WebSearch's per-turn search budget was exhausted before these items could be corroborated against primary sources.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "cash updated",
-      "move -64.3%"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

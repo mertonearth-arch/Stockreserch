@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.528Z",
+  "lastResearched": "2026-11-27T05:34:18.119Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -214,6 +214,14 @@
   "pendingFilings": [],
   "notes": "The prior pass's open question (FDA decision outcome on the at-home IGALMI sNDA, PDUFA target 2026-11-14) is now resolved: approval was granted 2026-11-16 per Teva's press release, confirmed by multiple independent trade-press outlets (Psychiatric Times, AJMC, Drug Topics, Managed Healthcare Executive). This should trigger the related Teva milestone payment to the BioXcel estate. Separately, an unconfirmed report of a 'BX Liquidation, Inc.' renaming/wind-down needs independent confirmation before being treated as fact.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -581,13 +589,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

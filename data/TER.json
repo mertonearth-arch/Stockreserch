@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 2,
-  "lastResearched": "2026-11-25T21:17:33.540Z",
+  "lastResearched": "2026-11-27T05:34:18.133Z",
   "fundamentals": {
     "marketCap": {
       "value": 39980000000,
@@ -152,6 +152,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalysts found since the 2026-11-09 Omnyx Edge launch / dividend declaration already on file. A CFO-transition item surfaced in search (Michelle Turner succeeding Sanjay Mehta) was checked and confirmed to date to 2025, not 2026, so it was not added as a current catalyst.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -478,8 +486,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

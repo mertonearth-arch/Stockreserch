@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 1,
-  "lastResearched": "2026-11-25T21:17:33.530Z",
+  "lastResearched": "2026-11-27T05:34:18.122Z",
   "fundamentals": {
     "marketCap": {
       "value": 48270000,
@@ -130,6 +130,14 @@
   "pendingFilings": [],
   "notes": "Quiet pass -- no new dated catalysts or fundamentals beyond what's already on file. The Q3 2026 cash ($19.5M as of 9/30/26) and Phase 2 COPD (81% treatment-failure reduction) figures already on file resurfaced in search results via a Panabee recap but added nothing new; a Benzinga Q3 2026 report-date estimate of 2026-11-24 could not be corroborated with an actual results release this pass.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -418,8 +426,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

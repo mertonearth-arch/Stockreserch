@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 2,
-  "lastResearched": "2026-11-25T21:17:33.540Z",
+  "lastResearched": "2026-11-27T05:34:18.134Z",
   "fundamentals": {
     "marketCap": {
       "value": 8950000,
@@ -127,6 +127,14 @@
   "pendingFilings": [],
   "notes": "Quiet PM full pass: no new dated catalysts found beyond the Nov 11/13 Senlang CD7 license-exercise and Q3 2026 going-concern earnings already on file. A May 2026 Nasdaq listing-deficiency letter (minimum-requirement + majority-independent-director issues) remains on the company's record per secondary sources, but no November 2026 resolution or update was found, so nothing was added without a confirming date. Fundamentals and price carried forward unchanged.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -464,8 +472,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

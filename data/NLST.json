@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.536Z",
+  "lastResearched": "2026-11-27T05:34:18.126Z",
   "fundamentals": {
     "marketCap": {
       "value": 1770000000,
@@ -241,6 +241,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst found this pass beyond what is already on file (SK hynix licensing remains an unsigned, verbally-indicated talk per the CEO's Nov 10 earnings-call remarks already on record). Price remains difficult to pin down across sources; this pass's best-dated figure is a same-day (2026-11-25) intraday Robinhood quote of $4.07, reported with the same reconciliation caveats as prior passes.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -616,12 +624,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

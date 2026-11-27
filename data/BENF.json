@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.526Z",
+  "lastResearched": "2026-11-27T05:34:18.118Z",
   "fundamentals": {
     "marketCap": {
       "value": 9090000,
@@ -210,6 +210,14 @@
   "pendingFilings": [],
   "notes": "This earnings report (cash/debt figures) was already reflected in the fundamentals on file but had not previously been logged as a dated catalyst; added this pass. No new Nasdaq-compliance or legal update found beyond the 2026-11-05/11-12 notice and the Heppner sentencing date already on file.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -540,13 +548,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

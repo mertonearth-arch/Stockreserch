@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~29% premarket after a weaker Q3 2026 report",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.518Z",
+  "lastResearched": "2026-11-27T05:34:18.107Z",
   "fundamentals": {
     "marketCap": {
       "value": 317320000,
@@ -150,6 +150,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -300,13 +308,10 @@
   ],
   "notes": "Genuinely quiet PM pass for 2026-11-25. No new dated catalysts found; a TNA Wrestling Radio / iHeartRadio partnership (~Nov 16) and a Big Boi podcast launch (~Nov 11) surfaced via WebSearch but are programming announcements, not price-moving corporate events, and are omitted as immaterial. No new price or fundamentals update.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -61.58%",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

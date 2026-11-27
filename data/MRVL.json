@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.520Z",
+  "lastResearched": "2026-11-27T05:34:18.098Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -243,6 +243,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-25: No new dated catalyst found beyond what's on file. Dec 1, 2026 Q3 FY2027 earnings remains the next confirmed catalyst (one source cites a consensus estimate of ~$1.04 EPS / ~$3.2B revenue -- analyst consensus, not company guidance). WebSearch's per-turn search budget was exhausted before Nov 20-25 pricing could be independently confirmed.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -611,13 +619,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -16.4%",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

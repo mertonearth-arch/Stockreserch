@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.510Z",
+  "lastResearched": "2026-11-27T05:34:18.101Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -206,6 +206,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet PM pass for 2026-11-25. No BKYI news dated after the on-file 2026-11-13 Q3 2026 earnings report was found via WebSearch. A finviz article headlined 'BIO-key misses badly as revenue shrinks and profit target slips again despite a 90% gross margin' surfaced this pass but describes the same already-recorded Nov 13 Q3 report, not a new event.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -546,13 +554,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -17.83%",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

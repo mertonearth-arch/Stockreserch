@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.542Z",
+  "lastResearched": "2026-11-27T05:34:18.131Z",
   "fundamentals": {
     "marketCap": {
       "value": 35290000000,
@@ -191,6 +191,14 @@
   "pendingFilings": [],
   "notes": "Weekly full pass: established the first confirmed dated price for this ticker since the file carried price.last = null (now $46.12 as of 2026-11-16, continuing the decline from the Oct 29 Q3 earnings/Q4 guidance print already on file). No new dated fundamental catalyst (earnings, contracts, regulatory) found beyond the Oct 29-Nov 6 earnings/analyst-downgrade sequence already on file; the only new dated item is the Nov 16 price move itself.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -492,13 +500,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

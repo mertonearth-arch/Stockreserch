@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 2,
-  "lastResearched": "2026-11-25T21:17:33.541Z",
+  "lastResearched": "2026-11-27T05:34:18.135Z",
   "fundamentals": {
     "marketCap": {
       "value": 4157000000,
@@ -207,6 +207,14 @@
   "pendingFilings": [],
   "notes": "Quiet PM full pass: no new dated catalysts found beyond the ObesityWeek 2026 presentations and takeover-speculation reversal already on file. The Nov 13 buyout-speculation price move was independently re-confirmed via a second source (Trefis), but no catalyst for the move itself (reason) was identified by either source. Record otherwise unchanged.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -564,8 +572,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

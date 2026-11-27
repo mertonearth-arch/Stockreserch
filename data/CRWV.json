@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover after Q3 2026 results reported to have topped estimates",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.513Z",
+  "lastResearched": "2026-11-27T05:34:18.103Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -123,6 +123,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -269,13 +277,10 @@
   ],
   "notes": "Genuinely quiet PM pass for 2026-11-25. WebSearch surfaced only undated items (a Vera Rubin NVL72 cluster bring-up, an Anthropic multi-year compute agreement, Nasdaq-100 index-inclusion mention, an $8.5B delayed-draw term loan, $2.25B 1.75% convertible notes due 2031) with no confirmable announcement date this pass, so none were added as catalysts per the no-date rule. Nothing dated after the on-file 2026-11-19 entry was found.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move 8.37%",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

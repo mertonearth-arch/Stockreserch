@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.524Z",
+  "lastResearched": "2026-11-27T05:34:18.114Z",
   "fundamentals": {
     "marketCap": {
       "value": 8740000,
@@ -168,6 +168,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-25: Re-confirmed the existing Nasdaq deficiency notices already on file (minimum market value of publicly held shares, cure deadline Jan 27, 2027; and the earlier, separately-resolved minimum-bid-price notice) -- no new November 2026 delisting notice was found, consistent with the prior pass. No new dated catalyst found before the WebSearch budget was exhausted.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -487,8 +495,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

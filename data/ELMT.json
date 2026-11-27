@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.542Z",
+  "lastResearched": "2026-11-27T05:34:18.123Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -223,6 +223,14 @@
   "pendingFilings": [],
   "notes": "Weekly full pass: added the Nov 17 Elmet Refining & Trading leadership appointment (new since the 2026-11-18 pass). No new information found to resolve the prior passes' market-cap/share-count/earnings-date conflicts. One additional dated market-cap data point surfaced this pass ($674.07M at the pre-earnings 2026-11-03 close of $22.06) but does not reconcile the existing dispersion (spanning the $411.6M IPO-day figure through various post-growth estimates), so the conflicts list is left as previously recorded. Price carried forward from the file; no newer confirmed quote located.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -519,13 +527,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

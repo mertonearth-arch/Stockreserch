@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.535Z",
+  "lastResearched": "2026-11-27T05:34:18.109Z",
   "fundamentals": {
     "marketCap": {
       "value": 21000000000,
@@ -205,6 +205,14 @@
   "pendingFilings": [],
   "notes": "Otherwise a quiet pass -- no new dated catalyst beyond the already-on-file Nov 6 dividend declaration and Nov 10/17 investor-conference participations. Next earnings (Q4/FY2026) remains company-confirmed for Jan 15, 2027.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -484,12 +492,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.541Z",
+  "lastResearched": "2026-11-27T05:34:18.122Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -192,6 +192,14 @@
   "pendingFilings": [],
   "notes": "Weekly full pass: added the Nov 5-8 NEI Fall Congress DT120 presentation (new since the 2026-11-18 pass) and a Q3 2026 EPS figure (-$0.46, beat consensus) not previously on file. Market cap, shares outstanding, cash and debt remain unreconciled per prior passes' wide-dispersion conflicts; no new data found this pass to resolve them, so they were left as-is rather than re-asserted. Price updated to the most recent confirmed figure located ($34.05, 2026-11-09).",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -445,14 +453,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "eps updated",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

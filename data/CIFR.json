@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.529Z",
+  "lastResearched": "2026-11-27T05:34:18.121Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -190,6 +190,14 @@
   "pendingFilings": [],
   "notes": "New catalyst found this pass: the Nov 3-4 Texas gubernatorial election result (Hinojosa win) triggered a sharp selloff given Cipher's all-Texas AI/HPC campus footprint -- not previously on file. Theme tension: the company continues pivoting toward AI/HPC data-center leasing (rebranded 'Cipher Digital', first HPC lease revenue recognized) which sits increasingly awkwardly with the 'Crypto Treasury & Miners' label, though bitcoin mining remains a current revenue contributor; flagging per instructions rather than changing the theme string.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -469,13 +477,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

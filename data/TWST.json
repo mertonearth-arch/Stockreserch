@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 2,
-  "lastResearched": "2026-11-25T21:17:33.541Z",
+  "lastResearched": "2026-11-27T05:34:18.135Z",
   "fundamentals": {
     "marketCap": {
       "value": 7950000000,
@@ -163,6 +163,14 @@
   "pendingFilings": [],
   "notes": "Quiet PM full pass on new events, but this pass newly dated the post-earnings pullback (-6.83% Nov 12, -2.29% Nov 13, closing $111.60), resolving the file's prior note about an undated $110-120 range. No new dated catalysts found beyond the fiscal Q4/FY2026 earnings and FY2027 guidance already on file.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -449,8 +457,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

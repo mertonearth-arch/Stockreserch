@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~18.8% premarket after Q4 FY2026 beat and FY2027 guidance raise",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.539Z",
+  "lastResearched": "2026-11-27T05:34:18.112Z",
   "fundamentals": {
     "revenue": [
       {
@@ -113,6 +113,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -271,13 +279,10 @@
   ],
   "notes": "Genuinely quiet on catalysts — no news located dated after the 2026-11-09/11-10 Q4/FY2026 results already on file. However, Sanmina's own investor-relations page showed an unexplained sharp intraday decline on 2026-11-24 (see conflicts); flagged for the next pass to re-check against a confirmed closing price and any delayed news explaining the move.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -8.6%",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.523Z",
+  "lastResearched": "2026-11-27T05:34:18.113Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -182,6 +182,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-25: No resubmission timeline or FDA meeting date has been disclosed for ivonescimab following the Nov 15, 2026 Complete Response Letter; the company's Nov 16, 2026 statement (already on file, reiterating commitment to development) remains the latest update found. No new dated catalyst found before the WebSearch budget was exhausted this pass.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -466,12 +474,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move -9.73%"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

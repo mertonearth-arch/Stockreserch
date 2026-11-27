@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.538Z",
+  "lastResearched": "2026-11-27T05:34:18.130Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -199,6 +199,14 @@
   "pendingFilings": [],
   "notes": "One previously unrecorded financing item located (Nov 4 ATM facility with Leerink Partners, following the S-3 shelf's effectiveness same day) — added as a catalyst. No other news found dated after the 2026-11-06 'Netherton Now' video already on file.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -581,13 +589,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "1 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

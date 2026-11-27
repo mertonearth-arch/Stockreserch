@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "up ~122.9% premarket on positive mid-stage DMD trial data",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.538Z",
+  "lastResearched": "2026-11-27T05:34:18.130Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -157,6 +157,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -313,12 +321,10 @@
   ],
   "notes": "Genuinely quiet this pass — no catalysts found dated after the 2026-11-13 offering close already on file. No company announcement located explaining any move between Nov 19 and Nov 25.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.538Z",
+  "lastResearched": "2026-11-27T05:34:18.130Z",
   "fundamentals": {
     "marketCap": {
       "value": 1585000000,
@@ -288,6 +288,14 @@
   "pendingFilings": [],
   "notes": "Genuinely quiet this pass — no news located dated after the 2026-11-04 workforce-reduction catalyst already on file. The ~$203M Fayuvi priority-review-voucher sale (announced 2026-10-14) still has no confirmed closing date in sources checked this pass, so it remains unrecorded as a dated closing catalyst.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -664,12 +672,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket decliner on reported foundry integration delays",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.535Z",
+  "lastResearched": "2026-11-27T05:34:18.109Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -121,6 +121,14 @@
   ],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -260,13 +268,10 @@
   ],
   "notes": "No new dated catalyst found this pass. Price updated to a newer, mutually consistent reading (StockInvest.us/StockAnalysis.com/Morningstar) of $2.92 close on 2026-11-23 (+12.74%), superseding the file's 2026-11-16 CoinGlass-sourced $3.00. No confirmed close for Nov 24-25 located. The existing CoinGlass-vs-Benzinga price conflict already on file was not re-resolved this pass.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "move 12.74%",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

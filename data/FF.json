@@ -8,7 +8,7 @@
   "addedOn": "2026-11-11",
   "addedReason": "down ~30% premarket after Q3 2026 results",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.514Z",
+  "lastResearched": "2026-11-27T05:34:18.106Z",
   "fundamentals": {
     "marketCap": {
       "value": 224580000,
@@ -160,6 +160,14 @@
   "conflicts": [],
   "pendingFilings": [],
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -317,13 +325,10 @@
   ],
   "notes": "Genuinely quiet PM pass for 2026-11-25. No FF news dated after the on-file 2026-11-18 price point was found.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "nextEarnings updated",
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

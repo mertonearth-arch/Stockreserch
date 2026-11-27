@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.523Z",
+  "lastResearched": "2026-11-27T05:34:18.113Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -224,6 +224,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-25: No confirmation located that the $150.0M public offering (priced 2026-11-18 at $13.00/share, expected to close 2026-11-20) actually closed; still treated as pending/unconfirmed, unchanged from the prior pass's assessment. No new dated catalyst found before the WebSearch budget was exhausted. The ASH presentation of SLS009 (tambiciclib) data in December 2026, already on file, remains the next scheduled catalyst.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -519,8 +527,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

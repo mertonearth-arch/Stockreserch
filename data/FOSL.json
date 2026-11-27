@@ -8,7 +8,7 @@
   "addedOn": "2026-11-12",
   "addedReason": "premarket mover on a Q3 2026 earnings beat and raised FY2026 revenue outlook",
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.517Z",
+  "lastResearched": "2026-11-27T05:34:18.106Z",
   "fundamentals": {
     "nextEarnings": {
       "date": null,
@@ -183,6 +183,14 @@
   "pendingFilings": [],
   "history": [
     {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
+    {
       "date": "2026-11-25",
       "run": "pm",
       "quiet": false,
@@ -337,12 +345,10 @@
   ],
   "notes": "Genuinely quiet PM pass for 2026-11-25. Nothing dated after the on-file 2026-11-17 Craig-Hallum conference item was found. The Dec 16, 2026 Northland Capital Markets conference remains the only confirmed upcoming date on file.",
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

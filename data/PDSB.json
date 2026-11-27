@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.537Z",
+  "lastResearched": "2026-11-27T05:34:18.129Z",
   "fundamentals": {
     "marketCap": {
       "value": null,
@@ -239,6 +239,14 @@
   "pendingFilings": [],
   "notes": "No new dated catalyst found beyond the Nov 10 NantWorks warrant exercise already on file. Price and market-cap figures carried forward unchanged from the prior pass; this ticker's dedicated current-price search could not be completed before the shared WebSearch budget for this pass ran out.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -605,12 +613,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "conflict resolved"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.522Z",
+  "lastResearched": "2026-11-27T05:34:18.111Z",
   "fundamentals": {
     "marketCap": {
       "value": 388000000000,
@@ -262,6 +262,14 @@
   "pendingFilings": [],
   "notes": "PM pass 2026-11-25: Oracle's Nov 18, 2026 Annual Meeting of Stockholders (already on file) was confirmed as held, but no vote-tally 8-K or outcome was located this pass. No new dated catalyst found. The next-earnings-date conflict already on file (Dec 14, 2026 vs a Dec 9, 2026 Benzinga listing) remains unreconciled. WebSearch's per-turn search budget was exhausted before further confirmation could be attempted.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -565,8 +573,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true

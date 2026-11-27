@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 0,
-  "lastResearched": "2026-11-25T21:17:33.536Z",
+  "lastResearched": "2026-11-27T05:34:18.128Z",
   "fundamentals": {
     "marketCap": {
       "value": 4506796000000,
@@ -264,6 +264,14 @@
   "pendingFilings": [],
   "notes": "Major governance reversal this pass: Jensen Huang was reinstated as CEO on 2026-11-23, reversing the post-resignation stance reported as of Nov 17. The stock swung sharply (+31.48% on the reinstatement news, then -5.86% the next session). No confirmed closing price for today (2026-11-25) was located given this pass's search constraints.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -654,13 +662,10 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
-    "quiet": false,
-    "changes": [
-      "2 new catalyst(s)",
-      "conflicts updated"
-    ],
+    "date": "2026-11-27",
+    "run": "am",
+    "quiet": true,
+    "changes": [],
     "tradingDay": true
   }
 }

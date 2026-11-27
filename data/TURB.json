@@ -8,7 +8,7 @@
   "addedOn": null,
   "addedReason": null,
   "quietRuns": 2,
-  "lastResearched": "2026-11-25T21:17:33.540Z",
+  "lastResearched": "2026-11-27T05:34:18.134Z",
   "fundamentals": {
     "marketCap": {
       "value": 10560000,
@@ -161,6 +161,14 @@
   "pendingFilings": [],
   "notes": "Quiet PM full pass: the proposed related-party IM2/Greentech acquisition remains pending shareholder approval at the Extraordinary General Meeting confirmed for 2026-12-14 (unchanged from file; a parallel Umbrella Global Energy EGM is also convened for that date, per the same SEC 6-K). No vote outcome, new filing, or price beyond what's already on record was found. Record left unchanged.",
   "history": [
+    {
+      "date": "2026-11-27",
+      "run": "am",
+      "quiet": true,
+      "changes": [],
+      "tier": "daily",
+      "from": "daily"
+    },
     {
       "date": "2026-11-25",
       "run": "pm",
@@ -427,8 +435,8 @@
     "caveat": "Reconstructed by parsing a previously-published dashboard page, not re-researched from primary sources. Monetary figures are back-converted from the page's rounded K/M/B/T display and are approximate. Re-verify on this ticker's next due full pass."
   },
   "lastPass": {
-    "date": "2026-11-25",
-    "run": "pm",
+    "date": "2026-11-27",
+    "run": "am",
     "quiet": true,
     "changes": [],
     "tradingDay": true
